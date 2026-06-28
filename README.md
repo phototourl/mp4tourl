@@ -1,6 +1,6 @@
-# Wrapped for TikTok
+# mp4tourl
 
-Wrapped for TikTok uses your TikTok data export to give you personalized stats about your time on TikTok.
+mp4tourl uses your TikTok data export to give you personalized stats about your time on TikTok.
 
 ## Development
 
