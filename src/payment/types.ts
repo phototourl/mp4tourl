@@ -21,14 +21,15 @@ export enum PaymentTypes {
 }
 
 /**
- * Payment scene (lifetime, credit, subscription)
+ * Payment scene (lifetime | subscription)
  */
-export type PaymentScene = PaymentScenes.LIFETIME | PaymentScenes.CREDIT | PaymentScenes.SUBSCRIPTION;
+export type PaymentScene =
+  | PaymentScenes.LIFETIME
+  | PaymentScenes.SUBSCRIPTION;
 
 export enum PaymentScenes {
-  LIFETIME = 'lifetime',      // Lifetime plan purchase
-  CREDIT = 'credit',          // Credit package purchase
-  SUBSCRIPTION = 'subscription', // Regular subscription
+  LIFETIME = 'lifetime',
+  SUBSCRIPTION = 'subscription',
 }
 
 /**
@@ -62,15 +63,6 @@ export interface Price {
 }
 
 /**
- * Credits configuration for a plan
- */
-export interface Credits {
-  enable: boolean;                   // Whether to enable credits for this plan
-  amount: number;                    // Number of credits provided per month
-  expireDays?: number;               // Number of days until credits expire, undefined means no expiration
-}
-
-/**
  * Price plan definition
  *
  * 1. When to set the plan disabled?
@@ -92,7 +84,6 @@ export interface PricePlan {
   isLifetime: boolean;               // Whether this is a lifetime plan
   popular?: boolean;                 // Whether to mark this plan as popular in UI
   disabled?: boolean;                // Whether to disable this plan in UI
-  credits?: Credits;                 // Credits configuration for this plan
 }
 
 /**
@@ -150,19 +141,6 @@ export interface CreateCheckoutParams {
 }
 
 /**
- * Parameters for creating a credit checkout session
- */
-export interface CreateCreditCheckoutParams {
-  packageId: string;
-  priceId: string;
-  customerEmail: string;
-  successUrl?: string;
-  cancelUrl?: string;
-  metadata?: Record<string, string>;
-  locale?: Locale;
-}
-
-/**
  * Result of creating a checkout session
  */
 export interface CheckoutResult {
@@ -201,11 +179,6 @@ export interface PaymentProvider {
    * Create a checkout session
    */
   createCheckout(params: CreateCheckoutParams): Promise<CheckoutResult>;
-
-  /**
-   * Create a credit checkout session
-   */
-  createCreditCheckout(params: CreateCreditCheckoutParams): Promise<CheckoutResult>;
 
   /**
    * Create a customer portal session

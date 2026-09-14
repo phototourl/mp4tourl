@@ -44,7 +44,6 @@ export const ForgotPasswordForm = ({ className }: { className?: string }) => {
     },
   });
 
-  // Pre-fill the email field if it's provided in the URL
   useEffect(() => {
     const emailFromUrl = searchParams.get('email');
     if (emailFromUrl) {
@@ -59,23 +58,39 @@ export const ForgotPasswordForm = ({ className }: { className?: string }) => {
         redirectTo: `${Routes.ResetPassword}`,
       },
       {
-        onRequest: (ctx) => {
-          // console.log('forgotPassword, request:', ctx.url);
+        onRequest: () => {
           setIsPending(true);
           setError('');
           setSuccess('');
         },
-        onResponse: (ctx) => {
-          // console.log('forgotPassword, response:', ctx.response);
+        onResponse: () => {
           setIsPending(false);
         },
-        onSuccess: (ctx) => {
-          // console.log('forgotPassword, success:', ctx.data);
+        onSuccess: () => {
           setSuccess(t('checkEmail'));
         },
         onError: (ctx) => {
-          console.error('forgotPassword, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
+          const errorCode = ctx.error.code;
+          const errorStatus = ctx.error.status;
+
+          let errorMessage: string;
+          if (
+            errorCode === 'USER_NOT_FOUND' ||
+            errorCode === 'CREDENTIAL_ACCOUNT_NOT_FOUND' ||
+            errorStatus === 404
+          ) {
+            errorMessage = t('error.userNotFound');
+          } else if (
+            errorCode === 'RATE_LIMIT_EXCEEDED' ||
+            errorStatus === 429
+          ) {
+            errorMessage = t('error.tooManyRequests');
+          } else if (errorStatus === 500) {
+            errorMessage = t('error.serverError');
+          } else {
+            errorMessage = ctx.error.message || t('error.serverError');
+          }
+          setError(errorMessage);
         },
       }
     );

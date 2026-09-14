@@ -4,22 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * 1. Themes Documentation
- * https://mksaas.com/docs/themes
-
- * 2. Theme Generator
- * https://ui.shadcn.com/themes
- * https://tweakcn.com/
- * https://ui.pub/x/theme-gen
- *
- * default theme: custom theme inspired by Qoder
- * https://qoder.com/
- * https://tweakcn.com/editor/theme
- *
- * NOTICE: when you change the theme, you need to check the fonts and keep the animation variables
- *
- * 3. How to Add a Theme Selector to Your Next.js App
- * https://ouassim.tech/notes/how-to-add-a-theme-selector-to-your-nextjs-app/
+ * Theme tokens (Tailwind / shadcn).
+ * Keep animation CSS variables when changing the palette.
  */
 @theme inline {
   --color-background: var(--background);

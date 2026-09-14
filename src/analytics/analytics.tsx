@@ -16,8 +16,6 @@ import { UmamiAnalytics } from './umami-analytics';
  * 1. all the analytics components only work in production
  * 2. only work if the environment variable for the analytics is set
  *
- * docs:
- * https://mksaas.com/docs/analytics
  */
 export function Analytics() {
   if (process.env.NODE_ENV !== 'production') {

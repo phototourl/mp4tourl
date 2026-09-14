@@ -48,18 +48,6 @@ export default function BillingCard() {
   const subscription = paymentData?.subscription;
   const isLifetimeMember = currentPlan?.isLifetime || false;
 
-  console.log('=== BillingCard Debug Info ===', {
-    mounted,
-    userId: currentUser?.id,
-    isLoadingSession,
-    isLoadingPayment,
-    isLifetimeMember,
-    hasPaymentData: !!paymentData,
-    hasCurrentPlan: !!currentPlan,
-    hasSubscription: !!subscription,
-    loadPaymentError: loadPaymentError?.message,
-  });
-
   // Get price plans with translations - must be called here to maintain hook order
   const pricePlans = usePricePlans();
   const plans = Object.values(pricePlans);

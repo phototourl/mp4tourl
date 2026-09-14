@@ -9,10 +9,7 @@ import { websiteConfig } from './website';
  *
  * NOTICE: This function should only be used in client components.
  * If you need to get the price plans in server components, use getAllPricePlans instead.
- * Use this function when showing the pricing table or the billing card to the user.
- *
- * docs:
- * https://mksaas.com/docs/config/price
+ * Use this function when showing plan names/features on the billing card.
  *
  * @returns The price plans with translated content
  */

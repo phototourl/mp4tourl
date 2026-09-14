@@ -26,9 +26,6 @@ export async function generateMetadata({
   });
 }
 
-/**
- * inspired by https://astro-nomy.vercel.app/about
- */
 export default async function AboutPage() {
   const t = await getTranslations('AboutPage');
 

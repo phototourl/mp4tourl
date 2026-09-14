@@ -38,7 +38,7 @@ export function HeaderSection({
   return (
     <div
       id={id}
-      className={cn('flex flex-col items-center text-center gap-4', className)}
+      className={cn('flex flex-col items-center text-center gap-5 md:gap-6', className)}
     >
       {title ? (
         <TitleComponent
@@ -53,7 +53,7 @@ export function HeaderSection({
       {subtitle ? (
         <SubtitleComponent
           className={cn(
-            'text-balance text-2xl text-foreground',
+            'text-balance text-2xl text-foreground md:text-3xl',
             subtitleClassName
           )}
         >

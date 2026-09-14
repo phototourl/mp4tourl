@@ -93,6 +93,9 @@ export function constructMetadata({
     icons: siteIcons,
     metadataBase: new URL(getBaseUrl()),
     manifest: `${getBaseUrl()}/manifest.webmanifest`,
+    verification: {
+      google: '_2UktIRrgg-jVqg1rHYkWclaQA9FM6l6oLEqc4ODsic',
+    },
     ...(noIndex && {
       robots: {
         index: false,

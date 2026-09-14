@@ -1,18 +1,21 @@
 import { loadEnvConfig } from '@next/env';
 import { defineConfig } from 'drizzle-kit';
 
-// Load Next.js environment variables
 const projectDir = process.cwd();
 loadEnvConfig(projectDir);
 
 /**
- * https://orm.drizzle.team/docs/get-started/neon-new#step-5---setup-drizzle-config-file
+ * MySQL — same discrete DB_* credentials as editstamp / runtime pool.
  */
 export default defineConfig({
   out: './src/db/migrations',
   schema: './src/db/schema.ts',
-  dialect: 'postgresql',
+  dialect: 'mysql',
   dbCredentials: {
-    url: process.env.DATABASE_URL!,
+    host: process.env.DB_HOST || 'localhost',
+    port: Number.parseInt(process.env.DB_PORT || '3306', 10),
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || '',
+    database: process.env.DB_NAME || 'mp4tourl',
   },
 });

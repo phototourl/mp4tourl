@@ -14,8 +14,6 @@ import { useTranslations } from 'next-intl';
  *
  * NOTICE: used in client components only
  *
- * docs:
- * https://mksaas.com/docs/config/avatar
  *
  * @returns The avatar config with translated titles
  */

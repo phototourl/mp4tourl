@@ -5,30 +5,31 @@ import type { NestedMenuItem } from '@/types';
 import { useTranslations } from 'next-intl';
 
 /**
- * Nav mirrors VideoToURL: Upload / Features / How to Use / FAQ
+ * Nav: Home / FAQ / About / Contact
+ * (Upload + Features + How to Use merged into Home)
  */
 export function useNavbarLinks(): NestedMenuItem[] {
   const t = useTranslations('Marketing.navbar');
 
   return [
     {
-      title: t('upload.title'),
-      href: Routes.Upload,
-      external: false,
-    },
-    {
-      title: t('features.title'),
-      href: Routes.Features,
-      external: false,
-    },
-    {
-      title: t('howToUse.title'),
-      href: Routes.HowToUse,
+      title: t('home.title'),
+      href: Routes.Root,
       external: false,
     },
     {
       title: t('faq.title'),
       href: Routes.FAQ,
+      external: false,
+    },
+    {
+      title: t('about.title'),
+      href: Routes.About,
+      external: false,
+    },
+    {
+      title: t('contact.title'),
+      href: Routes.Contact,
       external: false,
     },
   ];

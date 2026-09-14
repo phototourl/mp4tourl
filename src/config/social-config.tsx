@@ -3,7 +3,6 @@
 import { BlueskyIcon } from '@/components/icons/bluesky';
 import { DiscordIcon } from '@/components/icons/discord';
 import { FacebookIcon } from '@/components/icons/facebook';
-import { GitHubIcon } from '@/components/icons/github';
 import { InstagramIcon } from '@/components/icons/instagram';
 import { LinkedInIcon } from '@/components/icons/linkedin';
 import { MastodonIcon } from '@/components/icons/mastodon';
@@ -19,22 +18,9 @@ import { websiteConfig } from './website';
  * Get social config
  *
  * NOTICE: used in client components only
- *
- * docs:
- * https://mksaas.com/docs/config/social
- *
- * @returns The social config
  */
 export function useSocialLinks(): MenuItem[] {
   const socialLinks: MenuItem[] = [];
-
-  if (websiteConfig.metadata.social?.github) {
-    socialLinks.push({
-      title: 'GitHub',
-      href: websiteConfig.metadata.social.github,
-      icon: <GitHubIcon className="size-4 shrink-0" />,
-    });
-  }
 
   if (websiteConfig.metadata.social?.twitter) {
     socialLinks.push({

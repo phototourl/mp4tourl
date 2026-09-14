@@ -1,12 +1,4 @@
 import { randomUUID } from 'crypto';
-import { websiteConfig } from '@/config/website';
-import {
-  addCredits,
-  addLifetimeMonthlyCredits,
-  addSubscriptionCredits,
-} from '@/credits/credits';
-import { getCreditPackageById } from '@/credits/server';
-import { CREDIT_TRANSACTION_TYPE } from '@/credits/types';
 import { getDb } from '@/db';
 import { payment, user } from '@/db/schema';
 import type { Payment } from '@/db/types';
@@ -21,7 +13,6 @@ import { Stripe } from 'stripe';
 import {
   type CheckoutResult,
   type CreateCheckoutParams,
-  type CreateCreditCheckoutParams,
   type CreatePortalParams,
   type PaymentProvider,
   PaymentScenes,
@@ -35,8 +26,6 @@ import {
 /**
  * Stripe payment provider implementation
  *
- * docs:
- * https://mksaas.com/docs/payment
  */
 export class StripeProvider implements PaymentProvider {
   private stripe: Stripe;
@@ -286,103 +275,6 @@ export class StripeProvider implements PaymentProvider {
     } catch (error) {
       console.error('Create checkout session error:', error);
       throw new Error('Failed to create checkout session');
-    }
-  }
-
-  /**
-   * Create a checkout session for a plan
-   * @param params Parameters for creating the checkout session
-   * @returns Checkout result
-   */
-  public async createCreditCheckout(
-    params: CreateCreditCheckoutParams
-  ): Promise<CheckoutResult> {
-    const {
-      packageId,
-      customerEmail,
-      successUrl,
-      cancelUrl,
-      metadata,
-      locale,
-    } = params;
-
-    try {
-      // Get credit package
-      const creditPackage = getCreditPackageById(packageId);
-      if (!creditPackage) {
-        throw new Error(`Credit package with ID ${packageId} not found`);
-      }
-
-      // Get priceId from credit package
-      const priceId = creditPackage.price.priceId;
-      if (!priceId) {
-        throw new Error(`Price ID not found for credit package ${packageId}`);
-      }
-
-      // Get userName from metadata if available
-      const userName = metadata?.userName;
-
-      // Create or get customer
-      const customerId = await this.createOrGetCustomer(
-        customerEmail,
-        userName
-      );
-
-      // Add planId and priceId to metadata, so we can get it in the webhook event
-      const customMetadata = {
-        ...metadata,
-        packageId,
-        priceId,
-      };
-
-      // Set up the line items
-      const lineItems = [
-        {
-          price: priceId,
-          quantity: 1,
-        },
-      ];
-
-      // Create checkout session parameters
-      const checkoutParams: Stripe.Checkout.SessionCreateParams = {
-        line_items: lineItems,
-        mode: 'payment',
-        success_url: successUrl ?? '',
-        cancel_url: cancelUrl ?? '',
-        metadata: customMetadata,
-        allow_promotion_codes: creditPackage.price.allowPromotionCode ?? false,
-      };
-
-      // Add customer to checkout session
-      checkoutParams.customer = customerId;
-
-      // Add locale if provided
-      if (locale) {
-        checkoutParams.locale = this.mapLocaleToStripeLocale(
-          locale
-        ) as Stripe.Checkout.SessionCreateParams.Locale;
-      }
-
-      // Add payment intent data for one-time payments
-      checkoutParams.payment_intent_data = {
-        metadata: customMetadata,
-      };
-      // Automatically create an invoice for the one-time payment
-      checkoutParams.invoice_creation = {
-        enabled: true,
-      };
-
-      // Create the checkout session
-      const session =
-        await this.stripe.checkout.sessions.create(checkoutParams);
-
-      return {
-        url: session.url!,
-        id: session.id,
-      };
-    } catch (error) {
-      console.error('Create credit checkout session error:', error);
-      throw new Error('Failed to create credit checkout session');
     }
   }
 
@@ -712,33 +604,19 @@ export class StripeProvider implements PaymentProvider {
         })
         .where(eq(payment.id, paymentRecord.id));
 
-      // Process subscription benefits
-      await this.processSubscriptionPurchase(userId, priceId);
+      // Subscription benefits (credits) removed — payment record update is enough
+      console.log(
+        'Subscription payment updated for user:',
+        userId,
+        'priceId:',
+        priceId
+      );
     } catch (error) {
       console.error('<< Update subscription payment error:', error);
       throw error;
     }
 
     console.log('<< Update subscription payment record success');
-  }
-
-  /**
-   * Process subscription purchase
-   * @param userId User ID
-   * @param priceId Price ID
-   */
-  private async processSubscriptionPurchase(
-    userId: string,
-    priceId: string
-  ): Promise<void> {
-    console.log('>> Process subscription purchase');
-
-    if (websiteConfig.credits?.enableCredits) {
-      await addSubscriptionCredits(userId, priceId);
-      console.log('Added subscription credits for user:', userId);
-    }
-
-    console.log('<< Process subscription purchase success');
   }
 
   /**
@@ -772,19 +650,8 @@ export class StripeProvider implements PaymentProvider {
 
       // Process benefits based on payment type
       if (paymentRecord.sessionId) {
-        const session = await this.stripe.checkout.sessions.retrieve(
-          paymentRecord.sessionId
-        );
-        const metadata = session.metadata || {};
-        const isCreditPurchase = metadata.type === 'credit_purchase';
-
-        if (isCreditPurchase) {
-          // Process credit purchase
-          await this.processCreditPurchase(invoice, paymentRecord, metadata);
-        } else {
-          // Process lifetime plan purchase
-          await this.processLifetimePlanPurchase(invoice, paymentRecord);
-        }
+        // One-time checkout: lifetime plan
+        await this.processLifetimePlanPurchase(invoice, paymentRecord);
       }
     } catch (error) {
       console.error('<< Update one-time payment error:', error);
@@ -792,48 +659,6 @@ export class StripeProvider implements PaymentProvider {
     }
 
     console.log('<< Update one-time payment record success');
-  }
-
-  /**
-   * Process credit purchase
-   * @param invoice Stripe invoice
-   * @param paymentRecord Payment record
-   * @param metadata Checkout session metadata
-   */
-  private async processCreditPurchase(
-    invoice: Stripe.Invoice,
-    paymentRecord: Payment,
-    metadata: { [key: string]: string }
-  ): Promise<void> {
-    console.log('>> Process credit purchase');
-
-    const packageId = metadata.packageId;
-    const credits = metadata.credits;
-
-    if (!packageId || !credits) {
-      console.warn('<< Missing packageId or credits in metadata');
-      return;
-    }
-
-    // Get credit package
-    const creditPackage = getCreditPackageById(packageId);
-    if (!creditPackage) {
-      console.warn('<< Credit package not found:', packageId);
-      return;
-    }
-
-    // Add credits to user account
-    const amount = invoice.amount_paid ? invoice.amount_paid / 100 : 0;
-    await addCredits({
-      userId: paymentRecord.userId,
-      amount: Number.parseInt(credits),
-      type: CREDIT_TRANSACTION_TYPE.PURCHASE_PACKAGE,
-      description: `+${credits} credits for package ${packageId} ($${amount.toLocaleString()})`,
-      paymentId: invoice.id,
-      expireDays: creditPackage.expireDays,
-    });
-
-    console.log('<< Process credit purchase success');
   }
 
   /**
@@ -846,15 +671,6 @@ export class StripeProvider implements PaymentProvider {
     paymentRecord: Payment
   ): Promise<void> {
     console.log('>> Process lifetime plan purchase');
-
-    // Add lifetime credits if enabled
-    if (websiteConfig.credits?.enableCredits) {
-      await addLifetimeMonthlyCredits(
-        paymentRecord.userId,
-        paymentRecord.priceId
-      );
-      console.log('Added lifetime credits for user:', paymentRecord.userId);
-    }
 
     // Send notification
     const amount = invoice.amount_paid ? invoice.amount_paid / 100 : 0;
@@ -1113,12 +929,8 @@ export class StripeProvider implements PaymentProvider {
     const invoiceId: string | null = session.invoice as string | null;
     console.log('createOneTimePaymentRecord, invoiceId:', invoiceId);
 
-    // Determine payment scene based on metadata
-    const metadata = session.metadata || {};
-    const isCreditPurchase = metadata.type === 'credit_purchase';
-    const scene = isCreditPurchase
-      ? PaymentScenes.CREDIT
-      : PaymentScenes.LIFETIME;
+    // One-time payments are lifetime purchases
+    const scene = PaymentScenes.LIFETIME;
 
     // Create one-time payment record with proper status and paid=false
     const db = await getDb();

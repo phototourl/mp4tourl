@@ -115,24 +115,6 @@
       }
     }
   },
-  "CreditPackages": {
-    "basic": {
-      "name": "基础版",
-      "description": "基础版功能介绍放这里"
-    },
-    "standard": {
-      "name": "标准版",
-      "description": "标准版功能介绍放这里"
-    },
-    "premium": {
-      "name": "高级版",
-      "description": "高级版功能介绍放这里"
-    },
-    "enterprise": {
-      "name": "企业版",
-      "description": "企业版功能介绍放这里"
-    }
-  },
   "NotFoundPage": {
     "title": "404",
     "message": "抱歉，您正在寻找的页面不存在",
@@ -144,13 +126,13 @@
     "backToHome": "返回首页"
   },
   "AboutPage": {
-    "title": "关于我们",
-    "description": "MkSaaS 是一个使用最先进的技术栈构建的 AI SaaS 模板，它可以帮助你更快更好地构建你的 SaaS。如果你有任何问题，欢迎联系我。",
-    "authorName": "MkSaaS",
-    "authorBio": "最好的 AI SaaS 模板",
-    "introduction": "👋 你好，这里是 MkSaaS，一个使用最先进的技术栈构建的 AI SaaS 模板，它可以帮助你更快更好地构建你的 SaaS。如果你有任何问题，欢迎联系我。",
-    "talkWithMe": "联系我",
-    "followMe": "关注我"
+    "title": "关于",
+    "description": "MP4toURL 把视频变成可长期分享的链接——上传 MP4、MOV、AVI、WebM、MKV，几秒即可分享。",
+    "authorName": "MP4toURL",
+    "authorBio": "免费视频转链接工具",
+    "introduction": "MP4toURL 帮你快速托管并分享视频：上传文件，获得永久 CDN 直链，随处可用，无需复杂配置。",
+    "talkWithMe": "联系我们",
+    "followMe": "关注 X"
   },
   "ChangelogPage": {
     "title": "更新日志",
@@ -159,23 +141,27 @@
   },
   "ContactPage": {
     "title": "联系我们",
-    "description": "我们帮助您找到合适的计划",
-    "subtitle": "我们帮助您找到合适的计划",
+    "description": "有关视频上传、分享链接或账号问题，欢迎留言。我们会阅读每条留言，并尽快回复。",
+    "subtitle": "对 MP4toURL 有疑问？我们很乐意帮忙。",
+    "orEmail": "或发送邮件至",
     "form": {
-      "title": "联系我们",
-      "description": "如果您有任何问题或反馈，请随时联系我们的团队",
-      "name": "姓名",
+      "title": "留言",
+      "description": "发送留言，我们会尽快回复。",
+      "name": "主题",
       "email": "邮箱",
-      "message": "消息",
+      "message": "留言内容",
+      "namePlaceholder": "请输入主题",
+      "emailPlaceholder": "邮箱",
+      "messagePlaceholder": "请输入留言内容",
       "submit": "提交",
-      "submitting": "提交中...",
-      "success": "消息发送成功",
-      "fail": "消息发送失败",
-      "nameMinLength": "姓名必须至少包含 3 个字符",
-      "nameMaxLength": "姓名必须不超过 30 个字符",
-      "emailValidation": "请输入有效的邮箱地址",
-      "messageMinLength": "消息必须至少包含 10 个字符",
-      "messageMaxLength": "消息必须不超过 500 个字符"
+      "submitting": "提交中…",
+      "success": "留言已发送，我们会尽快回复。",
+      "minLength": "主题至少 3 个字符。",
+      "maxLengthName": "主题不能超过 100 个字符。",
+      "invalidEmail": "请输入有效的邮箱地址。",
+      "minLengthMessage": "留言至少 10 个字符。",
+      "maxLengthMessage": "留言不能超过 2000 个字符。",
+      "invalid": "提交失败，请稍后重试。"
     }
   },
   "WaitlistPage": {
@@ -216,7 +202,6 @@
       "signUpHint": "没有账号？注册",
       "forgotPassword": "忘记密码？",
       "signInWithGoogle": "使用 Google 登录",
-      "signInWithGitHub": "使用 GitHub 登录",
       "showPassword": "显示密码",
       "hidePassword": "隐藏密码",
       "or": "或以社媒账号登录",
@@ -245,19 +230,30 @@
     "forgotPassword": {
       "title": "忘记密码",
       "email": "邮箱",
-      "send": "发送重置密码链接",
+      "send": "发送重置链接",
       "backToLogin": "返回登录",
-      "checkEmail": "请检查您的邮箱",
-      "emailRequired": "请输入邮箱"
+      "checkEmail": "如果该邮箱已注册，我们已发送重置链接，请查收邮件。",
+      "emailRequired": "请输入邮箱",
+      "error": {
+        "userNotFound": "未找到该邮箱对应的账号",
+        "tooManyRequests": "尝试次数过多，请稍后再试",
+        "serverError": "发送失败，请稍后重试"
+      }
     },
     "resetPassword": {
       "title": "重置密码",
-      "password": "密码",
+      "password": "新密码",
       "reset": "重置密码",
       "backToLogin": "返回登录",
       "showPassword": "显示密码",
       "hidePassword": "隐藏密码",
-      "minLength": "密码必须至少包含 8 个字符"
+      "minLength": "密码至少 8 个字符",
+      "error": {
+        "expiredToken": "重置链接已过期，请重新获取",
+        "invalidToken": "重置链接无效，请重新获取",
+        "tooManyRequests": "尝试次数过多，请稍后再试",
+        "serverError": "重置失败，请稍后重试"
+      }
     },
     "error": {
       "title": "哎呀！出错了！",
@@ -293,7 +289,7 @@
     "previousPage": "上一页",
     "nextPage": "下一页",
     "chooseLanguage": "选择语言",
-    "title": "MkSaaS文档",
+    "title": "文档",
     "homepage": "首页"
   },
   "PremiumContent": {
@@ -311,14 +307,8 @@
   },
   "Marketing": {
     "navbar": {
-      "upload": {
-        "title": "上传"
-      },
-      "features": {
-        "title": "功能"
-      },
-      "howToUse": {
-        "title": "使用方法"
+      "home": {
+        "title": "首页"
       },
       "pricing": {
         "title": "价格"
@@ -326,36 +316,17 @@
       "faq": {
         "title": "常见问题"
       },
+      "about": {
+        "title": "关于"
+      },
+      "contact": {
+        "title": "联系我们"
+      },
       "blog": {
         "title": "博客"
       },
       "docs": {
         "title": "文档"
-      },
-      "ai": {
-        "title": "AI 工具",
-        "items": {
-          "text": {
-            "title": "AI 文本",
-            "description": "展示如何使用 AI 生成精彩文本"
-          },
-          "image": {
-            "title": "AI 图像",
-            "description": "展示如何使用 AI 生成精美图像"
-          },
-          "chat": {
-            "title": "AI 聊天",
-            "description": "展示如何使用 AI 与客户聊天"
-          },
-          "video": {
-            "title": "AI 视频",
-            "description": "展示如何使用 AI 生成惊人视频"
-          },
-          "audio": {
-            "title": "AI 音频",
-            "description": "展示如何使用 AI 生成动听音频"
-          }
-        }
       },
       "pages": {
         "title": "内置页面",
@@ -455,7 +426,7 @@
       }
     },
     "footer": {
-      "tagline": "使用 MkSaaS 在几天内轻松构建您的 AI SaaS",
+      "tagline": "上传视频，获取可长期分享的链接",
       "product": {
         "title": "产品",
         "items": {
@@ -631,75 +602,6 @@
         },
         "retry": "重试"
       },
-      "credits": {
-        "title": "积分",
-        "description": "管理您的积分交易",
-        "tabs": {
-          "balance": "积分余额",
-          "transactions": "交易记录"
-        },
-        "balance": {
-          "title": "积分余额",
-          "description": "您的积分余额",
-          "credits": "积分",
-          "creditsDescription": "您有 {credits} 积分",
-          "creditsExpired": "积分已过期",
-          "creditsAdded": "积分已添加到您的账户",
-          "viewTransactions": "查看积分记录",
-          "retry": "重试",
-          "expiringCredits": "{credits} 积分将在 {days} 天内过期"
-        },
-        "packages": {
-          "title": "积分套餐",
-          "description": "购买积分以使用我们的更多服务",
-          "purchase": "购买",
-          "processing": "处理中...",
-          "popular": "热门",
-          "completePurchase": "请支付订单",
-          "failedToFetchCredits": "获取积分失败",
-          "failedToCreatePaymentIntent": "创建付款意向失败",
-          "failedToInitiatePayment": "发起付款失败",
-          "cancel": "取消",
-          "purchaseFailed": "购买积分失败",
-          "checkoutFailed": "创建支付会话失败",
-          "loading": "加载中...",
-          "pay": "支付"
-        },
-        "transactions": {
-          "title": "积分记录",
-          "error": "获取积分交易记录失败",
-          "search": "搜索积分交易记录...",
-          "paymentIdCopied": "支付ID已复制到剪贴板",
-          "columns": {
-            "columns": "列",
-            "id": "ID",
-            "type": "类型",
-            "description": "描述",
-            "amount": "金额",
-            "remainingAmount": "剩余金额",
-            "paymentId": "支付编号",
-            "expirationDate": "过期日期",
-            "expirationDateProcessedAt": "过期处理时间",
-            "createdAt": "创建时间",
-            "updatedAt": "更新时间"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "每月赠送",
-            "REGISTER_GIFT": "注册赠送",
-            "PURCHASE": "购买积分",
-            "USAGE": "使用积分",
-            "EXPIRE": "过期积分",
-            "SUBSCRIPTION_RENEWAL": "订阅月度积分",
-            "LIFETIME_MONTHLY": "终身月度积分"
-          },
-          "detailViewer": {
-            "title": "积分交易详情",
-            "close": "关闭"
-          },
-          "expired": "已过期",
-          "never": "永不过期"
-        }
-      },
       "notification": {
         "title": "通知",
         "description": "管理您的通知设置",
@@ -774,9 +676,9 @@
     },
     "forgotPassword": {
       "title": "你好，{name}。",
-      "body": "请点击下面的链接重置您的密码。",
+      "body": "我们收到了重置你 MP4toURL 密码的请求。请点击下方按钮设置新密码。如非本人操作，可忽略本邮件。",
       "resetPassword": "重置密码",
-      "subject": "重置您的密码"
+      "subject": "重置你的 MP4toURL 密码"
     },
     "subscribeNewsletter": {
       "body": "感谢您订阅我们的邮件列表，我们将为您提供最新的新闻和更新。",
@@ -807,47 +709,6 @@
       "error": "上传失败，请重试。",
       "unsupportedType": "不支持的文件类型。请上传 MP4、MOV、AVI、WebM 或 MKV。",
       "fileTooLarge": "文件过大。免费档单文件最高 100MB。"
-    },
-    "logocloud": {
-      "title": "您最爱公司都是我们的合作伙伴"
-    },
-    "integration": {
-      "title": "集成",
-      "subtitle": "与您最喜欢的工具集成",
-      "description": "无缝连接流行的平台和服务，以增强您的工作流程。",
-      "learnMore": "了解更多",
-      "items": {
-        "item-1": {
-          "title": "Google Gemini",
-          "description": "这里是Google Gemini的描述，详细介绍Google Gemini的功能和优势。"
-        },
-        "item-2": {
-          "title": "Replit",
-          "description": "这里是Replit的描述，详细介绍Replit的功能和优势。"
-        },
-        "item-3": {
-          "title": "MagicUI",
-          "description": "这里是MagicUI的描述，详细介绍MagicUI的功能和优势。"
-        },
-        "item-4": {
-          "title": "VSCodium",
-          "description": "这里是VSCodium的描述，详细介绍VSCodium的功能和优势。"
-        },
-        "item-5": {
-          "title": "MediaWiki",
-          "description": "这里是MediaWiki的描述，详细介绍MediaWiki的功能和优势。"
-        },
-        "item-6": {
-          "title": "Google PaLM",
-          "description": "这里是Google PaLM的描述，详细介绍Google PaLM的功能和优势。"
-        }
-      }
-    },
-    "integration2": {
-      "title": "与您最喜欢的工具集成",
-      "description": "无缝连接流行的平台和服务，以增强您的工作流程。",
-      "primaryButton": "开始使用",
-      "secondaryButton": "查看演示"
     },
     "features": {
       "title": "为什么选 MP4转链接",
@@ -895,51 +756,6 @@
         }
       }
     },
-    "features2": {
-      "title": "功能2",
-      "subtitle": "您的 SaaS 产品功能",
-      "description": "请在这里介绍您的 SaaS 产品的特色功能的信息",
-      "feature-1": "特色功能特点一",
-      "feature-2": "特色功能特点二",
-      "feature-3": "特色功能特点三",
-      "feature-4": "特色功能特点四"
-    },
-    "features3": {
-      "title": "功能3",
-      "subtitle": "您的 SaaS 产品功能",
-      "description": "请在这里介绍您的 SaaS 产品的特色功能的信息",
-      "items": {
-        "item-1": {
-          "title": "产品特色功能一",
-          "description": "请在这里详细描述您的产品特色功能一，尽可能详细，使其更吸引用户"
-        },
-        "item-2": {
-          "title": "产品特色功能二",
-          "description": "请在这里详细描述您的产品特色功能二，尽可能详细，使其更吸引用户"
-        },
-        "item-3": {
-          "title": "产品特色功能三",
-          "description": "请在这里详细描述您的产品特色功能三，尽可能详细，使其更吸引用户"
-        },
-        "item-4": {
-          "title": "产品特色功能四",
-          "description": "请在这里详细描述您的产品特色功能四，尽可能详细，使其更吸引用户"
-        },
-        "item-5": {
-          "title": "产品特色功能五",
-          "description": "请在这里详细描述您的产品特色功能五，尽可能详细，使其更吸引用户"
-        },
-        "item-6": {
-          "title": "产品特色功能六",
-          "description": "请在这里详细描述您的产品特色功能六，尽可能详细，使其更吸引用户"
-        }
-      }
-    },
-    "pricing": {
-      "title": "价格",
-      "subtitle": "价格",
-      "description": "选择最适合您的付费计划"
-    },
     "faqs": {
       "title": "视频转链接常见问题",
       "subtitle": "关于把视频转成可分享链接，你可能想知道这些。",
@@ -974,170 +790,11 @@
         }
       }
     },
-    "testimonials": {
-      "title": "客户评价",
-      "subtitle": "我们的客户对我们的评价",
-      "items": {
-        "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS 非常出色且实用，无需费心，一个真正的金矿。"
-        },
-        "item-2": {
-          "name": "Yves Kalume",
-          "role": "Android GDE",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "没有网页设计经验，我只需几分钟就可以用 Tailwindcss 重新设计我的整个网站，感谢 MkSaaS。"
-        },
-        "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits 创建者",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "MkSaaS 模板做得很好，这是我见过最好的 SaaS 模板，没有之一 :)"
-        },
-        "item-4": {
-          "name": "Anonymous author",
-          "role": "产品经理",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "我不熟悉 Tailwind，我想自己做一些页面，我在网上搜索了很多英雄页面和区块。然而，大多数都没有给我一个清晰的想法，或者需要一些 HTML/CSS 编码背景来从原始文件中做一些更改，或者太贵了。我下载了其中一个 MkSaaS 模板，它非常容易理解，你可以在开始时修改代码/区块以完美地适应你的页面目的。"
-        },
-        "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "高级软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS 正在重新定义网页设计标准，这些区块为那些喜欢美丽但可能缺乏时间实现它的人提供了简单且高效的方式。我只能推荐这个不可思议的奇迹。"
-        },
-        "item-6": {
-          "name": "Oketa Fred",
-          "role": "全栈开发工程师",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "我绝对喜欢 MkSaaS！这些组件区块设计精美且易于使用，使创建一个出色的网站变得轻而易举。"
-        },
-        "item-7": {
-          "name": "Zeki",
-          "role": "ChatExtend 创始人",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "使用 MkSaaS 就像解锁了一个秘密的设计超能力。它是简单性和多功能性的完美融合，使我们能够创建既令人惊叹又用户友好的界面。"
-        },
-        "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "全栈开发工程师",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS 改变了我的网页开发方式。他们的 UI 组件、区块和模板极大地加速了我的工作流程。定制每个方面的灵活性使我能够创建独特的用户体验。MkSaaS 是现代网页开发的游戏规则改变者！"
-        },
-        "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI 创建者",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS 是一个优雅、干净且响应式的 SaaS 模板，它非常有助于快速开始您的项目。"
-        },
-        "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome 创建者",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "我爱 MkSaaS ❤️。这些组件区块结构良好，易于使用，设计精美。它使创建一个出色的网站变得非常容易。"
-        },
-        "item-11": {
-          "name": "Eric Ampire",
-          "role": "Google 开发者专家",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS 模板是任何想要创建一个美丽且功能齐全的网站但没有网页设计经验的人的完美解决方案。这些模板易于使用，可定制，并且响应迅速。我强烈推荐 MkSaaS 模板给任何想要创建网站的人。"
-        },
-        "item-12": {
-          "name": "Roland Tubonge",
-          "role": "软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS 设计得如此出色，即使没有网页设计经验，您也可以创造奇迹。让自己被吸引！"
-        }
-      }
-    },
-    "stats": {
-      "title": "统计",
-      "subtitle": "MkSaaS 相关的数字",
-      "description": "MkSaaS 可让您在几天内轻松构建您的 AI SaaS",
-      "items": {
-        "item-1": {
-          "title": "GitHub 上的星星"
-        },
-        "item-2": {
-          "title": "使用 MkSaaS 的活跃用户"
-        },
-        "item-3": {
-          "title": "使用 MkSaaS 启动的应用"
-        }
-      }
-    },
     "calltoaction": {
       "title": "分享视频，就这么简单",
       "description": "MP4转链接适合开发者、创作者和团队：免费、快速，几秒把视频变成永久链接，随处分享。",
       "primaryButton": "转为链接",
       "secondaryButton": "查看常见问题"
     }
-  },
-  "AITextPage": {
-    "title": "AI 文本",
-    "description": "使用 AI 分析网页内容，提取关键信息、功能和见解",
-    "content": "网页内容分析器",
-    "subtitle": "输入网站 URL，使用 AI 分析其内容",
-    "analyzer": {
-      "title": "网页内容分析器",
-      "description": "使用 AI 分析任何网站的内容，提取结构化信息",
-      "placeholder": "输入网站 URL（例如：https://example.com）",
-      "button": "分析网站",
-      "loading": {
-        "scraping": "正在抓取网站内容...",
-        "analyzing": "正在使用 AI 分析内容..."
-      },
-      "results": {
-        "title": "分析结果",
-        "newAnalysis": "分析其他网站",
-        "sections": {
-          "title": "标题",
-          "description": "描述",
-          "introduction": "介绍",
-          "features": "功能",
-          "pricing": "定价",
-          "useCases": "使用场景",
-          "screenshot": "网站截图"
-        }
-      },
-      "errors": {
-        "invalidUrl": "请输入以 http:// 或 https:// 开头的有效 URL",
-        "analysisError": "分析网站失败，请重试。",
-        "networkError": "网络错误，请检查您的连接并重试。",
-        "insufficientCredits": "积分不足，请购买更多积分以继续。"
-      }
-    },
-    "features": {
-      "scraping": {
-        "title": "智能网页抓取",
-        "description": "先进的网页抓取技术从任何网站提取干净、结构化的内容"
-      },
-      "analysis": {
-        "title": "AI 驱动分析",
-        "description": "智能 AI 分析提取关键见解、功能和结构化信息"
-      },
-      "results": {
-        "title": "结构化结果",
-        "description": "获得有组织、易于阅读的结果，包含清晰的部分和可操作的见解"
-      }
-    }
-  },
-  "AIImagePage": {
-    "title": "AI 图片",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
-  },
-  "AIChatPage": {
-    "title": "AI 聊天",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
-  },
-  "AIVideoPage": {
-    "title": "AI 视频",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
-  },
-  "AIAudioPage": {
-    "title": "AI 音频",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
   }
 }

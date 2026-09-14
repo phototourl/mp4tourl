@@ -34,13 +34,13 @@ interface NavBarProps {
 
 const customNavigationMenuTriggerStyle = cn(
   navigationMenuTriggerStyle(),
-  'relative bg-transparent text-muted-foreground cursor-pointer',
-  'hover:bg-accent hover:text-accent-foreground',
-  'focus:bg-transparent focus:text-accent-foreground',
+  'relative bg-transparent text-muted-foreground cursor-pointer no-underline shadow-none',
+  'hover:bg-accent hover:text-foreground',
+  'focus:bg-transparent focus:text-muted-foreground',
   'focus-visible:ring-0 focus-visible:outline-none',
-  'data-active:font-semibold data-active:bg-transparent data-active:text-accent-foreground',
-  'data-[active=true]:bg-transparent data-[active=true]:hover:bg-accent data-[active=true]:focus:bg-transparent',
-  'data-[state=open]:bg-transparent data-[state=open]:text-accent-foreground'
+  'data-active:font-semibold data-active:bg-transparent data-active:text-foreground',
+  'data-[active=true]:bg-transparent data-[active=true]:text-foreground data-[active=true]:hover:bg-accent data-[active=true]:focus:bg-transparent',
+  'data-[state=open]:bg-transparent data-[state=open]:text-foreground'
 );
 
 export function Navbar({ scroll }: NavBarProps) {
@@ -61,19 +61,54 @@ export function Navbar({ scroll }: NavBarProps) {
     const syncHash = () => setHash(window.location.hash);
     syncHash();
     window.addEventListener('hashchange', syncHash);
-    return () => window.removeEventListener('hashchange', syncHash);
+    window.addEventListener('popstate', syncHash);
+    return () => {
+      window.removeEventListener('hashchange', syncHash);
+      window.removeEventListener('popstate', syncHash);
+    };
   }, [localePathname]);
 
   const isNavActive = (href?: string) => {
     if (!href) return false;
     const hashIndex = href.indexOf('#');
+    // In-page anchors (e.g. FAQ /#faqs) — only that item, not Home too
     if (hashIndex >= 0) {
-      return hash === href.slice(hashIndex);
+      return localePathname === '/' && hash === href.slice(hashIndex);
     }
-    if (href === '/') {
-      return localePathname === '/';
+    // Home: landing root with no section hash
+    if (href === '/' || href === Routes.Root) {
+      return localePathname === '/' && !hash;
     }
     return localePathname.startsWith(href);
+  };
+
+  const scrollToTop = () => {
+    if (window.location.hash) {
+      const path = window.location.pathname + window.location.search;
+      window.history.replaceState(null, '', path);
+      setHash('');
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  /** App Router often delays/skips hashchange — set active state immediately */
+  const onNavClick = (href?: string) => {
+    if (!href) return;
+    if (href === Routes.Root || href === '/') {
+      scrollToTop();
+      return;
+    }
+    const hashIndex = href.indexOf('#');
+    if (hashIndex >= 0) {
+      const nextHash = href.slice(hashIndex);
+      setHash(nextHash);
+      // Ensure URL + scroll even when already on home
+      window.requestAnimationFrame(() => {
+        if (window.location.hash !== nextHash) {
+          window.location.hash = nextHash;
+        }
+      });
+    }
   };
 
   return (
@@ -82,9 +117,9 @@ export function Navbar({ scroll }: NavBarProps) {
         'sticky inset-x-0 top-0 z-40 py-4 transition-all duration-300',
         scroll
           ? scrolled
-            ? 'bg-background/95 backdrop-blur-md border-b supports-backdrop-filter:bg-background/95'
+            ? 'bg-muted/50 backdrop-blur-md border-b supports-backdrop-filter:bg-muted/50'
             : 'bg-transparent'
-          : 'border-b bg-background/95'
+          : 'border-b bg-muted/50'
       )}
     >
       <Container className="px-4">
@@ -92,7 +127,11 @@ export function Navbar({ scroll }: NavBarProps) {
         <nav className="hidden lg:flex">
           {/* logo and name */}
           <div className="flex items-center">
-            <LocaleLink href="/" className="flex items-center space-x-2">
+            <LocaleLink
+              href="/"
+              className="flex items-center space-x-2"
+              onClick={scrollToTop}
+            >
               <Logo />
               <span className="text-xl font-semibold">
                 {t('Metadata.name')}
@@ -103,7 +142,7 @@ export function Navbar({ scroll }: NavBarProps) {
           {/* menu links */}
           <div className="flex-1 flex items-center justify-center space-x-2">
             <NavigationMenu className="relative" viewport={false}>
-              <NavigationMenuList className="flex items-center">
+              <NavigationMenuList className="flex items-center gap-3">
                 {menuLinks?.map((item, index) =>
                   item.items ? (
                     <NavigationMenuItem key={index} className="relative">
@@ -217,6 +256,8 @@ export function Navbar({ scroll }: NavBarProps) {
                           rel={
                             item.external ? 'noopener noreferrer' : undefined
                           }
+                          className="no-underline"
+                          onClick={() => onNavClick(item.href)}
                         >
                           {item.title}
                         </LocaleLink>
@@ -228,17 +269,14 @@ export function Navbar({ scroll }: NavBarProps) {
             </NavigationMenu>
           </div>
 
-          {/* navbar right show sign in or user */}
-          <div className="flex items-center gap-x-4">
+          {/* 右侧：登录/注册 + 主题 + 语言（与 editstamp 截图一致） */}
+          <div className="flex items-center gap-x-3">
             {!mounted || isPending ? (
-              <Skeleton className="size-8 border rounded-full" />
+              <Skeleton className="h-9 w-24 rounded-md" />
             ) : currentUser ? (
-              <>
-                {/* <CreditsBalanceButton /> */}
-                <UserButton user={currentUser} />
-              </>
+              <UserButton user={currentUser} />
             ) : (
-              <div className="flex items-center gap-x-4">
+              <div className="flex items-center gap-x-3">
                 <LoginWrapper mode="modal" asChild>
                   <Button
                     variant="outline"

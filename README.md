@@ -1,8 +1,8 @@
-# MP4 to URL  🌐 **https://mp4tourl.com**
+# MP4 to URL — https://mp4tourl.com
 
 Upload a video, get a permanent shareable link.
 
-Built on the MkSaaS template. Product: MP4 / MOV / AVI / WebM / MKV → CDN URL. Free tier up to 100MB.
+Supports MP4 / MOV / AVI / WebM / MKV. Free tier up to 100MB.
 
 ## Quick Start
 
@@ -11,19 +11,4 @@ pnpm install
 pnpm dev
 ```
 
-Set `.env.local` (storage uses `R2_*`):
-
-```env
-NEXT_PUBLIC_BASE_URL=https://mp4tourl.com
-R2_BUCKET=your-bucket-name
-R2_ENDPOINT=your-r2-endpoint
-R2_ACCESS_KEY_ID=your-access-key
-R2_SECRET_ACCESS_KEY=your-secret-key
-R2_PUBLIC_BASE_URL=your-cdn-url
-```
-
-Repo: [github.com/phototourl/mp4tourl](https://github.com/phototourl/mp4tourl)
-
-## License
-
-MIT
+Copy `env.example` → `.env.local` and fill in values. Bootstrap MySQL with `sql/mp4tourl.sql`.

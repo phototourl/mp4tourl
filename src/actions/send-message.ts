@@ -1,71 +1,80 @@
 'use server';
 
-import { websiteConfig } from '@/config/website';
-import { actionClient } from '@/lib/safe-action';
-import { sendEmail } from '@/mail';
-import { getLocale } from 'next-intl/server';
+import { getDb } from '@/db';
+import { contactMessage } from '@/db/schema';
+import { and, eq, gte } from 'drizzle-orm';
 import { z } from 'zod';
 
-/**
- * DOC: When using Zod for validation, how can I localize error messages?
- * https://next-intl.dev/docs/environments/actions-metadata-route-handlers#server-actions
- */
-// Contact form schema for validation
+const DEDUP_WINDOW_MS = 60 * 1000;
+
 const contactFormSchema = z.object({
   name: z
     .string()
-    .min(3, { error: 'Name must be at least 3 characters' })
-    .max(30, { error: 'Name must not exceed 30 characters' }),
-  email: z.email({ error: 'Please enter a valid email address' }),
+    .min(3, { message: 'minLength' })
+    .max(100, { message: 'maxLengthName' }),
+  email: z.string().email({ message: 'invalidEmail' }),
   message: z
     .string()
-    .min(10, { error: 'Message must be at least 10 characters' })
-    .max(500, { error: 'Message must not exceed 500 characters' }),
+    .min(10, { message: 'minLengthMessage' })
+    .max(2000, { message: 'maxLengthMessage' }),
 });
 
-// Create a safe action for contact form submission
-export const sendMessageAction = actionClient
-  .schema(contactFormSchema)
-  .action(async ({ parsedInput }) => {
-    // Do not check if the user is authenticated here
-    try {
-      const { name, email, message } = parsedInput;
+export type SendMessageResult =
+  | { success: true }
+  | { success: false; error: string };
 
-      if (!websiteConfig.mail.supportEmail) {
-        console.error('The mail receiver is not set');
-        throw new Error('The mail receiver is not set');
-      }
+/**
+ * Persist contact form messages (same flow as editstamp).
+ * Field `name` stores the subject shown in the UI.
+ */
+export async function sendMessageAction(
+  formData: FormData
+): Promise<SendMessageResult> {
+  const name = formData.get('name')?.toString().trim() ?? '';
+  const email = formData.get('email')?.toString().trim() ?? '';
+  const message = (formData.get('message')?.toString() ?? '')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n');
 
-      const locale = await getLocale();
+  const parsed = contactFormSchema.safeParse({ name, email, message });
+  if (!parsed.success) {
+    const first = parsed.error.flatten().fieldErrors;
+    const key =
+      first.name?.[0] ?? first.email?.[0] ?? first.message?.[0] ?? 'invalid';
+    return { success: false, error: key };
+  }
 
-      // Send message as an email to admin
-      const result = await sendEmail({
-        to: websiteConfig.mail.supportEmail,
-        template: 'contactMessage',
-        context: {
-          name,
-          email,
-          message,
-        },
-        locale,
-      });
+  try {
+    const db = await getDb();
+    const dedupWindowStart = new Date(Date.now() - DEDUP_WINDOW_MS);
+    const duplicated = await db
+      .select({ id: contactMessage.id })
+      .from(contactMessage)
+      .where(
+        and(
+          eq(contactMessage.email, parsed.data.email),
+          eq(contactMessage.message, parsed.data.message),
+          gte(contactMessage.createdAt, dedupWindowStart)
+        )
+      )
+      .limit(1);
 
-      if (!result) {
-        console.error('send message error');
-        return {
-          success: false,
-          error: 'Failed to send the message',
-        };
-      }
-
-      return {
-        success: true,
-      };
-    } catch (error) {
-      console.error('send message error:', error);
-      return {
-        success: false,
-        error: error instanceof Error ? error.message : 'Something went wrong',
-      };
+    if (duplicated.length > 0) {
+      return { success: true };
     }
-  });
+
+    await db.insert(contactMessage).values({
+      name: parsed.data.name,
+      email: parsed.data.email,
+      message: parsed.data.message,
+      status: 'new',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error('Failed to save contact message:', error);
+    return { success: false, error: 'invalid' };
+  }
+}

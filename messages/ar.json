@@ -115,24 +115,6 @@
       }
     }
   },
-  "CreditPackages": {
-    "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
-    },
-    "standard": {
-      "name": "Standard",
-      "description": "Standard credits package description"
-    },
-    "premium": {
-      "name": "Premium",
-      "description": "Premium credits package description"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "description": "Enterprise credits package description"
-    }
-  },
   "NotFoundPage": {
     "title": "404",
     "message": "Sorry, the page you are looking for does not exist.",
@@ -145,12 +127,12 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
-    "authorName": "MkSaaS",
-    "authorBio": "AI SaaS Boilerplate",
-    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "authorName": "MP4toURL",
+    "authorBio": "Free video to URL converter",
+    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "talkWithMe": "Contact us",
+    "followMe": "Follow on X"
   },
   "ChangelogPage": {
     "title": "Changelog",
@@ -158,24 +140,28 @@
     "subtitle": "Stay up to date with the latest changes in our product"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "title": "اتصل بنا",
+    "description": "أرسل رسالة حول رفع الفيديوهات أو روابط المشاركة أو حسابك. نقرأ كل رسالة ونرد في أقرب وقت ممكن.",
+    "subtitle": "أسئلة حول MP4toURL؟ يسعدنا مساعدتك.",
+    "orEmail": "أو راسلنا على",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "title": "رسالة",
+      "description": "أرسل رسالة وسنرد في أقرب وقت ممكن.",
+      "name": "الموضوع",
+      "email": "البريد الإلكتروني",
+      "message": "الرسالة",
+      "namePlaceholder": "أدخل الموضوع",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "messagePlaceholder": "أدخل الرسالة",
+      "submit": "إرسال",
+      "submitting": "جاري الإرسال…",
+      "success": "تم إرسال الرسالة بنجاح. سنرد في أقرب وقت ممكن.",
+      "minLength": "يجب أن يتكون الموضوع من 3 أحرف على الأقل.",
+      "maxLengthName": "يجب ألا يتجاوز الموضوع 100 حرف.",
+      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+      "minLengthMessage": "يجب أن تتكون الرسالة من 10 أحرف على الأقل.",
+      "maxLengthMessage": "يجب ألا تتجاوز الرسالة 2000 حرف.",
+      "invalid": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
     }
   },
   "WaitlistPage": {
@@ -216,7 +202,6 @@
       "signUpHint": "Don't have an account? Sign up",
       "forgotPassword": "Forgot Password?",
       "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
       "showPassword": "Show password",
       "hidePassword": "Hide password",
       "or": "Or continue with",
@@ -247,17 +232,28 @@
       "email": "Email",
       "send": "Send reset link",
       "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
+      "emailRequired": "Please enter your email",
+      "error": {
+        "userNotFound": "No account found with this email",
+        "tooManyRequests": "Too many attempts. Please try again later",
+        "serverError": "Something went wrong. Please try again"
+      }
     },
     "resetPassword": {
       "title": "Reset Password",
-      "password": "Password",
+      "password": "New password",
       "reset": "Reset password",
       "backToLogin": "Back to login",
       "showPassword": "Show password",
       "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "minLength": "Password must be at least 8 characters",
+      "error": {
+        "expiredToken": "Reset link has expired. Please request a new one",
+        "invalidToken": "Invalid reset link. Please request a new one",
+        "tooManyRequests": "Too many attempts. Please try again later",
+        "serverError": "Something went wrong. Please try again"
+      }
     },
     "error": {
       "title": "Oops! Something went wrong!",
@@ -293,7 +289,7 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "MkSaaS Docs",
+    "title": "Documentation",
     "homepage": "Homepage"
   },
   "PremiumContent": {
@@ -311,14 +307,8 @@
   },
   "Marketing": {
     "navbar": {
-      "upload": {
-        "title": "Upload"
-      },
-      "features": {
-        "title": "Features"
-      },
-      "howToUse": {
-        "title": "How to Use"
+      "home": {
+        "title": "الرئيسية"
       },
       "pricing": {
         "title": "Pricing"
@@ -326,36 +316,17 @@
       "faq": {
         "title": "FAQ"
       },
+      "about": {
+        "title": "حول"
+      },
+      "contact": {
+        "title": "اتصل بنا"
+      },
       "blog": {
         "title": "Blog"
       },
       "docs": {
         "title": "Docs"
-      },
-      "ai": {
-        "title": "AI Tools",
-        "items": {
-          "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
-          },
-          "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
-          },
-          "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
-          },
-          "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
-          },
-          "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
-          }
-        }
       },
       "pages": {
         "title": "Pages",
@@ -455,7 +426,7 @@
       }
     },
     "footer": {
-      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "tagline": "Upload a video, get a permanent shareable link",
       "product": {
         "title": "Product",
         "items": {
@@ -631,75 +602,6 @@
         },
         "retry": "Retry"
       },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
       "notification": {
         "title": "Notification",
         "description": "Manage your notification preferences",
@@ -774,9 +676,9 @@
     },
     "forgotPassword": {
       "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
+      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
       "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "subject": "Reset your MP4toURL password"
     },
     "subscribeNewsletter": {
       "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
@@ -807,47 +709,6 @@
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
       "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
-    },
-    "logocloud": {
-      "title": "Your favorite companies are our partners"
-    },
-    "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
-      "items": {
-        "item-1": {
-          "title": "Google Gemini",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        },
-        "item-2": {
-          "title": "Replit",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        },
-        "item-3": {
-          "title": "MagicUI",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        },
-        "item-4": {
-          "title": "VSCodium",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        },
-        "item-5": {
-          "title": "MediaWiki",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        },
-        "item-6": {
-          "title": "Google PaLM",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
-        }
-      }
-    },
-    "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -895,51 +756,6 @@
         }
       }
     },
-    "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
-    },
-    "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "items": {
-        "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
-        },
-        "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
-        },
-        "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
-        },
-        "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
-        },
-        "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
-        },
-        "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
-        }
-      }
-    },
-    "pricing": {
-      "title": "Pricing",
-      "subtitle": "Pricing",
-      "description": "Choose the plan that works best for you"
-    },
     "faqs": {
       "title": "Frequently Asked Questions About Video to URL",
       "subtitle": "Everything you need to know about converting video to a shareable link.",
@@ -974,170 +790,11 @@
         }
       }
     },
-    "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
-      "items": {
-        "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
-        },
-        "item-2": {
-          "name": "Yves Kalume",
-          "role": "GDE - Android",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
-        },
-        "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits Creator",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
-        },
-        "item-4": {
-          "name": "Anonymous author",
-          "role": "Product Manager",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
-        },
-        "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "Senior Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
-        },
-        "item-6": {
-          "name": "Oketa Fred",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
-        },
-        "item-7": {
-          "name": "Zeki",
-          "role": "Founder of ChatExtend",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
-        },
-        "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
-        },
-        "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI Creator",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
-        },
-        "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome Creator",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
-        },
-        "item-11": {
-          "name": "Eric Ampire",
-          "role": "@GoogleDevExpert for Android",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
-        },
-        "item-12": {
-          "name": "Roland Tubonge",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
-        }
-      }
-    },
-    "stats": {
-      "title": "Stats",
-      "subtitle": "MkSaaS in numbers",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
-      "items": {
-        "item-1": {
-          "title": "Stars on GitHub"
-        },
-        "item-2": {
-          "title": "Active Users"
-        },
-        "item-3": {
-          "title": "Powered Apps"
-        }
-      }
-    },
     "calltoaction": {
       "title": "The Easiest Way to Share Videos",
       "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
       "primaryButton": "Convert to URL",
       "secondaryButton": "Read FAQ"
     }
-  },
-  "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
-    "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
-      "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
-      },
-      "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
-        "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "pricing": "Pricing",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
-        }
-      },
-      "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
-      }
-    },
-    "features": {
-      "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
-      },
-      "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
-      },
-      "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
-      }
-    }
-  },
-  "AIImagePage": {
-    "title": "AI Image",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
-  },
-  "AIChatPage": {
-    "title": "AI Chat",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
-  },
-  "AIVideoPage": {
-    "title": "AI Video",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
-  },
-  "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

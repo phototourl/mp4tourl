@@ -83,7 +83,20 @@ export function NavbarMobile({
         {...other}
       >
         {/* navbar left shows logo */}
-        <LocaleLink href={Routes.Root} className="flex items-center gap-2">
+        <LocaleLink
+          href={Routes.Root}
+          className="flex items-center gap-2"
+          onClick={() => {
+            if (window.location.hash) {
+              window.history.replaceState(
+                null,
+                '',
+                window.location.pathname + window.location.search
+              );
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
           <Logo />
           <span className="text-xl font-semibold">{t('Metadata.name')}</span>
         </LocaleLink>
@@ -144,9 +157,29 @@ interface MainMobileMenuProps {
 
 function MainMobileMenu({ userLoggedIn, onLinkClicked }: MainMobileMenuProps) {
   const [expanded, setExpanded] = React.useState<Record<string, boolean>>({});
+  const [hash, setHash] = useState('');
   const t = useTranslations();
   const menuLinks = useNavbarLinks();
   const localePathname = useLocalePathname();
+
+  useEffect(() => {
+    const syncHash = () => setHash(window.location.hash);
+    syncHash();
+    window.addEventListener('hashchange', syncHash);
+    return () => window.removeEventListener('hashchange', syncHash);
+  }, [localePathname]);
+
+  const isNavActive = (href?: string) => {
+    if (!href) return false;
+    const hashIndex = href.indexOf('#');
+    if (hashIndex >= 0) {
+      return localePathname === '/' && hash === href.slice(hashIndex);
+    }
+    if (href === '/' || href === Routes.Root) {
+      return localePathname === '/' && !hash;
+    }
+    return localePathname.startsWith(href);
+  };
 
   return (
     <div
@@ -190,16 +223,8 @@ function MainMobileMenu({ userLoggedIn, onLinkClicked }: MainMobileMenuProps) {
         <ul className="w-full px-4">
           {menuLinks?.map((item) => {
             const isActive = item.href
-              ? item.href === '/'
-                ? localePathname === '/'
-                : localePathname.startsWith(item.href)
-              : item.items?.some(
-                  (subItem) =>
-                    subItem.href &&
-                    (subItem.href === '/'
-                      ? localePathname === '/'
-                      : localePathname.startsWith(subItem.href))
-                );
+              ? isNavActive(item.href)
+              : item.items?.some((subItem) => isNavActive(subItem.href));
 
             return (
               <li key={item.title} className="py-1">
@@ -237,9 +262,7 @@ function MainMobileMenu({ userLoggedIn, onLinkClicked }: MainMobileMenuProps) {
                     <CollapsibleContent className="pl-2">
                       <ul className="mt-2 space-y-2 pl-0">
                         {item.items.map((subItem) => {
-                          const isSubItemActive =
-                            subItem.href &&
-                            localePathname.startsWith(subItem.href);
+                          const isSubItemActive = isNavActive(subItem.href);
 
                           return (
                             <li key={subItem.title}>
@@ -332,7 +355,23 @@ function MainMobileMenu({ userLoggedIn, onLinkClicked }: MainMobileMenuProps) {
                       'focus:bg-transparent focus:text-foreground',
                       isActive && 'font-semibold bg-transparent text-foreground'
                     )}
-                    onClick={onLinkClicked}
+                    onClick={() => {
+                      if (item.href === Routes.Root) {
+                        if (window.location.hash) {
+                          window.history.replaceState(
+                            null,
+                            '',
+                            window.location.pathname + window.location.search
+                          );
+                          setHash('');
+                        }
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      } else if (item.href?.includes('#')) {
+                        const nextHash = item.href.slice(item.href.indexOf('#'));
+                        setHash(nextHash);
+                      }
+                      onLinkClicked();
+                    }}
                   >
                     <div className="flex items-center w-full pl-0">
                       <span className="text-base">{item.title}</span>

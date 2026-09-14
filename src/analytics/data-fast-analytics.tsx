@@ -6,7 +6,6 @@ import Script from 'next/script';
  * DataFast Analytics
  *
  * https://datafa.st
- * https://mksaas.com/docs/analytics#datafast
  */
 export default function DataFastAnalytics() {
   if (process.env.NODE_ENV !== 'production') {

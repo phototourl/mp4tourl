@@ -11,8 +11,6 @@ export enum Routes {
   Features = '/#features',
   Upload = '/#upload',
   HowToUse = '/#how-to-use',
-  Pricing = '/pricing',
-  Blog = '/blog',
   About = '/about',
   Contact = '/contact',
   CookiePolicy = '/cookie',
@@ -32,7 +30,6 @@ export enum Routes {
   SettingsProfile = '/settings/profile',
   SettingsBilling = '/settings/billing',
   SettingsSecurity = '/settings/security',
-  SettingsNotifications = '/settings/notifications',
 
   // payment processing
   Payment = '/payment',
@@ -52,7 +49,6 @@ export const protectedRoutes = [
   Routes.SettingsProfile,
   Routes.SettingsBilling,
   Routes.SettingsSecurity,
-  Routes.SettingsNotifications,
   Routes.Payment,
 ];
 

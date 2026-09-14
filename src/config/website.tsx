@@ -4,8 +4,6 @@ import type { WebsiteConfig } from '@/types';
 /**
  * website config, without translations
  *
- * docs:
- * https://mksaas.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,7 +23,6 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/logo.png',
     },
     social: {
-      github: 'https://github.com/phototourl/mp4tourl',
       twitter: 'https://x.com/mp4tourl',
       blueSky: '',
       discord: '',
@@ -40,7 +37,6 @@ export const websiteConfig: WebsiteConfig = {
     enableAffonsoAffiliate: false,
     enablePromotekitAffiliate: false,
     enableDatafastRevenueTrack: false,
-    enableCrispChat: process.env.NEXT_PUBLIC_DEMO_WEBSITE === 'true',
     enableTurnstileCaptcha: process.env.NEXT_PUBLIC_DEMO_WEBSITE === 'true',
   },
   routes: {
@@ -52,7 +48,6 @@ export const websiteConfig: WebsiteConfig = {
   },
   auth: {
     enableGoogleLogin: true,
-    enableGithubLogin: false,
     enableCredentialLogin: true,
   },
   i18n: {
@@ -102,23 +97,20 @@ export const websiteConfig: WebsiteConfig = {
       tl: { flag: '🇵🇭', name: 'Filipino', hreflang: 'tl' },
     },
   },
-  blog: {
-    enable: false,
-    paginationSize: 6,
-    relatedPostsSize: 3,
-  },
-  docs: {
-    enable: false,
-  },
   mail: {
     provider: 'resend',
-    fromEmail: 'MP4toURL <support@mp4tourl.com>',
-    supportEmail: 'MP4toURL <support@mp4tourl.com>',
-  },
-  newsletter: {
-    enable: false,
-    provider: 'resend',
-    autoSubscribeAfterSignUp: false,
+    fromEmail:
+      process.env.RESEND_FROM_EMAIL ||
+      'MP4TOURL <support@mp4tourl.com>',
+    // Bare address for mailto / contact form (strip "Name <email>" if needed)
+    supportEmail: (() => {
+      const raw =
+        process.env.RESEND_SUPPORT_EMAIL ||
+        process.env.RESEND_FROM_EMAIL ||
+        'support@mp4tourl.com';
+      const match = raw.match(/<([^>\s]+)>/);
+      return (match?.[1] ?? raw).trim();
+    })(),
   },
   storage: {
     enable: true,
@@ -134,11 +126,6 @@ export const websiteConfig: WebsiteConfig = {
         prices: [],
         isFree: true,
         isLifetime: false,
-        credits: {
-          enable: false,
-          amount: 0,
-          expireDays: 30,
-        },
       },
       pro: {
         id: 'pro',
@@ -161,11 +148,6 @@ export const websiteConfig: WebsiteConfig = {
         isFree: false,
         isLifetime: false,
         popular: true,
-        credits: {
-          enable: false,
-          amount: 0,
-          expireDays: 30,
-        },
       },
       lifetime: {
         id: 'lifetime',
@@ -180,22 +162,7 @@ export const websiteConfig: WebsiteConfig = {
         ],
         isFree: false,
         isLifetime: true,
-        credits: {
-          enable: false,
-          amount: 0,
-          expireDays: 30,
-        },
       },
     },
-  },
-  credits: {
-    enableCredits: false,
-    enablePackagesForFreePlan: false,
-    registerGiftCredits: {
-      enable: false,
-      amount: 0,
-      expireDays: 30,
-    },
-    packages: {},
   },
 };

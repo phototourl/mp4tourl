@@ -6,7 +6,6 @@ import Script from 'next/script';
  * Ahrefs Analytics
  *
  * https://ahrefs.com/
- * https://mksaas.com/docs/analytics#ahrefs
  */
 export function AhrefsAnalytics() {
   if (process.env.NODE_ENV !== 'production') {

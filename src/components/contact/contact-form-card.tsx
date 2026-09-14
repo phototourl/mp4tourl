@@ -1,7 +1,6 @@
 'use client';
 
 import { sendMessageAction } from '@/actions/send-message';
-import { FormError } from '@/components/shared/form-error';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -11,144 +10,140 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { zodResolver } from '@hookform/resolvers/zod';
+import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 import { useState, useTransition } from 'react';
-import { useForm } from 'react-hook-form';
-import { toast } from 'sonner';
-import { z } from 'zod';
 
-/**
- * Contact form card component
- * This is a client component that handles the contact form submission
- */
+const inputClassName =
+  'w-full rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring';
+
+type ContactFormErrorKey =
+  | 'minLength'
+  | 'maxLengthName'
+  | 'invalidEmail'
+  | 'minLengthMessage'
+  | 'maxLengthMessage'
+  | 'invalid';
+
+function asContactFormErrorKey(key: string): ContactFormErrorKey {
+  const known: ContactFormErrorKey[] = [
+    'minLength',
+    'maxLengthName',
+    'invalidEmail',
+    'minLengthMessage',
+    'maxLengthMessage',
+    'invalid',
+  ];
+  return known.includes(key as ContactFormErrorKey)
+    ? (key as ContactFormErrorKey)
+    : 'invalid';
+}
+
 export function ContactFormCard() {
   const t = useTranslations('ContactPage.form');
   const [isPending, startTransition] = useTransition();
-  const [error, setError] = useState<string | undefined>('');
+  const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorKey, setErrorKey] = useState<string | null>(null);
 
-  // Create a schema for contact form validation
-  const formSchema = z.object({
-    name: z.string().min(3, t('nameMinLength')).max(30, t('nameMaxLength')),
-    email: z.email(t('emailValidation')),
-    message: z
-      .string()
-      .min(10, t('messageMinLength'))
-      .max(500, t('messageMaxLength')),
-  });
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus('idle');
+    setErrorKey(null);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
-  // Form types
-  type ContactFormValues = z.infer<typeof formSchema>;
-
-  // Initialize the form
-  const form = useForm<ContactFormValues>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      name: '',
-      email: '',
-      message: '',
-    },
-  });
-
-  // Handle form submission
-  const onSubmit = (values: ContactFormValues) => {
     startTransition(async () => {
-      try {
-        setError('');
-
-        // Submit form data using the contact server action
-        const result = await sendMessageAction(values);
-
-        if (result?.data?.success) {
-          toast.success(t('success'));
-          form.reset();
-        } else {
-          const errorMessage = result?.data?.error || t('fail');
-          setError(errorMessage);
-          toast.error(errorMessage);
-        }
-      } catch (err) {
-        console.error('Form submission error:', err);
-        setError(t('fail'));
-        toast.error(t('fail'));
+      const result = await sendMessageAction(formData);
+      if (result.success) {
+        setStatus('success');
+        form.reset();
+      } else {
+        setStatus('error');
+        setErrorKey(result.error);
       }
     });
-  };
+  }
 
   return (
-    <Card className="mx-auto max-w-lg overflow-hidden pt-6 pb-0">
+    <Card className="mx-auto max-w-lg overflow-hidden border-border pt-6 pb-0">
       <CardHeader>
         <CardTitle className="text-lg font-semibold">{t('title')}</CardTitle>
         <CardDescription>{t('description')}</CardDescription>
       </CardHeader>
-      <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col">
-          <CardContent className="space-y-6">
-            <FormField
-              control={form.control}
-              name="name"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('name')}</FormLabel>
-                  <FormControl>
-                    <Input placeholder={t('name')} {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('email')}</FormLabel>
-                  <FormControl>
-                    <Input type="email" placeholder={t('email')} {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormField
-              control={form.control}
-              name="message"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('message')}</FormLabel>
-                  <FormControl>
-                    <Textarea placeholder={t('message')} rows={3} {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormError message={error} />
-          </CardContent>
-          <CardFooter className="mt-6 px-6 py-4 flex justify-between items-center bg-muted rounded-none">
-            <Button
-              type="submit"
-              disabled={isPending}
-              className="cursor-pointer"
+      <form onSubmit={handleSubmit} className="flex flex-col">
+        <CardContent className="space-y-4">
+          <div>
+            <label
+              htmlFor="contact-name"
+              className="mb-1 block text-sm font-medium"
             >
-              {isPending ? t('submitting') : t('submit')}
-            </Button>
-          </CardFooter>
-        </form>
-      </Form>
+              {t('name')}
+            </label>
+            <input
+              id="contact-name"
+              name="name"
+              type="text"
+              required
+              minLength={3}
+              maxLength={100}
+              disabled={isPending}
+              className={inputClassName}
+              placeholder={t('namePlaceholder')}
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="contact-email"
+              className="mb-1 block text-sm font-medium"
+            >
+              {t('email')}
+            </label>
+            <input
+              id="contact-email"
+              name="email"
+              type="email"
+              required
+              disabled={isPending}
+              className={inputClassName}
+              placeholder={t('emailPlaceholder')}
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="contact-message"
+              className="mb-1 block text-sm font-medium"
+            >
+              {t('message')}
+            </label>
+            <textarea
+              id="contact-message"
+              name="message"
+              required
+              minLength={10}
+              maxLength={2000}
+              rows={4}
+              disabled={isPending}
+              className={cn(inputClassName, 'resize-y')}
+              placeholder={t('messagePlaceholder')}
+            />
+          </div>
+          {status === 'success' && (
+            <p className="rounded-md bg-green-50 p-3 text-sm text-green-800 dark:bg-green-950/40 dark:text-green-200">
+              {t('success')}
+            </p>
+          )}
+          {status === 'error' && errorKey && (
+            <p className="rounded-md bg-red-50 p-3 text-sm text-red-800 dark:bg-red-950/40 dark:text-red-200">
+              {t(asContactFormErrorKey(errorKey))}
+            </p>
+          )}
+        </CardContent>
+        <CardFooter className="mt-4 flex items-center border-t border-border bg-muted/50 px-6 py-4">
+          <Button type="submit" disabled={isPending} variant="default">
+            {isPending ? t('submitting') : t('submit')}
+          </Button>
+        </CardFooter>
+      </form>
     </Card>
   );
 }

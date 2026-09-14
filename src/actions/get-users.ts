@@ -4,7 +4,7 @@ import { getDb } from '@/db';
 import { user } from '@/db/schema';
 import { isDemoWebsite } from '@/lib/demo';
 import { adminActionClient } from '@/lib/safe-action';
-import { asc, desc, ilike, or, sql } from 'drizzle-orm';
+import { asc, desc, like, or, sql } from 'drizzle-orm';
 import { z } from 'zod';
 
 // Define the schema for getUsers parameters
@@ -45,9 +45,9 @@ export const getUsersAction = adminActionClient
       // search by name, email, and customerId
       const where = search
         ? or(
-            ilike(user.name, `%${search}%`),
-            ilike(user.email, `%${search}%`),
-            ilike(user.customerId, `%${search}%`)
+            like(user.name, `%${search}%`),
+            like(user.email, `%${search}%`),
+            like(user.customerId, `%${search}%`)
           )
         : undefined;
 
@@ -78,7 +78,7 @@ export const getUsersAction = adminActionClient
         items = items.map((item) => ({
           ...item,
           name: 'Demo User',
-          email: 'example@mksaas.com',
+          email: 'example@mp4tourl.com',
           customerId: 'cus_abcdef123456',
         }));
       }

@@ -19,7 +19,7 @@ import { Routes } from '@/routes';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon, Loader2Icon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { notFound, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
@@ -31,17 +31,7 @@ export const ResetPasswordForm = () => {
   const t = useTranslations('AuthPage.resetPassword');
   const searchParams = useSearchParams();
   const token = searchParams.get('token');
-  if (!token) {
-    notFound();
-  }
-
-  // If the token is valid, the user will be redirected to this URL with the token in the query string.
-  // If the token is invalid, the user will be redirected to this URL with an error message in the query string ?error=invalid_token.
-  // OPTIMIZE: check if the token is valid, show error message instead of redirecting to the 404 page
-  if (searchParams.get('error') === 'invalid_token') {
-    notFound();
-  }
-
+  const hasInvalidTokenParam = searchParams.get('error') === 'invalid_token';
   const router = useLocaleRouter();
   const [error, setError] = useState<string | undefined>('');
   const [success, setSuccess] = useState<string | undefined>('');
@@ -65,6 +55,18 @@ export const ResetPasswordForm = () => {
     setShowPassword((prev) => !prev);
   };
 
+  if (!token || hasInvalidTokenParam) {
+    return (
+      <AuthCard
+        headerLabel={t('title')}
+        bottomButtonLabel={t('backToLogin')}
+        bottomButtonHref={`${Routes.Login}`}
+      >
+        <FormError message={t('error.invalidToken')} />
+      </AuthCard>
+    );
+  }
+
   const onSubmit = async (values: z.infer<typeof ResetPasswordSchema>) => {
     await authClient.resetPassword(
       {
@@ -72,24 +74,40 @@ export const ResetPasswordForm = () => {
         token,
       },
       {
-        onRequest: (ctx) => {
-          // console.log("resetPassword, request:", ctx.url);
+        onRequest: () => {
           setIsPending(true);
           setError('');
           setSuccess('');
         },
-        onResponse: (ctx) => {
-          // console.log("resetPassword, response:", ctx.response);
+        onResponse: () => {
           setIsPending(false);
         },
-        onSuccess: (ctx) => {
-          // console.log("resetPassword, success:", ctx.data);
-          // setSuccess("Password reset successfully");
+        onSuccess: () => {
           router.push(`${Routes.Login}`);
         },
         onError: (ctx) => {
-          console.error('resetPassword, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
+          const errorCode = ctx.error.code;
+          const errorStatus = ctx.error.status;
+
+          let errorMessage: string;
+          if (errorCode === 'TOKEN_EXPIRED' || errorCode === 'EXPIRED_TOKEN') {
+            errorMessage = t('error.expiredToken');
+          } else if (
+            errorCode === 'INVALID_TOKEN' ||
+            errorCode === 'INVALID_VERIFICATION_TOKEN'
+          ) {
+            errorMessage = t('error.invalidToken');
+          } else if (
+            errorCode === 'RATE_LIMIT_EXCEEDED' ||
+            errorStatus === 429
+          ) {
+            errorMessage = t('error.tooManyRequests');
+          } else if (errorStatus === 500) {
+            errorMessage = t('error.serverError');
+          } else {
+            errorMessage = ctx.error.message || t('error.serverError');
+          }
+          setError(errorMessage);
         },
       }
     );

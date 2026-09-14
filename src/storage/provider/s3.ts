@@ -14,8 +14,6 @@ import {
 /**
  * Amazon S3 storage provider implementation using s3mini
  *
- * docs:
- * https://mksaas.com/docs/storage
  *
  * This provider works with Amazon S3 and compatible services like Cloudflare R2
  * using s3mini for better Cloudflare Workers compatibility

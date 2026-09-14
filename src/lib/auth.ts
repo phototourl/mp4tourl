@@ -1,34 +1,31 @@
-import { websiteConfig } from '@/config/website';
-import {
-  addMonthlyFreeCredits,
-  addRegisterGiftCredits,
-} from '@/credits/credits';
-import { getDb } from '@/db/index';
+import { getLiveDb } from '@/db/index';
 import { defaultMessages } from '@/i18n/messages';
 import { LOCALE_COOKIE_NAME, routing } from '@/i18n/routing';
 import { sendEmail } from '@/mail';
-import { subscribe } from '@/newsletter';
-import { type User, betterAuth } from 'better-auth';
+import { betterAuth } from 'better-auth';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { admin } from 'better-auth/plugins';
 import { parse as parseCookies } from 'cookie';
 import type { Locale } from 'next-intl';
-import { getAllPricePlans } from './price-plan';
 import { getBaseUrl, getUrlWithLocaleInCallbackUrl } from './urls/urls';
 
 /**
  * Better Auth configuration
  *
- * docs:
- * https://mksaas.com/docs/auth
  * https://www.better-auth.com/docs/reference/options
  */
 export const auth = betterAuth({
   baseURL: getBaseUrl(),
   appName: defaultMessages.Metadata.name,
-  database: drizzleAdapter(await getDb(), {
-    provider: 'pg', // or "mysql", "sqlite"
+  // Live proxy so auth survives MySQL pool resets (idle / reconnect).
+  database: drizzleAdapter(getLiveDb(), {
+    provider: 'mysql',
   }),
+  trustedOrigins: [
+    'http://localhost:3000',
+    'https://mp4tourl.com',
+    'https://www.mp4tourl.com',
+  ],
   session: {
     // https://www.better-auth.com/docs/concepts/session-management#cookie-cache
     cookieCache: {
@@ -46,13 +43,13 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
     // https://www.better-auth.com/docs/concepts/email#2-require-email-verification
-    requireEmailVerification: true,
+    requireEmailVerification: false, // 本地/联调先关；上线可再开并配 Resend
     // https://www.better-auth.com/docs/authentication/email-password#forget-password
     async sendResetPassword({ user, url }, request) {
       const locale = getLocaleFromRequest(request);
       const localizedUrl = getUrlWithLocaleInCallbackUrl(url, locale);
 
-      await sendEmail({
+      const sent = await sendEmail({
         to: user.email,
         template: 'forgotPassword',
         context: {
@@ -61,6 +58,11 @@ export const auth = betterAuth({
         },
         locale,
       });
+
+      if (!sent) {
+        console.error('Failed to send reset password email via Resend');
+        throw new Error('Failed to send reset password email');
+      }
     },
   },
   emailVerification: {
@@ -113,8 +115,8 @@ export const auth = betterAuth({
     // https://www.better-auth.com/docs/concepts/database#database-hooks
     user: {
       create: {
-        after: async (user) => {
-          await onCreateUser(user);
+        after: async () => {
+          // Reserved for post-signup hooks (e.g. welcome email)
         },
       },
     },
@@ -149,66 +151,4 @@ export const auth = betterAuth({
 export function getLocaleFromRequest(request?: Request): Locale {
   const cookies = parseCookies(request?.headers.get('cookie') ?? '');
   return (cookies[LOCALE_COOKIE_NAME] as Locale) ?? routing.defaultLocale;
-}
-
-/**
- * On create user hook
- *
- * @param user - The user to create
- */
-async function onCreateUser(user: User) {
-  // Auto subscribe user to newsletter after sign up if enabled in website config
-  // Add a delay to avoid hitting Resend's 1 email per second limit
-  if (
-    user.email &&
-    websiteConfig.newsletter.enable &&
-    websiteConfig.newsletter.autoSubscribeAfterSignUp
-  ) {
-    // Delay newsletter subscription by 2 seconds to avoid rate limiting
-    // This ensures the email verification email is sent first
-    // Using 2 seconds instead of 1 to provide extra buffer for network delays
-    setTimeout(async () => {
-      try {
-        const subscribed = await subscribe(user.email);
-        if (!subscribed) {
-          console.error(`Failed to subscribe user ${user.email} to newsletter`);
-        } else {
-          console.log(`User ${user.email} subscribed to newsletter`);
-        }
-      } catch (error) {
-        console.error('Newsletter subscription error:', error);
-      }
-    }, 2000);
-  }
-
-  // Add register gift credits to the user if enabled in website config
-  if (
-    websiteConfig.credits.enableCredits &&
-    websiteConfig.credits.registerGiftCredits.enable &&
-    websiteConfig.credits.registerGiftCredits.amount > 0
-  ) {
-    try {
-      await addRegisterGiftCredits(user.id);
-      console.log(`added register gift credits for user ${user.id}`);
-    } catch (error) {
-      console.error('Register gift credits error:', error);
-    }
-  }
-
-  // Add free monthly credits to the user if enabled in website config
-  if (websiteConfig.credits.enableCredits) {
-    const pricePlans = getAllPricePlans();
-    // NOTICE: make sure the free plan is not disabled and has credits enabled
-    const freePlan = pricePlans.find(
-      (plan) => plan.isFree && !plan.disabled && plan.credits?.enable
-    );
-    if (freePlan) {
-      try {
-        await addMonthlyFreeCredits(user.id, freePlan.id);
-        console.log(`added Free monthly credits for user ${user.id}`);
-      } catch (error) {
-        console.error('Free monthly credits error:', error);
-      }
-    }
-  }
 }

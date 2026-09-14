@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import type { PricePlan } from '@/payment/types';
-import type { CreditPackage } from '@/credits/types';
 
 /**
  * website config, without translations
@@ -13,14 +12,10 @@ export type WebsiteConfig = {
   analytics: AnalyticsConfig;
   auth: AuthConfig;
   i18n: I18nConfig;
-  blog: BlogConfig;
-  docs: DocsConfig;
   mail: MailConfig;
-  newsletter: NewsletterConfig;
   storage: StorageConfig;
   payment: PaymentConfig;
   price: PriceConfig;
-  credits: CreditsConfig;
 };
 
 /**
@@ -60,7 +55,6 @@ export interface ImagesConfig {
  */
 export interface SocialConfig {
   twitter?: string;
-  github?: string;
   discord?: string;
   blueSky?: string;
   mastodon?: string;
@@ -76,7 +70,6 @@ export interface SocialConfig {
  * Website features
  */
 export interface FeaturesConfig {
-  enableCrispChat?: boolean;          // Whether to enable the crisp chat
   enableUpgradeCard?: boolean;        // Whether to enable the upgrade card in the sidebar
   enableUpdateAvatar?: boolean;       // Whether to enable the update avatar in settings
   enableAffonsoAffiliate?: boolean;   // Whether to enable affonso affiliate
@@ -102,7 +95,6 @@ export interface AnalyticsConfig {
 
 export interface AuthConfig {
   enableGoogleLogin?: boolean;       // Whether to enable google login
-  enableGithubLogin?: boolean;       // Whether to enable github login
   enableCredentialLogin?: boolean;   // Whether to enable email/password login
 }
 
@@ -123,37 +115,12 @@ export interface I18nConfig {
 }
 
 /**
- * Blog configuration
- */
-export interface BlogConfig {
-  enable: boolean;                   // Whether to enable the blog
-  paginationSize: number;            // Number of posts per page
-  relatedPostsSize: number;          // Number of related posts to show
-}
-
-/**
- * Docs configuration
- */
-export interface DocsConfig {
-  enable: boolean;                   // Whether to enable the docs
-}
-
-/**
  * Mail configuration
  */
 export interface MailConfig {
   provider: 'resend';                // The email provider, only resend is supported for now
   fromEmail?: string;                // The email address to send from
   supportEmail?: string;             // The email address to send support emails to
-}
-
-/**
- * Newsletter configuration
- */
-export interface NewsletterConfig {
-  enable: boolean;                   // Whether to enable the newsletter
-  provider: 'resend';                 // The newsletter provider, only resend is supported for now
-  autoSubscribeAfterSignUp?: boolean; // Whether to automatically subscribe users to the newsletter after sign up
 }
 
 /**
@@ -179,20 +146,6 @@ export interface PriceConfig {
 }
 
 /**
- * Credits configuration
- */
-export interface CreditsConfig {
-  enableCredits: boolean;            // Whether to enable credits
-  enablePackagesForFreePlan: boolean;// Whether to enable purchase credits for free plan users
-  registerGiftCredits: {
-    enable: boolean;                 // Whether to enable register gift credits
-    amount: number;                  // The amount of credits to give to the user
-    expireDays?: number;             // The number of days to expire the credits, undefined means no expire
-  };
-  packages: Record<string, CreditPackage>;  // Packages indexed by ID
-}
-
-/**
  * menu item, used for navbar links, sidebar links, footer links
  */
 export type MenuItem = {
@@ -209,16 +162,4 @@ export type MenuItem = {
  */
 export type NestedMenuItem = MenuItem & {
   items?: MenuItem[];                // The items to display in the nested menu
-};
-
-/**
- * Blog Category
- *
- * we can not pass CategoryType from server component to client component
- * so we need to define a new type, and use it in the client component
- */
-export type BlogCategory = {
-  slug: string;
-  name: string;
-  description: string;
 };

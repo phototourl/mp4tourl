@@ -1,5 +1,6 @@
 import { ContactFormCard } from '@/components/contact/contact-form-card';
 import Container from '@/components/layout/container';
+import { websiteConfig } from '@/config/website';
 import { constructMetadata } from '@/lib/metadata';
 import type { Metadata } from 'next';
 import type { Locale } from 'next-intl';
@@ -22,16 +23,13 @@ export async function generateMetadata({
   });
 }
 
-/**
- * inspired by https://nsui.irung.me/contact
- */
 export default async function ContactPage() {
   const t = await getTranslations('ContactPage');
+  const supportEmail = websiteConfig.mail.supportEmail;
 
   return (
     <Container className="py-16 px-4">
       <div className="mx-auto max-w-4xl space-y-8 pb-16">
-        {/* Header */}
         <div className="space-y-4">
           <h1 className="text-center text-3xl font-bold tracking-tight">
             {t('title')}
@@ -41,8 +39,19 @@ export default async function ContactPage() {
           </p>
         </div>
 
-        {/* Form */}
         <ContactFormCard />
+
+        {supportEmail ? (
+          <p className="text-center text-sm text-muted-foreground">
+            {t('orEmail')}{' '}
+            <a
+              className="font-medium text-foreground underline underline-offset-4"
+              href={`mailto:${supportEmail}`}
+            >
+              {supportEmail}
+            </a>
+          </p>
+        ) : null}
       </div>
     </Container>
   );
