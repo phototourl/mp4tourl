@@ -1,0 +1,1625 @@
+/*
+ * Dashboard "Technology" theme (ported from shop-vite `library/styles/technology.scss`)
+ * Activation: add `ptu-theme-technology` class on <html> (see root layout inline script).
+ * Scope: only affects the dashboard shell (`[data-dashboard-shell]`).
+ */
+
+html.ptu-theme-technology [data-dashboard-shell] {
+  /* --- Palette (shop-vite technology) --- */
+  --ptu-tech-bg: #040d32;
+  --ptu-tech-panel: #103171;
+  --ptu-tech-panel-2: #0b255d;
+  --ptu-tech-border: #2c6191;
+  --ptu-tech-text: #e5eaf3;
+  --ptu-tech-primary: #4290f7;
+
+  /* --- Map to shadcn/tailwind CSS variables --- */
+  /*
+   * Contrast ladder (like shop-vite):
+   * - canvas: darkest
+   * - cards: one step brighter
+   * - text: title > body > muted
+   */
+  /* Canvas (darker, slightly violet-navy) */
+  --background: #020817;
+  --foreground: rgba(255, 255, 255, 0.99);
+
+  /* Panels (brighter, more "electric blue" than canvas) */
+  --card: #0b2a6b;
+  --card-foreground: rgba(255, 255, 255, 0.99);
+
+  /* Inset panels (inside cards: chart drawing area, photo wall rail) */
+  --ptu-tech-inset: #061436;
+  --ptu-tech-inset-2: #071a44;
+
+  --popover: #0b1d4a;
+  --popover-foreground: var(--ptu-tech-text);
+
+  --muted: #071f52;
+  --muted-foreground: rgba(244, 248, 255, 0.92);
+
+  --accent: #1f5ea8;
+  --accent-foreground: var(--ptu-tech-text);
+
+  --secondary: #081f4f;
+  --secondary-foreground: var(--ptu-tech-text);
+
+  /* borders (avoid relying on color-mix for compatibility) */
+  --border: rgba(66, 144, 247, 0.28);
+  --input: rgba(66, 144, 247, 0.34);
+  --ring: rgba(66, 144, 247, 0.55);
+  /* 壳层分割线（侧栏竖线 / 侧栏头底 / 顶栏底 / 账号区上）统一科技蓝 */
+  --ptu-shell-divider: rgba(66, 144, 247, 0.28);
+
+  --primary: var(--ptu-tech-primary);
+  --primary-foreground: #ffffff;
+
+  /* sidebar */
+  --sidebar: #020817;
+  --sidebar-foreground: rgba(255, 255, 255, 0.98);
+  --sidebar-primary: var(--ptu-tech-primary);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: rgba(11, 42, 107, 0.55);
+  --sidebar-accent-foreground: var(--ptu-tech-text);
+  --sidebar-border: var(--ptu-shell-divider);
+  --sidebar-ring: rgba(66, 144, 247, 0.55);
+
+  --dashboard-accent: var(--ptu-tech-primary);
+
+  /* --- Typography (overall feel) --- */
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Make ALL dashboard cards follow shop-vite-like panels:
+ * - deep blue base
+ * - subtle top highlight
+ * - thin blue border
+ * - soft depth shadow + inner highlight
+ */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="card"] {
+  border-color: rgba(66, 144, 247, 0.28) !important;
+  background:
+    /* top highlight */
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 22%, rgba(0, 0, 0, 0) 100%),
+    /* base panel (electric blue shift) */
+    linear-gradient(135deg, rgba(23, 78, 166, 0.92) 0%, rgba(7, 25, 64, 0.96) 100%) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    0 18px 52px -30px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* KPI 4 cards: port shop-vite `StatisticDashboard.vue` color blocks */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color [data-slot="card-title"],
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color [data-slot="card-description"],
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color .text-muted-foreground,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color .text-foreground {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-primary {
+  background: linear-gradient(90deg, rgba(96, 165, 250, 1) 0%, rgba(59, 130, 246, 1) 100%) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-success {
+  background: linear-gradient(90deg, rgba(34, 197, 94, 1) 0%, rgba(16, 185, 129, 1) 100%) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-warning {
+  background: linear-gradient(90deg, rgba(245, 158, 11, 1) 0%, rgba(234, 88, 12, 1) 100%) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-purple {
+  background: linear-gradient(90deg, rgba(167, 139, 250, 1) 0%, rgba(162, 89, 236, 1) 100%) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+/* KPI card badges (top-right): make them glassy + readable on color blocks */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color [data-slot="badge"][data-variant="outline"] {
+  border-color: rgba(255, 255, 255, 0.22) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color [data-slot="badge"][data-variant="outline"] svg {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/* KPI progress bar track: subtle white instead of gray */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-color .bg-slate-100 {
+  background: rgba(255, 255, 255, 0.22) !important;
+}
+
+/* KPI「升级」：与同卡 outline 徽章一致的玻璃白描边 */
+[data-dashboard-shell] .ptu-kpi-upgrade-btn {
+  color: rgba(255, 255, 255, 0.96) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+[data-dashboard-shell] .ptu-kpi-upgrade-btn:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.22) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.28),
+    0 6px 20px -12px rgba(0, 0, 0, 0.35) !important;
+}
+
+[data-dashboard-shell] .ptu-kpi-upgrade-btn:focus-visible {
+  outline: none !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.22),
+    0 0 0 2px rgba(255, 255, 255, 0.45),
+    0 0 0 5px rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 压过科技主题下全局 button 描边色 */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-btn {
+  border-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-btn:hover {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* KPI badge/button strong accents (used by dashboard/page.tsx) */
+[data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] {
+  background: #5d93f6 !important;
+  border-color: #5d93f6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(93, 147, 246, 0.85) !important;
+}
+[data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] {
+  background: #24c667 !important;
+  border-color: #24c667 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(36, 198, 103, 0.85) !important;
+}
+[data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(227, 163, 58, 0.85) !important;
+}
+[data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(155, 99, 230, 0.85) !important;
+}
+[data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] svg,
+[data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] svg,
+[data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] svg,
+[data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] svg {
+  color: #ffffff !important;
+}
+
+[data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+}
+[data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange:hover {
+  background: #dd982e !important;
+  border-color: #dd982e !important;
+}
+[data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+}
+[data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple:hover {
+  background: #8f56dd !important;
+  border-color: #8f56dd !important;
+}
+
+/* ------------------------------------------------------------
+ * My Resources: table/photo wall switch + table layout
+ * Ref: shop-vite `/vab/table/defaultTable` button/controls feel
+ * ------------------------------------------------------------ */
+
+/* 照片墙内容区：改为深蓝玻璃底，和科技主题主色统一 */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-photo-wall {
+  background: linear-gradient(180deg, rgba(35, 56, 92, 0.86) 0%, rgba(24, 41, 72, 0.92) 100%) !important;
+  border-color: rgba(148, 163, 184, 0.24) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.05),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.26),
+    0 14px 32px -24px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 照片墙「上传」格：图标尺寸与默认一致，仅加光晕与主色（仅科技主题） */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-upload-tile svg {
+  filter: drop-shadow(0 0 12px rgba(66, 144, 247, 0.55));
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-upload-tile label,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-upload-tile button {
+  color: #a8d8ff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-upload-tile label:hover,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-upload-tile button:hover {
+  color: #d4ecff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-view-toggle {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(66, 144, 247, 0.22);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-view-toggle button {
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-view-toggle button[class*="bg-white"] {
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: rgba(255, 255, 255, 0.94) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Table header row: darker strip + subtle line */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-head {
+  /* shop-vite table header: darker bar + clear grid line */
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Table rows: hover lift like shop-vite table rows */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row:hover {
+  background: rgba(66, 144, 247, 0.16) !important;
+}
+
+/* Table body: emulate el-table border + zebra rows */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row {
+  color: rgba(255, 255, 255, 0.88) !important;
+  /* vertical grid lines */
+  box-shadow:
+    inset 1px 0 0 rgba(255, 255, 255, 0.06),
+    inset -1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row:nth-child(even) {
+  background: rgba(255, 255, 255, 0.035);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row .text-muted-foreground {
+  color: rgba(250, 252, 255, 0.92) !important;
+}
+
+/* Document path cell: force multiline wrap (no truncation) */
+/* 文档筛选：原生下拉在部分浏览器下可随 color-scheme 变深；option 在 Firefox 等上可单独上色 */
+html.ptu-theme-technology [data-dashboard-shell] select.ptu-doc-type-select {
+  color-scheme: dark;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] select.ptu-doc-type-select option {
+  background-color: var(--ptu-tech-panel-2);
+  color: var(--ptu-tech-text);
+}
+
+/* My Documents filter controls: keep tech theme dark glass (do not rely on `dark:`) */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filter-control {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  background: rgba(255, 255, 255, 0.10) !important;
+  color: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filter-control::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filter-control:focus {
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filter-reset {
+  border-color: rgba(34, 211, 238, 0.28) !important;
+  background: rgba(34, 211, 238, 0.10) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 10px 26px -22px rgba(34, 211, 238, 0.55) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filter-reset:hover {
+  border-color: rgba(34, 211, 238, 0.42) !important;
+  background: rgba(34, 211, 238, 0.16) !important;
+}
+
+/* My Documents filenames: keep white in technology theme (tech theme isn't `dark`) */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-card-filename,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-filename {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+/* Mobile (tech theme): action buttons need chip bg + border */
+@media (max-width: 640px) {
+  html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-card-actions [data-slot="button"].ptu-action-btn,
+  html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-table-actions [data-slot="button"].ptu-action-btn {
+    background: rgba(2, 8, 23, 0.62) !important;
+    border: 1px solid rgba(66, 144, 247, 0.22) !important;
+    box-shadow:
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+      0 10px 26px -18px rgba(0, 0, 0, 0.65) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-card-actions [data-slot="button"].ptu-action-danger,
+  html.ptu-theme-technology [data-dashboard-shell] .ptu-doc-table-actions [data-slot="button"].ptu-action-danger {
+    border-color: rgba(248, 113, 113, 0.24) !important;
+  }
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-row .ptu-doc-path {
+  white-space: normal !important;
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
+}
+
+/* Divider lines for ul list (horizontal grid lines) */
+html.ptu-theme-technology [data-dashboard-shell] ul.divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Table shell: distinct inset surface like shop-vite el-table */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  background:
+    radial-gradient(900px 260px at 40% 0%, rgba(66, 144, 247, 0.12), transparent 62%),
+    linear-gradient(135deg, rgba(6, 20, 54, 0.9) 0%, rgba(2, 8, 23, 0.98) 100%) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.06),
+    0 18px 54px -34px rgba(0, 0, 0, 0.78);
+}
+
+/* One unified action button style (technology theme).
+   Used by My Photos table + wall + My Documents. */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-btn {
+  background: transparent !important;
+  border: 0 !important;
+  color: rgba(34, 211, 238, 0.95) !important;
+  opacity: 1 !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-btn:hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-btn:focus-visible {
+  background: rgba(34, 211, 238, 0.12) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-danger {
+  color: rgb(248, 113, 113) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-danger:hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-action-danger:focus-visible {
+  background: rgba(248, 113, 113, 0.12) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+/* Back-compat: photo wall buttons still carry `.ptu-grid-action-*` in markup.
+   Keep them mapped to the unified `ptu-action-*` styles to avoid divergence. */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-btn {
+  /* Photo wall needs extra contrast on images */
+  background: rgba(2, 8, 23, 0.62) !important;
+  border: 1px solid rgba(66, 144, 247, 0.22) !important;
+  color: rgba(34, 211, 238, 0.95) !important;
+  opacity: 1 !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    0 10px 26px -18px rgba(0, 0, 0, 0.65) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-btn:hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-btn:focus-visible {
+  background: rgba(34, 211, 238, 0.18) !important;
+  border-color: rgba(34, 211, 238, 0.45) !important;
+  color: rgba(255, 255, 255, 0.99) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.12),
+    0 0 0 1px rgba(34, 211, 238, 0.22),
+    0 14px 34px -20px rgba(34, 211, 238, 0.45) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-danger {
+  color: rgb(248, 113, 113) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-danger:hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-grid-action-danger:focus-visible {
+  background: rgba(248, 113, 113, 0.16) !important;
+  border-color: rgba(248, 113, 113, 0.42) !important;
+  color: rgba(255, 255, 255, 0.99) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.12),
+    0 0 0 1px rgba(248, 113, 113, 0.22),
+    0 14px 34px -20px rgba(248, 113, 113, 0.38) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8:hover,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8:focus-visible {
+  background: rgba(34, 211, 238, 0.12) !important;
+  color: inherit !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8[aria-label*="delete"]:hover,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8[aria-label*="删除"]:hover,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8[aria-label*="delete"]:focus-visible,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-table-shell [data-slot="button"].h-8.w-8[aria-label*="删除"]:focus-visible {
+  background: rgba(248, 113, 113, 0.12) !important;
+  color: inherit !important;
+}
+
+/* ------------------------------------------------------------
+ * Sidebar menu (shop-vite-like): white text, blue active pill
+ * ------------------------------------------------------------ */
+/* 侧栏右边线只保留一条，勿再叠 ::after（会右偏 1px，Logo 区看起来更粗且错位） */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-inner"] {
+  border-right: 1px solid var(--ptu-shell-divider);
+  background:
+    radial-gradient(700px 420px at 30% 10%, rgba(66, 144, 247, 0.10), transparent 60%),
+    linear-gradient(180deg, rgba(6, 20, 54, 0.92) 0%, rgba(2, 8, 23, 0.9) 65%, rgba(2, 8, 23, 0.96) 100%) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-inner"]::after {
+  content: none;
+}
+
+/* Sidebar header (logo + title): brighter gradient like shop-vite home footer strip */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] {
+  background:
+    radial-gradient(600px 260px at 30% 0%, rgba(66, 144, 247, 0.26), transparent 62%),
+    linear-gradient(90deg, rgba(66, 144, 247, 0.32) 0%, rgba(34, 211, 238, 0.10) 55%, rgba(2, 8, 23, 0) 100%);
+  border-bottom: 1px solid var(--ptu-shell-divider) !important;
+  /* 裁掉返回钮硬阴影外溢，避免 Logo 区竖线看起来更粗更亮 */
+  overflow-x: clip;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] span {
+  color: rgba(255, 255, 255, 0.98) !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn):hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn):active {
+  background: rgba(66, 144, 247, 0.22) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] img {
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.55));
+}
+
+/* 返回钮：与浅色同一结构，仅反色；内圈用侧栏面板蓝，勿用近黑 */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a.ptu-auth-back-btn,
+html.ptu-theme-technology .ptu-auth-back-btn {
+  border-color: #e2e8f0 !important;
+  background: #103171 !important;
+  color: #e2e8f0 !important;
+  box-shadow: 2px 2px 0 0 #e2e8f0 !important;
+  text-shadow: none !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a.ptu-auth-back-btn:hover,
+html.ptu-theme-technology .ptu-auth-back-btn:hover {
+  box-shadow: 1.5px 1.5px 0 0 #e2e8f0 !important;
+  background: #0b255d !important;
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] a.ptu-auth-back-btn:active,
+html.ptu-theme-technology .ptu-auth-back-btn:active {
+  box-shadow: none !important;
+  background: #103171 !important;
+  color: #e2e8f0 !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"] {
+  /* shop-vite: default menu text is white */
+  color: rgba(255, 255, 255, 0.99) !important;
+  background: transparent !important;
+  border-radius: 10px;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"] svg {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"]:hover,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-state="open"] {
+  /* hover gets blue background */
+  background: rgba(66, 144, 247, 0.22) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-active="true"] {
+  /* active is stronger blue pill */
+  background: rgba(66, 144, 247, 0.52) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.12),
+    0 12px 28px -18px rgba(66, 144, 247, 0.55);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-active="true"] svg {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+/* Override app-specific teal text classes inside sidebar links */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"] a,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"] span,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"] svg {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"]:hover a,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"]:hover span,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"]:hover svg {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-active="true"] a,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-active="true"] span,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-menu-button"][data-active="true"] svg {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+/* Mobile sidebar is rendered in Sheet portal (outside [data-dashboard-shell]).
+   Apply the same technology theme styles explicitly for mobile drawer. */
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] {
+  /*
+   * Sheet 挂在 body 下，不在 [data-dashboard-shell] 内，不会继承科技主题侧栏变量。
+   * 未覆写时 hover:bg-sidebar-accent 等仍用全局浅色 --sidebar-accent（接近白），
+   * 导致顶部 Logo 行出现白底块。
+   */
+  --sidebar: #040d32;
+  --sidebar-foreground: rgba(229, 234, 243, 0.82);
+  --sidebar-primary: #4290f7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: rgba(16, 49, 113, 0.75);
+  --sidebar-accent-foreground: #e5eaf3;
+  --ptu-shell-divider: rgba(66, 144, 247, 0.28);
+  --sidebar-border: var(--ptu-shell-divider);
+  --sidebar-ring: rgba(66, 144, 247, 0.55);
+  background:
+    radial-gradient(700px 420px at 30% 10%, rgba(66, 144, 247, 0.10), transparent 60%),
+    linear-gradient(180deg, rgba(6, 20, 54, 0.92) 0%, rgba(2, 8, 23, 0.9) 65%, rgba(2, 8, 23, 0.96) 100%) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+  border-right: 1px solid var(--ptu-shell-divider) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] {
+  background:
+    radial-gradient(600px 260px at 30% 0%, rgba(66, 144, 247, 0.26), transparent 62%),
+    linear-gradient(90deg, rgba(66, 144, 247, 0.32) 0%, rgba(34, 211, 238, 0.10) 55%, rgba(2, 8, 23, 0) 100%);
+  border-bottom: 1px solid var(--ptu-shell-divider) !important;
+}
+
+/* Logo 行：永远透明底（不含返回钮），避免移动端 sticky :hover 像选中 */
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn),
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn):hover,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn):active,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] a:not(.ptu-auth-back-btn):focus {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] span {
+  color: rgba(255, 255, 255, 0.98) !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] img {
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.55));
+  border-radius: 0.75rem;
+}
+
+/* next/image 包裹层也要裁圆角，否则移动端深色 58x58 方形底会露直角 */
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand-mark,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] .ptu-sidebar-brand-mark {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand-mark > span,
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-header"] .ptu-sidebar-brand-mark > span {
+  display: block !important;
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+/* 仅移动端侧栏 Logo 行：禁止 sticky :hover 改背景/文字色（PC 保留 hover） */
+[data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand,
+[data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:hover,
+[data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:active,
+[data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:focus,
+[data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:focus-visible {
+  background: transparent !important;
+}
+
+html:not(.ptu-theme-technology) [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand,
+html:not(.ptu-theme-technology) [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:hover,
+html:not(.ptu-theme-technology) [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:active,
+html:not(.ptu-theme-technology) [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:focus,
+html:not(.ptu-theme-technology) [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand span {
+  color: var(--sidebar-foreground) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:hover,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:active,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand:focus,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-header"] .ptu-sidebar-brand span {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"] {
+  color: rgba(255, 255, 255, 0.99) !important;
+  background: transparent !important;
+  border-radius: 10px;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"] svg {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+/* Force text inside mobile menu buttons to high-contrast white */
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"] a,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"] span {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"]:hover,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"][data-active="true"] {
+  background: rgba(66, 144, 247, 0.32) !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"]:hover a,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"]:hover span,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"][data-active="true"] a,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] [data-slot="sidebar-menu-button"][data-active="true"] span {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+/* 侧栏账号区：独立底色，和导航区分开；分割线跟壳层统一 */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-sidebar-user,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] .ptu-sidebar-user {
+  border-top-color: var(--ptu-shell-divider) !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(16, 49, 113, 0.92) 0%,
+      rgba(11, 37, 93, 0.96) 100%
+    ) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-sidebar-user .ptu-sidebar-user-chevrons,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] .ptu-sidebar-user .ptu-sidebar-user-chevrons,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-sidebar-user .ptu-sidebar-user-name,
+html.ptu-theme-technology [data-slot="sidebar"][data-mobile="true"] .ptu-sidebar-user .ptu-sidebar-user-name {
+  color: #ffffff !important;
+}
+
+/*
+ * 侧栏底部用户下拉菜单：Portal 渲染在 body 下，不在 [data-dashboard-shell] 内，
+ * 不会吃到 shell 上的科技主题变量，需单独做成深蓝面板。
+ */
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu {
+  background: linear-gradient(
+    135deg,
+    rgba(16, 49, 113, 0.97) 0%,
+    rgba(7, 25, 64, 0.98) 100%
+  ) !important;
+  border: 1px solid rgba(44, 97, 145, 0.52) !important;
+  color: rgba(229, 234, 243, 0.96) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+    0 18px 44px -22px rgba(0, 0, 0, 0.78) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu [data-slot="dropdown-menu-separator"] {
+  background: rgba(255, 255, 255, 0.14) !important;
+}
+
+/* 首页 / 切换语言：覆盖 slate 字色 */
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu [data-slot="dropdown-menu-item"]:not([class*='text-red']) .font-medium {
+  color: rgba(255, 255, 255, 0.94) !important;
+}
+
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu [data-slot="dropdown-menu-item"][class*='text-red'] .font-medium {
+  color: rgb(252, 165, 165) !important;
+}
+
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu [data-slot="dropdown-menu-item"][data-highlighted]:not([class*='text-red']) {
+  background: rgba(66, 144, 247, 0.24) !important;
+}
+
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu [data-slot="dropdown-menu-item"][class*='text-red'][data-highlighted] {
+  background: rgba(239, 68, 68, 0.22) !important;
+}
+
+/* 用户菜单：去掉图标背后圆角底，图标统一白色（见 sidebar-user .ptu-user-menu-icon-ring） */
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu .ptu-user-menu-icon-ring {
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+html.ptu-theme-technology [data-slot="dropdown-menu-content"].ptu-dashboard-user-menu .ptu-user-menu-icon-ring svg {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/* 语言弹窗：仅带 data-ptu-dashboard-lang-modal 的实例（工作台）才套科技深蓝 */
+html.ptu-theme-technology .ptu-language-modal-backdrop[data-ptu-dashboard-lang-modal] {
+  background: rgba(2, 8, 23, 0.68) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] {
+  background: linear-gradient(
+    135deg,
+    rgba(16, 49, 113, 0.98) 0%,
+    rgba(7, 25, 64, 0.99) 100%
+  ) !important;
+  border: 1px solid rgba(44, 97, 145, 0.52) !important;
+  color: rgba(229, 234, 243, 0.96) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.09),
+    0 24px 56px -22px rgba(0, 0, 0, 0.82) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-modal-header {
+  /* 覆盖 .hero-gradient 的营销青绿条，与弹窗深蓝主体、顶栏玻璃色一致 */
+  border-color: rgba(44, 97, 145, 0.45) !important;
+  background:
+    radial-gradient(ellipse 120% 180% at 0% 0%, rgba(66, 144, 247, 0.28), transparent 55%),
+    linear-gradient(180deg, rgba(22, 52, 115, 0.98) 0%, rgba(11, 37, 93, 0.99) 100%) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.08) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-modal-header h2,
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] #language-modal-title {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-modal-header p {
+  color: rgba(229, 234, 243, 0.7) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-modal-header button[type='button'] {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-modal-header button[type='button']:hover {
+  background: rgba(66, 144, 247, 0.22) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-option {
+  color: rgba(255, 255, 255, 0.9) !important;
+  border-color: rgba(44, 97, 145, 0.5);
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-option:hover {
+  background: rgba(66, 144, 247, 0.18) !important;
+  border-color: rgba(96, 165, 250, 0.55);
+}
+
+html.ptu-theme-technology .ptu-language-modal[data-ptu-dashboard-lang-modal] .ptu-language-option[class*='bg-brand-teal'] {
+  background: rgba(66, 144, 247, 0.32) !important;
+  border-color: rgba(96, 165, 250, 0.75);
+  color: rgba(255, 255, 255, 0.99) !important;
+}
+
+/* Text hierarchy inside cards (avoid "everything same color") */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="card-title"] {
+  color: rgba(255, 255, 255, 0.99) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="card-description"] {
+  color: rgba(246, 250, 255, 0.94) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .text-muted-foreground {
+  color: rgba(244, 248, 255, 0.92) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .text-foreground {
+  color: rgba(255, 255, 255, 0.99) !important;
+}
+
+/* Card hover (shop-vite has subtle lift/glow) */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="card"]:hover {
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.09),
+    0 22px 66px -34px rgba(0, 0, 0, 0.86),
+    0 0 0 1px rgba(66, 144, 247, 0.18) !important;
+}
+
+/* Canvas background (ported idea; tuned for our layout slots) */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-inset"] {
+  background-color: var(--background) !important;
+  background-image:
+    radial-gradient(1200px 520px at 45% -22%, rgba(66, 144, 247, 0.18), transparent 62%),
+    radial-gradient(980px 460px at 88% 10%, rgba(99, 102, 241, 0.14), transparent 60%),
+    linear-gradient(180deg, rgba(2, 8, 23, 1) 0%, rgba(2, 8, 23, 0.92) 55%, rgba(2, 8, 23, 1) 100%);
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/* Prevent inner wrappers from painting over the canvas */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar-inset"] > div {
+  background: transparent !important;
+}
+
+/* Header bar variables — solid color like light `#17A2B8`, so status bar + header are one strip */
+html.ptu-theme-technology {
+  /* 原生表单（含 <select> 展开列表）优先深色外观；Windows/Chrome 仍可能部分白底，属系统限制 */
+  color-scheme: dark;
+
+  /* 壳层分割线统一科技蓝 */
+  --ptu-shell-divider: rgba(66, 144, 247, 0.28);
+  --ptu-dashboard-header-bg: #040d32;
+  --ptu-dashboard-header-border: var(--ptu-shell-divider);
+  /* No inset top highlight — that reads as a seam between status bar and header */
+  --ptu-dashboard-header-shadow: 0 8px 24px -16px rgba(0, 0, 0, 0.55);
+}
+
+/* Apply solid header + bottom divider on all viewports (PC + mobile) */
+html.ptu-theme-technology header[data-dashboard-header] {
+  background: #040d32 !important;
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: var(--ptu-dashboard-header-border) !important;
+  box-shadow: none !important;
+  backdrop-filter: none;
+}
+
+/* 移动端顶栏底线再提一档，手机屏上更清楚 */
+@media (max-width: 767px) {
+  html.ptu-theme-technology header[data-dashboard-header] {
+    border-bottom-color: rgba(118, 178, 255, 0.55) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  html.ptu-theme-technology header[data-dashboard-header] {
+    box-shadow: var(--ptu-dashboard-header-shadow) !important;
+  }
+}
+
+/* Sidebar (inset variant adds p-2 by default; remove to avoid left white gap) */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar"][data-variant="inset"] [data-slot="sidebar-container"] {
+  padding: 0 !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="sidebar"][data-variant="inset"] [data-slot="sidebar-inner"] {
+  border-radius: 0 !important;
+}
+
+html.ptu-theme-technology .ptu-trend-badge {
+  border-color: rgba(44, 97, 145, 0.55) !important;
+  background: rgba(66, 144, 247, 0.08) !important;
+  color: rgba(229, 234, 243, 0.92) !important;
+}
+
+/* Photo wall thumbnails a bit more "panel-like" */
+html.ptu-theme-technology .ptu-thumb {
+  border-color: rgba(148, 163, 184, 0.28) !important;
+  background: rgba(15, 23, 42, 0.55) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.05) !important;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+html.ptu-theme-technology .ptu-thumb:hover {
+  border-color: rgba(34, 211, 238, 0.42) !important;
+  transform: translateY(-1px);
+}
+
+/* Fallback: some dashboard pages don't mount `[data-dashboard-shell]` */
+html.ptu-theme-technology .ptu-photo-wall {
+  background: linear-gradient(180deg, rgba(35, 56, 92, 0.86) 0%, rgba(24, 41, 72, 0.92) 100%) !important;
+  border-color: rgba(148, 163, 184, 0.24) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.05),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.26),
+    0 14px 32px -24px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Upgrade modal (dashboard): unify tech-theme palette */
+html.ptu-theme-technology .ptu-upgrade-modal {
+  background:
+    radial-gradient(680px 240px at 8% -6%, rgba(34, 211, 238, 0.16), transparent 62%),
+    linear-gradient(138deg, rgba(16, 49, 113, 0.97) 0%, rgba(7, 25, 64, 0.98) 100%) !important;
+  border: 1px solid rgba(44, 97, 145, 0.52) !important;
+  color: rgba(229, 234, 243, 0.96) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.09),
+    0 28px 64px -28px rgba(0, 0, 0, 0.82) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-header {
+  border-bottom-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-hero {
+  opacity: 0.9;
+  filter: saturate(0.92) brightness(0.92);
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-content {
+  background: linear-gradient(180deg, rgba(2, 10, 30, 0.08) 0%, rgba(2, 10, 30, 0.18) 100%);
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-icon {
+  background-image: linear-gradient(135deg, rgba(34, 211, 238, 0.95), rgba(66, 144, 247, 0.95)) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.18),
+    0 14px 34px -18px rgba(34, 211, 238, 0.72) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-kicker {
+  color: rgba(199, 226, 255, 0.78) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-title {
+  color: rgba(245, 250, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-desc {
+  color: rgba(221, 231, 247, 0.86) !important;
+}
+
+html.ptu-theme-technology .ptu-upgrade-modal-footer {
+  border-top-color: rgba(255, 255, 255, 0.12) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-primary-btn {
+  background-image: linear-gradient(135deg, rgba(34, 211, 238, 1) 0%, rgba(66, 144, 247, 1) 100%) !important;
+  border: 1px solid rgba(34, 211, 238, 0.4) !important;
+  color: #ffffff !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.22),
+    0 14px 30px -18px rgba(34, 211, 238, 0.78) !important;
+}
+
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-primary-btn:hover {
+  filter: brightness(1.04);
+}
+
+/* 中间：琥珀色 — 与主按钮青蓝、取消灰区分 */
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-home-btn {
+  border: 1px solid rgba(251, 191, 36, 0.5) !important;
+  background: rgba(245, 158, 11, 0.16) !important;
+  color: rgba(254, 243, 199, 0.98) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+    0 0 0 1px rgba(0, 0, 0, 0.12) !important;
+}
+
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-home-btn:hover {
+  background: rgba(245, 158, 11, 0.28) !important;
+  border-color: rgba(252, 211, 77, 0.65) !important;
+  color: #fffbeb !important;
+}
+
+/* 取消：中性灰，避免与琥珀中间钮抢色 */
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-secondary-btn {
+  border: 1px solid rgba(148, 163, 184, 0.35) !important;
+  background: rgba(15, 23, 42, 0.2) !important;
+  color: rgba(203, 213, 225, 0.88) !important;
+}
+
+html.ptu-theme-technology [data-slot="button"].ptu-upgrade-modal-secondary-btn:hover {
+  background: rgba(51, 65, 85, 0.45) !important;
+  border-color: rgba(148, 163, 184, 0.45) !important;
+  color: rgba(248, 250, 252, 0.95) !important;
+}
+
+/* ------------------------------------------------------------
+ * Buttons + stats colors (match shop-vite: primary blue, success green, subtle borders)
+ * ------------------------------------------------------------ */
+
+/* Default buttons: make them feel "electric" */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"] {
+  border-color: rgba(66, 144, 247, 0.22) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].bg-primary {
+  background-image: linear-gradient(135deg, rgba(66, 144, 247, 1) 0%, rgba(59, 130, 246, 1) 55%, rgba(34, 211, 238, 0.95) 120%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14),
+    0 14px 38px -22px rgba(66, 144, 247, 0.75);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].bg-primary:hover {
+  filter: brightness(1.03);
+}
+
+/* Outline buttons become glass pills */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].bg-white {
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: rgba(229, 234, 243, 0.92) !important;
+  border-color: rgba(66, 144, 247, 0.22) !important;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].bg-white:hover {
+  background: rgba(255, 255, 255, 0.09) !important;
+}
+
+/* Hardcoded green/teal buttons in dashboard: remap to shop-vite-like palette */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"][class*="bg-[#22c55e]"] {
+  background-image: linear-gradient(135deg, rgba(34, 197, 94, 1) 0%, rgba(16, 185, 129, 1) 55%, rgba(34, 211, 238, 0.55) 140%) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14),
+    0 14px 36px -22px rgba(34, 197, 94, 0.55) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"][class*="bg-[#02c7c7]"] {
+  background-image: linear-gradient(135deg, rgba(34, 211, 238, 1) 0%, rgba(66, 144, 247, 1) 70%) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14),
+    0 14px 36px -22px rgba(34, 211, 238, 0.55) !important;
+}
+
+/* KPI progress bar: use primary gradient instead of flat blue */
+html.ptu-theme-technology [data-dashboard-shell] .bg-blue-600 {
+  background-image: linear-gradient(90deg, rgba(34, 211, 238, 1) 0%, rgba(66, 144, 247, 1) 60%, rgba(59, 130, 246, 1) 100%) !important;
+  background-color: transparent !important;
+}
+
+/* Icons / "blue" accents: unify to primary-cyan tone */
+html.ptu-theme-technology [data-dashboard-shell] .text-blue-600,
+html.ptu-theme-technology [data-dashboard-shell] [class*="dark:text-blue-400"] {
+  color: rgba(34, 211, 238, 0.95) !important;
+}
+
+/* Plan "Active" badge (was emerald): match system palette */
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="badge"][data-variant="outline"][class*="emerald"] {
+  border-color: rgba(66, 144, 247, 0.28) !important;
+  background: rgba(66, 144, 247, 0.08) !important;
+  color: rgba(229, 234, 243, 0.92) !important;
+}
+
+/* Segmented / pills / subtle separators */
+html.ptu-theme-technology [data-dashboard-shell] .divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-top-color: rgba(44, 97, 145, 0.25) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .bg-slate-200\/80 {
+  background-color: rgba(16, 49, 113, 0.55) !important;
+}
+
+/* Activity chart: CardContent becomes the chart shell (no extra wrapper div) */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart {
+  position: relative;
+  padding: 12px 12px 0 !important; /* room for inset panel */
+  background: transparent !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart > svg {
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart svg {
+  color: rgba(125, 211, 252, 0.44) !important;
+}
+
+/* Chart tooltip: avoid SVG scaling distortion */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart .ptu-chart-tooltip {
+  background: rgba(2, 8, 23, 0.74) !important;
+  border-color: rgba(66, 144, 247, 0.3) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    0 8px 20px -14px rgba(0, 0, 0, 0.85) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart .ptu-chart-tooltip .text-foreground {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart .ptu-chart-tooltip .text-muted-foreground {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-tech-chart [class*="dark:bg-[oklch(0.2_0.065_264/0.96)]"] {
+  background: rgba(4, 13, 50, 0.92) !important;
+  border-color: rgba(66, 144, 247, 0.22) !important;
+  color: rgba(229, 234, 243, 0.92) !important;
+}
+
+/* ------------------------------------------------------------
+ * Resources pagination (shop-vite technology palette via --ptu-tech-*)
+ * ------------------------------------------------------------ */
+[data-dashboard-shell] .ptu-resources-pagination {
+  --ptu-pager-bar-bg: #e2e8f0;
+  --ptu-pager-bar-inset: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  --ptu-pager-text: #0f172a;
+  /* 当前页高亮：品牌青 */
+  --ptu-pager-accent: #0abab5;
+  --ptu-pager-accent-ring: rgba(11, 186, 181, 0.35);
+  /* 下拉 / 跳转：中性灰边 + 灰焦点环 */
+  --ptu-pager-control-border: #cbd5e1;
+  --ptu-pager-control-ring: rgba(100, 116, 139, 0.35);
+  --ptu-pager-pill-bg: #ffffff;
+  --ptu-pager-pill-text: #0f172a;
+  /* 默认主题：上一页与未选页码同为白底（不用半透明深条） */
+  --ptu-pager-prev-on-bg: #ffffff;
+  --ptu-pager-prev-on-hover: #f1f5f9;
+  --ptu-pager-arrow-off: rgba(15, 23, 42, 0.28);
+  --ptu-pager-select-bg: #ffffff;
+  --ptu-pager-option-bg: #ffffff;
+  background: var(--ptu-pager-bar-bg);
+  box-shadow: var(--ptu-pager-bar-inset);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-resources-pagination {
+  --ptu-pager-bar-bg: var(--ptu-tech-inset);
+  --ptu-pager-bar-inset: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --ptu-pager-text: var(--ptu-tech-text);
+  --ptu-pager-accent: var(--ptu-tech-primary);
+  --ptu-pager-accent-ring: rgba(66, 144, 247, 0.32);
+  /* 科技主题：白块全部改为半透明深色条（与上一页同系） */
+  --ptu-pager-pill-bg: rgba(255, 255, 255, 0.12);
+  --ptu-pager-pill-text: var(--ptu-tech-text);
+  --ptu-pager-pill-hover-bg: rgba(255, 255, 255, 0.2);
+  --ptu-pager-prev-on-bg: rgba(255, 255, 255, 0.12);
+  --ptu-pager-prev-on-hover: rgba(255, 255, 255, 0.2);
+  --ptu-pager-arrow-off: rgba(229, 234, 243, 0.32);
+  --ptu-pager-select-bg: rgba(255, 255, 255, 0.08);
+  --ptu-pager-option-bg: var(--ptu-tech-panel);
+  --ptu-pager-control-border: var(--ptu-tech-primary);
+  --ptu-pager-control-ring: rgba(66, 144, 247, 0.32);
+}
+
+/* 默认主题：当前页码与原生下拉选中蓝一致（#1890ff），不用品牌青 */
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-resources-pagination {
+  --ptu-pager-accent: #1890ff;
+  --ptu-pager-accent-ring: rgba(24, 144, 255, 0.38);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-total,
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-jump-row {
+  color: var(--ptu-pager-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-ellipsis {
+  color: var(--ptu-pager-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination select.ptu-pager-size {
+  color: var(--ptu-pager-text);
+  background-color: var(--ptu-pager-select-bg);
+  border: 1px solid var(--ptu-pager-control-border);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination select.ptu-pager-size:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ptu-pager-control-ring);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination select.ptu-pager-size option {
+  background-color: var(--ptu-pager-option-bg);
+  color: var(--ptu-pager-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-size-wrap svg {
+  color: var(--ptu-pager-text);
+  opacity: 0.92;
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-page--active {
+  background-color: var(--ptu-pager-accent);
+  color: #ffffff;
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-page:not(.ptu-pager-page--active) {
+  background-color: var(--ptu-pager-pill-bg);
+  color: var(--ptu-pager-pill-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-page:not(.ptu-pager-page--active):hover {
+  filter: brightness(0.98);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-resources-pagination .ptu-pager-page:not(.ptu-pager-page--active):hover {
+  filter: none;
+  background-color: var(--ptu-pager-pill-hover-bg);
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow--next:not(:disabled):hover {
+  filter: none;
+  background-color: var(--ptu-pager-pill-hover-bg);
+}
+
+/* 上一页：半透明深色条 + 浅色箭头；下一页：与未选页码同白块 */
+[data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow--prev:not(:disabled) {
+  background-color: var(--ptu-pager-prev-on-bg);
+  color: var(--ptu-pager-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow--prev:not(:disabled):hover {
+  background-color: var(--ptu-pager-prev-on-hover);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow--next:not(:disabled) {
+  background-color: var(--ptu-pager-pill-bg);
+  color: var(--ptu-pager-pill-text);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow--next:not(:disabled):hover {
+  filter: brightness(0.97);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination button.ptu-pager-arrow:disabled {
+  cursor: not-allowed;
+  background-color: transparent;
+  color: var(--ptu-pager-arrow-off);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-jump {
+  color: var(--ptu-pager-text);
+  background-color: var(--ptu-pager-select-bg);
+  border: 1px solid var(--ptu-pager-control-border);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-jump:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ptu-pager-control-ring);
+}
+
+[data-dashboard-shell] .ptu-resources-pagination .ptu-pager-jump::placeholder {
+  color: var(--ptu-pager-text);
+  opacity: 0.4;
+}
+
+/* ------------------------------------------------------------
+ * Default theme KPI colors (4 cards) - keep tech theme untouched
+ * ------------------------------------------------------------ */
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color {
+  color: rgba(255, 255, 255, 0.98);
+  border-color: rgba(255, 255, 255, 0.24) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.18),
+    0 10px 24px -16px rgba(15, 23, 42, 0.45);
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-primary {
+  background: linear-gradient(90deg, #5d93f6 0%, #4b7ee9 100%) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-success {
+  background: linear-gradient(90deg, #22cf73 0%, #16c561 100%) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-warning {
+  background: linear-gradient(90deg, #e7a947 0%, #e09a34 100%) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-purple {
+  background: linear-gradient(90deg, #a867ea 0%, #9156dc 100%) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color [data-slot="card-title"],
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color [data-slot="card-description"],
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color .text-muted-foreground,
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color .text-foreground {
+  color: rgba(255, 255, 255, 0.94) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color [data-slot="badge"][data-variant="outline"] {
+  border-color: rgba(255, 255, 255, 0.28) !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-color .bg-slate-100 {
+  background: rgba(255, 255, 255, 0.24) !important;
+}
+
+
+/* ------------------------------------------------------------
+ * Settings pages in technology theme (profile/billing/security/notifications)
+ * ------------------------------------------------------------ */
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] > div > h1 {
+  color: rgba(255, 255, 255, 0.99) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] > div > p {
+  color: rgba(242, 248, 255, 0.92) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card {
+  background: linear-gradient(135deg, rgba(12, 40, 98, 0.98) 0%, rgba(9, 31, 80, 0.99) 100%) !important;
+  border-color: rgba(118, 178, 255, 0.32) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    0 16px 42px -30px rgba(0, 0, 0, 0.78) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card > [data-slot="card-header"] {
+  background: transparent !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card > [data-slot="card-content"] {
+  background: transparent !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card > [data-slot="card-footer"] {
+  background: rgba(56, 107, 194, 0.28) !important;
+  border-top: 1px solid rgba(118, 178, 255, 0.22) !important;
+}
+
+/* Normalize inner blocks to blue palette (avoid gray cast) */
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .bg-slate-50\/60,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .bg-slate-50\/40,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .dark\:bg-slate-900\/40,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .dark\:bg-slate-900\/20 {
+  background: rgba(26, 71, 152, 0.30) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .bg-background\/70,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .bg-background\/80 {
+  background: rgba(9, 31, 80, 0.84) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .rounded-lg.border,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .rounded-xl.border {
+  background: rgba(9, 31, 80, 0.84) !important;
+  border-color: rgba(118, 178, 255, 0.28) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .text-muted-foreground {
+  color: rgba(238, 246, 255, 0.9) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card [data-slot="input"] {
+  border-color: rgba(74, 137, 220, 0.42) !important;
+  background: #0a2762 !important;
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card [data-slot="input"]:focus-visible {
+  border-color: #0abab5 !important;
+  box-shadow: 0 0 0 2px rgba(10, 186, 181, 0.2) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card input::placeholder {
+  color: rgba(235, 243, 255, 0.78) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card button[type="submit"] {
+  background: #0abab5 !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 12px -6px rgba(10, 186, 181, 0.75) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card button[type="submit"]:hover {
+  background: #089590 !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .border-red-200,
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-card .dark\:border-red-900\/50 {
+  border-color: rgba(248, 113, 113, 0.42) !important;
+}
+
+/* Keep destructive delete-account card text red in technology theme */
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-danger [data-slot="card-title"] {
+  color: rgb(239, 68, 68) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-settings-shell] .ptu-settings-danger [data-slot="card-description"] {
+  color: rgb(248, 113, 113) !important;
+}
+
+/* ------------------------------------------------------------
+ * KPI colored badge/button accents (late override)
+ * ------------------------------------------------------------ */
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] {
+  background: #5d93f6 !important;
+  border-color: #5d93f6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(93, 147, 246, 0.85) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] {
+  background: #24c667 !important;
+  border-color: #24c667 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(36, 198, 103, 0.85) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(227, 163, 58, 0.85) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(155, 99, 230, 0.85) !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] svg,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] svg,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] svg,
+html.ptu-theme-technology [data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] svg {
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange:hover {
+  background: #dd982e !important;
+  border-color: #dd982e !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-blue {
+  background: #5d93f6 !important;
+  border-color: #5d93f6 !important;
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-blue:hover {
+  background: #4b7ee9 !important;
+  border-color: #4b7ee9 !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-green {
+  background: #24c667 !important;
+  border-color: #24c667 !important;
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-green:hover {
+  background: #20be5f !important;
+  border-color: #20be5f !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+}
+
+html.ptu-theme-technology [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple:hover {
+  background: #8f56dd !important;
+  border-color: #8f56dd !important;
+}
+
+/* ------------------------------------------------------------
+ * KPI colored badge/button accents (default theme)
+ * ------------------------------------------------------------ */
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] {
+  background: #5d93f6 !important;
+  border-color: #5d93f6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(93, 147, 246, 0.75) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] {
+  background: #24c667 !important;
+  border-color: #24c667 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(36, 198, 103, 0.75) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(227, 163, 58, 0.75) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px -12px rgba(155, 99, 230, 0.75) !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-blue[data-slot="badge"][data-variant="outline"] svg,
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-green[data-slot="badge"][data-variant="outline"] svg,
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-orange[data-slot="badge"][data-variant="outline"] svg,
+html:not(.ptu-theme-technology) [data-dashboard-shell] .ptu-kpi-badge-purple[data-slot="badge"][data-variant="outline"] svg {
+  color: #ffffff !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-blue {
+  background: #5d93f6 !important;
+  border-color: #5d93f6 !important;
+  color: #ffffff !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-blue:hover {
+  background: #4b7ee9 !important;
+  border-color: #4b7ee9 !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-green {
+  background: #24c667 !important;
+  border-color: #24c667 !important;
+  color: #ffffff !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-green:hover {
+  background: #20be5f !important;
+  border-color: #20be5f !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange {
+  background: #e3a33a !important;
+  border-color: #e3a33a !important;
+  color: #ffffff !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-orange:hover {
+  background: #dd982e !important;
+  border-color: #dd982e !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple {
+  background: #9b63e6 !important;
+  border-color: #9b63e6 !important;
+  color: #ffffff !important;
+}
+
+html:not(.ptu-theme-technology) [data-dashboard-shell] [data-slot="button"].ptu-kpi-upgrade-purple:hover {
+  background: #8f56dd !important;
+  border-color: #8f56dd !important;
+}
+
+

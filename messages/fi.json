@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Kuva URL-osoitteeksi",
+    "logout": "Kirjaudu ulos",
+    "logoutFailed": "Uloskirjautuminen epäonnistui",
+    "switchLanguage": "Vaihda kieltä",
+    "tagline": "Muuta kuvat puhtaiksi, jaettaviksi linkeiksi sekunneissa",
+    "header": {
+      "home": "Etusivu",
+      "blog": "Blogi",
+      "subtitle": "Muuta kuvat jaettaviksi linkeiksi",
+      "prompt": "Pudota, liitä tai lataa — saat linkin välittömästi",
+      "circleCrop": "Pyöreä kuva",
+      "circleCropNav": "Ympyräleikkaus",
+      "roundedCorners": "Pyöristetyt nurkat",
+      "removeBackground": "Kuva Poista Tausta",
+      "removeBackgroundNav": "Poista Tausta",
+      "pricingNav": "Hinnat",
+      "comingSoon": "Tulossa pian.",
+      "history": "Lataushistoria",
+      "login": "Kirjaudu sisään",
+      "signUp": "Rekisteröidy",
+      "signOut": "Kirjaudu ulos",
+      "dashboard": "Kojelauta",
+      "settings": "Asetukset",
+      "tool": "Työkalut",
+      "pdfToUrlNav": "PDF URL:ksi",
+      "fileToUrlNav": "Tiedosto URL:ksi",
+      "artFightNav": "Profiilikortit"
+    },
+    "history": {
+      "drawerTitle": "Lataushistoria",
+      "hint": "Näytetään viimeisen viikon lataukset.",
+      "close": "Sulje",
+      "empty": "Ei vielä latauksia.",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "open": "Avaa uudessa välilehdessä"
+    },
+    "languageSelect": {
+      "title": "Valitse alueesi",
+      "subtitle": "Alueen valinta muuttaa kielen ja sisällön.",
+      "close": "Sulje"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Muuta kuvat puhtaiksi ja jaettaviksi linkeiksi.",
+        "line2": "Nopea, yksinkertainen, luotettava."
+      },
+      "partners": "Kumppanit",
+      "linksTitle": "Resurssit",
+      "productsTitle": "Tuotteet",
+      "nav": {
+        "home": "Etusivu",
+        "blog": "Blogi",
+        "pricing": "Hinnat",
+        "docs": "Dokumentaatio",
+        "status": "Tila",
+        "about": "Tietoa meistä",
+        "contact": "Ota yhteyttä"
+      },
+      "legal": {
+        "title": "Oikeudellinen",
+        "privacy": "Tietosuoja",
+        "terms": "Ehdot",
+        "cookie": "Evästekäytäntö"
+      },
+      "copyright": "© 2025 Photo To URL. Kaikki oikeudet pidätetään.",
+      "products": {
+        "editStamp": "Leimasin-editori"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Ilmainen",
+      "cdn": "CDN-linkit",
+      "nosignup": "Ei rekisteröitymistä"
+    },
+    "hero": {
+      "title1": "Ilmainen",
+      "title2": "Kuva URL-osoitteeksi",
+      "subtitle": "Lataa kuva → hanki linkki → liitä mihin tahansa",
+      "upload": "Lataa kuva",
+      "bullet": {
+        "fast": "Nopea jako",
+        "direct": "Suorat kuvalinkit",
+        "nosignup": "Ei vaadi tiliä",
+        "paste": "Liitä leikepöydältä"
+      }
+    },
+    "loginPrompt": {
+      "title": "Kirjaudu sisaan jatkaaksesi",
+      "description": "Olet saavuttanut ilmaisen latausrajan. Kirjaudu sisään tallentaaksesi historiasi ja hallitaksesi tiedostojasi. Korkeammat rajat saatavilla Pro-suunnitelmissa.",
+      "benefits": "Miksi rekisteroitya?",
+      "benefit1": "Taydellinen lataushistoria - jarjestetty, tarkka ja aina saatavilla",
+      "benefit2": "Paasy kaikkiin premium-muokkaustyokaluihin",
+      "benefit3": "Pilvitallennus lataushistorialla",
+      "login": "Kirjaudu / Rekisteröidy",
+      "later": "Myohemmin"
+    },
+    "upgradePrompt": {
+      "title": "Paivittainen raja saavutettu",
+      "description": "Olet kayttanyt kaikki taman paivan lataukset. Palaa huomenna! Lisaa premium-palveluita tulossa pian.",
+      "comingSoon": "Pysy kuulolla uusista palveluista",
+      "goDashboard": "Näytä",
+      "later": "Myohemmin"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Automaattinen esittely",
+      "idleTitle": "Vedä ja pudota kuvasi",
+      "idleSubtitle": "Katso miten se toimii: lataus → linkki → kopiointi.",
+      "processing": "Optimoidaan ja ladataan...",
+      "doneTitle": "Valmis jaettavaksi",
+      "doneSubtitle": "Linkkisi on valmis välitöntä käyttöä varten.",
+      "thanksForWatching": "Kiitos katselusta"
+    },
+    "upload": {
+      "title": "Pudota kuva tai klikkaa valitaksesi",
+      "hint": "JPG, PNG, WEBP, GIF enintään 2MB (10 latausta/päivä ilmaiseksi). Vedä, klikkaa tai liitä kuvakaappauksia.",
+      "orDrop": "tai pudota tiedosto",
+      "samplesTitle": "Eikö sinulla ole kuvaa? Kokeile näitä:",
+      "policy": "Lataamalla kuvan hyväksyt <privacy>tietosuojaselosteemme</privacy> ja <terms>käyttöehtomme</terms>.",
+      "clear": "Tyhjennä"
+    },
+    "result": {
+      "error": "Lataus epäonnistui. Yritä uudelleen.",
+      "fileTooLarge": "Tiedosto on liian suuri. Pakettisi sallii enintaan {maxMb} Mt per tiedosto.",
+      "dailyLimitReached": "Päivittäinen raja täynnä ({limit} per päivä). Yritä huomenna uudelleen.",
+      "storageLimitReached": "Tallennustila täynnä ({used} / {limit}). Lisää tallennustila vaihtoehtoja tulossa pian!",
+      "generated": "Luotu linkki:",
+      "open": "Avaa uudessa välilehdessä",
+      "placeholder": "Ei linkkiä vielä. Lataa kuva luodaksesi URL-osoitteen.",
+      "savePrompt": "Tallenna linkki haluamassasi muodossa",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "saveHint": "Tallenna tämä linkki, jos tarvitset sitä myöhemmin",
+      "saveHintLoggedIn": "Tallennettu paneeliin",
+      "tryPrefix": "Kokeile"
+    },
+    "benefits": {
+      "title": "Miksi valita Kuva URL-osoitteeksi",
+      "subtitle": "Nopeus, puhtaat linkit ja ei turhaa säätöä. — Ilmainen kokeilu: 10 latausta/päivä, 2MB per tiedosto",
+      "items": {
+        "fast": {
+          "title": "Nopea jakaminen",
+          "desc": "Lataa ja hanki linkki sekunneissa ilman välivaiheita."
+        },
+        "direct": {
+          "title": "Suorat URL-osoitteet",
+          "desc": "Puhtaat linkit, jotka toimivat HTML-, Markdown- ja chat-sovelluksissa."
+        },
+        "nosignup": {
+          "title": "Ei rekisteröitymistä",
+          "desc": "Ilmainen kokeilu: 5 latausta/päivä, 2MB per tiedosto — ei rekisteröitymistä."
+        }
+      }
+    },
+    "how": {
+      "title": "Miten se toimii",
+      "step1": "1) Lisää kuva (vedä, liitä tai valitse tiedosto).",
+      "step2": "2) Me isännöimme sen ja annamme sinulle jaettavan linkin.",
+      "step3": "3) Kopioi ja jaa linkki asiakirjoissa, chateissa, prototyypeissä ja muualla.",
+      "note": "Linkki avautuu nopeasti dokumenteissa ja chateissa — voit myös ladata sen .txt-tiedostona."
+    },
+    "process": {
+      "title": "Kolmen vaiheen työnkulku",
+      "subtitle": "Vähennä vaivaa, pidä CTA näkyvissä, valmis sekunneissa.",
+      "steps": {
+        "1": {
+          "title": "Pudota tai liitä",
+          "desc": "Vedä tiedosto, liitä leikepöydältä tai selaa."
+        },
+        "2": {
+          "title": "Me hostaamme ja palautamme linkin",
+          "desc": "Hetkellinen URL kopioi/avaa/tallenna-toiminnoilla."
+        },
+        "3": {
+          "title": "Käytä missä tahansa",
+          "desc": "Käytä dokumenteissa, chateissa, tiketeissä, blogeissa tai prototyypeissä."
+        }
+      }
+    },
+    "features": {
+      "title": "Ominaisuudet",
+      "subtitle": "Selkeys ja nopeus: vähemmän kitkaa, enemmän jakamista.",
+      "items": {
+        "cdn": {
+          "title": "Suorat CDN-linkit",
+          "desc": "Puhtaat ja pysyvät osoitteet Markdown- ja HTML-käyttöön."
+        },
+        "save": {
+          "title": "Kopioi ja Tallenna",
+          "desc": "Kopioi, avaa tai tallenna .txt-tiedostona yhdellä klikkauksella."
+        },
+        "clipboard": {
+          "title": "Leikepöytä-ystävällinen",
+          "desc": "Liitä kuvakaappaukset suoraan ilman tiedostojen etsimistä."
+        },
+        "errors": {
+          "title": "Turvallinen ja Yksityinen",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Ei tiliä",
+          "desc": "Ilmainen kokeilu: 5 latausta/päivä, 2MB per tiedosto — ei rekisteröitymistä."
+        },
+        "r2": {
+          "title": "Nopea hosting",
+          "desc": "Linkit palvelevat nopean CDN:n kautta nopeaa latausta ja luotettavaa pääsyä varten."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Tiimit säästävät aikaa Kuva URL-osoitteeksi:lla",
+      "subtitle": "Sosiaalinen todiste riskin vähentämiseksi ja käyttöönoton nopeuttamiseksi.",
+      "items": {
+        "ops": {
+          "name": "Tuoteoperaatiot",
+          "quote": "Liitämme kuvakaappauksia tiketteihin ilman liitteiden tukkeutumista. Linkit pysyvät siisteinä."
+        },
+        "content": {
+          "name": "Sisältövastaava",
+          "quote": "Markdown-valmiit linkit pitävät dokumenttimme siisteinä ja julkaistavissa minuuteissa."
+        },
+        "support": {
+          "name": "Tuki",
+          "quote": "Selkeät virheet ja hetkelliset URL:t tekevät asiakkaiden ohjaamisesta helpon chatissa."
+        }
+      }
+    },
+    "cta": {
+      "title": "Muuta kuvat linkeiksi sekunneissa",
+      "subtitle": "Vedä, liitä tai lataa — kopioi linkki ja jaa se kaikkialla.",
+      "upload": "Lataa nyt",
+      "paste": "Liitä kuvakaappaus"
+    },
+    "longform": {
+      "title": "Miksi Kuva URL-osoitteeksi auttaa työnkulkua",
+      "p1": "Kuva URL-osoitteeksi on rakennettu luojille, markkinoinnille, tuelle, operaatioille ja kaikille, jotka tarvitsevat muuntaa kuvat puhtaiksi, luotettaviksi linkeiksi. Suoralla lataus→linkki-työnkululla vältyt raskaiden mediamanagerien käytöstä ja et tarvitse kirjautumista. Linkit ovat siistejä ja helppoja liittää chateihin, dokumentteihin, wikiin, virheraportteihin ja tiketteihin. Tiimit liikkuvat nopeammin jakamalla kuvakaappauksia heti· lisäksi ennustettavat URL:t auttavat automatiossa, QA:ssa ja kevyissä prototyypeissä.",
+      "p2": "Kokemus pysyy yksinkertaisena: pudota, liitä tai valitse tiedosto· saa linkki· jaa se. Ilman melua, ilman häiritseviä mainoksia, ilman esteitä. Sinä keskityt sisältöön, me hoidamme hostingin. Globaaleille tiimeille käyttöliittymä on saatavilla useilla kielillä pitäen tekstin selkeänä ja universaalina.",
+      "useCases": {
+        "title": "Käytännölliset käyttötapaukset",
+        "items": {
+          "1": "Tuote ja suunnittelu: jaa UI-kuvakaappauksia ja nopeita muistiinpanoja ilman raskaita työkaluja.",
+          "2": "Tuki ja QA: liitä toistettavia kuvakaappauksia tiketteihin ja chateihin puhtailla linkeillä.",
+          "3": "Dokumentit ja blogit: upota kuvia Markdown/HTML/CMS-edittoreihin ennustettavilla URL:illa.",
+          "4": "Myynti ja CS: jaa POC-kuvakaappauksia tai kävelyt läpi sähköpostilla tai viestinnällä.",
+          "5": "Engineering handoff: jaa todisteet ja regressiovertailut kevyellä tavalla.",
+          "6": "Yhteisö ja sosiaalinen: liitä linkkejä Discord/Slack/Teams/X/foorumeihin ilman raskaita esikatseluja."
+        }
+      },
+      "flow": {
+        "title": "Miten työnkulku toimii päästä päähän",
+        "p1": "1) Valitse kuva: vedä ja pudota, liitä leikepöydältä tai selaa. PNG, JPG, WEBP, GIF jopa 2MB ilmaisessa suunnitelmassa (10 latausta/päivä). 2) Lataamme ja palautamme suoran linkin kopioi/avaa/tallenna-toiminnoilla (.txt). 3) Käytä linkkiä blogeissa, dokumenteissa, tiketeissä, chateissa, prototyypeissä ja muualla.",
+        "p2": "Jokainen vaihe on viritetty selkeyttä varten: näkyvä tila, ystävälliset virheet ja vahvistavat painikkeet. Kun CDN on käytössä, linkit palvelevat CDN-verkkotunnuksesta; kuvasi tallennetaan turvallisesti our hosting infrastructure:een."
+      },
+      "best": {
+        "title": "Parhaat käytännöt puhtaammille linkeille",
+        "items": {
+          "1": "Pidä tiedostonimet merkityksellisinä ennen latausta· ne pysyvät osana URL:ia ja auttavat tulevaisuuden hakuja.",
+          "2": "Käytä WEBP:tä tai optimoituja JPG/PNG-tiedostoja kevyempiin kuormiin, jos odotat runsasta jakamista.",
+          "3": "Kopioi linkki suoraan luomisen jälkeen välttääksesi vanhentuneet leikepöydän merkinnät.",
+          "6": "Tallenna .txt-muodossa tavallisia tekstilinkkejä varten, jotka ovat valmiita kopiointiin ja käyttöön."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-kohokohdat",
+        "p1": "Integroimme our hosting infrastructure:n syvällisesti, tarjoten käyttäjäystävällisempiä kiintiöitä ja hallintamahdollisuuksia, valinnaisella tiimiyhteistyöllä, pääsynhallinnalla ja linkkikohtaisella analytiikalla. Suunnittelemme käynnistävämme ominaisuuksia kuten yhden napsautuksen poisto, ennalta asetetut linkkityylit ja organisaatiotason tallennuskauhat. Samaan aikaan parannamme ja hienostamme jatkuvasti sivutuotteita: ympyräleikkaus-työkalua, pyöristettyjä kulmia-työkalua ja taustanpoisto-työkalua, tehdäksemme kuvankäsittelystä kätevämpää."
+      },
+      "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "items": {
+          "1": {
+            "q": "Onko se ilmainen?",
+            "a": "Kyllä: tarjoamme ilmaisen tason. Lähetys→linkki on ilmainen ilmaisen version rajoissa (tallennustila, päivittäiset lähetykset, tiedostokoko). Halutessasi korkeammat rajat valitset maksullisen tason: linkit isännöidään CDN:ssä (CDN) korkeammilla kiintiöillä ja suuremmilla tiedoston enimmäiskooilla."
+          },
+          "2": {
+            "q": "Mitkä muodot tuetaan?",
+            "a": "Tällä hetkellä tuetaan PNG-, JPG-, WEBP- ja GIF-tiedostoja kulloistenkin tiedostokokorajojen puitteissa. Lisää muotoja voidaan lisätä tarpeen mukaan."
+          },
+          "3": {
+            "q": "Voinko upottaa Markdowniin tai HTML:ään?",
+            "a": "Kyllä. Kopioi linkki suoraan tai tallenna se yhdellä napautuksella .txt-tiedostona ja käytä sitä tarvitsemassasi paikassa — Markdown, HTML, asiakirjat tai CMS."
+          },
+          "4": {
+            "q": "Pidättekö tiedostoni julkisina?",
+            "a": "Linkit ovat jaettavissa. Kun CDN on käytössä, tiedostot palvellaan CDN-verkkotunnuksen kautta. Jos tallennustila on tilapäisesti poissa käytöstä, näytämme selkeän huoltoviestin."
+          },
+          "5": {
+            "q": "Tuleeko tilejä tai tiimejä?",
+            "a": "Kyllä. Ensin keskitymme yksinkertaiseen ja luotettavaan lataukseen ja jakamiseen; sen jälkeen lisäämme asteittain tiimitiloja, käyttöoikeuksien hallintaa ja käytön analyysiä."
+          },
+          "6": {
+            "q": "Voinko saada hyvityksen maksun jälkeen?",
+            "a": "Emme yleensä hyvitä maksuja, kun palvelu on edelleen saatavilla normaaliin käyttöön. Jos et voi käyttää palvelua maksetun jakson aikana meidän puolellamme olevan ongelman vuoksi, käsittelemme tapauksesi tarkistuksen jälkeen ja tarvittaessa sovimme kanssasi jatkosta."
+          },
+          "7": {
+            "q": "Miten peruutan uudistuksen?",
+            "a": "Uudistus veloitetaan automaattisesti valtuuttamaltasi kortilta. Estääksesi tulevat veloitukset, peruuta suoraveloitus tai toistuva laskutus kortin myöntäjältä (sovellus, verkkopankki tai asiakaspalvelu)."
+          },
+          "8": {
+            "q": "Kuinka kauan voin käyttää palvelua peruutuksen jälkeen?",
+            "a": "Yleensä voit jatkaa palvelun käyttöä jo maksetun jakson loppuun asti. Sen jälkeen uusia veloituksia ei tehdä ja edut päättyvät kyseisen jakson mukana."
+          }
+        },
+        "contactNote": "Edellä mainituissa ja muissa asioissa käytä tämän sivuston «Ota yhteyttä» -sivua tai kirjoita osoitteeseen <email>support@phototourl.com</email>. Pyrimme vastaamaan 1–2 arkipäivän kuluessa."
+      },
+      "about": {
+        "title": "Tietoja Photo To URL:stä",
+        "p1": "PhotoToURL on ilmainen kuva-URL-muunnin ja linkkigeneraattori, jonka avulla voit ladata kuvia ja luoda heti jaettavia kuvalinkkejä. Muunna JPG, PNG, WEBP ja muut formaatit helposti suoriksi kuva-URL-osoitteiksi nopeaan verkkojakamiseen.",
+        "p2": "Tarvitsetpa nopean photo to URL -muunnoksen tai ilmaisen kuvahostingin CDN:llä, PhotoToURL tekee siitä yksinkertaista ja luotettavaa. Lataa kuva ja saat suoran linkin sekunneissa. Ilmainen suunnitelma: 10 latausta/päivä, 2MB per tiedosto — korkeammat rajat ks. Hinnoittelu."
+      }
+    },
+    "selectRegion": {
+      "title": "Valitse alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    }
+  },
+  "seo": {
+    "keywords": "kuva url:ksi,kuva url:ksi,kuvan linkkigeneraattori,muunna kuva linkiksi,ilmainen kuvahosting,cdn kuva",
+    "home": {
+      "title": "Kuva URL-osoitteeksi Muunnin | Muuta kuvat jaettaviksi linkeiksi",
+      "description": "Ilmainen kuvahosting: muunna valokuvat jaettaviksi URL:eiksi. JPG, PNG, WEBP, GIF jopa 2MB, 10 latausta/päivä ilmaisessa suunnitelmassa. Leikepöytä, nopea CDN."
+    }
+  },
+  "images": {
+    "previewAlt": "Ladatun kuvan esikatselu",
+    "animatingSampleAlt": "Esimerkkikuva, jota käytetään latausesittelyssä",
+    "sampleThumbAlt": "Esimerkki latauskuva",
+    "useSampleAria": "Käytä tätä esimerkkikuvaa",
+    "howIllustrationAlt": "Kuvitus, joka näyttää, miten Kuva URL-osoitteeksi toimii",
+    "heroDropTitle": "Vedä kuva tähän",
+    "heroDropSubtitle": "Parannamme ja hostaamme sen, sitten palautamme puhtaan linkin.",
+    "heroDropBadge": "Vedä tai klikkaa (JPG/PNG, jopa 2MB)",
+    "logoAlt": "Kuva URL-osoitteeksi logo"
+  },
+  "circleCrop": {
+    "title": "Pyöreä kuva",
+    "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - täydellinen profiilikuviin.",
+    "upload": "Lataa kuva",
+    "processing": "Käsitellään...",
+    "download": "Lataa pyöreä kuva",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "errorUploadFirst": "Lataa ensin kuva.",
+    "page": {
+      "title": "Pyöreä Kuva - Ilmainen Verkkotyökalu Pyöreiden Kuvien Rajaukseen",
+      "description": "Pyöreä Kuva on ilmainen verkkotyökalu suorakulmaisten kuvien muuntamiseen täydellisiksi ympyrän muotoisiksi. Työkalumme auttaa sinua rajaamaan kuvia ympyrän muotoon hetkessä, ilman rekisteröitymistä. Tarvitsetpa pyöreää profiilikuvaa, ympyrän muotoista kuvaa sosiaaliseen mediaan tai pyöristettyä kuvaa design-projekteihin, pyöreä kuvan rajaus -työkalumme tekee siitä yksinkertaista ja helppoa.",
+      "sectionSubtitle": "Rajaa mika tahansa kuva taydelliseksi ympyraksi - ihanteellinen profiilikuville, some-avatareille ja suunnitteluprojekteihin."
+    },
+    "seo": {
+      "title": "Ympyräleikkaus Työkalu | Ilmainen Online Pyöreä Kuvan Leikkuri",
+      "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten.",
+      "keywords": "ympyräkuva leikkaus, leikkaa ympyräkuva, ympyräleikkaus työkalu, ympyräleikkaus verkossa"
+    },
+    "selectRegion": {
+      "title": "Valitse alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    }
+  },
+  "roundedCorners": {
+    "title": "Kuva pyöristetyillä nurkilla",
+    "description": "Ilmainen verkko-työkalu pyöristetyille nurkille – lisää helposti pyöristetyt nurkat mihin tahansa kuvaan, täydellinen sovelluksen kuvakkeille, profiilikuville ja suunnitteluprojekteille.",
+    "upload": "Lataa kuva",
+    "download": "Lataa",
+    "radiusLabel": "Säde (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Käsitellään...",
+    "errorUploadFirst": "Lataa ensin kuva.",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "page": {
+      "title": "Kuva pyöristetyillä nurkilla – Ilmainen verkko-työkalu",
+      "description": "Kuva pyöristetyillä nurkilla on ilmainen verkko-työkalu pyöristettyjen nurkien lisäämiseen mihin tahansa kuvaan. Luo sovitusmaisia kuvakkeita, pehmeäreunaisia kuvia someen tai pikkukuvia säädettävällä säteellä ja zoomilla. Ei rekisteröitymistä – lataa, säädä, lataa.",
+      "sectionSubtitle": "Lisaa pyoristetyt kulmat mihin tahansa kuvaan - sopii hyvin sovellusikoneihin, someen ja pikkukuviin."
+    },
+    "seo": {
+      "title": "Pyöristetyt Nurkka Työkalu | Ilmainen verkko-työkalu",
+      "description": "Ilmainen työkalu pyöristettyjen nurkien lisäämiseen kuviin – sovelluskuvikkeet, profiilikuvat ja design-projektit.",
+      "keywords": "pyöristetyt nurkat, kuva pyöristetyt nurkat, pyöristetyt nurkat työkalu, pyöristetyt nurkat verkossa"
+    },
+    "selectRegion": {
+      "title": "Valitse alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    }
+  },
+  "removeBackground": {
+    "title": "Kuva Poista Tausta",
+    "description": "Ilmainen verkossa toimiva AI-taustanpoistotyökalu, poista tausta helposti mistä tahansa kuvasta - täydellinen tuotekuville, muotokuville ja suunnitteluhankkeille.",
+    "upload": "Lataa Kuva",
+    "download": "Lataa",
+    "processing": "Käsitellään...",
+    "processingModelLoading": "Ladataan AI-mallia, ensimmäinen käyttö voi kestää 10-30 sekuntia, odota...",
+    "processingImage": "Käsitellään kuvaa, odota...",
+    "errorUploadFirst": "Lataa kuva ensin.",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "errorProcessing": "Kuvan käsittely epäonnistui. Yritä uudelleen.",
+    "errorTimeout": "Käsittelyaika loppui, kuva voi olla liian suuri tai verkko on hidas, kokeile pienempää kuvaa tai yritä myöhemmin uudelleen.",
+    "errorMemory": "Riittämätön muisti, kokeile pienempää kuvaa.",
+    "errorGeneric": "Käsittely epäonnistui: {error}. Yritä uudelleen tai kokeile toista kuvaa.",
+    "errorFileTooLarge": "Kuvatiedosto on liian suuri, valitse kuva, joka on pienempi kuin 10MB.",
+    "errorModelLoad": "AI-mallikirjaston lataaminen epäonnistui, päivitä sivu ja yritä uudelleen.",
+    "errorPageHidden": "Sivu on vaihdettu, lataa kuva uudelleen käsiteltäväksi.",
+    "page": {
+      "title": "Kuva Poista Tausta - Ilmainen Verkossa Toimiva AI Taustanpoistotyökalu",
+      "description": "Kuva Poista Tausta on ilmainen verkossa toimiva AI-käyttöinen työkalu taustojen poistamiseen mistä tahansa kuvasta. Luo läpinäkyviä PNG-kuvia heti kehittyneellä taustanpoistoteknologiallamme. Täydellinen tuotekuville, muotokuville, verkkokaupalle ja suunnitteluhankkeille. Rekisteröitymistä ei vaadita - lataa, käsittele ja lataa sekunneissa.",
+      "sectionSubtitle": "AI-taustanpoisto - luo lapinakyvia PNG-kuvia mista tahansa kuvasta sekunneissa."
+    },
+    "seo": {
+      "title": "Taustanpoistotyökalu | Ilmainen Verkossa Toimiva AI Taustanpoistotyökalu",
+      "description": "Ilmainen verkossa toimiva AI-työkalu taustan poistamiseen mistä tahansa kuvasta - täydellinen tuotekuville, muotokuville ja suunnitteluhankkeille.",
+      "keywords": "poista tausta, taustanpoistotyökalu, läpinäkyvä tausta, ai taustanpoisto"
+    },
+    "selectRegion": {
+      "title": "Valitse Alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF URL:ksi | PDF-palvelu ja jaettavat HTTPS-linkit",
+      "description": "Lataa PDF-tiedostoja tilillesi ja saat vakaan HTTPS-linkin — katso, lataa tai kopioi linkki milloin tahansa tilin hallintapaneelista.",
+      "keywords": "pdf url,pdf hosting,pdf jakaminen,pdf lataus,suora linkki,dokumenttilinkki"
+    },
+    "tool": {
+      "heroTitle": "PDF URL:ksi",
+      "heroSubtitle": "Muunna PDF-tiedostot jaettaviksi HTTPS-linkeiksi tilisi alla. Jokaisen latauksen jälkeen avaa hallintapaneeli kopioidaksesi linkin, esikatsellaksesi tai ladataksesi tiedoston.",
+      "featureFastTitle": "Nopea lataus",
+      "featureFastDesc": "Vedä ja pudota PDF tai valitse tiedosto — sekunneissa saat linkin CDN:n kautta.",
+      "featureHostingTitle": "Henkilökohtainen hosting",
+      "featureHostingDesc": "Jokainen tiedosto tallennetaan omaan pilvitilaasi ja dokumenttikirjastoosi — ei kertakäyttöistä anonyymiä linkkiä.",
+      "featureLinkTitle": "Vakaat, jaettavat linkit",
+      "featureLinkDesc": "Jokainen lataus palauttaa siistin URL-osoitteen liitettäväksi minne tahansa. Linkki toimii, kunnes poistat tiedoston hallintapaneelista.",
+      "featureDashboardTitle": "Kaikki yhdessä paikassa",
+      "featureDashboardDesc": "Kirjautumisen jälkeen avaa hallintapaneeli nähdäksesi kaikki PDF:t: kopioi linkki uudelleen, avaa uudessa välilehdessä tai lataa alkuperäinen.",
+      "dropzoneTitle": "Vedä PDF tähän",
+      "dropzoneHint": "Vain PDF",
+      "dropzoneFootnote": "Latauksen jälkeen voit milloin tahansa palata hallintapaneeliin kopioidaksesi linkin tai ladataksesi tiedoston.",
+      "browse": "Valitse tiedosto",
+      "selectedFileLabel": "Valittu tiedosto",
+      "removeSelectedFile": "Poista tiedosto",
+      "uploadBtn": "Lataa ja hae linkki",
+      "uploading": "Ladataan…",
+      "loginRequiredTitle": "Kirjaudu sisään ladataksesi PDF:n",
+      "loginRequiredDescription": "Kirjaudu ensin sisään. Hosting on sidottu tiliisi; latauksen jälkeen voit kopioida linkkejä, ladata ja hallita kaikkea hallintapaneelissa.",
+      "loginRequiredDetail": "Kirjautumisen jälkeen jokainen lataus näkyy samassa kohdassa paneelissa: kopioi suora linkki yhdellä klikkauksella, avaa uudessa välilehdessä, lataa alkuperäiset, hae ja suodata tyypin mukaan tarvittaessa, poista tai lataa uudelleen — auttaa pitämään asiakirjat yksityisinä.",
+      "loginCta": "Kirjaudu",
+      "signUpCta": "Luo tili",
+      "resultTitle": "PDF-linkkisi",
+      "resultDashboardHint": "Tälle tiedostolle avaa hallintapaneeli milloin tahansa: kopioi URL, avaa uudessa välilehdessä tai lataa PDF.",
+      "dashboardCta": "Avaa hallintapaneeli",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "open": "Avaa uudessa välilehdessä",
+      "reset": "Lataa toinen",
+      "errorUnauthorized": "Kirjaudu sisään ennen PDF:n latausta.",
+      "errorBadType": "Valitse PDF-tiedosto.",
+      "howTitle": "Näin se toimii",
+      "step1Title": "1. Valitse PDF",
+      "step1Desc": "Valitse tiedosto laitteeltasi tai vedä se latausalueelle.",
+      "step2Title": "2. Lataa kirjastoosi",
+      "step2Desc": "Tallennamme PDF:n pilveesi ja näytämme sen hallintapaneelissa, sitten palautamme suoran HTTPS-URL:n.",
+      "step3Title": "3. Jaa ja palaa myöhemmin",
+      "step3Desc": "Jaa linkki sähköpostilla tai chatilla. Tarvittaessa avaa hallintapaneeli kopioidaksesi saman linkin, avataksesi sen tai ladataksesi tiedoston."
+    },
+    "page": {
+      "sectionTitle": "Asiakirjasi yhdessä paikassa",
+      "sectionLead": "Niille, jotka haluavat oikean PDF-hostauksen kirjaston kanssa — lataa kerran, säilytä tililläsi ja palaa milloin tahansa.",
+      "bullet1": "Jokainen ladattu PDF näkyy samalla listalla hallintapaneelissa, jotta näet mitä olet jakanut.",
+      "bullet2": "Henkilökohtainen hosting: tiedostot tilisi alla, palveltu HTTPS:n kautta ja säilytetty kirjastossa.",
+      "bullet3": "Toiminnot aina käsillä: kopioi julkinen linkki, avaa selaimessa tai lataa alkuperäinen PDF.",
+      "bullet4": "Sama URL toimii niin kauan kuin tiedosto on olemassa; poiston jälkeen hallintapaneelista linkki ei enää tarjoa kyseistä tiedostoa.",
+      "footnote": "Poista hallintapaneelista tiedostot, joita et enää tarvitse; linkki lakkaa toimimasta."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Tiedosto URL:ksi | Office-asiakirjat ja HTTPS-linkit",
+      "description": "Lataa PDF-, Word-, PowerPoint- tai Excel-tiedostoja tilillesi ja saat vakaan HTTPS-linkin — katso, lataa tai kopioi linkki milloin tahansa hallintapaneelista.",
+      "keywords": "tiedosto url,asiakirjalinkki,office jakaminen,docx pptx xlsx lataus,asiakirjahosting"
+    },
+    "tool": {
+      "heroTitle": "Tiedosto URL:ksi",
+      "heroSubtitle": "Muunna toimistoasiakirjat jaettaviksi HTTPS-linkeiksi tilisi alla. Tuetut muodot: PDF, Word, PowerPoint ja Excel.",
+      "featureFastTitle": "Nopea lataus",
+      "featureFastDesc": "Vedä ja pudota tuettu tiedosto tai valitse se — sekunneissa saat linkin CDN:n kautta.",
+      "featureHostingTitle": "Henkilökohtainen hosting",
+      "featureHostingDesc": "Jokainen lataus tallennetaan pilveesi ja samaan henkilökohtaiseen kirjastoon kuin muilla sivuilla tehdyt lataukset.",
+      "featureLinkTitle": "Vakaat, jaettavat linkit",
+      "featureLinkDesc": "Jokainen lataus palauttaa siistin URL-osoitteen. Linkki toimii, kunnes poistat tiedoston hallintapaneelista.",
+      "featureDashboardTitle": "Kaikki yhdessä paikassa",
+      "featureDashboardDesc": "Kirjautumisen jälkeen avaa hallintapaneeli kopioidaksesi linkin uudelleen, avataksesi uudessa välilehdessä tai ladataksesi.",
+      "dropzoneTitle": "Vedä tiedosto tähän",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Latauksen jälkeen voit milloin tahansa palata hallintapaneeliin kopioidaksesi linkin tai ladataksesi tiedoston.",
+      "browse": "Valitse tiedosto",
+      "selectedFileLabel": "Valittu tiedosto",
+      "removeSelectedFile": "Poista tiedosto",
+      "uploadBtn": "Lataa ja hae linkki",
+      "uploading": "Ladataan…",
+      "loginRequiredTitle": "Kirjaudu sisään ladataksesi tiedostoja",
+      "loginRequiredDescription": "Kirjaudu ensin sisään. Hosting on sidottu tiliisi; latauksen jälkeen voit kopioida linkkejä, ladata ja hallita kaikkea hallintapaneelissa.",
+      "loginRequiredDetail": "Kirjautumisen jälkeen jokainen lataus näkyy samassa kohdassa paneelissa: kopioi suora linkki yhdellä klikkauksella, avaa uudessa välilehdessä, lataa alkuperäiset, hae ja suodata tyypin mukaan tarvittaessa, poista tai lataa uudelleen — auttaa pitämään asiakirjat yksityisinä.",
+      "loginCta": "Kirjaudu",
+      "signUpCta": "Luo tili",
+      "resultTitle": "Tiedostolinkkisi",
+      "resultDashboardHint": "Tälle tiedostolle avaa hallintapaneeli milloin tahansa: kopioi URL, avaa uudessa välilehdessä tai lataa alkuperäinen.",
+      "dashboardCta": "Avaa hallintapaneeli",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "open": "Avaa uudessa välilehdessä",
+      "reset": "Lataa toinen",
+      "errorUnauthorized": "Kirjaudu sisään ennen tiedostojen latausta.",
+      "errorBadType": "Valitse PDF-, Word-, PowerPoint- tai Excel-tiedosto.",
+      "howTitle": "Näin se toimii",
+      "step1Title": "1. Valitse tiedosto",
+      "step1Desc": "Valitse tuettu asiakirja laitteeltasi tai vedä se latausalueelle.",
+      "step2Title": "2. Lataa kirjastoosi",
+      "step2Desc": "Tallennamme tiedoston pilveesi ja näytämme sen hallintapaneelissa, sitten palautamme suoran HTTPS-URL:n.",
+      "step3Title": "3. Jaa ja palaa myöhemmin",
+      "step3Desc": "Jaa linkki sähköpostilla tai chatilla. Tarvittaessa avaa hallintapaneeli kopioidaksesi saman linkin, avataksesi sen tai ladataksesi tiedoston."
+    },
+    "page": {
+      "sectionTitle": "Lyhyesti",
+      "sectionLead": "Valitse tiedosto, lataa ja kopioi linkki — tarvittaessa avaa hallintapaneeli kopioidaksesi uudelleen tai ladataksesi alkuperäisen.",
+      "bullet1": "Tuetut muodot: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Vedä ja pudota tai selaa tiedosto; kun lataus valmis, näytämme kopioitavan HTTPS-linkin.",
+      "bullet3": "Liitä linkki sähköpostiin, chattiin tai asiakirjoihin — vastaanottajat avaavat selaimessa.",
+      "bullet4": "Tiedostot pysyvät tililläsi; avaa hallintapaneeli kopioidaksesi saman linkin tai ladataksesi alkuperäisen.",
+      "bullet5": "Vain PDF? Käytä myös sivua «PDF URL:ksi» lyhyempään työnkulkuun.",
+      "footnote": "Poista tiedosto hallintapaneelista, kun et enää tarvitse sitä; linkki lakkaa toimimasta."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogi | Kuva URL-osoitteeksi",
+      "description": "Artikkelit kuvahostauksesta, linkkien jakamisesta ja suorituskyvyn vinkit."
+    },
+    "page": {
+      "title": "Blogi",
+      "description": "Uusimmat artikkelit, oppaat ja näkemykset kuvahostauksesta, CDN:stä, linkkien jakamisesta, ympyräleikkauksesta, pyöristetyistä nurkista ja taustan poistamisesta.",
+      "stayTuned": "Pysy kuulolla oppaista:",
+      "guides": {
+        "1": "Parhaat käytännöt kuvan muuntamiseen URL:ksi",
+        "2": "Kuinka käyttää suoria kuvan linkkejä blogeissa ja dokumenteissa",
+        "3": "Suorituskyky ja välimuisti staattisille varoille"
+      },
+      "readMore": "Lue lisää",
+      "min": "min",
+      "backToBlog": "Takaisin blogiin",
+      "minRead": "min lukemista",
+      "author": "Kirjoittaja",
+      "viewMoreArticles": "Näytä lisää artikkeleita",
+      "tags": "Tagit:",
+      "about": {
+        "title": "Tietoa Kuva URL-osoitteeksi -tiimistä",
+        "subtitle": "Toimituskunta",
+        "description": "Rakennamme ja ylläpidämme Kuva URL-osoitteeksi:ia ja kirjoitamme käytännön oppaita kuvan optimointiin ja verkkosuorituskykyyn.",
+        "website": "Verkkosivusto",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Näytä kaikki julkaisut"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Kuinka muuntaa kuva URL-osoitteeksi: Täydellinen opas",
+        "description": "Opi kaikki mitä sinun tarvitsee tietää kuvien muuntamisesta jaettaviksi URL-osoitteiksi. Tämä kattava opas käsittelee menetelmiä, parhaita käytäntöjä ja vinkkejä kuvahostaukseen ja linkkien jakamiseen.",
+        "content": "# Kuinka muuntaa kuva URL-osoitteeksi: Täydellinen opas\n\nKuvien muuntaminen jaettaviksi URL-osoitteiksi on tullut välttämättömäksi taidoksi nykypäivän digitaalisessa maailmassa. Olipa olet bloggaaja, kehittäjä tai sisällöntuottaja, ymmärtäminen siitä, miten muuntaa kuvasi suoriksi linkeiksi, voi merkittävästi parantaa työnkulkusi ja sisällönjakokykysi.\n\n## Miksi muuntaa kuvat URL-osoitteiksi?\n\nEnnen kuin sukellamme menetelmiin, ymmärretään, miksi kuvien muuntaminen URL-osoitteiksi on hyödyllistä:\n\n### 1. **Helppo jakaminen**\nSuorat kuvan URL-osoitteet antavat sinun jakaa kuvia heti lataamatta tai lähettämättä tiedostoja uudelleen. Kopioi vain URL-osoite ja liitä se minne tahansa - sähköposteihin, asiakirjoihin tai sosiaalisen median julkaisuihin.\n\n### 2. **Parempi suorituskyky**\nSuorien kuvan linkkien käyttäminen vähentää pääpalvelimesi kuormaa. Kun kuvat isännöidään CDN:ssä (Content Delivery Network), ne latautuvat nopeammin käyttäjille ympäri maailmaa.\n\n### 3. **Joustavuus**\nKuvan URL-osoitteet voidaan upottaa HTML:ään, Markdowniin tai käyttää API:ssa. Tämä joustavuus tekee niistä täydelliset sekä kehittäjille että sisällöntuottajille.\n\n### 4. **Tallennustehokkuus**\nSen sijaan, että tallentaisit kuvia paikallisesti, voit käyttää pilvipalveluratkaisuja, jotka tarjoavat suoria URL-osoitteita, säästäen arvokasta palvelintilaa.\n\n## Menetelmät kuvien muuntamiseksi URL-osoitteiksi\n\n### Menetelmä 1: Kuva URL-osoitteeksi -palvelun käyttäminen\n\n**Kuva URL-osoitteeksi** on ilmainen, käyttäjäystävällinen palvelu, joka tekee kuvan URL-osoitteeksi muuntamisen vaivattomaksi:\n\n1. **Vieraile verkkosivustolla**: Siirry Kuva URL-osoitteeksi -palveluun\n2. **Lataa kuvasi**: Vedä ja pudota kuvatiedostosi tai napsauta selataksesi\n3. **Hanki URL-osoitteesi**: Kun olet ladannut, saat suoran linkin kuvaasi\n4. **Kopioi ja käytä**: Kopioi URL-osoite ja käytä sitä missä tahansa tarvitset\n\n**Edut:**\n- ✅ Rekisteröitymistä ei vaadita\n- ✅ Nopea lataus ja käsittely\n- ✅ Suorat CDN-linkit optimaaliseen suorituskykyyn\n- ✅ Tuki useille kuvamuodoille (JPG, PNG, WEBP, GIF)\n- ✅ 10 latausta/päivä, 2MB per tiedosto\n\n### Menetelmä 2: Pilvipalvelut\n\nSuositut pilvipalvelut tarjoavat kuvan isännöintiä suoralla URL-osoitteen pääsyllä:\n\n**Google Cloud Storage / AWS S3:**\n- Lataa kuvat ämpäriisi\n- Aseta sopivat käyttöoikeudet\n- Pääsy kuvien suoriin URL-osoitteisiin\n- Määritä CDN parempaan suorituskykyyn\n\n**Edut:**\n- Täysi kontrolli kuviesi yli\n- Skaalautuvat tallennusratkaisut\n- Ammattimainen infrastruktuuri\n\n### Menetelmä 3: Kuvan isännöintialustat\n\nDedikoidut kuvan isännöintialustat tarjoavat erikoispalveluja:\n\n- **Imgur**: Suosittu nopeaan kuvan jakamiseen\n- **Cloudinary**: Edistyneet kuvan manipulaatioominaisuudet\n- **ImageKit**: Optimoitu suorituskykyyn\n\n## Parhaat käytännöt kuvan URL-osoitteille\n\n### 1. **Valitse oikea muoto**\n\nEri kuvamuodot palvelevat eri tarkoituksia:\n\n- **JPEG**: Paras monivärisille valokuville\n- **PNG**: Ihanteellinen läpinäkyvyydellä tai terävillä reunoilla varustetuille kuville\n- **WEBP**: Moderni muoto, joka tarjoaa paremman pakkauksen\n- **GIF**: Täydellinen animoiduille kuville\n\n### 2. **Optimoi kuvan koko**\n\nEnnen muuntamista URL-osoitteeksi, optimoi kuvasi:\n\n- Pakkaa kuvat vähentääksesi tiedostokokoa\n- Muuta kuvien kokoa sopiviin mittoihin\n- Käytä moderneja muotoja kuten WEBP, kun mahdollista\n- Tasapainota laatua ja tiedostokokoa\n\n### 3. **Käytä CDN:ää parempaan suorituskykyyn**\n\nContent Delivery Networks (CDN) jakavat kuvasi useille palvelimille ympäri maailmaa, varmistaen nopeat latausajat riippumatta käyttäjän sijainnista.\n\n### 4. **Toteuta oikea turvallisuus**\n\n- Käytä HTTPS URL-osoitteita turvalliseen kuvan toimittamiseen\n- Aseta sopivat käyttöoikeudet\n- Harkitse vesileimaa arkaluontoiseen sisältöön\n- Valvo käyttöä estääksesi väärinkäytökset\n\n## Yleiset käyttötapaukset\n\n### Bloggaajille\n\nBloggaajat voivat käyttää kuvan URL-osoitteita:\n- Upottaakseen kuvia blogijulkaisuihin ilman paikallista isännöintiä\n- Parantaakseen sivun latausaikoja\n- Jakamaan kuvia useilla alustoilla\n- Ylläpitääkseen johdonmukaista kuvan laatua\n\n### Kehittäjille\n\nKehittäjät hyötyvät kuvan URL-osoitteista:\n- Vähentämällä palvelimen kuormaa\n- Yksinkertaistamalla kuvan hallintaa\n- Mahdollistamalla dynaamisen kuvan latauksen\n- Integroimalla API:iden ja verkkopalveluiden kanssa\n\n### Verkkokaupoille\n\nVerkkokaupat käyttävät kuvan URL-osoitteita:\n- Näyttääkseen tuotekuvia tehokkaasti\n- Hallitakseen suuria kuvakatalogeja\n- Optimoidakseen mobiililaitteille\n- Parantaakseen kassasivun suorituskykyä\n\n## Yleisten ongelmien ratkaiseminen\n\n### Ongelma: Rikkinäiset kuvan linkit\n\n**Ratkaisu:**\n- Varmista, että URL-osoite on oikea ja saatavilla\n- Tarkista kuvan käyttöoikeudet ja pääsyn asetukset\n- Varmista, että isännöintipalvelu on käytössä\n- Vahvista, että kuvamuoto on tuettu\n\n### Ongelma: Hitaat latausajat\n\n**Ratkaisu:**\n- Käytä CDN:ää kuvan toimittamiseen\n- Optimoi kuvatiedostojen koot\n- Valitse sopivat kuvamuodot\n- Toteuta laiska lataus, kun mahdollista\n\n### Ongelma: Kuva ei näy\n\n**Ratkaisu:**\n- Tarkista CORS-asetukset (Cross-Origin Resource Sharing)\n- Vahvista, että HTTPS/HTTP-protokollat täsmäävät\n- Varmista, että oikeat MIME-tyypit on asetettu\n- Testaa URL-osoitteen saatavuutta eri sijainneista\n\n## Edistyneet vinkit\n\n### 1. **Erätyöstely**\n\nUseille kuville, harkitse:\n- API:iden käyttöä automatisoituihin latauksiin\n- Erämuunnoskomentosarjojen toteuttamista\n- Pilvipalvelu API:iden hyödyntämistä\n- Automaattisten työnkulkujen asettamista\n\n### 2. **Kuvan manipulaatio**\n\nJotkut palvelut tarjoavat kuvan manipulaatiota lennossa:\n- Kuvan koon muuttaminen URL-parametreilla\n- Suodattimien ja vaikutteiden soveltaminen\n- Muotojen automaattinen muuntaminen\n- Kuvan leikkaus ja kierto\n\n### 3. **Analytiikka ja valvonta**\n\nSeuraa kuviesi käyttöä:\n- Valvo kaistanleveyden kulutusta\n- Analysoi suosittuja kuvia\n- Seuraa käyttömalleja\n- Optimoi käyttötietojen perusteella\n\n## Yhteenveto\n\nKuvien muuntaminen URL-osoitteiksi on suoraviivainen prosessi, joka tarjoaa lukuisia etuja. Valitsetpa yksinkertaisen palvelun kuten Kuva URL-osoitteeksi tai kattavan pilvipalveluratkaisun, avain on löytää menetelmä, joka sopii parhaiten tarpeisiisi.\n\nMuista:\n- ✅ Optimoi kuvat ennen latausta\n- ✅ Valitse sopivat muodot\n- ✅ Käytä CDN:ää parempaan suorituskykyyn\n- ✅ Toteuta oikeat turvallisuustoimet\n- ✅ Valvo ja optimoi säännöllisesti\n\nNoudattamalla näitä ohjeita pystyt muuntamaan ja hallitsemaan kuviasi URL-osoitteina tehokkaasti, parantaen sekä työnkulkusi että sisältösi suorituskykyä.\n\n## Liittyvät työkalut\n\n- [Kuva URL-osoitteeksi](/) - Ilmainen kuvan URL-osoitteeksi muunnospalvelu\n- [Ympyräleikkaus työkalu](/circle-crop) - Luo pyöreitä kuvia\n- [Pyöristettyjen kulmien työkalu](/rounded-corners) - Lisää pyöristetyt kulmat kuville\n- [Taustan poisto työkalu](/remove-background) - Poista kuvien taustat AI:lla\n\n---\n\n*Viimeksi päivitetty: Joulukuu 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Kuinka leikataan kuvia ympyrän muotoon - Täydellinen opas",
+        "description": "Muunna mikä tahansa valokuva täydelliseksi pyöreäksi kuvaksi ilmaisella online-ympyräleikkaus työkalullamme. Luo ammattimaisia pyöreitä kuvia profiileihin, sosiaaliseen mediaan, logoihin ja paljon muuta sekunneissa.",
+        "content": "# Kuinka leikataan kuvia ympyrän muotoon - Täydellinen opas\n\nMuunna mikä tahansa valokuva täydelliseksi pyöreäksi kuvaksi ilmaisella online-ympyräleikkaus työkalullamme. Luo ammattimaisia pyöreitä kuvia profiileihin, sosiaaliseen mediaan, logoihin ja paljon muuta sekunneissa.\n\n## Kuinka leikataan kuvia ympyrän muotoon\n\n### Vaihe 1: Lataa kuvasi\nValitse mikä tahansa valokuva laitteeltasi, jonka haluat leikata ympyrän muotoon. Työkalumme tukee JPG, PNG, WEBP ja GIF muotoja. Klikkaa vain latausnappia tai vedä ja pudota kuvatiedostosi.\n\n### Vaihe 2: Aseta kuvasi\nSäädä ja keskitä valokuvasi ympyrän leikkausalueen sisällä. Käytä zoom-liukusäädintä keskittyäksesi kuvasi tärkeimpään osaan ja vedä uudelleen asettamiseen täydellistä pyöreää leikkausta varten.\n\n### Vaihe 3: Lataa ympyräkuvasi\nKun olet tyytyväinen sijaintiin, klikkaa \"Leikkaa ja lataa\" saadaksesi täydellisen pyöreän kuvasi. Tuloksella on läpinäkyvä tausta, mikä tekee siitä täydellisen käytettäväksi missä tahansa.\n\n## Suosittuja tapoja käyttää ympyrän muotoon leikattuja kuvia\n\n### Profiilikuvat\nLeikkaa valokuvia ympyrän muotoon ammattimaisesti näyttäviin profiilikuviin sosiaalisen median alustoilla kuten Facebook, LinkedIn ja Instagram. Ympyräavatart luovat modernin, kiillotetun ulkoasun.\n\n### Sosiaalisen median grafiikat\nLuo ympyräkuvia Instagram-tarinoihin, Facebook-julkaisuihin ja Twitter-profiileihin, jotka erottuvat joukosta. Pyöreät kuvat lisäävät visuaalista kiinnostusta ja rikkovat neliömäisten julkaisujen yksitoikkoisuuden.\n\n### Pyöreät logot\nMuunna logosi tai brändikuvasi täydellisiksi pyöreiksi muodoiksi johdonmukaista brändäystä varten kaikilla alustoilla. Ympyrälogot toimivat erityisen hyvin sovelluskuvakkeisiin ja sosiaalisen median brändäykseen.\n\n### Suosittelukuvat\nNäytä asiakas- tai asiakassuosituksia ympyräprofiilikuvilla puhtaan, ammattimaisen ulkoasun saavuttamiseksi. Pyöreät kuvat luovat visuaalista johdonmukaisuutta ja tekevät suosituksistasi mielenkiintoisempia.\n\n### Tiimin jäsenten kuvat\nLuo johdonmukaisia pyöreitä muotokuvia yritysverkkosivuille, tiimisivuille ja työntekijäluetteloille. Yhtenäiset ympyräkuvat antavat tiimisivullesi koheesivisen, ammattimaisen ulkoasun.\n\n## Ympyräleikkaus työkalumme ominaisuudet\n\n- **Ilmainen ympyräkuvan leikkuri** - Luo ympyrämuotoja mistä tahansa kuvasta ilmaiseksi, ilman piilotettuja maksuja\n- **Korkean resoluution tuloste** - Lataa ympyräkuvasi alkuperäisessä laadussaan ilman pakkausta\n- **Rekisteröitymistä ei vaadita** - Aloita kuvien leikkaaminen ympyrän muotoon heti, tiliä ei tarvita\n- **Yksityinen ja turvallinen** - Kuvasi eivät koskaan jätä selainta, varmistaen täydellisen yksityisyyden\n- **Helppokäyttöinen käyttöliittymä** - Yksinkertainen, intuitiivinen suunnittelu tekee pyöreiden kuvien luomisesta vaivatonta\n- **Toimii kaikilla laitteilla** - Leikkaa kuvia ympyrän muotoon työpöytätietokoneella, tabletilla tai mobiililaitteella\n- **Läpinäkyvä tausta** - Kaikki ympyräleikkaukset tulevat läpinäkyvillä taustoilla maksimaaliseen monipuolisuuteen\n- **Reaaliaikainen esikatselu** - Katso tarkalleen, miltä ympyräkuvasi näyttää ennen latausta\n\n## Ympyräleikkauskuva UKK\n\n### Kuinka leikataan kuva ympyrän muotoon?\n\nLataa vain kuvasi työkaluumme, säädä se ympyrän kehän sisällä asettamaan kohde oikein, ja klikkaa \"Leikkaa ja lataa\" saadaksesi täydellisen pyöreän kuvasi. Työkalumme helpottaa minkä tahansa kuvan leikkaamista ympyrämuotoon heti ilman suunnittelutaitoja.\n\n### Kuinka luoda pyöreä profiilikuva?\n\nLataa valokuvasi ympyräleikkaus työkaluumme, aseta kasvosi ympyrän kehän keskelle, ja lataa sitten uusi pyöreä profiilikuvasi. Se on täydellinen sosiaalisen median profiileihin, jotka käyttävät ympyrämuotoisia kuvia kuten Facebook, LinkedIn tai Instagram.\n\n### Voinko leikata valokuvia pyöreiksi muodoiksi puhelimellani?\n\nKyllä! Ympyräkuvan leikkurimme toimii kaikilla laitteilla, mukaan lukien älypuhelimet ja tabletit. Mobiiliystävällinen käyttöliittymä antaa sinun helposti luoda pyöreitä kuvanleikkauksia missä tahansa. Vieraile vain verkkosivustollamme mobiiliselaimellasi - sovelluksen latausta ei tarvita.\n\n### Tallennatteko lähettämäni kuvat?\n\nEi, emme koskaan tallenna kuviasi palvelimillamme. Koko leikkausprosessi tapahtuu suoraan selaimessasi, mikä tarkoittaa, että valokuvasi pysyvät täysin yksityisinä. Kun poistut sivulta, kaikki kuvatiedot poistetaan automaattisesti.\n\n### Mitä kuvamuotoja voin käyttää ympyräleikkaus työkalun kanssa?\n\nTyökalumme toimii kaikilla vakiokuvamuodoilla, mukaan lukien JPG, PNG, WEBP ja GIF. Voit ladata minkä tahansa näistä muodoista ja ympyrän muotoon leikattu kuvasi ladataan PNG-tiedostona läpinäkyvyydellä ympyrän ympärillä.\n\n### Onko ympyrän muotoon leikatulla kuvallani läpinäkyvä tausta?\n\nKyllä, kun lataat leikatun kuvasi, sillä on läpinäkyvä tausta ympyrän ympärillä. Tämä tekee siitä täydellisen sijoittamiseen verkkosivuille, asiakirjoihin tai suunnitelmiin, joissa haluat vain ympyräosan näkyvän.\n\n### Voinko säätää ympyräleikkauksen kokoa?\n\nYmpyräleikkaus ylläpitää täydellistä 1:1 kuvasuhdetta, mutta voit zoomata sisään tai ulos säätääksesi, kuinka paljon kuvastasi näkyy ympyrässä. Tämä antaa sinun keskittyä kuvasi tiettyihin osiin säilyttäen ympyrämuodon.\n\n## Kuvavinkit täydellisiin ympyräleikkauksiin\n\n### Keskitä kohde\nParhaiden tulosten saavuttamiseksi valitse kuvat, joissa pääkohde on keskitetty tai voidaan asettaa kehyksen keskelle. Tämä on erityisen tärkeää profiilikuville ja muotokuville, joissa kasvot tulisi olla fokuspiste.\n\n### Harkitse leikkausaluetta\nMuista, että kuvasi kulmat leikataan pois. Vältä kuvia, joissa tärkeät yksityiskohdat ovat lähellä valokuvan reunoja, koska nämä katoavat ympyräleikkauksessa.\n\n### Käytä korkean resoluution kuvia\nAloittaminen korkealaatuisilla kuvilla johtaa parempiin ympyräleikkauksiin. Matalan resoluution tai pienet kuvat voivat näyttää pikselöityneiltä leikattaessa, joten käytä saatavilla olevia korkeimman laadun lähdekuvia.\n\n### Kiinnitä huomiota kuvasuhteeseen\nNeliömäiset kuvat toimivat yleensä parhaiten ympyräleikkaukseen. Jos alkuperäinen kuvasi on hyvin leveä tai korkea, saatat menettää merkittäviä osia leikkausprosessissa. Harkitse leikkaamista neliöksi ensin tarvittaessa.\n\n### Säädä optimaalista kehystystä varten\nKäytä työkalumme sijaintitoimintoa zoomataksesi ja säätääksesi kuvasi. Muotokuvissa yritä keskittää kasvot hieman marginaalilla ympärillä parhaan ammattimaisen ulkoasun saavuttamiseksi. Tuotteissa keskitä pääelementti ympyrässä.\n\n### Luo johdonmukaisia sarjoja\nLuodessasi useita ympyräkuvia (kuten tiimikuvia) yritä ylläpitää johdonmukaista kehystystä, taustatyylejä ja kokoa koheesivisen ulkoasun saavuttamiseksi kaikissa kuvissa.\n\n## Yleisiä käyttökohteita ympyrän muotoon leikatuille kuville\n\n| Sovellus | Ympyräleikkauksen edut |\n|------------|------------------------|\n| Sosiaalisen median profiilit | Useimmat alustat näyttävät avatareja ympyröissä - täydellisesti leikattu ympyräkuva näyttää ammattimaiselta |\n| Tiimin jäsenten kuvat | Luo johdonmukaisia pyöreitä muotokuvia yritysverkkosivuille ja luetteloille |\n| Online-portfoliot | Pyöreät kuvat luovat visuaalista kiinnostusta ja modernia estetiikkaa |\n| Digitaaliset käyntikortit | Ympyrän muotoon leikatut profiilikuvat näyttävät puhtaammilta ja ammattimaisemmilta |\n| Tuotteen pienoiskuvat | Pyöreät tuotekuvat luovat koheesivisen katalogin ulkoasun |\n| Sovelluskuvakkeet | Ympyräkuvakkeet ovat standardi mobiilisovelluksille |\n| Verkkosivuston suositukset | Pyöreät asiakaskuvat lisäävät uskottavuutta ja visuaalista vetovoimaa |\n\n## Miksi valita ympyräleikkauskuvan työkalumme\n\nKun kyseessä on valokuvien leikkaaminen ympyröiksi verkossa, työkalumme tarjoaa useita etuja:\n\n- **Hetkellinen käsittely** - Leikkaa kuva ympyrän muotoon sekunneissa odottamatta latauksia tai palvelinkäsittelyä\n- **Täydelliset ympyrät joka kerta** - Työkalumme varmistaa täydelliset pyöreät leikkaukset puhtain reunoilla ilman vääristymiä\n- **Intuitiiviset ohjaimet** - Aseta helposti kuvasi tarkalleen haluamallasi tavalla ympyrässä zoom- ja vedätoiminnoilla\n- **Ei vesileimoja** - Toisin kuin muut ympyräleikkaus työkalut, emme lisää vesileimoja kuviesi\n- **Toimii kaikilla kuvatyypeillä** - Leikkaa valokuvia, grafiikkaa, kuvituksia tai mitä tahansa kuvaa ympyräksi\n- **Selainpohjainen** - Ohjelmiston asennusta ei tarvita, toimii suoraan verkkoselaimessasi\n- **Yksityisyys ensin** - Kaikki käsittely tapahtuu paikallisesti selaimessasi, kuvasi eivät koskaan jätä laitetta\n\nOlipa tarvitsetko leikata kuvia ympyrän muotoon ammattikäyttöön vai henkilökohtaisiin projekteihin, ympyräleikkausvalokuvan työkalumme hoitaa kaiken helposti. Luo pyöreitä kuvanleikkauksia vain muutamalla napsautuksella!\n\n## Aloittaminen\n\nValmis luomaan ensimmäisen ympyräkuvasi? Vieraile [Ympyräleikkaus työkalussamme](/circle-crop) ja aloita leikkaaminen tänään. Se on täysin ilmainen, ei vaadi rekisteröitymistä ja kestää vain sekunteja luoda ammattimaisia ympyräkuvia.\n\n---\n\n*Viimeksi päivitetty: Tammikuu 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Kuvat pyöristetyillä kulmilla – Opas",
+        "description": "Lisää pyöristetyt kulmat mihin tahansa kuvaan ilmaisella työkalulla. Sopii pienoiskuviin, korteihin, käyttöliittymiin ja someen sekunneissa.",
+        "content": "# Kuvat pyöristetyillä kulmilla – Opas\n\nAnna minkä tahansa kuvan kulmille pyöristys ilmaisella verkkotyökalulla. Sopii pienoiskuviin, korteihin, UI-elementteihin ja someen, suunnittelutaitoa ei tarvita.\n\n## Miten kuvan kulmat pyöristetään\n\n### Vaihe 1: Lataa kuva\nValitse kuva laitteeltasi. Tuetut: JPG, PNG, WEBP, GIF. Napsauta tai vedä ja pudota.\n\n### Vaihe 2: Aseta kulman säde\nSiirrä liukusäädintä pyöristyksen voimakkuuden mukaan. Esikatselu päivittyy reaaliaikaisesti.\n\n### Vaihe 3: Lataa\nNapsauta \"Lataa\" tallentaaksesi kuvan pyöristetyillä kulmilla ja käytä sitä layoutissa, netissä tai postauksissa.\n\n## Tyypillisiä käyttökohteita\n\n### Pienoiskuvat ja kortit\nPyöristetyt kulmat antavat ruuduille ja korteille siistin, nykyaikaisen ilmeen.\n\n### Some ja mainokset\nPehmeäkulmaiset kuvat erottuvat feedissä ja mainoksissa, tuntuvat lämpimämmiltä.\n\n### Käyttöliittymät ja sovellukset\nKuvakkeet, avatarit ja painikkeet käyttävät usein pyöristettyjä kulmia; työkalu auttaa yhtenäistämään useita kuvia.\n\n### Esitykset ja asiakirjat\nSama säde kuvakaappauksissa ja grafiikoissa pitää diat ja asiakirjat yhtenäisinä.\n\n## Mitä työkalu tarjoaa\n\n- **Ilmainen ja välitön** – ei rekisteröitymistä, ei vesileimää, ei rajoja\n- **Säde säädettävissä** – kevyestä pyöristyksestä pillin muotoon\n- **Reaaliaikainen esikatselu** – näet tuloksen ennen latausta\n- **Yksityisyys** – käsittely selaimessa; emme tallenna kuvia\n- **Kaikki laitteet** – tietokone, tabletti, puhelin\n\n## UKK\n\n### Miten pyöristän kuvan kulmat?\n\nAvaa [Pyöristettyjen kulmien työkalu](/rounded-corners), lataa kuva, aseta säde ja napsauta Lataa.\n\n### Mitä formaatteja tuetaan?\n\nJPG, PNG, WEBP, GIF. Lataus säilyttää alkuperäisen formaatin (tai PNG läpinäkyvyydelle).\n\n### Toimii puhelimella?\n\nKyllä. Työkalu toimii mobiili- ja tablet-selaimessa, sovellusta ei tarvita.\n\n### Tallennatteko kuviani?\n\nEi. Kaikki käsitellään selaimessasi; emme tallenna mitään.\n\n## Liittyvät työkalut\n\n- [Kuva URL-osoitteeksi](/) – kuva linkiksi\n- [Ympyräleikkaus](/circle-crop) – pyöreät kuvat\n- [Pyöristetyt kulmat](/rounded-corners) – kulmien pyöristys\n- [Taustan poisto](/remove-background) – tausta pois AI:lla\n\n---\n\n*Viimeksi päivitetty: Helmikuu 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Taustan poisto – Opas",
+        "description": "Poista kuvien tausta yhdellä napsautuksella ilmaisella AI-työkalulla. Puhtaat leikkaukset tuotteille, muotokuville, logoille ja muille.",
+        "content": "# Taustan poisto – Opas\n\nPoista kuvien tausta yhdellä napsautuksella ilmaisella verkkotyökalulla. Puhtaat leikkaukset tuotekuville, muotokuville, logoille – ilman suunnittelutaitoa.\n\n## Miten tausta poistetaan\n\n### Vaihe 1: Lataa kuva\nValitse kuva laitteeltasi. Tuetut: JPG, PNG, WEBP, GIF. Napsauta tai vedä ja pudota.\n\n### Vaihe 2: AI poistaa taustan\nTyökalu tunnistaa kohteen ja poistaa taustan. Käsittely kestää sekunteja. Reaaliaikainen esikatselu läpikuultavalla taustalla.\n\n### Vaihe 3: Lataa\nNapsauta \"Lataa\" tallentaaksesi kuvan ilman taustaa. Tulostus PNG:nä läpikuultavuudella, valmis designiin, verkkokauppaan tai someen.\n\n## Tyypillisiä käyttökohteita\n\n### Tuotekuvat\nPuhtaat leikkaukset verkkokauppoihin, markkinapaikoille ja mainoksiin. Läpikuultava tausta mihin tahansa asetteluun.\n\n### Muotokuvat ja profiilit\nPoista vilkas tausta muotokuvista CV:hen, LinkedIniin tai profiileihin.\n\n### Logot ja grafiikka\nErottele logot ja grafiikka kuvista tai skannauksista. Läpikuultava PNG overlayhin ja esityksiin.\n\n### Some ja markkinointi\nSilmiinpistävät kuvat postauksiin, tarinoihin ja mainoksiin. Läpikuultavat leikkaukset mihin tahansa malliin.\n\n## Mitä työkalu tarjoaa\n\n- **Ilmainen ja AI** – ei rekisteröitymistä, ei vesileimää, ei rajoja\n- **Poisto yhdellä napsautuksella** – automaattinen kohteen tunnistus ja puhtaat reunat\n- **Läpikuultava PNG** – valmis mihin tahansa designiin tai alustaan\n- **Yksityisyys** – käsittely selaimessa; emme tallenna kuvia\n- **Kaikki laitteet** – tietokone, tabletti, puhelin\n\n## UKK\n\n### Miten poistan taustan kuvasta?\n\nAvaa [Taustan poistotyökalu](/remove-background), lataa kuva. Työkalu tunnistaa kohteen ja poistaa taustan. Esikatsele ja lataa läpikuultavana PNG:nä.\n\n### Mitä formaatteja tuetaan?\n\nJPG, PNG, WEBP, GIF. Tulos ladataan aina PNG:nä läpikuultavalla taustalla.\n\n### Tallennatteko kuviani?\n\nEi. Käsittely tapahtuu selaimessasi; emme tallenna mitään.\n\n### Toimii puhelimella?\n\nKyllä. Työkalu toimii selaimessa puhelimella ja tabletilla.\n\n## Liittyvät työkalut\n\n- [Kuva URL-osoitteeksi](/) – kuva linkiksi\n- [Ympyräleikkaus](/circle-crop) – pyöreät kuvat\n- [Pyöristetyt kulmat](/rounded-corners) – kulmien pyöristys\n- [Taustan poisto](/remove-background) – tausta pois AI:lla\n\n---\n\n*Viimeksi päivitetty: Maaliskuu 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Photo To URL:n dokumentaatio."
+    },
+    "page": {
+      "title": "Dokumentaatio",
+      "description": "Pika-aloitus: lataa kuva ja saat suoran URL-osoitteen. Käytä kopioi/avaa-painikkeita tai lataa linkki .txt-muodossa.",
+      "features": {
+        "title": "Supported features:",
+        "items": {
+          "1": "Tuetut muodot: JPG, PNG, WEBP, GIF",
+          "2": "Nopea toimitus CDN:n kautta, kun tallennus on käytössä",
+          "3": "Selkeät huoltoviestit, kun palvelu ei ole saatavilla"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Photo To URL:n palvelun tila."
+    },
+    "page": {
+      "title": "Tila",
+      "description": "Kaikki järjestelmät toimivat normaalisti.",
+      "message": "Lataus-API ja CDN-linkit toimivat."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Ota yhteyttä | Photo To URL",
+      "description": "Ota yhteyttä Photo To URL:ään kuvanhallinnan tuesta, palautteesta, kumppanuudesta tai ongelmien ilmoittamisesta. Luemme jokaisen viestin ja pyrimme vastaamaan 1-2 arkipäivän kuluessa."
+    },
+    "page": {
+      "title": "Ota yhteyttä",
+      "introShort": "Onko sinulla kysymys tai palautetta? Täytä alla oleva lomake, niin palaamme pian.",
+      "orEmail": "Tai lähetä meille sähköpostia osoitteeseen",
+      "subtitle": "Olemme täällä auttamassa kuvien hostauksessa, linkeissä ja muissa asioissa.",
+      "intro": "Photo To URL on ilmainen kuvien hosting-palvelu, joka muuntaa kuvasi jaettaviksi linkeiksi. Jos sinulla on kysyttävää, ehdotuksia tai kohtaat ongelmia, kuulemme mielellämme sinusta.",
+      "whyTitle": "Mistä voit ottaa meihin yhteyttä",
+      "why1": "Tekninen tuki: latausvirheet, rikkinäiset linkit tai ongelmat työkalussa",
+      "why2": "Palaute ja ominaisuuspyynnöt palvelun parantamiseksi",
+      "why3": "Kumppanuus- tai yhteistyökyselyt",
+      "why4": "Väärinkäytön ilmoittaminen, tekijänoikeushuolenaiheet tai käytäntökysymykset",
+      "expectTitle": "Mitä voit odottaa",
+      "expectContent": "Luemme jokaisen viestin ja pyrimme vastaamaan 1-2 arkipäivän kuluessa. Kiireellisissä asioissa lisää selkeä aihe ja mahdollisimman paljon yksityiskohtia.",
+      "emailHeading": "Ota yhteyttä sähköpostilla",
+      "emailHint": "Lähetä meille sähköpostia, niin vastaamme mahdollisimman pian.",
+      "email": {
+        "label": "Email",
+        "address": "support@phototourl.com",
+        "cta": "Lähetä sähköposti"
+      },
+      "form": {
+        "title": "Lähetä viesti",
+        "description": "Täytä alla oleva lomake, niin palaamme asiaan mahdollisimman pian.",
+        "name": "Nimi",
+        "email": "Email",
+        "message": "Viesti",
+        "namePlaceholder": "Nimesi",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Viestisi tai kysymyksesi...",
+        "submit": "Lähetä viesti",
+        "submitting": "Lähetetään...",
+        "success": "Viesti lähetetty onnistuneesti. Vastaamme mahdollisimman pian.",
+        "minLength": "Nimen tulee olla vähintään 3 merkkiä pitkä.",
+        "maxLengthName": "Nimi ei saa ylittää 30 merkkiä.",
+        "invalidEmail": "Anna kelvollinen sähköpostiosoite.",
+        "minLengthMessage": "Viestin tulee olla vähintään 10 merkkiä pitkä.",
+        "maxLengthMessage": "Viesti ei saa ylittää 2000 merkkiä.",
+        "invalid": "Jokin meni pieleen. Yritä uudelleen."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Tietoa meistä | Kuva URL-osoitteeksi",
+      "description": "Lue lisää Kuva URL-osoitteeksi:sta - ilmainen kuvahostauspalvelu, joka muuntaa valokuvat jaettaviksi linkeiksi."
+    },
+    "page": {
+      "title": "Tietoa meistä",
+      "mission": {
+        "title": "Tehtävämme",
+        "content": "Kuva URL-osoitteeksi on ilmainen, nopea ja luotettava kuvahostauspalvelu, joka on suunniteltu auttamaan sisällöntuottajia, markkinoijia ja tiimejä muuttamaan kuvat jaettaviksi linkeiksi heti. Uskomme yksinkertaisuuteen, nopeuteen ja käyttäjien yksityisyyteen."
+      },
+      "features": {
+        "title": "Mitä tarjoamme",
+        "item1": "Ilmainen kuvahostaus CDN-tuella",
+        "item2": "Hetkellinen linkkien luominen nopeaa jakamista varten",
+        "item3": "Tuki useille kuvamuodoille (JPG, PNG, WEBP, GIF)",
+        "item4": "Kokeile ilman rekisteröitymistä — ilmainen suunnitelma: 10 latausta/päivä, 2MB per tiedosto"
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "text": "Onko sinulla kysymyksiä tai palautetta? Ota yhteyttä meihin osoitteessa",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Tietosuojakäytäntö | Kuva URL-osoitteeksi",
+        "description": "Tietosuojakäytäntö Kuva URL-osoitteeksi:lle - Opi, miten keräämme, käytämme ja suojaamme tietojasi."
+      },
+      "page": {
+        "title": "Tietosuojakäytäntö",
+        "lastUpdated": "Viimeksi päivitetty: toukokuu 2026",
+        "introduction": "Kuva URL-osoitteeksi:ssa kunnioitamme yksityisyyttäsi ja sitoudumme suojaamaan henkilötietojasi. Tämä Tietosuojakäytäntö selittää, miten keräämme, käytämme, paljastamme ja suojaamme tietojasi palvelua käyttäessäsi.",
+        "dataCollection": {
+          "title": "Tiedot, joita keräämme",
+          "content1": "Kun käytät Kuva URL-osoitteeksi -palvelua, voimme kerätä:",
+          "item1": "Ladatut kuvatiedostot ja metatiedot (tiedostonimi, koko, tyyppi), tallennettu Cloudflare R2:een jaettavien linkkien tarjoamiseksi",
+          "item2": "IP-osoite, latausaikaleima ja käyttötiedot nopeusrajoitusta, turvallisuutta ja väärinkäytön estämistä varten",
+          "item3": "Tilitiedot rekisteröityessä tai kirjautuessa (sähköpostiosoite, Google OAuth -profiili, istunto- ja tunnistetiedot)",
+          "item4": "Tilaus- ja maksutiedot, joita maksunvälittäjämme Waffo Pancake käsittelee maksullisissa suunnitelmissa — emme tallenna täydellisiä korttinumeroita",
+          "content2": "Jos otat meihin yhteyttä yhteydenottolomakkeen kautta, keräämme antamasi tiedot (esim. nimi ja sähköposti). Käytämme myös evästeitä ja vastaavia teknologioita evästeitä koskevassa osiossa kuvatulla tavalla."
+        },
+        "dataUsage": {
+          "title": "Miten käytämme tietojasi",
+          "item1": "Luodaksemme ja tarjotaksemme jaettavia kuvalinkkejä",
+          "item2": "Estääksemme väärinkäytökset ja valvoaksemme latausrajoja",
+          "item3": "Parantaaksemme palveluamme ja käyttökokemusta",
+          "item4": "Noudattaaksemme lakisääteisiä velvoitteita"
+        },
+        "dataStorage": {
+          "title": "Tietojen tallennus ja säilytys",
+          "content": "Lähetetyt kuvat tallennetaan Cloudflare R2 -tallennustilaan. Säilytämme kuvia niin kauan kuin on tarpeen palvelun tarjoamiseksi. Kuvat voidaan poistaa automaattisesti käyttämättömyysjakson jälkeen tai käytäntöjen rikkomusten vuoksi."
+        },
+        "cookies": {
+          "title": "Evästeet ja seurantateknologiat",
+          "content1": "Käytämme seuraavia teknologioita:",
+          "item1": "Paikallinen tallennus: Tallentamaan lataushistoriasi ja kieliasetuksesi",
+          "item2": "Google AdSense: Mainosten näyttämiseen (käyttää evästeitä mainosten personointiin)",
+          "item3": "Google Analytics: Verkkosivuston analysointiin (anonyymit tiedot)",
+          "content2": "Voit hallita evästeitä selaimen asetuksien kautta. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa joihinkin palvelumme toimintoihin."
+        },
+        "personalizedAds": {
+          "title": "Personoidut mainokset ja pois pääsy",
+          "content": "Käytämme Google AdSensea mainosten näyttämiseen. Google ja muut kumppanit saattavat käyttää evästeitä mainostamiseen vierailujesi perusteella. Voit kieltäytyä personoiduista mainoksista",
+          "linkAdsSettings": "Googlen mainosasetuksissa",
+          "content2": "tai Network Advertising Initiativen pois pääsysivulla",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Kolmannen osapuolen palvelut",
+          "content1": "Käytämme seuraavia kolmannen osapuolen palveluja:",
+          "item1": "Cloudflare R2: Kuvien tallennukseen ja CDN-toimitukseen",
+          "item2": "Google AdSense: Mainontaan (Googlen tietosuojakäytännön alainen)",
+          "item3": "Google Analytics: Verkkosivuston analysointiin (Google tietosuojakäytännön alainen)",
+          "content2": "Käytämme myös Waffo Pancakeiä tilauksiin ja maksujen käsittelyyn. Nämä palvelut voivat kerätä tietoja omien tietosuojakäytäntöjensä mukaisesti. Suosittelemme, että tarkistat ne."
+        },
+        "dataSecurity": {
+          "title": "Tietoturva",
+          "content": "Toteutamme asianmukaiset tekniset ja organisatoriset toimenpiteet suojataksemme tietojasi luvattomalta pääsyltä, muutokselta, paljastumiselta tai tuhoutumiselta. Mikään internetin välitysmenetelmä ei kuitenkaan ole 100% turvallinen."
+        },
+        "yourRights": {
+          "title": "Oikeutesi",
+          "content": "Sinulla on oikeus:",
+          "item1": "Päästä käsiksi ladattuihin kuviin, tilitietoihin ja niihin liittyviin tietoihin",
+          "item2": "Pyytää kuviesi poistamista",
+          "item3": "Kieltäytyä tietyistä tietojenkeruukäytännöistä",
+          "item4": "Otta meihin yhteyttä yksityisyydestä huolissasi"
+        },
+        "children": {
+          "title": "Lasten yksityisyys",
+          "content": "Palvelumme ei ole tarkoitettu alle 13-vuotiaille lapsille. Emme tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta."
+        },
+        "changes": {
+          "title": "Muutokset tähän tietosuojakäytäntöön",
+          "content": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden tietosuojakäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
+        },
+        "contact": {
+          "title": "Ota yhteyttä",
+          "text": "Jos sinulla on kysymyksiä tästä tietosuojakäytännöstä, ota yhteyttä meihin osoitteessa",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Käyttöehdot | Kuva URL-osoitteeksi",
+        "description": "Kuva URL-osoitteeksi -palvelun käyttöehdot – kuvien hostaus, sallittu käyttö ja käyttäjävastuut."
+      },
+      "page": {
+        "title": "Käyttöehdot",
+        "lastUpdated": "Viimeksi päivitetty: syyskuu 2026",
+        "intro": "Tervetuloa Kuva URL-osoitteeksi -palveluun. Käyttämällä kuvien hostaus- ja linkkigenerointipalveluamme (\"Palvelu\") hyväksyt nämä Ehdot. Jos et hyväksy, älä käytä Palvelua.",
+        "acceptance": {
+          "title": "Ehtojen hyväksyminen",
+          "content": "Lataamalla kuvia, luomalla linkkejä tai muuten käyttämällä Kuva URL-osoitteeksi -palvelua vahvistat, että olet lukenut, ymmärtänyt ja hyväksynyt nämä Ehdot ja tietosuojakäytäntömme. Voimme päivittää Ehtoja; muutosten jälkeinen jatkoku käyttö tulkitaan päivitettyjen Ehtojen hyväksymiseksi."
+        },
+        "serviceDescription": {
+          "title": "Palvelun kuvaus",
+          "content": "Kuva URL-osoitteeksi tarjoaa ilmaisen kuvien hostauksen ja suoran linkkigeneroinnin. Voit ladata kuvia asetettujen rajojen (tiedostokoko, muoto jne.) sisällä ja vastaanottaa jaettavia linkkejä. Emme takaa keskeytymätöntä saatavuutta; Palvelua voidaan muuttaa, keskeyttää tai lopettaa ilmoituksella tai ilman."
+        },
+        "useOfService": {
+          "title": "Palvelun käyttö",
+          "content": "Saat käyttää Palvelua vain laillisiin tarkoituksiin ja noudattaen näitä Ehtoja. Olet vastuussa käytöstäsi ja lataamastasi sisällöstä. Et saa käyttää Palvelua tavalla, joka rikkoo soveltuvaa lakia tai kolmansien osapuolten oikeuksia."
+        },
+        "userResponsibilities": {
+          "title": "Vastuusi",
+          "content": "Hyväksyt: (1) antavasi oikeat tiedot pyydettäessä; (2) pitäväsi käyttösi lainmukaisena; (3) ettet yritä kiertää turvallisuutta, nopeusrajoja tai käyttövalvontaa; (4) ettet käytä Palvelua haitallisen ohjelmiston levittämiseen tai Palvelun tai muiden käyttäjien häiritsemiseen."
+        },
+        "prohibitedContent": {
+          "title": "Kielletty sisältö",
+          "content": "Et saa ladata tai jakaa linkkejä sisältöön, joka on laiton, vahingollinen, uhkaava, loukkaava, ahdistava, herjaava, säädytön, tunkeutuu yksityisyyteen tai immateriaalioikeuksiin tai muuten vastenmielinen; hyväksikäyttää alaikäisiä; edistää väkivaltaa tai syrjintää; tai rikkoo kolmansien osapuolten oikeuksia. Voimme poistaa sisältöä ja keskeyttää tai päättää käyttöoikeuden ilman ilmoitusta, jos pidämme kohtuudella todennäköisenä näiden Ehtojen tai lain rikkomista."
+        },
+        "ipAndContent": {
+          "title": "Immateriaalioikeudet ja sisältösi",
+          "content": "Säilytät lataamiesi kuvien omistusoikeuden. Käyttämällä Palvelua myönnät meille rajoitetun lisenssin tallentaa, käsitellä ja toimittaa kuviasi sekä luoda ja tarjota linkkejä Palvelun käyttämiseksi tarvittavassa laajuudessa. Emme vaadi sisältösi omistusoikeutta. Nimensi, logomme ja Palvelu ovat immateriaalioikeuksiamme; et saa käyttää niitä ilman aiempaa kirjallista suostumustamme."
+        },
+        "subscriptions": {
+          "title": "Tilauspaketit",
+          "content": "Kuva URL-osoitteeksi tarjoaa ilmaisen tason sekä maksullisia tilauksia (kuukausittainen Pro ja vuosittainen Premium), joissa on korkeammat latausrajat, tiedostokokorajat ja tallennustila. Nykyiset paketit ja hinnat ovat hinnoittelusivullamme (https://phototourl.com/pricing). Maksullinen käyttöoikeus on digitaalinen palvelu, ja se myönnetään heti vahvistetun maksun jälkeen."
+        },
+        "billing": {
+          "title": "Laskutus ja maksaminen",
+          "content": "Kun annat maksutavan ja tilaat maksullisen paketin, valtuutat meidät ja maksunvälittäjämme veloittamaan kyseistä tapaa toistuvasti voimassa olevasta tilausmaksusta, kunnes peruutat alla kuvatulla tavalla. Tilaukset uusiutuvat automaattisesti kunkin laskutusjakson lopussa, ellei niitä peruuteta. Hinnat näkyvät kassalla ja voivat olla ilman sovellettavia veroja, ellei toisin mainita."
+        },
+        "cancellation": {
+          "title": "Peruutus ja automaattisen uusinnan lopettaminen",
+          "content": "Voit estää tulevat veloitukset milloin tahansa:",
+          "item1": "Lähettämällä sähköpostia osoitteeseen support@phototourl.com rekisteröidystä tilin sähköpostiosoitteesta ja pyytämällä automaattisen uusinnan peruutusta; tai",
+          "item2": "Peruuttamalla automaattisen veloituksen tai toistuvan laskutuksen kortin myöntäjältäsi mobiilipankin, verkkopankin tai asiakaspalvelun kautta.",
+          "effect": "Peruutus lopettaa tulevat uusinnat. Säilytät maksulliset edut jo maksamasi jakson loppuun. Kun jakso päättyy, tilauksesta ei veloiteta enää, ja maksulliset edut päättyvät kyseisen jakson mukana."
+        },
+        "refunds": {
+          "title": "Hyvityskäytäntö",
+          "general": "Koska maksulliset paketit ovat digitaalisia palveluita, jotka toimitetaan heti maksun jälkeen, tilausmaksuja ei yleensä hyvitetä, kun Palvelu on edelleen normaalisti käytettävissä, paitsi alla mainituissa tapauksissa tai lain niin vaatiessa.",
+          "eligibleTitle": "Milloin hyvitys voi olla mahdollinen",
+          "item1": "Ensitilaajat: 7 päivän kuluessa ensimmäisestä veloituksesta, jos et ole käyttänyt maksullisia ominaisuuksia merkittävästi (esimerkiksi vain pienen osan paketin lataus- tai tallennuskiintiöstä).",
+          "item2": "Kaksinkertaiset tai virheelliset veloitukset: täysi hyvitys vahvistetusta laskutusvirheestä, joka johti kaksinkertaiseen veloitukseen.",
+          "item3": "Palvelukatkos meidän puolellamme: jos vahvistettu, meidän hallinnassamme oleva katkos kestää 72 tuntia tai kauemmin maksullisen jaksosi aikana, voimme tarkastelun jälkeen tarjota suhteutetun hyvityksen tai palautuksen.",
+          "item4": "Lakisääteiset oikeudet: jos sovellettava laki antaa sinulle peruuttamis- tai hyvitysoikeuden (esimerkiksi EU:ssa/Yhdistyneessä kuningaskunnassa), nämä oikeudet säilyvät.",
+          "howTitle": "Miten hyvitystä pyydetään",
+          "how": "Lähetä sähköpostia osoitteeseen support@phototourl.com tilin sähköpostiosoitteesi, maksu- tai tapahtumaviite ja syy. Pyrimme vastaamaan 2 arkipäivän kuluessa ja käsittelemään kelvolliset hyvitykset 5–10 arkipäivän kuluessa.",
+          "notTitle": "Milloin hyvitystä ei anneta",
+          "not1": "Maksut jo käytetyistä tilausjaksoista, paitsi yllä mainituissa tapauksissa.",
+          "not2": "Vuositilauksen (Premium) hyvityspyynnöt yli 30 päivää ensimmäisen oston jälkeen, ellei laki toisin vaadi tai kelvollinen katkos- tai kaksinkertainen veloitus ole kyseessä.",
+          "not3": "Tilien, jotka on jäädytetty tai lopetettu näiden ehtojen rikkomisen vuoksi."
+        },
+        "disclaimer": {
+          "title": "Takuiden kieltäminen",
+          "text": "Palvelu tarjotaan \"sellaisenaan\" ja \"saatavuuden mukaan\" ilman minkäänlaisia takuita. Emme takaa, että Palvelu on keskeytymätön, virheetön tai vahingollisia komponentteja vapaa. Palvelun käyttö on omalla vastuullasi."
+        },
+        "limitationOfLiability": {
+          "title": "Vastuun rajoitus",
+          "content": "Lain sallimassa laajuudessa Kuva URL-osoitteeksi ja sen toimittajat eivät ole vastuussa epäsuorista, satunnaisista, erityisistä, seurauksena tai rangaistuksena syntyvistä vahingoista tai datan, voiton tai maineen menettämisestä, joka johtuu Palvelun käytöstä tai kyvyttömyydestä käyttää sitä. Kokonaisvastuumme ei ylitä summaa, jonka olet maksanut meille kahdentoista kuukauden aikana ennen vaatimusta (tai nolla, jos et ole maksanut mitään)."
+        },
+        "termination": {
+          "title": "Päättäminen",
+          "content": "Voimme keskeyttää tai päättää käyttöoikeutesi Palveluun milloin tahansa, syystä tai ilman, ilmoituksella tai ilman. Voit lopettaa Palvelun käytön milloin tahansa. Päättämisen yhteydessä käyttöoikeutesi päättyy välittömästi. Säännökset, joiden luonteesta johtuen tulee säilyä (mukaan lukien vastuuvapaus, vastuun rajoitus ja sovellettava laki), pysyvät voimassa."
+        },
+        "changes": {
+          "title": "Ehtojen muutokset",
+          "content": "Voimme päivittää nämä Ehdot. Julkaisemme päivitetyt Ehdot tällä sivulla ja päivitämme \"Viimeksi päivitetty\" -päivämäärän. Muutosten jälkeinen jatkoku käyttö tulkitaan hyväksymiseksi. Suosittelemme tarkistamaan tämän sivun säännöllisesti."
+        },
+        "governingLaw": {
+          "title": "Sovellettava laki",
+          "content": "Näitä Ehtoja sovelletaan ja tulkitaan toimintapaikkamme lain mukaan ottamatta huomioon lainsäädännön ristiriitatilanteita. Kaikki riidat ratkaistaan kyseisen lainkäyttöalueen tuomioistuimissa."
+        },
+        "contact": {
+          "title": "Ota yhteyttä",
+          "text": "Kysymyksissä näistä Käyttöehdoista ota yhteyttä osoitteeseen",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Evästekäytäntö | Kuva URL-osoitteeksi",
+        "description": "Evästekäytäntö Kuva URL-osoitteeksi:lle - Opi, miten käytämme evästeitä ja seurantateknologioita."
+      },
+      "page": {
+        "title": "Evästekäytäntö",
+        "lastUpdated": "Viimeksi päivitetty: syyskuu 2026",
+        "introduction": "Tämä Evästekäytäntö selittää, miten Kuva URL-osoitteeksi käyttää evästeitä ja vastaavia seurantateknologioita, kun vierailet verkkosivustollamme. Käyttämällä palveluamme hyväksyt evästeiden käytön tämän käytännön mukaisesti. Kysymyksiä käytännöstä voit lähettää osoitteeseen support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Mitä evästeet ovat",
+          "content": "Evästeet ovat pieniä tekstitiedostoja, jotka asetetaan laitteellesi, kun vierailet verkkosivustolla. Niitä käytetään laajalti tehdäksemme verkkosivustot tehokkaammiksi ja tarjotaksemme tietoja verkkosivustojen omistajille."
+        },
+        "howWeUseCookies": {
+          "title": "Miten käytämme evästeitä",
+          "content": "Käytämme evästeitä seuraaviin tarkoituksiin:",
+          "item1": "Tallentamaan lataushistoriasi ja kieliasetuksesi",
+          "item2": "Analysoimaan verkkosivuston liikennettä ja käyttäjien käyttäytymistä",
+          "item3": "Näyttämään personoituja mainoksia"
+        },
+        "typesOfCookies": {
+          "title": "Käyttämämme evästetyypit",
+          "essential": {
+            "title": "Välttämättömät evästeet",
+            "content": "Nämä evästeet ovat välttämättömiä verkkosivuston oikean toiminnan kannalta. Ne mahdollistavat keskeiset toiminnot, kuten kieliasetusten ja lataushistorian tallentamisen."
+          },
+          "analytics": {
+            "title": "Analyyttiset evästeet",
+            "content": "Käytämme Google Analytics analysoimaan, miten vierailijat käyttävät verkkosivustoamme. Nämä evästeet keräävät anonyymiä tietoa verkkosivuston käytöstä auttaakseen meitä parantamaan palveluamme."
+          },
+          "advertising": {
+            "title": "Mainosevästeet",
+            "content": "Käytämme Google AdSensea näyttämään mainoksia. Nämä evästeet auttavat tarjoamaan personoituja mainoksia selauskäyttäytymisesi ja kiinnostustesi perusteella."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Kolmannen osapuolen evästeet",
+          "content": "Käytämme seuraavia kolmannen osapuolen palveluja, jotka voivat asettaa evästeitä:",
+          "item1": "Google AdSense - Mainontaan (Googlen tietosuojakäytännön alainen)",
+          "item2": "Google Analytics - Verkkosivuston analysointiin (Google tietosuojakäytännön alainen)"
+        },
+        "manageCookies": {
+          "title": "Evästeiden hallinta",
+          "content": "Voit hallita evästeitä selaimen asetuksien kautta. Useimmat selaimet antavat sinun kieltäytyä tai hyväksyä evästeet, poistaa olemassa olevat evästeet tai asettaa asetuksia tietyille verkkosivustoille. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa palvelumme toiminnallisuuteen."
+        },
+        "changes": {
+          "title": "Muutokset tähän evästekäytäntöön",
+          "content": "Voimme päivittää tätä evästekäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden evästekäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
+        },
+        "contact": {
+          "title": "Ota yhteyttä",
+          "text": "Jos sinulla on kysymyksiä tästä evästekäytännöstä, ota yhteyttä meihin osoitteessa",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL -kirjanmerkki",
+    "description": "Lataa kuvia miltä tahansa verkkosivulta suoraan Photo To URL:ään yhdellä klikkauksella! Ilmainen kokeilu: 10 latausta/päivä, 2MB per tiedosto.",
+    "howItWorks": {
+      "title": "Näin se toimii",
+      "step1": "Avaa mikä tahansa sivu, jossa on kuvia",
+      "step2": "Klikkaa bookmarkletia kirjanmerkkipalkissa",
+      "step3": "Valitse kuva sivulta",
+      "step4": "Hae URL heti ja kopioi se!"
+    },
+    "installation": {
+      "title": "Asennus",
+      "step1": {
+        "title": "Vaihe 1: Kopioi bookmarklet-koodi",
+        "description": "Klikkaa alla olevaa painiketta kopioidaksesi bookmarklet-koodin leikepöydälle."
+      },
+      "step2": {
+        "title": "Vaihe 2: Lisää selaimeesi",
+        "description": "Seuraa näitä ohjeita selaimesi mukaan:",
+        "chrome": "Chrome/Edge: Näytä kirjanmerkkipalkki painamalla Ctrl+Shift+B (Macissa Cmd+Shift+B), napsauta palkkia hiiren oikealla ja valitse \"Lisää sivu\". Liitä koodi URL-osoitteeksi.",
+        "firefox": "Firefox: Napsauta kirjanmerkkipalkkia hiiren oikealla ja valitse \"Uusi kirjanmerkki\". Liitä koodi sijaintikenttään.",
+        "safari": "Safari: Ota kirjanmerkkipalkki käyttöön (Näytä → Näytä kirjanmerkkipalkki) ja vedä koodi kirjanmerkkipalkkiin.",
+        "edge": "Vaihtoehto: Luo uusi kirjanmerkki, muokkaa sitä ja korvaa URL kopioidulla koodilla."
+      },
+      "step3": {
+        "title": "Vaihe 3: Aloita käyttö!",
+        "description": "Siirry sivulle, jossa on kuvia, ja klikkaa bookmarkletia aloittaaksesi latauksen!"
+      },
+      "copy": "Kopioi koodi",
+      "copied": "Kopioitu!"
+    },
+    "usage": {
+      "title": "Ominaisuudet",
+      "description": "Bookmarklet tarjoaa seuraavat ominaisuudet. Jokainen lataus lasketaan suunnitelmasi rajoihin (Ilmainen kokeilu: 10 latausta/päivä, 2MB per tiedosto).",
+      "feature1": "Valitse mikä tahansa kuva nykyiseltä verkkosivulta",
+      "feature2": "Automaattinen lataus Photo To URL:ään",
+      "feature3": "Saat jaettavan URL:n heti yhdellä klikkauksella"
+    },
+    "note": {
+      "title": "Huomautus",
+      "content": "Lataukset lasketaan päivittäiseen kiintiöösi (Ilmainen kokeilu: 10 latausta/päivä, 2MB per tiedosto). Bookmarklet toimii useimmilla sivustoilla; tiukat tietoturvasäännöt (CORS) voivat estää lataukset."
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "welcomeBack": "Tervetuloa takaisin",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "signIn": "Kirjaudu sisään",
+      "signUp": "Rekisteröidy",
+      "signUpHint": "Ei tiliä?",
+      "forgotPassword": "Unohditko salasanan?",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "emailRequired": "Sähköposti on pakollinen",
+      "passwordRequired": "Salasana on pakollinen",
+      "signInWithGoogle": "Kirjaudu Googlella"
+    },
+    "register": {
+      "createAccount": "Luo tili",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "signUp": "Rekisteröidy",
+      "signInHint": "Onko sinulla jo tili?",
+      "namePlaceholder": "Nimesi",
+      "signUpSuccess": "Tili luotu onnistuneesti",
+      "signUpWithGoogle": "Rekisteröidy Googlella",
+      "artFightLabel": "Rekisteröi omistettu taiteilijatili",
+      "artFightHint": "Avaa taiteilijakeskeiset Dashboard-työkalut: kopioi upotuskoodit (URL, HTML, BBCode, Markdown) jokaiselle hostatulle kortille."
+    },
+    "error": {
+      "title": "Todennusvirhe",
+      "defaultError": "Todennuksen aikana tapahtui virhe.",
+      "backToLogin": "Takaisin kirjautumiseen"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Tili tällä sähköpostilla on jo olemassa. Käytä toista sähköpostia.",
+      "INVALID_CREDENTIALS": "Väärä sähköposti tai salasana.",
+      "INVALID_EMAIL": "Sähköpostin muoto on virheellinen.",
+      "INVALID_PASSWORD": "Salasanan on oltava vähintään 6 merkkiä.",
+      "EMAIL_REQUIRED": "Sähköposti on pakollinen.",
+      "PASSWORD_REQUIRED": "Salasana on pakollinen.",
+      "NAME_REQUIRED": "Nimi on pakollinen.",
+      "SERVER_ERROR": "Palvelinvirhe. Yritä myöhemmin uudelleen.",
+      "NETWORK_ERROR": "Verkkovirhe. Tarkista yhteytesi."
+    },
+    "orContinueWith": "Tai jatka",
+    "forgotPassword": {
+      "title": "Unohtuiko salasana",
+      "description": "Anna sähköpostiosoitteesi, niin lähetämme linkin salasanan vaihtamiseen.",
+      "email": "Sähköposti",
+      "send": "Lähetä vaihtolinkki",
+      "backToLoginHint": "Muistatko salasanasi?",
+      "checkEmail": "Jos tili on olemassa tällä sähköpostilla, lähetimme vaihtolinkin. Tarkista saapuneet.",
+      "emailRequired": "Sähköposti on pakollinen",
+      "error": {
+        "userNotFound": "Tällä sähköpostilla ei löytynyt tiliä",
+        "tooManyRequests": "Liian monta yritystä. Yritä myöhemmin uudelleen",
+        "serverError": "Jokin meni pieleen. Yritä uudelleen"
+      }
+    },
+    "resetPassword": {
+      "title": "Vaihda salasana",
+      "password": "Uusi salasana",
+      "reset": "Vaihda salasana",
+      "backToLoginHint": "Valmis kirjautumaan?",
+      "requestNewLink": "Pyydä uusi linkki",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "minLength": "Salasanan on oltava vähintään 6 merkkiä",
+      "error": {
+        "expiredToken": "Vaihtolinkki on vanhentunut. Pyydä uusi",
+        "invalidToken": "Virheellinen vaihtolinkki. Pyydä uusi",
+        "missingToken": "Vaihtolinkki puuttuu tai on puutteellinen. Pyydä uusi",
+        "tooManyRequests": "Liian monta yritystä. Yritä myöhemmin uudelleen",
+        "serverError": "Jokin meni pieleen. Yritä uudelleen"
+      }
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name}-tiimi",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Hei, {name}.",
+      "body": "Napsauta alla olevaa painiketta vaihtaaksesi Photo To URL -salasanasi. Jos et pyytänyt tätä, voit ohittaa tämän viestin.",
+      "resetPassword": "Vaihda salasana",
+      "subject": "Vaihda Photo To URL -salasanasi"
+    }
+  },
+  "PricingPage": {
+    "title": "Yksinkertainen ja läpinäkyvä hinnoittelu",
+    "description": "Valitse sinulle sopiva suunnitelma yksinkertaisella ja läpinäkyvällä hinnoittelulla",
+    "subtitle": "Valitse sinulle sopiva suunnitelma",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "faqTitle": "Usein kysytyt kysymykset",
+    "faq": {
+      "payment": {
+        "q": "Mitä maksutapoja hyväksytte?",
+        "a": "Hyväksymme kaikki suuret kortit (Visa, Mastercard, American Express) ja PayPalin."
+      },
+      "cancel": {
+        "q": "Voinko peruuttaa milloin tahansa?",
+        "a": "Kyllä, voit peruuttaa milloin tahansa tilisi asetuksista. Sinua ei veloiteta tulevista maksuista."
+      },
+      "storage": {
+        "q": "Kuinka paljon tallennustilaa minulla on?",
+        "a": "Ilmainen suunnitelma tarjoaa 50MB, Pro 5GB ja Vuosi 50GB."
+      },
+      "upload": {
+        "q": "Voinko päivittää suunnitelmaani myöhemmin?",
+        "a": "Kyllä, voit päivittää tai alentaa milloin tahansa. Muutokset tulevat voimaan välittömästi."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/ kk",
+      "perYear": "/ vuosi",
+      "popular": "Suosituin",
+      "bestValue": "Parhaat vastinetta",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Aloita nyt",
+      "upgradeToYearly": "Päivitä Premiumiin",
+      "cannotDowngrade": "Alaspäin vaihtaminen ei ole mahdollista",
+      "alreadySubscribed": "Nykyinen tilaus on jo voimassa",
+      "subscribeYearly": "Tilaa vuosittain",
+      "subscribeMonthly": "Tilaa kuukausittain",
+      "upgrade": "Päivitä",
+      "notAvailable": "Not Available",
+      "limitedOffer": "Määräaikainen tarjous · 20 % alennus",
+      "savePercentLabel": "Säästä ",
+      "savePercentSuffix": " vs kuukausi",
+      "freePriceNote": "Ikuisesti ilmainen",
+      "monthlyPriceNote": "Laskutetaan kuukausittain",
+      "loading": "Ladataan...",
+      "suitableFor": "Soveltuu:",
+      "activePlanDialog": {
+        "title": "Sinulla on jo aktiivinen tilaus",
+        "description": "Tällä tilillä on jo aktiivinen tilaus.",
+        "descriptionWithDate": "Tällä tilillä on jo aktiivinen tilaus (päättyy {date}).",
+        "close": "Sulje",
+        "manageBilling": "Hallitse tilausta"
+      },
+      "batchUpload": {
+        "label": "Lataa useita kuvia",
+        "free": "Ei",
+        "monthly": "20",
+        "yearly": "50"
+      },
+      "justPerMonth": "{price}/kk",
+      "saveVsMonthly": "Säästä {percent}%",
+      "monthlyEquivalentShort": "({price}/ kk)",
+      "bestValueWithSave": "Paras arvo · Säästä {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Ladataan...",
+      "checkoutFailed": "Kassasivun avaaminen epaonnistui"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Ilmainen",
+      "description": "Täydellinen Photo To URL:n kokeiluun",
+      "features": {
+        "feature-1": "Latauskoko: 2MB",
+        "feature-2": "Päivittäiset lataukset: 10 kertaa",
+        "feature-3": "Tallennustila: 100MB",
+        "feature-4": "CDN: Peruskiihtyvyys",
+        "feature-5": "Ei mainoksia: Ei",
+        "feature-6": "Asiakirjojen hosting: Ei",
+        "feature-7": "Valokuvien hosting: Ei",
+        "feature-8": "Kuvien muokkaus: Ei",
+        "feature-9": "Webhook: Ei",
+        "feature-10": "Resurssioikeudet: Ei mitään"
+      },
+      "limits": [],
+      "suitableFor": "Kokeile tuotetta, testaa ominaisuuksia"
+    },
+    "pro": {
+      "name": "Ammattilainen",
+      "description": "Tasaiset lataukset ja säilytys",
+      "features": {
+        "feature-1": "Latauskoko: 50MB",
+        "feature-2": "Päivittäiset lataukset: 1000 kertaa",
+        "feature-3": "Tallennustila: 100GB",
+        "feature-4": "CDN: Standardikiihtyvyys",
+        "feature-5": "Ei mainoksia: Kyllä",
+        "feature-6": "Asiakirjojen hosting: Kyllä",
+        "feature-7": "Valokuvien hosting: Kyllä",
+        "feature-8": "Kuvien muokkaus: Kyllä",
+        "feature-9": "Webhook: Kyllä",
+        "feature-10": "Resurssioikeudet: Osittaiset"
+      },
+      "limits": [],
+      "suitableFor": "Bloggaajat / Kehittäjät / Pienet tiimit"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Suuremmat kiintiöt, nopeampi CDN",
+      "features": {
+        "feature-1": "Latauskoko: 256MB",
+        "feature-2": "Päivittäiset lataukset: Rajaton",
+        "feature-3": "Tallennustila: 200GB",
+        "feature-4": "CDN: Suurinopeuksiset solmut (etusija)",
+        "feature-5": "Ei mainoksia: Kyllä",
+        "feature-6": "Asiakirjojen hosting: Kyllä",
+        "feature-7": "Valokuvien hosting: Kyllä",
+        "feature-8": "Kuvien muokkaus: Kyllä",
+        "feature-9": "Webhook: Kyllä",
+        "feature-10": "Resurssioikeudet: Kaikki"
+      },
+      "limits": [],
+      "suitableFor": "Yritykset / Toistuva käyttö / Automaatiojärjestelmät"
+    }
+  },
+  "Dashboard": {
+    "title": "Hallintapaneeli",
+    "themeToggle": "Teema",
+    "welcome": "Tervetuloa",
+    "loadFailed": "Lataaminen epäonnistui. Yritä myöhemmin uudelleen.",
+    "errorTitle": "Jokin meni pieleen",
+    "dismiss": "OK",
+    "dashboard": "Hallintapaneeli",
+    "resources": "Omat resurssit",
+    "photos": "Omat kuvat",
+    "storage": "Tallennustila",
+    "used": "Käytetty",
+    "total": "Yhteensä",
+    "storageDisplay": "{used} / {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Rajoittamaton",
+    "deleteConfirm": "Oletko varma, että haluat poistaa tämän resurssin?",
+    "deleteResource": "Poista resurssi",
+    "deleteFailed": "Resurssin poistaminen epäonnistui",
+    "delete": "Poista",
+    "cancel": "Peruuta",
+    "copied": "Kopioitu!",
+    "copy": "Kopioi linkki",
+    "open": "Avaa",
+    "removeBackground": "Poista tausta",
+    "noResources": "Ei resursseja. Lataa kuvia aloittaaksesi.",
+    "files": "tiedostoa",
+    "dailyUploads": "Lataukset tänään",
+    "today": "tänään",
+    "resourcesCount": "Sinulla on {count} ladattua resurssia",
+    "photosCount": "Sinulla on {count} ladattua kuvaa",
+    "resourcePageInfo": "Sivu {page} / {totalPages} · {pageSize} sivulla · yhteensä {total} tiedostoa",
+    "resourceTotalCount": "Yhteensä {total} kohdetta",
+    "resourcePageSizeLabel": "Kohteita sivulla",
+    "resourcePageSizeOption": "{size} sivulla",
+    "resourceJumpTo": "Siirry",
+    "resourceJumpPageUnit": "sivu",
+    "resourceJumpInputAria": "Sivunumero",
+    "resourcePagePrev": "Edellinen sivu",
+    "resourcePageNext": "Seuraava sivu",
+    "subtitle": "Tässä on yleiskatsaus työtilaasi.",
+    "planCardTitle": "Suunnitelma",
+    "planActive": "Aktiivinen",
+    "planNames": {
+      "free": "Ilmainen",
+      "premium": "Premium",
+      "pro": "Ammattilainen"
+    },
+    "planCardHintUpgrade": "Päivitä saadaksesi lisää",
+    "planCardHintAllUpgraded": "Kaikki ominaisuudet käytössä",
+    "statStorageHint": "Käytetty tallennustila kaikista latauksista",
+    "statResourcesHint": "Yhteensä kuvat + dokumentit",
+    "statPhotosHint": "Tiedostot, jotka voit kopioida tai jakaa linkkeinä",
+    "statUploadsHint": "Nollautuu 24 h välein tason mukaan",
+    "chartTitle": "Toiminta",
+    "chartDescription": "Latausmäärä ajan mittaan",
+    "chartPlaceholder": "Trenderit ilmestyvät tänne, kun toimintaa on enemmän.",
+    "chartRange7d": "Viimeiset 7 päivää",
+    "chartRange30d": "Viimeiset 30 päivää",
+    "chartRange90d": "Viimeiset 3 kuukautta",
+    "tableFile": "Tiedosto",
+    "tablePath": "Polku",
+    "tableSize": "Koko",
+    "tableActions": "Toiminnot",
+    "viewTable": "Taulukko",
+    "viewGrid": "Kuvaseinä",
+    "chartDemoNote": "Latausmäärien trendi (päivät)",
+    "loginRequired": "Kirjaudu sisään nähdäksesi hallintapaneelisi.",
+    "checkoutSuccess": "Maksu onnistui! Suunnitelmasi on päivitetty.",
+    "subscriptionSuccess": "Tilaus aktivoitu. Tervetuloa {plan}-pakettiin!",
+    "circleCrop": "Ympyräleikkaus",
+    "roundedCorners": "Pyöristetyt kulmat",
+    "scheduledForDeletion": "Aikataulutettu poistettavaksi",
+    "upload": "Lataa",
+    "uploadPhoto": "Lataa kuva",
+    "batchUploadPhotos": "Lataa useita kuvia",
+    "batchUploading": "Ladataan useita kuvia…",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Valitse enintään {max} tiedostoa kerrallaan.",
+    "batchUploadTierHint": "Enintään {max} tiedostoa per erä tilauksesi mukaan.",
+    "uploadUpgradeHint": "Käytettävissä päivityksen jälkeen",
+    "uploading": "Ladataan...",
+    "loading": "Ladataan...",
+    "uploadErrorInvalidType": "Virheellinen tiedostotyyppi. Käytä PNG-, JPG-, WEBP- tai GIF-tiedostoa.",
+    "uploadErrorTooLarge": "Tiedosto on liian suuri. Pakettisi sallii enintaan {maxMb} Mt per tiedosto.",
+    "uploadErrorDailyLimit": "Päivittäinen raja saavutettu ({limit} latausta/päivä).",
+    "uploadErrorStorageLimit": "Tallennustila täynnä.",
+    "uploadErrorGeneric": "Lataus epäonnistui. Yritä uudelleen.",
+    "uploadUpgradeTitle": "Ota suora lataus käyttöön",
+    "uploadUpgradeDescription": "Päivitä, jotta voit ladata suoraan hallintapaneelista suuremmilla rajoilla.",
+    "uploadRenewDescription": "Uusi tilaus, jotta voit ladata suoraan hallintapaneelista suuremmilla rajoilla.",
+    "expiredStorageLimitHint": "Vanhentumisen jälkeen käytettävissä on vain 100MB tallennustilaa",
+    "uploadGoHome": "Lataa etusivulla",
+    "resourceModule": {
+      "title": "Omat dokumentit",
+      "count": "Sinulla on {count} ladattua dokumenttia",
+      "empty": "Ei dokumentteja vielä. Lataa PDF/Word/PowerPoint/Excel aloittaaksesi.",
+      "viewCard": "Kortit",
+      "searchPlaceholder": "Hae tiedostonimellä",
+      "typeAll": "Kaikki tyypit",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Nollaa",
+      "upload": "Lataa dokumentti",
+      "uploading": "Ladataan...",
+      "copy": "Kopioi linkki",
+      "open": "Avaa",
+      "delete": "Poista",
+      "deleteFailed": "Dokumentin poistaminen epäonnistui",
+      "fetchError": "Dokumenttilistan haku epäonnistui",
+      "tableFile": "Tiedosto",
+      "tablePath": "Polku",
+      "tableType": "Tyyppi",
+      "typeLabel": "Tyyppi",
+      "tableSize": "Koko",
+      "tableActions": "Toiminnot",
+      "uploadErrorTooLarge": "Tiedosto on liian suuri. Pakettisi tiedostokohtainen raja on {maxSize}.",
+      "uploadErrorDailyLimit": "Päiväraja täynnä ({limit} latausta/päivä).",
+      "uploadErrorStorageLimit": "Tallennustilan raja täynnä.",
+      "uploadErrorGeneric": "Lataus epäonnistui. Yritä uudelleen."
+    },
+    "uploadSize": "Tiedoston koko {size}",
+    "dailyUploadsLimit": "{limit} latausta/päivä",
+    "dailyUploadsUnlimited": "Rajoittamattomat lataukset",
+    "monthly": "kk",
+    "yearly": "v",
+    "bestValue": "Paras hinta-laatusuhde",
+    "upgrade": {
+      "title": "Päivitä suunnitelmasi",
+      "description": "Päivitä suunnitelmasi korkeampia päivittäisiä rajoja, suurempia tiedostoja ja premium-ominaisuuksia varten. Rajattomat päivittäiset lataukset vuosittaisella Premium-suunnitelmalla.",
+      "button": "Päivitä nyt"
+    },
+    "settings": {
+      "title": "Asetukset",
+      "profile": {
+        "title": "Profiili",
+        "description": "Hallinnoi profiilitietojasi",
+        "name": {
+          "title": "Nimi",
+          "description": "Päivitä näyttönimesi",
+          "placeholder": "Anna nimesi",
+          "hint": "Tämä nimi näytetään profiilissasi",
+          "minLength": "Nimen on oltava vähintään 3 merkkiä",
+          "maxLength": "Nimi ei saa ylittää 30 merkkiä",
+          "success": "Nimi päivitetty onnistuneesti",
+          "fail": "Nimen päivitys epäonnistui",
+          "save": "Tallenna",
+          "saving": "Tallennetaan..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Päivitä profiilikuvasi",
+          "uploadAvatar": "Lataa kuva",
+          "unavailable": "Lataus ei ole käytettävissä",
+          "disabledHint": "Avatarin lataus vaatii, että pilvitallennus on käytössä tässä projektissa.",
+          "recommendation": "PNG, JPG tai WebP. Enimmäiskoko noudattaa palvelimen rajoituksia."
+        }
+      },
+      "billing": {
+        "title": "Laskutus",
+        "description": "Hallinnoi laskutustasi ja tilaustasi",
+        "billingPagePlanTitle": "Nykyinen tilaus",
+        "billingPageStorageTitle": "Tallennustilan käyttö",
+        "currentPlan": {
+          "title": "Pakettisi ja tallennustilasi Photo To URL:ssa",
+          "description": "Päivitä avataksesi korkeammat kiintiöt ja lisää ominaisuuksia"
+        },
+        "loadError": "Laskutietoja ei voitu ladata.",
+        "retry": "Yritä uudelleen",
+        "planNames": {
+          "free": "Ilmainen",
+          "premium": "Premium",
+          "pro": "Ammattilainen"
+        },
+        "status": {
+          "active": "Aktiivinen",
+          "expired": "Vanhentunut"
+        },
+        "storageUsed": "Käytetty tallennustila",
+        "freePlanMessage": "Korkeampi latauskiintiö",
+        "inactivePlanMessage": "Edut ovat vanhentuneet",
+        "expiredStorageLimitHint": "Vanhentumisen jälkeen käytettävissä on vain 100MB tallennustilaa",
+        "paidPlanMessage": "Edut aktiivisia",
+        "backToWorkbench": "Takaisin hallintapaneeliin",
+        "upgradeHint": "Enemmän tallennustilaa",
+        "upgradeToPlan": "Päivitä tilaus",
+        "featureAdvancedEditing": "Edistyneet muokkaustyökalut",
+        "upgradeNotReady": {
+          "title": "Tulossa pian",
+          "description": "Pysy kuulolla lisäpalveluista!",
+          "confirm": "Selvä",
+          "cancel": "Sulje"
+        },
+        "storage": {
+          "title": "Nopeampi CDN",
+          "description": "Seurau tallennustilan kulutustasi",
+          "upgradeStorage": "Laajenna tallennustilaa"
+        }
+      },
+      "security": {
+        "title": "Turvallisuus",
+        "description": "Hallinnoi tilisi turvallisuutta",
+        "updatePassword": {
+          "title": "Salasana",
+          "description": "Vaihda sähköpostikirjautumisen salasanasi",
+          "currentPassword": "Nykyinen salasana",
+          "newPassword": "Uusi salasana",
+          "confirmPassword": "Vahvista uusi salasana",
+          "currentRequired": "Anna nykyinen salasanasi",
+          "newMinLength": "Vähintään 8 merkkiä",
+          "confirmRequired": "Vahvista uusi salasanasi",
+          "passwordMismatch": "Salasanat eivat taytaa",
+          "hint": "Käytä vahvaa salasanaa, jota et käytä muualla.",
+          "save": "Päivitä salasana",
+          "saving": "Tallennetaan…",
+          "success": "Salasana päivitetty",
+          "fail": "Salasanan päivitys epäonnistui",
+          "showPassword": "Näytä salasana",
+          "hidePassword": "Piilota salasana"
+        },
+        "resetPassword": {
+          "title": "Aseta salasana",
+          "description": "Kirjauduit Google-tilin kautta. Lisää sähköpostisalasana varmuuskopiointikirjautumista varten.",
+          "info": "Lähetämme salasanan nollauslinkin tilisi sähköpostiosoitteeseen.",
+          "button": "Lähetä nollauslinkki",
+          "sending": "Lähetetään…",
+          "sent": "Tarkista saapuneet-kansiosi nollauslinkin varalta.",
+          "disabled": "Salasanan nollausviestejä ei ole vielä määritetty tällä palvelimella.",
+          "fail": "Pyyntö epäonnistui. Yritä myöhemmin uudelleen."
+        },
+        "deleteAccount": {
+          "title": "Poista tili",
+          "description": "Poista tilisi ja siihen liittyvät tiedot pysyvästi.",
+          "warning": "Tätä toimintoa ei voi peruuttaa. Varmista, että olet tallentanut kaiken tarvittavan.",
+          "button": "Poista tilini",
+          "confirmTitle": "Poista tili?",
+          "confirmDescription": "Tilisi poistetaan pysyvästi.",
+          "cancel": "Peruuta",
+          "confirm": "Poista",
+          "deleting": "Poistetaan…",
+          "success": "Tili poistettu",
+          "fail": "Tilin poistaminen epäonnistui"
+        }
+      },
+      "notification": {
+        "title": "Ilmoitukset",
+        "description": "Hallinnoi ilmoitusasetuksiasi",
+        "newsletter": {
+          "title": "Sähköpostipäivitykset",
+          "description": "Tuotuutiset ja vinkit (valinnainen)",
+          "label": "Tilaa uutiskirje",
+          "disabledHint": "Uutiskirje ei ole vielä käytössä tällä sivustolla.",
+          "hint": "Kun se on käytössä, voit tilata tai peruuttaa tilauksen täällä."
+        },
+        "productPreview": {
+          "title": "Tuotteen esikatselu",
+          "description": "Pääkuva, jota käytetään jakokorteissa ja aloitussivuilla.",
+          "announcement": {
+            "line1": "Julkaisemme jatkuvasti tehokkaampia ominaisuuksia ja entistä arvokkaampia jäsenetuja.",
+            "line2": "Uudet päivitysominaisuudet avataan ensisijaisesti nykyisille käyttäjille ilman hinnanmuutoksia.",
+            "line3": "Kiitos jokaisen käyttäjän luottamuksesta ja tuesta. Kehitämme tuotetta jatkuvasti tarjotaksemme entistä enemmän arvoa.",
+            "line4": "Jatkamme globaalin käyttökokemuksen optimointia nopeammilla ja luotettavammilla palveluilla."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Taiteilijatili",
+    "artFightWorkspaceHint": "Taiteilijatyökalut käytössä — kopioi URL-, HTML-, BBCode- ja Markdown-upotuskoodit jokaiselle kuvalle."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Art Fight -profiilikorttien hosting | URL ja upotuskoodit",
+      "description": "Lataa Team Tragedy-, Comedy- tai Mystery-profiilikortit. Saat suoran HTTPS-linkin sekä HTML/BBCode-upotuksen Art Fightiin, Discordiin ja somejulkaisuihin.",
+      "keywords": "Art Fight profiilikortti,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+    },
+    "footerLink": "Art Fight -hosting",
+    "artistAccount": {
+      "badge": "Taideilijatili",
+      "title": "Rekisteröi omistettu taiteilijatili",
+      "lead": "Luo ilmainen taideilijatili tallentaaksesi profiilikortit Dashboardiin ja käyttääksesi ammattimaisia upotustyökaluja Art Fightiin — kopioi URL, HTML, BBCode ja Markdown jokaisesta latauksesta.",
+      "toolEmbedTitle": "Upotustyökalut",
+      "toolEmbedDesc": "Kopioi yhdellä napsautuksella Art Fight -profiileihin, Discordiin, foorumeille ja somejulkaisuihin.",
+      "toolDashboardTitle": "Taideilija-Dashboard",
+      "toolDashboardDesc": "Jokainen kortti pysyy tililläsi — etsi, esikatsele ja kopioi linkit uudelleen milloin tahansa.",
+      "toolBatchTitle": "Erälataus (Pro)",
+      "toolBatchDesc": "Päivityksen jälkeen voit ladata monta profiilikorttia kerralla — usean OC:n taiteilijoille.",
+      "registerCta": "Luo taideilijatili",
+      "footnote": "Valitse «Omistettu taiteilijatili» rekisteröityessäsi tai rekisteröidy tältä sivulta — valitsemme sen etukäteen."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "Digitaalisille taiteilijoille ja OC-luojille",
+      "title": "Profiilikortti- ja ref sheet -hosting Art Fight -taiteilijoille",
+      "subtitle": "Lataa Team Tragedy-, Comedy- tai Mystery-profiilikorttisi — saat vakaan kuva-URL:n sekä HTML- ja BBCode-upotuskoodit Art Fight -profiileihin, Discordiin ja \"valmis taistelemaan\" -julkaisuihisi.",
+      "artistAccountLine": "Rekisteröi omistettu taiteilijatili ammattimaisia embed-työkaluja varten hallintapaneelissa.",
+      "cta": "Pudota profiilikorttisi alle → kopioi linkki → liitä minne tahansa, missä ilmoitat joukkueesi",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Profiilihosting",
+      "tabArtist": "Taideilijatili",
+      "tabSupport": "Taideilijatuki",
+      "tabsAriaLabel": "Art Fight -kohokohdat",
+      "trustLine": "Ilmainen pikalataus · URL ja upotuskoodit · Taideilija-Dashboard",
+      "uploadCta": "Lataa kortti",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Liitä-valmiit upotuskoodit",
+      "panelIntroDesc": "Lataa profiilikortti kerran, kopioi sitten suora linkki tai foorumivalmis HTML ja BBCode Art Fightiin ja Discordiin.",
+      "panelArtistTitle": "Taideilijatilin työkalut",
+      "panelSupportTitle": "Omistettu taideilijatuki",
+      "panelSupportDesc": "Lataukset, upotukset, tilit ja paketit — oikeita ihmisiä, ei geneeristä tikettijonoa."
+    },
+    "teams": {
+      "title": "Sama työkalu jokaiselle Art Fight -joukkueelle",
+      "lead": "Päätyitpä Tragedyyn, Comedyyn tai Mysteryyn, tarvitset kortin valmistuttua yhden asian: nopean, vakaan kuvalinkin jaettavaksi.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Sinisävyiset profiilikortit ja ref sheetit — hostaa koko korttikuva ja liitä linkki Art Fight -profiiliisi tai Twitter/X-julkaisuusi.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Oranssit ja lämpimänsävyiset hahmokortit — täydelliset Discord-ilmoituksiin ja profiiliupotuksiin Art Fightin huipulla.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Violetit kortit kolmannelle fraktioille — sama latausprosessi, samat upotuskoodit, valmiina jaettavaksi.",
+      "footnote": "Kaikki kolme joukkuetta noudattavat samaa työnkulkua: lataa → kopioi URL tai upotus → julkaise korttisi julkisesti."
+    },
+    "useCases": {
+      "title": "Minne taiteilijat liittävät linkin",
+      "lead": "Art Fight on sosiaalinen. Hostattu linkkisi kulkee mukana jokaisessa profiilipäivityksessä ja jokaisessa \"olen tässä joukkueessa\" -julkaisussa.",
+      "profileTitle": "Art Fight -profiili",
+      "profileDesc": "Liitä suora URL tai HTML-upotus viralliseen Art Fight -hahmoprofiiliisi, jotta joukkuetoverit näkevät korttisi.",
+      "socialTitle": "Twitter / X ja somejulkaisut",
+      "socialDesc": "Jaa profiilikorttisi joukkueesi ilmoittaessasi — siisti HTTPS-linkki latautuu nopeasti aikajanoilla ja vastauksissa.",
+      "discordTitle": "Discord ja taiteilijapalvelimet",
+      "discordDesc": "Pudota URL tai BBCode Art Fight -Discord-kanaville, palvelimen esittelyihin tai hyökkäyssuunnitelmaketjuihin.",
+      "portfolioTitle": "Toyhouse ja portfoliosivut",
+      "portfolioDesc": "Käytä samaa linkkiä Toyhousessa, Carrdissa tai foorumiallekirjoituksissa, jotta ref pysyy yhtenäisenä kaikkialla."
+    },
+    "features": {
+      "sectionTitle": "Miksi Art Fight -taiteilijat valitsevat Photo To URL:n",
+      "fastTitle": "Rakennettu kiireisiin Art Fight -kausiin",
+      "fastDesc": "Lataa kun sinun täytyy julkaista — saat CDN-linkin sekunneissa lämmittelyn, huipputapahtuman tai minkä tahansa vuodenajan aikana.",
+      "linkTitle": "Profiilikorttiystävälliset URL:t",
+      "linkDesc": "Siistit .png/.jpg-linkit, jotka Art Fight -profiilit, foorumit ja somejulkaisut hyväksyvät ilman ylimääräisiä vaiheita.",
+      "embedTitle": "HTML ja BBCode taiteilijoille",
+      "embedDesc": "Kopioi upotuspalat profiileihin ja foorumeille — ei img-tunnisteiden käsittelyä kiireisen kauden aikana.",
+      "safeTitle": "Dashboard-hosting kirjautumisen jälkeen",
+      "safeDesc": "Rekisteröityneet käyttäjät tallentavat profiilikortit Dashboardiin — kopioi linkit uudelleen, etsi tiedostoja ja hallitse latauksia yhdestä paikasta."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Taideilijatili: hostaa kortit Dashboardissasi",
+      "sectionLead": "Anonyymit lataukset riittävät nopeaan julkaisuun. Rekisteröidy Art Fight -taideilijaksi saadaksesi oman Dashboardin upotustyökaluilla jokaiselle hostatulle kortille — tai päivitä Prohon erälatausta ja korkeampia rajoja varten.",
+      "dashboardTitle": "Dashboard-kuvahosting",
+      "dashboardDesc": "Kirjautumisen jälkeen jokainen lataus tallentuu Dashboardiisi. Kopioi sama linkki uudelleen, avaa kuva uudessa välilehdessä tai lataa alkuperäinen — kaikki yhdestä listasta.",
+      "batchTitle": "Erälataus (Pro)",
+      "batchDesc": "Lataa monta profiilikorttia kerralla Dashboardista — jopa {monthlyMax} erää kohti Prossa tai {yearlyMax} Premium-vuositilauksella.",
+      "manageTitle": "Haku ja kuvaruutu",
+      "manageDesc": "Etsi mikä tahansa hostattu kortti tiedostonimen perusteella, vaihda taulukko- ja kuvaruutunäkymien välillä ja poista tarpeettomat tiedostot.",
+      "proTitle": "Korkeammat rajat ja suuremmat tiedostot",
+      "proDesc": "Kaikki Free-paketista plus Dashboard-erälataus ({monthlyMax}–{yearlyMax} tiedostoa), korkeammat päivärajat, suuremmat lataukset ja enemmän tallennustilaa.",
+      "anonymousLabel": "Anonyymi",
+      "anonymousDesc": "Nopea linkki yhteen julkaisuun. Ei tallenneta tilillesi; voidaan siivota milloin tahansa.",
+      "freeLabel": "Ilmainen tili",
+      "freeDesc": "Kortit tallennetaan Dashboardiisi. Kopioi linkit uudelleen, etsi ja hallitse kunnes poistat ne tai saavutat tallennusrajat.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Luo ilmainen tili",
+      "loginCta": "Kirjaudu sisään",
+      "dashboardCta": "Avaa Dashboard",
+      "proCta": "Katso Pro-paketit",
+      "ctaPanelTitle": "Valmis hostaamaan korttisi?",
+      "footnote": "Ilmaiset tilit lataavat täällä ja hallitsevat tiedostoja Dashboardissa. Erälataus vaatii Pron tai Premiumin."
+    },
+    "upload": {
+      "sectionTitle": "Lataa Art Fight -profiilikorttisi",
+      "sectionLead": "Ref sheet, joukkuekortti tai koko profiilikuva — vedä tähän ja kopioi linkki seuraavaan julkaisuusi.",
+      "dropzoneTitle": "Pudota profiilikorttisi tai ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP tai GIF — joukkuekortit, ref sheetit ja hahmografiikat tervetulleita",
+      "dropzoneFootnote": "Ilmainen: 10 latausta/päivä ilman rekisteröitymistä. Kirjaudu sisään korkeampia rajoja varten milloin tahansa.",
+      "defaultAlt": "Art Fight -profiilikortti",
+      "resultTitle": "Korttisi on valmis — jaa se",
+      "resultHint": "Kopioi URL Art Fight -profiileihin tai HTML/BBCode foorumeille ja Discordiin.",
+      "open": "Avaa kuva",
+      "reset": "Lataa toinen kortti",
+      "errorBadType": "Lataa kuvatiedosto (PNG, JPG, WEBP tai GIF).",
+      "errorGeneric": "Lataus epäonnistui. Yritä uudelleen.",
+      "loginRequiredTitle": "Päivittäinen ilmaisraja saavutettu",
+      "loginRequiredDescription": "Kirjaudu sisään jatkaaksesi profiilikorttien lataamista ja tallentamista Dashboardiin, tai palaa huomenna lisää ilmaislatauksia varten.",
+      "loginRequiredDetail": "Rekisteröityneet käyttäjät saavat Dashboard-hostingin: jokainen kortti pysyy tililläsi, voit kopioida linkit uudelleen, etsiä tiedostonimen perusteella ja hallita latauksia yhdestä paikasta.",
+      "retentionAnonymousTitle": "Anonyymi linkki — ei suositella tärkeille korteille",
+      "retentionAnonymousBody": "Anonyymit lataukset vain nopeaan jakamiseen. Linkki toimii nyt mutta ei tallennu — rekisteröidy ilmaiseksi upotuksia varten.",
+      "retentionAnonymousSignUp": "Luo ilmainen tili",
+      "retentionAnonymousPro": "Katso Pro-paketit",
+      "retentionFreeTitle": "Tämä linkki on tallennettu tilillesi",
+      "retentionFreeBody": "Voit kopioida sen uudelleen milloin tahansa Dashboardistasi. Ilmaisilla tileillä on päivittäiset latausrajat ja tallennusrajoitukset — riittää nopeisiin kortteihin, mutta ei rajattomasti.",
+      "retentionFreeDashboard": "Avaa Dashboard",
+      "retentionFreeUpgrade": "Päivitä saadaksesi enemmän tallennustilaa",
+      "retentionProTitle": "Profiilikorttisi hostataan Pro-paketillasi",
+      "retentionProBody": "Korkeammat latausrajat, enemmän tallennustilaa ja luotettavat linkit jokaiseen Art Fightiin — Tragedy, Comedy tai Mystery.",
+      "retentionProDashboard": "Avaa Dashboard",
+      "resultHintAnonymous": "Anonyymi lataus — vain suora linkki. Rekisteröidy avataksesi HTML-, BBCode- ja Markdown-upotukset.",
+      "retentionAnonymousIntro": "Tämä suora linkki toimii nopeaan jakamiseen, mutta anonyymillä hostingilla on vakavia rajoituksia:",
+      "retentionAnonymousLimit1": "Ei sidottu tiliisi — vähemmän turvallinen; kuka tahansa linkillä voi nähdä kuvan",
+      "retentionAnonymousLimit2": "Hitaampi CDN — anonyymeille latauksille ei prioriteettikiihdytystä",
+      "retentionAnonymousLimit3": "Saatetaan pakata — alkuperäistä laatua ei taata",
+      "retentionAnonymousLimit4": "Lyhyt kesto — anonyymit tiedostot poistetaan säännöllisesti; linkki voi lakata toimimasta",
+      "retentionAnonymousLimit5": "Upotuskoodit lukittu — HTML, BBCode ja Markdown vaativat ilmaisen tilin",
+      "retentionAnonymousCta": "Luo ilmainen tili tallentaaksesi kortit, avataksesi upotukset, nopeamman CDN:n ja luotettavammat linkit."
+    },
+    "embed": {
+      "altLabel": "Alt-teksti (HTML:lle ja Markdownille)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Kopioi koodi",
+      "copied": "Kopioitu",
+      "lockedTabTitle": "Rekisteröidy avataksesi upotuskoodit",
+      "lockedTabDescription": "HTML, BBCode ja Markdown käytettävissä rekisteröinnin jälkeen. Ilmaiset tilit: hallintapaneeli ja upotuksen kopiointi yhdellä napsautuksella.",
+      "lockedTabCta": "Luo ilmainen tili"
+    },
+    "howTo": {
+      "title": "Profiilikortista julkiseen julkaisuun",
+      "lead": "Työnkulku, jota jokainen Art Fight -taiteilija seuraa kortin valmistuttua.",
+      "schemaName": "Näin hostaat Art Fight -profiilikortin upotuskoodilla",
+      "schemaDescription": "Lataa Art Fight -joukkueprofiilikortti Photo To URL:iin ja liitä linkki profiiliisi tai somejulkaisuusi.",
+      "step1Title": "Lataa joukkuekorttisi",
+      "step1Desc": "Pudota Tragedy-, Comedy- tai Mystery-profiilikorttisi tai ref sheet. Saat suoran linkin ja upotuskoodit heti.",
+      "step2Title": "Kopioi URL tai upotuskoodi",
+      "step2Desc": "Käytä URL-välilehteä Art Fight -profiileihin tai HTML/BBCodea Discordiin, foorumeille ja portfoliosivuille.",
+      "step3Title": "Julkaise ja ilmoita joukkueesi",
+      "step3Desc": "Liitä linkki Art Fightiin, Twitter/X:ään tai Discordiin, jotta muut taiteilijat näkevät korttisi ja löytävät sinut tapahtuman aikana."
+    },
+    "faq": {
+      "title": "Art Fight -taiteilijoiden UKK",
+      "lead": "Kysymyksiä taiteilijoilta, jotka lataavat Team Tragedy-, Comedy- ja Mystery-kortteja.",
+      "warningTitle": "Lataa vastuullisesti",
+      "warningBody": "Hostaa vain teoksia, jotka olet luonut tai joita saat selvästi jakaa. Älä lataa loukkaavaa, laitonta tai kiellettyä sisältöä. Olet vastuussa jokaisesta lataamastasi tiedostosta.",
+      "warningTermsLink": "Käyttöehdot",
+      "warningPrivacyLink": "Tietosuojakäytäntö",
+      "q1Question": "Onko tämä profiilikorteille vai ref sheeteille?",
+      "q1Answer": "Molemmille. Lataa koko Art Fight -joukkueprofiilikorttisi, hahmon ref sheet tai mikä tahansa grafiikka, jota tarvitset hotlinkata tapahtumaan.",
+      "q2Question": "Toimiiko se kaikille kolmelle joukkueelle?",
+      "q2Answer": "Kyllä. Team Tragedy-, Team Comedy- ja Team Mystery -kortit käyttävät samaa latausta — hostaamme kuvan ja annamme jaettavan linkin.",
+      "q3Question": "Tarvitsenko tilin lataamiseen?",
+      "q3Answer": "Et nopeisiin latauksiin. Anonyymit käyttäjät saavat 10 ilmaislatausta päivässä. Kirjaudu sisään tallentaaksesi kortit Dashboardiin — kopioi linkit uudelleen, etsi tiedostoja ja hallitse latauksia. Pro lisää erälatauksen Dashboardista (jopa 20–50 korttia kerralla) sekä korkeammat rajat.",
+      "q8Question": "Voinko eräladata monta profiilikorttia?",
+      "q8Answer": "Kyllä, maksullisella paketilla. Avaa Dashboard, käytä Erälatausta ja valitse useita PNG/JPG/WEBP/GIF-tiedostoja kerralla — jopa 20 erää kohti Pro-kuukausitilauksella tai 50 Premium-vuositilauksella. Ilmaiset tilit voivat ladata yhden kortin kerrallaan tällä sivulla tai Dashboardissa.",
+      "q4Question": "Toimiiko korttini linkki Discordissa ja Twitterissä?",
+      "q4Answer": "Kyllä. Suora HTTPS-URL toimii somejulkaisuissa. Käytä BBCodea Discord-ystävälliseen markupiin, missä tuettu.",
+      "q5Question": "Pysyykö linkkini saatavilla pitkällä aikavälillä?",
+      "q5Answer": "Riippuu lataustavasta. Anonyymit linkit ovat vain nopeaan käyttöön — siivoamme anonyymejä latauksia säännöllisesti, ja linkki voi katketa milloin tahansa. Rekisteröityneet käyttäjät säilyttävät tiedostot Dashboardissa, kunnes poistavat ne tai saavuttavat tallennusrajat. Pro on paras vaihtoehto, jos tarvitset profiilikorttien pysyvän luotettavasti verkossa.",
+      "q6Question": "Voinko ladata minkä tahansa kuvan? Entä tekijänoikeudet?",
+      "q6Answer": "Lataa vain kuvia, jotka omistat tai joita olet valtuutettu hostaamaan ja jakamaan — kuten omat OC:si, tilaukset joihin sisältyy hosting-oikeudet tai omat teoksesi. Älä lataa toisten taiteilijoiden ref sheetejä, virallisia Art Fight -resursseja joita et ole luonut, julkkiskuvia, brändilogoja tai muuta tekijänoikeudella suojattua materiaalia ilman lupaa. Loukkaavan sisällön lataaminen on sinun vastuullasi.",
+      "q7Question": "Mikä sisältö on ehdottomasti kielletty?",
+      "q7Answer": "Älä koskaan lataa laitonta sisältöä; seksuaalisesti eksplisiittistä tai hyväksikäyttävää materiaalia (mukaan lukien kaikki, jossa on alaikäisiä); vihapuhetta, häirintää tai väkivaltaa; haittaohjelmia tai huijauksia; tai mitään, mikä rikkoo tekijänoikeuksia, tavaramerkkejä tai yksityisyyttä. Voimme poistaa tiedostoja ja keskeyttää pääsyn ilman ennakkoilmoitusta, jos kohtuudella uskomme sisällön rikkovan ehtojamme tai lakia."
+    },
+    "artistSupport": {
+      "title": "Taideilijatuki — olemme täällä auttamassa",
+      "panelVisualTag": "Vastaus 1–2 päivässä",
+      "panelVisualQuestion": "Eikö BBCode-upotus toimi?",
+      "panelVisualReply": "Selvä — autamme sinua ratkaisemaan sen.",
+      "topicEmbed": "Upotukset ja linkit",
+      "topicAccount": "Taideilijatili",
+      "topicPlan": "Paketit ja tallennustila",
+      "topicFeedback": "Ideat ja palaute",
+      "contactHint": "Ota yhteyttä milloin tahansa — ei jonoa.",
+      "contactCta": "Ota yhteyttä",
+      "emailCta": "Lähetä sähköpostia"
+    },
+    "conversion": {
+      "title": "Hostaatko monta OC:ta? Erälataus Dashboardistasi",
+      "description": "Pro-taiteilijat lataavat kymmeniä profiilikortteja kerralla, pitävät jokaisen linkin Dashboardissa ja nauttivat korkeammista päivärajoista ja tallennustilasta koko rosterille.",
+      "cta": "Katso taiteilijaystävälliset Pro-paketit"
+    }
+  }
+}

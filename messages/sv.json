@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Foto till URL",
+    "logout": "Logga ut",
+    "logoutFailed": "Utloggning misslyckades",
+    "switchLanguage": "Byt språk",
+    "tagline": "Gör om foton till rena, delbara länkar på några sekunder",
+    "header": {
+      "home": "Hem",
+      "blog": "Blogg",
+      "subtitle": "Gör om bilder till delbara länkar",
+      "prompt": "Dra, klistra in eller ladda upp — få en länk direkt",
+      "circleCrop": "Cirkulär bildbeskärning",
+      "circleCropNav": "Cirkelbeskärning",
+      "roundedCorners": "Rundade hörn",
+      "removeBackground": "Foto Ta Bort Bakgrund",
+      "removeBackgroundNav": "Ta Bort Bakgrund",
+      "pricingNav": "Priser",
+      "comingSoon": "Kommer snart.",
+      "history": "Uppladdningshistorik",
+      "login": "Logga in",
+      "signUp": "Registrera",
+      "signOut": "Logga ut",
+      "dashboard": "Dashboard",
+      "settings": "Inställningar",
+      "tool": "Verktyg",
+      "pdfToUrlNav": "PDF till URL",
+      "fileToUrlNav": "Fil till URL",
+      "artFightNav": "Profilkort"
+    },
+    "history": {
+      "drawerTitle": "Uppladdningshistorik",
+      "hint": "Visa uppladdningar från senaste veckan.",
+      "close": "Stäng",
+      "empty": "Inga uppladdningar än.",
+      "copy": "Kopiera länk",
+      "copied": "Kopierat",
+      "open": "Öppna i ny flik"
+    },
+    "languageSelect": {
+      "title": "Välj din region",
+      "subtitle": "Att välja en region ändrar språk och innehåll.",
+      "close": "Stäng"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Gör om foton till rena, delbara länkar.",
+        "line2": "Snabbt, enkelt, pålitligt."
+      },
+      "partners": "Partners",
+      "linksTitle": "Resurser",
+      "productsTitle": "Produkter",
+      "nav": {
+        "home": "Hem",
+        "blog": "Blogg",
+        "pricing": "Priser",
+        "docs": "Dokumentation",
+        "status": "Status",
+        "about": "Om oss",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "title": "Juridisk",
+        "privacy": "Integritet",
+        "terms": "Villkor",
+        "cookie": "Cookiepolicy"
+      },
+      "copyright": "© 2025 Photo To URL. Alla rättigheter förbehållna.",
+      "products": {
+        "editStamp": "Stämpelredigerare"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "CDN-länkar",
+      "nosignup": "Ingen registrering"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "foto till URL",
+      "subtitle": "Ladda upp → få en länk → klistra in var som helst",
+      "upload": "Ladda upp bild",
+      "bullet": {
+        "fast": "Snabb delning",
+        "direct": "Direkta fotolänkar",
+        "nosignup": "Ingen registrering krävs",
+        "paste": "Klistra in från urklipp"
+      }
+    },
+    "loginPrompt": {
+      "title": "Logga in for att fortsatta",
+      "description": "Du har nått gränsen för gratis uppladdningar. Logga in för att spara historik och hantera filer. Högre gränser finns i Pro-planer.",
+      "benefits": "Varfor registrera sig?",
+      "benefit1": "Fullstandig uppladdningshistorik - organiserad, exakt och alltid tillganglig",
+      "benefit2": "Tillgang till alla premiumverktyg for redigering",
+      "benefit3": "Molnlagring med uppladdningshistorik",
+      "login": "Logga in / Registrera dig",
+      "later": "Senare"
+    },
+    "upgradePrompt": {
+      "title": "Daglig grans uppnadd",
+      "description": "Du har anvant alla dina uppladdningar for idag. Kom tillbaka imorgon! Fler premiumtjanster kommer snart.",
+      "comingSoon": "Hall utkik efter fler tjanster",
+      "goDashboard": "Visa",
+      "later": "Senare"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto demo",
+      "idleTitle": "Dra och släpp din bild",
+      "idleSubtitle": "Se hela uppladdnings → länk → kopieringsflödet.",
+      "processing": "Optimerar och laddar upp...",
+      "doneTitle": "Redo att dela",
+      "doneSubtitle": "Din länk är redo att delas direkt.",
+      "thanksForWatching": "Tack för att du tittade"
+    },
+    "upload": {
+      "title": "Släpp en foto eller klicka för att bläddra",
+      "hint": "JPG, PNG, WEBP, GIF upp till 2MB (gratis 10 uppladdningar/dag). Dra och släpp, klicka eller klistra in skärmdumpar.",
+      "orDrop": "eller släpp en fil",
+      "samplesTitle": "Ingen bild? Prova en av dessa:",
+      "policy": "Genom att ladda upp en bild godkänner du vår <privacy>Integritetspolicy</privacy> och <terms>Användarvillkor</terms>.",
+      "clear": "Rensa"
+    },
+    "result": {
+      "error": "Uppladdning misslyckades. Försök igen.",
+      "fileTooLarge": "Filen ar for stor. Ditt abonnemang tillater upp till {maxMb} MB per fil.",
+      "dailyLimitReached": "Daglig gräns ({limit} per dag) nådd. Försök igen imorgon.",
+      "storageLimitReached": "Lagring full ({used} / {limit}). Fler lagringsalternativ kommer snart!",
+      "generated": "Genererad länk:",
+      "open": "Öppna i ny flik",
+      "placeholder": "Ingen länk än. Ladda upp en foto för att generera en delbar URL.",
+      "savePrompt": "Spara länk som du vill",
+      "copy": "Kopiera länk",
+      "copied": "Kopierad",
+      "saveHint": "Spara denna länk om du behöver den senare",
+      "saveHintLoggedIn": "Sparad i panelen",
+      "tryPrefix": "Prova"
+    },
+    "benefits": {
+      "title": "Varför folk väljer Foto till URL",
+      "subtitle": "Hastighet — Gratis prov: 10 uppladdningar/dag, 2MB per fil",
+      "items": {
+        "fast": {
+          "title": "Snabb delning",
+          "desc": "Ladda upp och få en länk på sekunder utan extra steg."
+        },
+        "direct": {
+          "title": "Direkta bild-URL:er",
+          "desc": "Rena länkar som fungerar i HTML, Markdown och chattappar."
+        },
+        "nosignup": {
+          "title": "Ingen registrering krävs",
+          "desc": "Gratis prov: 5 uppladdningar/dag, 2MB per fil — ingen registrering."
+        }
+      }
+    },
+    "how": {
+      "title": "Hur det fungerar",
+      "step1": "1) Lägg till din foto (dra, klistra in eller klicka för att välja en fil).",
+      "step2": "2) Vi hostar den och returnerar en delbar länk.",
+      "step3": "3) Kopiera och dela länken i dokument, chattar, prototyper och mer.",
+      "note": "Din länk öppnas snabbt i dokument, chattar och prototyper—plus du kan ladda ner den som .txt."
+    },
+    "process": {
+      "title": "Trestegsflöde",
+      "subtitle": "Minska ansträngningen, håll CTA synlig, klar på sekunder.",
+      "steps": {
+        "1": {
+          "title": "Släpp eller klistra in",
+          "desc": "Dra en fil, klistra in från urklipp eller bläddra."
+        },
+        "2": {
+          "title": "Vi hostar och returnerar en länk",
+          "desc": "Omedelbar URL med kopiera/öppna/spara-kontroller."
+        },
+        "3": {
+          "title": "Använd var som helst",
+          "desc": "Använd i dokument, chattar, biljetter, bloggar eller prototyper."
+        }
+      }
+    },
+    "features": {
+      "title": "Funktionshöjdpunkter",
+      "subtitle": "Tydlighet först: mindre friktion, mer delning.",
+      "items": {
+        "cdn": {
+          "title": "Direkta CDN-länkar",
+          "desc": "Rena, förutsägbara URL:er redo för Markdown- och HTML-inbäddningar."
+        },
+        "save": {
+          "title": "Kopiera och Spara",
+          "desc": "Kopiera, öppna eller spara som .txt-fil med ett klick."
+        },
+        "clipboard": {
+          "title": "Urklippsvänligt",
+          "desc": "Klistra in skärmdumpar utan att jaga efter filer eller omladdningar."
+        },
+        "errors": {
+          "title": "Säkert och Privat",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Ingen registrering behövs",
+          "desc": "Gratis prov: 5 uppladdningar/dag, 2MB per fil — ingen registrering."
+        },
+        "r2": {
+          "title": "Snabb hosting",
+          "desc": "Länkar serveras via snabb CDN för snabb laddning och tillförlitlig åtkomst."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Team sparar tid med Foto till URL",
+      "subtitle": "Socialt bevis för att minska risken och påskynda adoptionen.",
+      "items": {
+        "ops": {
+          "name": "Produktionsdrift",
+          "quote": "Vi klistrar in skärmdumpar i biljetter utan att täppa till bilagor. Länkar förblir rena."
+        },
+        "content": {
+          "name": "Innehållsansvarig",
+          "quote": "Markdown-redo länkar håller våra dokument snygga och publicerbara på minuter."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Tydliga fel och omedelbara URL:er gör det enkelt att guida kunder i chatt."
+        }
+      }
+    },
+    "cta": {
+      "title": "Gör om foton till länkar på sekunder",
+      "subtitle": "Släpp, klistra in eller ladda upp—kopiera din länk och dela den.",
+      "upload": "Ladda upp nu",
+      "paste": "Klistra in en skärmdump"
+    },
+    "longform": {
+      "title": "Varför Foto till URL hjälper ditt arbetsflöde",
+      "p1": "Foto till URL är byggt för skapare, marknadsförare, supportteam, grundare och alla som behöver ett snabbt, tillförlitligt sätt att göra om foton till rena länkar. Med ett direkt uppladdnings-till-länk-flöde undviker du tunga mediehanterare och hoppar över inloggningar. Länkar är snygga, lätta att klistra in i chattappar, dokument, wikis, felrapporter och biljetter. Team rör sig snabbare när skärmdumpar och produktfoton är omedelbart delbara utan bilagsbegränsningar eller röriga förhandsvisningar. Eftersom länkarna är förutsägbara och konsekventa fungerar de också bra i automatisering, QA-steg och lätta prototyper.",
+      "p2": "Upplevelsen förblir enkel: släpp, klistra in eller bläddra; få en länk; dela. Ingen extra krom, inga distraherande annonser, inga grindar. Du håller fokus på ditt innehåll medan vi hanterar de tråkiga delarna av hosting. Oavsett om du dokumenterar en funktion, förbereder ett blogginlägg, bygger en pitch deck eller skickar ett snabbt support-svar, slår en kort länk omfattande bilagor. För globala team är gränssnittet tillgängligt på flera språk samtidigt som texten hålls koncis och universell.",
+      "useCases": {
+        "title": "Användningsfall som förblir praktiska",
+        "items": {
+          "1": "Produkt och design: dela UI-mockups, komponent-skärmdumpar och snabba visuella anteckningar utan att exportera till tunga verktyg.",
+          "2": "Support och QA: bifoga reproducerbara skärmdumpar i biljetter, chatt-trådar eller runbooks; länkar förblir snygga och lätta att spåra.",
+          "3": "Dokument och bloggar: bädda in foton i Markdown, HTML eller CMS-redigerare med förutsägbara URL:er och inga layoutöverraskningar.",
+          "4": "Försäljning och CS: släpp proof-of-concept-fångster eller kundgenomgångar direkt i e-post eller meddelanden.",
+          "5": "Engineering handoff: håll byggartefakter, felsnapshotar och regressionsvisuella lättviktiga för snabbare recensioner.",
+          "6": "Gemenskap och sociala medier: klistra in länkar i Discord, Slack, Teams, Twitter/X eller forum utan uppblåsta förhandsvisningar."
+        }
+      },
+      "flow": {
+        "title": "Hur flödet fungerar från början till slut",
+        "p1": "1) Välj en bild: dra och släpp, klistra in från urklipp eller klicka för att bläddra. PNG, JPG, WEBP, GIF upp till 2MB i gratisplan (10 uppladdningar/dag). 2) Vi laddar upp och returnerar en direkt länk med kopiera, öppna och spara-åtgärder (.txt). 3) Använd länken i bloggar, dokument, biljetter, chatt, prototyper och mer.",
+        "p2": "Varje steg är inställt för tydlighet: synlig status, vänliga fel och knappar som bekräftar åtgärder. När CDN är aktiverat serveras länkar från CDN-domänen; dina bilder lagras säkert på our hosting infrastructure."
+      },
+      "best": {
+        "title": "Bästa praxis för renare länkar",
+        "items": {
+          "1": "Håll filnamn meningsfulla före uppladdning; de förblir del av URL:en och hjälper framtida sökning.",
+          "2": "Använd WEBP eller optimerade JPG/PNG för lättare nyttolaster om du förväntar dig tung delning.",
+          "3": "Kopiera länken direkt efter generering för att undvika föråldrade urklippsposter.",
+          "6": "Spara som .txt för vanliga textlänkar som är redo att kopieras och användas."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-höjdpunkter",
+        "p1": "Vi kommer att integrera our hosting infrastructure djupt, vilket ger mer användarvänliga kvoter och hanteringsmöjligheter, tillsammans med valfritt teamarbete, åtkomstkontroll och per-länk-analys. Vi planerar att lansera funktioner som enklick-radering, förinställda länkstilar och organisationsnivå lagringsbuckets. Samtidigt förbättrar och förfinar vi kontinuerligt underprodukter: cirkelbeskärningsverktyget, avrundade hörnverktyget och bakgrundsborttagningsverktyget, för att göra bildbehandling mer bekväm."
+      },
+      "faq": {
+        "title": "Vanliga frågor",
+        "items": {
+          "1": {
+            "q": "Är det gratis?",
+            "a": "Ja: det finns en gratisnivå. Kärnan uppladdning→länk kan du använda utan kostnad inom gratissens gränser (lagring, dagliga uppladdningar, filstorlek). Vill du höja taken väljer du betalplan: länkar hostas via vårt CDN med högre kvoter och större maxstorlek per fil."
+          },
+          "2": {
+            "q": "Vilka format stöds?",
+            "a": "För närvarande stöds PNG, JPG, WEBP och GIF inom gällande maxstorlek per fil. Fler format kan läggas till om efterfrågan motiverar det."
+          },
+          "3": {
+            "q": "Kan jag bädda in i Markdown eller HTML?",
+            "a": "Ja. Kopiera länken direkt, eller spara den med ett klick som .txt och använd den där du behöver den — Markdown, HTML, dokument eller CMS."
+          },
+          "4": {
+            "q": "Håller ni mina filer publika?",
+            "a": "Länkar är delbara. När CDN är aktiverat levereras filer via CDN-domänen. Om lagring tillfälligt inte är tillgänglig visar vi ett tydligt underhållsmeddelande."
+          },
+          "5": {
+            "q": "Kommer det att finnas konton eller team?",
+            "a": "Ja. Först fokuserar vi på enkel och pålitlig uppladdning och delning; därefter lägger vi stegvis till teamytor, åtkomstkontroll och användningsanalys."
+          },
+          "6": {
+            "q": "Kan jag få pengarna tillbaka efter betalning?",
+            "a": "Vi erbjuder i regel inte återbetalning när tjänsten fortfarande är tillgänglig för normal användning. Om du inte kan använda tjänsten under din betalda period på grund av ett fel från vår sida granskar vi ditt ärende efter kontroll och vid behov tar vi fram nästa steg tillsammans med dig."
+          },
+          "7": {
+            "q": "Hur avslutar jag förnyelse?",
+            "a": "Förnyelse debiteras automatiskt på det kort du godkänt. För att stoppa framtida debiteringar avbryter du autogiro eller återkommande betalning hos kortutgivaren (app, internetbank eller kundservice)."
+          },
+          "8": {
+            "q": "Hur länge kan jag använda tjänsten efter uppsägning?",
+            "a": "Du kan vanligtvis fortsätta använda tjänsten till slutet av den redan betalda perioden. Därefter tas inga nya avgifter ut och dina förmåner upphör med den perioden."
+          }
+        },
+        "contactNote": "För ovanstående och andra frågor: använd sidan «Kontakta oss» på denna webbplats eller mejla <email>support@phototourl.com</email>. Vi svarar i regel inom 1–2 arbetsdagar."
+      },
+      "about": {
+        "title": "Om Photo To URL",
+        "p1": "PhotoToURL är en gratis bild-till-URL-omvandlare och länkgenerator som hjälper dig ladda upp bilder och direkt skapa delbara bildlänkar. Konvertera enkelt JPG, PNG, WEBP och andra format till direkta bild-URL:er för snabb onlinedelning.",
+        "p2": "Oavsett om du behöver snabb photo to URL eller gratis bildhosting med CDN gör PhotoToURL det enkelt och pålitligt. Ladda upp din bild och få en direktlänk på några sekunder. Gratisplan: 10 uppladdningar/dag, 2MB per fil — se Priser för högre gränser."
+      }
+    },
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    }
+  },
+  "seo": {
+    "keywords": "foto url,bild url,generator,konvertera bild,gratis hosting,direkt url,delbara länkar",
+    "home": {
+      "title": "Foto till URL | Dela foton enkelt",
+      "description": "Gratis bildhosting: konvertera foton till delbara URL:er. JPG, PNG, WEBP, GIF upp till 2MB, 10 uppladdningar/dag i gratisplan. Urklipp, snabb CDN."
+    }
+  },
+  "images": {
+    "previewAlt": "Förhandsvisning av uppladdad bild",
+    "animatingSampleAlt": "Exempelbild som används i uppladdningsdemo",
+    "sampleThumbAlt": "Exempelbild för uppladdning",
+    "useSampleAria": "Använd denna exempelbild",
+    "howIllustrationAlt": "Illustration som visar hur Foto till URL fungerar",
+    "heroDropTitle": "Dra en foto hit",
+    "heroDropSubtitle": "Vi kommer att förbättra och hosta den, sedan returnera en ren länk.",
+    "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 2MB)",
+    "logoAlt": "Foto till URL-logotyp"
+  },
+  "circleCrop": {
+    "title": "Foto till Cirkel",
+    "description": "Gratis online-verktyg för att beskära foton i cirkel, beskära enkelt vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt.",
+    "upload": "Ladda upp foto",
+    "processing": "Bearbetar...",
+    "download": "Ladda ner cirkulär foto",
+    "errorSelectFile": "Välj en fotofil",
+    "errorUploadFirst": "Ladda upp en foto först",
+    "page": {
+      "title": "Foto till Cirkel - Gratis Online Rund Fotobeskärning",
+      "description": "Foto till Cirkel är ett gratis online-verktyg för att omvandla rektangulära foton till perfekt cirkulära former. Vårt verktyg hjälper dig att beskära foton i cirkelformat omedelbart, utan registrering krävs. Oavsett om du behöver en rund profilbild, en cirkulär foto för sociala medier, eller en rundad foto för designprojekt, gör vårt cirkulära fotobeskärningsverktyg det enkelt och lätt.",
+      "sectionSubtitle": "Beskär valfritt foto till en perfekt cirkel - idealiskt for profilbilder, sociala medie-avatarer och designprojekt."
+    },
+    "seo": {
+      "title": "Cirkel Beskärning Verktyg | Gratis Online Rund Foto Beskärning",
+      "description": "Gratis online-verktyg för att beskära vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt.",
+      "keywords": "cirkel bild beskärning, beskär cirkel bild, cirkel beskärning verktyg, cirkel beskärning online"
+    },
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    }
+  },
+  "roundedCorners": {
+    "title": "Foto med rundade hörn",
+    "description": "Gratis onlineverktyg för rundade hörn – lägg enkelt till rundade hörn till vilken bild som helst, perfekt för appikoner, profilbilder och designprojekt.",
+    "upload": "Ladda upp foto",
+    "download": "Ladda ner",
+    "radiusLabel": "Radie (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Bearbetar...",
+    "errorUploadFirst": "Ladda upp ett foto först.",
+    "errorSelectFile": "Välj en bildfil.",
+    "page": {
+      "title": "Foto med rundade hörn – Gratis onlineverktyg",
+      "description": "Foto med rundade hörn är ett gratis onlineverktyg för att lägga till rundade hörn till vilken bild som helst. Skapa applikationsikoner, mjuka bilder för sociala medier eller miniatyrer med justerbar radie och zoom. Ingen registrering – ladda upp, justera, ladda ner.",
+      "sectionSubtitle": "Lagg till rundade horn pa valfritt foto - perfekt for appikoner, sociala medier och miniatyrer."
+    },
+    "seo": {
+      "title": "Rundade Hörn Verktyg | Gratis onlineverktyg",
+      "description": "Gratis verktyg för att lägga till rundade hörn till bilder – perfekt för appikoner, profilbilder och designprojekt.",
+      "keywords": "rundade hörn, bild rundade hörn, rundade hörn verktyg, rundade hörn online"
+    },
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Ta Bort Bakgrund",
+    "description": "Gratis online AI-verktyg för att ta bort bakgrund, ta enkelt bort bakgrunden från vilken foto som helst - perfekt för produktfoton, porträtt och designprojekt.",
+    "upload": "Ladda Upp Foto",
+    "download": "Ladda Ner",
+    "processing": "Bearbetar...",
+    "processingModelLoading": "Laddar AI-modell, första användningen kan ta 10-30 sekunder, vänta...",
+    "processingImage": "Bearbetar bild, vänta...",
+    "errorUploadFirst": "Ladda upp en foto först.",
+    "errorSelectFile": "Välj en bildfil.",
+    "errorProcessing": "Bildbearbetning misslyckades. Försök igen.",
+    "errorTimeout": "Bearbetningstimeout, bilden kan vara för stor eller nätverket är långsamt, försök med en mindre bild eller försök igen senare.",
+    "errorMemory": "Otillräckligt minne, försök med en mindre bild.",
+    "errorGeneric": "Bearbetning misslyckades: {error}. Försök igen eller försök med en annan bild.",
+    "errorFileTooLarge": "Bildfilen är för stor, välj en bild mindre än 10MB.",
+    "errorModelLoad": "Kunde inte ladda AI-modellbiblioteket, uppdatera sidan och försök igen.",
+    "errorPageHidden": "Sidan har ändrats, ladda upp bilden igen för att bearbeta den.",
+    "page": {
+      "title": "Foto Ta Bort Bakgrund - Gratis Online AI Bakgrundsborttagare",
+      "description": "Foto Ta Bort Bakgrund är ett gratis online AI-drivet verktyg för att ta bort bakgrunder från vilken foto som helst. Skapa genomskinliga PNG-bilder direkt med vår avancerade bakgrundsborttagningsteknologi. Perfekt för produktfoton, porträtt, e-handel och designprojekt. Ingen registrering krävs - ladda upp, bearbeta och ladda ner på sekunder.",
+      "sectionSubtitle": "AI-driven bakgrundsborttagning - skapa transparenta PNG-filer fran valfritt foto pa sekunder."
+    },
+    "seo": {
+      "title": "Bakgrundsborttagningsverktyg | Gratis Online AI Bakgrundsborttagare",
+      "description": "Gratis online AI-verktyg för att ta bort bakgrunden från vilken foto som helst - perfekt för produktfoton, porträtt och designprojekt.",
+      "keywords": "ta bort bakgrund, bakgrundsborttagare, genomskinlig bakgrund, ai bakgrundsborttagning"
+    },
+    "selectRegion": {
+      "title": "Välj Region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF till URL | PDF-hosting och delbara HTTPS-länkar",
+      "description": "Ladda upp PDF:er till ditt konto och få en stabil HTTPS-länk — visa, ladda ner eller kopiera länken när som helst i kontopanelen.",
+      "keywords": "pdf till url,pdf hosting,dela pdf,ladda upp pdf,direktlänk,dokumentlänk"
+    },
+    "tool": {
+      "heroTitle": "PDF till URL",
+      "heroSubtitle": "Förvandla PDF:er till delbara HTTPS-länkar kopplade till ditt konto. Efter varje uppladdning öppnar du kontopanelen för att kopiera länken, förhandsgranska eller ladda ner.",
+      "featureFastTitle": "Snabb uppladdning",
+      "featureFastDesc": "Dra in en PDF eller välj fil; inom några sekunder får du länken via vårt CDN.",
+      "featureHostingTitle": "Personlig hosting",
+      "featureHostingDesc": "Varje fil sparas i ditt moln och dokumentbibliotek — inte en anonym engångslänk.",
+      "featureLinkTitle": "Stabila, delbara länkar",
+      "featureLinkDesc": "Varje uppladdning returnerar en ren URL att klistra in var som helst. Länken fungerar tills du tar bort filen i kontopanelen.",
+      "featureDashboardTitle": "Allt på ett ställe",
+      "featureDashboardDesc": "Efter inloggning öppnar du kontopanelen för att se alla PDF:er: kopiera länken igen, öppna i ny flik eller ladda ner originalet.",
+      "dropzoneTitle": "Dra din PDF hit",
+      "dropzoneHint": "Endast PDF",
+      "dropzoneFootnote": "Efter uppladdning kan du när som helst gå tillbaka till kontopanelen för att kopiera länken eller ladda ner filen.",
+      "browse": "Välj fil",
+      "selectedFileLabel": "Vald fil",
+      "removeSelectedFile": "Ta bort fil",
+      "uploadBtn": "Ladda upp och få länk",
+      "uploading": "Laddar upp…",
+      "loginRequiredTitle": "Logga in för att ladda upp PDF",
+      "loginRequiredDescription": "Logga in först. Hosting är kopplat till ditt konto; efter uppladdning kan du kopiera länkar, ladda ner och hantera allt i kontopanelen.",
+      "loginRequiredDetail": "Efter inloggning visas varje uppladdning på samma ställe i panelen: kopiera direktlänk med ett klick, öppna i ny flik, ladda ner original, sök och filtrera efter typ vid behov, ta bort eller ladda upp igen — och hjälper till att hålla dokument privata.",
+      "loginCta": "Logga in",
+      "signUpCta": "Skapa konto",
+      "resultTitle": "Din PDF-länk",
+      "resultDashboardHint": "För den här filen, öppna kontopanelen när som helst: kopiera URL, öppna i ny flik eller ladda ner PDF.",
+      "dashboardCta": "Öppna panel",
+      "copy": "Kopiera länk",
+      "copied": "Kopierat",
+      "open": "Öppna i ny flik",
+      "reset": "Ladda upp en till",
+      "errorUnauthorized": "Logga in innan du laddar upp PDF.",
+      "errorBadType": "Välj en PDF-fil.",
+      "howTitle": "Så fungerar det",
+      "step1Title": "1. Välj din PDF",
+      "step1Desc": "Välj en fil från enheten eller dra den till uppladdningsområdet.",
+      "step2Title": "2. Ladda upp till biblioteket",
+      "step2Desc": "Vi sparar PDF:en i ditt moln och visar den i kontopanelen, sedan returnerar vi en direkt HTTPS-URL.",
+      "step3Title": "3. Dela och kom tillbaka senare",
+      "step3Desc": "Dela länken via e-post eller chatt. Öppna kontopanelen vid behov för att kopiera samma länk, öppna den eller ladda ner filen."
+    },
+    "page": {
+      "sectionTitle": "Dina dokument på ett ställe",
+      "sectionLead": "För dig som vill ha riktig PDF-hosting med ett bibliotek bakom — ladda upp en gång, spara på kontot och kom tillbaka när som helst.",
+      "bullet1": "Varje uppladdad PDF visas i samma lista i panelen så du ser vad du delat.",
+      "bullet2": "Personlig hosting: filer under ditt konto, levereras via HTTPS och finns kvar i biblioteket.",
+      "bullet3": "Alltid nära till hands: kopiera den offentliga länken, öppna i webbläsaren eller ladda ner original-PDF.",
+      "bullet4": "Samma URL fungerar så länge filen finns; efter borttagning i panelen slutar länken att leverera filen.",
+      "footnote": "Ta bort filer du inte behöver i kontopanelen; länken slutar fungera."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Fil till URL | Office-dokument och HTTPS-länkar",
+      "description": "Ladda upp PDF-, Word-, PowerPoint- eller Excel-filer till ditt konto och få en stabil HTTPS-länk — visa, ladda ner eller kopiera länken när som helst i kontopanelen.",
+      "keywords": "fil till url,dokumentlänk,dela office,ladda upp docx pptx xlsx,dokumenthosting"
+    },
+    "tool": {
+      "heroTitle": "Fil till URL",
+      "heroSubtitle": "Förvandla kontorsdokument till delbara HTTPS-länkar under ditt konto. Stödda format: PDF, Word, PowerPoint och Excel.",
+      "featureFastTitle": "Snabb uppladdning",
+      "featureFastDesc": "Dra in en stödd fil eller välj den; inom några sekunder får du länken via CDN.",
+      "featureHostingTitle": "Personlig hosting",
+      "featureHostingDesc": "Varje uppladdning sparas i ditt moln och hamnar i samma personliga bibliotek som uppladdningar från andra sidor.",
+      "featureLinkTitle": "Stabila, delbara länkar",
+      "featureLinkDesc": "Varje uppladdning returnerar en ren URL. Länken fungerar tills du tar bort filen i kontopanelen.",
+      "featureDashboardTitle": "Allt på ett ställe",
+      "featureDashboardDesc": "Efter inloggning öppnar du kontopanelen för att kopiera länken igen, öppna i ny flik eller ladda ner.",
+      "dropzoneTitle": "Dra din fil hit",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Efter uppladdning kan du när som helst gå tillbaka till kontopanelen för att kopiera länken eller ladda ner filen.",
+      "browse": "Välj fil",
+      "selectedFileLabel": "Vald fil",
+      "removeSelectedFile": "Ta bort fil",
+      "uploadBtn": "Ladda upp och få länk",
+      "uploading": "Laddar upp…",
+      "loginRequiredTitle": "Logga in för att ladda upp filer",
+      "loginRequiredDescription": "Logga in först. Hosting är kopplat till ditt konto; efter uppladdning kan du kopiera länkar, ladda ner och hantera allt i kontopanelen.",
+      "loginRequiredDetail": "Efter inloggning visas varje uppladdning på samma ställe i panelen: kopiera direktlänk med ett klick, öppna i ny flik, ladda ner original, sök och filtrera efter typ vid behov, ta bort eller ladda upp igen — och hjälper till att hålla dokument privata.",
+      "loginCta": "Logga in",
+      "signUpCta": "Skapa konto",
+      "resultTitle": "Din fillänk",
+      "resultDashboardHint": "För den här filen, öppna kontopanelen när som helst: kopiera URL, öppna i ny flik eller ladda ner originalet.",
+      "dashboardCta": "Öppna panel",
+      "copy": "Kopiera länk",
+      "copied": "Kopierat",
+      "open": "Öppna i ny flik",
+      "reset": "Ladda upp en till",
+      "errorUnauthorized": "Logga in innan du laddar upp filer.",
+      "errorBadType": "Välj en PDF-, Word-, PowerPoint- eller Excel-fil.",
+      "howTitle": "Så fungerar det",
+      "step1Title": "1. Välj din fil",
+      "step1Desc": "Välj ett stött dokument från enheten eller dra det till uppladdningsområdet.",
+      "step2Title": "2. Ladda upp till biblioteket",
+      "step2Desc": "Vi sparar filen i ditt moln och visar den i kontopanelen, sedan returnerar vi en direkt HTTPS-URL.",
+      "step3Title": "3. Dela och kom tillbaka senare",
+      "step3Desc": "Dela länken via e-post eller chatt. Öppna kontopanelen vid behov för att kopiera samma länk, öppna den eller ladda ner filen."
+    },
+    "page": {
+      "sectionTitle": "Kort sagt",
+      "sectionLead": "Välj fil, ladda upp och kopiera din länk — öppna kontopanelen vid behov för att kopiera igen eller ladda ner originalet.",
+      "bullet1": "Stödda format: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Dra och släpp eller bläddra till en fil; när uppladdningen är klar visar vi en HTTPS-länk redo att kopieras.",
+      "bullet3": "Klistra in länken i e-post, chatt eller dokument — mottagare öppnar i webbläsaren.",
+      "bullet4": "Filer stannar under ditt konto; öppna kontopanelen för att kopiera samma länk eller ladda ner originalet.",
+      "bullet5": "Bara PDF? Använd också sidan «PDF till URL» för ett kortare flöde.",
+      "footnote": "Ta bort en fil i kontopanelen när du inte behöver den längre; länken slutar fungera."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogg | Foto till URL",
+      "description": "Artiklar om fotohosting, länkdelning och prestandatips."
+    },
+    "page": {
+      "title": "Blogg",
+      "description": "Senaste artiklar, tutorials och insikter om bildhosting, CDN, länkdelning, cirkelbeskärning, rundade hörn och bakgrundsborttagning.",
+      "stayTuned": "Håll utkik efter guider om:",
+      "guides": {
+        "1": "Bästa praxis för att konvertera bilder till URL",
+        "2": "Hur man använder direkta fotolänkar i bloggar och dokument",
+        "3": "Prestanda och cachning för statiska tillgångar"
+      },
+      "readMore": "Läs mer",
+      "min": "min",
+      "backToBlog": "Tillbaka till bloggen",
+      "minRead": "min läsning",
+      "author": "Författare",
+      "viewMoreArticles": "Visa fler artiklar",
+      "tags": "Taggar:",
+      "about": {
+        "title": "Om Foto till URL Team",
+        "subtitle": "Redaktionsteam",
+        "description": "Vi bygger och underhåller Foto till URL och skriver praktiska guider för bildoptimering och webbprestanda.",
+        "website": "Webbplats",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Visa alla inlägg"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Hur man konverterar bild till URL: En komplett guide",
+        "description": "Lär dig allt du behöver veta om att konvertera bilder till delbara URL:er. Denna omfattande guide täcker metoder, bästa praxis och tips för bildhosting och länkdelning.",
+        "content": "# Hur man konverterar bild till URL: En komplett guide\n\nAtt konvertera bilder till delbara URL:er har blivit en viktig färdighet i dagens digitala värld. Oavsett om du är bloggare, utvecklare eller innehållsskapare kan förståelse för hur man transformerar dina bilder till direkta länkar avsevärt förbättra din arbetsflöde och innehållsdelning.\n\n## Varför konvertera bilder till URL:er?\n\nInnan vi går in på metoderna, låt oss förstå varför det är fördelaktigt att konvertera bilder till URL:er:\n\n### 1. **Enkel delning**\nDirekta bild-URL:er låter dig dela bilder direkt utan att ladda ner eller ladda upp filer igen. Kopiera bara URL:en och klistra in den var som helst - i e-post, dokument eller sociala medie-inlägg.\n\n### 2. **Bättre prestanda**\nAtt använda direkta bildlänkar minskar belastningen på din huvudserver. När bilder hostas på en CDN (Content Delivery Network) laddas de snabbare för användare över hela världen.\n\n### 3. **Flexibilitet**\nBild-URL:er kan bäddas in i HTML, Markdown eller användas i API:er. Denna flexibilitet gör dem perfekta för både utvecklare och innehållsskapare.\n\n### 4. **Lagringseffektivitet**\nIstället för att lagra bilder lokalt kan du använda molnlagringslösningar som tillhandahåller direkta URL:er, vilket sparar värdefull serverutrymme.\n\n## Metoder för att konvertera bilder till URL:er\n\n### Metod 1: Använda Foto till URL-tjänsten\n\n**Foto till URL** är en gratis, användarvänlig tjänst som gör konvertering från bild till URL enkelt:\n\n1. **Besök webbplatsen**: Navigera till Foto till URL\n2. **Ladda upp din bild**: Dra och släpp din bildfil eller klicka för att bläddra\n3. **Få din URL**: När uppladdningen är klar får du en direkt länk till din bild\n4. **Kopiera och använd**: Kopiera URL:en och använd den var du behöver\n\n**Fördelar:**\n- ✅ Ingen registrering krävs\n- ✅ Snabb uppladdning och bearbetning\n- ✅ Direkta CDN-länkar för optimal prestanda\n- ✅ Stöd för flera bildformat (JPG, PNG, WEBP, GIF)\n- ✅ 10 uppladdningar/dag, 2MB per fil\n\n### Metod 2: Molnlagringstjänster\n\nPopulära molnlagringstjänster erbjuder bildhosting med direkt URL-åtkomst:\n\n**Google Cloud Storage / AWS S3:**\n- Ladda upp bilder till din bucket\n- Ställ in lämpliga behörigheter\n- Få tillgång till bilder via direkta URL:er\n- Konfigurera CDN för bättre prestanda\n\n**Fördelar:**\n- Full kontroll över dina bilder\n- Skalbar lagringslösning\n- Infrastruktur på professionell nivå\n\n### Metod 3: Bildhostingplattformar\n\nDedikerade bildhostingplattformar tillhandahåller specialiserade tjänster:\n\n- **Imgur**: Populär för snabb bilddelning\n- **Cloudinary**: Avancerade bildmanipuleringsfunktioner\n- **ImageKit**: Optimerad för prestanda\n\n## Bästa praxis för bild-URL:er\n\n### 1. **Välj rätt format**\n\nOlika bildformat tjänar olika syften:\n\n- **JPEG**: Bäst för fotografier med många färger\n- **PNG**: Ideal för bilder med transparens eller skarpa kanter\n- **WEBP**: Modernt format som erbjuder bättre komprimering\n- **GIF**: Perfekt för animerade bilder\n\n### 2. **Optimalisera bildstorlek**\n\nInnan du konverterar till URL, optimalisera dina bilder:\n\n- Komprimera bilder för att minska filstorleken\n- Ändra storlek på bilder till lämpliga dimensioner\n- Använd moderna format som WEBP när det är möjligt\n- Balansera kvalitet och filstorlek\n\n### 3. **Använd CDN för bättre prestanda**\n\nContent Delivery Networks (CDN) distribuerar dina bilder över flera servrar världen över, vilket säkerställer snabba laddningstider oavsett användarens plats.\n\n### 4. **Implementera korrekt säkerhet**\n\n- Använd HTTPS-URL:er för säker bildleverans\n- Ställ in lämpliga åtkomstbehörigheter\n- Överväg vattenmärkning för känsligt innehåll\n- Övervaka användning för att förhindra missbruk\n\n## Vanliga användningsfall\n\n### För bloggare\n\nBloggare kan använda bild-URL:er för att:\n- Bädda in bilder i blogginlägg utan att hosta dem lokalt\n- Förbättra sidladdningstider\n- Dela bilder över flera plattformar\n- Upprätthålla konsekvent bildkvalitet\n\n### För utvecklare\n\nUtvecklare drar nytta av bild-URL:er genom att:\n- Minska serverbelastningen\n- Förenkla bildhantering\n- Aktivera dynamisk bildladdning\n- Integrera med API:er och webbtjänster\n\n### För e-handel\n\nE-handelssajter använder bild-URL:er för att:\n- Visa produktbilder effektivt\n- Hantera stora bildkataloger\n- Optimera för mobila enheter\n- Förbättra prestandan på kassasidan\n\n## Felsökning av vanliga problem\n\n### Problem: Trasiga bildlänkar\n\n**Lösning:**\n- Verifiera att URL:en är korrekt och tillgänglig\n- Kontrollera bildbehörigheter och åtkomstinställningar\n- Säkerställ att hostingtjänsten är operativ\n- Validera att bildformatet stöds\n\n### Problem: Långsamma laddningstider\n\n**Lösning:**\n- Använd en CDN för bildleverans\n- Optimalisera bildfilstorlekar\n- Välj lämpliga bildformat\n- Implementera lat laddning där det är möjligt\n\n### Problem: Bilden visas inte\n\n**Lösning:**\n- Kontrollera CORS-inställningar (Cross-Origin Resource Sharing)\n- Verifiera att HTTPS/HTTP-protokoll matchar\n- Säkerställ att korrekta MIME-typer är inställda\n- Testa URL-tillgänglighet från olika platser\n\n## Avancerade tips\n\n### 1. **Batchbearbetning**\n\nFör flera bilder, överväg:\n- Använda API:er för automatiserade uppladdningar\n- Implementera batchkonverteringsskript\n- Utnyttja molnlagrings-API:er\n- Sätta upp automatiserade arbetsflöden\n\n### 2. **Bildmanipulering**\n\nVissa tjänster erbjuder bildmanipulering på flygande fot:\n- Ändra storlek på bilder via URL-parametrar\n- Applicera filter och effekter\n- Konvertera format automatiskt\n- Beskära och rotera bilder\n\n### 3. **Analys och övervakning**\n\nSpåra din bildanvändning:\n- Övervaka bandbreddsförbrukning\n- Analysera populära bilder\n- Spåra åtkomstmönster\n- Optimalisera baserat på användningsdata\n\n## Slutsats\n\nAtt konvertera bilder till URL:er är en enkel process som erbjuder många fördelar. Oavsett om du väljer en enkel tjänst som Foto till URL eller en omfattande molnlagringslösning, är nyckeln att hitta metoden som bäst passar dina behov.\n\nKom ihåg att:\n- ✅ Optimalisera bilder innan uppladdning\n- ✅ Välj lämpliga format\n- ✅ Använd CDN för bättre prestanda\n- ✅ Implementera korrekta säkerhetsåtgärder\n- ✅ Övervaka och optimalisera regelbundet\n\nGenom att följa dessa riktlinjer kommer du att kunna effektivt konvertera och hantera dina bilder som URL:er, vilket förbättrar både ditt arbetsflöde och ditt innehålls prestanda.\n\n## Relaterade verktyg\n\n- [Foto till URL](/) - Gratis tjänst för konvertering av bild till URL\n- [Cirkelbeskäringverktyg](/circle-crop) - Skapa cirkulära bilder\n- [Rundade hörnverktyg](/rounded-corners) - Lägg till rundade hörn till bilder\n- [Ta bort bakgrundverktyg](/remove-background) - Ta bort bildbakgrunder med AI\n\n---\n\n*Senast uppdaterad: December 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Hur man beskär bilder i cirkelform - Komplett guide",
+        "description": "Förvandla vilket foto som helst till en perfekt cirkulär bild med vårt gratis online cirkelbeskäringverktyg. Skapa professionella runda bilder för profiler, sociala medier, logotyper och mer på bara några sekunder.",
+        "content": "# Hur man beskär bilder i cirkelform - Komplett guide\n\nFörvandla vilket foto som helst till en perfekt cirkulär bild med vårt gratis online cirkelbeskäringverktyg. Skapa professionella runda bilder för profiler, sociala medier, logotyper och mer på bara några sekunder.\n\n## Hur man beskär bilder i cirkelform\n\n### Steg 1: Ladda upp din bild\nVälj vilket foto som helst från din enhet som du vill beskära i cirkelform. Vårt verktyg stöder JPG-, PNG-, WEBP- och GIF-format. Klicka bara på uppladdningsknappen eller dra och släpp din bildfil.\n\n### Steg 2: Positionera din bild\nJustera och centrera ditt foto inom det cirkulära beskärningsområdet. Använd zoomreglaget för att fokusera på den viktigaste delen av din bild och dra för att ompositionera för en perfekt rund beskärning.\n\n### Steg 3: Ladda ner din cirkulära bild\nNär du är nöjd med positioneringen, klicka på \"Beskär och ladda ner\" för att få din perfekt rundade bild. Resultatet kommer att ha en transparent bakgrund, vilket gör den perfekt att använda överallt.\n\n## Populära användningsområden för cirkulärt beskurna bilder\n\n### Profilfoton\nBeskär foton i cirkelform för professionellt utseende profilbilder på sociala medieplattformar som Facebook, LinkedIn och Instagram. Cirkulära avatars skapar ett modernt, polerat utseende.\n\n### Sociala medier-grafik\nSkapa cirkulära bilder för Instagram-berättelser, Facebook-inlägg och Twitter-profiler som sticker ut från mängden. Runda bilder lägger till visuellt intresse och bryter monotoni av kvadratiska inlägg.\n\n### Runda logotyper\nFörvandla ditt varumärke eller varumärkesbilder till perfekt runda former för konsekvent varumärkesprofilering på alla plattformar. Cirkulära logotyper fungerar särskilt bra för appikoner och sociala medier-varumärkesprofilering.\n\n### Vitsord-foton\nVisa kund- eller klientvitsord med cirkulära profilfoton för en ren, professionell look. Runda bilder skapar visuell konsistens och gör dina vitsord mer engagerande.\n\n### Teammedlemsfoton\nSkapa konsekventa runda porträtt för företagswebbsidor, teamsidor och anställdkataloger. Enhetliga runda foton ger din teamsida ett sammanhängande, professionellt utseende.\n\n## Funktioner i vårt cirkelbeskäringverktyg\n\n- **Gratis cirkelbildbeskärare** - Skapa cirkelformer från vilken bild som helst utan kostnad, inga dolda avgifter\n- **Högupplöst utdata** - Ladda ner dina cirkulära bilder i deras ursprungliga kvalitet utan komprimering\n- **Ingen registrering krävs** - Börja beskära bilder i cirkel omedelbart, inget kontoskapande behövs\n- **Privat och säkert** - Dina bilder lämnar aldrig din webbläsare, vilket säkerställer fullständig integritet\n- **Användarvänligt gränssnitt** - Enkel, intuitiv design gör att skapa runda bilder är enkelt\n- **Fungerar på alla enheter** - Beskär bilder i cirkelform på skrivbord, surfplatta eller mobila enheter\n- **Transparent bakgrund** - Alla cirkulära beskärningar levereras med transparenta bakgrunder för maximal mångsidighet\n- **Förhandsvisning i realtid** - Se exakt hur din cirkulära bild kommer att se ut innan du laddar ner den\n\n## Vanliga frågor om cirkelbeskäring\n\n### Hur beskär jag en bild i cirkelform?\n\nLadda bara upp din bild till vårt verktyg, justera den inom den cirkulära ramen för att positionera motivet korrekt och klicka på \"Beskär och ladda ner\" för att få din perfekt runda bild. Vårt verktyg gör det enkelt att beskära vilken bild som helst i cirkelformat omedelbart utan att behöva designfärdigheter.\n\n### Hur gör jag en cirkulär profilbild?\n\nLadda upp ditt foto till vårt cirkelbeskäringverktyg, positionera ditt ansikte i mitten av den cirkulära ramen och ladda sedan ner din nya runda profilbild. Det är perfekt för sociala medieprofiler som använder cirkulära bilder som Facebook, LinkedIn eller Instagram.\n\n### Kan jag beskära foton i runda former på min telefon?\n\nJa! Vår cirkelbildbeskärare fungerar på alla enheter inklusive smartphones och surfplattor. Det mobilvänliga gränssnittet låter dig enkelt skapa cirkulära bildbeskärningar var som helst. Besök bara vår webbplats från din mobila webbläsare - ingen appnedladdning krävs.\n\n### Lagrar ni bilderna jag laddar upp?\n\nNej, vi lagrar aldrig dina bilder på våra servrar. Hela beskärningsprocessen sker direkt i din webbläsare, vilket betyder att dina foton förblir helt privata. När du lämnar sidan tas alla bilddata automatiskt bort.\n\n### Vilka bildformat kan jag använda med cirkelbeskäringverktyget?\n\nVårt verktyg fungerar med alla standardbildformat inklusive JPG, PNG, WEBP och GIF. Du kan ladda upp något av dessa format och din cirkulärt beskurna bild kommer att laddas ner som en PNG-fil med transparens runt cirkeln.\n\n### Kommer min cirkulärt beskurna bild att ha en transparent bakgrund?\n\nJa, när du laddar ner din beskurna bild kommer den att ha en transparent bakgrund runt cirkeln. Detta gör den perfekt för placering på webbsidor, dokument eller design där du bara vill att den cirkulära delen ska vara synlig.\n\n### Kan jag justera storleken på cirkelbeskäringen?\n\nCirkelbeskärningen behåller ett perfekt 1:1-bildförhållande, men du kan zooma in eller ut för att justera hur mycket av din bild som visas inom cirkeln. Detta låter dig fokusera på specifika delar av din bild samtidigt som du behåller den cirkulära formen.\n\n## Bildtips för perfekta cirkelbeskärningar\n\n### Centrera ditt motiv\nFör bästa resultat väljer du bilder där huvudmotivet är centrerat eller kan positioneras i mitten av ramen. Detta är särskilt viktigt för profilfoton och porträtt där ansiktet bör vara fokuspunkten.\n\n### Överväg beskärningsområdet\nKom ihåg att hörnen på din bild kommer att beskäras. Undvik bilder där viktiga detaljer är nära kanterna på fotot, eftersom dessa kommer att gå förlorade i cirkelbeskäringen.\n\n### Använd högupplösta bilder\nAtt börja med högkvalitativa bilder kommer att resultera i bättre cirkelbeskärningar. Lågupplösta eller små bilder kan verka pixelerade när de beskärs, så använd källbilderna av högsta kvalitet som finns tillgängliga.\n\n### Var uppmärksam på bildförhållandet\nKvadratiska bilder fungerar vanligtvis bäst för cirkelbeskäring. Om din ursprungliga bild är mycket bred eller hög kan du förlora betydande delar i beskärningsprocessen. Överväg att beskära till kvadrat först om det behövs.\n\n### Justera för optimal inramning\nAnvänd positioneringsfunktionen i vårt verktyg för att zooma och justera din bild. För porträtt, försök att centrera ansiktet med lite marginal runt omkring för bästa professionella utseende. För produkter, centrera huvudobjektet inom cirkeln.\n\n### Skapa konsekventa uppsättningar\nNär du skapar flera cirkulära bilder (som för teamfoton), försök att behålla konsekvent inramning, bakgrundsstilar och storlekar för ett sammanhängande utseende på alla bilder.\n\n## Vanliga användningsområden för cirkulärt beskurna bilder\n\n| Tillämpning | Fördelar med cirkelbeskäring |\n|-------------|----------------------------|\n| Sociala medieprofiler | De flesta plattformar visar avatars i cirklar - en perfekt beskuren cirkulär bild ser professionell ut |\n| Teammedlemsfoton | Skapa konsekventa runda porträtt för företagswebbsidor och kataloger |\n| Onlineportföljer | Runda bilder skapar visuellt intresse och modern estetik |\n| Digitala visitkort | Cirkulärt beskurna profilfoton ser renare och mer professionella ut |\n| Produktminiatyrer | Runda produktbilder skapar ett sammanhängande katalogutseende |\n| Appikoner | Cirkulära ikoner är standard för mobilapplikationer |\n| Webbsidansvitsord | Runda kundfoton lägger till trovärdighet och visuell attraktionskraft |\n\n## Varför välja vårt cirkelbeskäringverktyg?\n\nNär det gäller att beskära foton i cirklar online erbjuder vårt verktyg flera fördelar:\n\n- **Omedelbar bearbetning** - Beskär bild i cirkelform på sekunder utan att vänta på uppladdningar eller serverbearbetning\n- **Perfekta cirklar varje gång** - Vårt verktyg garanterar perfekt runda beskärningar med rena kanter och ingen förvrängning\n- **Intuitiva kontroller** - Positionera din bild exakt som du vill inom cirkeln med zoom- och dragfunktionalitet\n- **Inga vattenstämplar** - Till skillnad från andra cirkelbeskäringverktyg lägger vi inte till vattenstämplar på dina bilder\n- **Fungerar med alla bildtyper** - Beskär foton, grafik, illustrationer eller vilken bild som helst i en cirkel\n- **Webbläsarbaserat** - Ingen programvaruinstallation krävs, fungerar direkt i din webbläsare\n- **Integritet först** - All bearbetning sker lokalt i din webbläsare, dina bilder lämnar aldrig din enhet\n\nOavsett om du behöver beskära bilder i cirkelform för professionellt bruk eller personliga projekt hanterar vårt cirkelfotobeskäringverktyg allt med lätthet. Skapa cirkulära bildbeskärningar med bara några klick!\n\n## Kom igång\n\nRedo att skapa din första cirkulära bild? Besök vårt [Cirkelbeskäringverktyg](/circle-crop) och börja beskära idag. Det är helt gratis, kräver ingen registrering och tar bara några sekunder att skapa professionella cirkulära bilder.\n\n---\n\n*Senast uppdaterad: Januari 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Bilder med rundade hörn – Guide",
+        "description": "Ge bilder rundade hörn med det gratis verktyget. Passar till miniatyrer, kort, UI och sociala medier på sekunder.",
+        "content": "# Bilder med rundade hörn – Guide\n\nGe valfri bild rundade hörn med det gratis verktyget online. Passar till miniatyrer, kort, gränssnitselement och sociala medier, utan designkunskaper.\n\n## Så rundar du hörn på en bild\n\n### Steg 1: Ladda upp bild\nVälj en bild från enheten. Format: JPG, PNG, WEBP, GIF. Klicka eller dra och släpp.\n\n### Steg 2: Ställ in hörnradie\nAnvänd reglaget för rundningsgrad. Förhandsgranskningen uppdateras i realtid.\n\n### Steg 3: Ladda ner\nKlicka \"Ladda ner\" för att spara bilden med rundade hörn och använda den i layout, webb eller inlägg.\n\n## Vanlig användning\n\n### Miniatyrer och kort\nRundade hörn ger rutnät och kort ett snyggt, modernt utseende.\n\n### Sociala medier och reklam\nBilder med mjuka hörn sticker ut i flöden och annonser, känns mer inbjudande.\n\n### UI och appar\nIkoner, avatarer och knappar har ofta rundade hörn; verktyget hjälper att göra flera bilder enhetliga.\n\n### Presentationer och dokument\nSamma radie på skärmdumpar och grafik håller bilder och dokument konsekventa.\n\n## Vad verktyget erbjuder\n\n- **Gratis och direkt** – ingen registrering, inget vattenmärke, ingen gräns\n- **Justerbar radie** – från lätt rundning till pillerform\n- **Förhandsgranskning i realtid** – se resultatet före nedladdning\n- **Integritet** – bearbetning i webbläsaren; vi sparar inte bilder\n- **Alla enheter** – dator, surfplatta, telefon\n\n## Vanliga frågor\n\n### Hur rundar jag hörn på en bild?\n\nÖppna [Verktyget för rundade hörn](/rounded-corners), ladda upp bild, ställ in radie, klicka Ladda ner.\n\n### Vilka format stöds?\n\nJPG, PNG, WEBP, GIF. Nedladdning behåller originalformat (eller PNG för transparens).\n\n### Fungerar det på mobil?\n\nJa. Verktyget körs i mobil- och surfplattewebbläsare, utan app.\n\n### Sparar ni mina bilder?\n\nNej. All bearbetning sker i din webbläsare; vi sparar inget.\n\n## Relaterade verktyg\n\n- [Foto till URL](/) – bild till länk\n- [Cirkelbeskärning](/circle-crop) – skapa runda bilder\n- [Rundade hörn](/rounded-corners) – rundna hörn\n- [Ta bort bakgrund](/remove-background) – ta bort bakgrund med AI\n\n---\n\n*Senast uppdaterad: februari 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Ta bort bakgrund – Guide",
+        "description": "Ta bort bakgrund från bilder med ett klick med vårt gratis AI-verktyg. Rena utklipp för produkter, porträtt, logotyper och mer.",
+        "content": "# Ta bort bakgrund – Guide\n\nTa bort bakgrund från bilder med ett klick med vårt gratis onlineverktyg. Rena utklipp för produktbilder, porträtt, logotyper – utan designkunskaper.\n\n## Så tar du bort bakgrund\n\n### Steg 1: Ladda upp bilden\nVälj ett foto från enheten. Format: JPG, PNG, WEBP, GIF. Klicka eller dra och släpp.\n\n### Steg 2: AI tar bort bakgrunden\nVerktyget upptäcker motivet och tar bort bakgrunden. Bearbetningen tar några sekunder. Förhandsgranskning i realtid med transparent bakgrund.\n\n### Steg 3: Ladda ner\nKlicka \"Ladda ner\" för att spara bilden utan bakgrund. Resultat PNG med transparens, för design, e-handel eller sociala medier.\n\n## Vanlig användning\n\n### Produktbilder\nRena utklipp för butiker, marknadsplatser och annonser. Transparent bakgrund för valfri layout.\n\n### Porträtt och professionella foton\nTa bort rörig bakgrund från porträtt för CV, LinkedIn eller profiler.\n\n### Logotyper och grafik\nIsolera logotyper och grafik från foton eller skanningar. Transparent PNG för överlägg och presentationer.\n\n### Sociala medier och marknadsföring\nIögonfallande bilder till inlägg, stories och annonser. Transparenta utklipp till valfri mall.\n\n## Vad verktyget erbjuder\n\n- **Gratis och AI** – ingen registrering, inget vattenmärke, inga gränser\n- **Ta bort med ett klick** – motivigenkänning och rena kanter\n- **Transparent PNG** – för valfritt design eller plattform\n- **Integritet** – bearbetning i webbläsaren, vi sparar inte bilder\n- **Alla enheter** – PC, surfplatta, telefon\n\n## Vanliga frågor\n\n### Hur tar jag bort bakgrund från en bild?\n\nÖppna vårt [Verktyg Ta bort bakgrund](/remove-background), ladda upp bilden. Verktyget upptäcker motivet och tar bort bakgrunden. Förhandsgranska och ladda ner som transparent PNG.\n\n### Vilka format stöds?\n\nJPG, PNG, WEBP, GIF. Resultatet laddas alltid ner som PNG med transparent bakgrund.\n\n### Sparar ni mina bilder?\n\nNej. Bearbetningen sker i din webbläsare; vi sparar inget.\n\n### Fungerar det på mobil?\n\nJa. Verktyget fungerar i webbläsaren på telefon och surfplatta.\n\n## Relaterade verktyg\n\n- [Bild till URL](/) – Gör bild till länk\n- [Cirkelbeskärning](/circle-crop) – Skapa runda bilder\n- [Rundade hörn](/rounded-corners) – Rundade hörn\n- [Ta bort bakgrund](/remove-background) – Ta bort bakgrund med AI\n\n---\n\n*Senast uppdaterad: Mars 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Dokumentation för Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentation",
+      "description": "Snabbstart: ladda upp en bild och få en direkt-URL. Använd knapparna kopiera/öppna eller ladda ner länken som .txt.",
+      "features": {
+        "title": "Supported features:",
+        "items": {
+          "1": "Stöds: JPG, PNG, WEBP, GIF",
+          "2": "Snabb leverans via CDN när lagring är aktiverad",
+          "3": "Tydliga underhållsmeddelanden när tjänsten är otillgänglig"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Tjänstestatus för Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alla system fungerar normalt.",
+      "message": "Uppladdnings-API och CDN-länkar fungerar."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontakta Photo To URL för hjälp med bildhosting, feedback, partnerskap eller för att rapportera problem. Vi läser varje meddelande och försöker svara inom 1–2 arbetsdagar."
+    },
+    "page": {
+      "title": "Kontakta oss",
+      "introShort": "Har du en fråga eller feedback? Fyll i formuläret nedan så återkommer vi snart.",
+      "orEmail": "Eller mejla oss på",
+      "subtitle": "Vi hjälper dig gärna med bildhosting, länkar och allt annat.",
+      "intro": "Photo To URL är en kostnadsfri bildhostingtjänst som gör dina foton till delbara länkar. Om du har frågor, förslag eller stöter på problem vill vi gärna höra från dig.",
+      "whyTitle": "Vad du kan kontakta oss om",
+      "why1": "Teknisk support: uppladdningsfel, trasiga länkar eller problem med verktyget",
+      "why2": "Feedback och funktionsförslag för att förbättra tjänsten",
+      "why3": "Förfrågningar om partnerskap eller samarbete",
+      "why4": "Rapportering av missbruk, upphovsrättsfrågor eller policyfrågor",
+      "expectTitle": "Vad du kan förvänta dig",
+      "expectContent": "Vi läser varje meddelande och försöker svara inom 1–2 arbetsdagar. Vid brådskande ärenden, ange en tydlig ämnesrad och så mycket detaljer som möjligt.",
+      "emailHeading": "Kontakta oss via e-post",
+      "emailHint": "Skicka ett mejl till oss så återkommer vi så snart vi kan.",
+      "email": {
+        "label": "E-post",
+        "address": "support@phototourl.com",
+        "cta": "Skicka e-post"
+      },
+      "form": {
+        "title": "Skicka ett meddelande",
+        "description": "Fyll i formuläret nedan så återkommer vi så snart vi kan.",
+        "name": "Namn",
+        "email": "Email",
+        "message": "Meddelande",
+        "namePlaceholder": "Ditt namn",
+        "emailPlaceholder": "din@email.se",
+        "messagePlaceholder": "Ditt meddelande eller din fråga...",
+        "submit": "Skicka meddelande",
+        "submitting": "Skickar...",
+        "success": "Meddelandet skickades. Vi svarar så snart vi kan.",
+        "minLength": "Namnet måste vara minst 3 tecken.",
+        "maxLengthName": "Namnet får inte överstiga 30 tecken.",
+        "invalidEmail": "Ange en giltig e-postadress.",
+        "minLengthMessage": "Meddelandet måste vara minst 10 tecken.",
+        "maxLengthMessage": "Meddelandet får inte överstiga 2000 tecken.",
+        "invalid": "Något gick fel. Försök igen."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Om oss | Photo To URL",
+      "description": "Läs mer om Photo To URL - en kostnadsfri bildhostingtjänst som omvandlar foton till delbara länkar."
+    },
+    "page": {
+      "title": "Om oss",
+      "mission": {
+        "title": "Vårt uppdrag",
+        "content": "Photo To URL är en kostnadsfri, snabb och pålitlig bildhostingtjänst utformad för att hjälpa kreatörer, marknadsförare och team att direkt omvandla bilder till delbara länkar. Vi tror på enkelhet, snabbhet och användarnas integritet."
+      },
+      "features": {
+        "title": "Vad vi erbjuder",
+        "item1": "Kostnadsfri bildhosting med CDN-stöd",
+        "item2": "Omedelbar länkgenerering för snabb delning",
+        "item3": "Stöd för flera bildformat (JPG, PNG, WEBP, GIF)",
+        "item4": "Prova utan registrering — gratisplan: 10 uppladdningar/dag, 2MB per fil"
+      },
+      "contact": {
+        "title": "Kontakta oss",
+        "text": "Har du frågor eller feedback? Kontakta oss på",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Integritetspolicy | Photo To URL",
+        "description": "Integritetspolicy för Photo To URL - lär dig hur vi samlar in, använder och skyddar dina uppgifter."
+      },
+      "page": {
+        "title": "Integritetspolicy",
+        "lastUpdated": "Senast uppdaterad: maj 2026",
+        "introduction": "På Photo To URL respekterar vi din integritet och är engagerade i att skydda dina personuppgifter. Denna integritetspolicy förklarar hur vi samlar in, använder, lämnar ut och skyddar din information när du använder vår tjänst.",
+        "dataCollection": {
+          "title": "Information vi samlar in",
+          "content1": "När du använder Photo To URL kan vi samla in:",
+          "item1": "Uppladdade bildfiler och metadata (filnamn, storlek, typ), lagrade på Cloudflare R2 för att tillhandahålla delbara länkar",
+          "item2": "IP-adress, uppladdningstidsstämpel och användningsdata för hastighetsbegränsning, säkerhet och missbruksförebyggande",
+          "item3": "Kontoinformation vid registrering eller inloggning (e-postadress, Google OAuth-profil, sessions- och autentiseringsidentifierare)",
+          "item4": "Prenumerations- och betalningsinformation som behandlas av vår betalningsleverantör Waffo Pancake för betalda planer — vi lagrar inte fullständiga kortnummer",
+          "content2": "Om du kontaktar oss via kontaktformuläret samlar vi in den information du tillhandahåller (t.ex. namn och e-post). Vi använder också cookies och liknande tekniker enligt avsnittet Cookies."
+        },
+        "dataUsage": {
+          "title": "Hur vi använder din information",
+          "item1": "För att generera och tillhandahålla delbara bildlänkar",
+          "item2": "För att förhindra missbruk och upprätthålla uppladdningsgränser",
+          "item3": "För att förbättra vår tjänst och användarupplevelsen",
+          "item4": "För att uppfylla juridiska skyldigheter"
+        },
+        "dataStorage": {
+          "title": "Datalagring och lagringstid",
+          "content": "Uppladdade bilder lagras i Cloudflare R2-lagring. Vi behåller bilder så länge det är nödvändigt för att tillhandahålla tjänsten. Bilder kan raderas automatiskt efter en period av inaktivitet eller på grund av policyöverträdelser."
+        },
+        "cookies": {
+          "title": "Cookies och spårningsteknik",
+          "content1": "Vi använder följande tekniker:",
+          "item1": "Local Storage: För att lagra din uppladdningshistorik och dina språkinställningar",
+          "item2": "Google AdSense: För att visa annonser (använder cookies för annonsanpassning)",
+          "item3": "Google Analytics: För webbanalys (anonymiserade data)",
+          "content2": "Du kan styra cookies via dina webbläsarinställningar. Att inaktivera cookies kan dock påverka vissa funktioner i vår tjänst."
+        },
+        "personalizedAds": {
+          "title": "Personanpassad annonsering och avanmälan",
+          "content": "Vi använder Google AdSense för att visa annonser. Google och andra tredjepartsleverantörer kan använda cookies för att visa annonser baserat på dina besök på denna webbplats och andra platser på webben. Du kan välja bort personanpassad annonsering via Googles annonsinställningar",
+          "linkAdsSettings": "Googles annonsinställningar",
+          "content2": "eller Network Advertising Initiatives avanmälanssida på",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Tredjepartstjänster",
+          "content1": "Vi använder följande tredjepartstjänster:",
+          "item1": "Cloudflare R2: För bildlagring och CDN-leverans",
+          "item2": "Google AdSense: För annonsering (enligt Googles integritetspolicy)",
+          "item3": "Google Analytics: För webbanalys (enligt Googles integritetspolicy)",
+          "content2": "Vi använder också Waffo Pancake för prenumerationer och betalningshantering. Dessa tjänster kan samla in information enligt sina egna integritetspolicyer. Vi uppmuntrar dig att granska dem."
+        },
+        "dataSecurity": {
+          "title": "Datasäkerhet",
+          "content": "Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda dina uppgifter mot obehörig åtkomst, ändring, offentliggörande eller förstörelse. Ingen metod för överföring via internet är dock 100 % säker."
+        },
+        "yourRights": {
+          "title": "Dina rättigheter",
+          "content": "Du har rätt att:",
+          "item1": "Få tillgång till dina uppladdade bilder, kontouppgifter och tillhörande information",
+          "item2": "Begära radering av dina bilder",
+          "item3": "Välja bort vissa datainsamlingsmetoder",
+          "item4": "Kontakta oss med integritetsfrågor"
+        },
+        "children": {
+          "title": "Barns integritet",
+          "content": "Vår tjänst är inte avsedd för barn under 13 år. Vi samlar inte medvetet in personuppgifter från barn under 13 år."
+        },
+        "changes": {
+          "title": "Ändringar i denna integritetspolicy",
+          "content": "Vi kan uppdatera denna integritetspolicy då och då. Vi meddelar eventuella ändringar genom att publicera den nya integritetspolicyn på denna sida och uppdatera datumet \"Senast uppdaterad\"."
+        },
+        "contact": {
+          "title": "Kontakta oss",
+          "text": "Om du har frågor om denna integritetspolicy, kontakta oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Användarvillkor | Photo To URL",
+        "description": "Användarvillkor för Photo To URL – bildhosting, tillåten användning och användaransvar."
+      },
+      "page": {
+        "title": "Villkor",
+        "lastUpdated": "Senast uppdaterad: september 2026",
+        "intro": "Välkommen till Photo To URL. Genom att använda vår tjänst för bildhosting och länkgenerering (\"Tjänsten\") godkänner du dessa användarvillkor. Om du inte samtycker, använd inte Tjänsten.",
+        "acceptance": {
+          "title": "Godkännande av villkor",
+          "content": "Genom att ladda upp bilder, skapa länkar eller på annat sätt använda Photo To URL bekräftar du att du har läst, förstått och godkänt dessa villkor samt vår integritetspolicy. Vi kan uppdatera dessa villkor från tid till annan; fortsatt användning av tjänsten efter ändringar innebär att du accepterar de uppdaterade villkoren."
+        },
+        "serviceDescription": {
+          "title": "Beskrivning av tjänsten",
+          "content": "Photo To URL erbjuder kostnadsfri bildhosting och generering av direkta länkar. Du kan ladda upp bilder inom de gränser vi anger (t.ex. filstorlek och format) och få delbara länkar. Vi garanterar inte oavbruten tillgänglighet; tjänsten kan ändras, pausas eller avslutas med eller utan förvarning."
+        },
+        "useOfService": {
+          "title": "Användning av tjänsten",
+          "content": "Du får endast använda tjänsten för lagliga ändamål och i enlighet med dessa villkor. Du ansvarar för din användning av tjänsten och för allt innehåll du laddar upp. Du får inte använda tjänsten på ett sätt som bryter mot tillämpliga lagar eller andras rättigheter."
+        },
+        "userResponsibilities": {
+          "title": "Ditt ansvar",
+          "content": "Du samtycker till att: (1) lämna korrekt information när det krävs; (2) se till att din användning av tjänsten följer alla tillämpliga lagar; (3) inte försöka kringgå säkerhet, hastighetsbegränsningar eller åtkomstkontroller; (4) inte använda tjänsten för att sprida skadlig programvara eller störa driften av tjänsten eller andra användare."
+        },
+        "prohibitedContent": {
+          "title": "Förbjudet innehåll",
+          "content": "Du får inte ladda upp eller dela länkar till innehåll som: är olagligt, skadligt, hotfullt, kränkande, trakasserande, förtalande, obscent, integritetskränkande, gör intrång i immateriella rättigheter eller på annat sätt olämpligt; utnyttjar minderåriga; främjar våld eller diskriminering; eller bryter mot tredje parts rättigheter. Vi kan ta bort innehåll och stänga av eller avsluta åtkomst utan förvarning om vi rimligen bedömer att det bryter mot dessa villkor eller lagen."
+        },
+        "ipAndContent": {
+          "title": "Immateriella rättigheter och ditt innehåll",
+          "content": "Du behåller äganderätten till de bilder du laddar upp. Genom att använda tjänsten ger du oss en begränsad licens att lagra, behandla och leverera dina bilder samt att generera och tillhandahålla länkar i den utsträckning som krävs för att driva tjänsten. Vi gör inte anspråk på äganderätt till ditt innehåll. Vårt namn, vår logotyp och tjänsten är vår immateriella egendom; du får inte använda dem utan vårt skriftliga förhandsgodkännande."
+        },
+        "subscriptions": {
+          "title": "Prenumerationsplaner",
+          "content": "Photo To URL erbjuder en gratisnivå samt betalda prenumerationer (månadsvis Pro och årsvis Premium) med högre uppladdningsgränser, filstorleksgränser och lagringsutrymme. Aktuella planer och priser finns på vår prissida (https://phototourl.com/pricing). Betald åtkomst är en digital tjänst och aktiveras direkt efter bekräftad betalning."
+        },
+        "billing": {
+          "title": "Fakturering och betalning",
+          "content": "När du anger en betalningsmetod och tecknar en betald plan godkänner du att vi och vår betalningsförmedlare debiterar den metoden återkommande för den aktuella prenumerationsavgiften tills du säger upp enligt beskrivningen nedan. Prenumerationer förnyas automatiskt i slutet av varje faktureringsperiod om de inte sägs upp. Priser visas i kassan och kan vara exklusive tillämpliga skatter om inget annat anges."
+        },
+        "cancellation": {
+          "title": "Uppsägning och stopp av automatisk förnyelse",
+          "content": "Du kan när som helst stoppa framtida debiteringar genom att:",
+          "item1": "Skicka e-post till support@phototourl.com från din registrerade kontoadress och begära att den automatiska förnyelsen avslutas; eller",
+          "item2": "Avbryta automatisk debitering eller återkommande fakturering hos din kortutgivare via mobilbank, internetbank eller kundtjänst.",
+          "effect": "Uppsägning stoppar framtida förnyelser. Du behåller betalförmånerna till slutet av den period du redan har betalat för. När den perioden är slut görs inga ytterligare debiteringar för den prenumerationen och betalförmånerna upphör med den perioden."
+        },
+        "refunds": {
+          "title": "Återbetalningspolicy",
+          "general": "Eftersom betalda planer är digitala tjänster som levereras direkt efter betalning är prenumerationsavgifter i regel inte återbetalningsbara när tjänsten fortfarande fungerar för normal användning, utom enligt nedan eller när lagen kräver det.",
+          "eligibleTitle": "När återbetalning kan bli aktuell",
+          "item1": "Förstagångsprenumeranter: inom 7 dagar från den första debiteringen, om du inte har använt betalfunktionerna i någon större utsträckning (till exempel bara en liten del av planens uppladdnings- eller lagringsutrymme).",
+          "item2": "Dubbla eller felaktiga debiteringar: full återbetalning vid en bekräftad faktureringsfel som lett till dubbel debitering.",
+          "item3": "Driftavbrott på vår sida: om ett bekräftat avbrott inom vår kontroll varar 72 timmar eller mer under din betalda period kan vi efter granskning erbjuda proportionell kredit eller återbetalning.",
+          "item4": "Lagstadgade rättigheter: där tillämplig lag ger dig ångerrätt eller rätt till återbetalning (till exempel i EU/Storbritannien) gäller de rättigheterna.",
+          "howTitle": "Så begär du återbetalning",
+          "how": "Skicka e-post till support@phototourl.com med din kontoadress, betalnings- eller transaktionsreferens och anledning. Vi strävar efter att bekräfta inom 2 arbetsdagar och behandla berättigade återbetalningar inom 5–10 arbetsdagar.",
+          "notTitle": "När återbetalning inte ges",
+          "not1": "Avgifter för prenumerationsperioder som redan har använts, utom enligt ovan.",
+          "not2": "Återbetalningsbegäran för årsprenumeration (Premium) mer än 30 dagar efter det första köpet, utom när lagen kräver annat eller ett berättigat avbrotts- eller dubbeldebiteringsfall gäller.",
+          "not3": "Konton som stängts av eller avslutats på grund av brott mot dessa villkor."
+        },
+        "disclaimer": {
+          "title": "Friskrivning från garantier",
+          "text": "Tjänsten tillhandahålls \"i befintligt skick\" och \"som tillgänglig\" utan garantier av något slag, uttryckliga eller underförstådda. Vi garanterar inte att tjänsten är oavbruten, felfri eller fri från skadliga komponenter. Du använder tjänsten på egen risk."
+        },
+        "limitationOfLiability": {
+          "title": "Ansvarsbegränsning",
+          "content": "I den utsträckning som lagen tillåter ansvarar Photo To URL och dess operatörer inte för indirekta, tillfälliga, särskilda, följd- eller straffskador, eller för förlust av data, vinst eller goodwill som uppstår på grund av din användning av eller oförmåga att använda tjänsten. Vårt totala ansvar ska inte överstiga det belopp du har betalat till oss under de tolv månaderna före kravet (eller noll om du inte har betalat något)."
+        },
+        "termination": {
+          "title": "Uppsägning",
+          "content": "Vi kan när som helst stänga av eller avsluta din åtkomst till tjänsten, med eller utan skäl och med eller utan förvarning. Du kan sluta använda tjänsten när som helst. Vid uppsägning upphör din rätt att använda tjänsten omedelbart. Bestämmelser som till sin natur ska fortsätta att gälla (inklusive friskrivning, ansvarsbegränsning och tillämplig lag) fortsätter att gälla."
+        },
+        "changes": {
+          "title": "Ändringar i dessa villkor",
+          "content": "Vi kan uppdatera dessa villkor då och då. Vi publicerar de reviderade villkoren på denna sida och uppdaterar datumet \"Senast uppdaterad\". Din fortsatta användning av tjänsten efter ändringar innebär acceptans. Vi rekommenderar att du granskar denna sida regelbundet."
+        },
+        "governingLaw": {
+          "title": "Tillämplig lag",
+          "content": "Dessa villkor ska styras av och tolkas i enlighet med lagarna i den jurisdiktion där vi bedriver verksamhet, utan hänsyn till lagvalsregler. Eventuella tvister ska avgöras av domstolarna i den jurisdiktionen."
+        },
+        "contact": {
+          "title": "Kontakta oss",
+          "text": "Om du har frågor om dessa användarvillkor, kontakta oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Cookiepolicy | Photo To URL",
+        "description": "Cookiepolicy för Photo To URL - läs om hur vi använder cookies och spårningstekniker."
+      },
+      "page": {
+        "title": "Cookie-policy",
+        "lastUpdated": "Senast uppdaterad: september 2026",
+        "introduction": "Denna cookiepolicy förklarar hur Photo To URL använder cookies och liknande spårningstekniker när du besöker vår webbplats. Genom att använda vår tjänst samtycker du till användningen av cookies i enlighet med denna policy. Frågor om policyn skickar du till support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Vad är cookies",
+          "content": "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats. De används i stor utsträckning för att få webbplatser att fungera mer effektivt och för att ge information till webbplatsägare."
+        },
+        "howWeUseCookies": {
+          "title": "Hur vi använder cookies",
+          "content": "Vi använder cookies för följande ändamål:",
+          "item1": "För att lagra din uppladdningshistorik och dina språkinställningar",
+          "item2": "För att analysera webbplatstrafik och användarbeteende",
+          "item3": "För att visa personanpassade annonser"
+        },
+        "typesOfCookies": {
+          "title": "Vilka typer av cookies vi använder",
+          "essential": {
+            "title": "Nödvändiga cookies",
+            "content": "Dessa cookies är nödvändiga för att webbplatsen ska fungera korrekt. De möjliggör grundläggande funktioner som att spara dina språkinställningar och din uppladdningshistorik."
+          },
+          "analytics": {
+            "title": "Analyscookies",
+            "content": "Vi använder Google Analytics för att analysera hur besökare använder vår webbplats. Dessa cookies samlar in anonym information om webbplatsanvändning för att hjälpa oss att förbättra vår tjänst."
+          },
+          "advertising": {
+            "title": "Annonscookies",
+            "content": "Vi använder Google AdSense för att visa annonser. Dessa cookies hjälper till att visa personanpassade annonser baserat på ditt surfbeteende och dina intressen."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookies från tredje part",
+          "content": "Vi använder följande tredjepartstjänster som kan sätta cookies:",
+          "item1": "Google AdSense - För annonsering (enligt Googles integritetspolicy)",
+          "item2": "Google Analytics - För webbanalys (enligt Googles integritetspolicy)"
+        },
+        "manageCookies": {
+          "title": "Hantera cookies",
+          "content": "Du kan kontrollera och hantera cookies via dina webbläsarinställningar. De flesta webbläsare låter dig neka eller acceptera cookies, ta bort befintliga cookies eller ange inställningar för vissa webbplatser. Att inaktivera cookies kan dock påverka funktionaliteten i vår tjänst."
+        },
+        "changes": {
+          "title": "Ändringar i denna cookiepolicy",
+          "content": "Vi kan uppdatera denna cookiepolicy då och då. Vi meddelar eventuella ändringar genom att publicera den nya cookiepolicyn på denna sida och uppdatera datumet \"Senast uppdaterad\"."
+        },
+        "contact": {
+          "title": "Kontakta oss",
+          "text": "Om du har frågor om denna cookiepolicy, kontakta oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL bokmärke",
+    "description": "Ladda upp bilder från valfri webbsida direkt till Photo To URL med ett enda klick! Gratis prov: 10 uppladdningar/dag, 2MB per fil.",
+    "howItWorks": {
+      "title": "Så fungerar det",
+      "step1": "Öppna en webbsida med bilder",
+      "step2": "Klicka på bookmarklet i bokmärkesfältet",
+      "step3": "Välj en bild från sidan",
+      "step4": "Få URL:en direkt och kopiera den!"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "Steg 1: Kopiera bookmarklet-koden",
+        "description": "Klicka på knappen nedan för att kopiera bookmarklet-koden till urklipp."
+      },
+      "step2": {
+        "title": "Steg 2: Lägg till i din webbläsare",
+        "description": "Följ stegen nedan beroende på webbläsare:",
+        "chrome": "Chrome/Edge: Tryck på Ctrl+Shift+B (Cmd+Shift+B på Mac) för att visa bokmärkesfältet, högerklicka sedan på det och välj \"Lägg till sida\". Klistra in koden som URL.",
+        "firefox": "Firefox: Högerklicka på bokmärkesfältet och välj \"Nytt bokmärke\". Klistra in koden i platsfältet.",
+        "safari": "Safari: Aktivera bokmärkesfältet (Visa → Visa bokmärkesfält) och dra sedan koden till bokmärkesfältet.",
+        "edge": "Alternativ: Skapa ett nytt bokmärke, redigera det och ersätt URL:en med den kopierade koden."
+      },
+      "step3": {
+        "title": "Steg 3: Börja använda det!",
+        "description": "Besök en sida med bilder och klicka på bookmarklet för att starta uppladdning!"
+      },
+      "copy": "Kopiera kod",
+      "copied": "Kopierad!"
+    },
+    "usage": {
+      "title": "Funktioner",
+      "description": "Bookmarklet erbjuder följande funktioner. Varje uppladdning räknas mot dina plangränser (Gratis prov: 10 uppladdningar/dag, 2MB per fil).",
+      "feature1": "Välj valfri bild från den aktuella webbsidan",
+      "feature2": "Automatisk uppladdning till Photo To URL",
+      "feature3": "Få en delbar URL direkt med ett klick"
+    },
+    "note": {
+      "title": "Obs",
+      "content": "Uppladdningar räknas mot din dagliga kvot (Gratis prov: 10 uppladdningar/dag, 2MB per fil). Bookmarklet fungerar på de flesta webbplatser; strikta säkerhetsregler (CORS) kan hindra uppladdningar."
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "welcomeBack": "Välkommen tillbaka",
+      "email": "E-post",
+      "password": "Lösenord",
+      "signIn": "Logga in",
+      "signUp": "Registrera",
+      "signUpHint": "Inget konto?",
+      "forgotPassword": "Glömt lösenordet?",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "emailRequired": "E-post krävs",
+      "passwordRequired": "Lösenord krävs",
+      "signInWithGoogle": "Logga in med Google"
+    },
+    "register": {
+      "createAccount": "Skapa konto",
+      "name": "Namn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "signUp": "Registrera",
+      "signInHint": "Har du redan ett konto?",
+      "namePlaceholder": "Ditt namn",
+      "signUpSuccess": "Kontot har skapats",
+      "signUpWithGoogle": "Registrera dig med Google",
+      "artFightLabel": "Registrera dedikerat konstnärskonto",
+      "artFightHint": "Lås upp konstnärsfokuserade Dashboard-verktyg: kopiera inbäddningskoder (URL, HTML, BBCode, Markdown) för varje hostat kort."
+    },
+    "error": {
+      "title": "Autentiseringsfel",
+      "defaultError": "Ett fel uppstod vid autentisering.",
+      "backToLogin": "Tillbaka till inloggning"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Ett konto med denna e-post finns redan. Vänligen använd en annan e-post.",
+      "INVALID_CREDENTIALS": "Fel e-post eller lösenord.",
+      "INVALID_EMAIL": "Ogiltigt e-postformat.",
+      "INVALID_PASSWORD": "Lösenordet måste vara minst 6 tecken.",
+      "EMAIL_REQUIRED": "E-post krävs.",
+      "PASSWORD_REQUIRED": "Lösenord krävs.",
+      "NAME_REQUIRED": "Namn krävs.",
+      "SERVER_ERROR": "Serverfel. Vänligen försök igen senare.",
+      "NETWORK_ERROR": "Nätverksfel. Vänligen kontrollera din anslutning."
+    },
+    "forgotPassword": {
+      "title": "Glömt lösenord",
+      "description": "Ange din e-postadress så skickar vi en länk för att återställa lösenordet.",
+      "email": "E-post",
+      "send": "Skicka återställningslänk",
+      "backToLoginHint": "Kommer du ihåg ditt lösenord?",
+      "checkEmail": "Om det finns ett konto för den e-postadressen har vi skickat en återställningslänk. Kolla inkorgen.",
+      "emailRequired": "E-post krävs",
+      "error": {
+        "userNotFound": "Inget konto hittades med den här e-postadressen",
+        "tooManyRequests": "För många försök. Försök igen senare",
+        "serverError": "Något gick fel. Försök igen"
+      }
+    },
+    "resetPassword": {
+      "title": "Återställ lösenord",
+      "password": "Nytt lösenord",
+      "reset": "Återställ lösenord",
+      "backToLoginHint": "Redo att logga in?",
+      "requestNewLink": "Begär en ny länk",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "minLength": "Lösenordet måste vara minst 6 tecken",
+      "error": {
+        "expiredToken": "Återställningslänken har gått ut. Begär en ny",
+        "invalidToken": "Ogiltig återställningslänk. Begär en ny",
+        "missingToken": "Återställningslänken saknas eller är ofullständig. Begär en ny",
+        "tooManyRequests": "För många försök. Försök igen senare",
+        "serverError": "Något gick fel. Försök igen"
+      }
+    },
+    "orContinueWith": "Eller fortsätt med"
+  },
+  "Mail": {
+    "common": {
+      "team": "{name}-teamet",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Hej, {name}.",
+      "body": "Klicka på knappen nedan för att återställa ditt Photo To URL-lösenord. Om du inte begärde detta kan du ignorera mejlet.",
+      "resetPassword": "Återställ lösenord",
+      "subject": "Återställ ditt Photo To URL-lösenord"
+    }
+  },
+  "PricingPage": {
+    "title": "Enkel och transparent prissättning",
+    "description": "Välj den plan som passar dig bäst med enkel och transparent prissättning",
+    "subtitle": "Välj den plan som passar dig bäst",
+    "monthly": "Månadsvis",
+    "yearly": "Årligen",
+    "faqTitle": "Vanliga frågor",
+    "faq": {
+      "payment": {
+        "q": "Vilka betalningsmetoder accepterar ni?",
+        "a": "Vi accepterar alla större kreditkort och PayPal genom vår säkra betalningsleverantör."
+      },
+      "cancel": {
+        "q": "Kan jag avbryta mitt abonnemang när som helst?",
+        "a": "Ja, du kan avbryta när som helst. Du behåller åtkomst till slutet av din nuvarande faktureringsperiod."
+      },
+      "storage": {
+        "q": "Vad händer med mina filer om jag nedgraderar?",
+        "a": "Dina filer är säkra. Om du överskrider lagringsgränsen meddelar vi dig i förväg. Ingenting raderas omedelbart."
+      },
+      "upload": {
+        "q": "Vad räknas som en uppladdning?",
+        "a": "Varje bild du laddar upp till Photo To URL räknas som en uppladdning. Gratis användare är begränsade till 10 uppladdningar per dag."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/månad",
+      "perYear": "/år",
+      "popular": "Mest populär",
+      "bestValue": "Bästa värde",
+      "currentPlan": "Nuvarande plan",
+      "yourCurrentPlan": "Din nuvarande plan",
+      "getStartedForFree": "Kom igång gratis",
+      "getLifetimeAccess": "Få livstidsåtkomst",
+      "getStarted": "Kom igång",
+      "upgradeToYearly": "Uppgradera till Premium",
+      "cannotDowngrade": "Nedgradering inte tillgänglig",
+      "alreadySubscribed": "Nuvarande plan är redan aktiv",
+      "subscribeYearly": "Prenumerera årsvis",
+      "subscribeMonthly": "Prenumerera månadsvis",
+      "upgrade": "Uppgradera nu",
+      "notAvailable": "Ej tillgänglig",
+      "limitedOffer": "Tidsbegränsat erbjudande · 20% rabatt",
+      "savePercentLabel": "Spara ",
+      "savePercentSuffix": " vs månadsvis",
+      "freePriceNote": "Gratis för alltid",
+      "monthlyPriceNote": "Faktureras månadsvis",
+      "loading": "Laddar...",
+      "suitableFor": "Lämplig för:",
+      "activePlanDialog": {
+        "title": "Du har redan en aktiv prenumeration",
+        "description": "Det här kontot har redan en aktiv prenumeration.",
+        "descriptionWithDate": "Det här kontot har redan en aktiv prenumeration (löper ut {date}).",
+        "close": "Stäng",
+        "manageBilling": "Hantera prenumeration"
+      },
+      "batchUpload": {
+        "label": "Ladda upp flera foton",
+        "free": "Nej",
+        "monthly": "20",
+        "yearly": "50"
+      },
+      "justPerMonth": "{price}/mån",
+      "saveVsMonthly": "Spara {percent}%",
+      "monthlyEquivalentShort": "({price}/månad)",
+      "bestValueWithSave": "Bästa värde · Spara {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Laddar...",
+      "checkoutFailed": "Kunde inte öppna kassan"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Gratis",
+      "description": "Perfekt för att prova Photo To URL",
+      "features": {
+        "feature-1": "Uppladdningsstorlek: 2MB",
+        "feature-2": "Dagliga uppladdningar: 10 gånger",
+        "feature-3": "Lagring: 100MB",
+        "feature-4": "CDN: Basal acceleration",
+        "feature-5": "Reklamfritt: Nej",
+        "feature-6": "Dokumenthosting: Nej",
+        "feature-7": "Fotohosting: Nej",
+        "feature-8": "Fotoredigering: Nej",
+        "feature-9": "Webhook: Nej",
+        "feature-10": "Resursbehörigheter: Inga"
+      },
+      "limits": [],
+      "suitableFor": "Prova produkten, testa funktioner"
+    },
+    "pro": {
+      "name": "Professionell",
+      "description": "Stabil uppladdning & lagring",
+      "features": {
+        "feature-1": "Uppladdningsstorlek: 50MB",
+        "feature-2": "Dagliga uppladdningar: 1000 gånger",
+        "feature-3": "Lagring: 100GB",
+        "feature-4": "CDN: Standard acceleration",
+        "feature-5": "Reklamfritt: Ja",
+        "feature-6": "Dokumenthosting: Ja",
+        "feature-7": "Fotohosting: Ja",
+        "feature-8": "Fotoredigering: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Resursbehörigheter: Delvis"
+      },
+      "limits": [],
+      "suitableFor": "Bloggare / Utvecklare / Små team"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Högre kvoter, snabbare CDN",
+      "features": {
+        "feature-1": "Uppladdningsstorlek: 256MB",
+        "feature-2": "Dagliga uppladdningar: Obegränsat",
+        "feature-3": "Lagring: 200GB",
+        "feature-4": "CDN: Höghastighetsnoder (prioritet)",
+        "feature-5": "Reklamfritt: Ja",
+        "feature-6": "Dokumenthosting: Ja",
+        "feature-7": "Fotohosting: Ja",
+        "feature-8": "Fotoredigering: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Resursbehörigheter: Alla"
+      },
+      "limits": [],
+      "suitableFor": "Företag / Högfrekvent användning / Automatiseringssystem"
+    }
+  },
+  "Dashboard": {
+    "title": "Instrumentpanel",
+    "themeToggle": "Tema",
+    "welcome": "Välkommen",
+    "loadFailed": "Kunde inte ladda. Försök igen senare.",
+    "errorTitle": "Något gick fel",
+    "dismiss": "OK",
+    "dashboard": "Översikt",
+    "resources": "Mina resurser",
+    "photos": "Mina foton",
+    "storage": "Lagring",
+    "used": "Använt",
+    "total": "Totalt",
+    "storageDisplay": "{used} av {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Obegränsat",
+    "deleteConfirm": "Är du säker på att du vill ta bort denna resurs?",
+    "deleteResource": "Ta bort resurs",
+    "deleteFailed": "Det gick inte att ta bort resursen",
+    "delete": "Ta bort",
+    "cancel": "Avbryt",
+    "copied": "Kopierat!",
+    "copy": "Kopiera länk",
+    "open": "Öppna",
+    "removeBackground": "Ta bort bakgrund",
+    "noResources": "Inga resurser. Ladda upp några bilder för att komma igång.",
+    "files": "filer",
+    "dailyUploads": "Uppladdningar idag",
+    "today": "idag",
+    "resourcesCount": "Du har {count} uppladdade resurser",
+    "photosCount": "Du har {count} uppladdade foton",
+    "resourcePageInfo": "Sida {page} av {totalPages} · {pageSize} per sida · {total} filer totalt",
+    "resourceTotalCount": "Totalt {total} objekt",
+    "resourcePageSizeLabel": "Objekt per sida",
+    "resourcePageSizeOption": "{size} per sida",
+    "resourceJumpTo": "Gå till",
+    "resourceJumpPageUnit": "sida",
+    "resourceJumpInputAria": "Sidnummer",
+    "resourcePagePrev": "Föregående sida",
+    "resourcePageNext": "Nästa sida",
+    "subtitle": "Här är en översikt över din arbetsyta.",
+    "planCardTitle": "Plan",
+    "planActive": "Aktiv",
+    "planNames": {
+      "free": "Gratis",
+      "premium": "Premium",
+      "pro": "Professionell"
+    },
+    "planCardHintUpgrade": "Uppgradera för mer",
+    "planCardHintAllUpgraded": "Alla funktioner upplåsta",
+    "statStorageHint": "Utrymme använt för alla uppladdningar",
+    "statResourcesHint": "Totalt foton + dokument",
+    "statPhotosHint": "Filer du kan kopiera eller dela som länkar",
+    "statUploadsHint": "Återställs var 24:e timme per nivå",
+    "chartTitle": "Aktivitet",
+    "chartDescription": "Uppladdningsvolym över tid",
+    "chartPlaceholder": "Trender kommer att visas här när det finns mer aktivitet.",
+    "chartRange7d": "Senaste 7 dagarna",
+    "chartRange30d": "Senaste 30 dagarna",
+    "chartRange90d": "Senaste 3 månaderna",
+    "tableFile": "Fil",
+    "tablePath": "Sökväg",
+    "tableSize": "Storlek",
+    "tableActions": "Åtgärder",
+    "viewTable": "Tabell",
+    "viewGrid": "Fotomur",
+    "chartDemoNote": "Uppladdningstrend (dagar)",
+    "loginRequired": "Logga in för att se din instrumentpanel.",
+    "checkoutSuccess": "Betalning framgångsrik! Din plan har uppgraderats.",
+    "subscriptionSuccess": "Prenumeration aktiverad. Välkommen till {plan}!",
+    "circleCrop": "Cirkulär beskärning",
+    "roundedCorners": "Rundade hörn",
+    "scheduledForDeletion": "Planerad för borttagning",
+    "upload": "Ladda upp",
+    "uploadPhoto": "Ladda upp foto",
+    "batchUploadPhotos": "Ladda upp flera foton",
+    "batchUploading": "Laddar upp flera foton…",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Välj högst {max} filer åt gången.",
+    "batchUploadTierHint": "Upp till {max} filer per uppladdning enligt ditt abonnemang.",
+    "uploadUpgradeHint": "Tillgängligt efter uppgradering",
+    "uploading": "Laddar upp...",
+    "loading": "Laddar...",
+    "uploadErrorInvalidType": "Ogiltig filtyp. Använd PNG, JPG, WEBP eller GIF.",
+    "uploadErrorTooLarge": "Filen ar for stor. Ditt abonnemang tillater upp till {maxMb} MB per fil.",
+    "uploadErrorDailyLimit": "Daglig gräns nådd ({limit} uppladdningar/dag).",
+    "uploadErrorStorageLimit": "Lagringsgräns nådd.",
+    "uploadErrorGeneric": "Uppladdningen misslyckades. Försök igen.",
+    "uploadUpgradeTitle": "Lås upp direktuppladdning",
+    "uploadUpgradeDescription": "Uppgradera för att ladda upp direkt från din dashboard med högre gränser.",
+    "uploadRenewDescription": "Förnya för att ladda upp direkt från din dashboard med högre gränser.",
+    "expiredStorageLimitHint": "Efter utgång är endast 100MB lagring tillgänglig",
+    "uploadGoHome": "Ladda upp på startsidan",
+    "resourceModule": {
+      "title": "Mina dokument",
+      "count": "Du har {count} uppladdade dokument",
+      "empty": "Inga dokument ännu. Ladda upp PDF/Word/PowerPoint/Excel för att komma igång.",
+      "viewCard": "Kort",
+      "searchPlaceholder": "Sök efter filnamn",
+      "typeAll": "Alla typer",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Återställ",
+      "upload": "Ladda upp dokument",
+      "uploading": "Laddar upp...",
+      "copy": "Kopiera länk",
+      "open": "Öppna",
+      "delete": "Ta bort",
+      "deleteFailed": "Det gick inte att ta bort dokumentet",
+      "fetchError": "Det gick inte att ladda dokumentlistan",
+      "tableFile": "Fil",
+      "tablePath": "Sökväg",
+      "tableType": "Typ",
+      "typeLabel": "Typ",
+      "tableSize": "Storlek",
+      "tableActions": "Åtgärder",
+      "uploadErrorTooLarge": "Filen är för stor. Filgränsen i ditt abonnemang är {maxSize}.",
+      "uploadErrorDailyLimit": "Daglig gräns nådd ({limit} uppladdningar/dag).",
+      "uploadErrorStorageLimit": "Lagringsgräns nådd.",
+      "uploadErrorGeneric": "Uppladdningen misslyckades. Försök igen."
+    },
+    "uploadSize": "Filstorlek {size}",
+    "dailyUploadsLimit": "{limit} uppladdningar/dag",
+    "dailyUploadsUnlimited": "Obegränsade uppladdningar",
+    "monthly": "mån",
+    "yearly": "år",
+    "bestValue": "Bästa värde",
+    "upgrade": {
+      "title": "Uppgradera din plan",
+      "description": "Uppgradera för högre dagliga gränser, större filer och premium-funktioner. Obegränsade dagliga uppladdningar med årsplanen Premium.",
+      "button": "Uppgradera nu"
+    },
+    "settings": {
+      "title": "Inställningar",
+      "profile": {
+        "title": "Profil",
+        "description": "Hantera din profilinformation",
+        "name": {
+          "title": "Namn",
+          "description": "Uppdatera ditt visningsnamn",
+          "placeholder": "Ange ditt namn",
+          "hint": "Detta är namnet som kommer att visas på din profil",
+          "minLength": "Namnet måste vara minst 3 tecken",
+          "maxLength": "Namnet får inte överstiga 30 tecken",
+          "success": "Namn uppdaterat framgångsrikt",
+          "fail": "Kunde inte uppdatera namnet",
+          "save": "Spara",
+          "saving": "Sparar..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Uppdatera din profilbild",
+          "uploadAvatar": "Ladda upp bild",
+          "unavailable": "Uppladdning ej tillgänglig",
+          "disabledHint": "Avatar-uppladdning kräver att molnlagring är aktiverat för detta projekt.",
+          "recommendation": "PNG, JPG eller WebP. Max storlek följer servergränser."
+        }
+      },
+      "billing": {
+        "title": "Fakturering",
+        "description": "Hantera din fakturering och prenumeration",
+        "billingPagePlanTitle": "Aktuellt abonnemang",
+        "billingPageStorageTitle": "Lagringsanvändning",
+        "currentPlan": {
+          "title": "Din plan och lagring på Photo To URL",
+          "description": "Uppgradera för att låsa upp högre kvoter och fler funktioner"
+        },
+        "loadError": "Kunde inte ladda faktureringsdata.",
+        "retry": "Försök igen",
+        "planNames": {
+          "free": "Gratis",
+          "premium": "Premium",
+          "pro": "Professionell"
+        },
+        "status": {
+          "active": "Aktiv",
+          "expired": "Utgången"
+        },
+        "storageUsed": "Använd lagring",
+        "freePlanMessage": "Högre uppladdningskvot",
+        "inactivePlanMessage": "Förmånerna har upphört",
+        "expiredStorageLimitHint": "Efter utgång är endast 100MB lagring tillgänglig",
+        "paidPlanMessage": "Förmåner aktiva",
+        "backToWorkbench": "Tillbaka till instrumentpanelen",
+        "upgradeHint": "Mer lagringsutrymme",
+        "upgradeToPlan": "Uppgradera abonnemang",
+        "featureAdvancedEditing": "Avancerade redigeringsverktyg",
+        "upgradeNotReady": {
+          "title": "Kommer snart",
+          "description": "Håll utkik efter fler tjänster!",
+          "confirm": "Jag förstår",
+          "cancel": "Stäng"
+        },
+        "storage": {
+          "title": "Snabbare CDN",
+          "description": "Spåra din lagringskonsumtion",
+          "upgradeStorage": "Uppgradera lagring"
+        }
+      },
+      "security": {
+        "title": "Säkerhet",
+        "description": "Hantera din kontosäkerhet",
+        "updatePassword": {
+          "title": "Lösenord",
+          "description": "Ändra lösenordet för din e-postinloggning",
+          "currentPassword": "Nuvarande lösenord",
+          "newPassword": "Nytt lösenord",
+          "confirmPassword": "Bekrafta nytt losenord",
+          "currentRequired": "Ange ditt nuvarande lösenord",
+          "newMinLength": "Minst 8 tecken",
+          "confirmRequired": "Bekrafta ditt nya losenord",
+          "passwordMismatch": "Losenorden matchar inte",
+          "hint": "Använd ett starkt lösenord som du inte återanvänder någon annanstans.",
+          "save": "Uppdatera lösenord",
+          "saving": "Sparar…",
+          "success": "Lösenord uppdaterat",
+          "fail": "Kunde inte uppdatera lösenordet",
+          "showPassword": "Visa lösenord",
+          "hidePassword": "Dölj lösenord"
+        },
+        "resetPassword": {
+          "title": "Ange ett lösenord",
+          "description": "Du loggade in med Google. Lägg till ett e-postlösenord som backup-inloggning.",
+          "info": "Vi skickar en länk för återställning av lösenordet till kontots e-postadress.",
+          "button": "Skicka återställningslänk",
+          "sending": "Skickar…",
+          "sent": "Kolla din inkorg efter återställningslänken.",
+          "disabled": "Återställningsmejl för lösenord är inte konfigurerat på denna server ännu.",
+          "fail": "Begäran misslyckades. Försök igen senare."
+        },
+        "deleteAccount": {
+          "title": "Ta bort konto",
+          "description": "Ta bort ditt konto och tillhörande data permanent.",
+          "warning": "Detta kan inte ångras. Se till att du har sparat allt du behöver.",
+          "button": "Ta bort mitt konto",
+          "confirmTitle": "Ta bort konto?",
+          "confirmDescription": "Ditt konto kommer att tas bort permanent.",
+          "cancel": "Avbryt",
+          "confirm": "Ta bort",
+          "deleting": "Tar bort…",
+          "success": "Konto borttaget",
+          "fail": "Kunde inte ta bort kontot"
+        }
+      },
+      "notification": {
+        "title": "Aviseringar",
+        "description": "Hantera dina aviseringsinställningar",
+        "newsletter": {
+          "title": "E-postuppdateringar",
+          "description": "Produktnyheter och tips (valfritt)",
+          "label": "Prenumerera på nyhetsbrev",
+          "disabledHint": "Nyhetsbrevet är inte aktiverat för denna sajt ännu.",
+          "hint": "När det är aktiverat kan du prenumerera eller avprenumerera här."
+        },
+        "productPreview": {
+          "title": "Produktförhandsvisning",
+          "description": "Huvudbild som används på delningskort och landningssidor.",
+          "announcement": {
+            "line1": "Vi levererar kontinuerligt kraftfullare funktioner och ännu mer värdefulla medlemsförmåner.",
+            "line2": "Nya uppgraderingsfunktioner prioriteras för befintliga användare utan prisändringar.",
+            "line3": "Tack för varje användares förtroende och stöd. Vi fortsätter att förbättra produkten för att leverera en mer värdefull upplevelse.",
+            "line4": "Vi fortsätter att optimera den globala användarupplevelsen med snabbare och mer tillförlitliga tjänster."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Konstnärskonto",
+    "artFightWorkspaceHint": "Konstnärsverktyg aktiverade — kopiera URL-, HTML-, BBCode- och Markdown-inbäddningskoder för varje foto."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Art Fight-profilkort hosting | URL och inbäddningskoder",
+      "description": "Ladda upp Team Tragedy-, Comedy- eller Mystery-profilkort. Få en direkt HTTPS-länk plus HTML/BBCode-inbäddning för Art Fight, Discord och inlägg i sociala medier.",
+      "keywords": "Art Fight profilkort,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+    },
+    "footerLink": "Art Fight-hosting",
+    "artistAccount": {
+      "badge": "Konstnärskonto",
+      "title": "Registrera dedikerat konstnärskonto",
+      "lead": "Skapa ett gratis konstnärskonto för att spara profilkort i din Dashboard och använda professionella inbäddningsverktyg för Art Fight — kopiera URL, HTML, BBCode och Markdown för varje uppladdning.",
+      "toolEmbedTitle": "Inbäddningsverktyg",
+      "toolEmbedDesc": "Kopiera med ett klick för Art Fight-profiler, Discord, forum och inlägg i sociala medier.",
+      "toolDashboardTitle": "Konstnärs-Dashboard",
+      "toolDashboardDesc": "Varje kort finns kvar på ditt konto — sök, förhandsgranska och kopiera länkar igen när som helst.",
+      "toolBatchTitle": "Batch-uppladdning (Pro)",
+      "toolBatchDesc": "Ladda upp många profilkort på en gång efter uppgradering — för konstnärer med flera OCs.",
+      "registerCta": "Skapa konstnärskonto",
+      "footnote": "Markera «Dedikerat konstnärskonto» vid registrering, eller registrera dig från denna sida — vi förväljer det."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "För digitala konstnärer och OC-skapare",
+      "title": "Profilkort- och ref sheet-hosting för Art Fight-konstnärer",
+      "subtitle": "Ladda upp ditt Team Tragedy-, Comedy- eller Mystery-profilkort — få en stabil bild-URL plus HTML- och BBCode-inbäddningskoder för Art Fight-profiler, Discord och dina \"redo att slåss\"-inlägg.",
+      "artistAccountLine": "Registrera ett dedikerat konstnärskonto för professionella embed-verktyg i instrumentpanelen.",
+      "cta": "Släpp ditt profilkort nedan → kopiera länk → klistra in där du visar ditt lag",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Profilhosting",
+      "tabArtist": "Konstnärskonto",
+      "tabSupport": "Konstnärssupport",
+      "tabsAriaLabel": "Art Fight-höjdpunkter",
+      "trustLine": "Gratis snabb uppladdning · URL och inbäddningskoder · Konstnärs-Dashboard",
+      "uploadCta": "Ladda upp ett kort",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Inklistringsklara inbäddningskoder",
+      "panelIntroDesc": "Ladda upp ett profilkort en gång, kopiera sedan den direkta länken eller forumklar HTML och BBCode för Art Fight och Discord.",
+      "panelArtistTitle": "Konstnärskonto-verktyg",
+      "panelSupportTitle": "Dedikerad konstnärssupport",
+      "panelSupportDesc": "Uppladdningar, inbäddningar, konton och abonnemang — riktiga människor, inte en generisk ärendekö."
+    },
+    "teams": {
+      "title": "Samma verktyg för varje Art Fight-lag",
+      "lead": "Oavsett om du hamnade på Tragedy, Comedy eller Mystery behöver du en sak efter kortet: en snabb, stabil bildlänk att dela.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Blåtonade profilkort och ref sheets — hosta hela kortbilden och klistra in länken på din Art Fight-profil eller Twitter/X-inlägg.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Orange och varmt tonade karakterkort — perfekt för Discord-meddelanden och profilinbäddningar när Art Fight är i full gång.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Lila kort för den tredje fraktionen — samma uppladdningsflöde, samma inbäddningskoder, redo när du behöver dela.",
+      "footnote": "Alla tre lag följer samma arbetsflöde: ladda upp → kopiera URL eller inbäddning → publicera ditt kort offentligt."
+    },
+    "useCases": {
+      "title": "Var konstnärer klistrar in länken",
+      "lead": "Art Fight är socialt. Din hostade länk följer med varje profiluppdatering och varje \"jag är i det här laget\"-inlägg.",
+      "profileTitle": "Art Fight-profil",
+      "profileDesc": "Klistra in den direkta URL:en eller HTML-inbäddningen i din officiella Art Fight-karaktärsprofil så lagkamrater kan se ditt kort.",
+      "socialTitle": "Twitter / X och inlägg i sociala medier",
+      "socialDesc": "Dela ditt profilkort när du visar ditt lag — en ren HTTPS-länk laddas snabbt i tidslinjer och svar.",
+      "discordTitle": "Discord och konstnärsservrar",
+      "discordDesc": "Släpp URL:en eller BBCode i Art Fight-Discordkanaler, serverintroduktioner eller attackplan-trådar.",
+      "portfolioTitle": "Toyhouse och portfoliosidor",
+      "portfolioDesc": "Använd samma länk på Toyhouse, Carrd eller forumsignaturer så din ref förblir konsekvent överallt."
+    },
+    "features": {
+      "sectionTitle": "Varför Art Fight-konstnärer väljer Photo To URL",
+      "fastTitle": "Byggt för hektiska Art Fight-perioder",
+      "fastDesc": "Ladda upp när du behöver posta — få en CDN-länk på sekunder under uppvärmning, peak-event eller när som helst på året.",
+      "linkTitle": "Profilkortvänliga URL:er",
+      "linkDesc": "Rena .png/.jpg-länkar som Art Fight-profiler, forum och inlägg i sociala medier accepterar utan extra steg.",
+      "embedTitle": "HTML och BBCode för konstnärer",
+      "embedDesc": "Kopiera inbäddningsutdrag för profiler och forum — ingen manuell redigering av img-taggar under en hektisk säsong.",
+      "safeTitle": "Dashboard-hosting efter inloggning",
+      "safeDesc": "Registrerade användare sparar profilkort i Dashboard — kopiera länkar igen, sök filer och hantera uppladdningar på ett ställe."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Konstnärskonto: hosta kort i din Dashboard",
+      "sectionLead": "Anonyma uppladdningar fungerar för ett snabbt inlägg. Registrera dig som Art Fight-konstnär för en dedikerad Dashboard med inbäddningsverktyg för varje hostat kort — eller uppgradera till Pro för batch-uppladdning och högre gränser.",
+      "dashboardTitle": "Dashboard-fotohosting",
+      "dashboardDesc": "Efter inloggning sparas varje uppladdning i din Dashboard. Kopiera samma länk igen, öppna bilden i en ny flik eller ladda ner originalet — allt från en lista.",
+      "batchTitle": "Batch-uppladdning (Pro)",
+      "batchDesc": "Ladda upp många profilkort på en gång från Dashboard — upp till {monthlyMax} per batch på Pro, eller {yearlyMax} på Premium årligen.",
+      "manageTitle": "Sök och fotovägg",
+      "manageDesc": "Hitta vilket hostat kort som helst efter filnamn, växla mellan tabell- och fotoväggsvy och ta bort filer du inte längre behöver.",
+      "proTitle": "Högre gränser och större filer",
+      "proDesc": "Allt i Free, plus Dashboard batch-uppladdning ({monthlyMax}–{yearlyMax} filer), högre dagliga gränser, större uppladdningar och mer lagring.",
+      "anonymousLabel": "Anonym",
+      "anonymousDesc": "Snabb länk för ett inlägg. Inte sparad på ditt konto; kan rensas när som helst.",
+      "freeLabel": "Gratis konto",
+      "freeDesc": "Kort sparade i din Dashboard. Kopiera länkar igen, sök och hantera tills du tar bort dem eller når lagringsgränser.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Skapa gratis konto",
+      "loginCta": "Logga in",
+      "dashboardCta": "Öppna Dashboard",
+      "proCta": "Visa Pro-abonnemang",
+      "ctaPanelTitle": "Redo att hosta dina kort?",
+      "footnote": "Gratis konton laddar upp här och hanterar filer i Dashboard. Batch-uppladdning kräver Pro eller Premium."
+    },
+    "upload": {
+      "sectionTitle": "Ladda upp ditt Art Fight-profilkort",
+      "sectionLead": "Ref sheet, lagkort eller fullständig profilgrafik — dra hit och kopiera länken till ditt nästa inlägg.",
+      "dropzoneTitle": "Släpp ditt profilkort eller ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP eller GIF — lagkort, ref sheets och karaktärsgrafik välkomna",
+      "dropzoneFootnote": "Gratis: 5 uppladdningar/dag utan registrering. Logga in för högre gränser när som helst.",
+      "defaultAlt": "Art Fight-profilkort",
+      "resultTitle": "Ditt kort är klart — dela det",
+      "resultHint": "Kopiera URL:en för Art Fight-profiler, eller HTML/BBCode för forum och Discord.",
+      "open": "Öppna bild",
+      "reset": "Ladda upp ett annat kort",
+      "errorBadType": "Ladda upp en bildfil (PNG, JPG, WEBP eller GIF).",
+      "errorGeneric": "Uppladdningen misslyckades. Försök igen.",
+      "loginRequiredTitle": "Daglig gratisgräns nådd",
+      "loginRequiredDescription": "Logga in för att fortsätta ladda upp profilkort och spara dem i din Dashboard, eller kom tillbaka imorgon för fler gratis uppladdningar.",
+      "loginRequiredDetail": "Registrerade användare får Dashboard-hosting: varje kort finns kvar på ditt konto, du kan kopiera länkar igen, söka efter filnamn och hantera uppladdningar på ett ställe.",
+      "retentionAnonymousTitle": "Anonym länk — rekommenderas inte för viktiga kort",
+      "retentionAnonymousBody": "Anonyma uppladdningar endast för snabb delning. Länken fungerar nu men sparas inte — registrera dig gratis för embeds.",
+      "retentionAnonymousSignUp": "Skapa gratis konto",
+      "retentionAnonymousPro": "Visa Pro-abonnemang",
+      "retentionFreeTitle": "Den här länken sparas på ditt konto",
+      "retentionFreeBody": "Du kan kopiera den igen när som helst från din Dashboard. Gratis konton har dagliga uppladdningsgränser och lagringsbegränsningar — tillräckligt för snabba kort, men inte obegränsat.",
+      "retentionFreeDashboard": "Öppna Dashboard",
+      "retentionFreeUpgrade": "Uppgradera för mer lagring",
+      "retentionProTitle": "Ditt profilkort hostas på ditt Pro-abonnemang",
+      "retentionProBody": "Högre uppladdningsgränser, mer lagring och pålitliga länkar för varje Art Fight — Tragedy, Comedy eller Mystery.",
+      "retentionProDashboard": "Öppna Dashboard",
+      "resultHintAnonymous": "Anonym uppladdning — endast direktlänk. Registrera dig för att låsa upp HTML, BBCode och Markdown.",
+      "retentionAnonymousIntro": "Denna direktlänk fungerar för snabb delning, men anonym hosting har allvarliga begränsningar:",
+      "retentionAnonymousLimit1": "Inte kopplad till ditt konto — mindre säker; vem som helst med länken kan se bilden",
+      "retentionAnonymousLimit2": "Långsammare CDN — anonyma uppladdningar får ingen prioriterad acceleration",
+      "retentionAnonymousLimit3": "Kan komprimeras — originalkvalitet garanteras inte",
+      "retentionAnonymousLimit4": "Kort livslängd — anonyma filer rensas regelbundet; länken kan sluta fungera",
+      "retentionAnonymousLimit5": "Inbäddningskoder låsta — HTML, BBCode och Markdown kräver gratis konto",
+      "retentionAnonymousCta": "Skapa ett gratis konto för att spara kort, låsa upp embeds, snabbare CDN och mer tillförlitliga länkar."
+    },
+    "embed": {
+      "altLabel": "Alt-text (för HTML och Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Kopiera kod",
+      "copied": "Kopierad",
+      "lockedTabTitle": "Registrera dig för att låsa upp embeds",
+      "lockedTabDescription": "HTML, BBCode och Markdown tillgängliga efter registrering. Gratiskonton: instrumentpanel och kopiera embed med ett klick.",
+      "lockedTabCta": "Skapa gratiskonto"
+    },
+    "howTo": {
+      "title": "Från profilkort till offentligt inlägg",
+      "lead": "Arbetsflödet varje Art Fight-konstnär följer efter att ha färdigställt kortet.",
+      "schemaName": "Så hostar du ett Art Fight-profilkort med inbäddningskod",
+      "schemaDescription": "Ladda upp ett Art Fight-lagprofilkort till Photo To URL och klistra in länken på din profil eller i sociala medier.",
+      "step1Title": "Ladda upp ditt lagkort",
+      "step1Desc": "Släpp ditt Tragedy-, Comedy- eller Mystery-profilkort eller ref sheet. Vi returnerar en direktlänk och inbäddningskoder direkt.",
+      "step2Title": "Kopiera URL eller inbäddningskod",
+      "step2Desc": "Använd URL-fliken för Art Fight-profiler, eller HTML/BBCode för Discord, forum och portfoliosidor.",
+      "step3Title": "Publicera och visa ditt lag",
+      "step3Desc": "Klistra in länken på Art Fight, Twitter/X eller Discord så andra konstnärer kan se ditt kort och hitta dig under eventet."
+    },
+    "faq": {
+      "title": "Art Fight-konstnär FAQ",
+      "lead": "Frågor från konstnärer som laddar upp Team Tragedy-, Comedy- och Mystery-kort.",
+      "warningTitle": "Ladda upp ansvarsfullt",
+      "warningBody": "Hosta bara konstverk du har skapat eller tydligt får dela. Ladda inte upp kränkande, olagligt eller förbjudet innehåll. Du ansvarar för varje fil du laddar upp.",
+      "warningTermsLink": "Användarvillkor",
+      "warningPrivacyLink": "Integritetspolicy",
+      "q1Question": "Är det för profilkort eller ref sheets?",
+      "q1Answer": "Båda. Ladda upp ditt fullständiga Art Fight-lagprofilkort, karaktärs-ref sheet eller vilken grafik som helst du behöver hotlinka för eventet.",
+      "q2Question": "Fungerar det för alla tre lag?",
+      "q2Answer": "Ja. Team Tragedy-, Team Comedy- och Team Mystery-kort använder samma uppladdning — vi hostar bilden och ger dig en delbar länk.",
+      "q3Question": "Behöver jag ett konto för att ladda upp?",
+      "q3Answer": "Nej för snabba uppladdningar. Anonyma användare får 10 gratis uppladdningar per dag. Logga in för att spara kort i din Dashboard — kopiera länkar igen, sök filer och hantera uppladdningar. Pro lägger till batch-uppladdning från Dashboard (upp till 20–50 kort åt gången) plus högre gränser.",
+      "q8Question": "Kan jag batch-ladda upp många profilkort?",
+      "q8Answer": "Ja, med ett betalt abonnemang. Öppna din Dashboard, använd Batch-uppladdning och välj flera PNG/JPG/WEBP/GIF-filer på en gång — upp till 20 per batch på Pro månadsvis, eller 50 på Premium årligen. Gratis konton kan ladda upp ett kort i taget på den här sidan eller i Dashboard.",
+      "q4Question": "Fungerar min kortlänk på Discord och Twitter?",
+      "q4Answer": "Ja. Den direkta HTTPS-URL:en fungerar i inlägg i sociala medier. Använd BBCode för Discord-vänlig markup där det stöds.",
+      "q5Question": "Förblir min länk tillgänglig på lång sikt?",
+      "q5Answer": "Det beror på hur du laddar upp. Anonyma länkar är bara för snabb användning — vi rensar periodiskt anonyma uppladdningar och länken kan brytas när som helst. Registrerade användare behåller filer i sin Dashboard tills de tar bort dem eller når lagringsgränser. Pro är det bästa alternativet om du behöver att profilkort förblir online pålitligt över tid.",
+      "q6Question": "Kan jag ladda upp vilken bild som helst? Vad gäller upphovsrätt?",
+      "q6Answer": "Ladda bara upp bilder du äger eller är behörig att hosta och dela — som dina egna OCs, commissions du betalat för med hostingrättigheter, eller verk du skapat. Ladda inte upp andra konstnärers ref sheets, officiella Art Fight-tillgångar du inte skapat, kändisbilder, varumärkeslogotyper eller annat upphovsrättsskyddat material utan tillstånd. Uppladdning av kränkande innehåll är ditt ansvar.",
+      "q7Question": "Vilket innehåll är strängt förbjudet?",
+      "q7Answer": "Ladda aldrig upp olagligt innehåll; sexuellt explicit eller utnyttjande material (inkl. allt med minderåriga); hatpropaganda, trakasserier eller våld; skadlig programvara eller bedrägerier; eller något som bryter mot upphovsrätt, varumärke eller integritet. Vi kan ta bort filer och stänga av åtkomst utan förvarning när vi med rimlighet anser att innehållet bryter mot våra villkor eller lagen."
+    },
+    "artistSupport": {
+      "title": "Konstnärssupport — vi finns här för att hjälpa",
+      "panelVisualTag": "Svar inom 1–2 dagar",
+      "panelVisualQuestion": "Fungerar inte BBCode-inbäddningen?",
+      "panelVisualReply": "Förstått — vi hjälper dig att lösa det.",
+      "topicEmbed": "Inbäddningar och länkar",
+      "topicAccount": "Konstnärskonto",
+      "topicPlan": "Abonnemang och lagring",
+      "topicFeedback": "Idéer och feedback",
+      "contactHint": "Hör av dig när som helst — ingen kö.",
+      "contactCta": "Kontakta oss",
+      "emailCta": "Mejla oss"
+    },
+    "conversion": {
+      "title": "Hostar du många OCs? Batch-uppladdning från din Dashboard",
+      "description": "Pro-konstnärer laddar upp dussintals profilkort på en gång, behåller varje länk i Dashboard och får högre dagliga gränser och lagring för hela rosteret.",
+      "cta": "Se konstnärvänliga Pro-abonnemang"
+    }
+  }
+}

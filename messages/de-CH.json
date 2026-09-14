@@ -1,0 +1,1648 @@
+{
+  "common": {
+    "siteName": "Photo To URL",
+    "logout": "Abmelden",
+    "logoutFailed": "Abmeldung fehlgeschlagen",
+    "switchLanguage": "Sprache wechseln",
+    "tagline": "Verwandeln Sie Fotos in Sekunden in saubere, teilbare Links",
+    "header": {
+      "home": "Home",
+      "blog": "Blog",
+      "subtitle": "Bilder in teilbare Links umwandeln",
+      "prompt": "Ablegen, einfügen oder hochladen – sofort einen Link erhalten",
+      "circleCrop": "Foto kreisförmig zuschneiden",
+      "circleCropNav": "Kreis-Zuschnitt",
+      "roundedCorners": "Abgerundete Ecken",
+      "removeBackground": "Hintergrund entfernen",
+      "removeBackgroundNav": "Hintergrund entfernen",
+      "pricingNav": "Preise",
+      "comingSoon": "Demnächst verfügbar.",
+      "history": "Upload-Verlauf",
+      "login": "Anmelden",
+      "signUp": "Registrieren",
+      "signOut": "Abmelden",
+      "dashboard": "Dashboard",
+      "settings": "Einstellungen",
+      "tool": "Tools",
+      "pdfToUrlNav": "PDF zu URL",
+      "fileToUrlNav": "Datei zu URL",
+      "artFightNav": "Profilkarten"
+    },
+    "history": {
+      "drawerTitle": "Upload-Verlauf",
+      "hint": "Anzeige der Uploads der letzten Woche.",
+      "close": "Schliessen",
+      "empty": "Noch keine Uploads vorhanden.",
+      "copy": "Link kopieren",
+      "copied": "Kopiert",
+      "open": "In neuem Tab öffnen"
+    },
+    "languageSelect": {
+      "title": "Region auswählen",
+      "subtitle": "Die Auswahl einer Region ändert Sprache und Inhalt.",
+      "close": "Schliessen"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Fotos in saubere, teilbare Links verwandeln.",
+        "line2": "Schnell, einfach, zuverlässig."
+      },
+      "partners": "Partner",
+      "linksTitle": "Ressourcen",
+      "productsTitle": "Produkte",
+      "nav": {
+        "home": "Home",
+        "blog": "Blog",
+        "pricing": "Preise",
+        "docs": "Dokumentation",
+        "status": "Status",
+        "about": "Über uns",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "title": "Rechtliches",
+        "privacy": "Datenschutz",
+        "terms": "AGB",
+        "cookie": "Cookie-Richtlinie"
+      },
+      "copyright": "© 2025 Photo To URL. Alle Rechte vorbehalten.",
+      "products": {
+        "editStamp": "Stempel-Editor"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Kostenlos",
+      "cdn": "CDN-Links",
+      "nosignup": "Ohne Registrierung"
+    },
+    "hero": {
+      "title1": "Kostenlos",
+      "title2": "Photo To URL",
+      "subtitle": "Foto hochladen → Link erhalten → Überall verwenden",
+      "upload": "Bild hochladen",
+      "bullet": {
+        "fast": "Schnelles Teilen",
+        "direct": "Direkte Bild-Links",
+        "nosignup": "Keine Anmeldung nötig",
+        "paste": "Aus Zwischenablage einfügen"
+      }
+    },
+    "loginPrompt": {
+      "title": "Anmelden um fortzufahren",
+      "description": "Sie haben das Limit für kostenlose Uploads erreicht. Melden Sie sich an, um Ihren Upload-Verlauf zu speichern und Dateien zu verwalten. Höhere Limits gibt es in Pro-Tarifen.",
+      "benefits": "Warum registrieren?",
+      "benefit1": "Vollständiger Verlauf — organisiert und jederzeit abrufbar",
+      "benefit2": "Zugriff auf alle Premium-Bearbeitungswerkzeuge",
+      "benefit3": "Cloud-Speicher mit Upload-Verlauf",
+      "login": "Anmelden / Registrieren",
+      "later": "Später"
+    },
+    "upgradePrompt": {
+      "title": "Tageslimit erreicht",
+      "description": "Sie haben alle Uploads für heute aufgebraucht. Kommen Sie morgen wieder! Weitere Premium-Dienste folgen in Kürze.",
+      "comingSoon": "Bleiben Sie dran für mehr Services",
+      "goDashboard": "Ansehen",
+      "later": "Später"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto-Demo",
+      "idleTitle": "Bild per Drag & Drop ziehen",
+      "idleSubtitle": "Sehen Sie den Ablauf: Upload → Link → Kopieren.",
+      "processing": "Optimierung & Upload...",
+      "doneTitle": "Bereit zum Teilen",
+      "doneSubtitle": "Ihr Link ist sofort einsatzbereit.",
+      "thanksForWatching": "Danke fürs Zuschauen"
+    },
+    "upload": {
+      "title": "Foto hier ablegen oder zum Durchsuchen klicken",
+      "hint": "JPG, PNG, WEBP, GIF bis 2MB (kostenlos 10 Uploads/Tag). Drag & Drop, Klick oder Screenshots einfügen.",
+      "orDrop": "oder Datei ablegen",
+      "samplesTitle": "Kein Bild? Versuchen Sie eines von diesen:",
+      "policy": "Mit dem Hochladen eines Bildes stimmen Sie unserer <privacy>Datenschutzrichtlinie</privacy> und den <terms>Nutzungsbedingungen</terms> zu.",
+      "clear": "Leeren"
+    },
+    "result": {
+      "error": "Upload fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "fileTooLarge": "Datei zu gross. Ihr Plan erlaubt bis zu {maxMb} MB pro Datei.",
+      "dailyLimitReached": "Tageslimit erreicht ({limit} Mal/Tag). Kommen Sie morgen wieder!",
+      "storageLimitReached": "Speicher voll ({used} genutzt / {limit}). Bald gibt es mehr Speicheroptionen!",
+      "generated": "Generierter Link:",
+      "open": "In neuem Tab öffnen",
+      "placeholder": "Noch kein Link. Laden Sie ein Foto hoch, um eine URL zu generieren.",
+      "savePrompt": "Link speichern wie gewünscht",
+      "copy": "Link kopieren",
+      "copied": "Kopiert",
+      "saveHint": "Speichern Sie diesen Link für später",
+      "saveHintLoggedIn": "Im Dashboard gespeichert",
+      "tryPrefix": "Testen Sie"
+    },
+    "benefits": {
+      "title": "Warum sich Nutzer für Photo To URL entscheiden",
+      "subtitle": "Schnelligkeit — Kostenlos testen: 5 Uploads/Tag, 2MB pro Datei",
+      "items": {
+        "fast": {
+          "title": "Schnelles Teilen",
+          "desc": "Hochladen und in Sekunden einen Link erhalten, ohne zusätzliche Schritte."
+        },
+        "direct": {
+          "title": "Direkte Bild-URLs",
+          "desc": "Saubere Links, die in HTML, Markdown und Chat-Apps funktionieren."
+        },
+        "nosignup": {
+          "title": "Keine Anmeldung nötig",
+          "desc": "Kostenlos testen: 5 Uploads/Tag, 2MB pro Datei — ohne Registrierung."
+        }
+      }
+    },
+    "how": {
+      "title": "So funktioniert es",
+      "step1": "1) Foto hinzufügen (Ziehen, Einfügen oder Klicken).",
+      "step2": "2) Wir hosten es und geben einen teilbaren Link zurück.",
+      "step3": "3) Kopieren und teilen Sie den Link in Dokumenten, Chats und mehr.",
+      "note": "Ihr Link öffnet sich schnell in Docs und Chats – zudem als .txt downloadbar."
+    },
+    "process": {
+      "title": "Drei-Schritte-Ablauf",
+      "subtitle": "Weniger Aufwand, sichtbarer Call-to-Action, fertig in Sekunden.",
+      "steps": {
+        "1": {
+          "title": "Ablegen oder Einfügen",
+          "desc": "Datei ziehen, aus Zwischenablage einfügen oder durchsuchen."
+        },
+        "2": {
+          "title": "Hosten & Link erhalten",
+          "desc": "Sofort-URL mit Steuerung für Kopieren/Öffnen/Speichern."
+        },
+        "3": {
+          "title": "Überall nutzen",
+          "desc": "Nutzung in Docs, Chats, Tickets, Blogs oder Prototypen."
+        }
+      }
+    },
+    "features": {
+      "title": "Feature-Highlights",
+      "subtitle": "Klarheit zuerst: Weniger Reibung, mehr Teilen.",
+      "items": {
+        "cdn": {
+          "title": "Direkte CDN-Links",
+          "desc": "Saubere, vorhersehbare URLs für Markdown- und HTML-Einbettungen."
+        },
+        "save": {
+          "title": "Kopieren & Speichern",
+          "desc": "Mit einem Klick kopieren, öffnen oder als .txt-Datei speichern."
+        },
+        "clipboard": {
+          "title": "Optimiert für Zwischenablage",
+          "desc": "Screenshots direkt einfügen, ohne nach Dateien suchen zu müssen."
+        },
+        "errors": {
+          "title": "Sicher & Privat",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Keine Anmeldung nötig",
+          "desc": "Kostenlos testen: 5 Uploads/Tag, 2MB pro Datei — ohne Registrierung."
+        },
+        "r2": {
+          "title": "Schnelles Hosting",
+          "desc": "Links werden über ein schnelles CDN für zuverlässigen Zugriff ausgeliefert."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Teams sparen Zeit mit Photo To URL",
+      "subtitle": "Vertrauen durch Nutzererfahrungen für eine schnellere Einführung.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Wir fügen Screenshots in Tickets ein, ohne Anhänge zu überlasten. Die Links bleiben sauber."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Markdown-fähige Links halten unsere Dokumentation ordentlich und sofort veröffentlichbar."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Klare Fehlermeldungen und Sofort-URLs erleichtern die Kundenbetreuung im Chat."
+        }
+      }
+    },
+    "cta": {
+      "title": "Fotos in Sekunden in Links verwandeln",
+      "subtitle": "Ablegen, einfügen oder hochladen – Link kopieren und teilen.",
+      "upload": "Jetzt hochladen",
+      "paste": "Screenshot einfügen"
+    },
+    "longform": {
+      "title": "Warum Photo To URL Ihren Workflow verbessert",
+      "p1": "Photo To URL wurde für Kreative, Marketer, Support-Teams und Gründer entwickelt, die eine schnelle Lösung suchen, um Fotos in saubere Links zu verwandeln. Durch den direkten Ablauf vermeiden Sie schwere Medienmanager und Logins. Die Links sind übersichtlich und ideal für Chats, Dokumente, Wikis oder Bug-Reports. Teams arbeiten schneller, wenn Bilder ohne Größenbeschränkungen für Anhänge geteilt werden können. Da die Links konsistent sind, funktionieren sie auch hervorragend in Automatisierungen und QA-Schritten.",
+      "p2": "Die Erfahrung bleibt simpel: Ablegen, Link erhalten, teilen. Keine störende Werbung, keine Barrieren. Sie konzentrieren sich auf den Inhalt, wir übernehmen das Hosting. Egal ob für Blog-Posts, Pitch-Decks oder Support-Antworten – ein Kurzlink schlägt jeden sperrigen Anhang. Für globale Teams ist die Oberfläche in mehreren Sprachen verfügbar.",
+      "useCases": {
+        "title": "Praktische Anwendungsfälle",
+        "items": {
+          "1": "Produkt & Design: UI-Captures und Notizen teilen ohne grosse Dateien.",
+          "2": "Support & QA: Screenshots schnell in Tickets und Runbooks einfügen.",
+          "3": "Docs & Content: Direkte Bild-URLs in Markdown, HTML und CMS einbetten.",
+          "4": "Sales & Success: Visuelle Anleitungen in E-Mails mit sauberen Links versenden.",
+          "5": "Engineering Handoff: Review-Artefakte leichtgewichtig und referenzierbar halten.",
+          "6": "Community: Links in Slack, Discord und Foren sauber teilen."
+        }
+      },
+      "flow": {
+        "title": "Der End-to-End Ablauf",
+        "p1": "1) Bild wählen: Drag-and-Drop, Zwischenablage oder Durchsuchen. PNG, JPG, WEBP, GIF bis 2MB im Gratis-Tarif (10 Uploads/Tag). 2) Wir laden hoch und geben einen Direktlink zurück. Die UI zeigt die URL sofort mit Aktionen wie Kopieren, Öffnen und Speichern (.txt). 3) Link überall nutzen: In Blogs, Dokumenten, Tickets, Chats oder Prototypen.",
+        "p2": "Jeder Schritt ist auf Klarheit getrimmt: Sichtbarer Status, hilfreiche Fehler und Bestätigungs-Buttons. Bei aktiviertem CDN werden Links über die CDN-Domain ausgeliefert; Ihre Bilder werden sicher mit sicherer Verschlüsselung gespeichert."
+      },
+      "best": {
+        "title": "Best Practices für saubere Links",
+        "items": {
+          "1": "Verwenden Sie beschreibende Dateinamen vor dem Upload für besseres Management.",
+          "2": "Nutzen Sie optimierte WEBP/JPG/PNG, um die Datenlast gering zu halten.",
+          "3": "Kopieren Sie den Link sofort nach der Erstellung.",
+          "6": "Speichern Sie Links als .txt für eine reine Text-Übergabe."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-Highlights",
+        "p1": "Nächste Schritte umfassen tiefere our hosting infrastructure Integration, Quotenmanagement, Team-Kollaboration und Analysen. Wir verbessern auch Bild-Tools wie Kreis-Zuschnitt und Hintergrundentfernung."
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "items": {
+          "1": {
+            "q": "Ist es kostenlos?",
+            "a": "Wir bieten eine kostenlose Stufe an: Kernfunktionen funktionieren innerhalb der Free-Limits (Tages-Uploads, Gesamtspeicher). Für höhere Limits wählen Sie einen kostenpflichtigen Plan mit CDN-Hosting (our hosting infrastructure)."
+          },
+          "2": {
+            "q": "Welche Formate werden unterstützt?",
+            "a": "PNG, JPG, WEBP und GIF werden unterstützt. Weitere Formate folgen bei entsprechender Nachfrage."
+          },
+          "3": {
+            "q": "Kann ich in Markdown oder HTML einbetten?",
+            "a": "Ja. Kopieren Sie den Link direkt oder nutzen Sie den One-Click-Save als .txt für Markdown, Dokumente oder CMS."
+          },
+          "4": {
+            "q": "Sind meine Dateien öffentlich?",
+            "a": "Die Links sind teilbar. Wenn das CDN aktiviert ist, werden die Dateien über die CDN-Domain bereitgestellt."
+          },
+          "5": {
+            "q": "Wird es Accounts oder Teams geben?",
+            "a": "Ja. Wir priorisieren zuerst die einfache Upload-Erfahrung und fügen dann schrittweise Team-Workspaces und Analysen hinzu."
+          },
+          "6": {
+            "q": "Gibt es Rückerstattungen?",
+            "a": "Generell bieten wir keine Rückerstattungen an, sofern der Dienst normal verfügbar ist. Technische Probleme unsererseits werden im Einzelfall geprüft."
+          },
+          "7": {
+            "q": "Wie kündige ich das Abo?",
+            "a": "Die Verlängerung erfolgt automatisch über die hinterlegte Karte. Um dies zu stoppen, deaktivieren Sie die automatische Abbuchung in Ihrem Banking-Portal oder Kundenservice."
+          },
+          "8": {
+            "q": "Wie lange ist der Dienst nach der Kündigung nutzbar?",
+            "a": "Normalerweise bis zum Ende des bereits bezahlten Zeitraums. Danach enden die Vorteile und es erfolgen keine weiteren Abbuchungen."
+          }
+        },
+        "contactNote": "Bei weiteren Fragen nutzen Sie bitte die Kontaktseite oder schreiben Sie an <email>support@phototourl.com</email>. Wir antworten innerhalb von 1-2 Werktagen."
+      },
+      "about": {
+        "title": "Über Photo To URL",
+        "p1": "PhotoToURL ist ein kostenloser Bild-zu-URL-Konverter und Link-Generator, mit dem Sie Bilder hochladen und sofort teilbare Bildlinks erzeugen. Konvertieren Sie JPG, PNG, WEBP und andere Formate mühelos in direkte Bild-URLs für schnelles Online-Sharing.",
+        "p2": "Ob schnelle Foto-zu-URL-Umwandlung oder kostenloses Hosting mit CDN-Links – PhotoToURL macht es einfach und zuverlässig. Bild hochladen, in Sekunden einen Direktlink erhalten. Gratis-Tarif: 10 Uploads/Tag, 2MB pro Datei — höhere Limits siehe Preise."
+      }
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    }
+  },
+  "seo": {
+    "keywords": "foto zu url, bild zu url, bildlink generator, bild in link umwandeln, kostenloses image hosting, cdn bild",
+    "home": {
+      "title": "Photo To URL Converter | Fotos in teilbare Links verwandeln",
+      "description": "Kostenloses Image-Hosting: Fotos in teilbare URLs umwandeln. JPG, PNG, WEBP, GIF bis 2MB, 10 Uploads/Tag im Gratis-Tarif. Direktes Einfügen, schnelles CDN."
+    }
+  },
+  "images": {
+    "previewAlt": "Vorschau des hochgeladenen Bildes",
+    "animatingSampleAlt": "Beispielbild in der Upload-Demo",
+    "sampleThumbAlt": "Miniaturansicht des Beispielbildes",
+    "useSampleAria": "Dieses Beispielbild verwenden",
+    "howIllustrationAlt": "Illustration zur Funktionsweise von Photo To URL",
+    "heroDropTitle": "Foto hierher ziehen",
+    "heroDropSubtitle": "Wir hosten es und geben einen sauberen Link zurück.",
+    "heroDropBadge": "Ziehen oder Klicken (JPG/PNG, bis 2MB)",
+    "logoAlt": "Photo To URL Logo"
+  },
+  "circleCrop": {
+    "title": "Foto kreisförmig zuschneiden",
+    "description": "Kostenloses Online-Tool für runden Bildzuschnitt. Ideal für Profilbilder, Social Media und Designprojekte.",
+    "upload": "Foto hochladen",
+    "processing": "Verarbeitung...",
+    "download": "Rundes Foto herunterladen",
+    "errorSelectFile": "Bitte wählen Sie eine Fotodatei aus",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch",
+    "page": {
+      "title": "Foto kreisförmig zuschneiden - Kostenloser runder Zuschnitt online",
+      "description": "Wandeln Sie rechteckige Fotos sofort in perfekte Kreise um. Ideal für Avatare und Social Media. Keine Anmeldung nötig.",
+      "sectionSubtitle": "Schneiden Sie jedes Foto rund zu – perfekt für Avatare und Designs."
+    },
+    "seo": {
+      "title": "Kreis-Zuschnitt Tool | Kostenloser runder Foto-Crapper",
+      "description": "Online-Tool zum kreisförmigen Zuschneiden von Bildern. Perfekt für Avatare und Social Media.",
+      "keywords": "bild kreisförmig schneiden, rundes bild erstellen, kreis zuschnitt tool, bild rund online"
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    }
+  },
+  "roundedCorners": {
+    "title": "Foto mit abgerundeten Ecken",
+    "description": "Kostenloses Online-Tool zum Abrunden von Ecken. Perfekt für App-Icons, Profilbilder und Web-Elemente.",
+    "upload": "Foto hochladen",
+    "download": "Herunterladen",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Verarbeitung...",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch.",
+    "errorSelectFile": "Bitte wählen Sie eine Bilddatei aus.",
+    "page": {
+      "title": "Foto abgerundete Ecken - Kostenloses Online-Tool",
+      "description": "Fügen Sie jedem Foto abgerundete Ecken hinzu. Erstellen Sie Icons im App-Stil oder weiche Kanten für Social Media.",
+      "sectionSubtitle": "Abgerundete Ecken für jedes Foto – ideal für Icons und Vorschaubilder."
+    },
+    "seo": {
+      "title": "Ecken abrunden Tool | Bilder online abrunden",
+      "description": "Kostenloses Tool zum Abrunden von Bildecken. Ideal für Icons und Webdesign.",
+      "keywords": "ecken abrunden, bild abrunden, rounded corners tool, ecken rund online"
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    }
+  },
+  "removeBackground": {
+    "title": "Hintergrund entfernen",
+    "description": "Kostenloses KI-Tool zur Hintergrundentfernung. Ideal für Produktfotos, Porträts und Design.",
+    "upload": "Foto hochladen",
+    "download": "Herunterladen",
+    "processing": "Verarbeitung...",
+    "processingModelLoading": "KI-Modell wird geladen. Die erste Nutzung kann 10-30 Sekunden dauern...",
+    "processingImage": "Bild wird verarbeitet, bitte warten...",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch.",
+    "errorSelectFile": "Bitte wählen Sie eine Bilddatei aus.",
+    "errorProcessing": "Bildverarbeitung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "errorTimeout": "Zeitüberschreitung. Das Bild ist eventuell zu gross oder das Netz zu langsam.",
+    "errorMemory": "Ungenügender Speicher, bitte versuchen Sie es mit einem kleineren Bild.",
+    "errorGeneric": "Verarbeitung fehlgeschlagen: {error}. Bitte erneut versuchen.",
+    "errorFileTooLarge": "Datei zu gross, bitte wählen Sie ein Bild unter 10MB.",
+    "errorModelLoad": "Fehler beim Laden des KI-Modells, bitte Seite neu laden.",
+    "errorPageHidden": "Seite wurde gewechselt, bitte Foto erneut hochladen.",
+    "page": {
+      "title": "Hintergrund entfernen - Kostenloses KI-Tool online",
+      "description": "KI-gestützte Hintergrundentfernung. Erstellen Sie sofort transparente PNG-Bilder für E-Commerce und Porträts.",
+      "sectionSubtitle": "KI-Hintergrundentfernung – Erstellen Sie transparente PNGs in Sekunden."
+    },
+    "seo": {
+      "title": "Hintergrund entfernen Tool | Kostenloser KI-Remover",
+      "description": "Kostenloses KI-Tool zum Entfernen von Bildhintergründen. Perfekt für Produktfotos.",
+      "keywords": "hintergrund entfernen, background remover, transparenter hintergrund, ki hintergrundentfernung"
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF zu URL | PDF-Hosting & teilbare HTTPS-Links",
+      "description": "Laden Sie PDFs in Ihr Konto hoch und erhalten Sie einen stabilen HTTPS-Link — jederzeit im Konto-Dashboard ansehen, herunterladen oder den Link erneut kopieren.",
+      "keywords": "pdf zu url,pdf hosting,pdf teilen,pdf hochladen,direktlink,dokumentlink"
+    },
+    "tool": {
+      "heroTitle": "PDF zu URL",
+      "heroSubtitle": "PDFs werden unter Ihrem Konto zu teilbaren HTTPS-Links. Nach dem Upload öffnen Sie Ihr Konto-Dashboard, um den Link zu kopieren, die Vorschau zu öffnen oder die Datei herunterzuladen.",
+      "featureFastTitle": "Schneller Upload",
+      "featureFastDesc": "PDF per Drag-and-drop oder Auswahl hochladen — in Sekunden erhalten Sie den Link, ausgeliefert über unser CDN.",
+      "featureHostingTitle": "Persönliches Hosting",
+      "featureHostingDesc": "Dateien liegen in Ihrem Cloud-Speicher in Ihrer Dokumentenbibliothek — kein anonymes Einmal-Hosting.",
+      "featureLinkTitle": "Stabile, teilbare Links",
+      "featureLinkDesc": "Jeder Upload liefert eine saubere URL zum Einfügen. Der Link funktioniert, bis Sie die Datei im Konto-Dashboard löschen.",
+      "featureDashboardTitle": "Alles an einem Ort",
+      "featureDashboardDesc": "Nach der Anmeldung sehen Sie im Konto-Dashboard alle PDFs: Link erneut kopieren, in neuem Tab öffnen oder Quelldatei herunterladen.",
+      "dropzoneTitle": "PDF hier ablegen",
+      "dropzoneHint": "Nur PDF",
+      "dropzoneFootnote": "Nach dem Upload können Sie jederzeit im Konto-Dashboard den Link kopieren oder die Datei herunterladen.",
+      "browse": "Datei auswählen",
+      "selectedFileLabel": "Ausgewählte Datei",
+      "removeSelectedFile": "Datei entfernen",
+      "uploadBtn": "Hochladen und Link erhalten",
+      "uploading": "Wird hochgeladen…",
+      "loginRequiredTitle": "Anmelden, um PDFs hochzuladen",
+      "loginRequiredDescription": "Bitte melden Sie sich zuerst an. Das Hosting ist mit Ihrem Konto verknüpft; nach dem Upload kopieren Sie Links, laden Sie herunter und verwalten Sie alles im Konto-Dashboard.",
+      "loginRequiredDetail": "Nach der Anmeldung erscheinen alle Uploads zentral im Konto-Dashboard: Direktlink mit einem Klick kopieren, in neuem Tab öffnen, Originaldateien herunterladen, bei Bedarf suchen und nach Typ filtern, löschen oder erneut hochladen — das schützt auch die Privatsphäre Ihrer Dokumente.",
+      "loginCta": "Anmelden",
+      "signUpCta": "Konto erstellen",
+      "resultTitle": "Ihr PDF-Link",
+      "resultDashboardHint": "Für diese Datei öffnen Sie jederzeit das Konto-Dashboard: URL kopieren, in neuem Tab öffnen oder PDF herunterladen.",
+      "dashboardCta": "Dashboard öffnen",
+      "copy": "Link kopieren",
+      "copied": "Kopiert",
+      "open": "In neuem Tab öffnen",
+      "reset": "Weitere Datei hochladen",
+      "errorUnauthorized": "Bitte melden Sie sich an, bevor Sie PDFs hochladen.",
+      "errorBadType": "Bitte wählen Sie eine PDF-Datei.",
+      "howTitle": "So funktioniert es",
+      "step1Title": "1. PDF auswählen",
+      "step1Desc": "Wählen Sie eine Datei auf Ihrem Gerät oder ziehen Sie sie in den Upload-Bereich.",
+      "step2Title": "2. In Ihre Bibliothek hochladen",
+      "step2Desc": "Wir speichern das PDF in Ihrem Cloud-Speicher und zeigen es im Konto-Dashboard an, dann erhalten Sie eine direkte HTTPS-URL.",
+      "step3Title": "3. Teilen & später erneut öffnen",
+      "step3Desc": "Teilen Sie den Link per E-Mail oder Chat. Wenn nötig, öffnen Sie das Konto-Dashboard, um denselben Link zu kopieren, zu öffnen oder die Datei herunterzuladen."
+    },
+    "page": {
+      "sectionTitle": "Dokumente an einem Ort",
+      "sectionLead": "Für alle, die echte PDF-Ablage statt flüchtiger Links brauchen — einmal hochladen, im Konto behalten und jederzeit zurückkommen.",
+      "bullet1": "Jedes hochgeladene PDF erscheint in derselben Liste im Konto-Dashboard, damit Sie den Überblick über geteilte Dateien behalten.",
+      "bullet2": "Persönliches Hosting: Dateien gehören zu Ihrem Konto, werden per HTTPS ausgeliefert und bleiben in Ihrer Bibliothek.",
+      "bullet3": "Immer verfügbar: öffentlichen Link kopieren, im Browser öffnen oder das Original-PDF herunterladen.",
+      "bullet4": "Dieselbe URL funktioniert, bis Sie die Datei im Konto-Dashboard löschen; danach liefert der Link die Datei nicht mehr.",
+      "footnote": "Dateien, die Sie nicht mehr brauchen, löschen Sie im Konto-Dashboard; der Link wird danach ungültig."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Datei zu URL | Office-Dokumente & HTTPS-Links",
+      "description": "Laden Sie PDF-, Word-, PowerPoint- oder Excel-Dateien in Ihr Konto hoch und erhalten Sie einen stabilen HTTPS-Link — jederzeit im Konto-Dashboard ansehen, herunterladen oder den Link kopieren.",
+      "keywords": "datei zu url,dokument link,office teilen,docx pptx xlsx hochladen,dokument hosting"
+    },
+    "tool": {
+      "heroTitle": "Datei zu URL",
+      "heroSubtitle": "Office-Dokumente werden unter Ihrem Konto zu teilbaren HTTPS-Links. Unterstützt PDF, Word, PowerPoint und Excel.",
+      "featureFastTitle": "Schneller Upload",
+      "featureFastDesc": "Unterstützte Datei ziehen oder auswählen — in Sekunden erhalten Sie den Link über unser CDN.",
+      "featureHostingTitle": "Persönliches Hosting",
+      "featureHostingDesc": "Jeder Upload landet in Ihrem Cloud-Speicher und in derselben persönlichen Bibliothek wie Uploads von anderen Seiten.",
+      "featureLinkTitle": "Stabile, teilbare Links",
+      "featureLinkDesc": "Jeder Upload liefert eine saubere URL. Der Link funktioniert, bis Sie die Datei im Konto-Dashboard löschen.",
+      "featureDashboardTitle": "Alles an einem Ort",
+      "featureDashboardDesc": "Nach der Anmeldung öffnen Sie das Konto-Dashboard, um den Link erneut zu kopieren, in neuem Tab zu öffnen oder herunterzuladen.",
+      "dropzoneTitle": "Datei hier ablegen",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Nach dem Upload können Sie jederzeit im Konto-Dashboard den Link kopieren oder die Datei herunterladen.",
+      "browse": "Datei auswählen",
+      "selectedFileLabel": "Ausgewählte Datei",
+      "removeSelectedFile": "Datei entfernen",
+      "uploadBtn": "Hochladen und Link erhalten",
+      "uploading": "Wird hochgeladen…",
+      "loginRequiredTitle": "Anmelden, um Dateien hochzuladen",
+      "loginRequiredDescription": "Bitte melden Sie sich zuerst an. Das Hosting ist mit Ihrem Konto verknüpft; nach dem Upload kopieren Sie Links, laden Sie herunter und verwalten Sie alles im Konto-Dashboard.",
+      "loginRequiredDetail": "Nach der Anmeldung erscheinen alle Uploads zentral im Konto-Dashboard: Direktlink mit einem Klick kopieren, in neuem Tab öffnen, Originaldateien herunterladen, bei Bedarf suchen und nach Typ filtern, löschen oder erneut hochladen — das schützt auch die Privatsphäre Ihrer Dokumente.",
+      "loginCta": "Anmelden",
+      "signUpCta": "Konto erstellen",
+      "resultTitle": "Ihr Datei-Link",
+      "resultDashboardHint": "Für diese Datei öffnen Sie jederzeit das Konto-Dashboard: URL kopieren, in neuem Tab öffnen oder Original herunterladen.",
+      "dashboardCta": "Dashboard öffnen",
+      "copy": "Link kopieren",
+      "copied": "Kopiert",
+      "open": "In neuem Tab öffnen",
+      "reset": "Weitere Datei hochladen",
+      "errorUnauthorized": "Bitte melden Sie sich an, bevor Sie Dateien hochladen.",
+      "errorBadType": "Bitte wählen Sie eine PDF-, Word-, PowerPoint- oder Excel-Datei.",
+      "howTitle": "So funktioniert es",
+      "step1Title": "1. Datei auswählen",
+      "step1Desc": "Wählen Sie ein unterstütztes Dokument auf Ihrem Gerät oder ziehen Sie es in den Upload-Bereich.",
+      "step2Title": "2. In Ihre Bibliothek hochladen",
+      "step2Desc": "Wir speichern die Datei in Ihrem Cloud-Speicher und zeigen sie im Konto-Dashboard an, dann erhalten Sie eine direkte HTTPS-URL.",
+      "step3Title": "3. Teilen & später erneut öffnen",
+      "step3Desc": "Teilen Sie den Link per E-Mail oder Chat. Wenn nötig, öffnen Sie das Konto-Dashboard, um denselben Link zu kopieren, zu öffnen oder die Datei herunterzuladen."
+    },
+    "page": {
+      "sectionTitle": "Kurzinfo",
+      "sectionLead": "Datei wählen, hochladen, Link kopieren — bei Bedarf öffnen Sie das Konto-Dashboard, um den Link erneut zu kopieren oder die Originaldatei herunterzuladen.",
+      "bullet1": "Unterstützte Office-Dateien: PDF sowie Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Per Drag-and-drop oder Dateiauswahl; nach erfolgreichem Upload zeigen wir einen kopierfertigen HTTPS-Link.",
+      "bullet3": "Link in E-Mail, Chat oder Dokumente einfügen — Empfänger öffnen ihn im Browser.",
+      "bullet4": "Dateien bleiben in Ihrem Konto; bei Bedarf öffnen Sie das Konto-Dashboard, um denselben Link zu kopieren oder die Originaldatei herunterzuladen.",
+      "bullet5": "Nur PDF? Nutzen Sie auch die Seite „PDF zu URL“ für einen kürzeren Ablauf.",
+      "footnote": "Dateien, die Sie nicht mehr brauchen, löschen Sie im Konto-Dashboard; der Link funktioniert danach nicht mehr."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artikel über Image-Hosting, Link-Sharing und Performance-Tipps."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Aktuelle Artikel, Tutorials und Einblicke zu Image-Hosting, CDN, Kreis-Zuschnitt und mehr.",
+      "stayTuned": "Bleiben Sie dran für Guides zu:",
+      "guides": {
+        "1": "Best Practices für Bild-zu-URL Konvertierung",
+        "2": "Nutzung von Direktlinks in Blogs und Dokumenten",
+        "3": "Performance und Caching für statische Assets"
+      },
+      "readMore": "Weiterlesen",
+      "min": "Min.",
+      "backToBlog": "Zurück zum Blog",
+      "minRead": "Min. Lesezeit",
+      "author": "Autor",
+      "viewMoreArticles": "Weitere Artikel ansehen",
+      "tags": "Tags:",
+      "about": {
+        "title": "Über das Photo To URL Team",
+        "subtitle": "Redaktionsteam",
+        "description": "Wir entwickeln Photo To URL und schreiben Guides für Bildoptimierung und Web-Performance.",
+        "website": "Website",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Alle Posts ansehen"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Bild in URL umwandeln: Der komplette Guide",
+        "description": "Erfahren Sie alles, was Sie über die Konvertierung von Bildern in teilbare URLs wissen müssen. Dieser umfassende Leitfaden behandelt Methoden, Best Practices und Tipps für Bildhosting und Link-Sharing.",
+        "content": "# Bild in URL konvertieren: Ein vollständiger Leitfaden\n\nBilder in teilbare URLs zu konvertieren ist zu einer wesentlichen Fähigkeit in der heutigen digitalen Welt geworden. Ob Sie Blogger, Entwickler oder Content-Ersteller sind, das Verständnis, wie Sie Ihre Bilder in direkte Links umwandeln, kann Ihren Workflow und Ihre Content-Sharing-Fähigkeiten erheblich verbessern.\n\n## Warum Bilder in URLs konvertieren?\n\nBevor wir uns mit den Methoden befassen, verstehen wir, warum die Konvertierung von Bildern in URLs vorteilhaft ist:\n\n### 1. **Einfaches Teilen**\nDirekte Bild-URLs ermöglichen es Ihnen, Bilder sofort zu teilen, ohne Dateien herunterzuladen oder erneut hochzuladen. Kopieren Sie einfach die URL und fügen Sie sie überall ein - in E-Mails, Dokumenten oder Social-Media-Beiträgen.\n\n### 2. **Bessere Leistung**\nDie Verwendung direkter Bildlinks reduziert die Belastung Ihres Hauptservers. Wenn Bilder auf einem CDN (Content Delivery Network) gehostet werden, laden sie für Benutzer weltweit schneller.\n\n### 3. **Flexibilität**\nBild-URLs können in HTML, Markdown eingebettet oder in APIs verwendet werden. Diese Flexibilität macht sie perfekt für Entwickler und Content-Ersteller.\n\n### 4. **Speichereffizienz**\nAnstatt Bilder lokal zu speichern, können Sie Cloud-Speicherlösungen verwenden, die direkte URLs bereitstellen und wertvollen Serverplatz sparen.\n\n## Methoden zur Konvertierung von Bildern in URLs\n\n### Methode 1: Verwendung des Foto zu URL-Dienstes\n\n**Foto zu URL** ist ein kostenloser, benutzerfreundlicher Dienst, der die Bild-zu-URL-Konvertierung mühelos macht:\n\n1. **Besuchen Sie die Website**: Navigieren Sie zu Foto zu URL\n2. **Laden Sie Ihr Bild hoch**: Ziehen Sie Ihre Bilddatei per Drag & Drop oder klicken Sie zum Durchsuchen\n3. **Erhalten Sie Ihre URL**: Nach dem Hochladen erhalten Sie einen direkten Link zu Ihrem Bild\n4. **Kopieren und verwenden**: Kopieren Sie die URL und verwenden Sie sie überall, wo Sie sie benötigen\n\n**Vorteile:**\n- ✅ Keine Registrierung erforderlich\n- ✅ Schnelles Hochladen und Verarbeiten\n- ✅ Direkte CDN-Links für optimale Leistung\n- ✅ Unterstützung für mehrere Bildformate (JPG, PNG, WEBP, GIF)\n- ✅ 10 Uploads/Tag, 2MB pro Datei\n\n### Methode 2: Cloud-Speicherdienste\n\nBeliebte Cloud-Speicherdienste bieten Bildhosting mit direktem URL-Zugriff:\n\n**Google Cloud Storage / AWS S3:**\n- Laden Sie Bilder in Ihren Bucket hoch\n- Legen Sie angemessene Berechtigungen fest\n- Greifen Sie auf Bilder über direkte URLs zu\n- Konfigurieren Sie CDN für bessere Leistung\n\n**Vorteile:**\n- Vollständige Kontrolle über Ihre Bilder\n- Skalierbare Speicherlösungen\n- Infrastruktur auf professionellem Niveau\n\n### Methode 3: Bildhosting-Plattformen\n\nSpezialisierte Bildhosting-Plattformen bieten spezialisierte Dienste:\n\n- **Imgur**: Beliebt für schnelles Bild-Sharing\n- **Cloudinary**: Erweiterte Bildbearbeitungsfunktionen\n- **ImageKit**: Optimiert für Leistung\n\n## Best Practices für Bild-URLs\n\n### 1. **Wählen Sie das richtige Format**\n\nVerschiedene Bildformate dienen verschiedenen Zwecken:\n\n- **JPEG**: Am besten für Fotos mit vielen Farben\n- **PNG**: Ideal für Bilder mit Transparenz oder scharfen Kanten\n- **WEBP**: Modernes Format mit besserer Komprimierung\n- **GIF**: Perfekt für animierte Bilder\n\n### 2. **Optimieren Sie die Bildgröße**\n\nBevor Sie in URL konvertieren, optimieren Sie Ihre Bilder:\n\n- Komprimieren Sie Bilder, um die Dateigröße zu reduzieren\n- Ändern Sie die Größe von Bildern auf angemessene Abmessungen\n- Verwenden Sie moderne Formate wie WEBP, wenn möglich\n- Balancieren Sie Qualität und Dateigröße\n\n### 3. **Verwenden Sie CDN für bessere Leistung**\n\nContent Delivery Networks (CDN) verteilen Ihre Bilder auf mehrere Server weltweit und gewährleisten schnelle Ladezeiten unabhängig vom Standort des Benutzers.\n\n### 4. **Implementieren Sie angemessene Sicherheit**\n\n- Verwenden Sie HTTPS-URLs für sichere Bildbereitstellung\n- Legen Sie angemessene Zugriffsberechtigungen fest\n- Erwägen Sie Wasserzeichen für sensible Inhalte\n- Überwachen Sie die Nutzung, um Missbrauch zu verhindern\n\n## Häufige Anwendungsfälle\n\n### Für Blogger\n\nBlogger können Bild-URLs verwenden, um:\n- Bilder in Blog-Beiträgen einzubetten, ohne sie lokal zu hosten\n- Seitenladezeiten zu verbessern\n- Bilder auf mehreren Plattformen zu teilen\n- Konsistente Bildqualität beizubehalten\n\n### Für Entwickler\n\nEntwickler profitieren von Bild-URLs durch:\n- Reduzierung der Serverlast\n- Vereinfachung der Bildverwaltung\n- Ermöglichen des dynamischen Bildladens\n- Integration mit APIs und Webdiensten\n\n### Für E-Commerce\n\nE-Commerce-Websites verwenden Bild-URLs, um:\n- Produktbilder effizient anzuzeigen\n- Große Bildkataloge zu verwalten\n- Für mobile Geräte zu optimieren\n- Die Leistung der Checkout-Seite zu verbessern\n\n## Fehlerbehebung bei häufigen Problemen\n\n### Problem: Defekte Bildlinks\n\n**Lösung:**\n- Überprüfen Sie, ob die URL korrekt und zugänglich ist\n- Überprüfen Sie Bildberechtigungen und Zugriffseinstellungen\n- Stellen Sie sicher, dass der Hosting-Dienst betriebsbereit ist\n- Validieren Sie, dass das Bildformat unterstützt wird\n\n### Problem: Langsame Ladezeiten\n\n**Lösung:**\n- Verwenden Sie ein CDN für die Bildbereitstellung\n- Optimieren Sie Bilddateigrößen\n- Wählen Sie angemessene Bildformate\n- Implementieren Sie Lazy Loading, wenn möglich\n\n### Problem: Bild wird nicht angezeigt\n\n**Lösung:**\n- Überprüfen Sie CORS-Einstellungen (Cross-Origin Resource Sharing)\n- Überprüfen Sie, ob HTTPS/HTTP-Protokolle übereinstimmen\n- Stellen Sie sicher, dass angemessene MIME-Typen festgelegt sind\n- Testen Sie die URL-Zugänglichkeit von verschiedenen Standorten\n\n## Erweiterte Tipps\n\n### 1. **Batch-Verarbeitung**\n\nFür mehrere Bilder erwägen Sie:\n- Verwendung von APIs für automatisierte Uploads\n- Implementierung von Batch-Konvertierungsskripten\n- Nutzung von Cloud-Speicher-APIs\n- Einrichtung automatisierter Workflows\n\n### 2. **Bildbearbeitung**\n\nEinige Dienste bieten Bildbearbeitung on-the-fly:\n- Größenänderung von Bildern über URL-Parameter\n- Anwenden von Filtern und Effekten\n- Automatisches Konvertieren von Formaten\n- Zuschneiden und Drehen von Bildern\n\n### 3. **Analyse und Überwachung**\n\nVerfolgen Sie Ihre Bildnutzung:\n- Überwachen Sie die Bandbreitennutzung\n- Analysieren Sie beliebte Bilder\n- Verfolgen Sie Zugriffsmuster\n- Optimieren Sie basierend auf Nutzungsdaten\n\n## Fazit\n\nDie Konvertierung von Bildern in URLs ist ein einfacher Prozess, der zahlreiche Vorteile bietet. Ob Sie einen einfachen Dienst wie Foto zu URL oder eine umfassende Cloud-Speicherlösung wählen, der Schlüssel ist, die Methode zu finden, die am besten zu Ihren Bedürfnissen passt.\n\nDenken Sie daran:\n- ✅ Bilder vor dem Hochladen optimieren\n- ✅ Angemessene Formate wählen\n- ✅ CDN für bessere Leistung verwenden\n- ✅ Angemessene Sicherheitsmaßnahmen implementieren\n- ✅ Regelmäßig überwachen und optimieren\n\nWenn Sie diese Richtlinien befolgen, können Sie Ihre Bilder effizient als URLs konvertieren und verwalten und sowohl Ihren Workflow als auch die Leistung Ihres Inhalts verbessern.\n\n## Verwandte Tools\n\n- [Foto zu URL](/) - Kostenloser Bild-zu-URL-Konvertierungsdienst\n- [Kreis-Zuschnitt-Tool](/circle-crop) - Erstellen Sie runde Bilder\n- [Abgerundete Ecken-Tool](/rounded-corners) - Fügen Sie abgerundete Ecken zu Bildern hinzu\n- [Hintergrund entfernen-Tool](/remove-background) - Entfernen Sie Bildhintergründe mit KI\n\n---\n\n*Zuletzt aktualisiert: Dezember 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Bilder in Kreisform zuschneiden - Kompletter Leitfaden",
+        "description": "Verwandeln Sie jedes Foto mit unserem kostenlosen Online-Kreis-Zuschnitt-Tool in ein perfektes rundes Bild. Erstellen Sie professionelle runde Bilder für Profile, soziale Medien, Logos und mehr in nur wenigen Sekunden.",
+        "content": "# Bilder in Kreisform zuschneiden - Kompletter Leitfaden\n\nVerwandeln Sie jedes Foto mit unserem kostenlosen Online-Kreis-Zuschnitt-Tool in ein perfektes rundes Bild. Erstellen Sie professionelle runde Bilder für Profile, soziale Medien, Logos und mehr in nur wenigen Sekunden.\n\n## Wie man Bilder in Kreisform zuschneidet\n\n### Schritt 1: Bild hochladen\nWählen Sie ein Foto von Ihrem Gerät aus, das Sie in eine Kreisform zuschneiden möchten. Unser Tool unterstützt JPG-, PNG-, WEBP- und GIF-Formate. Klicken Sie einfach auf die Schaltfläche zum Hochladen oder ziehen Sie Ihre Bilddatei per Drag & Drop.\n\n### Schritt 2: Bild positionieren\nPassen Sie Ihr Foto innerhalb des kreisförmigen Zuschnittbereichs an und zentrieren Sie es. Verwenden Sie den Zoom-Schieberegler, um sich auf den wichtigsten Teil Ihres Bildes zu konzentrieren, und ziehen Sie es, um es für den perfekten runden Zuschnitt neu zu positionieren.\n\n### Schritt 3: Rundes Bild herunterladen\nSobald Sie mit der Positionierung zufrieden sind, klicken Sie auf \"Zuschneiden und Herunterladen\", um Ihr perfekt gerundetes Bild zu erhalten. Das Ergebnis hat einen transparenten Hintergrund und ist daher überall verwendbar.\n\n## Beliebte Verwendungsmöglichkeiten für kreisförmig zugeschnittene Bilder\n\n### Profilbilder\nSchneiden Sie Fotos in Kreisform für professionell aussehende Profilbilder auf Social-Media-Plattformen wie Facebook, LinkedIn und Instagram. Runde Avatare schaffen ein modernes, poliertes Erscheinungsbild.\n\n### Social-Media-Grafiken\nErstellen Sie runde Bilder für Instagram-Stories, Facebook-Posts und Twitter-Profile, die sich von der Masse abheben. Runde Bilder erhöhen das visuelle Interesse und brechen die Monotonie quadratischer Posts.\n\n### Runde Logos\nVerwandeln Sie Ihr Logo oder Ihre Markenbilder in perfekt runde Formen für ein konsistentes Branding auf allen Plattformen. Runde Logos eignen sich besonders gut für App-Icons und Social-Media-Branding.\n\n### Testimonial-Fotos\nZeigen Sie Kunden- oder Klientenbewertungen mit runden Profilfotos für ein sauberes, professionelles Aussehen. Runde Bilder schaffen visuelle Konsistenz und machen Ihre Bewertungen ansprechender.\n\n### Teammitglieder-Fotos\nErstellen Sie konsistente runde Porträts für Unternehmenswebsites, Teamseiten und Mitarbeiterverzeichnisse. Einheitliche runde Fotos verleihen Ihrer Teamseite ein zusammenhängendes, professionelles Erscheinungsbild.\n\n## Funktionen unseres Kreis-Zuschnitt-Tools\n\n- **Kostenloser Kreis-Bild-Zuschnitt** - Erstellen Sie Kreisformen aus jedem Bild ohne Kosten, keine versteckten Gebühren\n- **Hochauflösende Ausgabe** - Laden Sie Ihre runden Bilder in ihrer ursprünglichen Qualität ohne Komprimierung herunter\n- **Keine Anmeldung erforderlich** - Beginnen Sie sofort mit dem Kreis-Zuschnitt von Bildern, keine Kontoerstellung erforderlich\n- **Privat und sicher** - Ihre Bilder verlassen niemals Ihren Browser, was vollständige Privatsphäre gewährleistet\n- **Benutzerfreundliche Oberfläche** - Einfaches, intuitives Design macht die Erstellung runder Bilder mühelos\n- **Funktioniert auf allen Geräten** - Schneiden Sie Bilder auf Desktop, Tablet oder Mobilgeräten in Kreisform zu\n- **Transparenter Hintergrund** - Alle runden Zuschnitte kommen mit transparenten Hintergründen für maximale Vielseitigkeit\n- **Echtzeit-Vorschau** - Sehen Sie genau, wie Ihr rundes Bild aussehen wird, bevor Sie es herunterladen\n\n## Häufig gestellte Fragen zum Kreis-Zuschnitt\n\n### Wie schneide ich ein Bild in eine Kreisform zu?\n\nLaden Sie einfach Ihr Bild in unser Tool hoch, passen Sie es innerhalb des kreisförmigen Rahmens an, um das Motiv richtig zu positionieren, und klicken Sie auf \"Zuschneiden und Herunterladen\", um Ihr perfekt rundes Bild zu erhalten. Unser Tool macht es einfach, jedes Bild sofort in einem Kreisformat zuzuschneiden, ohne dass Designkenntnisse erforderlich sind.\n\n### Wie erstelle ich ein rundes Profilbild?\n\nLaden Sie Ihr Foto in unser Kreis-Zuschnitt-Tool hoch, positionieren Sie Ihr Gesicht in der Mitte des kreisförmigen Rahmens und laden Sie dann Ihr neues rundes Profilbild herunter. Es ist perfekt für Social-Media-Profile, die kreisförmige Bilder wie Facebook, LinkedIn oder Instagram verwenden.\n\n### Kann ich Fotos auf meinem Handy in runde Formen zuschneiden?\n\nJa! Unser Kreis-Bild-Zuschnitt-Tool funktioniert auf allen Geräten, einschließlich Smartphones und Tablets. Die mobile-freundliche Oberfläche ermöglicht es Ihnen, überall einfach runde Bildzuschnitte zu erstellen. Besuchen Sie einfach unsere Website von Ihrem mobilen Browser - keine App-Installation erforderlich.\n\n### Speichern Sie die Bilder, die ich hochlade?\n\nNein, wir speichern Ihre Bilder niemals auf unseren Servern. Der gesamte Zuschnittprozess erfolgt direkt in Ihrem Browser, was bedeutet, dass Ihre Fotos vollständig privat bleiben. Sobald Sie die Seite verlassen, werden alle Bilddaten automatisch entfernt.\n\n### Welche Bildformate kann ich mit dem Kreis-Zuschnitt-Tool verwenden?\n\nUnser Tool funktioniert mit allen Standard-Bildformaten, einschließlich JPG, PNG, WEBP und GIF. Sie können jedes dieser Formate hochladen, und Ihr kreisförmig zugeschnittenes Bild wird als PNG-Datei mit Transparenz um den Kreis herum heruntergeladen.\n\n### Hat mein kreisförmig zugeschnittenes Bild einen transparenten Hintergrund?\n\nJa, wenn Sie Ihr zugeschnittenes Bild herunterladen, hat es einen transparenten Hintergrund um den Kreis herum. Dies macht es perfekt für die Platzierung auf Websites, Dokumenten oder Designs, bei denen nur der kreisförmige Teil sichtbar sein soll.\n\n### Kann ich die Größe des Kreis-Zuschnitts anpassen?\n\nDer Kreis-Zuschnitt behält ein perfektes 1:1-Seitenverhältnis bei, aber Sie können hinein- oder herauszoomen, um anzupassen, wie viel von Ihrem Bild innerhalb des Kreises erscheint. Dies ermöglicht es Ihnen, sich auf bestimmte Teile Ihres Bildes zu konzentrieren, während die kreisförmige Form beibehalten wird.\n\n## Bildtipps für perfekte Kreis-Zuschnitte\n\n### Zentrieren Sie Ihr Motiv\nFür die besten Ergebnisse wählen Sie Bilder, bei denen das Hauptmotiv zentriert ist oder in der Mitte des Rahmens positioniert werden kann. Dies ist besonders wichtig für Profilbilder und Porträts, bei denen das Gesicht der Fokus sein sollte.\n\n### Berücksichtigen Sie den Zuschnittbereich\nDenken Sie daran, dass die Ecken Ihres Bildes abgeschnitten werden. Vermeiden Sie Bilder, bei denen wichtige Details nahe den Rändern des Fotos sind, da diese beim kreisförmigen Zuschnitt verloren gehen.\n\n### Verwenden Sie hochauflösende Bilder\nWenn Sie mit hochwertigen Bildern beginnen, erhalten Sie bessere kreisförmige Zuschnitte. Bilder mit niedriger Auflösung oder kleine Bilder können beim Zuschneiden pixelig erscheinen, verwenden Sie daher die höchste verfügbare Qualität der Quellbilder.\n\n### Achten Sie auf das Seitenverhältnis\nQuadratische Bilder funktionieren normalerweise am besten für Kreis-Zuschnitte. Wenn Ihr ursprüngliches Bild sehr breit oder hoch ist, können Sie beim Zuschnittprozess erhebliche Teile verlieren. Erwägen Sie bei Bedarf, es zuerst quadratisch zuzuschneiden.\n\n### Anpassen für optimale Bildgestaltung\nVerwenden Sie die Positionierungsfunktion unseres Tools, um Ihr Bild zu zoomen und anzupassen. Bei Porträts versuchen Sie, das Gesicht mit etwas Rand drumherum zu zentrieren, für das beste professionelle Aussehen. Bei Produkten zentrieren Sie das Hauptelement innerhalb des Kreises.\n\n### Erstellen Sie konsistente Sets\nWenn Sie mehrere runde Bilder erstellen (z. B. für Teamfotos), versuchen Sie, konsistente Bildgestaltung, Hintergrundstile und Größen für ein zusammenhängendes Erscheinungsbild über alle Bilder hinweg beizubehalten.\n\n## Häufige Verwendungszwecke für kreisförmig zugeschnittene Bilder\n\n| Anwendung | Vorteile des Kreis-Zuschnitts |\n|-----------|------------------------------|\n| Social-Media-Profile | Die meisten Plattformen zeigen Avatare in Kreisen - ein perfekt zugeschnittenes rundes Bild sieht professionell aus |\n| Teammitglieder-Fotos | Erstellen Sie konsistente runde Porträts für Unternehmenswebsites und Verzeichnisse |\n| Online-Portfolios | Runde Bilder schaffen visuelles Interesse und moderne Ästhetik |\n| Digitale Visitenkarten | Kreis-zugeschnittene Profilfotos sehen sauberer und professioneller aus |\n| Produkt-Thumbnails | Runde Produktbilder schaffen ein zusammenhängendes Katalog-Aussehen |\n| App-Icons | Runde Icons sind Standard für mobile Anwendungen |\n| Website-Bewertungen | Runde Kundenfotos erhöhen Glaubwürdigkeit und visuelle Attraktivität |\n\n## Warum unser Kreis-Zuschnitt-Bild-Tool wählen?\n\nWenn es darum geht, Fotos online in Kreisen zuzuschneiden, bietet unser Tool mehrere Vorteile:\n\n- **Sofortige Verarbeitung** - Schneiden Sie Bilder in Sekunden in Kreisform zu, ohne auf Uploads oder Serververarbeitung zu warten\n- **Perfekte Kreise jedes Mal** - Unser Tool gewährleistet perfekt runde Zuschnitte mit sauberen Kanten und ohne Verzerrung\n- **Intuitive Steuerung** - Positionieren Sie Ihr Bild genau wie gewünscht innerhalb des Kreises mit Zoom- und Drag-Funktionalität\n- **Keine Wasserzeichen** - Im Gegensatz zu anderen Kreis-Zuschnitt-Tools fügen wir Ihren Bildern keine Wasserzeichen hinzu\n- **Funktioniert mit allen Bildtypen** - Schneiden Sie Fotos, Grafiken, Illustrationen oder jedes Bild in einen Kreis\n- **Browserbasiert** - Keine Softwareinstallation erforderlich, funktioniert direkt in Ihrem Webbrowser\n- **Datenschutz zuerst** - Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, Ihre Bilder verlassen niemals Ihr Gerät\n\nEgal, ob Sie Bilder für professionelle Zwecke oder persönliche Projekte in Kreisform zuschneiden müssen, unser Kreis-Foto-Zuschnitt-Tool erledigt alles mit Leichtigkeit. Erstellen Sie runde Bildzuschnitte mit nur wenigen Klicks!\n\n## Loslegen\n\nBereit, Ihr erstes rundes Bild zu erstellen? Besuchen Sie unser [Kreis-Zuschnitt-Tool](/circle-crop) und beginnen Sie noch heute mit dem Zuschneiden. Es ist völlig kostenlos, erfordert keine Anmeldung und dauert nur Sekunden, um professionelle runde Bilder zu erstellen.\n\n---\n\n*Zuletzt aktualisiert: Januar 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Bilder mit abgerundeten Ecken – Leitfaden",
+        "description": "Mit unserem kostenlosen Tool verpassen Sie jedem Bild weiche, abgerundete Ecken – für Thumbnails, Karten, UI und Social Media, in Sekunden.",
+        "content": "# Bilder mit abgerundeten Ecken – Leitfaden\n\nVerleihen Sie jedem Bild mit unserem kostenlosen Online-Tool weiche, abgerundete Ecken. Perfekt für Thumbnails, Karten, UI-Elemente und Social Media – ohne Vorkenntnisse.\n\n## So bekommen Ihre Bilder abgerundete Ecken\n\n### Schritt 1: Bild hochladen\nWählen Sie ein Foto von Ihrem Gerät. Unterstützt werden JPG, PNG, WEBP und GIF. Einfach per Klick oder per Drag & Drop hochladen.\n\n### Schritt 2: Eckenradius einstellen\nÜber den Schieberegler stellen Sie den Eckenradius ein – von dezent bis stark abgerundet. Die Vorschau passt sich sofort an.\n\n### Schritt 3: Bild speichern\nMit einem Klick auf \"Herunterladen\" speichern Sie das Bild mit abgerundeten Ecken und können es direkt in Layouts, Webseiten oder Posts verwenden.\n\n## Typische Einsatzbereiche\n\n### Thumbnails & Karten\nAbgerundete Ecken wirken auf Kacheln und Karten modern und aufgeräumt – ideal für Produktgrids, Blog-Vorschauen und Apps.\n\n### Social Media & Werbung\nBilder mit weichen Ecken fallen in Feeds und Anzeigen positiv auf und wirken freundlicher als harte Kanten.\n\n### UI & App-Design\nFür Icons, Avatare und Buttons sind abgerundete Ecken Standard. Unser Tool hilft dabei, viele Bilder einheitlich anzupassen.\n\n### Präsentationen & Dokumente\nEin einheitlicher Eckenradius bei Screenshots und Grafiken sorgt in Folien und Dokumenten für einen konsistenten Look.\n\n## Was unser Tool kann\n\n- **Kostenlos und sofort nutzbar** – ohne Anmeldung, ohne Wasserzeichen; Verarbeitung lokal im Browser, kein Nutzungslimit für dieses Tool\n- **Eckenradius frei wählbar** – von leicht abgerundet bis Pillenform\n- **Live-Vorschau** – Ergebnis vor dem Download prüfen\n- **Datenschutz** – alles läuft im Browser, wir speichern keine Bilder\n- **Überall nutzbar** – am PC, Tablet und Smartphone\n\n## Häufige Fragen\n\n### Wie runde ich Bild-Ecken ab?\n\nÖffnen Sie unser [Tool für abgerundete Ecken](/rounded-corners), laden Sie das Bild hoch, stellen Sie den Eckenradius ein und klicken Sie auf Herunterladen.\n\n### Welche Formate werden unterstützt?\n\nJPG, PNG, WEBP und GIF. Beim Download bleibt das Format erhalten (oder PNG für Transparenz).\n\n### Geht das auch auf dem Handy?\n\nJa, das Tool läuft in jedem Browser auf Smartphone und Tablet, ohne App.\n\n### Werden meine Bilder bei euch gespeichert?\n\nNein. Die Verarbeitung erfolgt nur in Ihrem Browser, wir speichern nichts.\n\n## Verwandte Tools\n\n- [Foto zu URL](/) – Bilder in Links umwandeln\n- [Kreis-Zuschnitt](/circle-crop) – Runde Bilder erstellen\n- [Abgerundete Ecken](/rounded-corners) – Ecken abrunden\n- [Hintergrund entfernen](/remove-background) – Hintergrund per KI entfernen\n\n---\n\n*Zuletzt aktualisiert: Februar 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Hintergrund entfernen – Leitfaden",
+        "description": "Entfernen Sie Bildhintergründe mit einem Klick – kostenlos und KI-gestützt. Saubere Freistellungen für Produktfotos, Porträts, Logos und mehr.",
+        "content": "# Hintergrund entfernen – Leitfaden\n\nEntfernen Sie Bildhintergründe mit einem Klick mit unserem kostenlosen Online-Tool. Saubere Freistellungen für Produktfotos, Porträts, Logos und mehr – ohne Designkenntnisse.\n\n## So entfernen Sie den Hintergrund\n\n### Schritt 1: Bild hochladen\nWählen Sie ein Foto von Ihrem Gerät. Unterstützt werden JPG, PNG, WEBP und GIF. Per Klick oder per Drag & Drop hochladen.\n\n### Schritt 2: KI entfernt den Hintergrund\nUnser Tool erkennt das Motiv automatisch und entfernt den Hintergrund. Die Verarbeitung dauert meist nur wenige Sekunden. Sie sehen eine Echtzeit-Vorschau mit transparentem Hintergrund.\n\n### Schritt 3: Bild speichern\nKlicken Sie auf \"Herunterladen\", um das Bild ohne Hintergrund zu speichern. Die Ausgabe ist PNG mit Transparenz, geeignet für Design, E-Commerce oder Social Media.\n\n## Typische Anwendungen\n\n### Produktfotos\nSaubere Produktfreistellungen für Onlineshops, Marktplätze und Anzeigen. Transparenter Hintergrund für beliebige Layouts.\n\n### Porträts & Bewerbungsfotos\nStörende Hintergründe von Porträts entfernen – für Lebenslauf, LinkedIn oder Profil.\n\n### Logos & Grafiken\nLogos und Grafiken aus Fotos oder Scans freistellen. Transparentes PNG für Overlays, Branding und Präsentationen.\n\n### Social Media & Marketing\nAuffällige Motive für Posts, Stories und Anzeigen. Transparente Freistellungen passen in jedes Layout.\n\n## Was unser Tool kann\n\n- **Kostenlos und KI-gestützt** – keine Anmeldung, keine Wasserzeichen; Verarbeitung lokal im Browser, kein Nutzungslimit für dieses Tool\n- **Ein-Klick-Entfernung** – automatische Motiverkennung, saubere Kanten\n- **Transparentes PNG** – für jedes Design und jede Plattform\n- **Datenschutz** – Verarbeitung im Browser, wir speichern keine Bilder\n- **Alle Geräte** – PC, Tablet und Smartphone\n\n## Häufige Fragen\n\n### Wie entferne ich den Hintergrund?\n\nLaden Sie Ihr Bild in unser [Tool Hintergrund entfernen](/remove-background) hoch. Das Tool erkennt das Motiv und entfernt den Hintergrund automatisch. Vorschau prüfen, dann Herunterladen für PNG mit Transparenz.\n\n### Welche Formate werden unterstützt?\n\nJPG, PNG, WEBP und GIF. Das Ergebnis wird immer als PNG mit transparentem Hintergrund gespeichert.\n\n### Werden meine Bilder gespeichert?\n\nNein. Die Verarbeitung läuft in Ihrem Browser, wir speichern nichts.\n\n### Funktioniert das auf dem Handy?\n\nJa. Das Tool funktioniert in jedem Browser auf Smartphone und Tablet.\n\n## Verwandte Tools\n\n- [Foto zu URL](/) – Bilder in Links umwandeln\n- [Kreis-Zuschnitt](/circle-crop) – Runde Bilder erstellen\n- [Abgerundete Ecken](/rounded-corners) – Ecken abrunden\n- [Hintergrund entfernen](/remove-background) – Hintergrund per KI entfernen\n\n---\n\n*Zuletzt aktualisiert: März 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentation | Photo To URL",
+      "description": "Dokumentation für Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentation",
+      "description": "Schnellstart: Bild hochladen und Direktlink erhalten. Nutzen Sie die Kopier-Buttons oder den .txt Download.",
+      "features": {
+        "title": "Unterstützte Funktionen:",
+        "items": {
+          "1": "Unterstützt: JPG, PNG, WEBP, GIF",
+          "2": "Schnelle Auslieferung via CDN",
+          "3": "Wartungshinweise bei Service-Unterbruch"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Service-Status für Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alle Systeme betriebsbereit.",
+      "message": "Upload-API und CDN-Links laufen einwandfrei."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontaktieren Sie Photo To URL für Support, Feedback oder Partnerschaften."
+    },
+    "page": {
+      "title": "Kontaktieren Sie uns",
+      "introShort": "Fragen oder Feedback? Füllen Sie das Formular aus, wir melden uns bald.",
+      "orEmail": "Oder schreiben Sie uns an",
+      "subtitle": "Wir helfen Ihnen bei Hosting, Links und mehr.",
+      "intro": "Photo To URL ist ein kostenloser Dienst. Wir freuen uns über Ihre Anregungen.",
+      "whyTitle": "Themen für den Kontakt",
+      "why1": "Technischer Support: Upload-Fehler oder defekte Links",
+      "why2": "Feedback und Feature-Wünsche",
+      "why3": "Partnerschafts- oder Kooperationsanfragen",
+      "why4": "Missbrauchsmeldungen oder rechtliche Fragen",
+      "expectTitle": "Was Sie erwarten können",
+      "expectContent": "Wir lesen jede Nachricht und antworten meist innerhalb von 1-2 Werktagen.",
+      "emailHeading": "Per E-Mail kontaktieren",
+      "emailHint": "Schreiben Sie uns eine E-Mail für eine direkte Antwort.",
+      "email": {
+        "label": "E-Mail",
+        "address": "support@phototourl.com",
+        "cta": "E-Mail senden"
+      },
+      "form": {
+        "title": "Nachricht senden",
+        "description": "Nutzen Sie das Formular für Anfragen.",
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "namePlaceholder": "Ihr Name",
+        "emailPlaceholder": "ihre@email.ch",
+        "messagePlaceholder": "Ihre Nachricht oder Frage...",
+        "submit": "Nachricht senden",
+        "submitting": "Wird gesendet...",
+        "success": "Nachricht erfolgreich gesendet.",
+        "minLength": "Name muss mindestens 3 Zeichen haben.",
+        "maxLengthName": "Name darf 30 Zeichen nicht überschreiten.",
+        "invalidEmail": "Bitte gültige E-Mail-Adresse eingeben.",
+        "minLengthMessage": "Nachricht muss mindestens 10 Zeichen haben.",
+        "maxLengthMessage": "Nachricht darf 2000 Zeichen nicht überschreiten.",
+        "invalid": "Etwas ist schiefgelaufen. Bitte erneut versuchen."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Über uns | Photo To URL",
+      "description": "Erfahren Sie mehr über Photo To URL - den kostenlosen Bild-zu-Link Dienst."
+    },
+    "page": {
+      "title": "Über uns",
+      "mission": {
+        "title": "Unsere Mission",
+        "content": "Photo To URL ist ein schneller und zuverlässiger Hosting-Dienst für Kreative und Teams. Wir glauben an Einfachheit, Speed und Datenschutz."
+      },
+      "features": {
+        "title": "Was wir bieten",
+        "item1": "Kostenloses Hosting mit CDN-Support",
+        "item2": "Sofortige Link-Generierung",
+        "item3": "Support für JPG, PNG, WEBP, GIF",
+        "item4": "Ohne Registrierung testen — Gratis-Tarif: 10 Uploads/Tag, 2MB pro Datei"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Fragen? Schreiben Sie uns an",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Datenschutz | Photo To URL",
+        "description": "Erfahren Sie, wie wir Ihre Daten schützen."
+      },
+      "page": {
+        "title": "Datenschutzrichtlinie",
+        "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
+        "introduction": "Bei Photo To URL respektieren wir Ihre Privatsphäre und sind dem Schutz Ihrer persönlichen Informationen verpflichtet. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unseren Service nutzen.",
+        "dataCollection": {
+          "title": "Informationen, die wir sammeln",
+          "content1": "Wenn Sie Photo To URL nutzen, können wir Folgendes erfassen:",
+          "item1": "Hochgeladene Bilddateien und Metadaten (Dateiname, Grösse, Typ), gespeichert auf Cloudflare R2 zur Bereitstellung teilbarer Links",
+          "item2": "IP-Adresse, Upload-Zeitstempel und Nutzungsdaten für Ratenbegrenzung, Sicherheit und Missbrauchsprävention",
+          "item3": "Kontoinformationen bei Registrierung oder Anmeldung (E-Mail-Adresse, OAuth-Profil von Google, Sitzungs- und Authentifizierungskennungen)",
+          "item4": "Abonnement- und zahlungsbezogene Informationen, verarbeitet durch unseren Zahlungsanbieter Waffo Pancake bei kostenpflichtigen Tarifen — wir speichern keine vollständigen Kartennummern",
+          "content2": "Wenn Sie uns über das Kontaktformular erreichen, erfassen wir die von Ihnen angegebenen Informationen (z. B. Name und E-Mail). Wir verwenden ausserdem Cookies und ähnliche Technologien wie im Abschnitt Cookies beschrieben."
+        },
+        "dataUsage": {
+          "title": "Datennutzung",
+          "item1": "Bereitstellung der Bildlinks",
+          "item2": "Prävention von Missbrauch",
+          "item3": "Verbesserung des Services",
+          "item4": "Einhaltung gesetzlicher Pflichten"
+        },
+        "dataStorage": {
+          "title": "Speicherung",
+          "content": "Bilder werden auf Cloudflare R2 gespeichert und bei Inaktivität gelöscht."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content1": "Wir nutzen:",
+          "item1": "Local Storage: Für Verlauf und Sprache",
+          "item2": "Google AdSense: Für Werbung",
+          "item3": "Google Analytics: Für Web-Analyse",
+          "content2": "Sie können Cookies im Browser deaktivieren."
+        },
+        "personalizedAds": {
+          "title": "Personalisierte Werbung",
+          "content": "Wir nutzen AdSense. Sie können personalisierte Werbung in den Google-Einstellungen deaktivieren.",
+          "linkAdsSettings": "Google Anzeigen-Einstellungen",
+          "content2": "oder via",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "opt-out betreiben."
+        },
+        "thirdParty": {
+          "title": "Drittanbieter",
+          "content1": "Wir nutzen:",
+          "item1": "Cloudflare R2",
+          "item2": "Google AdSense",
+          "item3": "Google Analytics",
+          "content2": "Wir nutzen ausserdem Waffo Pancake für Abonnements und Zahlungsabwicklung. Diese Dienste können Informationen gemäss ihren eigenen Datenschutzrichtlinien erfassen. Wir empfehlen, diese Richtlinien zu lesen."
+        },
+        "dataSecurity": {
+          "title": "Sicherheit",
+          "content": "Wir nutzen technische Massnahmen zum Schutz, weisen aber darauf hin, dass keine Online-Übertragung 100% sicher ist."
+        },
+        "yourRights": {
+          "title": "Ihre Rechte",
+          "content": "Auskunft, Löschung und Widerruf Ihrer Daten.",
+          "item1": "Zugriff auf hochgeladene Bilder, Kontodaten und zugehörige Informationen",
+          "item2": "Löschung verlangen",
+          "item3": "Opt-out nutzen",
+          "item4": "Support kontaktieren"
+        },
+        "children": {
+          "title": "Kinderschutz",
+          "content": "Nicht für Kinder unter 13 Jahren gedacht."
+        },
+        "changes": {
+          "title": "Änderungen",
+          "content": "Updates werden hier veröffentlicht."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Fragen an",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Nutzungsbedingungen | Photo To URL",
+        "description": "AGB und Verantwortlichkeiten."
+      },
+      "page": {
+        "title": "Nutzungsbedingungen",
+        "lastUpdated": "Zuletzt aktualisiert: September 2026",
+        "intro": "Willkommen bei Photo To URL. Mit der Nutzung akzeptieren Sie diese Bedingungen.",
+        "acceptance": {
+          "title": "Annahme der Bedingungen",
+          "content": "Durch Uploads bestätigen Sie, die AGB gelesen zu haben."
+        },
+        "serviceDescription": {
+          "title": "Servicebeschreibung",
+          "content": "Hosting und Link-Generierung im Rahmen der gesetzten Limits."
+        },
+        "useOfService": {
+          "title": "Nutzung des Dienstes",
+          "content": "Nur für rechtmässige Zwecke zulässig."
+        },
+        "userResponsibilities": {
+          "title": "Ihre Pflichten",
+          "content": "Kein Umgehen von Limits, keine Schadsoftware."
+        },
+        "prohibitedContent": {
+          "title": "Verbotene Inhalte",
+          "content": "Keine illegalen, gewaltverherrlichenden oder Rechte verletzenden Inhalte."
+        },
+        "ipAndContent": {
+          "title": "Geistiges Eigentum",
+          "content": "Sie bleiben Eigentümer Ihrer Bilder. Sie gewähren uns die notwendigen Rechte für das Hosting."
+        },
+        "subscriptions": {
+          "title": "Abonnementpläne",
+          "content": "Photo To URL bietet eine kostenlose Stufe sowie bezahlte Abos (Pro monatlich und Premium jährlich) mit höheren Upload-, Dateigrössen- und Speicherlimits. Aktuelle Preise: https://phototourl.com/pricing. Bezahlter Zugang ist ein digitaler Dienst und wird nach bestätigter Zahlung sofort freigeschaltet."
+        },
+        "billing": {
+          "title": "Abrechnung und Zahlung",
+          "content": "Mit Hinterlegung einer Zahlungsmethode und Abschluss eines bezahlten Abos ermächtigen Sie uns und unseren Zahlungsdienstleister, diese Methode wiederkehrend zu belasten, bis Sie kündigen. Abos verlängern sich automatisch, sofern nicht gekündigt. Preise erscheinen beim Checkout und können Steuern ausschliessen, sofern nicht anders angegeben."
+        },
+        "cancellation": {
+          "title": "Kündigung und Stopp der Auto-Verlängerung",
+          "content": "Zukünftige Belastungen stoppen Sie jederzeit so:",
+          "item1": "E-Mail an support@phototourl.com von Ihrer registrierten Adresse mit Bitte um Kündigung der Auto-Verlängerung; oder",
+          "item2": "automatische Abbuchung bzw. wiederkehrende Zahlung beim Kartenherausgeber über Mobile Banking, E-Banking oder Kundendienst beenden.",
+          "effect": "Die Kündigung stoppt künftige Verlängerungen. Bezahlte Vorteile bleiben bis zum Ende des bereits bezahlten Zeitraums. Danach keine weiteren Abbuchungen; die Vorteile enden mit diesem Zeitraum."
+        },
+        "refunds": {
+          "title": "Rückerstattung",
+          "general": "Bezahlte Pläne sind digitale Dienste mit sofortigem Zugang. Abo-Gebühren sind in der Regel nicht erstattungsfähig, solange der Dienst normal nutzbar ist — ausser wie unten oder gesetzlich vorgeschrieben.",
+          "eligibleTitle": "Wann eine Rückerstattung möglich sein kann",
+          "item1": "Erstabo: innerhalb von 7 Tagen nach der ersten Belastung, wenn bezahlte Funktionen kaum genutzt wurden (z. B. nur ein kleiner Teil von Upload- oder Speicherkontingent).",
+          "item2": "Doppelte oder fehlerhafte Belastung: volle Rückerstattung bei nachgewiesenem Abrechnungsfehler mit Doppelbelastung.",
+          "item3": "Ausfall auf unserer Seite: bei nachgewiesenem, von uns verursachtem Ausfall von 72 Stunden oder mehr im bezahlten Zeitraum können wir nach Prüfung eine anteilige Gutschrift oder Rückerstattung anbieten.",
+          "item4": "Gesetzliche Rechte: wo geltendes Recht Widerruf oder Erstattung vorsieht (z. B. EU/UK), bleiben diese Rechte unberührt.",
+          "howTitle": "Rückerstattung beantragen",
+          "how": "E-Mail an support@phototourl.com mit Konto-E-Mail, Zahlungs- oder Transaktionsreferenz und Begründung. Wir bestätigen in der Regel innert 2 Werktagen und bearbeiten berechtigte Fälle innert 5–10 Werktagen.",
+          "notTitle": "Wann keine Rückerstattung erfolgt",
+          "not1": "Gebühren für bereits genutzte Abo-Zeiträume, ausser wie oben.",
+          "not2": "Jahresabo (Premium) mehr als 30 Tage nach dem Erstkauf, ausser gesetzlich anders oder bei berechtigtem Ausfall bzw. Doppelbelastung.",
+          "not3": "Konten, die wegen Verstössen gegen diese Bedingungen gesperrt oder gekündigt wurden."
+        },
+        "disclaimer": {
+          "title": "Haftungsausschluss",
+          "text": "Nutzung auf eigene Gefahr. Keine Gewähr für ständige Verfügbarkeit."
+        },
+        "limitationOfLiability": {
+          "title": "Haftungsbeschränkung",
+          "content": "Haftung ist auf das gesetzliche Minimum begrenzt."
+        },
+        "termination": {
+          "title": "Kündigung",
+          "content": "Wir können den Zugriff bei Verstössen jederzeit sperren."
+        },
+        "changes": {
+          "title": "Änderungen",
+          "content": "Bedingungen können aktualisiert werden."
+        },
+        "governingLaw": {
+          "title": "Anwendbares Recht",
+          "content": "Es gilt das Recht des Standorts des Betreibers."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Fragen an",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Cookie-Richtlinie | Photo To URL",
+        "description": "Wie wir Cookies einsetzen."
+      },
+      "page": {
+        "title": "Cookie-Richtlinie",
+        "lastUpdated": "Zuletzt aktualisiert: September 2026",
+        "introduction": "Diese Richtlinie erklärt die Nutzung von Cookies. Fragen an support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Was sind Cookies",
+          "content": "Kleine Textdateien zur Effizienzsteigerung."
+        },
+        "howWeUseCookies": {
+          "title": "Nutzung",
+          "content": "Für Verlauf, Sprache, Analyse und Werbung.",
+          "item1": "Verlauf & Präferenzen",
+          "item2": "Traffic-Analyse",
+          "item3": "Personalisierte Werbung"
+        },
+        "typesOfCookies": {
+          "title": "Arten von Cookies",
+          "essential": {
+            "title": "Notwendige Cookies",
+            "content": "Für Kernfunktionen der Website."
+          },
+          "analytics": {
+            "title": "Analyse-Cookies",
+            "content": "Helfen uns, die Website zu verbessern."
+          },
+          "advertising": {
+            "title": "Werbe-Cookies",
+            "content": "Für relevante Werbeeinblendungen."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Drittanbieter-Cookies",
+          "content": "AdSense und Analytics setzen eigene Cookies."
+        },
+        "manageCookies": {
+          "title": "Cookies verwalten",
+          "content": "Einstellbar über Ihren Browser."
+        },
+        "changes": {
+          "title": "Änderungen",
+          "content": "Updates werden hier gelistet."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Fragen an",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Laden Sie Bilder von jeder Website mit einem Klick hoch! Kostenlos testen: 5 Uploads/Tag, 2MB pro Datei.",
+    "howItWorks": {
+      "title": "So funktioniert es",
+      "step1": "Website mit Bildern besuchen",
+      "step2": "Bookmarklet in der Lesezeichenleiste klicken",
+      "step3": "Bild auf der Seite auswählen",
+      "step4": "URL sofort erhalten und kopieren!"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "1. Code kopieren",
+        "description": "Klicken Sie unten, um den Code zu kopieren."
+      },
+      "step2": {
+        "title": "2. Zum Browser hinzufügen",
+        "description": "Anleitung für Ihren Browser:",
+        "chrome": "Chrome/Edge: Ctrl+Shift+B (Cmd+Shift+B) drücken, Rechtsklick auf die Leiste, \"Seite hinzufügen\". Code als URL einfügen.",
+        "firefox": "Firefox: Rechtsklick auf Leiste, \"Neues Lesezeichen\". Code als Adresse einfügen.",
+        "safari": "Safari: Lesezeichenleiste einblenden, Code dorthin ziehen.",
+        "edge": "Alternativ: Neues Lesezeichen erstellen und URL durch Code ersetzen."
+      },
+      "step3": {
+        "title": "3. Loslegen!",
+        "description": "Besuchen Sie eine Seite und klicken Sie das Bookmarklet."
+      },
+      "copy": "Code kopieren",
+      "copied": "Kopiert!"
+    },
+    "usage": {
+      "title": "Funktionen",
+      "description": "Das Bookmarklet bietet folgende Funktionen. Jeder Upload zählt zu Ihren Tariflimits (10 Uploads/Tag, 2MB pro Datei).",
+      "feature1": "Bilder direkt von Webseiten wählen",
+      "feature2": "Automatischer Upload",
+      "feature3": "Sofortige URL mit Kopierfunktion"
+    },
+    "note": {
+      "title": "Hinweis",
+      "content": "Uploads zählen zu Ihrem Tageskontingent (10 Uploads/Tag, 2MB pro Datei). Das Bookmarklet funktioniert auf den meisten Websites; strenge Sicherheitsrichtlinien (CORS) können Uploads verhindern."
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "welcomeBack": "Willkommen zurück",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signIn": "Anmelden",
+      "signUp": "Registrieren",
+      "signUpHint": "Noch kein Konto?",
+      "forgotPassword": "Passwort vergessen?",
+      "showPassword": "Anzeigen",
+      "hidePassword": "Verbergen",
+      "emailRequired": "E-Mail ist erforderlich",
+      "passwordRequired": "Passwort ist erforderlich",
+      "signInWithGoogle": "Mit Google anmelden"
+    },
+    "register": {
+      "createAccount": "Konto erstellen",
+      "name": "Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signUp": "Registrieren",
+      "signInHint": "Bereits ein Konto vorhanden?",
+      "namePlaceholder": "Ihr Name",
+      "signUpSuccess": "Konto erfolgreich erstellt",
+      "signUpWithGoogle": "Mit Google registrieren",
+      "artFightLabel": "Dediziertes Künstlerkonto registrieren",
+      "artFightHint": "Künstler-Dashboard freischalten: URL-, HTML-, BBCode- und Markdown-Embed für jede gehostete Karte kopieren."
+    },
+    "error": {
+      "title": "Authentifizierungsfehler",
+      "defaultError": "Ein Fehler ist aufgetreten.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Konto existiert bereits.",
+      "INVALID_CREDENTIALS": "Ungültige E-Mail oder Passwort.",
+      "INVALID_EMAIL": "Ungültiges E-Mail-Format.",
+      "INVALID_PASSWORD": "Passwort zu kurz (min. 6 Zeichen).",
+      "EMAIL_REQUIRED": "E-Mail erforderlich.",
+      "PASSWORD_REQUIRED": "Passwort erforderlich.",
+      "NAME_REQUIRED": "Name erforderlich.",
+      "SERVER_ERROR": "Serverfehler. Später versuchen.",
+      "NETWORK_ERROR": "Netzwerkfehler."
+    },
+    "orContinueWith": "Oder fortfahren mit",
+    "forgotPassword": {
+      "title": "Passwort vergessen",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.",
+      "email": "E-Mail",
+      "send": "Link zum Zurücksetzen senden",
+      "backToLoginHint": "Passwort wieder eingefallen?",
+      "checkEmail": "Falls ein Konto mit dieser E-Mail existiert, haben wir einen Link zum Zurücksetzen gesendet. Bitte prüfen Sie Ihren Posteingang.",
+      "emailRequired": "E-Mail ist erforderlich",
+      "error": {
+        "userNotFound": "Kein Konto mit dieser E-Mail gefunden",
+        "tooManyRequests": "Zu viele Versuche. Bitte versuchen Sie es später erneut",
+        "serverError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut"
+      }
+    },
+    "resetPassword": {
+      "title": "Passwort zurücksetzen",
+      "password": "Neues Passwort",
+      "reset": "Passwort zurücksetzen",
+      "backToLoginHint": "Bereit zur Anmeldung?",
+      "requestNewLink": "Neuen Link anfordern",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort ausblenden",
+      "minLength": "Das Passwort muss mindestens 6 Zeichen haben",
+      "error": {
+        "expiredToken": "Der Link zum Zurücksetzen ist abgelaufen. Bitte fordern Sie einen neuen an",
+        "invalidToken": "Ungültiger Link zum Zurücksetzen. Bitte fordern Sie einen neuen an",
+        "missingToken": "Link zum Zurücksetzen fehlt oder ist unvollständig. Bitte fordern Sie einen neuen an",
+        "tooManyRequests": "Zu viele Versuche. Bitte versuchen Sie es später erneut",
+        "serverError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut"
+      }
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Hallo, {name}.",
+      "body": "Klicken Sie auf die Schaltfläche unten, um Ihr Photo To URL-Passwort zurückzusetzen. Wenn Sie dies nicht angefordert haben, können Sie diese E-Mail ignorieren.",
+      "resetPassword": "Passwort zurücksetzen",
+      "subject": "Setzen Sie Ihr Photo To URL-Passwort zurück"
+    }
+  },
+  "PricingPage": {
+    "title": "Einfache, transparente Preise",
+    "description": "Wählen Sie den Plan, der zu Ihnen passt",
+    "subtitle": "Wählen Sie den passenden Plan",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "faqTitle": "Häufige Fragen",
+    "faq": {
+      "payment": {
+        "q": "Welche Zahlungsmittel werden akzeptiert?",
+        "a": "Wir akzeptieren alle gängigen Kreditkarten und PayPal via Secure Payment Provider."
+      },
+      "cancel": {
+        "q": "Kann ich jederzeit kündigen?",
+        "a": "Ja, Sie behalten den Zugriff bis zum Ende des Abrechnungszeitraums."
+      },
+      "storage": {
+        "q": "Was passiert bei einem Downgrade?",
+        "a": "Ihre Dateien sind sicher. Wir informieren Sie, falls das Limit überschritten wird."
+      },
+      "upload": {
+        "q": "Was zählt als Upload?",
+        "a": "Jedes Bild zählt als ein Upload. Free-Nutzer haben 10 pro Tag."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/Monat",
+      "perYear": "/Jahr",
+      "popular": "Beliebteste Wahl",
+      "bestValue": "Bester Wert",
+      "currentPlan": "Aktueller Plan",
+      "yourCurrentPlan": "Ihr aktueller Plan",
+      "getStartedForFree": "Kostenlos starten",
+      "getLifetimeAccess": "Lifetime-Zugriff",
+      "getStarted": "Loslegen",
+      "upgradeToYearly": "Auf Premium upgraden",
+      "cannotDowngrade": "Downgrade nicht möglich",
+      "alreadySubscribed": "Aktueller Plan bereits aktiv",
+      "subscribeYearly": "Jährlich abonnieren",
+      "subscribeMonthly": "Monatlich abonnieren",
+      "upgrade": "Jetzt upgraden",
+      "notAvailable": "Nicht verfügbar",
+      "limitedOffer": "Zeitlich begrenztes Angebot · 20% Rabatt",
+      "savePercentLabel": "Gegenüber Monatsabo ",
+      "savePercentSuffix": " vs. Monat",
+      "freePriceNote": "Für immer kostenlos",
+      "monthlyPriceNote": "Monatlich abgerechnet",
+      "loading": "Lädt...",
+      "suitableFor": "Geeignet für:",
+      "activePlanDialog": {
+        "title": "Du hast bereits ein aktives Abonnement",
+        "description": "Für dieses Konto besteht bereits ein aktives Abonnement.",
+        "descriptionWithDate": "Für dieses Konto besteht bereits ein aktives Abonnement (läuft am {date} ab).",
+        "close": "Schliessen",
+        "manageBilling": "Abo verwalten"
+      },
+      "batchUpload": {
+        "label": "Batch-Upload",
+        "free": "Keiner",
+        "monthly": "20 Fotos",
+        "yearly": "50 Fotos"
+      },
+      "justPerMonth": "{price}/Monat",
+      "saveVsMonthly": "{percent}% sparen",
+      "monthlyEquivalentShort": "({price}/Monat)",
+      "bestValueWithSave": "Bestes Angebot · {percent}% sparen"
+    },
+    "CheckoutButton": {
+      "loading": "Lädt...",
+      "checkoutFailed": "Checkout-Seite konnte nicht geöffnet werden"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Free",
+      "description": "Ideal zum Ausprobieren",
+      "features": {
+        "feature-1": "Upload-Grösse: 2MB",
+        "feature-2": "Täglich: 10 Uploads",
+        "feature-3": "Speicher: 100MB",
+        "feature-4": "Basis CDN-Beschleunigung",
+        "feature-5": "Werbefrei: Nein",
+        "feature-6": "Dokumenten-Hosting: Nein",
+        "feature-7": "Foto-Hosting: Nein",
+        "feature-8": "Bildbearbeitung: Nein",
+        "feature-9": "Webhook: Nein",
+        "feature-10": "Ressourcen-Berechtigungen: Keine"
+      },
+      "limits": [],
+      "suitableFor": "Produkt testen"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Stetiges Hochladen & Hosting",
+      "features": {
+        "feature-1": "Upload-Grösse: 50MB",
+        "feature-2": "Täglich: 1000 Uploads",
+        "feature-3": "Speicher: 100GB",
+        "feature-4": "Standard CDN-Beschleunigung",
+        "feature-5": "Werbefrei: Ja",
+        "feature-6": "Dokumenten-Hosting: Ja",
+        "feature-7": "Foto-Hosting: Ja",
+        "feature-8": "Bildbearbeitung: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Berechtigungen: Teilweise"
+      },
+      "limits": [],
+      "suitableFor": "Blogger / Developer / Teams"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Mehr Kontingent, schnelleres CDN",
+      "features": {
+        "feature-1": "Upload-Grösse: 256MB",
+        "feature-2": "Täglich: Unbegrenzt",
+        "feature-3": "Speicher: 200GB",
+        "feature-4": "High-Speed CDN (Priorität)",
+        "feature-5": "Werbefrei: Ja",
+        "feature-6": "Dokumenten-Hosting: Ja",
+        "feature-7": "Foto-Hosting: Ja",
+        "feature-8": "Bildbearbeitung: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Berechtigungen: Alle"
+      },
+      "limits": [],
+      "suitableFor": "Große Teams / Intensive Nutzung / Automatisierung"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen",
+    "loadFailed": "Laden fehlgeschlagen. Bitte versuche es später erneut.",
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "dismiss": "OK",
+    "dashboard": "Dashboard",
+    "resources": "Meine Ressourcen",
+    "photos": "Meine Fotos",
+    "storage": "Speicher",
+    "used": "Genutzt",
+    "total": "Gesamt",
+    "storageDisplay": "{used} / {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Unbegrenzt",
+    "deleteConfirm": "Ressource wirklich löschen?",
+    "deleteResource": "Ressource löschen",
+    "deleteFailed": "Löschen fehlgeschlagen",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "copied": "Kopiert!",
+    "copy": "Link kopieren",
+    "open": "Öffnen",
+    "removeBackground": "Hintergrund entfernen",
+    "noResources": "Noch keine Ressourcen. Laden Sie Bilder hoch.",
+    "files": "Dateien",
+    "dailyUploads": "Tages-Uploads",
+    "today": "Heute",
+    "resourcesCount": "Sie haben {count} Ressourcen",
+    "photosCount": "Sie haben {count} Fotos",
+    "resourcePageInfo": "Seite {page} von {totalPages} · {total} Dateien gesamt",
+    "resourceTotalCount": "Gesamt {total} Elemente",
+    "resourcePageSizeLabel": "Elemente pro Seite",
+    "resourcePageSizeOption": "{size} / Seite",
+    "resourceJumpTo": "Gehe zu",
+    "resourceJumpPageUnit": "Seite",
+    "resourceJumpInputAria": "Seitennummer",
+    "resourcePagePrev": "Vorherige",
+    "resourcePageNext": "Nächste",
+    "subtitle": "Ihre Workspace-Übersicht.",
+    "planCardTitle": "Plan",
+    "planActive": "Aktiv",
+    "planNames": {
+      "free": "Free",
+      "premium": "Premium",
+      "pro": "Pro"
+    },
+    "planCardHintUpgrade": "Upgraden für mehr Funktionen",
+    "planCardHintAllUpgraded": "Alle Funktionen freigeschaltet",
+    "statStorageHint": "Speicher über alle Uploads",
+    "statResourcesHint": "Fotos + Dokumente",
+    "statPhotosHint": "Dateien mit Direktlinks",
+    "statUploadsHint": "Reset alle 24h",
+    "chartTitle": "Aktivität",
+    "chartDescription": "Upload-Volumen über Zeit",
+    "chartPlaceholder": "Trends erscheinen bei mehr Aktivität.",
+    "chartRange7d": "Letzte 7 Tage",
+    "chartRange30d": "Letzte 30 Tage",
+    "chartRange90d": "Letzte 3 Monate",
+    "tableFile": "Datei",
+    "tablePath": "Pfad",
+    "tableSize": "Grösse",
+    "tableActions": "Aktionen",
+    "viewTable": "Tabelle",
+    "viewGrid": "Fotowand",
+    "chartDemoNote": "Upload-Trend (Tage)",
+    "loginRequired": "Bitte anmelden für das Dashboard.",
+    "checkoutSuccess": "Upgrade erfolgreich!",
+    "subscriptionSuccess": "Abonnement aktiviert. Willkommen bei {plan}!",
+    "circleCrop": "Kreis-Zuschnitt",
+    "roundedCorners": "Ecken abrunden",
+    "scheduledForDeletion": "Zur Löschung vorgemerkt",
+    "upload": "Upload",
+    "uploadPhoto": "Foto hochladen",
+    "batchUploadPhotos": "Batch-Upload",
+    "batchUploading": "Batch-Upload läuft...",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Maximal {max} Dateien gleichzeitig.",
+    "batchUploadTierHint": "Bis zu {max} Dateien pro Batch.",
+    "uploadUpgradeHint": "Nach Upgrade verfügbar",
+    "uploading": "Upload...",
+    "loading": "Lädt...",
+    "uploadErrorInvalidType": "Ungültiger Typ. Nur PNG, JPG, WEBP, GIF.",
+    "uploadErrorTooLarge": "Datei zu gross. Ihr Plan erlaubt bis zu {maxMb} MB pro Datei.",
+    "uploadErrorDailyLimit": "Tageslimit erreicht.",
+    "uploadErrorStorageLimit": "Speicherlimit erreicht.",
+    "uploadErrorGeneric": "Fehler beim Upload.",
+    "uploadUpgradeTitle": "Direkt-Upload freischalten",
+    "uploadUpgradeDescription": "Upgraden für direkten Dashboard-Upload.",
+    "uploadRenewDescription": "Abo erneuern für direkten Dashboard-Upload mit höheren Limiten.",
+    "expiredStorageLimitHint": "Nach Ablauf sind nur 100MB Speicher verfügbar",
+    "uploadGoHome": "Auf Homepage hochladen",
+    "resourceModule": {
+      "title": "Meine Dokumente",
+      "count": "Sie haben {count} Dokumente",
+      "empty": "Noch keine Dokumente. PDF/Word/Excel hochladen.",
+      "viewCard": "Karten",
+      "searchPlaceholder": "Nach Name suchen",
+      "typeAll": "Alle Typen",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Reset",
+      "upload": "Dokument hochladen",
+      "uploading": "Wird hochgeladen…",
+      "copy": "Link kopieren",
+      "open": "Öffnen",
+      "delete": "Löschen",
+      "deleteFailed": "Fehler beim Löschen",
+      "fetchError": "Laden fehlgeschlagen",
+      "tableFile": "Datei",
+      "tablePath": "Pfad",
+      "tableType": "Typ",
+      "typeLabel": "Typ",
+      "tableSize": "Grösse",
+      "tableActions": "Aktionen",
+      "uploadErrorTooLarge": "Datei zu gross. Das Dateilimit in Ihrem Plan beträgt {maxSize}.",
+      "uploadErrorDailyLimit": "Tageslimit erreicht.",
+      "uploadErrorStorageLimit": "Speicherlimit erreicht.",
+      "uploadErrorGeneric": "Upload fehlgeschlagen."
+    },
+    "uploadSize": "{size} Dateigrösse",
+    "dailyUploadsLimit": "{limit} Uploads/Tag",
+    "dailyUploadsUnlimited": "Unbegrenzte Uploads",
+    "monthly": "Monat",
+    "yearly": "Jahr",
+    "bestValue": "Bester Wert",
+    "upgrade": {
+      "title": "Plan upgraden",
+      "description": "Upgrade für höhere Tageslimits, grössere Dateien und Premium-Funktionen. Unbegrenzte tägliche Uploads im jährlichen Premium-Tarif.",
+      "button": "Jetzt upgraden"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "profile": {
+        "title": "Profil",
+        "description": "Profil-Infos verwalten",
+        "name": {
+          "title": "Name",
+          "description": "Anzeigename ändern",
+          "placeholder": "Name eingeben",
+          "hint": "Dieser Name wird angezeigt",
+          "minLength": "Min. 3 Zeichen",
+          "maxLength": "Max. 30 Zeichen",
+          "success": "Erfolgreich aktualisiert",
+          "fail": "Update fehlgeschlagen",
+          "save": "Speichern",
+          "saving": "Wird gespeichert..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Profilbild ändern",
+          "uploadAvatar": "Bild hochladen",
+          "unavailable": "Upload nicht möglich",
+          "disabledHint": "Avatar-Upload benötigt aktivierten Cloud-Speicher.",
+          "recommendation": "PNG, JPG oder WebP."
+        }
+      },
+      "billing": {
+        "title": "Abrechnung",
+        "description": "Abos und Rechnungen",
+        "billingPagePlanTitle": "Aktueller Plan",
+        "billingPageStorageTitle": "Speichernutzung",
+        "currentPlan": {
+          "title": "Ihr Plan auf Photo To URL",
+          "description": "Upgraden für höhere Quoten"
+        },
+        "loadError": "Daten konnten nicht geladen werden.",
+        "retry": "Erneut versuchen",
+        "planNames": {
+          "free": "Free",
+          "premium": "Premium",
+          "pro": "Pro"
+        },
+        "storageUsed": "Speicher genutzt",
+        "freePlanMessage": "Höhere Limits möglich",
+        "status": {
+          "active": "Aktiv",
+          "expired": "Abgelaufen"
+        },
+        "inactivePlanMessage": "Vorteile sind abgelaufen",
+        "expiredStorageLimitHint": "Nach Ablauf sind nur 100MB Speicher verfügbar",
+        "paidPlanMessage": "Vorteile sind aktiv",
+        "backToWorkbench": "Zurück zum Dashboard",
+        "upgradeHint": "Mehr Speicherplatz",
+        "upgradeToPlan": "Plan upgraden",
+        "featureAdvancedEditing": "Pro-Tools",
+        "upgradeNotReady": {
+          "title": "Demnächst",
+          "description": "Bald verfügbar!",
+          "confirm": "Verstanden",
+          "cancel": "Schliessen"
+        },
+        "storage": {
+          "title": "Schnellere CDN-Beschleunigung",
+          "description": "Speicherverbrauch verfolgen",
+          "upgradeStorage": "Speicher upgraden"
+        }
+      },
+      "security": {
+        "title": "Sicherheit",
+        "description": "Kontosicherheit verwalten",
+        "updatePassword": {
+          "title": "Passwort",
+          "description": "Passwort für E-Mail-Login ändern",
+          "currentPassword": "Aktuelles Passwort",
+          "newPassword": "Neues Passwort",
+          "confirmPassword": "Passwort bestätigen",
+          "currentRequired": "Aktuelles Passwort nötig",
+          "newMinLength": "Min. 8 Zeichen",
+          "confirmRequired": "Bitte bestätigen",
+          "passwordMismatch": "Passwörter stimmen nicht überein",
+          "hint": "Nutzen Sie ein starkes Passwort.",
+          "save": "Passwort ändern",
+          "saving": "Update läuft…",
+          "success": "Passwort geändert",
+          "fail": "Fehler beim Update",
+          "showPassword": "Anzeigen",
+          "hidePassword": "Verbergen"
+        },
+        "resetPassword": {
+          "title": "Passwort setzen",
+          "description": "Google-Login genutzt? Setzen Sie ein Backup-Passwort.",
+          "info": "Wir senden einen Link zum Zurücksetzen an die E-Mail Ihres Kontos.",
+          "button": "Reset-Link senden",
+          "sending": "Wird gesendet…",
+          "sent": "Prüfen Sie Ihren Posteingang auf den Link zum Zurücksetzen.",
+          "disabled": "Reset noch nicht konfiguriert.",
+          "fail": "Anfrage fehlgeschlagen."
+        },
+        "deleteAccount": {
+          "title": "Konto löschen",
+          "description": "Konto und Daten permanent entfernen.",
+          "warning": "Nicht rückgängig zu machen.",
+          "button": "Mein Konto löschen",
+          "confirmTitle": "Konto wirklich löschen?",
+          "confirmDescription": "Permanente Löschung.",
+          "cancel": "Abbrechen",
+          "confirm": "Löschen",
+          "deleting": "Löschung läuft…",
+          "success": "Konto gelöscht",
+          "fail": "Löschen fehlgeschlagen"
+        }
+      },
+      "notification": {
+        "title": "Benachrichtigungen",
+        "description": "Präferenzen verwalten",
+        "newsletter": {
+          "title": "E-Mail Updates",
+          "description": "News und Tipps (optional)",
+          "label": "Newsletter abonnieren",
+          "disabledHint": "Newsletter noch nicht aktiv.",
+          "hint": "An- und Abmeldung hier möglich."
+        },
+        "productPreview": {
+          "title": "Produktvorschau",
+          "description": "Hero-Image für Landingpages.",
+          "announcement": {
+            "line1": "Wir entwickeln ständig neue Features.",
+            "line2": "Bestehende Nutzer erhalten Upgrades ohne Aufpreis.",
+            "line3": "Danke für Ihr Vertrauen.",
+            "line4": "Wir optimieren weiter für globale Performance."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Künstlerkonto",
+    "artFightWorkspaceHint": "Künstler-Tools aktiv — URL-, HTML-, BBCode- und Markdown-Embed für jedes Foto kopieren."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Art Fight Profilkarten-Hosting | URL & Embed-Codes",
+      "description": "Laden Sie Team Tragedy-, Comedy- oder Mystery-Profilkarten hoch. Direkter HTTPS-Link plus HTML/BBCode-Embed für Art Fight, Discord und Social Posts.",
+      "keywords": "Art Fight Profilkarte,Ref Sheet Hosting,Team Tragedy,Team Comedy,HTML BBCode Embed"
+    },
+    "footerLink": "Art Fight-Hosting",
+    "artistAccount": {
+      "badge": "Künstlerkonto",
+      "title": "Dediziertes Künstlerkonto registrieren",
+      "lead": "Kostenloses Künstlerkonto: Profilkarten im Dashboard speichern und professionelle Embed-Tools für Art Fight nutzen — URL, HTML, BBCode und Markdown pro Upload kopieren.",
+      "toolEmbedTitle": "Embed-Tools",
+      "toolEmbedDesc": "Ein-Klick-Kopie für Art Fight-Profile, Discord, Foren und Social Posts.",
+      "toolDashboardTitle": "Künstler-Dashboard",
+      "toolDashboardDesc": "Jede Karte bleibt in Ihrem Konto — jederzeit suchen, Vorschau und Links erneut kopieren.",
+      "toolBatchTitle": "Batch-Upload (Pro)",
+      "toolBatchDesc": "Nach Upgrade viele Profilkarten auf einmal hochladen — für Künstler mit mehreren OCs.",
+      "registerCta": "Künstlerkonto erstellen",
+      "footnote": "Aktivieren Sie «Dediziertes Künstlerkonto» bei der Registrierung oder registrieren Sie sich von dieser Seite — wir wählen es vor."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "Für digitale Künstler & OC-Ersteller",
+      "title": "Profilkarten- & Ref-Sheet-Hosting für Art Fight-Künstler",
+      "subtitle": "Laden Sie Ihre Team Tragedy-, Comedy- oder Mystery-Profilkarte hoch — stabile Bild-URL plus HTML- und BBCode-Embed-Codes für Art Fight-Profile, Discord und „bereit zum Kampf“-Posts.",
+      "artistAccountLine": "Registrieren Sie ein dediziertes Künstlerkonto für professionelle Embed-Tools im Dashboard.",
+      "cta": "Karte unten ablegen → Link kopieren → überall einfügen, wo Sie Ihr Team zeigen",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Profil-Hosting",
+      "tabArtist": "Künstlerkonto",
+      "tabSupport": "Künstler-Support",
+      "tabsAriaLabel": "Art Fight Highlights",
+      "trustLine": "Kostenloser Schnell-Upload · URL & Embed-Codes · Künstler-Dashboard",
+      "uploadCta": "Karte hochladen",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Einfügefertige Embed-Codes",
+      "panelIntroDesc": "Profilkarte einmal hochladen, dann Direktlink oder HTML/BBCode für Art Fight und Discord kopieren.",
+      "panelArtistTitle": "Künstlerkonto-Tools",
+      "panelSupportTitle": "Dedizierter Künstler-Support",
+      "panelSupportDesc": "Uploads, Embeds, Konten und Pläne — echte Menschen, keine generische Ticket-Warteschlange."
+    },
+    "teams": {
+      "title": "Dasselbe Tool für jedes Art Fight-Team",
+      "lead": "Ob Tragedy, Comedy oder Mystery — nach der Karte brauchen Sie eines: einen schnellen, stabilen Bildlink zum Teilen.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Blau getönte Profilkarten und Ref Sheets — volle Karte hosten und den Link auf Art Fight-Profil oder Twitter/X posten.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Orange/warm getönte Charakterkarten — ideal für Discord-Ankündigungen und Profil-Embeds in der Art Fight-Hochphase.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Lila Karten für die dritte Fraktion — gleicher Upload, gleiche Embed-Codes, jederzeit teilbar.",
+      "footnote": "Alle drei Teams: Upload → URL oder Embed kopieren → Karte öffentlich posten."
+    },
+    "useCases": {
+      "title": "Wo Künstler den Link einfügen",
+      "lead": "Art Fight ist social. Ihr gehosteter Link reist mit jedem Profil-Update und jedem „Ich bin in diesem Team“-Post.",
+      "profileTitle": "Art Fight-Profil",
+      "profileDesc": "Direkte URL oder HTML-Embed ins offizielle Art Fight-Charakterprofil — Teammitglieder sehen Ihre Karte.",
+      "socialTitle": "Twitter / X & Social Posts",
+      "socialDesc": "Profilkarte beim Team-Beitritt teilen — sauberer HTTPS-Link lädt schnell in Timelines und Antworten.",
+      "discordTitle": "Discord & Künstler-Server",
+      "discordDesc": "URL oder BBCode in Art Fight-Discord, Server-Intros oder Angriffsplan-Threads.",
+      "portfolioTitle": "Toyhouse & Portfolio",
+      "portfolioDesc": "Derselbe Link auf Toyhouse, Carrd oder Foren-Signaturen — Ref überall konsistent."
+    },
+    "features": {
+      "sectionTitle": "Warum Art Fight-Künstler Photo To URL wählen",
+      "fastTitle": "Für hektische Art Fight-Phasen",
+      "fastDesc": "Upload wann nötig — CDN-Link in Sekunden während Warm-up, Peak oder jederzeit.",
+      "linkTitle": "Profilkarten-freundliche URLs",
+      "linkDesc": "Saubere .png/.jpg-Links für Art Fight-Profile, Foren und Social Posts.",
+      "embedTitle": "HTML & BBCode für Künstler",
+      "embedDesc": "Embed-Snippets für Profile und Foren kopieren — kein manuelles img-Tag in der Saison.",
+      "safeTitle": "Dashboard-Hosting nach Anmeldung",
+      "safeDesc": "Registrierte Nutzer speichern Profilkarten im Dashboard — Links erneut kopieren, suchen, verwalten."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Künstlerkonto: Karten im Dashboard hosten",
+      "sectionLead": "Anonyme Uploads für schnelle Posts. Als Art Fight-Künstler registrieren für dediziertes Dashboard mit Embed-Tools — oder Pro für Batch-Upload und höhere Limits.",
+      "dashboardTitle": "Dashboard-Foto-Hosting",
+      "dashboardDesc": "Nach Anmeldung landet jeder Upload im Dashboard. Link jederzeit erneut kopieren, in neuem Tab öffnen oder Original herunterladen — alles in einer Liste.",
+      "batchTitle": "Batch-Upload (Pro)",
+      "batchDesc": "Viele Profilkarten auf einmal aus dem Dashboard — bis zu {monthlyMax} pro Batch bei Pro monatlich, {yearlyMax} bei Premium jährlich.",
+      "manageTitle": "Suche & Fotowand",
+      "manageDesc": "Gehostete Karte per Dateiname finden, Tabellen- und Fotowand-Ansicht wechseln, Dateien löschen.",
+      "proTitle": "Höhere Limits & größere Dateien",
+      "proDesc": "Alles aus Free plus Dashboard-Batch-Upload ({monthlyMax}–{yearlyMax} Dateien), höhere Tageslimits, größere Uploads, mehr Speicher.",
+      "anonymousLabel": "Anonym",
+      "anonymousDesc": "Schneller Link für einen Post. Nicht im Konto gespeichert; kann jederzeit bereinigt werden.",
+      "freeLabel": "Kostenloses Konto",
+      "freeDesc": "Karten im Dashboard gespeichert. Links erneut kopieren, suchen, verwalten bis Löschung oder Speicherlimit.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Kostenloses Konto erstellen",
+      "loginCta": "Anmelden",
+      "dashboardCta": "Dashboard öffnen",
+      "proCta": "Pro-Pläne ansehen",
+      "ctaPanelTitle": "Bereit, Karten zu hosten?",
+      "footnote": "Kostenlose Konten laden hier hoch und verwalten im Dashboard. Batch-Upload braucht Pro oder Premium."
+    },
+    "upload": {
+      "sectionTitle": "Art Fight-Profilkarte hochladen",
+      "sectionLead": "Ref Sheet, Teamkarte oder volles Profilbild — hier ablegen, Link kopieren, nächsten Post.",
+      "dropzoneTitle": "Profilkarte oder Ref Sheet ablegen",
+      "dropzoneHint": "PNG, JPG, WEBP, GIF — Teamkarten, Ref Sheets, Charaktergrafiken willkommen",
+      "dropzoneFootnote": "Kostenlos: 5 Uploads/Tag ohne Registrierung. Anmelden für höhere Limits.",
+      "defaultAlt": "Art Fight-Profilkarte",
+      "resultTitle": "Karte bereit — teilen Sie sie",
+      "resultHint": "URL für Art Fight-Profile, HTML/BBCode für Foren und Discord.",
+      "open": "Bild öffnen",
+      "reset": "Weitere Karte hochladen",
+      "errorBadType": "Bitte Bilddatei hochladen (PNG, JPG, WEBP oder GIF).",
+      "errorGeneric": "Upload fehlgeschlagen. Bitte erneut versuchen.",
+      "loginRequiredTitle": "Tägliches Gratislimit erreicht",
+      "loginRequiredDescription": "Anmelden, um Profilkarten weiter hochzuladen und im Dashboard zu speichern, oder morgen mehr Gratis-Uploads.",
+      "loginRequiredDetail": "Registrierte Nutzer: Dashboard-Hosting — jede Karte bleibt im Konto, Links jederzeit erneut kopieren, nach Dateiname suchen, zentral verwalten.",
+      "retentionAnonymousTitle": "Anonymer Link — nicht empfohlen für wichtige Karten",
+      "retentionAnonymousBody": "Anonyme Uploads nur für schnelles Teilen. Link funktioniert jetzt, ist aber nicht gespeichert. Komprimierung, langsameres CDN und regelmäßige Bereinigung möglich — kostenlos registrieren für Embed-Codes und zuverlässiges Hosting.",
+      "retentionAnonymousSignUp": "Kostenloses Konto erstellen",
+      "retentionAnonymousPro": "Pro-Pläne ansehen",
+      "retentionFreeTitle": "Link in Ihrem Konto gespeichert",
+      "retentionFreeBody": "Jederzeit erneut aus dem Dashboard kopieren. Gratis-Konten haben Tageslimits und Speicherobergrenzen — für gelegentliche Karten; bei häufigem Gebrauch upgraden.",
+      "retentionFreeDashboard": "Dashboard öffnen",
+      "retentionFreeUpgrade": "Mehr Speicher",
+      "retentionProTitle": "Profilkarte auf Ihrem Pro-Plan gehostet",
+      "retentionProBody": "Höhere Upload-Limits, mehr Speicher, zuverlässige Links für jedes Art Fight — Tragedy, Comedy oder Mystery.",
+      "retentionProDashboard": "Dashboard öffnen",
+      "resultHintAnonymous": "Anonymer Upload — nur Direktlink. Registrieren Sie sich, um HTML-, BBCode- und Markdown-Embed-Codes freizuschalten.",
+      "retentionAnonymousIntro": "Dieser Direktlink funktioniert für eine schnelle Freigabe, aber anonymes Hosting hat erhebliche Nachteile:",
+      "retentionAnonymousLimit1": "Nicht an Ihr Konto gebunden — weniger sicher; jeder mit dem Link kann auf das Bild zugreifen",
+      "retentionAnonymousLimit2": "Langsameres CDN — anonyme Uploads erhalten keine Prioritätsbeschleunigung",
+      "retentionAnonymousLimit3": "Mögliche Komprimierung — Originalqualität ist nicht garantiert",
+      "retentionAnonymousLimit4": "Kurzlebig — anonyme Dateien werden regelmäßig bereinigt; der Link kann jederzeit ausfallen",
+      "retentionAnonymousLimit5": "Embed-Codes gesperrt — HTML, BBCode und Markdown erfordern ein kostenloses Konto",
+      "retentionAnonymousCta": "Kostenloses Konto erstellen, um Karten im Dashboard zu speichern, Embed-Codes freizuschalten, schnelleres CDN und zuverlässigere Links zu erhalten."
+    },
+    "embed": {
+      "altLabel": "Alt-Text (für HTML & Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Code kopieren",
+      "copied": "Kopiert",
+      "lockedTabTitle": "Registrieren, um Embed-Codes freizuschalten",
+      "lockedTabDescription": "HTML, BBCode und Markdown sind nach der Anmeldung verfügbar. Gratis-Konten umfassen Dashboard-Hosting und Ein-Klick-Embed-Kopie für jede Karte.",
+      "lockedTabCta": "Kostenloses Konto erstellen"
+    },
+    "howTo": {
+      "title": "Von der Profilkarte zum öffentlichen Post",
+      "lead": "Der Ablauf jedes Art Fight-Künstlers nach der fertigen Karte.",
+      "schemaName": "Art Fight-Profilkarte mit Embed-Code hosten",
+      "schemaDescription": "Art Fight-Team-Profilkarte auf Photo To URL hochladen und Link auf Profil oder Social Post einfügen.",
+      "step1Title": "Teamkarte hochladen",
+      "step1Desc": "Tragedy-, Comedy- oder Mystery-Profilkarte oder Ref Sheet ablegen — sofort Direktlink und Embed-Codes.",
+      "step2Title": "URL oder Embed-Code kopieren",
+      "step2Desc": "URL-Tab für Art Fight-Profile, HTML/BBCode für Discord, Foren und Portfolio.",
+      "step3Title": "Posten & Team deklarieren",
+      "step3Desc": "Link auf Art Fight, Twitter/X oder Discord — andere Künstler sehen Ihre Karte und finden Sie im Event."
+    },
+    "faq": {
+      "title": "Art Fight-Künstler FAQ",
+      "lead": "Fragen von Künstlern, die Team Tragedy-, Comedy- und Mystery-Karten hochladen.",
+      "warningTitle": "Verantwortungsvoll hochladen",
+      "warningBody": "Nur Werke hosten, die Sie erstellt haben oder klar teilen dürfen. Keine rechtsverletzenden, illegalen oder verbotenen Inhalte. Sie sind für jeden Upload verantwortlich.",
+      "warningTermsLink": "Nutzungsbedingungen",
+      "warningPrivacyLink": "Datenschutz",
+      "q1Question": "Für Profilkarten oder Ref Sheets?",
+      "q1Answer": "Beides. Volle Art Fight-Team-Profilkarte, Charakter-Ref Sheet oder jedes Event-Grafik zum Hotlinken.",
+      "q2Question": "Funktioniert es für alle drei Teams?",
+      "q2Answer": "Ja. Team Tragedy, Comedy und Mystery nutzen denselben Upload — wir hosten das Bild und geben einen teilbaren Link.",
+      "q3Question": "Brauche ich ein Konto zum Upload?",
+      "q3Answer": "Nein für schnelle Uploads. Anonym: 10 Gratis-Uploads/Tag. Anmelden speichert im Dashboard — Links erneut kopieren, suchen, verwalten. Pro: Batch-Upload aus Dashboard (20–50 Karten) plus höhere Limits.",
+      "q8Question": "Kann ich viele Profilkarten batch-hochladen?",
+      "q8Answer": "Ja, mit Paid Plan. Dashboard öffnen, Batch-Upload, mehrere PNG/JPG/WEBP/GIF — bis 20 pro Batch bei Pro monatlich, 50 bei Premium jährlich. Gratis: einzeln auf dieser Seite oder im Dashboard.",
+      "q4Question": "Funktioniert der Link auf Discord und Twitter?",
+      "q4Answer": "Ja. HTTPS-URL in Social Posts. BBCode-Tab wo BBCode unterstützt wird.",
+      "q5Question": "Bleibt mein Link langfristig verfügbar?",
+      "q5Answer": "Hängt vom Upload ab. Anonyme Links nur kurzfristig — regelmäßige Bereinigung, Link kann jederzeit brechen. Registrierte behalten Dateien im Dashboard bis Löschung oder Limit. Pro am zuverlässigsten langfristig.",
+      "q6Question": "Darf ich jedes Bild hochladen? Urheberrecht?",
+      "q6Answer": "Nur Bilder, die Ihnen gehören oder die Sie hosten/teilen dürfen — eigene OCs, Commissions mit Hosting-Recht, eigene Werke. Keine fremden Ref Sheets, offizielle Art Fight-Assets die Sie nicht machten, Promi-Fotos, Logos, unerlaubtes Material. Rechtsverletzungen sind Ihre Verantwortung.",
+      "q7Question": "Was ist strikt verboten?",
+      "q7Answer": "Illegaler Content; sexuell explizites/ausbeuterisches Material (inkl. Minderjährige); Hass, Belästigung, Gewalt; Malware/Betrug; Urheber-, Marken-, Datenschutzverletzungen. Wir können ohne Vorankündigung löschen und sperren."
+    },
+    "artistSupport": {
+      "title": "Künstler-Support — wir helfen gern",
+      "panelVisualTag": "Antwort in 1–2 Tagen",
+      "panelVisualQuestion": "BBCode-Embed funktioniert nicht?",
+      "panelVisualReply": "Verstanden — wir helfen Ihnen weiter.",
+      "topicEmbed": "Embeds & Links",
+      "topicAccount": "Künstlerkonto",
+      "topicPlan": "Pläne & Speicher",
+      "topicFeedback": "Ideen & Feedback",
+      "contactHint": "Jederzeit melden — keine Warteschlange.",
+      "contactCta": "Kontakt",
+      "emailCta": "E-Mail senden"
+    },
+    "conversion": {
+      "title": "Viele OCs? Batch-Upload aus dem Dashboard",
+      "description": "Pro-Künstler laden Dutzende Profilkarten auf einmal hoch, alle Links im Dashboard — höhere Tageslimits und Speicher für das ganze Roster.",
+      "cta": "Künstlerfreundliche Pro-Pläne ansehen"
+    }
+  }
+}

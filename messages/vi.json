@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Ảnh thành URL",
+    "logout": "Đăng xuất",
+    "logoutFailed": "Đăng xuất thất bại",
+    "switchLanguage": "Đổi ngôn ngữ",
+    "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây",
+    "header": {
+      "home": "Trang chủ",
+      "blog": "Blog",
+      "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
+      "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức",
+      "circleCrop": "Cắt ảnh thành hình tròn",
+      "circleCropNav": "Cắt hình tròn",
+      "roundedCorners": "Bo góc tròn",
+      "removeBackground": "Ảnh Xóa Nền",
+      "removeBackgroundNav": "Xóa Nền",
+      "pricingNav": "Giá",
+      "comingSoon": "Sắp ra mắt.",
+      "history": "Lịch sử tải lên",
+      "login": "Đăng nhập",
+      "signUp": "Đăng ký",
+      "signOut": "Đăng xuất",
+      "dashboard": "Bảng điều khiển",
+      "settings": "Cài đặt",
+      "tool": "Công cụ",
+      "pdfToUrlNav": "PDF sang URL",
+      "fileToUrlNav": "Tệp sang URL",
+      "artFightNav": "Thẻ hồ sơ"
+    },
+    "history": {
+      "drawerTitle": "Lịch sử tải lên",
+      "hint": "Hiển thị tải lên trong tuần qua.",
+      "close": "Đóng",
+      "empty": "Chưa có lần tải lên nào.",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép",
+      "open": "Mở trong tab mới"
+    },
+    "languageSelect": {
+      "title": "Chọn khu vực của bạn",
+      "subtitle": "Chọn khu vực sẽ thay đổi ngôn ngữ và nội dung.",
+      "close": "Đóng"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ.",
+        "line2": "Nhanh, đơn giản, đáng tin cậy."
+      },
+      "partners": "Đối tác",
+      "linksTitle": "Tài nguyên",
+      "productsTitle": "Sản phẩm",
+      "nav": {
+        "home": "Trang chủ",
+        "blog": "Blog",
+        "pricing": "Giá",
+        "docs": "Tài liệu",
+        "status": "Trạng thái",
+        "about": "Về chúng tôi",
+        "contact": "Liên hệ"
+      },
+      "legal": {
+        "title": "Pháp lý",
+        "privacy": "Quyền riêng tư",
+        "terms": "Điều khoản",
+        "cookie": "Chính sách Cookie"
+      },
+      "copyright": "© 2025 Photo To URL. Bảo lưu mọi quyền.",
+      "products": {
+        "editStamp": "Trình sửa con dấu"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Miễn phí",
+      "cdn": "Liên kết CDN",
+      "nosignup": "Không cần đăng ký"
+    },
+    "hero": {
+      "title1": "Miễn phí",
+      "title2": "ảnh thành URL",
+      "subtitle": "Tải lên → nhận liên kết → dán ở bất cứ đâu",
+      "upload": "Tải lên hình ảnh",
+      "bullet": {
+        "fast": "Chia sẻ nhanh",
+        "direct": "Liên kết ảnh trực tiếp",
+        "nosignup": "Không cần đăng ký",
+        "paste": "Dán từ clipboard"
+      }
+    },
+    "loginPrompt": {
+      "title": "Dang nhap de tiep tuc",
+      "description": "Ban da dat gioi han tai len mien phi. Dang nhap de luu lich su va quan ly tep. Gioi han cao hon co trong goi Pro.",
+      "benefits": "Tai sao nen dang ky?",
+      "benefit1": "Lich su tai len day du - gon gang, chinh xac va luon truy cap duoc",
+      "benefit2": "Truy cap tat ca cong cu chinh sua cao cap",
+      "benefit3": "Luu tru dam may voi lich su tai len",
+      "login": "Đăng nhập / Đăng ký",
+      "later": "De sau"
+    },
+    "upgradePrompt": {
+      "title": "Da dat gioi han hang ngay",
+      "description": "Ban da dung het luot tai len hom nay. Hay quay lai vao ngay mai! Se som co them dich vu cao cap.",
+      "comingSoon": "Hay don cho them cac dich vu moi",
+      "goDashboard": "Xem",
+      "later": "De sau"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo tự động",
+      "idleTitle": "Kéo và thả hình ảnh của bạn",
+      "idleSubtitle": "Xem quy trình tải lên → liên kết → sao chép đầy đủ.",
+      "processing": "Đang tối ưu hóa và tải lên...",
+      "doneTitle": "Sẵn sàng chia sẻ",
+      "doneSubtitle": "Liên kết của bạn sẵn sàng chia sẻ ngay lập tức.",
+      "thanksForWatching": "Cảm ơn bạn đã xem"
+    },
+    "upload": {
+      "title": "Thả ảnh hoặc nhấp để duyệt",
+      "hint": "JPG, PNG, WEBP, GIF lên đến 2MB (miễn phí 10 lần/ngày). Kéo thả, nhấp hoặc dán ảnh chụp màn hình.",
+      "orDrop": "hoặc thả tệp",
+      "samplesTitle": "Không có hình ảnh? Thử một trong những cái này:",
+      "policy": "Bằng cách tải lên hình ảnh, bạn đồng ý với <privacy>Chính sách Quyền riêng tư</privacy> và <terms>Điều khoản Sử dụng</terms> của chúng tôi.",
+      "clear": "Xóa"
+    },
+    "result": {
+      "error": "Tải lên thất bại. Vui lòng thử lại.",
+      "fileTooLarge": "Tep qua lon. Goi cua ban cho phep toi da {maxMb} MB moi tep.",
+      "dailyLimitReached": "Đã đạt giới hạn tải lên hàng ngày ({limit}/ngày). Vui lòng thử lại vào ngày mai!",
+      "storageLimitReached": "Lưu trữ đầy ({used} / {limit}). Thêm tùy chọn lưu trữ sắp ra mắt!",
+      "generated": "Liên kết đã tạo:",
+      "open": "Mở trong tab mới",
+      "placeholder": "Chưa có liên kết. Tải lên ảnh để tạo URL có thể chia sẻ.",
+      "savePrompt": "Lưu liên kết theo ý bạn",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép",
+      "saveHint": "Lưu liên kết này nếu bạn cần sau này",
+      "saveHintLoggedIn": "Đã lưu vào Dashboard",
+      "tryPrefix": "Thử"
+    },
+    "benefits": {
+      "title": "Tại sao mọi người chọn Ảnh thành URL",
+      "subtitle": "Tốc độ, liên kết sạch và không cần đăng ký. — Dùng thử miễn phí: 10 lần tải lên/ngày, 2MB mỗi file",
+      "items": {
+        "fast": {
+          "title": "Chia sẻ nhanh",
+          "desc": "Tải lên và nhận liên kết trong vài giây mà không cần thêm bước."
+        },
+        "direct": {
+          "title": "URL hình ảnh trực tiếp",
+          "desc": "Liên kết sạch hoạt động trong HTML, Markdown và ứng dụng trò chuyện."
+        },
+        "nosignup": {
+          "title": "Không cần đăng ký",
+          "desc": "Dùng thử miễn phí: 5 lần tải lên/ngày, 2MB mỗi file — không cần đăng ký."
+        }
+      }
+    },
+    "how": {
+      "title": "Cách hoạt động",
+      "step1": "1) Thêm ảnh của bạn (kéo, dán hoặc nhấp để chọn tệp).",
+      "step2": "2) Chúng tôi lưu trữ và trả về liên kết có thể chia sẻ.",
+      "step3": "3) Sao chép và chia sẻ liên kết trong tài liệu, trò chuyện, nguyên mẫu và nhiều nơi khác.",
+      "note": "Liên kết của bạn mở nhanh trong tài liệu, trò chuyện và nguyên mẫu—cộng với bạn có thể tải xuống dưới dạng .txt."
+    },
+    "process": {
+      "title": "Quy trình ba bước",
+      "subtitle": "Giảm nỗ lực, giữ CTA hiển thị, hoàn thành trong vài giây.",
+      "steps": {
+        "1": {
+          "title": "Thả hoặc dán",
+          "desc": "Kéo tệp, dán từ clipboard hoặc duyệt."
+        },
+        "2": {
+          "title": "Chúng tôi lưu trữ và trả về liên kết",
+          "desc": "URL tức thì với điều khiển sao chép/mở/lưu."
+        },
+        "3": {
+          "title": "Sử dụng ở bất cứ đâu",
+          "desc": "Sử dụng trong tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu."
+        }
+      }
+    },
+    "features": {
+      "title": "Điểm nổi bật tính năng",
+      "subtitle": "Rõ ràng trước: ít ma sát, chia sẻ nhiều hơn.",
+      "items": {
+        "cdn": {
+          "title": "Liên kết CDN trực tiếp",
+          "desc": "URL sạch, có thể dự đoán sẵn sàng cho nhúng Markdown và HTML."
+        },
+        "save": {
+          "title": "Sao chép và Lưu",
+          "desc": "Sao chép, mở hoặc lưu dưới dạng tệp .txt bằng một cú nhấp."
+        },
+        "clipboard": {
+          "title": "Thân thiện với clipboard",
+          "desc": "Dán ảnh chụp màn hình mà không cần tìm tệp hoặc tải lên lại."
+        },
+        "errors": {
+          "title": "An Toàn và Riêng Tư",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Không cần đăng ký",
+          "desc": "Dùng thử miễn phí: 5 lần tải lên/ngày, 2MB mỗi file — không cần đăng ký."
+        },
+        "r2": {
+          "title": "Lưu trữ nhanh",
+          "desc": "Liên kết được phục vụ qua CDN nhanh để tải nhanh và truy cập đáng tin cậy."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Nhóm tiết kiệm thời gian với Ảnh thành URL",
+      "subtitle": "Bằng chứng xã hội để giảm rủi ro và tăng tốc độ áp dụng.",
+      "items": {
+        "ops": {
+          "name": "Vận hành sản phẩm",
+          "quote": "Chúng tôi dán ảnh chụp màn hình vào vé mà không làm tắc nghẽn tệp đính kèm. Liên kết vẫn sạch."
+        },
+        "content": {
+          "name": "Trưởng nhóm nội dung",
+          "quote": "Liên kết sẵn sàng cho Markdown giữ tài liệu của chúng tôi gọn gàng và có thể xuất bản trong vài phút."
+        },
+        "support": {
+          "name": "Hỗ trợ",
+          "quote": "Lỗi rõ ràng và URL tức thì giúp dễ dàng hướng dẫn khách hàng trong trò chuyện."
+        }
+      }
+    },
+    "cta": {
+      "title": "Biến ảnh thành liên kết trong vài giây",
+      "subtitle": "Thả, dán hoặc tải lên—sao chép liên kết của bạn và chia sẻ.",
+      "upload": "Tải lên ngay",
+      "paste": "Dán ảnh chụp màn hình"
+    },
+    "longform": {
+      "title": "Tại sao Ảnh thành URL giúp quy trình làm việc của bạn",
+      "p1": "Ảnh thành URL được xây dựng cho người sáng tạo, nhà tiếp thị, nhóm hỗ trợ, người sáng lập và bất kỳ ai cần cách nhanh chóng, đáng tin cậy để biến ảnh thành liên kết sạch. Với quy trình tải lên-thành-liên kết trực tiếp, bạn tránh được các trình quản lý phương tiện nặng và bỏ qua đăng nhập. Liên kết gọn gàng, dễ dán vào ứng dụng trò chuyện, tài liệu, wiki, báo cáo lỗi và vé. Nhóm di chuyển nhanh hơn khi ảnh chụp màn hình và ảnh sản phẩm có thể chia sẻ ngay lập tức mà không có giới hạn tệp đính kèm hoặc bản xem trước lộn xộn. Vì các liên kết có thể dự đoán và nhất quán, chúng cũng hoạt động tốt trong tự động hóa, các bước QA và nguyên mẫu nhẹ.",
+      "p2": "Trải nghiệm vẫn đơn giản: thả, dán hoặc duyệt; nhận liên kết; chia sẻ. Không có chrome thêm, không có quảng cáo gây mất tập trung, không có cổng. Bạn giữ tập trung vào nội dung của mình trong khi chúng tôi xử lý các phần nhàm chán của lưu trữ. Cho dù bạn đang ghi lại một tính năng, chuẩn bị một bài đăng blog, xây dựng pitch deck hoặc gửi phản hồi hỗ trợ nhanh, một liên kết ngắn đánh bại các tệp đính kèm cồng kềnh. Đối với các nhóm toàn cầu, giao diện có sẵn bằng nhiều ngôn ngữ trong khi giữ văn bản ngắn gọn và phổ quát.",
+      "useCases": {
+        "title": "Trường hợp sử dụng vẫn thực tế",
+        "items": {
+          "1": "Sản phẩm và thiết kế: chia sẻ mockup UI, ảnh chụp màn hình thành phần và ghi chú trực quan nhanh mà không cần xuất sang các công cụ nặng.",
+          "2": "Hỗ trợ và QA: đính kèm ảnh chụp màn hình có thể tái tạo trong vé, chủ đề trò chuyện hoặc runbook; liên kết vẫn gọn gàng và dễ theo dõi.",
+          "3": "Tài liệu và blog: nhúng ảnh trong Markdown, HTML hoặc trình chỉnh sửa CMS với URL có thể dự đoán và không có bất ngờ về bố cục.",
+          "4": "Bán hàng và CS: thả ảnh chụp proof-of-concept hoặc hướng dẫn khách hàng trực tiếp vào email hoặc tin nhắn.",
+          "5": "Bàn giao kỹ thuật: giữ artifacts xây dựng, ảnh chụp lỗi và hình ảnh hồi quy nhẹ để xem xét nhanh hơn.",
+          "6": "Cộng đồng và mạng xã hội: dán liên kết vào Discord, Slack, Teams, Twitter/X hoặc diễn đàn mà không có bản xem trước phồng to."
+        }
+      },
+      "flow": {
+        "title": "Cách quy trình hoạt động từ đầu đến cuối",
+        "p1": "1) Chọn hình ảnh: kéo và thả, dán từ clipboard hoặc nhấp để duyệt. PNG, JPG, WEBP, GIF lên đến 2MB trong gói miễn phí (10 lần/ngày). 2) Chúng tôi tải lên và trả về liên kết trực tiếp với các thao tác sao chép, mở và lưu (.txt). 3) Sử dụng liên kết ở blog, tài liệu, vé, trò chuyện, nguyên mẫu và nhiều nơi khác.",
+        "p2": "Mỗi bước được điều chỉnh để rõ ràng: trạng thái hiển thị, lỗi thân thiện và nút xác nhận hành động. Khi CDN được bật, liên kết được phục vụ từ miền CDN; hình ảnh của bạn được lưu trữ an toàn trên our hosting infrastructure."
+      },
+      "best": {
+        "title": "Thực hành tốt nhất cho liên kết sạch hơn",
+        "items": {
+          "1": "Giữ tên tệp có ý nghĩa trước khi tải lên; chúng vẫn là một phần của URL và giúp tìm kiếm trong tương lai.",
+          "2": "Sử dụng WEBP hoặc JPG/PNG được tối ưu hóa cho payload nhẹ hơn nếu bạn mong đợi chia sẻ nặng.",
+          "3": "Sao chép liên kết trực tiếp sau khi tạo để tránh mục clipboard cũ.",
+          "6": "Lưu dưới dạng .txt cho liên kết văn bản thuần túy sẵn sàng để sao chép và sử dụng."
+        }
+      },
+      "roadmap": {
+        "title": "Điểm nổi bật của lộ trình",
+        "p1": "Chúng tôi sẽ tích hợp sâu our hosting infrastructure, cung cấp hạn ngạch và khả năng quản lý thân thiện hơn, cùng với hợp tác nhóm tùy chọn, kiểm soát truy cập và phân tích theo liên kết. Chúng tôi dự định ra mắt các tính năng như xóa một cú nhấp, kiểu liên kết được đặt trước và nhóm lưu trữ cấp tổ chức. Đồng thời, chúng tôi đang liên tục cải thiện và hoàn thiện các sản phẩm phụ: công cụ cắt hình tròn, công cụ góc bo tròn và công cụ xóa nền, để làm cho xử lý hình ảnh thuận tiện hơn."
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "items": {
+          "1": {
+            "q": "Có miễn phí không?",
+            "a": "Có — chúng tôi có gói miễn phí. Luồng cốt lõi tải lên→liên kết dùng miễn phí trong hạn mức (số lần mỗi ngày, tổng dung lượng lưu trữ, kích thước tệp). Muốn nới các giới hạn này, hãy chọn gói trả phí: liên kết được lưu trên CDN với hạn ngạch cao hơn và giới hạn kích thước tệp tối đa lớn hơn."
+          },
+          "2": {
+            "q": "Những định dạng nào được hỗ trợ?",
+            "a": "PNG, JPG, WEBP, GIF lên đến 2MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu."
+          },
+          "3": {
+            "q": "Tôi có thể nhúng trong Markdown hoặc HTML không?",
+            "a": "Có. Sao chép trực tiếp liên kết hoặc lưu một cú nhấp dưới dạng .txt rồi dùng ở nơi bạn cần — Markdown, HTML, tài liệu hoặc CMS."
+          },
+          "4": {
+            "q": "Bạn có giữ tệp của tôi ở chế độ công khai không?",
+            "a": "Liên kết có thể chia sẻ. Khi bật CDN, tệp được phục vụ qua miền CDN. Nếu lưu trữ tạm thời không khả dụng, chúng tôi hiển thị thông báo bảo trì rõ ràng."
+          },
+          "5": {
+            "q": "Sẽ có tài khoản hoặc nhóm không?",
+            "a": "Có. Trước tiên chúng tôi tập trung vào tải lên và chia sẻ đơn giản, đáng tin cậy; sau đó dần dần thêm không gian nhóm, kiểm soát truy cập và phân tích sử dụng."
+          },
+          "6": {
+            "q": "Tôi có được hoàn tiền sau khi thanh toán không?",
+            "a": "Thông thường chúng tôi không hoàn tiền khi dịch vụ vẫn sẵn sàng cho sử dụng bình thường. Nếu bạn không thể dùng dịch vụ trong thời gian đã trả phí do lỗi phía chúng tôi, chúng tôi sẽ xem xét sau khi xác minh và khi cần sẽ thống nhất các bước tiếp theo với bạn."
+          },
+          "7": {
+            "q": "Làm sao để hủy gia hạn?",
+            "a": "Gia hạn được tự động thu phí trên thẻ bạn đã ủy quyền. Để dừng các khoản phí sau này, hãy hủy trích nợ tự động hoặc thanh toán định kỳ tại ngân hàng phát hành thẻ (ứng dụng, ngân hàng trực tuyến hoặc dịch vụ khách hàng)."
+          },
+          "8": {
+            "q": "Sau khi hủy, tôi còn dùng dịch vụ được bao lâu?",
+            "a": "Thông thường bạn có thể tiếp tục đến hết kỳ đã thanh toán. Sau đó sẽ không thu thêm phí và quyền lợi kết thúc cùng kỳ đó."
+          }
+        },
+        "contactNote": "Đối với các câu hỏi trên và khác, vui lòng dùng trang «Liên hệ» trên trang này hoặc gửi email tới <email>support@phototourl.com</email>. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc."
+      },
+      "about": {
+        "title": "Giới thiệu Photo To URL",
+        "p1": "PhotoToURL là công cụ chuyển đổi hình ảnh sang URL miễn phí và trình tạo liên kết ảnh, giúp bạn tải ảnh lên và tạo ngay liên kết có thể chia sẻ. Dễ dàng chuyển JPG, PNG, WEBP và các định dạng khác thành URL ảnh trực tiếp để chia sẻ trực tuyến nhanh chóng.",
+        "p2": "Dù bạn cần chuyển ảnh sang URL nhanh hay lưu trữ miễn phí với CDN, PhotoToURL đều đơn giản và đáng tin cậy. Tải ảnh lên và nhận liên kết trực tiếp chỉ trong vài giây. Gói miễn phí: 10 lần tải lên/ngày, 2MB mỗi file — xem Bảng giá để biết giới hạn cao hơn."
+      }
+    },
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
+    }
+  },
+  "seo": {
+    "keywords": "ảnh url,hình ảnh url,trình tạo liên kết,chuyển ảnh,lưu trữ miễn phí,url trực tiếp,liên kết chia sẻ",
+    "home": {
+      "title": "Ảnh sang URL | Biến ảnh thành liên kết dễ chia sẻ",
+      "description": "Lưu trữ ảnh miễn phí: chuyển ảnh thành URL có thể chia sẻ. JPG, PNG, WEBP, GIF lên đến 2MB, 10 lần tải lên/ngày trong gói miễn phí. Clipboard, CDN nhanh."
+    }
+  },
+  "images": {
+    "previewAlt": "Xem trước hình ảnh đã tải lên",
+    "animatingSampleAlt": "Hình ảnh mẫu được sử dụng trong demo tải lên",
+    "sampleThumbAlt": "Hình ảnh mẫu để tải lên",
+    "useSampleAria": "Sử dụng hình ảnh mẫu này",
+    "howIllustrationAlt": "Minh họa cho thấy cách Ảnh thành URL hoạt động",
+    "heroDropTitle": "Kéo một bức ảnh vào đây",
+    "heroDropSubtitle": "Chúng tôi sẽ cải thiện và lưu trữ nó, sau đó trả về một liên kết sạch.",
+    "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 2MB)",
+    "logoAlt": "Logo Ảnh thành URL"
+  },
+  "circleCrop": {
+    "title": "Ảnh Thành Hình Tròn",
+    "description": "Công cụ cắt ảnh tròn trực tuyến miễn phí, dễ dàng cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế.",
+    "upload": "Tải ảnh lên",
+    "processing": "Đang xử lý...",
+    "download": "Tải xuống ảnh tròn",
+    "errorSelectFile": "Vui lòng chọn tệp ảnh",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước",
+    "page": {
+      "title": "Ảnh Thành Hình Tròn - Công Cụ Cắt Ảnh Tròn Trực Tuyến Miễn Phí",
+      "description": "Ảnh Thành Hình Tròn là công cụ trực tuyến miễn phí để chuyển đổi ảnh hình chữ nhật thành hình tròn hoàn hảo. Công cụ của chúng tôi giúp bạn cắt ảnh ở định dạng tròn ngay lập tức, không cần đăng ký. Dù bạn cần ảnh đại diện tròn, ảnh tròn cho mạng xã hội, hay ảnh bo tròn cho dự án thiết kế, công cụ cắt ảnh tròn của chúng tôi làm cho mọi thứ trở nên đơn giản và dễ dàng.",
+      "sectionSubtitle": "Cat anh thanh hinh tron hoan hao - ly tuong cho anh dai dien, avatar mang xa hoi va du an thiet ke."
+    },
+    "seo": {
+      "title": "Công Cụ Cắt Hình Tròn | Công Cụ Cắt Ảnh Tròn Trực Tuyến Miễn Phí",
+      "description": "Công cụ trực tuyến miễn phí để cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế.",
+      "keywords": "cắt hình tròn, cắt ảnh tròn, công cụ cắt tròn, cắt tròn trực tuyến"
+    },
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
+    }
+  },
+  "roundedCorners": {
+    "title": "Ảnh bo góc tròn",
+    "description": "Công cụ trực tuyến miễn phí bo góc tròn, dễ dàng thêm góc tròn cho mọi ảnh – hoàn hảo cho biểu tượng ứng dụng, ảnh đại diện và dự án thiết kế.",
+    "upload": "Tải ảnh lên",
+    "download": "Tải xuống",
+    "radiusLabel": "Bán kính (px)",
+    "scaleLabel": "Thu phóng",
+    "processing": "Đang xử lý...",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước.",
+    "errorSelectFile": "Vui lòng chọn tệp hình ảnh.",
+    "page": {
+      "title": "Ảnh bo góc tròn – Công cụ trực tuyến miễn phí",
+      "description": "Ảnh bo góc tròn là công cụ trực tuyến miễn phí để thêm góc tròn cho bất kỳ ảnh nào. Tạo biểu tượng kiểu app, ảnh viền mềm cho mạng xã hội hoặc ảnh thu nhỏ với bán kính và thu phóng có thể điều chỉnh. Không cần đăng ký – tải lên, chỉnh sửa, tải xuống.",
+      "sectionSubtitle": "Them goc bo tron cho moi anh - hoan hao cho bieu tuong ung dung, mang xa hoi va anh thu nho."
+    },
+    "seo": {
+      "title": "Công Cụ Bo Góc Tròn | Công cụ trực tuyến miễn phí",
+      "description": "Công cụ miễn phí thêm góc tròn cho ảnh – phù hợp cho biểu tượng app, ảnh đại diện và dự án thiết kế.",
+      "keywords": "góc tròn, ảnh góc tròn, công cụ góc tròn, góc tròn trực tuyến"
+    },
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích"
+    }
+  },
+  "removeBackground": {
+    "title": "Ảnh Xóa Nền",
+    "description": "Công cụ xóa nền AI trực tuyến miễn phí, dễ dàng xóa nền khỏi bất kỳ bức ảnh nào - hoàn hảo cho ảnh sản phẩm, chân dung và dự án thiết kế.",
+    "upload": "Tải Ảnh Lên",
+    "download": "Tải Xuống",
+    "processing": "Đang xử lý...",
+    "processingModelLoading": "Đang tải mô hình AI, lần sử dụng đầu tiên có thể mất 10-30 giây, vui lòng đợi...",
+    "processingImage": "Đang xử lý hình ảnh, vui lòng đợi...",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước.",
+    "errorSelectFile": "Vui lòng chọn tệp hình ảnh.",
+    "errorProcessing": "Xử lý hình ảnh thất bại. Vui lòng thử lại.",
+    "errorTimeout": "Hết thời gian xử lý, hình ảnh có thể quá lớn hoặc mạng chậm, vui lòng thử hình ảnh nhỏ hơn hoặc thử lại sau.",
+    "errorMemory": "Bộ nhớ không đủ, vui lòng thử hình ảnh nhỏ hơn.",
+    "errorGeneric": "Xử lý thất bại: {error}. Vui lòng thử lại hoặc thử hình ảnh khác.",
+    "errorFileTooLarge": "Tệp hình ảnh quá lớn, vui lòng chọn hình ảnh nhỏ hơn 10MB.",
+    "errorModelLoad": "Không thể tải thư viện mô hình AI, vui lòng làm mới trang và thử lại.",
+    "errorPageHidden": "Trang đã được thay đổi, vui lòng tải lên hình ảnh lại để xử lý.",
+    "page": {
+      "title": "Ảnh Xóa Nền - Công Cụ Xóa Nền AI Trực Tuyến Miễn Phí",
+      "description": "Ảnh Xóa Nền là công cụ trực tuyến miễn phí được hỗ trợ bởi AI để xóa nền khỏi bất kỳ bức ảnh nào. Tạo hình ảnh PNG trong suốt ngay lập tức với công nghệ xóa nền tiên tiến của chúng tôi. Hoàn hảo cho ảnh sản phẩm, chân dung, thương mại điện tử và dự án thiết kế. Không cần đăng ký - tải lên, xử lý và tải xuống trong vài giây.",
+      "sectionSubtitle": "Xoa nen bang AI - tao PNG trong suot tu moi anh chi trong vai giay."
+    },
+    "seo": {
+      "title": "Công Cụ Xóa Nền | Công Cụ Xóa Nền AI Trực Tuyến Miễn Phí",
+      "description": "Công cụ AI trực tuyến miễn phí để xóa nền khỏi bất kỳ bức ảnh nào - hoàn hảo cho ảnh sản phẩm, chân dung và dự án thiết kế.",
+      "keywords": "xóa nền, công cụ xóa nền, nền trong suốt, xóa nền bằng ai"
+    },
+    "selectRegion": {
+      "title": "Chọn Khu Vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF sang URL | Lưu trữ PDF và liên kết HTTPS có thể chia sẻ",
+      "description": "Tải PDF lên tài khoản và nhận liên kết HTTPS ổn định — xem, tải xuống hoặc sao chép liên kết bất cứ lúc nào trong bảng điều khiển tài khoản.",
+      "keywords": "pdf sang url,lưu trữ pdf,chia sẻ pdf,tải lên pdf,liên kết trực tiếp,liên kết tài liệu"
+    },
+    "tool": {
+      "heroTitle": "PDF sang URL",
+      "heroSubtitle": "Chuyển PDF thành liên kết HTTPS có thể chia sẻ gắn với tài khoản. Sau mỗi lần tải lên, mở bảng điều khiển để sao chép liên kết, xem trước hoặc tải xuống.",
+      "featureFastTitle": "Tải lên nhanh",
+      "featureFastDesc": "Kéo thả hoặc chọn PDF; trong vài giây bạn nhận liên kết qua CDN.",
+      "featureHostingTitle": "Lưu trữ cá nhân",
+      "featureHostingDesc": "Mỗi tệp được lưu trong không gian đám mây và thư viện tài liệu của bạn — không phải liên kết ẩn danh dùng một lần.",
+      "featureLinkTitle": "Liên kết ổn định, dễ chia sẻ",
+      "featureLinkDesc": "Mỗi lần tải lên trả về URL sạch để dán mọi nơi. Liên kết hoạt động cho đến khi bạn xóa tệp trong bảng điều khiển.",
+      "featureDashboardTitle": "Mọi thứ ở một nơi",
+      "featureDashboardDesc": "Sau khi đăng nhập, mở bảng điều khiển để xem mọi PDF: sao chép lại liên kết, mở tab mới hoặc tải bản gốc.",
+      "dropzoneTitle": "Kéo PDF vào đây",
+      "dropzoneHint": "Chỉ PDF",
+      "dropzoneFootnote": "Sau khi tải lên, bạn có thể quay lại bảng điều khiển bất cứ lúc nào để sao chép liên kết hoặc tải tệp.",
+      "browse": "Chọn tệp",
+      "selectedFileLabel": "Tệp đã chọn",
+      "removeSelectedFile": "Gỡ tệp",
+      "uploadBtn": "Tải lên và lấy liên kết",
+      "uploading": "Đang tải lên…",
+      "loginRequiredTitle": "Đăng nhập để tải PDF",
+      "loginRequiredDescription": "Vui lòng đăng nhập trước. Lưu trữ gắn với tài khoản; sau khi tải lên bạn có thể sao chép liên kết, tải xuống và quản lý mọi thứ trong bảng điều khiển.",
+      "loginRequiredDetail": "Sau khi đăng nhập, mỗi lần tải lên hiển thị cùng một chỗ trong bảng điều khiển: sao chép liên kết trực tiếp một chạm, mở tab mới, tải bản gốc, tìm kiếm và lọc theo loại khi cần, xóa hoặc tải lại — giúp giữ riêng tư tài liệu.",
+      "loginCta": "Đăng nhập",
+      "signUpCta": "Tạo tài khoản",
+      "resultTitle": "Liên kết PDF của bạn",
+      "resultDashboardHint": "Với tệp này, mở bảng điều khiển bất cứ lúc nào: sao chép URL, mở tab mới hoặc tải PDF.",
+      "dashboardCta": "Mở bảng điều khiển",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép",
+      "open": "Mở trong tab mới",
+      "reset": "Tải lên khác",
+      "errorUnauthorized": "Vui lòng đăng nhập trước khi tải PDF.",
+      "errorBadType": "Vui lòng chọn tệp PDF.",
+      "howTitle": "Cách hoạt động",
+      "step1Title": "1. Chọn PDF",
+      "step1Desc": "Chọn tệp trên thiết bị hoặc kéo vào vùng tải lên.",
+      "step2Title": "2. Tải lên thư viện",
+      "step2Desc": "Chúng tôi lưu PDF vào đám mây và hiển thị trong bảng điều khiển, sau đó trả về URL HTTPS trực tiếp.",
+      "step3Title": "3. Chia sẻ và quay lại sau",
+      "step3Desc": "Chia sẻ liên kết qua email hoặc chat. Khi cần, mở bảng điều khiển để sao chép lại, mở hoặc tải tệp."
+    },
+    "page": {
+      "sectionTitle": "Tài liệu của bạn ở một nơi",
+      "sectionLead": "Dành cho người cần lưu trữ PDF thật sự, không chỉ liên kết tạm: tải một lần, giữ trong tài khoản và quay lại bất cứ lúc nào.",
+      "bullet1": "Mỗi PDF đã tải hiển thị trong cùng danh sách bảng điều khiển để xem lại nội dung đã chia sẻ.",
+      "bullet2": "Lưu trữ cá nhân: tệp thuộc tài khoản bạn, phục vụ qua HTTPS và nằm trong thư viện.",
+      "bullet3": "Thao tác luôn sẵn có: sao chép liên kết công khai, mở trong trình duyệt hoặc tải PDF gốc.",
+      "bullet4": "Cùng một URL vẫn hoạt động khi tệp còn tồn tại; sau khi xóa trong bảng điều khiển, liên kết không còn phục vụ tệp đó.",
+      "footnote": "Xóa tệp không cần thiết trong bảng điều khiển; liên kết sẽ ngừng hoạt động."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Tệp sang URL | Tài liệu Office và liên kết HTTPS",
+      "description": "Tải PDF, Word, PowerPoint hoặc Excel lên tài khoản và nhận liên kết HTTPS ổn định — xem, tải xuống hoặc sao chép liên kết trong bảng điều khiển bất cứ lúc nào.",
+      "keywords": "tệp sang url,liên kết tài liệu,chia sẻ office,tải docx pptx xlsx,lưu trữ tài liệu"
+    },
+    "tool": {
+      "heroTitle": "Tệp sang URL",
+      "heroSubtitle": "Chuyển tài liệu văn phòng thành liên kết HTTPS có thể chia sẻ trong tài khoản. Định dạng hỗ trợ: PDF, Word, PowerPoint và Excel.",
+      "featureFastTitle": "Tải lên nhanh",
+      "featureFastDesc": "Kéo thả hoặc chọn tệp được hỗ trợ; trong vài giây nhận liên kết qua CDN.",
+      "featureHostingTitle": "Lưu trữ cá nhân",
+      "featureHostingDesc": "Mỗi lần tải lên được lưu vào đám mây và vào cùng thư viện cá nhân với các lần tải từ trang khác.",
+      "featureLinkTitle": "Liên kết ổn định, dễ chia sẻ",
+      "featureLinkDesc": "Mỗi lần tải lên trả về URL sạch. Liên kết hoạt động cho đến khi bạn xóa tệp trong bảng điều khiển.",
+      "featureDashboardTitle": "Mọi thứ ở một nơi",
+      "featureDashboardDesc": "Sau khi đăng nhập, mở bảng điều khiển để sao chép lại liên kết, mở tab mới hoặc tải xuống.",
+      "dropzoneTitle": "Kéo tệp vào đây",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Sau khi tải lên, bạn có thể quay lại bảng điều khiển bất cứ lúc nào để sao chép liên kết hoặc tải tệp.",
+      "browse": "Chọn tệp",
+      "selectedFileLabel": "Tệp đã chọn",
+      "removeSelectedFile": "Gỡ tệp",
+      "uploadBtn": "Tải lên và lấy liên kết",
+      "uploading": "Đang tải lên…",
+      "loginRequiredTitle": "Đăng nhập để tải tệp",
+      "loginRequiredDescription": "Vui lòng đăng nhập trước. Lưu trữ gắn với tài khoản; sau khi tải lên bạn có thể sao chép liên kết, tải xuống và quản lý mọi thứ trong bảng điều khiển.",
+      "loginRequiredDetail": "Sau khi đăng nhập, mỗi lần tải lên hiển thị cùng một chỗ trong bảng điều khiển: sao chép liên kết trực tiếp một chạm, mở tab mới, tải bản gốc, tìm kiếm và lọc theo loại khi cần, xóa hoặc tải lại — giúp giữ riêng tư tài liệu.",
+      "loginCta": "Đăng nhập",
+      "signUpCta": "Tạo tài khoản",
+      "resultTitle": "Liên kết tệp của bạn",
+      "resultDashboardHint": "Với tệp này, mở bảng điều khiển bất cứ lúc nào: sao chép URL, mở tab mới hoặc tải bản gốc.",
+      "dashboardCta": "Mở bảng điều khiển",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép",
+      "open": "Mở trong tab mới",
+      "reset": "Tải lên khác",
+      "errorUnauthorized": "Vui lòng đăng nhập trước khi tải tệp.",
+      "errorBadType": "Vui lòng chọn tệp PDF, Word, PowerPoint hoặc Excel.",
+      "howTitle": "Cách hoạt động",
+      "step1Title": "1. Chọn tệp",
+      "step1Desc": "Chọn tài liệu được hỗ trợ trên thiết bị hoặc kéo vào vùng tải lên.",
+      "step2Title": "2. Tải lên thư viện",
+      "step2Desc": "Chúng tôi lưu tệp vào đám mây và hiển thị trong bảng điều khiển, sau đó trả về URL HTTPS trực tiếp.",
+      "step3Title": "3. Chia sẻ và quay lại sau",
+      "step3Desc": "Chia sẻ liên kết qua email hoặc chat. Khi cần, mở bảng điều khiển để sao chép lại, mở hoặc tải tệp."
+    },
+    "page": {
+      "sectionTitle": "Tóm tắt",
+      "sectionLead": "Chọn tệp, tải lên và sao chép liên kết; khi cần mở bảng điều khiển để sao chép lại hoặc tải bản gốc.",
+      "bullet1": "Định dạng hỗ trợ: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Kéo thả hoặc duyệt chọn tệp; khi hoàn tất hiển thị liên kết HTTPS sẵn sàng sao chép.",
+      "bullet3": "Dán liên kết vào email, chat hoặc tài liệu — người nhận mở trong trình duyệt.",
+      "bullet4": "Tệp nằm trong tài khoản; mở bảng điều khiển để sao chép lại cùng liên kết hoặc tải bản gốc.",
+      "bullet5": "Chỉ PDF? Dùng thêm trang «PDF sang URL» để quy trình ngắn hơn.",
+      "footnote": "Khi không cần nữa, xóa tệp trong bảng điều khiển; liên kết sẽ ngừng hoạt động."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Ảnh thành URL",
+      "description": "Các bài viết về lưu trữ ảnh, chia sẻ liên kết và mẹo hiệu suất."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Các bài viết, hướng dẫn và thông tin mới nhất về lưu trữ hình ảnh, CDN, chia sẻ liên kết, cắt hình tròn, bo góc và xóa nền.",
+      "stayTuned": "Hãy theo dõi các hướng dẫn về:",
+      "guides": {
+        "1": "Thực hành tốt nhất để chuyển đổi hình ảnh sang URL",
+        "2": "Cách sử dụng liên kết ảnh trực tiếp trong blog và tài liệu",
+        "3": "Hiệu suất và bộ nhớ đệm cho tài sản tĩnh"
+      },
+      "readMore": "Đọc thêm",
+      "min": "phút",
+      "backToBlog": "Quay lại blog",
+      "minRead": "phút đọc",
+      "author": "Tác giả",
+      "viewMoreArticles": "Xem thêm bài viết",
+      "tags": "Thẻ:",
+      "about": {
+        "title": "Về đội ngũ Ảnh thành URL",
+        "subtitle": "Đội ngũ biên tập",
+        "description": "Chúng tôi xây dựng và duy trì Ảnh thành URL và viết các hướng dẫn thực tế về tối ưu hóa hình ảnh và hiệu suất web.",
+        "website": "Trang web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Xem tất cả bài viết"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cách chuyển đổi hình ảnh thành URL: Hướng dẫn đầy đủ",
+        "description": "Tìm hiểu mọi thứ bạn cần biết về việc chuyển đổi hình ảnh thành URL có thể chia sẻ. Hướng dẫn toàn diện này bao gồm các phương pháp, thực hành tốt nhất và mẹo về lưu trữ hình ảnh và chia sẻ liên kết.",
+        "content": "# Cách chuyển đổi hình ảnh thành URL: Hướng dẫn đầy đủ\n\nChuyển đổi hình ảnh thành URL có thể chia sẻ đã trở thành một kỹ năng thiết yếu trong thế giới số ngày nay. Dù bạn là blogger, nhà phát triển hay người tạo nội dung, việc hiểu cách biến đổi hình ảnh thành liên kết trực tiếp có thể cải thiện đáng kể quy trình làm việc và khả năng chia sẻ nội dung của bạn.\n\n## Tại sao chuyển đổi hình ảnh thành URL?\n\nTrước khi đi sâu vào các phương pháp, hãy hiểu tại sao chuyển đổi hình ảnh thành URL lại có lợi:\n\n### 1. **Chia Sẻ Dễ Dàng**\nURL hình ảnh trực tiếp cho phép bạn chia sẻ hình ảnh ngay lập tức mà không cần tải xuống hoặc tải lại tệp. Chỉ cần sao chép URL và dán nó ở bất cứ đâu - trong email, tài liệu hoặc bài đăng trên mạng xã hội.\n\n### 2. **Hiệu Suất Tốt Hơn**\nSử dụng liên kết hình ảnh trực tiếp giảm tải cho máy chủ chính của bạn. Khi hình ảnh được lưu trữ trên CDN (Mạng phân phối nội dung), chúng tải nhanh hơn cho người dùng trên toàn thế giới.\n\n### 3. **Linh Hoạt**\nURL hình ảnh có thể được nhúng vào HTML, Markdown hoặc sử dụng trong API. Tính linh hoạt này làm cho chúng hoàn hảo cho cả nhà phát triển và người tạo nội dung.\n\n### 4. **Hiệu Quả Lưu Trữ**\nThay vì lưu trữ hình ảnh cục bộ, bạn có thể sử dụng các giải pháp lưu trữ đám mây cung cấp URL trực tiếp, tiết kiệm không gian máy chủ quý giá.\n\n## Phương Pháp Chuyển Đổi Hình Ảnh Thành URL\n\n### Phương Pháp 1: Sử Dụng Dịch Vụ Ảnh thành URL\n\n**Ảnh thành URL** là một dịch vụ miễn phí, thân thiện với người dùng giúp việc chuyển đổi hình ảnh thành URL trở nên dễ dàng:\n\n1. **Truy cập trang web**: Điều hướng đến Ảnh thành URL\n2. **Tải lên hình ảnh của bạn**: Kéo và thả tệp hình ảnh hoặc nhấp để duyệt\n3. **Nhận URL của bạn**: Sau khi tải lên, bạn sẽ nhận được liên kết trực tiếp đến hình ảnh của mình\n4. **Sao chép và sử dụng**: Sao chép URL và sử dụng nó ở bất cứ đâu bạn cần\n\n**Ưu điểm:**\n- ✅ Không cần đăng ký\n- ✅ Tải lên và xử lý nhanh\n- ✅ Liên kết CDN trực tiếp để đạt hiệu suất tối ưu\n- ✅ Hỗ trợ nhiều định dạng hình ảnh (JPG, PNG, WEBP, GIF)\n- ✅ 10 lần tải lên/ngày, 2MB mỗi file\n\n### Phương Pháp 2: Dịch Vụ Lưu Trữ Đám Mây\n\nCác dịch vụ lưu trữ đám mây phổ biến cung cấp dịch vụ lưu trữ hình ảnh với quyền truy cập URL trực tiếp:\n\n**Google Cloud Storage / AWS S3:**\n- Tải hình ảnh lên bucket của bạn\n- Đặt quyền phù hợp\n- Truy cập hình ảnh qua URL trực tiếp\n- Cấu hình CDN để có hiệu suất tốt hơn\n\n**Ưu điểm:**\n- Kiểm soát hoàn toàn hình ảnh của bạn\n- Giải pháp lưu trữ có thể mở rộng\n- Hạ tầng cấp chuyên nghiệp\n\n### Phương Pháp 3: Nền Tảng Lưu Trữ Hình Ảnh\n\nCác nền tảng lưu trữ hình ảnh chuyên dụng cung cấp dịch vụ chuyên biệt:\n\n- **Imgur**: Phổ biến để chia sẻ hình ảnh nhanh\n- **Cloudinary**: Tính năng thao tác hình ảnh nâng cao\n- **ImageKit**: Tối ưu hóa cho hiệu suất\n\n## Thực Hành Tốt Nhất Cho URL Hình Ảnh\n\n### 1. **Chọn Định Dạng Đúng**\n\nCác định dạng hình ảnh khác nhau phục vụ các mục đích khác nhau:\n\n- **JPEG**: Tốt nhất cho ảnh chụp có nhiều màu\n- **PNG**: Lý tưởng cho hình ảnh có độ trong suốt hoặc cạnh sắc nét\n- **WEBP**: Định dạng hiện đại cung cấp nén tốt hơn\n- **GIF**: Hoàn hảo cho hình ảnh động\n\n### 2. **Tối Ưu Kích Thước Hình Ảnh**\n\nTrước khi chuyển đổi sang URL, hãy tối ưu hóa hình ảnh của bạn:\n\n- Nén hình ảnh để giảm kích thước tệp\n- Thay đổi kích thước hình ảnh theo kích thước phù hợp\n- Sử dụng các định dạng hiện đại như WEBP khi có thể\n- Cân bằng chất lượng và kích thước tệp\n\n### 3. **Sử Dụng CDN Để Có Hiệu Suất Tốt Hơn**\n\nMạng phân phối nội dung (CDN) phân phối hình ảnh của bạn trên nhiều máy chủ trên toàn thế giới, đảm bảo thời gian tải nhanh bất kể vị trí người dùng.\n\n### 4. **Triển Khai Bảo Mật Phù Hợp**\n\n- Sử dụng URL HTTPS để phân phối hình ảnh an toàn\n- Đặt quyền truy cập phù hợp\n- Cân nhắc thêm watermark cho nội dung nhạy cảm\n- Giám sát việc sử dụng để ngăn chặn lạm dụng\n\n## Trường Hợp Sử Dụng Phổ Biến\n\n### Cho Bloggers\n\nBloggers có thể sử dụng URL hình ảnh để:\n- Nhúng hình ảnh vào bài đăng blog mà không cần lưu trữ cục bộ\n- Cải thiện thời gian tải trang\n- Chia sẻ hình ảnh trên nhiều nền tảng\n- Duy trì chất lượng hình ảnh nhất quán\n\n### Cho Nhà Phát Triển\n\nNhà phát triển hưởng lợi từ URL hình ảnh bằng cách:\n- Giảm tải máy chủ\n- Đơn giản hóa quản lý hình ảnh\n- Cho phép tải hình ảnh động\n- Tích hợp với API và dịch vụ web\n\n### Cho Thương Mại Điện Tử\n\nCác trang web thương mại điện tử sử dụng URL hình ảnh để:\n- Hiển thị hình ảnh sản phẩm hiệu quả\n- Quản lý danh mục hình ảnh lớn\n- Tối ưu hóa cho thiết bị di động\n- Cải thiện hiệu suất trang thanh toán\n\n## Khắc Phục Sự Cố Thường Gặp\n\n### Vấn Đề: Liên Kết Hình Ảnh Bị Hỏng\n\n**Giải Pháp:**\n- Xác minh URL đúng và có thể truy cập\n- Kiểm tra quyền và cài đặt truy cập hình ảnh\n- Đảm bảo dịch vụ lưu trữ đang hoạt động\n- Xác thực định dạng hình ảnh được hỗ trợ\n\n### Vấn Đề: Thời Gian Tải Chậm\n\n**Giải Pháp:**\n- Sử dụng CDN để phân phối hình ảnh\n- Tối ưu hóa kích thước tệp hình ảnh\n- Chọn định dạng hình ảnh phù hợp\n- Triển khai tải lười biếng khi có thể\n\n### Vấn Đề: Hình Ảnh Không Hiển Thị\n\n**Giải Pháp:**\n- Kiểm tra cài đặt CORS (Chia sẻ tài nguyên đa nguồn gốc)\n- Xác minh các giao thức HTTPS/HTTP khớp\n- Đảm bảo các loại MIME phù hợp được đặt\n- Kiểm tra khả năng truy cập URL từ các vị trí khác nhau\n\n## Mẹo Nâng Cao\n\n### 1. **Xử Lý Hàng Loạt**\n\nĐối với nhiều hình ảnh, hãy cân nhắc:\n- Sử dụng API để tải lên tự động\n- Triển khai script chuyển đổi hàng loạt\n- Sử dụng API lưu trữ đám mây\n- Thiết lập quy trình làm việc tự động\n\n### 2. **Thao Tác Hình Ảnh**\n\nMột số dịch vụ cung cấp thao tác hình ảnh ngay lập tức:\n- Thay đổi kích thước hình ảnh qua tham số URL\n- Áp dụng bộ lọc và hiệu ứng\n- Chuyển đổi định dạng tự động\n- Cắt xén và xoay hình ảnh\n\n### 3. **Phân Tích Và Giám Sát**\n\nTheo dõi việc sử dụng hình ảnh của bạn:\n- Giám sát mức tiêu thụ băng thông\n- Phân tích hình ảnh phổ biến\n- Theo dõi mẫu truy cập\n- Tối ưu hóa dựa trên dữ liệu sử dụng\n\n## Kết Luận\n\nChuyển đổi hình ảnh thành URL là một quá trình đơn giản mang lại nhiều lợi ích. Dù bạn chọn một dịch vụ đơn giản như Ảnh thành URL hay một giải pháp lưu trữ đám mây toàn diện, điều quan trọng là tìm ra phương pháp phù hợp nhất với nhu cầu của bạn.\n\nHãy nhớ:\n- ✅ Tối ưu hóa hình ảnh trước khi tải lên\n- ✅ Chọn định dạng phù hợp\n- ✅ Sử dụng CDN để có hiệu suất tốt hơn\n- ✅ Triển khai các biện pháp bảo mật phù hợp\n- ✅ Giám sát và tối ưu hóa thường xuyên\n\nBằng cách làm theo các hướng dẫn này, bạn sẽ có thể chuyển đổi và quản lý hình ảnh của mình một cách hiệu quả như URL, cải thiện cả quy trình làm việc và hiệu suất nội dung của bạn.\n\n## Công Cụ Liên Quan\n\n- [Ảnh thành URL](/) - Dịch vụ chuyển đổi hình ảnh thành URL miễn phí\n- [Công Cụ Cắt Hình Tròn](/circle-crop) - Tạo hình ảnh tròn\n- [Công Cụ Góc Bo Tròn](/rounded-corners) - Thêm góc bo tròn cho hình ảnh\n- [Công Cụ Xóa Nền](/remove-background) - Xóa nền hình ảnh bằng AI\n\n---\n\n*Cập nhật lần cuối: Tháng 12 năm 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Cách cắt ảnh thành hình tròn - Hướng dẫn đầy đủ",
+        "description": "Biến bất kỳ bức ảnh nào thành hình ảnh tròn hoàn hảo với công cụ cắt hình tròn trực tuyến miễn phí của chúng tôi. Tạo hình ảnh tròn chuyên nghiệp cho hồ sơ, mạng xã hội, logo và nhiều hơn nữa chỉ trong vài giây.",
+        "content": "# Cách cắt ảnh thành hình tròn - Hướng dẫn đầy đủ\n\nBiến bất kỳ bức ảnh nào thành hình ảnh tròn hoàn hảo với công cụ cắt hình tròn trực tuyến miễn phí của chúng tôi. Tạo hình ảnh tròn chuyên nghiệp cho hồ sơ, mạng xã hội, logo và nhiều hơn nữa chỉ trong vài giây.\n\n## Cách cắt ảnh thành hình tròn\n\n### Bước 1: Tải ảnh lên\nChọn bất kỳ bức ảnh nào từ thiết bị của bạn mà bạn muốn cắt thành hình tròn. Công cụ của chúng tôi hỗ trợ các định dạng JPG, PNG, WEBP và GIF. Chỉ cần nhấp vào nút tải lên hoặc kéo và thả tệp hình ảnh của bạn.\n\n### Bước 2: Định vị ảnh của bạn\nĐiều chỉnh và căn giữa ảnh của bạn trong vùng cắt hình tròn. Sử dụng thanh trượt thu phóng để tập trung vào phần quan trọng nhất của hình ảnh và kéo để định vị lại để có vết cắt tròn hoàn hảo.\n\n### Bước 3: Tải xuống hình ảnh tròn của bạn\nKhi bạn hài lòng với vị trí, nhấp vào \"Cắt và Tải xuống\" để có được hình ảnh tròn hoàn hảo của bạn. Kết quả sẽ có nền trong suốt, làm cho nó hoàn hảo để sử dụng ở bất cứ đâu.\n\n## Cách sử dụng phổ biến cho hình ảnh cắt hình tròn\n\n### Ảnh đại diện\nCắt ảnh thành hình tròn để có hình ảnh hồ sơ trông chuyên nghiệp trên các nền tảng mạng xã hội như Facebook, LinkedIn và Instagram. Avatar tròn tạo ra một diện mạo hiện đại, bóng bẩy.\n\n### Đồ họa mạng xã hội\nTạo hình ảnh tròn cho Instagram stories, bài đăng Facebook và hồ sơ Twitter nổi bật giữa đám đông. Hình ảnh tròn thêm sự quan tâm trực quan và phá vỡ sự đơn điệu của các bài đăng vuông.\n\n### Logo tròn\nBiến đổi logo hoặc hình ảnh thương hiệu của bạn thành hình tròn hoàn hảo để có thương hiệu nhất quán trên tất cả các nền tảng. Logo tròn hoạt động đặc biệt tốt cho biểu tượng ứng dụng và thương hiệu mạng xã hội.\n\n### Ảnh chứng thực\nHiển thị chứng thực của khách hàng hoặc khách hàng với ảnh đại diện tròn để có diện mạo sạch sẽ, chuyên nghiệp. Hình ảnh tròn tạo ra sự nhất quán trực quan và làm cho chứng thực của bạn hấp dẫn hơn.\n\n### Ảnh thành viên nhóm\nTạo ảnh chân dung tròn nhất quán cho trang web công ty, trang nhóm và thư mục nhân viên. Ảnh tròn đồng nhất mang lại cho trang nhóm của bạn một diện mạo gắn kết, chuyên nghiệp.\n\n## Tính năng của công cụ cắt hình tròn\n\n- **Công cụ cắt hình tròn miễn phí** - Tạo hình tròn từ bất kỳ hình ảnh nào miễn phí, không có phí ẩn\n- **Đầu ra độ phân giải cao** - Tải xuống hình ảnh tròn của bạn ở chất lượng gốc mà không cần nén\n- **Không cần đăng ký** - Bắt đầu cắt hình ảnh tròn ngay lập tức, không cần tạo tài khoản\n- **Riêng tư và an toàn** - Hình ảnh của bạn không bao giờ rời khỏi trình duyệt của bạn, đảm bảo quyền riêng tư hoàn toàn\n- **Giao diện dễ sử dụng** - Thiết kế đơn giản, trực quan giúp tạo hình ảnh tròn dễ dàng\n- **Hoạt động trên tất cả thiết bị** - Cắt hình ảnh thành hình tròn trên máy tính để bàn, máy tính bảng hoặc thiết bị di động\n- **Nền trong suốt** - Tất cả các vết cắt tròn đều có nền trong suốt để có tính linh hoạt tối đa\n- **Xem trước thời gian thực** - Xem chính xác hình ảnh tròn của bạn sẽ trông như thế nào trước khi tải xuống\n\n## Câu hỏi thường gặp về cắt ảnh hình tròn\n\n### Làm thế nào để cắt một hình ảnh thành hình tròn?\n\nChỉ cần tải hình ảnh của bạn lên công cụ của chúng tôi, điều chỉnh nó trong khung tròn để định vị đối tượng đúng cách, và nhấp vào \"Cắt và Tải xuống\" để có được hình ảnh tròn hoàn hảo của bạn. Công cụ của chúng tôi giúp dễ dàng cắt bất kỳ hình ảnh nào ở định dạng tròn ngay lập tức mà không cần bất kỳ kỹ năng thiết kế nào.\n\n### Làm thế nào để tạo ảnh đại diện tròn?\n\nTải ảnh của bạn lên công cụ cắt hình tròn của chúng tôi, đặt khuôn mặt của bạn ở trung tâm của khung tròn, sau đó tải xuống ảnh đại diện tròn mới của bạn. Nó hoàn hảo cho các hồ sơ mạng xã hội sử dụng hình ảnh hình tròn như Facebook, LinkedIn hoặc Instagram.\n\n### Tôi có thể cắt ảnh thành hình tròn trên điện thoại của mình không?\n\nCó! Công cụ cắt hình tròn của chúng tôi hoạt động trên tất cả các thiết bị bao gồm điện thoại thông minh và máy tính bảng. Giao diện thân thiện với thiết bị di động cho phép bạn dễ dàng tạo vết cắt hình ảnh tròn ở bất cứ đâu. Chỉ cần truy cập trang web của chúng tôi từ trình duyệt di động của bạn - không cần tải ứng dụng.\n\n### Bạn có lưu trữ các hình ảnh tôi tải lên không?\n\nKhông, chúng tôi không bao giờ lưu trữ hình ảnh của bạn trên máy chủ của chúng tôi. Toàn bộ quá trình cắt xảy ra trực tiếp trong trình duyệt của bạn, có nghĩa là ảnh của bạn vẫn hoàn toàn riêng tư. Khi bạn rời khỏi trang, tất cả dữ liệu hình ảnh sẽ tự động bị xóa.\n\n### Tôi có thể sử dụng những định dạng hình ảnh nào với công cụ cắt hình tròn?\n\nCông cụ của chúng tôi hoạt động với tất cả các định dạng hình ảnh tiêu chuẩn bao gồm JPG, PNG, WEBP và GIF. Bạn có thể tải lên bất kỳ định dạng nào trong số này và hình ảnh tròn đã cắt của bạn sẽ được tải xuống dưới dạng tệp PNG với độ trong suốt xung quanh hình tròn.\n\n### Hình ảnh tròn đã cắt của tôi sẽ có nền trong suốt không?\n\nCó, khi bạn tải xuống hình ảnh đã cắt của mình, nó sẽ có nền trong suốt xung quanh hình tròn. Điều này làm cho nó hoàn hảo để đặt trên trang web, tài liệu hoặc thiết kế nơi bạn chỉ muốn phần tròn được hiển thị.\n\n### Tôi có thể điều chỉnh kích thước của vết cắt tròn không?\n\nVết cắt tròn duy trì tỷ lệ khung hình hoàn hảo 1:1, nhưng bạn có thể phóng to hoặc thu nhỏ để điều chỉnh bao nhiêu phần hình ảnh của bạn xuất hiện trong hình tròn. Điều này cho phép bạn tập trung vào các phần cụ thể của hình ảnh trong khi duy trì hình dạng tròn.\n\n## Mẹo hình ảnh cho vết cắt tròn hoàn hảo\n\n### Căn giữa đối tượng của bạn\nĐể có kết quả tốt nhất, hãy chọn hình ảnh nơi đối tượng chính được căn giữa hoặc có thể được đặt ở trung tâm của khung. Điều này đặc biệt quan trọng đối với ảnh đại diện và ảnh chân dung nơi khuôn mặt nên là điểm tập trung.\n\n### Xem xét vùng cắt\nHãy nhớ rằng các góc của hình ảnh của bạn sẽ bị cắt bỏ. Tránh các hình ảnh nơi các chi tiết quan trọng gần các cạnh của ảnh, vì những chi tiết này sẽ bị mất trong vết cắt tròn.\n\n### Sử dụng hình ảnh độ phân giải cao\nBắt đầu với hình ảnh chất lượng cao sẽ dẫn đến vết cắt tròn tốt hơn. Hình ảnh độ phân giải thấp hoặc nhỏ có thể xuất hiện dạng pixel khi cắt, vì vậy hãy sử dụng hình ảnh nguồn chất lượng cao nhất có sẵn.\n\n### Chú ý đến tỷ lệ khung hình\nHình ảnh vuông thường hoạt động tốt nhất cho việc cắt hình tròn. Nếu hình ảnh gốc của bạn rất rộng hoặc cao, bạn có thể mất các phần đáng kể trong quá trình cắt. Nếu cần, hãy cân nhắc cắt thành hình vuông trước.\n\n### Điều chỉnh để có khung hình tối ưu\nSử dụng tính năng định vị của công cụ của chúng tôi để phóng to và điều chỉnh hình ảnh của bạn. Đối với chân dung, hãy thử căn giữa khuôn mặt với một số khoảng trống xung quanh để có diện mạo chuyên nghiệp tốt nhất. Đối với sản phẩm, căn giữa mục chính trong hình tròn.\n\n### Tạo bộ nhất quán\nKhi tạo nhiều hình ảnh tròn (như ảnh nhóm), hãy cố gắng duy trì khung hình nhất quán, kiểu nền và kích thước để có diện mạo gắn kết trên tất cả các hình ảnh.\n\n## Sử dụng phổ biến cho hình ảnh cắt hình tròn\n\n| Ứng dụng | Lợi ích của cắt hình tròn |\n|------------|------------------------|\n| Hồ sơ mạng xã hội | Hầu hết các nền tảng hiển thị avatar trong hình tròn - hình ảnh tròn được cắt hoàn hảo trông chuyên nghiệp |\n| Ảnh thành viên nhóm | Tạo ảnh chân dung tròn nhất quán cho trang web công ty và thư mục |\n| Danh mục đầu tư trực tuyến | Hình ảnh tròn tạo ra sự quan tâm trực quan và thẩm mỹ hiện đại |\n| Danh thiếp kỹ thuật số | Ảnh đại diện cắt hình tròn trông sạch sẽ và chuyên nghiệp hơn |\n| Hình thu nhỏ sản phẩm | Hình ảnh sản phẩm tròn tạo ra diện mạo danh mục gắn kết |\n| Biểu tượng ứng dụng | Biểu tượng tròn là tiêu chuẩn cho ứng dụng di động |\n| Chứng thực trang web | Ảnh khách hàng tròn thêm độ tin cậy và sự hấp dẫn trực quan |\n\n## Tại sao chọn công cụ cắt hình tròn của chúng tôi\n\nKhi nói đến việc cắt ảnh thành hình tròn trực tuyến, công cụ của chúng tôi cung cấp một số lợi ích:\n\n- **Xử lý tức thì** - Cắt hình ảnh thành hình tròn trong vài giây mà không cần chờ tải lên hoặc xử lý máy chủ\n- **Hình tròn hoàn hảo mỗi lần** - Công cụ của chúng tôi đảm bảo vết cắt tròn hoàn hảo với các cạnh sạch và không bị biến dạng\n- **Điều khiển trực quan** - Dễ dàng định vị hình ảnh của bạn chính xác như bạn muốn trong hình tròn với chức năng phóng to và kéo\n- **Không có watermark** - Không giống như các công cụ cắt hình tròn khác, chúng tôi không thêm watermark vào hình ảnh của bạn\n- **Hoạt động với tất cả các loại hình ảnh** - Cắt ảnh, đồ họa, minh họa hoặc bất kỳ hình ảnh nào thành hình tròn\n- **Dựa trên trình duyệt** - Không cần cài đặt phần mềm, hoạt động trực tiếp trong trình duyệt web của bạn\n- **Quyền riêng tư trước** - Tất cả xử lý xảy ra cục bộ trong trình duyệt của bạn, hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn\n\nCho dù bạn cần cắt hình ảnh thành hình tròn cho mục đích sử dụng chuyên nghiệp hay dự án cá nhân, công cụ cắt ảnh tròn của chúng tôi xử lý tất cả một cách dễ dàng. Tạo vết cắt hình ảnh tròn chỉ với một vài cú nhấp chuột!\n\n## Bắt đầu\n\nSẵn sàng tạo hình ảnh tròn đầu tiên của bạn? Truy cập [Công cụ cắt hình tròn](/circle-crop) của chúng tôi và bắt đầu cắt ngay hôm nay. Nó hoàn toàn miễn phí, không yêu cầu đăng ký và chỉ mất vài giây để tạo hình ảnh tròn chuyên nghiệp.\n\n---\n\n*Cập nhật lần cuối: Tháng 1 năm 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Ảnh bo góc tròn – Hướng dẫn",
+        "description": "Thêm góc tròn cho bất kỳ ảnh nào bằng công cụ miễn phí. Phù hợp thumbnail, thẻ, giao diện và mạng xã hội, chỉ vài giây.",
+        "content": "# Ảnh bo góc tròn – Hướng dẫn\n\nLàm tròn góc bất kỳ ảnh nào bằng công cụ trực tuyến miễn phí. Dùng cho thumbnail, thẻ, thành phần giao diện và mạng xã hội, không cần biết thiết kế.\n\n## Cách bo góc tròn cho ảnh\n\n### Bước 1: Tải ảnh lên\nChọn ảnh từ thiết bị. Hỗ trợ JPG, PNG, WEBP, GIF. Chỉ cần nhấp hoặc kéo thả.\n\n### Bước 2: Chỉnh bán kính góc\nDùng thanh trượt để chọn độ tròn từ nhẹ đến rất tròn. Xem trước cập nhật ngay.\n\n### Bước 3: Tải xuống\nNhấp \"Tải xuống\" để lưu ảnh đã bo góc, dùng trong bố cục, web hoặc bài đăng.\n\n## Dùng ở đâu\n\n### Thumbnail và thẻ\nGóc tròn giúp lưới và thẻ gọn, hiện đại.\n\n### Mạng xã hội và quảng cáo\nẢnh góc mềm nổi bật hơn trên feed và quảng cáo, cảm giác thân thiện hơn.\n\n### Giao diện và app\nIcon, avatar và nút thường dùng góc tròn; công cụ giúp đồng bộ nhiều ảnh.\n\n### Trình chiếu và tài liệu\nCùng một bán kính cho ảnh chụp màn hình và đồ họa giúp slide và tài liệu nhất quán.\n\n## Công cụ cung cấp\n\n- **Miễn phí, dùng ngay** – không đăng ký, không watermark; xử lý cục bộ trong trình duyệt, không giới hạn sử dụng công cụ này\n- **Bán kính tùy chỉnh** – từ hơi tròn đến dạng viên thuốc\n- **Xem trước trực tiếp** – thấy kết quả trước khi tải\n- **Bảo mật** – xử lý trong trình duyệt, chúng tôi không lưu ảnh\n- **Mọi thiết bị** – máy tính, tablet, điện thoại\n\n## Câu hỏi thường gặp\n\n### Làm sao để bo góc tròn cho ảnh?\n\nMở [Công cụ bo góc tròn](/rounded-corners), tải ảnh lên, chỉnh bán kính rồi nhấp Tải xuống.\n\n### Hỗ trợ định dạng nào?\n\nJPG, PNG, WEBP, GIF. File tải xuống giữ nguyên định dạng (hoặc PNG nếu cần trong suốt).\n\n### Dùng trên điện thoại được không?\n\nĐược. Công cụ chạy trên trình duyệt điện thoại và tablet, không cần cài app.\n\n### Các bạn có lưu ảnh của tôi không?\n\nKhông. Mọi xử lý đều trong trình duyệt của bạn; chúng tôi không lưu gì.\n\n## Công cụ liên quan\n\n- [Ảnh thành URL](/) – chuyển ảnh thành link\n- [Cắt hình tròn](/circle-crop) – tạo ảnh tròn\n- [Bo góc tròn](/rounded-corners) – bo góc tròn\n- [Xóa nền](/remove-background) – xóa nền bằng AI\n\n---\n\n*Cập nhật lần cuối: Tháng 2 năm 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Xóa nền – Hướng dẫn",
+        "description": "Xóa nền ảnh chỉ với một cú nhấp bằng công cụ miễn phí dùng AI. Cắt nền sạch cho sản phẩm, chân dung, logo và hơn thế.",
+        "content": "# Xóa nền – Hướng dẫn\n\nXóa nền ảnh chỉ với một cú nhấp bằng công cụ trực tuyến miễn phí. Cắt nền sạch cho ảnh sản phẩm, chân dung, logo – không cần biết thiết kế.\n\n## Cách xóa nền\n\n### Bước 1: Tải ảnh lên\nChọn ảnh từ thiết bị. Định dạng: JPG, PNG, WEBP, GIF. Nhấp hoặc kéo thả.\n\n### Bước 2: AI xóa nền\nCông cụ tự nhận diện chủ thể và xóa nền. Xử lý chỉ vài giây. Xem trước trực tiếp với nền trong suốt.\n\n### Bước 3: Tải xuống\nNhấp \"Tải xuống\" để lưu ảnh đã xóa nền. Kết quả PNG có trong suốt, dùng cho thiết kế, thương mại điện tử hoặc mạng xã hội.\n\n## Dùng ở đâu\n\n### Ảnh sản phẩm\nCắt nền sạch cho cửa hàng, sàn thương mại và quảng cáo. Nền trong suốt cho mọi bố cục.\n\n### Chân dung và ảnh chuyên nghiệp\nXóa nền rối khỏi chân dung cho hồ sơ, LinkedIn hoặc trang cá nhân.\n\n### Logo và đồ họa\nTách logo và đồ họa từ ảnh hoặc bản scan. PNG trong suốt cho lớp phủ và thuyết trình.\n\n### Mạng xã hội và marketing\nHình ảnh nổi bật cho bài đăng, story và quảng cáo. Cắt trong suốt phù hợp mọi mẫu.\n\n## Công cụ cung cấp\n\n- **Miễn phí và dùng AI** – không đăng ký, không watermark; xử lý cục bộ trong trình duyệt, không giới hạn sử dụng công cụ này\n- **Xóa một cú nhấp** – nhận diện chủ thể và viền sạch\n- **Xuất PNG trong suốt** – cho mọi thiết kế hoặc nền tảng\n- **Quyền riêng tư** – xử lý trong trình duyệt, chúng tôi không lưu ảnh\n- **Mọi thiết bị** – máy tính, máy tính bảng, điện thoại\n\n## Câu hỏi thường gặp\n\n### Làm sao để xóa nền ảnh?\n\nMở [Công cụ Xóa nền](/remove-background), tải ảnh lên. Công cụ sẽ nhận chủ thể và xóa nền. Xem trước rồi tải xuống dạng PNG trong suốt.\n\n### Hỗ trợ định dạng nào?\n\nJPG, PNG, WEBP, GIF. Kết quả luôn tải xuống dạng PNG nền trong suốt.\n\n### Các bạn có lưu ảnh của tôi không?\n\nKhông. Xử lý diễn ra trong trình duyệt của bạn; chúng tôi không lưu gì.\n\n### Dùng trên điện thoại được không?\n\nĐược. Công cụ chạy trên trình duyệt điện thoại và máy tính bảng.\n\n## Công cụ liên quan\n\n- [Ảnh sang URL](/) – Chuyển ảnh thành liên kết\n- [Cắt tròn](/circle-crop) – Tạo ảnh tròn\n- [Bo góc](/rounded-corners) – Bo góc ảnh\n- [Xóa nền](/remove-background) – Xóa nền bằng AI\n\n---\n\n*Cập nhật lần cuối: Tháng 3 năm 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Tài liệu | Ảnh thành URL",
+      "description": "Tài liệu cho Ảnh thành URL."
+    },
+    "page": {
+      "title": "Tài liệu",
+      "description": "Bắt đầu nhanh: tải lên hình ảnh và nhận URL trực tiếp. Sử dụng các nút sao chép/mở hoặc tải xuống liên kết ở định dạng .txt.",
+      "features": {
+        "title": "Tính năng được hỗ trợ:",
+        "items": {
+          "1": "Hỗ trợ: JPG, PNG, WEBP, GIF",
+          "2": "Giao hàng nhanh qua CDN khi bộ nhớ được bật",
+          "3": "Thông báo lỗi bảo trì thân thiện khi dịch vụ không khả dụng"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Trạng thái | Ảnh thành URL",
+      "description": "Trạng thái dịch vụ Ảnh thành URL."
+    },
+    "page": {
+      "title": "Trạng thái",
+      "description": "Tất cả hệ thống đang hoạt động.",
+      "message": "API tải lên và liên kết CDN đang chạy."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Liên hệ | Ảnh thành URL",
+      "description": "Liên hệ Ảnh thành URL để được hỗ trợ, phản hồi, hợp tác hoặc báo cáo. Chúng tôi trả lời mọi tin nhắn trong 1–2 ngày làm việc."
+    },
+    "page": {
+      "title": "Liên hệ chúng tôi",
+      "introShort": "Có câu hỏi hoặc phản hồi? Điền form bên dưới, chúng tôi sẽ phản hồi sớm nhất có thể.",
+      "orEmail": "Hoặc gửi email cho chúng tôi tại",
+      "subtitle": "Chúng tôi sẵn sàng hỗ trợ về lưu trữ ảnh, liên kết và mọi thứ khác.",
+      "intro": "Ảnh thành URL là dịch vụ lưu trữ ảnh miễn phí biến ảnh của bạn thành liên kết có thể chia sẻ. Với câu hỏi, gợi ý hoặc sự cố, hãy liên hệ.",
+      "whyTitle": "Bạn có thể liên hệ về",
+      "why1": "Hỗ trợ kỹ thuật: lỗi tải lên, liên kết hỏng hoặc sự cố công cụ",
+      "why2": "Phản hồi và yêu cầu tính năng để cải thiện dịch vụ",
+      "why3": "Hợp tác hoặc đối tác",
+      "why4": "Báo cáo lạm dụng, bản quyền hoặc chính sách",
+      "expectTitle": "Bạn có thể mong đợi",
+      "expectContent": "Chúng tôi đọc mọi tin nhắn và cố gắng phản hồi trong 1–2 ngày làm việc. Với việc khẩn cấp, vui lòng ghi rõ tiêu đề và càng nhiều chi tiết càng tốt.",
+      "emailHeading": "Liên hệ qua email",
+      "emailHint": "Gửi email cho chúng tôi, chúng tôi sẽ phản hồi sớm nhất có thể.",
+      "email": {
+        "label": "Email",
+        "address": "support@phototourl.com",
+        "cta": "Gửi email"
+      },
+      "form": {
+        "title": "Gửi tin nhắn",
+        "description": "Điền form bên dưới, chúng tôi sẽ phản hồi sớm nhất có thể.",
+        "name": "Tên",
+        "email": "Email",
+        "message": "Tin nhắn",
+        "namePlaceholder": "Tên của bạn",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Tin nhắn hoặc câu hỏi của bạn...",
+        "submit": "Gửi",
+        "submitting": "Đang gửi...",
+        "success": "Đã gửi tin nhắn. Chúng tôi sẽ phản hồi sớm nhất có thể.",
+        "minLength": "Tên phải có ít nhất 3 ký tự.",
+        "maxLengthName": "Tên không được quá 30 ký tự.",
+        "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+        "minLengthMessage": "Tin nhắn phải có ít nhất 10 ký tự.",
+        "maxLengthMessage": "Tin nhắn không được quá 2000 ký tự.",
+        "invalid": "Đã xảy ra lỗi. Vui lòng thử lại."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Về chúng tôi | Ảnh thành URL",
+      "description": "Tìm hiểu thêm về Ảnh thành URL - dịch vụ lưu trữ hình ảnh miễn phí chuyển đổi ảnh thành liên kết có thể chia sẻ."
+    },
+    "page": {
+      "title": "Về chúng tôi",
+      "mission": {
+        "title": "Sứ mệnh của chúng tôi",
+        "content": "Ảnh thành URL là dịch vụ lưu trữ hình ảnh miễn phí, nhanh chóng và đáng tin cậy được thiết kế để giúp người sáng tạo, nhà tiếp thị và nhóm chuyển đổi hình ảnh thành liên kết có thể chia sẻ ngay lập tức. Chúng tôi tin vào sự đơn giản, tốc độ và quyền riêng tư của người dùng."
+      },
+      "features": {
+        "title": "Những gì chúng tôi cung cấp",
+        "item1": "Lưu trữ hình ảnh miễn phí với hỗ trợ CDN",
+        "item2": "Tạo liên kết tức thì để chia sẻ nhanh chóng",
+        "item3": "Hỗ trợ nhiều định dạng hình ảnh (JPG, PNG, WEBP, GIF)",
+        "item4": "Dùng thử không cần đăng ký — gói miễn phí: 10 lần tải lên/ngày, 2MB mỗi file"
+      },
+      "contact": {
+        "title": "Liên hệ với chúng tôi",
+        "text": "Có câu hỏi hoặc phản hồi? Liên hệ với chúng tôi tại",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Chính sách bảo mật | Ảnh thành URL",
+        "description": "Chính sách bảo mật cho Ảnh thành URL - Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu của bạn."
+      },
+      "page": {
+        "title": "Chính sách bảo mật",
+        "lastUpdated": "Cập nhật lần cuối: Tháng 5 năm 2026",
+        "introduction": "Tại Ảnh thành URL, chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn. Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi.",
+        "dataCollection": {
+          "title": "Thông tin chúng tôi thu thập",
+          "content1": "Khi bạn sử dụng Ảnh thành URL, chúng tôi có thể thu thập:",
+          "item1": "Tệp hình ảnh đã tải lên và siêu dữ liệu (tên tệp, kích thước, loại), lưu trên Cloudflare R2 để cung cấp liên kết có thể chia sẻ",
+          "item2": "Địa chỉ IP, dấu thời gian tải lên và dữ liệu sử dụng để giới hạn tốc độ, bảo mật và ngăn chặn lạm dụng",
+          "item3": "Thông tin tài khoản khi đăng ký hoặc đăng nhập (địa chỉ email, hồ sơ OAuth Google, mã định danh phiên và xác thực)",
+          "item4": "Thông tin đăng ký và thanh toán do nhà cung cấp thanh toán Waffo Pancake xử lý cho gói trả phí — chúng tôi không lưu số thẻ đầy đủ",
+          "content2": "Nếu bạn liên hệ qua biểu mẫu liên hệ, chúng tôi thu thập thông tin bạn cung cấp (ví dụ: tên và email). Chúng tôi cũng sử dụng cookie và công nghệ tương tự như mô tả trong phần Cookie."
+        },
+        "dataUsage": {
+          "title": "Cách chúng tôi sử dụng thông tin của bạn",
+          "item1": "Để tạo và cung cấp liên kết hình ảnh có thể chia sẻ",
+          "item2": "Để ngăn chặn lạm dụng và thực thi giới hạn tải lên",
+          "item3": "Để cải thiện dịch vụ và trải nghiệm người dùng của chúng tôi",
+          "item4": "Để tuân thủ các nghĩa vụ pháp lý"
+        },
+        "dataStorage": {
+          "title": "Lưu trữ và giữ lại dữ liệu",
+          "content": "Hình ảnh đã tải lên được lưu trữ trên lưu trữ Cloudflare R2. Chúng tôi giữ hình ảnh trong thời gian cần thiết để cung cấp dịch vụ. Hình ảnh có thể bị xóa tự động sau một khoảng thời gian không hoạt động hoặc do vi phạm chính sách."
+        },
+        "cookies": {
+          "title": "Cookie và công nghệ theo dõi",
+          "content1": "Chúng tôi sử dụng các công nghệ sau:",
+          "item1": "Lưu trữ cục bộ: Để lưu trữ lịch sử tải lên và tùy chọn ngôn ngữ của bạn",
+          "item2": "Google AdSense: Để hiển thị quảng cáo (sử dụng cookie để cá nhân hóa quảng cáo)",
+          "item3": "Google Analytics: Để phân tích trang web (dữ liệu ẩn danh)",
+          "content2": "Bạn có thể kiểm soát cookie thông qua cài đặt trình duyệt của mình. Tuy nhiên, vô hiệu hóa cookie có thể ảnh hưởng đến một số chức năng của dịch vụ của chúng tôi."
+        },
+        "personalizedAds": {
+          "title": "Quảng cáo cá nhân hóa và từ chối",
+          "content": "Chúng tôi sử dụng Google AdSense để hiển thị quảng cáo. Google và các đối tác khác có thể sử dụng cookie để hiển thị quảng cáo dựa trên lượt truy cập của bạn vào trang này và các trang web khác. Bạn có thể từ chối quảng cáo cá nhân hóa tại",
+          "linkAdsSettings": "Cài đặt quảng cáo Google",
+          "content2": "hoặc trang từ chối của Network Advertising Initiative",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Dịch vụ của bên thứ ba",
+          "content1": "Chúng tôi sử dụng các dịch vụ của bên thứ ba sau:",
+          "item1": "Cloudflare R2: Để lưu trữ hình ảnh và phân phối CDN",
+          "item2": "Google AdSense: Để quảng cáo (tuân theo Chính sách Bảo mật của Google)",
+          "item3": "Google Analytics: Để phân tích trang web (tuân theo Chính sách Bảo mật của Google)",
+          "content2": "Chúng tôi cũng sử dụng Waffo Pancake cho đăng ký và xử lý thanh toán. Các dịch vụ này có thể thu thập thông tin theo chính sách bảo mật riêng của họ. Chúng tôi khuyến khích bạn xem xét."
+        },
+        "dataSecurity": {
+          "title": "Bảo mật dữ liệu",
+          "content": "Chúng tôi thực hiện các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ dữ liệu của bạn khỏi truy cập trái phép, thay đổi, tiết lộ hoặc phá hủy. Tuy nhiên, không có phương pháp truyền qua Internet nào là an toàn 100%."
+        },
+        "yourRights": {
+          "title": "Quyền của bạn",
+          "content": "Bạn có quyền:",
+          "item1": "Truy cập hình ảnh đã tải lên, dữ liệu tài khoản và thông tin liên quan",
+          "item2": "Yêu cầu xóa hình ảnh của bạn",
+          "item3": "Từ chối một số thực hành thu thập dữ liệu",
+          "item4": "Liên hệ với chúng tôi về các mối quan tâm về quyền riêng tư"
+        },
+        "children": {
+          "title": "Quyền riêng tư của trẻ em",
+          "content": "Dịch vụ của chúng tôi không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi."
+        },
+        "changes": {
+          "title": "Thay đổi đối với Chính sách Bảo mật này",
+          "content": "Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách Bảo mật mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
+        },
+        "contact": {
+          "title": "Liên hệ với chúng tôi",
+          "text": "Nếu bạn có câu hỏi về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi tại",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Điều khoản dịch vụ | Ảnh thành URL",
+        "description": "Điều khoản dịch vụ Ảnh thành URL – lưu trữ ảnh, sử dụng hợp lệ và trách nhiệm người dùng."
+      },
+      "page": {
+        "title": "Điều khoản dịch vụ",
+        "lastUpdated": "Cập nhật lần cuối: Tháng 9 năm 2026",
+        "intro": "Chào mừng bạn đến với Ảnh thành URL. Khi truy cập hoặc sử dụng dịch vụ lưu trữ ảnh và tạo liên kết (\"Dịch vụ\"), bạn đồng ý bị ràng buộc bởi các Điều khoản này. Nếu không đồng ý, vui lòng không sử dụng Dịch vụ.",
+        "acceptance": {
+          "title": "Chấp nhận điều khoản",
+          "content": "Bằng việc tải ảnh lên, tạo liên kết hoặc sử dụng Ảnh thành URL, bạn xác nhận đã đọc, hiểu và đồng ý với các Điều khoản này và Chính sách bảo mật của chúng tôi. Chúng tôi có thể cập nhật Điều khoản; việc tiếp tục sử dụng Dịch vụ sau thay đổi được coi là chấp nhận Điều khoản đã cập nhật."
+        },
+        "serviceDescription": {
+          "title": "Mô tả dịch vụ",
+          "content": "Ảnh thành URL cung cấp lưu trữ ảnh miễn phí và tạo liên kết trực tiếp. Bạn có thể tải ảnh trong giới hạn quy định (kích thước, định dạng, v.v.) và nhận liên kết có thể chia sẻ. Chúng tôi không đảm bảo tính sẵn có liên tục; Dịch vụ có thể bị sửa đổi, tạm ngừng hoặc chấm dứt có hoặc không cần thông báo."
+        },
+        "useOfService": {
+          "title": "Sử dụng dịch vụ",
+          "content": "Bạn chỉ được sử dụng Dịch vụ cho mục đích hợp pháp và phù hợp với các Điều khoản này. Bạn chịu trách nhiệm về việc sử dụng và nội dung bạn tải lên. Bạn không được sử dụng Dịch vụ theo cách vi phạm pháp luật hiện hành hoặc quyền của bên thứ ba."
+        },
+        "userResponsibilities": {
+          "title": "Trách nhiệm của bạn",
+          "content": "Bạn đồng ý: (1) cung cấp thông tin chính xác khi được yêu cầu; (2) duy trì việc sử dụng phù hợp với pháp luật; (3) không cố gắng bỏ qua bảo mật, giới hạn tốc độ hoặc kiểm soát truy cập; (4) không sử dụng Dịch vụ để phân phối phần mềm độc hại hoặc can thiệp vào Dịch vụ hoặc người dùng khác."
+        },
+        "prohibitedContent": {
+          "title": "Nội dung bị cấm",
+          "content": "Bạn không được tải lên hoặc chia sẻ liên kết tới nội dung bất hợp pháp, có hại, đe dọa, lạm dụng, quấy rối, phỉ báng, khiêu dâm, xâm phạm quyền riêng tư hoặc sở hữu trí tuệ hoặc không phù hợp; bóc lột trẻ vị thành niên; thúc đẩy bạo lực hoặc phân biệt đối xử; hoặc vi phạm quyền của bên thứ ba. Chúng tôi có thể xóa nội dung và tạm ngừng hoặc chấm dứt quyền truy cập mà không cần thông báo nếu chúng tôi có lý do hợp lý cho rằng có vi phạm Điều khoản này hoặc pháp luật."
+        },
+        "ipAndContent": {
+          "title": "Sở hữu trí tuệ và nội dung của bạn",
+          "content": "Bạn giữ quyền sở hữu ảnh bạn tải lên. Bằng việc sử dụng Dịch vụ, bạn cấp cho chúng tôi giấy phép hạn chế để lưu trữ, xử lý và phục vụ ảnh của bạn cũng như tạo và cung cấp liên kết, theo mức cần thiết để vận hành Dịch vụ. Chúng tôi không yêu cầu quyền sở hữu nội dung của bạn. Tên, logo và Dịch vụ của chúng tôi là tài sản trí tuệ của chúng tôi; bạn không được sử dụng chúng mà không có sự đồng ý trước bằng văn bản của chúng tôi."
+        },
+        "subscriptions": {
+          "title": "Gói đăng ký",
+          "content": "Ảnh thành URL cung cấp bậc miễn phí và các gói đăng ký trả phí (Pro theo tháng và Premium theo năm) giúp tăng giới hạn tải lên, kích thước tệp và dung lượng lưu trữ. Chi tiết gói và giá hiện tại có trên trang Giá (https://phototourl.com/pricing). Quyền truy cập trả phí là dịch vụ số và được cấp ngay sau khi thanh toán được xác nhận."
+        },
+        "billing": {
+          "title": "Thanh toán và hóa đơn",
+          "content": "Khi cung cấp phương thức thanh toán và đăng ký gói trả phí, bạn ủy quyền cho chúng tôi và bên xử lý thanh toán thu phí định kỳ theo mức đăng ký áp dụng cho đến khi bạn hủy theo hướng dẫn dưới đây. Đăng ký tự động gia hạn vào cuối mỗi kỳ thanh toán trừ khi đã hủy. Giá hiển thị khi thanh toán có thể chưa gồm thuế áp dụng, trừ khi có ghi chú khác."
+        },
+        "cancellation": {
+          "title": "Hủy và dừng gia hạn tự động",
+          "content": "Bạn có thể dừng các khoản phí trong tương lai bất cứ lúc nào bằng cách:",
+          "item1": "Gửi email tới support@phototourl.com từ email tài khoản đã đăng ký để yêu cầu hủy gia hạn tự động; hoặc",
+          "item2": "Hủy ghi nợ tự động hoặc thanh toán định kỳ với tổ chức phát hành thẻ qua ngân hàng di động, ngân hàng trực tuyến hoặc bộ phận hỗ trợ khách hàng.",
+          "effect": "Hủy chỉ dừng các lần gia hạn sau này. Bạn vẫn giữ quyền lợi trả phí đến hết kỳ đã thanh toán. Sau khi kỳ đó kết thúc, không còn thu phí thêm cho đăng ký đó và quyền lợi trả phí cũng kết thúc cùng kỳ đó."
+        },
+        "refunds": {
+          "title": "Chính sách hoàn tiền",
+          "general": "Các gói trả phí là dịch vụ số được cung cấp ngay sau thanh toán. Phí đăng ký nói chung không được hoàn khi Dịch vụ vẫn dùng được bình thường, trừ các trường hợp nêu dưới đây hoặc khi pháp luật yêu cầu.",
+          "eligibleTitle": "Khi nào có thể được hoàn tiền",
+          "item1": "Người đăng ký lần đầu: trong vòng 7 ngày kể từ lần thu phí đầu tiên, nếu bạn hầu như chưa dùng tính năng trả phí (ví dụ chỉ dùng một phần rất nhỏ hạn mức tải lên hoặc lưu trữ của gói).",
+          "item2": "Thu phí trùng hoặc sai: hoàn toàn bộ khi xác minh lỗi thanh toán dẫn đến thu trùng.",
+          "item3": "Gián đoạn dịch vụ phía chúng tôi: nếu gián đoạn được xác minh trong tầm kiểm soát của chúng tôi kéo dài từ 72 giờ trở lên trong kỳ trả phí của bạn, chúng tôi có thể cấp tín dụng hoặc hoàn tiền theo tỷ lệ sau khi xem xét.",
+          "item4": "Quyền theo luật: khi luật áp dụng cho bạn quyền rút lại hoặc hoàn tiền (ví dụ tại EU/Anh), các quyền đó được bảo lưu.",
+          "howTitle": "Cách yêu cầu hoàn tiền",
+          "how": "Gửi email tới support@phototourl.com kèm email tài khoản, mã tham chiếu thanh toán hoặc giao dịch và lý do. Chúng tôi nhằm xác nhận trong 2 ngày làm việc và xử lý hoàn tiền đủ điều kiện trong 5–10 ngày làm việc.",
+          "notTitle": "Khi nào không hoàn tiền",
+          "not1": "Phí cho các kỳ đăng ký đã sử dụng, trừ các trường hợp liệt kê ở trên.",
+          "not2": "Yêu cầu hoàn tiền gói năm (Premium) sau hơn 30 ngày kể từ lần mua đầu, trừ khi luật yêu cầu hoặc thuộc trường hợp gián đoạn/thu trùng đủ điều kiện.",
+          "not3": "Tài khoản bị tạm ngừng hoặc chấm dứt do vi phạm các Điều khoản này."
+        },
+        "disclaimer": {
+          "title": "Từ chối bảo đảm",
+          "text": "Dịch vụ được cung cấp \"nguyên trạng\" và \"theo tính sẵn có\" không có bảo đảm dù loại nào. Chúng tôi không bảo đảm Dịch vụ sẽ không gián đoạn, không lỗi hoặc không có thành phần có hại. Việc bạn sử dụng Dịch vụ hoàn toàn do bạn chịu rủi ro."
+        },
+        "limitationOfLiability": {
+          "title": "Giới hạn trách nhiệm",
+          "content": "Trong phạm vi tối đa mà pháp luật cho phép, Ảnh thành URL và các bên điều hành không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hậu quả hay trừng phạt nào, hoặc mất mát dữ liệu, lợi nhuận hoặc uy tín phát sinh từ việc bạn sử dụng hoặc không thể sử dụng Dịch vụ. Tổng trách nhiệm của chúng tôi không vượt quá số tiền bạn đã thanh toán cho chúng tôi trong mười hai tháng trước khiếu nại (hoặc bằng không nếu bạn chưa thanh toán gì)."
+        },
+        "termination": {
+          "title": "Chấm dứt",
+          "content": "Chúng tôi có thể tạm ngừng hoặc chấm dứt quyền truy cập của bạn vào Dịch vụ bất kỳ lúc nào, có hoặc không có lý do hoặc thông báo. Bạn có thể ngừng sử dụng Dịch vụ bất kỳ lúc nào. Khi chấm dứt, quyền sử dụng của bạn chấm dứt ngay lập tức. Các điều khoản theo bản chất cần được duy trì (bao gồm từ chối bảo đảm, giới hạn trách nhiệm và luật điều chỉnh) vẫn có hiệu lực."
+        },
+        "changes": {
+          "title": "Thay đổi điều khoản",
+          "content": "Chúng tôi có thể cập nhật các Điều khoản này. Chúng tôi sẽ đăng các Điều khoản đã sửa đổi lên trang này và cập nhật ngày \"Cập nhật lần cuối\". Việc tiếp tục sử dụng Dịch vụ sau thay đổi được coi là chấp nhận. Chúng tôi khuyến khích bạn xem trang này định kỳ."
+        },
+        "governingLaw": {
+          "title": "Luật điều chỉnh",
+          "content": "Các Điều khoản này được điều chỉnh và giải thích theo luật của khu vực tài phán nơi chúng tôi hoạt động, không tính đến nguyên tắc xung đột pháp luật. Mọi tranh chấp sẽ được giải quyết tại tòa án của khu vực tài phán đó."
+        },
+        "contact": {
+          "title": "Liên hệ",
+          "text": "Nếu có câu hỏi về Điều khoản dịch vụ này, vui lòng liên hệ với chúng tôi tại",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Chính sách Cookie | Ảnh thành URL",
+        "description": "Chính sách Cookie cho Ảnh thành URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
+      },
+      "page": {
+        "title": "Chính sách Cookie",
+        "lastUpdated": "Cập nhật lần cuối: Tháng 9 năm 2026",
+        "introduction": "Chính sách Cookie này giải thích cách Ảnh thành URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này. Nếu có câu hỏi về chính sách này, hãy liên hệ support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Cookie là gì",
+          "content": "Cookie là các tệp văn bản nhỏ được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web."
+        },
+        "howWeUseCookies": {
+          "title": "Cách chúng tôi sử dụng Cookie",
+          "content": "Chúng tôi sử dụng cookie cho các mục đích sau:",
+          "item1": "Để lưu trữ lịch sử tải lên và tùy chọn ngôn ngữ của bạn",
+          "item2": "Để phân tích lưu lượng trang web và hành vi người dùng",
+          "item3": "Để hiển thị quảng cáo được cá nhân hóa"
+        },
+        "typesOfCookies": {
+          "title": "Các loại Cookie chúng tôi sử dụng",
+          "essential": {
+            "title": "Cookie cần thiết",
+            "content": "Những cookie này cần thiết cho hoạt động đúng của trang web. Chúng cho phép các chức năng cốt lõi như lưu trữ tùy chọn ngôn ngữ và lịch sử tải lên của bạn."
+          },
+          "analytics": {
+            "title": "Cookie phân tích",
+            "content": "Chúng tôi sử dụng Google Analytics để phân tích cách khách truy cập sử dụng trang web của chúng tôi. Những cookie này thu thập thông tin ẩn danh về việc sử dụng trang web để giúp chúng tôi cải thiện dịch vụ của mình."
+          },
+          "advertising": {
+            "title": "Cookie quảng cáo",
+            "content": "Chúng tôi sử dụng Google AdSense để hiển thị quảng cáo. Những cookie này giúp cung cấp quảng cáo được cá nhân hóa dựa trên hành vi duyệt web và sở thích của bạn."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookie của bên thứ ba",
+          "content": "Chúng tôi sử dụng các dịch vụ của bên thứ ba sau có thể đặt cookie:",
+          "item1": "Google AdSense - Để quảng cáo (tuân theo Chính sách Bảo mật của Google)",
+          "item2": "Google Analytics - Để phân tích trang web (tuân theo Chính sách Bảo mật của Google)"
+        },
+        "manageCookies": {
+          "title": "Quản lý Cookie",
+          "content": "Bạn có thể kiểm soát và quản lý cookie thông qua cài đặt trình duyệt của mình. Hầu hết các trình duyệt cho phép bạn từ chối hoặc chấp nhận cookie, xóa cookie hiện có hoặc đặt tùy chọn cho các trang web cụ thể. Tuy nhiên, vô hiệu hóa cookie có thể ảnh hưởng đến chức năng của dịch vụ của chúng tôi."
+        },
+        "changes": {
+          "title": "Thay đổi đối với Chính sách Cookie này",
+          "content": "Chúng tôi có thể cập nhật Chính sách Cookie này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách xuất bản Chính sách Cookie mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
+        },
+        "contact": {
+          "title": "Liên hệ với chúng tôi",
+          "text": "Nếu bạn có câu hỏi về Chính sách Cookie này, vui lòng liên hệ với chúng tôi tại",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Bookmarklet Ảnh thành URL",
+    "description": "Tải ảnh từ bất kỳ trang web nào trực tiếp lên Ảnh thành URL chỉ với một cú nhấp! Dùng thử miễn phí: 10 lần tải lên/ngày, 2MB mỗi file.",
+    "howItWorks": {
+      "title": "Cách hoạt động",
+      "step1": "Duyệt bất kỳ trang web nào có hình ảnh",
+      "step2": "Nhấp vào bookmarklet trong thanh dấu trang của bạn",
+      "step3": "Chọn một hình ảnh từ trang",
+      "step4": "Nhận URL ngay lập tức và sao chép nó!"
+    },
+    "installation": {
+      "title": "Cài đặt",
+      "step1": {
+        "title": "Bước 1: Sao chép mã Bookmarklet",
+        "description": "Nhấp vào nút bên dưới để sao chép mã bookmarklet vào clipboard của bạn."
+      },
+      "step2": {
+        "title": "Bước 2: Thêm vào trình duyệt của bạn",
+        "description": "Làm theo các bước sau dựa trên trình duyệt của bạn:",
+        "chrome": "Chrome/Edge: Nhấn Ctrl+Shift+B (Cmd+Shift+B trên Mac) để hiển thị thanh dấu trang, sau đó nhấp chuột phải và chọn \"Thêm trang\". Dán mã làm URL.",
+        "firefox": "Firefox: Nhấp chuột phải vào thanh dấu trang và chọn \"Dấu trang mới\". Dán mã làm Vị trí.",
+        "safari": "Safari: Bật thanh dấu trang (Xem → Hiển thị thanh dấu trang), sau đó kéo mã vào thanh dấu trang.",
+        "edge": "Cách khác: Tạo dấu trang mới, chỉnh sửa nó và thay thế URL bằng mã đã sao chép."
+      },
+      "step3": {
+        "title": "Bước 3: Bắt đầu sử dụng!",
+        "description": "Truy cập bất kỳ trang web nào có hình ảnh và nhấp vào bookmarklet của bạn để bắt đầu tải lên!"
+      },
+      "copy": "Sao chép mã",
+      "copied": "Đã sao chép!"
+    },
+    "usage": {
+      "title": "Tính năng",
+      "description": "Bookmarklet cung cấp các tính năng sau. Mỗi lần tải lên đều tính vào giới hạn gói của bạn (Dùng thử miễn phí: 10 lần tải lên/ngày, 2MB mỗi file).",
+      "feature1": "Chọn bất kỳ hình ảnh nào từ trang web hiện tại",
+      "feature2": "Tự động tải lên Ảnh thành URL",
+      "feature3": "Nhận URL có thể chia sẻ ngay lập tức với một cú nhấp để sao chép"
+    },
+    "note": {
+      "title": "Lưu ý",
+      "content": "Mỗi lần tải lên tính vào hạn mức ngày (Dùng thử miễn phí: 10 lần tải lên/ngày, 2MB mỗi file). Bookmarklet hoạt động trên hầu hết trang web; chính sách bảo mật chặt (CORS) có thể chặn tải lên."
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "welcomeBack": "Chào mừng trở lại",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "signIn": "Đăng nhập",
+      "signUp": "Đăng ký",
+      "signUpHint": "Chưa có tài khoản?",
+      "forgotPassword": "Quên mật khẩu?",
+      "showPassword": "Hiển thị mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "emailRequired": "Email là bắt buộc",
+      "passwordRequired": "Mật khẩu là bắt buộc",
+      "signInWithGoogle": "Đăng nhập bằng Google"
+    },
+    "register": {
+      "createAccount": "Tạo tài khoản",
+      "name": "Tên",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "signUp": "Đăng ký",
+      "signInHint": "Đã có tài khoản?",
+      "namePlaceholder": "Tên của bạn",
+      "signUpSuccess": "Tài khoản đã được tạo thành công",
+      "signUpWithGoogle": "Đăng ký bằng Google",
+      "artFightLabel": "Đăng ký tài khoản nghệ sĩ chuyên dụng",
+      "artFightHint": "Mở công cụ Dashboard cho nghệ sĩ: sao chép nhúng (URL, HTML, BBCode, Markdown) cho mỗi thẻ lưu trữ."
+    },
+    "error": {
+      "title": "Lỗi xác thực",
+      "defaultError": "Đã xảy ra lỗi trong quá trình xác thực.",
+      "backToLogin": "Quay lại đăng nhập"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Đã có tài khoản với email này. Vui lòng sử dụng email khác.",
+      "INVALID_CREDENTIALS": "Email hoặc mật khẩu không đúng.",
+      "INVALID_EMAIL": "Định dạng email không hợp lệ.",
+      "INVALID_PASSWORD": "Mật khẩu phải có ít nhất 6 ký tự.",
+      "EMAIL_REQUIRED": "Email là bắt buộc.",
+      "PASSWORD_REQUIRED": "Mật khẩu là bắt buộc.",
+      "NAME_REQUIRED": "Tên là bắt buộc.",
+      "SERVER_ERROR": "Lỗi máy chủ. Vui lòng thử lại sau.",
+      "NETWORK_ERROR": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn."
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu",
+      "description": "Nhập email của bạn, chúng tôi sẽ gửi liên kết đặt lại mật khẩu.",
+      "email": "Email",
+      "send": "Gửi liên kết đặt lại",
+      "backToLoginHint": "Đã nhớ mật khẩu?",
+      "checkEmail": "Nếu tài khoản với email đó tồn tại, chúng tôi đã gửi liên kết đặt lại. Vui lòng kiểm tra hộp thư.",
+      "emailRequired": "Vui lòng nhập email",
+      "error": {
+        "userNotFound": "Không tìm thấy tài khoản với email này",
+        "tooManyRequests": "Quá nhiều lần thử. Vui lòng thử lại sau",
+        "serverError": "Đã xảy ra lỗi. Vui lòng thử lại"
+      }
+    },
+    "resetPassword": {
+      "title": "Đặt lại mật khẩu",
+      "password": "Mật khẩu mới",
+      "reset": "Đặt lại mật khẩu",
+      "backToLoginHint": "Sẵn sàng đăng nhập?",
+      "requestNewLink": "Yêu cầu liên kết mới",
+      "showPassword": "Hiện mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "minLength": "Mật khẩu phải có ít nhất 6 ký tự",
+      "error": {
+        "expiredToken": "Liên kết đặt lại đã hết hạn. Vui lòng yêu cầu liên kết mới",
+        "invalidToken": "Liên kết đặt lại không hợp lệ. Vui lòng yêu cầu liên kết mới",
+        "missingToken": "Liên kết đặt lại bị thiếu hoặc không đầy đủ. Vui lòng yêu cầu liên kết mới",
+        "tooManyRequests": "Quá nhiều lần thử. Vui lòng thử lại sau",
+        "serverError": "Đã xảy ra lỗi. Vui lòng thử lại"
+      }
+    },
+    "orContinueWith": "Hoặc tiếp tục với"
+  },
+  "Mail": {
+    "common": {
+      "team": "Đội ngũ {name}",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Xin chào, {name}.",
+      "body": "Nhấp nút bên dưới để đặt lại mật khẩu Photo To URL. Nếu bạn không yêu cầu, hãy bỏ qua email này.",
+      "resetPassword": "Đặt lại mật khẩu",
+      "subject": "Đặt lại mật khẩu Photo To URL của bạn"
+    }
+  },
+  "PricingPage": {
+    "title": "Định giá đơn giản, minh bạch",
+    "description": "Chọn gói phù hợp nhất với bạn với mức giá đơn giản và minh bạch",
+    "subtitle": "Chọn gói phù hợp nhất với bạn",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faq": {
+      "payment": {
+        "q": "Bạn có thể chọn phương thức thanh toán không?",
+        "a": "Chúng tôi chấp nhận tất cả các thẻ chính (Visa, Mastercard, American Express) và PayPal."
+      },
+      "cancel": {
+        "q": "Tôi có thể hủy bất cứ lúc nào không?",
+        "a": "Có, bạn có thể hủy bất cứ lúc nào. Bạn sẽ được giữ quyền truy cập cho đến cuối kỳ thanh toán hiện tại."
+      },
+      "storage": {
+        "q": "Điều gì xảy ra với các tệp của tôi nếu tôi hạ cấp?",
+        "a": "Các tệp của bạn an toàn. Nếu bạn vượt quá giới hạn lưu trữ, chúng tôi sẽ thông báo cho bạn trước. Không có gì bị xóa ngay lập tức."
+      },
+      "upload": {
+        "q": "Điều gì được tính là một lần tải lên?",
+        "a": "Mỗi hình ảnh bạn tải lên Photo To URL được tính là một lần tải lên. Người dùng miễn phí được giới hạn 10 lần tải lên mỗi ngày."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/tháng",
+      "perYear": "/năm",
+      "popular": "Phổ biến nhất",
+      "bestValue": "Giá trị tốt nhất",
+      "currentPlan": "Gói hiện tại",
+      "yourCurrentPlan": "Gói của bạn",
+      "getStartedForFree": "Bắt đầu miễn phí",
+      "getLifetimeAccess": "Trọn đời",
+      "getStarted": "Bắt đầu ngay",
+      "upgradeToYearly": "Nâng cấp lên Premium",
+      "cannotDowngrade": "Không thể hạ cấp",
+      "alreadySubscribed": "Gói hiện tại đã kích hoạt",
+      "subscribeYearly": "Đăng ký theo năm",
+      "subscribeMonthly": "Đăng ký theo tháng",
+      "upgrade": "Nâng cấp",
+      "notAvailable": "Không khả dụng",
+      "limitedOffer": "Ưu đãi có thời hạn · giảm 20%",
+      "savePercentLabel": "Tiết kiệm ",
+      "savePercentSuffix": " so với tháng",
+      "freePriceNote": "Miễn phí mãi mãi",
+      "monthlyPriceNote": "Thanh toán hàng tháng",
+      "loading": "Đang tải...",
+      "suitableFor": "Phù hợp cho:",
+      "activePlanDialog": {
+        "title": "Bạn đã có đăng ký đang hoạt động",
+        "description": "Tài khoản này đã có đăng ký đang hoạt động.",
+        "descriptionWithDate": "Tài khoản này đã có đăng ký đang hoạt động (hết hạn vào {date}).",
+        "close": "Đóng",
+        "manageBilling": "Quản lý đăng ký"
+      },
+      "batchUpload": {
+        "label": "Tải lên hàng loạt",
+        "free": "Không",
+        "monthly": "20 ảnh",
+        "yearly": "50 ảnh"
+      },
+      "justPerMonth": "{price}/tháng",
+      "saveVsMonthly": "Tiết kiệm {percent}%",
+      "monthlyEquivalentShort": "({price}/tháng)",
+      "bestValueWithSave": "Đáng giá nhất · Tiết kiệm {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Dang tai...",
+      "checkoutFailed": "Khong the mo trang thanh toan"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Miễn phí",
+      "description": "Hoàn hảo để thử Photo To URL",
+      "features": {
+        "feature-1": "Kích thước tải lên: 2MB",
+        "feature-2": "Tải lên hàng ngày: 10 lần",
+        "feature-3": "Lưu trữ: 100MB",
+        "feature-4": "CDN: Tăng tốc cơ bản",
+        "feature-5": "Không quảng cáo: Không",
+        "feature-6": "Lưu trữ tài liệu: Không",
+        "feature-7": "Lưu trữ ảnh: Không",
+        "feature-8": "Chỉnh sửa ảnh: Không",
+        "feature-9": "Webhook: Không",
+        "feature-10": "Quyền tài nguyên: Không có"
+      },
+      "limits": [],
+      "suitableFor": "Thử sản phẩm, kiểm tra tính năng"
+    },
+    "pro": {
+      "name": "Chuyên nghiệp",
+      "description": "Dành cho tải lên đều đặn và lưu trữ ổn định",
+      "features": {
+        "feature-1": "Kích thước tải lên: 50MB",
+        "feature-2": "Tải lên hàng ngày: 1000 lần",
+        "feature-3": "Lưu trữ: 100GB",
+        "feature-4": "CDN: Tăng tốc tiêu chuẩn",
+        "feature-5": "Không quảng cáo: Có",
+        "feature-6": "Lưu trữ tài liệu: Có",
+        "feature-7": "Lưu trữ ảnh: Có",
+        "feature-8": "Chỉnh sửa ảnh: Có",
+        "feature-9": "Webhook: Có",
+        "feature-10": "Quyền tài nguyên: Một phần"
+      },
+      "limits": [],
+      "suitableFor": "Bloggers / Nhà phát triển / Nhóm nhỏ"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Gói năm với hạn mức cao hơn và CDN nhanh hơn",
+      "features": {
+        "feature-1": "Kích thước tải lên: 256MB",
+        "feature-2": "Tải lên hàng ngày: Không giới hạn",
+        "feature-3": "Lưu trữ: 200GB",
+        "feature-4": "CDN: Nút tốc độ cao (ưu tiên)",
+        "feature-5": "Không quảng cáo: Có",
+        "feature-6": "Lưu trữ tài liệu: Có",
+        "feature-7": "Lưu trữ ảnh: Có",
+        "feature-8": "Chỉnh sửa ảnh: Có",
+        "feature-9": "Webhook: Có",
+        "feature-10": "Quyền tài nguyên: Tất cả"
+      },
+      "limits": [],
+      "suitableFor": "Doanh nghiệp / Sử dụng thường xuyên / Hệ thống tự động hóa"
+    }
+  },
+  "Dashboard": {
+    "title": "Bảng điều khiển",
+    "themeToggle": "Giao diện",
+    "welcome": "Chào mừng",
+    "loadFailed": "Tải thất bại. Vui lòng thử lại sau.",
+    "errorTitle": "Đã xảy ra lỗi",
+    "dismiss": "Đã hiểu",
+    "dashboard": "Bảng điều khiển",
+    "resources": "Tài nguyên của tôi",
+    "photos": "Ảnh của tôi",
+    "storage": "Lưu trữ",
+    "used": "Đã sử dụng",
+    "total": "Tổng",
+    "storageDisplay": "{used} / {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Không giới hạn",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa tài nguyên này không?",
+    "deleteResource": "Xóa tài nguyên",
+    "deleteFailed": "Xóa tài nguyên không thành công",
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "copied": "Đã sao chép!",
+    "copy": "Sao chép liên kết",
+    "open": "Mở",
+    "removeBackground": "Xóa nền ảnh",
+    "noResources": "Không có tài nguyên. Tải lên một số hình ảnh để bắt đầu.",
+    "files": "tệp",
+    "dailyUploads": "Tải lên hôm nay",
+    "today": "hôm nay",
+    "resourcesCount": "Bạn có {count} tài nguyên đã tải lên",
+    "photosCount": "Bạn có {count} ảnh đã tải lên",
+    "resourcePageInfo": "Trang {page}/{totalPages} · {pageSize} mỗi trang · tổng {total} tệp",
+    "resourceTotalCount": "Tổng {total} mục",
+    "resourcePageSizeLabel": "Số mục mỗi trang",
+    "resourcePageSizeOption": "{size} / trang",
+    "resourceJumpTo": "Đến",
+    "resourceJumpPageUnit": "trang",
+    "resourceJumpInputAria": "Số trang",
+    "resourcePagePrev": "Trang trước",
+    "resourcePageNext": "Trang sau",
+    "subtitle": "Đây là tổng quan không gian làm việc của bạn.",
+    "planCardTitle": "Gói",
+    "planActive": "Hoạt động",
+    "planNames": {
+      "free": "Miễn phí",
+      "premium": "Gói Pro Năm",
+      "pro": "Gói Pro"
+    },
+    "planCardHintUpgrade": "Nâng cấp để mở thêm",
+    "planCardHintAllUpgraded": "Đã mở khóa đầy đủ",
+    "statStorageHint": "Dung lượng đã sử dụng cho tất cả các tải lên",
+    "statResourcesHint": "Tổng ảnh + tài liệu",
+    "statPhotosHint": "Các tệp bạn có thể sao chép hoặc chia sẻ dưới dạng liên kết",
+    "statUploadsHint": "Mỗi 24 giờ theo gói",
+    "chartTitle": "Hoạt động",
+    "chartDescription": "Khối lượng tải lên theo thời gian",
+    "chartPlaceholder": "Xu hướng sẽ xuất hiện ở đây khi có nhiều hoạt động hơn.",
+    "chartRange7d": "7 ngày qua",
+    "chartRange30d": "30 ngày qua",
+    "chartRange90d": "3 tháng qua",
+    "tableFile": "Tệp",
+    "tablePath": "Đường dẫn",
+    "tableSize": "Kích thước",
+    "tableActions": "Hành động",
+    "viewTable": "Bảng",
+    "viewGrid": "Bức ảnh",
+    "chartDemoNote": "Xu hướng tải lên (theo ngày)",
+    "loginRequired": "Vui lòng đăng nhập để xem bảng điều khiển của bạn.",
+    "checkoutSuccess": "Thanh toán thành công! Gói của bạn đã được nâng cấp.",
+    "subscriptionSuccess": "Đã kích hoạt gói. Chào mừng đến {plan}!",
+    "circleCrop": "Cắt hình tròn",
+    "roundedCorners": "Góc bo tròn",
+    "scheduledForDeletion": "Được lên kế hoạch xóa",
+    "upload": "Tải lên",
+    "uploadPhoto": "Tải lên ảnh",
+    "batchUploadPhotos": "Tải lên nhiều ảnh",
+    "batchUploading": "Đang tải lên nhiều ảnh…",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Chọn tối đa {max} tệp mỗi lần.",
+    "batchUploadTierHint": "Tối đa {max} tệp mỗi lần tải theo gói của bạn.",
+    "uploadUpgradeHint": "Có sẵn sau khi nâng cấp",
+    "uploading": "Đang tải lên...",
+    "loading": "Đang tải...",
+    "uploadErrorInvalidType": "Loại tệp không hợp lệ. Dùng PNG, JPG, WEBP hoặc GIF.",
+    "uploadErrorTooLarge": "Tep qua lon. Goi cua ban cho phep toi da {maxMb} MB moi tep.",
+    "uploadErrorDailyLimit": "Đã đạt giới hạn ngày ({limit} lần tải lên/ngày).",
+    "uploadErrorStorageLimit": "Đã đạt giới hạn dung lượng lưu trữ.",
+    "uploadErrorGeneric": "Tải lên thất bại. Vui lòng thử lại.",
+    "uploadUpgradeTitle": "Mở khóa tải lên trực tiếp",
+    "uploadUpgradeDescription": "Nâng cấp để tải lên trực tiếp từ bảng điều khiển với hạn mức cao hơn.",
+    "uploadRenewDescription": "Gia hạn để tải lên trực tiếp từ bảng điều khiển với hạn mức cao hơn.",
+    "expiredStorageLimitHint": "Sau khi hết hạn, chỉ còn 100MB dung lượng lưu trữ",
+    "uploadGoHome": "Tải lên từ trang chủ",
+    "resourceModule": {
+      "title": "Tài liệu của tôi",
+      "count": "Bạn có {count} tài liệu đã tải lên",
+      "empty": "Chưa có tài liệu. Tải lên PDF/Word/PowerPoint/Excel để bắt đầu.",
+      "viewCard": "Thẻ",
+      "searchPlaceholder": "Tìm theo tên tệp",
+      "typeAll": "Tất cả loại",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Đặt lại",
+      "upload": "Tải lên tài liệu",
+      "uploading": "Đang tải lên...",
+      "copy": "Sao chép liên kết",
+      "open": "Mở",
+      "delete": "Xóa",
+      "deleteFailed": "Xóa tài liệu không thành công",
+      "fetchError": "Không thể tải danh sách tài liệu",
+      "tableFile": "Tệp",
+      "tablePath": "Đường dẫn",
+      "tableType": "Loại",
+      "typeLabel": "Loại",
+      "tableSize": "Kích thước",
+      "tableActions": "Hành động",
+      "uploadErrorTooLarge": "Tệp quá lớn. Giới hạn mỗi tệp trong gói của bạn là {maxSize}.",
+      "uploadErrorDailyLimit": "Đã đạt giới hạn hằng ngày ({limit} lượt tải lên/ngày).",
+      "uploadErrorStorageLimit": "Đã đạt giới hạn lưu trữ.",
+      "uploadErrorGeneric": "Tải lên thất bại. Vui lòng thử lại."
+    },
+    "uploadSize": "Kích thước tệp {size}",
+    "dailyUploadsLimit": "{limit} lần tải lên/ngày",
+    "dailyUploadsUnlimited": "Tải lên không giới hạn",
+    "monthly": "tháng",
+    "yearly": "năm",
+    "bestValue": "Giá trị nhất",
+    "upgrade": {
+      "title": "Nâng cấp kế hoạch của bạn",
+      "description": "Nâng cấp để có giới hạn hàng ngày cao hơn, file lớn hơn và tính năng premium. Tải lên hàng ngày không giới hạn với gói Premium hàng năm.",
+      "button": "Nâng cấp ngay"
+    },
+    "settings": {
+      "title": "Cài đặt",
+      "profile": {
+        "title": "Hồ sơ",
+        "description": "Quản lý thông tin hồ sơ của bạn",
+        "name": {
+          "title": "Tên",
+          "description": "Cập nhật tên hiển thị của bạn",
+          "placeholder": "Nhập tên của bạn",
+          "hint": "Đây là tên sẽ được hiển thị trên hồ sơ của bạn",
+          "minLength": "Tên phải có ít nhất 3 ký tự",
+          "maxLength": "Tên không được vượt quá 30 ký tự",
+          "success": "Tên đã được cập nhật thành công",
+          "fail": "Cập nhật tên thất bại",
+          "save": "Lưu",
+          "saving": "Đang lưu..."
+        },
+        "avatar": {
+          "title": "Ảnh đại diện",
+          "description": "Cập nhật ảnh hồ sơ của bạn",
+          "uploadAvatar": "Tải lên hình ảnh",
+          "unavailable": "Tải lên không khả dụng",
+          "disabledHint": "Việc tải lên ảnh đại diện yêu cầu bật bộ nhớ đám mây cho dự án này.",
+          "recommendation": "PNG, JPG hoặc WebP. Kích thước tối đa tuân theo giới hạn của máy chủ."
+        }
+      },
+      "billing": {
+        "title": "Thanh toán",
+        "description": "Quản lý thanh toán và đăng ký của bạn",
+        "billingPagePlanTitle": "Gói hiện tại",
+        "billingPageStorageTitle": "Dung lượng đã dùng",
+        "currentPlan": {
+          "title": "Gói và dung lượng lưu trữ của bạn trên Photo To URL",
+          "description": "Nâng cấp để mở khóa hạn mức cao hơn và nhiều tính năng hơn"
+        },
+        "loadError": "Không thể tải dữ liệu thanh toán.",
+        "retry": "Thử lại",
+        "planNames": {
+          "free": "Miễn phí",
+          "premium": "Gói Pro Năm",
+          "pro": "Gói Pro"
+        },
+        "status": {
+          "active": "Hoạt động",
+          "expired": "Đã hết hạn"
+        },
+        "storageUsed": "Bộ nhớ đã sử dụng",
+        "freePlanMessage": "Hạn mức tải lên cao hơn",
+        "inactivePlanMessage": "Quyền lợi đã hết hạn",
+        "expiredStorageLimitHint": "Sau khi hết hạn, chỉ còn 100MB dung lượng lưu trữ",
+        "paidPlanMessage": "Quyền lợi đang hoạt động",
+        "backToWorkbench": "Quay lại bảng điều khiển",
+        "upgradeHint": "Nhiều dung lượng lưu trữ hơn",
+        "upgradeToPlan": "Nâng cấp gói",
+        "featureAdvancedEditing": "Công cụ chỉnh sửa nâng cao",
+        "upgradeNotReady": {
+          "title": "Sắp ra mắt",
+          "description": "Hãy theo dõi để biết thêm dịch vụ!",
+          "confirm": "Tôi hiểu",
+          "cancel": "Đóng"
+        },
+        "storage": {
+          "title": "CDN nhanh hơn",
+          "description": "Theo dõi việc sử dụng bộ nhớ của bạn",
+          "upgradeStorage": "Nâng cấp bộ nhớ"
+        }
+      },
+      "security": {
+        "title": "Bảo mật",
+        "description": "Quản lý bảo mật tài khoản của bạn",
+        "updatePassword": {
+          "title": "Mật khẩu",
+          "description": "Thay đổi mật khẩu cho đăng nhập email của bạn",
+          "currentPassword": "Mật khẩu hiện tại",
+          "newPassword": "Mật khẩu mới",
+          "confirmPassword": "Xac nhan mat khau moi",
+          "currentRequired": "Nhập mật khẩu hiện tại của bạn",
+          "newMinLength": "Ít nhất 8 ký tự",
+          "confirmRequired": "Vui long xac nhan mat khau moi cua ban",
+          "passwordMismatch": "Mat khau khong khop",
+          "hint": "Sử dụng mật khẩu mạnh mà bạn không sử dụng ở nơi khác.",
+          "save": "Cập nhật mật khẩu",
+          "saving": "Đang lưu…",
+          "success": "Mật khẩu đã được cập nhật",
+          "fail": "Không thể cập nhật mật khẩu",
+          "showPassword": "Hiển thị mật khẩu",
+          "hidePassword": "Ẩn mật khẩu"
+        },
+        "resetPassword": {
+          "title": "Đặt mật khẩu",
+          "description": "Bạn đã đăng nhập bằng Google. Thêm mật khẩu email làm phương thức đăng nhập dự phòng.",
+          "info": "Chúng tôi sẽ gửi liên kết đặt lại mật khẩu đến email tài khoản của bạn.",
+          "button": "Gửi liên kết đặt lại",
+          "sending": "Đang gửi…",
+          "sent": "Hãy kiểm tra hộp thư đến để nhận liên kết đặt lại.",
+          "disabled": "Email đặt lại mật khẩu chưa được định cấu hình trên máy chủ này.",
+          "fail": "Yêu cầu thất bại. Vui lòng thử lại sau."
+        },
+        "deleteAccount": {
+          "title": "Xóa tài khoản",
+          "description": "Xóa vĩnh viễn tài khoản và dữ liệu liên quan của bạn.",
+          "warning": "Điều này không thể hoàn tác. Hãy chắc chắn rằng bạn đã lưu mọi thứ bạn cần.",
+          "button": "Xóa tài khoản của tôi",
+          "confirmTitle": "Xóa tài khoản?",
+          "confirmDescription": "Tài khoản của bạn sẽ bị xóa vĩnh viễn.",
+          "cancel": "Hủy",
+          "confirm": "Xóa",
+          "deleting": "Đang xóa…",
+          "success": "Tài khoản đã được xóa",
+          "fail": "Không thể xóa tài khoản"
+        }
+      },
+      "notification": {
+        "title": "Thông báo",
+        "description": "Quản lý tùy chọn thông báo của bạn",
+        "newsletter": {
+          "title": "Cập nhật qua email",
+          "description": "Tin tức sản phẩm và mẹo (tùy chọn)",
+          "label": "Đăng ký nhận bản tin",
+          "disabledHint": "Bản tin chưa được bật cho trang web này.",
+          "hint": "Khi được bật, bạn có thể đăng ký hoặc hủy đăng ký tại đây."
+        },
+        "productPreview": {
+          "title": "Xem trước sản phẩm",
+          "description": "Hình ảnh chính được dùng trên thẻ chia sẻ và trang đích.",
+          "announcement": {
+            "line1": "Chúng tôi liên tục cung cấp các tính năng mạnh mẽ hơn và quyền lợi thành viên giá trị hơn.",
+            "line2": "Các khả năng nâng cấp mới sẽ được ưu tiên mở cho người dùng hiện tại, với mức giá không đổi.",
+            "line3": "Cảm ơn sự tin tưởng và ủng hộ của mọi người dùng. Chúng tôi sẽ tiếp tục hoàn thiện sản phẩm để mang lại trải nghiệm giá trị cao hơn.",
+            "line4": "Chúng tôi sẽ tiếp tục tối ưu trải nghiệm người dùng toàn cầu với dịch vụ nhanh hơn và ổn định hơn."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Tài khoản nghệ sĩ",
+    "artFightWorkspaceHint": "Đã bật công cụ nghệ sĩ — sao chép mã nhúng URL, HTML, BBCode và Markdown cho mỗi ảnh."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Lưu trữ thẻ hồ sơ Art Fight | URL & mã nhúng",
+      "description": "Tải lên thẻ Team Tragedy, Comedy hoặc Mystery. Nhận liên kết HTTPS trực tiếp và HTML/BBCode cho Art Fight, Discord và bài đăng mạng xã hội.",
+      "keywords": "thẻ hồ sơ Art Fight,lưu trữ ref sheet,Team Tragedy,Team Comedy,nhúng HTML BBCode"
+    },
+    "footerLink": "Lưu trữ Art Fight",
+    "artistAccount": {
+      "badge": "Tài khoản nghệ sĩ",
+      "title": "Đăng ký tài khoản nghệ sĩ chuyên dụng",
+      "lead": "Tạo tài khoản nghệ sĩ miễn phí để lưu thẻ hồ sơ trong Dashboard và dùng công cụ nhúng chuyên nghiệp cho Art Fight — sao chép URL, HTML, BBCode và Markdown cho mỗi lần tải lên.",
+      "toolEmbedTitle": "Công cụ nhúng",
+      "toolEmbedDesc": "Sao chép một cú nhấp cho hồ sơ Art Fight, Discord, diễn đàn và bài đăng mạng xã hội.",
+      "toolDashboardTitle": "Dashboard nghệ sĩ",
+      "toolDashboardDesc": "Mỗi thẻ nằm trong tài khoản — tìm kiếm, xem trước và sao chép liên kết bất cứ lúc nào.",
+      "toolBatchTitle": "Tải lên hàng loạt (Pro)",
+      "toolBatchDesc": "Sau khi nâng cấp, tải nhiều thẻ hồ sơ cùng lúc — dành cho nghệ sĩ có nhiều OC.",
+      "registerCta": "Tạo tài khoản nghệ sĩ",
+      "footnote": "Chọn «Tài khoản nghệ sĩ chuyên dụng» khi đăng ký, hoặc đăng ký từ trang này — chúng tôi chọn sẵn cho bạn."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "Dành cho nghệ sĩ kỹ thuật số & người tạo OC",
+      "title": "Lưu trữ thẻ hồ sơ & ref sheet cho nghệ sĩ Art Fight",
+      "subtitle": "Tải thẻ Team Tragedy, Comedy hoặc Mystery — URL ảnh ổn định cùng mã nhúng HTML/BBCode cho hồ sơ Art Fight, Discord và bài «sẵn sàng chiến đấu».",
+      "artistAccountLine": "Đăng ký tài khoản nghệ sĩ chuyên dụng để dùng công cụ embed chuyên nghiệp trong bảng điều khiển.",
+      "cta": "Thả thẻ bên dưới → sao chép liên kết → dán nơi bạn công bố đội",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Lưu trữ hồ sơ",
+      "tabArtist": "Tài khoản nghệ sĩ",
+      "tabSupport": "Hỗ trợ nghệ sĩ",
+      "tabsAriaLabel": "Điểm nổi bật Art Fight",
+      "trustLine": "Tải nhanh miễn phí · URL & mã nhúng · Dashboard nghệ sĩ",
+      "uploadCta": "Tải thẻ lên",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Mã nhúng sẵn sàng dán",
+      "panelIntroDesc": "Tải thẻ hồ sơ một lần, rồi sao chép liên kết trực tiếp hoặc HTML/BBCode cho Art Fight và Discord.",
+      "panelArtistTitle": "Công cụ tài khoản nghệ sĩ",
+      "panelSupportTitle": "Hỗ trợ nghệ sĩ chuyên biệt",
+      "panelSupportDesc": "Tải lên, nhúng, tài khoản và gói — con người thật, không phải hàng đợi ticket chung."
+    },
+    "teams": {
+      "title": "Cùng một công cụ cho mọi đội Art Fight",
+      "lead": "Dù ở Tragedy, Comedy hay Mystery — sau khi xong thẻ bạn cần một thứ: liên kết ảnh nhanh, ổn định để chia sẻ.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Thẻ và ref sheet tông xanh — lưu ảnh đầy đủ và dán liên kết lên hồ sơ Art Fight hoặc bài Twitter/X.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Thẻ tông cam/ấm — lý tưởng cho thông báo Discord và nhúng hồ sơ khi Art Fight cao điểm.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Thẻ tím phe thứ ba — cùng quy trình tải, cùng mã nhúng, sẵn sàng chia sẻ.",
+      "footnote": "Ba đội: tải lên → sao chép URL hoặc nhúng → đăng thẻ công khai."
+    },
+    "useCases": {
+      "title": "Nghệ sĩ dán liên kết ở đâu",
+      "lead": "Art Fight mang tính xã hội. Liên kết lưu trữ đi cùng mọi cập nhật hồ sơ và bài «tôi ở đội này».",
+      "profileTitle": "Hồ sơ Art Fight",
+      "profileDesc": "Dán URL trực tiếp hoặc HTML nhúng vào hồ sơ nhân vật Art Fight chính thức để đồng đội xem thẻ.",
+      "socialTitle": "Twitter / X & mạng xã hội",
+      "socialDesc": "Chia sẻ thẻ khi công bố đội — liên kết HTTPS sạch tải nhanh trên dòng thời gian và phản hồi.",
+      "discordTitle": "Discord & máy chủ nghệ sĩ",
+      "discordDesc": "Dán URL hoặc BBCode trên kênh Discord Art Fight, giới thiệu máy chủ hoặc chủ đề kế hoạch.",
+      "portfolioTitle": "Toyhouse & trang portfolio",
+      "portfolioDesc": "Cùng liên kết trên Toyhouse, Carrd hoặc chữ ký diễn đàn — ref nhất quán mọi nơi."
+    },
+    "features": {
+      "sectionTitle": "Vì sao nghệ sĩ Art Fight chọn Photo To URL",
+      "fastTitle": "Cho mùa Art Fight bận rộn",
+      "fastDesc": "Tải khi cần đăng — liên kết CDN trong vài giây lúc khởi động, cao điểm hoặc bất cứ lúc nào.",
+      "linkTitle": "URL thân thiện thẻ hồ sơ",
+      "linkDesc": "Liên kết .png/.jpg sạch mà hồ sơ Art Fight, diễn đàn và mạng xã hội chấp nhận không cần thêm bước.",
+      "embedTitle": "HTML & BBCode cho nghệ sĩ",
+      "embedDesc": "Sao chép đoạn nhúng cho hồ sơ và diễn đàn — không sửa thẻ img thủ công mùa cao điểm.",
+      "safeTitle": "Lưu trữ Dashboard sau đăng nhập",
+      "safeDesc": "Người dùng đăng ký lưu thẻ trong Dashboard — sao chép lại, tìm tệp, quản lý tải lên một chỗ."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Tài khoản nghệ sĩ: lưu trữ thẻ trong Dashboard",
+      "sectionLead": "Tải ẩn danh cho bài nhanh. Đăng ký nghệ sĩ Art Fight để có Dashboard riêng với công cụ nhúng — hoặc Pro để tải hàng loạt và giới hạn cao hơn.",
+      "dashboardTitle": "Lưu trữ ảnh Dashboard",
+      "dashboardDesc": "Sau đăng nhập, mỗi tải lên lưu trong Dashboard. Sao chép liên kết, mở tab mới hoặc tải bản gốc — tất cả trong một danh sách.",
+      "batchTitle": "Tải hàng loạt (Pro)",
+      "batchDesc": "Nhiều thẻ cùng lúc từ Dashboard — tối đa {monthlyMax} mỗi lô trên Pro, hoặc {yearlyMax} trên Premium hàng năm.",
+      "manageTitle": "Tìm kiếm & tường ảnh",
+      "manageDesc": "Tìm thẻ theo tên tệp, chuyển bảng/tường ảnh, xóa tệp không cần.",
+      "proTitle": "Giới hạn cao hơn & tệp lớn hơn",
+      "proDesc": "Mọi thứ trong Free cộng tải hàng loạt Dashboard ({monthlyMax}–{yearlyMax} tệp), giới hạn ngày cao hơn, tải lớn hơn, dung lượng nhiều hơn.",
+      "anonymousLabel": "Ẩn danh",
+      "anonymousDesc": "Liên kết nhanh cho một bài. Không lưu tài khoản; có thể bị xóa bất cứ lúc nào.",
+      "freeLabel": "Tài khoản miễn phí",
+      "freeDesc": "Thẻ lưu trong Dashboard. Sao chép, tìm, quản lý đến khi xóa hoặc hết dung lượng.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Tạo tài khoản miễn phí",
+      "loginCta": "Đăng nhập",
+      "dashboardCta": "Mở Dashboard",
+      "proCta": "Xem gói Pro",
+      "ctaPanelTitle": "Sẵn sàng lưu trữ thẻ?",
+      "footnote": "Tài khoản miễn phí tải ở đây và quản lý trong Dashboard. Tải hàng loạt cần Pro hoặc Premium."
+    },
+    "upload": {
+      "sectionTitle": "Tải thẻ hồ sơ Art Fight",
+      "sectionLead": "Ref sheet, thẻ đội hoặc đồ họa hồ sơ đầy đủ — kéo vào đây và sao chép liên kết cho bài tiếp theo.",
+      "dropzoneTitle": "Thả thẻ hồ sơ hoặc ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP, GIF — chào đón thẻ đội, ref sheet và đồ họa nhân vật",
+      "dropzoneFootnote": "Miễn phí: 5 tải/ngày không cần đăng ký. Đăng nhập để giới hạn cao hơn.",
+      "defaultAlt": "Thẻ hồ sơ Art Fight",
+      "resultTitle": "Thẻ sẵn sàng — chia sẻ ngay",
+      "resultHint": "Sao chép URL cho hồ sơ Art Fight, hoặc HTML/BBCode cho diễn đàn và Discord.",
+      "open": "Mở ảnh",
+      "reset": "Tải thẻ khác",
+      "errorBadType": "Vui lòng tải tệp ảnh (PNG, JPG, WEBP hoặc GIF).",
+      "errorGeneric": "Tải lên thất bại. Vui lòng thử lại.",
+      "loginRequiredTitle": "Đã đạt giới hạn miễn phí hàng ngày",
+      "loginRequiredDescription": "Đăng nhập để tiếp tục tải thẻ và lưu Dashboard, hoặc quay lại ngày mai.",
+      "loginRequiredDetail": "Người đăng ký có lưu trữ Dashboard: mỗi thẻ trong tài khoản, sao chép lại, tìm theo tên, quản lý một chỗ.",
+      "retentionAnonymousTitle": "Liên kết ẩn danh — không khuyến nghị cho thẻ quan trọng",
+      "retentionAnonymousBody": "Tải ẩn danh chỉ để chia sẻ nhanh. Liên kết hoạt động nhưng không lưu. Nén, CDN chậm và dọn định kỳ — đăng ký miễn phí cho mã nhúng và lưu trữ ổn định.",
+      "retentionAnonymousSignUp": "Tạo tài khoản miễn phí",
+      "retentionAnonymousPro": "Xem gói Pro",
+      "retentionFreeTitle": "Liên kết đã lưu trong tài khoản",
+      "retentionFreeBody": "Sao chép lại từ Dashboard bất cứ lúc nào. Tài khoản miễn phí có giới hạn ngày và dung lượng — đủ cho thẻ nhanh, không vô hạn.",
+      "retentionFreeDashboard": "Mở Dashboard",
+      "retentionFreeUpgrade": "Nâng cấp thêm dung lượng",
+      "retentionProTitle": "Thẻ lưu trên gói Pro",
+      "retentionProBody": "Giới hạn cao hơn, dung lượng nhiều hơn, liên kết tin cậy cho mọi Art Fight — Tragedy, Comedy hoặc Mystery.",
+      "retentionProDashboard": "Mở Dashboard",
+      "resultHintAnonymous": "Tải lên ẩn danh — chỉ liên kết trực tiếp. Đăng ký để mở khóa HTML, BBCode và Markdown.",
+      "retentionAnonymousIntro": "Liên kết trực tiếp này dùng để chia sẻ nhanh, nhưng lưu trữ ẩn danh có nhiều hạn chế:",
+      "retentionAnonymousLimit1": "Không gắn tài khoản — kém an toàn; ai có liên kết đều truy cập được",
+      "retentionAnonymousLimit2": "CDN chậm hơn — tải ẩn danh không được ưu tiên tăng tốc",
+      "retentionAnonymousLimit3": "Có thể bị nén — không đảm bảo chất lượng gốc",
+      "retentionAnonymousLimit4": "Thời hạn ngắn — tệp ẩn danh bị dọn định kỳ; liên kết có thể hết hạn",
+      "retentionAnonymousLimit5": "Mã nhúng bị khóa — HTML, BBCode, Markdown cần tài khoản miễn phí",
+      "retentionAnonymousCta": "Tạo tài khoản miễn phí để lưu thẻ, mở mã nhúng, CDN nhanh hơn và liên kết ổn định hơn."
+    },
+    "embed": {
+      "altLabel": "Văn bản alt (cho HTML & Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Sao chép mã",
+      "copied": "Đã sao chép",
+      "lockedTabTitle": "Đăng ký để mở mã nhúng",
+      "lockedTabDescription": "HTML, BBCode, Markdown có sau khi đăng ký. Tài khoản miễn phí: bảng điều khiển và sao chép nhúng một cú nhấp.",
+      "lockedTabCta": "Tạo tài khoản miễn phí"
+    },
+    "howTo": {
+      "title": "Từ thẻ hồ sơ đến bài công khai",
+      "lead": "Quy trình mọi nghệ sĩ Art Fight làm sau khi xong thẻ.",
+      "schemaName": "Cách lưu trữ thẻ Art Fight với mã nhúng",
+      "schemaDescription": "Tải thẻ đội Art Fight lên Photo To URL và dán liên kết lên hồ sơ hoặc bài mạng xã hội.",
+      "step1Title": "Tải thẻ đội",
+      "step1Desc": "Thả thẻ Tragedy, Comedy hoặc Mystery hoặc ref sheet — nhận liên kết và mã nhúng ngay.",
+      "step2Title": "Sao chép URL hoặc mã nhúng",
+      "step2Desc": "Tab URL cho hồ sơ Art Fight, HTML/BBCode cho Discord, diễn đàn và portfolio.",
+      "step3Title": "Đăng & công bố đội",
+      "step3Desc": "Dán liên kết trên Art Fight, Twitter/X hoặc Discord để nghệ sĩ khác thấy thẻ và tìm bạn."
+    },
+    "faq": {
+      "title": "FAQ nghệ sĩ Art Fight",
+      "lead": "Câu hỏi từ nghệ sĩ tải thẻ Team Tragedy, Comedy và Mystery.",
+      "warningTitle": "Tải có trách nhiệm",
+      "warningBody": "Chỉ lưu tác phẩm bạn tạo hoặc có quyền chia sẻ rõ ràng. Không tải nội dung vi phạm, bất hợp pháp hoặc cấm. Bạn chịu trách nhiệm mọi tệp.",
+      "warningTermsLink": "Điều khoản dịch vụ",
+      "warningPrivacyLink": "Chính sách quyền riêng tư",
+      "q1Question": "Dùng cho thẻ hồ sơ hay ref sheet?",
+      "q1Answer": "Cả hai. Tải thẻ đội Art Fight đầy đủ, ref sheet nhân vật hoặc đồ họa cần hotlink cho sự kiện.",
+      "q2Question": "Dùng được cho cả ba đội?",
+      "q2Answer": "Có. Team Tragedy, Team Comedy và Team Mystery cùng một lần tải — chúng tôi lưu ảnh và cung cấp liên kết chia sẻ.",
+      "q3Question": "Cần tài khoản để tải?",
+      "q3Answer": "Không cho tải nhanh. Ẩn danh: 10 miễn phí/ngày. Đăng nhập lưu Dashboard — sao chép, tìm, quản lý. Pro thêm tải hàng loạt (20–50 thẻ) và giới hạn cao hơn.",
+      "q8Question": "Tải hàng loạt nhiều thẻ?",
+      "q8Answer": "Có, trên gói trả phí. Mở Dashboard, Tải hàng loạt, chọn nhiều PNG/JPG/WEBP/GIF — tối đa 20/lô Pro tháng, 50 Premium năm. Miễn phí: từng thẻ một.",
+      "q4Question": "Liên kết hoạt động trên Discord và Twitter?",
+      "q4Answer": "Có. URL HTTPS trực tiếp dùng được trên mạng xã hội. Dùng BBCode nơi hỗ trợ.",
+      "q5Question": "Liên kết còn lâu dài không?",
+      "q5Answer": "Tùy cách tải. Ẩn danh chỉ tạm — dọn định kỳ, liên kết có thể hỏng. Đăng ký giữ trong Dashboard. Pro tin cậy nhất lâu dài.",
+      "q6Question": "Tải bất kỳ ảnh nào? Bản quyền?",
+      "q6Answer": "Chỉ ảnh bạn sở hữu hoặc được phép — OC của bạn, commission có quyền lưu trữ, tác phẩm bạn tạo. Không tải ref của người khác, asset Art Fight bạn không làm, ảnh celebrity, logo thương hiệu, nội dung có bản quyền không phép.",
+      "q7Question": "Nội dung bị cấm tuyệt đối?",
+      "q7Answer": "Không bao giờ bất hợp pháp; khiêu dâm/bóc lột (kể cả liên quan trẻ vị thành niên); thù hận, quấy rối, bạo lực; malware, lừa đảo; vi phạm bản quyền, nhãn hiệu, quyền riêng tư. Chúng tôi có thể gỡ và khóa không báo trước."
+    },
+    "artistSupport": {
+      "title": "Hỗ trợ nghệ sĩ — chúng tôi sẵn sàng",
+      "panelVisualTag": "Phản hồi trong 1–2 ngày",
+      "panelVisualQuestion": "BBCode nhúng không hoạt động?",
+      "panelVisualReply": "Đã hiểu — chúng tôi sẽ giúp bạn.",
+      "topicEmbed": "Nhúng & liên kết",
+      "topicAccount": "Tài khoản nghệ sĩ",
+      "topicPlan": "Gói & dung lượng",
+      "topicFeedback": "Ý tưởng & phản hồi",
+      "contactHint": "Liên hệ bất cứ lúc nào — không xếp hàng.",
+      "contactCta": "Liên hệ",
+      "emailCta": "Gửi email"
+    },
+    "conversion": {
+      "title": "Nhiều OC? Tải hàng loạt từ Dashboard",
+      "description": "Nghệ sĩ Pro tải hàng chục thẻ một lúc, giữ mọi liên kết trong Dashboard, giới hạn ngày và dung lượng cao hơn cho toàn bộ danh sách.",
+      "cta": "Xem gói Pro thân thiện nghệ sĩ"
+    }
+  }
+}

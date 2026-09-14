@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Bilde til URL",
+    "logout": "Logg ut",
+    "logoutFailed": "Utlogging mislyktes",
+    "switchLanguage": "Bytt språk",
+    "tagline": "Gjør bilder om til rene, delbare lenker på sekunder",
+    "header": {
+      "home": "Hjem",
+      "blog": "Blogg",
+      "subtitle": "Gjør bilder om til delbare lenker",
+      "prompt": "Dra, lim inn eller last opp — få en lenke umiddelbart",
+      "circleCrop": "Rundt bilde",
+      "circleCropNav": "Sirkelklipp",
+      "roundedCorners": "Avrundede hjørner",
+      "removeBackground": "Bilde Fjern Bakgrunn",
+      "removeBackgroundNav": "Fjern Bakgrunn",
+      "pricingNav": "Priser",
+      "comingSoon": "Kommer snart.",
+      "history": "Lastoppføringer",
+      "login": "Logg inn",
+      "signUp": "Registrer",
+      "signOut": "Logg ut",
+      "dashboard": "Dashbord",
+      "settings": "Innstillinger",
+      "tool": "Verktøy",
+      "pdfToUrlNav": "PDF til URL",
+      "fileToUrlNav": "Fil til URL",
+      "artFightNav": "Profilkort"
+    },
+    "history": {
+      "drawerTitle": "Lastoppføringer",
+      "hint": "Viser opplastninger fra siste uke.",
+      "close": "Lukk",
+      "empty": "Ingen opplastninger ennå.",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert",
+      "open": "Åpne i ny fane"
+    },
+    "languageSelect": {
+      "title": "Velg din region",
+      "subtitle": "Å velge en region vil endre språk og innhold.",
+      "close": "Lukk"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Gjør bilder om til rene, delbare lenker.",
+        "line2": "Raskt, enkelt, pålitelig."
+      },
+      "partners": "Partnere",
+      "linksTitle": "Ressurser",
+      "productsTitle": "Produkter",
+      "nav": {
+        "home": "Hjem",
+        "blog": "Blogg",
+        "pricing": "Priser",
+        "docs": "Dokumentasjon",
+        "status": "Status",
+        "about": "Om oss",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "title": "Juridisk",
+        "privacy": "Personvern",
+        "terms": "Vilkår",
+        "cookie": "Informasjonskapselpolitikk"
+      },
+      "copyright": "© 2025 Photo To URL. Alle rettigheter forbeholdt.",
+      "products": {
+        "editStamp": "Stempelredigerer"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "CDN-lenker",
+      "nosignup": "Uten registrering"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "Bilde til URL",
+      "subtitle": "Last opp bildet ditt → få en lenke → lim det inn hvor som helst",
+      "upload": "Last opp bilde",
+      "bullet": {
+        "fast": "Rask deling",
+        "direct": "Direkte bildelenker",
+        "nosignup": "Ingen registrering nødvendig",
+        "paste": "Lim inn fra utklippstavlen"
+      }
+    },
+    "loginPrompt": {
+      "title": "Logg inn for å fortsette",
+      "description": "Du har nådd grensen for gratis opplastinger. Logg inn for å låse opp høyere grenser og flere funksjoner.",
+      "benefits": "Hvorfor registrere deg?",
+      "benefit1": "Full opplastingshistorikk - organisert, nøyaktig og alltid tilgjengelig",
+      "benefit2": "Tilgang til alle premium redigeringsverktøy",
+      "benefit3": "Skylagring med opplastingshistorikk",
+      "login": "Logg inn / Registrer deg",
+      "later": "Senere"
+    },
+    "upgradePrompt": {
+      "title": "Daglig grense nådd",
+      "description": "Du har brukt alle opplastingene dine for i dag. Kom tilbake i morgen! Flere premiumtjenester kommer snart.",
+      "comingSoon": "Følg med for flere tjenester",
+      "goDashboard": "Se",
+      "later": "Senere"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto-demo",
+      "idleTitle": "Dra og slipp bildet ditt",
+      "idleSubtitle": "Se flyten: opplasting → lenke → kopiering.",
+      "processing": "Optimaliserer og laster opp...",
+      "doneTitle": "Klar til deling",
+      "doneSubtitle": "Lenken din er klar til bruk med en gang.",
+      "thanksForWatching": "Takk for at du så på"
+    },
+    "upload": {
+      "title": "Slipp et bilde her eller klikk for å velge",
+      "hint": "JPG, PNG, WEBP, GIF opptil 2MB (gratis 10 opplastinger/dag). Dra og slipp, klikk eller lim inn skjermbilder.",
+      "orDrop": "eller slipp filen her",
+      "samplesTitle": "Har du ikke et bilde? Prøv et av disse:",
+      "policy": "Ved å laste opp et bilde godtar du våre <privacy>personvernregler</privacy> og <terms>brukervilkår</terms>.",
+      "clear": "Tøm"
+    },
+    "result": {
+      "error": "Opplasting feilet. Vennligst prøv igjen.",
+      "fileTooLarge": "Filen er for stor. Planen din tillater opptil {maxMb} MB per fil.",
+      "dailyLimitReached": "Daglig grense nådd ({limit} per dag). Prøv igjen i morgen.",
+      "storageLimitReached": "Lagring full ({used} / {limit}). Flere lagringsalternativer kommer snart!",
+      "generated": "Generert lenke:",
+      "open": "Åpne i ny fane",
+      "placeholder": "Ingen lenke ennå. Last opp et bilde for å generere en lenke.",
+      "savePrompt": "Lagre lenken i ønsket format",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert",
+      "saveHint": "Lagre denne lenken hvis du trenger den senere",
+      "saveHintLoggedIn": "Lagret i dashbord",
+      "tryPrefix": "Prøv"
+    },
+    "benefits": {
+      "title": "Hvorfor velge Bilde til URL",
+      "subtitle": "Hastighet — Gratis prøve: 10 opplastinger/dag, 2MB per fil",
+      "items": {
+        "fast": {
+          "title": "Rask deling",
+          "desc": "Last opp og få en lenke på sekunder uten ekstra trinn."
+        },
+        "direct": {
+          "title": "Direkte bilde-URL-er",
+          "desc": "Rene lenker som fungerer i HTML, Markdown og chat-apper."
+        },
+        "nosignup": {
+          "title": "Ingen registrering",
+          "desc": "Gratis prøve: 5 opplastinger/dag, 2MB per fil — ingen registrering."
+        }
+      }
+    },
+    "how": {
+      "title": "Hvordan det fungerer",
+      "step1": "1) Legg til bildet ditt (dra, lim inn eller klikk for å velge en fil).",
+      "step2": "2) Vi hoster det og returnerer en delbar lenke.",
+      "step3": "3) Kopier og del lenken i dokumenter, chatter, prototyper og mer.",
+      "note": "Lenken din åpnes raskt i dokumenter, chatter og prototyper—pluss du kan laste den ned som .txt."
+    },
+    "process": {
+      "title": "Tre-trinns flyt",
+      "subtitle": "Reduser innsats, hold CTA synlig, fullfør på sekunder.",
+      "steps": {
+        "1": {
+          "title": "Slipp eller lim inn",
+          "desc": "Dra en fil, lim inn fra utklippstavlen eller bla gjennom."
+        },
+        "2": {
+          "title": "Vi hoster og returnerer en lenke",
+          "desc": "Øyeblikkelig URL med kopier/åpne/lagre-kontroller."
+        },
+        "3": {
+          "title": "Bruk hvor som helst",
+          "desc": "Bruk i dokumenter, chatter, billetter, blogger eller prototyper."
+        }
+      }
+    },
+    "features": {
+      "title": "Høydepunkter",
+      "subtitle": "Tydelighet først: mindre friksjon, mer deling.",
+      "items": {
+        "cdn": {
+          "title": "Direkte CDN-lenker",
+          "desc": "Rene URL-er klare for Markdown- og HTML-innbygging."
+        },
+        "save": {
+          "title": "Kopier og Lagre",
+          "desc": "Kopier, åpne eller lagre som .txt-fil med ett klikk."
+        },
+        "clipboard": {
+          "title": "Vennlig mot utklippstavlen",
+          "desc": "Lim inn skjermbilder direkte uten å lete etter filer."
+        },
+        "errors": {
+          "title": "Sikker og Privat",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Ingen registrering",
+          "desc": "Gratis prøve: 5 opplastinger/dag, 2MB per fil — ingen registrering."
+        },
+        "r2": {
+          "title": "Rask hosting",
+          "desc": "Lenker betjenes via rask CDN for rask lasting og pålitelig tilgang."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Team sparer tid med Bilde til URL",
+      "subtitle": "Sosialt bevis for å redusere risiko og fremskynde adopsjon.",
+      "items": {
+        "ops": {
+          "name": "Produktoperasjoner",
+          "quote": "Vi limer inn skjermbilder i billetter uten å tette vedlegg. Lenker forblir rene."
+        },
+        "content": {
+          "name": "Innholdsleder",
+          "quote": "Markdown-klare lenker holder dokumentene våre ryddige og publiserbare på minutter."
+        },
+        "support": {
+          "name": "Støtte",
+          "quote": "Tydelige feil og øyeblikkelige URLer gjør det enkelt å veilede kunder i chat."
+        }
+      }
+    },
+    "cta": {
+      "title": "Gjør bilder om til lenker på sekunder",
+      "subtitle": "Dra, lim inn eller last opp — kopier lenken og del overalt.",
+      "upload": "Last opp nå",
+      "paste": "Lim inn skjermbilde"
+    },
+    "longform": {
+      "title": "Hvorfor Bilde til URL hjelper arbeidsflyten din",
+      "p1": "Bilde til URL er bygget for skapere, markedsføring, støtte, operasjoner og alle som trenger å konvertere bilder til rene, pålitelige lenker. Med en direkte opplast→lenke-flyt unngår du tunge mediemanagere og trenger ikke å logge inn. Lenker er ryddige og enkle å lime inn i chatter, dokumenter, wikier, feilrapporter og billetter. Team beveger seg raskere ved å dele skjermbilder umiddelbart· i tillegg hjelper forutsigbare URLer med automatisering, QA og lette prototyper.",
+      "p2": "Opplevelsen forblir enkel: slipp, lim inn eller velg en fil· få en lenke· del den. Uten støy, uten forstyrrende annonser, uten barrierer. Du fokuserer på innholdet, vi håndterer hosting. For globale team er grensesnittet tilgjengelig på flere språk mens teksten forblir klar og universell.",
+      "useCases": {
+        "title": "Praktiske brukstilfeller",
+        "items": {
+          "1": "Produkt og design: del UI-skjermbilder og raske notater uten tunge verktøy.",
+          "2": "Støtte og QA: vedlegg reproduserbare skjermbilder i billetter og chatter med rene lenker.",
+          "3": "Dokumenter og blogger: innebygd bilder i Markdown/HTML/CMS-redaktører med forutsigbare URLer.",
+          "4": "Salg og CS: del POC-skjermbilder eller gjennomganger via e-post eller meldinger.",
+          "5": "Engineering handoff: del bevis og regresjonssammenligninger på en lett måte.",
+          "6": "Fellesskap og sosiale medier: lim inn lenker i Discord/Slack/Teams/X/fora uten tunge forhåndsvisninger."
+        }
+      },
+      "flow": {
+        "title": "Hvordan flyten fungerer fra ende til ende",
+        "p1": "1) Velg et bilde: dra og slipp, lim inn fra utklippstavlen eller bla gjennom. PNG, JPG, WEBP, GIF opp til 2MB i gratis plan (10 opplastinger/dag). 2) Vi laster opp og returnerer en direkte lenke med kopier/åpne/lagre-handlinger (.txt). 3) Bruk lenken hvor som helst: blogger, dokumenter, billetter, chatter, prototyper og mer.",
+        "p2": "Hvert trinn er innstilt for klarhet: synlig status, vennlige feil og knapper med bekreftelse. Når CDN er aktivert, betjenes lenker fra CDN-domenet; bildene dine lagres trygt på our hosting infrastructure."
+      },
+      "best": {
+        "title": "Beste praksis for renere lenker",
+        "items": {
+          "1": "Hold filnavn meningsfulle før opplasting· de forblir en del av URL-en og hjelper fremtidig søk.",
+          "2": "Bruk WEBP eller optimerte JPG/PNG for lettere nyttelaster hvis du forventer tung deling.",
+          "3": "Kopier lenken direkte etter generering for å unngå utdaterte utklippstavleoppføringer.",
+          "6": "Lagre som .txt for vanlige tekstlenker som er klare til kopiering og bruk."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-høydepunkter",
+        "p1": "Vi vil integrere our hosting infrastructure dypt, noe som gir mer brukervenlige kvoter og administrasjonsmuligheter, sammen med valgfri teamarbeid, tilgangskontroll og per-lenke-analytics. Vi planlegger å lansere funksjoner som ett-klikk-sletting, forhåndsinnstilte lenkestiler og organisasjonsnivå lagringsbuckets. I mellomtiden forbedrer og forfinner vi kontinuerlig underprodukter: sirkelbeskjæringsverktøyet, avrundede hjørneverktøyet og bakgrunnsfjerningsverktøyet, for å gjøre bildebehandling mer praktisk."
+      },
+      "faq": {
+        "title": "Ofte stilte spørsmål",
+        "items": {
+          "1": {
+            "q": "Er det gratis?",
+            "a": "Ja: vi har et gratisnivå. Kjernen opplasting→lenke er gratis innenfor gratissens grenser (lagring, daglige opplastinger, filstørrelse). Vil du løfte grensene, velger du betalt plan: lenker hostes via vårt CDN med høyere kvoter og større maksfilstørrelse."
+          },
+          "2": {
+            "q": "Hvilke formater støttes?",
+            "a": "Foreløpig støttes PNG, JPG, WEBP og GIF innenfor gjeldende grenser for filstørrelse. Flere formater kan legges til hvis behovet tilsier det."
+          },
+          "3": {
+            "q": "Kan jeg bygge inn i Markdown eller HTML?",
+            "a": "Ja. Kopier lenken direkte, eller lagre den med ett klikk som .txt og bruk den der du trenger den — Markdown, HTML, dokumenter eller CMS."
+          },
+          "4": {
+            "q": "Beholder dere filene mine offentlige?",
+            "a": "Lenker er delbare. Når CDN er aktivert, leveres filene via CDN-domenet. Hvis lagring midlertidig ikke er tilgjengelig, viser vi en tydelig vedlikeholdsmelding."
+          },
+          "5": {
+            "q": "Vil det være kontoer eller team?",
+            "a": "Ja. Først satser vi på enkel og pålitelig opplasting og deling; deretter legger vi gradvis til teamrom, tilgangskontroll og bruksanalyse."
+          },
+          "6": {
+            "q": "Kan jeg få refusjon etter betaling?",
+            "a": "Vi tilbyr som regel ikke refusjon når tjenesten fortsatt er tilgjengelig for normal bruk. Hvis du ikke kan bruke tjenesten i den betalte perioden på grunn av et problem på vår side, vurderer vi saken etter kontroll og avtaler ved behov neste steg med deg."
+          },
+          "7": {
+            "q": "Hvordan sier jeg opp fornyelse?",
+            "a": "Fornyelse belastes automatisk på kortet du har autorisert. For å stoppe fremtidige trekk, avslutt autotrekk eller gjentakende betaling hos kortutsteder (app, nettbank eller kundeservice)."
+          },
+          "8": {
+            "q": "Hvor lenge kan jeg bruke tjenesten etter oppsigelse?",
+            "a": "Du kan vanligvis fortsette å bruke tjenesten ut den allerede betalte perioden. Etterpå blir det ikke trukket mer, og fordelene opphører med den perioden."
+          }
+        },
+        "contactNote": "For det over og andre spørsmål: bruk siden «Kontakt oss» på dette nettstedet eller send e-post til <email>support@phototourl.com</email>. Vi sikter på svar innen 1–2 virkedager."
+      },
+      "about": {
+        "title": "Om Photo To URL",
+        "p1": "PhotoToURL er en gratis bilde-til-URL-konverterer og lenkegenerator som hjelper deg å laste opp bilder og umiddelbart lage delbare bildelenker. Konverter enkelt JPG, PNG, WEBP og andre formater til direkte bilde-URL-er for rask nettdeling.",
+        "p2": "Enten du trenger rask photo to URL eller gratis hosting med CDN-lenker, gjør PhotoToURL det enkelt og pålitelig. Last opp bildet og få en direktelenke på sekunder. Gratis plan: 10 opplastinger/dag, 2MB per fil — se Priser for høyere grenser."
+      }
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    }
+  },
+  "seo": {
+    "keywords": "bilde til url,bilde til url,bildelenke generator,konverter bilde til lenke,gratis bildhosting,cdn bilde",
+    "home": {
+      "title": "Bilde til URL Konverter | Gjør bilder om til delbare lenker",
+      "description": "Gratis bildhosting: konverter bilder til delbare URLer. JPG, PNG, WEBP, GIF opp til 2MB, 10 opplastinger/dag i gratis plan. Utklippstavle, rask CDN."
+    }
+  },
+  "images": {
+    "previewAlt": "Forhåndsvisning av opplastet bilde",
+    "animatingSampleAlt": "Eksempelbilde brukt i opplastingsdemo",
+    "sampleThumbAlt": "Eksempel opplastingsbilde",
+    "useSampleAria": "Bruk dette eksempelbildet",
+    "howIllustrationAlt": "Illustrasjon som viser hvordan Bilde til URL fungerer",
+    "heroDropTitle": "Dra et bilde hit",
+    "heroDropSubtitle": "Vi vil forbedre og hoste det, deretter returnere en ren lenke.",
+    "heroDropBadge": "Dra eller klikk (JPG/PNG, opp til 2MB)",
+    "logoAlt": "Bilde til URL logo"
+  },
+  "circleCrop": {
+    "title": "Rundt bilde",
+    "description": "Gratis online-verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder.",
+    "upload": "Last opp bilde",
+    "processing": "Behandler...",
+    "download": "Last ned sirkulært bilde",
+    "errorSelectFile": "Velg en bildefil.",
+    "errorUploadFirst": "Last opp et foto først.",
+    "page": {
+      "title": "Rund bildebeskjæring - Gratis verktøy på nett",
+      "description": "Beskjær bildene dine til en sirkelformet profilbilde-vennlig stil på sekunder uten registrering.",
+      "sectionSubtitle": "Beskjær et hvilket som helst bilde til en perfekt sirkel - ideelt for profilbilder, sosiale medier-avatarer og designprosjekter."
+    },
+    "seo": {
+      "title": "Sirkel Beskjæring Verktøy | Gratis Online Rund Foto Beskjærer",
+      "description": "Gratis online verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder og designprosjekter.",
+      "keywords": "sirkel bilde beskjæring, beskjær sirkel bilde, sirkel beskjæring verktøy, sirkel beskjæring online"
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    }
+  },
+  "roundedCorners": {
+    "title": "Bilde med avrundede hjørner",
+    "description": "Gratis nettverktøy for avrundede hjørner – legg enkelt til avrundede hjørner til ethvert bilde, perfekt for appikoner, profilbilder og designprosjekter.",
+    "upload": "Last opp foto",
+    "download": "Last ned",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Behandler...",
+    "errorUploadFirst": "Last opp et foto først.",
+    "errorSelectFile": "Velg en bildefil.",
+    "page": {
+      "title": "Bilde med avrundede hjørner – Gratis nettverktøy",
+      "description": "Bilde med avrundede hjørner er et gratis nettverktøy for å legge til avrundede hjørner til ethvert bilde. Lag app-ikoner, myke bilder for sosiale medier eller miniatyrbilder med justerbar radius og zoom. Uten registrering – last opp, juster, last ned.",
+      "sectionSubtitle": "Legg til avrundede hjørner på et hvilket som helst bilde - perfekt for appikoner, sosiale medier og miniatyrbilder."
+    },
+    "seo": {
+      "title": "Avrundede Hjørner Verktøy | Gratis nettverktøy",
+      "description": "Gratis verktøy for å legge til avrundede hjørner til bilder – for app-ikoner, profilbilder og designprosjekter.",
+      "keywords": "avrundede hjørner, bilde avrundede hjørner, avrundede hjørner verktøy, avrundede hjørner online"
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    }
+  },
+  "removeBackground": {
+    "title": "Bilde Fjern Bakgrunn",
+    "description": "Gratis online AI-bakgrunnsfjerningsverktøy, fjern enkelt bakgrunnen fra ethvert bilde - perfekt for produktbilder, portretter og designprosjekter.",
+    "upload": "Last Opp Bilde",
+    "download": "Last Ned",
+    "processing": "Behandler...",
+    "processingModelLoading": "Laster AI-modell, første bruk kan ta 10-30 sekunder, vennligst vent...",
+    "processingImage": "Behandler bilde, vennligst vent...",
+    "errorUploadFirst": "Vennligst last opp et bilde først.",
+    "errorSelectFile": "Vennligst velg en bildefil.",
+    "errorProcessing": "Bildebehandling mislyktes. Vennligst prøv igjen.",
+    "errorTimeout": "Behandlingstimeout, bildet kan være for stort eller nettverket er tregt, vennligst prøv et mindre bilde eller prøv igjen senere.",
+    "errorMemory": "Utilstrekkelig minne, vennligst prøv et mindre bilde.",
+    "errorGeneric": "Behandling mislyktes: {error}. Vennligst prøv igjen eller prøv et annet bilde.",
+    "errorFileTooLarge": "Bildefilen er for stor, vennligst velg et bilde mindre enn 10MB.",
+    "errorModelLoad": "Kunne ikke laste AI-modellbiblioteket, vennligst oppdater siden og prøv igjen.",
+    "errorPageHidden": "Siden har blitt endret, vennligst last opp bildet på nytt for å behandle det.",
+    "page": {
+      "title": "Bilde Fjern Bakgrunn - Gratis Online AI Bakgrunnsfjerner",
+      "description": "Bilde Fjern Bakgrunn er et gratis online AI-drevet verktøy for å fjerne bakgrunner fra ethvert bilde. Opprett gjennomsiktige PNG-bilder med det samme med vår avanserte bakgrunnsfjernings teknologi. Perfekt for produktbilder, portretter, e-handel og designprosjekter. Ingen registrering påkrevd - last opp, behandle og last ned på sekunder.",
+      "sectionSubtitle": "AI-drevet bakgrunnsfjerning - lag gjennomsiktige PNG-er fra et hvilket som helst bilde på sekunder."
+    },
+    "seo": {
+      "title": "Bakgrunnsfjerningsverktøy | Gratis Online AI Bakgrunnsfjerner",
+      "description": "Gratis online AI-verktøy for å fjerne bakgrunnen fra ethvert bilde - perfekt for produktbilder, portretter og designprosjekter.",
+      "keywords": "fjern bakgrunn, bakgrunnsfjerner, gjennomsiktig bakgrunn, ai bakgrunnsfjernelse"
+    },
+    "selectRegion": {
+      "title": "Velg Region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF til URL | PDF-hosting og delbare HTTPS-lenker",
+      "description": "Last opp PDF-filer til kontoen din og få en stabil HTTPS-lenke — vis, last ned eller kopier lenken når som helst i kontrollpanelet.",
+      "keywords": "pdf til url,pdf hosting,del pdf,last opp pdf,direkte lenke,dokumentlenke"
+    },
+    "tool": {
+      "heroTitle": "PDF til URL",
+      "heroSubtitle": "Gjør PDF-filer om til delbare HTTPS-lenker knyttet til kontoen din. Etter hver opplasting åpner du kontrollpanelet for å kopiere lenken, forhåndsvise eller laste ned.",
+      "featureFastTitle": "Rask opplasting",
+      "featureFastDesc": "Dra og slipp en PDF eller velg fil; innen noen sekunder får du lenken via vårt CDN.",
+      "featureHostingTitle": "Personlig hosting",
+      "featureHostingDesc": "Hver fil lagres i ditt eget skylager og dokumentbibliotek — ikke en anonym engangslenke.",
+      "featureLinkTitle": "Stabile, delbare lenker",
+      "featureLinkDesc": "Hver opplasting returnerer en ren URL du kan lime inn hvor som helst. Lenken fungerer til du sletter filen i kontrollpanelet.",
+      "featureDashboardTitle": "Alt på ett sted",
+      "featureDashboardDesc": "Etter innlogging åpner du kontrollpanelet for å se alle PDF-ene: kopier lenken på nytt, åpne i ny fane eller last ned originalen.",
+      "dropzoneTitle": "Dra PDF-en hit",
+      "dropzoneHint": "Kun PDF",
+      "dropzoneFootnote": "Etter opplasting kan du når som helst gå tilbake til kontrollpanelet for å kopiere lenken eller laste ned filen.",
+      "browse": "Velg fil",
+      "selectedFileLabel": "Valgt fil",
+      "removeSelectedFile": "Fjern fil",
+      "uploadBtn": "Last opp og få lenke",
+      "uploading": "Laster opp…",
+      "loginRequiredTitle": "Logg inn for å laste opp PDF",
+      "loginRequiredDescription": "Logg inn først. Hosting er knyttet til kontoen din; etter opplasting kan du kopiere lenker, laste ned og administrere alt i kontrollpanelet.",
+      "loginRequiredDetail": "Etter innlogging vises hver opplasting samme sted i panelet: kopier direkte lenke med ett klikk, åpne i ny fane, last ned originaler, søk og filtrer etter type ved behov, slett eller last opp igjen — og hjelper med å holde dokumenter private.",
+      "loginCta": "Logg inn",
+      "signUpCta": "Opprett konto",
+      "resultTitle": "PDF-lenken din",
+      "resultDashboardHint": "For denne filen, åpne kontrollpanelet når som helst: kopier URL, åpne i ny fane eller last ned PDF.",
+      "dashboardCta": "Åpne panel",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert",
+      "open": "Åpne i ny fane",
+      "reset": "Last opp en til",
+      "errorUnauthorized": "Logg inn før du laster opp PDF.",
+      "errorBadType": "Velg en PDF-fil.",
+      "howTitle": "Slik fungerer det",
+      "step1Title": "1. Velg PDF",
+      "step1Desc": "Velg en fil fra enheten eller dra den til opplastingsområdet.",
+      "step2Title": "2. Last opp til biblioteket",
+      "step2Desc": "Vi lagrer PDF-en i skyen din og viser den i kontrollpanelet, deretter returnerer vi en direkte HTTPS-URL.",
+      "step3Title": "3. Del og kom tilbake senere",
+      "step3Desc": "Del lenken på e-post eller i chat. Åpne kontrollpanelet ved behov for å kopiere samme lenke, åpne den eller laste ned filen."
+    },
+    "page": {
+      "sectionTitle": "Dokumentene dine på ett sted",
+      "sectionLead": "For deg som vil ha ekte PDF-hosting med et bibliotek bak — last opp én gang, lagre på kontoen og kom tilbake når som helst.",
+      "bullet1": "Hver opplastet PDF vises i samme liste i panelet slik at du ser hva du har delt.",
+      "bullet2": "Personlig hosting: filer under kontoen din, levert via HTTPS og lagret i biblioteket.",
+      "bullet3": "Handlinger alltid tilgjengelig: kopier offentlig lenke, åpne i nettleseren eller last ned original-PDF.",
+      "bullet4": "Samme URL fungerer så lenge filen finnes; etter sletting i panelet leverer ikke lenken den filen lenger.",
+      "footnote": "Slett filer du ikke trenger i kontrollpanelet; lenken slutter å fungere."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Fil til URL | Office-dokumenter og HTTPS-lenker",
+      "description": "Last opp PDF-, Word-, PowerPoint- eller Excel-filer til kontoen din og få en stabil HTTPS-lenke — vis, last ned eller kopier lenken når som helst i kontrollpanelet.",
+      "keywords": "fil til url,dokumentlenke,del office,last opp docx pptx xlsx,dokumenthosting"
+    },
+    "tool": {
+      "heroTitle": "Fil til URL",
+      "heroSubtitle": "Gjør kontordokumenter om til delbare HTTPS-lenker under kontoen din. Støttede formater: PDF, Word, PowerPoint og Excel.",
+      "featureFastTitle": "Rask opplasting",
+      "featureFastDesc": "Dra inn en støttet fil eller velg den; innen noen sekunder får du lenken via CDN.",
+      "featureHostingTitle": "Personlig hosting",
+      "featureHostingDesc": "Hver opplasting lagres i skyen din og i samme personlige bibliotek som opplastinger fra andre sider.",
+      "featureLinkTitle": "Stabile, delbare lenker",
+      "featureLinkDesc": "Hver opplasting returnerer en ren URL. Lenken fungerer til du sletter filen i kontrollpanelet.",
+      "featureDashboardTitle": "Alt på ett sted",
+      "featureDashboardDesc": "Etter innlogging åpner du kontrollpanelet for å kopiere lenken på nytt, åpne i ny fane eller laste ned.",
+      "dropzoneTitle": "Dra filen hit",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Etter opplasting kan du når som helst gå tilbake til kontrollpanelet for å kopiere lenken eller laste ned filen.",
+      "browse": "Velg fil",
+      "selectedFileLabel": "Valgt fil",
+      "removeSelectedFile": "Fjern fil",
+      "uploadBtn": "Last opp og få lenke",
+      "uploading": "Laster opp…",
+      "loginRequiredTitle": "Logg inn for å laste opp filer",
+      "loginRequiredDescription": "Logg inn først. Hosting er knyttet til kontoen din; etter opplasting kan du kopiere lenker, laste ned og administrere alt i kontrollpanelet.",
+      "loginRequiredDetail": "Etter innlogging vises hver opplasting samme sted i panelet: kopier direkte lenke med ett klikk, åpne i ny fane, last ned originaler, søk og filtrer etter type ved behov, slett eller last opp igjen — og hjelper med å holde dokumenter private.",
+      "loginCta": "Logg inn",
+      "signUpCta": "Opprett konto",
+      "resultTitle": "Fillenken din",
+      "resultDashboardHint": "For denne filen, åpne kontrollpanelet når som helst: kopier URL, åpne i ny fane eller last ned originalen.",
+      "dashboardCta": "Åpne panel",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert",
+      "open": "Åpne i ny fane",
+      "reset": "Last opp en til",
+      "errorUnauthorized": "Logg inn før du laster opp filer.",
+      "errorBadType": "Velg en PDF-, Word-, PowerPoint- eller Excel-fil.",
+      "howTitle": "Slik fungerer det",
+      "step1Title": "1. Velg fil",
+      "step1Desc": "Velg et støttet dokument fra enheten eller dra det til opplastingsområdet.",
+      "step2Title": "2. Last opp til biblioteket",
+      "step2Desc": "Vi lagrer filen i skyen din og viser den i kontrollpanelet, deretter returnerer vi en direkte HTTPS-URL.",
+      "step3Title": "3. Del og kom tilbake senere",
+      "step3Desc": "Del lenken på e-post eller i chat. Åpne kontrollpanelet ved behov for å kopiere samme lenke, åpne den eller laste ned filen."
+    },
+    "page": {
+      "sectionTitle": "Kort sagt",
+      "sectionLead": "Velg fil, last opp og kopier lenken — åpne kontrollpanelet ved behov for å kopiere på nytt eller laste ned originalen.",
+      "bullet1": "Støttede formater: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Dra og slipp eller bla til en fil; når opplastingen er ferdig, viser vi en HTTPS-lenke klar til kopiering.",
+      "bullet3": "Lim inn lenken i e-post, chat eller dokumenter — mottakere åpner i nettleseren.",
+      "bullet4": "Filer forblir på kontoen din; åpne kontrollpanelet for å kopiere samme lenke eller laste ned originalen.",
+      "bullet5": "Bare PDF? Bruk også siden «PDF til URL» for en kortere flyt.",
+      "footnote": "Slett en fil i kontrollpanelet når du ikke trenger den lenger; lenken slutter å fungere."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogg | Bilde til URL",
+      "description": "Artikler om bildhosting, lenkedeling og ytelsestips."
+    },
+    "page": {
+      "title": "Blogg",
+      "description": "Siste artikler, tutorials og innsikt om bildhosting, CDN, lenkedeling, sirkelbeskjæring, avrundede hjørner og bakgrunnsfjerning.",
+      "stayTuned": "Følg med på guider om:",
+      "guides": {
+        "1": "Beste praksis for bilde til URL-konvertering",
+        "2": "Hvordan bruke direkte bildelenker i blogger og dokumenter",
+        "3": "Ytelse og hurtiglager for statiske ressurser"
+      },
+      "readMore": "Les mer",
+      "min": "min",
+      "backToBlog": "Tilbake til bloggen",
+      "minRead": "min lesing",
+      "author": "Forfatter",
+      "viewMoreArticles": "Se flere artikler",
+      "tags": "Tagger:",
+      "about": {
+        "title": "Om Bilde til URL Team",
+        "subtitle": "Redaksjonsteam",
+        "description": "Vi bygger og vedlikeholder Bilde til URL og skriver praktiske guider for bildeoptimalisering og webytelse.",
+        "website": "Nettsted",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Se alle innlegg"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Hvordan konvertere bilde til URL: En komplett guide",
+        "description": "Lær alt du trenger å vite om å konvertere bilder til delbare URL-er. Denne omfattende guiden dekker metoder, beste praksis og tips for bildhosting og lenkedeling.",
+        "content": "# Hvordan konvertere bilde til URL: En komplett guide\n\nÅ konvertere bilder til delbare URL-er har blitt en essensiell ferdighet i dagens digitale verden. Enten du er blogger, utvikler eller innholdsprodusent, kan forståelse av hvordan man transformerer bildene dine til direkte lenker betydelig forbedre arbeidsflyten din og innholdsdeling.\n\n## Hvorfor konvertere bilder til URL-er?\n\nFør vi dykker ned i metodene, la oss forstå hvorfor det er fordelaktig å konvertere bilder til URL-er:\n\n### 1. **Enkel deling**\nDirekte bilde-URL-er lar deg dele bilder umiddelbart uten å laste ned eller laste opp filer på nytt. Bare kopier URL-en og lim den inn hvor som helst - i e-poster, dokumenter eller sosiale medie-innlegg.\n\n### 2. **Bedre ytelse**\nBruk av direkte bilde lenker reduserer belastningen på hovedserveren din. Når bilder hostes på en CDN (Content Delivery Network), lastes de raskere for brukere over hele verden.\n\n### 3. **Fleksibilitet**\nBilde-URL-er kan bygges inn i HTML, Markdown eller brukes i API-er. Denne fleksibiliteten gjør dem perfekte for både utviklere og innholdsprodusenter.\n\n### 4. **Lagringseffektivitet**\nI stedet for å lagre bilder lokalt, kan du bruke skylagringsløsninger som gir direkte URL-er, noe som sparer verdifull serverplass.\n\n## Metoder for å konvertere bilder til URL-er\n\n### Metode 1: Bruke Bilde til URL-tjenesten\n\n**Bilde til URL** er en gratis, brukervennlig tjeneste som gjør konvertering fra bilde til URL enkel:\n\n1. **Besøk nettstedet**: Naviger til Bilde til URL\n2. **Last opp bildet ditt**: Dra og slipp bildefilen din eller klikk for å bla\n3. **Få URL-en din**: Når opplastingen er fullført, får du en direkte lenke til bildet ditt\n4. **Kopier og bruk**: Kopier URL-en og bruk den hvor du trenger den\n\n**Fordeler:**\n- ✅ Ingen registrering påkrevd\n- ✅ Rask opplasting og behandling\n- ✅ Direkte CDN-lenker for optimal ytelse\n- ✅ Støtte for flere bildeformater (JPG, PNG, WEBP, GIF)\n- ✅ 10 opplastinger/dag, 2MB per fil\n\n### Metode 2: Skylagringstjenester\n\nPopulære skylagringstjenester tilbyr bildehosting med direkte URL-tilgang:\n\n**Google Cloud Storage / AWS S3:**\n- Last opp bilder til bøtten din\n- Sett passende tillatelser\n- Få tilgang til bilder via direkte URL-er\n- Konfigurer CDN for bedre ytelse\n\n**Fordeler:**\n- Full kontroll over bildene dine\n- Skalerbare lagringsløsninger\n- Infrastruktur på profesjonelt nivå\n\n### Metode 3: Bildehostingplattformer\n\nDedikerte bildehostingplattformer gir spesialiserte tjenester:\n\n- **Imgur**: Populær for rask bildedeling\n- **Cloudinary**: Avanserte bilde manipulasjonsfunksjoner\n- **ImageKit**: Optimalisert for ytelse\n\n## Beste praksis for bilde-URL-er\n\n### 1. **Velg riktig format**\n\nForskjellige bildeformater tjener forskjellige formål:\n\n- **JPEG**: Best for fotografier med mange farger\n- **PNG**: Ideelt for bilder med gjennomsiktighet eller skarpe kanter\n- **WEBP**: Moderne format som tilbyr bedre komprimering\n- **GIF**: Perfekt for animerte bilder\n\n### 2. **Optimaliser bilde størrelse**\n\nFør du konverterer til URL, optimaliser bildene dine:\n\n- Komprimer bilder for å redusere filstørrelse\n- Endre størrelse på bilder til passende dimensjoner\n- Bruk moderne formater som WEBP når det er mulig\n- Balanser kvalitet og filstørrelse\n\n### 3. **Bruk CDN for bedre ytelse**\n\nContent Delivery Networks (CDN) distribuerer bildene dine på tvers av flere servere over hele verden, noe som sikrer raske lastetider uavhengig av brukerens plassering.\n\n### 4. **Implementer riktig sikkerhet**\n\n- Bruk HTTPS-URL-er for sikker bildelevering\n- Sett passende tilgangstillatelser\n- Vurder vannmerking for følsomt innhold\n- Overvåk bruk for å forhindre misbruk\n\n## Vanlige bruksområder\n\n### For bloggere\n\nBloggere kan bruke bilde-URL-er til:\n- Bygge inn bilder i blogginnlegg uten å hoste dem lokalt\n- Forbedre sidlastetider\n- Dele bilder på tvers av flere plattformer\n- Opprettholde konsistent bildekvalitet\n\n### For utviklere\n\nUtviklere drar nytte av bilde-URL-er ved:\n- Å redusere serverbelastning\n- Å forenkle bildehåndtering\n- Å aktivere dynamisk bilde lasting\n- Å integrere med API-er og webtjenester\n\n### For e-handel\n\nE-handelssider bruker bilde-URL-er til:\n- Å vise produktbilder effektivt\n- Å administrere store bildekataloger\n- Å optimalisere for mobile enheter\n- Å forbedre kasse side ytelse\n\n## Feilsøking av vanlige problemer\n\n### Problem: Ødelagte bilde lenker\n\n**Løsning:**\n- Bekreft at URL-en er riktig og tilgjengelig\n- Sjekk bilde tillatelser og tilgangsinnstillinger\n- Sørg for at hostingtjenesten er operativ\n- Valider at bildeformatet støttes\n\n### Problem: Langsomme lastetider\n\n**Løsning:**\n- Bruk en CDN for bildelevering\n- Optimaliser bildefilstørrelser\n- Velg passende bildeformater\n- Implementer lat lasting der det er mulig\n\n### Problem: Bilde vises ikke\n\n**Løsning:**\n- Sjekk CORS-innstillinger (Cross-Origin Resource Sharing)\n- Bekreft at HTTPS/HTTP-protokoller matcher\n- Sørg for at riktige MIME-typer er satt\n- Test URL-tilgjengelighet fra forskjellige lokasjoner\n\n## Avanserte tips\n\n### 1. **Batchbehandling**\n\nFor flere bilder, vurder:\n- Bruk av API-er for automatiserte opplastinger\n- Implementering av batchkonverteringsskript\n- Utnyttelse av skylagrings-API-er\n- Oppsett av automatiserte arbeidsflyter\n\n### 2. **Bilde manipulasjon**\n\nNoen tjenester tilbyr bilde manipulasjon på flyet:\n- Endre størrelse på bilder via URL-parametere\n- Anvende filtre og effekter\n- Automatisk konvertering av formater\n- Beskjæring og rotasjon av bilder\n\n### 3. **Analytikk og overvåking**\n\nSpor bruken av bildene dine:\n- Overvåk båndbreddeforbruk\n- Analyser populære bilder\n- Spor tilgangsmønstre\n- Optimaliser basert på bruksdata\n\n## Konklusjon\n\nÅ konvertere bilder til URL-er er en enkel prosess som tilbyr mange fordeler. Enten du velger en enkel tjeneste som Bilde til URL eller en omfattende skylagringsløsning, er nøkkelen å finne metoden som passer best til dine behov.\n\nHusk å:\n- ✅ Optimaliser bilder før opplasting\n- ✅ Velg passende formater\n- ✅ Bruk CDN for bedre ytelse\n- ✅ Implementer riktige sikkerhetstiltak\n- ✅ Overvåk og optimaliser regelmessig\n\nVed å følge disse retningslinjene vil du kunne konvertere og administrere bildene dine som URL-er effektivt, noe som forbedrer både arbeidsflyten din og innholdets ytelse.\n\n## Relaterte verktøy\n\n- [Bilde til URL](/) - Gratis tjeneste for konvertering av bilde til URL\n- [Sirkelklipp verktøy](/circle-crop) - Opprett sirkulære bilder\n- [Avrundede hjørner verktøy](/rounded-corners) - Legg til avrundede hjørner på bilder\n- [Fjern bakgrunn verktøy](/remove-background) - Fjern bilde bakgrunner med AI\n\n---\n\n*Sist oppdatert: Desember 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Hvordan klippe bilder i sirkelform - Komplett guide",
+        "description": "Transformer ethvert foto til et perfekt sirkulært bilde med vårt gratis online sirkelklippverktøy. Opprett profesjonelle runde bilder for profiler, sosiale medier, logoer og mye mer på sekunder.",
+        "content": "# Hvordan klippe bilder i sirkelform - Komplett guide\n\nTransformer ethvert foto til et perfekt sirkulært bilde med vårt gratis online sirkelklippverktøy. Opprett profesjonelle runde bilder for profiler, sosiale medier, logoer og mye mer på sekunder.\n\n## Hvordan klippe bilder i sirkelform\n\n### Steg 1: Last opp bildet ditt\nVelg ethvert foto fra enheten din som du vil klippe i sirkelform. Verktøyet vårt støtter JPG, PNG, WEBP og GIF formater. Klikk bare på opplastingsknappen eller dra og slipp bildefilen din.\n\n### Steg 2: Plasser bildet ditt\nJuster og sentrer fotot ditt innenfor det sirkulære klippeområdet. Bruk zoom-glideren for å fokusere på den viktigste delen av bildet ditt, og dra for å omplassere for perfekt rund klipping.\n\n### Steg 3: Last ned det sirkulære bildet ditt\nNår du er fornøyd med plasseringen, klikk på \"Klipp og last ned\" for å få det perfekt runde bildet ditt. Resultatet vil ha en gjennomsiktig bakgrunn, noe som gjør det perfekt for bruk hvor som helst.\n\n## Populære måter å bruke sirkelklippede bilder\n\n### Profilbilder\nKlipp bilder i sirkelform for profesjonelt utseende profilbilder på sosiale medieplattformer som Facebook, LinkedIn og Instagram. Sirkulære avatarer skaper et moderne, polert utseende.\n\n### Grafikk for sosiale medier\nOpprett sirkulære bilder for Instagram-historier, Facebook-innlegg og Twitter-profiler som skiller seg ut fra mengden. Runde bilder legger til visuell interesse og bryter monotoniteten til firkantede innlegg.\n\n### Runde logoer\nTransformer logoen eller merkevarebildene dine til perfekte runde former for konsistent merkevarebygging på tvers av alle plattformer. Sirkulære logoer fungerer spesielt godt for appikoner og merkevarebygging på sosiale medier.\n\n### Anbefalingsfotos\nVis kunde- eller klientanbefalinger med sirkulære profilfotos for et rent, profesjonelt utseende. Runde bilder skaper visuell konsistens og gjør anbefalingene dine mer engasjerende.\n\n### Teammedlemsfotos\nOpprett konsistente runde portretter for bedriftsnettsteder, teamsider og ansattkataloger. Ensartede sirkulære bilder gir teamsiden din et sammenhengende, profesjonelt utseende.\n\n## Funksjoner i sirkelklippverktøyet vårt\n\n- **Gratis sirkulær bildeklipper** - Opprett sirkelformer fra ethvert bilde gratis, ingen skjulte gebyrer\n- **Høyoppløsningsutgang** - Last ned de sirkulære bildene dine i originalkvalitet uten komprimering\n- **Ingen registrering påkrevd** - Begynn å klippe bilder i sirkel umiddelbart, ingen kontoopprettelse nødvendig\n- **Privat og sikkert** - Bildene dine forlater aldri nettleseren din, noe som sikrer fullt personvern\n- **Brukervenlig grensesnitt** - Enkel, intuitiv design gjør det enkelt å opprette runde bilder\n- **Fungerer på alle enheter** - Klipp bilder i sirkelform på skrivebord, nettbrett eller mobile enheter\n- **Gjennomsiktig bakgrunn** - Alle sirkulære klipp kommer med gjennomsiktige bakgrunner for maksimal fleksibilitet\n- **Sanntidsforhåndsvisning** - Se nøyaktig hvordan det sirkulære bildet ditt vil se ut før nedlasting\n\n## Sirkelklippbilde FAQ\n\n### Hvordan klipper jeg et bilde i sirkelform?\n\nBare last opp bildet ditt til verktøyet vårt, juster det innenfor den sirkulære rammen for å plassere emnet riktig, og klikk på \"Klipp og last ned\" for å få det perfekt runde bildet ditt. Verktøyet vårt gjør det enkelt å klippe ethvert bilde i sirkelformat umiddelbart uten behov for designferdigheter.\n\n### Hvordan lager jeg et sirkulært profilbilde?\n\nLast opp fotot ditt til sirkelklippverktøyet vårt, plasser ansiktet ditt i midten av den sirkulære rammen, og last deretter ned det nye runde profilbildet ditt. Det er perfekt for sosiale medieprofiler som bruker sirkelformede bilder som Facebook, LinkedIn eller Instagram.\n\n### Kan jeg klippe bilder i runde former på telefonen min?\n\nJa! Den sirkulære bildeklipperen vår fungerer på alle enheter, inkludert smarttelefoner og nettbrett. Det mobilvennlige grensesnittet lar deg enkelt opprette runde bildeklipp hvor som helst. Bare besøk nettstedet vårt fra mobilnettleseren din - ingen appnedlasting påkrevd.\n\n### Lagrer dere bildene jeg laster opp?\n\nNei, vi lagrer aldri bildene dine på serverne våre. Hele klippeprosessen skjer direkte i nettleseren din, noe som betyr at bildene dine forblir helt private. Når du forlater siden, fjernes alle bildedata automatisk.\n\n### Hvilke bildeformater kan jeg bruke med sirkelklippverktøyet?\n\nVerktøyet vårt fungerer med alle standard bildeformater, inkludert JPG, PNG, WEBP og GIF. Du kan laste opp hvilket som helst av disse formatene, og det sirkelklippede bildet ditt lastes ned som en PNG-fil med gjennomsiktighet rundt sirkelen.\n\n### Vil det sirkelklippede bildet mitt ha en gjennomsiktig bakgrunn?\n\nJa, når du laster ned det klippede bildet ditt, vil det ha en gjennomsiktig bakgrunn rundt sirkelen. Dette gjør det perfekt for plassering på nettsteder, dokumenter eller design hvor du bare vil ha den sirkulære delen synlig.\n\n### Kan jeg justere størrelsen på sirkelklippet?\n\nSirkelklippet opprettholder et perfekt 1:1 bildforhold, men du kan zoome inn eller ut for å justere hvor mye av bildet ditt som vises i sirkelen. Dette lar deg fokusere på spesifikke deler av bildet ditt samtidig som du beholder den sirkulære formen.\n\n## Bilde tips for perfekte sirkelklipp\n\n### Sentrer emnet ditt\nFor beste resultater, velg bilder der hovedemnet er sentrert eller kan plasseres i midten av rammen. Dette er spesielt viktig for profilbilder og portretter der ansiktet bør være fokuspunktet.\n\n### Vurder klippeområdet\nHusk at hjørnene på bildet ditt vil bli klippet bort. Unngå bilder der viktige detaljer er nær kantene på fotot, da disse vil gå tapt i sirkelklippet.\n\n### Bruk høye oppløsningsbilder\nÅ starte med høykvalitetsbilder vil resultere i bedre sirkelklipp. Lavoppløsnings- eller små bilder kan se pixelert ut når de klippes, så bruk bildene av høyeste kvalitet som er tilgjengelige.\n\n### Vær oppmerksom på bildforholdet\nFirkantede bilder fungerer vanligvis best for sirkelklipping. Hvis det originale bildet ditt er veldig bredt eller høyt, kan du miste betydelige deler i klippeprosessen. Vurder å klippe til firkant først om nødvendig.\n\n### Juster for optimal ramming\nBruk posisjoneringsfunksjonen i verktøyet vårt for å zoome og justere bildet ditt. For portretter, prøv å sentrere ansiktet med litt margin rundt det for beste profesjonelle utseende. For produkter, sentrer hovedelementet i sirkelen.\n\n### Opprett konsistente sett\nNår du oppretter flere sirkulære bilder (som teamfotos), prøv å opprettholde konsistent ramming, bakgrunnsstiler og størrelser for et sammenhengende utseende på tvers av alle bilder.\n\n## Vanlige bruksområder for sirkelklippede bilder\n\n| Applikasjon | Fordeler med sirkelklipp |\n|------------|------------------------|\n| Profiler på sosiale medier | De fleste plattformer viser avatarer i sirkler - et perfekt klippet sirkulært bilde ser profesjonelt ut |\n| Teammedlemsfotos | Opprett konsistente runde portretter for bedriftsnettsteder og kataloger |\n| Online porteføljer | Runde bilder skaper visuell interesse og moderne estetikk |\n| Digitale visittkort | Sirkelklippede profilfotos ser renere og mer profesjonelle ut |\n| Produktminiatyrer | Runde produktbilder skaper et sammenhengende katalogutseende |\n| Appikoner | Sirkulære ikoner er standarden for mobile apps |\n| Nettstedsanbefalinger | Runde kundefotos legger til troverdighet og visuell appell |\n\n## Hvorfor velge sirkelklippbildeverktøyet vårt\n\nNår det gjelder å klippe bilder i sirkler online, tilbyr verktøyet vårt flere fordeler:\n\n- **Øyeblikkelig behandling** - Klipp bilde til sirkelform på sekunder uten å vente på opplastinger eller serverbehandling\n- **Perfekte sirkler hver gang** - Verktøyet vårt sikrer perfekte runde klipp med rene kanter og ingen forvrengning\n- **Intuitive kontroller** - Plasser enkelt bildet ditt nøyaktig som du vil ha det i sirkelen med zoom- og drafunksjonalitet\n- **Ingen vannmerker** - I motsetning til andre sirkelklippverktøy, legger vi ikke til vannmerker på bildene dine\n- **Fungerer med alle bildetyper** - Klipp bilder, grafikk, illustrasjoner eller ethvert bilde til en sirkel\n- **Nettleserbasert** - Ingen programvareinstallasjon påkrevd, fungerer direkte i nettleseren din\n- **Personvern først** - All behandling skjer lokalt i nettleseren din, bildene dine forlater aldri enheten din\n\nEnten du trenger å klippe bilder i sirkelform for profesjonell bruk eller personlige prosjekter, håndterer sirkelklippfotoverktøyet vårt alt med letthet. Opprett runde bildeklipp med bare noen få klikk!\n\n## Komme i gang\n\nKlar til å opprette det første sirkulære bildet ditt? Besøk [Sirkelklippverktøyet](/circle-crop) vårt og begynn å klippe i dag. Det er helt gratis, krever ingen registrering og tar bare sekunder å opprette profesjonelle sirkulære bilder.\n\n---\n\n*Sist oppdatert: Januar 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Bilder med avrundede hjørner – Guide",
+        "description": "Gi bilder avrundede hjørner med det gratis verktøyet. Passer til miniatyrer, kort, UI og sosiale medier på sekunder.",
+        "content": "# Bilder med avrundede hjørner – Guide\n\nGi hvilket som helst bilde avrundede hjørner med det gratis nettverktøyet. Passer til miniatyrer, kort, UI-elementer og sosiale medier, uten designkunnskap.\n\n## Slik avrunder du hjørnene\n\n### Steg 1: Last opp bilde\nVelg et bilde fra enheten. Støttet: JPG, PNG, WEBP, GIF. Klikk eller dra og slipp.\n\n### Steg 2: Still inn hjørneradius\nBruk glideregulatoren for å sette avrundingen. Forhåndsvisningen oppdateres i sanntid.\n\n### Steg 3: Last ned\nKlikk \"Last ned\" for å lagre bildet med avrundede hjørner og bruke det i layout, nettside eller innlegg.\n\n## Vanlige bruksområder\n\n### Miniatyrer og kort\nAvrundede hjørner gir rutenett og kort et ryddig, moderne uttrykk.\n\n### Sosiale medier og annonser\nBilder med myke hjørner skiller seg ut i feed og annonser og føles mer innbydende.\n\n### UI og apper\nIkoner, avatarer og knapper har ofte avrundede hjørner; verktøyet hjelper deg å gjøre flere bilder ensartet.\n\n### Presentasjoner og dokumenter\nSamme radius på skjermbilder og grafikk holder lysbilder og dokumenter konsistente.\n\n## Hva verktøyet tilbyr\n\n- **Gratis og umiddelbart** – ingen registrering, ingen vannmerke, ingen grense\n- **Justerbar radius** – fra lett avrunding til pilleform\n- **Sanntidsforhåndsvisning** – se resultatet før nedlasting\n- **Personvern** – behandling i nettleseren; vi lagrer ikke bilder\n- **Alle enheter** – PC, nettbrett, mobil\n\n## Vanlige spørsmål\n\n### Hvordan gir jeg et bilde avrundede hjørner?\n\nÅpne [Verktøy for avrundede hjørner](/rounded-corners), last opp bilde, still inn radius og klikk Last ned.\n\n### Hvilke formater støttes?\n\nJPG, PNG, WEBP, GIF. Nedlastingen beholder originalformat (eller PNG for transparens).\n\n### Fungerer det på mobil?\n\nJa. Verktøyet kjører i mobil- og nettbrettnettleser, uten app.\n\n### Lagrer dere bildene mine?\n\nNei. Alt behandles i nettleseren din; vi lagrer ingenting.\n\n## Relaterte verktøy\n\n- [Bilde til URL](/) – bilde til lenke\n- [Sirkelklipp](/circle-crop) – runde bilder\n- [Avrundede hjørner](/rounded-corners) – avrunde hjørner\n- [Fjern bakgrunn](/remove-background) – fjern bakgrunn med AI\n\n---\n\n*Sist oppdatert: Februar 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Fjern bakgrunn – Guide",
+        "description": "Fjern bakgrunn fra bilder med ett klikk med vårt gratis AI-verktøy. Rene utklipp til produktbilder, portretter, logoer og mer.",
+        "content": "# Fjern bakgrunn – Guide\n\nFjern bakgrunn fra bilder med ett klikk med vårt gratis nettverktøy. Rene utklipp til produktbilder, portretter, logoer – uten designkunnskap.\n\n## Slik fjerner du bakgrunn\n\n### Steg 1: Last opp bildet\nVelg et foto fra enheten. Støttet: JPG, PNG, WEBP, GIF. Klikk eller dra og slipp.\n\n### Steg 2: AI fjerner bakgrunnen\nVerktøyet oppdager motivet og fjerner bakgrunnen. Behandlingen tar få sekunder. Forhåndsvisning i sanntid med gjennomsiktig bakgrunn.\n\n### Steg 3: Last ned\nKlikk \"Last ned\" for å lagre bildet uten bakgrunn. Resultatet er PNG med transparens, klar til design, e-handel eller sosiale medier.\n\n## Vanlige bruksområder\n\n### Produktbilder\nRene utklipp til nettbutikker, markedsplasser og annonser. Gjennomsiktig bakgrunn til enhver layout.\n\n### Portretter og profiler\nFjern travel bakgrunn fra portretter til CV, LinkedIn eller profiler.\n\n### Logoer og grafikk\nIsolér logoer og grafikk fra foto eller skanninger. Gjennomsiktig PNG til overlay og presentasjoner.\n\n### Sosiale medier og markedsføring\nIøynefallende bilder til innlegg, stories og annonser. Gjennomsiktige utklipp til enhver mal.\n\n## Hva verktøyet tilbyr\n\n- **Gratis og AI** – ingen registrering, ingen vannmerke, ingen grenser\n- **Fjern med ett klikk** – automatisk motivgjenkjenning og rene kanter\n- **Gjennomsiktig PNG** – klar til ethvert design eller plattform\n- **Personvern** – behandling i nettleseren; vi lagrer ikke bilder\n- **Alle enheter** – PC, nettbrett, mobil\n\n## Vanlige spørsmål\n\n### Hvordan fjerner jeg bakgrunn fra et foto?\n\nÅpne vårt [Verktøy Fjern bakgrunn](/remove-background), last opp bildet. Verktøyet oppdager motivet og fjerner bakgrunnen. Forhåndsvis og last ned som gjennomsiktig PNG.\n\n### Hvilke formater støttes?\n\nJPG, PNG, WEBP, GIF. Resultatet lastes alltid ned som PNG med gjennomsiktig bakgrunn.\n\n### Lagrer dere bildene mine?\n\nNei. Behandlingen skjer i nettleseren din; vi lagrer ingenting.\n\n### Fungerer det på mobil?\n\nJa. Verktøyet fungerer i nettleser på telefon og nettbrett.\n\n## Relaterte verktøy\n\n- [Bilde til URL](/) – bilde til lenke\n- [Sirkelklipp](/circle-crop) – runde bilder\n- [Avrundede hjørner](/rounded-corners) – avrunde hjørner\n- [Fjern bakgrunn](/remove-background) – fjern bakgrunn med AI\n\n---\n\n*Sist oppdatert: Mars 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentasjon | Bilde til URL",
+      "description": "Dokumentasjon for Bilde til URL."
+    },
+    "page": {
+      "title": "Dokumentasjon",
+      "description": "Hurtigstart: last opp et bilde og få en direkte URL. Bruk kopier/åpne-knappene eller last ned lenken i .txt.",
+      "features": {
+        "title": "Støttede funksjoner:",
+        "items": {
+          "1": "Støttet: JPG, PNG, WEBP, GIF",
+          "2": "Rask levering via CDN når lagring er aktivert",
+          "3": "Vennlige vedlikeholdsfeil når tjenesten ikke er tilgjengelig"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Bilde til URL",
+      "description": "Tjenestestatus for Bilde til URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alle systemer er operative.",
+      "message": "Opplastings-API og CDN-lenker kjører."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Bilde til URL",
+      "description": "Kontakt Bilde til URL for støtte, tilbakemelding, samarbeid eller henvendelser. Vi svarer på alle meldinger innen 1–2 arbeidsdager."
+    },
+    "page": {
+      "title": "Kontakt oss",
+      "introShort": "Har du et spørsmål eller tilbakemelding? Fyll ut skjemaet nedenfor, så svarer vi så snart som mulig.",
+      "orEmail": "Eller send oss e-post på",
+      "subtitle": "Vi er her for å hjelpe med bildehosting, lenker og alt det andre.",
+      "intro": "Bilde til URL er en gratis bildehostingtjeneste som gjør bildene dine til delbare lenker. For spørsmål, forslag eller problemer, ta kontakt.",
+      "whyTitle": "Hva du kan kontakte oss om",
+      "why1": "Teknisk støtte: opplastingsfeil, ødelagte lenker eller problemer med verktøyet",
+      "why2": "Tilbakemelding og ønsker om funksjoner for å forbedre tjenesten",
+      "why3": "Partnerskap eller samarbeid",
+      "why4": "Rapporter misbruk, opphavsrett eller policy",
+      "expectTitle": "Hva du kan forvente",
+      "expectContent": "Vi leser hver melding og siktet mot å svare innen 1–2 arbeidsdager. Ved haster, oppgi en tydelig emnelinje og så mange detaljer som mulig.",
+      "emailHeading": "Kontakt oss via e-post",
+      "emailHint": "Send oss en e-post, så svarer vi så snart som mulig.",
+      "email": {
+        "label": "E-post",
+        "address": "support@phototourl.com",
+        "cta": "Send e-post"
+      },
+      "form": {
+        "title": "Send melding",
+        "description": "Fyll ut skjemaet nedenfor, så svarer vi så snart som mulig.",
+        "name": "Navn",
+        "email": "E-post",
+        "message": "Melding",
+        "namePlaceholder": "Ditt navn",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Din melding eller ditt spørsmål...",
+        "submit": "Send",
+        "submitting": "Sender...",
+        "success": "Melding sendt. Vi svarer så snart som mulig.",
+        "minLength": "Navnet må være minst 3 tegn.",
+        "maxLengthName": "Navnet må ikke overstige 30 tegn.",
+        "invalidEmail": "Oppgi en gyldig e-postadresse.",
+        "minLengthMessage": "Meldingen må være minst 10 tegn.",
+        "maxLengthMessage": "Meldingen må ikke overstige 2000 tegn.",
+        "invalid": "Noe gikk galt. Prøv igjen."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Om oss | Bilde til URL",
+      "description": "Lær mer om Bilde til URL - en gratis bildhostingstjeneste som konverterer bilder til delbare lenker."
+    },
+    "page": {
+      "title": "Om oss",
+      "mission": {
+        "title": "Vår misjon",
+        "content": "Bilde til URL er en gratis, rask og pålitelig bildhostingstjeneste designet for å hjelpe skapere, markedsførere og team med å konvertere bilder til delbare lenker umiddelbart. Vi tror på enkelhet, hastighet og brukerens personvern."
+      },
+      "features": {
+        "title": "Hva vi tilbyr",
+        "item1": "Gratis bildhosting med CDN-støtte",
+        "item2": "Umiddelbar lenkegenerering for rask deling",
+        "item3": "Støtte for flere bildeformater (JPG, PNG, WEBP, GIF)",
+        "item4": "Prøv uten registrering — gratis plan: 10 opplastinger/dag, 2MB per fil"
+      },
+      "contact": {
+        "title": "Kontakt oss",
+        "text": "Har du spørsmål eller tilbakemeldinger? Ta kontakt med oss på",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Personvernpolicy | Bilde til URL",
+        "description": "Personvernpolicy for Bilde til URL - Lær hvordan vi samler inn, bruker og beskytter dine data."
+      },
+      "page": {
+        "title": "Personvernpolicy",
+        "lastUpdated": "Sist oppdatert: mai 2026",
+        "introduction": "På Bilde til URL respekterer vi ditt personvern og er forpliktet til å beskytte din personlige informasjon. Denne personvernpolicyen forklarer hvordan vi samler inn, bruker, avslører og beskytter din informasjon når du bruker tjenesten vår.",
+        "dataCollection": {
+          "title": "Informasjon vi samler inn",
+          "content1": "Når du bruker Photo To URL, kan vi samle inn:",
+          "item1": "Opplastede bildefiler og metadata (filnavn, størrelse, type), lagret på Cloudflare R2 for å levere delbare lenker",
+          "item2": "IP-adresse, opplastingstidsstempler og bruksdata for hastighetsbegrensning, sikkerhet og misbruksforebyggelse",
+          "item3": "Kontoinformasjon ved registrering eller innlogging (e-post, Google OAuth-profil, sesjons- og autentiseringsidentifikatorer)",
+          "item4": "Abonnements- og betalingsinformasjon behandlet av vår leverandør Waffo Pancake ved kjøp av betalt plan — vi lagrer ikke fullstendige kortnumre",
+          "content2": "Hvis du kontakter oss via kontaktskjemaet, samler vi inn informasjonen du oppgir (navn, e-post osv.). Vi bruker også informasjonskapsler som beskrevet i Informasjonskapsler-delen nedenfor."
+        },
+        "dataUsage": {
+          "title": "Hvordan vi bruker din informasjon",
+          "item1": "For å generere og tilby delbare bildelenker",
+          "item2": "For å forhindre misbruk og håndheve opplastingsgrenser",
+          "item3": "For å forbedre tjenesten vår og brukeropplevelsen",
+          "item4": "For å overholde juridiske forpliktelser"
+        },
+        "dataStorage": {
+          "title": "Datalagring og oppbevaring",
+          "content": "Opplastede bilder lagres på Cloudflare R2-lagring. Vi beholder bilder så lenge det er nødvendig for å tilby tjenesten. Bilder kan slettes automatisk etter en periode med inaktivitet eller på grunn av policybrudd."
+        },
+        "cookies": {
+          "title": "Informasjonskapsler og sporings teknologier",
+          "content1": "Vi bruker følgende teknologier:",
+          "item1": "Lokal lagring: For å lagre opplastingshistorikken og språkpreferansene dine",
+          "item2": "Google AdSense: For å vise annonser (bruker informasjonskapsler for annonsepersonalisering)",
+          "item3": "Google Analytics: For nettstedsanalyse (anonymiserte data)",
+          "content2": "Du kan kontrollere informasjonskapsler gjennom nettleserinnstillingene dine. Deaktivering av informasjonskapsler kan imidlertid påvirke noen funksjoner i tjenesten vår."
+        },
+        "personalizedAds": {
+          "title": "Tilpassede annonser og avmelding",
+          "content": "Vi bruker Google AdSense for annonser. Google og andre leverandører kan bruke informasjonskapsler for å vise annonser basert på besøk på dette nettstedet og andre. Du kan velge bort tilpassede annonser via",
+          "linkAdsSettings": "Googles annonseinnstillinger",
+          "content2": "eller Network Advertising Initiative sin avmeldingsside",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Tredjepartstjenester",
+          "content1": "Vi bruker følgende tredjepartstjenester:",
+          "item1": "Cloudflare R2: For bildelagring og CDN-levering",
+          "item2": "Google AdSense: For annonsering (underlagt Googles personvernpolicy)",
+          "item3": "Google Analytics: For nettstedsanalyse (underlagt Google personvernpolicy)",
+          "content2": "Vi bruker også Waffo Pancake for abonnementer og betalingsbehandling. Disse tjenestene kan samle inn informasjon i henhold til sine egne personvernpolicyer. Vi oppfordrer deg til å gjennomgå deres personvernpolicyer."
+        },
+        "dataSecurity": {
+          "title": "Datasikkerhet",
+          "content": "Vi implementerer passende tekniske og organisatoriske tiltak for å beskytte dataene dine mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Ingen overføringsmetode over internett er imidlertid 100% sikker."
+        },
+        "yourRights": {
+          "title": "Dine rettigheter",
+          "content": "Du har rett til:",
+          "item1": "Tilgang til dine opplastede bilder, kontodata og tilknyttede opplysninger",
+          "item2": "Be om sletting av bildene dine",
+          "item3": "Velge bort visse datainnsamlingspraksiser",
+          "item4": "Kontakte oss med personvernbekymringer"
+        },
+        "children": {
+          "title": "Barns personvern",
+          "content": "Tjenesten vår er ikke ment for barn under 13 år. Vi samler ikke bevisst inn personlig informasjon fra barn under 13 år."
+        },
+        "changes": {
+          "title": "Endringer i denne personvernpolicyen",
+          "content": "Vi kan oppdatere denne personvernpolicyen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å publisere den nye personvernpolicyen på denne siden og oppdatere \"Sist oppdatert\"-datoen."
+        },
+        "contact": {
+          "title": "Kontakt oss",
+          "text": "Hvis du har spørsmål om denne personvernpolicyen, vennligst kontakt oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Tjenestevilkår | Bilde til URL",
+        "description": "Tjenestevilkår for Bilde til URL – bildehosting, tillatt bruk og brukeransvar."
+      },
+      "page": {
+        "title": "Vilkår",
+        "lastUpdated": "Sist oppdatert: september 2026",
+        "intro": "Velkommen til Bilde til URL. Ved å få tilgang til eller bruke vår bildehosting- og lenkegenereringstjeneste (\"Tjenesten\") godtar du å være bundet av disse vilkårene. Hvis du ikke godtar, ikke bruk Tjenesten.",
+        "acceptance": {
+          "title": "Aksept av vilkår",
+          "content": "Ved å laste opp bilder, generere lenker eller på annen måte bruke Bilde til URL bekrefter du at du har lest, forstått og akseptert disse Vilkårene og vår personvernregler. Vi kan oppdatere Vilkårene; fortsatt bruk etter endringer utgjør aksept av de oppdaterte Vilkårene."
+        },
+        "serviceDescription": {
+          "title": "Beskrivelse av tjenesten",
+          "content": "Bilde til URL tilbyr gratis bildehosting og direkte lenkegenerering. Du kan laste opp bilder innenfor de fastsatte grensene (filstørrelse, format osv.) og motta delbare lenker. Vi garanterer ikke uavbrutt tilgjengelighet; Tjenesten kan endres, suspenderes eller opphøre med eller uten varsel."
+        },
+        "useOfService": {
+          "title": "Bruk av tjenesten",
+          "content": "Du kan kun bruke Tjenesten til lovlige formål og i samsvar med disse Vilkårene. Du er ansvarlig for din bruk og innholdet du laster opp. Du må ikke bruke Tjenesten på en måte som krenker gjeldende lov eller tredjeparters rettigheter."
+        },
+        "userResponsibilities": {
+          "title": "Dine ansvar",
+          "content": "Du godtar å: (1) gi korrekte opplysninger ved forespørsel; (2) opprettholde bruken i samsvar med gjeldende lov; (3) ikke prøve å omgå sikkerhet, hastighetsbegrensninger eller tilgangskontroller; (4) ikke bruke Tjenesten til å distribuere skadelig programvare eller forstyrre Tjenesten eller andre brukere."
+        },
+        "prohibitedContent": {
+          "title": "Forbudt innhold",
+          "content": "Du må ikke laste opp eller dele lenker til innhold som er ulovlig, skadelig, truende, krenkende, trakasserende, ærekrenkende, obscønt, krenker personvern eller intellektuell eiendom eller ellers uakseptabelt; utnytter mindreårige; fremmer vold eller diskriminering; eller krenker tredjeparters rettigheter. Vi kan fjerne innhold og suspendere eller avslutte tilgang uten varsel hvis vi med rimelig grunn tror det er brudd på disse Vilkårene eller loven."
+        },
+        "ipAndContent": {
+          "title": "Intellektuell eiendom og ditt innhold",
+          "content": "Du beholder eierskapet til bildene du laster opp. Ved å bruke Tjenesten gir du oss en begrenset lisens til å lagre, behandle og levere bildene dine samt generere og tilveiebringe lenker, i den grad det er nødvendig for å drive Tjenesten. Vi gjør ikke krav på ditt innhold. Vårt navn, logo og Tjenesten er vår intellektuelle eiendom; du kan ikke bruke dem uten vår forhåndsskriftlige samtykke."
+        },
+        "subscriptions": {
+          "title": "Abonnementsplaner",
+          "content": "Bilde til URL tilbyr et gratisnivå og betalte abonnementer (månedlig Pro og årlig Premium) med høyere opplastingsgrenser, filstørrelsesgrenser og lagringsplass. Gjeldende planer og priser finner du på prissiden vår (https://phototourl.com/pricing). Betalt tilgang er en digital tjeneste og gis umiddelbart etter bekreftet betaling."
+        },
+        "billing": {
+          "title": "Fakturering og betaling",
+          "content": "Når du oppgir en betalingsmetode og abonnerer på en betalt plan, autoriserer du oss og betalingsleverandøren vår til å belaste den metoden gjentakende for gjeldende abonnementsavgift til du sier opp som beskrevet nedenfor. Abonnementer fornyes automatisk ved slutten av hver faktureringsperiode med mindre de sies opp. Priser vises i kassen og kan være eksklusive gjeldende skatter med mindre noe annet er angitt."
+        },
+        "cancellation": {
+          "title": "Oppsigelse og stans av automatisk fornyelse",
+          "content": "Du kan når som helst stanse fremtidige belastninger ved å:",
+          "item1": "Sende e-post til support@phototourl.com fra den registrerte konto-e-postadressen din og be om stans av automatisk fornyelse; eller",
+          "item2": "Avbryte automatisk trekk eller gjentakende fakturering hos kortutstederen din via mobilbank, nettbank eller kundeservice.",
+          "effect": "Oppsigelse stopper fremtidige fornyelser. Du beholder betalte fordeler til slutten av perioden du allerede har betalt for. Når den perioden er over, gjøres ingen flere belastninger for det abonnementet, og betalte fordeler opphører med den perioden."
+        },
+        "refunds": {
+          "title": "Refusjonspolicy",
+          "general": "Fordi betalte planer er digitale tjenester som leveres umiddelbart etter betaling, er abonnementsavgifter generelt ikke refunderbare når Tjenesten fortsatt er tilgjengelig for normal bruk, unntatt som beskrevet nedenfor eller der loven krever det.",
+          "eligibleTitle": "Når refusjon kan gis",
+          "item1": "Førstegangsabonnenter: innen 7 dager etter den første belastningen, hvis du ikke har brukt betalte funksjoner i særlig grad (for eksempel bare en liten del av planens opplastings- eller lagringskvote).",
+          "item2": "Dobbelte eller feilaktige belastninger: full refusjon ved bekreftet faktureringsfeil som førte til dobbel belastning.",
+          "item3": "Driftsavbrudd på vår side: hvis et bekreftet avbrudd innenfor vår kontroll varer 72 timer eller mer i den betalte perioden din, kan vi etter gjennomgang tilby forholdsmessig kreditt eller refusjon.",
+          "item4": "Lovfestede rettigheter: der gjeldende lov gir deg angrerett eller rett til refusjon (for eksempel i EU/Storbritannia), gjelder disse rettighetene.",
+          "howTitle": "Slik ber du om refusjon",
+          "how": "Send e-post til support@phototourl.com med konto-e-post, betalings- eller transaksjonsreferanse og begrunnelse. Vi tar sikte på å bekrefte innen 2 virkedager og behandle berettigede refusjoner innen 5–10 virkedager.",
+          "notTitle": "Når refusjon ikke gis",
+          "not1": "Avgifter for abonnementsperioder som allerede er brukt, unntatt som nevnt ovenfor.",
+          "not2": "Forespørsler om refusjon for årsabonnement (Premium) mer enn 30 dager etter første kjøp, unntatt der loven krever noe annet eller et berettiget avbrudds- eller dobbeltbelastnings tilfelle gjelder.",
+          "not3": "Kontoer som er stengt eller avsluttet på grunn av brudd på disse vilkårene."
+        },
+        "disclaimer": {
+          "title": "Fravik av garantier",
+          "text": "Tjenesten leveres \"som den er\" og \"som tilgjengelig\" uten garantier av noe slag. Vi garanterer ikke at Tjenesten vil være uavbrutt, feilfri eller fri for skadelige komponenter. Din bruk av Tjenesten er på din egen risiko."
+        },
+        "limitationOfLiability": {
+          "title": "Ansvarsbegrensning",
+          "content": "I den grad loven tillater det, er Bilde til URL og dets operatører ikke ansvarlige for indirekte, tilfeldige, særlige, følge- eller straffeskader eller tap av data, fortjeneste eller goodwill som følge av din bruk eller manglende evne til å bruke Tjenesten. Vårt totale ansvar overstiger ikke det beløpet du har betalt oss i de tolv månedene før kravet (eller null hvis du ikke har betalt noe)."
+        },
+        "termination": {
+          "title": "Oppsigelse",
+          "content": "Vi kan suspendere eller avslutte din tilgang til Tjenesten når som helst, med eller uten grunn eller varsel. Du kan slutte å bruke Tjenesten når som helst. Ved oppsigelse opphører din rett til å bruke Tjenesten umiddelbart. Bestemmelser som etter sin natur bør overleve (inkludert fravik, ansvarsbegrensning og gjeldende lov) forblir i kraft."
+        },
+        "changes": {
+          "title": "Endringer i vilkårene",
+          "content": "Vi kan oppdatere disse Vilkårene. Vi vil publisere de reviderte Vilkårene på denne siden og oppdatere \"Sist oppdatert\"-datoen. Fortsatt bruk etter endringer utgjør aksept. Vi oppfordrer deg til å gå gjennom denne siden jevnlig."
+        },
+        "governingLaw": {
+          "title": "Gjeldende lov",
+          "content": "Disse Vilkårene er underlagt og skal tolkes i samsvar med lovene i den jurisdiksjonen vi opererer i, uten hensyn til lovvalgsprinsipper. Eventuelle tvister skal løses ved domstolene i denne jurisdiksjonen."
+        },
+        "contact": {
+          "title": "Kontakt oss",
+          "text": "Ved spørsmål om disse Tjenestevilkårene, kontakt oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Informasjonskapselpolicy | Bilde til URL",
+        "description": "Informasjonskapselpolicy for Bilde til URL - Lær hvordan vi bruker informasjonskapsler og sporings teknologier."
+      },
+      "page": {
+        "title": "Informasjonskapselpolicy",
+        "lastUpdated": "Sist oppdatert: september 2026",
+        "introduction": "Denne informasjonskapselpolicyen forklarer hvordan Bilde til URL bruker informasjonskapsler og lignende sporings teknologier når du besøker nettstedet vårt. Ved å bruke tjenesten vår samtykker du til bruk av informasjonskapsler i samsvar med denne policyen. Spørsmål om denne policyen sendes til support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Hva er informasjonskapsler",
+          "content": "Informasjonskapsler er små tekstfiler som plasseres på enheten din når du besøker et nettsted. De brukes mye for å gjøre nettsteder mer effektive og gi informasjon til nettstedeiere."
+        },
+        "howWeUseCookies": {
+          "title": "Hvordan vi bruker informasjonskapsler",
+          "content": "Vi bruker informasjonskapsler til følgende formål:",
+          "item1": "For å lagre opplastingshistorikken og språkpreferansene dine",
+          "item2": "For å analysere nettstedstrafikk og brukeratferd",
+          "item3": "For å vise personlige annonser"
+        },
+        "typesOfCookies": {
+          "title": "Typer informasjonskapsler vi bruker",
+          "essential": {
+            "title": "Nødvendige informasjonskapsler",
+            "content": "Disse informasjonskapslene er nødvendige for at nettstedet skal fungere ordentlig. De muliggjør kjernefunksjoner som å lagre språkpreferansene og opplastingshistorikken dine."
+          },
+          "analytics": {
+            "title": "Analytiske informasjonskapsler",
+            "content": "Vi bruker Google Analytics for å analysere hvordan besøkende bruker nettstedet vårt. Disse informasjonskapslene samler inn anonym informasjon om nettstedsbruk for å hjelpe oss med å forbedre tjenesten vår."
+          },
+          "advertising": {
+            "title": "Annonseinformasjonskapsler",
+            "content": "Vi bruker Google AdSense for å vise annonser. Disse informasjonskapslene hjelper med å levere personlige annonser basert på nettlesingsatferden og interessene dine."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Tredjeparts informasjonskapsler",
+          "content": "Vi bruker følgende tredjepartstjenester som kan sette informasjonskapsler:",
+          "item1": "Google AdSense - For annonsering (underlagt Googles personvernpolicy)",
+          "item2": "Google Analytics - For nettstedsanalyse (underlagt Google personvernpolicy)"
+        },
+        "manageCookies": {
+          "title": "Administrere informasjonskapsler",
+          "content": "Du kan kontrollere og administrere informasjonskapsler gjennom nettleserinnstillingene dine. De fleste nettlesere lar deg avslå eller akseptere informasjonskapsler, slette eksisterende informasjonskapsler eller sette preferanser for visse nettsteder. Deaktivering av informasjonskapsler kan imidlertid påvirke funksjonaliteten til tjenesten vår."
+        },
+        "changes": {
+          "title": "Endringer i denne informasjonskapselpolicyen",
+          "content": "Vi kan oppdatere denne informasjonskapselpolicyen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å publisere den nye informasjonskapselpolicyen på denne siden og oppdatere \"Sist oppdatert\"-datoen."
+        },
+        "contact": {
+          "title": "Kontakt oss",
+          "text": "Hvis du har spørsmål om denne informasjonskapselpolicyen, vennligst kontakt oss på",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Bilde til URL Bookmarklet",
+    "description": "Last opp bilder fra hvilken som helst nettside direkte til Bilde til URL med ett enkelt klikk! Gratis prøve: 10 opplastinger/dag, 2MB per fil.",
+    "howItWorks": {
+      "title": "Hvordan det fungerer",
+      "step1": "Bla gjennom hvilken som helst nettside med bilder",
+      "step2": "Klikk på bookmarklet i bokmerkelinjen",
+      "step3": "Velg et bilde fra siden",
+      "step4": "Få URL-en umiddelbart og kopier den!"
+    },
+    "installation": {
+      "title": "Installasjon",
+      "step1": {
+        "title": "Steg 1: Kopier Bookmarklet-koden",
+        "description": "Klikk på knappen nedenfor for å kopiere bookmarklet-koden til utklippstavlen."
+      },
+      "step2": {
+        "title": "Steg 2: Legg til i nettleseren din",
+        "description": "Følg disse trinnene basert på nettleseren din:",
+        "chrome": "Chrome/Edge: Trykk Ctrl+Shift+B (Cmd+Shift+B på Mac) for å vise bokmerkelinjen, høyreklikk deretter og velg \"Legg til side\". Lim inn koden som URL.",
+        "firefox": "Firefox: Høyreklikk på bokmerkelinjen og velg \"Nytt bokmerke\". Lim inn koden som Plassering.",
+        "safari": "Safari: Aktiver bokmerkelinjen (Vis → Vis bokmerkelinje), dra deretter koden til bokmerkelinjen.",
+        "edge": "Alternativ: Opprett et nytt bokmerke, rediger det og erstatt URL-en med den kopierte koden."
+      },
+      "step3": {
+        "title": "Steg 3: Begynn å bruke den!",
+        "description": "Besøk hvilken som helst nettside med bilder og klikk på bookmarklet ditt for å begynne å laste opp!"
+      },
+      "copy": "Kopier kode",
+      "copied": "Kopiert!"
+    },
+    "usage": {
+      "title": "Funksjoner",
+      "description": "Bookmarklet tilbyr følgende funksjoner. Hver opplasting teller mot planens grenser (Gratis prøve: 10 opplastinger/dag, 2MB per fil).",
+      "feature1": "Velg et hvilket som helst bilde fra den nåværende nettsiden",
+      "feature2": "Automatisk opplasting til Bilde til URL",
+      "feature3": "Få en delbar URL umiddelbart med ett klikk for å kopiere"
+    },
+    "note": {
+      "title": "Merk",
+      "content": "Opplastinger teller mot din daglige kvote (Gratis prøve: 10 opplastinger/dag, 2MB per fil). Bookmarklet fungerer på de fleste nettsteder; strenge sikkerhetsregler (CORS) kan blokkere opplastinger."
+    }
+  },
+  "AuthPage": {
+    "orContinueWith": "Eller fortsett med",
+    "login": {
+      "welcomeBack": "Velkommen tilbake",
+      "email": "E-post",
+      "password": "Passord",
+      "signIn": "Logg inn",
+      "signUp": "Registrer",
+      "signUpHint": "Ingen konto?",
+      "forgotPassword": "Glemt passordet?",
+      "showPassword": "Vis passord",
+      "hidePassword": "Skjul passord",
+      "emailRequired": "E-post er påkrevd",
+      "passwordRequired": "Passord er påkrevd",
+      "signInWithGoogle": "Logg inn med Google"
+    },
+    "register": {
+      "createAccount": "Opprett konto",
+      "name": "Navn",
+      "email": "E-post",
+      "password": "Passord",
+      "signUp": "Registrer",
+      "signInHint": "Har du allerede en konto?",
+      "namePlaceholder": "Ditt navn",
+      "signUpSuccess": "Konto opprettet vellykket",
+      "signUpWithGoogle": "Registrer deg med Google",
+      "artFightLabel": "Registrer dedikert kunstnerkonto",
+      "artFightHint": "Lås opp kunstnerfokuserte Dashboard-verktøy: kopier embed-koder (URL, HTML, BBCode, Markdown) for hvert hostede kort."
+    },
+    "error": {
+      "title": "Autentiseringsfeil",
+      "defaultError": "Det oppstod en feil under autentisering.",
+      "backToLogin": "Tilbake til innlogging"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Det eksisterer allerede en konto med denne e-posten. Bruk en annen e-post.",
+      "INVALID_CREDENTIALS": "Feil e-post eller passord.",
+      "INVALID_EMAIL": "Ugyldig e-postformat.",
+      "INVALID_PASSWORD": "Passordet må være minst 6 tegn.",
+      "EMAIL_REQUIRED": "E-post er påkrevd.",
+      "PASSWORD_REQUIRED": "Passord er påkrevd.",
+      "NAME_REQUIRED": "Navn er påkrevd.",
+      "SERVER_ERROR": "Serverfeil. Prøv igjen senere.",
+      "NETWORK_ERROR": "Nettverksfeil. Sjekk tilkoblingen din."
+    },
+    "forgotPassword": {
+      "title": "Glemt passord",
+      "description": "Skriv inn e-posten din, så sender vi en lenke for å tilbakestille passordet.",
+      "email": "E-post",
+      "send": "Send tilbakestillingslenke",
+      "backToLoginHint": "Husker du passordet?",
+      "checkEmail": "Hvis det finnes en konto med den e-posten, har vi sendt en tilbakestillingslenke. Sjekk innboksen din.",
+      "emailRequired": "E-post er påkrevd",
+      "error": {
+        "userNotFound": "Ingen konto funnet med denne e-posten",
+        "tooManyRequests": "For mange forsøk. Prøv igjen senere",
+        "serverError": "Noe gikk galt. Prøv igjen"
+      }
+    },
+    "resetPassword": {
+      "title": "Tilbakestill passord",
+      "password": "Nytt passord",
+      "reset": "Tilbakestill passord",
+      "backToLoginHint": "Klar til å logge inn?",
+      "requestNewLink": "Be om ny lenke",
+      "showPassword": "Vis passord",
+      "hidePassword": "Skjul passord",
+      "minLength": "Passordet må være minst 6 tegn",
+      "error": {
+        "expiredToken": "Tilbakestillingslenken er utløpt. Be om en ny",
+        "invalidToken": "Ugyldig tilbakestillingslenke. Be om en ny",
+        "missingToken": "Tilbakestillingslenken mangler eller er ufullstendig. Be om en ny",
+        "tooManyRequests": "For mange forsøk. Prøv igjen senere",
+        "serverError": "Noe gikk galt. Prøv igjen"
+      }
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name}-teamet",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Hei, {name}.",
+      "body": "Klikk på knappen nedenfor for å tilbakestille Photo To URL-passordet ditt. Hvis du ikke ba om dette, kan du se bort fra denne e-posten.",
+      "resetPassword": "Tilbakestill passord",
+      "subject": "Tilbakestill Photo To URL-passordet ditt"
+    }
+  },
+  "PricingPage": {
+    "title": "Enkel og transparent prissetting",
+    "description": "Velg planen som passer for deg med enkel og gjennomsiktig prissetting",
+    "subtitle": "Velg planen som passer for deg",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "faqTitle": "Ofte stilte spørsmål",
+    "faq": {
+      "payment": {
+        "q": "Hvilke betalingsmetoder godtar dere?",
+        "a": "Vi godtar alle store kort (Visa, Mastercard, American Express) og PayPal."
+      },
+      "cancel": {
+        "q": "Kan jeg si opp når som helst?",
+        "a": "Ja, du kan si opp når som helst fra kontoinnstillingene dine. Du vil ikke bli belastet for fremtidige perioder."
+      },
+      "storage": {
+        "q": "Hvor mye lagring har jeg?",
+        "a": "Den gratis planen gir 50MB, Pro 5GB og Årlig 50GB."
+      },
+      "upload": {
+        "q": "Kan jeg oppgradere planen min senere?",
+        "a": "Ja, du kan oppgradere eller nedgradere når som helst. Endringene brukes umiddelbart."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/ måned",
+      "perYear": "/ år",
+      "popular": "Mest populær",
+      "bestValue": "Beste verdi",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Kom i gang nå",
+      "upgradeToYearly": "Oppgrader til Premium",
+      "cannotDowngrade": "Nedgradering ikke tilgjengelig",
+      "alreadySubscribed": "Nåværende plan er allerede aktiv",
+      "subscribeYearly": "Abonner årlig",
+      "subscribeMonthly": "Abonner månedlig",
+      "upgrade": "Oppgrader",
+      "notAvailable": "Not Available",
+      "limitedOffer": "Tidsbegrenset tilbud · 20% rabatt",
+      "savePercentLabel": "Spar ",
+      "savePercentSuffix": " vs månedlig",
+      "freePriceNote": "Gratis for alltid",
+      "monthlyPriceNote": "Faktureres månedlig",
+      "loading": "Laster...",
+      "suitableFor": "Egnet for:",
+      "activePlanDialog": {
+        "title": "Du har allerede et aktivt abonnement",
+        "description": "Denne kontoen har allerede et aktivt abonnement.",
+        "descriptionWithDate": "Denne kontoen har allerede et aktivt abonnement (utløper {date}).",
+        "close": "Lukk",
+        "manageBilling": "Administrer abonnement"
+      },
+      "batchUpload": {
+        "label": "Last opp flere bilder",
+        "free": "Nei",
+        "monthly": "20",
+        "yearly": "50"
+      },
+      "justPerMonth": "{price}/md",
+      "saveVsMonthly": "Spar {percent}%",
+      "monthlyEquivalentShort": "({price}/ måned)",
+      "bestValueWithSave": "Best verdi · Spar {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Laster...",
+      "checkoutFailed": "Kunne ikke åpne betalingssiden"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Gratis",
+      "description": "Perfekt for å prøve Photo To URL",
+      "features": {
+        "feature-1": "Opplastingsstørrelse: 2MB",
+        "feature-2": "Daglige opplastinger: 10 ganger",
+        "feature-3": "Lagring: 100MB",
+        "feature-4": "CDN: Grunnleggende akselerasjon",
+        "feature-5": "Reklamefritt: Nei",
+        "feature-6": "Dokumenthosting: Nei",
+        "feature-7": "Fotohosting: Nei",
+        "feature-8": "Bilderedigering: Nei",
+        "feature-9": "Webhook: Nei",
+        "feature-10": "Ressurstillatelser: Ingen"
+      },
+      "limits": [],
+      "suitableFor": "Prøv produktet, test funksjoner"
+    },
+    "pro": {
+      "name": "Profesjonell",
+      "description": "For jevnlige opplastinger og pålitelig lagring",
+      "features": {
+        "feature-1": "Opplastingsstørrelse: 50MB",
+        "feature-2": "Daglige opplastinger: 1000 ganger",
+        "feature-3": "Lagring: 100GB",
+        "feature-4": "CDN: Standard akselerasjon",
+        "feature-5": "Reklamefritt: Ja",
+        "feature-6": "Dokumenthosting: Ja",
+        "feature-7": "Fotohosting: Ja",
+        "feature-8": "Bilderedigering: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Ressurstillatelser: Delvis"
+      },
+      "limits": [],
+      "suitableFor": "Bloggere / Utviklere / Små team"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Årsplan med høyere kvoter og raskere CDN",
+      "features": {
+        "feature-1": "Opplastingsstørrelse: 256MB",
+        "feature-2": "Daglige opplastinger: Ubegrenset",
+        "feature-3": "Lagring: 200GB",
+        "feature-4": "CDN: Høyhastighetsnoder (prioritet)",
+        "feature-5": "Reklamefritt: Ja",
+        "feature-6": "Dokumenthosting: Ja",
+        "feature-7": "Fotohosting: Ja",
+        "feature-8": "Bilderedigering: Ja",
+        "feature-9": "Webhook: Ja",
+        "feature-10": "Ressurstillatelser: Alle"
+      },
+      "limits": [],
+      "suitableFor": "Bedrifter / Hyppig bruk / Automatiseringssystemer"
+    }
+  },
+  "Dashboard": {
+    "title": "Instrumentpanel",
+    "themeToggle": "Tema",
+    "welcome": "Velkommen",
+    "loadFailed": "Kunne ikke laste. Prøv igjen senere.",
+    "errorTitle": "Noe gikk galt",
+    "dismiss": "OK",
+    "dashboard": "Oversikt",
+    "resources": "Mine ressurser",
+    "photos": "Mine bilder",
+    "storage": "Lagring",
+    "used": "Brukt",
+    "total": "Totalt",
+    "storageDisplay": "{used} av {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Ubegrenset",
+    "deleteConfirm": "Er du sikker på at du vil slette denne ressursen?",
+    "deleteResource": "Slett ressurs",
+    "deleteFailed": "Kunne ikke slette ressursen",
+    "delete": "Slett",
+    "cancel": "Avbryt",
+    "copied": "Kopiert!",
+    "copy": "Kopier lenke",
+    "open": "Åpne",
+    "removeBackground": "Fjern bakgrunn",
+    "noResources": "Ingen ressurser. Last opp noen bilder for å komme i gang.",
+    "files": "filer",
+    "dailyUploads": "Opplastinger i dag",
+    "today": "i dag",
+    "resourcesCount": "Du har {count} opplastede ressurser",
+    "photosCount": "Du har {count} opplastede bilder",
+    "resourcePageInfo": "Side {page} av {totalPages} · {pageSize} per side · {total} filer totalt",
+    "resourceTotalCount": "Totalt {total} oppføringer",
+    "resourcePageSizeLabel": "Oppføringer per side",
+    "resourcePageSizeOption": "{size} per side",
+    "resourceJumpTo": "Gå til",
+    "resourceJumpPageUnit": "side",
+    "resourceJumpInputAria": "Sidenummer",
+    "resourcePagePrev": "Forrige side",
+    "resourcePageNext": "Neste side",
+    "subtitle": "Her er en oversikt over arbeidsområdet ditt.",
+    "planCardTitle": "Plan",
+    "planActive": "Aktiv",
+    "planNames": {
+      "free": "Gratis",
+      "premium": "Premium",
+      "pro": "Profesjonell"
+    },
+    "planCardHintUpgrade": "Oppgrader for mer",
+    "planCardHintAllUpgraded": "Alle funksjoner låst opp",
+    "statStorageHint": "Plass brukt på tvers av alle opplastinger",
+    "statResourcesHint": "Totalt bilder + dokumenter",
+    "statPhotosHint": "Filer du kan kopiere eller dele som lenker",
+    "statUploadsHint": "Tilbakestilles hver 24. time etter nivå",
+    "chartTitle": "Aktivitet",
+    "chartDescription": "Opplastingsvolum over tid",
+    "chartPlaceholder": "Trender vil vises her når det er mer aktivitet.",
+    "chartRange7d": "Siste 7 dager",
+    "chartRange30d": "Siste 30 dager",
+    "chartRange90d": "Siste 3 måneder",
+    "tableFile": "Fil",
+    "tablePath": "Bane",
+    "tableSize": "Størrelse",
+    "tableActions": "Handlinger",
+    "viewTable": "Tabell",
+    "viewGrid": "Fotovegg",
+    "chartDemoNote": "Opplastings-trend (dager)",
+    "loginRequired": "Logg inn for å se instrumentpanelet ditt.",
+    "checkoutSuccess": "Betaling vellykket! Din plan er oppgradert.",
+    "subscriptionSuccess": "Abonnement aktivert. Velkommen til {plan}!",
+    "circleCrop": "Sirkulær beskjæring",
+    "roundedCorners": "Avrunde hjørner",
+    "scheduledForDeletion": "Planlagt for sletting",
+    "upload": "Last opp",
+    "uploadPhoto": "Last opp bilde",
+    "batchUploadPhotos": "Last opp flere bilder",
+    "batchUploading": "Laster opp flere bilder …",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Velg maks {max} filer om gangen.",
+    "batchUploadTierHint": "Opptil {max} filer per opplasting på abonnementet ditt.",
+    "uploadUpgradeHint": "Tilgjengelig etter oppgradering",
+    "uploading": "Laster opp...",
+    "loading": "Laster...",
+    "uploadErrorInvalidType": "Ugyldig filtype. Bruk PNG, JPG, WEBP eller GIF.",
+    "uploadErrorTooLarge": "Filen er for stor. Planen din tillater opptil {maxMb} MB per fil.",
+    "uploadErrorDailyLimit": "Daglig grense nådd ({limit} opplastinger/dag).",
+    "uploadErrorStorageLimit": "Lagringsgrense nådd.",
+    "uploadErrorGeneric": "Opplasting mislyktes. Prøv igjen.",
+    "uploadUpgradeTitle": "Lås opp direkte opplasting",
+    "uploadUpgradeDescription": "Oppgrader for å laste opp direkte fra dashbordet med høyere grenser.",
+    "uploadRenewDescription": "Forny for å laste opp direkte fra dashbordet med høyere grenser.",
+    "expiredStorageLimitHint": "Etter utløp er kun 100MB lagring tilgjengelig",
+    "uploadGoHome": "Last opp på forsiden",
+    "resourceModule": {
+      "title": "Mine dokumenter",
+      "count": "Du har {count} opplastede dokumenter",
+      "empty": "Ingen dokumenter ennå. Last opp PDF/Word/PowerPoint/Excel for å komme i gang.",
+      "viewCard": "Kort",
+      "searchPlaceholder": "Søk etter filnavn",
+      "typeAll": "Alle typer",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Nullstill",
+      "upload": "Last opp dokument",
+      "uploading": "Laster opp...",
+      "copy": "Kopier lenke",
+      "open": "Åpne",
+      "delete": "Slett",
+      "deleteFailed": "Kunne ikke slette dokumentet",
+      "fetchError": "Kunne ikke laste dokumentlisten",
+      "tableFile": "Fil",
+      "tablePath": "Bane",
+      "tableType": "Type",
+      "typeLabel": "Type",
+      "tableSize": "Størrelse",
+      "tableActions": "Handlinger",
+      "uploadErrorTooLarge": "Filen er for stor. Grensen per fil i planen din er {maxSize}.",
+      "uploadErrorDailyLimit": "Daglig grense nådd ({limit} opplastinger/dag).",
+      "uploadErrorStorageLimit": "Lagringsgrense nådd.",
+      "uploadErrorGeneric": "Opplasting mislyktes. Prøv igjen."
+    },
+    "uploadSize": "Filstørrelse {size}",
+    "dailyUploadsLimit": "{limit} opplastinger/dag",
+    "dailyUploadsUnlimited": "Ubegrensede opplastinger",
+    "monthly": "md.",
+    "yearly": "år",
+    "bestValue": "Best verdi",
+    "upgrade": {
+      "title": "Oppgrader din plan",
+      "description": "Oppgrader for høyere daglige grenser, større filer og premium-funksjoner. Ubegrensede daglige opplastinger med det årlige Premium-abonnementet.",
+      "button": "Oppgrader nå"
+    },
+    "settings": {
+      "title": "Innstillinger",
+      "profile": {
+        "title": "Profil",
+        "description": "Administrer din profilinformasjon",
+        "name": {
+          "title": "Navn",
+          "description": "Oppdater ditt viste navn",
+          "placeholder": "Skriv inn navnet ditt",
+          "hint": "Dette er navnet som vil vises på profilen din",
+          "minLength": "Navnet må være minst 3 tegn",
+          "maxLength": "Navnet må ikke være mer enn 30 tegn",
+          "success": "Navn oppdatert vellykket",
+          "fail": "Kunne ikke oppdatere navn",
+          "save": "Lagre",
+          "saving": "Lagrer..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Oppdater profilbildet ditt",
+          "uploadAvatar": "Last opp bilde",
+          "unavailable": "Opplasting utilgjengelig",
+          "disabledHint": "Avatar-opplasting krever at skylagring er aktivert for dette prosjektet.",
+          "recommendation": "PNG, JPG eller WebP. Maksimal størrelse følger servergrensene."
+        }
+      },
+      "billing": {
+        "title": "Fakturering",
+        "description": "Administrer din fakturering og abonnement",
+        "billingPagePlanTitle": "Gjeldende plan",
+        "billingPageStorageTitle": "Lagringsbruk",
+        "currentPlan": {
+          "title": "Din plan og lagring på Photo To URL",
+          "description": "Oppgrader for å låse opp høyere kvoter og flere funksjoner"
+        },
+        "loadError": "Kunne ikke laste faktureringsdata.",
+        "retry": "Prøv på nytt",
+        "planNames": {
+          "free": "Gratis",
+          "premium": "Premium",
+          "pro": "Profesjonell"
+        },
+        "status": {
+          "active": "Aktiv",
+          "expired": "Utløpt"
+        },
+        "storageUsed": "Lagring brukt",
+        "freePlanMessage": "Høyere opplastingskvote",
+        "inactivePlanMessage": "Fordelene er utløpt",
+        "expiredStorageLimitHint": "Etter utløp er kun 100MB lagring tilgjengelig",
+        "paidPlanMessage": "Fordeler aktive",
+        "backToWorkbench": "Tilbake til dashbord",
+        "upgradeHint": "Mer lagringsplass",
+        "upgradeToPlan": "Oppgrader plan",
+        "featureAdvancedEditing": "Avanserte redigeringsverktøy",
+        "upgradeNotReady": {
+          "title": "Kommer snart",
+          "description": "Følg med på flere tjenester!",
+          "confirm": "Forstått",
+          "cancel": "Lukk"
+        },
+        "storage": {
+          "title": "Raskere CDN",
+          "description": "Spor ditt lagringsforbruk",
+          "upgradeStorage": "Oppgrader lagring"
+        }
+      },
+      "security": {
+        "title": "Sikkerhet",
+        "description": "Administrer din kontosikkerhet",
+        "updatePassword": {
+          "title": "Passord",
+          "description": "Endre passordet for din e-postinnlogging",
+          "currentPassword": "Nåværende passord",
+          "newPassword": "Nytt passord",
+          "confirmPassword": "Bekreft nytt passord",
+          "currentRequired": "Skriv inn ditt nåværende passord",
+          "newMinLength": "Minst 8 tegn",
+          "confirmRequired": "Vennligst bekreft ditt nye passord",
+          "passwordMismatch": "Passordene samsvarer ikke",
+          "hint": "Bruk et sterkt passord som du ikke bruker andre steder.",
+          "save": "Oppdater passord",
+          "saving": "Lagrer…",
+          "success": "Passord oppdatert",
+          "fail": "Kunne ikke oppdatere passord",
+          "showPassword": "Vis passord",
+          "hidePassword": "Skjul passord"
+        },
+        "resetPassword": {
+          "title": "Angi et passord",
+          "description": "Du logget inn med Google. Legg til et e-postpassord som backup-innlogging.",
+          "info": "Vi sender en lenke for tilbakestilling av passord til e-postadressen på kontoen din.",
+          "button": "Send tilbakestillingslink",
+          "sending": "Sender…",
+          "sent": "Sjekk innboksen din for tilbakestillingslenken.",
+          "disabled": "E-post for tilbakestilling av passord er ennå ikke konfigurert på denne serveren.",
+          "fail": "Forespørselen mislyktes. Prøv igjen senere."
+        },
+        "deleteAccount": {
+          "title": "Slett konto",
+          "description": "Fjern din konto og tilknyttede data permanent.",
+          "warning": "Dette kan ikke angres. Sørg for å ha lagret alt du trenger.",
+          "button": "Slett min konto",
+          "confirmTitle": "Slette konto?",
+          "confirmDescription": "Din konto vil bli permanent slettet.",
+          "cancel": "Avbryt",
+          "confirm": "Slett",
+          "deleting": "Sletter…",
+          "success": "Konto slettet",
+          "fail": "Kunne ikke slette konto"
+        }
+      },
+      "notification": {
+        "title": "Varsler",
+        "description": "Administrer dine varslingspreferanser",
+        "newsletter": {
+          "title": "E-postoppdateringer",
+          "description": "Produktnyheter og tips (valgfritt)",
+          "label": "Abonner på nyhetsbrev",
+          "disabledHint": "Nyhetsbrevet er ennå ikke aktivert for dette nettstedet.",
+          "hint": "Når det er aktivert, kan du abonnere eller si opp her."
+        },
+        "productPreview": {
+          "title": "Produktforhåndsvisning",
+          "description": "Hovedbilde brukt på delingskort og landingssider.",
+          "announcement": {
+            "line1": "Vi leverer kontinuerlig kraftigere funksjoner og mer verdifulle medlemsfordeler.",
+            "line2": "Nye oppgraderingsfunksjoner prioriteres for eksisterende brukere, uten prisendringer.",
+            "line3": "Takk for tilliten og støtten fra hver bruker. Vi fortsetter å forbedre produktet for å levere en mer verdifull opplevelse.",
+            "line4": "Vi vil fortsette å optimalisere den globale brukeropplevelsen med raskere og mer pålitelige tjenester."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Kunstnerkonto",
+    "artFightWorkspaceHint": "Kunstnerverktøy aktivert — kopier URL-, HTML-, BBCode- og Markdown-embed-koder for hvert bilde."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Art Fight-profilkort-hosting | URL og embed-koder",
+      "description": "Last opp Team Tragedy-, Comedy- eller Mystery-profilkort. Få en direkte HTTPS-lenke pluss HTML/BBCode-embed for Art Fight, Discord og sosiale innlegg.",
+      "keywords": "Art Fight profilkort,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+    },
+    "footerLink": "Art Fight-hosting",
+    "artistAccount": {
+      "badge": "Kunstnerkonto",
+      "title": "Registrer dedikert kunstnerkonto",
+      "lead": "Opprett en gratis kunstnerkonto for å lagre profilkort i Dashboard og bruke profesjonelle embed-verktøy for Art Fight — kopier URL, HTML, BBCode og Markdown for hver opplasting.",
+      "toolEmbedTitle": "Embed-verktøy",
+      "toolEmbedDesc": "Kopier med ett klikk for Art Fight-profiler, Discord, forum og sosiale innlegg.",
+      "toolDashboardTitle": "Kunstner-Dashboard",
+      "toolDashboardDesc": "Hvert kort blir i kontoen din — søk, forhåndsvis og kopier lenker igjen når som helst.",
+      "toolBatchTitle": "Batch-opplasting (Pro)",
+      "toolBatchDesc": "Last opp mange profilkort på én gang etter oppgradering — for kunstnere med flere OCs.",
+      "registerCta": "Opprett kunstnerkonto",
+      "footnote": "Kryss av «Dedikert kunstnerkonto» ved registrering, eller registrer deg fra denne siden — vi forhåndsvelger det."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "For digitale kunstnere og OC-skapere",
+      "title": "Profilkort- og ref sheet-hosting for Art Fight-kunstnere",
+      "subtitle": "Last opp Team Tragedy-, Comedy- eller Mystery-profilkortet ditt — få en stabil bilde-URL pluss HTML- og BBCode-embed-koder for Art Fight-profiler, Discord og «klar til kamp»-innlegg.",
+      "artistAccountLine": "Registrer en dedikert kunstnerkonto for profesjonelle embed-verktøy i dashboardet.",
+      "cta": "Slipp profilkortet nedenfor → kopier lenke → lim inn der du viser laget ditt",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Profilhosting",
+      "tabArtist": "Kunstnerkonto",
+      "tabSupport": "Kunstnerstøtte",
+      "tabsAriaLabel": "Art Fight-høydepunkter",
+      "trustLine": "Gratis rask opplasting · URL og embed-koder · Kunstner-Dashboard",
+      "uploadCta": "Last opp et kort",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Lim-inn-klare embed-koder",
+      "panelIntroDesc": "Last opp et profilkort én gang, kopier deretter direktelenken eller forumklar HTML og BBCode for Art Fight og Discord.",
+      "panelArtistTitle": "Kunstnerkonto-verktøy",
+      "panelSupportTitle": "Dedikert kunstnerstøtte",
+      "panelSupportDesc": "Opplastinger, embeds, kontoer og abonnementer — ekte mennesker, ikke en generisk bildekø."
+    },
+    "teams": {
+      "title": "Samme verktøy for hvert Art Fight-lag",
+      "lead": "Enten du endte på Tragedy, Comedy eller Mystery, trenger du én ting etter kortet: en rask, stabil bildelenke å dele.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Blåtonede profilkort og ref sheets — host hele kortbildet og lim inn lenken på Art Fight-profilen eller Twitter/X-innlegget ditt.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Oransje og varmt tonede karakterkort — perfekt for Discord-kunngjøringer og profil-embeds når Art Fight er i full gang.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Lilla kort for den tredje fraksjonen — samme opplastingsflyt, samme embed-koder, klar når du skal dele.",
+      "footnote": "Alle tre lag følger samme arbeidsflyt: last opp → kopier URL eller embed → publiser kortet offentlig."
+    },
+    "useCases": {
+      "title": "Hvor kunstnere limer inn lenken",
+      "lead": "Art Fight er sosialt. Den hostede lenken følger med hver profiloppdatering og hvert «jeg er på dette laget»-innlegg.",
+      "profileTitle": "Art Fight-profil",
+      "profileDesc": "Lim inn direkte URL eller HTML-embed i den offisielle Art Fight-karakterprofilen din, så lagkamerater kan se kortet ditt.",
+      "socialTitle": "Twitter / X og sosiale innlegg",
+      "socialDesc": "Del profilkortet når du viser laget ditt — en ren HTTPS-lenke lastes raskt i tidslinjer og svar.",
+      "discordTitle": "Discord og kunstnerservere",
+      "discordDesc": "Slipp URL-en eller BBCode i Art Fight-Discord-kanaler, serverintroduksjoner eller angrepsplan-tråder.",
+      "portfolioTitle": "Toyhouse og portfoliosider",
+      "portfolioDesc": "Bruk samme lenke på Toyhouse, Carrd eller forumsignaturer, så ref-en din er konsistent overalt."
+    },
+    "features": {
+      "sectionTitle": "Hvorfor Art Fight-kunstnere velger Photo To URL",
+      "fastTitle": "Bygget for travle Art Fight-perioder",
+      "fastDesc": "Last opp når du må poste — få en CDN-lenke på sekunder under oppvarming, peak-event eller hele året.",
+      "linkTitle": "Profilkortvennlige URL-er",
+      "linkDesc": "Rene .png/.jpg-lenker som Art Fight-profiler, forum og sosiale innlegg godtar uten ekstra steg.",
+      "embedTitle": "HTML og BBCode for kunstnere",
+      "embedDesc": "Kopier embed-utdrag for profiler og forum — ingen manuell redigering av img-tagger i en travel sesong.",
+      "safeTitle": "Dashboard-hosting etter innlogging",
+      "safeDesc": "Registrerte brukere lagrer profilkort i Dashboard — kopier lenker igjen, søk filer og administrer opplastinger på ett sted."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Kunstnerkonto: host kort i Dashboard",
+      "sectionLead": "Anonyme opplastinger fungerer for et raskt innlegg. Registrer deg som Art Fight-kunstner for et dedikert Dashboard med embed-verktøy for hvert hostede kort — eller oppgrader til Pro for batch-opplasting og høyere grenser.",
+      "dashboardTitle": "Dashboard-fotohosting",
+      "dashboardDesc": "Etter innlogging lagres hver opplasting i Dashboard. Kopier samme lenke igjen, åpne bildet i en ny fane eller last ned originalen — alt fra én liste.",
+      "batchTitle": "Batch-opplasting (Pro)",
+      "batchDesc": "Last opp mange profilkort på én gang fra Dashboard — opptil {monthlyMax} per batch på Pro, eller {yearlyMax} på Premium årlig.",
+      "manageTitle": "Søk og fotovegg",
+      "manageDesc": "Finn ethvert hostede kort etter filnavn, bytt mellom tabell- og fotoveggvisning, og slett filer du ikke lenger trenger.",
+      "proTitle": "Høyere grenser og større filer",
+      "proDesc": "Alt i Free, pluss Dashboard batch-opplasting ({monthlyMax}–{yearlyMax} filer), høyere daglige grenser, større opplastinger og mer lagring.",
+      "anonymousLabel": "Anonym",
+      "anonymousDesc": "Rask lenke for ett innlegg. Ikke lagret på kontoen din; kan ryddes når som helst.",
+      "freeLabel": "Gratis konto",
+      "freeDesc": "Kort lagret i Dashboard. Kopier lenker igjen, søk og administrer til du sletter dem eller når lagringsgrenser.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Opprett gratis konto",
+      "loginCta": "Logg inn",
+      "dashboardCta": "Åpne Dashboard",
+      "proCta": "Se Pro-abonnementer",
+      "ctaPanelTitle": "Klar til å hoste kortene dine?",
+      "footnote": "Gratis kontoer laster opp her og administrerer filer i Dashboard. Batch-opplasting krever Pro eller Premium."
+    },
+    "upload": {
+      "sectionTitle": "Last opp Art Fight-profilkortet ditt",
+      "sectionLead": "Ref sheet, lagkort eller fullt profilbilde — dra det hit og kopier lenken til neste innlegg.",
+      "dropzoneTitle": "Slipp profilkortet eller ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP eller GIF — lagkort, ref sheets og karaktergrafikk velkommen",
+      "dropzoneFootnote": "Gratis: 5 opplastinger/dag uten registrering. Logg inn for høyere grenser når som helst.",
+      "defaultAlt": "Art Fight-profilkort",
+      "resultTitle": "Kortet ditt er klart — del det",
+      "resultHint": "Kopier URL-en for Art Fight-profiler, eller HTML/BBCode for forum og Discord.",
+      "open": "Åpne bilde",
+      "reset": "Last opp et annet kort",
+      "errorBadType": "Last opp en bildefil (PNG, JPG, WEBP eller GIF).",
+      "errorGeneric": "Opplasting mislyktes. Prøv igjen.",
+      "loginRequiredTitle": "Daglig gratisgrense nådd",
+      "loginRequiredDescription": "Logg inn for å fortsette å laste opp profilkort og lagre dem i Dashboard, eller kom tilbake i morgen for flere gratis opplastinger.",
+      "loginRequiredDetail": "Registrerte brukere får Dashboard-hosting: hvert kort blir i kontoen din, du kan kopiere lenker igjen, søke etter filnavn og administrere opplastinger på ett sted.",
+      "retentionAnonymousTitle": "Anonym lenke — ikke anbefalt for viktige kort",
+      "retentionAnonymousBody": "Anonyme opplastinger kun for rask deling. Lenken virker nå men lagres ikke — registrer deg gratis for embeds.",
+      "retentionAnonymousSignUp": "Opprett gratis konto",
+      "retentionAnonymousPro": "Se Pro-abonnementer",
+      "retentionFreeTitle": "Denne lenken er lagret på kontoen din",
+      "retentionFreeBody": "Du kan kopiere den igjen når som helst fra Dashboard. Gratis kontoer har daglige opplastingsgrenser og lagringsbegrensninger — nok for raske kort, men ikke ubegrenset.",
+      "retentionFreeDashboard": "Åpne Dashboard",
+      "retentionFreeUpgrade": "Oppgrader for mer lagring",
+      "retentionProTitle": "Profilkortet ditt hostes på Pro-abonnementet ditt",
+      "retentionProBody": "Høyere opplastingsgrenser, mer lagring og pålitelige lenker for hver Art Fight — Tragedy, Comedy eller Mystery.",
+      "retentionProDashboard": "Åpne Dashboard",
+      "resultHintAnonymous": "Anonym opplasting — kun direktelenke. Registrer deg for å låse opp HTML, BBCode og Markdown.",
+      "retentionAnonymousIntro": "Denne direktelenken fungerer for rask deling, men anonym hosting har alvorlige begrensninger:",
+      "retentionAnonymousLimit1": "Ikke knyttet til kontoen din — mindre sikkert; alle med lenken kan se bildet",
+      "retentionAnonymousLimit2": "Tregere CDN — anonyme opplastinger får ikke prioritert akselerasjon",
+      "retentionAnonymousLimit3": "Kan komprimeres — original kvalitet ikke garantert",
+      "retentionAnonymousLimit4": "Kort levetid — anonyme filer ryddes periodisk; lenken kan slutte å virke",
+      "retentionAnonymousLimit5": "Innbyggingskoder låst — HTML, BBCode og Markdown krever gratis konto",
+      "retentionAnonymousCta": "Opprett gratis konto for å lagre kort, låse opp embeds, raskere CDN og mer pålitelige lenker."
+    },
+    "embed": {
+      "altLabel": "Alt-tekst (for HTML og Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Kopier kode",
+      "copied": "Kopiert",
+      "lockedTabTitle": "Registrer deg for å låse opp embeds",
+      "lockedTabDescription": "HTML, BBCode og Markdown tilgjengelig etter registrering. Gratis kontoer: dashboard og kopier embed med ett klikk.",
+      "lockedTabCta": "Opprett gratis konto"
+    },
+    "howTo": {
+      "title": "Fra profilkort til offentlig innlegg",
+      "lead": "Arbeidsflyten enhver Art Fight-kunstner følger etter å ha fullført kortet.",
+      "schemaName": "Slik hoster du et Art Fight-profilkort med embed-kode",
+      "schemaDescription": "Last opp et Art Fight-lagprofilkort til Photo To URL og lim inn lenken på profilen eller sosiale innlegg.",
+      "step1Title": "Last opp lagkortet ditt",
+      "step1Desc": "Slipp Tragedy-, Comedy- eller Mystery-profilkortet eller ref sheet. Vi returnerer direktelenke og embed-koder med en gang.",
+      "step2Title": "Kopier URL eller embed-kode",
+      "step2Desc": "Bruk URL-fanen for Art Fight-profiler, eller HTML/BBCode for Discord, forum og portfoliosider.",
+      "step3Title": "Publiser og vis laget ditt",
+      "step3Desc": "Lim inn lenken på Art Fight, Twitter/X eller Discord, så andre kunstnere kan se kortet ditt og finne deg under eventet."
+    },
+    "faq": {
+      "title": "Art Fight-kunstner FAQ",
+      "lead": "Spørsmål fra kunstnere som laster opp Team Tragedy-, Comedy- og Mystery-kort.",
+      "warningTitle": "Last opp ansvarlig",
+      "warningBody": "Host kun kunstverk du har laget eller tydelig har rett til å dele. Ikke last opp krenkende, ulovlig eller forbudt innhold. Du er ansvarlig for hver fil du laster opp.",
+      "warningTermsLink": "Vilkår for bruk",
+      "warningPrivacyLink": "Personvern",
+      "q1Question": "Er dette for profilkort eller ref sheets?",
+      "q1Answer": "Begge deler. Last opp fullt Art Fight-lagprofilkort, karakter-ref sheet eller grafikk du trenger å hotlinke for eventet.",
+      "q2Question": "Fungerer det for alle tre lag?",
+      "q2Answer": "Ja. Team Tragedy-, Team Comedy- og Team Mystery-kort bruker samme opplasting — vi hoster bildet og gir deg en delbar lenke.",
+      "q3Question": "Trenger jeg en konto for å laste opp?",
+      "q3Answer": "Nei for raske opplastinger. Anonyme brukere får 10 gratis opplastinger per dag. Logg inn for å lagre kort i Dashboard — kopier lenker igjen, søk filer og administrer opplastinger. Pro legger til batch-opplasting fra Dashboard (opptil 20–50 kort om gangen) pluss høyere grenser.",
+      "q8Question": "Kan jeg batch-laste opp mange profilkort?",
+      "q8Answer": "Ja, med betalt abonnement. Åpne Dashboard, bruk Batch-opplasting og velg flere PNG/JPG/WEBP/GIF-filer på én gang — opptil 20 per batch på Pro månedlig, eller 50 på Premium årlig. Gratis kontoer kan laste opp ett kort om gangen på denne siden eller i Dashboard.",
+      "q4Question": "Fungerer kortlenken min på Discord og Twitter?",
+      "q4Answer": "Ja. Den direkte HTTPS-URL-en fungerer i sosiale innlegg. Bruk BBCode for Discord-vennlig markup der det støttes.",
+      "q5Question": "Forblir lenken min tilgjengelig på lang sikt?",
+      "q5Answer": "Det avhenger av hvordan du laster opp. Anonyme lenker er kun for rask bruk — vi rydder periodisk anonyme opplastinger, og lenken kan bryte når som helst. Registrerte brukere beholder filer i Dashboard til de sletter dem eller når lagringsgrenser. Pro er best hvis du trenger at profilkort forblir online pålitelig over tid.",
+      "q6Question": "Kan jeg laste opp ethvert bilde? Hva med opphavsrett?",
+      "q6Answer": "Last kun opp bilder du eier eller er autorisert til å hoste og dele — som egne OCs, commissions du har betalt for med hostingrettigheter, eller verk du har laget. Ikke last opp andres ref sheets, offisielle Art Fight-assets du ikke har laget, kjendisbilder, merkelogoer eller annet opphavsrettsbeskyttet materiale uten tillatelse. Opplasting av krenkende innhold er ditt ansvar.",
+      "q7Question": "Hvilket innhold er strengt forbudt?",
+      "q7Answer": "Last aldri opp ulovlig innhold; seksuelt eksplisitt eller utnyttende materiale (inkl. alt med mindreårige); hatytringer, trakassering eller vold; skadelig programvare eller svindel; eller noe som bryter opphavsrett, varemerke eller personvern. Vi kan fjerne filer og suspendere tilgang uten varsel når vi med rimelighet mener innholdet bryter vilkårene våre eller loven."
+    },
+    "artistSupport": {
+      "title": "Kunstnerstøtte — vi er her for å hjelpe",
+      "panelVisualTag": "Svar innen 1–2 dager",
+      "panelVisualQuestion": "Fungerer ikke BBCode-embed?",
+      "panelVisualReply": "Skjønner — vi hjelper deg å få det på plass.",
+      "topicEmbed": "Embeds og lenker",
+      "topicAccount": "Kunstnerkonto",
+      "topicPlan": "Abonnementer og lagring",
+      "topicFeedback": "Ideer og tilbakemelding",
+      "contactHint": "Ta kontakt når som helst — ingen kø.",
+      "contactCta": "Kontakt oss",
+      "emailCta": "Send oss e-post"
+    },
+    "conversion": {
+      "title": "Hoster du mange OCs? Batch-opplasting fra Dashboard",
+      "description": "Pro-kunstnere laster opp dusinvis av profilkort på én gang, beholder hver lenke i Dashboard og får høyere daglige grenser og lagring for hele rosteret.",
+      "cta": "Se kunstnervennlige Pro-abonnementer"
+    }
+  }
+}

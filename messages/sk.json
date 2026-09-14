@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Fotka na URL",
+    "logout": "Odhlásiť sa",
+    "logoutFailed": "Odhlasenie zlyhalo",
+    "switchLanguage": "Zmeniť jazyk",
+    "tagline": "Premeňte fotky na čisté a zdieľateľné odkazy v priebehu sekúnd",
+    "header": {
+      "home": "Domov",
+      "blog": "Blog",
+      "subtitle": "Premeňte obrázky na zdieľateľné odkazy",
+      "prompt": "Presuňte, prilepte alebo nahrajte — získajte odkaz okamžite",
+      "circleCrop": "Okrúhly výrez",
+      "circleCropNav": "Kruhový výrez",
+      "roundedCorners": "Zaoblené rohy",
+      "removeBackground": "Foto Odstrániť Pozadie",
+      "removeBackgroundNav": "Odstrániť Pozadie",
+      "pricingNav": "Ceny",
+      "comingSoon": "Čoskoro.",
+      "history": "História nahrávania",
+      "login": "Prihlásiť sa",
+      "signUp": "Registrovať sa",
+      "signOut": "Odhlásiť sa",
+      "dashboard": "Prehľad",
+      "settings": "Nastavenia",
+      "tool": "Nástroje",
+      "pdfToUrlNav": "PDF na URL",
+      "fileToUrlNav": "Súbor na URL",
+      "artFightNav": "Profilové karty"
+    },
+    "history": {
+      "drawerTitle": "História nahrávania",
+      "hint": "Zobrazujú sa nahratia za posledný týždeň.",
+      "close": "Zatvoriť",
+      "empty": "Zatiaľ žiadne nahrávania.",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "open": "Otvoriť na novej karte"
+    },
+    "languageSelect": {
+      "title": "Vyberte svoju oblasť",
+      "subtitle": "Výber oblasti zmení jazyk a obsah.",
+      "close": "Zatvoriť"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Premeňte fotky na čisté a zdieľateľné odkazy.",
+        "line2": "Rýchlo, jednoducho, spoľahlivo."
+      },
+      "partners": "Partneri",
+      "linksTitle": "Zdroje",
+      "productsTitle": "Produkty",
+      "nav": {
+        "home": "Domov",
+        "blog": "Blog",
+        "pricing": "Ceny",
+        "docs": "Dokumentácia",
+        "status": "Stav",
+        "about": "O nás",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "title": "Právne",
+        "privacy": "Súkromie",
+        "terms": "Podmienky",
+        "cookie": "Zásady používania súborov cookie"
+      },
+      "copyright": "© 2025 Photo To URL. Všetky práva vyhradené.",
+      "products": {
+        "editStamp": "Editor pečiatok"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Zadarmo",
+      "cdn": "CDN odkazy",
+      "nosignup": "Bez registrácie"
+    },
+    "hero": {
+      "title1": "Zadarmo",
+      "title2": "Fotka na URL",
+      "subtitle": "Nahrajte fotku → získajte odkaz → prilepte ho kamkoľvek",
+      "upload": "Nahrať obrázok",
+      "bullet": {
+        "fast": "Rýchle zdieľanie",
+        "direct": "Priame odkazy na fotky",
+        "nosignup": "Nevyžaduje sa registrácia",
+        "paste": "Prilepiť zo schránky"
+      }
+    },
+    "loginPrompt": {
+      "title": "Prihlaste sa pre pokracovanie",
+      "description": "Dosiahli ste bezplatny limit nahravania. Prihlaste sa a odomknite vyssie limity a viac funkcii.",
+      "benefits": "Preco sa zaregistrovat?",
+      "benefit1": "Uplna historia nahravania - prehladna, presna a vzdy dostupna",
+      "benefit2": "Pristup ku vsetkym premium nastrojom na upravy",
+      "benefit3": "Cloudové úložisko s históriou nahrávania",
+      "login": "Prihlásiť sa / Registrovať sa",
+      "later": "Neskor"
+    },
+    "upgradePrompt": {
+      "title": "Denny limit dosiahnuty",
+      "description": "Pouzili ste vsetky nahravania na dnes. Vratte sa zajtra! Coskoro pribudnu dalsie premium sluzby.",
+      "comingSoon": "Sledujte dalsie sluzby",
+      "goDashboard": "Zobraziť",
+      "later": "Neskor"
+    },
+    "demo": {
+      "label": "Ukážka",
+      "loop": "Automatická ukážka",
+      "idleTitle": "Presuňte a pustite svoj obrázok",
+      "idleSubtitle": "Pozrite si proces: nahranie → odkaz → kopírovanie.",
+      "processing": "Optimalizácia a nahrávanie...",
+      "doneTitle": "Pripravené na zdieľanie",
+      "doneSubtitle": "Váš odkaz je pripravený na okamžité zdieľanie.",
+      "thanksForWatching": "Ďakujeme za pozornosť"
+    },
+    "upload": {
+      "title": "Presuňte fotku alebo kliknite pre výber",
+      "hint": "JPG, PNG, WEBP, GIF do 2MB (zadarmo 10 nahraní/deň). Presuňte, kliknite alebo prilepte snímky obrazovky.",
+      "orDrop": "alebo pustite súbor tu",
+      "samplesTitle": "Nemáte obrázok? Skúste jeden z týchto:",
+      "policy": "Nahraním obrázka súhlasíte s našimi <privacy>Zásadami ochrany súkromia</privacy> a <terms>Podmienkami používania</terms>.",
+      "clear": "Vymazať"
+    },
+    "result": {
+      "error": "Nahrávanie zlyhalo. Skúste to znova.",
+      "fileTooLarge": "Subor je prilis velky. Vas plan umoznuje az {maxMb} MB na subor.",
+      "dailyLimitReached": "Denný limit nahrávania ({limit} za deň) dosiahnutý. Skúste to znova zajtra.",
+      "storageLimitReached": "Úložisko je plné ({used} / {limit}). Viac možností úložiska čoskoro!",
+      "generated": "Vygenerovaný odkaz:",
+      "open": "Otvoriť na novej karte",
+      "placeholder": "Zatiaľ žiadny odkaz. Nahrajte fotku pre vygenerovanie URL.",
+      "savePrompt": "Uložte odkaz vo formáte, ktorý vám vyhovuje",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "saveHint": "Uložte si tento odkaz, ak ho budete potrebovať neskôr",
+      "saveHintLoggedIn": "Uložené na paneli",
+      "tryPrefix": "Skúste"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať Fotka na URL",
+      "subtitle": "Rýchlosť — Bezplatná skúšobná verzia: 10 nahraní/deň, 2MB na súbor",
+      "items": {
+        "fast": {
+          "title": "Rýchle zdieľanie",
+          "desc": "Nahrajte a získajte odkaz v priebehu sekúnd bez ďalších krokov."
+        },
+        "direct": {
+          "title": "Priame URL adresy",
+          "desc": "Čisté odkazy, ktoré fungujú v HTML, Markdown a četových aplikáciách."
+        },
+        "nosignup": {
+          "title": "Bez registrácie",
+          "desc": "Bezplatná skúšobná verzia: 5 nahraní/deň, 2MB na súbor — bez registrácie."
+        }
+      }
+    },
+    "how": {
+      "title": "Ako to funguje",
+      "step1": "1) Pridajte fotku (presunutím, prilepením alebo výberom súboru).",
+      "step2": "2) My ju uložíme a poskytneme vám zdieľateľný odkaz.",
+      "step3": "3) Skopírujte a zdieľajte odkaz v dokumentoch, četoch, prototypoch a iných miestach.",
+      "note": "Odkaz sa rýchlo otvára v dokumentoch a četoch — môžete si ho tiež stiahnuť ako .txt."
+    },
+    "process": {
+      "title": "Tok v troch krokoch",
+      "subtitle": "Znížte úsilie, udržujte CTA viditeľné, dokončite za sekundy.",
+      "steps": {
+        "1": {
+          "title": "Pustite alebo prilepte",
+          "desc": "Presuňte súbor, prilepte zo schránky alebo prehľadajte."
+        },
+        "2": {
+          "title": "Hostujeme a vrátime odkaz",
+          "desc": "Okamžitá URL s ovládacími prvkami kopírovania/otvorenia/uloženia."
+        },
+        "3": {
+          "title": "Použite kdekoľvek",
+          "desc": "Použite v dokumentoch, chatoch, tiketoch, blogoch alebo prototypoch."
+        }
+      }
+    },
+    "features": {
+      "title": "Hlavné funkcie",
+      "subtitle": "Jasnosť na prvom mieste: menej prekážok, viac zdieľania.",
+      "items": {
+        "cdn": {
+          "title": "Priame CDN odkazy",
+          "desc": "Čisté URL adresy pripravené pre Markdown a HTML vloženie."
+        },
+        "save": {
+          "title": "Kopírovať a Uložiť",
+          "desc": "Kopírujte, otvárajte alebo ukladajte ako súbor .txt jedným kliknutím."
+        },
+        "clipboard": {
+          "title": "Podpora schránky",
+          "desc": "Prilepujte snímky obrazovky priamo bez hľadania súborov."
+        },
+        "errors": {
+          "title": "Bezpečné a Súkromné",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Bez registrácie",
+          "desc": "Bezplatná skúšobná verzia: 5 nahraní/deň, 2MB na súbor — bez registrácie."
+        },
+        "r2": {
+          "title": "Rýchle hostovanie",
+          "desc": "Odkazy sa poskytujú cez rýchlu CDN pre rýchle načítanie a spoľahlivý prístup."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Tímy šetria čas s Fotka na URL",
+      "subtitle": "Sociálny dôkaz na zníženie rizika a urýchlenie adopcie.",
+      "items": {
+        "ops": {
+          "name": "Produktové operácie",
+          "quote": "Vkladáme snímky obrazovky do tiketov bez ucpávania príloh. Odkazy zostávajú čisté."
+        },
+        "content": {
+          "name": "Vedenie obsahu",
+          "quote": "Odkazy pripravené pre Markdown udržiavajú naše dokumenty usporiadané a publikovateľné za minúty."
+        },
+        "support": {
+          "name": "Podpora",
+          "quote": "Jasné chyby a okamžité URL uľahčujú vedenie zákazníkov v chate."
+        }
+      }
+    },
+    "cta": {
+      "title": "Premeňte fotky na odkazy za sekundy",
+      "subtitle": "Presuňte, prilepte alebo nahrajte — skopírujte odkaz a zdieľajte všade.",
+      "upload": "Nahrať teraz",
+      "paste": "Prilepiť snímku obrazovky"
+    },
+    "longform": {
+      "title": "Prečo Fotka na URL pomáha vášmu pracovnému postupu",
+      "p1": "Fotka na URL je vytvorené pre tvorcov, marketing, podporu, operácie a každého, kto potrebuje previesť fotky na čisté, spoľahlivé odkazy. S priamym tokom nahrávania→odkaz sa vyhnete ťažkým správcom médií a nepotrebujete prihlásenie. Odkazy sú usporiadané a ľahko sa vkladajú do chatov, dokumentov, wiki, hlásení o chybách a tiketov. Tímy sa pohybujú rýchlejšie zdieľaním snímok obrazovky okamžite· navyše predvídateľné URL pomáhajú pri automatizácii, QA a ľahkých prototypoch.",
+      "p2": "Skúsenosť zostáva jednoduchá: pustite, vložte alebo vyberte súbor· získajte odkaz· zdieľajte ho. Bez hluku, bez rušivých reklám, bez bariér. Vy sa sústredíte na obsah, my spravujeme hosting. Pre globálne tímy je rozhranie dostupné v niekoľkých jazykoch pri zachovaní textu jasného a univerzálneho.",
+      "useCases": {
+        "title": "Praktické prípady použitia",
+        "items": {
+          "1": "Produkt a dizajn: zdieľajte snímky obrazovky UI a rýchle poznámky bez ťažkých nástrojov.",
+          "2": "Podpora a QA: pripojte reprodukovateľné snímky obrazovky v tiketoch a chatoch s čistými odkazmi.",
+          "3": "Dokumenty a blogy: vložte obrázky do editorov Markdown/HTML/CMS s predvídateľnými URL.",
+          "4": "Predaj a CS: zdieľajte snímky obrazovky POC alebo prehliadky cez e-mail alebo správanie.",
+          "5": "Inžiniersky handoff: zdieľajte dôkazy a porovnania regresie ľahkým spôsobom.",
+          "6": "Komunita a sociálne: vložte odkazy do Discord/Slack/Teams/X/fóra bez ťažkých náhľadov."
+        }
+      },
+      "flow": {
+        "title": "Ako funguje tok od začiatku do konca",
+        "p1": "1) Vyberte obrázok: presuňte, vložte zo schránky alebo kliknite pre prehľadávanie. PNG, JPG, WEBP, GIF do 2MB v bezplatnom pláne (10 nahraní/deň). 2) Nahrajeme a vrátime priamy odkaz s akciami kopírovania/otvorenia/uloženia (.txt). 3) Použite odkaz v blogoch, dokumentoch, tiketoch, chate, prototypoch a na ďalších miestach.",
+        "p2": "Každý krok je vyladený pre jasnosť: viditeľný stav, priateľské chyby a tlačidlá, ktoré potvrdzujú akcie. Keď je CDN povolené, odkazy sa poskytujú z domény CDN; vaše obrázky sú bezpečne uložené na our hosting infrastructure."
+      },
+      "best": {
+        "title": "Najlepšie postupy pre čistejšie odkazy",
+        "items": {
+          "1": "Udržujte názvy súborov zmysluplné pred nahrávaním· zostávajú súčasťou URL a pomáhajú budúcemu vyhľadávaniu.",
+          "2": "Použite WEBP alebo optimalizované JPG/PNG pre ľahšie zaťaženie, ak očakávate veľké zdieľanie.",
+          "3": "Skopírujte odkaz priamo po vytvorení, aby ste sa vyhli zastaraným položkám schránky.",
+          "6": "Uložte ako .txt pre odkazy v obyčajnom texte, ktoré sú pripravené na kopírovanie a použitie."
+        }
+      },
+      "roadmap": {
+        "title": "Významné body roadmapy",
+        "p1": "Hlboko integrujeme our hosting infrastructure, poskytujeme používateľsky prívetivejšie kvóty a možnosti správy, spolu s voliteľnou tímovou spoluprácou, riadením prístupu a analýzami na odkaz. Plánujeme spustiť funkcie ako mazanie jedným kliknutím, prednastavené štýly odkazov a úložiská na úrovni organizácie. Medzitým neustále zlepšujeme a zdokonaľujeme vedľajšie produkty: nástroj na kruhové orezanie, nástroj na zaoblené rohy a nástroj na odstránenie pozadia, aby bolo spracovanie obrázkov pohodlnejšie."
+      },
+      "faq": {
+        "title": "Často kladené otázky",
+        "items": {
+          "1": {
+            "q": "Je to zadarmo?",
+            "a": "Áno — máme bezplatnú verziu. Jadro nahrávanie→odkaz je zadarmo v rámci bezplatných limitov (denné nahrávania, celkové úložisko, veľkosť súboru). Ak chcete limity uvoľniť, zvoľte platený plán: odkazy hostujeme cez CDN s vyššími kvótami a väčším maximálnym limitom veľkosti súboru."
+          },
+          "2": {
+            "q": "Aké formáty sú podporované?",
+            "a": "Momentálne podporujeme PNG, JPG, WEBP a GIF v rámci aktuálnych limitov veľkosti súboru. Ďalšie formáty môžeme pridať podľa potreby."
+          },
+          "3": {
+            "q": "Môžem vložiť do Markdown alebo HTML?",
+            "a": "Áno. Skopírujte odkaz priamo alebo ho uložte jedným kliknutím ako .txt a použite ho tam, kde potrebujete — Markdown, HTML, dokumenty alebo CMS."
+          },
+          "4": {
+            "q": "Uchovávate moje súbory verejne?",
+            "a": "Odkazy sú zdieľateľné. Keď je povolené CDN, súbory sa doručujú cez doménu CDN. Ak je úložisko dočasne nedostupné, zobrazíme jasnú správu o údržbe."
+          },
+          "5": {
+            "q": "Budú účty alebo tímy?",
+            "a": "Áno. Najprv sa sústredíme na jednoduché a spoľahlivé nahrávanie a zdieľanie; postupne pridáme tímové priestory, riadenie prístupu a analýzu používania."
+          },
+          "6": {
+            "q": "Môžem po zaplatení dostať vrátenie peňazí?",
+            "a": "Vo všeobecnosti neponúkame vrátenie peňazí, ak služba zostáva dostupná na bežné používanie. Ak ju počas plateného obdobia nemôžete používať z dôvodu problému na našej strane, posúdime váš prípad po overení a podľa potreby s vami dohodneme ďalší postup."
+          },
+          "7": {
+            "q": "Ako zruším automatické obnovenie?",
+            "a": "Obnovenie sa účtuje automaticky na kartu, ktorú ste autorizovali. Ak chcete zastaviť ďalšie platby, zrušte inkaso alebo opakovanú fakturáciu u vydavateľa karty (aplikácia, internet banking alebo zákaznícka linka)."
+          },
+          "8": {
+            "q": "Ako dlho môžem službu používať po zrušení?",
+            "a": "Zvyčajne môžete pokračovať do konca už zaplateného obdobia. Potom sa už nebudú účtovať ďalšie poplatky a výhody skončia s týmto obdobím."
+          }
+        },
+        "contactNote": "Pri vyššie uvedených a ďalších otázkach použite stránku «Kontaktujte nás» na tomto webe alebo napíšte na <email>support@phototourl.com</email>. Snažíme sa odpovedať do 1–2 pracovných dní."
+      },
+      "about": {
+        "title": "O Photo To URL",
+        "p1": "PhotoToURL je bezplatný prevodník obrázkov na URL a generátor odkazov, ktorý vám pomôže nahrať obrázky a okamžite vytvoriť zdieľateľné odkazy. Jednoducho preveďte JPG, PNG, WEBP a ďalšie formáty na priame URL obrázkov pre rýchle online zdieľanie.",
+        "p2": "Či už potrebujete rýchle photo to URL alebo bezplatný hosting s CDN odkazmi, PhotoToURL je to jednoduché a spoľahlivé. Nahrajte obrázok a počas niekoľkých sekúnd získajte priamy odkaz. Bezplatný plán: 10 nahraní/deň, 2MB na súbor — vyššie limity pozri Cenník."
+      }
+    },
+    "selectRegion": {
+      "title": "Vyberte oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
+    }
+  },
+  "seo": {
+    "keywords": "fotka na url,obrázok na url,generátor odkazov obrázkov,konvertovať obrázok na odkaz,bezplatné hostovanie obrázkov,cdn obrázok",
+    "home": {
+      "title": "Fotka na URL Konvertor | Premeňte fotky na zdieľateľné odkazy",
+      "description": "Bezplatné hostovanie obrázkov: okamžite preveďte fotky na zdieľateľné URL. JPG, PNG, WEBP, GIF do 2MB, 10 nahraní/deň v bezplatnom pláne. Schránka, rýchle CDN."
+    }
+  },
+  "images": {
+    "previewAlt": "Náhľad nahraného obrázka",
+    "animatingSampleAlt": "Ukážkový obrázok použitý v demo nahrávaní",
+    "sampleThumbAlt": "Ukážkový obrázok na nahranie",
+    "useSampleAria": "Použite tento ukážkový obrázok",
+    "howIllustrationAlt": "Ilustrácia zobrazujúca, ako Fotka na URL funguje",
+    "heroDropTitle": "Presuňte fotografiu sem",
+    "heroDropSubtitle": "Vylepšíme ju a hostíme, potom vrátime čistý odkaz.",
+    "heroDropBadge": "Presuňte alebo kliknite (JPG/PNG, do 2MB)",
+    "logoAlt": "Fotka na URL logo"
+  },
+  "circleCrop": {
+    "title": "Okrúhly výrez",
+    "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a sociálne siete.",
+    "upload": "Nahrať fotku",
+    "processing": "Spracováva sa...",
+    "download": "Stiahnuť kruhovú fotku",
+    "errorSelectFile": "Vyberte súbor obrázka.",
+    "errorUploadFirst": "Najprv nahrajte foto.",
+    "page": {
+      "title": "Kruhový výrez fotky - Bezplatný online nástroj",
+      "description": "Premeňte obdĺžnikové fotky na dokonalé kruhy okamžite a bez registrácie.",
+      "sectionSubtitle": "Orežte akukolvek fotku do dokonaleho kruhu - idealne pre profilove fotky, socialne avatary a dizajnove projekty."
+    },
+    "seo": {
+      "title": "Nástroj na Kruhové Orezanie | Bezplatný Online Orezávač Okrúhlych Fotiek",
+      "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a design projekty.",
+      "keywords": "kruhové orezanie obrázka, orezanie kruhového obrázka, nástroj kruhové orezanie, kruhové orezanie online"
+    },
+    "selectRegion": {
+      "title": "Vyberte oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
+    }
+  },
+  "roundedCorners": {
+    "title": "Foto so zaoblenými rohmi",
+    "description": "Bezplatný online nástroj na zaoblené rohy – jednoducho pridajte zaoblené rohy k ľubovoľnej fotografii, ideálne pre ikony aplikácií, profilové fotky a dizajnové projekty.",
+    "upload": "Nahrať foto",
+    "download": "Stiahnuť",
+    "radiusLabel": "Polomer (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Spracovávam...",
+    "errorUploadFirst": "Najprv nahrajte foto.",
+    "errorSelectFile": "Vyberte súbor obrázka.",
+    "page": {
+      "title": "Foto so zaoblenými rohmi – Bezplatný online nástroj",
+      "description": "Foto so zaoblenými rohmi je bezplatný online nástroj na pridanie zaoblených rohov k ľubovoľnej fotografii. Vytvárajte ikony v štýle aplikácií, obrázky s jemnými okrajmi pre sociálne médiá alebo miniatúry s nastaviteľným polomerom a zoomom. Bez registrácie – nahrajte, upravte, stiahnite.",
+      "sectionSubtitle": "Pridajte zaoblene rohy k akejkolvek fotke - perfektne pre ikony aplikacii, socialne siete a nahlady."
+    },
+    "seo": {
+      "title": "Nástroj Zaoblených Rohov | Bezplatný online nástroj",
+      "description": "Bezplatný nástroj na pridanie zaoblených rohov k fotografii – pre ikony aplikácií, profilové fotky a dizajnové projekty.",
+      "keywords": "zaoblené rohy, obrázok zaoblené rohy, nástroj zaoblené rohy, zaoblené rohy online"
+    },
+    "selectRegion": {
+      "title": "Vybrať oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Odstrániť Pozadie",
+    "description": "Bezplatný online nástroj na odstránenie pozadia s AI, ľahko odstráňte pozadie z akejkoľvek fotografie - perfektné pre fotografie produktov, portréty a dizajnové projekty.",
+    "upload": "Nahrať Fotografiu",
+    "download": "Stiahnuť",
+    "processing": "Spracováva sa...",
+    "processingModelLoading": "Načítava sa AI model, prvé použitie môže trvať 10-30 sekúnd, prosím počkajte...",
+    "processingImage": "Spracováva sa obrázok, prosím počkajte...",
+    "errorUploadFirst": "Prosím najprv nahrajte fotografiu.",
+    "errorSelectFile": "Prosím vyberte súbor obrázka.",
+    "errorProcessing": "Spracovanie obrázka zlyhalo. Prosím skúste znova.",
+    "errorTimeout": "Vypršanie časového limitu spracovania, obrázok môže byť príliš veľký alebo sieť je pomalá, prosím skúste menší obrázok alebo skúste znova neskôr.",
+    "errorMemory": "Nedostatok pamäte, prosím skúste menší obrázok.",
+    "errorGeneric": "Spracovanie zlyhalo: {error}. Prosím skúste znova alebo skúste iný obrázok.",
+    "errorFileTooLarge": "Súbor obrázka je príliš veľký, prosím vyberte obrázok menší ako 10MB.",
+    "errorModelLoad": "Nepodarilo sa načítať knižnicu modelu AI, prosím obnovte stránku a skúste to znova.",
+    "errorPageHidden": "Stránka bola zmenená, prosím nahrajte obrázok znova na spracovanie.",
+    "page": {
+      "title": "Foto Odstrániť Pozadie - Bezplatný Online Nástroj na Odstránenie Pozadia s AI",
+      "description": "Foto Odstrániť Pozadie je bezplatný online nástroj poháňaný AI na odstránenie pozadí z akejkoľvek fotografie. Vytvárajte priehľadné PNG obrázky okamžite s našou pokročilou technológiou odstránenia pozadia. Perfektné pre fotografie produktov, portréty, elektronický obchod a dizajnové projekty. Registrácia nie je vyžadovaná - nahrajte, spracujte a stiahnite za sekundy.",
+      "sectionSubtitle": "Odstranenie pozadia pomocou AI - vytvorte priehladne PNG z akejkolvek fotky za sekundy."
+    },
+    "seo": {
+      "title": "Nástroj na Odstránenie Pozadia | Bezplatný Online Nástroj na Odstránenie Pozadia s AI",
+      "description": "Bezplatný online nástroj s AI na odstránenie pozadia z akejkoľvek fotografie - perfektné pre fotografie produktov, portréty a dizajnové projekty.",
+      "keywords": "odstrániť pozadie, nástroj na odstránenie pozadia, priehľadné pozadie, odstránenie pozadia s ai"
+    },
+    "selectRegion": {
+      "title": "Vybrať Región",
+      "subtitle": "Vyberte svoj preferovaný jazyk a región"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF na URL | Hosting PDF a zdieľateľné HTTPS odkazy",
+      "description": "Nahrajte PDF do svojho účtu a získajte stabilný HTTPS odkaz — zobrazujte, sťahujte alebo kopírujte odkaz kedykoľvek na nástenke účtu.",
+      "keywords": "pdf na url,hosting pdf,zdieľať pdf,nahrať pdf,priamy odkaz,odkaz na dokument"
+    },
+    "tool": {
+      "heroTitle": "PDF na URL",
+      "heroSubtitle": "Premeníte PDF na zdieľateľné HTTPS odkazy pod vaším účtom. Po každom nahratí otvorte nástenku účtu na skopírovanie odkazu, náhľad alebo stiahnutie.",
+      "featureFastTitle": "Rýchle nahratie",
+      "featureFastDesc": "Presuňte PDF alebo vyberte súbor — do niekoľkých sekúnd získate odkaz cez našu CDN.",
+      "featureHostingTitle": "Osobný hosting",
+      "featureHostingDesc": "Každý súbor je uložený vo vašom cloude a knižnici dokumentov — nie anonymný jednorazový odkaz.",
+      "featureLinkTitle": "Stabilné zdieľateľné odkazy",
+      "featureLinkDesc": "Každé nahratie vráti čistú URL na vloženie kamkoľvek. Odkaz funguje, kým súbor na nástenke účtu neodstránite.",
+      "featureDashboardTitle": "Všetko na jednom mieste",
+      "featureDashboardDesc": "Po prihlásení otvorte nástenku účtu a uvidíte všetky PDF: znova skopírovať odkaz, otvoriť na novej karte alebo stiahnuť originál.",
+      "dropzoneTitle": "Presuňte PDF sem",
+      "dropzoneHint": "Iba PDF",
+      "dropzoneFootnote": "Po nahratí sa môžete kedykoľvek vrátiť na nástenku účtu na skopírovanie odkazu alebo stiahnutie súboru.",
+      "browse": "Vybrať súbor",
+      "selectedFileLabel": "Vybraný súbor",
+      "removeSelectedFile": "Odstrániť súbor",
+      "uploadBtn": "Nahrať a získať odkaz",
+      "uploading": "Nahráva sa…",
+      "loginRequiredTitle": "Prihláste sa na nahrávanie PDF",
+      "loginRequiredDescription": "Najprv sa prihláste. Hosting je viazaný na účet; po nahratí môžete kopírovať odkazy, sťahovať a spravovať všetko na nástenke účtu.",
+      "loginRequiredDetail": "Po prihlásení sa každé nahratie zobrazí na tom istom mieste nástenky: kopírovanie priameho odkazu jedným kliknutím, otvorenie na novej karte, sťahovanie originálov, vyhľadávanie a filtrovanie podľa typu, odstránenie alebo opätovné nahratie — pomáha chrániť súkromie dokumentov.",
+      "loginCta": "Prihlásiť sa",
+      "signUpCta": "Vytvoriť účet",
+      "resultTitle": "Váš odkaz na PDF",
+      "resultDashboardHint": "Pre tento súbor kedykoľvek otvorte nástenku účtu: skopírujte URL, otvorte na novej karte alebo stiahnite PDF.",
+      "dashboardCta": "Otvoriť nástenku",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "open": "Otvoriť na novej karte",
+      "reset": "Nahrať iný",
+      "errorUnauthorized": "Pred nahratím PDF sa prihláste.",
+      "errorBadType": "Vyberte súbor PDF.",
+      "howTitle": "Ako to funguje",
+      "step1Title": "1. Vyberte PDF",
+      "step1Desc": "Vyberte súbor zo zariadenia alebo ho presuňte do oblasti nahrávania.",
+      "step2Title": "2. Nahrajte do knižnice",
+      "step2Desc": "PDF uložíme do vášho cloudu a zobrazíme na nástenke účtu, potom vrátime priamy HTTPS URL.",
+      "step3Title": "3. Zdieľajte a vráťte sa neskôr",
+      "step3Desc": "Zdieľajte odkaz e-mailom alebo v chate. Otvorte nástenku účtu na opätovné skopírovanie, otvorenie alebo stiahnutie súboru."
+    },
+    "page": {
+      "sectionTitle": "Vaše dokumenty na jednom mieste",
+      "sectionLead": "Pre tých, ktorí chcú skutočný hosting PDF s knižnicou — nahrajte raz, uložte na účte a vráťte sa kedykoľvek.",
+      "bullet1": "Každé nahraté PDF sa zobrazí v tom istom zozname nástenky, aby ste videli, čo ste zdieľali.",
+      "bullet2": "Osobný hosting: súbory pod vaším účtom, cez HTTPS, uložené v knižnici.",
+      "bullet3": "Akcie vždy po ruke: kopírovanie verejného odkazu, otvorenie v prehliadači alebo stiahnutie pôvodného PDF.",
+      "bullet4": "Rovnaká URL funguje, kým súbor existuje; po odstránení na nástenke odkaz tento súbor už neposkytuje.",
+      "footnote": "Odstráňte na nástenke účtu súbory, ktoré nepotrebujete; odkaz prestane fungovať."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Súbor na URL | Dokumenty Office a HTTPS odkazy",
+      "description": "Nahrajte PDF, Word, PowerPoint alebo Excel do účtu a získajte stabilný HTTPS odkaz — zobrazujte, sťahujte alebo kopírujte odkaz kedykoľvek na nástenke účtu.",
+      "keywords": "súbor na url,odkaz na dokument,zdielat office,nahrat docx pptx xlsx,hosting dokumentov"
+    },
+    "tool": {
+      "heroTitle": "Súbor na URL",
+      "heroSubtitle": "Premeníte kancelárske dokumenty na zdieľateľné HTTPS odkazy pod vaším účtom. Podporované formáty: PDF, Word, PowerPoint a Excel.",
+      "featureFastTitle": "Rýchle nahratie",
+      "featureFastDesc": "Presuňte podporovaný súbor alebo ho vyberte — do niekoľkých sekúnd získate odkaz cez CDN.",
+      "featureHostingTitle": "Osobný hosting",
+      "featureHostingDesc": "Každé nahratie sa uloží do vášho cloudu a do tej istej osobnej knižnice ako nahratia z iných stránok.",
+      "featureLinkTitle": "Stabilné zdieľateľné odkazy",
+      "featureLinkDesc": "Každé nahratie vráti čistú URL. Odkaz funguje, kým súbor na nástenke účtu neodstránite.",
+      "featureDashboardTitle": "Všetko na jednom mieste",
+      "featureDashboardDesc": "Po prihlásení otvorte nástenku účtu na opätovné skopírovanie odkazu, otvorenie na novej karte alebo stiahnutie.",
+      "dropzoneTitle": "Presuňte súbor sem",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Po nahratí sa môžete kedykoľvek vrátiť na nástenku účtu na skopírovanie odkazu alebo stiahnutie súboru.",
+      "browse": "Vybrať súbor",
+      "selectedFileLabel": "Vybraný súbor",
+      "removeSelectedFile": "Odstrániť súbor",
+      "uploadBtn": "Nahrať a získať odkaz",
+      "uploading": "Nahráva sa…",
+      "loginRequiredTitle": "Prihláste sa na nahrávanie súborov",
+      "loginRequiredDescription": "Najprv sa prihláste. Hosting je viazaný na účet; po nahratí môžete kopírovať odkazy, sťahovať a spravovať všetko na nástenke účtu.",
+      "loginRequiredDetail": "Po prihlásení sa každé nahratie zobrazí na tom istom mieste nástenky: kopírovanie priameho odkazu jedným kliknutím, otvorenie na novej karte, sťahovanie originálov, vyhľadávanie a filtrovanie podľa typu, odstránenie alebo opätovné nahratie — pomáha chrániť súkromie dokumentov.",
+      "loginCta": "Prihlásiť sa",
+      "signUpCta": "Vytvoriť účet",
+      "resultTitle": "Váš odkaz na súbor",
+      "resultDashboardHint": "Pre tento súbor kedykoľvek otvorte nástenku účtu: skopírujte URL, otvorte na novej karte alebo stiahnite originál.",
+      "dashboardCta": "Otvoriť nástenku",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "open": "Otvoriť na novej karte",
+      "reset": "Nahrať iný",
+      "errorUnauthorized": "Pred nahratím súborov sa prihláste.",
+      "errorBadType": "Vyberte súbor PDF, Word, PowerPoint alebo Excel.",
+      "howTitle": "Ako to funguje",
+      "step1Title": "1. Vyberte súbor",
+      "step1Desc": "Vyberte podporovaný dokument zo zariadenia alebo ho presuňte do oblasti nahrávania.",
+      "step2Title": "2. Nahrajte do knižnice",
+      "step2Desc": "Súbor uložíme do vášho cloudu a zobrazíme na nástenke účtu, potom vrátime priamy HTTPS URL.",
+      "step3Title": "3. Zdieľajte a vráťte sa neskôr",
+      "step3Desc": "Zdieľajte odkaz e-mailom alebo v chate. Otvorte nástenku účtu na opätovné skopírovanie, otvorenie alebo stiahnutie súboru."
+    },
+    "page": {
+      "sectionTitle": "Stručne",
+      "sectionLead": "Vyberte súbor, nahrajte ho a skopírujte odkaz; otvorte nástenku účtu na opätovné skopírovanie alebo stiahnutie originálu.",
+      "bullet1": "Podporované formáty: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Presuňte alebo prehľadávajte súbor; po dokončení nahrávania zobrazíme HTTPS odkaz pripravený na kopírovanie.",
+      "bullet3": "Vložte odkaz do e-mailu, chatu alebo dokumentov — príjemcovia otvoria v prehliadači.",
+      "bullet4": "Súbory zostávajú na účte; otvorte nástenku na skopírovanie toho istého odkazu alebo stiahnutie originálu.",
+      "bullet5": "Len PDF? Použite aj stránku «PDF na URL» na kratší postup.",
+      "footnote": "Keď súbor nepotrebujete, odstráňte ho na nástenke účtu; odkaz prestane fungovať."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Fotka na URL",
+      "description": "Články o hostovaní fotografií, zdieľaní odkazov a tipoch na výkon."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Najnovšie články, návody a poznatky o hostovaní obrázkov, CDN, zdieľaní odkazov, kruhovom orezaní, zaoblených rohoch a odstránení pozadia.",
+      "stayTuned": "Sledujte návody o:",
+      "guides": {
+        "1": "Najlepšie postupy pre konverziu obrázka na URL",
+        "2": "Ako používať priame odkazy na fotografie v blogoch a dokumentoch",
+        "3": "Výkon a cache pre statické zdroje"
+      },
+      "readMore": "Čítať viac",
+      "min": "min",
+      "backToBlog": "Späť na blog",
+      "minRead": "min čítania",
+      "author": "Autor",
+      "viewMoreArticles": "Zobraziť viac článkov",
+      "tags": "Štítky:",
+      "about": {
+        "title": "O tíme Fotka na URL",
+        "subtitle": "Redakčný tím",
+        "description": "Vytvárame a udržiavame Fotka na URL a píšeme praktické sprievodcovia pre optimalizáciu obrázkov a výkon webu.",
+        "website": "Webová stránka",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Zobraziť všetky príspevky"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Ako previesť obrázok na URL: Kompletný sprievodca",
+        "description": "Naučte sa všetko, čo potrebujete vedieť o prevode obrázkov na zdieľateľné URL adresy. Tento komplexný sprievodca pokrýva metódy, osvedčené postupy a tipy pre hostovanie obrázkov a zdieľanie odkazov.",
+        "content": "# Ako previesť obrázok na URL: Kompletný sprievodca\n\nPrevádzanie obrázkov na zdieľateľné URL adresy sa stalo nevyhnutnou zručnosťou v dnešnom digitálnom svete. Či už ste bloger, vývojár alebo tvorca obsahu, pochopenie toho, ako transformovať svoje obrázky na priame odkazy, môže výrazne zlepšiť váš pracovný postup a schopnosti zdieľania obsahu.\n\n## Prečo previesť obrázky na URL?\n\nPredtým, ako sa ponoríme do metód, pochopme, prečo je prevod obrázkov na URL užitočný:\n\n### 1. **Jednoduché zdieľanie**\nPriame URL adresy obrázkov vám umožňujú zdieľať obrázky okamžite bez sťahovania alebo opätovného nahrávania súborov. Stačí skopírovať URL a vložiť ho kamkoľvek - do e-mailov, dokumentov alebo príspevkov na sociálnych sieťach.\n\n### 2. **Lepší výkon**\nPoužívanie priamych odkazov na obrázky znižuje záťaž vášho hlavného servera. Keď sú obrázky hostované na CDN (Content Delivery Network), načítavajú sa rýchlejšie pre používateľov po celom svete.\n\n### 3. **Flexibilita**\nURL adresy obrázkov možno vložiť do HTML, Markdown alebo použiť v API. Táto flexibilita ich robí perfektnými pre vývojárov aj tvorcov obsahu.\n\n### 4. **Efektívnosť úložiska**\nNamiesto lokálneho ukladania obrázkov môžete použiť riešenia cloudového úložiska, ktoré poskytujú priame URL adresy, čím ušetríte cenný priestor na serveri.\n\n## Metódy prevodu obrázkov na URL\n\n### Metóda 1: Použitie služby Fotka na URL\n\n**Fotka na URL** je bezplatná, používateľsky prívetivá služba, ktorá robí prevod obrázka na URL jednoduchým:\n\n1. **Navštívte webovú stránku**: Prejdite na Fotka na URL\n2. **Nahrajte svoj obrázok**: Presuňte súbor obrázka alebo kliknite na prehľadávanie\n3. **Získajte svoje URL**: Po nahratí dostanete priamy odkaz na svoj obrázok\n4. **Skopírujte a použite**: Skopírujte URL a použite ho kdekoľvek potrebujete\n\n**Výhody:**\n- ✅ Registrácia nie je potrebná\n- ✅ Rýchle nahrávanie a spracovanie\n- ✅ Priame CDN odkazy pre optimálny výkon\n- ✅ Podpora viacerých formátov obrázkov (JPG, PNG, WEBP, GIF)\n- ✅ 10 nahraní/deň, 2MB na súbor\n\n### Metóda 2: Služby cloudového úložiska\n\nPopulárne služby cloudového úložiska ponúkajú hostovanie obrázkov s priamym prístupom k URL:\n\n**Google Cloud Storage / AWS S3:**\n- Nahrajte obrázky do svojho bucketu\n- Nastavte vhodné oprávnenia\n- Prístup k obrázkom prostredníctvom priamych URL adries\n- Nakonfigurujte CDN pre lepší výkon\n\n**Výhody:**\n- Úplná kontrola nad vašimi obrázkami\n- Škálovateľné riešenia úložiska\n- Infraštruktúra profesionálnej úrovne\n\n### Metóda 3: Platformy pre hostovanie obrázkov\n\nVyhradené platformy pre hostovanie obrázkov poskytujú špecializované služby:\n\n- **Imgur**: Populárny pre rýchle zdieľanie obrázkov\n- **Cloudinary**: Pokročilé funkcie pre manipuláciu s obrázkami\n- **ImageKit**: Optimalizované pre výkon\n\n## Najlepšie postupy pre URL adresy obrázkov\n\n### 1. **Vyberte správny formát**\n\nRôzne formáty obrázkov slúžia rôznym účelom:\n\n- **JPEG**: Najlepší pre fotografie s mnohými farbami\n- **PNG**: Ideálny pre obrázky s priehľadnosťou alebo ostrými okrajmi\n- **WEBP**: Moderný formát ponúkajúci lepšiu kompresiu\n- **GIF**: Perfektný pre animované obrázky\n\n### 2. **Optimalizujte veľkosť obrázka**\n\nPred prevodom na URL optimalizujte svoje obrázky:\n\n- Komprimujte obrázky na zníženie veľkosti súboru\n- Zmeňte veľkosť obrázkov na vhodné rozmery\n- Používajte moderné formáty ako WEBP, keď je to možné\n- Vyvážte kvalitu a veľkosť súboru\n\n### 3. **Použite CDN pre lepší výkon**\n\nSiete pre doručovanie obsahu (CDN) distribuujú vaše obrázky na viacero serverov po celom svete, čím zabezpečujú rýchle časy načítania bez ohľadu na polohu používateľa.\n\n### 4. **Implementujte správnu bezpečnosť**\n\n- Používajte HTTPS URL adresy pre bezpečné doručovanie obrázkov\n- Nastavte vhodné oprávnenia prístupu\n- Zvážte vodoznak pre citlivý obsah\n- Sledujte použitie, aby ste zabránili zneužívaniu\n\n## Bežné prípady použitia\n\n### Pre blogerov\n\nBlogeri môžu používať URL adresy obrázkov na:\n- Vloženie obrázkov do blogových príspevkov bez ich lokálneho hostovania\n- Zlepšenie časov načítania stránok\n- Zdieľanie obrázkov na viacerých platformách\n- Udržanie konzistentnej kvality obrázkov\n\n### Pre vývojárov\n\nVývojári majú prospech z URL adries obrázkov:\n- Znížením záťaže servera\n- Zjednodušením správy obrázkov\n- Umožnením dynamického načítavania obrázkov\n- Integráciou s API a webovými službami\n\n### Pre elektronický obchod\n\nWeby elektronického obchodu používajú URL adresy obrázkov na:\n- Efektívne zobrazenie obrázkov produktov\n- Správu veľkých katalógov obrázkov\n- Optimalizáciu pre mobilné zariadenia\n- Zlepšenie výkonu stránky pokladne\n\n## Riešenie bežných problémov\n\n### Problém: Pokazené odkazy na obrázky\n\n**Riešenie:**\n- Overte, že URL je správne a dostupné\n- Skontrolujte oprávnenia a nastavenia prístupu k obrázkom\n- Uistite sa, že hostingová služba funguje\n- Overte, že formát obrázka je podporovaný\n\n### Problém: Pomalé časy načítania\n\n**Riešenie:**\n- Použite CDN pre doručovanie obrázkov\n- Optimalizujte veľkosti súborov obrázkov\n- Vyberte vhodné formáty obrázkov\n- Implementujte lenivé načítanie, kde je to možné\n\n### Problém: Obrázok sa nezobrazuje\n\n**Riešenie:**\n- Skontrolujte nastavenia CORS (Cross-Origin Resource Sharing)\n- Overte, že protokoly HTTPS/HTTP sa zhodujú\n- Uistite sa, že sú nastavené správne typy MIME\n- Otestujte dostupnosť URL z rôznych miest\n\n## Pokročilé tipy\n\n### 1. **Hromadné spracovanie**\n\nPre viacero obrázkov zvážte:\n- Použitie API pre automatizované nahrávania\n- Implementáciu skriptov pre hromadnú konverziu\n- Využitie API cloudového úložiska\n- Nastavenie automatizovaných pracovných postupov\n\n### 2. **Manipulácia s obrázkami**\n\nNiektoré služby ponúkajú manipuláciu s obrázkami za behu:\n- Zmena veľkosti obrázkov prostredníctvom URL parametrov\n- Aplikácia filtrov a efektov\n- Automatická konverzia formátov\n- Orezávanie a otáčanie obrázkov\n\n### 3. **Analytika a monitorovanie**\n\nSledujte používanie svojich obrázkov:\n- Monitorujte spotrebu šírky pásma\n- Analyzujte populárne obrázky\n- Sledujte vzory prístupu\n- Optimalizujte na základe údajov o používaní\n\n## Záver\n\nPrevádzanie obrázkov na URL adresy je jednoduchý proces, ktorý ponúka mnohé výhody. Či už zvolíte jednoduchú službu ako Fotka na URL alebo komplexné riešenie cloudového úložiska, kľúčom je nájsť metódu, ktorá najlepšie vyhovuje vašim potrebám.\n\nPamätajte:\n- ✅ Optimalizujte obrázky pred nahrávaním\n- ✅ Vyberte vhodné formáty\n- ✅ Použite CDN pre lepší výkon\n- ✅ Implementujte správne bezpečnostné opatrenia\n- ✅ Pravidelne monitorujte a optimalizujte\n\nDodržiavaním týchto pokynov budete môcť efektívne prevádzať a spravovať svoje obrázky ako URL adresy, čím zlepšíte aj svoj pracovný postup aj výkon svojho obsahu.\n\n## Súvisiace nástroje\n\n- [Fotka na URL](/) - Bezplatná služba pre prevod obrázka na URL\n- [Nástroj na kruhové orezanie](/circle-crop) - Vytvárajte kruhové obrázky\n- [Nástroj na zaoblené rohy](/rounded-corners) - Pridajte zaoblené rohy k obrázkom\n- [Nástroj na odstránenie pozadia](/remove-background) - Odstráňte pozadia obrázkov pomocou AI\n\n---\n\n*Posledná aktualizácia: December 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Ako orezávať obrázky do kruhového tvaru - Kompletný sprievodca",
+        "description": "Transformujte akúkoľvek fotografiu na perfektný kruhový obrázok pomocou nášho bezplatného online nástroja na kruhové orezávanie. Vytvorte profesionálne okrúhle obrázky pre profily, sociálne médiá, logá a ďalšie za pár sekúnd.",
+        "content": "# Ako orezávať obrázky do kruhového tvaru - Kompletný sprievodca\n\nTransformujte akúkoľvek fotografiu na perfektný kruhový obrázok pomocou nášho bezplatného online nástroja na kruhové orezávanie. Vytvorte profesionálne okrúhle obrázky pre profily, sociálne médiá, logá a ďalšie za pár sekúnd.\n\n## Ako orezávať obrázky do kruhového tvaru\n\n### Krok 1: Nahrajte svoj obrázok\nVyberte akúkoľvek fotografiu zo svojho zariadenia, ktorú chcete orezať do kruhového tvaru. Náš nástroj podporuje formáty JPG, PNG, WEBP a GIF. Jednoducho kliknite na tlačidlo na nahratie alebo presuňte a pustite svoj súbor obrázka.\n\n### Krok 2: Umiestnite svoj obrázok\nUpravte a vycentrujte svoju fotografiu v kruhovej oblasti orezávania. Použite posuvník na priblíženie, aby ste sa sústredili na najdôležitejšiu časť svojho obrázka, a presuňte ho, aby ste ho premiestnili pre perfektné okrúhle orezanie.\n\n### Krok 3: Stiahnite si svoj kruhový obrázok\nKeď budete spokojní s umiestnením, kliknite na \"Orezať a stiahnuť\", aby ste získali svoj perfektne zaoblený obrázok. Výsledok bude mať priehľadné pozadie, čo ho robí perfektným na použitie kdekoľvek.\n\n## Populárne spôsoby použitia kruhových obrázkov\n\n### Profilové fotografie\nOrezajte fotografie do kruhového tvaru pre profesionálne vyzerajúce profilové obrázky na platformách sociálnych médií ako Facebook, LinkedIn a Instagram. Kruhové avatary vytvárajú moderný, vyleštený vzhľad.\n\n### Grafika pre sociálne médiá\nVytvorte kruhové obrázky pre Instagram príbehy, Facebook príspevky a Twitter profily, ktoré vynikajú z davu. Okrúhle obrázky pridávajú vizuálny záujem a narúšajú monotónnosť štvorcových príspevkov.\n\n### Okrúhle logá\nTransformujte svoje logo alebo značkové obrázky na perfektne okrúhle tvary pre konzistentné brandovanie na všetkých platformách. Kruhové logá fungujú obzvlášť dobre pre ikony aplikácií a brandovanie na sociálnych médiách.\n\n### Fotografie svedectiev\nZobrazte svedectvá zákazníkov alebo klientov s kruhovými profilovými fotografiami pre čistý, profesionálny vzhľad. Okrúhle obrázky vytvárajú vizuálnu konzistenciu a robia vaše svedectvá pôsobivejšími.\n\n### Fotografie členov tímu\nVytvorte konzistentné okrúhle portréty pre firemné webové stránky, stránky tímu a zoznamy zamestnancov. Jednotné kruhové fotografie dávajú vašej stránke tímu súdržný, profesionálny vzhľad.\n\n## Funkcie nášho nástroja na kruhové orezávanie\n\n- **Bezplatný kruhový orezávač obrázkov** - Vytvorte kruhové tvary z akéhokoľvek obrázka bezplatne, bez skrytých poplatkov\n- **Vysokorozlíšenie výstupu** - Stiahnite si svoje kruhové obrázky v ich pôvodnej kvalite bez kompresie\n- **Nie je potrebná registrácia** - Začnite orezať obrázky do kruhu okamžite, nie je potrebné vytvorenie účtu\n- **Súkromné a bezpečné** - Vaše obrázky nikdy neopustia váš prehliadač, čím sa zabezpečí úplné súkromie\n- **Jednoduché používanie rozhrania** - Jednoduchý, intuitívny dizajn uľahčuje vytváranie okrúhlych obrázkov\n- **Funguje na všetkých zariadeniach** - Orezať obrázky do kruhového tvaru na počítači, tablete alebo mobilných zariadeniach\n- **Priehľadné pozadie** - Všetky kruhové orezania prichádzajú s priehľadnými pozadiami pre maximálnu univerzálnosť\n- **Náhľad v reálnom čase** - Presne vidíte, ako bude váš kruhový obrázok vyzerať pred stiahnutím\n\n## Často kladené otázky o kruhovom orezávaní obrázkov\n\n### Ako orezať obrázok do kruhového tvaru?\n\nJednoducho nahrajte svoj obrázok do nášho nástroja, upravte ho v kruhovom ráme, aby ste správne umiestnili objekt, a kliknite na \"Orezať a stiahnuť\", aby ste získali svoj perfektne okrúhly obrázok. Náš nástroj uľahčuje orezanie akéhokoľvek obrázka v kruhovom formáte okamžite bez potreby dizajnových zručností.\n\n### Ako vytvoriť kruhovú profilovú fotografiu?\n\nNahrajte svoju fotografiu do nášho nástroja na kruhové orezávanie, umiestnite svoju tvár do stredu kruhového rámu a potom si stiahnite svoju novú okrúhlu profilovú fotografiu. Je perfektná pre profily sociálnych médií, ktoré používajú kruhové obrázky ako Facebook, LinkedIn alebo Instagram.\n\n### Môžem orezať fotografie do okrúhlych tvarov na svojom telefóne?\n\nÁno! Náš kruhový orezávač obrázkov funguje na všetkých zariadeniach vrátane smartfónov a tabletov. Rozhranie prispôsobené pre mobilné zariadenia vám umožňuje jednoducho vytvárať kruhové orezania obrázkov kdekoľvek. Jednoducho navštívte našu webovú stránku zo svojho mobilného prehliadača - nie je potrebné sťahovanie aplikácie.\n\n### Ukladáte obrázky, ktoré nahrávam?\n\nNie, nikdy neukladáme vaše obrázky na naše servery. Celý proces orezávania prebieha priamo vo vašom prehliadači, čo znamená, že vaše fotografie zostávajú úplne súkromné. Keď opustíte stránku, všetky údaje obrázka sa automaticky odstránia.\n\n### Aké formáty obrázkov môžem použiť s nástrojom na kruhové orezávanie?\n\nNáš nástroj funguje so všetkými štandardnými formátmi obrázkov vrátane JPG, PNG, WEBP a GIF. Môžete nahrať ktorýkoľvek z týchto formátov a váš kruhový orezaný obrázok sa stiahne ako súbor PNG s priehľadnosťou okolo kruhu.\n\n### Bude mať môj kruhový orezaný obrázok priehľadné pozadie?\n\nÁno, keď si stiahnete svoj orezaný obrázok, bude mať priehľadné pozadie okolo kruhu. To ho robí perfektným na umiestnenie na webové stránky, dokumenty alebo dizajny, kde chcete, aby bola viditeľná len kruhová časť.\n\n### Môžem upraviť veľkosť kruhového orezania?\n\nKruhové orezanie zachováva perfektný pomer strán 1:1, ale môžete priblížiť alebo oddialiť, aby ste upravili, koľko z vášho obrázka sa zobrazí v kruhu. To vám umožňuje zamerať sa na špecifické časti vášho obrázka pri zachovaní kruhového tvaru.\n\n## Tipy na obrázky pre perfektné kruhové orezania\n\n### Vycentrujte svoj objekt\nPre najlepšie výsledky vyberte obrázky, kde je hlavný objekt vycentrovaný alebo môže byť umiestnený v strede rámu. To je obzvlášť dôležité pre profilové fotografie a portréty, kde by tvár mala byť ohniskovým bodom.\n\n### Zvážte oblasť orezávania\nPamätajte, že rohy vášho obrázka budú orezané. Vyhnite sa obrázkom, kde sú dôležité detaily blízko okrajov fotografie, pretože sa stratia pri kruhovom orezaní.\n\n### Použite vysokorozlíšené obrázky\nZačatie s vysokokvalitnými obrázkami bude mať za následok lepšie kruhové orezania. Nízko rozlíšené alebo malé obrázky môžu vyzerať pixelované pri orezávaní, takže použite zdrojové obrázky najvyššej kvality dostupné.\n\n### Dávajte pozor na pomer strán\nŠtvorcové obrázky zvyčajne fungujú najlepšie pre kruhové orezávanie. Ak je váš pôvodný obrázok veľmi široký alebo vysoký, môžete stratiť významné časti v procese orezávania. Zvážte najprv orezanie na štvorec, ak je to potrebné.\n\n### Upravte pre optimálne rámovanie\nPoužite funkciu umiestnenia nášho nástroja na priblíženie a úpravu vášho obrázka. Pre portréty sa pokúste vycentrovať tvár s nejakým okrajom okolo nej pre najlepší profesionálny vzhľad. Pre produkty vycentrujte hlavnú položku v kruhu.\n\n### Vytvorte konzistentné sady\nPri vytváraní viacerých kruhových obrázkov (ako napríklad pre tímové fotografie) sa pokúste zachovať konzistentné rámovanie, štýly pozadia a veľkosti pre súdržný vzhľad na všetkých obrázkach.\n\n## Bežné použitia pre kruhové orezané obrázky\n\n| Aplikácia | Výhody kruhového orezania |\n|------------|------------------------|\n| Profily sociálnych médií | Väčšina platforiem zobrazuje avatary v kruhoch - perfektne orezaný kruhový obrázok vyzerá profesionálne |\n| Fotografie členov tímu | Vytvorte konzistentné okrúhle portréty pre firemné webové stránky a zoznamy |\n| Online portfóliá | Okrúhle obrázky vytvárajú vizuálny záujem a modernú estetiku |\n| Digitálne vizitky | Kruhové orezané profilové fotografie vyzerajú čistejšie a profesionálnejšie |\n| Miniatúry produktov | Okrúhle obrázky produktov vytvárajú súdržný vzhľad katalógu |\n| Ikony aplikácií | Kruhové ikony sú štandardom pre mobilné aplikácie |\n| Svedectvá webových stránok | Okrúhle fotografie zákazníkov pridávajú dôveryhodnosť a vizuálnu príťažlivosť |\n\n## Prečo si vybrať náš nástroj na kruhové orezávanie obrázkov\n\nKeď príde na orezávanie fotografií do kruhov online, náš nástroj ponúka niekoľko výhod:\n\n- **Okamžité spracovanie** - Orezať obrázok do kruhového tvaru za sekundy bez čakania na nahrania alebo spracovanie servera\n- **Perfektné kruhy zakaždým** - Náš nástroj zabezpečuje perfektne okrúhle orezania s čistými okrajmi a bez skreslenia\n- **Intuitívne ovládanie** - Jednoducho umiestnite svoj obrázok presne tak, ako chcete v kruhu s funkciami priblíženia a presúvania\n- **Bez vodoznakov** - Na rozdiel od iných nástrojov na kruhové orezávanie, nepridávame vodoznaky na vaše obrázky\n- **Funguje so všetkými typmi obrázkov** - Orezať fotografie, grafiku, ilustrácie alebo akýkoľvek obrázok do kruhu\n- **Založené na prehliadači** - Nie je potrebná inštalácia softvéru, funguje priamo vo vašom webovom prehliadači\n- **Súkromie na prvom mieste** - Všetko spracovanie prebieha lokálne vo vašom prehliadači, vaše obrázky nikdy neopustia vaše zariadenie\n\nČi už potrebujete orezať obrázky do kruhového tvaru na profesionálne použitie alebo osobné projekty, náš nástroj na kruhové orezávanie fotografií to všetko zvládne s ľahkosťou. Vytvorte kruhové orezania obrázkov len niekoľkými kliknutiami!\n\n## Začíname\n\nPripravení vytvoriť svoj prvý kruhový obrázok? Navštívte náš [Nástroj na kruhové orezávanie](/circle-crop) a začnite orezať dnes. Je úplne bezplatný, nevyžaduje registráciu a trvá len pár sekúnd vytvoriť profesionálne kruhové obrázky.\n\n---\n\n*Posledná aktualizácia: Január 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Obrázky so zaoblenými rohmi – Sprievodca",
+        "description": "Dajte ľubovoľnému obrázku zaoblené rohy bezplatným nástrojom. Vhodné pre miniatúry, karty, UI a sociálne médiá v sekundách.",
+        "content": "# Obrázky so zaoblenými rohmi – Sprievodca\n\nDajte ľubovoľnému obrázku zaoblené rohy bezplatným online nástrojom. Vhodné pre miniatúry, karty, prvky rozhrania a sociálne médiá, bez dizajnových zručností.\n\n## Ako zaobliť rohy obrázka\n\n### Krok 1: Nahrajte obrázok\nVyberte fotografiu zo zariadenia. Formáty: JPG, PNG, WEBP, GIF. Kliknite alebo presuňte a pustite.\n\n### Krok 2: Nastavte polomer rohu\nPoužite posuvník na stupeň zaoblenia. Náhľad sa aktualizuje v reálnom čase.\n\n### Krok 3: Stiahnite\nKliknite na \"Stiahnuť\" a uložte obrázok so zaoblenými rohmi; použite ho v rozložení, na webe alebo v príspevkoch.\n\n## Bežné použitia\n\n### Miniatúry a karty\nZaoblené rohy dávajú mriežkam a kartám čistý, moderný vzhľad.\n\n### Sociálne médiá a reklamy\nObrázky s mäkkými rohmi vynikajú vo feede a reklamách, pôsobia priateľskejšie.\n\n### Rozhranie a aplikácie\nIkony, avatary a tlačidlá majú často zaoblené rohy; nástroj pomáha zjednotiť viac obrázkov.\n\n### Prezentácie a dokumenty\nRovnaký polomer na snímkach obrazovky a grafikách udržiava slidey a dokumenty konzistentné.\n\n## Čo nástroj ponúka\n\n- **Bezplatné a okamžité** – bez registrácie, bez vodoznaku; spracovanie lokálne v prehliadači, bez limitu použitia tohto nástroja\n- **Nastaviteľný polomer** – od mierneho zaoblenia po tvar tabletky\n- **Náhľad v reálnom čase** – vidíte výsledok pred stiahnutím\n- **Súkromie** – spracovanie v prehliadači; neukladáme obrázky\n- **Všetky zariadenia** – PC, tablet, telefón\n\n## Často kladené otázky\n\n### Ako zaoblím rohy fotografie?\n\nOtvorte [Nástroj na zaoblené rohy](/rounded-corners), nahrajte obrázok, nastavte polomer, kliknite na Stiahnuť.\n\n### Aké formáty sú podporované?\n\nJPG, PNG, WEBP, GIF. Stiahnutie zachová pôvodný formát (alebo PNG pre priehľadnosť).\n\n### Funguje na mobile?\n\nÁno. Nástroj beží v mobilnom a tabletoвом prehliadači, bez aplikácie.\n\n### Ukladáte moje obrázky?\n\nNie. Všetko sa spracováva vo vašom prehliadači; neukladáme nič.\n\n## Súvisiace nástroje\n\n- [Fotka na URL](/) – prevod obrázka na odkaz\n- [Kruhové orezanie](/circle-crop) – vytvorenie kruhových obrázkov\n- [Zaoblené rohy](/rounded-corners) – zaoblenie rohov\n- [Odstránenie pozadia](/remove-background) – odstránenie pozadia s AI\n\n---\n\n*Posledná aktualizácia: Február 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Odstránenie pozadia – Príručka",
+        "description": "Odstráňte pozadie z obrázkov jedným kliknutím s naším bezplatným AI nástrojom. Čisté výrezy pre produkty, portréty, logá a ďalšie.",
+        "content": "# Odstránenie pozadia – Príručka\n\nOdstráňte pozadie z obrázkov jedným kliknutím s bezplatným online nástrojom. Čisté výrezy pre produktové fotky, portréty, logá – bez znalosti dizajnu.\n\n## Ako odstrániť pozadie\n\n### Krok 1: Nahrajte obrázok\nVyberte akúkoľvek fotografiu z zariadenia. Podporované: JPG, PNG, WEBP, GIF. Kliknite alebo pretiahnite.\n\n### Krok 2: AI odstráni pozadie\nNástroj automaticky rozpozná objekt a odstráni pozadie. Spracovanie trvá sekundy. Náhľad v reálnom čase s priehľadným pozadím.\n\n### Krok 3: Stiahnuť\nKliknite na \"Stiahnuť\" a uložte obrázok bez pozadia. Výstup PNG s priehľadnosťou, pre dizajn, e-commerce alebo sociálne siete.\n\n## Bežné použitie\n\n### Produktové fotky\nČisté výrezy pre online obchody, trhoviská a reklamy. Priehľadné pozadie pre akékoľvek rozloženie.\n\n### Portréty a profily\nOdstráňte rušivé pozadie z portrétov pre životopisy, LinkedIn alebo profil.\n\n### Logá a grafika\nIzolujte logá a grafiku z fotiek alebo skenov. Priehľadný PNG pre preklady a prezentácie.\n\n### Sociálne médiá a marketing\nVýrazné obrázky pre príspevky, príbehy a reklamy. Priehľadné výrezy pre akúkoľvek šablónu.\n\n## Čo nástroj ponúka\n\n- **Zadarmo a AI** – bez registrácie, bez vodoznaku; spracovanie lokálne v prehliadači, bez limitu použitia tohto nástroja\n- **Odstránenie jedným klikom** – automatické rozpoznanie objektu a čisté okraje\n- **Priehľadný PNG** – pripravené pre akýkoľvek dizajn alebo platformu\n- **Súkromie** – spracovanie v prehliadači; neukladáme obrázky\n- **Všetky zariadenia** – PC, tablet, telefón\n\n## Časté otázky\n\n### Ako odstránim pozadie z fotky?\n\nOtvorte [Nástroj na odstránenie pozadia](/remove-background), nahrajte obrázok. Nástroj rozpozná objekt a odstráni pozadie. Náhľad a stiahnutie ako priehľadný PNG.\n\n### Aké formáty obrázkov sú podporované?\n\nJPG, PNG, WEBP, GIF. Výsledok sa vždy sťahuje ako PNG s priehľadným pozadím.\n\n### Uchovávate moje obrázky?\n\nNie. Spracovanie prebieha vo vašom prehliadači; nič neukladáme.\n\n### Funguje to na telefóne?\n\nÁno. Nástroj funguje v prehliadači na telefóne a tablete.\n\n## Súvisiace nástroje\n\n- [Foto na URL](/) – obrázok na odkaz\n- [Kruhové orezanie](/circle-crop) – okrúhle obrázky\n- [Zaoblené rohy](/rounded-corners) – zaoblenie rohov\n- [Odstránenie pozadia](/remove-background) – odstránenie pozadia s AI\n\n---\n\n*Posledná aktualizácia: Marec 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Dokumentácia pre Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentácia",
+      "description": "Rýchly štart: nahrajte obrázok a získajte priamu URL. Použite tlačidlá kopírovať/otvoriť alebo stiahnite odkaz ako .txt.",
+      "features": {
+        "title": "Supported features:",
+        "items": {
+          "1": "Podporované: JPG, PNG, WEBP, GIF",
+          "2": "Rýchle doručenie cez CDN, keď je úložisko zapnuté",
+          "3": "Zrozumiteľné hlásenia údržby, keď služba nie je dostupná"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Stav služby pre Photo To URL."
+    },
+    "page": {
+      "title": "Stav",
+      "description": "Všetky systémy sú plne funkčné.",
+      "message": "Nahrávacie API a CDN odkazy fungujú."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontaktujte Photo To URL pre podporu hostovania obrázkov, spätnú väzbu, partnerstvo alebo nahlásenie problémov. Každú správu čítame a snažíme sa odpovedať do 1-2 pracovných dní."
+    },
+    "page": {
+      "title": "Kontaktujte nás",
+      "introShort": "Máte otázku alebo spätnú väzbu? Vyplňte formulár nižšie a čoskoro sa ozveme.",
+      "orEmail": "Alebo nám napíšte na",
+      "subtitle": "Sme tu, aby sme pomohli s hostingom obrázkov, odkazmi a čímkoľvek ďalším.",
+      "intro": "Photo To URL je bezplatná služba hostovania obrázkov, ktorá mení vaše fotografie na zdieľateľné odkazy. Ak máte otázky, návrhy alebo narazíte na problém, radi sa nám ozvite.",
+      "whyTitle": "S čím nás môžete kontaktovať",
+      "why1": "Technická podpora: chyby nahrávania, nefunkčné odkazy alebo problémy s nástrojom",
+      "why2": "Spätná väzba a požiadavky na funkcie na zlepšenie služby",
+      "why3": "Otázky k partnerstvu alebo spolupráci",
+      "why4": "Nahlásenie zneužitia, autorskoprávnych obáv alebo otázok k pravidlám",
+      "expectTitle": "Čo môžete očakávať",
+      "expectContent": "Každú správu čítame a snažíme sa odpovedať do 1-2 pracovných dní. Pri urgentných prípadoch uveďte jasný predmet a čo najviac detailov.",
+      "emailHeading": "Kontaktujte nás e-mailom",
+      "emailHint": "Pošlite nám e-mail a ozveme sa čo najskôr.",
+      "email": {
+        "label": "Email",
+        "address": "support@phototourl.com",
+        "cta": "Poslať e-mail"
+      },
+      "form": {
+        "title": "Poslať správu",
+        "description": "Vyplňte formulár nižšie a ozveme sa čo najskôr.",
+        "name": "Meno",
+        "email": "Email",
+        "message": "Správa",
+        "namePlaceholder": "Vaše meno",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Vaša správa alebo otázka...",
+        "submit": "Poslať správu",
+        "submitting": "Odosielanie...",
+        "success": "Správa bola úspešne odoslaná. Odpovieme čo najskôr.",
+        "minLength": "Meno musí mať aspoň 3 znaky.",
+        "maxLengthName": "Meno nesmie presiahnuť 30 znakov.",
+        "invalidEmail": "Zadajte platnú e-mailovú adresu.",
+        "minLengthMessage": "Správa musí mať aspoň 10 znakov.",
+        "maxLengthMessage": "Správa nesmie presiahnuť 2000 znakov.",
+        "invalid": "Niečo sa pokazilo. Skúste to znova."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "O nás | Fotka na URL",
+      "description": "Zistite viac o Fotka na URL - bezplatnej službe hostovania obrázkov, ktorá konvertuje fotografie na zdieľateľné odkazy."
+    },
+    "page": {
+      "title": "O nás",
+      "mission": {
+        "title": "Naša misia",
+        "content": "Fotka na URL je bezplatná, rýchla a spoľahlivá služba hostovania obrázkov navrhnutá na pomoc tvorcom, marketérom a tímom okamžite konvertovať obrázky na zdieľateľné odkazy. Veríme v jednoduchosť, rýchlosť a súkromie používateľov."
+      },
+      "features": {
+        "title": "Čo ponúkame",
+        "item1": "Bezplatné hostovanie obrázkov s podporou CDN",
+        "item2": "Okamžité generovanie odkazov pre rýchle zdieľanie",
+        "item3": "Podpora viacerých formátov obrázkov (JPG, PNG, WEBP, GIF)",
+        "item4": "Vyskúšajte bez registrácie — bezplatný plán: 10 nahraní/deň, 2MB na súbor"
+      },
+      "contact": {
+        "title": "Kontaktujte nás",
+        "text": "Máte otázky alebo spätnú väzbu? Kontaktujte nás na",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Zásady ochrany súkromia | Fotka na URL",
+        "description": "Zásady ochrany súkromia pre Fotka na URL - Zistite, ako zhromažďujeme, používame a chrátime vaše údaje."
+      },
+      "page": {
+        "title": "Zásady ochrany súkromia",
+        "lastUpdated": "Posledná aktualizácia: máj 2026",
+        "introduction": "V Fotka na URL rešpektujeme vaše súkromie a sme odhodlaní chrániť vaše osobné informácie. Tieto Zásady ochrany súkromia vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chrátime vaše informácie pri používaní našej služby.",
+        "dataCollection": {
+          "title": "Informácie, ktoré zhromažďujeme",
+          "content1": "Keď používate Fotka na URL, môžeme zhromažďovať:",
+          "item1": "Nahrané súbory obrázkov a metadáta (názov, veľkosť, typ), uložené na Cloudflare R2 na poskytovanie zdieľateľných odkazov",
+          "item2": "IP adresu, časové značky nahrávania a údaje o používaní na obmedzenie rýchlosti, bezpečnosť a prevenciu zneužitia",
+          "item3": "Informácie o účte pri registrácii alebo prihlásení (e-mailová adresa, OAuth profil Google, identifikátory relácie a autentifikácie)",
+          "item4": "Informácie o predplatnom a platbe spracované naším poskytovateľom Waffo Pancake pri kúpe plateného plánu — neukladáme úplné čísla kariet",
+          "content2": "Ak nás kontaktujete prostredníctvom kontaktného formulára, zhromažďujeme informácie, ktoré poskytnete (napr. meno a e-mail). Používame aj cookies podľa popisu v časti Cookies."
+        },
+        "dataUsage": {
+          "title": "Ako používame vaše informácie",
+          "item1": "Na generovanie a poskytovanie zdieľateľných odkazov na obrázky",
+          "item2": "Na prevenciu zneužitia a vynucovanie limitov nahrávania",
+          "item3": "Na zlepšenie našej služby a používateľskej skúsenosti",
+          "item4": "Na dodržiavanie právnych povinností"
+        },
+        "dataStorage": {
+          "title": "Ukladanie a uchovávanie údajov",
+          "content": "Nahrané obrázky sú uložené v úložisku Cloudflare R2. Uchovávame obrázky tak dlho, ako je potrebné na poskytovanie služby. Obrázky môžu byť automaticky vymazané po období nečinnosti alebo z dôvodu porušenia zásad."
+        },
+        "cookies": {
+          "title": "Cookies a technológie sledovania",
+          "content1": "Používame nasledujúce technológie:",
+          "item1": "Lokálne úložisko: Na uloženie histórie nahrávok a jazykových preferencií",
+          "item2": "Google AdSense: Na zobrazovanie reklám (používa cookies na personalizáciu reklám)",
+          "item3": "Google Analytics: Na analýzu webovej stránky (anonymizované údaje)",
+          "content2": "Cookies môžete ovládať prostredníctvom nastavení vášho prehliadača. Deaktivácia cookies však môže ovplyvniť niektoré funkcie našej služby."
+        },
+        "personalizedAds": {
+          "title": "Personalizované reklamy a odhlásenie",
+          "content": "Používame Google AdSense na zobrazovanie reklám. Google a iní partneri môžu používať cookies na zobrazovanie reklám podľa vašich návštev. Od personalizovaných reklám sa môžete odhlásiť v",
+          "linkAdsSettings": "Nastaveniach reklám Google",
+          "content2": "alebo na stránke na odhlásenie Network Advertising Initiative",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Služby tretích strán",
+          "content1": "Používame nasledujúce služby tretích strán:",
+          "item1": "Cloudflare R2: Na ukladanie obrázkov a doručovanie CDN",
+          "item2": "Google AdSense: Na reklamu (podlieha Zásadám ochrany súkromia spoločnosti Google)",
+          "item3": "Google Analytics: Na analýzu webovej stránky (podlieha Zásadám ochrany súkromia spoločnosti Google)",
+          "content2": "Používame aj Waffo Pancake na predplatné a spracovanie platieb. Tieto služby môžu zhromažďovať informácie v súlade s vlastnými zásadami ochrany súkromia. Odporúčame vám, aby ste si prehliadli ich zásady ochrany súkromia."
+        },
+        "dataSecurity": {
+          "title": "Bezpečnosť údajov",
+          "content": "Implementujeme primerané technické a organizačné opatrenia na ochranu vašich údajov pred neoprávneným prístupom, zmenou, zverejnením alebo zničením. Žiadna metóda prenosu cez internet však nie je 100% bezpečná."
+        },
+        "yourRights": {
+          "title": "Vaše práva",
+          "content": "Máte právo:",
+          "item1": "Prístup k vašim nahraným obrázkom, údajom o účte a súvisiacim informáciám",
+          "item2": "Požiadať o vymazanie vašich obrázkov",
+          "item3": "Odhlásiť sa z určitých praktík zhromažďovania údajov",
+          "item4": "Kontaktovať nás s obavami o súkromie"
+        },
+        "children": {
+          "title": "Súkromie detí",
+          "content": "Naša služba nie je určená pre deti mladšie ako 13 rokov. Vedome nezhromažďujeme osobné informácie od detí mladších ako 13 rokov."
+        },
+        "changes": {
+          "title": "Zmeny v týchto Zásadách ochrany súkromia",
+          "content": "Môžeme tieto Zásady ochrany súkromia občas aktualizovať. O všetkých zmenách vás budeme informovať zverejnením nových Zásad ochrany súkromia na tejto stránke a aktualizáciou dátumu \"Posledná aktualizácia\"."
+        },
+        "contact": {
+          "title": "Kontaktujte nás",
+          "text": "Ak máte otázky týkajúce sa týchto Zásad ochrany súkromia, kontaktujte nás na",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Podmienky používania | Fotka na URL",
+        "description": "Podmienky používania Fotka na URL – hostovanie obrázkov, prípustné použitie a zodpovednosti používateľa."
+      },
+      "page": {
+        "title": "Podmienky používania",
+        "lastUpdated": "Posledná aktualizácia: september 2026",
+        "intro": "Vitajte u Fotka na URL. Prístupom k našej službe hostovania obrázkov a generovania odkazov („Služba“) alebo jej používaním súhlasíte s týmito Podmienkami. Ak nesúhlasíte, Službu nepoužívajte.",
+        "acceptance": {
+          "title": "Prijatie podmienok",
+          "content": "Nahrávaním obrázkov, vytváraním odkazov alebo iným používaním Fotka na URL potvrdzujete, že ste si prečítali, porozumeli a prijali tieto Podmienky a naše Zásady ochrany osobných údajov. Podmienky môžeme aktualizovať; pokračujúce používanie po zmenách znamená prijatie aktualizovaných Podmienok."
+        },
+        "serviceDescription": {
+          "title": "Popis služby",
+          "content": "Fotka na URL poskytuje bezplatné hostovanie obrázkov a priame generovanie odkazov. Môžete nahrávať obrázky v rámci stanovených limitov (veľkosť, formát atď.) a dostávať zdieľateľné odkazy. Negarantujeme nepretržitú dostupnosť; Služba môže byť zmenená, pozastavená alebo ukončená s výpoveďou alebo bez."
+        },
+        "useOfService": {
+          "title": "Používanie služby",
+          "content": "Službu smiete používať len na zákonné účely a v súlade s týmito Podmienkami. Za svoje používanie a nahraný obsah nesiete zodpovednosť. Službu nesmiete používať spôsobom porušujúcim platné zákony alebo práva tretích strán."
+        },
+        "userResponsibilities": {
+          "title": "Vaše zodpovednosti",
+          "content": "Súhlasíte: (1) poskytovať na požiadanie správne údaje; (2) udržiavať používanie v súlade so zákonom; (3) nepokúšať sa obchádzať zabezpečenie, limity alebo riadenie prístupu; (4) nepoužívať Službu na šírenie malvéru alebo narúšanie Služby či iných používateľov."
+        },
+        "prohibitedContent": {
+          "title": "Zakázaný obsah",
+          "content": "Nesmiete nahrávať ani zdieľať odkazy na obsah nezákonný, škodlivý, výhružný, urážlivý, obťažujúci, ohovárajúci, obscénny, porušujúci súkromie alebo duševné vlastníctvo alebo inak neprijateľný; zneužívajúci neplnoletých; podnecujúci násilie alebo diskrimináciu; alebo porušujúci práva tretích strán. Môžeme obsah odstrániť a prístup pozastaviť alebo ukončiť bez výpovede, ak máme dôvodne za to, že došlo k porušeniu týchto Podmienok alebo zákona."
+        },
+        "ipAndContent": {
+          "title": "Duševné vlastníctvo a váš obsah",
+          "content": "U nahraných obrázkov si ponechávate vlastníctvo. Používaním Služby nám udeľujete obmedzenú licenciu ukladať, spracovávať a poskytovať vaše obrázky a vytvárať a poskytovať odkazy v rozsahu nutnom pre prevádzku Služby. Na váš obsah nečiníme nárok. Naše meno, logo a Služba sú naším duševným vlastníctvom; bez nášho predchádzajúceho písomného súhlasu ich nesmiete používať."
+        },
+        "subscriptions": {
+          "title": "Predplatné plány",
+          "content": "Fotka na URL ponúka bezplatnú úroveň a platené predplatné (mesačné Pro a ročné Premium) s vyššími limitmi nahrávania, veľkosti súborov a úložiska. Aktuálne plány a ceny nájdete na stránke s cenníkom (https://phototourl.com/pricing). Platený prístup je digitálna služba a poskytuje sa ihneď po potvrdenej platbe."
+        },
+        "billing": {
+          "title": "Fakturácia a platby",
+          "content": "Zadaním platobnej metódy a predplatením plateného plánu nás a nášho platobného spracovateľa oprávňujete opakovane strhávať príslušný poplatok za predplatné, kým predplatné nezrušíte spôsobom uvedeným nižšie. Predplatné sa na konci každého fakturačného obdobia automaticky obnovuje, ak nie je zrušené. Ceny sa zobrazujú pri platbe a môžu byť bez príslušných daní, ak nie je uvedené inak."
+        },
+        "cancellation": {
+          "title": "Zrušenie a zastavenie automatického obnovenia",
+          "content": "Budúce platby môžete kedykoľvek zastaviť takto:",
+          "item1": "E-mailom na support@phototourl.com z registrovanej e-mailovej adresy účtu so žiadosťou o zrušenie automatického obnovenia; alebo",
+          "item2": "Zrušením automatického inkasa alebo opakovanej fakturácie u vydavateľa karty cez mobilné bankovníctvo, internetbanking alebo zákaznícky servis.",
+          "effect": "Zrušenie zastaví budúce obnovenia. Platené výhody si ponecháte do konca obdobia, ktoré ste už zaplatili. Po skončení tohto obdobia sa za dané predplatné už nič nestrháva a platené výhody s týmto obdobím končia."
+        },
+        "refunds": {
+          "title": "Zásady vrátenia peňazí",
+          "general": "Keďže platené plány sú digitálne služby dodávané ihneď po platbe, poplatky za predplatné sa spravidla nevracajú, ak je Služba stále dostupná na bežné používanie, s výnimkami uvedenými nižšie alebo ak to vyžaduje zákon.",
+          "eligibleTitle": "Kedy môže byť vrátenie možné",
+          "item1": "Prví predplatitelia: do 7 dní od prvej platby, ak ste platené funkcie nevyužili podstatne (napríklad len malú časť limitu nahrávania alebo úložiska daného plánu).",
+          "item2": "Duplicitné alebo chybné platby: plné vrátenie pri overenej fakturačnej chybe, ktorá viedla k duplicitnej platbe.",
+          "item3": "Výpadok na našej strane: ak overený výpadok v našej kontrole trvá 72 hodín alebo dlhšie počas vášho plateného obdobia, môžeme po posúdení ponúknuť pomerný kredit alebo vrátenie.",
+          "item4": "Zákonné práva: ak vám príslušné právo dáva právo odstúpiť alebo na vrátenie (napríklad v EÚ/UK), tieto práva zostávajú zachované.",
+          "howTitle": "Ako požiadať o vrátenie",
+          "how": "Napíšte na support@phototourl.com s e-mailom účtu, referenciou platby alebo transakcie a dôvodom. Snažíme sa potvrdiť do 2 pracovných dní a oprávnené vrátenia spracovať do 5–10 pracovných dní.",
+          "notTitle": "Kedy sa peniaze nevracajú",
+          "not1": "Poplatky za už využité obdobia predplatného, s výnimkami vyššie.",
+          "not2": "Žiadosti o vrátenie pri ročnom (Premium) predplatnom podané viac ako 30 dní po prvom nákupe, pokiaľ zákon nestanovuje inak alebo nejde o oprávnený výpadok či duplicitnú platbu.",
+          "not3": "Účty pozastavené alebo ukončené pre porušenie týchto Podmienok."
+        },
+        "disclaimer": {
+          "title": "Vylúčenie záruk",
+          "text": "Služba je poskytovaná „v takom stave“ a „ako je k dispozícii“ bez záruk akéhokoľvek druhu. Negarantujeme, že Služba bude nepretržitá, bez chýb alebo bez škodlivých súčastí. Používanie Služby je na vaše vlastné riziko."
+        },
+        "limitationOfLiability": {
+          "title": "Obmedzenie zodpovednosti",
+          "content": "V najvyššej miere dovolenej zákonom Fotka na URL a jej prevádzkovatelia neodpovedajú za nepriame, náhodné, zvláštne, následné alebo trestné škody alebo za stratu údajov, zisku alebo goodwillu vzniknutú z vášho používania alebo neschopnosti Službu používať. Naša celková zodpovednosť nepresiahne sumu, ktorú ste nám zaplatili v priebehu dvanástich mesiacov pred nárokom (alebo nulu, ak ste nezaplatili nič)."
+        },
+        "termination": {
+          "title": "Ukončenie",
+          "content": "Môžeme váš prístup ku Službe kedykoľvek pozastaviť alebo ukončiť, s uvedením dôvodu alebo bez, s výpoveďou alebo bez. Službu môžete prestať používať kedykoľvek. Po ukončení vaše právo ju používať okamžite zaniká. Ustanovenia, ktoré majú zo svojej povahy zostať v platnosti (vrátane vylúčenia záruk, obmedzenia zodpovednosti a rozhodného práva), zostávajú v platnosti."
+        },
+        "changes": {
+          "title": "Zmeny podmienok",
+          "content": "Tieto Podmienky môžeme aktualizovať. Revidované Podmienky zverejníme na tejto stránke a aktualizujeme dátum „Posledná aktualizácia“. Pokračujúce používanie po zmenách znamená prijatie. Odporúčame túto stránku pravidelne kontrolovať."
+        },
+        "governingLaw": {
+          "title": "Rozhodné právo",
+          "content": "Tieto Podmienky sa riadia zákonom príslušnej jurisdikcie, v ktorej pôsobíme, a vykladajú sa v súlade s ním, bez ohľadu na kolízne normy. Všetky spory budú riešené u súdov tejto jurisdikcie."
+        },
+        "contact": {
+          "title": "Kontaktujte nás",
+          "text": "Máte-li otázky k týmto Podmienkam používania, kontaktujte nás na",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Zásady používania cookies | Fotka na URL",
+        "description": "Zásady používania cookies pre Fotka na URL - Zistite, ako používame cookies a technológie sledovania."
+      },
+      "page": {
+        "title": "Zásady používania cookies",
+        "lastUpdated": "Posledná aktualizácia: január 2026",
+        "introduction": "Tieto Zásady používania cookies vysvetľujú, ako Fotka na URL používa cookies a podobné technológie sledovania pri návšteve našej webovej stránky. Používaním našej služby súhlasíte s používaním cookies v súlade s týmito zásadami.",
+        "whatAreCookies": {
+          "title": "Čo sú cookies",
+          "content": "Cookies sú malé textové súbory, ktoré sa umiestňujú na vaše zariadenie pri návšteve webovej stránky. Sú široko používané na to, aby webové stránky fungovali efektívnejšie a poskytovali informácie vlastníkom webových stránok."
+        },
+        "howWeUseCookies": {
+          "title": "Ako používame cookies",
+          "content": "Používame cookies na nasledujúce účely:",
+          "item1": "Na uloženie histórie nahrávok a jazykových preferencií",
+          "item2": "Na analýzu webovej stránky a správania používateľov",
+          "item3": "Na zobrazovanie personalizovaných reklám"
+        },
+        "typesOfCookies": {
+          "title": "Typy cookies, ktoré používame",
+          "essential": {
+            "title": "Nevyhnutné cookies",
+            "content": "Tieto cookies sú nevyhnutné pre správne fungovanie webovej stránky. Umožňujú základné funkcie, ako je ukladanie jazykových preferencií a histórie nahrávok."
+          },
+          "analytics": {
+            "title": "Analytické cookies",
+            "content": "Používame Google Analytics na analýzu toho, ako návštevníci používajú našu webovú stránku. Tieto cookies zhromažďujú anonymné informácie o používaní webovej stránky, aby nám pomohli zlepšiť našu službu."
+          },
+          "advertising": {
+            "title": "Reklamné cookies",
+            "content": "Používame Google AdSense na zobrazovanie reklám. Tieto cookies pomáhajú poskytovať personalizované reklamy na základe vášho správania pri prehliadaní a záujmov."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookies tretích strán",
+          "content": "Používame nasledujúce služby tretích strán, ktoré môžu nastaviť cookies:",
+          "item1": "Google AdSense - Na reklamu (podlieha Zásadám ochrany súkromia spoločnosti Google)",
+          "item2": "Google Analytics - Na analýzu webovej stránky (podlieha Zásadám ochrany súkromia spoločnosti Google)"
+        },
+        "manageCookies": {
+          "title": "Správa cookies",
+          "content": "Cookies môžete ovládať a spravovať prostredníctvom nastavení vášho prehliadača. Väčšina prehliadačov vám umožňuje odmietnuť alebo prijať cookies, vymazať existujúce cookies alebo nastaviť preferencie pre určité webové stránky. Deaktivácia cookies však môže ovplyvniť funkčnosť našej služby."
+        },
+        "changes": {
+          "title": "Zmeny v týchto Zásadách používania cookies",
+          "content": "Môžeme tieto Zásady používania cookies občas aktualizovať. O všetkých zmenách vás budeme informovať zverejnením nových Zásad používania cookies na tejto stránke a aktualizáciou dátumu \"Posledná aktualizácia\"."
+        },
+        "contact": {
+          "title": "Kontaktujte nás",
+          "text": "Ak máte otázky týkajúce sa týchto Zásad používania cookies, kontaktujte nás na",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL záložka",
+    "description": "Nahrajte obrázky z ľubovoľnej webovej stránky priamo do Photo To URL jedným kliknutím! Bezplatná skúšobná verzia: 10 nahraní/deň, 2MB na súbor.",
+    "howItWorks": {
+      "title": "Ako to funguje",
+      "step1": "Otvorte ľubovoľnú webovú stránku s obrázkami",
+      "step2": "Kliknite na bookmarklet v paneli záložiek",
+      "step3": "Vyberte obrázok na stránke",
+      "step4": "Okamžite získajte URL a skopírujte ju!"
+    },
+    "installation": {
+      "title": "Inštalácia",
+      "step1": {
+        "title": "Krok 1: Skopírujte kód bookmarkletu",
+        "description": "Kliknite na tlačidlo nižšie a skopírujte kód bookmarkletu do schránky."
+      },
+      "step2": {
+        "title": "Krok 2: Pridajte do prehliadača",
+        "description": "Postupujte podľa týchto krokov podľa prehliadača:",
+        "chrome": "Chrome/Edge: Stlačte Ctrl+Shift+B (na Macu Cmd+Shift+B) pre zobrazenie panela záložiek, potom naň kliknite pravým tlačidlom a vyberte „Pridať stránku“. Vložte kód ako URL.",
+        "firefox": "Firefox: Kliknite pravým tlačidlom na panel záložiek a vyberte „Nová záložka“. Vložte kód do poľa umiestnenia.",
+        "safari": "Safari: Zapnite panel záložiek (Zobraziť → Zobraziť panel záložiek), potom presuňte kód na panel záložiek.",
+        "edge": "Alternatíva: Vytvorte novú záložku, upravte ju a nahraďte URL skopírovaným kódom."
+      },
+      "step3": {
+        "title": "Krok 3: Začnite používať!",
+        "description": "Navštívte stránku s obrázkami a kliknite na bookmarklet, aby ste začali nahrávať!"
+      },
+      "copy": "Kopírovať kód",
+      "copied": "Skopírované!"
+    },
+    "usage": {
+      "title": "Funkcie",
+      "description": "Bookmarklet ponúka tieto funkcie. Každé nahranie sa počíta do limitov vášho plánu (Bezplatná skúšobná verzia: 10 nahraní/deň, 2MB na súbor).",
+      "feature1": "Vyberte ľubovoľný obrázok z aktuálnej webovej stránky",
+      "feature2": "Automatické nahranie do Photo To URL",
+      "feature3": "Okamžite získajte zdieľateľnú URL jedným kliknutím"
+    },
+    "note": {
+      "title": "Poznámka",
+      "content": "Nahrania sa počítajú do dennej kvóty (Bezplatná skúšobná verzia: 10 nahraní/deň, 2MB na súbor). Bookmarklet funguje na väčšine stránok; prísne bezpečnostné pravidlá (CORS) môžu nahrávanie zablokovať."
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "welcomeBack": "Vitajte späť",
+      "email": "E-mail",
+      "password": "Heslo",
+      "signIn": "Prihlásiť sa",
+      "signUp": "Registrovať sa",
+      "signUpHint": "Nemáte účet?",
+      "forgotPassword": "Zabudli ste heslo?",
+      "showPassword": "Zobraziť heslo",
+      "hidePassword": "Skryť heslo",
+      "emailRequired": "E-mail je povinný",
+      "passwordRequired": "Heslo je povinné",
+      "signInWithGoogle": "Prihlásiť sa cez Google"
+    },
+    "register": {
+      "createAccount": "Vytvoriť účet",
+      "name": "Meno",
+      "email": "E-mail",
+      "password": "Heslo",
+      "signUp": "Registrovať sa",
+      "signInHint": "Máte už účet?",
+      "namePlaceholder": "Vaše meno",
+      "signUpSuccess": "Účet bol úspešne vytvorený",
+      "signUpWithGoogle": "Registrovať sa cez Google",
+      "artFightLabel": "Registrovať vyhradený účet umelca",
+      "artFightHint": "Odomknite nástroje Nástenky pre umelcov: kopírovanie vložení (URL, HTML, BBCode, Markdown) pri každej hostovanej karte."
+    },
+    "error": {
+      "title": "Chyba autentifikácie",
+      "defaultError": "Počas autentifikácie došlo k chybe.",
+      "backToLogin": "Späť na prihlásenie"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Účet s týmto e-mailom už existuje. Prosím, použite iný e-mail.",
+      "INVALID_CREDENTIALS": "Neplatný e-mail alebo heslo.",
+      "INVALID_EMAIL": "Neplatný formát e-mailu.",
+      "INVALID_PASSWORD": "Heslo musí obsahovať aspoň 6 znakov.",
+      "EMAIL_REQUIRED": "E-mail je povinný.",
+      "PASSWORD_REQUIRED": "Heslo je povinné.",
+      "NAME_REQUIRED": "Meno je povinné.",
+      "SERVER_ERROR": "Chyba servera. Prosím, skúste to neskôr.",
+      "NETWORK_ERROR": "Chyba siete. Prosím, skontrolujte svoje pripojenie."
+    },
+    "forgotPassword": {
+      "title": "Zabudnuté heslo",
+      "description": "Zadajte svoj e-mail a my vám pošleme odkaz na obnovenie hesla.",
+      "email": "E-mail",
+      "send": "Odoslať odkaz na obnovenie",
+      "backToLoginHint": "Spomenuli ste si na heslo?",
+      "checkEmail": "Ak účet s týmto e-mailom existuje, poslali sme odkaz na obnovenie. Skontrolujte doručenú poštu.",
+      "emailRequired": "E-mail je povinný",
+      "error": {
+        "userNotFound": "Účet s týmto e-mailom nebol nájdený",
+        "tooManyRequests": "Príliš veľa pokusov. Skúste to prosím neskôr",
+        "serverError": "Niečo sa pokazilo. Skúste to prosím znova"
+      }
+    },
+    "resetPassword": {
+      "title": "Obnovenie hesla",
+      "password": "Nové heslo",
+      "reset": "Obnoviť heslo",
+      "backToLoginHint": "Pripravení sa prihlásiť?",
+      "requestNewLink": "Požiadať o nový odkaz",
+      "showPassword": "Zobraziť heslo",
+      "hidePassword": "Skryť heslo",
+      "minLength": "Heslo musí mať aspoň 6 znakov",
+      "error": {
+        "expiredToken": "Odkaz na obnovenie vypršal. Požiadajte o nový",
+        "invalidToken": "Neplatný odkaz na obnovenie. Požiadajte o nový",
+        "missingToken": "Odkaz na obnovenie chýba alebo je neúplný. Požiadajte o nový",
+        "tooManyRequests": "Príliš veľa pokusov. Skúste to prosím neskôr",
+        "serverError": "Niečo sa pokazilo. Skúste to prosím znova"
+      }
+    },
+    "orContinueWith": "Alebo pokračujte cez"
+  },
+  "Mail": {
+    "common": {
+      "team": "Tím {name}",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Ahoj, {name}.",
+      "body": "Kliknite na tlačidlo nižšie a obnovte si heslo k Photo To URL. Ak ste o to nežiadali, tento e-mail môžete ignorovať.",
+      "resetPassword": "Obnoviť heslo",
+      "subject": "Obnovte heslo k Photo To URL"
+    }
+  },
+  "PricingPage": {
+    "title": "Jednoduché a transparentné ceny",
+    "description": "Vyberte si plán, ktorý vám najlepšie vyhovuje, s jednoduchým a transparentným oceňovaním",
+    "subtitle": "Vyberte si plán, ktorý vám najlepšie vyhovuje",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "faqTitle": "Často kladené otázky",
+    "faq": {
+      "payment": {
+        "q": "Aké platobné metódy prijímate?",
+        "a": "Prijímame všetky hlavné karty (Visa, Mastercard, American Express) a PayPal."
+      },
+      "cancel": {
+        "q": "Môžem zrušiť kedykoľvek?",
+        "a": "Áno, zrušiť môžete kedykoľvek z nastavení účtu. Nebudú vám účtované žiadne budúce poplatky."
+      },
+      "storage": {
+        "q": "Koľko úložného priestoru mám?",
+        "a": "Bezplatný plán ponúka 50MB, Pro 5GB a Ročný 50GB."
+      },
+      "upload": {
+        "q": "Môžem si neskôr upgradeovať plán?",
+        "a": "Áno, upgradeovať alebo downgradovať môžete kedykoľvek. Zmeny sa uplatnia okamžite."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/ mesiac",
+      "perYear": "/ rok",
+      "popular": "Najobľúbenejší",
+      "bestValue": "Najlepšia hodnota",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Začnite teraz",
+      "upgradeToYearly": "Prejsť na Premium",
+      "cannotDowngrade": "Zníženie plánu nie je možné",
+      "alreadySubscribed": "Aktuálny plán je už aktívny",
+      "subscribeYearly": "Ročné predplatné",
+      "subscribeMonthly": "Mesačné predplatné",
+      "upgrade": "Upgrade",
+      "notAvailable": "Not Available",
+      "limitedOffer": "Časovo obmedzená ponuka · zľava 20 %",
+      "savePercentLabel": "Ušetrite ",
+      "savePercentSuffix": " oproti mesačnému",
+      "freePriceNote": "Navždy zadarmo",
+      "monthlyPriceNote": "Účtované mesačne",
+      "loading": "Nacitava sa...",
+      "suitableFor": "Vhodné pre:",
+      "activePlanDialog": {
+        "title": "Už máte aktívne predplatné",
+        "description": "Tento účet už má aktívne predplatné.",
+        "descriptionWithDate": "Tento účet už má aktívne predplatné (končí {date}).",
+        "close": "Zavrieť",
+        "manageBilling": "Spravovať predplatné"
+      },
+      "batchUpload": {
+        "label": "Hromadné nahrávanie fotiek",
+        "free": "Nie",
+        "monthly": "20",
+        "yearly": "50"
+      },
+      "justPerMonth": "{price}/mes.",
+      "saveVsMonthly": "Ušetrite {percent}%",
+      "monthlyEquivalentShort": "({price}/ mesiac)",
+      "bestValueWithSave": "Najlepšie · Ušetrite {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Nacitava sa...",
+      "checkoutFailed": "Nepodarilo sa otvorit stranku platby"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Zadarmo",
+      "description": "Dokonalé na vyskúšanie Photo To URL",
+      "features": {
+        "feature-1": "Veľkosť nahrávania: 2MB",
+        "feature-2": "Denné nahrávania: 10 krát",
+        "feature-3": "Úložisko: 100MB",
+        "feature-4": "CDN: Základné zrýchlenie",
+        "feature-5": "Bez reklám: Nie",
+        "feature-6": "Hosting dokumentov: Nie",
+        "feature-7": "Hosting fotiek: Nie",
+        "feature-8": "Úprava fotografií: Nie",
+        "feature-9": "Webhook: Nie",
+        "feature-10": "Oprávnenia zdrojov: Žiadne"
+      },
+      "limits": [],
+      "suitableFor": "Vyskúšajte produkt, otestujte funkcie"
+    },
+    "pro": {
+      "name": "Profesionálny",
+      "description": "Pre pravidelné nahrávanie a spoľahlivé uloženie",
+      "features": {
+        "feature-1": "Veľkosť nahrávania: 50MB",
+        "feature-2": "Denné nahrávania: 1000 krát",
+        "feature-3": "Úložisko: 100GB",
+        "feature-4": "CDN: Štandardné zrýchlenie",
+        "feature-5": "Bez reklám: Áno",
+        "feature-6": "Hosting dokumentov: Áno",
+        "feature-7": "Hosting fotiek: Áno",
+        "feature-8": "Úprava fotografií: Áno",
+        "feature-9": "Webhook: Áno",
+        "feature-10": "Oprávnenia zdrojov: Čiastočné"
+      },
+      "limits": [],
+      "suitableFor": "Blogeri / Vývojári / Malé tímy"
+    },
+    "proYearly": {
+      "name": "Prémiový",
+      "description": "Ročný plán s vyššími limitmi a rýchlejším CDN",
+      "features": {
+        "feature-1": "Veľkosť nahrávania: 256MB",
+        "feature-2": "Denné nahrávania: Neobmedzené",
+        "feature-3": "Úložisko: 200GB",
+        "feature-4": "CDN: Vysokorýchlostné uzly (priorita)",
+        "feature-5": "Bez reklám: Áno",
+        "feature-6": "Hosting dokumentov: Áno",
+        "feature-7": "Hosting fotiek: Áno",
+        "feature-8": "Úprava fotografií: Áno",
+        "feature-9": "Webhook: Áno",
+        "feature-10": "Oprávnenia zdrojov: Všetky"
+      },
+      "limits": [],
+      "suitableFor": "Podniky / Časté použitie / Automatizačné systémy"
+    }
+  },
+  "Dashboard": {
+    "title": "Prehľad",
+    "themeToggle": "Téma",
+    "welcome": "Vitajte",
+    "loadFailed": "Načítanie zlyhalo. Skús to neskôr znova.",
+    "errorTitle": "Niečo sa pokazilo",
+    "dismiss": "Rozumiem",
+    "dashboard": "Prehľad",
+    "resources": "Moje zdroje",
+    "photos": "Moje fotky",
+    "storage": "Úložisko",
+    "used": "Použité",
+    "total": "Celkom",
+    "storageDisplay": "{used} z {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Neobmedzene",
+    "deleteConfirm": "Naozaj chcete odstrániť tento zdroj?",
+    "deleteResource": "Odstrániť zdroj",
+    "deleteFailed": "Zdroj sa nepodarilo odstrániť",
+    "delete": "Odstrániť",
+    "cancel": "Zrušiť",
+    "copied": "Skopírované!",
+    "copy": "Kopírovať odkaz",
+    "open": "Otvoriť",
+    "removeBackground": "Odstránenie pozadia",
+    "noResources": "Žiadne zdroje. Nahrajte nejaké obrázky a začnite.",
+    "files": "súbory",
+    "dailyUploads": "Dnešné nahrania",
+    "today": "dnes",
+    "resourcesCount": "Máte {count} nahraných zdrojov",
+    "photosCount": "Máte {count} nahraných fotiek",
+    "resourcePageInfo": "Stránka {page} z {totalPages} · {pageSize} na stránku · spolu {total} súborov",
+    "resourceTotalCount": "Spolu položiek: {total}",
+    "resourcePageSizeLabel": "Položiek na stránku",
+    "resourcePageSizeOption": "{size} na stránku",
+    "resourceJumpTo": "Prejsť na",
+    "resourceJumpPageUnit": "stránku",
+    "resourceJumpInputAria": "Číslo stránky",
+    "resourcePagePrev": "Predchádzajúca stránka",
+    "resourcePageNext": "Ďalšia stránka",
+    "subtitle": "Tu je prehľad vášho pracovného priestoru.",
+    "planCardTitle": "Plán",
+    "planActive": "Aktívny",
+    "planNames": {
+      "free": "Zadarmo",
+      "premium": "Prémiový",
+      "pro": "Profesionálny"
+    },
+    "planCardHintUpgrade": "Vyšší plán = viac funkcií",
+    "planCardHintAllUpgraded": "Všetky funkcie odomknuté",
+    "statStorageHint": "Využité miesto zo všetkých nahraní",
+    "statResourcesHint": "Spolu fotky + dokumenty",
+    "statPhotosHint": "Súbory, ktoré môžete kopírovať alebo zdieľať ako odkazy",
+    "statUploadsHint": "Obnoví sa každých 24 h podľa úrovne",
+    "chartTitle": "Aktivita",
+    "chartDescription": "Objem nahraní v čase",
+    "chartPlaceholder": "Trendy sa tu zobrazia, keď bude viac aktivity.",
+    "chartRange7d": "Posledných 7 dní",
+    "chartRange30d": "Posledných 30 dní",
+    "chartRange90d": "Posledné 3 mesiace",
+    "tableFile": "Súbor",
+    "tablePath": "Cesta",
+    "tableSize": "Veľkosť",
+    "tableActions": "Akcie",
+    "viewTable": "Tabuľka",
+    "viewGrid": "Fotografická stena",
+    "chartDemoNote": "Trend nahrávania (dni)",
+    "loginRequired": "Prihláste sa, aby ste si prezreli svoj prehľad.",
+    "checkoutSuccess": "Platba úspešná! Váš plán bol povýšený.",
+    "subscriptionSuccess": "Predplatné aktivované. Vitajte v {plan}!",
+    "circleCrop": "Kruhový výrez",
+    "roundedCorners": "Zaoblené rohy",
+    "scheduledForDeletion": "Naplánované na odstránenie",
+    "upload": "Nahrať",
+    "uploadPhoto": "Nahrať fotku",
+    "batchUploadPhotos": "Hromadné nahrávanie fotiek",
+    "batchUploading": "Prebieha hromadné nahrávanie…",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Vyberte naraz najviac {max} súborov.",
+    "batchUploadTierHint": "Až {max} súborov na jednu dávku podľa vášho tarifu.",
+    "uploadUpgradeHint": "Po upgrade k dispozícii",
+    "uploading": "Nahráva sa...",
+    "loading": "Načítava sa...",
+    "uploadErrorInvalidType": "Neplatný typ súboru. Použite PNG, JPG, WEBP alebo GIF.",
+    "uploadErrorTooLarge": "Subor je prilis velky. Vas plan umoznuje az {maxMb} MB na subor.",
+    "uploadErrorDailyLimit": "Dosiahli ste denný limit ({limit} nahraní/deň).",
+    "uploadErrorStorageLimit": "Dosiahli ste limit úložiska.",
+    "uploadErrorGeneric": "Nahrávanie zlyhalo. Skúste to znova.",
+    "uploadUpgradeTitle": "Odomknite priamy upload",
+    "uploadUpgradeDescription": "Upgradujte, aby ste mohli nahrávať priamo z dashboardu s vyššími limitmi.",
+    "uploadRenewDescription": "Obnovte predplatné, aby ste mohli nahrávať priamo z dashboardu s vyššími limitmi.",
+    "expiredStorageLimitHint": "Po vypršaní je k dispozícii len 100MB úložiska",
+    "uploadGoHome": "Nahrať na domovskej stránke",
+    "resourceModule": {
+      "title": "Moje dokumenty",
+      "count": "Máte {count} nahraných dokumentov",
+      "empty": "Zatiaľ žiadne dokumenty. Nahrajte PDF/Word/PowerPoint/Excel a začnite.",
+      "viewCard": "Karty",
+      "searchPlaceholder": "Hľadať podľa názvu súboru",
+      "typeAll": "Všetky typy",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Resetovať",
+      "upload": "Nahrať dokument",
+      "uploading": "Nahráva sa...",
+      "copy": "Kopírovať odkaz",
+      "open": "Otvoriť",
+      "delete": "Odstrániť",
+      "deleteFailed": "Dokument sa nepodarilo odstrániť",
+      "fetchError": "Nepodarilo sa načítať zoznam dokumentov",
+      "tableFile": "Súbor",
+      "tablePath": "Cesta",
+      "tableType": "Typ",
+      "typeLabel": "Typ",
+      "tableSize": "Veľkosť",
+      "tableActions": "Akcie",
+      "uploadErrorTooLarge": "Súbor je príliš veľký. Limit na súbor vo vašom pláne je {maxSize}.",
+      "uploadErrorDailyLimit": "Denný limit dosiahnutý ({limit} nahratí/deň).",
+      "uploadErrorStorageLimit": "Dosiahnutý limit úložiska.",
+      "uploadErrorGeneric": "Nahrávanie zlyhalo. Skúste to znova."
+    },
+    "uploadSize": "Veľkosť súboru {size}",
+    "dailyUploadsLimit": "{limit} nahraní/deň",
+    "dailyUploadsUnlimited": "Neobmedzené nahrávania",
+    "monthly": "mes.",
+    "yearly": "rok",
+    "bestValue": "Najlepšia hodnota",
+    "upgrade": {
+      "title": "Vylepšite svoj plán",
+      "description": "Upgradujte plán pre vyššie denné limity, väčšie súbory a prémiové funkcie. Neobmedzené denné nahrávania s ročným plánom Premium.",
+      "button": "Upgradujte teraz"
+    },
+    "settings": {
+      "title": "Nastavenia",
+      "profile": {
+        "title": "Profil",
+        "description": "Spravujte informácie o svojom profile",
+        "name": {
+          "title": "Meno",
+          "description": "Aktualizujte svoje zobrazované meno",
+          "placeholder": "Zadajte svoje meno",
+          "hint": "Toto je meno, ktoré sa bude zobrazovať vo vašom profile",
+          "minLength": "Meno musí mať aspoň 3 znaky",
+          "maxLength": "Meno nesmie presiahnuť 30 znakov",
+          "success": "Meno úspešne aktualizované",
+          "fail": "Aktualizácia mena zlyhala",
+          "save": "Uložiť",
+          "saving": "Ukladanie..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Aktualizujte svoju profilovú fotku",
+          "uploadAvatar": "Nahrať obrázok",
+          "unavailable": "Nahrávanie nedostupné",
+          "disabledHint": "Nahrávanie avatara vyžaduje, aby bolo pre tento projekt povolené cloudové úložisko.",
+          "recommendation": "PNG, JPG alebo WebP. Maximálna veľkosť sa riadi limitmi servera."
+        }
+      },
+      "billing": {
+        "title": "Fakturácia",
+        "description": "Spravujte svoju fakturáciu a predplatné",
+        "billingPagePlanTitle": "Aktuálny plán",
+        "billingPageStorageTitle": "Využitie úložiska",
+        "currentPlan": {
+          "title": "Váš plán a úložisko na Photo To URL",
+          "description": "Upgradujte pre vyššie limity a viac funkcií"
+        },
+        "loadError": "Nepodarilo sa načítať fakturačné údaje.",
+        "retry": "Skúsiť znovu",
+        "planNames": {
+          "free": "Zadarmo",
+          "premium": "Prémiový",
+          "pro": "Profesionálny"
+        },
+        "status": {
+          "active": "Aktívne",
+          "expired": "Vypršalo"
+        },
+        "storageUsed": "Použité úložisko",
+        "freePlanMessage": "Vyšší limit nahrávania",
+        "inactivePlanMessage": "Výhody vypršali",
+        "expiredStorageLimitHint": "Po vypršaní je k dispozícii len 100MB úložiska",
+        "paidPlanMessage": "Výhody sú aktívne",
+        "backToWorkbench": "Späť na nástenku",
+        "upgradeHint": "Viac úložného priestoru",
+        "upgradeToPlan": "Upgradovať plán",
+        "featureAdvancedEditing": "Pokročilé editačné nástroje",
+        "upgradeNotReady": {
+          "title": "Čoskoro",
+          "description": "Ostaňte naladení na ďalšie služby!",
+          "confirm": "Rozumiem",
+          "cancel": "Zavrieť"
+        },
+        "storage": {
+          "title": "Rýchlejší CDN",
+          "description": "Sledujte svoju spotrebu úložiska",
+          "upgradeStorage": "Rozšíriť úložisko"
+        }
+      },
+      "security": {
+        "title": "Bezpečnosť",
+        "description": "Spravujte bezpečnosť svojho účtu",
+        "updatePassword": {
+          "title": "Heslo",
+          "description": "Zmeňte heslo pre prihlásenie e-mailom",
+          "currentPassword": "Aktuálne heslo",
+          "newPassword": "Nové heslo",
+          "confirmPassword": "Potvrdte nove heslo",
+          "currentRequired": "Zadajte svoje aktuálne heslo",
+          "newMinLength": "Aspoň 8 znakov",
+          "confirmRequired": "Prosim potvrďte svoje nove heslo",
+          "passwordMismatch": "Hesla sa nezhoduju",
+          "hint": "Použite silné heslo, ktoré nepoužívate inde.",
+          "save": "Aktualizovať heslo",
+          "saving": "Ukladanie…",
+          "success": "Heslo aktualizované",
+          "fail": "Heslo sa nepodarilo aktualizovať",
+          "showPassword": "Zobraziť heslo",
+          "hidePassword": "Skryť heslo"
+        },
+        "resetPassword": {
+          "title": "Nastaviť heslo",
+          "description": "Prihlásili ste sa cez Google. Pridajte heslo e-mailu ako záložné prihlásenie.",
+          "info": "Pošleme vám odkaz na obnovenie hesla na e-mail vášho účtu.",
+          "button": "Odoslať odkaz na obnovenie",
+          "sending": "Odosielanie…",
+          "sent": "Skontrolujte doručenú poštu — nájdete tam odkaz na obnovenie.",
+          "disabled": "E-maily pre obnovenie hesla na tomto serveri ešte nie sú nakonfigurované.",
+          "fail": "Požiadavka zlyhala. Skúste to neskôr."
+        },
+        "deleteAccount": {
+          "title": "Vymazať účet",
+          "description": "Trvalo odstráňte svoj účet a súvisiace údaje.",
+          "warning": "Toto nemožno vrátiť späť. Uistite sa, že ste uložili všetko, čo potrebujete.",
+          "button": "Vymazať môj účet",
+          "confirmTitle": "Vymazať účet?",
+          "confirmDescription": "Váš účet bude trvalo vymazaný.",
+          "cancel": "Zrušiť",
+          "confirm": "Vymazať",
+          "deleting": "Vymazávanie…",
+          "success": "Účet vymazaný",
+          "fail": "Účet sa nepodarilo vymazať"
+        }
+      },
+      "notification": {
+        "title": "Oznámenia",
+        "description": "Spravujte svoje preferencie oznámení",
+        "newsletter": {
+          "title": "E-mailové aktualizácie",
+          "description": "Novinky o produktoch a tipy (voliteľné)",
+          "label": "Prihlásiť sa na odber newslettera",
+          "disabledHint": "Newsletter pre túto stránku ešte nie je povolený.",
+          "hint": "Keď bude povolený, môžete sa tu prihlásiť alebo odhlásiť."
+        },
+        "productPreview": {
+          "title": "Ukážka produktu",
+          "description": "Hlavný obrázok používaný na zdieľacích kartách a vstupných stránkach.",
+          "announcement": {
+            "line1": "Neustále prinášame výkonnejšie funkcie a ešte hodnotnejšie členské výhody.",
+            "line2": "Nové možnosti upgradu budú prioritne dostupné pre existujúcich používateľov, bez zmeny ceny.",
+            "line3": "Ďakujeme každému používateľovi za dôveru a podporu. Budeme ďalej vylepšovať produkt, aby prinášal ešte vyššiu hodnotu.",
+            "line4": "Budeme ďalej optimalizovať globálnu používateľskú skúsenosť rýchlejšími a spoľahlivejšími službami."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Účet umelca",
+    "artFightWorkspaceHint": "Nástroje umelca aktívne — kopírujte vložiteľné kódy URL, HTML, BBCode a Markdown pri každej fotke."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Hosting profilových kariet Art Fight | URL a vložiteľné kódy",
+      "description": "Nahrajte profilové karty Team Tragedy, Comedy alebo Mystery. Získajte priamy HTTPS odkaz a vloženie HTML/BBCode pre Art Fight, Discord a príspevky na sociálnych sieťach.",
+      "keywords": "profilová karta Art Fight,hosting ref sheet,Team Tragedy,Team Comedy,HTML BBCode embed"
+    },
+    "footerLink": "Hosting Art Fight",
+    "artistAccount": {
+      "badge": "Účet umelca",
+      "title": "Registrovať vyhradený účet umelca",
+      "lead": "Vytvorte si bezplatný účet umelca na ukladanie profilových kariet v Nástenke a profesionálne nástroje vkladania pre Art Fight — kopírujte URL, HTML, BBCode a Markdown pri každom nahratom súbore.",
+      "toolEmbedTitle": "Nástroje vkladania",
+      "toolEmbedDesc": "Kopírovanie jedným kliknutím pre profily Art Fight, Discord, fóra a príspevky na sociálnych sieťach.",
+      "toolDashboardTitle": "Nástenka umelca",
+      "toolDashboardDesc": "Každá karta zostane vo vašom účte — kedykoľvek vyhľadávajte, prezerajte a znova kopírujte odkazy.",
+      "toolBatchTitle": "Hromadné nahrávanie (Pro)",
+      "toolBatchDesc": "Po upgrade nahrajte veľa profilových kariet naraz — pre umelcov s viacerými OC.",
+      "registerCta": "Vytvoriť účet umelca",
+      "footnote": "Začiarknite «Vyhradený účet umelca» pri registrácii, alebo sa registrujte z tejto stránky — vopred to vyberieme."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "Pre digitálnych umelcov a tvorcov OC",
+      "title": "Hosting profilových kariet a ref sheetov pre umelcov Art Fight",
+      "subtitle": "Nahrajte profilovú kartu Team Tragedy, Comedy alebo Mystery — získajte stabilné URL obrázka a kódy vloženia HTML a BBCode pre profily Art Fight, Discord a príspevky „ready to fight“.",
+      "artistAccountLine": "Zaregistrujte vyhradený účet umelca pre profesionálne embed nástroje v dashboarde.",
+      "cta": "Pretiahnite kartu nižšie → skopírujte odkaz → vložte všade, kde oznamujete svoj tím",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Hosting profilu",
+      "tabArtist": "Účet umelca",
+      "tabSupport": "Podpora umelcov",
+      "tabsAriaLabel": "Hlavné body Art Fight",
+      "trustLine": "Bezplatné rýchle nahranie · URL a vložiteľné kódy · Nástenka umelca",
+      "uploadCta": "Nahrať kartu",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Kódy pripravené na vloženie",
+      "panelIntroDesc": "Nahrajte profilovú kartu raz, potom skopírujte priamy odkaz alebo HTML a BBCode pre Art Fight a Discord.",
+      "panelArtistTitle": "Nástroje účtu umelca",
+      "panelSupportTitle": "Špecializovaná podpora umelcov",
+      "panelSupportDesc": "Nahrávanie, vkladanie, účty a plány — skutoční ľudia, nie všeobecná fronta ticketov."
+    },
+    "teams": {
+      "title": "Rovnaký nástroj pre každý tím Art Fight",
+      "lead": "Či už ste skončili v Tragedy, Comedy alebo Mystery, po dokončení karty potrebujete jedno: rýchly, stabilný odkaz na obrázok na zdieľanie.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Modré profilové karty a ref sheety — hostujte celý obrázok karty a vložte odkaz na profil Art Fight alebo príspevok na Twitter/X.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Oranžové, teplé karty postáv — ideálne pre oznámenia na Discord a vloženie do profilu v plnom tempe Art Fight.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Fialové karty tretej frakcie — rovnaký postup nahrávania, rovnaké kódy vloženia, pripravené kedykoľvek zdieľať.",
+      "footnote": "Všetky tri tímy majú rovnaký postup: nahrať → skopírovať URL alebo vloženie → verejne zverejniť kartu."
+    },
+    "useCases": {
+      "title": "Kam umelci vkladajú odkaz",
+      "lead": "Art Fight je sociálny. Váš hostovaný odkaz sprevádza každú aktualizáciu profilu a každý príspevok „som v tomto tíme“.",
+      "profileTitle": "Profil Art Fight",
+      "profileDesc": "Vložte priame URL alebo HTML vloženie do oficiálneho profilu postavy Art Fight, aby spoluhráči videli vašu kartu.",
+      "socialTitle": "Twitter / X a príspevky na sociálnych sieťach",
+      "socialDesc": "Zdieľajte profilovú kartu pri oznámení tímu — čistý HTTPS odkaz sa rýchlo načíta v časových osiach a odpovediach.",
+      "discordTitle": "Discord a servery umelcov",
+      "discordDesc": "Vložte URL alebo BBCode do kanálov Discord Art Fight, intro servera alebo vlákien plánov útokov.",
+      "portfolioTitle": "Toyhouse a portfólio",
+      "portfolioDesc": "Rovnaký odkaz na Toyhouse, Carrd alebo v podpisoch na fórach — ref konzistentný všade."
+    },
+    "features": {
+      "sectionTitle": "Prečo umelci Art Fight volia Photo To URL",
+      "fastTitle": "Vytvorené pre rušné obdobia Art Fight",
+      "fastDesc": "Nahrávajte, keď potrebujete zverejniť — CDN odkaz počas sekúnd počas zahrievania, vrcholu akcie alebo kedykoľvek v roku.",
+      "linkTitle": "URL vhodné pre profilové karty",
+      "linkDesc": "Čisté odkazy .png/.jpg akceptované profilmi Art Fight, fórami a príspevkami bez ďalších krokov.",
+      "embedTitle": "HTML a BBCode pre umelcov",
+      "embedDesc": "Kopírujte úryvky vloženia pre profily a fóra — bez ručnej úpravy img tagov v rušnej sezóne.",
+      "safeTitle": "Hosting v Nástenke po prihlásení",
+      "safeDesc": "Registrovaní používatelia ukladajú profilové karty do Nástenky — znova kopírujte odkazy, vyhľadávajte súbory a spravujte nahrávanie z jedného miesta."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Účet umelca: hostujte karty v Nástenke",
+      "sectionLead": "Anonymné nahrávanie stačí na rýchly príspevok. Registrujte sa ako umelec Art Fight pre špecializovanú Nástenku s nástrojmi vkladania pri každej hostovanej karte — alebo upgradujte na Pro pre hromadné nahrávanie a vyššie limity.",
+      "dashboardTitle": "Hosting fotiek v Nástenke",
+      "dashboardDesc": "Po prihlásení každé nahranie skončí v Nástenke. Kedykoľvek skopírujte rovnaký odkaz, otvorte obrázok v novej záložke alebo stiahnite originál — všetko z jedného zoznamu.",
+      "batchTitle": "Hromadné nahrávanie (Pro)",
+      "batchDesc": "Nahrajte veľa profilových kariet naraz z Nástenky — až {monthlyMax} na dávku u Pro mesačne alebo {yearlyMax} u Premium ročne.",
+      "manageTitle": "Vyhľadávanie a fotostena",
+      "manageDesc": "Nájdite hostovanú kartu podľa názvu súboru, prepínajte tabuľku a fotostenu a mažte súbory, ktoré už nepotrebujete.",
+      "proTitle": "Vyššie limity a väčšie súbory",
+      "proDesc": "Všetko z Free plus hromadné nahrávanie v Nástenke ({monthlyMax}–{yearlyMax} súborov), vyššie denné limity, väčšie nahrávanie a viac úložiska.",
+      "anonymousLabel": "Anonymne",
+      "anonymousDesc": "Rýchly odkaz pre jeden príspevok. Neuložené v účte; môže byť kedykoľvek vyčistené.",
+      "freeLabel": "Bezplatný účet",
+      "freeDesc": "Karty uložené v Nástenke. Znova kopírujte odkazy, vyhľadávajte a spravujte, kým ich nesmažete alebo nedosiahnete limity úložiska.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Vytvoriť bezplatný účet",
+      "loginCta": "Prihlásiť sa",
+      "dashboardCta": "Otvoriť Nástenku",
+      "proCta": "Zobraziť plány Pro",
+      "ctaPanelTitle": "Pripravení hostovať karty?",
+      "footnote": "Bezplatné účty nahrávajú tu a spravujú súbory v Nástenke. Hromadné nahrávanie vyžaduje Pro alebo Premium."
+    },
+    "upload": {
+      "sectionTitle": "Nahrajte profilovú kartu Art Fight",
+      "sectionLead": "Ref sheet, tímová karta alebo celá profilová grafika — pretiahnite sem a skopírujte odkaz pre ďalší príspevok.",
+      "dropzoneTitle": "Pretiahnite profilovú kartu alebo ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP alebo GIF — tímové karty, ref sheety a grafiky postáv vítané",
+      "dropzoneFootnote": "Zadarmo: 5 nahraní/deň bez registrácie. Prihláste sa pre vyššie limity kedykoľvek.",
+      "defaultAlt": "Profilová karta Art Fight",
+      "resultTitle": "Vaša karta je pripravená — zdieľajte ju",
+      "resultHint": "Skopírujte URL pre profily Art Fight alebo HTML/BBCode pre fóra a Discord.",
+      "open": "Otvoriť obrázok",
+      "reset": "Nahrať ďalšiu kartu",
+      "errorBadType": "Nahrajte súbor obrázka (PNG, JPG, WEBP alebo GIF).",
+      "errorGeneric": "Nahrávanie zlyhalo. Skúste to znova.",
+      "loginRequiredTitle": "Denný bezplatný limit dosiahnutý",
+      "loginRequiredDescription": "Prihláste sa pre ďalšie nahrávanie profilových kariet a ukladanie do Nástenky, alebo sa vráťte zajtra pre ďalšie bezplatné nahrania.",
+      "loginRequiredDetail": "Registrovaní používatelia majú hosting v Nástenke: každá karta zostane v účte, odkazy možno kedykoľvek znova kopírovať, vyhľadávať podľa názvu súboru a spravovať nahrávanie z jedného miesta.",
+      "retentionAnonymousTitle": "Anonymný odkaz — neodporúčané pre dôležité karty",
+      "retentionAnonymousBody": "Anonymné nahrávania len na rýchle zdieľanie. Odkaz funguje, ale nie je uložený — registrujte sa zdarma pre embedy.",
+      "retentionAnonymousSignUp": "Vytvoriť bezplatný účet",
+      "retentionAnonymousPro": "Zobraziť plány Pro",
+      "retentionFreeTitle": "Tento odkaz je uložený vo vašom účte",
+      "retentionFreeBody": "Môžete ho kedykoľvek znova skopírovať z Nástenky. Bezplatné účty majú denné limity nahrávania a strop úložiska — stačí na rýchle karty, nie neobmedzene.",
+      "retentionFreeDashboard": "Otvoriť Nástenku",
+      "retentionFreeUpgrade": "Upgradovať pre viac úložiska",
+      "retentionProTitle": "Vaša profilová karta je hostovaná v pláne Pro",
+      "retentionProBody": "Vyššie limity nahrávania, viac úložiska a spoľahlivé odkazy pre každý Art Fight — Tragedy, Comedy alebo Mystery.",
+      "retentionProDashboard": "Otvoriť Nástenku",
+      "resultHintAnonymous": "Anonymné nahranie — iba priamy odkaz. Zaregistrujte sa pre HTML, BBCode a Markdown.",
+      "retentionAnonymousIntro": "Tento priamy odkaz je na rýchle zdieľanie, ale anonymný hosting má vážne obmedzenia:",
+      "retentionAnonymousLimit1": "Nie je viazaný na účet — menej bezpečné; ktokoľvek s odkazom môže vidieť obrázok",
+      "retentionAnonymousLimit2": "Pomalší CDN — anonymné nahrávania bez prioritného zrýchlenia",
+      "retentionAnonymousLimit3": "Môže byť komprimované — pôvodná kvalita nie je zaručená",
+      "retentionAnonymousLimit4": "Krátka životnosť — anonymné súbory sa pravidelne mažú; odkaz môže prestať fungovať",
+      "retentionAnonymousLimit5": "Embed kódy uzamknuté — HTML, BBCode a Markdown vyžadujú bezplatný účet",
+      "retentionAnonymousCta": "Vytvorte bezplatný účet na uloženie kariet, odomknutie embedov, rýchlejší CDN a spoľahlivejšie odkazy."
+    },
+    "embed": {
+      "altLabel": "Alternatívny text (pre HTML a Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Kopírovať kód",
+      "copied": "Skopírované",
+      "lockedTabTitle": "Zaregistrujte sa pre odomknutie embedov",
+      "lockedTabDescription": "HTML, BBCode a Markdown po registrácii. Bezplatné účty: dashboard a kopírovanie embed jedným klikom.",
+      "lockedTabCta": "Vytvoriť bezplatný účet"
+    },
+    "howTo": {
+      "title": "Od profilovej karty k verejnému príspevku",
+      "lead": "Postup, ktorý každý umelec Art Fight nasleduje po dokončení karty.",
+      "schemaName": "Ako hostovať profilovú kartu Art Fight s vložiteľným kódom",
+      "schemaDescription": "Nahrajte tímovú profilovú kartu Art Fight do Photo To URL a vložte odkaz na profil alebo príspevok.",
+      "step1Title": "Nahrajte tímovú kartu",
+      "step1Desc": "Pretiahnite profilovú kartu Tragedy, Comedy alebo Mystery alebo ref sheet. Okamžite získate priamy odkaz a kódy vloženia.",
+      "step2Title": "Skopírujte URL alebo vložiteľný kód",
+      "step2Desc": "Záložka URL pre profily Art Fight, HTML/BBCode pre Discord, fóra a portfólio.",
+      "step3Title": "Zverejnite a oznámte tím",
+      "step3Desc": "Vložte odkaz na Art Fight, Twitter/X alebo Discord, aby ostatní umelci videli vašu kartu a našli vás počas akcie."
+    },
+    "faq": {
+      "title": "FAQ umelcov Art Fight",
+      "lead": "Otázky od umelcov nahrávajúcich karty Team Tragedy, Comedy a Mystery.",
+      "warningTitle": "Nahrávajte zodpovedne",
+      "warningBody": "Hostujte len diela, ktoré ste vytvorili alebo máte jasné právo zdieľať. Nenahrávajte porušujúci, nelegálny alebo zakázaný obsah. Za každý nahraný súbor nesiete zodpovednosť.",
+      "warningTermsLink": "Podmienky služby",
+      "warningPrivacyLink": "Zásady ochrany súkromia",
+      "q1Question": "Je to pre profilové karty alebo ref sheety?",
+      "q1Answer": "Pre oboje. Nahrajte celú tímovú profilovú kartu Art Fight, ref sheet postavy alebo akúkoľvek grafiku na hotlink počas akcie.",
+      "q2Question": "Funguje to pre všetky tri tímy?",
+      "q2Answer": "Áno. Karty Team Tragedy, Team Comedy a Team Mystery používajú rovnaké nahrávanie — hostujeme obrázok a dáme zdieľateľný odkaz.",
+      "q3Question": "Potrebujem účet na nahrávanie?",
+      "q3Answer": "Nie pre rýchle nahranie. Anonymní používatelia majú 10 bezplatných nahraní denne. Prihláste sa pre ukladanie kariet v Nástenke — znova kopírujte odkazy, vyhľadávajte a spravujte. Pro pridáva hromadné nahrávanie z Nástenky (až 20–50 kariet naraz) a vyššie limity.",
+      "q8Question": "Môžem hromadne nahrať veľa profilových kariet?",
+      "q8Answer": "Áno, v platenom pláne. Otvorte Nástenku, použite hromadné nahrávanie a vyberte viac súborov PNG/JPG/WEBP/GIF naraz — až 20 na dávku u Pro mesačne alebo 50 u Premium ročne. Bezplatné účty nahrávajú jednu kartu naraz na tejto stránke alebo v Nástenke.",
+      "q4Question": "Bude odkaz fungovať na Discord a Twitter?",
+      "q4Answer": "Áno. Priame HTTPS URL funguje v príspevkoch. BBCode pre Discord, kde je podporovaný.",
+      "q5Question": "Zostane môj odkaz dlhodobo dostupný?",
+      "q5Answer": "Záleží na spôsobe nahrania. Anonymné odkazy len na rýchle použitie — pravidelne čistíme anonymné nahrávania a odkaz môže kedykoľvek prestať fungovať. Registrovaní držia súbory v Nástenke do zmazania alebo limitu. Pro je najspoľahlivejší dlhodobo.",
+      "q6Question": "Môžem nahrať akýkoľvek obrázok? A autorské práva?",
+      "q6Answer": "Nahrávajte len obrázky, ktoré vlastníte alebo máte oprávnenie hostovať a zdieľať — vlastné OC, commissons s právom hostovania, vlastné diela. Nenahrávajte cudzie ref sheety, oficiálne assety Art Fight, ktoré ste nevytvorili, fotky celebrít, logá značiek ani chránený materiál bez povolenia. Porušenie je vaša zodpovednosť.",
+      "q7Question": "Aký obsah je prísne zakázaný?",
+      "q7Answer": "Nikdy nelegálny obsah; sexuálne explicitný alebo vykořisťujúci materiál (vrátane neplnoletých); nenávisť, obťažovanie, násilie; malware alebo podvody; porušenie autorských práv, ochranných známok alebo súkromia. Súbory môžeme odstrániť a prístup pozastaviť bez upozornenia."
+    },
+    "artistSupport": {
+      "title": "Podpora umelcov — sme tu pre vás",
+      "panelVisualTag": "Odpoveď do 1–2 dní",
+      "panelVisualQuestion": "Vloženie BBCode nefunguje?",
+      "panelVisualReply": "Rozumieme — pomôžeme vám to vyriešiť.",
+      "topicEmbed": "Vloženie a odkazy",
+      "topicAccount": "Účet umelca",
+      "topicPlan": "Plány a úložisko",
+      "topicFeedback": "Nápady a spätná väzba",
+      "contactHint": "Napíšte kedykoľvek — bez fronty.",
+      "contactCta": "Kontaktujte nás",
+      "emailCta": "Napíšte nám"
+    },
+    "conversion": {
+      "title": "Hostujete veľa OC? Hromadné nahrávanie z Nástenky",
+      "description": "Umelci Pro nahrávajú desiatky profilových kariet naraz, všetky odkazy v Nástenke a vyššie denné limity a úložisko pre celý roster.",
+      "cta": "Zobraziť umelcom priateľské plány Pro"
+    }
+  }
+}

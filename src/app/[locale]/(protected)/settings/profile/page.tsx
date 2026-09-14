@@ -1,0 +1,9 @@
+import { UpdateAvatarCard } from '@/components/settings/profile/update-avatar-card';
+
+export default function ProfilePage() {
+  return (
+    <div className="flex flex-col gap-8">
+      <UpdateAvatarCard />
+    </div>
+  );
+}

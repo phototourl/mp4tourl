@@ -1,0 +1,55 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.swp
+*.swo
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local env files
+.env*.local
+
+# Docker (also exclude docker-specific files)
+.dockerignore
+
+# npm config (local developers can create their own)
+.npmrc
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sentry Auth Token
+.sentryclirc
+
+# IDE
+.cursor
+.vscode
+
+# 本地运维脚本（勿提交）
+/doc/reset-user-password.mjs
+
+# Git
+.git

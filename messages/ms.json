@@ -1,0 +1,1651 @@
+{
+  "common": {
+    "siteName": "Foto ke URL",
+    "logout": "Log keluar",
+    "logoutFailed": "Log keluar gagal",
+    "switchLanguage": "Tukar bahasa",
+    "tagline": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi dalam beberapa saat",
+    "header": {
+      "home": "Laman Utama",
+      "blog": "Blog",
+      "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
+      "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
+      "circleCrop": "Foto ke Potongan Bulat",
+      "circleCropNav": "Potongan bulat",
+      "roundedCorners": "Sudut bulat",
+      "removeBackground": "Foto Buang Latar Belakang",
+      "removeBackgroundNav": "Buang Latar Belakang",
+      "pricingNav": "Harga",
+      "comingSoon": "Akan datang.",
+      "history": "Rekod muat naik",
+      "login": "Log masuk",
+      "signUp": "Daftar",
+      "signOut": "Log keluar",
+      "dashboard": "Papan pemuka",
+      "settings": "Tetapan",
+      "tool": "Alat",
+      "pdfToUrlNav": "PDF ke URL",
+      "fileToUrlNav": "Fail ke URL",
+      "artFightNav": "Kad profil"
+    },
+    "history": {
+      "drawerTitle": "Rekod muat naik",
+      "hint": "Papar muat naik minggu lepas.",
+      "close": "Tutup",
+      "empty": "Tiada muat naik lagi.",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
+      "open": "Buka dalam tab baharu"
+    },
+    "languageSelect": {
+      "title": "Pilih wilayah anda",
+      "subtitle": "Memilih wilayah akan menukar bahasa dan kandungan.",
+      "close": "Tutup"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi.",
+        "line2": "Pantas, mudah, boleh dipercayai."
+      },
+      "partners": "Rakan Kongsi",
+      "linksTitle": "Sumber",
+      "productsTitle": "Produk",
+      "nav": {
+        "home": "Laman Utama",
+        "blog": "Blog",
+        "pricing": "Harga",
+        "docs": "Dokumentasi",
+        "status": "Status",
+        "about": "Tentang Kami",
+        "contact": "Hubungi"
+      },
+      "legal": {
+        "title": "Undang-undang",
+        "privacy": "Privasi",
+        "terms": "Syarat",
+        "cookie": "Dasar Kuki"
+      },
+      "copyright": "© 2025 Photo To URL. All rights reserved.",
+      "products": {
+        "editStamp": "Editor setem"
+      }
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Percuma",
+      "cdn": "Pautan CDN",
+      "nosignup": "Tanpa daftar"
+    },
+    "hero": {
+      "title1": "Percuma",
+      "title2": "Foto URL",
+      "subtitle": "Muat naik → dapat pautan → tampal di mana-mana",
+      "upload": "Muat naik imej",
+      "bullet": {
+        "fast": "Perkongsian pantas",
+        "direct": "Pautan foto langsung",
+        "nosignup": "Tiada pendaftaran diperlukan",
+        "paste": "Tampal dari papan klip"
+      }
+    },
+    "loginPrompt": {
+      "title": "Log masuk untuk teruskan",
+      "description": "Anda telah mencapai had muat naik percuma. Log masuk untuk menyimpan sejarah muat naik dan mengurus fail. Had lebih tinggi tersedia dalam pelan Pro.",
+      "benefits": "Kenapa daftar?",
+      "benefit1": "Sejarah muat naik penuh - tersusun, tepat, dan sentiasa boleh diakses",
+      "benefit2": "Akses semua alat suntingan premium",
+      "benefit3": "Storan awan dengan sejarah muat naik",
+      "login": "Log masuk / Daftar",
+      "later": "Nanti"
+    },
+    "upgradePrompt": {
+      "title": "Had harian dicapai",
+      "description": "Anda telah menggunakan semua muat naik untuk hari ini. Datang semula esok! Lebih banyak perkhidmatan premium akan datang.",
+      "comingSoon": "Nantikan lebih banyak perkhidmatan",
+      "goDashboard": "Lihat",
+      "later": "Nanti"
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo Automatik",
+      "idleTitle": "Seret dan lepaskan imej anda",
+      "idleSubtitle": "Lihat keseluruhan proses muat naik → pautan → salin.",
+      "processing": "Mengoptimum & memuat naik...",
+      "doneTitle": "Sedia untuk dikongsi",
+      "doneSubtitle": "Pautan anda sedia untuk dikongsi serta-merta.",
+      "thanksForWatching": "Terima kasih kerana menonton"
+    },
+    "upload": {
+      "title": "Lepaskan foto atau klik untuk semak imbas",
+      "hint": "JPG, PNG, WEBP, GIF sehingga 2MB (10 muat naik/hari percuma). Seret & lepaskan, klik, atau tampal tangkapan skrin.",
+      "orDrop": "atau lepaskan fail",
+      "samplesTitle": "Tiada imej? Cuba salah satu ini:",
+      "policy": "Dengan memuat naik foto, anda bersetuju dengan <privacy>Dasar Privasi</privacy> dan <terms>Syarat Perkhidmatan</terms> kami.",
+      "clear": "Kosongkan"
+    },
+    "result": {
+      "error": "Muat naik gagal. Sila cuba lagi.",
+      "fileTooLarge": "Fail terlalu besar. Pelan anda membenarkan sehingga {maxMb} MB setiap fail.",
+      "dailyLimitReached": "Had harian ({limit} sehari) dicapai. Cuba lagi esok.",
+      "storageLimitReached": "Storan penuh ({used} / {limit}). Pilihan storan tambahan akan datang tidak lama lagi!",
+      "generated": "Pautan yang dihasilkan:",
+      "open": "Buka dalam tab baharu",
+      "placeholder": "Belum ada pautan lagi. Muat naik foto untuk menghasilkan URL boleh dikongsi.",
+      "savePrompt": "Simpan pautan mengikut kesukaan anda",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
+      "saveHint": "Simpan pautan ini jika anda memerlukannya kemudian",
+      "saveHintLoggedIn": "Disimpan di Panel",
+      "tryPrefix": "Cuba"
+    },
+    "benefits": {
+      "title": "Mengapa orang memilih Foto ke URL",
+      "subtitle": "Kepantasan, pautan bersih, dan tiada pendaftaran diperlukan. — Cuba percuma: 10 muat naik/hari, 2MB setiap fail",
+      "items": {
+        "fast": {
+          "title": "Perkongsian Pantas",
+          "desc": "Muat naik dan dapatkan pautan dalam beberapa saat tanpa langkah tambahan."
+        },
+        "direct": {
+          "title": "URL Imej Langsung",
+          "desc": "Pautan bersih yang berfungsi dalam HTML, Markdown, dan aplikasi sembang."
+        },
+        "nosignup": {
+          "title": "Tanpa Pendaftaran",
+          "desc": "Cuba percuma: 5 muat naik/hari, 2MB setiap fail — tanpa pendaftaran."
+        }
+      }
+    },
+    "how": {
+      "title": "Cara Ia Berfungsi",
+      "step1": "1) Tambah foto anda (seret, tampal, atau klik untuk pilih fail).",
+      "step2": "2) Kami hoskannya dan berikan pautan boleh dikongsi.",
+      "step3": "3) Salin pautan dan kongsi dalam dokumen, sembang, prototaip, dan lain-lain.",
+      "note": "Pautan anda dibuka pantas dalam dokumen, sembang, dan prototaip—ditambah pula anda boleh memuat turunnya sebagai .txt."
+    },
+    "process": {
+      "title": "Aliran Tiga Langkah",
+      "subtitle": "Kurangkan usaha, kekalkan tumpuan pada tindakan, selesai dalam beberapa saat.",
+      "steps": {
+        "1": {
+          "title": "Lepas atau Tampal",
+          "desc": "Seret fail, tampal dari papan klip, atau semak imbas."
+        },
+        "2": {
+          "title": "Kami Hos & Beri Pautan",
+          "desc": "URL segera dengan kawalan salin/buka/simpan."
+        },
+        "3": {
+          "title": "Gunakan di Mana Sahaja",
+          "desc": "Gunakan dalam dokumen, sembang, tiket, blog, atau prototaip."
+        }
+      }
+    },
+    "features": {
+      "title": "Ciri-ciri Utama",
+      "subtitle": "Kejelasan adalah utama: kurangkan geseran, lebih banyak perkongsian.",
+      "items": {
+        "cdn": {
+          "title": "Pautan CDN Langsung",
+          "desc": "URL bersih dan terjangka yang sedia untuk dibenamkan dalam Markdown dan HTML."
+        },
+        "save": {
+          "title": "Salin dan Simpan",
+          "desc": "Salin, buka, atau simpan sebagai fail .txt dengan satu klik."
+        },
+        "clipboard": {
+          "title": "Mesra Papan Klip",
+          "desc": "Tampal tangkapan skrin tanpa perlu mencari fail atau muat naik semula."
+        },
+        "errors": {
+          "title": "Selamat dan Peribadi",
+          "desc": "Images are securely hosted with encryption in transit and at rest."
+        },
+        "nosignup": {
+          "title": "Tanpa Pendaftaran",
+          "desc": "Cuba percuma: 5 muat naik/hari, 2MB setiap fail — tanpa pendaftaran."
+        },
+        "r2": {
+          "title": "Penyimpanan Pantas",
+          "desc": "Pautan disediakan melalui CDN pantas untuk pemuatan segera dan akses yang boleh dipercayai."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Pasukan yang Menjimatkan Masa dengan Perkhidmatan Kami",
+      "subtitle": "Bukti sosial untuk mengurangkan risiko dan mempercepatkan penggunaan.",
+      "items": {
+        "ops": {
+          "name": "Ops Produk",
+          "quote": "Kami menampal tangkapan skrin ke dalam tiket tanpa membebankan lampiran. Pautan tetap bersih."
+        },
+        "content": {
+          "name": "Ketua Kandungan",
+          "quote": "Pautan sedia Markdown memastikan dokumen kami tersusun dan sedia untuk diterbitkan dalam beberapa minit."
+        },
+        "support": {
+          "name": "Sokongan",
+          "quote": "Ralat yang jelas dan URL segera memudahkan kami membimbing pelanggan melalui sembang."
+        }
+      }
+    },
+    "cta": {
+      "title": "Tukarkan foto kepada pautan dalam beberapa saat",
+      "subtitle": "Lepaskan, tampal, atau muat naik—salin pautan anda dan kongsi.",
+      "upload": "Muat Naik Sekarang",
+      "paste": "Tampal Tangkapan Skrin"
+    },
+    "longform": {
+      "title": "Bagaimana Foto ke URL Membantu Aliran Kerja Anda",
+      "p1": "Foto ke URL dibina untuk pencipta, pemasar, pasukan sokongan, pengasas, dan sesiapa sahaja yang memerlukan cara yang pantas dan boleh dipercayai untuk menukarkan foto menjadi pautan bersih. Dengan aliran muat naik-ke-pautan langsung, anda mengelakkan pengurus media yang berat dan keperluan untuk log masuk. Pautan tersusun rapi, mudah ditampal ke dalam aplikasi sembang, dokumen, wiki, laporan pepijat, dan tiket. Pasukan bekerja lebih pantas apabila tangkapan skrin dan foto produk boleh dikongsi serta-merta tanpa had lampiran atau pratonton yang bersepah. Memandangkan pautan adalah terjangka dan konsisten, ia juga berfungsi dengan baik dalam automasi, langkah QA, dan prototaip ringan.",
+      "p2": "Pengalamannya tetap ringkas: lepas, tampal, atau semak imbas; dapatkan pautan; kongsi. Tiada antara muka yang merumitkan, tiada iklan yang mengganggu. Anda fokus pada kandungan anda sementara kami mengendalikan bahagian pengehosan yang membosankan. Sama ada anda mendokumentasikan ciri, menyusun catatan blog, membina dek pembentangan, atau menghantar respons sokongan pantas, pautan pendek adalah lebih baik daripada lampiran yang berat. Bagi pasukan global, antara muka tersedia dalam pelbagai bahasa manakala teks tetap ringkas dan universal.",
+      "useCases": {
+        "title": "Kes Penggunaan Praktikal",
+        "items": {
+          "1": "Produk & Reka Bentuk: Kongsi mock UI, tangkapan skrin komponen, dan nota visual pantas tanpa mengeksport ke alat yang berat.",
+          "2": "Sokongan & QA: Lampirkan tangkapan skrin dalam tiket, utas sembang, atau buku panduan; pautan tetap tersusun dan mudah dikesan.",
+          "3": "Dokumentasi & Blog: Benamkan foto dalam editor Markdown, HTML, atau CMS dengan URL yang terjangka.",
+          "4": "Jualan & CS: Masukkan tangkapan bukti konsep atau panduan pelanggan terus ke dalam e-mel atau mesej.",
+          "5": "Penyerahan Kejuruteraan: Pastikan artifak binaan dan paparan ralat tetap ringan untuk semakan pantas.",
+          "6": "Komuniti & Sosial: Tampal pautan dalam Discord, Slack, Teams, Twitter/X, atau forum tanpa pratonton yang berat."
+        }
+      },
+      "flow": {
+        "title": "Cara Aliran Berfungsi Dari Mula Hingga Akhir",
+        "p1": "1) Pilih imej: seret-dan-lepas, tampal dari papan klip, atau klik untuk semak imbas. PNG, JPG, WEBP, GIF sehingga 2MB dalam pelan percuma (10 muat naik/hari). 2) Kami muat naik dan berikan pautan langsung dengan tindakan salin/buka/simpan (.txt). 3) Gunakan pautan dalam blog, dokumen, tiket, sembang, prototaip, dan lain-lain.",
+        "p2": "Setiap langkah ditala untuk kejelasan: status visual, ralat yang jelas, dan butang yang mengesahkan tindakan. Apabila CDN didayakan, pautan disediakan dari domain CDN; imej anda disimpan dengan selamat di our hosting infrastructure."
+      },
+      "best": {
+        "title": "Amalan Terbaik Untuk Pautan Bersih",
+        "items": {
+          "1": "Namakan fail anda dengan bermakna sebelum memuat naik; ia kekal sebagai sebahagian daripada URL dan membantu pencarian masa hadapan.",
+          "2": "Gunakan WEBP atau JPG/PNG yang dioptimumkan untuk muatan ringan jika anda menjangkakan banyak perkongsian.",
+          "3": "Salin pautan serta-merta selepas dihasilkan untuk mengelakkan kemasukan papan klip yang lama.",
+          "6": "Simpan sebagai .txt untuk pautan teks biasa yang sedia untuk disalin dan digunakan."
+        }
+      },
+      "roadmap": {
+        "title": "Sorotan Rancangan Masa Hadapan",
+        "p1": "Kami akan mengintegrasikan our hosting infrastructure secara mendalam, menyediakan kuota dan keupayaan pengurusan yang lebih mesra pengguna, bersama dengan kerjasama pasukan pilihan, kawalan akses, dan analitik setiap pautan. Kami merancang untuk melancarkan ciri seperti padam satu klik, gaya pautan yang telah ditetapkan, dan baldi storan peringkat organisasi. Sementara itu, kami sentiasa meningkatkan dan menyempurnakan produk sampingan: alat potong bulat, alat sudut bulat dan alat penyingkiran latar belakang, untuk menjadikan pemprosesan imej lebih mudah."
+      },
+      "faq": {
+        "title": "Soalan Lazim (FAQ)",
+        "items": {
+          "1": {
+            "q": "Adakah ini percuma?",
+            "a": "Ya — ada versi percuma. Teras muat naik→pautan percuma dalam had percuma (muatan harian, jumlah storan, saiz fail). Untuk melonggarkan had ini, pilih pelan berbayar: pautan dihoskan melalui CDN dengan kuota lebih tinggi dan had saiz fail maksimum yang lebih besar."
+          },
+          "2": {
+            "q": "Format apa yang disokong?",
+            "a": "Pada masa ini PNG, JPG, WEBP dan GIF disokong dalam had saiz fail semasa. Format lain boleh ditambah mengikut keperluan."
+          },
+          "3": {
+            "q": "Bolehkah saya membenam dalam Markdown atau HTML?",
+            "a": "Ya. Salin pautan terus atau simpan satu klik sebagai .txt dan gunakan di mana anda perlukan — Markdown, HTML, dokumen atau CMS."
+          },
+          "4": {
+            "q": "Adakah fail saya kekal awam?",
+            "a": "Pautan boleh dikongsi. Apabila CDN didayakan, fail dihantar melalui domain CDN. Jika storan tidak tersedia buat sementara waktu, kami memaparkan mesej penyelenggaraan yang jelas."
+          },
+          "5": {
+            "q": "Adakah akan ada akaun atau pasukan?",
+            "a": "Ya. Kami fokus dahulu pada muat naik dan perkongsian yang mudah serta boleh dipercayai; kemudian secara beransur-ur menambah ruang pasukan, kawalan akses dan analitik penggunaan."
+          },
+          "6": {
+            "q": "Bolehkah saya mendapat bayaran balik selepas membayar?",
+            "a": "Biasanya kami tidak menawarkan bayaran balik selagi perkhidmatan masih tersedia untuk penggunaan biasa. Jika anda tidak dapat menggunakan perkhidmatan dalam tempoh berbayar kerana masalah di pihak kami, kami akan semak selepas pengesahan dan jika perlu berunding langkah seterusnya dengan anda."
+          },
+          "7": {
+            "q": "Bagaimana membatalkan pembaharuan?",
+            "a": "Pembaharuan dicaj secara automatik ke kad yang anda benarkan. Untuk menghentikan caj akan datang, batalkan debit automatik atau pengebilan berulang dengan penerbit kad (aplikasi, perbankan dalam talian atau khidmat pelanggan)."
+          },
+          "8": {
+            "q": "Berapa lama saya boleh terus menggunakan perkhidmatan selepas batal?",
+            "a": "Biasanya anda boleh terus sehingga tamat tempoh yang sudah dibayar. Selepas itu tiada caj baharu dan faedah tamat bersama tempoh itu."
+          }
+        },
+        "contactNote": "Untuk perkara di atas dan soalan lain, gunakan halaman «Hubungi kami» di laman ini atau e-mel ke <email>support@phototourl.com</email>. Kami sasarkan balasan dalam 1–2 hari bekerja."
+      },
+      "about": {
+        "title": "Perihal Photo To URL",
+        "p1": "PhotoToURL ialah penukar imej ke URL percuma dan penjana pautan imej yang membantu anda memuat naik imej dan serta-merta menjana pautan imej yang boleh dikongsi. Tukar JPG, PNG, WEBP dan format lain dengan mudah kepada URL imej langsung untuk perkongsian dalam talian yang pantas.",
+        "p2": "Sama ada anda perlukan photo to URL pantas atau pengehosan imej percuma dengan pautan CDN, PhotoToURL menjadikannya mudah dan boleh dipercayai. Muat naik imej dan dapatkan pautan langsung dalam beberapa saat. Pelan percuma: 10 muat naik/hari, 2MB setiap fail — lihat Harga untuk had lebih tinggi."
+      }
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan anda"
+    }
+  },
+  "seo": {
+    "keywords": "foto url,imej url,penjana pautan,tukar imej,pengehosan percuma,url langsung,pautan mudah",
+    "home": {
+      "title": "Foto ke URL | Kongsi dengan mudah",
+      "description": "Pengehosan percuma: tukar foto jadi URL boleh dikongsi. JPG, PNG, WEBP, GIF sehingga 2MB, 10 muat naik/hari dalam pelan percuma. Tampal papan klip, CDN pantas."
+    }
+  },
+  "images": {
+    "previewAlt": "Pratonton imej yang dimuat naik",
+    "animatingSampleAlt": "Imej sampel yang digunakan dalam demo muat naik",
+    "sampleThumbAlt": "Contoh imej dimuat naik",
+    "useSampleAria": "Gunakan imej sampel ini",
+    "howIllustrationAlt": "Ilustrasi yang menunjukkan cara Foto ke URL berfungsi",
+    "heroDropTitle": "Seret foto ke sini",
+    "heroDropSubtitle": "Kami akan mengehoskan dan memberikan pautan bersih.",
+    "heroDropBadge": "Seret atau klik (JPG/PNG, sehingga 2MB)",
+    "logoAlt": "Logo Foto ke URL"
+  },
+  "circleCrop": {
+    "title": "Foto ke Potongan Bulat",
+    "description": "Alat pemotongan foto bulat dalam talian percuma, potong sebarang foto menjadi bulatan sempurna dengan mudah - sesuai untuk gambar profil, media sosial, dan projek reka bentuk.",
+    "upload": "Muat Naik Foto",
+    "processing": "Memproses...",
+    "download": "Muat Turun Foto Bulat",
+    "errorSelectFile": "Sila pilih fail foto",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu",
+    "page": {
+      "title": "Foto ke Potongan Bulat - Pemotong Foto Bulat Dalam Talian Percuma",
+      "description": "Foto ke Potongan Bulat ialah alat dalam talian percuma untuk menukarkan foto segi empat tepat kepada bentuk bulatan yang sempurna. Alat kami membantu anda memotong foto dalam format bulatan serta-merta, tanpa perlu mendaftar.",
+      "sectionSubtitle": "Potong mana-mana foto menjadi bulatan sempurna - sesuai untuk gambar profil, avatar media sosial, dan projek reka bentuk."
+    },
+    "seo": {
+      "title": "Alat Potong Bulat | Pemotong Foto Bulat Dalam Talian Percuma",
+      "description": "Alat dalam talian percuma untuk memotong sebarang foto menjadi bulatan yang sempurna - sesuai untuk gambar profil, media sosial, dan projek reka bentuk.",
+      "keywords": "potong gambar bulat, potong foto bulat, alat potong bulat, potong bulat dalam talian"
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan anda"
+    }
+  },
+  "roundedCorners": {
+    "title": "Foto ke Sudut Bulat",
+    "description": "Alat dalam talian percuma untuk sudut bulat, tambah sudut bulat ke mana-mana foto dengan mudah – sesuai untuk ikon aplikasi, gambar profil dan projek reka bentuk.",
+    "upload": "Muat naik foto",
+    "download": "Muat turun",
+    "radiusLabel": "Jejari (px)",
+    "scaleLabel": "Zum",
+    "processing": "Memproses...",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu.",
+    "errorSelectFile": "Sila pilih fail imej.",
+    "page": {
+      "title": "Foto ke Sudut Bulat – Alat dalam talian percuma",
+      "description": "Foto ke Sudut Bulat ialah alat dalam talian percuma untuk menambah sudut bulat ke mana-mana foto. Cipta ikon gaya app, imej tepi lembut untuk media sosial, atau thumbnail dengan jejari dan zum yang boleh laras. Tanpa pendaftaran – muat naik, laraskan, muat turun.",
+      "sectionSubtitle": "Tambah bucu bulat pada mana-mana foto - sesuai untuk ikon aplikasi, media sosial, dan lakaran kecil."
+    },
+    "seo": {
+      "title": "Alat Sudut Bulat | Alat dalam talian percuma",
+      "description": "Alat percuma untuk menambah sudut bulat ke foto – untuk ikon app, gambar profil, dan projek reka bentuk.",
+      "keywords": "sudut bulat, gambar sudut bulat, alat sudut bulat, sudut bulat dalam talian"
+    },
+    "selectRegion": {
+      "title": "Pilih rantau",
+      "subtitle": "Pilih bahasa dan rantau pilihan anda"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Buang Latar Belakang",
+    "description": "Alat penyingkiran latar belakang AI dalam talian percuma, buang latar belakang dengan mudah dari mana-mana foto - sempurna untuk foto produk, potret dan projek reka bentuk.",
+    "upload": "Muat Naik Foto",
+    "download": "Muat Turun",
+    "processing": "Memproses...",
+    "processingModelLoading": "Memuatkan model AI, penggunaan pertama mungkin mengambil masa 10-30 saat, sila tunggu...",
+    "processingImage": "Memproses imej, sila tunggu...",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu.",
+    "errorSelectFile": "Sila pilih fail imej.",
+    "errorProcessing": "Gagal memproses imej. Sila cuba lagi.",
+    "errorTimeout": "Masa tamat pemprosesan, imej mungkin terlalu besar atau rangkaian perlahan, sila cuba imej yang lebih kecil atau cuba lagi kemudian.",
+    "errorMemory": "Memori tidak mencukupi, sila cuba imej yang lebih kecil.",
+    "errorGeneric": "Pemprosesan gagal: {error}. Sila cuba lagi atau cuba imej lain.",
+    "errorFileTooLarge": "Fail imej terlalu besar, sila pilih imej yang lebih kecil daripada 10MB.",
+    "errorModelLoad": "Gagal memuatkan pustaka model AI, sila segar semula halaman dan cuba lagi.",
+    "errorPageHidden": "Halaman telah ditukar, sila muat naik imej semula untuk diproses.",
+    "page": {
+      "title": "Foto Buang Latar Belakang - Alat Penyingkiran Latar Belakang AI Dalam Talian Percuma",
+      "description": "Foto Buang Latar Belakang ialah alat dalam talian percuma yang didorong oleh AI untuk membuang latar belakang dari mana-mana foto. Cipta imej PNG telus serta-merta dengan teknologi penyingkiran latar belakang canggih kami. Sempurna untuk foto produk, potret, e-dagang dan projek reka bentuk. Tiada pendaftaran diperlukan - muat naik, proses dan muat turun dalam beberapa saat.",
+      "sectionSubtitle": "Pembuangan latar belakang berkuasa AI - cipta PNG lutsinar daripada mana-mana foto dalam beberapa saat."
+    },
+    "seo": {
+      "title": "Alat Penyingkiran Latar Belakang | Alat Penyingkiran Latar Belakang AI Dalam Talian Percuma",
+      "description": "Alat AI dalam talian percuma untuk membuang latar belakang dari mana-mana foto - sempurna untuk foto produk, potret dan projek reka bentuk.",
+      "keywords": "buang latar belakang, alat penyingkiran latar belakang, latar belakang telus, penyingkiran latar belakang ai"
+    },
+    "selectRegion": {
+      "title": "Pilih Rantau",
+      "subtitle": "Pilih bahasa dan rantau pilihan anda"
+    }
+  },
+  "pdfToUrl": {
+    "seo": {
+      "title": "PDF ke URL | Hosting PDF dan pautan HTTPS boleh dikongsi",
+      "description": "Muat naik PDF ke akaun anda dan dapatkan pautan HTTPS yang stabil — lihat, muat turun atau salin pautan pada bila-bila masa di papan pemuka akaun.",
+      "keywords": "pdf ke url,hosting pdf,kongsi pdf,muat naik pdf,pautan terus,pautan dokumen"
+    },
+    "tool": {
+      "heroTitle": "PDF ke URL",
+      "heroSubtitle": "Tukar PDF kepada pautan HTTPS boleh dikongsi di bawah akaun anda. Selepas setiap muat naik, buka papan pemuka untuk menyalin pautan, pratonton atau muat turun.",
+      "featureFastTitle": "Muat naik pantas",
+      "featureFastDesc": "Seret dan lepas PDF atau pilih fail — dalam beberapa saat anda mendapat pautan melalui CDN kami.",
+      "featureHostingTitle": "Hosting peribadi",
+      "featureHostingDesc": "Setiap fail disimpan dalam awan dan perpustakaan dokumen anda — bukan pautan anonim sekali guna.",
+      "featureLinkTitle": "Pautan stabil dan mudah dikongsi",
+      "featureLinkDesc": "Setiap muat naik mengembalikan URL bersih untuk tampal di mana-mana. Pautan kekal aktif sehingga anda memadam fail di papan pemuka.",
+      "featureDashboardTitle": "Semua di satu tempat",
+      "featureDashboardDesc": "Selepas log masuk, buka papan pemuka untuk melihat semua PDF: salin semula pautan, buka dalam tab baharu atau muat turun asal.",
+      "dropzoneTitle": "Seret PDF ke sini",
+      "dropzoneHint": "PDF sahaja",
+      "dropzoneFootnote": "Selepas muat naik, anda boleh kembali ke papan pemuka pada bila-bila masa untuk menyalin pautan atau memuat turun fail.",
+      "browse": "Pilih fail",
+      "selectedFileLabel": "Fail dipilih",
+      "removeSelectedFile": "Buang fail",
+      "uploadBtn": "Muat naik dan dapatkan pautan",
+      "uploading": "Memuat naik…",
+      "loginRequiredTitle": "Log masuk untuk memuat naik PDF",
+      "loginRequiredDescription": "Log masuk dahulu. Hosting diikat dengan akaun anda; selepas muat naik anda boleh menyalin pautan, memuat turun dan mengurus semuanya di papan pemuka.",
+      "loginRequiredDetail": "Selepas log masuk, setiap muat naik dipaparkan di tempat yang sama pada papan pemuka: salin pautan terus dengan satu klik, buka dalam tab baharu, muat turun asal, cari dan tapis mengikut jenis jika perlu, padam atau muat naik semula — membantu mengekalkan privasi dokumen.",
+      "loginCta": "Log masuk",
+      "signUpCta": "Cipta akaun",
+      "resultTitle": "Pautan PDF anda",
+      "resultDashboardHint": "Untuk fail ini, buka papan pemuka pada bila-bila masa: salin URL, buka dalam tab baharu atau muat turun PDF.",
+      "dashboardCta": "Buka papan pemuka",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
+      "open": "Buka dalam tab baharu",
+      "reset": "Muat naik lain",
+      "errorUnauthorized": "Log masuk sebelum memuat naik PDF.",
+      "errorBadType": "Pilih fail PDF.",
+      "howTitle": "Cara ia berfungsi",
+      "step1Title": "1. Pilih PDF anda",
+      "step1Desc": "Pilih fail daripada peranti anda atau seret ke kawasan muat naik.",
+      "step2Title": "2. Muat naik ke perpustakaan",
+      "step2Desc": "Kami menyimpan PDF dalam awan anda dan memaparkannya di papan pemuka, kemudian mengembalikan URL HTTPS terus.",
+      "step3Title": "3. Kongsi dan kembali kemudian",
+      "step3Desc": "Kongsi pautan melalui e-mel atau sembang. Jika perlu, buka papan pemuka untuk menyalin pautan yang sama, membukanya atau memuat turun fail."
+    },
+    "page": {
+      "sectionTitle": "Dokumen anda di satu tempat",
+      "sectionLead": "Untuk mereka yang mahukan hosting PDF sebenar dengan perpustakaan — muat naik sekali, simpan dalam akaun dan kembali pada bila-bila masa.",
+      "bullet1": "Setiap PDF yang dimuat naik dipaparkan dalam senarai yang sama di papan pemuka supaya anda melihat perkongsian anda.",
+      "bullet2": "Hosting peribadi: fail di bawah akaun anda, disajikan melalui HTTPS dan kekal dalam perpustakaan.",
+      "bullet3": "Tindakan sentiasa tersedia: salin pautan awam, buka dalam pelayar atau muat turun PDF asal.",
+      "bullet4": "URL yang sama berfungsi selagi fail wujud; selepas dipadam di papan pemuka, pautan tidak lagi menyajikan fail itu.",
+      "footnote": "Padamkan fail yang tidak diperlukan di papan pemuka; pautan berhenti berfungsi."
+    }
+  },
+  "fileToUrl": {
+    "seo": {
+      "title": "Fail ke URL | Dokumen Office dan pautan HTTPS",
+      "description": "Muat naik fail PDF, Word, PowerPoint atau Excel ke akaun anda dan dapatkan pautan HTTPS yang stabil — lihat, muat turun atau salin pautan pada bila-bila masa di papan pemuka.",
+      "keywords": "fail ke url,pautan dokumen,kongsi office,muat naik docx pptx xlsx,hosting dokumen"
+    },
+    "tool": {
+      "heroTitle": "Fail ke URL",
+      "heroSubtitle": "Tukar dokumen pejabat kepada pautan HTTPS boleh dikongsi di bawah akaun anda. Format disokong: PDF, Word, PowerPoint dan Excel.",
+      "featureFastTitle": "Muat naik pantas",
+      "featureFastDesc": "Seret fail yang disokong atau pilih fail — dalam beberapa saat anda mendapat pautan melalui CDN.",
+      "featureHostingTitle": "Hosting peribadi",
+      "featureHostingDesc": "Setiap muat naik disimpan dalam awan anda dan masuk ke perpustakaan peribadi yang sama seperti muat naik daripada halaman lain.",
+      "featureLinkTitle": "Pautan stabil dan mudah dikongsi",
+      "featureLinkDesc": "Setiap muat naik mengembalikan URL bersih. Pautan kekal aktif sehingga anda memadam fail di papan pemuka.",
+      "featureDashboardTitle": "Semua di satu tempat",
+      "featureDashboardDesc": "Selepas log masuk, buka papan pemuka untuk menyalin semula pautan, buka dalam tab baharu atau muat turun.",
+      "dropzoneTitle": "Seret fail anda ke sini",
+      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
+      "dropzoneFootnote": "Selepas muat naik, anda boleh kembali ke papan pemuka pada bila-bila masa untuk menyalin pautan atau memuat turun fail.",
+      "browse": "Pilih fail",
+      "selectedFileLabel": "Fail dipilih",
+      "removeSelectedFile": "Buang fail",
+      "uploadBtn": "Muat naik dan dapatkan pautan",
+      "uploading": "Memuat naik…",
+      "loginRequiredTitle": "Log masuk untuk memuat naik fail",
+      "loginRequiredDescription": "Log masuk dahulu. Hosting diikat dengan akaun anda; selepas muat naik anda boleh menyalin pautan, memuat turun dan mengurus semuanya di papan pemuka.",
+      "loginRequiredDetail": "Selepas log masuk, setiap muat naik dipaparkan di tempat yang sama pada papan pemuka: salin pautan terus dengan satu klik, buka dalam tab baharu, muat turun asal, cari dan tapis mengikut jenis jika perlu, padam atau muat naik semula — membantu mengekalkan privasi dokumen.",
+      "loginCta": "Log masuk",
+      "signUpCta": "Cipta akaun",
+      "resultTitle": "Pautan fail anda",
+      "resultDashboardHint": "Untuk fail ini, buka papan pemuka pada bila-bila masa: salin URL, buka dalam tab baharu atau muat turun asal.",
+      "dashboardCta": "Buka papan pemuka",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
+      "open": "Buka dalam tab baharu",
+      "reset": "Muat naik lain",
+      "errorUnauthorized": "Log masuk sebelum memuat naik fail.",
+      "errorBadType": "Pilih fail PDF, Word, PowerPoint atau Excel.",
+      "howTitle": "Cara ia berfungsi",
+      "step1Title": "1. Pilih fail anda",
+      "step1Desc": "Pilih dokumen yang disokong daripada peranti anda atau seret ke kawasan muat naik.",
+      "step2Title": "2. Muat naik ke perpustakaan",
+      "step2Desc": "Kami menyimpan fail dalam awan anda dan memaparkannya di papan pemuka, kemudian mengembalikan URL HTTPS terus.",
+      "step3Title": "3. Kongsi dan kembali kemudian",
+      "step3Desc": "Kongsi pautan melalui e-mel atau sembang. Jika perlu, buka papan pemuka untuk menyalin pautan yang sama, membukanya atau memuat turun fail."
+    },
+    "page": {
+      "sectionTitle": "Ringkasnya",
+      "sectionLead": "Pilih fail, muat naik dan salin pautan anda; jika perlu buka papan pemuka untuk menyalin semula atau memuat turun asal.",
+      "bullet1": "Format disokong: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
+      "bullet2": "Seret dan lepas atau layari fail; apabila muat naik selesai, kami memaparkan pautan HTTPS sedia untuk disalin.",
+      "bullet3": "Tampal pautan dalam e-mel, sembang atau dokumen — penerima membukanya dalam pelayar.",
+      "bullet4": "Fail kekal dalam akaun anda; buka papan pemuka untuk menyalin pautan yang sama atau memuat turun asal.",
+      "bullet5": "PDF sahaja? Gunakan juga halaman «PDF ke URL» untuk aliran lebih pendek.",
+      "footnote": "Padamkan fail di papan pemuka apabila tidak diperlukan lagi; pautan berhenti berfungsi."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Foto ke URL",
+      "description": "Artikel tentang pengehosan foto, perkongsian pautan, dan tips prestasi."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Artikel, tutorial dan pandangan terkini tentang pengehosan imej, CDN, perkongsian pautan, potongan bulat, sudut bulat dan penyingkiran latar belakang.",
+      "stayTuned": "Tunggu panduan tentang:",
+      "guides": {
+        "1": "Amalan terbaik untuk penukaran imej ke URL",
+        "2": "Cara menggunakan pautan foto langsung dalam blog dan dokumen",
+        "3": "Prestasi dan cache untuk aset statik"
+      },
+      "readMore": "Baca lebih lanjut",
+      "min": "min",
+      "backToBlog": "Kembali ke blog",
+      "minRead": "min membaca",
+      "author": "Pengarang",
+      "viewMoreArticles": "Lihat artikel lain",
+      "tags": "Tag:",
+      "about": {
+        "title": "Mengenai Pasukan Foto ke URL",
+        "subtitle": "Pasukan Editorial",
+        "description": "Kami membina dan mengekalkan Foto ke URL serta menulis panduan praktikal untuk pengoptimuman imej dan prestasi web.",
+        "website": "Laman web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Lihat semua siaran"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cara Menukar Imej kepada URL: Panduan Lengkap",
+        "description": "Pelajari semua yang anda perlu tahu tentang menukar imej kepada URL yang boleh dikongsi. Panduan komprehensif ini merangkumi kaedah, amalan terbaik, dan tip untuk pengehosan imej dan perkongsian pautan.",
+        "content": "# Cara Menukar Imej kepada URL: Panduan Lengkap\n\nMenukar imej kepada URL yang boleh dikongsi telah menjadi kemahiran penting dalam dunia digital hari ini. Sama ada anda seorang blogger, pembangun, atau pencipta kandungan, memahami cara mengubah imej anda menjadi pautan langsung boleh meningkatkan aliran kerja dan keupayaan perkongsian kandungan anda dengan ketara.\n\n## Mengapa Menukar Imej kepada URL?\n\nSebelum kita menyelami kaedah, mari kita fahami mengapa menukar imej kepada URL adalah bermanfaat:\n\n### 1. **Perkongsian Mudah**\nURL imej langsung membolehkan anda berkongsi imej dengan serta-merta tanpa memuat turun atau memuat naik semula fail. Hanya salin URL dan tampal di mana-mana - dalam e-mel, dokumen, atau siaran media sosial.\n\n### 2. **Prestasi Lebih Baik**\nMenggunakan pautan imej langsung mengurangkan beban pada pelayan utama anda. Apabila imej dihoskan pada CDN (Content Delivery Network), ia dimuat lebih cepat untuk pengguna di seluruh dunia.\n\n### 3. **Fleksibiliti**\nURL imej boleh disematkan dalam HTML, Markdown, atau digunakan dalam API. Fleksibiliti ini menjadikannya sempurna untuk pembangun dan pencipta kandungan.\n\n### 4. **Kecekapan Penyimpanan**\nDaripada menyimpan imej secara tempatan, anda boleh menggunakan penyelesaian penyimpanan awan yang menyediakan URL langsung, menjimatkan ruang pelayan yang berharga.\n\n## Kaedah Menukar Imej kepada URL\n\n### Kaedah 1: Menggunakan Perkhidmatan Foto ke URL\n\n**Foto ke URL** adalah perkhidmatan percuma dan mesra pengguna yang menjadikan penukaran imej kepada URL mudah:\n\n1. **Lawati laman web**: Navigasi ke Foto ke URL\n2. **Muat naik imej anda**: Seret dan lepaskan fail imej anda atau klik untuk melayari\n3. **Dapatkan URL anda**: Setelah dimuat naik, anda akan menerima pautan langsung ke imej anda\n4. **Salin dan gunakan**: Salin URL dan gunakan di mana sahaja anda perlukan\n\n**Kelebihan:**\n- ✅ Tiada pendaftaran diperlukan\n- ✅ Muat naik dan pemprosesan pantas\n- ✅ Pautan CDN langsung untuk prestasi optimum\n- ✅ Sokongan untuk pelbagai format imej (JPG, PNG, WEBP, GIF)\n- ✅ 10 muat naik/hari, 2MB setiap fail\n\n### Kaedah 2: Perkhidmatan Penyimpanan Awan\n\nPerkhidmatan penyimpanan awan popular menawarkan hosting imej dengan akses URL langsung:\n\n**Google Cloud Storage / AWS S3:**\n- Muat naik imej ke bucket anda\n- Tetapkan kebenaran yang sesuai\n- Akses imej melalui URL langsung\n- Konfigurasi CDN untuk prestasi yang lebih baik\n\n**Kelebihan:**\n- Kawalan penuh ke atas imej anda\n- Penyelesaian penyimpanan yang boleh ditingkatkan\n- Infrastruktur tahap profesional\n\n### Kaedah 3: Platform Hosting Imej\n\nPlatform hosting imej khusus menyediakan perkhidmatan khusus:\n\n- **Imgur**: Popular untuk perkongsian imej pantas\n- **Cloudinary**: Ciri manipulasi imej lanjutan\n- **ImageKit**: Dioptimumkan untuk prestasi\n\n## Amalan Terbaik untuk URL Imej\n\n### 1. **Pilih Format yang Betul**\n\nFormat imej yang berbeza berfungsi untuk tujuan yang berbeza:\n\n- **JPEG**: Terbaik untuk foto dengan banyak warna\n- **PNG**: Sesuai untuk imej dengan ketelusan atau tepi tajam\n- **WEBP**: Format moden yang menawarkan mampatan yang lebih baik\n- **GIF**: Sempurna untuk imej animasi\n\n### 2. **Optimumkan Saiz Imej**\n\nSebelum menukar kepada URL, optimumkan imej anda:\n\n- Mampatkan imej untuk mengurangkan saiz fail\n- Ubah saiz imej kepada dimensi yang sesuai\n- Gunakan format moden seperti WEBP apabila mungkin\n- Seimbangkan kualiti dan saiz fail\n\n### 3. **Gunakan CDN untuk Prestasi Lebih Baik**\n\nRangkaian Penghantaran Kandungan (CDN) mengedarkan imej anda di pelbagai pelayan di seluruh dunia, memastikan masa muat yang pantas tanpa mengira lokasi pengguna.\n\n### 4. **Laksanakan Keselamatan yang Betul**\n\n- Gunakan URL HTTPS untuk penghantaran imej yang selamat\n- Tetapkan kebenaran akses yang sesuai\n- Pertimbangkan watermark untuk kandungan sensitif\n- Pantau penggunaan untuk mencegah penyalahgunaan\n\n## Kes Penggunaan Biasa\n\n### Untuk Blogger\n\nBlogger boleh menggunakan URL imej untuk:\n- Menyematkan imej dalam siaran blog tanpa menghoskan secara tempatan\n- Meningkatkan masa muat halaman\n- Berkongsi imej di pelbagai platform\n- Mengekalkan kualiti imej yang konsisten\n\n### Untuk Pembangun\n\nPembangun mendapat manfaat daripada URL imej dengan:\n- Mengurangkan beban pelayan\n- Memudahkan pengurusan imej\n- Membolehkan muat imej dinamik\n- Mengintegrasikan dengan API dan perkhidmatan web\n\n### Untuk E-dagang\n\nLaman e-dagang menggunakan URL imej untuk:\n- Memaparkan imej produk dengan cekap\n- Mengurus katalog imej yang besar\n- Mengoptimumkan untuk peranti mudah alih\n- Meningkatkan prestasi halaman checkout\n\n## Menyelesaikan Masalah Biasa\n\n### Masalah: Pautan Imej Rosak\n\n**Penyelesaian:**\n- Sahkan URL adalah betul dan boleh diakses\n- Semak kebenaran dan tetapan akses imej\n- Pastikan perkhidmatan hosting beroperasi\n- Sahkan format imej disokong\n\n### Masalah: Masa Muat Perlahan\n\n**Penyelesaian:**\n- Gunakan CDN untuk penghantaran imej\n- Optimumkan saiz fail imej\n- Pilih format imej yang sesuai\n- Laksanakan muat malas di mana mungkin\n\n### Masalah: Imej Tidak Dipaparkan\n\n**Penyelesaian:**\n- Semak tetapan CORS (Cross-Origin Resource Sharing)\n- Sahkan protokol HTTPS/HTTP sepadan\n- Pastikan jenis MIME yang betul ditetapkan\n- Uji kebolehaksesan URL dari lokasi yang berbeza\n\n## Petua Lanjutan\n\n### 1. **Pemprosesan Batch**\n\nUntuk pelbagai imej, pertimbangkan:\n- Menggunakan API untuk muat naik automatik\n- Melaksanakan skrip penukaran batch\n- Memanfaatkan API penyimpanan awan\n- Menyediakan aliran kerja automatik\n\n### 2. **Manipulasi Imej**\n\nSesetengah perkhidmatan menawarkan manipulasi imej secara langsung:\n- Mengubah saiz imej melalui parameter URL\n- Menggunakan penapis dan kesan\n- Menukar format secara automatik\n- Memotong dan memutar imej\n\n### 3. **Analitik dan Pemantauan**\n\nJejaki penggunaan imej anda:\n- Pantau penggunaan lebar jalur\n- Analisis imej popular\n- Jejaki corak akses\n- Optimumkan berdasarkan data penggunaan\n\n## Kesimpulan\n\nMenukar imej kepada URL adalah proses yang mudah yang menawarkan banyak faedah. Sama ada anda memilih perkhidmatan mudah seperti Foto ke URL atau penyelesaian penyimpanan awan yang komprehensif, kunci adalah mencari kaedah yang paling sesuai dengan keperluan anda.\n\nIngat untuk:\n- ✅ Optimumkan imej sebelum memuat naik\n- ✅ Pilih format yang sesuai\n- ✅ Gunakan CDN untuk prestasi yang lebih baik\n- ✅ Laksanakan langkah keselamatan yang betul\n- ✅ Pantau dan optimumkan secara berkala\n\nDengan mengikuti garis panduan ini, anda akan dapat menukar dan mengurus imej anda sebagai URL dengan cekap, meningkatkan aliran kerja dan prestasi kandungan anda.\n\n## Alat Berkaitan\n\n- [Foto ke URL](/) - Perkhidmatan penukaran imej kepada URL percuma\n- [Alat Potong Bulat](/circle-crop) - Cipta imej bulat\n- [Alat Sudut Bulat](/rounded-corners) - Tambah sudut bulat pada imej\n- [Alat Buang Latar Belakang](/remove-background) - Buang latar belakang imej dengan AI\n\n---\n\n*Kemaskini terakhir: Disember 2025*"
+      },
+      "how-to-crop-images-in-circle-shape": {
+        "title": "Cara Memotong Imej dalam Bentuk Bulat - Panduan Lengkap",
+        "description": "Ubah mana-mana foto menjadi imej bulat yang sempurna dengan alat potong bulat dalam talian percuma kami. Cipta imej bulat profesional untuk profil, media sosial, logo dan banyak lagi dalam beberapa saat.",
+        "content": "# Cara Memotong Imej dalam Bentuk Bulat - Panduan Lengkap\n\nUbah mana-mana foto menjadi imej bulat yang sempurna dengan alat potong bulat dalam talian percuma kami. Cipta imej bulat profesional untuk profil, media sosial, logo dan banyak lagi dalam beberapa saat.\n\n## Cara Memotong Imej dalam Bentuk Bulat\n\n### Langkah 1: Muat Naik Imej Anda\nPilih mana-mana foto dari peranti anda yang anda ingin potong dalam bentuk bulat. Alat kami menyokong format JPG, PNG, WEBP dan GIF. Klik butang muat naik atau seret dan lepaskan fail imej anda.\n\n### Langkah 2: Letakkan Imej Anda\nLaraskan dan pusatkan foto anda dalam kawasan potong bulat. Gunakan slider zum untuk fokus pada bahagian paling penting imej anda, dan seret untuk meletakkan semula untuk potong bulat yang sempurna.\n\n### Langkah 3: Muat Turun Imej Bulat Anda\nSetelah anda berpuas hati dengan penempatan, klik \"Potong dan Muat Turun\" untuk mendapatkan imej bulat sempurna anda. Hasilnya akan mempunyai latar belakang telus, menjadikannya sempurna untuk digunakan di mana-mana.\n\n## Cara Popular Menggunakan Imej Potong Bulat\n\n### Gambar Profil\nPotong foto dalam bentuk bulat untuk imej profil yang kelihatan profesional di platform media sosial seperti Facebook, LinkedIn dan Instagram. Avatar bulat mencipta penampilan moden dan berkilat.\n\n### Grafik Media Sosial\nCipta imej bulat untuk cerita Instagram, siaran Facebook dan profil Twitter yang menonjol daripada yang lain. Imej bulat menambah minat visual dan memecahkan kebosanan siaran segi empat.\n\n### Logo Bulat\nUbah logo atau imej jenama anda menjadi bentuk bulat yang sempurna untuk penjenamaan konsisten di semua platform. Logo bulat berfungsi dengan baik untuk ikon aplikasi dan penjenamaan media sosial.\n\n### Foto Testimoni\nPaparkan testimoni pelanggan atau klien dengan foto profil bulat untuk penampilan yang bersih dan profesional. Imej bulat mencipta konsistensi visual dan menjadikan testimoni anda lebih menarik.\n\n### Foto Ahli Pasukan\nCipta potret bulat konsisten untuk laman web syarikat, halaman pasukan dan direktori pekerja. Foto bulat seragam memberikan halaman pasukan anda penampilan yang kohesif dan profesional.\n\n## Ciri Alat Potong Bulat Kami\n\n- **Pemotong imej bulat percuma** - Buat bentuk bulat dari mana-mana imej secara percuma, tiada yuran tersembunyi\n- **Output resolusi tinggi** - Muat turun imej bulat anda dalam kualiti asal tanpa mampatan\n- **Tiada pendaftaran diperlukan** - Mula memotong imej bulat dengan serta-merta, tiada pembuatan akaun diperlukan\n- **Peribadi dan selamat** - Imej anda tidak pernah meninggalkan pelayar anda, memastikan privasi lengkap\n- **Antara muka mudah digunakan** - Reka bentuk mudah dan intuitif menjadikan penciptaan imej bulat tanpa usaha\n- **Berfungsi pada semua peranti** - Potong imej dalam bentuk bulat pada desktop, tablet atau peranti mudah alih\n- **Latar belakang telus** - Semua potong bulat datang dengan latar belakang telus untuk fleksibiliti maksimum\n- **Pratonton masa nyata** - Lihat dengan tepat bagaimana imej bulat anda akan kelihatan sebelum muat turun\n\n## Soalan Lazim Potong Bulat Imej\n\n### Bagaimana saya memotong imej dalam bentuk bulat?\n\nHanya muat naik imej anda ke alat kami, laraskannya dalam bingkai bulat untuk meletakkan subjek dengan betul, dan klik \"Potong dan Muat Turun\" untuk mendapatkan imej bulat sempurna anda. Alat kami memudahkan untuk memotong mana-mana imej dalam format bulat dengan serta-merta tanpa memerlukan kemahiran reka bentuk.\n\n### Bagaimana saya membuat gambar profil bulat?\n\nMuat naik foto anda ke alat potong bulat kami, letakkan muka anda di tengah bingkai bulat, kemudian muat turun gambar profil bulat baharu anda. Ia sempurna untuk profil media sosial yang menggunakan imej bulat seperti Facebook, LinkedIn atau Instagram.\n\n### Bolehkah saya memotong foto dalam bentuk bulat di telefon saya?\n\nYa! Pemotong imej bulat kami berfungsi pada semua peranti termasuk telefon pintar dan tablet. Antara muka mesra mudah alih membolehkan anda mudah mencipta potong imej bulat di mana-mana. Hanya lawati laman web kami dari pelayar mudah alih anda - tiada muat turun aplikasi diperlukan.\n\n### Adakah anda menyimpan imej yang saya muat naik?\n\nTidak, kami tidak pernah menyimpan imej anda pada pelayan kami. Keseluruhan proses potong berlaku terus dalam pelayar anda, yang bermaksud foto anda kekal sepenuhnya peribadi. Setelah anda meninggalkan halaman, semua data imej dikeluarkan secara automatik.\n\n### Format imej apa yang boleh saya gunakan dengan alat potong bulat?\n\nAlat kami berfungsi dengan semua format imej standard termasuk JPG, PNG, WEBP dan GIF. Anda boleh muat naik mana-mana format ini dan imej bulat anda akan dimuat turun sebagai fail PNG dengan ketelusan di sekeliling bulatan.\n\n### Adakah imej bulat saya akan mempunyai latar belakang telus?\n\nYa, apabila anda muat turun imej potong anda, ia akan mempunyai latar belakang telus di sekeliling bulatan. Ini menjadikannya sempurna untuk meletakkan di laman web, dokumen atau reka bentuk di mana anda hanya mahu bahagian bulat kelihatan.\n\n### Bolehkah saya melaraskan saiz potong bulat?\n\nPotong bulat mengekalkan nisbah aspek sempurna 1:1, tetapi anda boleh zum masuk atau keluar untuk melaraskan berapa banyak imej anda muncul dalam bulatan. Ini membolehkan anda fokus pada bahagian tertentu imej anda sambil mengekalkan bentuk bulat.\n\n## Petua Imej untuk Potong Bulat Sempurna\n\n### Pusatkan Subjek Anda\nUntuk hasil terbaik, pilih imej di mana subjek utama berada di tengah atau boleh diletakkan di tengah bingkai. Ini amat penting untuk gambar profil dan potret di mana muka sepatutnya menjadi titik fokus.\n\n### Pertimbangkan Kawasan Potong\nIngat bahawa sudut imej anda akan dipotong. Elakkan imej di mana butiran penting berada berhampiran tepi foto, kerana ini akan hilang dalam potong bulat.\n\n### Gunakan Imej Resolusi Tinggi\nBermula dengan imej berkualiti tinggi akan menghasilkan potong bulat yang lebih baik. Imej resolusi rendah atau kecil mungkin kelihatan piksel apabila dipotong, jadi gunakan imej sumber kualiti tertinggi yang tersedia.\n\n### Perhatikan Nisbah Aspek\nImej segi empat biasanya berfungsi paling baik untuk potong bulat. Jika imej asal anda sangat lebar atau tinggi, anda mungkin kehilangan bahagian penting dalam proses potong. Pertimbangkan untuk memotong kepada segi empat terlebih dahulu jika perlu.\n\n### Laraskan untuk Bingkai Optimum\nGunakan ciri penempatan alat kami untuk zum dan laraskan imej anda. Untuk potret, cuba pusatkan muka dengan sedikit margin di sekelilingnya untuk penampilan profesional terbaik. Untuk produk, pusatkan item utama dalam bulatan.\n\n### Cipta Set Konsisten\nApabila mencipta pelbagai imej bulat (seperti untuk foto pasukan), cuba kekalkan bingkai konsisten, gaya latar belakang dan saiz untuk penampilan kohesif pada semua imej.\n\n## Kegunaan Biasa untuk Imej Potong Bulat\n\n| Aplikasi | Faedah Potong Bulat |\n|------------|------------------------|\n| Profil Media Sosial | Kebanyakan platform memaparkan avatar dalam bulatan - imej bulat yang dipotong dengan sempurna kelihatan profesional |\n| Foto Ahli Pasukan | Cipta potret bulat konsisten untuk laman web syarikat dan direktori |\n| Portfolio Dalam Talian | Imej bulat mencipta minat visual dan estetika moden |\n| Kad Perniagaan Digital | Foto profil potong bulat kelihatan lebih bersih dan profesional |\n| Imej Produk Mini | Imej produk bulat mencipta penampilan katalog kohesif |\n| Ikon Aplikasi | Ikon bulat adalah standard untuk aplikasi mudah alih |\n| Testimoni Laman Web | Foto pelanggan bulat menambah kredibiliti dan daya tarikan visual |\n\n## Mengapa Pilih Alat Potong Bulat Imej Kami\n\nApabila bercakap tentang memotong foto dalam bulatan dalam talian, alat kami menawarkan beberapa kelebihan:\n\n- **Pemprosesan segera** - Potong imej kepada bentuk bulat dalam beberapa saat tanpa menunggu muat naik atau pemprosesan pelayan\n- **Bulat sempurna setiap kali** - Alat kami memastikan potong bulat sempurna dengan tepi bersih dan tiada herotan\n- **Kawalan intuitif** - Mudah letakkan imej anda tepat seperti yang anda mahukan dalam bulatan dengan fungsi zum dan seret\n- **Tiada tanda air** - Tidak seperti alat potong bulat lain, kami tidak menambah tanda air pada imej anda\n- **Berfungsi dengan semua jenis imej** - Potong foto, grafik, ilustrasi atau mana-mana imej kepada bulatan\n- **Berasaskan pelayar** - Tiada pemasangan perisian diperlukan, berfungsi terus dalam pelayar web anda\n- **Privasi dahulu** - Semua pemprosesan berlaku secara tempatan dalam pelayar anda, imej anda tidak pernah meninggalkan peranti anda\n\nSama ada anda perlu memotong imej dalam bentuk bulat untuk kegunaan profesional atau projek peribadi, alat potong foto bulat kami mengendalikan semuanya dengan mudah. Cipta potong imej bulat dengan hanya beberapa klik!\n\n## Bermula\n\nBersedia untuk mencipta imej bulat pertama anda? Lawati [Alat Potong Bulat](/circle-crop) kami dan mula memotong hari ini. Ia sepenuhnya percuma, tidak memerlukan pendaftaran dan mengambil masa beberapa saat untuk mencipta imej bulat profesional.\n\n---\n\n*Kemaskini terakhir: Januari 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Imej dengan sudut bulat – Panduan",
+        "description": "Berikan sudut bulat pada mana-mana imej dengan alat percuma. Sesuai untuk thumbnail, kad, UI dan media sosial dalam saat.",
+        "content": "# Imej dengan sudut bulat – Panduan\n\nBuat sudut mana-mana imej jadi bulat dengan alat dalam talian percuma. Sesuai untuk thumbnail, kad, elemen antara muka dan media sosial, tanpa kemahiran reka bentuk.\n\n## Cara membulatkan sudut imej\n\n### Langkah 1: Muat naik imej\nPilih foto dari peranti. Format: JPG, PNG, WEBP, GIF. Klik atau seret dan lepas.\n\n### Langkah 2: Tetapkan jejari sudut\nGunakan gelangsar untuk set tahap pembulatan. Pratonton dikemas kini serta-merta.\n\n### Langkah 3: Muat turun\nKlik \"Muat turun\" untuk simpan imej bersudut bulat, guna dalam susun atur, web atau siaran.\n\n## Kegunaan biasa\n\n### Thumbnail dan kad\nSudut bulat beri grid dan kad rupa kemas dan moden.\n\n### Media sosial dan iklan\nImej bersudut lembut lebih menonjol dalam suapan dan iklan, rasa lebih mesra.\n\n### UI dan aplikasi\nIkon, avatar dan butang kerap guna sudut bulat; alat ini bantu seragamkan banyak imej.\n\n### Pembentangan dan dokumen\nJejari sama pada skrin shot dan grafik buat slaid dan dokumen konsisten.\n\n## Apa alat tawarkan\n\n- **Percuma serta-merta** – tiada daftar, tiada tanda air, tiada had\n- **Jejari boleh laras** – dari bulat sedikit ke bentuk pil\n- **Pratonton masa nyata** – nampak hasil sebelum muat turun\n- **Privasi** – pemprosesan dalam pelayar; kami tidak simpan imej\n- **Semua peranti** – PC, tablet, telefon\n\n## Soalan lazim\n\n### Bagaimana saya membulatkan sudut foto?\n\nBuka [Alat sudut bulat](/rounded-corners), muat naik imej, tetapkan jejari, klik Muat turun.\n\n### Format apa yang disokong?\n\nJPG, PNG, WEBP, GIF. Muat turun kekalkan format asal (atau PNG untuk ketelusan).\n\n### Boleh guna pada telefon?\n\nBoleh. Alat berjalan dalam pelayar mudah alih dan tablet, tiada app.\n\n### Adakah anda simpan imej saya?\n\nTidak. Semua pemprosesan dalam pelayar anda; kami tidak simpan apa-apa.\n\n## Alat berkaitan\n\n- [Foto ke URL](/) – tukar imej ke pautan\n- [Potong bulat](/circle-crop) – buat imej bulat\n- [Sudut bulat](/rounded-corners) – membulatkan sudut\n- [Buang latar](/remove-background) – buang latar dengan AI\n\n---\n\n*Kemaskini terakhir: Februari 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Buang Latar Belakang – Panduan",
+        "description": "Buang latar belakang imej dengan satu klik menggunakan alat AI percuma. Potongan bersih untuk foto produk, potret, logo dan lain-lain.",
+        "content": "# Buang Latar Belakang – Panduan\n\nBuang latar belakang imej dengan satu klik menggunakan alat dalam talian percuma. Potongan bersih untuk foto produk, potret, logo – tanpa kemahiran reka bentuk.\n\n## Cara buang latar belakang\n\n### Langkah 1: Muat naik imej\nPilih foto dari peranti. Format: JPG, PNG, WEBP, GIF. Klik atau seret dan lepas.\n\n### Langkah 2: AI buang latar belakang\nAlat mengesan subjek dan membuang latar belakang. Pemprosesan hanya beberapa saat. Pratonton masa nyata dengan latar belakang telus.\n\n### Langkah 3: Muat turun\nKlik \"Muat turun\" untuk simpan imej tanpa latar belakang. Output PNG dengan ketelusan, untuk reka bentuk, e-dagang atau media sosial.\n\n## Kegunaan biasa\n\n### Foto produk\nPotongan bersih untuk kedai dalam talian, pasaran dan iklan. Latar belakang telus untuk sebarang susun atur.\n\n### Potret dan profil\nBuang latar belakang yang sibuk dari potret untuk resume, LinkedIn atau profil.\n\n### Logo dan grafik\nAsingkan logo dan grafik dari foto atau imbasan. PNG telus untuk overlay dan pembentangan.\n\n### Media sosial dan pemasaran\nVisual menonjol untuk siaran, cerita dan iklan. Potongan telus untuk sebarang templat.\n\n## Ciri alat buang latar belakang\n\n- **Percuma dan AI** – tiada pendaftaran, tiada watermark, tiada had\n- **Buang satu klik** – pengesanan subjek automatik dan tepi bersih\n- **Output PNG telus** – sedia untuk sebarang reka bentuk atau platform\n- **Privasi** – pemprosesan dalam pelayar; kami tidak menyimpan imej\n- **Semua peranti** – PC, tablet, telefon\n\n## FAQ\n\n### Bagaimana saya buang latar belakang dari foto?\n\nBuka [Alat Buang Latar Belakang](/remove-background), muat naik imej. Alat akan mengesan subjek dan membuang latar belakang. Pratonton dan muat turun sebagai PNG telus.\n\n### Format imej apa yang disokong?\n\nJPG, PNG, WEBP, GIF. Hasil sentiasa dimuat turun sebagai PNG dengan latar belakang telus.\n\n### Adakah anda simpan imej saya?\n\nTidak. Pemprosesan dalam pelayar anda; kami tidak menyimpan apa-apa.\n\n### Boleh guna pada telefon?\n\nYa. Alat berfungsi dalam pelayar pada telefon dan tablet.\n\n## Alat berkaitan\n\n- [Imej ke URL](/) – imej ke pautan\n- [Potongan bulat](/circle-crop) – imej bulat\n- [Sudut bulat](/rounded-corners) – bulatkan sudut\n- [Buang latar belakang](/remove-background) – buang latar belakang dengan AI\n\n---\n\n*Kemas kini terakhir: Mac 2026*"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Dokumentasi untuk Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentasi",
+      "description": "Mula pantas: muat naik imej dan dapatkan URL terus. Gunakan butang salin/buka atau muat turun pautan dalam .txt.",
+      "features": {
+        "title": "Supported features:",
+        "items": {
+          "1": "Disokong: JPG, PNG, WEBP, GIF",
+          "2": "Penghantaran pantas melalui CDN apabila storan diaktifkan",
+          "3": "Mesej penyelenggaraan mesra apabila perkhidmatan tidak tersedia"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Status perkhidmatan untuk Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Semua sistem beroperasi seperti biasa.",
+      "message": "API muat naik dan pautan CDN sedang berjalan."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Hubungi | Photo To URL",
+      "description": "Hubungi Photo To URL untuk sokongan pengehosan imej, maklum balas, kerjasama atau laporan isu. Kami membaca setiap mesej dan menyasarkan balasan dalam 1–2 hari bekerja."
+    },
+    "page": {
+      "title": "Hubungi kami",
+      "introShort": "Ada soalan atau maklum balas? Isi borang di bawah dan kami akan hubungi anda semula tidak lama lagi.",
+      "orEmail": "Atau e-mel kami di",
+      "subtitle": "Kami sedia membantu dengan pengehosan imej, pautan dan perkara lain.",
+      "intro": "Photo To URL ialah perkhidmatan pengehosan imej percuma yang menukar foto anda kepada pautan yang boleh dikongsi. Jika anda ada soalan, cadangan atau menghadapi sebarang isu, kami ingin mendengar daripada anda.",
+      "whyTitle": "Perkara yang anda boleh hubungi kami",
+      "why1": "Sokongan teknikal: ralat muat naik, pautan rosak, atau masalah dengan alat",
+      "why2": "Maklum balas dan permintaan ciri untuk menambah baik perkhidmatan",
+      "why3": "Pertanyaan kerjasama atau perkongsian",
+      "why4": "Laporan penyalahgunaan, kebimbangan hak cipta, atau soalan dasar",
+      "expectTitle": "Apa yang boleh dijangka",
+      "expectContent": "Kami membaca setiap mesej dan menyasarkan balasan dalam 1-2 hari bekerja. Untuk isu segera, sila sertakan tajuk yang jelas dan sebanyak mungkin butiran.",
+      "emailHeading": "Hubungi kami melalui e-mel",
+      "emailHint": "Hantar e-mel kepada kami dan kami akan membalas secepat mungkin.",
+      "email": {
+        "label": "E-mel",
+        "address": "support@phototourl.com",
+        "cta": "Hantar e-mel"
+      },
+      "form": {
+        "title": "Hantar mesej",
+        "description": "Isi borang di bawah dan kami akan membalas secepat mungkin.",
+        "name": "Nama",
+        "email": "Email",
+        "message": "Mesej",
+        "namePlaceholder": "Nama anda",
+        "emailPlaceholder": "anda@email.com",
+        "messagePlaceholder": "Mesej atau soalan anda...",
+        "submit": "Hantar mesej",
+        "submitting": "Menghantar...",
+        "success": "Mesej berjaya dihantar. Kami akan membalas secepat mungkin.",
+        "minLength": "Nama mestilah sekurang-kurangnya 3 aksara.",
+        "maxLengthName": "Nama tidak boleh melebihi 30 aksara.",
+        "invalidEmail": "Sila masukkan alamat e-mel yang sah.",
+        "minLengthMessage": "Mesej mestilah sekurang-kurangnya 10 aksara.",
+        "maxLengthMessage": "Mesej tidak boleh melebihi 2000 aksara.",
+        "invalid": "Sesuatu tidak kena. Sila cuba lagi."
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Tentang Kami | Photo To URL",
+      "description": "Ketahui lebih lanjut tentang Photo To URL - perkhidmatan pengehosan imej percuma yang menukar foto kepada pautan boleh kongsi."
+    },
+    "page": {
+      "title": "Tentang Kami",
+      "mission": {
+        "title": "Misi Kami",
+        "content": "Photo To URL ialah perkhidmatan pengehosan imej percuma, pantas dan boleh dipercayai yang direka untuk membantu pencipta, pemasar dan pasukan menukar imej kepada pautan boleh kongsi dengan segera. Kami percaya pada kesederhanaan, kelajuan dan privasi pengguna."
+      },
+      "features": {
+        "title": "Apa yang Kami Tawarkan",
+        "item1": "Pengehosan imej percuma dengan sokongan CDN",
+        "item2": "Penjanaan pautan segera untuk perkongsian pantas",
+        "item3": "Sokongan pelbagai format imej (JPG, PNG, WEBP, GIF)",
+        "item4": "Cuba tanpa pendaftaran — pelan percuma: 10 muat naik/hari, 2MB setiap fail"
+      },
+      "contact": {
+        "title": "Hubungi kami",
+        "text": "Ada soalan atau maklum balas? Hubungi kami di",
+        "email": "support@phototourl.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Dasar Privasi | Photo To URL",
+        "description": "Dasar Privasi untuk Photo To URL - ketahui cara kami mengumpul, menggunakan dan melindungi data anda."
+      },
+      "page": {
+        "title": "Dasar Privasi",
+        "lastUpdated": "Dikemas kini terakhir: Mei 2026",
+        "introduction": "Di Photo To URL, kami menghormati privasi anda dan komited untuk melindungi maklumat peribadi anda. Dasar Privasi ini menerangkan bagaimana kami mengumpul, menggunakan, mendedahkan dan melindungi maklumat anda apabila anda menggunakan perkhidmatan kami.",
+        "dataCollection": {
+          "title": "Maklumat yang Kami Kumpul",
+          "content1": "Apabila anda menggunakan Photo To URL, kami boleh mengumpul:",
+          "item1": "Fail imej yang dimuat naik dan metadata (nama fail, saiz, jenis), disimpan di Cloudflare R2 untuk menyediakan pautan boleh dikongsi",
+          "item2": "Alamat IP, cap masa muat naik, dan data penggunaan untuk had kadar, keselamatan, dan pencegahan penyalahgunaan",
+          "item3": "Maklumat akaun semasa pendaftaran atau log masuk (alamat e-mel, profil OAuth Google, pengenal sesi dan pengesahan)",
+          "item4": "Maklumat langganan dan pembayaran yang diproses oleh pembekal pembayaran kami Waffo Pancake apabila anda membeli pelan berbayar — kami tidak menyimpan nombor kad penuh",
+          "content2": "Jika anda menghubungi kami melalui borang hubungan, kami mengumpul maklumat yang anda berikan (seperti nama dan e-mel). Kami juga menggunakan kuki dan teknologi serupa seperti diterangkan dalam bahagian Kuki di bawah."
+        },
+        "dataUsage": {
+          "title": "Cara Kami Menggunakan Maklumat Anda",
+          "item1": "Untuk menjana dan menyediakan pautan imej boleh kongsi",
+          "item2": "Untuk mencegah penyalahgunaan dan menguatkuasakan had muat naik",
+          "item3": "Untuk menambah baik perkhidmatan dan pengalaman pengguna",
+          "item4": "Untuk mematuhi kewajipan undang-undang"
+        },
+        "dataStorage": {
+          "title": "Penyimpanan dan Pengekalan Data",
+          "content": "Imej yang dimuat naik disimpan di storan Cloudflare R2. Kami mengekalkan imej selama yang perlu untuk menyediakan perkhidmatan. Imej boleh dipadam secara automatik selepas tempoh tidak aktif atau kerana pelanggaran dasar."
+        },
+        "cookies": {
+          "title": "Kuki dan Teknologi Penjejakan",
+          "content1": "Kami menggunakan teknologi berikut:",
+          "item1": "Local Storage: Untuk menyimpan sejarah muat naik dan pilihan bahasa anda",
+          "item2": "Google AdSense: Untuk memaparkan iklan (menggunakan kuki bagi pemperibadian iklan)",
+          "item3": "Google Analytics: Untuk analitik laman web (data dianonimkan)",
+          "content2": "Anda boleh mengawal kuki melalui tetapan pelayar anda. Walau bagaimanapun, melumpuhkan kuki boleh menjejaskan beberapa fungsi perkhidmatan kami."
+        },
+        "personalizedAds": {
+          "title": "Pengiklanan Diperibadikan dan Pilihan Nyahikut",
+          "content": "Kami menggunakan Google AdSense untuk memaparkan iklan. Google dan vendor pihak ketiga lain boleh menggunakan kuki untuk menayangkan iklan berdasarkan lawatan anda ke laman ini dan laman lain di web. Anda boleh memilih untuk nyahikut pengiklanan diperibadikan dengan melawat Tetapan Iklan Google",
+          "linkAdsSettings": "Tetapan Iklan Google",
+          "content2": "atau halaman nyahikut Network Advertising Initiative di",
+          "linkAboutAds": "www.aboutads.info",
+          "content3": "."
+        },
+        "thirdParty": {
+          "title": "Perkhidmatan Pihak Ketiga",
+          "content1": "Kami menggunakan perkhidmatan pihak ketiga berikut:",
+          "item1": "Cloudflare R2: Untuk storan imej dan penghantaran CDN",
+          "item2": "Google AdSense: Untuk pengiklanan (tertakluk kepada Dasar Privasi Google)",
+          "item3": "Google Analytics: Untuk analitik laman web (tertakluk kepada Dasar Privasi Google)",
+          "content2": "Kami juga menggunakan Waffo Pancake untuk langganan dan pemprosesan pembayaran. Perkhidmatan ini mungkin mengumpul maklumat mengikut dasar privasi mereka sendiri. Kami menggalakkan anda menyemak dasar privasi mereka."
+        },
+        "dataSecurity": {
+          "title": "Keselamatan Data",
+          "content": "Kami melaksanakan langkah teknikal dan organisasi yang sesuai untuk melindungi data anda daripada akses tanpa kebenaran, pengubahan, pendedahan atau pemusnahan. Namun, tiada kaedah penghantaran melalui internet yang 100% selamat."
+        },
+        "yourRights": {
+          "title": "Hak Anda",
+          "content": "Anda berhak untuk:",
+          "item1": "Mengakses imej yang anda muat naik, data akaun, dan maklumat berkaitan",
+          "item2": "Meminta pemadaman imej anda",
+          "item3": "Memilih untuk tidak terlibat dalam amalan pengumpulan data tertentu",
+          "item4": "Menghubungi kami mengenai kebimbangan privasi"
+        },
+        "children": {
+          "title": "Privasi Kanak-kanak",
+          "content": "Perkhidmatan kami tidak ditujukan kepada kanak-kanak di bawah umur 13 tahun. Kami tidak sengaja mengumpul maklumat peribadi daripada kanak-kanak di bawah umur 13 tahun."
+        },
+        "changes": {
+          "title": "Perubahan pada Dasar Privasi ini",
+          "content": "Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Kami akan memaklumkan sebarang perubahan dengan menyiarkan Dasar Privasi baharu pada halaman ini dan mengemas kini tarikh \"Dikemas kini terakhir\"."
+        },
+        "contact": {
+          "title": "Hubungi kami",
+          "text": "Jika anda mempunyai soalan tentang Dasar Privasi ini, sila hubungi kami di",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terma Perkhidmatan | Photo To URL",
+        "description": "Terma Perkhidmatan untuk Photo To URL – pengehosan imej, penggunaan yang dibenarkan, dan tanggungjawab pengguna."
+      },
+      "page": {
+        "title": "Syarat Perkhidmatan",
+        "lastUpdated": "Dikemas kini terakhir: September 2026",
+        "intro": "Selamat datang ke Photo To URL. Dengan mengakses atau menggunakan perkhidmatan pengehosan imej dan penjanaan pautan kami (\"Perkhidmatan\"), anda bersetuju untuk terikat dengan Terma Perkhidmatan ini. Jika anda tidak bersetuju, sila jangan gunakan Perkhidmatan ini.",
+        "acceptance": {
+          "title": "Penerimaan Terma",
+          "content": "Dengan memuat naik imej, menjana pautan, atau menggunakan Photo To URL, anda mengesahkan bahawa anda telah membaca, memahami dan bersetuju dengan Terma ini serta Dasar Privasi kami. Kami mungkin mengemas kini Terma ini dari semasa ke semasa; penggunaan berterusan selepas perubahan dianggap sebagai penerimaan terhadap Terma yang dikemas kini."
+        },
+        "serviceDescription": {
+          "title": "Penerangan Perkhidmatan",
+          "content": "Photo To URL menyediakan pengehosan imej percuma dan penjanaan pautan terus. Anda boleh memuat naik imej dalam had yang kami tetapkan (contohnya saiz fail, format) dan menerima pautan boleh kongsi. Kami tidak menjamin ketersediaan tanpa gangguan; Perkhidmatan mungkin diubah suai, digantung atau dihentikan dengan atau tanpa notis."
+        },
+        "useOfService": {
+          "title": "Penggunaan Perkhidmatan",
+          "content": "Anda hanya boleh menggunakan Perkhidmatan untuk tujuan yang sah dan selaras dengan Terma ini. Anda bertanggungjawab terhadap penggunaan Perkhidmatan dan sebarang kandungan yang anda muat naik. Anda tidak boleh menggunakan Perkhidmatan dengan cara yang melanggar undang-undang terpakai atau hak pihak lain."
+        },
+        "userResponsibilities": {
+          "title": "Tanggungjawab Anda",
+          "content": "Anda bersetuju untuk: (1) memberikan maklumat yang tepat apabila diperlukan; (2) memastikan penggunaan Perkhidmatan mematuhi semua undang-undang yang terpakai; (3) tidak cuba memintas keselamatan, had kadar atau kawalan akses; (4) tidak menggunakan Perkhidmatan untuk menyebarkan perisian hasad atau mengganggu operasi Perkhidmatan atau pengguna lain."
+        },
+        "prohibitedContent": {
+          "title": "Kandungan Dilarang",
+          "content": "Anda tidak boleh memuat naik atau berkongsi pautan kepada kandungan yang: menyalahi undang-undang, berbahaya, mengancam, kasar, mengganggu, memfitnah, lucah, menceroboh privasi, melanggar harta intelek atau sebaliknya tidak sesuai; mengeksploitasi kanak-kanak bawah umur; mempromosikan keganasan atau diskriminasi; atau melanggar hak pihak ketiga. Kami boleh mengalih keluar kandungan serta menggantung atau menamatkan akses tanpa notis jika kami secara munasabah percaya kandungan tersebut melanggar Terma ini atau undang-undang."
+        },
+        "ipAndContent": {
+          "title": "Harta Intelek dan Kandungan Anda",
+          "content": "Anda kekal sebagai pemilik imej yang anda muat naik. Dengan menggunakan Perkhidmatan, anda memberikan kami lesen terhad untuk menyimpan, memproses dan menyampaikan imej anda serta menjana dan menyediakan pautan, setakat yang diperlukan untuk mengendalikan Perkhidmatan. Kami tidak menuntut pemilikan ke atas kandungan anda. Nama, logo dan Perkhidmatan kami ialah harta intelek kami; anda tidak boleh menggunakannya tanpa kebenaran bertulis awal daripada kami."
+        },
+        "subscriptions": {
+          "title": "Pelan langganan",
+          "content": "Photo To URL menawarkan peringkat percuma dan pelan langganan berbayar (Pro bulanan dan Premium tahunan) yang meningkatkan had muat naik, saiz fail dan storan. Butiran pelan dan harga semasa ada di halaman Harga (https://phototourl.com/pricing). Akses berbayar ialah perkhidmatan digital dan diberikan serta-merta selepas pembayaran disahkan."
+        },
+        "billing": {
+          "title": "Pengebilan dan pembayaran",
+          "content": "Dengan memberikan kaedah pembayaran dan melanggan pelan berbayar, anda membenarkan kami dan pemproses pembayaran kami mengenakan caj berulang pada kaedah tersebut untuk yuran langganan yang berkenaan sehingga anda membatalkan seperti diterangkan di bawah. Langganan diperbaharui secara automatik pada akhir setiap tempoh pengebilan melainkan dibatalkan. Harga yang ditunjukkan semasa pembayaran mungkin tidak termasuk cukai yang berkenaan, kecuali dinyatakan sebaliknya."
+        },
+        "cancellation": {
+          "title": "Pembatalan dan menghentikan pembaharuan automatik",
+          "content": "Anda boleh menghentikan caj masa depan pada bila-bila masa dengan:",
+          "item1": "Menghantar e-mel ke support@phototourl.com daripada e-mel akaun berdaftar dan meminta pembatalan pembaharuan automatik; atau",
+          "item2": "Membatalkan debit automatik atau pengebilan berulang dengan penerbit kad melalui perbankan mudah alih, perbankan dalam talian atau khidmat pelanggan.",
+          "effect": "Pembatalan menghentikan pembaharuan masa depan. Anda kekal mendapat manfaat berbayar sehingga akhir tempoh yang sudah dibayar. Selepas tempoh itu tamat, tiada caj lanjut untuk langganan tersebut dan manfaat berbayar berakhir bersama tempoh itu."
+        },
+        "refunds": {
+          "title": "Dasar bayaran balik",
+          "general": "Pelan berbayar ialah perkhidmatan digital yang disampaikan serta-merta selepas pembayaran. Yuran langganan secara amnya tidak boleh dikembalikan jika Perkhidmatan kekal tersedia untuk penggunaan biasa, kecuali seperti dinyatakan di bawah atau diwajibkan oleh undang-undang.",
+          "eligibleTitle": "Bila bayaran balik mungkin tersedia",
+          "item1": "Pelanggan kali pertama: dalam 7 hari selepas caj awal, jika anda belum menggunakan ciri berbayar secara ketara (contohnya hanya sebahagian kecil elaun muat naik atau storan pelan).",
+          "item2": "Caj berganda atau salah: bayaran balik penuh untuk ralat pengebilan yang disahkan yang menyebabkan caj berganda.",
+          "item3": "Gangguan perkhidmatan di pihak kami: jika gangguan yang disahkan dalam kawalan kami berlangsung 72 jam atau lebih semasa tempoh berbayar anda, kami mungkin menawarkan kredit atau bayaran balik berkadar selepas semakan.",
+          "item4": "Hak berkanun: jika undang-undang terpakai memberi anda hak tarik balik atau bayaran balik (contohnya di EU/UK), hak tersebut dikekalkan.",
+          "howTitle": "Cara memohon bayaran balik",
+          "how": "Hantar e-mel ke support@phototourl.com dengan e-mel akaun, rujukan pembayaran atau transaksi, dan sebab. Kami berhasrat mengakui dalam 2 hari bekerja dan memproses bayaran balik yang layak dalam 5–10 hari bekerja.",
+          "notTitle": "Bila bayaran balik tidak tersedia",
+          "not1": "Yuran untuk tempoh langganan yang sudah digunakan, kecuali yang disenaraikan di atas.",
+          "not2": "Permohonan bayaran balik langganan tahunan (Premium) lebih daripada 30 hari selepas pembelian awal, kecuali diwajibkan undang-undang atau kes gangguan/caj berganda yang layak.",
+          "not3": "Akaun yang digantung atau ditamatkan kerana melanggar Terma ini."
+        },
+        "disclaimer": {
+          "title": "Penafian Jaminan",
+          "text": "Perkhidmatan disediakan \"seadanya\" dan \"setakat tersedia\" tanpa sebarang jaminan, sama ada nyata atau tersirat. Kami tidak menjamin bahawa Perkhidmatan akan sentiasa tersedia tanpa gangguan, bebas ralat atau bebas daripada komponen berbahaya. Penggunaan Perkhidmatan adalah atas risiko anda sendiri."
+        },
+        "limitationOfLiability": {
+          "title": "Had Liabiliti",
+          "content": "Setakat maksimum yang dibenarkan oleh undang-undang, Photo To URL dan pengendalinya tidak bertanggungjawab terhadap sebarang kerugian tidak langsung, sampingan, khas, berbangkit atau punitif, atau sebarang kehilangan data, keuntungan atau nama baik yang timbul daripada penggunaan anda atau ketidakupayaan anda untuk menggunakan Perkhidmatan. Jumlah liabiliti keseluruhan kami tidak akan melebihi jumlah yang anda bayar kepada kami dalam tempoh dua belas bulan sebelum tuntutan dibuat (atau sifar jika anda tidak membuat sebarang bayaran)."
+        },
+        "termination": {
+          "title": "Penamatan",
+          "content": "Kami boleh menggantung atau menamatkan akses anda kepada Perkhidmatan pada bila-bila masa, dengan atau tanpa sebab, serta dengan atau tanpa notis. Anda juga boleh berhenti menggunakan Perkhidmatan pada bila-bila masa. Apabila penamatan berlaku, hak anda untuk menggunakan Perkhidmatan terhenti serta-merta. Peruntukan yang sememangnya perlu terus berkuat kuasa (termasuk penafian, had liabiliti dan undang-undang mentadbir) akan kekal berkuat kuasa."
+        },
+        "changes": {
+          "title": "Perubahan pada Terma ini",
+          "content": "Kami mungkin mengemas kini Terma ini dari semasa ke semasa. Kami akan menyiarkan Terma yang disemak pada halaman ini dan mengemas kini tarikh \"Dikemas kini terakhir\". Penggunaan berterusan anda selepas perubahan merupakan penerimaan. Kami menggalakkan anda menyemak halaman ini secara berkala."
+        },
+        "governingLaw": {
+          "title": "Undang-undang Mentadbir",
+          "content": "Terma ini ditadbir dan ditafsirkan mengikut undang-undang bidang kuasa tempat kami beroperasi, tanpa mengambil kira prinsip konflik undang-undang. Sebarang pertikaian hendaklah diselesaikan di mahkamah bidang kuasa tersebut."
+        },
+        "contact": {
+          "title": "Hubungi kami",
+          "text": "Jika anda mempunyai soalan tentang Terma Perkhidmatan ini, sila hubungi kami di",
+          "email": "support@phototourl.com"
+        }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Dasar Kuki | Photo To URL",
+        "description": "Dasar Kuki untuk Photo To URL - ketahui bagaimana kami menggunakan kuki dan teknologi penjejakan."
+      },
+      "page": {
+        "title": "Dasar Kuki",
+        "lastUpdated": "Dikemas kini terakhir: September 2026",
+        "introduction": "Dasar Kuki ini menerangkan bagaimana Photo To URL menggunakan kuki dan teknologi penjejakan yang serupa apabila anda melawat laman web kami. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan penggunaan kuki mengikut dasar ini. Untuk soalan tentang dasar ini, hubungi support@phototourl.com.",
+        "whatAreCookies": {
+          "title": "Apakah itu Kuki",
+          "content": "Kuki ialah fail teks kecil yang diletakkan pada peranti anda apabila anda melawati laman web. Ia digunakan secara meluas untuk menjadikan laman web berfungsi dengan lebih cekap dan memberikan maklumat kepada pemilik laman web."
+        },
+        "howWeUseCookies": {
+          "title": "Cara Kami Menggunakan Kuki",
+          "content": "Kami menggunakan kuki untuk tujuan berikut:",
+          "item1": "Untuk menyimpan sejarah muat naik dan pilihan bahasa anda",
+          "item2": "Untuk menganalisis trafik laman web dan tingkah laku pengguna",
+          "item3": "Untuk memaparkan iklan diperibadikan"
+        },
+        "typesOfCookies": {
+          "title": "Jenis Kuki yang Kami Gunakan",
+          "essential": {
+            "title": "Kuki Penting",
+            "content": "Kuki ini diperlukan untuk laman web berfungsi dengan baik. Ia membolehkan fungsi teras seperti menyimpan pilihan bahasa dan sejarah muat naik anda."
+          },
+          "analytics": {
+            "title": "Kuki Analitik",
+            "content": "Kami menggunakan Google Analytics untuk menganalisis cara pelawat menggunakan laman web kami. Kuki ini mengumpul maklumat tanpa nama tentang penggunaan laman web untuk membantu kami menambah baik perkhidmatan."
+          },
+          "advertising": {
+            "title": "Kuki Pengiklanan",
+            "content": "Kami menggunakan Google AdSense untuk memaparkan iklan. Kuki ini membantu menyampaikan iklan diperibadikan berdasarkan tingkah laku pelayaran dan minat anda."
+          }
+        },
+        "thirdPartyCookies": {
+          "title": "Kuki Pihak Ketiga",
+          "content": "Kami menggunakan perkhidmatan pihak ketiga berikut yang mungkin menetapkan kuki:",
+          "item1": "Google AdSense - Untuk pengiklanan (tertakluk kepada Dasar Privasi Google)",
+          "item2": "Google Analytics - Untuk analitik laman web (tertakluk kepada Dasar Privasi Google)"
+        },
+        "manageCookies": {
+          "title": "Mengurus Kuki",
+          "content": "Anda boleh mengawal dan mengurus kuki melalui tetapan pelayar anda. Kebanyakan pelayar membenarkan anda menolak atau menerima kuki, memadam kuki sedia ada atau menetapkan pilihan untuk laman web tertentu. Namun, melumpuhkan kuki boleh menjejaskan fungsi perkhidmatan kami."
+        },
+        "changes": {
+          "title": "Perubahan pada Dasar Kuki ini",
+          "content": "Kami mungkin mengemas kini Dasar Kuki ini dari semasa ke semasa. Kami akan memaklumkan sebarang perubahan dengan menyiarkan Dasar Kuki baharu pada halaman ini dan mengemas kini tarikh \"Dikemas kini terakhir\"."
+        },
+        "contact": {
+          "title": "Hubungi kami",
+          "text": "Jika anda mempunyai soalan tentang Dasar Kuki ini, sila hubungi kami di",
+          "email": "support@phototourl.com"
+        }
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL bookmarklet",
+    "description": "Muat naik imej dari mana-mana laman web terus ke Photo To URL dengan satu klik! Cuba percuma: 10 muat naik/hari, 2MB setiap fail.",
+    "howItWorks": {
+      "title": "Cara ia berfungsi",
+      "step1": "Layari mana-mana laman web yang mempunyai imej",
+      "step2": "Klik bookmarklet pada bar penanda buku anda",
+      "step3": "Pilih imej dari halaman",
+      "step4": "Dapatkan URL serta-merta dan salin!"
+    },
+    "installation": {
+      "title": "Pemasangan",
+      "step1": {
+        "title": "Langkah 1: Salin kod bookmarklet",
+        "description": "Klik butang di bawah untuk menyalin kod bookmarklet ke papan klip anda."
+      },
+      "step2": {
+        "title": "Langkah 2: Tambah ke pelayar anda",
+        "description": "Ikuti langkah berikut berdasarkan pelayar anda:",
+        "chrome": "Chrome/Edge: Tekan Ctrl+Shift+B (Cmd+Shift+B pada Mac) untuk memaparkan bar penanda buku, kemudian klik kanan padanya dan pilih \"Tambah halaman\". Tampal kod sebagai URL.",
+        "firefox": "Firefox: Klik kanan pada bar penanda buku dan pilih \"Penanda Buku Baharu\". Tampal kod pada medan lokasi.",
+        "safari": "Safari: Aktifkan bar penanda buku (View → Show Bookmarks Bar), kemudian seret kod ke bar penanda buku.",
+        "edge": "Alternatif: Cipta penanda buku baharu, edit, dan gantikan URL dengan kod yang disalin."
+      },
+      "step3": {
+        "title": "Langkah 3: Mula menggunakannya!",
+        "description": "Lawati mana-mana laman web dengan imej dan klik bookmarklet anda untuk mula memuat naik!"
+      },
+      "copy": "Salin Kod",
+      "copied": "Disalin!"
+    },
+    "usage": {
+      "title": "Ciri-ciri",
+      "description": "Bookmarklet menawarkan ciri berikut. Setiap muat naik dikira dalam had pelan anda (10 muat naik/hari, 2MB setiap fail).",
+      "feature1": "Pilih mana-mana imej dari laman web semasa",
+      "feature2": "Muat naik automatik ke Photo To URL",
+      "feature3": "Dapatkan URL boleh kongsi serta-merta dengan salinan satu klik"
+    },
+    "note": {
+      "title": "Nota",
+      "content": "Muat naik dikira dalam kuota harian (10 muat naik/hari, 2MB setiap fail). Bookmarklet berfungsi di kebanyakan laman web; dasar keselamatan ketat (CORS) boleh menghalang muat naik."
+    }
+  },
+  "AuthPage": {
+    "orContinueWith": "Atau teruskan dengan",
+    "login": {
+      "welcomeBack": "Selamat kembali",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "signIn": "Log masuk",
+      "signUp": "Daftar",
+      "signUpHint": "Tiada akaun?",
+      "forgotPassword": "Lupa kata laluan?",
+      "showPassword": "Tunjuk kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "emailRequired": "E-mel diperlukan",
+      "passwordRequired": "Kata laluan diperlukan",
+      "signInWithGoogle": "Log masuk dengan Google"
+    },
+    "register": {
+      "createAccount": "Buat akaun",
+      "name": "Nama",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "signUp": "Daftar",
+      "signInHint": "Ada akaun?",
+      "namePlaceholder": "Nama anda",
+      "signUpSuccess": "Akaun berjaya dibuat",
+      "signUpWithGoogle": "Daftar dengan Google",
+      "artFightLabel": "Daftar akaun artis khusus",
+      "artFightHint": "Buka alat Dashboard untuk artis: salin embed (URL, HTML, BBCode, Markdown) untuk setiap kad yang di-host."
+    },
+    "error": {
+      "title": "Ralat pengesahan",
+      "defaultError": " Berlaku ralat semasa pengesahan.",
+      "backToLogin": "Kembali ke log masuk"
+    },
+    "errors": {
+      "USER_ALREADY_EXISTS": "Akaun dengan e-mel ini sudah wujud. Sila gunakan e-mel lain.",
+      "INVALID_CREDENTIALS": "E-mel atau kata laluan salah.",
+      "INVALID_EMAIL": "Format e-mel tidak sah.",
+      "INVALID_PASSWORD": "Kata laluan mestilah sekurang-kurangnya 6 aksara.",
+      "EMAIL_REQUIRED": "E-mel diperlukan.",
+      "PASSWORD_REQUIRED": "Kata laluan diperlukan.",
+      "NAME_REQUIRED": "Nama diperlukan.",
+      "SERVER_ERROR": "Ralat pelayan. Sila cuba lagi nanti.",
+      "NETWORK_ERROR": "Ralat rangkaian. Sila semak sambungan anda."
+    },
+    "forgotPassword": {
+      "title": "Lupa kata laluan",
+      "description": "Masukkan e-mel anda dan kami akan menghantar pautan untuk menetapkan semula kata laluan.",
+      "email": "E-mel",
+      "send": "Hantar pautan tetapan semula",
+      "backToLoginHint": "Ingat kata laluan anda?",
+      "checkEmail": "Jika akaun wujud untuk e-mel itu, kami telah menghantar pautan tetapan semula. Sila semak peti masuk anda.",
+      "emailRequired": "E-mel diperlukan",
+      "error": {
+        "userNotFound": "Tiada akaun ditemui dengan e-mel ini",
+        "tooManyRequests": "Terlalu banyak percubaan. Sila cuba lagi nanti",
+        "serverError": "Ada masalah. Sila cuba lagi"
+      }
+    },
+    "resetPassword": {
+      "title": "Tetapkan semula kata laluan",
+      "password": "Kata laluan baharu",
+      "reset": "Tetapkan semula kata laluan",
+      "backToLoginHint": "Sedia untuk log masuk?",
+      "requestNewLink": "Minta pautan baharu",
+      "showPassword": "Tunjukkan kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "minLength": "Kata laluan mestilah sekurang-kurangnya 6 aksara",
+      "error": {
+        "expiredToken": "Pautan tetapan semula telah tamat tempoh. Sila minta yang baharu",
+        "invalidToken": "Pautan tetapan semula tidak sah. Sila minta yang baharu",
+        "missingToken": "Pautan tetapan semula tiada atau tidak lengkap. Sila minta yang baharu",
+        "tooManyRequests": "Terlalu banyak percubaan. Sila cuba lagi nanti",
+        "serverError": "Ada masalah. Sila cuba lagi"
+      }
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "Pasukan {name}",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "forgotPassword": {
+      "title": "Hai, {name}.",
+      "body": "Klik butang di bawah untuk menetapkan semula kata laluan Photo To URL anda. Jika anda tidak meminta ini, abaikan e-mel ini.",
+      "resetPassword": "Tetapkan semula kata laluan",
+      "subject": "Tetapkan semula kata laluan Photo To URL anda"
+    }
+  },
+  "PricingPage": {
+    "title": "Harga yang Mudah dan Telus",
+    "description": "Pilih pelan yang paling sesuai untuk anda dengan harga yang mudah dan telus",
+    "subtitle": "Pilih pelan yang paling sesuai untuk anda",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "faqTitle": "Soalan Lazim",
+    "faq": {
+      "payment": {
+        "q": "Kaedah pembayaran apa yang anda terima?",
+        "a": "Kami terima semua kad kredit utama dan PayPal melalui pembekal pembayaran selamat kami."
+      },
+      "cancel": {
+        "q": "Boleh saya batalkan langganan saya pada bila-bila masa?",
+        "a": "Ya, anda boleh membatalkannya pada bila-bila masa. Akses anda akan kekal aktif sehingga akhir tempoh pengebilan semasa."
+      },
+      "storage": {
+        "q": "Apa yang berlaku pada fail saya jika saya menurunkan pelan?",
+        "a": "Fail anda selamat. Jika anda melebihi had penyimpanan, kami akan maklumkan anda terlebih dahulu. Tiada apa yang dipadam serta-merta."
+      },
+      "upload": {
+        "q": "Apa yang dikira sebagai muat naik?",
+        "a": "Setiap gambar yang anda muat naik ke Photo To URL dikira sebagai satu muat naik. Pengguna percuma terhad kepada 10 muat naik sehari."
+      }
+    },
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/bulan",
+      "perYear": "/tahun",
+      "popular": "Paling Popular",
+      "bestValue": "Nilai Terbaik",
+      "currentPlan": "Pelan Semasa",
+      "yourCurrentPlan": "Pelan Semasa Anda",
+      "getStartedForFree": "Mulakan Percuma",
+      "getLifetimeAccess": "Dapatkan Akses Sepanjang Hayat",
+      "getStarted": "Mulakan",
+      "upgradeToYearly": "Naik taraf ke Premium",
+      "cannotDowngrade": "Tidak boleh turun taraf",
+      "alreadySubscribed": "Pelan semasa sudah aktif",
+      "subscribeYearly": "Langgan tahunan",
+      "subscribeMonthly": "Langgan bulanan",
+      "upgrade": "Naik Taraf Sekarang",
+      "notAvailable": "Tidak Tersedia",
+      "limitedOffer": "Tawaran masa terhad · diskaun 20%",
+      "savePercentLabel": "Jimat ",
+      "savePercentSuffix": " vs bulanan",
+      "freePriceNote": "Percuma selamanya",
+      "monthlyPriceNote": "Dibil bulanan",
+      "loading": "Memuatkan...",
+      "suitableFor": "Sesuai untuk:",
+      "activePlanDialog": {
+        "title": "Anda sudah mempunyai langganan aktif",
+        "description": "Akaun ini sudah mempunyai langganan aktif.",
+        "descriptionWithDate": "Akaun ini sudah mempunyai langganan aktif (tamat pada {date}).",
+        "close": "Tutup",
+        "manageBilling": "Urus langganan"
+      },
+      "batchUpload": {
+        "label": "Muat naik banyak foto",
+        "free": "Tidak",
+        "monthly": "20",
+        "yearly": "50"
+      },
+      "justPerMonth": "{price}/bulan",
+      "saveVsMonthly": "Jimat {percent}%",
+      "monthlyEquivalentShort": "({price}/bulan)",
+      "bestValueWithSave": "Nilai terbaik · Jimat {percent}%"
+    },
+    "CheckoutButton": {
+      "loading": "Memuatkan...",
+      "checkoutFailed": "Gagal membuka halaman daftar keluar"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Percuma",
+      "description": "Sesuai untuk mencuba Photo To URL",
+      "features": {
+        "feature-1": "Saiz muat naik: 2MB",
+        "feature-2": "Muat naik harian: 10 kali",
+        "feature-3": "Storan: 100MB",
+        "feature-4": "CDN: Pecutan asas",
+        "feature-5": "Tanpa iklan: Tidak",
+        "feature-6": "Hos dokumen: Tidak",
+        "feature-7": "Hos foto: Tidak",
+        "feature-8": "Edit foto: Tidak",
+        "feature-9": "Webhook: Tidak",
+        "feature-10": "Kebenaran sumber: Tiada"
+      },
+      "limits": [],
+      "suitableFor": "Cuba produk, uji ciri-ciri"
+    },
+    "pro": {
+      "name": "Profesional",
+      "description": "Muat naik stabil & pengehosan",
+      "features": {
+        "feature-1": "Saiz muat naik: 50MB",
+        "feature-2": "Muat naik harian: 1000 kali",
+        "feature-3": "Storan: 100GB",
+        "feature-4": "CDN: Pecutan standard",
+        "feature-5": "Tanpa iklan: Ya",
+        "feature-6": "Hos dokumen: Ya",
+        "feature-7": "Hos foto: Ya",
+        "feature-8": "Edit foto: Ya",
+        "feature-9": "Webhook: Ya",
+        "feature-10": "Kebenaran sumber: Separa"
+      },
+      "limits": [],
+      "suitableFor": "Bloggers / Pembangun / Pasukan kecil"
+    },
+    "proYearly": {
+      "name": "Premium",
+      "description": "Kuota lebih tinggi, CDN lebih pantas",
+      "features": {
+        "feature-1": "Saiz muat naik: 256MB",
+        "feature-2": "Muat naik harian: Terhad",
+        "feature-3": "Storan: 200GB",
+        "feature-4": "CDN: Nod berkelajuan tinggi (keutamaan)",
+        "feature-5": "Tanpa iklan: Ya",
+        "feature-6": "Hos dokumen: Ya",
+        "feature-7": "Hos foto: Ya",
+        "feature-8": "Edit foto: Ya",
+        "feature-9": "Webhook: Ya",
+        "feature-10": "Kebenaran sumber: Semua"
+      },
+      "limits": [],
+      "suitableFor": "Pasukan berskala besar / Penggunaan frekuensi tinggi / Sistem automasi"
+    }
+  },
+  "Dashboard": {
+    "title": "Papan pemuka",
+    "themeToggle": "Tema",
+    "welcome": "Selamat datang",
+    "loadFailed": "Gagal dimuatkan. Cuba lagi nanti.",
+    "errorTitle": "Berlaku ralat",
+    "dismiss": "Faham",
+    "dashboard": "Papan pemuka",
+    "resources": "Sumber saya",
+    "photos": "Foto saya",
+    "storage": "Storan",
+    "used": "Digunakan",
+    "total": "Jumlah",
+    "storageDisplay": "{used} / {total}",
+    "uploadLimitDisplay": "{current} / {limit}",
+    "uploadUnlimited": "Tanpa had",
+    "deleteConfirm": "Adakah anda pasti ingin memadam sumber ini?",
+    "deleteResource": "Padam sumber",
+    "deleteFailed": "Gagal memadam sumber",
+    "delete": "Padam",
+    "cancel": "Batal",
+    "copied": "Disalin!",
+    "copy": "Salin pautan",
+    "open": "Buka",
+    "removeBackground": "Buang Latar Belakang",
+    "noResources": "Tiada sumber. Muat naik beberapa gambar untuk bermula.",
+    "files": "fail",
+    "dailyUploads": "Muat naik hari ini",
+    "today": "hari ini",
+    "resourcesCount": "Anda mempunyai {count} sumber yang dimuat naik",
+    "photosCount": "Anda mempunyai {count} foto yang dimuat naik",
+    "resourcePageInfo": "Halaman {page} daripada {totalPages} · {pageSize} setiap halaman · {total} fail keseluruhan",
+    "resourceTotalCount": "Jumlah: {total} item",
+    "resourcePageSizeLabel": "Item setiap halaman",
+    "resourcePageSizeOption": "{size} setiap halaman",
+    "resourceJumpTo": "Pergi ke",
+    "resourceJumpPageUnit": "halaman",
+    "resourceJumpInputAria": "Nombor halaman",
+    "resourcePagePrev": "Halaman sebelum",
+    "resourcePageNext": "Halaman seterusnya",
+    "subtitle": "Ini adalah gambaran keseluruhan ruang kerja anda.",
+    "planCardTitle": "Pelan",
+    "planActive": "Aktif",
+    "planNames": {
+      "free": "Percuma",
+      "premium": "Premium",
+      "pro": "Profesional"
+    },
+    "planCardHintUpgrade": "Naik taraf untuk lebih banyak",
+    "planCardHintAllUpgraded": "Semua ciri dibuka",
+    "statStorageHint": "Ruang yang digunakan untuk semua muat naik",
+    "statResourcesHint": "Jumlah foto + dokumen",
+    "statPhotosHint": "Fail yang boleh anda salin atau kongsi sebagai pautan",
+    "statUploadsHint": "Set semula setiap 24 jam ikut tahap",
+    "chartTitle": "Aktiviti",
+    "chartDescription": "Isipadu muat naik dari masa ke masa",
+    "chartPlaceholder": "Trend akan muncul di sini apabila terdapat lebih banyak aktiviti.",
+    "chartRange7d": "7 hari lalu",
+    "chartRange30d": "30 hari lalu",
+    "chartRange90d": "3 bulan lalu",
+    "tableFile": "Fail",
+    "tablePath": "Laluan",
+    "tableSize": "Saiz",
+    "tableActions": "Tindakan",
+    "viewTable": "Jadual",
+    "viewGrid": "Dinding Foto",
+    "chartDemoNote": "Aliran muat naik (hari)",
+    "loginRequired": "Sila log masuk untuk melihat papan pemuka anda.",
+    "checkoutSuccess": "Pembayaran berjaya! Pelan anda telah dinaik taraf.",
+    "subscriptionSuccess": "Langganan diaktifkan. Selamat datang ke {plan}!",
+    "circleCrop": "Potong Bulat",
+    "roundedCorners": "Sudut Bulat",
+    "scheduledForDeletion": "Dijadualkan untuk dipadam",
+    "upload": "Muat naik",
+    "uploadPhoto": "Muat naik foto",
+    "batchUploadPhotos": "Muat naik banyak foto",
+    "batchUploading": "Sedang memuat naik banyak foto…",
+    "batchUploadProgress": "{current} / {total}",
+    "batchUploadTooMany": "Pilih paling banyak {max} fail pada satu masa.",
+    "batchUploadTierHint": "Sehingga {max} fail setiap muat naik mengikut pelan anda.",
+    "uploadUpgradeHint": "Tersedia selepas naik taraf",
+    "uploading": "Sedang memuat naik...",
+    "loading": "Memuatkan...",
+    "uploadErrorInvalidType": "Jenis fail tidak sah. Gunakan PNG, JPG, WEBP atau GIF.",
+    "uploadErrorTooLarge": "Fail terlalu besar. Pelan anda membenarkan sehingga {maxMb} MB setiap fail.",
+    "uploadErrorDailyLimit": "Had harian dicapai ({limit} muat naik/hari).",
+    "uploadErrorStorageLimit": "Had storan dicapai.",
+    "uploadErrorGeneric": "Muat naik gagal. Sila cuba lagi.",
+    "uploadUpgradeTitle": "Buka Muat Naik Terus",
+    "uploadUpgradeDescription": "Naik taraf untuk muat naik terus dari papan pemuka dengan had lebih tinggi.",
+    "uploadRenewDescription": "Perbaharui langganan untuk muat naik terus dari papan pemuka dengan had lebih tinggi.",
+    "expiredStorageLimitHint": "Selepas tamat tempoh, hanya 100MB storan tersedia",
+    "uploadGoHome": "Muat naik di laman utama",
+    "resourceModule": {
+      "title": "Dokumen Saya",
+      "count": "Anda mempunyai {count} dokumen yang dimuat naik",
+      "empty": "Belum ada dokumen. Muat naik PDF/Word/PowerPoint/Excel untuk bermula.",
+      "viewCard": "Kad",
+      "searchPlaceholder": "Cari mengikut nama fail",
+      "typeAll": "Semua jenis",
+      "typePdf": "PDF",
+      "typeWord": "Word",
+      "typePpt": "PowerPoint",
+      "typeExcel": "Excel",
+      "reset": "Tetapkan semula",
+      "upload": "Muat naik dokumen",
+      "uploading": "Sedang memuat naik...",
+      "copy": "Salin pautan",
+      "open": "Buka",
+      "delete": "Padam",
+      "deleteFailed": "Gagal memadam dokumen",
+      "fetchError": "Gagal memuatkan senarai dokumen",
+      "tableFile": "Fail",
+      "tablePath": "Laluan",
+      "tableType": "Jenis",
+      "typeLabel": "Jenis",
+      "tableSize": "Saiz",
+      "tableActions": "Tindakan",
+      "uploadErrorTooLarge": "Fail terlalu besar. Had setiap fail dalam pelan anda ialah {maxSize}.",
+      "uploadErrorDailyLimit": "Had harian dicapai ({limit} muat naik/hari).",
+      "uploadErrorStorageLimit": "Had storan dicapai.",
+      "uploadErrorGeneric": "Muat naik gagal. Sila cuba lagi."
+    },
+    "uploadSize": "Saiz fail {size}",
+    "dailyUploadsLimit": "{limit} muat naik/hari",
+    "dailyUploadsUnlimited": "Muat naik tanpa had",
+    "monthly": "bulan",
+    "yearly": "tahun",
+    "bestValue": "Nilai terbaik",
+    "upgrade": {
+      "title": "Naik taraf pelan anda",
+      "description": "Naik taraf untuk had harian lebih tinggi, fail lebih besar, dan ciri premium. Muat naik harian tanpa had dengan pelan Premium tahunan.",
+      "button": "Naik taraf sekarang"
+    },
+    "settings": {
+      "title": "Tetapan",
+      "profile": {
+        "title": "Profil",
+        "description": "Urus maklumat profil anda",
+        "name": {
+          "title": "Nama",
+          "description": "Kemaskini nama paparan anda",
+          "placeholder": "Masukkan nama anda",
+          "hint": "Ini adalah nama yang akan dipaparkan di profil anda",
+          "minLength": "Nama mestilah sekurang-kurangnya 3 aksara",
+          "maxLength": "Nama tidak boleh melebihi 30 aksara",
+          "success": "Nama berjaya dikemaskini",
+          "fail": "Gagal mengemaskini nama",
+          "save": "Simpan",
+          "saving": "Menyimpan..."
+        },
+        "avatar": {
+          "title": "Avatar",
+          "description": "Kemaskini gambar profil anda",
+          "uploadAvatar": "Muat naik gambar",
+          "unavailable": "Muat naik tidak tersedia",
+          "disabledHint": "Muat naik avatar memerlukan storan awan diaktifkan untuk projek ini.",
+          "recommendation": "PNG, JPG atau WebP. Saiz maksimum mengikut had pelayan."
+        }
+      },
+      "billing": {
+        "title": "Bil",
+        "description": "Urus bil dan langganan anda",
+        "billingPagePlanTitle": "Pelan semasa",
+        "billingPageStorageTitle": "Penggunaan storan",
+        "currentPlan": {
+          "title": "Pelan dan storan anda di Photo To URL",
+          "description": "Naik taraf untuk buka kuota lebih tinggi dan lebih banyak ciri"
+        },
+        "loadError": "Tidak dapat memuatkan data bil.",
+        "retry": "Cuba lagi",
+        "planNames": {
+          "free": "Percuma",
+          "premium": "Premium",
+          "pro": "Profesional"
+        },
+        "status": {
+          "active": "Aktif",
+          "expired": "Tamat tempoh"
+        },
+        "storageUsed": "Storan yang digunakan",
+        "freePlanMessage": "Had muat naik lebih tinggi",
+        "inactivePlanMessage": "Manfaat telah tamat tempoh",
+        "expiredStorageLimitHint": "Selepas tamat tempoh, hanya 100MB storan tersedia",
+        "paidPlanMessage": "Manfaat aktif",
+        "backToWorkbench": "Kembali ke papan pemuka",
+        "upgradeHint": "Lebih banyak ruang storan",
+        "upgradeToPlan": "Naik taraf pelan",
+        "featureAdvancedEditing": "Alat penyuntingan lanjutan",
+        "upgradeNotReady": {
+          "title": "Akan Datang",
+          "description": "Terusklan untuk perkhidmatan lanjut!",
+          "confirm": "Faham",
+          "cancel": "Tutup"
+        },
+        "storage": {
+          "title": "CDN lebih pantas",
+          "description": "Jejak penggunaan storan anda",
+          "upgradeStorage": "Tingkatkan storan"
+        }
+      },
+      "security": {
+        "title": "Keselamatan",
+        "description": "Urus keselamatan akaun anda",
+        "updatePassword": {
+          "title": "Kata laluan",
+          "description": "Tukar kata laluan untuk log masuk email anda",
+          "currentPassword": "Kata laluan semasa",
+          "newPassword": "Kata laluan baharu",
+          "confirmPassword": "Sahkan kata laluan baharu",
+          "currentRequired": "Masukkan kata laluan semasa anda",
+          "newMinLength": "Sekurang-kurangnya 8 aksara",
+          "confirmRequired": "Sila sahkan kata laluan baharu anda",
+          "passwordMismatch": "Kata laluan tidak sepadan",
+          "hint": "Gunakan kata laluan yang kukuh yang anda tidak gunakan di tempat lain.",
+          "save": "Kemaskini kata laluan",
+          "saving": "Menyimpan…",
+          "success": "Kata laluan dikemaskini",
+          "fail": "Tidak dapat mengemaskini kata laluan",
+          "showPassword": "Tunjukkan kata laluan",
+          "hidePassword": "Sembunyikan kata laluan"
+        },
+        "resetPassword": {
+          "title": "Tetapkan kata laluan",
+          "description": "Anda telah log masuk dengan Google. Tambahkan kata laluan email sebagai sandaran.",
+          "info": "Kami akan menghantar pautan tetapan semula kata laluan ke e-mel akaun anda.",
+          "button": "Hantar pintasan penetapan semula",
+          "sending": "Menghantar…",
+          "sent": "Semak peti masuk anda untuk pautan tetapan semula.",
+          "disabled": "Email penetapan semula kata laluan belum dikonfigurasi pada pelayan ini.",
+          "fail": "Permintaan gagal. Cuba lagi kemudian."
+        },
+        "deleteAccount": {
+          "title": "Padam akaun",
+          "description": "Keluarkan akaun anda dan data berkaitan secara kekal.",
+          "warning": "Ini tidak boleh dibatalkan. Pastikan anda telah menyimpan apa yang anda perlukan.",
+          "button": "Padam akaun saya",
+          "confirmTitle": "Padam akaun?",
+          "confirmDescription": "Akaun anda akan dipadamkan secara kekal.",
+          "cancel": "Batal",
+          "confirm": "Padam",
+          "deleting": "Memadam…",
+          "success": "Akaun dipadamkan",
+          "fail": "Tidak dapat memadamkan akaun"
+        }
+      },
+      "notification": {
+        "title": "Pemberitahuan",
+        "description": "Urus keutamaan pemberitahuan anda",
+        "newsletter": {
+          "title": "Kemas kini email",
+          "description": "Berita produk dan tips (pilihan)",
+          "label": "Langgan berita",
+          "disabledHint": "Berita belum diaktifkan untuk tapak ini.",
+          "hint": "Apabila diaktifkan, anda boleh melanggan atau nyahlanggan di sini."
+        },
+        "productPreview": {
+          "title": "Pratonton Produk",
+          "description": "Imej utama yang digunakan pada kad perkongsian dan halaman pendaratan.",
+          "announcement": {
+            "line1": "Kami terus menyampaikan ciri yang lebih berkuasa dan manfaat keahlian yang lebih bernilai.",
+            "line2": "Keupayaan naik taraf baharu akan diutamakan kepada pengguna sedia ada, tanpa perubahan harga.",
+            "line3": "Terima kasih atas kepercayaan dan sokongan anda. Kami akan terus menambah baik produk untuk pengalaman yang lebih baik.",
+            "line4": "Kami akan terus mengoptimumkan pengalaman pengguna global dengan perkhidmatan yang lebih pantas dan boleh dipercayai."
+          }
+        }
+      }
+    },
+    "artFightWorkspaceBadge": "Akaun artis",
+    "artFightWorkspaceHint": "Alat artis diaktifkan — salin kod embed URL, HTML, BBCode, dan Markdown untuk setiap foto."
+  },
+  "artFight": {
+    "seo": {
+      "title": "Pengehosan kad profil Art Fight | URL & kod embed",
+      "description": "Muat naik kartu profil Team Tragedy, Comedy, atau Mystery. Dapatkan tautan HTTPS langsung dan embed HTML/BBCode untuk Art Fight, Discord, dan posting sosial.",
+      "keywords": "kartu profil Art Fight,hosting ref sheet,Team Tragedy,Team Comedy,embed HTML BBCode"
+    },
+    "footerLink": "Pengehosan Art Fight",
+    "artistAccount": {
+      "badge": "Akaun artis",
+      "title": "Daftar akaun artis khusus",
+      "lead": "Buat akaun artis percuma untuk menyimpan kartu profil di Dashboard dan gunakan alat embed profesional untuk Art Fight — salin URL, HTML, BBCode, dan Markdown setiap muat naikan.",
+      "toolEmbedTitle": "Alat embed",
+      "toolEmbedDesc": "Salin sekali klik untuk profil Art Fight, Discord, forum, dan posting sosial.",
+      "toolDashboardTitle": "Dashboard artis",
+      "toolDashboardDesc": "Setiap kartu tetap di akaun Anda — cari, pratinjau, dan salin tautan kapan saja.",
+      "toolBatchTitle": "Muat naik batch (Pro)",
+      "toolBatchDesc": "Setelah upgrade, muat naik banyak kartu profil sekaligus — untuk artis dengan banyak OC.",
+      "registerCta": "Buat akaun artis",
+      "footnote": "Tandakan «Akaun artis khusus» semasa pendaftaran, atau daftar dari halaman ini — kami prapilih untuk anda."
+    },
+    "hero": {
+      "badge": "Art Fight",
+      "audience": "Untuk artis digital & pembuat OC",
+      "title": "Hosting kartu profil & ref sheet untuk artis Art Fight",
+      "subtitle": "Muat naik kartu Team Tragedy, Comedy, atau Mystery — URL gambar stabil plus kode embed HTML/BBCode untuk profil Art Fight, Discord, dan posting «siap bertarung».",
+      "artistAccountLine": "Daftar akaun artis khusus untuk alat embed profesional di papan pemuka.",
+      "cta": "Letakkan kartu di bawah → salin tautan → tempel di mana Anda deklarasikan tim",
+      "teamTragedy": "Team Tragedy",
+      "teamComedy": "Team Comedy",
+      "teamMystery": "Team Mystery",
+      "tabIntro": "Hosting profil",
+      "tabArtist": "Akaun artis",
+      "tabSupport": "Dukungan artis",
+      "tabsAriaLabel": "Sorotan Art Fight",
+      "trustLine": "Muat naik cepat percuma · URL & kode embed · Dashboard artis",
+      "uploadCta": "Muat naik kartu",
+      "panelIntroTag": "URL · HTML · BBCode",
+      "panelIntroTitle": "Kode embed siap tempel",
+      "panelIntroDesc": "Muat naik kartu profil sekali, lalu salin tautan langsung atau HTML/BBCode untuk Art Fight dan Discord.",
+      "panelArtistTitle": "Alat akaun artis",
+      "panelSupportTitle": "Dukungan artis khusus",
+      "panelSupportDesc": "Muat naikan, embed, akaun, dan pelan — manusia nyata, bukan antrean tiket generik."
+    },
+    "teams": {
+      "title": "Alat yang sama untuk setiap tim Art Fight",
+      "lead": "Tragedy, Comedy, atau Mystery — setelah kartu selesai Anda butuh satu hal: tautan gambar cepat dan stabil untuk dibagikan.",
+      "tragedyName": "Team Tragedy",
+      "tragedyDesc": "Kartu dan ref sheet bernuansa biru — host gambar penuh dan tempel tautan di profil Art Fight atau posting Twitter/X.",
+      "comedyName": "Team Comedy",
+      "comedyDesc": "Kartu bernuansa oranye/hangat — ideal untuk pengumuman Discord dan embed profil saat Art Fight puncak.",
+      "mysteryName": "Team Mystery",
+      "mysteryDesc": "Kartu ungu faksi ketiga — alur muat naik sama, kode embed sama, siap dibagikan kapan saja.",
+      "footnote": "Ketiga tim: muat naik → salin URL atau embed → posting kartu secara publik."
+    },
+    "useCases": {
+      "title": "Di mana artis menempelkan tautan",
+      "lead": "Art Fight bersifat sosial. Tautan yang di-host mengikuti setiap pembaruan profil dan setiap posting «saya di tim ini».",
+      "profileTitle": "Profil Art Fight",
+      "profileDesc": "Tempel URL langsung atau embed HTML di profil karakter Art Fight resmi agar rekan tim melihat kartu Anda.",
+      "socialTitle": "Twitter / X & posting sosial",
+      "socialDesc": "Bagikan kartu saat mendeklarasikan tim — tautan HTTPS bersih memuat cepat di timeline dan balasan.",
+      "discordTitle": "Discord & server artis",
+      "discordDesc": "Tempel URL atau BBCode di channel Discord Art Fight, intro server, atau thread rencana serangan.",
+      "portfolioTitle": "Toyhouse & situs portfolio",
+      "portfolioDesc": "Tautan yang sama di Toyhouse, Carrd, atau tanda tangan forum — ref konsisten di mana-mana."
+    },
+    "features": {
+      "sectionTitle": "Mengapa artis Art Fight memilih Photo To URL",
+      "fastTitle": "Dibuat untuk periode Art Fight yang sibuk",
+      "fastDesc": "Muat naik saat perlu posting — dapatkan tautan CDN dalam hitungan detik saat pemanasan, puncak acara, atau kapan saja.",
+      "linkTitle": "URL ramah kartu profil",
+      "linkDesc": "Tautan .png/.jpg bersih yang diterima profil Art Fight, forum, dan posting sosial tanpa langkah extra.",
+      "embedTitle": "HTML & BBCode untuk artis",
+      "embedDesc": "Salin snippet embed untuk profil dan forum — tanpa mengedit tag img manual di musim sibuk.",
+      "safeTitle": "Hosting Dashboard setelah log masuk",
+      "safeDesc": "Pengguna terdaftar menyimpan kartu di Dashboard — salin tautan lagi, cari file, kelola muat naikan dari satu tempat."
+    },
+    "accountBenefits": {
+      "sectionTitle": "Akaun artis: host kartu di Dashboard",
+      "sectionLead": "Muat naikan anonim untuk posting cepat. Daftar sebagai artis Art Fight untuk Dashboard khusus dengan alat embed — atau Pro untuk muat naik batch dan limit lebih tinggi.",
+      "dashboardTitle": "Hosting foto Dashboard",
+      "dashboardDesc": "Setelah log masuk, setiap muat naikan tersimpan di Dashboard. Salin tautan yang sama, buka tab baru, atau muat turun asli — semua dalam satu daftar.",
+      "batchTitle": "Muat naik batch (Pro)",
+      "batchDesc": "Banyak kartu sekaligus dari Dashboard — hingga {monthlyMax} per batch di Pro, atau {yearlyMax} di Premium tahunan.",
+      "manageTitle": "Pencarian & dinding foto",
+      "manageDesc": "Temukan kartu berdasarkan nama file, beralih tabel/dinding foto, hapus file yang tidak diperlukan.",
+      "proTitle": "Limit lebih tinggi & file lebih besar",
+      "proDesc": "Semua fitur Percuma plus batch Dashboard ({monthlyMax}–{yearlyMax} file), limit harian lebih tinggi, muat naikan lebih besar, lebih banyak storan.",
+      "anonymousLabel": "Anonim",
+      "anonymousDesc": "Tautan cepat untuk satu posting. Tidak disimpan di akaun; dapat dibersihkan kapan saja.",
+      "freeLabel": "Akaun percuma",
+      "freeDesc": "Kartu tersimpan di Dashboard. Salin tautan, cari, kelola sampai dihapus atau limit storan.",
+      "proLabel": "Pro / Premium",
+      "signUpCta": "Buat akaun percuma",
+      "loginCta": "Log masuk",
+      "dashboardCta": "Buka Dashboard",
+      "proCta": "Lihat pelan Pro",
+      "ctaPanelTitle": "Bersedia untuk hos kad anda?",
+      "footnote": "Akaun percuma muat naik di sini dan kelola di Dashboard. Muat naik batch memerlukan Pro atau Premium."
+    },
+    "upload": {
+      "sectionTitle": "Muat naik kartu profil Art Fight",
+      "sectionLead": "Ref sheet, kartu tim, atau grafik profil lengkap — seret ke sini dan salin tautan untuk posting berikutnya.",
+      "dropzoneTitle": "Letakkan kartu profil atau ref sheet",
+      "dropzoneHint": "PNG, JPG, WEBP, GIF — kartu tim, ref sheet, dan grafik karakter diterima",
+      "dropzoneFootnote": "Percuma: 10 muat naikan/hari tanpa daftar. Log masuk untuk limit lebih tinggi.",
+      "defaultAlt": "Kartu profil Art Fight",
+      "resultTitle": "Kartu siap — bagikan",
+      "resultHint": "Salin URL untuk profil Art Fight, atau HTML/BBCode untuk forum dan Discord.",
+      "open": "Buka gambar",
+      "reset": "Muat naik kartu lain",
+      "errorBadType": "Muat naik file gambar (PNG, JPG, WEBP, atau GIF).",
+      "errorGeneric": "Muat naikan gagal. Coba lagi.",
+      "loginRequiredTitle": "Limit percuma harian tercapai",
+      "loginRequiredDescription": "Log masuk untuk terus mengmuat naik kartu dan menyimpannya di Dashboard, atau kembali besok.",
+      "loginRequiredDetail": "Pengguna terdaftar mendapat hosting Dashboard: setiap kartu di akaun, salin tautan lagi, cari berdasarkan nama, kelola dari satu tempat.",
+      "retentionAnonymousTitle": "Pautan tanpa nama — tidak disyorkan untuk kad penting",
+      "retentionAnonymousBody": "Muat naik tanpa nama untuk perkongsian pantas sahaja. Pautan berfungsi sekarang tetapi tidak disimpan — daftar percuma untuk benaman.",
+      "retentionAnonymousSignUp": "Buat akaun percuma",
+      "retentionAnonymousPro": "Lihat pelan Pro",
+      "retentionFreeTitle": "Tautan disimpan di akaun",
+      "retentionFreeBody": "Salin lagi dari Dashboard kapan saja. Akaun percuma punya limit harian dan kapasitas — cukup untuk kartu cepat, bukan tanpa batas.",
+      "retentionFreeDashboard": "Buka Dashboard",
+      "retentionFreeUpgrade": "Upgrade untuk lebih banyak storan",
+      "retentionProTitle": "Kartu di-host di pelan Pro",
+      "retentionProBody": "Limit muat naik lebih tinggi, lebih banyak storan, tautan andal untuk setiap Art Fight — Tragedy, Comedy, atau Mystery.",
+      "retentionProDashboard": "Buka Dashboard",
+      "resultHintAnonymous": "Muat naik tanpa nama — pautan terus sahaja. Daftar untuk membuka HTML, BBCode dan Markdown.",
+      "retentionAnonymousIntro": "Pautan terus ini untuk perkongsian pantas, tetapi hosting tanpa nama ada had serius:",
+      "retentionAnonymousLimit1": "Tidak dikaitkan dengan akaun — kurang selamat; sesiapa dengan pautan boleh akses",
+      "retentionAnonymousLimit2": "CDN lebih perlahan — muat naik tanpa nama tanpa pecutan keutamaan",
+      "retentionAnonymousLimit3": "Mungkin dimampatkan — kualiti asal tidak dijamin",
+      "retentionAnonymousLimit4": "Jangka pendek — fail tanpa nama dibersihkan berkala; pautan boleh berhenti",
+      "retentionAnonymousLimit5": "Kod benam dikunci — HTML, BBCode dan Markdown perlukan akaun percuma",
+      "retentionAnonymousCta": "Cipta akaun percuma untuk simpan kad, buka benaman, CDN lebih pantas dan pautan lebih dipercayai."
+    },
+    "embed": {
+      "altLabel": "Teks alt (untuk HTML & Markdown)",
+      "tabUrl": "URL",
+      "tabHtml": "HTML",
+      "tabBbcode": "BBCode",
+      "tabMarkdown": "Markdown",
+      "copy": "Salin kode",
+      "copied": "Disalin",
+      "lockedTabTitle": "Daftar untuk membuka kod benam",
+      "lockedTabDescription": "HTML, BBCode dan Markdown selepas pendaftaran. Akaun percuma: papan pemuka dan salin benaman satu klik.",
+      "lockedTabCta": "Cipta akaun percuma"
+    },
+    "howTo": {
+      "title": "Dari kartu profil ke posting publik",
+      "lead": "Alur yang diikuti setiap artis Art Fight setelah kartu selesai.",
+      "schemaName": "Cara host kartu profil Art Fight dengan kode embed",
+      "schemaDescription": "Muat naik kartu tim Art Fight ke Photo To URL dan tempel tautan di profil atau posting sosial.",
+      "step1Title": "Muat naik kartu tim",
+      "step1Desc": "Letakkan kartu Tragedy, Comedy, atau Mystery atau ref sheet — tautan langsung dan kode embed instan.",
+      "step2Title": "Salin URL atau kode embed",
+      "step2Desc": "Tab URL untuk profil Art Fight, HTML/BBCode untuk Discord, forum, dan portfolio.",
+      "step3Title": "Posting & deklarasikan tim",
+      "step3Desc": "Tempel tautan di Art Fight, Twitter/X, atau Discord agar artis lain melihat kartu dan menemukan Anda."
+    },
+    "faq": {
+      "title": "FAQ artis Art Fight",
+      "lead": "Pertanyaan dari artis yang mengmuat naik kartu Team Tragedy, Comedy, dan Mystery.",
+      "warningTitle": "Muat naik dengan tanggung jawab",
+      "warningBody": "Host hanya karya yang Anda buat atau punya hak jelas untuk dibagikan. Jangan muat naik konten melanggar, ilegal, atau terlarang. Anda bertanggung jawab atas setiap file.",
+      "warningTermsLink": "Terma perkhidmatan",
+      "warningPrivacyLink": "Dasar privasi",
+      "q1Question": "Untuk kartu profil atau ref sheet?",
+      "q1Answer": "Keduanya. Muat naik kartu tim Art Fight lengkap, ref sheet karakter, atau grafik apa pun untuk hotlink acara.",
+      "q2Question": "Berfungsi untuk ketiga tim?",
+      "q2Answer": "Ya. Team Tragedy, Team Comedy, dan Team Mystery menggunakan muat naikan yang sama — kami host gambar dan beri tautan yang bisa dibagikan.",
+      "q3Question": "Perlu akaun untuk muat naik?",
+      "q3Answer": "Tidak untuk muat naikan cepat. Anonim: 10 percuma/hari. Log masuk untuk simpan di Dashboard — salin, cari, kelola. Pro menambah batch (20–50 kartu) dan limit lebih tinggi.",
+      "q8Question": "Muat naik batch banyak kartu?",
+      "q8Answer": "Ya, dengan pelan berbayar. Buka Dashboard, Muat naik batch, pilih beberapa PNG/JPG/WEBP/GIF — hingga 20/batch Pro bulanan, 50 Premium tahunan. Percuma: satu per satu.",
+      "q4Question": "Tautan berfungsi di Discord dan Twitter?",
+      "q4Answer": "Ya. URL HTTPS langsung berfungsi di posting sosial. Gunakan BBCode di tempat yang mendukung.",
+      "q5Question": "Tautan tersedia jangka panjang?",
+      "q5Answer": "Tergantung cara muat naik. Anonim sementara — dibersihkan berkala, tautan bisa putus. Terdaftar simpan di Dashboard. Pro paling andal jangka panjang.",
+      "q6Question": "Muat naik gambar apa saja? Hak cipta?",
+      "q6Answer": "Hanya gambar yang Anda miliki atau diizinkan — OC Anda, komisi dengan hak hosting, karya Anda. Jangan muat naik ref orang lain, aset Art Fight resmi buatan orang lain, foto selebriti, logo merek, materi berhak cipta tanpa izin.",
+      "q7Question": "Apakah kandungan yang dilarang sama sekali?",
+      "q7Answer": "Jangan pernah ilegal; eksplisit/eksploitatif (terlog masuk minor); kebencian, pelecehan, kekerasan; malware, penipuan; pelanggaran hak cipta, merek, privasi. Kami dapat hapus dan tangguhkan tanpa pemberitahuan."
+    },
+    "artistSupport": {
+      "title": "Dukungan artis — kami siap membantu",
+      "panelVisualTag": "Balasan dalam 1–2 hari",
+      "panelVisualQuestion": "Embed BBCode tidak berfungsi?",
+      "panelVisualReply": "Mengerti — kami bantu menyelesaikannya.",
+      "topicEmbed": "Embed & tautan",
+      "topicAccount": "Akaun artis",
+      "topicPlan": "Pelan & storan",
+      "topicFeedback": "Ide & log masukan",
+      "contactHint": "Hubungi kapan saja — tanpa antrean.",
+      "contactCta": "Hubungi kami",
+      "emailCta": "Email kami"
+    },
+    "conversion": {
+      "title": "Banyak OC? Muat naik batch dari Dashboard",
+      "description": "Artis Pro mengmuat naik puluhan kartu sekaligus, simpan setiap tautan di Dashboard, limit harian dan storan lebih tinggi untuk seluruh roster.",
+      "cta": "Lihat pelan Pro ramah artis"
+    }
+  }
+}
