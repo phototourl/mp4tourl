@@ -11,8 +11,9 @@ import {
 import { useAvatarLinks } from '@/config/avatar-config';
 import { useLocaleRouter } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
+import { cn } from '@/lib/utils';
 import type { User } from 'better-auth';
-import { LogOutIcon } from 'lucide-react';
+import { ChevronDown, LogOutIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { toast } from 'sonner';
@@ -21,17 +22,19 @@ interface UserButtonProps {
   user: User;
 }
 
+/**
+ * Desktop account control — editstamp style: avatar + name/email pill on the right.
+ */
 export function UserButton({ user }: UserButtonProps) {
   const t = useTranslations();
   const avatarLinks = useAvatarLinks();
   const localeRouter = useLocaleRouter();
   const [open, setOpen] = useState(false);
+
   const handleSignOut = async () => {
     await authClient.signOut({
       fetchOptions: {
         onSuccess: () => {
-          console.log('sign out success');
-          // TanStack Query automatically handles cache invalidation on sign out
           localeRouter.replace('/');
         },
         onError: (error) => {
@@ -42,22 +45,51 @@ export function UserButton({ user }: UserButtonProps) {
     });
   };
 
-  // Desktop View, use DropdownMenu
   return (
-    <DropdownMenu open={open} onOpenChange={setOpen}>
-      <DropdownMenuTrigger>
+    <DropdownMenu open={open} onOpenChange={setOpen} modal={false}>
+      <DropdownMenuTrigger
+        className={cn(
+          'flex h-9 max-h-9 items-center gap-2 transition-all duration-200 ease-out',
+          'outline-none focus-visible:outline-none focus-visible:ring-0',
+          'rounded-full bg-muted/80 px-2.5 lg:px-3',
+          'hover:bg-muted dark:bg-muted/60 dark:hover:bg-muted/80'
+        )}
+      >
         <UserAvatar
           name={user.name}
           image={user.image}
-          className="size-8 border cursor-pointer"
+          className="size-7 shrink-0"
         />
+        <div className="hidden lg:flex min-w-0 shrink-0 items-center gap-1.5">
+          <div className="flex max-w-[10rem] flex-col justify-center gap-0 leading-none">
+            <span className="w-full truncate text-left text-xs font-medium">
+              {user.name}
+            </span>
+            <span className="w-full truncate text-left text-[10px] text-muted-foreground">
+              {user.email}
+            </span>
+          </div>
+          <ChevronDown
+            className={cn(
+              'size-4 shrink-0 text-muted-foreground transition-transform duration-200 ease-out',
+              open && 'rotate-180'
+            )}
+          />
+        </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {/* show user name and email */}
+      <DropdownMenuContent align="end" className="min-w-64">
         <div className="flex items-center justify-start gap-2 p-2">
-          <div className="flex flex-col space-y-1 leading-none">
-            <p className="font-medium">{user.name}</p>
-            <p className="w-[200px] truncate text-sm text-muted-foreground">
+          <UserAvatar
+            name={user.name}
+            image={user.image}
+            className="size-8 shrink-0"
+          />
+          <div className="flex min-w-0 flex-1 flex-col space-y-0.5 leading-none">
+            <p className="break-words font-medium">{user.name}</p>
+            <p
+              className="truncate text-sm text-muted-foreground"
+              title={user.email ?? undefined}
+            >
               {user.email}
             </p>
           </div>

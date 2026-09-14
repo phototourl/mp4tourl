@@ -269,10 +269,13 @@ export function Navbar({ scroll }: NavBarProps) {
             </NavigationMenu>
           </div>
 
-          {/* 右侧：登录/注册 + 主题 + 语言（与 editstamp 截图一致） */}
+          {/* 右侧：主题 → 语言 → 账号/登录注册（与 editstamp 一致） */}
           <div className="flex items-center gap-x-3">
+            <ModeSwitcher />
+            <LocaleSwitcher />
+
             {!mounted || isPending ? (
-              <Skeleton className="h-9 w-24 rounded-md" />
+              <Skeleton className="h-9 w-44 rounded-full" />
             ) : currentUser ? (
               <UserButton user={currentUser} />
             ) : (
@@ -300,9 +303,6 @@ export function Navbar({ scroll }: NavBarProps) {
                 </LocaleLink>
               </div>
             )}
-
-            <ModeSwitcher />
-            <LocaleSwitcher />
           </div>
         </nav>
 
