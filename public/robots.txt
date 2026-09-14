@@ -7,4 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://www.mp4tourl.com/sitemap.xml
+Sitemap: https://mp4tourl.com/sitemap.xml

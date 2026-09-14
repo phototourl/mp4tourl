@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
   ...(process.env.DOCKER_BUILD === 'true' && { output: 'standalone' }),
 
   /* config options here */
+  // Lint with biome locally; avoid next build requiring eslint-config-next in Docker
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   devIndicators: false,
   experimental: {
     serverActions: {

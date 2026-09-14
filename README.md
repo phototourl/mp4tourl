@@ -1,4 +1,4 @@
-# MP4 to URL  🌐 **https://www.mp4tourl.com**
+# MP4 to URL  🌐 **https://mp4tourl.com**
 
 Upload a video, get a permanent shareable link.
 
@@ -11,10 +11,10 @@ pnpm install
 pnpm dev
 ```
 
-Set `.env.local` (storage uses MkSaaS names):
+Set `.env.local` (storage uses `R2_*`):
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://www.mp4tourl.com
+NEXT_PUBLIC_BASE_URL=https://mp4tourl.com
 R2_BUCKET=your-bucket-name
 R2_ENDPOINT=your-r2-endpoint
 R2_ACCESS_KEY_ID=your-access-key
