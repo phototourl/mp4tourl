@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-const FAQ_ITEMS: { id: string; icon: LucideIcon }[] = [
+const FAQ_ITEMS = [
   { id: 'item-1', icon: CircleHelp },
   { id: 'item-2', icon: Workflow },
   { id: 'item-3', icon: Film },
@@ -32,7 +32,7 @@ const FAQ_ITEMS: { id: string; icon: LucideIcon }[] = [
   { id: 'item-5', icon: Share2 },
   { id: 'item-6', icon: Gift },
   { id: 'item-7', icon: Shield },
-];
+] as const satisfies ReadonlyArray<{ id: string; icon: LucideIcon }>;
 
 export default function FaqSection() {
   const t = useTranslations('HomePage.faqs');
