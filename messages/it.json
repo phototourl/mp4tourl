@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Foto in URL",
-    "logout": "Esci",
-    "logoutFailed": "Disconnessione non riuscita",
-    "switchLanguage": "Cambia lingua",
-    "tagline": "Trasforma le foto in link puliti e condivisibili in pochi secondi",
-    "header": {
-      "home": "Home",
-      "blog": "Blog",
-      "subtitle": "Trasforma immagini in link condivisibili",
-      "prompt": "Trascina, incolla o carica — ottieni un link subito",
-      "circleCrop": "Ritaglio Circolare Foto",
-      "circleCropNav": "Ritaglio circolare",
-      "roundedCorners": "Angoli arrotondati",
-      "removeBackground": "Foto Rimuovi Sfondo",
-      "removeBackgroundNav": "Rimuovi Sfondo",
-      "pricingNav": "Prezzi",
-      "comingSoon": "In arrivo.",
-      "history": "Cronologia caricamenti",
-      "login": "Accedi",
-      "signUp": "Registrati",
-      "signOut": "Esci",
-      "dashboard": "Pannello",
-      "settings": "Impostazioni",
-      "tool": "Strumenti",
-      "pdfToUrlNav": "PDF in URL",
-      "fileToUrlNav": "File in URL",
-      "artFightNav": "Schede profilo"
-    },
-    "history": {
-      "drawerTitle": "Cronologia caricamenti",
-      "hint": "Mostra i caricamenti dell'ultima settimana.",
-      "close": "Chiudi",
-      "empty": "Nessun caricamento ancora.",
-      "copy": "Copia link",
-      "copied": "Copiato",
-      "open": "Apri in nuova scheda"
-    },
-    "languageSelect": {
-      "title": "Seleziona la tua regione",
-      "subtitle": "La selezione di una regione modificherà lingua e contenuti.",
-      "close": "Chiudi"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Trasforma le foto in link puliti e condivisibili.",
-        "line2": "Veloce, semplice, affidabile."
-      },
-      "partners": "Partner",
-      "linksTitle": "Risorse",
-      "productsTitle": "Prodotti",
-      "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "pricing": "Prezzi",
-        "docs": "Documenti",
-        "status": "Stato",
-        "about": "Chi siamo",
-        "contact": "Contatti"
-      },
-      "legal": {
-        "title": "Legale",
-        "privacy": "Privacy",
-        "terms": "Termini",
-        "cookie": "Informativa sui cookie"
-      },
-      "copyright": "© 2025 Photo To URL. Tutti i diritti riservati.",
-      "products": {
-        "editStamp": "Editor di timbri"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Gratis",
-      "cdn": "Link CDN",
-      "nosignup": "Nessuna registrazione"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Foto",
-      "title2": "gratis in URL",
-      "subtitle": "Carica la tua foto → ottieni il link → incolla dove vuoi",
-      "upload": "Carica immagine",
-      "bullet": {
-        "fast": "Condivisione veloce",
-        "direct": "Link diretti alle foto",
-        "nosignup": "Nessuna registrazione richiesta",
-        "paste": "Incolla dagli appunti"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Accedi per continuare",
-      "description": "Hai raggiunto il limite gratuito di caricamenti. Accedi per salvare la cronologia e gestire i file. Limiti più alti disponibili con i piani Pro.",
-      "benefits": "Perche registrarsi?",
-      "benefit1": "Cronologia caricamenti completa - ordinata, accurata e sempre accessibile",
-      "benefit2": "Accesso a tutti gli strumenti premium di modifica",
-      "benefit3": "Archiviazione cloud con cronologia caricamenti",
-      "login": "Accedi / Registrati",
-      "later": "Dopo"
-    },
-    "upgradePrompt": {
-      "title": "Limite giornaliero raggiunto",
-      "description": "Hai usato tutti i caricamenti di oggi. Torna domani! Altri servizi premium in arrivo presto.",
-      "comingSoon": "Resta aggiornato per altri servizi",
-      "goDashboard": "Vedi",
-      "later": "Dopo"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Demo automatica",
-      "idleTitle": "Trascina e rilascia la tua immagine",
-      "idleSubtitle": "Vedi il flusso completo di caricamento → link → copia.",
-      "processing": "Ottimizzazione e caricamento...",
-      "doneTitle": "Pronto per la condivisione",
-      "doneSubtitle": "Il tuo link è pronto per essere condiviso all'istante.",
-      "thanksForWatching": "Grazie per aver guardato"
-    },
-    "upload": {
-      "title": "Trascina una foto o clicca per sfogliare",
-      "hint": "JPG, PNG, WEBP, GIF fino a 2MB (10 caricamenti/giorno gratis). Trascina, clicca o incolla.",
-      "orDrop": "o trascina un file",
-      "samplesTitle": "Nessuna immagine? Prova una di queste:",
-      "policy": "Caricando un'immagine accetti la nostra <privacy>Informativa sulla Privacy</privacy> e i <terms>Termini di Utilizzo</terms>.",
-      "clear": "Cancella"
-    },
-    "result": {
-      "error": "Caricamento fallito. Riprova.",
-      "fileTooLarge": "File troppo grande. Il tuo piano consente fino a {maxMb} MB per file.",
-      "dailyLimitReached": "Limite giornaliero ({limit} al giorno) raggiunto. Riprova domani.",
-      "storageLimitReached": "Archiviazione piena ({used} / {limit}). Altre opzioni di archiviazione in arrivo!",
-      "generated": "Link generato:",
-      "open": "Apri in nuova scheda",
-      "placeholder": "Nessun link ancora. Carica una foto per generare un URL condivisibile.",
-      "savePrompt": "Salva il link come preferisci",
-      "copy": "Copia link",
-      "copied": "Copiato",
-      "saveHint": "Salva questo link se ne avrai bisogno in seguito",
-      "saveHintLoggedIn": "Salvato in Dashboard",
-      "tryPrefix": "Prova"
-    },
-    "benefits": {
-      "title": "Perché le persone scelgono Foto in URL",
-      "subtitle": "Velocità — Prova gratuita: 5 caricamenti/giorno, 2MB per file",
-      "items": {
-        "fast": {
-          "title": "Condivisione veloce",
-          "desc": "Carica e ottieni un link in pochi secondi senza passaggi extra."
-        },
-        "direct": {
-          "title": "URL immagini dirette",
-          "desc": "Link puliti che funzionano in HTML, Markdown e app di chat."
-        },
-        "nosignup": {
-          "title": "Nessuna registrazione richiesta",
-          "desc": "Prova gratuita: 5 caricamenti/giorno, 2MB per file — senza registrazione."
-        }
-      }
-    },
-    "how": {
-      "title": "Come funziona",
-      "step1": "1) Aggiungi la tua foto (trascina, incolla o clicca per scegliere un file).",
-      "step2": "2) La ospitiamo e restituiamo un link condivisibile.",
-      "step3": "3) Copia e condividi il link in documenti, chat, prototipi e altro.",
-      "note": "Il tuo link si apre velocemente in documenti, chat e prototipi—inoltre puoi scaricarlo come .txt."
-    },
-    "process": {
-      "title": "Flusso in tre passaggi",
-      "subtitle": "Riduci lo sforzo, mantieni il CTA visibile, finisci in pochi secondi.",
-      "steps": {
-        "1": {
-          "title": "Trascina o incolla",
-          "desc": "Trascina un file, incolla dagli appunti o sfoglia."
-        },
-        "2": {
-          "title": "Ospitiamo e restituiamo un link",
-          "desc": "URL istantaneo con controlli copia/apri/salva."
-        },
-        "3": {
-          "title": "Usa ovunque",
-          "desc": "Usa in documenti, chat, ticket, blog o prototipi."
-        }
-      }
-    },
-    "features": {
-      "title": "Caratteristiche principali",
-      "subtitle": "Chiarezza prima di tutto: meno attrito, più condivisione.",
-      "items": {
-        "cdn": {
-          "title": "Link CDN diretti",
-          "desc": "URL puliti e prevedibili pronti per incorporamenti Markdown e HTML."
-        },
-        "save": {
-          "title": "Copia e Salva",
-          "desc": "Copia, apri o salva come file .txt con un clic."
-        },
-        "clipboard": {
-          "title": "Compatibile con appunti",
-          "desc": "Incolla screenshot senza cercare file o ricaricamenti."
-        },
-        "errors": {
-          "title": "Sicuro e Privato",
-          "desc": "Immagini ospitate in modo sicuro, con crittografia in transito e a riposo."
-        },
-        "nosignup": {
-          "title": "Nessuna registrazione necessaria",
-          "desc": "Prova gratuita: 5 caricamenti/giorno, 2MB per file — senza registrazione."
-        },
-        "r2": {
-          "title": "Hosting veloce",
-          "desc": "I link sono serviti tramite CDN veloce per caricamento rapido e accesso affidabile."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "I team risparmiano tempo con Foto in URL",
-      "subtitle": "Prova sociale per ridurre il rischio e accelerare l'adozione.",
-      "items": {
-        "ops": {
-          "name": "Operazioni prodotto",
-          "quote": "Incolliamo screenshot nei ticket senza intasare gli allegati. I link rimangono puliti."
-        },
-        "content": {
-          "name": "Responsabile contenuti",
-          "quote": "I link pronti per Markdown mantengono i nostri documenti ordinati e pubblicabili in pochi minuti."
-        },
-        "support": {
-          "name": "Supporto",
-          "quote": "Errori chiari e URL istantanei rendono facile guidare i clienti nella chat."
-        }
-      }
-    },
-    "cta": {
-      "title": "Trasforma le foto in link in pochi secondi",
-      "subtitle": "Trascina, incolla o carica—copia il tuo link e condividilo.",
-      "upload": "Carica ora",
-      "paste": "Incolla uno screenshot"
-    },
-    "longform": {
-      "title": "Perché Foto in URL aiuta il tuo flusso di lavoro",
-      "p1": "Foto in URL è costruito per creatori, marketer, team di supporto, fondatori e chiunque abbia bisogno di un modo rapido e affidabile per trasformare le foto in link puliti. Con un flusso diretto di caricamento-in-link, eviti pesanti gestori di media e salti i login. I link sono ordinati, facili da incollare in app di chat, documenti, wiki, rapporti di bug e ticket. I team si muovono più velocemente quando screenshot e foto di prodotti sono istantaneamente condivisibili senza limiti di allegati o anteprime disordinate. Poiché i link sono prevedibili e coerenti, funzionano bene anche nell'automazione, nei passaggi QA e nei prototipi leggeri.",
-      "p2": "L'esperienza rimane semplice: trascina, incolla o sfoglia; ottieni un link; condividi. Nessun cromo extra, nessuna pubblicità distraente, nessun gate. Mantieni il focus sul tuo contenuto mentre gestiamo le parti noiose dell'hosting. Che tu stia documentando una funzione, preparando un post del blog, costruendo un pitch deck o inviando una risposta di supporto rapida, un link breve batte gli allegati voluminosi. Per i team globali, l'interfaccia è disponibile in più lingue mantenendo il testo conciso e universale.",
-      "useCases": {
-        "title": "Casi d'uso che rimangono pratici",
-        "items": {
-          "1": "Prodotto e design: condividi mockup UI, screenshot di componenti e note visive rapide senza esportare in strumenti pesanti.",
-          "2": "Supporto e QA: allega screenshot riproducibili in ticket, thread di chat o runbook; i link rimangono ordinati e facili da tracciare.",
-          "3": "Documenti e blog: incorpora foto in Markdown, HTML o editor CMS con URL prevedibili e nessuna sorpresa di layout.",
-          "4": "Vendite e CS: rilascia catture proof-of-concept o walkthrough dei clienti direttamente in email o messaggistica.",
-          "5": "Handoff ingegneristico: mantieni artefatti di build, snapshot di errori e visuali di regressione leggeri per revisioni più veloci.",
-          "6": "Comunità e social: incolla link in Discord, Slack, Teams, Twitter/X o forum senza anteprime gonfiate."
-        }
-      },
-      "flow": {
-        "title": "Come funziona il flusso end-to-end",
-        "p1": "1) Scegli un'immagine: trascina e rilascia, incolla dagli appunti o clicca per sfogliare. PNG, JPG, WEBP, GIF fino a 2MB nel piano gratuito (10 caricamenti/giorno). 2) Carichiamo e restituiamo un link diretto con azioni di copia, apertura e salvataggio (.txt). 3) Usa il link ovunque: blog, documenti, ticket, chat, prototipi e altro.",
-        "p2": "Ogni passaggio è ottimizzato per la chiarezza: stato visibile, errori amichevoli e pulsanti che confermano le azioni. Quando CDN è abilitato, i link vengono serviti dal dominio CDN; le tue immagini sono archiviate in modo sicuro su our hosting infrastructure."
-      },
-      "best": {
-        "title": "Migliori pratiche per link più puliti",
-        "items": {
-          "1": "Mantieni i nomi dei file significativi prima del caricamento; rimangono parte dell'URL e aiutano la ricerca futura.",
-          "2": "Usa WEBP o JPG/PNG ottimizzati per payload più leggeri se ti aspetti una condivisione pesante.",
-          "3": "Copia il link direttamente dopo la generazione per evitare voci di appunti obsolete.",
-          "6": "Salva come .txt per link di testo semplice pronti per essere copiati e utilizzati."
-        }
-      },
-      "roadmap": {
-        "title": "Punti salienti della roadmap",
-        "p1": "Integreremo profondamente our hosting infrastructure, fornendo quote e capacità di gestione più user-friendly, insieme a collaborazione team opzionale, controllo degli accessi e analisi per link. Pianifichiamo di lanciare funzionalità come eliminazione con un clic, stili di link preimpostati e bucket di archiviazione a livello organizzativo. Nel frattempo, stiamo migliorando e perfezionando continuamente sottoprodotti: strumento di ritaglio circolare, strumento di angoli arrotondati e strumento di rimozione dello sfondo, rendendo l'elaborazione delle immagini più conveniente."
-      },
-      "faq": {
-        "title": "FAQ",
-        "items": {
-          "1": {
-            "q": "È gratuito?",
-            "a": "Sì: c’è un piano gratuito. Caricamento→link e le funzioni base restano gratuiti entro i limiti del free (spazio, upload giornalieri, dimensione file). Per allentare questi limiti puoi passare a un piano a pagamento, con i link ospitati sul nostro CDN, quote più alte e massimi di dimensione file più elevati."
-          },
-          "2": {
-            "q": "Quali formati sono supportati?",
-            "a": "Al momento sono supportati PNG, JPG, WEBP e GIF, entro i limiti di dimensione attuali per file. Altri formati possono essere aggiunti se la domanda lo giustifica."
-          },
-          "3": {
-            "q": "Posso incorporare in Markdown o HTML?",
-            "a": "Sì. Copia il link direttamente, oppure salvalo con un clic come .txt e usalo dove ti serve — Markdown, HTML, documenti o CMS."
-          },
-          "4": {
-            "q": "Mantieni i miei file pubblici?",
-            "a": "I link sono condivisibili. Quando CDN è attivato, i file sono serviti dal dominio CDN. Se lo spazio di archiviazione è temporaneamente non disponibile, mostriamo messaggi di manutenzione chiari."
-          },
-          "5": {
-            "q": "Ci saranno account o team?",
-            "a": "Sì. Prima puntiamo su caricamento e condivisione semplici e affidabili; poi aggiungiamo gradualmente spazi team, controllo degli accessi e analisi d’uso."
-          },
-          "6": {
-            "q": "Posso ottenere un rimborso dopo il pagamento?",
-            "a": "In genere non offriamo rimborsi quando il servizio resta disponibile per un uso normale. Se non può usare il servizio durante il periodo pagato a causa di un problema da parte nostra, esamineremo la sua richiesta dopo la verifica e, se opportuno, concorderemo con lei i passi successivi."
-          },
-          "7": {
-            "q": "Come disdico il rinnovo automatico?",
-            "a": "Il rinnovo viene addebitato automaticamente sulla carta che ha autorizzato. Per interrompere gli addebiti futuri, annulli l’addebito diretto o l’abbonamento ricorrente presso l’emittente della carta (app, home banking o servizio clienti)."
-          },
-          "8": {
-            "q": "Per quanto tempo posso ancora usare il servizio dopo la disdetta?",
-            "a": "Di solito può continuare a usare il servizio fino alla fine del periodo già pagato. Al termine non verranno effettuati ulteriori addebiti e i vantaggi cessano con quel periodo."
-          }
-        },
-        "contactNote": "Per le questioni sopra e per altre domande, usi la pagina «Contattaci» di questo sito o scriva a <email>support@phototourl.com</email>. Cerchiamo di rispondere entro 1–2 giorni lavorativi."
-      },
-      "about": {
-        "title": "Informazioni su Photo To URL",
-        "p1": "PhotoToURL è un convertitore gratuito da immagine a URL e generatore di link che ti aiuta a caricare immagini e generare all'istante link condivisibili. Converti facilmente JPG, PNG, WEBP e altri formati in URL dirette per una condivisione online rapida.",
-        "p2": "Che tu abbia bisogno di una rapida conversione foto in URL o hosting gratuito con link CDN, PhotoToURL rende tutto semplice e affidabile. Carica l'immagine e ottieni un link diretto in pochi secondi. Piano gratuito: 10 caricamenti/giorno, 2MB per file — consulta Prezzi per limiti più alti."
-      }
-    },
-    "selectRegion": {
-      "title": "Seleziona regione",
-      "subtitle": "Scegli la tua lingua e regione preferite"
-    }
-  },
-  "seo": {
-    "keywords": "foto url,immagini url,generatore,converti link,hosting gratuito,url diretto,link condivisibili,CDN",
-    "home": {
-      "title": "Foto in URL | Trasforma foto in link condivisibili",
-      "description": "Hosting immagini gratuito: converti foto in URL condivisibili. JPG, PNG, WEBP, GIF fino a 2MB, 10 caricamenti/giorno nel piano gratuito. Appunti, CDN veloce."
-    }
-  },
-  "images": {
-    "previewAlt": "Anteprima immagine caricata",
-    "animatingSampleAlt": "Immagine di esempio utilizzata nella demo di caricamento",
-    "sampleThumbAlt": "Immagine di esempio per il caricamento",
-    "useSampleAria": "Usa questa immagine di esempio",
-    "howIllustrationAlt": "Illustrazione che mostra come funziona Foto in URL",
-    "heroDropTitle": "Trascina una foto qui",
-    "heroDropSubtitle": "La miglioreremo e la ospiteremo, poi restituiremo un link pulito.",
-    "heroDropBadge": "Trascina o clicca (JPG/PNG, fino a 2MB)",
-    "logoAlt": "Logo Foto in URL"
-  },
-  "circleCrop": {
-    "title": "Foto in Cerchio",
-    "description": "Strumento gratuito online per ritagliare foto in cerchio, ritaglia facilmente qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design.",
-    "upload": "Carica foto",
-    "processing": "Elaborazione...",
-    "download": "Scarica foto circolare",
-    "errorSelectFile": "Seleziona un file foto",
-    "errorUploadFirst": "Carica prima una foto",
-    "page": {
-      "title": "Foto in Cerchio - Ritagliatore di Foto Circolari Gratuito Online",
-      "description": "Foto in Cerchio è uno strumento gratuito online per trasformare foto rettangolari in forme perfettamente circolari. Il nostro strumento ti aiuta a ritagliare foto in formato circolare all'istante, senza registrazione richiesta. Che tu abbia bisogno di una foto profilo rotonda, una foto circolare per i social media, o una foto arrotondata per progetti di design, il nostro strumento di ritaglio circolare rende tutto semplice e facile.",
-      "sectionSubtitle": "Ritaglia qualsiasi foto in un cerchio perfetto - ideale per foto profilo, avatar social e progetti di design."
-    },
-    "seo": {
-      "title": "Strumento di Ritaglio Circolare | Ritagliatore di Foto Rotonde Gratuito Online",
-      "description": "Strumento gratuito online per ritagliare qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design.",
-      "keywords": "ritaglio immagine circolare, ritagliare immagine rotonda, strumento ritaglio circolare, ritaglio circolare online"
-    },
-    "selectRegion": {
-      "title": "Seleziona regione",
-      "subtitle": "Scegli la tua lingua e regione preferite"
-    }
-  },
-  "roundedCorners": {
-    "title": "Foto con angoli arrotondati",
-    "description": "Strumento online gratuito per angoli arrotondati, aggiungi facilmente angoli arrotondati a qualsiasi foto – perfetto per icone di app, foto profilo e progetti di design.",
-    "upload": "Carica foto",
-    "download": "Scarica",
-    "radiusLabel": "Raggio (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Elaborazione...",
-    "errorUploadFirst": "Carica prima una foto.",
-    "errorSelectFile": "Seleziona un file immagine.",
-    "page": {
-      "title": "Foto con angoli arrotondati – Strumento online gratuito",
-      "description": "Foto con angoli arrotondati è uno strumento online gratuito per aggiungere angoli arrotondati a qualsiasi foto. Crea icone stile app, immagini con bordi morbidi per i social o miniature con raggio e zoom regolabili. Senza registrazione – carica, regola, scarica.",
-      "sectionSubtitle": "Aggiungi angoli arrotondati a qualsiasi foto - perfetto per icone app, social media e miniature."
-    },
-    "seo": {
-      "title": "Strumento Angoli Arrotondati | Strumento online gratuito",
-      "description": "Strumento gratuito online per aggiungere angoli arrotondati a qualsiasi foto – perfetto per icone app, foto profilo e progetti di design.",
-      "keywords": "angoli arrotondati, immagine angoli arrotondati, strumento angoli arrotondati, angoli arrotondati online"
-    },
-    "selectRegion": {
-      "title": "Seleziona regione",
-      "subtitle": "Scegli la tua lingua e regione preferite"
-    }
-  },
-  "removeBackground": {
-    "title": "Foto Rimuovi Sfondo",
-    "description": "Strumento gratuito online di rimozione dello sfondo con IA, rimuovi facilmente lo sfondo da qualsiasi foto - perfetto per foto di prodotti, ritratti e progetti di design.",
-    "upload": "Carica Foto",
-    "download": "Scarica",
-    "processing": "Elaborazione...",
-    "processingModelLoading": "Caricamento modello IA, il primo utilizzo potrebbe richiedere 10-30 secondi, attendere prego...",
-    "processingImage": "Elaborazione immagine, attendere prego...",
-    "errorUploadFirst": "Carica prima una foto.",
-    "errorSelectFile": "Seleziona un file immagine.",
-    "errorProcessing": "Elaborazione immagine fallita. Riprova.",
-    "errorTimeout": "Timeout di elaborazione, l'immagine potrebbe essere troppo grande o la rete è lenta, prova con un'immagine più piccola o riprova più tardi.",
-    "errorMemory": "Memoria insufficiente, prova con un'immagine più piccola.",
-    "errorGeneric": "Elaborazione fallita: {error}. Riprova o prova con un'altra immagine.",
-    "errorFileTooLarge": "Il file immagine è troppo grande, seleziona un'immagine inferiore a 10MB.",
-    "errorModelLoad": "Impossibile caricare la libreria del modello IA, aggiorna la pagina e riprova.",
-    "errorPageHidden": "La pagina è stata cambiata, carica nuovamente l'immagine per elaborarla.",
-    "page": {
-      "title": "Foto Rimuovi Sfondo - Strumento Gratuito Online di Rimozione dello Sfondo con IA",
-      "description": "Foto Rimuovi Sfondo è uno strumento gratuito online alimentato da IA per rimuovere gli sfondi da qualsiasi foto. Crea immagini PNG trasparenti istantaneamente con la nostra tecnologia avanzata di rimozione dello sfondo. Perfetto per foto di prodotti, ritratti, e-commerce e progetti di design. Nessuna registrazione richiesta - carica, elabora e scarica in pochi secondi.",
-      "sectionSubtitle": "Rimozione sfondo con AI - crea PNG trasparenti da qualsiasi foto in pochi secondi."
-    },
-    "seo": {
-      "title": "Strumento di Rimozione dello Sfondo | Strumento Gratuito Online di Rimozione dello Sfondo con IA",
-      "description": "Strumento gratuito online con IA per rimuovere lo sfondo da qualsiasi foto - perfetto per foto di prodotti, ritratti e progetti di design.",
-      "keywords": "rimuovi sfondo, rimozione sfondo, sfondo trasparente, rimozione sfondo con ia"
-    },
-    "selectRegion": {
-      "title": "Seleziona Regione",
-      "subtitle": "Scegli la tua lingua e regione preferite"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF in URL | Hosting PDF e link HTTPS condivisibili",
-      "description": "Carica i PDF sul tuo account e ottieni un link HTTPS stabile; visualizza, scarica o copia il link quando vuoi dalla dashboard dell’account.",
-      "keywords": "pdf in url,hosting pdf,condividere pdf,caricare pdf,link diretto,link documento"
-    },
-    "tool": {
-      "heroTitle": "PDF in URL",
-      "heroSubtitle": "Trasforma i tuoi PDF in link HTTPS condivisibili collegati al tuo account. Dopo ogni caricamento apri la dashboard per copiare il link, anteprima o download.",
-      "featureFastTitle": "Caricamento veloce",
-      "featureFastDesc": "Trascina o seleziona un PDF; in pochi secondi ottieni il link servito dalla nostra CDN.",
-      "featureHostingTitle": "Hosting personale",
-      "featureHostingDesc": "Ogni file resta nel tuo cloud e nella libreria documenti — non è un link anonimo monouso.",
-      "featureLinkTitle": "Link stabili e condivisibili",
-      "featureLinkDesc": "Ogni caricamento restituisce un URL pulito da incollare ovunque. Il link resta attivo finché non elimini il file nella dashboard.",
-      "featureDashboardTitle": "Tutto in un unico posto",
-      "featureDashboardDesc": "Dopo l’accesso apri la dashboard per vedere tutti i PDF: ricopiare il link, aprire in una nuova scheda o scaricare l’originale.",
-      "dropzoneTitle": "Trascina qui il tuo PDF",
-      "dropzoneHint": "Solo PDF",
-      "dropzoneFootnote": "Dopo il caricamento puoi tornare alla dashboard in qualsiasi momento per copiare il link o scaricare il file.",
-      "browse": "Scegli file",
-      "selectedFileLabel": "File selezionato",
-      "removeSelectedFile": "Rimuovi file",
-      "uploadBtn": "Carica e ottieni link",
-      "uploading": "Caricamento…",
-      "loginRequiredTitle": "Accedi per caricare PDF",
-      "loginRequiredDescription": "Accedi prima. L’hosting è legato al tuo account; dopo il caricamento potrai copiare link, scaricare e gestire tutto dalla dashboard.",
-      "loginRequiredDetail": "Dopo l’accesso ogni caricamento compare nello stesso punto della dashboard: copiare il link diretto con un clic, aprire in una nuova scheda, scaricare gli originali, cercare e filtrare per tipo se serve, eliminare o ricaricare — e aiuta a mantenere private i tuoi documenti.",
-      "loginCta": "Accedi",
-      "signUpCta": "Crea account",
-      "resultTitle": "Il tuo link PDF",
-      "resultDashboardHint": "Per questo file apri in qualsiasi momento la dashboard: copia l’URL, apri in una nuova scheda o scarica il PDF.",
-      "dashboardCta": "Apri dashboard",
-      "copy": "Copia link",
-      "copied": "Copiato",
-      "open": "Apri in una nuova scheda",
-      "reset": "Carica un altro",
-      "errorUnauthorized": "Accedi prima di caricare PDF.",
-      "errorBadType": "Scegli un file PDF.",
-      "howTitle": "Come funziona",
-      "step1Title": "1. Scegli il PDF",
-      "step1Desc": "Seleziona un file sul dispositivo o trascinalo nell’area di caricamento.",
-      "step2Title": "2. Carica nella libreria",
-      "step2Desc": "Salviamo il PDF nel tuo cloud e lo mostriamo nella dashboard, poi restituiamo un URL HTTPS diretto.",
-      "step3Title": "3. Condividi e torna dopo",
-      "step3Desc": "Condividi il link via email o chat. Se serve apri la dashboard per copiare di nuovo lo stesso link, aprirlo o scaricare il file."
-    },
-    "page": {
-      "sectionTitle": "I tuoi documenti in un solo spazio",
-      "sectionLead": "Per chi vuole una vera libreria PDF, non solo un link temporaneo: carica una volta, salva nel tuo account e torna quando vuoi.",
-      "bullet1": "Ogni PDF caricato appare nella stessa lista della dashboard per rivedere cosa hai condiviso.",
-      "bullet2": "Hosting personale: file sotto il tuo account, serviti via HTTPS e salvati nella libreria.",
-      "bullet3": "Azioni sempre a portata di mano: copiare il link pubblico, aprirlo nel browser o scaricare il PDF originale.",
-      "bullet4": "Lo stesso URL resta valido finché esiste il file; se lo elimini nella dashboard il link non serve più quel file.",
-      "footnote": "Elimina nella dashboard i file che non ti servono più; il link smette di funzionare."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "File in URL | Documenti Office e link HTTPS",
-      "description": "Carica PDF, Word, PowerPoint o Excel sul tuo account e ottieni un link HTTPS stabile; visualizza, scarica o copia il link dalla dashboard quando vuoi.",
-      "keywords": "file in url,link documento,condividere office,caricare docx pptx xlsx,hosting documenti"
-    },
-    "tool": {
-      "heroTitle": "File in URL",
-      "heroSubtitle": "Trasforma documenti d’ufficio in link HTTPS condivisibili nel tuo account. Formati supportati: PDF, Word, PowerPoint ed Excel.",
-      "featureFastTitle": "Caricamento veloce",
-      "featureFastDesc": "Trascina o seleziona un file supportato; in pochi secondi ottieni il link via CDN.",
-      "featureHostingTitle": "Hosting personale",
-      "featureHostingDesc": "Ogni caricamento va nel tuo cloud e nella stessa libreria personale dei caricamenti da altre pagine.",
-      "featureLinkTitle": "Link stabili e condivisibili",
-      "featureLinkDesc": "Ogni caricamento restituisce un URL pulito. Il link resta attivo finché non elimini il file nella dashboard.",
-      "featureDashboardTitle": "Tutto in un unico posto",
-      "featureDashboardDesc": "Dopo l’accesso apri la dashboard per ricopiare il link, aprire in una nuova scheda o scaricare.",
-      "dropzoneTitle": "Trascina qui il tuo file",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "Dopo il caricamento puoi tornare alla dashboard in qualsiasi momento per copiare il link o scaricare il file.",
-      "browse": "Scegli file",
-      "selectedFileLabel": "File selezionato",
-      "removeSelectedFile": "Rimuovi file",
-      "uploadBtn": "Carica e ottieni link",
-      "uploading": "Caricamento…",
-      "loginRequiredTitle": "Accedi per caricare file",
-      "loginRequiredDescription": "Accedi prima. L’hosting è legato al tuo account; dopo il caricamento potrai copiare link, scaricare e gestire tutto dalla dashboard.",
-      "loginRequiredDetail": "Dopo l’accesso ogni caricamento compare nello stesso punto della dashboard: copiare il link diretto con un clic, aprire in una nuova scheda, scaricare gli originali, cercare e filtrare per tipo se serve, eliminare o ricaricare — e aiuta a mantenere private i tuoi documenti.",
-      "loginCta": "Accedi",
-      "signUpCta": "Crea account",
-      "resultTitle": "Il tuo link al file",
-      "resultDashboardHint": "Per questo file apri in qualsiasi momento la dashboard: copia l’URL, apri in una nuova scheda o scarica l’originale.",
-      "dashboardCta": "Apri dashboard",
-      "copy": "Copia link",
-      "copied": "Copiato",
-      "open": "Apri in una nuova scheda",
-      "reset": "Carica un altro",
-      "errorUnauthorized": "Accedi prima di caricare file.",
-      "errorBadType": "Scegli un file PDF, Word, PowerPoint o Excel.",
-      "howTitle": "Come funziona",
-      "step1Title": "1. Scegli il file",
-      "step1Desc": "Seleziona un documento supportato sul dispositivo o trascinalo nell’area di caricamento.",
-      "step2Title": "2. Carica nella libreria",
-      "step2Desc": "Salviamo il file nel tuo cloud e lo mostriamo nella dashboard, poi restituiamo un URL HTTPS diretto.",
-      "step3Title": "3. Condividi e torna dopo",
-      "step3Desc": "Condividi il link via email o chat. Se serve apri la dashboard per copiare di nuovo lo stesso link, aprirlo o scaricare il file."
-    },
-    "page": {
-      "sectionTitle": "In sintesi",
-      "sectionLead": "Scegli file, caricalo e copia il link; se serve apri la dashboard per copiare di nuovo o scaricare l’originale.",
-      "bullet1": "Formati supportati: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Trascina e rilascia o scegli file; al termine del caricamento mostriamo un link HTTPS pronto da copiare.",
-      "bullet3": "Incolla il link in email, chat o documenti — i destinatari lo aprono nel browser.",
-      "bullet4": "I file restano nel tuo account; se serve apri la dashboard per copiare di nuovo lo stesso link o scaricare l’originale.",
-      "bullet5": "Solo PDF? Usa anche la pagina «PDF in URL» per un percorso più breve.",
-      "footnote": "Se un file non ti serve più eliminalo nella dashboard; il link smette di funzionare."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Foto in URL",
-      "description": "Articoli su hosting di foto, condivisione di link e suggerimenti sulle prestazioni."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Ultimi articoli, tutorial e approfondimenti su hosting di immagini, CDN, condivisione di link, ritaglio circolare, angoli arrotondati e rimozione dello sfondo.",
-      "stayTuned": "Resta sintonizzato per guide su:",
-      "guides": {
-        "1": "Migliori pratiche per la conversione di immagini in URL",
-        "2": "Come utilizzare link foto diretti in blog e documenti",
-        "3": "Prestazioni e caching per risorse statiche"
-      },
-      "readMore": "Leggi di più",
-      "min": "min",
-      "backToBlog": "Torna al blog",
-      "minRead": "min di lettura",
-      "author": "Autore",
-      "viewMoreArticles": "Visualizza altri articoli",
-      "tags": "Tag:",
-      "about": {
-        "title": "Informazioni sul team Foto in URL",
-        "subtitle": "Team editoriale",
-        "description": "Costruiamo e manteniamo Foto in URL e scriviamo guide pratiche per l'ottimizzazione delle immagini e le prestazioni web.",
-        "website": "Sito web",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Visualizza tutti gli articoli"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Come convertire un'immagine in URL: Guida completa",
-        "description": "Impara tutto ciò che devi sapere sulla conversione di immagini in URL condivisibili. Questa guida completa copre metodi, best practice e suggerimenti per l'hosting di immagini e la condivisione di link.",
-        "content": "# Come convertire un'immagine in URL: Guida completa\n\nLa conversione di immagini in URL condivisibili è diventata un'abilità essenziale nel mondo digitale di oggi. Che tu sia un blogger, uno sviluppatore o un creatore di contenuti, comprendere come trasformare le tue immagini in link diretti può migliorare significativamente il tuo flusso di lavoro e le capacità di condivisione dei contenuti.\n\n## Perché convertire le immagini in URL?\n\nPrima di approfondire i metodi, capiamo perché convertire le immagini in URL è vantaggioso:\n\n### 1. **Condivisione Facile**\nGli URL diretti delle immagini ti permettono di condividere immagini istantaneamente senza scaricare o ricaricare file. Basta copiare l'URL e incollarlo ovunque - in email, documenti o post sui social media.\n\n### 2. **Prestazioni Migliori**\nL'uso di link diretti alle immagini riduce il carico sul tuo server principale. Quando le immagini sono ospitate su una CDN (Content Delivery Network), si caricano più velocemente per gli utenti di tutto il mondo.\n\n### 3. **Flessibilità**\nGli URL delle immagini possono essere incorporati in HTML, Markdown o utilizzati nelle API. Questa flessibilità li rende perfetti sia per gli sviluppatori che per i creatori di contenuti.\n\n### 4. **Efficienza di Archiviazione**\nInvece di archiviare le immagini localmente, puoi utilizzare soluzioni di cloud storage che forniscono URL diretti, risparmiando spazio server prezioso.\n\n## Metodi per convertire le immagini in URL\n\n### Metodo 1: Utilizzo del servizio Foto in URL\n\n**Foto in URL** è un servizio gratuito e user-friendly che rende la conversione da immagine a URL senza sforzo:\n\n1. **Visita il sito web**: Naviga su Foto in URL\n2. **Carica la tua immagine**: Trascina e rilascia il file immagine o fai clic per sfogliare\n3. **Ottieni il tuo URL**: Una volta caricata, riceverai un link diretto alla tua immagine\n4. **Copia e usa**: Copia l'URL e usalo ovunque ne abbia bisogno\n\n**Vantaggi:**\n- ✅ Nessuna registrazione richiesta\n- ✅ Caricamento e elaborazione veloci\n- ✅ Link CDN diretti per prestazioni ottimali\n- ✅ Supporto per più formati immagine (JPG, PNG, WEBP, GIF)\n- ✅ 10 caricamenti/giorno, 2MB per file\n\n### Metodo 2: Servizi di Cloud Storage\n\nI popolari servizi di cloud storage offrono hosting di immagini con accesso URL diretto:\n\n**Google Cloud Storage / AWS S3:**\n- Carica immagini nel tuo bucket\n- Imposta le autorizzazioni appropriate\n- Accedi alle immagini tramite URL diretti\n- Configura CDN per prestazioni migliori\n\n**Vantaggi:**\n- Controllo completo sulle tue immagini\n- Soluzioni di archiviazione scalabili\n- Infrastruttura di livello professionale\n\n### Metodo 3: Piattaforme di Hosting Immagini\n\nLe piattaforme dedicate di hosting immagini forniscono servizi specializzati:\n\n- **Imgur**: Popolare per la condivisione rapida di immagini\n- **Cloudinary**: Funzionalità avanzate di manipolazione delle immagini\n- **ImageKit**: Ottimizzato per le prestazioni\n\n## Best Practice per URL Immagini\n\n### 1. **Scegli il Formato Giusto**\n\nDiversi formati immagine servono scopi diversi:\n\n- **JPEG**: Migliore per fotografie con molti colori\n- **PNG**: Ideale per immagini con trasparenza o bordi netti\n- **WEBP**: Formato moderno che offre una migliore compressione\n- **GIF**: Perfetto per immagini animate\n\n### 2. **Ottimizza la Dimensione dell'Immagine**\n\nPrima di convertire in URL, ottimizza le tue immagini:\n\n- Comprimi le immagini per ridurre la dimensione del file\n- Ridimensiona le immagini a dimensioni appropriate\n- Usa formati moderni come WEBP quando possibile\n- Bilancia qualità e dimensione del file\n\n### 3. **Usa CDN per Prestazioni Migliori**\n\nLe Content Delivery Networks (CDN) distribuiscono le tue immagini su più server in tutto il mondo, garantendo tempi di caricamento rapidi indipendentemente dalla posizione dell'utente.\n\n### 4. **Implementa la Sicurezza Appropriata**\n\n- Usa URL HTTPS per la consegna sicura delle immagini\n- Imposta autorizzazioni di accesso appropriate\n- Considera la filigrana per contenuti sensibili\n- Monitora l'utilizzo per prevenire abusi\n\n## Casi d'Uso Comuni\n\n### Per i Bloggers\n\nI bloggers possono usare URL immagini per:\n- Incorporare immagini nei post del blog senza ospitarle localmente\n- Migliorare i tempi di caricamento delle pagine\n- Condividere immagini su più piattaforme\n- Mantenere una qualità dell'immagine coerente\n\n### Per gli Sviluppatori\n\nGli sviluppatori beneficiano degli URL immagini:\n- Riducendo il carico del server\n- Semplificando la gestione delle immagini\n- Abilitando il caricamento dinamico delle immagini\n- Integrando con API e servizi web\n\n### Per l'E-commerce\n\nI siti e-commerce usano URL immagini per:\n- Visualizzare le immagini dei prodotti in modo efficiente\n- Gestire grandi cataloghi di immagini\n- Ottimizzare per dispositivi mobili\n- Migliorare le prestazioni della pagina di checkout\n\n## Risoluzione dei Problemi Comuni\n\n### Problema: Link Immagini Rotti\n\n**Soluzione:**\n- Verifica che l'URL sia corretto e accessibile\n- Controlla le autorizzazioni e le impostazioni di accesso delle immagini\n- Assicurati che il servizio di hosting sia operativo\n- Valida che il formato dell'immagine sia supportato\n\n### Problema: Tempi di Caricamento Lenti\n\n**Soluzione:**\n- Usa una CDN per la consegna delle immagini\n- Ottimizza le dimensioni dei file immagine\n- Scegli formati immagine appropriati\n- Implementa il lazy loading dove possibile\n\n### Problema: Immagine Non Visualizzata\n\n**Soluzione:**\n- Controlla le impostazioni CORS (Cross-Origin Resource Sharing)\n- Verifica che i protocolli HTTPS/HTTP corrispondano\n- Assicurati che siano impostati i tipi MIME corretti\n- Testa l'accessibilità dell'URL da posizioni diverse\n\n## Consigli Avanzati\n\n### 1. **Elaborazione in Batch**\n\nPer più immagini, considera:\n- L'uso di API per caricamenti automatizzati\n- L'implementazione di script di conversione batch\n- L'utilizzo di API cloud storage\n- La configurazione di flussi di lavoro automatizzati\n\n### 2. **Manipolazione delle Immagini**\n\nAlcuni servizi offrono manipolazione delle immagini al volo:\n- Ridimensionamento delle immagini tramite parametri URL\n- Applicazione di filtri ed effetti\n- Conversione automatica dei formati\n- Ritaglio e rotazione delle immagini\n\n### 3. **Analisi e Monitoraggio**\n\nTraccia l'utilizzo delle tue immagini:\n- Monitora il consumo della larghezza di banda\n- Analizza le immagini popolari\n- Traccia i pattern di accesso\n- Ottimizza in base ai dati di utilizzo\n\n## Conclusione\n\nLa conversione di immagini in URL è un processo semplice che offre numerosi vantaggi. Che tu scelga un servizio semplice come Foto in URL o una soluzione completa di cloud storage, la chiave è trovare il metodo che si adatta meglio alle tue esigenze.\n\nRicorda di:\n- ✅ Ottimizzare le immagini prima del caricamento\n- ✅ Scegliere formati appropriati\n- ✅ Usare CDN per prestazioni migliori\n- ✅ Implementare misure di sicurezza appropriate\n- ✅ Monitorare e ottimizzare regolarmente\n\nSeguendo queste linee guida, sarai in grado di convertire e gestire efficacemente le tue immagini come URL, migliorando sia il tuo flusso di lavoro che le prestazioni dei tuoi contenuti.\n\n## Strumenti Correlati\n\n- [Foto in URL](/) - Servizio gratuito di conversione da immagine a URL\n- [Strumento Ritaglio Circolare](/circle-crop) - Crea immagini circolari\n- [Strumento Angoli Arrotondati](/rounded-corners) - Aggiungi angoli arrotondati alle immagini\n- [Strumento Rimozione Sfondo](/remove-background) - Rimuovi gli sfondi delle immagini con AI\n\n---\n\n*Ultimo aggiornamento: Dicembre 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Come ritagliare immagini in forma circolare - Guida completa",
-        "description": "Trasforma qualsiasi foto in un'immagine circolare perfetta con il nostro strumento gratuito di ritaglio circolare online. Crea immagini rotonde professionali per profili, social media, loghi e altro in pochi secondi.",
-        "content": "# Come ritagliare immagini in forma circolare - Guida completa\n\nTrasforma qualsiasi foto in un'immagine circolare perfetta con il nostro strumento gratuito di ritaglio circolare online. Crea immagini rotonde professionali per profili, social media, loghi e altro in pochi secondi.\n\n## Come ritagliare immagini in forma circolare\n\n### Passo 1: Carica la tua immagine\nSeleziona qualsiasi foto dal tuo dispositivo che desideri ritagliare in forma circolare. Il nostro strumento supporta i formati JPG, PNG, WEBP e GIF. Basta cliccare sul pulsante di caricamento o trascinare e rilasciare il file immagine.\n\n### Passo 2: Posiziona la tua immagine\nRegola e centra la tua foto all'interno dell'area di ritaglio circolare. Usa il cursore di zoom per concentrarti sulla parte più importante della tua immagine e trascina per riposizionarla per un ritaglio rotondo perfetto.\n\n### Passo 3: Scarica la tua immagine circolare\nUna volta soddisfatto del posizionamento, clicca su \"Ritaglia e scarica\" per ottenere la tua immagine perfettamente arrotondata. Il risultato avrà uno sfondo trasparente, rendendolo perfetto per l'uso ovunque.\n\n## Utilizzi popolari delle immagini ritagliate in cerchio\n\n### Foto del profilo\nRitaglia foto in forma circolare per immagini del profilo dall'aspetto professionale su piattaforme di social media come Facebook, LinkedIn e Instagram. Gli avatar circolari creano un aspetto moderno e raffinato.\n\n### Grafiche per social media\nCrea immagini circolari per storie di Instagram, post di Facebook e profili Twitter che si distinguono dalla massa. Le immagini rotonde aggiungono interesse visivo e rompono la monotonia dei post quadrati.\n\n### Loghi rotondi\nTrasforma il tuo logo o le immagini del brand in forme perfettamente rotonde per un branding coerente su tutte le piattaforme. I loghi circolari funzionano particolarmente bene per le icone delle app e il branding sui social media.\n\n### Foto di testimonianze\nMostra testimonianze di clienti con foto del profilo circolari per un aspetto pulito e professionale. Le immagini rotonde creano coerenza visiva e rendono le tue testimonianze più coinvolgenti.\n\n### Foto dei membri del team\nCrea ritratti rotondi coerenti per siti web aziendali, pagine del team e directory dei dipendenti. Foto circolari uniformi danno alla tua pagina del team un aspetto coerente e professionale.\n\n## Caratteristiche del nostro strumento di ritaglio circolare\n\n- **Ritagliatore di immagini circolari gratuito** - Crea forme circolari da qualsiasi immagine senza costi, nessuna tariffa nascosta\n- **Output ad alta risoluzione** - Scarica le tue immagini circolari nella loro qualità originale senza compressione\n- **Nessuna registrazione richiesta** - Inizia a ritagliare immagini in cerchio istantaneamente, nessuna creazione di account necessaria\n- **Privato e sicuro** - Le tue immagini non lasciano mai il tuo browser, garantendo completa privacy\n- **Interfaccia facile da usare** - Un design semplice e intuitivo rende la creazione di immagini rotonde senza sforzo\n- **Funziona su tutti i dispositivi** - Ritaglia immagini in forma circolare su desktop, tablet o dispositivi mobili\n- **Sfondo trasparente** - Tutti i ritagli circolari vengono forniti con sfondi trasparenti per massima versatilità\n- **Anteprima in tempo reale** - Vedi esattamente come apparirà la tua immagine circolare prima di scaricarla\n\n## Domande frequenti sul ritaglio circolare\n\n### Come ritaglio un'immagine in forma circolare?\n\nCarica semplicemente la tua immagine nel nostro strumento, regolala all'interno della cornice circolare per posizionare correttamente il soggetto e clicca su \"Ritaglia e scarica\" per ottenere la tua immagine perfettamente rotonda. Il nostro strumento rende facile ritagliare qualsiasi immagine in formato circolare istantaneamente senza bisogno di competenze di design.\n\n### Come creo una foto del profilo circolare?\n\nCarica la tua foto nel nostro strumento di ritaglio circolare, posiziona il tuo viso al centro della cornice circolare, poi scarica la tua nuova foto del profilo rotonda. È perfetta per i profili dei social media che usano immagini circolari come Facebook, LinkedIn o Instagram.\n\n### Posso ritagliare foto in forme rotonde sul mio telefono?\n\nSì! Il nostro ritagliatore di immagini circolari funziona su tutti i dispositivi inclusi smartphone e tablet. L'interfaccia mobile-friendly ti permette di creare facilmente ritagli di immagini circolari ovunque. Basta visitare il nostro sito web dal tuo browser mobile - nessun download di app richiesto.\n\n### Salvate le immagini che carico?\n\nNo, non salviamo mai le tue immagini sui nostri server. L'intero processo di ritaglio avviene direttamente nel tuo browser, il che significa che le tue foto rimangono completamente private. Una volta che lasci la pagina, tutti i dati dell'immagine vengono automaticamente rimossi.\n\n### Quali formati di immagine posso usare con lo strumento di ritaglio circolare?\n\nIl nostro strumento funziona con tutti i formati di immagine standard inclusi JPG, PNG, WEBP e GIF. Puoi caricare uno qualsiasi di questi formati e la tua immagine ritagliata circolare verrà scaricata come file PNG con trasparenza attorno al cerchio.\n\n### La mia immagine ritagliata circolare avrà uno sfondo trasparente?\n\nSì, quando scarichi la tua immagine ritagliata, avrà uno sfondo trasparente attorno al cerchio. Questo la rende perfetta per posizionarla su siti web, documenti o design dove vuoi che solo la parte circolare sia visibile.\n\n### Posso regolare la dimensione del ritaglio circolare?\n\nIl ritaglio circolare mantiene un rapporto d'aspetto perfetto di 1:1, ma puoi ingrandire o rimpicciolire per regolare quanto della tua immagine appare all'interno del cerchio. Questo ti permette di concentrarti su parti specifiche della tua immagine mantenendo la forma circolare.\n\n## Suggerimenti per immagini per ritagli circolari perfetti\n\n### Centra il tuo soggetto\nPer i migliori risultati, scegli immagini dove il soggetto principale è centrato o può essere posizionato al centro della cornice. Questo è particolarmente importante per foto del profilo e ritratti dove il viso dovrebbe essere il punto focale.\n\n### Considera l'area di ritaglio\nRicorda che gli angoli della tua immagine verranno ritagliati. Evita immagini dove dettagli importanti sono vicini ai bordi della foto, poiché questi andranno persi nel ritaglio circolare.\n\n### Usa immagini ad alta risoluzione\nIniziare con immagini di alta qualità risulterà in migliori ritagli circolari. Immagini a bassa risoluzione o piccole possono apparire pixelate quando ritagliate, quindi usa le immagini sorgente della massima qualità disponibile.\n\n### Fai attenzione al rapporto d'aspetto\nLe immagini quadrate generalmente funzionano meglio per il ritaglio circolare. Se la tua immagine originale è molto larga o alta, potresti perdere porzioni significative nel processo di ritaglio. Considera di ritagliare prima a quadrato se necessario.\n\n### Regola per un'inquadratura ottimale\nUsa la funzione di posizionamento del nostro strumento per ingrandire e regolare la tua immagine. Per i ritratti, prova a centrare il viso con un po' di margine attorno per il miglior aspetto professionale. Per i prodotti, centra l'articolo principale all'interno del cerchio.\n\n### Crea set coerenti\nQuando crei più immagini circolari (come per foto del team), cerca di mantenere un'inquadratura coerente, stili di sfondo e dimensioni per un aspetto coerente su tutte le immagini.\n\n## Utilizzi comuni delle immagini ritagliate circolari\n\n| Applicazione | Vantaggi del ritaglio circolare |\n|--------------|--------------------------------|\n| Profili di social media | La maggior parte delle piattaforme mostra gli avatar in cerchi - un'immagine circolare perfettamente ritagliata sembra professionale |\n| Foto dei membri del team | Crea ritratti rotondi coerenti per siti web aziendali e directory |\n| Portfolio online | Le immagini rotonde creano interesse visivo ed estetica moderna |\n| Biglietti da visita digitali | Le foto del profilo ritagliate circolarmente sembrano più pulite e professionali |\n| Miniature di prodotti | Le immagini di prodotti rotonde creano un aspetto di catalogo coerente |\n| Icone delle app | Le icone circolari sono standard per le applicazioni mobili |\n| Testimonianze del sito web | Le foto rotonde dei clienti aggiungono credibilità e appeal visivo |\n\n## Perché scegliere il nostro strumento di ritaglio circolare\n\nQuando si tratta di ritagliare foto in cerchi online, il nostro strumento offre diversi vantaggi:\n\n- **Elaborazione istantanea** - Ritaglia l'immagine in forma circolare in secondi senza aspettare caricamenti o elaborazione del server\n- **Cerchi perfetti ogni volta** - Il nostro strumento garantisce ritagli perfettamente rotondi con bordi puliti e senza distorsione\n- **Controlli intuitivi** - Posiziona facilmente la tua immagine esattamente come vuoi all'interno del cerchio con funzionalità di zoom e trascinamento\n- **Nessuna filigrana** - A differenza di altri strumenti di ritaglio circolare, non aggiungiamo filigrane alle tue immagini\n- **Funziona con tutti i tipi di immagini** - Ritaglia foto, grafici, illustrazioni o qualsiasi immagine in cerchio\n- **Basato su browser** - Nessuna installazione di software richiesta, funziona direttamente nel tuo browser web\n- **Privacy prima di tutto** - Tutta l'elaborazione avviene localmente nel tuo browser, le tue immagini non lasciano mai il tuo dispositivo\n\nSia che tu abbia bisogno di ritagliare immagini in forma circolare per uso professionale o progetti personali, il nostro strumento di ritaglio foto circolare gestisce tutto con facilità. Crea ritagli di immagini circolari con pochi clic!\n\n## Inizia\n\nPronto a creare la tua prima immagine circolare? Visita il nostro [Strumento di ritaglio circolare](/circle-crop) e inizia a ritagliare oggi. È completamente gratuito, non richiede registrazione e impiega solo pochi secondi per creare immagini circolari professionali.\n\n---\n\n*Ultimo aggiornamento: Gennaio 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Angoli arrotondati per le immagini – Guida",
-        "description": "Aggiungi angoli arrotondati a qualsiasi immagine con il nostro strumento gratuito. Ideale per anteprime, card, interfacce e social, in pochi secondi.",
-        "content": "# Angoli arrotondati per le immagini – Guida\n\nDai angoli arrotondati a qualsiasi immagine con il nostro strumento online gratuito. Perfetto per anteprime, card, elementi di interfaccia e social, senza competenze di design.\n\n## Come arrotondare gli angoli di un'immagine\n\n### Passo 1: Carica l'immagine\nScegli una foto dal tuo dispositivo. Supportiamo JPG, PNG, WEBP e GIF. Basta un clic o un drag & drop.\n\n### Passo 2: Imposta il raggio\nUsa il cursore per regolare l'arrotondamento, da leggero a molto marcato. L'anteprima si aggiorna in tempo reale.\n\n### Passo 3: Scarica\nClicca su \"Scarica\" per salvare l'immagine con gli angoli arrotondati e usarla in layout, siti o post.\n\n## Dove si usa\n\n### Anteprime e card\nGli angoli arrotondati danno un aspetto pulito e moderno a griglie, card e interfacce.\n\n### Social e pubblicità\nLe immagini con bordi morbidi spiccano nei feed e nelle inserzioni, e trasmettono un'impressione più accogliente.\n\n### UI e app\nIcone, avatar e pulsanti usano spesso angoli arrotondati; lo strumento aiuta a uniformare tutte le immagini.\n\n### Presentazioni e documenti\nUn raggio coerente su screenshot e grafiche rende slide e documenti omogenei.\n\n## Cosa offre lo strumento\n\n- **Gratuito e immediato** – nessuna registrazione, nessun watermark; elaborazione locale nel browser, nessun limite d'uso su questo strumento\n- **Raggio regolabile** – da un leggero arrotondamento alla forma a pillola\n- **Anteprima live** – vedi il risultato prima di scaricare\n- **Privacy** – tutto in browser, non salviamo immagini\n- **Su tutti i dispositivi** – PC, tablet e smartphone\n\n## Domande frequenti\n\n### Come si arrotondano gli angoli di una foto?\n\nApri il nostro [Strumento angoli arrotondati](/rounded-corners), carica l'immagine, regola il raggio e clicca su Scarica.\n\n### Quali formati sono supportati?\n\nJPG, PNG, WEBP e GIF. Il file scaricato mantiene il formato (o PNG per la trasparenza).\n\n### Funziona su smartphone?\n\nSì, lo strumento funziona nel browser su telefono e tablet, senza app.\n\n### Salvate le mie immagini?\n\nNo. L'elaborazione avviene solo nel tuo browser; non conserviamo nulla.\n\n## Strumenti correlati\n\n- [Foto in URL](/) – Converti immagini in link\n- [Ritaglio circolare](/circle-crop) – Crea immagini rotonde\n- [Angoli arrotondati](/rounded-corners) – Arrotonda gli angoli\n- [Rimuovi sfondo](/remove-background) – Rimuovi lo sfondo con l'IA\n\n---\n\n*Ultimo aggiornamento: Febbraio 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Rimuovi sfondo – Guida",
-        "description": "Rimuovi lo sfondo dalle immagini in un clic con il nostro strumento gratuito basato su IA. Ritagli puliti per prodotti, ritratti, loghi e altro.",
-        "content": "# Rimuovi sfondo – Guida\n\nRimuovi lo sfondo dalle immagini in un clic con il nostro strumento online gratuito. Ritagli puliti per foto prodotti, ritratti, loghi e altro – senza competenze di design.\n\n## Come rimuovere lo sfondo\n\n### Passo 1: Carica l'immagine\nScegli una foto dal tuo dispositivo. Formati: JPG, PNG, WEBP, GIF. Clic o trascinamento.\n\n### Passo 2: L'IA rimuove lo sfondo\nLo strumento rileva il soggetto e rimuove lo sfondo. L'elaborazione richiede pochi secondi. Anteprima in tempo reale con sfondo trasparente.\n\n### Passo 3: Scarica\nClicca su \"Scarica\" per salvare l'immagine senza sfondo. Output PNG con trasparenza, per design, e-commerce o social.\n\n## Utilizzi comuni\n\n### Foto prodotti\nRitagli puliti per negozi online, marketplace e annunci. Sfondo trasparente per qualsiasi layout.\n\n### Ritratti e foto professionali\nRimuovi sfondi disturbanti da ritratti per CV, LinkedIn o profili.\n\n### Loghi e grafiche\nIsola loghi e grafiche da foto o scan. PNG trasparente per overlay e presentazioni.\n\n### Social e marketing\nVisual accattivanti per post, story e annunci. Ritagli trasparenti per qualsiasi template.\n\n## Cosa offre lo strumento\n\n- **Gratuito e basato su IA** – nessuna registrazione, nessun watermark; elaborazione locale nel browser, nessun limite d'uso su questo strumento\n- **Rimozione in un clic** – rilevamento soggetto e bordi puliti\n- **Output PNG trasparente** – per qualsiasi design o piattaforma\n- **Privacy** – elaborazione nel browser, non conserviamo immagini\n- **Tutti i dispositivi** – PC, tablet e smartphone\n\n## FAQ\n\n### Come rimuovo lo sfondo da una foto?\n\nApri il nostro [Strumento Rimuovi sfondo](/remove-background), carica l'immagine. Lo strumento rileva il soggetto e rimuove lo sfondo. Anteprima e scarica in PNG trasparente.\n\n### Quali formati sono supportati?\n\nJPG, PNG, WEBP e GIF. Il risultato è sempre in PNG con sfondo trasparente.\n\n### Conservate le mie immagini?\n\nNo. L'elaborazione avviene nel tuo browser, non conserviamo nulla.\n\n### Funziona su smartphone?\n\nSì. Lo strumento funziona nel browser su telefono e tablet.\n\n## Strumenti correlati\n\n- [Foto in URL](/) – Converti immagine in link\n- [Ritaglio circolare](/circle-crop) – Crea immagini rotonde\n- [Angoli arrotondati](/rounded-corners) – Arrotonda gli angoli\n- [Rimuovi sfondo](/remove-background) – Rimuovi lo sfondo con l'IA\n\n---\n\n*Ultimo aggiornamento: Marzo 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Documentazione | Foto in URL",
-      "description": "Documentazione per Foto in URL."
-    },
-    "page": {
-      "title": "Documentazione",
-      "description": "Guida rapida: carica un'immagine e ottieni un URL diretto. Usa i pulsanti copia/apri o scarica il link in formato .txt.",
-      "features": {
-        "title": "Funzionalità supportate:",
-        "items": {
-          "1": "Supportato: JPG, PNG, WEBP, GIF",
-          "2": "Consegna rapida tramite CDN quando lo storage è abilitato",
-          "3": "Messaggi di errore di manutenzione amichevoli quando il servizio non è disponibile"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Stato | Foto in URL",
-      "description": "Stato del servizio Foto in URL."
-    },
-    "page": {
-      "title": "Stato",
-      "description": "Tutti i sistemi operativi.",
-      "message": "L'API di caricamento e i link CDN sono in esecuzione."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contatto | Foto in URL",
-      "description": "Contatta Foto in URL per supporto, feedback, partnership o segnalazioni. Rispondiamo a ogni messaggio entro 1-2 giorni lavorativi."
-    },
-    "page": {
-      "title": "Contattaci",
-      "introShort": "Hai una domanda o un feedback? Compila il modulo qui sotto e ti risponderemo al più presto.",
-      "orEmail": "Oppure scrivici a",
-      "subtitle": "Siamo qui per aiutarti con hosting immagini, link e tutto il resto.",
-      "intro": "Foto in URL è un servizio gratuito di hosting immagini che trasforma le tue foto in link condivisibili. Per domande, suggerimenti o problemi, contattaci.",
-      "whyTitle": "Per cosa puoi contattarci",
-      "why1": "Supporto tecnico: errori di caricamento, link non funzionanti o problemi con lo strumento",
-      "why2": "Feedback e richieste di funzionalità per migliorare il servizio",
-      "why3": "Proposte di partnership o collaborazione",
-      "why4": "Segnalazione abusi, questioni di copyright o domande sulle policy",
-      "expectTitle": "Cosa aspettarsi",
-      "expectContent": "Leggiamo ogni messaggio e cerchiamo di rispondere entro 1-2 giorni lavorativi. Per questioni urgenti, indica un oggetto chiaro e il maggior numero di dettagli possibile.",
-      "emailHeading": "Scrivici per email",
-      "emailHint": "Inviaci un'email e ti risponderemo il prima possibile.",
-      "email": {
-        "label": "Email",
-        "address": "support@phototourl.com",
-        "cta": "Invia email"
-      },
-      "form": {
-        "title": "Invia un messaggio",
-        "description": "Compila il modulo qui sotto e ti risponderemo al più presto.",
-        "name": "Nome",
-        "email": "Email",
-        "message": "Messaggio",
-        "namePlaceholder": "Il tuo nome",
-        "emailPlaceholder": "tua@email.com",
-        "messagePlaceholder": "Il tuo messaggio o domanda...",
-        "submit": "Invia messaggio",
-        "submitting": "Invio in corso...",
-        "success": "Messaggio inviato. Ti risponderemo al più presto.",
-        "minLength": "Il nome deve avere almeno 3 caratteri.",
-        "maxLengthName": "Il nome non può superare i 30 caratteri.",
-        "invalidEmail": "Inserisci un indirizzo email valido.",
-        "minLengthMessage": "Il messaggio deve avere almeno 10 caratteri.",
-        "maxLengthMessage": "Il messaggio non può superare i 2000 caratteri.",
-        "invalid": "Si è verificato un errore. Riprova."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "Chi siamo | Foto in URL",
-      "description": "Scopri di più su Foto in URL - un servizio gratuito di hosting immagini che converte le foto in link condivisibili."
-    },
-    "page": {
-      "title": "Chi siamo",
-      "mission": {
-        "title": "La nostra missione",
-        "content": "Foto in URL è un servizio gratuito, veloce e affidabile di hosting immagini progettato per aiutare creatori, marketer e team a convertire immagini in link condivisibili istantaneamente. Crediamo nella semplicità, nella velocità e nella privacy degli utenti."
-      },
-      "features": {
-        "title": "Cosa offriamo",
-        "item1": "Hosting immagini gratuito con supporto CDN",
-        "item2": "Generazione istantanea di link per condivisione rapida",
-        "item3": "Supporto per più formati immagine (JPG, PNG, WEBP, GIF)",
-        "item4": "Prova senza registrazione — piano gratuito: 10 caricamenti/giorno, 2MB per file"
-      },
-      "contact": {
-        "title": "Contattaci",
-        "text": "Hai domande o feedback? Contattaci a",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Informativa sulla privacy | Foto in URL",
-        "description": "Informativa sulla privacy per Foto in URL - Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati."
-      },
-      "page": {
-        "title": "Informativa sulla privacy",
-        "lastUpdated": "Ultimo aggiornamento: maggio 2026",
-        "introduction": "In Foto in URL rispettiamo la tua privacy e ci impegniamo a proteggere le tue informazioni personali. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi il nostro servizio.",
-        "dataCollection": {
-          "title": "Informazioni che raccogliamo",
-          "content1": "Quando utilizzi Foto in URL, possiamo raccogliere:",
-          "item1": "File immagine caricati e metadati (nome, dimensione, tipo), memorizzati su Cloudflare R2 per fornire link condivisibili",
-          "item2": "Indirizzo IP, timestamp di caricamento e dati di utilizzo per limitazione della velocità, sicurezza e prevenzione degli abusi",
-          "item3": "Informazioni dell'account alla registrazione o all'accesso (email, profilo OAuth Google, identificatori di sessione e autenticazione)",
-          "item4": "Informazioni su abbonamento e pagamento elaborate dal nostro provider Waffo Pancake all'acquisto di un piano a pagamento — non memorizziamo numeri di carta completi",
-          "content2": "Se ci contatti tramite il modulo di contatto, raccogliamo le informazioni fornite (nome, email, ecc.). Utilizziamo anche cookie come descritto nella sezione Cookie di seguito."
-        },
-        "dataUsage": {
-          "title": "Come utilizziamo le tue informazioni",
-          "item1": "Per generare e fornire link di immagini condivisibili",
-          "item2": "Per prevenire abusi e far rispettare i limiti di caricamento",
-          "item3": "Per migliorare il nostro servizio e l'esperienza utente",
-          "item4": "Per conformarci agli obblighi legali"
-        },
-        "dataStorage": {
-          "title": "Archiviazione e conservazione dei dati",
-          "content": "Le immagini caricate sono memorizzate su Cloudflare R2 storage. Conserviamo le immagini per tutto il tempo necessario per fornire il servizio. Le immagini possono essere eliminate automaticamente dopo un periodo di inattività o a causa di violazioni delle policy."
-        },
-        "cookies": {
-          "title": "Cookie e tecnologie di tracciamento",
-          "content1": "Utilizziamo le seguenti tecnologie:",
-          "item1": "Archiviazione locale: Per memorizzare la cronologia di caricamento e le preferenze linguistiche",
-          "item2": "Google AdSense: Per visualizzare annunci (utilizza cookie per la personalizzazione degli annunci)",
-          "item3": "Google Analytics: Per l'analisi del sito web (dati anonimi)",
-          "content2": "Puoi controllare i cookie tramite le impostazioni del browser. Tuttavia, disabilitare i cookie può influenzare alcune funzionalità del nostro servizio."
-        },
-        "personalizedAds": {
-          "title": "Pubblicità personalizzata e disattivazione",
-          "content": "Utilizziamo Google AdSense per mostrare annunci. Google e altri fornitori possono usare cookie per mostrare annunci in base alle tue visite su questo sito e sul web. Puoi disattivare la pubblicità personalizzata visitando le",
-          "linkAdsSettings": "Impostazioni annunci Google",
-          "content2": "o la pagina di opt-out della Network Advertising Initiative",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Servizi di terze parti",
-          "content1": "Utilizziamo i seguenti servizi di terze parti:",
-          "item1": "Cloudflare R2: Per l'archiviazione di immagini e la consegna CDN",
-          "item2": "Google AdSense: Per la pubblicità (soggetto alla Politica sulla Privacy di Google)",
-          "item3": "Google Analytics: Per l'analisi del sito web (soggetto alla Politica sulla Privacy di Google)",
-          "content2": "Utilizziamo anche Waffo Pancake per abbonamenti ed elaborazione dei pagamenti. Questi servizi possono raccogliere informazioni secondo le proprie politiche sulla privacy. Ti incoraggiamo a consultarle."
-        },
-        "dataSecurity": {
-          "title": "Sicurezza dei dati",
-          "content": "Implementiamo misure tecniche e organizzative appropriate per proteggere i tuoi dati da accesso non autorizzato, alterazione, divulgazione o distruzione. Tuttavia, nessun metodo di trasmissione su Internet è sicuro al 100%."
-        },
-        "yourRights": {
-          "title": "I tuoi diritti",
-          "content": "Hai il diritto di:",
-          "item1": "Accedere alle tue immagini caricate, ai dati dell'account e alle informazioni associate",
-          "item2": "Richiedere l'eliminazione delle tue immagini",
-          "item3": "Rinunciare a determinate pratiche di raccolta dati",
-          "item4": "Contattarci con preoccupazioni sulla privacy"
-        },
-        "children": {
-          "title": "Privacy dei minori",
-          "content": "Il nostro servizio non è destinato a minori di 13 anni. Non raccogliamo consapevolmente informazioni personali da minori di 13 anni."
-        },
-        "changes": {
-          "title": "Modifiche a questa Informativa sulla Privacy",
-          "content": "Possiamo aggiornare questa Informativa sulla Privacy di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla Privacy su questa pagina e aggiornando la data di \"Ultimo aggiornamento\"."
-        },
-        "contact": {
-          "title": "Contattaci",
-          "text": "Se hai domande su questa Informativa sulla Privacy, contattaci a",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Termini di servizio | Foto in URL",
-        "description": "Termini di servizio per Foto in URL – hosting immagini, utilizzo consentito e responsabilità dell'utente."
-      },
-      "page": {
-        "title": "Termini di servizio",
-        "lastUpdated": "Ultimo aggiornamento: settembre 2026",
-        "intro": "Benvenuto su Foto in URL. Accedendo o utilizzando il nostro servizio di hosting immagini e generazione link (il \"Servizio\"), accetti di essere vincolato da questi Termini. Se non sei d'accordo, non utilizzare il Servizio.",
-        "acceptance": {
-          "title": "Accettazione dei termini",
-          "content": "Caricando immagini, generando link o utilizzando Foto in URL in altro modo, confermi di aver letto, compreso e accettato questi Termini e la nostra Informativa sulla privacy. Possiamo aggiornare i Termini; l'uso continuato del Servizio dopo le modifiche costituisce accettazione dei Termini aggiornati."
-        },
-        "serviceDescription": {
-          "title": "Descrizione del servizio",
-          "content": "Foto in URL offre hosting immagini gratuito e generazione di link diretti. Puoi caricare immagini nei limiti stabiliti (es. dimensione, formato) e ricevere link condivisibili. Non garantiamo disponibilità ininterrotta; il Servizio può essere modificato, sospeso o interrotto con o senza preavviso."
-        },
-        "useOfService": {
-          "title": "Uso del servizio",
-          "content": "Puoi utilizzare il Servizio solo per scopi leciti e in conformità con questi Termini. Sei responsabile dell'uso del Servizio e dei contenuti che carichi. Non utilizzare il Servizio in modo da violare leggi applicabili o i diritti di terzi."
-        },
-        "userResponsibilities": {
-          "title": "Le tue responsabilità",
-          "content": "Accetti di: (1) fornire informazioni accurate quando richiesto; (2) mantenere l'uso del Servizio conforme alle leggi applicabili; (3) non tentare di eludere sicurezza, limiti di frequenza o controlli di accesso; (4) non usare il Servizio per distribuire malware o interferire con il funzionamento del Servizio o di altri utenti."
-        },
-        "prohibitedContent": {
-          "title": "Contenuti vietati",
-          "content": "Non caricare né condividere link a contenuti illegali, dannosi, minacciosi, offensivi, molesti, diffamatori, osceni, invasivi della privacy, lesivi di proprietà intellettuale o altrimenti inaccettabili; che sfruttino minori; che promuovano violenza o discriminazione; o che violino i diritti di terzi. Possiamo rimuovere contenuti e sospendere o terminare l'accesso senza preavviso se riteniamo ragionevolmente che violino questi Termini o la legge."
-        },
-        "ipAndContent": {
-          "title": "Proprietà intellettuale e i tuoi contenuti",
-          "content": "Conservi la proprietà delle immagini che carichi. Utilizzando il Servizio, ci concedi una licenza limitata per memorizzare, elaborare e servire le tue immagini e generare e fornire link, come necessario per il funzionamento del Servizio. Non rivendichiamo la proprietà dei tuoi contenuti. Nome, logo e Servizio sono nostra proprietà intellettuale; non puoi utilizzarli senza nostro consenso scritto."
-        },
-        "subscriptions": {
-          "title": "Piani di abbonamento",
-          "content": "Foto in URL offre un piano gratuito e abbonamenti a pagamento (Pro mensile e Premium annuale) che aumentano i limiti di caricamento, dimensione file e spazio di archiviazione. Dettagli e prezzi aggiornati sono sulla pagina Prezzi (https://phototourl.com/pricing). L'accesso a pagamento è un servizio digitale e viene concesso subito dopo la conferma del pagamento."
-        },
-        "billing": {
-          "title": "Fatturazione e pagamento",
-          "content": "Fornendo un metodo di pagamento e sottoscrivendo un piano a pagamento, autorizzi noi e il nostro processore di pagamento ad addebitare tale metodo in modo ricorrente per la quota di abbonamento finché non annulli come descritto sotto. Gli abbonamenti si rinnovano automaticamente al termine di ciascun periodo di fatturazione salvo disdetta. I prezzi sono mostrati al checkout e possono escludere le imposte applicabili salvo diversa indicazione."
-        },
-        "cancellation": {
-          "title": "Disdetta e interruzione del rinnovo automatico",
-          "content": "Puoi interrompere gli addebiti futuri in qualsiasi momento:",
-          "item1": "scrivendo a support@phototourl.com dall'email del tuo account registrato e richiedendo la disdetta del rinnovo automatico; oppure",
-          "item2": "annullando l'addebito automatico o la fatturazione ricorrente presso l'emittente della carta tramite home banking mobile, online o servizio clienti.",
-          "effect": "La disdetta interrompe i rinnovi futuri. Mantieni i vantaggi a pagamento fino alla fine del periodo già pagato. Dopodiché non vengono effettuati ulteriori addebiti per quell'abbonamento e i vantaggi a pagamento cessano con quel periodo."
-        },
-        "refunds": {
-          "title": "Politica di rimborso",
-          "general": "Poiché i piani a pagamento sono servizi digitali erogati subito dopo il pagamento, le quote di abbonamento generalmente non sono rimborsabili finché il Servizio resta disponibile per un uso normale, salvo quanto indicato sotto o quanto richiesto dalla legge.",
-          "eligibleTitle": "Quando può essere disponibile un rimborso",
-          "item1": "Primo abbonamento: entro 7 giorni dal primo addebito, se non hai fatto un uso sostanziale delle funzioni a pagamento (ad esempio solo una piccola parte della quota di caricamento o di archiviazione).",
-          "item2": "Addebiti duplicati o errati: rimborso completo per un errore di fatturazione verificato che ha causato un doppio addebito.",
-          "item3": "Interruzione del servizio da parte nostra: se un'interruzione verificata sotto il nostro controllo dura 72 ore o più durante il periodo a pagamento, possiamo offrire un credito o un rimborso proporzionale dopo la verifica.",
-          "item4": "Diritti di legge: ove la legge applicabile ti riconosca un diritto di recesso o di rimborso (ad esempio in UE/Regno Unito), tali diritti restano preservati.",
-          "howTitle": "Come richiedere un rimborso",
-          "how": "Scrivi a support@phototourl.com con l'email dell'account, il riferimento di pagamento o transazione e il motivo. Miriamo ad accusare ricevuta entro 2 giorni lavorativi e a elaborare i rimborsi idonei entro 5–10 giorni lavorativi.",
-          "notTitle": "Quando il rimborso non è disponibile",
-          "not1": "Quote per periodi di abbonamento già utilizzati, salvo quanto elencato sopra.",
-          "not2": "Richieste di rimborso per abbonamento annuale (Premium) oltre 30 giorni dall'acquisto iniziale, salvo obblighi di legge o casi idonei di interruzione / doppio addebito.",
-          "not3": "Account sospesi o chiusi per violazione di questi Termini."
-        },
-        "disclaimer": {
-          "title": "Esclusione di garanzie",
-          "text": "Il Servizio è fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite. Non garantiamo che il Servizio sia ininterrotto, esente da errori o da componenti dannosi. L'uso del Servizio è a tuo esclusivo rischio."
-        },
-        "limitationOfLiability": {
-          "title": "Limitazione di responsabilità",
-          "content": "Nella misura massima consentita dalla legge, Foto in URL e i suoi operatori non sono responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi, né per perdita di dati, profitti o avviamento, derivanti dall'uso o dall'impossibilità di usare il Servizio. La nostra responsabilità totale non supererà l'importo da te pagato nei dodici mesi precedenti il reclamo (o zero se non hai pagato nulla)."
-        },
-        "termination": {
-          "title": "Cessazione",
-          "content": "Possiamo sospendere o terminare il tuo accesso al Servizio in qualsiasi momento, con o senza motivo o preavviso. Puoi smettere di usare il Servizio in qualsiasi momento. Alla cessazione, il diritto d'uso cessa immediatamente. Le disposizioni che per natura dovrebbero sopravvivere (inclusi disclaimer, limitazione di responsabilità e legge applicabile) restano in vigore."
-        },
-        "changes": {
-          "title": "Modifiche ai termini",
-          "content": "Possiamo aggiornare questi Termini. Pubblicheremo i Termini revisionati su questa pagina e aggiorneremo la data \"Ultimo aggiornamento\". L'uso continuato del Servizio dopo le modifiche costituisce accettazione. Ti consigliamo di consultare periodicamente questa pagina."
-        },
-        "governingLaw": {
-          "title": "Legge applicabile",
-          "content": "Questi Termini sono regolati e interpretati secondo la legge della giurisdizione in cui operiamo, senza riguardo ai principi di conflitto di leggi. Le controversie saranno risolte dai tribunali di tale giurisdizione."
-        },
-        "contact": {
-          "title": "Contattaci",
-          "text": "Per domande su questi Termini di servizio, contattaci a",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Informativa sui cookie | Foto in URL",
-        "description": "Informativa sui cookie per Foto in URL - Scopri come utilizziamo cookie e tecnologie di tracciamento."
-      },
-      "page": {
-        "title": "Informativa sui cookie",
-        "lastUpdated": "Ultimo aggiornamento: settembre 2026",
-        "introduction": "Questa Informativa sui Cookie spiega come Foto in URL utilizza cookie e tecnologie di tracciamento simili quando visiti il nostro sito web. Utilizzando il nostro servizio, accetti l'utilizzo di cookie secondo questa informativa. Per domande su questa informativa, contattaci a support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Cosa sono i cookie",
-          "content": "I cookie sono piccoli file di testo che vengono posizionati sul tuo dispositivo quando visiti un sito web. Sono ampiamente utilizzati per rendere i siti web più efficienti e fornire informazioni ai proprietari di siti web."
-        },
-        "howWeUseCookies": {
-          "title": "Come utilizziamo i cookie",
-          "content": "Utilizziamo i cookie per i seguenti scopi:",
-          "item1": "Per memorizzare la cronologia di caricamento e le preferenze linguistiche",
-          "item2": "Per analizzare il traffico del sito web e il comportamento degli utenti",
-          "item3": "Per visualizzare annunci personalizzati"
-        },
-        "typesOfCookies": {
-          "title": "Tipi di cookie che utilizziamo",
-          "essential": {
-            "title": "Cookie essenziali",
-            "content": "Questi cookie sono necessari per il corretto funzionamento del sito web. Abilitano funzionalità essenziali come la memorizzazione delle preferenze linguistiche e della cronologia di caricamento."
-          },
-          "analytics": {
-            "title": "Cookie di analisi",
-            "content": "Utilizziamo Google Analytics per analizzare come i visitatori utilizzano il nostro sito web. Questi cookie raccolgono informazioni anonime sull'utilizzo del sito web per aiutarci a migliorare il nostro servizio."
-          },
-          "advertising": {
-            "title": "Cookie pubblicitari",
-            "content": "Utilizziamo Google AdSense per visualizzare annunci. Questi cookie aiutano a fornire annunci personalizzati basati sul tuo comportamento di navigazione e sui tuoi interessi."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Cookie di terze parti",
-          "content": "Utilizziamo i seguenti servizi di terze parti che possono impostare cookie:",
-          "item1": "Google AdSense - Per la pubblicità (soggetto alla Politica sulla Privacy di Google)",
-          "item2": "Google Analytics - Per l'analisi del sito web (soggetto alla Politica sulla Privacy di Google)"
-        },
-        "manageCookies": {
-          "title": "Gestione dei cookie",
-          "content": "Puoi controllare e gestire i cookie tramite le impostazioni del browser. La maggior parte dei browser ti consente di rifiutare o accettare i cookie, eliminare i cookie esistenti o impostare preferenze per determinati siti web. Tuttavia, disabilitare i cookie può influenzare la funzionalità del nostro servizio."
-        },
-        "changes": {
-          "title": "Modifiche a questa Informativa sui Cookie",
-          "content": "Possiamo aggiornare questa Informativa sui Cookie di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sui Cookie su questa pagina e aggiornando la data di \"Ultimo aggiornamento\"."
-        },
-        "contact": {
-          "title": "Contattaci",
-          "text": "Se hai domande su questa Informativa sui Cookie, contattaci a",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Foto in URL Bookmarklet",
-    "description": "Carica immagini da qualsiasi pagina web direttamente su Foto in URL con un solo clic! Prova gratuita: 5 caricamenti/giorno, 2MB per file.",
-    "howItWorks": {
-      "title": "Come funziona",
-      "step1": "Sfoglia qualsiasi pagina web con immagini",
-      "step2": "Clicca sul bookmarklet nella barra dei segnalibri",
-      "step3": "Seleziona un'immagine dalla pagina",
-      "step4": "Ottieni l'URL all'istante e copialo!"
-    },
-    "installation": {
-      "title": "Installazione",
-      "step1": {
-        "title": "Passo 1: Copia il codice del Bookmarklet",
-        "description": "Clicca sul pulsante qui sotto per copiare il codice del bookmarklet negli appunti."
-      },
-      "step2": {
-        "title": "Passo 2: Aggiungi al tuo browser",
-        "description": "Segui questi passaggi in base al tuo browser:",
-        "chrome": "Chrome/Edge: Premi Ctrl+Maiusc+B (Cmd+Maiusc+B su Mac) per mostrare la barra dei segnalibri, quindi fai clic destro e seleziona \"Aggiungi pagina\". Incolla il codice come URL.",
-        "firefox": "Firefox: Fai clic destro sulla barra dei segnalibri e seleziona \"Nuovo segnalibro\". Incolla il codice come Posizione.",
-        "safari": "Safari: Abilita la barra dei segnalibri (Visualizza → Mostra barra segnalibri), quindi trascina il codice nella barra dei segnalibri.",
-        "edge": "Alternativa: Crea un nuovo segnalibro, modificalo e sostituisci l'URL con il codice copiato."
-      },
-      "step3": {
-        "title": "Passo 3: Inizia a usarlo!",
-        "description": "Visita qualsiasi pagina web con immagini e clicca sul tuo bookmarklet per iniziare a caricare!"
-      },
-      "copy": "Copia codice",
-      "copied": "Copiato!"
-    },
-    "usage": {
-      "title": "Funzionalità",
-      "description": "Il bookmarklet offre le seguenti funzioni. Ogni caricamento conta nei limiti del tuo piano (10 caricamenti/giorno, 2MB per file).",
-      "feature1": "Seleziona qualsiasi immagine dalla pagina web corrente",
-      "feature2": "Caricamento automatico su Foto in URL",
-      "feature3": "Ottieni un URL condivisibile all'istante con un clic per copiare"
-    },
-    "note": {
-      "title": "Nota",
-      "content": "I caricamenti contano nel quota giornaliera (10 caricamenti/giorno, 2MB per file). Il bookmarklet funziona sulla maggior parte dei siti; alcune policy di sicurezza (CORS) possono bloccare gli upload."
-    }
-  },
-  "AuthPage": {
-    "orContinueWith": "Oppure continua con",
-    "login": {
-      "welcomeBack": "Bentornato",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Accedi",
-      "signUp": "Registrati",
-      "signUpHint": "Non hai un account?",
-      "forgotPassword": "Hai dimenticato la password?",
-      "showPassword": "Mostra password",
-      "hidePassword": "Nascondi password",
-      "emailRequired": "L'email è obbligatoria",
-      "passwordRequired": "La password è obbligatoria",
-      "signInWithGoogle": "Accedi con Google"
-    },
-    "register": {
-      "createAccount": "Crea un account",
-      "name": "Nome",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Registrati",
-      "signInHint": "Hai già un account?",
-      "namePlaceholder": "Il tuo nome",
-      "signUpSuccess": "Account creato con successo",
-      "signUpWithGoogle": "Registrati con Google",
-      "artFightLabel": "Registra account artista dedicato",
-      "artFightHint": "Sblocca gli strumenti artista del pannello: copia embed URL, HTML, BBCode e Markdown per ogni carta hostata."
-    },
-    "error": {
-      "title": "Errore di autenticazione",
-      "defaultError": "Si è verificato un errore durante autenticazione.",
-      "backToLogin": "Torna all'accesso"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Esiste già un account con questa email. Per favore, usa unaltra email.",
-      "INVALID_CREDENTIALS": "Email o password non validi.",
-      "INVALID_EMAIL": "Il formato email non è valido.",
-      "INVALID_PASSWORD": "La password deve avere almeno 6 caratteri.",
-      "EMAIL_REQUIRED": "L'email è obbligatoria.",
-      "PASSWORD_REQUIRED": "La password è obbligatoria.",
-      "NAME_REQUIRED": "Il nome è obbligatorio.",
-      "SERVER_ERROR": "Errore del server. Per favore, riprova più tardi.",
-      "NETWORK_ERROR": "Errore di rete. Per favore, verifica la tua connessione."
-    },
-    "forgotPassword": {
-      "title": "Password dimenticata",
-      "description": "Inserisci la tua email e ti invieremo un link per reimpostare la password.",
-      "email": "Email",
-      "send": "Invia link di reimpostazione",
-      "backToLoginHint": "Ricordi la password?",
-      "checkEmail": "Se esiste un account con questa email, ti abbiamo inviato un link di reimpostazione. Controlla la posta in arrivo.",
-      "emailRequired": "L'email è obbligatoria",
-      "error": {
-        "userNotFound": "Nessun account trovato con questa email",
-        "tooManyRequests": "Troppi tentativi. Riprova più tardi",
-        "serverError": "Qualcosa è andato storto. Riprova"
-      }
-    },
-    "resetPassword": {
-      "title": "Reimposta password",
-      "password": "Nuova password",
-      "reset": "Reimposta password",
-      "backToLoginHint": "Pronto per accedere?",
-      "requestNewLink": "Richiedi un nuovo link",
-      "showPassword": "Mostra password",
-      "hidePassword": "Nascondi password",
-      "minLength": "La password deve avere almeno 6 caratteri",
-      "error": {
-        "expiredToken": "Il link di reimpostazione è scaduto. Richiedine uno nuovo",
-        "invalidToken": "Link di reimpostazione non valido. Richiedine uno nuovo",
-        "missingToken": "Il link di reimpostazione manca o è incompleto. Richiedine uno nuovo",
-        "tooManyRequests": "Troppi tentativi. Riprova più tardi",
-        "serverError": "Qualcosa è andato storto. Riprova"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "Team {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Ciao, {name}.",
-      "body": "Clicca il pulsante qui sotto per reimpostare la password di Photo To URL. Se non hai richiesto tu questa email, puoi ignorarla.",
-      "resetPassword": "Reimposta password",
-      "subject": "Reimposta la password di Photo To URL"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Prezzi semplici e trasparenti",
-    "description": "Scegli il piano più adatto a te con prezzi semplici e trasparenti",
-    "subtitle": "Scegli il piano più adatto a te",
-    "monthly": "Mensile",
-    "yearly": "Annuale",
-    "faqTitle": "Domande frequenti",
-    "faq": {
-      "payment": {
-        "q": "Quali metodi di pagamento accettate?",
-        "a": "Accettiamo le principali carte di credito e PayPal tramite il nostro provider di pagamento sicuro."
-      },
-      "cancel": {
-        "q": "Posso annullare l'abbonamento in qualsiasi momento?",
-        "a": "Sì, puoi annullare in qualsiasi momento. Manterrai l'accesso fino alla fine del tuo periodo di fatturazione corrente."
-      },
-      "storage": {
-        "q": "Cosa succede ai miei file se passo a un piano inferiore?",
-        "a": "I tuoi file sono al sicuro. Se superi il limite di spazio, ti avviseremo in anticipo. Nulla viene eliminato immediatamente."
-      },
-      "upload": {
-        "q": "Cosa viene conteggiato come caricamento?",
-        "a": "Ogni immagine che carichi su Photo To URL conta come un caricamento. Gli utenti gratuiti sono limitati a 10 caricamenti al giorno."
-      }
-    },
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/mese",
-      "perYear": "/anno",
-      "popular": "Il più popolare",
-      "bestValue": "Miglior valore",
-      "currentPlan": "Piano attuale",
-      "yourCurrentPlan": "Il tuo piano attuale",
-      "getStartedForFree": "Inizia gratis",
-      "getLifetimeAccess": "Accesso a vita",
-      "getStarted": "Inizia",
-      "upgradeToYearly": "Passa a Premium",
-      "cannotDowngrade": "Non è possibile passare a un piano inferiore",
-      "alreadySubscribed": "Abbonamento già attivo",
-      "subscribeYearly": "Abbonamento annuale",
-      "subscribeMonthly": "Abbonamento mensile",
-      "upgrade": "Passa al piano superiore",
-      "notAvailable": "Non disponibile",
-      "limitedOffer": "Offerta a tempo limitato · 20% di sconto",
-      "savePercentLabel": "Risparmia ",
-      "savePercentSuffix": " vs mensile",
-      "freePriceNote": "Gratis per sempre",
-      "monthlyPriceNote": "Fatturato mensilmente",
-      "loading": "Caricamento...",
-      "suitableFor": "Adatto per:",
-      "activePlanDialog": {
-        "title": "Hai già un abbonamento attivo",
-        "description": "Questo account ha già un abbonamento attivo.",
-        "descriptionWithDate": "Questo account ha già un abbonamento attivo (scade il {date}).",
-        "close": "Chiudi",
-        "manageBilling": "Gestisci abbonamento"
-      },
-      "batchUpload": {
-        "label": "Carica più foto",
-        "free": "No",
-        "monthly": "20",
-        "yearly": "50"
-      },
-      "justPerMonth": "{price}/mese",
-      "saveVsMonthly": "Risparmia {percent}%",
-      "monthlyEquivalentShort": "({price}/mese)",
-      "bestValueWithSave": "Più conveniente · Risparmia {percent}%"
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Get Started",
+      "notAvailable": "Not Available",
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Caricamento...",
-      "checkoutFailed": "Impossibile aprire la pagina di pagamento"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Gratuito",
-      "description": "Perfetto per provare Photo To URL",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Dimensione upload: 2MB",
-        "feature-2": "Upload giornalieri: 10 volte",
-        "feature-3": "Archiviazione: 100MB",
-        "feature-4": "CDN: Accelerazione basic",
-        "feature-5": "Senza pubblicità: No",
-        "feature-6": "Hosting documenti: No",
-        "feature-7": "Hosting foto: No",
-        "feature-8": "Modifica foto: No",
-        "feature-9": "Webhook: No",
-        "feature-10": "Permessi risorse: Nessuno"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Prova il prodotto, testa le funzionalità"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Professionale",
-      "description": "Caricamenti stabili e archiviazione",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Dimensione upload: 50MB",
-        "feature-2": "Upload giornalieri: 1000 volte",
-        "feature-3": "Archiviazione: 100GB",
-        "feature-4": "CDN: Accelerazione standard",
-        "feature-5": "Senza pubblicità: Sì",
-        "feature-6": "Hosting documenti: Sì",
-        "feature-7": "Hosting foto: Sì",
-        "feature-8": "Modifica foto: Sì",
-        "feature-9": "Webhook: Sì",
-        "feature-10": "Permessi risorse: Parziali"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Blogger / Sviluppatori / Piccoli team"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Quote più alte, CDN più veloce",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Dimensione upload: 256MB",
-        "feature-2": "Upload giornalieri: Illimitati",
-        "feature-3": "Archiviazione: 200GB",
-        "feature-4": "CDN: Nodi ad alta velocità (priorità)",
-        "feature-5": "Senza pubblicità: Sì",
-        "feature-6": "Hosting documenti: Sì",
-        "feature-7": "Hosting foto: Sì",
-        "feature-8": "Modifica foto: Sì",
-        "feature-9": "Webhook: Sì",
-        "feature-10": "Permessi risorse: Tutti"
-      },
-      "limits": [],
-      "suitableFor": "Imprese / Uso frequente / Sistemi di automazione"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Pannello",
-    "themeToggle": "Tema",
-    "welcome": "Benvenuto",
-    "loadFailed": "Caricamento non riuscito. Riprova più tardi.",
-    "errorTitle": "Qualcosa è andato storto",
-    "dismiss": "OK",
-    "dashboard": "Pannello",
-    "resources": "Le mie risorse",
-    "photos": "Le mie foto",
-    "storage": "Archiviazione",
-    "used": "Usato",
-    "total": "Totale",
-    "storageDisplay": "{used} di {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Illimitato",
-    "deleteConfirm": "Sei sicuro di voler eliminare questa risorsa?",
-    "deleteResource": "Elimina risorsa",
-    "deleteFailed": "Eliminazione della risorsa non riuscita",
-    "delete": "Elimina",
-    "cancel": "Annulla",
-    "copied": "Copiato!",
-    "copy": "Copia link",
-    "open": "Apri",
-    "removeBackground": "Rimuovi sfondo",
-    "noResources": "Nessuna risorsa. Carica alcune immagini per iniziare.",
-    "files": "file",
-    "dailyUploads": "Caricamenti di oggi",
-    "today": "oggi",
-    "resourcesCount": "Hai {count} risorse caricate",
-    "photosCount": "Hai {count} foto caricate",
-    "resourcePageInfo": "Pagina {page} di {totalPages} · {pageSize} per pagina · {total} file in totale",
-    "resourceTotalCount": "Totale: {total} elementi",
-    "resourcePageSizeLabel": "Elementi per pagina",
-    "resourcePageSizeOption": "{size} per pagina",
-    "resourceJumpTo": "Vai a",
-    "resourceJumpPageUnit": "pagina",
-    "resourceJumpInputAria": "Numero di pagina",
-    "resourcePagePrev": "Pagina precedente",
-    "resourcePageNext": "Pagina successiva",
-    "subtitle": "Ecco una panoramica del tuo spazio di lavoro.",
-    "planCardTitle": "Piano",
-    "planActive": "Attivo",
-    "planNames": {
-      "free": "Gratuito",
-      "premium": "Premium",
-      "pro": "Professionale"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Upgrade per più funzioni",
-    "planCardHintAllUpgraded": "Tutte le funzioni sbloccate",
-    "statStorageHint": "Spazio di archiviazione utilizzato",
-    "statResourcesHint": "Totale foto + documenti",
-    "statPhotosHint": "Risorse ospitate",
-    "statUploadsHint": "Reset ogni 24 h in base al piano",
-    "chartTitle": "Statistiche",
-    "chartDescription": "Visualizza la cronologia dei tuoi caricamenti",
-    "chartPlaceholder": "Nessun dato disponibile",
-    "chartRange7d": "7 giorni",
-    "chartRange30d": "30 giorni",
-    "chartRange90d": "90 giorni",
-    "tableFile": "File",
-    "tablePath": "Percorso",
-    "tableSize": "Dimensione",
-    "tableActions": "Azioni",
-    "viewTable": "Tabella",
-    "viewGrid": "Muro di foto",
-    "chartDemoNote": "Trend dei caricamenti (giorni)",
-    "loginRequired": "Accedi per visualizzare la tua dashboard.",
-    "checkoutSuccess": "Pagamento riuscito",
-    "subscriptionSuccess": "Abbonamento attivato. Benvenuto in {plan}!",
-    "circleCrop": "Ritaglio circolare",
-    "roundedCorners": "Angoli arrotondati",
-    "scheduledForDeletion": "Programmato per l'eliminazione",
-    "upload": "Carica",
-    "uploadPhoto": "Carica foto",
-    "batchUploadPhotos": "Carica più foto",
-    "batchUploading": "Caricamento multiplo in corso…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Seleziona al massimo {max} file alla volta.",
-    "batchUploadTierHint": "Fino a {max} file per caricamento con il tuo piano.",
-    "uploadUpgradeHint": "Disponibile dopo l'aggiornamento",
-    "uploading": "Caricamento...",
-    "loading": "Caricamento...",
-    "uploadErrorInvalidType": "Tipo di file non valido. Usa PNG, JPG, WEBP o GIF.",
-    "uploadErrorTooLarge": "File troppo grande. Il tuo piano consente fino a {maxMb} MB per file.",
-    "uploadErrorDailyLimit": "Raggiunto il limite giornaliero ({limit} caricamenti/giorno).",
-    "uploadErrorStorageLimit": "Raggiunto il limite di archiviazione.",
-    "uploadErrorGeneric": "Caricamento non riuscito. Riprova.",
-    "uploadUpgradeTitle": "Sblocca il caricamento diretto",
-    "uploadUpgradeDescription": "Aggiorna per caricare direttamente dalla dashboard con limiti più alti.",
-    "uploadRenewDescription": "Rinnova per caricare direttamente dalla dashboard con limiti più alti.",
-    "expiredStorageLimitHint": "Dopo la scadenza sono disponibili solo 100MB di spazio",
-    "uploadGoHome": "Carica dalla home",
-    "resourceModule": {
-      "title": "I miei documenti",
-      "count": "Hai {count} documenti caricati",
-      "empty": "Ancora nessun documento. Carica un PDF/Word/PowerPoint/Excel per iniziare.",
-      "viewCard": "Schede",
-      "searchPlaceholder": "Cerca per nome file",
-      "typeAll": "Tutti i tipi",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Reimposta",
-      "upload": "Carica documento",
-      "uploading": "Caricamento...",
-      "copy": "Copia link",
-      "open": "Apri",
-      "delete": "Elimina",
-      "deleteFailed": "Impossibile eliminare il documento",
-      "fetchError": "Impossibile caricare l'elenco dei documenti",
-      "tableFile": "File",
-      "tablePath": "Percorso",
-      "tableType": "Tipo",
-      "typeLabel": "Tipo",
-      "tableSize": "Dimensione",
-      "tableActions": "Azioni",
-      "uploadErrorTooLarge": "File troppo grande. Il limite per file del tuo piano è {maxSize}.",
-      "uploadErrorDailyLimit": "Limite giornaliero raggiunto ({limit} caricamenti/giorno).",
-      "uploadErrorStorageLimit": "Limite di archiviazione raggiunto.",
-      "uploadErrorGeneric": "Caricamento non riuscito. Riprova."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Dimensione file {size}",
-    "dailyUploadsLimit": "{limit} caricamenti/giorno",
-    "dailyUploadsUnlimited": "Caricamenti illimitati",
-    "monthly": "mese",
-    "yearly": "anno",
-    "bestValue": "Miglior valore",
-    "upgrade": {
-      "title": "Aggiorna il tuo piano",
-      "description": "Passa a un piano superiore per limiti giornalieri più alti, file più grandi e funzionalità premium. Caricamenti giornalieri illimitati con il piano Premium annuale.",
-      "button": "Aggiorna ora"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Impostazioni",
-      "profile": {
-        "title": "Profilo",
-        "description": "Gestisci le informazioni del tuo profilo",
-        "name": {
-          "title": "Nome",
-          "description": "Aggiorna il tuo nome visualizzato",
-          "placeholder": "Inserisci il tuo nome",
-          "hint": "Questo è il nome che verrà visualizzato nel tuo profilo",
-          "minLength": "Il nome deve avere almeno 3 caratteri",
-          "maxLength": "Il nome non deve superare i 30 caratteri",
-          "success": "Nome aggiornato con successo",
-          "fail": "Impossibile aggiornare il nome",
-          "save": "Salva",
-          "saving": "Salvataggio..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "Aggiorna la tua foto del profilo",
-          "uploadAvatar": "Carica immagine",
-          "unavailable": "Caricamento non disponibile",
-          "disabledHint": "Il caricamento dell'avatar richiede che l'archiviazione cloud sia abilitata per questo progetto.",
-          "recommendation": "PNG, JPG o WebP. La dimensione massima segue i limiti del server."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Fatturazione",
-        "description": "Gestisci la tua fatturazione e il tuo abbonamento",
-        "billingPagePlanTitle": "Piano attuale",
-        "billingPageStorageTitle": "Spazio utilizzato",
-        "currentPlan": {
-          "title": "Il tuo piano e lo spazio di archiviazione su Photo To URL",
-          "description": "Esegui l’upgrade per sbloccare quote più alte e più funzionalità"
-        },
-        "loadError": "Impossibile caricare i dati di fatturazione.",
-        "retry": "Riprova",
-        "planNames": {
-          "free": "Gratuito",
-          "premium": "Premium",
-          "pro": "Professionale"
-        },
-        "status": {
-          "active": "Attivo",
-          "expired": "Scaduto"
-        },
-        "storageUsed": "Spazio utilizzato",
-        "freePlanMessage": "Limite di caricamento più alto",
-        "inactivePlanMessage": "I vantaggi sono scaduti",
-        "expiredStorageLimitHint": "Dopo la scadenza sono disponibili solo 100MB di spazio",
-        "paidPlanMessage": "Vantaggi attivi",
-        "backToWorkbench": "Torna alla dashboard",
-        "upgradeHint": "Più spazio di archiviazione",
-        "upgradeToPlan": "Aggiorna il piano",
-        "featureAdvancedEditing": "Strumenti di modifica avanzati",
-        "upgradeNotReady": {
-          "title": "Prossimamente",
-          "description": "Resta sintonizzato per altri servizi!",
-          "confirm": "Capito",
-          "cancel": "Chiudi"
-        },
-        "storage": {
-          "title": "CDN più veloce",
-          "description": "Tieni traccia del tuo consumo di spazio",
-          "upgradeStorage": "Aggiorna spazio"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Sicurezza",
-        "description": "Gestisci la sicurezza del tuo account",
-        "updatePassword": {
-          "title": "Password",
-          "description": "Cambia la password per il login con email",
-          "currentPassword": "Password attuale",
-          "newPassword": "Nuova password",
-          "confirmPassword": "Conferma nuova password",
-          "currentRequired": "Inserisci la tua password attuale",
-          "newMinLength": "Almeno 8 caratteri",
-          "confirmRequired": "Conferma la tua nuova password",
-          "passwordMismatch": "Le password non coincidono",
-          "hint": "Usa una password forte che non riutilizzi altrove.",
-          "save": "Aggiorna password",
-          "saving": "Salvataggio…",
-          "success": "Password aggiornata",
-          "fail": "Impossibile aggiornare la password",
-          "showPassword": "Mostra password",
-          "hidePassword": "Nascondi password"
-        },
-        "resetPassword": {
-          "title": "Imposta una password",
-          "description": "Hai effettuato l'accesso con Google. Aggiungi una password email come backup.",
-          "info": "Invieremo un link per reimpostare la password all'indirizzo e-mail del tuo account.",
-          "button": "Invia link di reimpostazione",
-          "sending": "Invio…",
-          "sent": "Controlla la tua casella di posta per il link di reimpostazione.",
-          "disabled": "Le email di reimpostazione della password non sono ancora configurate su questo server.",
-          "fail": "Richiesta non riuscita. Riprova più tardi."
-        },
-        "deleteAccount": {
-          "title": "Elimina account",
-          "description": "Rimuovi permanentemente il tuo account e i dati associati.",
-          "warning": "Questa azione non può essere annullata. Assicurati di aver salvato tutto ciò di cui hai bisogno.",
-          "button": "Elimina il mio account",
-          "confirmTitle": "Eliminare l'account?",
-          "confirmDescription": "Il tuo account verrà eliminato permanentemente.",
-          "cancel": "Annulla",
-          "confirm": "Elimina",
-          "deleting": "Eliminazione…",
-          "success": "Account eliminato",
-          "fail": "Impossibile eliminare l'account"
-        }
-      },
-      "notification": {
-        "title": "Notifiche",
-        "description": "Gestisci le tue preferenze di notifica",
-        "newsletter": {
-          "title": "Aggiornamenti email",
-          "description": "Notizie sui prodotti e suggerimenti (opzionale)",
-          "label": "Iscriviti alla newsletter",
-          "disabledHint": "La newsletter non è ancora abilitata per questo sito.",
-          "hint": "Quando è abilitata, puoi iscriverti o annullare l'iscrizione qui."
-        },
-        "productPreview": {
-          "title": "Anteprima prodotto",
-          "description": "Immagine principale usata nelle card di condivisione e nelle landing page.",
-          "announcement": {
-            "line1": "Continuiamo a offrire funzionalità più potenti e vantaggi membership ancora più preziosi.",
-            "line2": "Le nuove funzionalità di upgrade saranno rese disponibili in priorità agli utenti esistenti, senza variazioni di prezzo.",
-            "line3": "Grazie per la fiducia e il supporto di ogni utente. Continueremo a migliorare il prodotto per offrire un'esperienza ancora più di valore.",
-            "line4": "Continueremo a ottimizzare l'esperienza globale con servizi più rapidi e affidabili."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Account artista",
-    "artFightWorkspaceHint": "Strumenti artista attivi — copia codici embed URL, HTML, BBCode e Markdown per ogni foto."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Hosting carte profilo Art Fight | URL e codici embed",
-      "description": "Carica carte profilo Team Tragedy, Comedy o Mystery. Ottieni un link HTTPS diretto più embed HTML/BBCode per Art Fight, Discord e post social.",
-      "keywords": "carta profilo Art Fight,hosting ref sheet,Team Tragedy,Team Comedy,embed HTML BBCode"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Hosting Art Fight",
-    "artistAccount": {
-      "badge": "Account artista",
-      "title": "Registra account artista dedicato",
-      "lead": "Account artista gratuito: salva le carte nel pannello e usa strumenti embed professionali per Art Fight — copia URL, HTML, BBCode e Markdown a ogni caricamento.",
-      "toolEmbedTitle": "Strumenti embed",
-      "toolEmbedDesc": "Copia con un clic per profili Art Fight, Discord, forum e post social.",
-      "toolDashboardTitle": "Pannello artista",
-      "toolDashboardDesc": "Ogni carta resta nel tuo account — cerca, anteprima e ricopia i link quando vuoi.",
-      "toolBatchTitle": "Caricamento batch (Pro)",
-      "toolBatchDesc": "Dopo l'upgrade, carica molte carte in una volta — pensato per artisti con più OCs.",
-      "registerCta": "Crea account artista",
-      "footnote": "Seleziona «Account artista dedicato» alla registrazione, o registrati da questa pagina — lo preselezioniamo."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Per artisti digitali e creatori di OC",
-      "title": "Hosting carte profilo e ref sheet per artisti Art Fight",
-      "subtitle": "Carica la tua carta Team Tragedy, Comedy o Mystery — URL immagine stabile più codici embed HTML e BBCode per profili Art Fight, Discord e post « pronti a combattere ».",
-      "artistAccountLine": "Registra un account artista dedicato per strumenti embed professionali nel pannello.",
-      "cta": "Trascina la carta qui sotto → copia il link → incollalo dove dichiari la tua squadra",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Hosting carte",
-      "tabArtist": "Account artista",
-      "tabSupport": "Supporto artista",
-      "tabsAriaLabel": "Punti salienti Art Fight",
-      "trustLine": "Caricamento rapido gratuito · URL e codici embed · Pannello artista",
-      "uploadCta": "Carica una carta",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Codici embed pronti da incollare",
-      "panelIntroDesc": "Carica una carta una volta, poi copia il link diretto o HTML/BBCode per Art Fight e Discord.",
-      "panelArtistTitle": "Strumenti account artista",
-      "panelSupportTitle": "Supporto dedicato agli artisti",
-      "panelSupportDesc": "Caricamenti, embed, account e piani — persone reali, non una coda generica di ticket."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Lo stesso strumento per ogni squadra Art Fight",
-      "lead": "Tragedy, Comedy o Mystery — dopo la carta ti serve una cosa: un link immagine veloce e stabile da condividere.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Carte e ref sheet in toni blu — hosta l'immagine completa e incolla il link sul profilo Art Fight o sul post Twitter/X.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Carte in toni arancio e caldi — perfette per annunci Discord e embed profilo nel pieno di Art Fight.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Carte viola della terza fazione — stesso flusso di caricamento, stessi embed, pronte quando vuoi condividere.",
-      "footnote": "Le tre squadre: carica → copia URL o embed → pubblica la carta."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Dove gli artisti incollano il link",
-      "lead": "Art Fight è social. Il tuo link hostato viaggia con ogni aggiornamento profilo e ogni post « sono in questa squadra ».",
-      "profileTitle": "Profilo Art Fight",
-      "profileDesc": "Incolla l'URL diretta o l'embed HTML nel profilo ufficiale del personaggio Art Fight così la squadra vede la tua carta.",
-      "socialTitle": "Twitter / X e social",
-      "socialDesc": "Condividi la carta quando dichiari la squadra — un link HTTPS pulito carica velocemente in timeline e risposte.",
-      "discordTitle": "Discord e server artisti",
-      "discordDesc": "Pubblica URL o BBCode nei Discord Art Fight, intro server o thread di piano d'attacco.",
-      "portfolioTitle": "Toyhouse e siti portfolio",
-      "portfolioDesc": "Lo stesso link su Toyhouse, Carrd o firme forum — ref coerente ovunque."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Perché gli artisti Art Fight scelgono Photo To URL",
-      "fastTitle": "Pensato per i periodi intensi di Art Fight",
-      "fastDesc": "Carica quando devi pubblicare — link CDN in secondi durante il warm-up, il picco dell'evento o in qualsiasi momento.",
-      "linkTitle": "URL adatte alle carte profilo",
-      "linkDesc": "Link .png/.jpg puliti accettati da profili Art Fight, forum e post social senza passaggi extra.",
-      "embedTitle": "HTML e BBCode per artisti",
-      "embedDesc": "Copia snippet embed per profili e forum — niente modifica manuale dei tag img in stagione intensa.",
-      "safeTitle": "Hosting nel pannello dopo l'accesso",
-      "safeDesc": "Gli utenti registrati salvano le carte nel pannello — ricopia link, cerca file e gestisci i caricamenti."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Account artista: hosta le carte nel pannello",
-      "sectionLead": "I caricamenti anonimi vanno bene per un post rapido. Registrati come artista Art Fight per un pannello dedicato con embed — o passa a Pro per caricamento batch e limiti più alti.",
-      "dashboardTitle": "Hosting foto nel pannello",
-      "dashboardDesc": "Dopo l'accesso, ogni caricamento viene salvato nel pannello. Ricopia lo stesso link, apri l'immagine in una nuova scheda o scarica l'originale — tutto in un'unica lista.",
-      "batchTitle": "Caricamento batch (Pro)",
-      "batchDesc": "Molte carte in una volta dal pannello — fino a {monthlyMax} per batch con Pro mensile, o {yearlyMax} con Premium annuale.",
-      "manageTitle": "Ricerca e muro foto",
-      "manageDesc": "Trova ogni carta hostata per nome file, passa tra vista tabella e muro foto, elimina ciò che non ti serve.",
-      "proTitle": "Limiti più alti e file più grandi",
-      "proDesc": "Tutto del piano gratuito, più batch nel pannello ({monthlyMax}–{yearlyMax} file), limiti giornalieri più alti, caricamenti più grandi e più spazio.",
-      "anonymousLabel": "Anonimo",
-      "anonymousDesc": "Link rapido per un post. Non salvato nell'account; può essere rimosso in qualsiasi momento.",
-      "freeLabel": "Account gratuito",
-      "freeDesc": "Carte salvate nel pannello. Ricopia link, cerca e gestisci fino a eliminazione o limite di spazio.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Crea account gratuito",
-      "loginCta": "Accedi",
-      "dashboardCta": "Apri pannello",
-      "proCta": "Vedi piani Pro",
-      "ctaPanelTitle": "Pronto a hostare le tue carte?",
-      "footnote": "Gli account gratuiti caricano qui e gestiscono i file nel pannello. Il batch richiede Pro o Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Carica la tua carta profilo Art Fight",
-      "sectionLead": "Ref sheet, carta squadra o grafica profilo completa — trascinala qui e copia il link per il prossimo post.",
-      "dropzoneTitle": "Trascina la carta profilo o ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP o GIF — carte squadra, ref sheet e grafiche personaggio benvenute",
-      "dropzoneFootnote": "Gratis: 5 caricamenti/giorno senza registrazione. Accedi per limiti più alti.",
-      "defaultAlt": "Carta profilo Art Fight",
-      "resultTitle": "La tua carta è pronta — condividila",
-      "resultHint": "Copia l'URL per profili Art Fight, o HTML/BBCode per forum e Discord.",
-      "open": "Apri immagine",
-      "reset": "Carica un'altra carta",
-      "errorBadType": "Carica un file immagine (PNG, JPG, WEBP o GIF).",
-      "errorGeneric": "Caricamento fallito. Riprova.",
-      "loginRequiredTitle": "Limite gratuito giornaliero raggiunto",
-      "loginRequiredDescription": "Accedi per continuare a caricare carte e salvarle nel pannello, o torna domani per altri caricamenti gratuiti.",
-      "loginRequiredDetail": "Utenti registrati: hosting nel pannello — ogni carta resta nel tuo account, ricopia link, cerca per nome file e gestisci tutto in un unico posto.",
-      "retentionAnonymousTitle": "Link anonimo — sconsigliato per schede importanti",
-      "retentionAnonymousBody": "Upload anonimi solo per condivisione rapida. Il link funziona ora ma non è salvato. Compressione, CDN lento e pulizia periodica possibili — registrati gratis per embed e hosting affidabile.",
-      "retentionAnonymousSignUp": "Crea account gratuito",
-      "retentionAnonymousPro": "Vedi piani Pro",
-      "retentionFreeTitle": "Questo link è salvato nel tuo account",
-      "retentionFreeBody": "Puoi ricopiarlo dal pannello in qualsiasi momento. Gli account gratuiti hanno limiti giornalieri e di spazio — sufficienti per carte occasionali, ma non illimitati.",
-      "retentionFreeDashboard": "Apri pannello",
-      "retentionFreeUpgrade": "Più spazio",
-      "retentionProTitle": "La tua carta profilo è hostata con il piano Pro",
-      "retentionProBody": "Limiti di caricamento più alti, più spazio e link affidabili per ogni Art Fight — Tragedy, Comedy o Mystery.",
-      "retentionProDashboard": "Apri pannello",
-      "resultHintAnonymous": "Caricamento anonimo — solo link diretto. Registrati per sbloccare codici embed HTML, BBCode e Markdown.",
-      "retentionAnonymousIntro": "Questo link diretto va bene per una condivisione rapida, ma l’hosting anonimo ha limiti importanti:",
-      "retentionAnonymousLimit1": "Non collegato al tuo account — meno sicuro; chiunque abbia il link può vedere l’immagine",
-      "retentionAnonymousLimit2": "CDN più lento — gli upload anonimi non hanno accelerazione prioritaria",
-      "retentionAnonymousLimit3": "Possibile compressione — qualità originale non garantita",
-      "retentionAnonymousLimit4": "Durata limitata — i file anonimi vengono puliti periodicamente; il link può smettere di funzionare",
-      "retentionAnonymousLimit5": "Codici embed bloccati — HTML, BBCode e Markdown richiedono un account gratuito",
-      "retentionAnonymousCta": "Crea un account gratuito per salvare le schede, sbloccare gli embed, CDN più veloce e link più affidabili."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Testo alt (per HTML e Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Copia codice",
-      "copied": "Copiato",
-      "lockedTabTitle": "Registrati per sbloccare gli embed",
-      "lockedTabDescription": "HTML, BBCode e Markdown disponibili dopo la registrazione. Account gratuiti: pannello e copia embed con un clic.",
-      "lockedTabCta": "Crea account gratuito"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "Dalla carta profilo al post pubblico",
-      "lead": "Il flusso che ogni artista Art Fight segue dopo aver finito la carta.",
-      "schemaName": "Come hostare una carta Art Fight con codice embed",
-      "schemaDescription": "Carica una carta squadra Art Fight su Photo To URL e incolla il link sul profilo o post social.",
-      "step1Title": "Carica la carta squadra",
-      "step1Desc": "Trascina carta o ref sheet Tragedy, Comedy o Mystery — link diretto e embed all'istante.",
-      "step2Title": "Copia URL o codice embed",
-      "step2Desc": "Scheda URL per profili Art Fight, HTML/BBCode per Discord, forum e portfolio.",
-      "step3Title": "Pubblica e dichiara la squadra",
-      "step3Desc": "Incolla il link su Art Fight, Twitter/X o Discord così altri artisti vedono la tua carta e ti trovano durante l'evento."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "FAQ artisti Art Fight",
-      "lead": "Domande di artisti che caricano carte Team Tragedy, Comedy e Mystery.",
-      "warningTitle": "Carica in modo responsabile",
-      "warningBody": "Hosta solo opere che hai creato o che hai chiaro diritto di condividere. Non caricare contenuti illeciti, illegali o vietati. Sei responsabile di ogni file caricato.",
-      "warningTermsLink": "Termini di servizio",
-      "warningPrivacyLink": "Informativa sulla privacy",
-      "q1Question": "Per carte profilo o ref sheet?",
-      "q1Answer": "Entrambi. Carica la carta completa squadra Art Fight, ref sheet del personaggio o qualsiasi grafica da collegare per l'evento.",
-      "q2Question": "Funziona per tutte e tre le squadre?",
-      "q2Answer": "Sì. Team Tragedy, Comedy e Mystery usano lo stesso caricamento — hostiamo l'immagine e forniamo un link condivisibile.",
-      "q3Question": "Serve un account per caricare?",
-      "q3Answer": "No per caricamenti rapidi. Anonimi: 10 gratis/giorno. Accedi per salvare nel pannello — ricopia link, cerca e gestisci. Pro aggiunge batch (20–50 carte) e limiti più alti.",
-      "q8Question": "Posso caricare molte carte in batch?",
-      "q8Answer": "Sì, con un piano a pagamento. Apri il pannello, Caricamento batch, seleziona più PNG/JPG/WEBP/GIF — fino a 20 per batch con Pro mensile, 50 con Premium annuale. Gratis: una alla volta qui o nel pannello.",
-      "q4Question": "Il link funziona su Discord e Twitter?",
-      "q4Answer": "Sì. L'URL HTTPS diretta funziona nei post social. Usa BBCode dove supportato.",
-      "q5Question": "Il mio link resterà disponibile a lungo termine?",
-      "q5Answer": "Dipende da come hai caricato. I link anonimi sono temporanei — pulizia periodica, il link può interrompersi. I registrati conservano i file nel pannello fino a eliminazione o limite. Pro è il più affidabile nel tempo.",
-      "q6Question": "Posso caricare qualsiasi immagine? E il copyright?",
-      "q6Answer": "Solo immagini di tua proprietà o che puoi hostare e condividere — i tuoi OCs, commissioni con diritto di hosting, opere tue. Non caricare ref sheet altrui, asset ufficiali Art Fight non creati da te, foto di celebrità, loghi o materiale protetto senza permesso.",
-      "q7Question": "Quale contenuto è severamente vietato?",
-      "q7Answer": "Mai contenuti illegali; materiale sessualmente esplicito o sfruttante (inclusi minori); odio, molestie o violenza; malware o truffe; violazioni di copyright, marchi o privacy. Possiamo rimuovere file e sospendere l'accesso senza preavviso."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Supporto artista — siamo qui per aiutarti",
-      "panelVisualTag": "Risposta in 1–2 giorni",
-      "panelVisualQuestion": "L'embed BBCode non funziona?",
-      "panelVisualReply": "Capito — ti aiutiamo a risolvere.",
-      "topicEmbed": "Embed e link",
-      "topicAccount": "Account artista",
-      "topicPlan": "Piani e spazio",
-      "topicFeedback": "Idee e feedback",
-      "contactHint": "Scrivici quando vuoi — nessuna coda.",
-      "contactCta": "Contattaci",
-      "emailCta": "Inviaci un'email"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Molti OCs? Caricamento batch dal pannello",
-      "description": "Gli artisti Pro caricano decine di carte in una volta, conservano ogni link nel pannello e godono di limiti giornalieri e spazio più alti per tutto il roster.",
-      "cta": "Vedi piani Pro per artisti"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

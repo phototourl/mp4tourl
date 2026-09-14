@@ -1,5 +1,6 @@
 'use client';
 
+import { CustomerPortalButton } from '@/components/pricing/customer-portal-button';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -11,98 +12,131 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
-import {
-  settingsButtonOutline,
-  settingsButtonPrimary,
-} from '@/components/settings/settings-button-classes';
-import { settingsCard } from '@/components/settings/settings-card-classes';
-import {
-  getResourcesMeta,
-  type ResourcesMeta,
-} from '@/components/settings/resources-meta-cache';
+import { usePricePlans } from '@/config/price-config';
+import { useMounted } from '@/hooks/use-mounted';
+import { useCurrentPlan } from '@/hooks/use-payment';
 import { LocaleLink } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
-import { AlertDialog } from '@/components/ui/alert-dialog';
-import {
-  DEFAULT_STORAGE_LIMITS,
-  PLAN_FREE,
-  PLAN_PAID,
-  formatBytes,
-} from '@/lib/constants/plans';
+import { formatDate } from '@/lib/formatter';
 import { cn } from '@/lib/utils';
 import { Routes } from '@/routes';
-import { AlertTriangleIcon, CheckCircleIcon } from 'lucide-react';
-import { useTranslations, useLocale } from 'next-intl';
-import { useCallback, useEffect, useState } from 'react';
+import { CheckCircleIcon, ClockIcon, RefreshCwIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { useCallback } from 'react';
 
+/**
+ * Billing card, show current plan and subscription status
+ */
 export default function BillingCard() {
   const t = useTranslations('Dashboard.settings.billing');
-  const locale = useLocale();
-  const { data: session, isPending: sessionPending } = authClient.useSession();
-  const [data, setData] = useState<ResourcesMeta | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [err, setErr] = useState<string | null>(null);
-  const [showUpgradeDialog, setShowUpgradeDialog] = useState(false);
+  const mounted = useMounted();
 
-  const load = useCallback(async () => {
-    if (!session?.user) {
-      setLoading(false);
-      return;
-    }
-    setLoading(true);
-    setErr(null);
-    try {
-      const meta = await getResourcesMeta();
-      setData(meta);
-    } catch (e) {
-      setErr(e instanceof Error ? e.message : 'error');
-    } finally {
-      setLoading(false);
-    }
-  }, [session?.user]);
+  // Get user session for customer ID
+  const { data: session, isPending: isLoadingSession } =
+    authClient.useSession();
+  const currentUser = session?.user;
 
-  useEffect(() => {
-    load();
-  }, [load]);
+  // Get current plan data
+  const {
+    data: paymentData,
+    isLoading: isLoadingPayment,
+    error: loadPaymentError,
+    refetch: refetchPayment,
+  } = useCurrentPlan(currentUser?.id);
 
-  if (sessionPending || loading) {
+  const currentPlan = paymentData?.currentPlan;
+  const subscription = paymentData?.subscription;
+  const isLifetimeMember = currentPlan?.isLifetime || false;
+
+  console.log('=== BillingCard Debug Info ===', {
+    mounted,
+    userId: currentUser?.id,
+    isLoadingSession,
+    isLoadingPayment,
+    isLifetimeMember,
+    hasPaymentData: !!paymentData,
+    hasCurrentPlan: !!currentPlan,
+    hasSubscription: !!subscription,
+    loadPaymentError: loadPaymentError?.message,
+  });
+
+  // Get price plans with translations - must be called here to maintain hook order
+  const pricePlans = usePricePlans();
+  const plans = Object.values(pricePlans);
+
+  // Convert current plan to a plan with translations
+  const currentPlanWithTranslations = currentPlan
+    ? plans.find((plan) => plan.id === currentPlan?.id)
+    : null;
+  const isFreePlan = currentPlanWithTranslations?.isFree || false;
+
+  // Get current period start date
+  const currentPeriodStart = subscription?.currentPeriodStart
+    ? formatDate(subscription.currentPeriodStart)
+    : null;
+
+  // Get current period end date
+  const currentPeriodEnd = subscription?.currentPeriodEnd
+    ? formatDate(subscription.currentPeriodEnd)
+    : null;
+
+  // Get current trial end date
+  const trialEndDate = subscription?.trialEndDate
+    ? formatDate(subscription.trialEndDate)
+    : null;
+
+  // Retry payment data fetching
+  const handleRetry = useCallback(() => {
+    refetchPayment();
+  }, [refetchPayment]);
+
+  // Render loading skeleton
+  if (!mounted || isLoadingPayment || isLoadingSession) {
     return (
-      <Card className={settingsCard}>
+      <Card className={cn('w-full overflow-hidden pt-6 pb-0 flex flex-col')}>
         <CardHeader>
           <CardTitle className="text-lg font-semibold">
             {t('currentPlan.title')}
           </CardTitle>
           <CardDescription>{t('currentPlan.description')}</CardDescription>
         </CardHeader>
-        <CardContent className="flex-1 space-y-4">
-          <Skeleton className="h-8 w-2/5" />
-          <Skeleton className="h-6 w-4/5" />
+        <CardContent className="space-y-4 flex-1">
+          <div className="flex items-center justify-start space-x-4">
+            <Skeleton className="h-8 w-1/5" />
+          </div>
+          <div className="text-sm text-muted-foreground space-y-2">
+            <Skeleton className="h-6 w-3/5" />
+          </div>
         </CardContent>
-        <CardFooter className="mt-2 flex items-center justify-end rounded-none bg-muted px-6 py-4">
-          <Skeleton className="h-9 w-28" />
+        <CardFooter className="mt-2 px-6 py-4 flex justify-end items-center bg-muted rounded-none">
+          <Skeleton className="h-8 w-1/4" />
         </CardFooter>
       </Card>
     );
   }
 
-  if (err) {
+  // Render error state
+  if (loadPaymentError) {
     return (
-      <Card className={settingsCard}>
+      <Card className={cn('w-full overflow-hidden pt-6 pb-0 flex flex-col')}>
         <CardHeader>
           <CardTitle className="text-lg font-semibold">
             {t('currentPlan.title')}
           </CardTitle>
           <CardDescription>{t('currentPlan.description')}</CardDescription>
         </CardHeader>
-        <CardContent className="flex-1">
-          <p className="text-sm text-destructive">{t('loadError')}</p>
+        <CardContent className="space-y-4 flex-1">
+          <div className="text-destructive text-sm">
+            {loadPaymentError?.message}
+          </div>
         </CardContent>
-        <CardFooter className="mt-2 flex items-center justify-end rounded-none bg-muted px-6 py-4">
+        <CardFooter className="mt-2 px-6 py-4 flex justify-end items-center bg-muted rounded-none">
           <Button
             variant="outline"
-            className={cn('cursor-pointer', settingsButtonOutline)}
-            onClick={load}
+            className="cursor-pointer"
+            onClick={handleRetry}
           >
+            <RefreshCwIcon className="size-4 mr-1" />
             {t('retry')}
           </Button>
         </CardFooter>
@@ -110,95 +144,122 @@ export default function BillingCard() {
     );
   }
 
-  const plan = data?.plan || PLAN_FREE;
-  const planTier = data?.planTier;
-  const subscriptionActive = data?.subscriptionActive ?? (plan !== PLAN_PAID);
-  const isExpiredPaid = plan === PLAN_PAID && !subscriptionActive;
-  const planNameKey = plan === PLAN_PAID
-    ? (planTier === 'yearly' ? 'planNames.premium' : 'planNames.pro')
-    : 'planNames.free';
-  const planName = t(planNameKey);
-  const isFreePlan = plan === PLAN_FREE;
-  const shouldShowUpgrade = isFreePlan || !subscriptionActive;
-  const statusText = isExpiredPaid
-    ? (t.has('status.expired') ? t('status.expired') : 'Expired')
-    : t('status.active');
-  const statusBadgeClass = isExpiredPaid
-    ? 'text-xs border-red-200 bg-red-50 text-red-700 dark:border-red-900/60 dark:bg-red-950/30 dark:text-red-300'
-    : 'text-xs';
-  const statusIconClass = isExpiredPaid
-    ? 'mr-1 h-3 w-3 text-red-600 dark:text-red-300'
-    : 'mr-1 h-3 w-3 text-green-600';
+  // currentPlan maybe null, so we need to check if it is null
+  if (!currentPlanWithTranslations) {
+    return (
+      <Card className={cn('w-full overflow-hidden pt-6 pb-0 flex flex-col')}>
+        <CardHeader>
+          <CardTitle className="text-lg font-semibold">
+            {t('currentPlan.title')}
+          </CardTitle>
+          <CardDescription>{t('currentPlan.description')}</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="text-sm text-muted-foreground">
+            {t('currentPlan.noPlan')}
+          </div>
+        </CardContent>
+        <CardFooter className="mt-2 px-6 py-4 flex justify-end items-center bg-muted rounded-none">
+          <Button variant="default" className="cursor-pointer" asChild>
+            <LocaleLink href={Routes.Root}>{t('upgradePlan')}</LocaleLink>
+          </Button>
+        </CardFooter>
+      </Card>
+    );
+  }
 
   return (
-    <Card className={settingsCard}>
+    <Card className={cn('w-full overflow-hidden pt-6 pb-0 flex flex-col')}>
       <CardHeader>
         <CardTitle className="text-lg font-semibold">
           {t('currentPlan.title')}
         </CardTitle>
         <CardDescription>{t('currentPlan.description')}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-1 space-y-4">
-        <div className="flex flex-wrap items-center gap-3">
-          <div className="text-3xl font-medium">{planName}</div>
-          <Badge variant="outline" className={statusBadgeClass}>
-            {isExpiredPaid ? (
-              <AlertTriangleIcon className={statusIconClass} />
-            ) : (
-              <CheckCircleIcon className={statusIconClass} />
+      <CardContent className="space-y-4 flex-1">
+        {/* Plan name and status */}
+        <div className="flex items-center justify-start space-x-4">
+          <div className="text-3xl font-medium">
+            {currentPlanWithTranslations?.name}
+          </div>
+          {subscription &&
+            (subscription.status === 'trialing' ||
+              subscription.status === 'active') && (
+              <Badge variant="outline" className="text-xs">
+                {subscription.status === 'trialing' ? (
+                  <div className="flex items-center space-x-2">
+                    <ClockIcon className="size-3 mr-1 text-amber-600" />
+                    {t('status.trial')}
+                  </div>
+                ) : (
+                  <div className="flex items-center space-x-2">
+                    <CheckCircleIcon className="size-3 mr-1 text-green-600" />
+                    {t('status.active')}
+                  </div>
+                )}
+              </Badge>
             )}
-            {statusText}
-          </Badge>
         </div>
-        <div className="space-y-1 text-sm text-muted-foreground">
-          <p>
-            {t('storageUsed')}: {formatBytes(data?.storageUsed ?? 0, locale)} /{' '}
-            {formatBytes(data?.storageLimit ?? DEFAULT_STORAGE_LIMITS[PLAN_FREE], locale)}
-          </p>
-          {isFreePlan ? (
-            <p>{t('freePlanMessage')}</p>
-          ) : !subscriptionActive ? (
-            <>
-              <p className="text-red-600 dark:text-red-300">
-                {t.has('inactivePlanMessage') ? t('inactivePlanMessage') : '权益已失效'}
-              </p>
-              <p className="text-red-600 dark:text-red-300">
-                {t.has('expiredStorageLimitHint')
-                  ? t('expiredStorageLimitHint')
-                  : '到期后仅享 100MB 存储额度'}
-              </p>
-            </>
-          ) : (
-            <p>{t('paidPlanMessage')}</p>
-          )}
-        </div>
+
+        {/* Free plan message */}
+        {isFreePlan && (
+          <div className="text-sm text-muted-foreground">
+            {t('freePlanMessage')}
+          </div>
+        )}
+
+        {/* Lifetime plan message */}
+        {isLifetimeMember && (
+          <div className="text-sm text-muted-foreground">
+            {t('lifetimeMessage')}
+          </div>
+        )}
+
+        {/* Subscription plan message */}
+        {subscription && (
+          <div className="text-sm text-muted-foreground space-y-2">
+            {currentPeriodStart && (
+              <div className="text-muted-foreground">
+                {t('periodStartDate')} {currentPeriodStart}
+              </div>
+            )}
+
+            {currentPeriodEnd && (
+              <div className="text-muted-foreground">
+                {t('periodEndDate')} {currentPeriodEnd}
+              </div>
+            )}
+
+            {subscription.status === 'trialing' && trialEndDate && (
+              <div className="text-amber-600">
+                {t('trialEnds')} {trialEndDate}
+              </div>
+            )}
+          </div>
+        )}
       </CardContent>
-      <CardFooter className="mt-2 flex flex-wrap items-center justify-end gap-2 rounded-none bg-muted px-6 py-4">
-        <Button
-          className="cursor-pointer bg-[#0abab5] text-white hover:bg-[#089590]"
-          asChild
-        >
-          <LocaleLink href={Routes.Dashboard}>{t('backToWorkbench')}</LocaleLink>
-        </Button>
-        {shouldShowUpgrade ? (
-          <Button
-            className={cn('cursor-pointer', settingsButtonPrimary)}
-            onClick={() => setShowUpgradeDialog(true)}
-          >
-            {t('upgradeHint')}
+      <CardFooter className="mt-2 px-6 py-4 flex justify-end items-center bg-muted rounded-none">
+        {/* user is on free plan, show upgrade plan button */}
+        {isFreePlan && (
+          <Button variant="default" className="cursor-pointer" asChild>
+            <LocaleLink href={Routes.Root}>{t('upgradePlan')}</LocaleLink>
           </Button>
-        ) : null}
+        )}
+
+        {/* user is lifetime member, show manage billing button */}
+        {isLifetimeMember && currentUser && (
+          <CustomerPortalButton userId={currentUser.id} className="">
+            {t('manageBilling')}
+          </CustomerPortalButton>
+        )}
+
+        {/* user has subscription, show manage subscription button */}
+        {subscription && currentUser && (
+          <CustomerPortalButton userId={currentUser.id} className="">
+            {t('manageSubscription')}
+          </CustomerPortalButton>
+        )}
       </CardFooter>
-      <AlertDialog
-        open={showUpgradeDialog}
-        title={t('upgradeNotReady.title')}
-        description={t('upgradeNotReady.description')}
-        confirmText={t('upgradeNotReady.confirm')}
-        cancelText={t('upgradeNotReady.cancel')}
-        onConfirm={() => setShowUpgradeDialog(false)}
-        onCancel={() => setShowUpgradeDialog(false)}
-        destructive={false}
-      />
     </Card>
   );
 }

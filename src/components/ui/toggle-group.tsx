@@ -1,100 +1,73 @@
-'use client';
+"use client"
 
-import { cn } from '@/lib/utils';
-import type { ButtonHTMLAttributes } from 'react';
-import { createContext, useContext, useState, useCallback } from 'react';
+import * as React from "react"
+import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group"
+import { type VariantProps } from "class-variance-authority"
 
-// Context for single-selection toggle group
-interface ToggleGroupContextValue {
-  value: string;
-  onChange: (value: string) => void;
-}
+import { cn } from "@/lib/utils"
+import { toggleVariants } from "@/components/ui/toggle"
 
-const ToggleGroupContext = createContext<ToggleGroupContextValue | null>(null);
-
-function useToggleGroupContext() {
-  const context = useContext(ToggleGroupContext);
-  if (!context) {
-    throw new Error('ToggleGroupItem must be used within ToggleGroup');
-  }
-  return context;
-}
-
-interface ToggleGroupProps {
-  className?: string;
-  value?: string;
-  defaultValue?: string;
-  onValueChange?: (value: string) => void;
-  children?: React.ReactNode;
-  type?: 'single';
-  size?: 'sm' | 'md' | 'lg';
-}
+const ToggleGroupContext = React.createContext<
+  VariantProps<typeof toggleVariants>
+>({
+  size: "default",
+  variant: "default",
+})
 
 function ToggleGroup({
   className,
-  value: controlledValue,
-  defaultValue,
-  onValueChange,
+  variant,
+  size,
   children,
-}: ToggleGroupProps) {
-  const [internalValue, setInternalValue] = useState<string>(defaultValue || '');
-
-  const value = controlledValue !== undefined ? controlledValue : internalValue;
-
-  const handleChange = useCallback(
-    (newValue: string) => {
-      if (controlledValue === undefined) {
-        setInternalValue(newValue);
-      }
-      onValueChange?.(newValue);
-    },
-    [controlledValue, onValueChange]
-  );
-
+  ...props
+}: React.ComponentProps<typeof ToggleGroupPrimitive.Root> &
+  VariantProps<typeof toggleVariants>) {
   return (
-    <ToggleGroupContext.Provider value={{ value, onChange: handleChange }}>
-      <div
-        data-slot="toggle-group"
-        className={cn('inline-flex items-center justify-center gap-1', className)}
-        role="group"
-      >
+    <ToggleGroupPrimitive.Root
+      data-slot="toggle-group"
+      data-variant={variant}
+      data-size={size}
+      className={cn(
+        "group/toggle-group flex w-fit items-center rounded-md data-[variant=outline]:shadow-xs",
+        className
+      )}
+      {...props}
+    >
+      <ToggleGroupContext.Provider value={{ variant, size }}>
         {children}
-      </div>
-    </ToggleGroupContext.Provider>
-  );
-}
-
-interface ToggleGroupItemProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  value: string;
+      </ToggleGroupContext.Provider>
+    </ToggleGroupPrimitive.Root>
+  )
 }
 
 function ToggleGroupItem({
   className,
-  value: itemValue,
+  children,
+  variant,
+  size,
   ...props
-}: ToggleGroupItemProps) {
-  const { value, onChange } = useToggleGroupContext();
-  const isActive = value === itemValue;
+}: React.ComponentProps<typeof ToggleGroupPrimitive.Item> &
+  VariantProps<typeof toggleVariants>) {
+  const context = React.useContext(ToggleGroupContext)
 
   return (
-    <button
-      type="button"
-      role="radio"
-      aria-checked={isActive}
-      data-state={isActive ? 'on' : 'off'}
+    <ToggleGroupPrimitive.Item
       data-slot="toggle-group-item"
+      data-variant={context.variant || variant}
+      data-size={context.size || size}
       className={cn(
-        'flex items-center justify-center rounded-md px-3 py-1.5 text-sm font-medium transition-all cursor-pointer',
-        'hover:bg-muted hover:text-muted-foreground',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
-        'disabled:pointer-events-none disabled:opacity-50',
-        'data-[state=on]:bg-primary data-[state=on]:text-primary-foreground',
+        toggleVariants({
+          variant: context.variant || variant,
+          size: context.size || size,
+        }),
+        "min-w-0 flex-1 shrink-0 rounded-none shadow-none first:rounded-l-md last:rounded-r-md focus:z-10 focus-visible:z-10 data-[variant=outline]:border-l-0 data-[variant=outline]:first:border-l",
         className
       )}
-      onClick={() => onChange(itemValue)}
       {...props}
-    />
-  );
+    >
+      {children}
+    </ToggleGroupPrimitive.Item>
+  )
 }
 
-export { ToggleGroup, ToggleGroupItem };
+export { ToggleGroup, ToggleGroupItem }

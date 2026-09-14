@@ -1,7 +1,14 @@
 'use client';
 
 import { FormError } from '@/components/shared/form-error';
-import { AlertDialog } from '@/components/ui/alert-dialog';
+import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -11,8 +18,6 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { settingsButtonDestructive } from '@/components/settings/settings-button-classes';
-import { settingsCard } from '@/components/settings/settings-card-classes';
 import { useLocaleRouter } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
@@ -20,11 +25,13 @@ import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
-interface DeleteAccountCardProps {
-  className?: string;
-}
-
-export function DeleteAccountCard({ className }: DeleteAccountCardProps) {
+/**
+ * Delete user account
+ *
+ * This component allows users to permanently delete their account.
+ * It includes a confirmation dialog to prevent accidental deletions.
+ */
+export function DeleteAccountCard() {
   const t = useTranslations('Dashboard.settings.security.deleteAccount');
   const [isDeleting, setIsDeleting] = useState(false);
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -32,11 +39,13 @@ export function DeleteAccountCard({ className }: DeleteAccountCardProps) {
   const { data: session, refetch } = authClient.useSession();
   const router = useLocaleRouter();
 
+  // Check if user exists
   const user = session?.user;
   if (!user) {
     return null;
   }
 
+  // Handle account deletion
   const handleDeleteAccount = async () => {
     await authClient.deleteUser(
       {},
@@ -55,58 +64,79 @@ export function DeleteAccountCard({ className }: DeleteAccountCardProps) {
           router.replace('/');
         },
         onError: (ctx) => {
-          console.error('deleteUser error:', ctx.error);
+          console.error('delete account error:', ctx.error);
+          // { "message": "Session expired. Re-authenticate to perform this action.",
+          // "code": "SESSION_EXPIRED_REAUTHENTICATE_TO_PERFORM_THIS_ACTION",
+          // "status": 400, "statusText": "BAD_REQUEST" }
+          // set freshAge to 0 to disable session refreshness check for user deletion
           setError(`${ctx.error.status}: ${ctx.error.message}`);
           toast.error(t('fail'));
         },
-      },
+      }
     );
   };
 
   return (
     <Card
       className={cn(
-        settingsCard,
-        'ptu-settings-danger',
-        'border-red-200 dark:border-red-900/50',
-        className,
+        'w-full border-destructive/50 overflow-hidden pt-6 pb-0 flex flex-col'
       )}
     >
       <CardHeader>
-        <CardTitle className="text-lg font-bold text-red-600 dark:text-red-400">
+        <CardTitle className="text-lg font-bold text-destructive">
           {t('title')}
         </CardTitle>
-        <CardDescription className="text-red-500 dark:text-red-400">{t('description')}</CardDescription>
+        <CardDescription>{t('description')}</CardDescription>
       </CardHeader>
       <CardContent className="flex-1">
         <p className="text-sm text-muted-foreground">{t('warning')}</p>
-        {error ? (
+
+        {error && (
           <div className="mt-4">
             <FormError message={error} />
           </div>
-        ) : null}
+        )}
       </CardContent>
-      <CardFooter className="mt-2 flex items-center justify-end rounded-none bg-muted px-6 py-4">
+      <CardFooter className="mt-2 px-6 py-4 flex justify-end items-center bg-muted rounded-none">
         <Button
           variant="destructive"
           onClick={() => setShowConfirmation(true)}
-          className={cn('cursor-pointer', settingsButtonDestructive)}
+          className="cursor-pointer"
         >
           {t('button')}
         </Button>
       </CardFooter>
 
-      <AlertDialog
-        open={showConfirmation}
-        title={t('confirmTitle')}
-        description={t('confirmDescription')}
-        confirmText={isDeleting ? t('deleting') : t('confirm')}
-        cancelText={t('cancel')}
-        onConfirm={handleDeleteAccount}
-        onCancel={() => setShowConfirmation(false)}
-        loading={isDeleting}
-        destructive
-      />
+      {/* Confirmation AlertDialog */}
+      <AlertDialog open={showConfirmation} onOpenChange={setShowConfirmation}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle className="text-destructive">
+              {t('confirmTitle')}
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {t('confirmDescription')}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter className="flex justify-end gap-3">
+            <Button
+              variant="outline"
+              onClick={() => setShowConfirmation(false)}
+              className="cursor-pointer"
+            >
+              {t('cancel')}
+            </Button>
+            <Button
+              variant="destructive"
+              onClick={handleDeleteAccount}
+              disabled={isDeleting}
+              className="cursor-pointer"
+            >
+              {isDeleting ? t('deleting') : t('confirm')}
+            </Button>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </Card>
   );
 }

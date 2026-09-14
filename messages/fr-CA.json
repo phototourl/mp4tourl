@@ -1,1650 +1,1143 @@
 {
-  "common": {
-    "siteName": "Photo To URL",
-    "logout": "Se déconnecter",
-    "logoutFailed": "Échec de la déconnexion",
-    "switchLanguage": "Changer de langue",
-    "tagline": "Transformez vos photos en liens clairs et partageables en quelques secondes",
-    "header": {
-      "home": "Accueil",
-      "blog": "Blogue",
-      "subtitle": "Convertissez vos images en liens partageables",
-      "prompt": "Déposez, collez ou téléversez — obtenez un lien instantanément",
-      "circleCrop": "Recadrage circulaire",
-      "circleCropNav": "Recadrer en cercle",
-      "roundedCorners": "Coins arrondis",
-      "removeBackground": "Supprimer l'arrière-plan",
-      "removeBackgroundNav": "Supprimer l'arrière-plan",
-      "pricingNav": "Tarification",
-      "comingSoon": "À venir bientôt.",
-      "history": "Historique de téléversement",
-      "login": "Se connecter",
-      "signUp": "S'inscrire",
-      "signOut": "Se déconnecter",
-      "dashboard": "Tableau de bord",
-      "settings": "Paramètres",
-      "pdfToUrlNav": "PDF vers URL",
-      "fileToUrlNav": "Fichier vers URL",
-      "tool": "Outils",
-      "artFightNav": "Cartes de profil"
-    },
-    "history": {
-      "drawerTitle": "Historique de téléversement",
-      "hint": "Affiche l'historique de la dernière semaine.",
-      "close": "Fermer",
-      "empty": "Aucun téléversement pour le moment.",
-      "copy": "Copier le lien",
-      "copied": "Copié",
-      "open": "Ouvrir dans un nouvel onglet"
-    },
-    "languageSelect": {
-      "title": "Sélectionnez votre région",
-      "subtitle": "Le choix d'une région modifiera la langue et le contenu.",
-      "close": "Fermer"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Transformez vos photos en liens clairs et partageables.",
-        "line2": "Rapide, simple, fiable."
-      },
-      "partners": "Partenaires",
-      "linksTitle": "Ressources",
-      "productsTitle": "Produits",
-      "nav": {
-        "home": "Accueil",
-        "blog": "Blogue",
-        "pricing": "Tarifs",
-        "docs": "Docs",
-        "status": "Statut",
-        "about": "À propos",
-        "contact": "Contact"
-      },
-      "legal": {
-        "title": "Légal",
-        "privacy": "Confidentialité",
-        "terms": "Conditions",
-        "cookie": "Politique de témoins"
-      },
-      "copyright": "© 2025 Photo To URL. Tous droits réservés.",
-      "products": {
-        "editStamp": "Éditeur de tampons"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Gratuit",
-      "cdn": "Liens CDN",
-      "nosignup": "Sans inscription"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Gratuit",
-      "title2": "Photo To URL",
-      "subtitle": "Téléversez votre photo → obtenez un lien → utilisez-le partout",
-      "upload": "Téléverser une image",
-      "bullet": {
-        "fast": "Partage rapide",
-        "direct": "Liens directs",
-        "nosignup": "Aucune inscription requise",
-        "paste": "Coller depuis le presse-papiers"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Connectez-vous pour continuer",
-      "description": "Vous avez atteint la limite de téléversement gratuit. Connectez-vous pour enregistrer votre historique et gérer vos fichiers. Des limites plus élevées sont disponibles avec les forfaits Pro.",
-      "benefits": "Pourquoi s'inscrire ?",
-      "benefit1": "Historique complet — organisé, précis et accessible en tout temps",
-      "benefit2": "Accès à tous les outils d'édition premium",
-      "benefit3": "Stockage infonuagique avec historique de téléversements",
-      "login": "Connexion / Inscription",
-      "later": "Plus tard"
-    },
-    "upgradePrompt": {
-      "title": "Limite quotidienne atteinte",
-      "description": "Vous avez utilisé tous vos téléversements pour aujourd'hui. Revenez demain ! Plus de services premium arrivent bientôt.",
-      "comingSoon": "Restez à l'affût pour plus de services",
-      "goDashboard": "Voir",
-      "later": "Plus tard"
-    },
-    "demo": {
-      "label": "Démo",
-      "loop": "Démo auto",
-      "idleTitle": "Glissez-déposez votre image",
-      "idleSubtitle": "Voyez le flux : téléversement → lien → copie.",
-      "processing": "Optimisation et téléversement...",
-      "doneTitle": "Prêt à partager",
-      "doneSubtitle": "Votre lien est prêt à être partagé instantanément.",
-      "thanksForWatching": "Merci d'avoir regardé"
-    },
-    "upload": {
-      "title": "Déposez une photo ou cliquez pour parcourir",
-      "hint": "JPG, PNG, WEBP, GIF jusqu'à 2 Mo (10 téléversements/jour gratuits). Glissez-déposez, cliquez ou collez une capture d'écran.",
-      "orDrop": "ou déposez un fichier",
-      "samplesTitle": "Pas d'image ? Essayez l'une de celles-ci :",
-      "policy": "En téléversant une image, vous acceptez notre <privacy>Politique de confidentialité</privacy> et nos <terms>Conditions d'utilisation</terms>.",
-      "clear": "Effacer"
-    },
-    "result": {
-      "error": "Échec du téléversement. Veuillez réessayer.",
-      "fileTooLarge": "Fichier trop volumineux. Votre forfait permet jusqu'à {maxMb} Mo par fichier.",
-      "dailyLimitReached": "Vous avez atteint votre limite de téléversement quotidienne ({limit} fois/jour). Revenez demain !",
-      "storageLimitReached": "Stockage saturé ({used} utilisé / {limit}). Restez à l'affût pour plus d'options de stockage !",
-      "generated": "Lien généré :",
-      "open": "Ouvrir dans un nouvel onglet",
-      "placeholder": "Aucun lien pour le moment. Téléversez une photo pour générer une URL partageable.",
-      "savePrompt": "Enregistrez le lien comme vous le souhaitez",
-      "copy": "Copier le lien",
-      "copied": "Copié",
-      "saveHint": "Enregistrez ce lien si vous en avez besoin plus tard",
-      "saveHintLoggedIn": "Enregistré au tableau",
-      "tryPrefix": "Essayer"
-    },
-    "benefits": {
-      "title": "Pourquoi choisir Photo To URL",
-      "subtitle": "Rapidité — Essai gratuit : 10 téléversements/jour, 2 Mo par fichier",
-      "items": {
-        "fast": {
-          "title": "Partage rapide",
-          "desc": "Téléversez et obtenez un lien en quelques secondes sans étapes inutiles."
-        },
-        "direct": {
-          "title": "URL d'image directes",
-          "desc": "Des liens propres qui fonctionnent dans le HTML, le Markdown et les applications de messagerie."
-        },
-        "nosignup": {
-          "title": "Aucune inscription requise",
-          "desc": "Essai gratuit : 5 téléversements/jour, 2 Mo par fichier — sans inscription."
-        }
-      }
-    },
-    "how": {
-      "title": "Comment ça fonctionne",
-      "step1": "1) Ajoutez votre photo (glissez, collez ou cliquez pour choisir un fichier).",
-      "step2": "2) Nous l'hébergeons et vous retournons un lien partageable.",
-      "step3": "3) Copiez et partagez le lien dans des documents, discussions, prototypes et plus.",
-      "note": "Votre lien s'ouvre rapidement dans les documents, les discussions et les prototypes — vous pouvez aussi le télécharger en format .txt."
-    },
-    "process": {
-      "title": "Flux en trois étapes",
-      "subtitle": "Réduisez l'effort, gardez l'appel à l'action visible, terminez en quelques secondes.",
-      "steps": {
-        "1": {
-          "title": "Déposez ou collez",
-          "desc": "Glissez un fichier, collez depuis le presse-papiers ou parcourez."
-        },
-        "2": {
-          "title": "Nous hébergeons et retournons un lien",
-          "desc": "URL instantanée avec commandes pour copier, ouvrir et enregistrer."
-        },
-        "3": {
-          "title": "Utilisez partout",
-          "desc": "Utilisez dans des documents, discussions, billets, blogues ou prototypes."
-        }
-      }
-    },
-    "features": {
-      "title": "Points saillants",
-      "subtitle": "La clarté d'abord : moins de friction, plus de partage.",
-      "items": {
-        "cdn": {
-          "title": "Liens CDN directs",
-          "desc": "URL propres et prévisibles prêtes pour l'intégration Markdown et HTML."
-        },
-        "save": {
-          "title": "Copier et enregistrer",
-          "desc": "Copiez, ouvrez ou enregistrez en fichier .txt en un clic."
-        },
-        "clipboard": {
-          "title": "Compatible presse-papiers",
-          "desc": "Collez des captures d'écran sans chercher de fichiers ni retéléverser."
-        },
-        "errors": {
-          "title": "Sûr et confidentiel",
-          "desc": "Images hébergées en toute sécurité, avec chiffrement en transit et au repos."
-        },
-        "nosignup": {
-          "title": "Sans inscription",
-          "desc": "Essai gratuit : 5 téléversements/jour, 2 Mo par fichier — sans inscription."
-        },
-        "r2": {
-          "title": "Hébergement rapide",
-          "desc": "Les liens sont servis via un CDN rapide pour un chargement prompt et un accès fiable."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Des équipes qui gagnent du temps avec Photo To URL",
-      "subtitle": "Une preuve sociale pour réduire les risques et accélérer l'adoption.",
-      "items": {
-        "ops": {
-          "name": "Ops Produit",
-          "quote": "Nous collons des captures d'écran dans les billets sans encombrer les pièces jointes. Les liens restent propres."
-        },
-        "content": {
-          "name": "Responsable Contenu",
-          "quote": "Les liens prêts pour Markdown gardent nos documents ordonnés et publiables en quelques minutes."
-        },
-        "support": {
-          "name": "Soutien technique",
-          "quote": "Des erreurs claires et des URL instantanées facilitent l'accompagnement des clients en discussion."
-        }
-      }
-    },
-    "cta": {
-      "title": "Transformez vos photos en liens en quelques secondes",
-      "subtitle": "Déposez, collez ou téléversez — copiez votre lien et partagez-le.",
-      "upload": "Téléverser maintenant",
-      "paste": "Coller une capture d'écran"
-    },
-    "longform": {
-      "title": "Pourquoi Photo To URL aide votre flux de travail",
-      "p1": "Photo To URL est conçu pour les créateurs, les spécialistes du marketing, les équipes de soutien, les fondateurs et toute personne ayant besoin d'un moyen rapide et fiable de transformer des photos en liens propres. Avec un flux direct du téléversement au lien, vous évitez les gestionnaires de médias lourds et sautez les étapes de connexion. Les liens sont ordonnés, faciles à utiliser dans les applications de discussion, les documents, les wikis, les rapports de bogues et les billets. Les équipes avancent plus vite lorsque les captures d'écran et les photos de produits sont instantanément partageables sans limites de pièces jointes ou prévisualisations encombrantes. Parce que les liens sont prévisibles et cohérents, ils fonctionnent aussi bien dans l'automatisation, les étapes d'assurance qualité et les prototypes légers.",
-      "p2": "L'expérience reste simple : déposez, collez ou parcourez ; obtenez un lien ; partagez. Pas de fioritures, pas de publicités distrayantes, pas de barrières. Vous restez concentré sur votre contenu pendant que nous gérons la partie fastidieuse de l'hébergement. Que vous documentiez une fonctionnalité, prépariez un article de blogue, conceviez une présentation ou envoyiez une réponse rapide au soutien technique, un lien court l'emporte sur les pièces jointes volumineuses. Pour les équipes mondiales, l'interface est disponible en plusieurs langues tout en gardant des textes concis et universels.",
-      "useCases": {
-        "title": "Cas d'utilisation pratiques",
-        "items": {
-          "1": "Produit et design : partagez des captures d'interface et des notes visuelles sans fichiers volumineux.",
-          "2": "Soutien et QA : collez rapidement des captures d'écran reproductibles dans les billets et les manuels de procédures.",
-          "3": "Docs et contenu : intégrez des URL d'images directes dans les éditeurs Markdown, HTML et CMS.",
-          "4": "Ventes et succès client : envoyez des visuels de démonstration par courriel et messagerie avec des liens clairs.",
-          "5": "Remise technique : gardez les artefacts de révision légers et faciles à consulter.",
-          "6": "Canaux communautaires : partagez des liens proprement dans Slack, Discord, Teams et les forums."
-        }
-      },
-      "flow": {
-        "title": "Fonctionnement du flux de bout en bout",
-        "p1": "1) Choisissez une image : glissez-déposez, collez depuis le presse-papiers ou cliquez pour parcourir. PNG, JPG, WEBP, GIF jusqu'à 2 Mo en forfait gratuit (10 téléversements/jour). 2) Nous téléversons et retournons un lien direct. L'interface affiche votre URL immédiatement avec des actions pour copier, ouvrir et enregistrer (.txt). 3) Utilisez le lien partout : blogues, documents, billets, discussions, prototypes et plus.",
-        "p2": "Chaque étape est optimisée pour la clarté : statut visible, erreurs conviviales et boutons confirmant les actions. Lorsque le CDN est activé, les liens sont servis depuis le domaine CDN; vos images sont stockées de manière sécurisée avec un chiffrement sécurisé."
-      },
-      "best": {
-        "title": "Meilleures pratiques pour des liens plus propres",
-        "items": {
-          "1": "Utilisez des noms de fichiers descriptifs avant le téléversement pour faciliter la recherche et la gestion.",
-          "2": "Privilégiez les formats optimisés WEBP/JPG/PNG pour garder des charges utiles légères.",
-          "3": "Copiez immédiatement après la génération pour éviter un contenu périmé dans le presse-papiers.",
-          "6": "Enregistrez les liens en format .txt lorsque vous avez besoin d'une remise en texte brut."
-        }
-      },
-      "roadmap": {
-        "title": "Points forts de la feuille de route",
-        "p1": "Les prochaines étapes incluent une intégration plus profonde de our hosting infrastructure, une gestion plus claire des quotas, la collaboration d'équipe, le contrôle d'accès et l'analyse des liens. Nous améliorons également les outils d'image tels que le recadrage circulaire, les coins arrondis et la suppression de l'arrière-plan."
-      },
-      "faq": {
-        "title": "Foire aux questions",
-        "items": {
-          "1": {
-            "q": "Est-ce gratuit ?",
-            "a": "Nous offrons un volet gratuit : le téléversement vers un lien et d'autres fonctionnalités de base fonctionnent dans les limites gratuites (téléversements quotidiens, stockage total, taille par fichier). Si vous souhaitez des limites plus élevées, choisissez un forfait payant : les liens sont hébergés sur notre CDN (our hosting infrastructure) avec des quotas plus élevés et un plafond de taille de fichier plus important."
-          },
-          "2": {
-            "q": "Quels formats sont pris en charge ?",
-            "a": "Le PNG, le JPG, le WEBP et le GIF sont pris en charge dans les limites de taille actuelles par fichier ; d'autres formats pourraient être ajoutés si la demande augmente."
-          },
-          "3": {
-            "q": "Puis-je intégrer le lien dans du Markdown ou du HTML ?",
-            "a": "Oui. Copiez le lien directement, ou utilisez l'enregistrement en un clic en .txt et utilisez-le partout où vous en avez besoin — Markdown, HTML, documents ou un CMS."
-          },
-          "4": {
-            "q": "Gardez-vous mes fichiers publics ?",
-            "a": "Les liens sont partageables. Lorsque le CDN CDN est activé, les fichiers sont servis à partir du domaine CDN. Si le stockage est temporairement indisponible, nous affichons des avis de maintenance clairs."
-          },
-          "5": {
-            "q": "Y aura-t-il des comptes ou des équipes ?",
-            "a": "Oui. Nous priorisons d'abord une expérience simple et fiable de téléversement et de partage, puis nous ajouterons étape par étape des espaces de travail d'équipe, le contrôle d'accès et les analyses."
-          },
-          "6": {
-            "q": "Puis-je obtenir un remboursement après le paiement ?",
-            "a": "En règle générale, nous n'offrons pas de remboursements lorsque le service reste disponible pour une utilisation normale. Si vous ne pouvez pas utiliser le service pendant votre période payée en raison d'un problème de notre côté, nous examinerons votre cas après vérification et, le cas échéant, conviendrons des prochaines étapes avec vous."
-          },
-          "7": {
-            "q": "Comment annuler le renouvellement ?",
-            "a": "Le renouvellement est débité automatiquement sur la carte que vous avez autorisée. Pour arrêter les frais futurs, annulez le débit automatique ou la facturation récurrente auprès de l'émetteur de votre carte via vos services bancaires mobiles, en ligne ou le service client."
-          },
-          "8": {
-            "q": "Combien de temps puis-je continuer à utiliser le service après l'annulation ?",
-            "a": "Vous pouvez généralement continuer à utiliser le service pour la période que vous avez déjà payée. Une fois cette période terminée, aucun autre frais ne sera prélevé et vos avantages prendront fin avec cette période."
-          }
-        },
-        "contactNote": "Pour les questions ci-dessus et d'autres, veuillez utiliser la page « Contactez-nous » de ce site ou envoyer un courriel à <email>support@phototourl.com</email>. Nous visons à répondre dans un délai de 1 à 2 jours ouvrables."
-      },
-      "about": {
-        "title": "À propos de Photo To URL",
-        "p1": "PhotoToURL est un convertisseur gratuit d'image en URL et générateur de liens qui vous aide à téléverser des images et à obtenir instantanément des liens partageables. Convertissez facilement JPG, PNG, WEBP et d'autres formats en URL directes pour un partage en ligne rapide.",
-        "p2": "Que vous ayez besoin d'une conversion photo vers URL rapide ou d'un hébergement gratuit avec liens CDN, PhotoToURL rend le processus simple et fiable. Téléversez votre image et obtenez un lien direct en quelques secondes. Forfait gratuit : 10 téléversements/jour, 2 Mo par fichier — voir Tarification pour des limites plus élevées."
-      }
-    },
-    "selectRegion": {
-      "title": "Sélectionner la région",
-      "subtitle": "Choisissez votre langue et région préférées"
-    }
-  },
-  "seo": {
-    "keywords": "photo vers url,image vers url,générateur de lien d'image,convertir image en lien,hébergement d'image gratuit,image cdn",
-    "home": {
-      "title": "Convertisseur Photo To URL | Transformez vos photos en liens partageables",
-      "description": "Hébergement d'image gratuit : convertissez vos photos en URL partageables. JPG, PNG, WEBP, GIF jusqu'à 2 Mo, 10 téléversements/jour en forfait gratuit. Collage presse-papiers, CDN rapide."
-    }
-  },
-  "images": {
-    "previewAlt": "Aperçu de l'image téléversée",
-    "animatingSampleAlt": "Exemple d'image utilisé dans la démo de téléversement",
-    "sampleThumbAlt": "Exemple d'image téléversée",
-    "useSampleAria": "Utiliser cet exemple d'image",
-    "howIllustrationAlt": "Illustration montrant le fonctionnement de Photo To URL",
-    "heroDropTitle": "Glissez une photo ici",
-    "heroDropSubtitle": "Nous allons l'améliorer et l'héberger, puis vous retourner un lien propre.",
-    "heroDropBadge": "Glissez ou cliquez (JPG/PNG, jusqu'à 2 Mo)",
-    "logoAlt": "Logo Photo To URL"
-  },
-  "circleCrop": {
-    "title": "Photo To Circle Crop",
-    "description": "Outil gratuit de recadrage circulaire en ligne, recadrez facilement n'importe quelle photo en un cercle parfait — idéal pour les photos de profil, les médias sociaux et les projets de design.",
-    "upload": "Téléverser une photo",
-    "processing": "Traitement en cours...",
-    "download": "Télécharger la photo circulaire",
-    "errorSelectFile": "Veuillez sélectionner un fichier photo",
-    "errorUploadFirst": "Veuillez d'abord téléverser une photo",
-    "page": {
-      "title": "Photo To Circle Crop - Recadrage de photo ronde gratuit en ligne",
-      "description": "Photo To Circle Crop est un outil en ligne gratuit pour transformer des photos rectangulaires en formes circulaires parfaites. Notre outil vous aide à recadrer des photos au format circulaire instantanément, sans inscription requise. Que vous ayez besoin d'une photo de profil ronde, d'une photo circulaire pour les médias sociaux ou d'une photo arrondie pour des projets de design, notre outil de recadrage circulaire rend cela simple et facile.",
-      "sectionSubtitle": "Recadrez n'importe quelle photo en un cercle parfait — idéal pour les photos de profil, les avatars de médias sociaux et les projets de design."
-    },
-    "seo": {
-      "title": "Outil de recadrage circulaire | Recadrage de photo ronde gratuit en ligne",
-      "description": "Outil en ligne gratuit pour recadrer n'importe quelle photo en un cercle parfait — idéal pour les photos de profil, les médias sociaux et les projets de design.",
-      "keywords": "recadrer image en cercle, image circulaire, outil recadrage rond, recadrage circulaire en ligne"
-    },
-    "selectRegion": {
-      "title": "Sélectionner la région",
-      "subtitle": "Choisissez votre langue et région préférées"
-    }
-  },
-  "roundedCorners": {
-    "title": "Photo To Rounded Corners",
-    "description": "Outil de coins arrondis en ligne gratuit, ajoutez facilement des coins arrondis à n'importe quelle photo — idéal pour les icônes d'applications, les photos de profil et les projets de design.",
-    "upload": "Téléverser une photo",
-    "download": "Télécharger",
-    "radiusLabel": "Rayon (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Traitement en cours...",
-    "errorUploadFirst": "Veuillez d'abord téléverser une photo.",
-    "errorSelectFile": "Veuillez sélectionner un fichier image.",
-    "page": {
-      "title": "Photo To Rounded Corners - Outil de photo à coins arrondis gratuit en ligne",
-      "description": "Photo To Rounded Corners est un outil en ligne gratuit pour ajouter des coins arrondis à n'importe quelle photo. Créez des icônes de style application, des images à bords doux pour les médias sociaux ou des vignettes soignées avec un rayon de coin et un zoom réglables. Aucune inscription requise — téléversez, ajustez et téléchargez en quelques secondes.",
-      "sectionSubtitle": "Ajoutez des coins arrondis à n'importe quelle photo — parfait pour les icônes d'applications, les médias sociaux et les vignettes."
-    },
-    "seo": {
-      "title": "Outil de coins arrondis | Outil de coins arrondis gratuit en ligne",
-      "description": "Outil en ligne gratuit pour ajouter des coins arrondis à n'importe quelle photo — idéal pour les icônes d'applications, les photos de profil et les projets de design.",
-      "keywords": "coins arrondis, arrondir coins image, outil coins arrondis, coins arrondis en ligne"
-    },
-    "selectRegion": {
-      "title": "Sélectionner la région",
-      "subtitle": "Choisissez votre langue et région préférées"
-    }
-  },
-  "removeBackground": {
-    "title": "Photo To Remove Background",
-    "description": "Outil de suppression d'arrière-plan IA gratuit en ligne, supprimez facilement l'arrière-plan de n'importe quelle photo — idéal pour les photos de produits, les portraits et les projets de design.",
-    "upload": "Téléverser une photo",
-    "download": "Télécharger",
-    "processing": "Traitement en cours...",
-    "processingModelLoading": "Chargement du modèle d'IA, la première utilisation peut prendre de 10 à 30 secondes, veuillez patienter...",
-    "processingImage": "Traitement de l'image, veuillez patienter...",
-    "errorUploadFirst": "Veuillez d'abord téléverser une photo.",
-    "errorSelectFile": "Veuillez sélectionner un fichier image.",
-    "errorProcessing": "Échec du traitement de l'image. Veuillez réessayer.",
-    "errorTimeout": "Délai de traitement dépassé, l'image est peut-être trop grande ou le réseau est lent, veuillez essayer une image plus petite ou réessayer plus tard.",
-    "errorMemory": "Mémoire insuffisante, veuillez essayer une image plus petite.",
-    "errorGeneric": "Échec du traitement : {error}. Veuillez réessayer ou essayer une autre image.",
-    "errorFileTooLarge": "Le fichier image est trop volumineux, veuillez sélectionner une image de moins de 10 Mo.",
-    "errorModelLoad": "Échec du chargement de la bibliothèque du modèle d'IA, veuillez rafraîchir la page et réessayer.",
-    "errorPageHidden": "La page a été changée, veuillez retéléverser l'image pour la traiter.",
-    "page": {
-      "title": "Photo To Remove Background - Suppresseur d'arrière-plan IA gratuit en ligne",
-      "description": "Photo To Remove Background est un outil gratuit propulsé par l'IA pour supprimer les arrière-plans de n'importe quelle photo. Créez instantanément des images PNG transparentes grâce à notre technologie avancée de suppression d'arrière-plan. Idéal pour les photos de produits, les portraits, le commerce électronique et les projets de design. Aucune inscription requise — téléversez, traitez et téléchargez en quelques secondes.",
-      "sectionSubtitle": "Suppression d'arrière-plan assistée par IA — créez des PNG transparents à partir de n'importe quelle photo en quelques secondes."
-    },
-    "seo": {
-      "title": "Outil de suppression d'arrière-plan | Suppresseur d'arrière-plan IA gratuit en ligne",
-      "description": "Outil d'IA gratuit en ligne pour supprimer l'arrière-plan de n'importe quelle photo — idéal pour les photos de produits, les portraits et les projets de design.",
-      "keywords": "supprimer arrière-plan, effaceur de fond, arrière-plan transparent, suppression de fond ia"
-    },
-    "selectRegion": {
-      "title": "Sélectionner la région",
-      "subtitle": "Choisissez votre langue et région préférées"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF vers URL | Hébergement PDF & liens HTTPS partageables",
-      "description": "Téléversez des PDF dans votre compte et obtenez un lien HTTPS stable — consultez, téléchargez ou copiez le lien à tout moment depuis le tableau de bord du compte.",
-      "keywords": "pdf vers url,hébergement pdf,partager pdf,envoyer pdf,lien direct,document lien"
-    },
-    "tool": {
-      "heroTitle": "PDF vers URL",
-      "heroSubtitle": "Transformez vos PDF en liens HTTPS partageables liés à votre compte. Après chaque envoi, ouvrez le tableau de bord du compte pour copier le lien, prévisualiser ou télécharger.",
-      "featureFastTitle": "Envoi rapide",
-      "featureFastDesc": "Glissez-déposez ou sélectionnez un PDF — lien retourné en quelques secondes, diffusé via notre CDN.",
-      "featureHostingTitle": "Hébergement personnel",
-      "featureHostingDesc": "Chaque fichier est stocké dans votre espace cloud et votre bibliothèque de documents — pas de dépôt anonyme jetable.",
-      "featureLinkTitle": "Liens stables et partageables",
-      "featureLinkDesc": "Chaque envoi fournit une URL propre à coller partout. Le lien reste valide tant que vous ne supprimez pas le fichier dans le tableau de bord du compte.",
-      "featureDashboardTitle": "Tout au même endroit",
-      "featureDashboardDesc": "Après connexion, ouvrez le tableau de bord du compte pour voir tous les PDF : copier à nouveau le lien, ouvrir dans un nouvel onglet ou télécharger le fichier source.",
-      "dropzoneTitle": "Déposez votre PDF ici",
-      "dropzoneHint": "PDF uniquement",
-      "dropzoneFootnote": "Après l’envoi, ouvrez à tout moment le tableau de bord du compte pour copier le lien ou télécharger le fichier.",
-      "browse": "Choisir un fichier",
-      "selectedFileLabel": "Fichier sélectionné",
-      "removeSelectedFile": "Retirer le fichier",
-      "uploadBtn": "Envoyer et obtenir le lien",
-      "uploading": "Envoi en cours…",
-      "loginRequiredTitle": "Connectez-vous pour envoyer des PDF",
-      "loginRequiredDescription": "Veuillez vous connecter d’abord. L’hébergement est lié à votre compte ; après l’envoi vous pouvez copier les liens, télécharger et tout gérer depuis le tableau de bord du compte.",
-      "loginRequiredDetail": "Une fois connecté, chaque envoi apparaît au même endroit dans le tableau de bord du compte : copie en un clic du lien direct, ouverture dans un nouvel onglet, téléchargement des originaux, recherche et filtre par type si besoin, suppression ou nouvel envoi — ce qui protège aussi la confidentialité de vos documents.",
-      "loginCta": "Se connecter",
-      "signUpCta": "Créer un compte",
-      "resultTitle": "Votre lien PDF",
-      "resultDashboardHint": "Pour ce fichier, ouvrez à tout moment le tableau de bord du compte : copier l’URL, ouvrir dans un nouvel onglet ou télécharger le PDF.",
-      "dashboardCta": "Ouvrir le tableau de bord",
-      "copy": "Copier le lien",
-      "copied": "Copié",
-      "open": "Ouvrir dans un nouvel onglet",
-      "reset": "Envoyer un autre fichier",
-      "errorUnauthorized": "Veuillez vous connecter avant d’envoyer des PDF.",
-      "errorBadType": "Veuillez choisir un fichier PDF.",
-      "howTitle": "Comment ça marche",
-      "step1Title": "1. Choisir un PDF",
-      "step1Desc": "Sélectionnez un fichier sur votre appareil ou glissez-le dans la zone d’envoi.",
-      "step2Title": "2. Envoyer vers votre bibliothèque",
-      "step2Desc": "Nous enregistrons le PDF dans votre stockage cloud et l’affichons dans le tableau de bord du compte, puis nous retournons une URL HTTPS directe.",
-      "step3Title": "3. Partager & revenir plus tard",
-      "step3Desc": "Partagez le lien par courriel ou messagerie. Si besoin, ouvrez le tableau de bord du compte pour copier le même lien, l’ouvrir ou télécharger le fichier."
-    },
-    "page": {
-      "sectionTitle": "Vos documents, un seul espace",
-      "sectionLead": "Pour ceux qui veulent un vrai classement PDF, pas seulement un lien temporaire — envoyez une fois, gardez-le dans votre compte et revenez quand vous voulez.",
-      "bullet1": "Chaque PDF envoyé apparaît dans la même liste du tableau de bord du compte pour suivre ce que vous avez partagé.",
-      "bullet2": "Hébergement personnel : fichiers liés à votre compte, servis en HTTPS, conservés dans votre bibliothèque.",
-      "bullet3": "Actions toujours disponibles : copier le lien public, ouvrir dans le navigateur ou télécharger le PDF d’origine.",
-      "bullet4": "La même URL reste valide tant que le fichier existe ; si vous le supprimez dans le tableau de bord du compte, le lien ne sert plus ce fichier.",
-      "footnote": "Supprimez les fichiers inutiles dans le tableau de bord du compte ; le lien cesse de fonctionner ensuite."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "Fichier vers URL | Documents Office & liens HTTPS",
-      "description": "Téléversez des fichiers PDF, Word, PowerPoint ou Excel dans votre compte et obtenez un lien HTTPS stable — consultez, téléchargez ou copiez le lien à tout moment depuis le tableau de bord du compte.",
-      "keywords": "fichier vers url,lien document,partager office,docx pptx xlsx,hébergement document"
-    },
-    "tool": {
-      "heroTitle": "Fichier vers URL",
-      "heroSubtitle": "Transformez vos documents bureautiques en liens HTTPS partageables liés à votre compte. Formats pris en charge : PDF, Word, PowerPoint et Excel.",
-      "featureFastTitle": "Envoi rapide",
-      "featureFastDesc": "Glissez-déposez ou sélectionnez un fichier pris en charge — lien retourné en quelques secondes via notre CDN.",
-      "featureHostingTitle": "Hébergement personnel",
-      "featureHostingDesc": "Chaque envoi est stocké dans votre espace cloud et rejoint la même bibliothèque personnelle que les envois depuis d’autres pages.",
-      "featureLinkTitle": "Liens stables et partageables",
-      "featureLinkDesc": "Chaque envoi fournit une URL propre. Le lien reste valide tant que vous ne supprimez pas le fichier dans le tableau de bord du compte.",
-      "featureDashboardTitle": "Tout au même endroit",
-      "featureDashboardDesc": "Après connexion, ouvrez le tableau de bord du compte pour copier à nouveau le lien, ouvrir dans un nouvel onglet ou télécharger.",
-      "dropzoneTitle": "Déposez votre fichier ici",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "Après l’envoi, ouvrez à tout moment le tableau de bord du compte pour copier le lien ou télécharger le fichier.",
-      "browse": "Choisir un fichier",
-      "selectedFileLabel": "Fichier sélectionné",
-      "removeSelectedFile": "Retirer le fichier",
-      "uploadBtn": "Envoyer et obtenir le lien",
-      "uploading": "Envoi en cours…",
-      "loginRequiredTitle": "Connectez-vous pour envoyer des fichiers",
-      "loginRequiredDescription": "Veuillez vous connecter d’abord. L’hébergement est lié à votre compte ; après l’envoi vous pouvez copier les liens, télécharger et tout gérer depuis le tableau de bord du compte.",
-      "loginRequiredDetail": "Une fois connecté, chaque envoi apparaît au même endroit dans le tableau de bord du compte : copie en un clic du lien direct, ouverture dans un nouvel onglet, téléchargement des originaux, recherche et filtre par type si besoin, suppression ou nouvel envoi — ce qui protège aussi la confidentialité de vos documents.",
-      "loginCta": "Se connecter",
-      "signUpCta": "Créer un compte",
-      "resultTitle": "Votre lien de fichier",
-      "resultDashboardHint": "Pour ce fichier, ouvrez à tout moment le tableau de bord du compte : copier l’URL, ouvrir dans un nouvel onglet ou télécharger l’original.",
-      "dashboardCta": "Ouvrir le tableau de bord",
-      "copy": "Copier le lien",
-      "copied": "Copié",
-      "open": "Ouvrir dans un nouvel onglet",
-      "reset": "Envoyer un autre fichier",
-      "errorUnauthorized": "Veuillez vous connecter avant d’envoyer des fichiers.",
-      "errorBadType": "Veuillez choisir un fichier PDF, Word, PowerPoint ou Excel.",
-      "howTitle": "Comment ça marche",
-      "step1Title": "1. Choisir un fichier",
-      "step1Desc": "Sélectionnez un document pris en charge sur votre appareil ou glissez-le dans la zone d’envoi.",
-      "step2Title": "2. Envoyer vers votre bibliothèque",
-      "step2Desc": "Nous enregistrons le fichier dans votre stockage cloud et l’affichons dans le tableau de bord du compte, puis nous retournons une URL HTTPS directe.",
-      "step3Title": "3. Partager & revenir plus tard",
-      "step3Desc": "Partagez le lien par courriel ou messagerie. Si besoin, ouvrez le tableau de bord du compte pour copier le même lien, l’ouvrir ou télécharger le fichier."
-    },
-    "page": {
-      "sectionTitle": "En bref",
-      "sectionLead": "Choisissez un fichier, envoyez-le et copiez votre lien — si besoin, ouvrez le tableau de bord du compte pour copier à nouveau ou télécharger l’original.",
-      "bullet1": "Formats pris en charge : PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Glisser-déposer ou parcourir ; une fois l’envoi terminé, nous affichons un lien HTTPS prêt à copier.",
-      "bullet3": "Collez le lien dans un courriel, une messagerie ou un document — les destinataires l’ouvrent dans le navigateur.",
-      "bullet4": "Les fichiers restent dans votre compte ; si besoin, ouvrez le tableau de bord du compte pour copier le même lien ou télécharger l’original.",
-      "bullet5": "PDF uniquement ? Utilisez aussi la page « PDF vers URL » pour un parcours plus court.",
-      "footnote": "Supprimez dans le tableau de bord du compte les fichiers dont vous n’avez plus besoin ; le lien cesse ensuite de fonctionner."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blogue | Photo To URL",
-      "description": "Articles sur l'hébergement de photos, le partage de liens et les conseils de performance."
-    },
-    "page": {
-      "title": "Blogue",
-      "description": "Derniers articles, tutoriels et perspectives sur l'hébergement d'images, le CDN, le partage de liens, le recadrage circulaire, les coins arrondis et la suppression d'arrière-plan.",
-      "stayTuned": "Restez à l'affût des guides sur :",
-      "guides": {
-        "1": "Meilleures pratiques pour la conversion d'image en URL",
-        "2": "Comment utiliser des liens photo directs dans les blogues et documents",
-        "3": "Performance et mise en cache pour les actifs statiques"
-      },
-      "readMore": "Lire la suite",
-      "min": "min",
-      "backToBlog": "Retour au blogue",
-      "minRead": "min de lecture",
-      "author": "Auteur",
-      "viewMoreArticles": "Voir plus d'articles",
-      "tags": "Étiquettes :",
-      "about": {
-        "title": "À propos de l'équipe Photo To URL",
-        "subtitle": "Équipe éditoriale",
-        "description": "Nous bâtissons et maintenons Photo To URL et écrivons des guides pratiques pour l'optimisation des images et la performance Web.",
-        "website": "Site Web",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Voir tous les articles"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Comment convertir une image en URL : un guide complet",
-        "description": "Apprenez tout ce que vous devez savoir sur la conversion d'images en URL partageables. Ce guide complet couvre les méthodes, les meilleures pratiques et des conseils pour l'hébergement d'images et le partage de liens.",
-        "content": "# Comment convertir une image en URL : un guide complet\n\nConvertir des images en URL partageables est devenu une compétence essentielle dans le monde numérique d'aujourd'hui. Que vous soyez blogueur, développeur ou créateur de contenu, comprendre comment transformer vos images en liens directs peut considérablement améliorer votre flux de travail et vos capacités de partage de contenu.\n\n## Pourquoi convertir des images en URL ?\n\nAvant de plonger dans les méthodes, comprenons pourquoi la conversion d'images en URL est bénéfique :\n\n### 1. **Partage facile**\nLes URL d'images directes vous permettent de partager des images instantanément sans télécharger ni retéléverser des fichiers. Copiez simplement l'URL et collez-la n'importe où — dans des courriels, des documents ou des publications sur les réseaux sociaux.\n\n### 2. **Meilleure performance**\nL'utilisation de liens d'image directs réduit la charge sur votre serveur principal. Lorsque les images sont hébergées sur un CDN (Content Delivery Network), elles se chargent plus rapidement pour les utilisateurs du monde entier.\n\n### 3. **Flexibilité**\nLes URL d'images peuvent être intégrées dans le HTML, le Markdown ou utilisées dans des API. Cette flexibilité les rend parfaites pour les développeurs et les créateurs de contenu.\n\n### 4. **Efficacité du stockage**\nAu lieu de stocker des images localement, vous pouvez utiliser des solutions de stockage en nuage qui fournissent des URL directes, économisant ainsi de l'espace serveur précieux.\n\n## Méthodes pour convertir des images en URL\n\n### Méthode 1 : Utilisation du service Photo To URL\n\n**Photo To URL** est un service gratuit et convivial qui rend la conversion d'image en URL sans effort :\n\n1. **Visitez le site Web** : Naviguez vers Photo To URL\n2. **Téléversez votre image** : Glissez-déposez votre fichier image ou cliquez pour parcourir\n3. **Obtenez votre URL** : Une fois téléversée, vous recevrez un lien direct vers votre image\n4. **Copiez et utilisez** : Copiez l'URL et utilisez-la partout où vous en avez besoin\n\n**Avantages :**\n- ✅ Aucune inscription requise\n- ✅ Téléversement et traitement rapides\n- ✅ Liens CDN directs pour une performance optimale\n- ✅ Prise en charge de plusieurs formats d'image (JPG, PNG, WEBP, GIF)\n- ✅ 10 téléversements/jour, 2 Mo par fichier\n\n### Méthode 2 : Services de stockage en nuage\n\nLes services de stockage en nuage populaires offrent l'hébergement d'images avec accès par URL directe :\n\n**Google Cloud Storage / AWS S3 :**\n- Téléversez des images dans votre compartiment\n- Définissez les permissions appropriées\n- Accédez aux images via des URL directes\n- Configurez le CDN pour une meilleure performance\n\n**Avantages :**\n- Contrôle total sur vos images\n- Solutions de stockage évolutives\n- Infrastructure de classe professionnelle\n\n### Méthode 3 : Plateformes d'hébergement d'images\n\nDes plateformes d'hébergement d'images dédiées offrent des services spécialisés :\n\n- **Imgur** : Populaire pour le partage rapide d'images\n- **Cloudinary** : Fonctionnalités avancées de manipulation d'images\n- **ImageKit** : Optimisé pour la performance\n\n## Meilleures pratiques pour les URL d'images\n\n### 1. **Choisissez le bon format**\n\nDifférents formats d'image servent différents objectifs :\n\n- **JPEG** : Idéal pour les photographies avec beaucoup de couleurs\n- **PNG** : Idéal pour les images avec transparence ou bords nets\n- **WEBP** : Format moderne offrant une meilleure compression\n- **GIF** : Parfait pour les images animées\n\n### 2. **Optimisez la taille de l'image**\n\nAvant de convertir en URL, optimisez vos images :\n\n- Compressez les images pour réduire la taille du fichier\n- Redimensionnez les images aux dimensions appropriées\n- Utilisez des formats modernes comme WEBP quand c'est possible\n- Équilibrez la qualité et la taille du fichier\n\n### 3. **Utilisez un CDN pour une meilleure performance**\n\nLes réseaux de diffusion de contenu (CDN) distribuent vos images sur plusieurs serveurs à travers le monde, garantissant des temps de chargement rapides quel que soit l'emplacement de l'utilisateur.\n\n### 4. **Mettez en œuvre une sécurité appropriée**\n\n- Utilisez des URL HTTPS pour une diffusion sécurisée des images\n- Définissez les permissions d'accès appropriées\n- Envisagez le filigranage pour le contenu sensible\n- Surveillez l'utilisation pour prévenir les abus\n\n## Cas d'utilisation courants\n\n### Pour les blogueurs\n\nLes blogueurs peuvent utiliser les URL d'images pour :\n- Intégrer des images dans les articles de blogue sans les héberger localement\n- Améliorer les temps de chargement des pages\n- Partager des images sur plusieurs plateformes\n- Maintenir une qualité d'image cohérente\n\n### Pour les développeurs\n\nLes développeurs bénéficient des URL d'images en :\n- Réduisant la charge du serveur\n- Simplifiant la gestion des images\n- Permettant le chargement dynamique des images\n- S'intégrant aux API et aux services Web\n\n### Pour le commerce électronique\n\nLes sites de commerce électronique utilisent les URL d'images pour :\n- Afficher efficacement les images des produits\n- Gérer de grands catalogues d'images\n- Optimiser pour les appareils mobiles\n- Améliorer la performance de la page de paiement\n\n## Dépannage des problèmes courants\n\n### Problème : Liens d'image brisés\n\n**Solution :**\n- Vérifiez que l'URL est correcte et accessible\n- Vérifiez les permissions de l'image et les paramètres d'accès\n- Assurez-vous que le service d'hébergement est opérationnel\n- Validez que le format d'image est pris en charge\n\n### Problème : Temps de chargement lents\n\n**Solution :**\n- Utilisez un CDN pour la diffusion des images\n- Optimisez la taille des fichiers d'images\n- Choisissez les formats d'image appropriés\n- Mettez en œuvre le chargement différé (lazy loading) si possible\n\n### Problème : L'image ne s'affiche pas\n\n**Solution :**\n- Vérifiez les paramètres CORS (Cross-Origin Resource Sharing)\n- Vérifiez que le protocole HTTPS/HTTP correspond\n- Assurez-vous que les types MIME appropriés sont définis\n- Testez l'accessibilité de l'URL à partir de différents endroits\n\n## Conseils avancés\n\n### 1. **Traitement par lots**\n\nPour plusieurs images, envisagez :\n- L'utilisation d'API pour les téléversements automatisés\n- La mise en œuvre de scripts de conversion par lots\n- L'utilisation des API de stockage en nuage\n- La mise en place de flux de travail automatisés\n\n### 2. **Manipulation d'images**\n\nCertains services offrent une manipulation d'images à la volée :\n- Redimensionnement des images via des paramètres d'URL\n- Application de filtres et d'effets\n- Conversion automatique de formats\n- Recadrage et rotation des images\n\n### 3. **Analytique et surveillance**\n\nSuivez l'utilisation de vos images :\n- Surveillez la consommation de bande passante\n- Analysez les images populaires\n- Suivez les modèles d'accès\n- Optimisez en fonction des données d'utilisation\n\n## Conclusion\n\nConvertir des images en URL est un processus simple qui offre de nombreux avantages. Que vous choisissiez un service simple comme Photo To URL ou une solution de stockage en nuage complète, la clé est de trouver la méthode qui correspond le mieux à vos besoins.\n\nN'oubliez pas de :\n- ✅ Optimiser les images avant le téléversement\n- ✅ Choisir les formats appropriés\n- ✅ Utiliser un CDN pour une meilleure performance\n- ✅ Mettre en œuvre des mesures de sécurité appropriées\n- ✅ Surveiller et optimiser régulièrement\n\nEn suivant ces directives, vous serez en mesure de convertir et de gérer efficacement vos images en tant qu'URL, améliorant ainsi votre flux de travail et la performance de votre contenu.\n\n## Outils connexes\n\n- [Photo To URL](/) - Service gratuit de conversion d'image en URL\n- [Outil de recadrage circulaire](/circle-crop) - Créez des images circulaires\n- [Outil de coins arrondis](/rounded-corners) - Ajoutez des coins arrondis aux images\n- [Outil de suppression d'arrière-plan](/remove-background) - Supprimez les arrière-plans d'images avec l'IA\n\n---\n\n*Dernière mise à jour : décembre 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Comment recadrer des images en forme de cercle - Guide complet",
-        "description": "Transformez n'importe quelle photo en une image circulaire parfaite avec notre outil de recadrage circulaire gratuit en ligne. Créez des images rondes professionnelles pour les profils, les réseaux sociaux, les logos et plus encore en quelques secondes.",
-        "content": "# Comment recadrer des images en forme de cercle - Guide complet\n\nTransformez n'importe quelle photo en une image circulaire parfaite avec notre outil de recadrage circulaire gratuit en ligne. Créez des images rondes professionnelles pour les profils, les réseaux sociaux, les logos et plus encore en quelques secondes.\n\n## Comment recadrer des images en forme de cercle\n\n### Étape 1 : Téléversez votre image\nSélectionnez n'importe quelle photo de votre appareil que vous souhaitez recadrer en forme de cercle. Notre outil prend en charge les formats JPG, PNG, WEBP et GIF. Cliquez simplement sur le bouton de téléversement ou glissez-déposez votre fichier image.\n\n### Étape 2 : Positionnez votre image\nAjustez et centrez votre photo dans la zone de recadrage circulaire. Utilisez le curseur de zoom pour vous concentrer sur la partie la plus importante de votre image, et faites glisser pour la repositionner pour un recadrage rond parfait.\n\n### Étape 3 : Téléchargez votre image circulaire\nUne fois que vous êtes satisfait du positionnement, cliquez sur « Recadrer et télécharger » pour obtenir votre image parfaitement arrondie. Le résultat aura un arrière-plan transparent, ce qui le rend parfait pour une utilisation n'importe où.\n\n## Façons populaires d'utiliser des images recadrées en cercle\n\n### Photos de profil\nRecadrez des photos en forme de cercle pour des images de profil professionnelles sur les plateformes de médias sociaux comme Facebook, LinkedIn et Instagram. Les avatars circulaires créent une apparence moderne et soignée.\n\n### Graphiques pour les médias sociaux\nCréez des images circulaires pour les stories Instagram, les publications Facebook et les profils Twitter qui se démarquent de la foule. Les images rondes ajoutent un intérêt visuel et rompent la monotonie des publications carrées.\n\n### Logos ronds\nTransformez votre logo ou vos images de marque en formes parfaitement rondes pour une image de marque cohérente sur toutes les plateformes. Les logos circulaires fonctionnent particulièrement bien pour les icônes d'applications et l'image de marque sur les médias sociaux.\n\n### Photos de témoignages\nAffichez les témoignages de clients avec des photos de profil circulaires pour un look propre et professionnel. Les images rondes créent une cohérence visuelle et rendent vos témoignages plus attrayants.\n\n### Photos des membres de l'équipe\nCréez des portraits ronds cohérents pour les sites Web de l'entreprise, les pages d'équipe et les annuaires d'employés. Des photos circulaires uniformes donnent à votre page d'équipe une apparence cohérente et professionnelle.\n\n## Caractéristiques de notre outil de recadrage circulaire\n\n- **Recadreur d'image circulaire gratuit** - Créez des formes circulaires à partir de n'importe quelle image sans frais, sans frais cachés\n- **Sortie haute résolution** - Téléchargez vos images circulaires dans leur qualité d'origine sans compression\n- **Aucune inscription requise** - Commencez à recadrer des images en cercle instantanément, aucune création de compte n'est nécessaire\n- **Privé et sécurisé** - Vos images ne quittent jamais votre navigateur, garantissant une confidentialité totale\n- **Interface facile à utiliser** - Une conception simple et intuitive permet de créer des images rondes sans effort\n- **Fonctionne sur tous les appareils** - Recadrez des images en forme de cercle sur un ordinateur de bureau, une tablette ou un appareil mobile\n- **Arrière-plan transparent** - Tous les recadrages circulaires sont livrés avec des arrière-plans transparents pour une polyvalence maximale\n- **Aperçu en temps réel** - Voyez exactement à quoi ressemblera votre image circulaire avant de la télécharger\n\n## FAQ sur le recadrage d'image en cercle\n\n### Comment recadrer une image en forme de cercle ?\n\nTéléversez simplement votre image dans notre outil, ajustez-la dans le cadre circulaire pour positionner correctement le sujet, et cliquez sur « Recadrer et télécharger » pour obtenir votre image parfaitement ronde. Notre outil permet de recadrer facilement n'importe quelle image au format circulaire instantanément sans avoir besoin de compétences en design.\n\n### Comment faire une photo de profil circulaire ?\n\nTéléversez votre photo dans notre outil de recadrage circulaire, positionnez votre visage au centre du cadre circulaire, puis téléchargez votre nouvelle photo de profil ronde. Elle est parfaite pour les profils de médias sociaux qui utilisent des images de forme circulaire comme Facebook, LinkedIn ou Instagram.\n\n### Puis-je recadrer des photos en formes rondes sur mon téléphone ?\n\nOui ! Notre recadreur d'image circulaire fonctionne sur tous les appareils, y compris les téléphones intelligents et les tablettes. L'interface conviviale pour mobile vous permet de créer facilement des recadrages d'images ronds n'importe où. Visitez simplement notre site Web à partir de votre navigateur mobile — aucun téléchargement d'application n'est requis.\n\n### Conservez-vous les images que je téléverse ?\n\nNon, nous ne stockons jamais vos images sur nos serveurs. L'ensemble du processus de recadrage se déroule directement dans votre navigateur, ce qui signifie que vos photos restent totalement privées. Une fois que vous quittez la page, toutes les données d'image sont automatiquement supprimées.\n\n### Quels formats d'image puis-je utiliser avec l'outil de recadrage circulaire ?\n\nNotre outil fonctionne avec tous les formats d'image standard, y compris JPG, PNG, WEBP et GIF. Vous pouvez téléverser n'importe lequel de ces formats et votre image recadrée circulaire sera téléchargée sous forme de fichier PNG avec transparence autour du cercle.\n\n### Mon image recadrée circulaire aura-t-elle un arrière-plan transparent ?\n\nOui, lorsque vous téléchargez votre image recadrée, elle aura un arrière-plan transparent autour du cercle. Cela la rend parfaite pour être placée sur des sites Web, des documents ou des designs où vous voulez que seule la partie circulaire soit visible.\n\n### Puis-je ajuster la taille du recadrage circulaire ?\n\nLe recadrage circulaire maintient un rapport d'aspect parfait de 1:1, mais vous pouvez zoomer ou dézoomer pour ajuster la proportion de votre image qui apparaît dans le cercle. Cela vous permet de vous concentrer sur des parties spécifiques de votre image tout en conservant la forme circulaire.\n\n## Conseils d'image pour des recadrages circulaires parfaits\n\n### Centrez votre sujet\nPour de meilleurs résultats, choisissez des images où le sujet principal est centré ou peut être positionné au centre du cadre. Ceci est particulièrement important pour les photos de profil et les portraits où le visage doit être le point focal.\n\n### Considérez la zone de recadrage\nN'oubliez pas que les coins de votre image seront coupés. Évitez les images où des détails importants se trouvent près des bords de la photo, car ils seront perdus lors du recadrage circulaire.\n\n### Utilisez des images haute résolution\nCommencer avec des images de haute qualité donnera de meilleurs recadrages circulaires. Les images de faible résolution ou de petite taille peuvent paraître pixélisées une fois recadrées, utilisez donc les images sources de la plus haute qualité possible.\n\n### Faites attention au rapport d'aspect\nLes images carrées fonctionnent généralement mieux pour le recadrage circulaire. Si votre image d'origine est très large ou très haute, vous risquez d'en perdre des parties importantes lors du processus de recadrage. Envisagez de recadrer au format carré d'abord si nécessaire.\n\n### Ajustez pour un cadrage optimal\nUtilisez la fonction de positionnement de notre outil pour zoomer et ajuster votre image. Pour les portraits, essayez de centrer le visage avec une certaine marge autour pour un aspect professionnel optimal. Pour les produits, centrez l'article principal dans le cercle.\n\n### Créez des ensembles cohérents\nLorsque vous créez plusieurs images circulaires (comme pour des photos d'équipe), essayez de maintenir un cadrage, des styles d'arrière-plan et des tailles cohérents pour une apparence cohérente sur toutes les images.\n\n## Utilisations courantes des images recadrées en cercle\n\n| Application | Avantages du recadrage circulaire |\n|------------|------------------------|\n| Profils de médias sociaux | La plupart des plateformes affichent les avatars dans des cercles — une image circulaire parfaitement recadrée a l'air professionnelle |\n| Photos des membres de l'équipe | Créez des portraits ronds cohérents pour les sites Web et les annuaires de l'entreprise |\n| Portfolios en ligne | Les images rondes créent un intérêt visuel et une esthétique moderne |\n| Cartes de visite numériques | Les photos de profil recadrées en cercle ont l'air plus propres et plus professionnelles |\n| Vignettes de produits | Les images de produits rondes créent un aspect de catalogue cohérent |\n| Icônes d'applications | Les icônes circulaires sont la norme pour les applications mobiles |\n| Témoignages de sites Web | Les photos rondes des clients ajoutent de la crédibilité et un attrait visuel |\n\n## Pourquoi choisir notre outil de recadrage circulaire d'image\n\nLorsqu'il s'agit de recadrer des photos en cercles en ligne, notre outil offre plusieurs avantages :\n\n- **Traitement instantané** - Recadrez l'image en forme de cercle en quelques secondes sans attendre les téléversements ou le traitement du serveur\n- **Des cercles parfaits à chaque fois** - Notre outil garantit des recadrages parfaitement ronds avec des bords propres et sans distorsion\n- **Commandes intuitives** - Positionnez facilement votre image exactement comme vous le souhaitez dans le cercle grâce aux fonctions de zoom et de glissement\n- **Pas de filigranes** - Contrairement à d'autres outils de recadrage circulaire, nous n'ajoutons pas de filigranes à vos images\n- **Fonctionne avec tous les types d'images** - Recadrez des photos, des graphiques, des illustrations ou n'importe quelle image en cercle\n- **Basé sur le navigateur** - Aucune installation de logiciel requise, fonctionne directement dans votre navigateur Web\n- **La confidentialité d'abord** - Tout le traitement se fait localement dans votre navigateur, vos images ne quittent jamais votre appareil\n\nQue vous ayez besoin de recadrer des images en forme de cercle pour un usage professionnel ou des projets personnels, notre outil de recadrage circulaire gère tout avec facilité. Créez des recadrages d'images ronds en quelques clics !\n\n## Pour commencer\n\nPrêt à créer votre première image circulaire ? Visitez notre [Outil de recadrage circulaire](/circle-crop) et commencez à recadrer dès aujourd'hui. C'est totalement gratuit, ne nécessite aucune inscription et ne prend que quelques secondes pour créer des images circulaires professionnelles.\n\n---\n\n*Dernière mise à jour : janvier 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Photo To Rounded Corners - Guide complet",
-        "description": "Ajoutez des coins arrondis à n'importe quelle image avec notre outil en ligne gratuit. Créez des bords doux et modernes pour les vignettes, les cartes, les éléments d'interface utilisateur et les médias sociaux en quelques secondes.",
-        "content": "# Photo To Rounded Corners - Guide complet\n\nAjoutez des coins arrondis à n'importe quelle image avec notre outil de coins arrondis en ligne gratuit. Créez des bords doux et modernes pour les vignettes, les cartes, les éléments d'interface utilisateur et les médias sociaux en quelques secondes — aucune compétence en design n'est requise.\n\n## Comment ajouter des coins arrondis aux images\n\n### Étape 1 : Téléversez votre image\nSélectionnez n'importe quelle photo de votre appareil. Notre outil prend en charge les formats JPG, PNG, WEBP et GIF. Cliquez sur le bouton de téléversement ou glissez-déposez votre fichier image.\n\n### Étape 2 : Choisissez le rayon du coin\nUtilisez le curseur pour définir le rayon du coin (d'un arrondi subtil à un arrondi complet). L'aperçu se met à jour en temps réel pour que vous puissiez obtenir exactement le look que vous souhaitez.\n\n### Étape 3 : Téléchargez votre image\nCliquez sur « Télécharger » pour enregistrer votre image avec des coins arrondis. Utilisez-la immédiatement dans vos designs, sites Web ou publications sociales.\n\n## Utilisations populaires pour les images à coins arrondis\n\n### Vignettes et cartes\nLes coins arrondis donnent aux vignettes et aux mises en page de cartes un aspect propre et moderne. Parfait pour les grilles de produits, les aperçus de blogue et les interfaces d'applications.\n\n### Médias sociaux et publicités\nLes images carrées avec des coins doux se démarquent dans les flux et les publicités. Elles semblent plus conviviales et plus soignées que les bords tranchants.\n\n### UI et design d'application\nLes icônes, les avatars et les boutons utilisent souvent des coins arrondis. Notre outil vous aide à modifier des images par lots pour qu'elles correspondent à votre système de design.\n\n### Présentations et documents\nAjoutez un rayon de coin cohérent aux captures d'écran et aux graphiques pour que les diapositives et les documents soient cohérents.\n\n## Caractéristiques de notre outil de coins arrondis\n\n- **Gratuit et instantané** – pas d'inscription, pas de filigrane ; traitement local dans le navigateur, pas de plafond d'utilisation sur cet outil\n- **Rayon réglable** – De l'arrondi léger aux coins en forme de pilule\n- **Aperçu en temps réel** – Voyez le résultat avant de télécharger\n- **La confidentialité d'abord** – Le traitement se fait dans votre navigateur ; nous ne stockons pas vos images\n- **Tous les appareils** – Fonctionne sur ordinateur de bureau, tablette et mobile\n\n## FAQ sur les coins arrondis\n\n### Comment ajouter des coins arrondis à une image ?\n\nTéléversez votre image dans notre [Outil de coins arrondis](/rounded-corners), déplacez le curseur de rayon du coin jusqu'à ce que le résultat vous convienne, puis cliquez sur Télécharger. Votre image sera enregistrée avec des coins arrondis.\n\n### Quels formats d'image sont pris en charge ?\n\nNous prenons en charge le JPG, le PNG, le WEBP et le GIF. Le fichier téléchargé conserve votre format d'origine (ou PNG pour la meilleure qualité avec transparence).\n\n### Puis-je utiliser cet outil sur mon téléphone ?\n\nOui. Notre outil fonctionne dans n'importe quel navigateur sur téléphones et tablettes. Aucune installation d'application n'est nécessaire.\n\n### Conservez-vous mes images ?\n\nNon. Tout le traitement est effectué dans votre navigateur. Nous ne téléversons ni ne stockons vos fichiers.\n\n## Outils connexes\n\n- [Photo To URL](/) – Conversion gratuite d'image en URL\n- [Outil de recadrage circulaire](/circle-crop) – Créez des images circulaires\n- [Outil de coins arrondis](/rounded-corners) – Ajoutez des coins arrondis aux images\n- [Outil de suppression d'arrière-plan](/remove-background) – Supprimez les arrière-plans d'images avec l'IA\n\n---\n\n*Dernière mise à jour : février 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Photo To Remove Background - Guide complet",
-        "description": "Supprimez les arrière-plans d'images en un clic avec notre outil gratuit propulsé par l'IA. Obtenez des découpes propres pour les photos de produits, les portraits, les logos et plus encore — aucune compétence en design n'est requise.",
-        "content": "# Photo To Remove Background - Guide complet\n\nSupprimez les arrière-plans d'images en un clic avec notre outil en ligne gratuit. Obtenez des découpes propres pour les photos de produits, les portraits, les logos et plus encore — aucune compétence en design n'est requise.\n\n## Comment supprimer l'arrière-plan d'une image\n\n### Étape 1 : Téléversez votre image\nSélectionnez n'importe quelle photo de votre appareil. Notre outil prend en charge les formats JPG, PNG, WEBP et GIF. Cliquez pour téléverser ou glissez-déposez votre fichier.\n\n### Étape 2 : L'IA supprime l'arrière-plan\nNotre outil détecte automatiquement le sujet et supprime l'arrière-plan. Le traitement ne prend généralement que quelques secondes. Vous verrez un aperçu en temps réel avec un arrière-plan transparent.\n\n### Étape 3 : Téléchargez votre image\nCliquez sur « Télécharger » pour enregistrer votre image avec l'arrière-plan supprimé. La sortie est au format PNG avec transparence, prête pour les designs, le commerce électronique ou les médias sociaux.\n\n## Utilisations populaires pour la suppression d'arrière-plan\n\n### Photos de produits\nDes découpes de produits propres pour les boutiques en ligne, les places de marché et les publicités. Les arrière-plans transparents permettent de placer facilement les produits sur n'importe quelle mise en page ou couleur.\n\n### Portraits et portraits professionnels\nSupprimez les arrière-plans encombrés ou distrayants des portraits pour les CV, LinkedIn ou les biographies professionnelles. Concentrez l'attention sur la personne.\n\n### Logos et graphiques\nIsolez les logos et les graphiques des photos ou des numérisations. Obtenez un PNG transparent adapté aux superpositions, à l'image de marque et aux présentations.\n\n### Médias sociaux et marketing\nCréez des visuels percutants pour les publications, les stories et les publicités. Les découpes transparentes se fondent dans n'importe quel modèle ou arrière-plan.\n\n## Caractéristiques de notre outil de suppression d'arrière-plan\n\n- **Gratuit et propulsé par l'IA** – pas d'inscription, pas de filigrane ; traitement local dans le navigateur, pas de plafond d'utilisation sur cet outil\n- **Suppression en un clic** – Détection automatique du sujet et bords propres\n- **Sortie PNG transparente** – Prêt pour n'importe quel design ou plateforme\n- **La confidentialité d'abord** – Le traitement se fait dans votre navigateur ; nous ne stockons pas vos images\n- **Tous les appareils** – Fonctionne sur ordinateur de bureau, tablette et mobile\n\n## FAQ sur la suppression d'arrière-plan\n\n### Comment supprimer l'arrière-plan d'une photo ?\n\nTéléversez votre image dans notre [Outil de suppression d'arrière-plan](/remove-background). L'outil détectera le sujet et supprimera l'arrière-plan automatiquement. Prévisualisez le résultat, puis cliquez sur Télécharger pour obtenir votre PNG avec transparence.\n\n### Quels formats d'image sont pris en charge ?\n\nNous prenons en charge le JPG, le PNG, le WEBP et le GIF. Le résultat est toujours téléchargé sous forme de PNG avec un arrière-plan transparent afin que vous puissiez l'utiliser partout.\n\n### Conservez-vous mes images ?\n\nNon. Le traitement s'effectue dans votre navigateur. Nous ne téléversons ni ne stockons vos fichiers.\n\n### Puis-je utiliser cet outil sur mon téléphone ?\n\nOui. Notre outil fonctionne dans n'importe quel navigateur sur téléphones et tablettes. Aucune application n'est requise.\n\n## Outils connexes\n\n- [Photo To URL](/) – Conversion gratuite d'image en URL\n- [Outil de recadrage circulaire](/circle-crop) – Créez des images circulaires\n- [Outil de coins arrondis](/rounded-corners) – Ajoutez des coins arrondis aux images\n- [Outil de suppression d'arrière-plan](/remove-background) – Supprimez les arrière-plans d'images avec l'IA\n\n---\n\n*Dernière mise à jour : mars 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Documentation pour Photo To URL."
-    },
-    "page": {
-      "title": "Docs",
-      "description": "Démarrage rapide : téléversez une image et obtenez une URL directe. Utilisez les boutons copier/ouvrir ou téléchargez le lien en .txt.",
-      "features": {
-        "title": "Fonctionnalités prises en charge :",
-        "items": {
-          "1": "Pris en charge : JPG, PNG, WEBP, GIF",
-          "2": "Livraison rapide via CDN lorsque le stockage est activé",
-          "3": "Erreurs de maintenance conviviales lorsque le service est indisponible"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Statut | Photo To URL",
-      "description": "Statut du service pour Photo To URL."
-    },
-    "page": {
-      "title": "Statut",
-      "description": "Tous les systèmes sont opérationnels.",
-      "message": "L'API de téléversement et les liens CDN fonctionnent."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contactez-nous | Photo To URL",
-      "description": "Contactez Photo To URL pour le soutien à l'hébergement d'images, des commentaires, des partenariats ou pour signaler des problèmes. Nous répondons à chaque message et visons à répondre dans un délai de 1 à 2 jours ouvrables."
-    },
-    "page": {
-      "title": "Contactez-nous",
-      "introShort": "Vous avez une question ou un commentaire ? Remplissez le formulaire ci-dessous et nous vous répondrons bientôt.",
-      "orEmail": "Ou envoyez-nous un courriel à",
-      "subtitle": "Nous sommes là pour vous aider avec l'hébergement d'images, les liens et tout le reste.",
-      "intro": "Photo To URL est un service d'hébergement d'images gratuit qui transforme vos photos en liens partageables. Si vous avez des questions, des suggestions ou si vous rencontrez des problèmes, nous aimerions avoir de vos nouvelles.",
-      "whyTitle": "Raisons de nous contacter",
-      "why1": "Soutien technique : erreurs de téléversement, liens brisés ou problèmes avec l'outil",
-      "why2": "Commentaires et demandes de fonctionnalités pour améliorer le service",
-      "why3": "Demandes de partenariat ou de collaboration",
-      "why4": "Signaler un abus, des préoccupations relatives au droit d'auteur ou des questions sur les politiques",
-      "expectTitle": "À quoi s'attendre",
-      "expectContent": "Nous lisons chaque message et visons à répondre dans un délai de 1 à 2 jours ouvrables. Pour les questions urgentes, veuillez inclure un objet clair et autant de détails que possible.",
-      "emailHeading": "Contactez-nous par courriel",
-      "emailHint": "Envoyez-nous un courriel et nous vous répondrons dès que possible.",
-      "email": {
-        "label": "Courriel",
-        "address": "support@phototourl.com",
-        "cta": "Envoyer un courriel"
-      },
-      "form": {
-        "title": "Envoyer un message",
-        "description": "Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
-        "name": "Nom",
-        "email": "Courriel",
-        "message": "Message",
-        "namePlaceholder": "Votre nom",
-        "emailPlaceholder": "votre@courriel.com",
-        "messagePlaceholder": "Votre message ou question...",
-        "submit": "Envoyer le message",
-        "submitting": "Envoi en cours...",
-        "success": "Message envoyé avec succès. Nous vous répondrons dès que possible.",
-        "minLength": "Le nom doit comporter au moins 3 caractères.",
-        "maxLengthName": "Le nom ne doit pas dépasser 30 caractères.",
-        "invalidEmail": "Veuillez entrer une adresse courriel valide.",
-        "minLengthMessage": "Le message doit comporter au moins 10 caractères.",
-        "maxLengthMessage": "Le message ne doit pas dépasser 2000 caractères.",
-        "invalid": "Un problème est survenu. Veuillez réessayer."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "À propos de nous | Photo To URL",
-      "description": "En savoir plus sur Photo To URL — un service d'hébergement d'images gratuit qui convertit les photos en liens partageables."
-    },
-    "page": {
-      "title": "À propos de nous",
-      "mission": {
-        "title": "Notre mission",
-        "content": "Photo To URL est un service d'hébergement d'images gratuit, rapide et fiable conçu pour aider les créateurs, les spécialistes du marketing et les équipes à convertir instantanément des images en liens partageables. Nous croyons en la simplicité, la rapidité et la confidentialité de l'utilisateur."
-      },
-      "features": {
-        "title": "Ce que nous offrons",
-        "item1": "Hébergement d'image gratuit avec prise en charge CDN",
-        "item2": "Génération de lien instantanée pour un partage rapide",
-        "item3": "Prise en charge de plusieurs formats d'image (JPG, PNG, WEBP, GIF)",
-        "item4": "Essai sans inscription — forfait gratuit : 10 téléversements/jour, 2 Mo par fichier"
-      },
-      "contact": {
-        "title": "Contactez-nous",
-        "text": "Vous avez des questions ou des commentaires ? Contactez-nous à",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Politique de confidentialité | Photo To URL",
-        "description": "Politique de confidentialité de Photo To URL — Découvrez comment nous collectons, utilisons et protégeons vos données."
-      },
-      "page": {
-        "title": "Politique de confidentialité",
-        "lastUpdated": "Dernière mise à jour : mai 2026",
-        "introduction": "Chez Photo To URL, nous respectons votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et sauvegardons vos informations lorsque vous utilisez notre service.",
-        "dataCollection": {
-          "title": "Informations que nous collectons",
-          "content1": "Lorsque vous utilisez Photo To URL, nous pouvons collecter :",
-          "item1": "Les fichiers image téléversés et leurs métadonnées (nom, taille, type), stockés sur Cloudflare R2 pour fournir des liens partageables",
-          "item2": "L'adresse IP, les horodatages de téléversement et les données d'utilisation pour la limitation du débit, la sécurité et la prévention des abus",
-          "item3": "Les informations de compte lors de l'inscription ou de la connexion (adresse courriel, profil OAuth Google, identifiants de session et d'authentification)",
-          "item4": "Les informations d'abonnement et de paiement traitées par notre prestataire Waffo Pancake lors de l'achat d'un forfait payant — nous ne stockons pas les numéros de carte complets",
-          "content2": "Si vous nous contactez via le formulaire de contact, nous collectons les informations que vous fournissez (nom, courriel, etc.). Nous utilisons également des témoins comme décrit dans la section Témoins ci-dessous."
-        },
-        "dataUsage": {
-          "title": "Comment nous utilisons vos informations",
-          "item1": "Pour générer et fournir des liens d'image partageables",
-          "item2": "Pour prévenir les abus et appliquer les limites de téléversement",
-          "item3": "Pour améliorer notre service et l'expérience utilisateur",
-          "item4": "Pour nous conformer aux obligations légales"
-        },
-        "dataStorage": {
-          "title": "Stockage et conservation des données",
-          "content": "Les images téléversées sont stockées sur le stockage Cloudflare R2. Nous conservons les images aussi longtemps que nécessaire pour fournir le service. Les images peuvent être supprimées automatiquement après une période d'inactivité ou en raison de violations de politique."
-        },
-        "cookies": {
-          "title": "Témoins (Cookies) et technologies de suivi",
-          "content1": "Nous utilisons les technologies suivantes :",
-          "item1": "Stockage local : Pour stocker votre historique de téléversement et vos préférences linguistiques",
-          "item2": "Google AdSense : Pour l'affichage de publicités (utilise des témoins pour la personnalisation des publicités)",
-          "item3": "Google Analytics : Pour l'analytique du site Web (données anonymisées)",
-          "content2": "Vous pouvez contrôler les témoins via les paramètres de votre navigateur. Cependant, la désactivation des témoins peut affecter certaines fonctionnalités de notre service."
-        },
-        "personalizedAds": {
-          "title": "Publicité personnalisée et retrait",
-          "content": "Nous utilisons Google AdSense pour afficher des publicités. Google et d'autres fournisseurs tiers peuvent utiliser des témoins pour diffuser des publicités en fonction de vos visites sur ce site et ailleurs sur le Web. Vous pouvez désactiver la publicité personnalisée en visitant les paramètres des publicités de Google",
-          "linkAdsSettings": "Paramètres des publicités Google",
-          "content2": "ou la page de retrait de la Network Advertising Initiative à",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Services tiers",
-          "content1": "Nous utilisons les services tiers suivants :",
-          "item1": "Cloudflare R2 : Pour le stockage d'images et la livraison CDN",
-          "item2": "Google AdSense : Pour la publicité (sous réserve de la politique de confidentialité de Google)",
-          "item3": "Google Analytics : Pour l'analytique du site Web (sous réserve de la politique de confidentialité de Google)",
-          "content2": "Nous utilisons également Waffo Pancake pour les abonnements et le traitement des paiements. Ces services peuvent collecter des informations conformément à leurs propres politiques de confidentialité. Nous vous encourageons à les consulter."
-        },
-        "dataSecurity": {
-          "title": "Sécurité des données",
-          "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre l'accès, l'altération, la divulgation ou la destruction non autorisés. Cependant, aucune méthode de transmission sur Internet n'est sûre à 100 %."
-        },
-        "yourRights": {
-          "title": "Vos droits",
-          "content": "Vous avez le droit de :",
-          "item1": "Accéder à vos images téléversées, aux données de compte et aux informations associées",
-          "item2": "Demander la suppression de vos images",
-          "item3": "Vous retirer de certaines pratiques de collecte de données",
-          "item4": "Nous contacter pour des préoccupations relatives à la vie privée"
-        },
-        "children": {
-          "title": "Vie privée des enfants",
-          "content": "Notre service n'est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans."
-        },
-        "changes": {
-          "title": "Modifications de cette politique de confidentialité",
-          "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page et en mettant à jour la date de « Dernière mise à jour »."
-        },
-        "contact": {
-          "title": "Contactez-nous",
-          "text": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter à",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Conditions de service | Photo To URL",
-        "description": "Conditions de service pour Photo To URL — hébergement d'images, utilisation acceptable et responsabilités de l'utilisateur."
-      },
-      "page": {
-        "title": "Conditions de service",
-        "lastUpdated": "Dernière mise à jour : Septembre 2026",
-        "intro": "Bienvenue chez Photo To URL. En accédant ou en utilisant notre service d'hébergement d'images et de génération de liens (le « Service »), vous acceptez d'être lié par ces conditions de service. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le Service.",
-        "acceptance": {
-          "title": "Acceptation des conditions",
-          "content": "En téléversant des images, en générant des liens ou en utilisant Photo To URL de toute autre manière, vous confirmez que vous avez lu, compris et accepté ces conditions et notre politique de confidentialité. Nous pouvons mettre à jour ces conditions de temps à autre ; l'utilisation continue du Service après les modifications constitue l'acceptation des conditions mises à jour."
-        },
-        "serviceDescription": {
-          "title": "Description du service",
-          "content": "Photo To URL fournit un hébergement d'images gratuit et une génération de liens directs. Vous pouvez téléverser des images dans les limites que nous fixons (par exemple, taille de fichier, format) et recevoir des liens partageables. Nous ne garantissons pas une disponibilité ininterrompue ; le Service peut être modifié, suspendu ou interrompu avec ou sans préavis."
-        },
-        "useOfService": {
-          "title": "Utilisation du service",
-          "content": "Vous ne pouvez utiliser le Service qu'à des fins licites et conformément à ces conditions. Vous êtes responsable de votre utilisation du Service et de tout contenu que vous téléversez. Vous ne devez pas utiliser le Service d'une manière qui viole les lois applicables ou les droits d'autrui."
-        },
-        "userResponsibilities": {
-          "title": "Vos responsabilités",
-          "content": "Vous acceptez de : (1) fournir des informations exactes lorsque cela est requis ; (2) maintenir votre utilisation du Service conforme à toutes les lois applicables ; (3) ne pas tenter de contourner la sécurité, les limites de débit ou les contrôles d'accès ; (4) ne pas utiliser le Service pour distribuer des logiciels malveillants ou pour interférer avec le fonctionnement du Service ou d'autres utilisateurs."
-        },
-        "prohibitedContent": {
-          "title": "Contenu interdit",
-          "content": "Vous ne devez pas téléverser ou partager des liens vers du contenu qui : est illégal, nuisible, menaçant, abusif, harcelant, diffamatoire, obscène, invasif de la vie privée, portant atteinte à la propriété intellectuelle ou autrement répréhensible ; exploite les mineurs ; promeut la violence ou la discrimination ; ou viole les droits d'un tiers. Nous pouvons supprimer le contenu et suspendre ou résilier l'accès sans préavis si nous pensons raisonnablement qu'il viole ces conditions ou la loi."
-        },
-        "ipAndContent": {
-          "title": "Propriété intellectuelle et votre contenu",
-          "content": "Vous conservez la propriété des images que vous téléversez. En utilisant le Service, vous nous accordez une licence limitée pour stocker, traiter et servir vos images et pour générer et fournir des liens, selon les besoins pour exploiter le Service. Nous ne revendiquons pas la propriété de votre contenu. Notre nom, notre logo et le Service sont notre propriété intellectuelle ; vous ne pouvez pas les utiliser sans notre consentement écrit préalable."
-        },
-        "subscriptions": {
-          "title": "Forfaits d'abonnement",
-          "content": "Photo To URL offre un forfait gratuit et des abonnements payants (Pro mensuel et Premium annuel) qui augmentent les limites de téléversement, de taille de fichier et de stockage. Les détails et tarifs actuels sont sur notre page Tarification (https://phototourl.com/pricing). L'accès payant est un service numérique accordé immédiatement après confirmation du paiement."
-        },
-        "billing": {
-          "title": "Facturation et paiement",
-          "content": "En fournissant un mode de paiement et en souscrivant à un forfait payant, vous nous autorisez, ainsi que notre fournisseur de paiement, à facturer ce mode de façon récurrente pour les frais d'abonnement jusqu'à ce que vous annuliez comme décrit ci-dessous. Les abonnements se renouvellent automatiquement à la fin de chaque période de facturation sauf annulation. Les prix sont indiqués au paiement et peuvent exclure les taxes applicables sauf indication contraire."
-        },
-        "cancellation": {
-          "title": "Annulation et arrêt du renouvellement automatique",
-          "content": "Vous pouvez arrêter les frais futurs en tout temps en :",
-          "item1": "écrivant à support@phototourl.com depuis l'adresse courriel de votre compte enregistré pour demander l'annulation du renouvellement automatique ; ou",
-          "item2": "annulant le débit automatique ou la facturation récurrente auprès de l'émetteur de votre carte via banque mobile, banque en ligne ou service à la clientèle.",
-          "effect": "L'annulation arrête les renouvellements futurs. Vous conservez les avantages payés jusqu'à la fin de la période déjà payée. Ensuite, aucun autre frais n'est prélevé pour cet abonnement et les avantages payés se terminent avec cette période."
-        },
-        "refunds": {
-          "title": "Politique de remboursement",
-          "general": "Comme les forfaits payants sont des services numériques livrés immédiatement après le paiement, les frais d'abonnement ne sont généralement pas remboursables lorsque le Service demeure disponible pour un usage normal, sauf dans les cas ci-dessous ou lorsque la loi l'exige.",
-          "eligibleTitle": "Quand un remboursement peut être disponible",
-          "item1": "Premiers abonnés : dans les 7 jours suivant le premier débit, si vous n'avez pas fait un usage substantiel des fonctions payantes (par exemple, seulement une petite part de votre allocation de téléversement ou de stockage).",
-          "item2": "Débits en double ou erronés : remboursement complet pour une erreur de facturation vérifiée ayant entraîné un double débit.",
-          "item3": "Panne de service de notre côté : si une panne vérifiée sous notre contrôle dure 72 heures ou plus pendant votre période payée, nous pouvons offrir un crédit ou un remboursement au prorata après examen.",
-          "item4": "Droits prévus par la loi : lorsque la loi applicable vous confère un droit de rétractation ou de remboursement (par exemple dans l'UE/au R.-U.), ces droits sont préservés.",
-          "howTitle": "Comment demander un remboursement",
-          "how": "Écrivez à support@phototourl.com avec le courriel de votre compte, la référence de paiement ou de transaction et le motif. Nous visons un accusé de réception sous 2 jours ouvrables et le traitement des remboursements admissibles sous 5 à 10 jours ouvrables.",
-          "notTitle": "Quand les remboursements ne sont pas disponibles",
-          "not1": "Frais pour des périodes d'abonnement déjà utilisées, sauf cas énumérés ci-dessus.",
-          "not2": "Demandes de remboursement pour un abonnement annuel (Premium) plus de 30 jours après l'achat initial, sauf obligation légale ou cas de panne / double débit admissible.",
-          "not3": "Comptes suspendus ou résiliés pour violation de ces conditions."
-        },
-        "disclaimer": {
-          "title": "Exclusion de garanties",
-          "text": "Le Service est fourni « tel quel » et « selon la disponibilité » sans garanties d'aucune sorte, expresses ou implicites. Nous ne garantissons pas que le Service sera ininterrompu, exempt d'erreurs ou exempt de composants nuisibles. Votre utilisation du Service est à vos seuls risques."
-        },
-        "limitationOfLiability": {
-          "title": "Limitation de responsabilité",
-          "content": "Dans la mesure maximale permise par la loi, Photo To URL et ses exploitants ne seront pas responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ou de toute perte de données, de profits ou de clientèle, découlant de votre utilisation ou de votre incapacité à utiliser le Service. Notre responsabilité totale ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation (ou, si vous n'avez rien payé, zéro)."
-        },
-        "termination": {
-          "title": "Résiliation",
-          "content": "Nous pouvons suspendre ou résilier votre accès au Service à tout moment, avec ou sans cause ou préavis. Vous pouvez cesser d'utiliser le Service à tout moment. En cas de résiliation, votre droit d'utiliser le Service cesse immédiatement. Les dispositions qui, par leur nature, devraient survivre (y compris l'exclusion de garantie, la limitation de responsabilité et la loi applicable) survivront."
-        },
-        "changes": {
-          "title": "Modifications de ces conditions",
-          "content": "Nous pouvons mettre à jour ces conditions de temps à autre. Nous publierons les conditions révisées sur cette page et mettrons à jour la date de « Dernière mise à jour ». Votre utilisation continue du Service après les modifications constitue une acceptation. Nous vous encourageons à consulter cette page périodiquement."
-        },
-        "governingLaw": {
-          "title": "Loi applicable",
-          "content": "Ces conditions seront régies et interprétées conformément aux lois de la juridiction dans laquelle nous opérons, sans égard aux principes de conflit de lois. Tout litige sera résolu devant les tribunaux de cette juridiction."
-        },
-        "contact": {
-          "title": "Contactez-nous",
-          "text": "Si vous avez des questions sur ces conditions de service, please contact us at",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Politique de témoins | Photo To URL",
-        "description": "Politique de témoins pour Photo To URL — Découvrez comment nous utilisons les témoins et les technologies de suivi."
-      },
-      "page": {
-        "title": "Politique de témoins",
-        "lastUpdated": "Dernière mise à jour : Septembre 2026",
-        "introduction": "Cette politique de témoins explique comment Photo To URL utilise des témoins et des technologies de suivi similaires lorsque vous visitez notre site Web. En utilisant notre service, vous consentez à l'utilisation de témoins conformément à cette politique. Pour toute question sur cette politique, contactez-nous à support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Que sont les témoins",
-          "content": "Les témoins (cookies) sont de petits fichiers texte qui sont placés sur votre appareil lorsque vous visitez un site Web. Ils sont largement utilisés pour faire fonctionner les sites Web plus efficacement et fournir des informations aux propriétaires du site."
-        },
-        "howWeUseCookies": {
-          "title": "Comment nous utilisons les témoins",
-          "content": "Nous utilisons des témoins aux fins suivantes :",
-          "item1": "Pour stocker votre historique de téléversement et vos préférences linguistiques",
-          "item2": "Pour analyser le trafic du site Web et le comportement des utilisateurs",
-          "item3": "Pour afficher des publicités personnalisées"
-        },
-        "typesOfCookies": {
-          "title": "Types de témoins que nous utilisons",
-          "essential": {
-            "title": "Témoins essentiels",
-            "content": "Ces témoins sont nécessaires au bon fonctionnement du site Web. Ils permettent des fonctionnalités de base telles que le stockage de vos préférences linguistiques et de votre historique de téléversement."
-          },
-          "analytics": {
-            "title": "Témoins d'analytique",
-            "content": "Nous utilisons Google Analytics pour analyser la façon dont les visiteurs utilisent notre site Web. Ces témoins collectent des informations anonymes sur l'utilisation du site Web pour nous aider à améliorer notre service."
-          },
-          "advertising": {
-            "title": "Témoins publicitaires",
-            "content": "Nous utilisons Google AdSense pour afficher des publicités. Ces témoins aident à diffuser des publicités personnalisées basées sur votre comportement de navigation et vos intérêts."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Témoins tiers",
-          "content": "Nous utilisons les services tiers suivants qui peuvent définir des témoins :",
-          "item1": "Google AdSense — Pour la publicité (sous réserve de la politique de confidentialité de Google)",
-          "item2": "Google Analytics — Pour l'analytique du site Web (sous réserve de la politique de confidentialité de Google)"
-        },
-        "manageCookies": {
-          "title": "Gestion des témoins",
-          "content": "Vous pouvez contrôler et gérer les témoins via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de refuser ou d'accepter les témoins, de supprimer les témoins existants ou de définir des préférences pour certains sites Web. Cependant, la désactivation des témoins peut affecter la fonctionnalité de notre service."
-        },
-        "changes": {
-          "title": "Modifications de cette politique de témoins",
-          "content": "Nous pouvons mettre à jour cette politique de témoins de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de témoins sur cette page et en mettant à jour la date de « Dernière mise à jour »."
-        },
-        "contact": {
-          "title": "Contactez-nous",
-          "text": "Si vous avez des questions sur cette politique de témoins, veuillez nous contacter à",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Barre-outils (Bookmarklet) Photo To URL",
-    "description": "Téléversez des images de n'importe quelle page Web directement sur Photo To URL en un seul clic! Essai gratuit : 10 téléversements/jour, 2 Mo par fichier.",
-    "howItWorks": {
-      "title": "Comment ça fonctionne",
-      "step1": "Parcourez n'importe quelle page Web contenant des images",
-      "step2": "Cliquez sur le bookmarklet dans votre barre de favoris",
-      "step3": "Sélectionnez une image de la page",
-      "step4": "Obtenez l'URL instantanément et copiez-la !"
-    },
-    "installation": {
-      "title": "Installation",
-      "step1": {
-        "title": "Étape 1 : Copiez le code du bookmarklet",
-        "description": "Cliquez sur le bouton ci-dessous pour copier le code du bookmarklet dans votre presse-papiers."
-      },
-      "step2": {
-        "title": "Étape 2 : Ajoutez-le à votre navigateur",
-        "description": "Suivez ces étapes selon votre navigateur :",
-        "chrome": "Chrome/Edge : Appuyez sur Ctrl+Maj+B (Cmd+Maj+B sur Mac) pour afficher la barre de favoris, puis faites un clic droit dessus et sélectionnez « Ajouter une page ». Collez le code comme URL.",
-        "firefox": "Firefox : Faites un clic droit sur la barre de favoris et sélectionnez « Nouveau marque-page ». Collez le code comme emplacement.",
-        "safari": "Safari : Activez la barre de favoris (Présentation → Afficher la barre de favoris), puis faites glisser le code vers la barre de favoris.",
-        "edge": "Alternative : Créez un nouveau favori, modifiez-le et remplacez l'URL par le code copié."
-      },
-      "step3": {
-        "title": "Étape 3 : Commencez à l'utiliser !",
-        "description": "Visitez n'importe quelle page Web contenant des images et cliquez sur votre bookmarklet pour commencer le téléversement !"
-      },
-      "copy": "Copier le code",
-      "copied": "Copié !"
-    },
-    "usage": {
-      "title": "Fonctionnalités",
-      "description": "Le bookmarklet offre les fonctionnalités suivantes. Chaque téléversement compte dans vos limites de forfait (10 téléversements/jour, 2 Mo par fichier).",
-      "feature1": "Sélectionnez n'importe quelle image de la page Web actuelle",
-      "feature2": "Téléversement automatique vers Photo To URL",
-      "feature3": "Obtenez instantanément une URL partageable avec copie en un clic"
-    },
-    "note": {
-      "title": "Note",
-      "content": "Les téléversements comptent dans votre quota quotidien (10 téléversements/jour, 2 Mo par fichier). Le bookmarklet fonctionne sur la plupart des sites ; certaines politiques de sécurité strictes (CORS) peuvent bloquer les envois."
-    }
-  },
-  "AuthPage": {
-    "login": {
-      "welcomeBack": "Bon retour",
-      "email": "Courriel",
-      "password": "Mot de passe",
-      "signIn": "Se connecter",
-      "signUp": "S'inscrire",
-      "signUpHint": "Vous n'avez pas de compte ?",
-      "forgotPassword": "Mot de passe oublié ?",
-      "showPassword": "Afficher le mot de passe",
-      "hidePassword": "Masquer le mot de passe",
-      "emailRequired": "Le courriel est requis",
-      "passwordRequired": "Le mot de passe est requis",
-      "signInWithGoogle": "Se connecter avec Google"
-    },
-    "register": {
-      "createAccount": "Créer un compte",
-      "name": "Nom",
-      "email": "Courriel",
-      "password": "Mot de passe",
-      "signUp": "S'inscrire",
-      "signInHint": "Vous avez déjà un compte ?",
-      "namePlaceholder": "Votre nom",
-      "signUpSuccess": "Compte créé avec succès",
-      "signUpWithGoogle": "S'inscrire avec Google",
-      "artFightLabel": "Créer un compte artiste dédié",
-      "artFightHint": "Débloquez les outils artiste du tableau de bord : copiez les embed URL, HTML, BBCode et Markdown pour chaque carte hébergée."
-    },
-    "error": {
-      "title": "Erreur d'authentification",
-      "defaultError": "Une erreur est survenue lors de l'authentification.",
-      "backToLogin": "Retour à la connexion"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Un compte avec ce courriel existe déjà. Veuillez utiliser un autre courriel.",
-      "INVALID_CREDENTIALS": "Courriel ou mot de passe invalide.",
-      "INVALID_EMAIL": "Format de courriel invalide.",
-      "INVALID_PASSWORD": "Format de mot de passe invalide, au moins 6 caractères requis.",
-      "EMAIL_REQUIRED": "Le courriel est requis.",
-      "PASSWORD_REQUIRED": "Le mot de passe est requis.",
-      "NAME_REQUIRED": "Le nom est requis.",
-      "SERVER_ERROR": "Erreur du serveur. Veuillez réessayer plus tard.",
-      "NETWORK_ERROR": "Erreur réseau. Veuillez vérifier votre connexion."
-    },
-    "orContinueWith": "Ou continuer avec",
-    "forgotPassword": {
-      "title": "Mot de passe oublié",
-      "description": "Entrez votre courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
-      "email": "Courriel",
-      "send": "Envoyer le lien de réinitialisation",
-      "backToLoginHint": "Vous vous souvenez de votre mot de passe ?",
-      "checkEmail": "Si un compte existe pour ce courriel, nous avons envoyé un lien de réinitialisation. Vérifiez votre boîte de réception.",
-      "emailRequired": "Le courriel est requis",
-      "error": {
-        "userNotFound": "Aucun compte trouvé avec ce courriel",
-        "tooManyRequests": "Trop de tentatives. Veuillez réessayer plus tard",
-        "serverError": "Une erreur s'est produite. Veuillez réessayer"
-      }
-    },
-    "resetPassword": {
-      "title": "Réinitialiser le mot de passe",
-      "password": "Nouveau mot de passe",
-      "reset": "Réinitialiser le mot de passe",
-      "backToLoginHint": "Prêt à vous connecter ?",
-      "requestNewLink": "Demander un nouveau lien",
-      "showPassword": "Afficher le mot de passe",
-      "hidePassword": "Masquer le mot de passe",
-      "minLength": "Le mot de passe doit contenir au moins 6 caractères",
-      "error": {
-        "expiredToken": "Le lien de réinitialisation a expiré. Veuillez en demander un nouveau",
-        "invalidToken": "Lien de réinitialisation invalide. Veuillez en demander un nouveau",
-        "missingToken": "Le lien de réinitialisation est manquant ou incomplet. Veuillez en demander un nouveau",
-        "tooManyRequests": "Trop de tentatives. Veuillez réessayer plus tard",
-        "serverError": "Une erreur s'est produite. Veuillez réessayer"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "L'équipe {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Bonjour, {name}.",
-      "body": "Cliquez sur le bouton ci-dessous pour réinitialiser votre mot de passe Photo To URL. Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer ce courriel.",
-      "resetPassword": "Réinitialiser le mot de passe",
-      "subject": "Réinitialisez votre mot de passe Photo To URL"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Tarification simple et transparente",
-    "description": "Choisissez le forfait qui vous convient le mieux",
-    "subtitle": "Choisissez le forfait qui vous convient le mieux",
-    "monthly": "Mensuel",
-    "yearly": "Annuel",
-    "faqTitle": "Foire aux questions",
-    "faq": {
-      "payment": {
-        "q": "Quels modes de paiement acceptez-vous ?",
-        "a": "Nous acceptons toutes les principales cartes de crédit et PayPal via notre fournisseur de paiement sécurisé."
-      },
-      "cancel": {
-        "q": "Puis-je annuler mon abonnement à tout moment ?",
-        "a": "Oui, vous pouvez annuler à tout moment. Vous conserverez l'accès jusqu'à la fin de votre période de facturation actuelle."
-      },
-      "storage": {
-        "q": "Qu'advient-il de mes fichiers si je passe à un forfait inférieur ?",
-        "a": "Vos fichiers sont en sécurité. Si vous dépassez la limite de stockage, nous vous en informerons à l'avance. Rien n'est supprimé immédiatement."
-      },
-      "upload": {
-        "q": "Qu'est-ce qui compte comme un téléversement ?",
-        "a": "Chaque image que vous téléversez sur Photo To URL compte pour un téléversement. Les utilisateurs gratuits sont limités à 10 téléversements par jour."
-      }
-    },
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/ mois",
-      "perYear": "/ an",
-      "popular": "Le plus populaire",
-      "bestValue": "Meilleure valeur",
-      "currentPlan": "Forfait actuel",
-      "yourCurrentPlan": "Votre forfait actuel",
-      "getStartedForFree": "Commencer gratuitement",
-      "getLifetimeAccess": "Obtenir un accès à vie",
-      "getStarted": "Commencer",
-      "upgradeToYearly": "Passer à Premium",
-      "cannotDowngrade": "Rétrogradation indisponible",
-      "alreadySubscribed": "Abonnement déjà actif",
-      "subscribeYearly": "S'abonner à l'année",
-      "subscribeMonthly": "S'abonner au mois",
-      "upgrade": "Passer au forfait supérieur",
-      "notAvailable": "Non disponible",
-      "limitedOffer": "Offre limitée · −20 %",
-      "savePercentLabel": "Économisez ",
-      "savePercentSuffix": " vs mensuel",
-      "freePriceNote": "Gratuit pour toujours",
-      "monthlyPriceNote": "Facturé chaque mois",
-      "loading": "Chargement...",
-      "suitableFor": "Convient pour :",
-      "activePlanDialog": {
-        "title": "Vous avez déjà un abonnement actif",
-        "description": "Ce compte a déjà un abonnement actif.",
-        "descriptionWithDate": "Ce compte a déjà un abonnement actif (expire le {date}).",
-        "close": "Fermer",
-        "manageBilling": "Gérer l’abonnement"
-      },
-      "batchUpload": {
-        "label": "Téléversement par lots",
-        "free": "Aucun",
-        "monthly": "20 photos",
-        "yearly": "50 photos"
-      },
-      "justPerMonth": "{price}/mois",
-      "saveVsMonthly": "Économisez {percent}%",
-      "monthlyEquivalentShort": "({price}/ mois)",
-      "bestValueWithSave": "Meilleure offre · Économisez {percent}%"
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Get Started",
+      "notAvailable": "Not Available",
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Chargement...",
-      "checkoutFailed": "Échec de l'ouverture de la page de paiement"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Gratuit",
-      "description": "Parfait pour essayer Photo To URL",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Taille de téléversement : 2 Mo",
-        "feature-2": "Téléversements quotidiens : 10 fois",
-        "feature-3": "Stockage : 200 Mo",
-        "feature-4": "CDN : Accélération de base",
-        "feature-5": "Sans pub : Non",
-        "feature-6": "Hébergement de documents : Non",
-        "feature-7": "Hébergement de photos : Non",
-        "feature-8": "Édition de photos : Non",
-        "feature-9": "Webhook : Non",
-        "feature-10": "Permissions de ressources : Aucune"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Essayer le produit, tester les fonctionnalités"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
       "name": "Pro",
-      "description": "Téléversements réguliers & hébergement",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Taille de téléversement : 50 Mo",
-        "feature-2": "Téléversements quotidiens : 1000 fois",
-        "feature-3": "Stockage : 100 Go",
-        "feature-4": "CDN : Accélération standard",
-        "feature-5": "Sans pub : Oui",
-        "feature-6": "Hébergement de documents : Oui",
-        "feature-7": "Hébergement de photos : Oui",
-        "feature-8": "Édition de photos : Oui",
-        "feature-9": "Webhook : Oui",
-        "feature-10": "Permissions de ressources : Partielles"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Blogueurs / Développeurs / Petites équipes"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Plus de quota, CDN plus rapide",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Taille de téléversement : 256 Mo",
-        "feature-2": "Téléversements quotidiens : Illimités",
-        "feature-3": "Stockage : 150 Go",
-        "feature-4": "CDN : Nœuds haute vitesse (priorité)",
-        "feature-5": "Sans pub : Oui",
-        "feature-6": "Hébergement de documents : Oui",
-        "feature-7": "Hébergement de photos : Oui",
-        "feature-8": "Édition de photos : Oui",
-        "feature-9": "Webhook : Oui",
-        "feature-10": "Permissions de ressources : Toutes"
-      },
-      "limits": [],
-      "suitableFor": "Entreprises / Utilisation haute fréquence / Systèmes automatisés"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Tableau de bord",
-    "welcome": "Bienvenue",
-    "loadFailed": "Échec du chargement. Réessaie plus tard.",
-    "errorTitle": "Une erreur est survenue",
-    "dismiss": "OK",
-    "dashboard": "Tableau de bord",
-    "resources": "Mes ressources",
-    "photos": "Mes photos",
-    "storage": "Stockage",
-    "used": "Utilisé",
-    "total": "Total",
-    "storageDisplay": "{used} / {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Illimité",
-    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette ressource ?",
-    "deleteResource": "Supprimer la ressource",
-    "deleteFailed": "Échec de la suppression de la ressource",
-    "delete": "Supprimer",
-    "cancel": "Annuler",
-    "copied": "Copié !",
-    "copy": "Copier le lien",
-    "open": "Ouvrir",
-    "removeBackground": "Supprimer l'arrière-plan",
-    "noResources": "Aucune ressource pour le moment. Téléversez des images pour commencer.",
-    "files": "fichiers",
-    "dailyUploads": "Téléversements quotidiens",
-    "today": "aujourd'hui",
-    "resourcesCount": "Vous avez {count} ressources téléversées",
-    "photosCount": "Vous avez {count} photos téléversées",
-    "resourcePageInfo": "Page {page} sur {totalPages} · {pageSize} par page · {total} fichiers au total",
-    "resourceTotalCount": "Total {total} éléments",
-    "resourcePageSizeLabel": "Éléments par page",
-    "resourcePageSizeOption": "{size} / page",
-    "resourceJumpTo": "Aller à",
-    "resourceJumpPageUnit": "page",
-    "resourceJumpInputAria": "Numéro de page à atteindre",
-    "resourcePagePrev": "Page précédente",
-    "resourcePageNext": "Page suivante",
-    "subtitle": "Voici l'aperçu de votre espace de travail.",
-    "planCardTitle": "Forfait",
-    "planActive": "Actif",
-    "planNames": {
-      "free": "Gratuit",
-      "premium": "Premium",
-      "pro": "Pro"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Passez au forfait supérieur pour débloquer plus",
-    "planCardHintAllUpgraded": "Toutes les fonctionnalités débloquées",
-    "statStorageHint": "Espace utilisé pour tous les téléversements",
-    "statResourcesHint": "Total des photos + documents",
-    "statPhotosHint": "Fichiers que vous pouvez copier ou partager sous forme de liens",
-    "statUploadsHint": "Réinitialisé toutes les 24 h selon le forfait",
-    "chartTitle": "Activité",
-    "chartDescription": "Volume de téléversement au fil du temps",
-    "chartPlaceholder": "Les tendances apparaîtront ici dès qu'il y aura plus d'activité.",
-    "chartRange7d": "Derniers 7 jours",
-    "chartRange30d": "Derniers 30 jours",
-    "chartRange90d": "Derniers 3 mois",
-    "tableFile": "Fichier",
-    "tablePath": "Chemin",
-    "tableSize": "Taille",
-    "tableActions": "Actions",
-    "viewTable": "Tableau",
-    "viewGrid": "Mur de photos",
-    "chartDemoNote": "Tendance du volume de téléversement (jours)",
-    "loginRequired": "Veuillez vous connecter pour voir votre tableau de bord.",
-    "checkoutSuccess": "Paiement réussi ! Votre forfait a été mis à niveau.",
-    "subscriptionSuccess": "Abonnement activé. Bienvenue sur {plan} !",
-    "circleCrop": "Recadrage circulaire",
-    "roundedCorners": "Coins arrondis",
-    "scheduledForDeletion": "Suppression planifiée",
-    "upload": "Téléverser",
-    "uploadPhoto": "Téléverser une photo",
-    "batchUploadPhotos": "Téléversement par lots",
-    "batchUploading": "Téléversement par lots en cours...",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Sélectionnez au plus {max} fichiers à la fois.",
-    "batchUploadTierHint": "Jusqu'à {max} fichiers par lot selon votre forfait.",
-    "uploadUpgradeHint": "Disponible après mise à niveau",
-    "uploading": "Téléversement...",
-    "loading": "Chargement...",
-    "uploadErrorInvalidType": "Type de fichier invalide. Utilisez PNG, JPG, WEBP ou GIF.",
-    "uploadErrorTooLarge": "Fichier trop volumineux. Votre forfait permet jusqu'à {maxMb} Mo par fichier.",
-    "uploadErrorDailyLimit": "Limite quotidienne atteinte ({limit} téléversements/jour).",
-    "uploadErrorStorageLimit": "Limite de stockage atteinte.",
-    "uploadErrorGeneric": "Échec du téléversement. Veuillez réessayer.",
-    "uploadUpgradeTitle": "Débloquer le téléversement direct",
-    "uploadUpgradeDescription": "Passez au forfait supérieur pour téléverser directement depuis votre tableau de bord avec des limites plus élevées.",
-    "uploadRenewDescription": "Renouvelez pour téléverser directement depuis votre tableau de bord avec des limites plus élevées.",
-    "expiredStorageLimitHint": "Après expiration, seul un quota de 100MB est disponible",
-    "uploadGoHome": "Téléverser sur la page d'accueil",
-    "resourceModule": {
-      "title": "Mes documents",
-      "count": "Vous avez {count} documents téléversés",
-      "empty": "Aucun document pour le moment. Téléversez un fichier PDF/Word/PowerPoint/Excel pour commencer.",
-      "viewCard": "Cartes",
-      "searchPlaceholder": "Rechercher par nom de fichier",
-      "typeAll": "Tous les types",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Réinitialiser",
-      "upload": "Téléverser un document",
-      "uploading": "Téléversement...",
-      "copy": "Copier le lien",
-      "open": "Ouvrir",
-      "delete": "Supprimer",
-      "deleteFailed": "Échec de la suppression du document",
-      "fetchError": "Échec du chargement des documents",
-      "tableFile": "Fichier",
-      "tablePath": "Chemin",
-      "tableType": "Type",
-      "typeLabel": "Type",
-      "tableSize": "Taille",
-      "tableActions": "Actions",
-      "uploadErrorTooLarge": "Fichier trop volumineux. La limite par fichier de votre forfait est {maxSize}.",
-      "uploadErrorDailyLimit": "Limite quotidienne atteinte ({limit} téléversements/jour).",
-      "uploadErrorStorageLimit": "Limite de stockage atteinte.",
-      "uploadErrorGeneric": "Échec du téléversement. Veuillez réessayer."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "taille de fichier {size}",
-    "dailyUploadsLimit": "{limit} téléversements/jour",
-    "dailyUploadsUnlimited": "Téléversements illimités",
-    "monthly": "mois",
-    "yearly": "an",
-    "bestValue": "Meilleure valeur",
-    "upgrade": {
-      "title": "Mettez à niveau votre forfait",
-      "description": "Passez à un forfait supérieur pour des limites quotidiennes plus élevées, des fichiers plus volumineux et des fonctionnalités premium. Téléversements quotidiens illimités avec le forfait Premium annuel.",
-      "button": "Mettre à niveau maintenant"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Paramètres",
-      "profile": {
-        "title": "Profil",
-        "description": "Gérer les informations de votre profil",
-        "name": {
-          "title": "Nom",
-          "description": "Mettre à jour votre nom d'affichage",
-          "placeholder": "Entrez votre nom",
-          "hint": "C'est le nom qui sera affiché sur votre profil",
-          "minLength": "Le nom doit comporter au moins 3 caractères",
-          "maxLength": "Le nom doit comporter au plus 30 caractères",
-          "success": "Nom mis à jour avec succès",
-          "fail": "Échec de la mise à jour du nom",
-          "save": "Enregistrer",
-          "saving": "Enregistrement..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "Mettre à jour votre photo de profil",
-          "uploadAvatar": "Téléverser une image",
-          "unavailable": "Téléversement indisponible",
-          "disabledHint": "Le téléversement d'avatar nécessite que le stockage en nuage soit activé pour ce projet.",
-          "recommendation": "PNG, JPG ou WebP. La taille maximale suit les limites du serveur."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Facturation",
-        "description": "Gérer votre facturation et votre abonnement",
-        "billingPagePlanTitle": "Forfait actuel",
-        "billingPageStorageTitle": "Utilisation du stockage",
-        "currentPlan": {
-          "title": "Votre forfait et stockage sur Photo To URL",
-          "description": "Passez à un forfait supérieur pour des limites quotidiennes plus élevées, des fichiers plus volumineux et des fonctionnalités premium. Téléversements quotidiens illimités avec le forfait Premium annuel."
-        },
-        "loadError": "Impossible de charger les données de facturation.",
-        "retry": "Réessayer",
-        "planNames": {
-          "free": "Gratuit",
-          "premium": "Premium",
-          "pro": "Pro"
-        },
-        "status": {
-          "active": "Actif",
-          "expired": "Expiré"
-        },
-        "storageUsed": "Stockage utilisé",
-        "freePlanMessage": "Limites de téléversement plus élevées",
-        "inactivePlanMessage": "Les avantages ont expiré",
-        "expiredStorageLimitHint": "Après expiration, seul un quota de 100MB est disponible",
-        "paidPlanMessage": "Les avantages sont actifs",
-        "backToWorkbench": "Retour au tableau de bord",
-        "upgradeHint": "Plus d'espace de stockage",
-        "upgradeToPlan": "Changer de forfait",
-        "featureAdvancedEditing": "Outils d'édition avancés",
-        "upgradeNotReady": {
-          "title": "À venir bientôt",
-          "description": "Restez à l'affût pour plus de services !",
-          "confirm": "Compris",
-          "cancel": "Fermer"
-        },
-        "storage": {
-          "title": "Accélération CDN plus rapide",
-          "description": "Suivre votre consommation de stockage",
-          "upgradeStorage": "Augmenter le stockage"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Sécurité",
-        "description": "Gérer la sécurité de votre compte",
-        "updatePassword": {
-          "title": "Mot de passe",
-          "description": "Changer le mot de passe pour votre connexion par courriel",
-          "currentPassword": "Mot de passe actuel",
-          "newPassword": "Nouveau mot de passe",
-          "confirmPassword": "Confirmer le nouveau mot de passe",
-          "currentRequired": "Entrez votre mot de passe actuel",
-          "newMinLength": "Au moins 8 caractères",
-          "confirmRequired": "Veuillez confirmer votre nouveau mot de passe",
-          "passwordMismatch": "Les mots de passe ne correspondent pas",
-          "hint": "Utilisez un mot de passe robuste que vous ne réutilisez pas ailleurs.",
-          "save": "Mettre à jour le mot de passe",
-          "saving": "Mise à jour...",
-          "success": "Mot de passe mis à jour",
-          "fail": "Impossible de mettre à jour le mot de passe",
-          "showPassword": "Afficher le mot de passe",
-          "hidePassword": "Masquer le mot de passe"
-        },
-        "resetPassword": {
-          "title": "Définir un mot de passe",
-          "description": "Vous vous êtes connecté avec Google. Ajoutez un mot de passe courriel pour une connexion de secours.",
-          "info": "Nous enverrons un lien de réinitialisation du mot de passe au courriel de votre compte.",
-          "button": "Envoyer le lien de réinitialisation",
-          "sending": "Envoi...",
-          "sent": "Vérifiez votre boîte de réception pour le lien de réinitialisation.",
-          "disabled": "Les courriels de réinitialisation de mot de passe ne sont pas encore configurés sur ce serveur.",
-          "fail": "La demande a échoué. Réessayez plus tard."
-        },
-        "deleteAccount": {
-          "title": "Supprimer le compte",
-          "description": "Supprimer définitivement votre compte et les données associées.",
-          "warning": "Cette action est irréversible. Assurez-vous d'avoir enregistré tout ce dont vous avez besoin.",
-          "button": "Supprimer mon compte",
-          "confirmTitle": "Supprimer le compte ?",
-          "confirmDescription": "Votre compte sera supprimé définitivement.",
-          "cancel": "Annuler",
-          "confirm": "Supprimer",
-          "deleting": "Suppression...",
-          "success": "Compte supprimé",
-          "fail": "Impossible de supprimer le compte"
-        }
-      },
-      "notification": {
-        "title": "Notifications",
-        "description": "Gérer vos préférences de notification",
-        "newsletter": {
-          "title": "Mises à jour par courriel",
-          "description": "Nouvelles du produit et conseils (facultatif)",
-          "label": "S'abonner à l'infolettre",
-          "disabledHint": "L'infolettre n'est pas encore activée pour ce site.",
-          "hint": "Lorsqu'elle sera activée, vous pourrez vous inscrire ou vous désinscrire ici."
-        },
-        "productPreview": {
-          "title": "Aperçu du produit",
-          "description": "Image principale utilisée pour les cartes de partage et les pages d'atterrissage.",
-          "announcement": {
-            "line1": "Nous déployons continuellement des fonctionnalités plus puissantes et des avantages de membre de plus grande valeur.",
-            "line2": "Les nouvelles fonctionnalités de mise à niveau seront priorisées pour les utilisateurs existants, sans changement de prix.",
-            "line3": "Merci pour la confiance et le soutien de chaque utilisateur. Nous continuerons à perfectionner le produit pour offrir des expériences de plus grande valeur.",
-            "line4": "Nous continuerons d'optimiser l'expérience utilisateur mondiale avec des services de produits plus rapides et plus fiables."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Compte artiste",
-    "artFightWorkspaceHint": "Outils artiste activés — copiez les codes embed URL, HTML, BBCode et Markdown pour chaque photo."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Hébergement de cartes de profil Art Fight | URL et codes embed",
-      "description": "Téléversez des cartes de profil Team Tragedy, Comedy ou Mystery. Obtenez un lien HTTPS direct plus un embed HTML/BBCode pour Art Fight, Discord et les publications sociales.",
-      "keywords": "carte de profil Art Fight,hébergement ref sheet,Team Tragedy,Team Comedy,embed HTML BBCode"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Hébergement Art Fight",
-    "artistAccount": {
-      "badge": "Compte artiste",
-      "title": "Créer un compte artiste dédié",
-      "lead": "Compte artiste gratuit : enregistrez vos cartes dans le tableau de bord et utilisez des outils embed professionnels pour Art Fight — copiez URL, HTML, BBCode et Markdown à chaque téléversement.",
-      "toolEmbedTitle": "Outils embed",
-      "toolEmbedDesc": "Copie en un clic pour les profils Art Fight, Discord, forums et publications sociales.",
-      "toolDashboardTitle": "Tableau de bord artiste",
-      "toolDashboardDesc": "Chaque carte reste dans votre compte — recherchez, prévisualisez et recopiez les liens quand vous voulez.",
-      "toolBatchTitle": "Téléversement par lots (Pro)",
-      "toolBatchDesc": "Après une mise à niveau, téléversez plusieurs cartes à la fois — conçu pour les artistes avec plusieurs OCs.",
-      "registerCta": "Créer un compte artiste",
-      "footnote": "Cochez « Compte artiste dédié » à l'inscription, ou inscrivez-vous depuis cette page — nous le présélectionnons."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Pour artistes numériques et créateurs d'OC",
-      "title": "Hébergement de cartes de profil et ref sheets pour artistes Art Fight",
-      "subtitle": "Téléversez votre carte Team Tragedy, Comedy ou Mystery — URL d'image stable plus codes embed HTML et BBCode pour les profils Art Fight, Discord et vos publications « prêt à combattre ».",
-      "artistAccountLine": "Créez un compte artiste dédié pour des outils embed professionnels dans le tableau de bord.",
-      "cta": "Déposez votre carte ci-dessous → copiez le lien → collez-le où vous déclarez votre équipe",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Hébergement de cartes",
-      "tabArtist": "Compte artiste",
-      "tabSupport": "Support artiste",
-      "tabsAriaLabel": "Points forts Art Fight",
-      "trustLine": "Téléversement rapide gratuit · URL et codes embed · Tableau de bord artiste",
-      "uploadCta": "Téléverser une carte",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Codes embed prêts à coller",
-      "panelIntroDesc": "Téléversez une carte une fois, puis copiez le lien direct ou le HTML/BBCode pour Art Fight et Discord.",
-      "panelArtistTitle": "Outils du compte artiste",
-      "panelSupportTitle": "Support dédié aux artistes",
-      "panelSupportDesc": "Téléversements, embeds, comptes et forfaits — de vraies personnes, pas une file d'attente générique."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Le même outil pour chaque équipe Art Fight",
-      "lead": "Tragedy, Comedy ou Mystery — une fois la carte terminée, il vous faut une chose : un lien d'image rapide et stable à partager.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Cartes et ref sheets aux tons bleus — hébergez l'image complète et collez le lien sur votre profil Art Fight ou votre publication Twitter/X.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Cartes aux tons orange et chauds — parfaites pour les annonces Discord et les embeds de profil en pleine période Art Fight.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Cartes violettes de la troisième faction — même flux de téléversement, mêmes codes embed, prêtes quand vous voulez partager.",
-      "footnote": "Les trois équipes : téléverser → copier l'URL ou l'embed → publier votre carte."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Où les artistes collent le lien",
-      "lead": "Art Fight, c'est social. Votre lien hébergé accompagne chaque mise à jour de profil et chaque publication « je suis dans cette équipe ».",
-      "profileTitle": "Profil Art Fight",
-      "profileDesc": "Collez l'URL directe ou l'embed HTML dans votre profil officiel de personnage Art Fight pour que l'équipe voie votre carte.",
-      "socialTitle": "Twitter / X et réseaux sociaux",
-      "socialDesc": "Partagez votre carte en déclarant votre équipe — un lien HTTPS propre se charge vite dans les fils et les réponses.",
-      "discordTitle": "Discord et serveurs d'artistes",
-      "discordDesc": "Publiez l'URL ou le BBCode dans les Discord Art Fight, les intros de serveur ou les fils de plan d'attaque.",
-      "portfolioTitle": "Toyhouse et sites portfolio",
-      "portfolioDesc": "Le même lien sur Toyhouse, Carrd ou les signatures de forum — ref cohérente partout."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Pourquoi les artistes Art Fight choisissent Photo To URL",
-      "fastTitle": "Conçu pour les périodes intenses d'Art Fight",
-      "fastDesc": "Téléversez quand vous devez publier — lien CDN en quelques secondes pendant l'échauffement, le pic de l'événement ou à tout moment.",
-      "linkTitle": "URLs adaptées aux cartes de profil",
-      "linkDesc": "Liens .png/.jpg propres acceptés par les profils Art Fight, forums et publications sociales sans étapes supplémentaires.",
-      "embedTitle": "HTML et BBCode pour artistes",
-      "embedDesc": "Copiez des extraits embed pour profils et forums — pas de modification manuelle des balises img en pleine saison.",
-      "safeTitle": "Hébergement dans le tableau de bord après connexion",
-      "safeDesc": "Les utilisateurs inscrits enregistrent leurs cartes dans le tableau de bord — recopiez les liens, recherchez les fichiers et gérez les téléversements."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Compte artiste : hébergez vos cartes dans le tableau de bord",
-      "sectionLead": "Les téléversements anonymes conviennent pour une publication rapide. Inscrivez-vous comme artiste Art Fight pour un tableau de bord dédié avec outils embed — ou passez à Pro pour le téléversement par lots et des limites plus élevées.",
-      "dashboardTitle": "Hébergement photo dans le tableau de bord",
-      "dashboardDesc": "Après connexion, chaque téléversement est enregistré dans le tableau de bord. Recopiez le même lien, ouvrez l'image dans un nouvel onglet ou téléchargez l'original — le tout depuis une seule liste.",
-      "batchTitle": "Téléversement par lots (Pro)",
-      "batchDesc": "Plusieurs cartes à la fois depuis le tableau de bord — jusqu'à {monthlyMax} par lot avec Pro mensuel, ou {yearlyMax} avec Premium annuel.",
-      "manageTitle": "Recherche et mur photo",
-      "manageDesc": "Retrouvez toute carte hébergée par nom de fichier, basculez entre vue tableau et mur photo, supprimez ce dont vous n'avez plus besoin.",
-      "proTitle": "Limites plus élevées et fichiers plus volumineux",
-      "proDesc": "Tout le forfait gratuit, plus téléversement par lots ({monthlyMax}–{yearlyMax} fichiers), limites quotidiennes plus élevées, téléversements plus volumineux et plus de stockage.",
-      "anonymousLabel": "Anonyme",
-      "anonymousDesc": "Lien rapide pour une publication. Non enregistré dans votre compte ; peut être supprimé à tout moment.",
-      "freeLabel": "Compte gratuit",
-      "freeDesc": "Cartes enregistrées dans le tableau de bord. Recopiez les liens, recherchez et gérez jusqu'à suppression ou limite de stockage.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Créer un compte gratuit",
-      "loginCta": "Se connecter",
-      "dashboardCta": "Ouvrir le tableau de bord",
-      "proCta": "Voir les forfaits Pro",
-      "ctaPanelTitle": "Prêt à héberger vos cartes ?",
-      "footnote": "Les comptes gratuits téléversent ici et gèrent les fichiers dans le tableau de bord. Le téléversement par lots nécessite Pro ou Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Téléversez votre carte de profil Art Fight",
-      "sectionLead": "Ref sheet, carte d'équipe ou visuel de profil complet — glissez-la ici et copiez le lien pour votre prochaine publication.",
-      "dropzoneTitle": "Déposez votre carte de profil ou ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP ou GIF — cartes d'équipe, ref sheets et visuels de personnage bienvenus",
-      "dropzoneFootnote": "Gratuit : 5 téléversements/jour sans inscription. Connectez-vous pour des limites plus élevées.",
-      "defaultAlt": "Carte de profil Art Fight",
-      "resultTitle": "Votre carte est prête — partagez-la",
-      "resultHint": "Copiez l'URL pour les profils Art Fight, ou HTML/BBCode pour forums et Discord.",
-      "open": "Ouvrir l'image",
-      "reset": "Téléverser une autre carte",
-      "errorBadType": "Veuillez téléverser un fichier image (PNG, JPG, WEBP ou GIF).",
-      "errorGeneric": "Échec du téléversement. Veuillez réessayer.",
-      "loginRequiredTitle": "Limite gratuite quotidienne atteinte",
-      "loginRequiredDescription": "Connectez-vous pour continuer à téléverser des cartes et les enregistrer dans le tableau de bord, ou revenez demain pour plus de téléversements gratuits.",
-      "loginRequiredDetail": "Utilisateurs inscrits : hébergement dans le tableau de bord — chaque carte reste dans votre compte, recopiez les liens, recherchez par nom de fichier et gérez tout au même endroit.",
-      "retentionAnonymousTitle": "Lien anonyme — déconseillé pour les cartes importantes",
-      "retentionAnonymousBody": "Téléversements anonymes pour partage rapide uniquement. Lien actif maintenant mais non enregistré. Compression, CDN lent et nettoyage périodique possibles — inscrivez-vous gratuitement pour les embeds et un hébergement fiable.",
-      "retentionAnonymousSignUp": "Créer un compte gratuit",
-      "retentionAnonymousPro": "Voir les forfaits Pro",
-      "retentionFreeTitle": "Ce lien est enregistré dans votre compte",
-      "retentionFreeBody": "Vous pouvez le recopier à tout moment depuis le tableau de bord. Les comptes gratuits ont des limites quotidiennes et de stockage — suffisant pour des cartes occasionnelles, mais pas illimité.",
-      "retentionFreeDashboard": "Ouvrir le tableau de bord",
-      "retentionFreeUpgrade": "Plus de stockage",
-      "retentionProTitle": "Votre carte de profil est hébergée avec votre forfait Pro",
-      "retentionProBody": "Limites de téléversement plus élevées, plus de stockage et liens fiables pour chaque Art Fight — Tragedy, Comedy ou Mystery.",
-      "retentionProDashboard": "Ouvrir le tableau de bord",
-      "resultHintAnonymous": "Téléversement anonyme — lien direct uniquement. Inscrivez-vous pour débloquer les codes embed HTML, BBCode et Markdown.",
-      "retentionAnonymousIntro": "Ce lien direct convient pour un partage rapide, mais l’hébergement anonyme a de sérieuses limites :",
-      "retentionAnonymousLimit1": "Non lié à votre compte — moins sécurisé ; toute personne avec le lien peut voir l’image",
-      "retentionAnonymousLimit2": "CDN plus lent — pas d’accélération prioritaire pour les téléversements anonymes",
-      "retentionAnonymousLimit3": "Compression possible — qualité d’origine non garantie",
-      "retentionAnonymousLimit4": "Durée limitée — fichiers anonymes nettoyés régulièrement ; le lien peut cesser de fonctionner",
-      "retentionAnonymousLimit5": "Codes embed verrouillés — HTML, BBCode et Markdown nécessitent un compte gratuit",
-      "retentionAnonymousCta": "Créez un compte gratuit pour enregistrer vos cartes, débloquer les embeds, un CDN plus rapide et des liens plus fiables."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Texte alternatif (pour HTML et Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Copier le code",
-      "copied": "Copié",
-      "lockedTabTitle": "Inscrivez-vous pour débloquer les embeds",
-      "lockedTabDescription": "HTML, BBCode et Markdown disponibles après inscription. Comptes gratuits : tableau de bord et copie embed en un clic.",
-      "lockedTabCta": "Créer un compte gratuit"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "De la carte de profil à la publication publique",
-      "lead": "Le flux que suit chaque artiste Art Fight après avoir terminé sa carte.",
-      "schemaName": "Comment héberger une carte Art Fight avec code embed",
-      "schemaDescription": "Téléversez une carte d'équipe Art Fight sur Photo To URL et collez le lien sur votre profil ou publication sociale.",
-      "step1Title": "Téléversez votre carte d'équipe",
-      "step1Desc": "Déposez votre carte ou ref sheet Tragedy, Comedy ou Mystery — lien direct et codes embed instantanément.",
-      "step2Title": "Copiez l'URL ou le code embed",
-      "step2Desc": "Onglet URL pour les profils Art Fight, HTML/BBCode pour Discord, forums et sites portfolio.",
-      "step3Title": "Publiez et déclarez votre équipe",
-      "step3Desc": "Collez le lien sur Art Fight, Twitter/X ou Discord pour que d'autres artistes voient votre carte et vous trouvent pendant l'événement."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "FAQ artistes Art Fight",
-      "lead": "Questions d'artistes qui téléversent des cartes Team Tragedy, Comedy et Mystery.",
-      "warningTitle": "Téléversez de façon responsable",
-      "warningBody": "N'hébergez que des œuvres que vous avez créées ou que vous avez le droit clair de partager. Ne téléversez pas de contenu contrefaisant, illégal ou interdit. Vous êtes responsable de chaque fichier téléversé.",
-      "warningTermsLink": "Conditions d'utilisation",
-      "warningPrivacyLink": "Politique de confidentialité",
-      "q1Question": "Pour les cartes de profil ou les ref sheets ?",
-      "q1Answer": "Les deux. Téléversez votre carte complète d'équipe Art Fight, ref sheet de personnage ou tout visuel à lier pour l'événement.",
-      "q2Question": "Est-ce que ça fonctionne pour les trois équipes ?",
-      "q2Answer": "Oui. Team Tragedy, Comedy et Mystery utilisent le même téléversement — nous hébergeons l'image et fournissons un lien partageable.",
-      "q3Question": "Ai-je besoin d'un compte pour téléverser ?",
-      "q3Answer": "Non pour un téléversement rapide. Anonymes : 10 gratuits/jour. Connectez-vous pour enregistrer dans le tableau de bord — recopiez les liens, recherchez et gérez. Pro ajoute le téléversement par lots (20–50 cartes) et des limites plus élevées.",
-      "q8Question": "Puis-je téléverser plusieurs cartes par lots ?",
-      "q8Answer": "Oui, avec un forfait payant. Ouvrez le tableau de bord, Téléversement par lots, sélectionnez plusieurs PNG/JPG/WEBP/GIF — jusqu'à 20 par lot avec Pro mensuel, 50 avec Premium annuel. Gratuit : une à la fois ici ou dans le tableau de bord.",
-      "q4Question": "Mon lien fonctionne-t-il sur Discord et Twitter ?",
-      "q4Answer": "Oui. L'URL HTTPS directe fonctionne dans les publications sociales. Utilisez BBCode là où il est pris en charge.",
-      "q5Question": "Mon lien restera-t-il disponible à long terme ?",
-      "q5Answer": "Cela dépend de la façon dont vous avez téléversé. Les liens anonymes sont temporaires — nettoyage périodique, le lien peut cesser de fonctionner. Les inscrits conservent les fichiers dans le tableau de bord jusqu'à suppression ou limite. Pro est le plus fiable à long terme.",
-      "q6Question": "Puis-je téléverser n'importe quelle image ? Et le droit d'auteur ?",
-      "q6Answer": "Uniquement des images que vous possédez ou que vous êtes autorisé à héberger et partager — vos OCs, commissions avec droit d'hébergement, vos propres créations. Ne téléversez pas de ref sheets d'autres artistes, d'assets officiels Art Fight que vous n'avez pas créés, photos de célébrités, logos ou contenu protégé sans autorisation.",
-      "q7Question": "Quel contenu est strictement interdit ?",
-      "q7Answer": "Jamais de contenu illégal ; matériel sexuellement explicite ou exploiteur (y compris impliquant des mineurs) ; discours haineux, harcèlement ou violence ; logiciels malveillants ou arnaques ; violations de droits d'auteur, marques ou vie privée. Nous pouvons supprimer des fichiers et suspendre l'accès sans préavis."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Support artiste — nous sommes là pour vous aider",
-      "panelVisualTag": "Réponse sous 1–2 jours",
-      "panelVisualQuestion": "L'embed BBCode ne fonctionne pas ?",
-      "panelVisualReply": "Compris — nous vous aidons à résoudre le problème.",
-      "topicEmbed": "Embeds et liens",
-      "topicAccount": "Compte artiste",
-      "topicPlan": "Forfaits et stockage",
-      "topicFeedback": "Idées et retours",
-      "contactHint": "Contactez-nous quand vous voulez — pas de file d'attente.",
-      "contactCta": "Nous contacter",
-      "emailCta": "Nous écrire"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Beaucoup d'OCs ? Téléversement par lots depuis le tableau de bord",
-      "description": "Les artistes Pro téléversent des dizaines de cartes d'un coup, conservent chaque lien dans le tableau de bord et bénéficient de limites quotidiennes et de stockage plus élevés pour toute la liste.",
-      "cta": "Voir les forfaits Pro pour artistes"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

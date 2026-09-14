@@ -3,141 +3,216 @@
 import {
   DropdownMenu,
   DropdownMenuContent,
+  DropdownMenuGroup,
   DropdownMenuItem,
+  DropdownMenuLabel,
   DropdownMenuSeparator,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { LanguageSelectModal } from '@/components/layout/LanguageSelectModal';
-import { useLocaleRouter } from '@/i18n/navigation';
+import {
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  useSidebar,
+} from '@/components/ui/sidebar';
+import { websiteConfig } from '@/config/website';
+import { useLocalePathname, useLocaleRouter } from '@/i18n/navigation';
+import { LOCALES, routing } from '@/i18n/routing';
 import { authClient } from '@/lib/auth-client';
-import { cn } from '@/lib/utils';
-import type { User } from '@/lib/auth-types';
-import { LogOut, Home, Languages, ChevronsUpDown } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import { useLocaleStore } from '@/stores/locale-store';
+import type { User } from 'better-auth';
+import {
+  ChevronsUpDown,
+  Languages,
+  LaptopIcon,
+  LogOut,
+  MoonIcon,
+  SunIcon,
+} from 'lucide-react';
+import { type Locale, useTranslations } from 'next-intl';
+import { useTheme } from 'next-themes';
+import { useParams } from 'next/navigation';
+import { useTransition } from 'react';
 import { toast } from 'sonner';
-import { Routes } from '@/routes';
-import { LocaleLink } from '@/i18n/navigation';
-import { useSidebar } from '@/components/ui/sidebar';
+import { UserAvatar } from '../layout/user-avatar';
 
 interface SidebarUserProps {
   user: User;
+  className?: string;
 }
 
-export function SidebarUser({ user }: SidebarUserProps) {
+/**
+ * User navigation for the dashboard sidebar
+ */
+export function SidebarUser({ user, className }: SidebarUserProps) {
+  const { setTheme } = useTheme();
   const router = useLocaleRouter();
-  const t = useTranslations('common');
-  const [langModalOpen, setLangModalOpen] = useState(false);
-  const { state, isMobile } = useSidebar();
-  const isCollapsed = state === 'collapsed';
-  // 移动端 / 展开侧栏：向上弹出，避免 side=right 把菜单挤到侧栏外
-  const menuSide = isMobile || !isCollapsed ? 'top' : 'right';
-  const avatarInitial = (user.name || user.email || 'U').trim().charAt(0).toUpperCase();
+  const { isMobile } = useSidebar();
+  const pathname = useLocalePathname();
+  const params = useParams();
+  const { currentLocale, setCurrentLocale } = useLocaleStore();
+  const [, startTransition] = useTransition();
+  const t = useTranslations();
+
+  const setLocale = (nextLocale: Locale) => {
+    setCurrentLocale(nextLocale);
+
+    startTransition(() => {
+      router.replace(
+        // @ts-expect-error -- TypeScript will validate that only known `params`
+        // are used in combination with a given `pathname`. Since the two will
+        // always match for the current route, we can skip runtime checks.
+        { pathname, params },
+        { locale: nextLocale }
+      );
+    });
+  };
+
+  const showModeSwitch = websiteConfig.ui.mode?.enableSwitch ?? false;
+  const showLocaleSwitch = LOCALES.length > 1;
 
   const handleSignOut = async () => {
     await authClient.signOut({
       fetchOptions: {
         onSuccess: () => {
+          console.log('sign out success');
+          // TanStack Query automatically handles cache invalidation on sign out
           router.replace('/');
         },
-        onError: () => {
-          toast.error(t('logoutFailed') ?? 'Sign out failed');
+        onError: (error) => {
+          console.error('sign out error:', error);
+          toast.error(t('Common.logoutFailed'));
         },
       },
     });
   };
 
   return (
-    <div
-      className={cn(
-        'ptu-sidebar-user border-t border-slate-200/70 bg-slate-100/95 pt-3 pb-2',
-        /* 铺满 footer 左右/底边，和导航区拉开层次 */
-        '-mx-2 -mb-2',
-        isCollapsed ? 'flex justify-center px-1' : 'px-3'
-      )}
-    >
-      <DropdownMenu modal={false}>
-        <DropdownMenuTrigger className={cn(
-          "flex items-center gap-2 rounded-xl p-1.5 text-sm hover:bg-[#0abab5]/10 dark:hover:bg-[#0abab5]/20 focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 data-[state=open]:outline-none data-[state=open]:ring-0 data-[state=open]:ring-offset-0 cursor-pointer transition-all duration-200 ease-out border-0 outline-none ring-0",
-          isCollapsed ? "w-9 justify-center" : "w-full"
-        )}>
-          {user.image ? (
-            <img
-              src={user.image}
-              alt={user.name ?? 'User'}
-              width={28}
-              height={28}
-              className="h-7 w-7 rounded-full object-cover shrink-0 ring-2 ring-transparent hover:ring-brand-teal/30 transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-0 sm:h-9 sm:w-9"
-            />
-          ) : (
-            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-brand-teal to-emerald-500 text-white font-medium text-sm ring-2 ring-transparent hover:ring-brand-teal/30 transition-all duration-200 ease-out shadow-md hover:shadow-lg hover:shadow-brand-teal/20 shrink-0 sm:h-9 sm:w-9">
-              <span className="leading-none select-none">{avatarInitial}</span>
-            </div>
-          )}
-          <div className={cn(
-            "grid flex-1 text-left text-sm leading-tight",
-            isCollapsed && "hidden"
-          )}>
-            <span className="ptu-sidebar-user-name truncate font-semibold text-slate-900 [html.ptu-theme-technology_&]:text-white" suppressHydrationWarning>{user.name}</span>
-            <span className="truncate text-xs text-slate-500 dark:text-slate-400" suppressHydrationWarning>{user.email}</span>
-          </div>
-          {!isCollapsed && (
-            <ChevronsUpDown className="ptu-sidebar-user-chevrons ml-auto size-4 shrink-0 text-slate-900 [html.ptu-theme-technology_&]:text-white" />
-          )}
-        </DropdownMenuTrigger>
-        <DropdownMenuContent
-          className="ptu-dashboard-user-menu z-[60] w-56 outline-none shadow-xl backdrop-blur-sm bg-white/95 dark:bg-slate-900/95 border border-slate-200/50 dark:border-slate-700/50 animate-in fade-in-0 zoom-in-95 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95"
-          side={menuSide}
-          align="end"
-          sideOffset={8}
-          collisionPadding={12}
-          onCloseAutoFocus={(e) => e.preventDefault()}
-        >
-          <DropdownMenuItem className="cursor-pointer transition-all duration-200 ease-out hover:bg-gradient-to-r hover:from-brand-teal/10 hover:to-emerald-500/10 focus:bg-gradient-to-r focus:from-brand-teal/10 focus:to-emerald-500/10 rounded-md mb-1 mx-1 [&_span]:hover:text-brand-teal [&_span]:transition-colors [&_span]:duration-200" asChild>
-            <LocaleLink href={Routes.Root}>
-              <div className="flex items-center gap-3">
-                <div className="ptu-user-menu-icon-ring flex size-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-brand-teal/20 to-emerald-500/10 shadow-sm">
-                  <Home className="size-[18px] text-brand-teal transition-transform duration-200 hover:scale-110" />
-                </div>
-                <span className="text-slate-700 dark:text-slate-200 font-medium">{t('header.home')}</span>
-              </div>
-            </LocaleLink>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator className="bg-gradient-to-r from-transparent via-slate-200/50 to-transparent dark:via-slate-700/50" />
-          <DropdownMenuItem
-            className="cursor-pointer transition-all duration-200 ease-out hover:bg-gradient-to-r hover:from-brand-teal/10 hover:to-emerald-500/10 focus:bg-gradient-to-r focus:from-brand-teal/10 focus:to-emerald-500/10 rounded-md my-1 mx-1 [&_span]:hover:text-brand-teal [&_span]:transition-colors [&_span]:duration-200"
-            onClick={() => setLangModalOpen(true)}
-          >
-            <div className="flex items-center gap-3">
-              <div className="ptu-user-menu-icon-ring flex size-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-brand-teal/20 to-emerald-500/10 shadow-sm">
-                <Languages className="size-[18px] text-brand-teal transition-transform duration-200 hover:scale-110" />
-              </div>
-              <span className="text-slate-700 dark:text-slate-200 font-medium">{t('switchLanguage')}</span>
-            </div>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator className="bg-gradient-to-r from-transparent via-slate-200/50 to-transparent dark:via-slate-700/50" />
-          <DropdownMenuItem
-            className="cursor-pointer text-red-600 dark:text-red-400 transition-all duration-200 ease-out hover:bg-gradient-to-r hover:from-red-50 hover:to-red-100/50 dark:hover:from-red-900/20 dark:hover:to-red-900/10 focus:bg-gradient-to-r focus:from-red-50 focus:to-red-100/50 dark:focus:from-red-900/20 dark:focus:to-red-900/10 rounded-md mt-1 mx-1 [&_span]:hover:text-red-700 [&_span]:dark:hover:text-red-300 [&_span]:transition-colors [&_span]:duration-200"
-            onClick={async (event) => {
-              event.preventDefault();
-              handleSignOut();
-            }}
-          >
-            <div className="flex items-center gap-3">
-              <div className="ptu-user-menu-icon-ring flex size-8 shrink-0 items-center justify-center rounded-lg bg-red-50 dark:bg-red-900/20 shadow-sm">
-                <LogOut className="size-[18px] text-red-500 transition-transform duration-200 hover:scale-110" />
-              </div>
-              <span className="text-red-600 dark:text-red-400 font-medium">{t('header.signOut')}</span>
-            </div>
-          </DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
+    <SidebarMenu className="border-t pt-4">
+      <SidebarMenuItem>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <SidebarMenuButton
+              size="lg"
+              className="cursor-pointer data-[state=open]:bg-sidebar-accent
+              data-[state=open]:text-sidebar-accent-foreground"
+            >
+              <UserAvatar
+                name={user.name}
+                image={user.image}
+                className="size-8 border"
+              />
 
-      <LanguageSelectModal
-        open={langModalOpen}
-        onClose={() => setLangModalOpen(false)}
-        useDashboardTechAppearance
-      />
-    </div>
+              <div className="grid flex-1 text-left text-sm leading-tight">
+                <span className="truncate font-semibold">{user.name}</span>
+                <span className="truncate text-xs">{user.email}</span>
+              </div>
+              <ChevronsUpDown className="ml-auto size-4" />
+            </SidebarMenuButton>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent
+            className="w-(--radix-dropdown-menu-trigger-width) min-w-56 rounded-lg"
+            side={isMobile ? 'bottom' : 'right'}
+            align="end"
+            sideOffset={4}
+          >
+            <DropdownMenuLabel className="p-0 font-normal">
+              <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
+                <UserAvatar
+                  name={user.name}
+                  image={user.image}
+                  className="size-8 border"
+                />
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-semibold">{user.name}</span>
+                  <span className="truncate text-xs">{user.email}</span>
+                </div>
+              </div>
+            </DropdownMenuLabel>
+
+            {(showModeSwitch || showLocaleSwitch) && <DropdownMenuSeparator />}
+
+            {showModeSwitch && (
+              <DropdownMenuGroup>
+                <DropdownMenuSub>
+                  <DropdownMenuSubTrigger className="cursor-pointer">
+                    <LaptopIcon className="mr-2 size-4" />
+                    <span>{t('Common.mode.label')}</span>
+                  </DropdownMenuSubTrigger>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem
+                      className="cursor-pointer"
+                      onClick={() => setTheme('light')}
+                    >
+                      <SunIcon className="mr-2 size-4" />
+                      <span>{t('Common.mode.light')}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                      className="cursor-pointer"
+                      onClick={() => setTheme('dark')}
+                    >
+                      <MoonIcon className="mr-2 size-4" />
+                      <span>{t('Common.mode.dark')}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                      className="cursor-pointer"
+                      onClick={() => setTheme('system')}
+                    >
+                      <LaptopIcon className="mr-2 size-4" />
+                      <span>{t('Common.mode.system')}</span>
+                    </DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuSub>
+              </DropdownMenuGroup>
+            )}
+
+            {showLocaleSwitch && (
+              <DropdownMenuGroup>
+                <DropdownMenuSub>
+                  <DropdownMenuSubTrigger className="cursor-pointer">
+                    <Languages className="mr-2 size-4" />
+                    <span>{t('Common.language')}</span>
+                  </DropdownMenuSubTrigger>
+                  <DropdownMenuSubContent>
+                    {routing.locales.map((localeOption) => (
+                      <DropdownMenuItem
+                        key={localeOption}
+                        onClick={() => setLocale(localeOption)}
+                        className="cursor-pointer"
+                      >
+                        {websiteConfig.i18n.locales[localeOption].flag && (
+                          <span className="mr-2 text-md">
+                            {websiteConfig.i18n.locales[localeOption].flag}
+                          </span>
+                        )}
+                        <span className="text-sm">
+                          {websiteConfig.i18n.locales[localeOption].name}
+                        </span>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuSubContent>
+                </DropdownMenuSub>
+              </DropdownMenuGroup>
+            )}
+
+            <DropdownMenuSeparator />
+
+            <DropdownMenuItem
+              className="cursor-pointer"
+              onClick={async (event) => {
+                event.preventDefault();
+                handleSignOut();
+              }}
+            >
+              <LogOut className="mr-2 size-4" />
+              {t('Common.logout')}
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </SidebarMenuItem>
+    </SidebarMenu>
   );
 }

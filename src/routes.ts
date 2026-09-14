@@ -1,49 +1,41 @@
+import { websiteConfig } from './config/website';
+
 /**
  * The routes for the application
  */
 export enum Routes {
   Root = '/',
 
-  // Dashboard (workbench shell)
-  Dashboard = '/dashboard',
+  // marketing pages
+  FAQ = '/#faqs',
+  Features = '/#features',
+  Upload = '/#upload',
+  HowToUse = '/#how-to-use',
+  Pricing = '/pricing',
+  Blog = '/blog',
+  About = '/about',
+  Contact = '/contact',
+  CookiePolicy = '/cookie',
+  PrivacyPolicy = '/privacy',
+  TermsOfService = '/terms',
 
-  // Settings (workbench shell)
+  // auth routes
+  Login = '/auth/login',
+  Register = '/auth/register',
+  AuthError = '/auth/error',
+  ForgotPassword = '/auth/forgot-password',
+  ResetPassword = '/auth/reset-password',
+
+  // dashboard routes
+  Dashboard = '/dashboard',
+  AdminUsers = '/admin/users',
   SettingsProfile = '/settings/profile',
   SettingsBilling = '/settings/billing',
   SettingsSecurity = '/settings/security',
   SettingsNotifications = '/settings/notifications',
 
-  // Paywall
-  Paywall = '/paywall',
-  Pricing = '/pricing',
-
-  // tool routes (standalone, no workbench)
-  CircleCrop = '/circle-crop',
-  RoundedCorners = '/rounded-corners',
-  RemoveBackground = '/remove-background',
-  PdfToUrl = '/pdf-to-url',
-  FileToUrl = '/file-to-url',
-  ArtFightImageHosting = '/art-fight-image-hosting',
-
-  // auth routes
-  Login = '/auth/login',
-  Register = '/auth/register',
-  ForgotPassword = '/auth/forgot-password',
-  ResetPassword = '/auth/reset-password',
-
-  // public pages
-  Blog = '/blog',
-  About = '/about',
-  Contact = '/contact',
-  FAQ = '/faq',
-  Bookmarklet = '/bookmarklet',
-  Status = '/status',
-
-  // legal
-  Privacy = '/privacy',
-  Terms = '/terms',
-  Cookie = '/cookie',
-  Impressum = '/impressum',
+  // payment processing
+  Payment = '/payment',
 }
 
 /**
@@ -56,13 +48,16 @@ export const routesNotAllowedByLoggedInUsers = [Routes.Login, Routes.Register];
  */
 export const protectedRoutes = [
   Routes.Dashboard,
+  Routes.AdminUsers,
   Routes.SettingsProfile,
   Routes.SettingsBilling,
   Routes.SettingsSecurity,
   Routes.SettingsNotifications,
+  Routes.Payment,
 ];
 
 /**
  * The default redirect path after logging in
  */
-export const DEFAULT_LOGIN_REDIRECT = Routes.Root;
+export const DEFAULT_LOGIN_REDIRECT =
+  websiteConfig.routes.defaultLoginRedirect ?? Routes.Dashboard;

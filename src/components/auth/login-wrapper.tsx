@@ -1,57 +1,70 @@
 'use client';
 
-import { AuthDialog } from '@/components/auth/auth-dialog';
-import { Routes } from '@/routes';
+import { LoginForm } from '@/components/auth/login-form';
 import {
-  cloneElement,
-  isValidElement,
-  useEffect,
-  useState,
-  type ReactElement,
-  type ReactNode,
-} from 'react';
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { useLocaleRouter } from '@/i18n/navigation';
+import { Routes } from '@/routes';
+import { useEffect, useState } from 'react';
 
 interface LoginWrapperProps {
-  children: ReactNode;
+  children: React.ReactNode;
+  mode?: 'modal' | 'redirect';
+  asChild?: boolean;
   callbackUrl?: string;
 }
 
-/**
- * 导航栏登录入口：点击后打开登录/注册弹框。
- */
-export function LoginWrapper({
+export const LoginWrapper = ({
   children,
-  callbackUrl = Routes.Dashboard,
-}: LoginWrapperProps) {
+  mode = 'redirect',
+  asChild,
+  callbackUrl,
+}: LoginWrapperProps) => {
+  const router = useLocaleRouter();
   const [mounted, setMounted] = useState(false);
-  const [open, setOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  const handleLogin = () => {
+    // append callbackUrl as a query parameter if provided
+    const loginPath = callbackUrl
+      ? `${Routes.Login}?callbackUrl=${encodeURIComponent(callbackUrl)}`
+      : `${Routes.Login}`;
+    console.log('login wrapper, loginPath', loginPath);
+    router.push(loginPath);
+  };
+
+  // this is to prevent the login wrapper from being rendered on the server side
+  // and causing a hydration error
   if (!mounted) {
-    return <>{children}</>;
+    return null;
   }
 
-  const trigger = isValidElement(children)
-    ? cloneElement(children as ReactElement<{ onClick?: (e: React.MouseEvent) => void }>, {
-        onClick: (e: React.MouseEvent) => {
-          (children as ReactElement<{ onClick?: (e: React.MouseEvent) => void }>).props
-            .onClick?.(e);
-          setOpen(true);
-        },
-      })
-    : (
-        <button type="button" onClick={() => setOpen(true)}>
-          {children}
-        </button>
-      );
+  if (mode === 'modal') {
+    return (
+      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+        <DialogTrigger asChild={asChild}>{children}</DialogTrigger>
+        <DialogContent className="sm:max-w-[400px] p-0">
+          <DialogHeader className="hidden">
+            <DialogTitle />
+          </DialogHeader>
+          <LoginForm callbackUrl={callbackUrl} className="border-none" />
+        </DialogContent>
+      </Dialog>
+    );
+  }
 
   return (
-    <>
-      {trigger}
-      <AuthDialog open={open} onOpenChange={setOpen} callbackUrl={callbackUrl} />
-    </>
+    <span onClick={handleLogin} className="cursor-pointer">
+      {children}
+    </span>
   );
-}
+};

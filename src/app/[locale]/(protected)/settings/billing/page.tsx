@@ -1,12 +1,13 @@
-import { PlanCard } from '@/components/settings/billing/plan-card';
-import { StorageUsageCard } from '@/components/settings/billing/storage-usage-card';
+import BillingCard from '@/components/settings/billing/billing-card';
 
+/**
+ * Billing page, show billing information
+ */
 export default function BillingPage() {
   return (
     <div className="flex flex-col gap-8">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        <PlanCard />
-        <StorageUsageCard />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <BillingCard />
       </div>
     </div>
   );

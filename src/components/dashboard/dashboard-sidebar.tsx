@@ -1,6 +1,5 @@
 'use client';
 
-import { AuthBackButton } from '@/components/auth/auth-back-button';
 import { SidebarMain } from '@/components/dashboard/sidebar-main';
 import { SidebarUser } from '@/components/dashboard/sidebar-user';
 import {
@@ -8,118 +7,78 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
   useSidebar,
 } from '@/components/ui/sidebar';
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip';
 import { useSidebarLinks } from '@/config/sidebar-config';
 import { LocaleLink } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
-import { cn } from '@/lib/utils';
 import { Routes } from '@/routes';
+import { useTranslations } from 'next-intl';
 import type * as React from 'react';
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { Logo } from '../layout/logo';
 import { UpgradeCard } from './upgrade-card';
 
+/**
+ * Dashboard sidebar
+ */
 export function DashboardSidebar({
   ...props
 }: React.ComponentProps<typeof Sidebar>) {
+  const t = useTranslations();
   const [mounted, setMounted] = useState(false);
-  const [isTechTheme, setIsTechTheme] = useState(false);
   const { data: session, isPending } = authClient.useSession();
   const currentUser = session?.user;
-  const { state, isMobile } = useSidebar();
+  const { state } = useSidebar();
+  // console.log('sidebar currentUser:', currentUser);
 
   const sidebarLinks = useSidebarLinks();
-  const tCommon = useTranslations('common');
-  const tImages = useTranslations('images');
-  const backLabel = tCommon('header.home');
+  const filteredSidebarLinks = sidebarLinks.filter((link) => {
+    if (link.authorizeOnly) {
+      return link.authorizeOnly.includes(currentUser?.role || '');
+    }
+    return true;
+  });
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  useEffect(() => {
-    if (!mounted) return;
-    const root = document.documentElement;
-    const update = () => setIsTechTheme(root.classList.contains('ptu-theme-technology'));
-    update();
-    const observer = new MutationObserver(update);
-    observer.observe(root, { attributes: true, attributeFilter: ['class'] });
-    return () => observer.disconnect();
-  }, [mounted]);
-
   return (
     <Sidebar collapsible="icon" {...props}>
-      <SidebarHeader
-        className={cn(
-          // 与右侧主顶栏同高 3.5rem；移动端 Sheet 在 portal 外吃不到 --header-height，故写死 h-14
-          'h-14 min-h-14 shrink-0 justify-center gap-0 border-b border-slate-200 px-2 py-0 dark:border-slate-700'
-        )}
-      >
-        <div className="flex h-full w-full items-center gap-2">
-          <LocaleLink
-            href={Routes.Root}
-            className={cn(
-              'ptu-sidebar-brand group flex min-h-0 min-w-0 flex-1 items-center rounded-md text-sidebar-foreground',
-              !isMobile && 'transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground',
-              state === 'collapsed' ? 'justify-center px-0' : 'gap-1 px-2'
-            )}
-          >
-            <div
-              className={cn(
-                'ptu-sidebar-brand-mark relative shrink-0 overflow-hidden rounded-xl',
-                state === 'collapsed' ? 'h-7 w-7' : 'h-9 w-9'
-              )}
+      <SidebarHeader>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton
+              asChild
+              className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
-              <Image
-                src={isTechTheme ? '/icons/light_58x58.png' : '/icons/light_logo.png'}
-                alt={tImages('logoAlt')}
-                width={58}
-                height={58}
-                className="block h-full w-full rounded-xl object-contain"
-                priority
-                unoptimized
-              />
-            </div>
-            <span
-              className={cn(
-                'truncate text-sm font-semibold sm:text-lg',
-                state === 'collapsed' && 'hidden'
-              )}
-            >
-              {tCommon('siteName')}
-            </span>
-          </LocaleLink>
-
-          {state !== 'collapsed' ? (
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <AuthBackButton
-                  size="compact"
-                  ariaLabel={backLabel}
-                  className="mr-0.5 shrink-0"
-                />
-              </TooltipTrigger>
-              <TooltipContent side="right">{backLabel}</TooltipContent>
-            </Tooltip>
-          ) : null}
-        </div>
+              <LocaleLink href={Routes.Root}>
+                <Logo className="size-5" />
+                <span className="truncate font-semibold text-base">
+                  {t('Metadata.name')}
+                </span>
+              </LocaleLink>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
       </SidebarHeader>
 
       <SidebarContent>
-        {!isPending && mounted && <SidebarMain items={sidebarLinks} />}
+        {!isPending && mounted && <SidebarMain items={filteredSidebarLinks} />}
       </SidebarContent>
 
       <SidebarFooter className="flex flex-col gap-4">
+        {/* Only show UI components when not in loading state */}
         {!isPending && mounted && (
           <>
+            {/* show upgrade card if user is not a member, and sidebar is not collapsed */}
             {currentUser && state !== 'collapsed' && <UpgradeCard />}
+
+            {/* show user profile if user is logged in */}
             {currentUser && <SidebarUser user={currentUser} />}
           </>
         )}

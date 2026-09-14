@@ -1,14 +1,33 @@
-import { defineRouting } from "next-intl/routing";
-import nextIntlConfig from "../../next-intl.config";
+import { websiteConfig } from '@/config/website';
+import { defineRouting } from 'next-intl/routing';
 
-export const LOCALES = nextIntlConfig.locales;
-export type AppLocale = (typeof LOCALES)[number];
+export const DEFAULT_LOCALE = websiteConfig.i18n.defaultLocale;
+export const LOCALES = Object.keys(websiteConfig.i18n.locales);
+export type AppLocale = keyof typeof websiteConfig.i18n.locales;
 
+// The name of the cookie that is used to determine the locale
+export const LOCALE_COOKIE_NAME = 'NEXT_LOCALE';
+
+/**
+ * Next.js internationalized routing
+ *
+ * https://next-intl.dev/docs/routing
+ * https://github.com/amannn/next-intl/blob/main/examples/example-app-router/src/i18n/routing.ts
+ */
 export const routing = defineRouting({
-  locales: nextIntlConfig.locales,
-  defaultLocale: nextIntlConfig.defaultLocale,
-  localePrefix: nextIntlConfig.localePrefix,
+  // A list of all locales that are supported
+  locales: LOCALES,
+  // Default locale when no locale matches
+  defaultLocale: DEFAULT_LOCALE,
+  // Auto detect locale
+  // https://next-intl.dev/docs/routing/middleware#locale-detection
+  localeDetection: false,
+  // Once a locale is detected, it will be remembered for
+  // future requests by being stored in the NEXT_LOCALE cookie.
+  localeCookie: {
+    name: LOCALE_COOKIE_NAME,
+  },
+  // The prefix to use for the locale in the URL
+  // https://next-intl.dev/docs/routing#locale-prefix
+  localePrefix: 'as-needed',
 });
-
-export const LOCALE_COOKIE_NAME = "NEXT_LOCALE";
-

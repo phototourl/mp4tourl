@@ -1,24 +1,6 @@
-// https://www.better-auth.com/docs/concepts/typescript#additional-fields
-// Types are inferred from getAuth() return type
-export type Session = {
-  user: {
-    id: string;
-    name: string | null;
-    email: string | null;
-    emailVerified: boolean;
-    image?: string | null;
-    userType?: string | null;
-    createdAt: Date;
-    updatedAt: Date;
-  };
-  session: {
-    id: string;
-    expiresAt: Date;
-    token: string;
-    ipAddress: string | null;
-    userAgent: string | null;
-    userId: string;
-  };
-};
+import type { auth } from './auth';
 
-export type User = Session['user'];
+// https://www.better-auth.com/docs/concepts/typescript#additional-fields
+export type Session = typeof auth.$Infer.Session;
+
+export type User = typeof auth.$Infer.Session.user;

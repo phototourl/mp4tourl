@@ -1,5 +1,3 @@
-'use client';
-
 import { cn } from '@/lib/utils';
 import type { AvatarProps } from '@radix-ui/react-avatar';
 import { User2Icon } from 'lucide-react';
@@ -9,6 +7,15 @@ interface UserAvatarProps extends Omit<AvatarProps, 'children'> {
   image: string | null | undefined;
 }
 
+/**
+ * User avatar component, used in navbar and sidebar
+ * Optimized to prevent layout shifts during image loading
+ *
+ * @param name - The name of the user
+ * @param image - The image of the user
+ * @param props - The props of the avatar
+ * @returns The user avatar component
+ */
 export function UserAvatar({
   name,
   image,
@@ -23,11 +30,13 @@ export function UserAvatar({
       )}
       {...props}
     >
+      {/* Always render fallback to maintain layout */}
       <div className="absolute inset-0 flex items-center justify-center">
         <span className="sr-only">{name}</span>
         <User2Icon className="size-4" />
       </div>
 
+      {/* Image overlay */}
       {image && (
         <img
           alt={name}
@@ -36,6 +45,7 @@ export function UserAvatar({
           className="absolute inset-0 size-full object-cover"
           loading="lazy"
           onLoad={(e) => {
+            // Hide fallback when image loads
             const fallback = e.currentTarget
               .previousElementSibling as HTMLElement;
             if (fallback) {
@@ -43,6 +53,7 @@ export function UserAvatar({
             }
           }}
           onError={(e) => {
+            // Show fallback if image fails
             const fallback = e.currentTarget
               .previousElementSibling as HTMLElement;
             if (fallback) {

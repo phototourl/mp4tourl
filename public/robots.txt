@@ -1,21 +1,10 @@
 User-agent: *
 Allow: /
 
-# Googlebot (Google crawler)
 User-agent: Googlebot
 Allow: /
 
-# Bingbot (Microsoft Bing crawler)
 User-agent: Bingbot
 Allow: /
 
-# Yandex (Russian search engine)
-User-agent: Yandex
-Allow: /
-
-# Yahoo (uses Bing results, but has its own crawler)
-User-agent: Slurp
-Allow: /
-
-# Sitemap
-Sitemap: https://phototourl.com/sitemap.xml
+Sitemap: https://www.mp4tourl.com/sitemap.xml

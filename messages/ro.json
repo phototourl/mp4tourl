@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Poză în URL",
-    "logout": "Deconectare",
-    "logoutFailed": "Deconectarea a eșuat",
-    "switchLanguage": "Schimbă limba",
-    "tagline": "Transformă pozele în linkuri curate și partajabile în câteva secunde",
-    "header": {
-      "home": "Acasă",
-      "blog": "Blog",
-      "subtitle": "Transformă imaginile în linkuri partajabile",
-      "prompt": "Trage, lipește sau încarcă — obține un link instantaneu",
-      "circleCrop": "Foto rotundă",
-      "circleCropNav": "Decupare circulară",
-      "roundedCorners": "Colțuri rotunjite",
-      "removeBackground": "Foto Elimină Fundal",
-      "removeBackgroundNav": "Elimină Fundal",
-      "pricingNav": "Prețuri",
-      "comingSoon": "În curând.",
-      "history": "Istoric încărcări",
-      "login": "Autentificare",
-      "signUp": "Înregistrare",
-      "signOut": "Deconectare",
-      "dashboard": "Dashboard",
-      "settings": "Settings",
-      "tool": "Instrumente",
-      "pdfToUrlNav": "PDF în URL",
-      "fileToUrlNav": "Fișier în URL",
-      "artFightNav": "Carduri de profil"
-    },
-    "history": {
-      "drawerTitle": "Istoric încărcări",
-      "hint": "Se afișează încărcările din ultima săptămână.",
-      "close": "Închide",
-      "empty": "Nicio încărcare momentan.",
-      "copy": "Copiază link",
-      "copied": "Copiat",
-      "open": "Deschide în filă nouă"
-    },
-    "languageSelect": {
-      "title": "Selectați regiunea dvs.",
-      "subtitle": "Selectarea unei regiuni va schimba limba și conținutul.",
-      "close": "Închide"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Transformă pozele în linkuri curate și partajabile.",
-        "line2": "Rapid, simplu, de încredere."
-      },
-      "partners": "Parteneri",
-      "linksTitle": "Resurse",
-      "productsTitle": "Produse",
-      "nav": {
-        "home": "Acasă",
-        "blog": "Blog",
-        "pricing": "Prețuri",
-        "docs": "Documentație",
-        "status": "Stare",
-        "about": "Despre noi",
-        "contact": "Contact"
-      },
-      "legal": {
-        "title": "Legal",
-        "privacy": "Confidențialitate",
-        "terms": "Termeni",
-        "cookie": "Politica de cookie-uri"
-      },
-      "copyright": "© 2025 Photo To URL. Toate drepturile rezervate.",
-      "products": {
-        "editStamp": "Editor de ștampile"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Gratuit",
-      "cdn": "Linkuri CDN",
-      "nosignup": "Fără cont"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Gratuit",
-      "title2": "Poză în URL",
-      "subtitle": "Încarcă poza → obține un link → lipește-l oriunde",
-      "upload": "Încarcă imaginea",
-      "bullet": {
-        "fast": "Partajare rapidă",
-        "direct": "Linkuri directe foto",
-        "nosignup": "Nu necesită înregistrare",
-        "paste": "Lipește din clipboard"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Autentifica-te pentru a continua",
-      "description": "Ai atins limita gratuita de incarcare. Autentifica-te pentru limite mai mari si mai multe functii.",
-      "benefits": "De ce sa te inregistrezi?",
-      "benefit1": "Istoric complet al incarcarilor - organizat, precis si mereu accesibil",
-      "benefit2": "Acces la toate instrumentele premium de editare",
-      "benefit3": "Stocare în cloud cu istoricul încărcărilor",
-      "login": "Autentificare / Înregistrare",
-      "later": "Mai tarziu"
-    },
-    "upgradePrompt": {
-      "title": "Limita zilnica atinsa",
-      "description": "Ai folosit toate incarcarile pentru azi. Revino maine! Mai multe servicii premium vin in curand.",
-      "comingSoon": "Ramai aproape pentru mai multe servicii",
-      "goDashboard": "Vezi",
-      "later": "Mai tarziu"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Demo automat",
-      "idleTitle": "Trage și plasează imaginea ta",
-      "idleSubtitle": "Vezi fluxul: încărcare → link → copiere.",
-      "processing": "Optimizare și încărcare...",
-      "doneTitle": "Gata de partajare",
-      "doneSubtitle": "Linkul tău este gata pentru a fi trimis.",
-      "thanksForWatching": "Mulțumim pentru vizionare"
-    },
-    "upload": {
-      "title": "Trage o poză sau fă clic pentru a alege",
-      "hint": "JPG, PNG, WEBP, GIF până la 2MB (10 încărcări/zi gratuit). Trage, fă clic sau lipește capturi de ecran.",
-      "orDrop": "sau plasează fișierul aici",
-      "samplesTitle": "Nu ai o imagine? Încearcă una dintre acestea:",
-      "policy": "Prin încărcarea unei imagini ești de acord cu <privacy>Politica de Confidențialitate</privacy> și <terms>Termenii de Utilizare</terms>.",
-      "clear": "Șterge"
-    },
-    "result": {
-      "error": "Încărcarea a eșuat. Te rugăm să încerci din nou.",
-      "fileTooLarge": "Fisierul este prea mare. Planul tau permite pana la {maxMb} MB per fisier.",
-      "dailyLimitReached": "Limita zilnică atinsă ({limit} pe zi). Încearcă din nou mâine.",
-      "storageLimitReached": "Depozitare plină ({used} / {limit}). Mai multe opțiuni de stocare vor urma!",
-      "generated": "Link generat:",
-      "open": "Deschide în filă nouă",
-      "placeholder": "Niciun link încă. Încarcă o poză pentru a genera un URL.",
-      "savePrompt": "Salvează linkul în formatul dorit",
-      "copy": "Copiază link",
-      "copied": "Copiat",
-      "saveHint": "Salvează acest link dacă ai nevoie de el mai târziu",
-      "saveHintLoggedIn": "Salvat în panou",
-      "tryPrefix": "Încearcă"
-    },
-    "benefits": {
-      "title": "De ce să alegi Poză în URL",
-      "subtitle": "Viteză, linkuri curate și fără cont necesar. — Încercare gratuită: 10 încărcări/zi, 2MB per fișier",
-      "items": {
-        "fast": {
-          "title": "Partajare rapidă",
-          "desc": "Încarcă și obține un link în câteva secunde, fără pași în plus."
-        },
-        "direct": {
-          "title": "URL-uri directe de imagine",
-          "desc": "Linkuri curate care funcționează în HTML, Markdown și aplicații de chat."
-        },
-        "nosignup": {
-          "title": "Fără înregistrare",
-          "desc": "Încercare gratuită: 5 încărcări/zi, 2MB per fișier — fără înregistrare."
-        }
-      }
-    },
-    "how": {
-      "title": "Cum funcționează",
-      "step1": "1) Adaugă poza (trage, lipește sau alege fișierul).",
-      "step2": "2) O găzduim și îți oferim un link partajabil.",
-      "step3": "3) Copiază și partajează linkul în documente, chat-uri, prototipuri și altele.",
-      "note": "Linkul se deschide rapid în documente și chat-uri — îl poți descărca ca .txt."
-    },
-    "process": {
-      "title": "Flux în trei pași",
-      "subtitle": "Reduce efortul, păstrează CTA vizibil, finalizează în secunde.",
-      "steps": {
-        "1": {
-          "title": "Eliberare sau lipire",
-          "desc": "Trage un fișier, lipește din clipboard sau navighează."
-        },
-        "2": {
-          "title": "Găzduim și returnăm un link",
-          "desc": "URL instantaneu cu controale copiere/deschidere/salvare."
-        },
-        "3": {
-          "title": "Folosește oriunde",
-          "desc": "Folosește în documente, chat-uri, tichete, bloguri sau prototipuri."
-        }
-      }
-    },
-    "features": {
-      "title": "Funcționalități",
-      "subtitle": "Claritate înainte de toate: mai puțin efort, mai multă partajare.",
-      "items": {
-        "cdn": {
-          "title": "Linkuri CDN directe",
-          "desc": "URL-uri curate gata de inserat în Markdown și HTML."
-        },
-        "save": {
-          "title": "Copiază și Salvează",
-          "desc": "Copiază, deschide sau salvează ca fișier .txt cu un singur clic."
-        },
-        "clipboard": {
-          "title": "Prietenos cu clipboard-ul",
-          "desc": "Lipește capturi de ecran direct, fără a mai căuta fișierele."
-        },
-        "errors": {
-          "title": "Sigur și Privat",
-          "desc": "Imagini găzduite în siguranță, cu criptare în tranzit și în repaus."
-        },
-        "nosignup": {
-          "title": "Fără cont",
-          "desc": "Încercare gratuită: 5 încărcări/zi, 2MB per fișier — fără înregistrare."
-        },
-        "r2": {
-          "title": "Găzduire rapidă",
-          "desc": "Linkurile sunt servite prin CDN rapid pentru încărcare rapidă și acces fiabil."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Echipe care economisesc timp cu Poză în URL",
-      "subtitle": "Dovadă socială pentru reducerea riscului și accelerarea adoptării.",
-      "items": {
-        "ops": {
-          "name": "Operațiuni produs",
-          "quote": "Lipim capturi de ecran în tichete fără să blocăm atașamentele. Linkurile rămân curate."
-        },
-        "content": {
-          "name": "Lead conținut",
-          "quote": "Linkurile gata pentru Markdown mențin documentele noastre ordonate și publicabile în minute."
-        },
-        "support": {
-          "name": "Suport",
-          "quote": "Erorile clare și URL-urile instantanee fac ușor să ghidezi clienții în chat."
-        }
-      }
-    },
-    "cta": {
-      "title": "Transformă pozele în linkuri în câteva secunde",
-      "subtitle": "Trage, lipește sau încarcă — copiază linkul și partajează-l oriunde.",
-      "upload": "Încarcă acum",
-      "paste": "Lipește o captură"
-    },
-    "longform": {
-      "title": "De ce Poză în URL îți ajută fluxul de lucru",
-      "p1": "Poză în URL este construit pentru creatori, marketing, suport, operațiuni și oricine are nevoie să convertească poze în linkuri curate și de încredere. Cu un flux direct de încărcare→link, eviți managerii de media grei și nu ai nevoie de autentificare. Linkurile sunt ordonate și ușor de lipit în chat-uri, documente, wiki-uri, rapoarte de bug-uri și tichete. Echipele se mișcă mai repede prin partajarea instantanee a capturilor de ecran· în plus, URL-urile previzibile ajută la automatizare, QA și prototipuri ușoare.",
-      "p2": "Experiența rămâne simplă: eliberează, lipește sau selectează un fișier· obține un link· partajează-l. Fără zgomot, fără reclame deranjante, fără bariere. Te concentrezi pe conținut, noi gestionăm hostingul. Pentru echipele globale, interfața este disponibilă în mai multe limbi menținând textul clar și universal.",
-      "useCases": {
-        "title": "Cazuri de utilizare practice",
-        "items": {
-          "1": "Produs și design: partajează capturi de ecran UI și note rapide fără instrumente grele.",
-          "2": "Suport și QA: atașează capturi de ecran reproducibile în tichete și chat-uri cu linkuri curate.",
-          "3": "Documente și bloguri: încorporează imagini în editori Markdown/HTML/CMS cu URL-uri previzibile.",
-          "4": "Vânzări și CS: partajează capturi de ecran POC sau prezentări prin e-mail sau mesagerie.",
-          "5": "Transfer de inginerie: partajează dovezi și comparații de regresie într-un mod ușor.",
-          "6": "Comunitate și social: lipește linkuri în Discord/Slack/Teams/X/forumuri fără preview-uri grele."
-        }
-      },
-      "flow": {
-        "title": "Cum funcționează fluxul de la cap la capăt",
-        "p1": "1) Alege o imagine: trage și plasează, lipește din clipboard sau navighează. PNG, JPG, WEBP, GIF până la 2MB în planul gratuit (10 încărcări/zi). 2) Încărcăm și returnăm un link direct cu acțiuni de copiere/deschidere/salvare (.txt). 3) Folosește linkul în bloguri, documente, tichete, chaturi, prototipuri și altele.",
-        "p2": "Fiecare pas este gândit pentru claritate: stări vizibile, erori prietenoase și butoane cu confirmare. Când CDN este activat, linkurile sunt servite din domeniul CDN; imaginile tale sunt stocate în siguranță cu criptare securizată."
-      },
-      "best": {
-        "title": "Cele mai bune practici pentru linkuri mai curate",
-        "items": {
-          "1": "Păstrează numele fișierelor semnificative înainte de încărcare· acestea rămân parte din URL și ajută la căutarea viitoare.",
-          "2": "Folosește WEBP sau JPG/PNG optimizate pentru încărcări mai ușoare dacă te aștepți la partajare intensă.",
-          "3": "Copiază linkul direct după generare pentru a evita intrările vechi din clipboard.",
-          "6": "Salvează ca .txt pentru linkuri de text simplu care sunt gata de copiere și utilizare."
-        }
-      },
-      "roadmap": {
-        "title": "Puncte importante ale roadmap-ului",
-        "p1": "Vom integra profund our hosting infrastructure, oferind cote și capacități de gestionare mai prietenoase cu utilizatorul, împreună cu colaborare în echipă opțională, control al accesului și analiză per link. Planificăm să lansăm funcții precum ștergerea cu un clic, stiluri de link predefinite și găleți de stocare la nivel organizațional. Între timp, îmbunătățim și rafinăm continuu subproduse: instrumentul de decupare circulară, instrumentul de colțuri rotunjite și instrumentul de eliminare a fundalului, pentru a face procesarea imaginilor mai convenabilă."
-      },
-      "faq": {
-        "title": "Întrebări frecvente",
-        "items": {
-          "1": {
-            "q": "Este gratuit?",
-            "a": "Da — oferim un plan gratuit. Funcționalitatea de bază încărcare→link este gratuită în limitele gratuite (încărcări zilnice, spațiu total, dimensiune fișier). Pentru a relaxa limitele, alegeți un plan plătit: linkurile sunt găzduite prin CDN cu cote mai mari și limită mai mare pentru dimensiunea fișierului."
-          },
-          "2": {
-            "q": "Ce formate sunt suportate?",
-            "a": "În prezent acceptăm PNG, JPG, WEBP și GIF în limitele actuale de dimensiune. Pot fi adăugate formate suplimentare în funcție de cerere."
-          },
-          "3": {
-            "q": "Pot încorpora în Markdown sau HTML?",
-            "a": "Da. Copiază direct linkul sau salvează-l cu un clic ca .txt și folosește-l unde ai nevoie — Markdown, HTML, documente sau CMS."
-          },
-          "4": {
-            "q": "Țineți fișierele mele publice?",
-            "a": "Linkurile sunt partajabile. Când CDN este activat, fișierele sunt livrate prin domeniul CDN. Dacă stocarea este temporar indisponibilă, afișăm un mesaj clar de întreținere."
-          },
-          "5": {
-            "q": "Vor fi conturi sau echipe?",
-            "a": "Da. Mai întâi ne concentrăm pe încărcare și partajare simple și fiabile; apoi adăugăm gradual spații de echipă, control al accesului și analiză a utilizării."
-          },
-          "6": {
-            "q": "Pot primi rambursare după plată?",
-            "a": "În general nu oferim rambursări cât timp serviciul rămâne disponibil pentru utilizare normală. Dacă nu îl puteți folosi în perioada plătită din cauza unei probleme de partea noastră, vom analiza cazul după verificare și, dacă este cazul, vom conveni cu dvs. pașii următori."
-          },
-          "7": {
-            "q": "Cum anulez reînnoirea?",
-            "a": "Reînnoirea este debitată automat de pe cardul pe care l-ați autorizat. Pentru a opri plățile viitoare, anulați debitul direct sau facturarea recurentă la emitentul cardului (aplicație, internet banking sau serviciu clienți)."
-          },
-          "8": {
-            "q": "Cât timp mai pot folosi serviciul după anulare?",
-            "a": "De obicei puteți continua până la sfârșitul perioadei deja plătite. După aceea nu se mai percepe nimic, iar beneficiile se încheie odată cu acea perioadă."
-          }
-        },
-        "contactNote": "Pentru întrebările de mai sus și altele, folosiți pagina «Contactați-ne» de pe acest site sau scrieți la <email>support@phototourl.com</email>. Ne propunem să răspundem în 1–2 zile lucrătoare."
-      },
-      "about": {
-        "title": "Despre Photo To URL",
-        "p1": "PhotoToURL este un convertor gratuit de imagine în URL și generator de linkuri care vă ajută să încărcați imagini și să generați instant linkuri partajabile. Convertiți ușor JPG, PNG, WEBP și alte formate în URL-uri directe pentru partajare online rapidă.",
-        "p2": "Fie că aveți nevoie de o conversie rapidă photo to URL sau de găzduire gratuită cu linkuri CDN, PhotoToURL este simplu și fiabil. Încărcați imaginea și obțineți un link direct în câteva secunde. Plan gratuit: 10 încărcări/zi, 2MB per fișier — consultați Prețuri pentru limite mai mari."
-      }
-    },
-    "selectRegion": {
-      "title": "Selectați regiunea",
-      "subtitle": "Alegeți limba și regiunea preferată"
-    }
-  },
-  "seo": {
-    "keywords": "fotografie în url,imagine în url,generator link imagine,convertește imagine în link,găzduire imagini gratuită,cdn imagine",
-    "home": {
-      "title": "Convertor Poză în URL | Transformă pozele în linkuri partajabile",
-      "description": "Găzduire gratuită de imagini: convertește pozele în URL-uri partajabile. JPG, PNG, WEBP, GIF până la 2MB, 10 încărcări/zi în planul gratuit. Lipire din clipboard, CDN rapid."
-    }
-  },
-  "images": {
-    "previewAlt": "Previzualizare imagine încărcată",
-    "animatingSampleAlt": "Imagine eșantion folosită în demo încărcare",
-    "sampleThumbAlt": "Imagine eșantion pentru încărcare",
-    "useSampleAria": "Folosește această imagine eșantion",
-    "howIllustrationAlt": "Ilustrație care arată cum funcționează Poză în URL",
-    "heroDropTitle": "Trage o fotografie aici",
-    "heroDropSubtitle": "O vom îmbunătăți și găzdui, apoi vom returna un link curat.",
-    "heroDropBadge": "Trage sau dă clic (JPG/PNG, până la 2MB)",
-    "logoAlt": "Logo Poză în URL"
-  },
-  "circleCrop": {
-    "title": "Foto rotundă",
-    "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil.",
-    "upload": "Încarcă foto",
-    "processing": "Se procesează...",
-    "download": "Descarcă foto circulară",
-    "errorSelectFile": "Selectați un fișier imagine.",
-    "errorUploadFirst": "Încărcați mai întâi o fotografie.",
-    "page": {
-      "title": "Decupare circulară foto - Instrument online gratuit",
-      "description": "Transformă pozele dreptunghiulare în forme circulare perfecte instantaneu, fără înregistrare.",
-      "sectionSubtitle": "Decupeaza orice fotografie intr-un cerc perfect - ideal pentru poze de profil, avatare sociale si proiecte de design."
-    },
-    "seo": {
-      "title": "Instrument de Decupare Circulară | Decupator de Foto Rotunde Gratuit Online",
-      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil și proiecte de design.",
-      "keywords": "decupare imagine circulară, decupare imagine rotundă, instrument decupare circulară, decupare circulară online"
-    },
-    "selectRegion": {
-      "title": "Selectați regiunea",
-      "subtitle": "Alegeți limba și regiunea preferată"
-    }
-  },
-  "roundedCorners": {
-    "title": "Foto cu colțuri rotunjite",
-    "description": "Instrument online gratuit pentru colțuri rotunjite – adăugați ușor colțuri rotunjite la orice fotografie, perfect pentru icoane de aplicații, poze de profil și proiecte de design.",
-    "upload": "Încarcă foto",
-    "download": "Descarcă",
-    "radiusLabel": "Rază (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Se procesează...",
-    "errorUploadFirst": "Încărcați mai întâi o fotografie.",
-    "errorSelectFile": "Selectați un fișier imagine.",
-    "page": {
-      "title": "Foto cu colțuri rotunjite – Instrument online gratuit",
-      "description": "Foto cu colțuri rotunjite este un instrument online gratuit pentru a adăuga colțuri rotunjite la orice fotografie. Creați icoane în stil aplicații, imagini cu margini moi pentru rețelele sociale sau miniaturi cu rază și zoom reglabile. Fără înregistrare – încărcați, ajustați, descărcați.",
-      "sectionSubtitle": "Adauga colturi rotunjite oricarei fotografii - perfect pentru iconite de aplicatii, social media si miniaturi."
-    },
-    "seo": {
-      "title": "Instrument Colțuri Rotunjite | Instrument online gratuit",
-      "description": "Instrument gratuit pentru a adăuga colțuri rotunjite la fotografii – pentru icoane aplicații, poze de profil și proiecte de design.",
-      "keywords": "colțuri rotunjite, imagine colțuri rotunjite, instrument colțuri rotunjite, colțuri rotunjite online"
-    },
-    "selectRegion": {
-      "title": "Selectați regiunea",
-      "subtitle": "Alegeți limba și regiunea preferate"
-    }
-  },
-  "removeBackground": {
-    "title": "Foto Elimină Fundal",
-    "description": "Instrument gratuit online de eliminare a fundalului cu AI, eliminați cu ușurință fundalul din orice fotografie - perfect pentru fotografii de produse, portrete și proiecte de design.",
-    "upload": "Încarcă Fotografie",
-    "download": "Descarcă",
-    "processing": "Se procesează...",
-    "processingModelLoading": "Se încarcă modelul AI, prima utilizare poate dura 10-30 de secunde, vă rugăm să așteptați...",
-    "processingImage": "Se procesează imaginea, vă rugăm să așteptați...",
-    "errorUploadFirst": "Vă rugăm să încărcați mai întâi o fotografie.",
-    "errorSelectFile": "Vă rugăm să selectați un fișier imagine.",
-    "errorProcessing": "Procesarea imaginii a eșuat. Vă rugăm să încercați din nou.",
-    "errorTimeout": "Timp de procesare depășit, imaginea poate fi prea mare sau rețeaua este lentă, vă rugăm să încercați o imagine mai mică sau să încercați din nou mai târziu.",
-    "errorMemory": "Memorie insuficientă, vă rugăm să încercați o imagine mai mică.",
-    "errorGeneric": "Procesarea a eșuat: {error}. Vă rugăm să încercați din nou sau să încercați o altă imagine.",
-    "errorFileTooLarge": "Fișierul imagine este prea mare, vă rugăm să selectați o imagine mai mică de 10MB.",
-    "errorModelLoad": "Nu s-a putut încărca biblioteca modelului AI, vă rugăm să actualizați pagina și să încercați din nou.",
-    "errorPageHidden": "Pagina a fost schimbată, vă rugăm să încărcați din nou imaginea pentru procesare.",
-    "page": {
-      "title": "Foto Elimină Fundal - Instrument Gratuit Online de Eliminare a Fundalului cu AI",
-      "description": "Foto Elimină Fundal este un instrument gratuit online alimentat de AI pentru eliminarea fundalurilor din orice fotografie. Creați imagini PNG transparente instantaneu cu tehnologia noastră avansată de eliminare a fundalului. Perfect pentru fotografii de produse, portrete, comerț electronic și proiecte de design. Nu este necesară înregistrarea - încărcați, procesați și descărcați în secunde.",
-      "sectionSubtitle": "Eliminare fundal cu AI - creeaza PNG-uri transparente din orice fotografie in cateva secunde."
-    },
-    "seo": {
-      "title": "Instrument de Eliminare a Fundalului | Instrument Gratuit Online de Eliminare a Fundalului cu AI",
-      "description": "Instrument gratuit online cu AI pentru eliminarea fundalului din orice fotografie - perfect pentru fotografii de produse, portrete și proiecte de design.",
-      "keywords": "elimină fundal, instrument eliminare fundal, fundal transparent, eliminare fundal cu ai"
-    },
-    "selectRegion": {
-      "title": "Selectează Regiunea",
-      "subtitle": "Alegeți limba și regiunea preferată"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF în URL | Găzduire PDF și linkuri HTTPS partajabile",
-      "description": "Încărcați PDF-uri în contul dvs. și obțineți un link HTTPS stabil — vizualizați, descărcați sau copiați linkul oricând din tabloul de bord al contului.",
-      "keywords": "pdf in url,gazduire pdf,partajare pdf,incarcare pdf,link direct,link document"
-    },
-    "tool": {
-      "heroTitle": "PDF în URL",
-      "heroSubtitle": "Transformați PDF-urile în linkuri HTTPS partajabile asociate contului dvs. După fiecare încărcare, deschideți tabloul de bord pentru a copia linkul, a previzualiza sau a descărca.",
-      "featureFastTitle": "Încărcare rapidă",
-      "featureFastDesc": "Trageți și plasați un PDF sau selectați fișierul — în câteva secunde primiți linkul prin CDN.",
-      "featureHostingTitle": "Găzduire personală",
-      "featureHostingDesc": "Fiecare fișier este stocat în spațiul dvs. cloud și biblioteca de documente — nu un link anonim de unică folosință.",
-      "featureLinkTitle": "Linkuri stabile, partajabile",
-      "featureLinkDesc": "Fiecare încărcare returnează un URL curat de lipit oriunde. Linkul rămâne activ până ștergeți fișierul din tabloul de bord.",
-      "featureDashboardTitle": "Totul într-un singur loc",
-      "featureDashboardDesc": "După autentificare, deschideți tabloul de bord pentru a vedea toate PDF-urile: copiați din nou linkul, deschideți în filă nouă sau descărcați originalul.",
-      "dropzoneTitle": "Trageți PDF-ul aici",
-      "dropzoneHint": "Doar PDF",
-      "dropzoneFootnote": "După încărcare puteți reveni oricând la tabloul de bord pentru a copia linkul sau a descărca fișierul.",
-      "browse": "Alegeți fișierul",
-      "selectedFileLabel": "Fișier selectat",
-      "removeSelectedFile": "Eliminați fișierul",
-      "uploadBtn": "Încărcați și obțineți linkul",
-      "uploading": "Se încarcă…",
-      "loginRequiredTitle": "Conectați-vă pentru a încărca PDF",
-      "loginRequiredDescription": "Conectați-vă mai întâi. Găzduirea este legată de cont; după încărcare puteți copia linkuri, descărca și gestiona totul din tabloul de bord.",
-      "loginRequiredDetail": "După autentificare, fiecare încărcare apare în același loc: copiere link direct cu un clic, deschidere în filă nouă, descărcare originale, căutare și filtrare după tip, ștergere sau reîncărcare — ajută la confidențialitatea documentelor.",
-      "loginCta": "Autentificare",
-      "signUpCta": "Creați cont",
-      "resultTitle": "Linkul dvs. PDF",
-      "resultDashboardHint": "Pentru acest fișier, deschideți tabloul de bord oricând: copiați URL-ul, deschideți în filă nouă sau descărcați PDF.",
-      "dashboardCta": "Deschideți tabloul de bord",
-      "copy": "Copiați linkul",
-      "copied": "Copiat",
-      "open": "Deschideți în filă nouă",
-      "reset": "Încărcați altul",
-      "errorUnauthorized": "Conectați-vă înainte de a încărca PDF.",
-      "errorBadType": "Alegeți un fișier PDF.",
-      "howTitle": "Cum funcționează",
-      "step1Title": "1. Alegeți PDF-ul",
-      "step1Desc": "Selectați un fișier de pe dispozitiv sau trageți-l în zona de încărcare.",
-      "step2Title": "2. Încărcați în bibliotecă",
-      "step2Desc": "Salvăm PDF-ul în cloud și îl afișăm în tabloul de bord, apoi returnăm un URL HTTPS direct.",
-      "step3Title": "3. Partajați și reveniți",
-      "step3Desc": "Partajați linkul prin e-mail sau chat. Deschideți tabloul de bord pentru a copia același link, a-l deschide sau a descărca fișierul."
-    },
-    "page": {
-      "sectionTitle": "Documentele dvs. într-un singur loc",
-      "sectionLead": "Pentru cei care vor găzduire PDF reală cu bibliotecă în spate — încărcați o dată, păstrați în cont și reveniți oricând.",
-      "bullet1": "Fiecare PDF încărcat apare în aceeași listă din tablou pentru a vedea ce ați partajat.",
-      "bullet2": "Găzduire personală: fișiere sub contul dvs., servite prin HTTPS, păstrate în bibliotecă.",
-      "bullet3": "Acțiuni mereu la îndemână: copiere link public, deschidere în browser sau descărcare PDF original.",
-      "bullet4": "Același URL funcționează cât timp există fișierul; după ștergere în tablou, linkul nu mai servește acel fișier.",
-      "footnote": "Ștergeți din tablou fișierele de care nu mai aveți nevoie; linkul încetează să funcționeze."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "Fișier în URL | Documente Office și linkuri HTTPS",
-      "description": "Încărcați fișiere PDF, Word, PowerPoint sau Excel în cont și obțineți un link HTTPS stabil — vizualizați, descărcați sau copiați linkul oricând din tabloul de bord.",
-      "keywords": "fisier in url,link document,partajare office,incarcare docx pptx xlsx,gazduire documente"
-    },
-    "tool": {
-      "heroTitle": "Fișier în URL",
-      "heroSubtitle": "Transformați documentele de birou în linkuri HTTPS partajabile în contul dvs. Formate acceptate: PDF, Word, PowerPoint și Excel.",
-      "featureFastTitle": "Încărcare rapidă",
-      "featureFastDesc": "Trageți sau selectați un fișier acceptat — în câteva secunde primiți linkul prin CDN.",
-      "featureHostingTitle": "Găzduire personală",
-      "featureHostingDesc": "Fiecare încărcare este salvată în cloud și intră în aceeași bibliotecă personală ca încărcările de pe alte pagini.",
-      "featureLinkTitle": "Linkuri stabile, partajabile",
-      "featureLinkDesc": "Fiecare încărcare returnează un URL curat. Linkul rămâne activ până ștergeți fișierul din tabloul de bord.",
-      "featureDashboardTitle": "Totul într-un singur loc",
-      "featureDashboardDesc": "După autentificare, deschideți tabloul de bord pentru a copia din nou linkul, deschide în filă nouă sau descărca.",
-      "dropzoneTitle": "Trageți fișierul aici",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "După încărcare puteți reveni oricând la tabloul de bord pentru a copia linkul sau a descărca fișierul.",
-      "browse": "Alegeți fișierul",
-      "selectedFileLabel": "Fișier selectat",
-      "removeSelectedFile": "Eliminați fișierul",
-      "uploadBtn": "Încărcați și obțineți linkul",
-      "uploading": "Se încarcă…",
-      "loginRequiredTitle": "Conectați-vă pentru a încărca fișiere",
-      "loginRequiredDescription": "Conectați-vă mai întâi. Găzduirea este legată de cont; după încărcare puteți copia linkuri, descărca și gestiona totul din tabloul de bord.",
-      "loginRequiredDetail": "După autentificare, fiecare încărcare apare în același loc: copiere link direct cu un clic, deschidere în filă nouă, descărcare originale, căutare și filtrare după tip, ștergere sau reîncărcare — ajută la confidențialitatea documentelor.",
-      "loginCta": "Autentificare",
-      "signUpCta": "Creați cont",
-      "resultTitle": "Linkul dvs. către fișier",
-      "resultDashboardHint": "Pentru acest fișier, deschideți tabloul de bord oricând: copiați URL-ul, deschideți în filă nouă sau descărcați originalul.",
-      "dashboardCta": "Deschideți tabloul de bord",
-      "copy": "Copiați linkul",
-      "copied": "Copiat",
-      "open": "Deschideți în filă nouă",
-      "reset": "Încărcați altul",
-      "errorUnauthorized": "Conectați-vă înainte de a încărca fișiere.",
-      "errorBadType": "Alegeți un fișier PDF, Word, PowerPoint sau Excel.",
-      "howTitle": "Cum funcționează",
-      "step1Title": "1. Alegeți fișierul",
-      "step1Desc": "Selectați un document acceptat de pe dispozitiv sau trageți-l în zona de încărcare.",
-      "step2Title": "2. Încărcați în bibliotecă",
-      "step2Desc": "Salvăm fișierul în cloud și îl afișăm în tabloul de bord, apoi returnăm un URL HTTPS direct.",
-      "step3Title": "3. Partajați și reveniți",
-      "step3Desc": "Partajați linkul prin e-mail sau chat. Deschideți tabloul de bord pentru a copia același link, a-l deschide sau a descărca fișierul."
-    },
-    "page": {
-      "sectionTitle": "Pe scurt",
-      "sectionLead": "Alegeți fișierul, încărcați și copiați linkul — deschideți tabloul de bord pentru a copia din nou sau a descărca originalul.",
-      "bullet1": "Formate acceptate: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Trageți și plasați sau răsfoiți; la finalul încărcării afișăm un link HTTPS gata de copiat.",
-      "bullet3": "Lipiți linkul în e-mail, chat sau documente — destinatarii îl deschid în browser.",
-      "bullet4": "Fișierele rămân în cont; deschideți tabloul pentru a copia același link sau a descărca originalul.",
-      "bullet5": "Doar PDF? Folosiți și pagina «PDF în URL» pentru un flux mai scurt.",
-      "footnote": "Ștergeți fișierul din tablou când nu mai este necesar; linkul încetează să funcționeze."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Poză în URL",
-      "description": "Articole despre găzduirea fotografiilor, partajarea linkurilor și sfaturi de performanță."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Ultimele articole, tutoriale și perspective despre găzduirea imaginilor, CDN, partajarea linkurilor, decuparea circulară, colțurile rotunjite și eliminarea fundalului.",
-      "stayTuned": "Urmărește ghiduri despre:",
-      "guides": {
-        "1": "Cele mai bune practici pentru conversia imaginii în URL",
-        "2": "Cum să folosești linkuri directe de fotografii în bloguri și documente",
-        "3": "Performanță și cache pentru resurse statice"
-      },
-      "readMore": "Citește mai mult",
-      "min": "min",
-      "backToBlog": "Înapoi la blog",
-      "minRead": "min citire",
-      "author": "Autor",
-      "viewMoreArticles": "Vezi mai multe articole",
-      "tags": "Etichete:",
-      "about": {
-        "title": "Despre echipa Poză în URL",
-        "subtitle": "Echipa editorială",
-        "description": "Construim și menținem Poză în URL și scriem ghiduri practice pentru optimizarea imaginilor și performanța web.",
-        "website": "Site web",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Vezi toate postările"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Cum să convertești o imagine în URL: Un ghid complet",
-        "description": "Învață tot ce trebuie să știi despre conversia imaginilor în URL-uri partajabile. Acest ghid cuprinzător acoperă metode, cele mai bune practici și sfaturi pentru găzduirea imaginilor și partajarea linkurilor.",
-        "content": "# Cum să convertești o imagine în URL: Un ghid complet\n\nConversia imaginilor în URL-uri partajabile a devenit o abilitate esențială în lumea digitală de astăzi. Fie că ești blogger, dezvoltator sau creator de conținut, înțelegerea modului de transformare a imaginilor tale în linkuri directe poate îmbunătăți semnificativ fluxul tău de lucru și capacitățile de partajare a conținutului.\n\n## De ce să convertești imagini în URL-uri?\n\nÎnainte de a ne scufunda în metode, să înțelegem de ce conversia imaginilor în URL-uri este benefică:\n\n### 1. **Partajare ușoară**\nURL-urile directe ale imaginilor îți permit să partajezi imagini instantaneu fără să descarci sau să încarci din nou fișiere. Pur și simplu copiază URL-ul și lipește-l oriunde - în e-mailuri, documente sau postări pe rețelele sociale.\n\n### 2. **Performanță mai bună**\nFolosirea linkurilor directe către imagini reduce încărcarea serverului tău principal. Când imaginile sunt găzduite pe un CDN (Content Delivery Network), se încarcă mai rapid pentru utilizatori din întreaga lume.\n\n### 3. **Flexibilitate**\nURL-urile imaginilor pot fi încorporate în HTML, Markdown sau folosite în API-uri. Această flexibilitate le face perfecte atât pentru dezvoltatori, cât și pentru creatori de conținut.\n\n### 4. **Eficiență de stocare**\nÎn loc să stochezi imagini local, poți folosi soluții de stocare în cloud care oferă URL-uri directe, economisind spațiu valoros pe server.\n\n## Metode de conversie a imaginilor în URL-uri\n\n### Metoda 1: Folosirea serviciului Poză în URL\n\n**Poză în URL** este un serviciu gratuit, prietenos cu utilizatorul, care face conversia imaginii în URL fără efort:\n\n1. **Vizitează site-ul**: Navighează la Poză în URL\n2. **Încarcă-ți imaginea**: Trage și plasează fișierul tău de imagine sau dă clic pentru a naviga\n3. **Obține-ți URL-ul**: Odată încărcată, vei primi un link direct către imaginea ta\n4. **Copiază și folosește**: Copiază URL-ul și folosește-l oriunde ai nevoie\n\n**Avantaje:**\n- ✅ Nu este necesară înregistrarea\n- ✅ Încărcare și procesare rapidă\n- ✅ Linkuri CDN directe pentru performanță optimă\n- ✅ Suport pentru multiple formate de imagine (JPG, PNG, WEBP, GIF)\n- ✅ 10 încărcări/zi, 2MB per fișier\n\n### Metoda 2: Servicii de stocare în cloud\n\nServiciile populare de stocare în cloud oferă găzduire de imagini cu acces direct la URL:\n\n**Google Cloud Storage / AWS S3:**\n- Încarcă imagini în bucket-ul tău\n- Setează permisiunile adecvate\n- Accesează imagini prin URL-uri directe\n- Configurează CDN pentru performanță mai bună\n\n**Avantaje:**\n- Control complet asupra imaginilor tale\n- Soluții de stocare scalabile\n- Infrastructură de nivel profesional\n\n### Metoda 3: Platforme de găzduire imagini\n\nPlatformele dedicate de găzduire imagini oferă servicii specializate:\n\n- **Imgur**: Popular pentru partajare rapidă de imagini\n- **Cloudinary**: Funcții avansate de manipulare a imaginilor\n- **ImageKit**: Optimizat pentru performanță\n\n## Cele mai bune practici pentru URL-uri de imagini\n\n### 1. **Alege formatul potrivit**\n\nDiferite formate de imagine servesc diferitelor scopuri:\n\n- **JPEG**: Cel mai bun pentru fotografii cu multe culori\n- **PNG**: Ideal pentru imagini cu transparență sau margini ascuțite\n- **WEBP**: Format modern care oferă compresie mai bună\n- **GIF**: Perfect pentru imagini animate\n\n### 2. **Optimizează dimensiunea imaginii**\n\nÎnainte de a converti în URL, optimizează-ți imaginile:\n\n- Comprimă imaginile pentru a reduce dimensiunea fișierului\n- Redimensionează imaginile la dimensiuni adecvate\n- Folosește formate moderne precum WEBP când este posibil\n- Echilibrează calitatea și dimensiunea fișierului\n\n### 3. **Folosește CDN pentru performanță mai bună**\n\nRețelele de livrare conținut (CDN) distribuie imaginile tale pe mai multe servere din întreaga lume, asigurând timpi de încărcare rapizi indiferent de locația utilizatorului.\n\n### 4. **Implementează securitatea adecvată**\n\n- Folosește URL-uri HTTPS pentru livrare sigură de imagini\n- Setează permisiuni de acces adecvate\n- Consideră adăugarea unui filigran pentru conținut sensibil\n- Monitorizează utilizarea pentru a preveni abuzurile\n\n## Cazuri de utilizare comune\n\n### Pentru blogeri\n\nBlogerii pot folosi URL-uri de imagini pentru:\n- Încorporarea imaginilor în postările de blog fără a le găzdui local\n- Îmbunătățirea timpilor de încărcare a paginilor\n- Partajarea imaginilor pe multiple platforme\n- Menținerea unei calități consistente a imaginilor\n\n### Pentru dezvoltatori\n\nDezvoltatorii beneficiază de URL-uri de imagini:\n- Reducând încărcarea serverului\n- Simplificând gestionarea imaginilor\n- Permițând încărcarea dinamică a imaginilor\n- Integrând cu API-uri și servicii web\n\n### Pentru comerțul electronic\n\nSite-urile de comerț electronic folosesc URL-uri de imagini pentru:\n- Afișarea eficientă a imaginilor produselor\n- Gestionarea unor cataloage mari de imagini\n- Optimizarea pentru dispozitive mobile\n- Îmbunătățirea performanței paginii de checkout\n\n## Rezolvarea problemelor comune\n\n### Problemă: Linkuri de imagini rupte\n\n**Soluție:**\n- Verifică că URL-ul este corect și accesibil\n- Verifică permisiunile și setările de acces ale imaginilor\n- Asigură-te că serviciul de găzduire este operațional\n- Validează că formatul imaginii este suportat\n\n### Problemă: Timpi de încărcare lenți\n\n**Soluție:**\n- Folosește un CDN pentru livrarea imaginilor\n- Optimizează dimensiunile fișierelor de imagini\n- Alege formate de imagini adecvate\n- Implementează încărcarea leneșă unde este posibil\n\n### Problemă: Imaginea nu se afișează\n\n**Soluție:**\n- Verifică setările CORS (Cross-Origin Resource Sharing)\n- Verifică dacă protocoalele HTTPS/HTTP se potrivesc\n- Asigură-te că sunt setate tipurile MIME corespunzătoare\n- Testează accesibilitatea URL-ului din diferite locații\n\n## Sfaturi avansate\n\n### 1. **Procesare în loturi**\n\nPentru mai multe imagini, consideră:\n- Folosirea API-urilor pentru încărcări automatizate\n- Implementarea scripturilor de conversie în loturi\n- Utilizarea API-urilor de stocare în cloud\n- Configurarea fluxurilor de lucru automatizate\n\n### 2. **Manipulare imagini**\n\nUnele servicii oferă manipulare imagini în timp real:\n- Redimensionarea imaginilor prin parametri URL\n- Aplicarea filtrelor și efectelor\n- Conversia automată a formatelor\n- Decuparea și rotirea imaginilor\n\n### 3. **Analiză și monitorizare**\n\nUrmărește utilizarea imaginilor tale:\n- Monitorizează consumul de lățime de bandă\n- Analizează imaginile populare\n- Urmărește modelele de acces\n- Optimizează pe baza datelor de utilizare\n\n## Concluzie\n\nConversia imaginilor în URL-uri este un proces simplu care oferă numeroase beneficii. Fie că alegi un serviciu simplu precum Poză în URL sau o soluție completă de stocare în cloud, cheia este găsirea metodei care se potrivește cel mai bine nevoilor tale.\n\nAmintește-ți să:\n- ✅ Optimizezi imaginile înainte de încărcare\n- ✅ Alegi formate adecvate\n- ✅ Folosești CDN pentru performanță mai bună\n- ✅ Implementezi măsuri de securitate adecvate\n- ✅ Monitorizezi și optimizezi regulat\n\nUrmând aceste linii directoare, vei putea converti și gestiona eficient imaginile tale ca URL-uri, îmbunătățind atât fluxul tău de lucru, cât și performanța conținutului tău.\n\n## Instrumente conexe\n\n- [Poză în URL](/) - Serviciu gratuit de conversie imagine în URL\n- [Instrument de decupare circulară](/circle-crop) - Creează imagini circulare\n- [Instrument colțuri rotunjite](/rounded-corners) - Adaugă colțuri rotunjite la imagini\n- [Instrument eliminare fundal](/remove-background) - Elimină fundalurile imaginilor cu AI\n\n---\n\n*Ultima actualizare: Decembrie 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Cum să decupezi imagini în formă circulară - Ghid complet",
-        "description": "Transformă orice fotografie într-o imagine circulară perfectă cu instrumentul nostru gratuit de decupare circulară online. Creează imagini rotunde profesionale pentru profiluri, rețele sociale, logo-uri și multe altele în doar câteva secunde.",
-        "content": "# Cum să decupezi imagini în formă circulară - Ghid complet\n\nTransformă orice fotografie într-o imagine circulară perfectă cu instrumentul nostru gratuit de decupare circulară online. Creează imagini rotunde profesionale pentru profiluri, rețele sociale, logo-uri și multe altele în doar câteva secunde.\n\n## Cum să decupezi imagini în formă circulară\n\n### Pasul 1: Încarcă-ți imaginea\nSelectează orice fotografie de pe dispozitivul tău pe care vrei să o decupezi în formă circulară. Instrumentul nostru suportă formatele JPG, PNG, WEBP și GIF. Pur și simplu fă clic pe butonul de încărcare sau trage și plasează fișierul tău de imagine.\n\n### Pasul 2: Plasează-ți imaginea\nAjustează și centrează fotografia ta în zona de decupare circulară. Folosește glisorul de zoom pentru a te concentra pe partea cea mai importantă a imaginii tale și trage pentru a o repoziționa pentru o decupare rotundă perfectă.\n\n### Pasul 3: Descarcă-ți imaginea circulară\nOdată ce ești mulțumit cu poziționarea, fă clic pe \"Decupează și descarcă\" pentru a obține imaginea ta perfect rotunjită. Rezultatul va avea un fundal transparent, făcându-l perfect pentru utilizare oriunde.\n\n## Moduri populare de utilizare a imaginilor decupate circular\n\n### Fotografii de profil\nDecupează fotografii în formă circulară pentru imagini de profil cu aspect profesional pe platforme de rețele sociale precum Facebook, LinkedIn și Instagram. Avatarele circulare creează un aspect modern, lustruit.\n\n### Grafică pentru rețele sociale\nCreează imagini circulare pentru poveștile Instagram, postările Facebook și profilele Twitter care se remarcă din mulțime. Imaginile rotunde adaugă interes vizual și sparg monotonia postărilor pătrate.\n\n### Logo-uri rotunde\nTransformă logo-ul sau imaginile tale de brand în forme perfect rotunde pentru branding consistent pe toate platformele. Logo-urile circulare funcționează deosebit de bine pentru icoane de aplicații și branding pe rețele sociale.\n\n### Fotografii de recomandări\nAfișează recomandări de clienți cu fotografii de profil circulare pentru un aspect curat și profesional. Imaginile rotunde creează consistență vizuală și fac recomandările tale mai atractive.\n\n### Fotografii ale membrilor echipei\nCreează portrete rotunde consistente pentru site-uri web corporative, pagini de echipă și directoare de angajați. Fotografiile circulare uniforme dau paginii tale de echipă un aspect coeziv și profesional.\n\n## Caracteristici ale instrumentului nostru de decupare circulară\n\n- **Decupator de imagini circulare gratuit** - Creează forme circulare din orice imagine fără cost, fără taxe ascunse\n- **Ieșire de înaltă rezoluție** - Descarcă imaginile tale circulare în calitatea lor originală fără compresie\n- **Nu este necesară înregistrarea** - Începe să decupezi imagini în cerc instantaneu, nu este necesară crearea contului\n- **Privat și sigur** - Imaginile tale nu părăsesc niciodată browserul tău, asigurând confidențialitate completă\n- **Interfață ușor de folosit** - Design simplu și intuitiv face crearea imaginilor rotunde fără efort\n- **Funcționează pe toate dispozitivele** - Decupează imagini în formă circulară pe desktop, tabletă sau dispozitive mobile\n- **Fundal transparent** - Toate decupările circulare vin cu fundaluri transparente pentru versatilitate maximă\n- **Previzualizare în timp real** - Vezi exact cum va arăta imaginea ta circulară înainte de descărcare\n\n## Întrebări frecvente despre decuparea circulară a imaginilor\n\n### Cum decupez o imagine în formă circulară?\n\nPur și simplu încarcă imaginea ta în instrumentul nostru, ajusteaz-o în cadrul circular pentru a poziționa corect subiectul și fă clic pe \"Decupează și descarcă\" pentru a obține imaginea ta perfect rotundă. Instrumentul nostru face ușor să decupezi orice imagine în format circular instantaneu fără a avea nevoie de abilități de design.\n\n### Cum fac o fotografie de profil circulară?\n\nÎncarcă fotografia ta în instrumentul nostru de decupare circulară, plasează-ți fața în centrul cadrului circular, apoi descarcă noua ta fotografie de profil rotundă. Este perfectă pentru profilele de rețele sociale care folosesc imagini circulare precum Facebook, LinkedIn sau Instagram.\n\n### Pot decupa fotografii în forme rotunde pe telefonul meu?\n\nDa! Decupatorul nostru de imagini circulare funcționează pe toate dispozitivele, inclusiv smartphone-uri și tablete. Interfața prietenoasă pentru mobile îți permite să creezi cu ușurință decupări circulare de imagini oriunde. Pur și simplu vizitează site-ul nostru din browserul tău mobil - nu este necesară descărcarea aplicației.\n\n### Stocați imaginile pe care le încarc?\n\nNu, nu stocăm niciodată imaginile tale pe serverele noastre. Întregul proces de decupare are loc direct în browserul tău, ceea ce înseamnă că fotografiile tale rămân complet private. Odată ce părăsești pagina, toate datele imaginii sunt eliminate automat.\n\n### Ce formate de imagine pot folosi cu instrumentul de decupare circulară?\n\nInstrumentul nostru funcționează cu toate formatele standard de imagine, inclusiv JPG, PNG, WEBP și GIF. Poți încărca oricare dintre aceste formate și imaginea ta circulară decupată va fi descărcată ca fișier PNG cu transparență în jurul cercului.\n\n### Va avea imaginea mea circulară decupată un fundal transparent?\n\nDa, când descarci imaginea ta decupată, va avea un fundal transparent în jurul cercului. Acest lucru o face perfectă pentru plasarea pe site-uri web, documente sau design-uri unde vrei doar ca porțiunea circulară să fie vizibilă.\n\n### Pot ajusta dimensiunea decupării circulare?\n\nDecuparea circulară menține un raport de aspect perfect 1:1, dar poți mări sau micșora pentru a ajusta cât de mult din imaginea ta apare în cerc. Acest lucru îți permite să te concentrezi pe părți specifice ale imaginii tale menținând forma circulară.\n\n## Sfaturi pentru imagini pentru decupări circulare perfecte\n\n### Centrează-ți subiectul\nPentru cele mai bune rezultate, alege imagini unde subiectul principal este centrat sau poate fi poziționat în centrul cadrului. Acest lucru este deosebit de important pentru fotografii de profil și portrete unde fața ar trebui să fie punctul focal.\n\n### Consideră zona de decupare\nAmintește-ți că colțurile imaginii tale vor fi decupate. Evită imagini unde detaliile importante sunt aproape de marginile fotografiei, deoarece acestea se vor pierde în decuparea circulară.\n\n### Folosește imagini de înaltă rezoluție\nÎnceperea cu imagini de înaltă calitate va rezulta în decupări circulare mai bune. Imaginile de rezoluție mică sau imaginile mici pot apărea pixelate când sunt decupate, așa că folosește imaginile sursă de cea mai înaltă calitate disponibile.\n\n### Atenție la raportul de aspect\nImaginile pătrate funcționează de obicei cel mai bine pentru decuparea circulară. Dacă imaginea ta originală este foarte lată sau înaltă, poți pierde porțiuni semnificative în procesul de decupare. Consideră să decupezi mai întâi la pătrat dacă este necesar.\n\n### Ajustează pentru un cadru optim\nFolosește funcția de poziționare a instrumentului nostru pentru a mări și ajusta imaginea ta. Pentru portrete, încearcă să centrezi fața cu ceva marjă în jur pentru cel mai bun aspect profesional. Pentru produse, centrează articolul principal în cerc.\n\n### Creează seturi consistente\nCând creezi mai multe imagini circulare (precum pentru fotografii de echipă), încearcă să menții un cadru consistent, stiluri de fundal și dimensiuni pentru un aspect coeziv pe toate imaginile.\n\n## Utilizări comune pentru imaginile decupate circular\n\n| Aplicație | Beneficii ale decupării circulare |\n|------------|------------------------|\n| Profile de rețele sociale | Majoritatea platformelor afișează avatare în cercuri - o imagine circulară perfect decupată arată profesional |\n| Fotografii ale membrilor echipei | Creează portrete rotunde consistente pentru site-uri web corporative și directoare |\n| Portofolii online | Imaginile rotunde creează interes vizual și estetică modernă |\n| Cărți de vizită digitale | Fotografiile de profil decupate circular arată mai curat și mai profesionist |\n| Miniaturi de produse | Imaginile rotunde de produse creează un aspect de catalog coeziv |\n| Icoane de aplicații | Icoanele circulare sunt standardul pentru aplicațiile mobile |\n| Recomandări de site web | Fotografiile rotunde ale clienților adaugă credibilitate și atractivitate vizuală |\n\n## De ce să alegi instrumentul nostru de decupare circulară a imaginilor\n\nCând vine vorba de decuparea fotografiilor în cercuri online, instrumentul nostru oferă mai multe avantaje:\n\n- **Procesare instantanee** - Decupează imaginea în formă circulară în secunde fără a aștepta încărcări sau procesare pe server\n- **Cercuri perfecte de fiecare dată** - Instrumentul nostru asigură decupări perfect rotunde cu margini curate și fără distorsiune\n- **Controale intuitive** - Plasează cu ușurință imaginea ta exact cum vrei în cerc cu funcționalități de zoom și tragere\n- **Fără filigrane** - Spre deosebire de alte instrumente de decupare circulară, nu adăugăm filigrane la imaginile tale\n- **Funcționează cu toate tipurile de imagini** - Decupează fotografii, grafică, ilustrații sau orice imagine într-un cerc\n- **Bazat pe browser** - Nu este necesară instalarea software-ului, funcționează direct în browserul tău web\n- **Confidențialitate în primul rând** - Toată procesarea are loc local în browserul tău, imaginile tale nu părăsesc niciodată dispozitivul tău\n\nFie că ai nevoie să decupezi imagini în formă circulară pentru utilizare profesională sau proiecte personale, instrumentul nostru de decupare circulară a fotografiilor gestionează totul cu ușurință. Creează decupări circulare de imagini cu doar câteva clicuri!\n\n## Începe\n\nGata să-ți creezi prima imagine circulară? Vizitează [Instrumentul nostru de Decupare Circulară](/circle-crop) și începe să decupezi astăzi. Este complet gratuit, nu necesită înregistrare și durează doar câteva secunde pentru a crea imagini circulare profesionale.\n\n---\n\n*Ultima actualizare: Ianuarie 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Imagini cu colțuri rotunjite – Ghid",
-        "description": "Adaugă colțuri rotunjite oricărei imagini cu instrumentul gratuit. Potrivit pentru miniaturi, carduri, UI și rețele sociale în câteva secunde.",
-        "content": "# Imagini cu colțuri rotunjite – Ghid\n\nDă colțuri rotunjite oricărei imagini cu instrumentul online gratuit. Potrivit pentru miniaturi, carduri, elemente de interfață și rețele sociale, fără cunoștințe de design.\n\n## Cum rotunjești colțurile unei imagini\n\n### Pasul 1: Încarcă imaginea\nAlege o fotografie de pe dispozitiv. Formate: JPG, PNG, WEBP, GIF. Click sau drag & drop.\n\n### Pasul 2: Setează raza colțului\nFolosește glisorul pentru gradul de rotunjire. Previzualizarea se actualizează în timp real.\n\n### Pasul 3: Descarcă\nApasă \"Descarcă\" pentru a salva imaginea cu colțuri rotunjite și a o folosi în layout, site sau postări.\n\n## Utilizări frecvente\n\n### Miniaturi și carduri\nColțurile rotunjite dau grilelor și cardurilor un aspect curat, modern.\n\n### Rețele sociale și reclame\nImaginile cu colțuri moi ies în evidență în feed și reclame, par mai prietenoase.\n\n### Interfață și aplicații\nIconițele, avatarele și butoanele au des colțuri rotunjite; instrumentul ajută la uniformizarea mai multor imagini.\n\n### Prezentări și documente\nAceeași rază la capturi de ecran și grafice face slide-urile și documentele consistente.\n\n## Ce oferă instrumentul\n\n- **Gratuit și instant** – fără cont, fără filigran; procesare locală în browser, fără limită de utilizare pentru acest instrument\n- **Rază reglabilă** – de la ușor rotunjit la formă de pilulă\n- **Previzualizare în timp real** – vezi rezultatul înainte de descărcare\n- **Confidențialitate** – procesare în browser; nu stocăm imagini\n- **Toate dispozitivele** – PC, tabletă, telefon\n\n## Întrebări frecvente\n\n### Cum rotunjesc colțurile unei foto?\n\nDeschide [Instrumentul colțuri rotunjite](/rounded-corners), încarcă imaginea, setează raza, apasă Descarcă.\n\n### Ce formate sunt suportate?\n\nJPG, PNG, WEBP, GIF. La descărcare rămâne formatul original (sau PNG pentru transparență).\n\n### Funcționează pe telefon?\n\nDa. Instrumentul rulează în browserul de pe mobil și tabletă, fără aplicație.\n\n### Stocați imaginile mele?\n\nNu. Toată procesarea se face în browserul tău; nu stocăm nimic.\n\n## Instrumente conexe\n\n- [Poză în URL](/) – convertește imaginea în link\n- [Decupare circulară](/circle-crop) – creează imagini circulare\n- [Colțuri rotunjite](/rounded-corners) – rotunjire colțuri\n- [Eliminare fundal](/remove-background) – elimină fundalul cu AI\n\n---\n\n*Ultima actualizare: Februarie 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Eliminare fundal – Ghid",
-        "description": "Eliminați fundalul din imagini cu un click folosind instrumentul gratuit cu AI. Decupări curate pentru produse, portrete, logo-uri și altele.",
-        "content": "# Eliminare fundal – Ghid\n\nEliminați fundalul din imagini cu un click folosind instrumentul online gratuit. Decupări curate pentru foto produse, portrete, logo-uri – fără cunoștințe de design.\n\n## Cum eliminați fundalul\n\n### Pasul 1: Încărcați imaginea\nAlegeți o fotografie de pe dispozitiv. Formate: JPG, PNG, WEBP, GIF. Click sau drag & drop.\n\n### Pasul 2: AI elimină fundalul\nInstrumentul detectează subiectul și elimină fundalul. Procesarea durează câteva secunde. Previzualizare în timp real cu fundal transparent.\n\n### Pasul 3: Descărcați\nApăsați \"Descarcă\" pentru a salva imaginea fără fundal. Rezultat PNG cu transparență, pentru design, e-commerce sau rețele sociale.\n\n## Utilizări frecvente\n\n### Foto produse\nDecupări curate pentru magazine online, piețe și reclame. Fundal transparent pentru orice layout.\n\n### Portrete și profiluri\nEliminați fundalul aglomerat din portrete pentru CV, LinkedIn sau profil.\n\n### Logo-uri și grafice\nIzolați logo-uri și grafice din foto sau scanări. PNG transparent pentru overlay și prezentări.\n\n### Rețele sociale și marketing\nImagini care ies în evidență pentru postări, stories și reclame. Decupări transparente pentru orice șablon.\n\n## Ce oferă instrumentul\n\n- **Gratuit și AI** – fără cont, fără filigran; procesare locală în browser, fără limită de utilizare pentru acest instrument\n- **Eliminare cu un click** – detectare automată a subiectului și margini curate\n- **PNG transparent** – gata pentru orice design sau platformă\n- **Confidențialitate** – procesare în browser; nu stocăm imagini\n- **Toate dispozitivele** – PC, tabletă, telefon\n\n## Întrebări frecvente\n\n### Cum elimin fundalul dintr-o foto?\n\nDeschideți [Instrumentul Eliminare fundal](/remove-background), încărcați imaginea. Instrumentul detectează subiectul și elimină fundalul. Previzualizați și descărcați ca PNG transparent.\n\n### Ce formate sunt suportate?\n\nJPG, PNG, WEBP, GIF. Rezultatul se descarcă mereu ca PNG cu fundal transparent.\n\n### Stocați imaginile mele?\n\nNu. Procesarea se face în browserul dvs.; nu stocăm nimic.\n\n### Funcționează pe telefon?\n\nDa. Instrumentul funcționează în browser pe telefon și tabletă.\n\n## Instrumente conexe\n\n- [Poză în URL](/) – imagine în link\n- [Decupare circulară](/circle-crop) – imagini circulare\n- [Colțuri rotunjite](/rounded-corners) – rotunjire colțuri\n- [Eliminare fundal](/remove-background) – elimină fundalul cu AI\n\n---\n\n*Ultima actualizare: Martie 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Documentație pentru Photo To URL."
-    },
-    "page": {
-      "title": "Documentație",
-      "description": "Start rapid: încarcă o imagine și obține un URL direct. Folosește butoanele copiază/deschide sau descarcă linkul în format .txt.",
-      "features": {
-        "title": "Supported features:",
-        "items": {
-          "1": "Suportat: JPG, PNG, WEBP, GIF",
-          "2": "Livrare rapidă prin CDN când stocarea este activată",
-          "3": "Mesaje de mentenanță prietenoase când serviciul nu este disponibil"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Starea serviciului pentru Photo To URL."
-    },
-    "page": {
-      "title": "Stare",
-      "description": "Toate sistemele funcționează normal.",
-      "message": "API-ul de încărcare și linkurile CDN funcționează."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contactați-ne | Photo To URL",
-      "description": "Contactează Photo To URL pentru suport la găzduirea imaginilor, feedback, parteneriat sau raportarea problemelor. Citim fiecare mesaj și încercăm să răspundem în 1-2 zile lucrătoare."
-    },
-    "page": {
-      "title": "Contactați-ne",
-      "introShort": "Ai o întrebare sau feedback? Completează formularul de mai jos și revenim curând.",
-      "orEmail": "Sau trimite-ne un email la",
-      "subtitle": "Suntem aici să te ajutăm cu găzduirea imaginilor, linkuri și orice altceva.",
-      "intro": "Photo To URL este un serviciu gratuit de găzduire imagini care îți transformă fotografiile în linkuri ușor de distribuit. Dacă ai întrebări, sugestii sau întâmpini probleme, ne bucurăm să ne scrii.",
-      "whyTitle": "Pentru ce ne poți contacta",
-      "why1": "Suport tehnic: erori la încărcare, linkuri nefuncționale sau probleme cu instrumentul",
-      "why2": "Feedback și cereri de funcționalități pentru îmbunătățirea serviciului",
-      "why3": "Întrebări despre parteneriat sau colaborare",
-      "why4": "Raportarea abuzului, probleme privind drepturile de autor sau întrebări despre politici",
-      "expectTitle": "La ce să te aștepți",
-      "expectContent": "Citim fiecare mesaj și încercăm să răspundem în 1-2 zile lucrătoare. Pentru urgențe, include un subiect clar și cât mai multe detalii.",
-      "emailHeading": "Contactează-ne prin email",
-      "emailHint": "Trimite-ne un email și revenim cât mai curând posibil.",
-      "email": {
-        "label": "Email",
-        "address": "support@phototourl.com",
-        "cta": "Trimite email"
-      },
-      "form": {
-        "title": "Trimite un mesaj",
-        "description": "Completează formularul de mai jos și revenim cât mai curând posibil.",
-        "name": "Nume",
-        "email": "Email",
-        "message": "Mesaj",
-        "namePlaceholder": "Numele tău",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Mesajul sau întrebarea ta...",
-        "submit": "Trimite mesaj",
-        "submitting": "Se trimite...",
-        "success": "Mesaj trimis cu succes. Vom răspunde cât mai curând posibil.",
-        "minLength": "Numele trebuie să aibă cel puțin 3 caractere.",
-        "maxLengthName": "Numele nu trebuie să depășească 30 de caractere.",
-        "invalidEmail": "Te rugăm să introduci o adresă de email validă.",
-        "minLengthMessage": "Mesajul trebuie să aibă cel puțin 10 caractere.",
-        "maxLengthMessage": "Mesajul nu trebuie să depășească 2000 de caractere.",
-        "invalid": "A apărut o eroare. Te rugăm să încerci din nou."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "Despre noi | Poză în URL",
-      "description": "Aflați mai multe despre Poză în URL - un serviciu gratuit de găzduire imagini care transformă fotografii în linkuri partajabile."
-    },
-    "page": {
-      "title": "Despre noi",
-      "mission": {
-        "title": "Misiunea noastră",
-        "content": "Poză în URL este un serviciu gratuit, rapid și de încredere de găzduire imagini, conceput pentru a ajuta creatori, marketeri și echipe să transforme imagini în linkuri partajabile instant. Credem în simplitate, viteză și confidențialitatea utilizatorilor."
-      },
-      "features": {
-        "title": "Ce oferim",
-        "item1": "Găzduire imagini gratuită cu suport CDN",
-        "item2": "Generare instantanee de linkuri pentru partajare rapidă",
-        "item3": "Suport pentru multiple formate de imagini (JPG, PNG, WEBP, GIF)",
-        "item4": "Încercați fără înregistrare — plan gratuit: 10 încărcări/zi, 2MB per fișier"
-      },
-      "contact": {
-        "title": "Contactați-ne",
-        "text": "Aveți întrebări sau feedback? Contactați-ne la",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Politica de confidențialitate | Poză în URL",
-        "description": "Politica de confidențialitate pentru Poză în URL - Aflați cum colectăm, folosim și protejăm datele dvs."
-      },
-      "page": {
-        "title": "Politica de confidențialitate",
-        "lastUpdated": "Ultima actualizare: mai 2026",
-        "introduction": "La Poză în URL, respectăm confidențialitatea dvs. și suntem dedicați protejării informațiilor dvs. personale. Această Politică de Confidențialitate explică cum colectăm, folosim, dezvăluim și protejăm informațiile dvs. când folosiți serviciul nostru.",
-        "dataCollection": {
-          "title": "Informații pe care le colectăm",
-          "content1": "Când utilizați Poză în URL, putem colecta:",
-          "item1": "Fișiere imagine încărcate și metadate (nume, dimensiune, tip), stocate pe Cloudflare R2 pentru a furniza linkuri partajabile",
-          "item2": "Adresă IP, marcaje temporale ale încărcării și date de utilizare pentru limitarea ratei, securitate și prevenirea abuzurilor",
-          "item3": "Informații despre cont la înregistrare sau autentificare (e-mail, profil OAuth Google, identificatori de sesiune și autentificare)",
-          "item4": "Informații despre abonament și plată procesate de furnizorul nostru Waffo Pancake la achiziționarea unui plan plătit — nu stocăm numere complete de card",
-          "content2": "Dacă ne contactați prin formularul de contact, colectăm informațiile pe care le furnizați (nume, e-mail etc.). De asemenea, folosim cookie-uri conform secțiunii Cookie de mai jos."
-        },
-        "dataUsage": {
-          "title": "Cum folosim informațiile dvs.",
-          "item1": "Pentru a genera și oferi linkuri de imagini partajabile",
-          "item2": "Pentru a preveni abuzul și a aplica limitele de încărcare",
-          "item3": "Pentru a îmbunătăți serviciul nostru și experiența utilizatorului",
-          "item4": "Pentru a respecta obligațiile legale"
-        },
-        "dataStorage": {
-          "title": "Stocarea și păstrarea datelor",
-          "content": "Imaginile încărcate sunt stocate pe stocarea Cloudflare R2. Păstrăm imagini atât timp cât este necesar pentru a oferi serviciul. Imaginile pot fi șterse automat după o perioadă de inactivitate sau din cauza încălcărilor politicii."
-        },
-        "cookies": {
-          "title": "Cookie-uri și tehnologii de urmărire",
-          "content1": "Folosim următoarele tehnologii:",
-          "item1": "Stocare locală: Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
-          "item2": "Google AdSense: Pentru afișarea anunțurilor (folosește cookie-uri pentru personalizarea anunțurilor)",
-          "item3": "Google Analytics: Pentru analiza site-ului web (date anonimizate)",
-          "content2": "Puteți controla cookie-urile prin setările browserului dvs. Cu toate acestea, dezactivarea cookie-urilor poate afecta unele funcționalități ale serviciului nostru."
-        },
-        "personalizedAds": {
-          "title": "Publicitate personalizată și renunțare",
-          "content": "Folosim Google AdSense pentru anunțuri. Google și alți parteneri pot folosi cookie-uri pentru a afișa anunțuri în funcție de vizitele dvs. Puteți renunța la publicitatea personalizată la",
-          "linkAdsSettings": "Setările de anunțuri Google",
-          "content2": "sau pe pagina de renunțare a Network Advertising Initiative",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Servicii terțe",
-          "content1": "Folosim următoarele servicii terțe:",
-          "item1": "Cloudflare R2: Pentru stocarea imaginilor și livrarea CDN",
-          "item2": "Google AdSense: Pentru publicitate (subiect la Politica de Confidențialitate Google)",
-          "item3": "Google Analytics: Pentru analiza site-ului web (subiect la Politica de Confidențialitate Google)",
-          "content2": "Folosim de asemenea Waffo Pancake pentru abonamente și procesarea plăților. Aceste servicii pot colecta informații în conformitate cu propriile lor politici de confidențialitate. Vă încurajăm să le examinați politicile de confidențialitate."
-        },
-        "dataSecurity": {
-          "title": "Securitatea datelor",
-          "content": "Implementăm măsuri tehnice și organizaționale adecvate pentru a vă proteja datele împotriva accesului neautorizat, modificării, dezvăluirii sau distrugerii. Cu toate acestea, nicio metodă de transmisie prin internet nu este 100% sigură."
-        },
-        "yourRights": {
-          "title": "Drepturile dvs.",
-          "content": "Aveți dreptul să:",
-          "item1": "Accesați imaginile dvs. încărcate, datele contului și informațiile asociate",
-          "item2": "Solicitați ștergerea imaginilor dvs.",
-          "item3": "Să vă excludeți din anumite practici de colectare a datelor",
-          "item4": "Să ne contactați cu preocupări privind confidențialitatea"
-        },
-        "children": {
-          "title": "Confidențialitatea copiilor",
-          "content": "Serviciul nostru nu este destinat copiilor sub 13 ani. Nu colectăm în mod conștient informații personale de la copiii sub 13 ani."
-        },
-        "changes": {
-          "title": "Modificări ale acestei Politici de Confidențialitate",
-          "content": "Putem actualiza această Politică de Confidențialitate din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Confidențialitate pe această pagină și actualizarea datei \"Ultima actualizare\"."
-        },
-        "contact": {
-          "title": "Contactați-ne",
-          "text": "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Termenii de utilizare | Poză în URL",
-        "description": "Termenii de utilizare Poză în URL – găzduire imagini, utilizare acceptabilă și răspunderi ale utilizatorului."
-      },
-      "page": {
-        "title": "Termeni și condiții",
-        "lastUpdated": "Ultima actualizare: septembrie 2026",
-        "intro": "Bine ați venit la Poză în URL. Prin accesarea sau utilizarea serviciului nostru de găzduire imagini și generare linkuri (\"Serviciul\"), sunteți de acord să fiți obligat de acești Termeni. Dacă nu sunteți de acord, nu utilizați Serviciul.",
-        "acceptance": {
-          "title": "Acceptarea termenilor",
-          "content": "Prin încărcarea de imagini, generarea de linkuri sau utilizarea Poză în URL confirmați că ați citit, înțeles și acceptat acești Termeni și Politica noastră de confidențialitate. Putem actualiza Termenii; utilizarea continuată după modificări constituie acceptarea Termenilor actualizați."
-        },
-        "serviceDescription": {
-          "title": "Descrierea serviciului",
-          "content": "Poză în URL oferă găzduire imagini gratuită și generare directă de linkuri. Puteți încărca imagini în limitele stabilite (dimensiune, format etc.) și primi linkuri partajabile. Nu garantăm disponibilitate neîntreruptă; Serviciul poate fi modificat, suspendat sau încetat cu sau fără notificare."
-        },
-        "useOfService": {
-          "title": "Utilizarea serviciului",
-          "content": "Puteți folosi Serviciul doar în scopuri legale și în conformitate cu acești Termeni. Sunteți răspunzător pentru utilizare și conținutul încărcat. Nu trebuie să folosiți Serviciul într-un mod care încalcă legea aplicabilă sau drepturile terților."
-        },
-        "userResponsibilities": {
-          "title": "Răspunderile dvs.",
-          "content": "Sunteți de acord: (1) să furnizați informații corecte la cerere; (2) să păstrați utilizarea în conformitate cu legea; (3) să nu încercați să ocoliți securitatea, limitele de rată sau controalele de acces; (4) să nu folosiți Serviciul pentru distribuire malware sau perturbarea Serviciului sau a altor utilizatori."
-        },
-        "prohibitedContent": {
-          "title": "Conținut interzis",
-          "content": "Nu trebuie să încărcați sau să partajați linkuri către conținut ilegal, dăunător, amenințător, abuziv, hărțuitor, defăimător, obscen, invaziv al confidențialității sau proprietății intelectuale sau inacceptabil; care exploatează minori; care promovează violența sau discriminarea; sau care încalcă drepturile terților. Putem elimina conținutul și suspenda sau înceta accesul fără notificare dacă considerăm rezonabil că există încălcare a acestor Termeni sau a legii."
-        },
-        "ipAndContent": {
-          "title": "Proprietate intelectuală și conținutul dvs.",
-          "content": "Păstrați proprietatea asupra imaginilor încărcate. Prin utilizarea Serviciului ne acordați o licență limitată de a stoca, procesa și furniza imaginile dvs. și de a genera și furniza linkuri, în măsura necesară pentru operarea Serviciului. Nu revendicăm proprietatea asupra conținutului dvs. Numele, logo-ul și Serviciul sunt proprietatea noastră intelectuală; nu le puteți folosi fără consimțământul nostru prealabil în scris."
-        },
-        "subscriptions": {
-          "title": "Planuri de abonament",
-          "content": "Photo To URL oferă un nivel gratuit și abonamente plătite (Pro lunar și Premium anual) care cresc limitele de încărcare, dimensiunea fișierului și stocarea. Detalii și prețuri: https://phototourl.com/pricing. Accesul plătit este un serviciu digital și se activează imediat după confirmarea plății."
-        },
-        "billing": {
-          "title": "Facturare și plată",
-          "content": "Furnizând o metodă de plată și abonându-vă la un plan plătit, ne autorizați pe noi și procesatorul de plăți să percepeți recurent taxa de abonament până la anulare, după cum este descris mai jos. Abonamentele se reînnoiesc automat la sfârșitul fiecărei perioade de facturare, dacă nu sunt anulate. Prețurile de la checkout pot exclude taxele, dacă nu se specifică altfel."
-        },
-        "cancellation": {
-          "title": "Anulare și oprirea reînnoirii automate",
-          "content": "Puteți opri taxările viitoare oricând prin:",
-          "item1": "Trimiterea unui e-mail la support@phototourl.com de pe e-mailul contului înregistrat, cu solicitarea de anulare a reînnoirii automate; sau",
-          "item2": "Anularea debitării automate / facturării recurente la emitentul cardului prin banking mobil, online banking sau serviciul clienți.",
-          "effect": "Anularea oprește reînnoirile viitoare. Păstrați beneficiile plătite până la sfârșitul perioadei deja plătite. După aceea nu se mai fac taxe pentru acel abonament, iar beneficiile se încheie odată cu perioada."
-        },
-        "refunds": {
-          "title": "Politica de rambursare",
-          "general": "Deoarece planurile plătite sunt servicii digitale livrate imediat după plată, taxele de abonament sunt în general nerambursabile când Serviciul rămâne disponibil pentru uz normal, cu excepțiile de mai jos sau când legea prevede altfel.",
-          "eligibleTitle": "Când poate fi disponibilă o rambursare",
-          "item1": "Abonați pentru prima dată: în 7 zile de la prima taxare, dacă nu ați folosit substantial funcțiile plătite (de exemplu, o mică parte din cota de încărcare sau stocare).",
-          "item2": "Taxare duplicată sau eronată: rambursare integrală pentru o eroare de facturare verificată care a dus la o taxare dublă.",
-          "item3": "Întrerupere din partea noastră: dacă o întrerupere verificată aflată sub controlul nostru durează 72 de ore sau mai mult în perioada plătită, putem oferi după analiză un credit sau o rambursare proporțională.",
-          "item4": "Drepturi legale: unde legea aplicabilă acordă drept de retragere sau rambursare (de ex. UE/Regatul Unit), aceste drepturi sunt păstrate.",
-          "howTitle": "Cum solicitați o rambursare",
-          "how": "Scrieți la support@phototourl.com cu e-mailul contului, referința plății/tranzacției și motivul. Urmărim să confirmăm în 2 zile lucrătoare și să procesăm rambursările eligibile în 5–10 zile lucrătoare.",
-          "notTitle": "Când rambursările nu sunt disponibile",
-          "not1": "Taxe pentru perioade de abonament deja folosite, cu excepțiile de mai sus.",
-          "not2": "Solicitări de rambursare pentru abonamentul anual (Premium) după mai mult de 30 de zile de la achiziția inițială, cu excepția cazului în care legea cere altfel sau se aplică o întrerupere/taxare dublă eligibilă.",
-          "not3": "Conturi suspendate sau reziliate pentru încălcarea acestor Termeni."
-        },
-        "disclaimer": {
-          "title": "Declinare a garanțiilor",
-          "text": "Serviciul este furnizat \"așa cum este\" și \"așa cum este disponibil\" fără garanții de niciun fel. Nu garantăm că Serviciul va fi neîntrerupt, fără erori sau fără componente dăunătoare. Utilizarea Serviciului este pe propriul dvs. risc."
-        },
-        "limitationOfLiability": {
-          "title": "Limitarea răspunderii",
-          "content": "În măsura maximă permisă de lege, Poză în URL și operatorii săi nu sunt răspunzători pentru daune indirecte, întâmplătoare, speciale, consecvențiale sau punitive sau pentru pierderea de date, profit sau goodwill rezultând din utilizarea sau imposibilitatea de a utiliza Serviciul. Răspunderea noastră totală nu va depăși suma plătită nouă în cele douăsprezece luni anterioare cererii (sau zero dacă nu ați plătit nimic)."
-        },
-        "termination": {
-          "title": "Încetare",
-          "content": "Putem suspenda sau înceta accesul dvs. la Serviciu oricând, cu sau fără motiv sau notificare. Puteți înceta utilizarea oricând. La încetare, dreptul dvs. de utilizare încetează imediat. Dispozițiile care prin natura lor trebuie să supraviețuiască (inclusiv declinare, limitare a răspunderii și legea aplicabilă) rămân în vigoare."
-        },
-        "changes": {
-          "title": "Modificări ale termenilor",
-          "content": "Putem actualiza acești Termeni. Vom publica Termenii revizuiți pe această pagină și vom actualiza data \"Ultima actualizare\". Utilizarea continuată după modificări constituie acceptare. Vă încurajăm să verificați periodic această pagină."
-        },
-        "governingLaw": {
-          "title": "Legea aplicabilă",
-          "content": "Acești Termeni sunt guvernați și interpretați în conformitate cu legile jurisdicției în care operăm, fără a ține cont de principiile conflictului de legi. Orice litigiu va fi rezolvat la instanțele acelei jurisdicții."
-        },
-        "contact": {
-          "title": "Contactați-ne",
-          "text": "Pentru întrebări despre acești Termeni de utilizare, contactați-ne la",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Politica cookie-urilor | Poză în URL",
-        "description": "Politica cookie-urilor pentru Poză în URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
-      },
-      "page": {
-        "title": "Politica cookie-urilor",
-        "lastUpdated": "Ultima actualizare: septembrie 2026",
-        "introduction": "Această Politică de Cookie-uri explică modul în care Poză în URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică. Întrebări: support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Ce sunt cookie-urile",
-          "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe dispozitivul dvs. când vizitați un site web. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze mai eficient și pentru a furniza informații proprietarilor de site-uri web."
-        },
-        "howWeUseCookies": {
-          "title": "Cum folosim cookie-urile",
-          "content": "Folosim cookie-uri în următoarele scopuri:",
-          "item1": "Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
-          "item2": "Pentru a analiza traficul site-ului web și comportamentul utilizatorilor",
-          "item3": "Pentru a afișa anunțuri personalizate"
-        },
-        "typesOfCookies": {
-          "title": "Tipuri de cookie-uri pe care le folosim",
-          "essential": {
-            "title": "Cookie-uri esențiale",
-            "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului web. Ele permit funcționalități de bază precum stocarea preferințelor dvs. de limbă și a istoricului de încărcări."
-          },
-          "analytics": {
-            "title": "Cookie-uri de analiză",
-            "content": "Folosim Google Analytics pentru a analiza modul în care vizitatorii folosesc site-ul nostru web. Aceste cookie-uri colectează informații anonime despre utilizarea site-ului web pentru a ne ajuta să îmbunătățim serviciul nostru."
-          },
-          "advertising": {
-            "title": "Cookie-uri publicitare",
-            "content": "Folosim Google AdSense pentru afișarea anunțurilor. Aceste cookie-uri ajută la livrarea anunțurilor personalizate pe baza comportamentului dvs. de navigare și a intereselor dvs."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Cookie-uri terțe",
-          "content": "Folosim următoarele servicii terțe care pot seta cookie-uri:",
-          "item1": "Google AdSense - Pentru publicitate (subiect la Politica de Confidențialitate Google)",
-          "item2": "Google Analytics - Pentru analiza site-ului web (subiect la Politica de Confidențialitate Google)"
-        },
-        "manageCookies": {
-          "title": "Gestionarea cookie-urilor",
-          "content": "Puteți controla și gestiona cookie-urile prin setările browserului dvs. Majoritatea browserelor vă permit să refuzați sau să acceptați cookie-uri, să ștergeți cookie-urile existente sau să setați preferințe pentru anumite site-uri web. Cu toate acestea, dezactivarea cookie-urilor poate afecta funcționalitatea serviciului nostru."
-        },
-        "changes": {
-          "title": "Modificări ale acestei Politici de Cookie-uri",
-          "content": "Putem actualiza această Politică de Cookie-uri din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Cookie-uri pe această pagină și actualizarea datei \"Ultima actualizare\"."
-        },
-        "contact": {
-          "title": "Contactați-ne",
-          "text": "Dacă aveți întrebări despre această Politică de Cookie-uri, vă rugăm să ne contactați la",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Photo To URL bookmarklet",
-    "description": "Încarcă imagini de pe orice pagină web direct în Photo To URL cu un singur clic! Încercare gratuită: 10 încărcări/zi, 2MB per fișier.",
-    "howItWorks": {
-      "title": "Cum funcționează",
-      "step1": "Deschide orice pagină web cu imagini",
-      "step2": "Apasă pe bookmarklet în bara de marcaje",
-      "step3": "Selectează o imagine din pagină",
-      "step4": "Obține instant URL-ul și copiază-l!"
-    },
-    "installation": {
-      "title": "Instalare",
-      "step1": {
-        "title": "Pasul 1: Copiază codul bookmarklet",
-        "description": "Apasă butonul de mai jos pentru a copia codul bookmarklet în clipboard."
-      },
-      "step2": {
-        "title": "Pasul 2: Adaugă în browserul tău",
-        "description": "Urmează acești pași în funcție de browser:",
-        "chrome": "Chrome/Edge: Apasă Ctrl+Shift+B (Cmd+Shift+B pe Mac) pentru a afișa bara de marcaje, apoi fă clic dreapta pe ea și selectează „Adaugă pagină”. Lipește codul ca URL.",
-        "firefox": "Firefox: Fă clic dreapta pe bara de marcaje și selectează „Marcaj nou”. Lipește codul în câmpul locație.",
-        "safari": "Safari: Activează bara de marcaje (Vizualizare → Afișează bara de marcaje), apoi trage codul în bara de marcaje.",
-        "edge": "Alternativ: creează un marcaj nou, editează-l și înlocuiește URL-ul cu codul copiat."
-      },
-      "step3": {
-        "title": "Pasul 3: Începe să-l folosești!",
-        "description": "Vizitează orice pagină web cu imagini și apasă pe bookmarklet pentru a începe încărcarea!"
-      },
-      "copy": "Copiază codul",
-      "copied": "Copiat!"
-    },
-    "usage": {
-      "title": "Funcționalități",
-      "description": "Bookmarklet oferă următoarele funcții. Fiecare încărcare se numără la limitele planului (Încercare gratuită: 10 încărcări/zi, 2MB per fișier).",
-      "feature1": "Selectează orice imagine din pagina curentă",
-      "feature2": "Încărcare automată în Photo To URL",
-      "feature3": "Obține instant un URL partajabil cu un singur clic"
-    },
-    "note": {
-      "title": "Notă",
-      "content": "Încărcările se numără la cota zilnică (Încercare gratuită: 10 încărcări/zi, 2MB per fișier). Bookmarklet funcționează pe majoritatea site-urilor; politici stricte de securitate (CORS) pot bloca încărcările."
-    }
-  },
-  "AuthPage": {
-    "login": {
-      "welcomeBack": "Bine ai revenit",
-      "email": "E-mail",
-      "password": "Parolă",
-      "signIn": "Autentificare",
-      "signUp": "Înregistrare",
-      "signUpHint": "Nu ai cont?",
-      "forgotPassword": "Ai uitat parola?",
-      "showPassword": "Afișează parola",
-      "hidePassword": "Ascunde parola",
-      "emailRequired": "E-mailul este obligatoriu",
-      "passwordRequired": "Parola este obligatorie",
-      "signInWithGoogle": "Conectare cu Google"
-    },
-    "register": {
-      "createAccount": "Creează un cont",
-      "name": "Nume",
-      "email": "E-mail",
-      "password": "Parolă",
-      "signUp": "Înregistrare",
-      "signInHint": "Ai deja cont?",
-      "namePlaceholder": "Numele tău",
-      "signUpSuccess": "Cont creat cu succes",
-      "signUpWithGoogle": "Înregistrare cu Google",
-      "artFightLabel": "Înregistrează cont de artist dedicat",
-      "artFightHint": "Deblochează instrumentele Panou pentru artiști: copiere embed (URL, HTML, BBCode, Markdown) pentru fiecare card găzduit."
-    },
-    "error": {
-      "title": "Eroare de autentificare",
-      "defaultError": "A apărut o eroare în timpul autentificării.",
-      "backToLogin": "Înapoi la autentificare"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Există deja un cont cu acest e-mail. Te rugăm să folosești alt e-mail.",
-      "INVALID_CREDENTIALS": "E-mail sau parolă incorecte.",
-      "INVALID_EMAIL": "Formatul e-mailului nu este valid.",
-      "INVALID_PASSWORD": "Parola trebuie să aibă cel puțin 6 caractere.",
-      "EMAIL_REQUIRED": "E-mailul este obligatoriu.",
-      "PASSWORD_REQUIRED": "Parola este obligatorie.",
-      "NAME_REQUIRED": "Numele este obligatoriu.",
-      "SERVER_ERROR": "Eroare de server. Te rugăm să încerci mai târziu.",
-      "NETWORK_ERROR": "Eroare de rețea. Te rugăm să verifici conexiunea."
-    },
-    "forgotPassword": {
-      "title": "Am uitat parola",
-      "description": "Introdu adresa de e-mail și îți vom trimite un link pentru resetarea parolei.",
-      "email": "E-mail",
-      "send": "Trimite linkul de resetare",
-      "backToLoginHint": "Îți amintești parola?",
-      "checkEmail": "Dacă există un cont pentru acest e-mail, am trimis un link de resetare. Verifică inboxul.",
-      "emailRequired": "E-mailul este obligatoriu",
-      "error": {
-        "userNotFound": "Nu am găsit niciun cont cu acest e-mail",
-        "tooManyRequests": "Prea multe încercări. Te rugăm să încerci mai târziu",
-        "serverError": "Ceva nu a mers bine. Te rugăm să încerci din nou"
-      }
-    },
-    "resetPassword": {
-      "title": "Resetează parola",
-      "password": "Parolă nouă",
-      "reset": "Resetează parola",
-      "backToLoginHint": "Gata să te autentifici?",
-      "requestNewLink": "Solicită un link nou",
-      "showPassword": "Arată parola",
-      "hidePassword": "Ascunde parola",
-      "minLength": "Parola trebuie să aibă cel puțin 6 caractere",
-      "error": {
-        "expiredToken": "Linkul de resetare a expirat. Solicită unul nou",
-        "invalidToken": "Link de resetare invalid. Solicită unul nou",
-        "missingToken": "Linkul de resetare lipsește sau este incomplet. Solicită unul nou",
-        "tooManyRequests": "Prea multe încercări. Te rugăm să încerci mai târziu",
-        "serverError": "Ceva nu a mers bine. Te rugăm să încerci din nou"
-      }
-    },
-    "orContinueWith": "Sau continuă cu"
-  },
-  "Mail": {
-    "common": {
-      "team": "Echipa {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Salut, {name}.",
-      "body": "Apasă butonul de mai jos pentru a-ți reseta parola Photo To URL. Dacă nu ai solicitat asta, poți ignora acest e-mail.",
-      "resetPassword": "Resetează parola",
-      "subject": "Resetează-ți parola Photo To URL"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Prețuri Simple și Transparente",
-    "description": "Alegeți planul care vi se potrivește cel mai bine cu prețuri simple și transparente",
-    "subtitle": "Alegeți planul care vi se potrivește cel mai bine",
-    "monthly": "Lunar",
-    "yearly": "Anual",
-    "faqTitle": "Întrebări Frecvente",
-    "faq": {
-      "payment": {
-        "q": "Ce metode de plată acceptați?",
-        "a": "Acceptăm toate cardurile de credit principale și PayPal prin intermediul furnizorului nostru securizat de plăți."
-      },
-      "cancel": {
-        "q": "Pot anula abonamentul meu oricând?",
-        "a": "Da, puteți anula oricând. Veți păstra accesul până la sfârșitul perioadei de facturare curente."
-      },
-      "storage": {
-        "q": "Ce se întâmplă cu fișierele mele dacă fac downgrade?",
-        "a": "Fișierele dvs. sunt în siguranță. Dacă depășiți limita de stocare, vă vom notifica în avans. Nimic nu este șters imediat."
-      },
-      "upload": {
-        "q": "Ce se consideră o încărcare?",
-        "a": "Fiecare imagine pe care o încărcați în Photo To URL contează ca o încărcare. Utilizatorii gratuit sunt limitați la 10 încărcări pe zi."
-      }
-    },
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/lună",
-      "perYear": "/an",
-      "popular": "Cel Mai Popular",
-      "bestValue": "Cea Mai Bună Valoare",
-      "currentPlan": "Planul Curent",
-      "yourCurrentPlan": "Planul Dvs. Curent",
-      "getStartedForFree": "Începeți Gratuit",
-      "getLifetimeAccess": "Obțineți Acces pe Viață",
-      "getStarted": "Începeți",
-      "upgradeToYearly": "Treceți la Premium",
-      "cannotDowngrade": "Retrogradarea nu este disponibilă",
-      "alreadySubscribed": "Abonamentul este deja activ",
-      "subscribeYearly": "Abonament anual",
-      "subscribeMonthly": "Abonament lunar",
-      "upgrade": "Actualizați Acum",
-      "notAvailable": "Nu Este Disponibil",
-      "limitedOffer": "Ofertă pe durată limitată · 20% reducere",
-      "savePercentLabel": "Economisești ",
-      "savePercentSuffix": " vs lunar",
-      "freePriceNote": "Gratis pe viață",
-      "monthlyPriceNote": "Facturat lunar",
-      "loading": "Se încarcă...",
-      "suitableFor": "Potrivit pentru:",
-      "activePlanDialog": {
-        "title": "Ai deja un abonament activ",
-        "description": "Acest cont are deja un abonament activ.",
-        "descriptionWithDate": "Acest cont are deja un abonament activ (expiră la {date}).",
-        "close": "Închide",
-        "manageBilling": "Gestionează abonamentul"
-      },
-      "batchUpload": {
-        "label": "Încărcare în lot",
-        "free": "Nu",
-        "monthly": "20",
-        "yearly": "50"
-      },
-      "justPerMonth": "{price}/lună",
-      "saveVsMonthly": "Economisești {percent}%",
-      "monthlyEquivalentShort": "({price}/lună)",
-      "bestValueWithSave": "Cel mai bun · Economisești {percent}%"
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Get Started",
+      "notAvailable": "Not Available",
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Se încarcă...",
-      "checkoutFailed": "Nu s-a putut deschide pagina de plată"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Gratuit",
-      "description": "Perfect pentru a încerca Photo To URL",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Dimensiune încărcare: 2MB",
-        "feature-2": "Încărcări zilnice: 10 ori",
-        "feature-3": "Stocare: 100MB",
-        "feature-4": "CDN: Accelerare de bază",
-        "feature-5": "Fără reclame: Nu",
-        "feature-6": "Hosting documente: Nu",
-        "feature-7": "Hosting fotografii: Nu",
-        "feature-8": "Editare foto: Nu",
-        "feature-9": "Webhook: Nu",
-        "feature-10": "Permisiuni resurse: Nicio una"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Încercați produsul, testați funcțiile"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Profesionist",
-      "description": "Încărcări stabile și găzduire",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Dimensiune încărcare: 50MB",
-        "feature-2": "Încărcări zilnice: 1000 ori",
-        "feature-3": "Stocare: 100GB",
-        "feature-4": "CDN: Accelerare standard",
-        "feature-5": "Fără reclame: Da",
-        "feature-6": "Hosting documente: Da",
-        "feature-7": "Hosting fotografii: Da",
-        "feature-8": "Editare foto: Da",
-        "feature-9": "Webhook: Da",
-        "feature-10": "Permisiuni resurse: Parțiale"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Bloggeri / Dezvoltatori / Echipe mici"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Cote mai mari, CDN mai rapid",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Dimensiune încărcare: 256MB",
-        "feature-2": "Încărcări zilnice: Nelimitat",
-        "feature-3": "Stocare: 200GB",
-        "feature-4": "CDN: Noduri de mare viteză (prioritate)",
-        "feature-5": "Fără reclame: Da",
-        "feature-6": "Hosting documente: Da",
-        "feature-7": "Hosting fotografii: Da",
-        "feature-8": "Editare foto: Da",
-        "feature-9": "Webhook: Da",
-        "feature-10": "Permisiuni resurse: Toate"
-      },
-      "limits": [],
-      "suitableFor": "Întreprinderi / Utilizare frecventă / Sisteme de automatizare"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Panou",
-    "themeToggle": "Temă",
-    "welcome": "Bine ai venit",
-    "loadFailed": "Încărcarea a eșuat. Încearcă din nou mai târziu.",
-    "errorTitle": "Ceva nu a mers bine",
-    "dismiss": "Am înțeles",
-    "dashboard": "Panou",
-    "resources": "Resursele mele",
-    "photos": "Fotografiile mele",
-    "storage": "Depozitare",
-    "used": "Utilizat",
-    "total": "Total",
-    "storageDisplay": "{used} din {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Nelimitat",
-    "deleteConfirm": "Sigur doriți să ștergeți această resursă?",
-    "deleteResource": "Șterge resursa",
-    "deleteFailed": "Ștergerea resursei a eșuat",
-    "delete": "Șterge",
-    "cancel": "Anulează",
-    "copied": "Copiat!",
-    "copy": "Copiază link-ul",
-    "open": "Deschide",
-    "removeBackground": "Eliminare fundal",
-    "noResources": "Nicio resursă. Încarcă câteva imagini pentru a începe.",
-    "files": "fișiere",
-    "dailyUploads": "Încărcări de azi",
-    "today": "azi",
-    "resourcesCount": "Aveți {count} resurse încărcate",
-    "photosCount": "Aveți {count} fotografii încărcate",
-    "resourcePageInfo": "Pagina {page} din {totalPages} · {pageSize} pe pagină · {total} fișiere în total",
-    "resourceTotalCount": "Total: {total} elemente",
-    "resourcePageSizeLabel": "Elemente pe pagină",
-    "resourcePageSizeOption": "{size} pe pagină",
-    "resourceJumpTo": "Mergi la",
-    "resourceJumpPageUnit": "pagina",
-    "resourceJumpInputAria": "Numărul paginii",
-    "resourcePagePrev": "Pagina anterioară",
-    "resourcePageNext": "Pagina următoare",
-    "subtitle": "Iată o prezentare generală a spațiului de lucru.",
-    "planCardTitle": "Plan",
-    "planActive": "Activ",
-    "planNames": {
-      "free": "Gratuit",
-      "premium": "Premium",
-      "pro": "Profesionist"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Actualizați pentru mai mult",
-    "planCardHintAllUpgraded": "Toate funcțiile deblocate",
-    "statStorageHint": "Spațiu utilizat pentru toate încărcările",
-    "statResourcesHint": "Total fotografii + documente",
-    "statPhotosHint": "Fișiere pe care le puteți copia sau partaja ca linkuri",
-    "statUploadsHint": "Reset la fiecare 24 h după nivel",
-    "chartTitle": "Activitate",
-    "chartDescription": "Volum de încărcări în timp",
-    "chartPlaceholder": "Tendințele vor apărea aici odată ce există mai multă activitate.",
-    "chartRange7d": "Ultimele 7 zile",
-    "chartRange30d": "Ultimele 30 de zile",
-    "chartRange90d": "Ultimele 3 luni",
-    "tableFile": "Fișier",
-    "tablePath": "Cale",
-    "tableSize": "Dimensiune",
-    "tableActions": "Acțiuni",
-    "viewTable": "Tabel",
-    "viewGrid": "Perete foto",
-    "chartDemoNote": "Trend încărcări (zile)",
-    "loginRequired": "Conectează-te pentru a vedea tabloul de bord.",
-    "checkoutSuccess": "Plata cu succes! Planul dvs. a fost actualizat.",
-    "subscriptionSuccess": "Abonament activat. Bine ai venit la {plan}!",
-    "circleCrop": "Decupaj circular",
-    "roundedCorners": "Colțuri rotunjite",
-    "scheduledForDeletion": "Programat pentru ștergere",
-    "upload": "Încărcați",
-    "uploadPhoto": "Încărcați o fotografie",
-    "batchUploadPhotos": "Încărcare în lot",
-    "batchUploading": "Se încarcă mai multe fotografii…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Selectați cel mult {max} fișiere odată.",
-    "batchUploadTierHint": "Până la {max} fișiere per lot, conform planului dvs.",
-    "uploadUpgradeHint": "Disponibil după actualizare",
-    "uploading": "Se încarcă...",
-    "loading": "Se încarcă...",
-    "uploadErrorInvalidType": "Tip de fișier nevalid. Folosiți PNG, JPG, WEBP sau GIF.",
-    "uploadErrorTooLarge": "Fisierul este prea mare. Planul tau permite pana la {maxMb} MB per fisier.",
-    "uploadErrorDailyLimit": "Limită zilnică atinsă ({limit} încărcări/zi).",
-    "uploadErrorStorageLimit": "Limită de stocare atinsă.",
-    "uploadErrorGeneric": "Încărcarea a eșuat. Reîncercați.",
-    "uploadUpgradeTitle": "Deblochează încărcarea directă",
-    "uploadUpgradeDescription": "Fă upgrade ca să încarci direct din dashboard cu limite mai mari.",
-    "uploadRenewDescription": "Reînnoiește abonamentul ca să încarci direct din dashboard cu limite mai mari.",
-    "expiredStorageLimitHint": "După expirare, sunt disponibili doar 100MB de stocare",
-    "uploadGoHome": "Încarcă de pe pagina principală",
-    "resourceModule": {
-      "title": "Documentele mele",
-      "count": "Ai {count} documente încărcate",
-      "empty": "Nu ai încă documente. Încarcă un PDF/Word/PowerPoint/Excel ca să începi.",
-      "viewCard": "Carduri",
-      "searchPlaceholder": "Caută după numele fișierului",
-      "typeAll": "Toate tipurile",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Resetează",
-      "upload": "Încarcă document",
-      "uploading": "Se încarcă...",
-      "copy": "Copiază link-ul",
-      "open": "Deschide",
-      "delete": "Șterge",
-      "deleteFailed": "Nu s-a putut șterge documentul",
-      "fetchError": "Nu s-a putut încărca lista de documente",
-      "tableFile": "Fișier",
-      "tablePath": "Cale",
-      "tableType": "Tip",
-      "typeLabel": "Tip",
-      "tableSize": "Dimensiune",
-      "tableActions": "Acțiuni",
-      "uploadErrorTooLarge": "Fișierul este prea mare. Limita pe fișier din planul tău este {maxSize}.",
-      "uploadErrorDailyLimit": "Ai atins limita zilnică ({limit} încărcări/zi).",
-      "uploadErrorStorageLimit": "Ai atins limita de stocare.",
-      "uploadErrorGeneric": "Încărcarea a eșuat. Încearcă din nou."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Dimensiune fișier {size}",
-    "dailyUploadsLimit": "{limit} încărcări/zi",
-    "dailyUploadsUnlimited": "Încărcări nelimitate",
-    "monthly": "lună",
-    "yearly": "an",
-    "bestValue": "Cel mai bun raport calitate-preț",
-    "upgrade": {
-      "title": "Actualizează planul tău",
-      "description": "Actualizează planul pentru limite zilnice mai mari, fișiere mai mari și funcții premium. Încărcări zilnice nelimitate cu planul Premium anual.",
-      "button": "Actualizează acum"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Setări",
-      "profile": {
-        "title": "Profil",
-        "description": "Gestionați informațiile profilului dvs.",
-        "name": {
-          "title": "Nume",
-          "description": "Actualizați numele de afișare",
-          "placeholder": "Introduceți numele dvs.",
-          "hint": "Acesta este numele care va fi afișat pe profilul dvs.",
-          "minLength": "Numele trebuie să aibă cel puțin 3 caractere",
-          "maxLength": "Numele nu trebuie să depășească 30 de caractere",
-          "success": "Nume actualizat cu succes",
-          "fail": "Actualizarea numelui a eșuat",
-          "save": "Salvează",
-          "saving": "Se salvează..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "Actualizați imaginea de profil",
-          "uploadAvatar": "Încarcă imagine",
-          "unavailable": "Încărcare indisponibilă",
-          "disabledHint": "Încărcarea avatarului necesită stocarea în cloud activată pentru acest proiect.",
-          "recommendation": "PNG, JPG sau WebP. Dimensiunea maximă respectă limitările serverului."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Facturare",
-        "description": "Gestionați facturarea și abonamentul",
-        "billingPagePlanTitle": "Planul curent",
-        "billingPageStorageTitle": "Spațiu utilizat",
-        "currentPlan": {
-          "title": "Planul și stocarea dvs. pe Photo To URL",
-          "description": "Actualizați pentru a debloca limite mai mari și mai multe funcții"
-        },
-        "loadError": "Nu s-au putut încărca datele de facturare.",
-        "retry": "Reîncercare",
-        "planNames": {
-          "free": "Gratuit",
-          "premium": "Premium",
-          "pro": "Profesionist"
-        },
-        "status": {
-          "active": "Activ",
-          "expired": "Expirat"
-        },
-        "storageUsed": "Stocare utilizată",
-        "freePlanMessage": "Limită mai mare de încărcare",
-        "inactivePlanMessage": "Beneficiile au expirat",
-        "expiredStorageLimitHint": "După expirare, sunt disponibili doar 100MB de stocare",
-        "paidPlanMessage": "Beneficii active",
-        "backToWorkbench": "Înapoi la tabloul de bord",
-        "upgradeHint": "Mai mult spațiu de stocare",
-        "upgradeToPlan": "Actualizează abonamentul",
-        "featureAdvancedEditing": "Instrumente avansate de editare",
-        "upgradeNotReady": {
-          "title": "În curând",
-          "description": "Rămâneți la curent cu mai multe servicii!",
-          "confirm": "Am înțeles",
-          "cancel": "Închide"
-        },
-        "storage": {
-          "title": "CDN mai rapid",
-          "description": "Urmăriți consumul de stocare",
-          "upgradeStorage": "Mărește stocarea"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Securitate",
-        "description": "Gestionați securitatea contului dvs.",
-        "updatePassword": {
-          "title": "Parolă",
-          "description": "Schimbați parola pentru conectarea prin e-mail",
-          "currentPassword": "Parola curentă",
-          "newPassword": "Parolă nouă",
-          "confirmPassword": "Confirma parola noua",
-          "currentRequired": "Introduceți parola curentă",
-          "newMinLength": "Cel puțin 8 caractere",
-          "confirmRequired": "Te rugam sa confirmi noua parola",
-          "passwordMismatch": "Parolele nu se potrivesc",
-          "hint": "Utilizați o parolă puternică pe care nu o reutilizați în altă parte.",
-          "save": "Actualizează parola",
-          "saving": "Se salvează…",
-          "success": "Parolă actualizată",
-          "fail": "Nu s-a putut actualiza parola",
-          "showPassword": "Afișează parola",
-          "hidePassword": "Ascunde parola"
-        },
-        "resetPassword": {
-          "title": "Setează o parolă",
-          "description": "V-ați conectat cu Google. Adăugați o parolă de e-mail ca rezervă.",
-          "info": "Vom trimite un link de resetare a parolei la adresa de e-mail a contului dvs.",
-          "button": "Trimite linkul de resetare",
-          "sending": "Se trimite…",
-          "sent": "Verificați căsuța de e-mail pentru linkul de resetare.",
-          "disabled": "E-mailurile de resetare a parolei nu sunt încă configurate pe acest server.",
-          "fail": "Cererea a eșuat. Încercați din nou mai târziu."
-        },
-        "deleteAccount": {
-          "title": "Șterge contul",
-          "description": "Eliminați permanent contul dvs. și datele asociate.",
-          "warning": "Acest lucru nu poate fi anulat. Asigurați-vă că ați salvat tot ce aveți nevoie.",
-          "button": "Ștergeți contul meu",
-          "confirmTitle": "Ștergeți contul?",
-          "confirmDescription": "Contul dvs. va fi șters permanent.",
-          "cancel": "Anulează",
-          "confirm": "Șterge",
-          "deleting": "Se șterge…",
-          "success": "Cont șters",
-          "fail": "Nu s-a putut șterge contul"
-        }
-      },
-      "notification": {
-        "title": "Notificări",
-        "description": "Gestionați preferințele de notificare",
-        "newsletter": {
-          "title": "Actualizări prin e-mail",
-          "description": "Noutăți despre produse și sfaturi (opțional)",
-          "label": "Abonați-vă la newsletter",
-          "disabledHint": "Newsletterul nu este încă activat pentru acest site.",
-          "hint": "Când este activat, vă puteți abona sau dezabona aici."
-        },
-        "productPreview": {
-          "title": "Previzualizare produs",
-          "description": "Imagine principală folosită pe cardurile de partajare și paginile de destinație.",
-          "announcement": {
-            "line1": "Livrăm constant funcții mai puternice și beneficii de membru și mai valoroase.",
-            "line2": "Noile capabilități de upgrade vor fi oferite cu prioritate utilizatorilor existenți, fără schimbări de preț.",
-            "line3": "Mulțumim fiecărui utilizator pentru încredere și susținere. Vom continua să îmbunătățim produsul pentru a oferi o experiență cu valoare mai mare.",
-            "line4": "Vom continua să optimizăm experiența globală prin servicii mai rapide și mai fiabile."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Cont de artist",
-    "artFightWorkspaceHint": "Instrumente artist activate — copiază coduri embed URL, HTML, BBCode și Markdown pentru fiecare fotografie."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Găzduire carduri profil Art Fight | URL și coduri de embed",
-      "description": "Încarcă carduri profil Team Tragedy, Comedy sau Mystery. Obține un link HTTPS direct plus embed HTML/BBCode pentru Art Fight, Discord și postări pe rețele sociale.",
-      "keywords": "card profil Art Fight,găzduire ref sheet,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Găzduire Art Fight",
-    "artistAccount": {
-      "badge": "Cont artist",
-      "title": "Înregistrează cont de artist dedicat",
-      "lead": "Creează un cont gratuit de artist pentru a salva carduri profil în Panou și a folosi instrumente profesionale de embed pentru Art Fight — copiază URL, HTML, BBCode și Markdown pentru fiecare card încărcat.",
-      "toolEmbedTitle": "Instrumente embed",
-      "toolEmbedDesc": "Copiere dintr-un clic pentru profile Art Fight, Discord, forumuri și postări pe rețele sociale.",
-      "toolDashboardTitle": "Panou artist",
-      "toolDashboardDesc": "Fiecare card rămâne în contul tău — caută, previzualizează și copiază din nou linkurile oricând.",
-      "toolBatchTitle": "Încărcare în lot (Pro)",
-      "toolBatchDesc": "Încarcă multe carduri profil deodată după upgrade — creat pentru artiști cu mai multe OC.",
-      "registerCta": "Creează cont artist",
-      "footnote": "Bifează «Cont de artist dedicat» la înregistrare, sau înregistrează-te de pe această pagină — îl preselectăm."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Pentru artiști digitali și creatori de OC",
-      "title": "Găzduire carduri profil și ref sheet pentru artiști Art Fight",
-      "subtitle": "Încarcă cardul profil Team Tragedy, Comedy sau Mystery — obține un URL stabil al imaginii plus coduri embed HTML și BBCode pentru profile Art Fight, Discord și postările tale „ready to fight“.",
-      "artistAccountLine": "Înregistrează un cont de artist dedicat pentru instrumente embed profesionale în panou.",
-      "cta": "Trage cardul profil mai jos → copiază linkul → lipește oriunde îți declari echipa",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Găzduire profil",
-      "tabArtist": "Cont artist",
-      "tabSupport": "Suport artiști",
-      "tabsAriaLabel": "Repere Art Fight",
-      "trustLine": "Încărcare rapidă gratuită · URL și coduri embed · Panou artist",
-      "uploadCta": "Încarcă un card",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Coduri embed gata de lipit",
-      "panelIntroDesc": "Încarcă un card profil o dată, apoi copiază linkul direct sau HTML și BBCode pentru Art Fight și Discord.",
-      "panelArtistTitle": "Instrumente cont artist",
-      "panelSupportTitle": "Suport dedicat artiștilor",
-      "panelSupportDesc": "Încărcări, embed-uri, conturi și planuri — oameni reali, nu o coadă generică de tichete."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Același instrument pentru fiecare echipă Art Fight",
-      "lead": "Indiferent dacă ai ajuns la Tragedy, Comedy sau Mystery, după ce termini cardul ai nevoie de un lucru: un link rapid și stabil către imagine de partajat.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Carduri profil și ref sheet în tonuri albastre — găzduiește imaginea completă a cardului și lipește linkul pe profilul Art Fight sau postarea Twitter/X.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Carduri de personaje portocalii și calde — perfecte pentru anunțuri Discord și embed-uri în profil când Art Fight e în plină desfășurare.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Carduri violet pentru a treia facțiune — același flux de încărcare, aceleași coduri embed, gata când vrei să partajezi.",
-      "footnote": "Toate cele trei echipe au același flux: încarcă → copiază URL sau embed → postează cardul public."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Unde lipeș artiștii linkul",
-      "lead": "Art Fight e social. Linkul tău găzduit merge cu fiecare actualizare de profil și fiecare post „sunt în această echipă“.",
-      "profileTitle": "Profil Art Fight",
-      "profileDesc": "Lipeș URL-ul direct sau embed-ul HTML în profilul oficial al personajului Art Fight ca colegii de echipă să vadă cardul tău.",
-      "socialTitle": "Twitter / X și postări sociale",
-      "socialDesc": "Partajează cardul profil când îți declari echipa — un link HTTPS curat se încarcă rapid în timeline-uri și răspunsuri.",
-      "discordTitle": "Discord și servere de artiști",
-      "discordDesc": "Pune URL-ul sau BBCode în canalele Discord Art Fight, intro-uri de server sau fire cu planuri de atac.",
-      "portfolioTitle": "Toyhouse și site-uri portofoliu",
-      "portfolioDesc": "Folosește același link pe Toyhouse, Carrd sau în semnături de forum ca ref-ul să fie consistent peste tot."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "De ce artiștii Art Fight aleg Photo To URL",
-      "fastTitle": "Creat pentru perioadele aglomerate Art Fight",
-      "fastDesc": "Încarcă când trebuie să postezi — link CDN în câteva secunde în warmup, la vârful evenimentului sau oricând în an.",
-      "linkTitle": "URL-uri prietenoase cu cardurile profil",
-      "linkDesc": "Linkuri .png/.jpg curate acceptate de profile Art Fight, forumuri și postări fără pași extra.",
-      "embedTitle": "HTML și BBCode pentru artiști",
-      "embedDesc": "Copiază fragmente embed pentru profile și forumuri — fără editare manuală a tag-urilor img în sezonul aglomerat.",
-      "safeTitle": "Găzduire în Panou după autentificare",
-      "safeDesc": "Utilizatorii înregistrați salvează carduri profil în Panou — copiază din nou linkuri, caută fișiere și gestionează încărcările dintr-un singur loc."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Cont artist: găzduiește carduri în Panou",
-      "sectionLead": "Încărcările anonime merg pentru un post rapid. Înregistrează-te ca artist Art Fight pentru un Panou dedicat cu instrumente embed pentru fiecare card găzduit — sau treci la Pro pentru încărcare în lot și limite mai mari.",
-      "dashboardTitle": "Găzduire foto în Panou",
-      "dashboardDesc": "După autentificare, fiecare încărcare ajunge în Panou. Copiază același link oricând, deschide imaginea într-un tab nou sau descarcă originalul — totul dintr-o listă.",
-      "batchTitle": "Încărcare în lot (Pro)",
-      "batchDesc": "Încarcă multe carduri profil deodată din Panou — până la {monthlyMax} pe lot la Pro sau {yearlyMax} la Premium anual.",
-      "manageTitle": "Căutare și perete foto",
-      "manageDesc": "Găsește orice card găzduit după numele fișierului, comută între tabel și perete foto și șterge fișierele de care nu mai ai nevoie.",
-      "proTitle": "Limite mai mari și fișiere mai mari",
-      "proDesc": "Tot din Free, plus încărcare în lot în Panou ({monthlyMax}–{yearlyMax} fișiere), limite zilnice mai mari, încărcări mai mari și mai mult spațiu.",
-      "anonymousLabel": "Anonim",
-      "anonymousDesc": "Link rapid pentru un post. Nesalvat în cont; poate fi curățat oricând.",
-      "freeLabel": "Cont gratuit",
-      "freeDesc": "Carduri salvate în Panou. Copiază din nou linkuri, caută și gestionează până le ștergi sau atingi limitele de spațiu.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Creează cont gratuit",
-      "loginCta": "Autentificare",
-      "dashboardCta": "Deschide Panou",
-      "proCta": "Vezi planurile Pro",
-      "ctaPanelTitle": "Gata să găzduiești cardurile?",
-      "footnote": "Conturile gratuite încarcă aici și gestionează fișiere în Panou. Încărcarea în lot necesită Pro sau Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Încarcă cardul profil Art Fight",
-      "sectionLead": "Ref sheet, card de echipă sau grafică profil completă — trage aici și copiază linkul pentru următorul post.",
-      "dropzoneTitle": "Trage cardul profil sau ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP sau GIF — carduri de echipă, ref sheet-uri și grafici de personaje binevenite",
-      "dropzoneFootnote": "Gratuit: 5 încărcări/zi fără înregistrare. Autentifică-te pentru limite mai mari oricând.",
-      "defaultAlt": "Card profil Art Fight",
-      "resultTitle": "Cardul tău e gata — partajează-l",
-      "resultHint": "Copiază URL pentru profile Art Fight sau HTML/BBCode pentru forumuri și Discord.",
-      "open": "Deschide imaginea",
-      "reset": "Încarcă alt card",
-      "errorBadType": "Încarcă un fișier imagine (PNG, JPG, WEBP sau GIF).",
-      "errorGeneric": "Încărcarea a eșuat. Încearcă din nou.",
-      "loginRequiredTitle": "Limita zilnică gratuită atinsă",
-      "loginRequiredDescription": "Autentifică-te pentru a continua încărcarea cardurilor profil și salvarea în Panou, sau revino mâine pentru mai multe încărcări gratuite.",
-      "loginRequiredDetail": "Utilizatorii înregistrați au găzduire în Panou: fiecare card rămâne în cont, poți copia din nou linkuri oricând, căuta după numele fișierului și gestiona încărcările dintr-un singur loc.",
-      "retentionAnonymousTitle": "Link anonim — nerecomandat pentru carduri importante",
-      "retentionAnonymousBody": "Încărcări anonime doar pentru partajare rapidă. Linkul funcționează acum dar nu este salvat — înregistrează-te gratuit.",
-      "retentionAnonymousSignUp": "Creează cont gratuit",
-      "retentionAnonymousPro": "Vezi planurile Pro",
-      "retentionFreeTitle": "Acest link e salvat în contul tău",
-      "retentionFreeBody": "Poți copia din nou oricând din Panou. Conturile gratuite au limite zilnice de încărcare și plafon de spațiu — suficient pentru carduri rapide, dar nu nelimitat.",
-      "retentionFreeDashboard": "Deschide Panou",
-      "retentionFreeUpgrade": "Upgrade pentru mai mult spațiu",
-      "retentionProTitle": "Cardul profil e găzduit în planul Pro",
-      "retentionProBody": "Limite de încărcare mai mari, mai mult spațiu și linkuri fiabile pentru fiecare Art Fight — Tragedy, Comedy sau Mystery.",
-      "retentionProDashboard": "Deschide Panou",
-      "resultHintAnonymous": "Încărcare anonimă — doar link direct. Înregistrează-te pentru HTML, BBCode și Markdown.",
-      "retentionAnonymousIntro": "Acest link direct funcționează pentru partajare rapidă, dar găzduirea anonimă are limitări serioase:",
-      "retentionAnonymousLimit1": "Nelegat de cont — mai puțin sigur; oricine cu linkul poate vedea imaginea",
-      "retentionAnonymousLimit2": "CDN mai lent — încărcările anonime fără accelerare prioritară",
-      "retentionAnonymousLimit3": "Poate fi comprimată — calitatea originală nu este garantată",
-      "retentionAnonymousLimit4": "Durată scurtă — fișierele anonime sunt curățate periodic; linkul poate înceta să funcționeze",
-      "retentionAnonymousLimit5": "Coduri embed blocate — HTML, BBCode și Markdown necesită cont gratuit",
-      "retentionAnonymousCta": "Creează un cont gratuit pentru a salva carduri, debloca embeds, CDN mai rapid și linkuri mai fiabile."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Text alternativ (pentru HTML și Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Copiază codul",
-      "copied": "Copiat",
-      "lockedTabTitle": "Înregistrează-te pentru a debloca embeds",
-      "lockedTabDescription": "HTML, BBCode și Markdown disponibile după înregistrare. Conturi gratuite: panou și copiere embed cu un clic.",
-      "lockedTabCta": "Creează cont gratuit"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "De la card profil la post public",
-      "lead": "Fluxul pe care fiecare artist Art Fight îl urmează după ce termină cardul.",
-      "schemaName": "Cum să găzduiești un card profil Art Fight cu cod embed",
-      "schemaDescription": "Încarcă un card profil de echipă Art Fight în Photo To URL și lipește linkul pe profil sau post.",
-      "step1Title": "Încarcă cardul de echipă",
-      "step1Desc": "Trage cardul profil Tragedy, Comedy sau Mystery sau ref sheet. Primești instant link direct și coduri embed.",
-      "step2Title": "Copiază URL sau cod embed",
-      "step2Desc": "Folosește tab-ul URL pentru profile Art Fight sau HTML/BBCode pentru Discord, forumuri și portofolii.",
-      "step3Title": "Postează și declară echipa",
-      "step3Desc": "Lipește linkul pe Art Fight, Twitter/X sau Discord ca alți artiști să vadă cardul tău și să te găsească în timpul evenimentului."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "Întrebări frecvente artiști Art Fight",
-      "lead": "Întrebări de la artiști care încarcă carduri Team Tragedy, Comedy și Mystery.",
-      "warningTitle": "Încarcă responsabil",
-      "warningBody": "Găzduiește doar opere pe care le-ai creat sau ai dreptul clar să le partajezi. Nu încărca conținut care încalcă drepturi, ilegal sau interzis. Ești responsabil pentru fiecare fișier încărcat.",
-      "warningTermsLink": "Termeni și condiții",
-      "warningPrivacyLink": "Politica de confidențialitate",
-      "q1Question": "E pentru carduri profil sau ref sheet-uri?",
-      "q1Answer": "Pentru ambele. Încarcă cardul profil complet de echipă Art Fight, ref sheet de personaj sau orice grafică de hotlink pentru eveniment.",
-      "q2Question": "Funcționează pentru toate cele trei echipe?",
-      "q2Answer": "Da. Cardurile Team Tragedy, Team Comedy și Team Mystery folosesc aceeași încărcare — găzduim imaginea și îți dăm un link de partajat.",
-      "q3Question": "Am nevoie de cont pentru încărcare?",
-      "q3Answer": "Nu pentru încărcări rapide. Utilizatorii anonimi au 10 încărcări gratuite pe zi. Autentifică-te pentru a salva carduri în Panou — copiază din nou linkuri, caută fișiere și gestionează încărcările. Pro adaugă încărcare în lot din Panou (până la 20–50 carduri deodată) plus limite mai mari.",
-      "q8Question": "Pot încărca în lot multe carduri profil?",
-      "q8Answer": "Da, cu un plan plătit. Deschide Panou, folosește încărcarea în lot și selectează mai multe fișiere PNG/JPG/WEBP/GIF deodată — până la 20 pe lot la Pro lunar sau 50 la Premium anual. Conturile gratuite pot încărca câte un card o dată pe această pagină sau în Panou.",
-      "q4Question": "Va funcționa linkul pe Discord și Twitter?",
-      "q4Answer": "Da. URL-ul HTTPS direct funcționează în postări. Folosește BBCode pentru markup prietenos Discord unde e suportat.",
-      "q5Question": "Va rămâne linkul disponibil pe termen lung?",
-      "q5Answer": "Depinde cum ai încărcat. Linkurile anonime sunt doar pentru uz rapid — curățăm periodic încărcările anonime și linkul poate să cedeze oricând. Utilizatorii înregistrați păstrează fișierele în Panou până le șterg sau ating limitele. Pro e cea mai bună opțiune dacă ai nevoie ca cardurile profil să rămână online fiabil în timp.",
-      "q6Question": "Pot încărca orice imagine? Ce zici de drepturile de autor?",
-      "q6Answer": "Încarcă doar imagini pe care le deții sau ești autorizat să le găzduiești și partajezi — OC-uri proprii, comenzi plătite cu drept de găzduire sau lucrări create de tine. Nu încărca ref sheet-uri ale altor artiști, resurse oficiale Art Fight pe care nu le-ai făcut, poze cu celebrități, logo-uri de brand sau alt material protejat fără permisiune. Încărcarea de conținut care încalcă drepturi e responsabilitatea ta.",
-      "q7Question": "Ce conținut e strict interzis?",
-      "q7Answer": "Nu încărca niciodată conținut ilegal; material sexual explicit sau exploatator (inclusiv cu minori); discurs de ură, hărțuire sau violență; malware sau escrocherii; sau orice încalcă drepturi de autor, mărci comerciale sau confidențialitate. Putem elimina fișiere și suspenda accesul fără notificare când considerăm că conținutul încalcă Termenii sau legea."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Suport artiști — suntem aici să ajutăm",
-      "panelVisualTag": "Răspuns în 1–2 zile",
-      "panelVisualQuestion": "Embed-ul BBCode nu merge?",
-      "panelVisualReply": "Am înțeles — te ajutăm să rezolvi.",
-      "topicEmbed": "Embed-uri și linkuri",
-      "topicAccount": "Cont artist",
-      "topicPlan": "Planuri și spațiu",
-      "topicFeedback": "Idei și feedback",
-      "contactHint": "Scrie-ne oricând — fără coadă.",
-      "contactCta": "Contactează-ne",
-      "emailCta": "Trimite-ne un e-mail"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Găzduiești multe OC? Încărcare în lot din Panou",
-      "description": "Artiștii Pro încarcă zeci de carduri profil deodată, păstrează fiecare link în Panou și au limite zilnice și spațiu mai mari pentru tot roster-ul.",
-      "cta": "Vezi planurile Pro prietenoase cu artiștii"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

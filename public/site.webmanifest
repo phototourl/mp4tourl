@@ -1,23 +1,35 @@
 {
-  "name": "Photo To URL",
-  "short_name": "PhotoToURL",
-  "description": "Free image hosting - convert photos to permanent shareable URLs instantly.",
+  "name": "MP4 to URL",
+  "short_name": "MP4toURL",
+  "description": "Free video to URL converter — upload MP4 and get permanent shareable links.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#14b8a6",
+  "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/icons/light_58x58.png",
-      "sizes": "58x58",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/favicon.png",
-      "sizes": "96x96",
+      "src": "/logo.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

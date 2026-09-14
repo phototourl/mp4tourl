@@ -3,15 +3,17 @@ import { PasswordCardWrapper } from '@/components/settings/security/password-car
 import { websiteConfig } from '@/config/website';
 
 export default function SecurityPage() {
-  const showPasswordColumn = websiteConfig.auth.enableCredentialLogin;
+  const credentialLoginEnabled = websiteConfig.auth.enableCredentialLogin;
 
   return (
     <div className="flex flex-col gap-8">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        {showPasswordColumn ? <PasswordCardWrapper /> : null}
-        <DeleteAccountCard
-          className={showPasswordColumn ? undefined : 'md:col-span-2'}
-        />
+      {credentialLoginEnabled && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <PasswordCardWrapper />
+        </div>
+      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <DeleteAccountCard />
       </div>
     </div>
   );

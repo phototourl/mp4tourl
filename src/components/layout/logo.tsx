@@ -2,25 +2,33 @@
 
 import { websiteConfig } from '@/config/website';
 import { cn } from '@/lib/utils';
+import { useTheme } from 'next-themes';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
-/**
- * 用原生 img：真机（尤其 iOS）在 Dialog Portal 里 next/image 包裹层偶发高度为 0，
- * 浏览器桌面模拟往往正常，表现为「模拟有 Logo、真机没有」。
- */
 export function Logo({ className }: { className?: string }) {
-  const logoLight =
-    websiteConfig.metadata.images?.logoLight ?? '/icons/light_logo.png';
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const logoLight = websiteConfig.metadata.images?.logoLight ?? '/logo.png';
+  const logoDark = websiteConfig.metadata.images?.logoDark ?? logoLight;
+
+  // During server-side rendering and initial client render, always use logoLight
+  // This prevents hydration mismatch
+  const logo = mounted && theme === 'dark' ? logoDark : logoLight;
+
+  // Only show theme-dependent UI after hydration to prevent mismatch
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element -- Portal/真机稳定性
-    <img
-      src={logoLight}
-      alt={websiteConfig.metadata.name ?? 'Logo'}
-      title={websiteConfig.metadata.name ?? 'Logo'}
-      width={40}
-      height={40}
-      decoding="async"
-      className={cn('h-8 w-8 shrink-0 object-contain rounded-md', className)}
+    <Image
+      src={logo}
+      alt="Logo"
+      title="Logo"
+      width={192}
+      height={192}
+      className={cn('size-8 rounded-md', className)}
     />
   );
 }

@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Foto naar URL",
-    "logout": "Uitloggen",
-    "logoutFailed": "Uitloggen mislukt",
-    "switchLanguage": "Taal wijzigen",
-    "tagline": "Zet foto's in seconden om in schone, deelbare links",
-    "header": {
-      "home": "Start",
-      "blog": "Blog",
-      "subtitle": "Maak van afbeeldingen deelbare links",
-      "prompt": "Sleep, plak of upload — krijg direct een deelbare link",
-      "circleCrop": "Foto naar cirkel bijsnijden",
-      "circleCropNav": "Cirkel bijsnijden",
-      "roundedCorners": "Afgeronde hoeken",
-      "removeBackground": "Foto Achtergrond Verwijderen",
-      "removeBackgroundNav": "Achtergrond Verwijderen",
-      "pricingNav": "Prijzen",
-      "comingSoon": "Binnenkort beschikbaar.",
-      "history": "Uploadgeschiedenis",
-      "login": "Inloggen",
-      "signUp": "Registreren",
-      "signOut": "Uitloggen",
-      "dashboard": "Dashboard",
-      "settings": "Instellingen",
-      "tool": "Tools",
-      "pdfToUrlNav": "PDF naar URL",
-      "fileToUrlNav": "Bestand naar URL",
-      "artFightNav": "Profielkaarten"
-    },
-    "history": {
-      "drawerTitle": "Uploadgeschiedenis",
-      "hint": "Toon uploads van de afgelopen week.",
-      "close": "Sluiten",
-      "empty": "Nog geen uploads.",
-      "copy": "Link kopiëren",
-      "copied": "Gekopieerd",
-      "open": "Openen in nieuw tabblad"
-    },
-    "languageSelect": {
-      "title": "Selecteer uw regio",
-      "subtitle": "Het selecteren van een regio wijzigt de taal en inhoud.",
-      "close": "Sluiten"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Maak van foto's schone, deelbare links.",
-        "line2": "Snel, simpel, betrouwbaar."
-      },
-      "partners": "Partners",
-      "linksTitle": "Bronnen",
-      "productsTitle": "Producten",
-      "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "pricing": "Prijzen",
-        "docs": "Documentatie",
-        "status": "Status",
-        "about": "Over ons",
-        "contact": "Contact"
-      },
-      "legal": {
-        "title": "Juridisch",
-        "privacy": "Privacy",
-        "terms": "Voorwaarden",
-        "cookie": "Cookiebeleid"
-      },
-      "copyright": "© 2025 Photo To URL. Alle rechten voorbehouden.",
-      "products": {
-        "editStamp": "Stempel-editor"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Gratis",
-      "cdn": "CDN links",
-      "nosignup": "Geen registratie"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Gratis",
-      "title2": "foto naar URL",
-      "subtitle": "Upload je foto → krijg een link → plak waar je wilt",
-      "upload": "Upload afbeelding",
-      "bullet": {
-        "fast": "Snelle delen",
-        "direct": "Directe fotolinks",
-        "nosignup": "Geen registratie vereist",
-        "paste": "Plak vanuit klembord"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Log in om door te gaan",
-      "description": "Je hebt de gratis uploadlimiet bereikt. Log in om je uploadgeschiedenis op te slaan en bestanden te beheren. Hogere limieten beschikbaar met Pro-abonnementen.",
-      "benefits": "Waarom aanmelden?",
-      "benefit1": "Volledige uploadgeschiedenis - geordend, nauwkeurig en altijd toegankelijk",
-      "benefit2": "Toegang tot alle premium bewerkingstools",
-      "benefit3": "Cloudopslag met uploadgeschiedenis",
-      "login": "Inloggen / Registreren",
-      "later": "Later"
-    },
-    "upgradePrompt": {
-      "title": "Daglimiet bereikt",
-      "description": "Je hebt al je uploads voor vandaag gebruikt. Kom morgen terug! Meer premium diensten komen eraan.",
-      "comingSoon": "Blijf op de hoogte voor meer diensten",
-      "goDashboard": "Bekijken",
-      "later": "Later"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Sleep en zet je afbeelding neer",
-      "idleSubtitle": "Zie de volledige upload → link → kopieer flow.",
-      "processing": "Optimaliseren en uploaden...",
-      "doneTitle": "Klaar om te delen",
-      "doneSubtitle": "Je link is direct klaar om te delen.",
-      "thanksForWatching": "Bedankt voor het kijken"
-    },
-    "upload": {
-      "title": "Sleep een foto of klik om te bladeren",
-      "hint": "JPG, PNG, WEBP, GIF tot 2MB (gratis 10 uploads/dag). Sleep en zet neer, klik, of plak screenshots.",
-      "orDrop": "of sleep een bestand",
-      "samplesTitle": "Geen afbeelding? Probeer een van deze:",
-      "policy": "Door een afbeelding te uploaden ga je akkoord met ons <privacy>Privacybeleid</privacy> en <terms>Gebruiksvoorwaarden</terms>.",
-      "clear": "Wissen"
-    },
-    "result": {
-      "error": "Upload mislukt. Probeer het opnieuw.",
-      "fileTooLarge": "Bestand is te groot. Je abonnement staat tot {maxMb} MB per bestand toe.",
-      "dailyLimitReached": "Daglimiet ({limit} per dag) bereikt. Probeer het morgen opnieuw.",
-      "storageLimitReached": "Opslag vol ({used} / {limit}). Meer opslagopties binnenkort beschikbaar!",
-      "generated": "Gegenereerde link:",
-      "open": "Openen in nieuw tabblad",
-      "placeholder": "Nog geen link. Upload een foto om een deelbare URL te genereren.",
-      "savePrompt": "Sla link op zoals je wilt",
-      "copy": "Kopieer link",
-      "copied": "Gekopieerd",
-      "saveHint": "Sla deze link op als je hem later nodig hebt",
-      "saveHintLoggedIn": "Opgeslagen in dashboard",
-      "tryPrefix": "Probeer"
-    },
-    "benefits": {
-      "title": "Waarom mensen kiezen voor Foto naar URL",
-      "subtitle": "Snelheid — Gratis proberen: 5 uploads/dag, 2MB per bestand",
-      "items": {
-        "fast": {
-          "title": "Snelle delen",
-          "desc": "Upload en krijg een link in seconden zonder extra stappen."
-        },
-        "direct": {
-          "title": "Directe afbeeldings-URL's",
-          "desc": "Schone links die werken in HTML, Markdown en chat-apps."
-        },
-        "nosignup": {
-          "title": "Geen registratie vereist",
-          "desc": "Gratis proberen: 5 uploads/dag, 2MB per bestand — geen registratie."
-        }
-      }
-    },
-    "how": {
-      "title": "Hoe het werkt",
-      "step1": "1) Voeg je foto toe (sleep, plak of klik om een bestand te kiezen).",
-      "step2": "2) We hosten het en geven een deelbare link terug.",
-      "step3": "3) Kopieer en deel de link in documenten, chats, prototypes en meer.",
-      "note": "Je link opent snel in documenten, chats en prototypes—plus je kunt het downloaden als .txt."
-    },
-    "process": {
-      "title": "Drie-staps flow",
-      "subtitle": "Verminder inspanning, houd de CTA zichtbaar, klaar in seconden.",
-      "steps": {
-        "1": {
-          "title": "Sleep of plak",
-          "desc": "Sleep een bestand, plak vanuit klembord of blader."
-        },
-        "2": {
-          "title": "We hosten en geven een link terug",
-          "desc": "Directe URL met kopieer/open/sla controles."
-        },
-        "3": {
-          "title": "Gebruik overal",
-          "desc": "Gebruik in documenten, chats, tickets, blogs of prototypes."
-        }
-      }
-    },
-    "features": {
-      "title": "Functie hoogtepunten",
-      "subtitle": "Duidelijkheid eerst: minder wrijving, meer delen.",
-      "items": {
-        "cdn": {
-          "title": "Directe CDN links",
-          "desc": "Schone, voorspelbare URL's klaar voor Markdown en HTML-embeddingen."
-        },
-        "save": {
-          "title": "Kopiëren en Opslaan",
-          "desc": "Kopieer, open of sla op als .txt-bestand met één klik."
-        },
-        "clipboard": {
-          "title": "Klembordvriendelijk",
-          "desc": "Plak screenshots zonder naar bestanden te zoeken of opnieuw te uploaden."
-        },
-        "errors": {
-          "title": "Veilig en Privé",
-          "desc": "Images are securely hosted with encryption in transit and at rest."
-        },
-        "nosignup": {
-          "title": "Geen registratie nodig",
-          "desc": "Gratis proberen: 5 uploads/dag, 2MB per bestand — geen registratie."
-        },
-        "r2": {
-          "title": "Snelle hosting",
-          "desc": "Links worden via snelle CDN geleverd voor snelle laadtijden en betrouwbare toegang."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Teams besparen tijd met Foto naar URL",
-      "subtitle": "Sociale bewijzen om risico te verminderen en adoptie te versnellen.",
-      "items": {
-        "ops": {
-          "name": "Productoperaties",
-          "quote": "We plakken screenshots in tickets zonder bijlagen te verstoppen. Links blijven schoon."
-        },
-        "content": {
-          "name": "Content lead",
-          "quote": "Markdown-klare links houden onze documenten netjes en binnen minuten publiceerbaar."
-        },
-        "support": {
-          "name": "Ondersteuning",
-          "quote": "Duidelijke fouten en directe URL's maken het gemakkelijk om klanten in chat te begeleiden."
-        }
-      }
-    },
-    "cta": {
-      "title": "Zet foto's in seconden om in links",
-      "subtitle": "Sleep, plak of upload—kopieer je link en deel hem.",
-      "upload": "Upload nu",
-      "paste": "Plak een screenshot"
-    },
-    "longform": {
-      "title": "Waarom Foto naar URL je workflow helpt",
-      "p1": "Foto naar URL is gebouwd voor makers, marketeers, ondersteuningsteams, oprichters en iedereen die een snelle, betrouwbare manier nodig heeft om foto's om te zetten in schone links. Met een directe upload-naar-link flow vermijd je zware mediamanagers en sla je inloggen over. Links zijn netjes, gemakkelijk te plakken in chat-apps, documenten, wiki's, bugrapporten en tickets. Teams bewegen sneller wanneer screenshots en productfoto's direct deelbaar zijn zonder bijlagenlimieten of rommelige voorvertoningen. Omdat de links voorspelbaar en consistent zijn, werken ze ook goed in automatisering, QA-stappen en lichte prototypes.",
-      "p2": "De ervaring blijft eenvoudig: sleep, plak of blader; krijg een link; deel. Geen extra chrome, geen afleidende advertenties, geen gating. Je blijft gefocust op je inhoud terwijl wij de saaie delen van hosting afhandelen. Of je nu een functie documenteert, een blogpost voorbereidt, een pitch deck bouwt of een snelle ondersteuningsreactie verzendt, een korte link verslaat omvangrijke bijlagen. Voor wereldwijde teams is de interface beschikbaar in meerdere talen terwijl de tekst beknopt en universeel blijft.",
-      "useCases": {
-        "title": "Gebruikssituaties die praktisch blijven",
-        "items": {
-          "1": "Product en design: deel UI-mocks, componentscreenshots en snelle visuele notities zonder te exporteren naar zware tools.",
-          "2": "Ondersteuning en QA: voeg reproduceerbare screenshots toe in tickets, chatthreads of runbooks; links blijven netjes en gemakkelijk te volgen.",
-          "3": "Documenten en blogs: embed foto's in Markdown, HTML of CMS-editors met voorspelbare URL's en geen layoutverrassingen.",
-          "4": "Verkoop en CS: laat proof-of-concept captures of klantwalkthroughs direct in e-mail of berichten vallen.",
-          "5": "Engineering handoff: houd buildartefacten, foutsnapshots en regressievisuele elementen lichtgewicht voor snellere beoordelingen.",
-          "6": "Gemeenschap en sociale media: plak links in Discord, Slack, Teams, Twitter/X of forums zonder opgeblazen voorvertoningen."
-        }
-      },
-      "flow": {
-        "title": "Hoe de flow end-to-end werkt",
-        "p1": "1) Kies een afbeelding: sleep-en-zet-neer, plak vanuit klembord of klik om te bladeren. PNG, JPG, WEBP, GIF tot 2MB in gratis abonnement (10 uploads/dag). 2) We uploaden en geven een directe link terug met kopieer/open/sla acties (.txt). 3) Gebruik de link overal: blogs, documenten, tickets, chat, prototypes en meer.",
-        "p2": "Elke stap is afgestemd op duidelijkheid: zichtbare status, vriendelijke fouten en knoppen die acties bevestigen. Wanneer CDN is ingeschakeld, worden links geleverd vanuit het CDN-domein; uw afbeeldingen worden veilig opgeslagen op our hosting infrastructure."
-      },
-      "best": {
-        "title": "Beste praktijken voor schonere links",
-        "items": {
-          "1": "Houd bestandsnamen betekenisvol voor upload; ze blijven deel van de URL en helpen toekomstige zoekopdrachten.",
-          "2": "Gebruik WEBP of geoptimaliseerde JPG/PNG voor lichtere payloads als je zwaar delen verwacht.",
-          "3": "Kopieer de link direct na generatie om verouderde klembordvermeldingen te vermijden.",
-          "6": "Sla op als .txt voor gewone tekstlinks die klaar zijn om te kopiëren en te gebruiken."
-        }
-      },
-      "roadmap": {
-        "title": "Roadmap hoogtepunten",
-        "p1": "We zullen our hosting infrastructure diep integreren, met gebruiksvriendelijkere quota's en beheermogelijkheden, samen met optionele teamcollaboratie, toegangscontrole en per-link analytics. We plannen functies zoals één-klik verwijderen, vooraf ingestelde linkstijlen en organisatieniveau opslagbuckets. Ondertussen verbeteren en verfijnen we continu subproducten: cirkelbijsnijdgereedschap, afgeronde hoekengereedschap en achtergrondverwijderingsgereedschap, om beeldverwerking handiger te maken."
-      },
-      "faq": {
-        "title": "Veelgestelde vragen",
-        "items": {
-          "1": {
-            "q": "Is het gratis?",
-            "a": "Ja: er is een gratis versie. Upload→link en andere kernfuncties gebruik je kosteloos binnen de limieten van het gratis pakket (opslag, uploads per dag, bestandsgrootte). Wil je die grenzen verruimen? Met betaalde plannen stijgen de limieten en hosten we je links via ons CDN, met hogere quota en grotere maximale bestandsgroottes."
-          },
-          "2": {
-            "q": "Welke formaten worden ondersteund?",
-            "a": "Momenteel worden PNG, JPG, WEBP en GIF ondersteund, binnen de actuele maximale bestandsgroottes. Meer formaten kunnen worden toegevoegd als de vraag daartoe is."
-          },
-          "3": {
-            "q": "Kan ik embedden in Markdown of HTML?",
-            "a": "Ja. Kopieer de link rechtstreeks, of sla hem met één klik op als .txt en gebruik hem waar je hem nodig hebt — Markdown, HTML, documenten of een CMS."
-          },
-          "4": {
-            "q": "Houd je mijn bestanden openbaar?",
-            "a": "Links zijn deelbaar. Als CDN is ingeschakeld, worden bestanden via het CDN-domein geleverd. Als opslag tijdelijk niet beschikbaar is, tonen we een duidelijk onderhoudsbericht."
-          },
-          "5": {
-            "q": "Zullen er accounts of teams zijn?",
-            "a": "Ja. Eerst zetten we in op eenvoudig en betrouwbaar uploaden en delen; daarna voeren we stapsgewijs teamruimten, toegangscontrole en gebruiksanalyses in."
-          },
-          "6": {
-            "q": "Kan ik na betaling een terugbetaling krijgen?",
-            "a": "Meestal bieden we geen terugbetaling als de dienst normaal beschikbaar blijft. Als u de dienst tijdens uw betaalde periode niet kunt gebruiken door een probleem aan onze kant, beoordelen we uw verzoek na controle en stemmen we zo nodig met u af op een vervolg."
-          },
-          "7": {
-            "q": "Hoe zeg ik automatische verlenging op?",
-            "a": "Verlenging wordt automatisch afgeschreven van de door u gemachtigde kaart. Om toekomstige incasso’s te stoppen, annuleert u automatische incasso of doorlopende betaling bij uw kaartuitgever (app, internetbankieren of klantenservice)."
-          },
-          "8": {
-            "q": "Hoe lang kan ik de dienst nog gebruiken na opzegging?",
-            "a": "Meestal kunt u de dienst blijven gebruiken tot het einde van de reeds betaalde periode. Daarna worden geen nieuwe kosten geïncasseerd en eindigen uw voordelen met die periode."
-          }
-        },
-        "contactNote": "Voor bovenstaande en andere vragen: gebruik de pagina «Contact» op deze site of mail <email>support@phototourl.com</email>. We streven ernaar binnen 1–2 werkdagen te antwoorden."
-      },
-      "about": {
-        "title": "Over Photo To URL",
-        "p1": "PhotoToURL is een gratis afbeelding-naar-URL-converter en linkgenerator waarmee u afbeeldingen uploadt en direct deelbare afbeeldingslinks maakt. Zet JPG, PNG, WEBP en andere formaten eenvoudig om in directe afbeeldings-URL's voor snel online delen.",
-        "p2": "Of u nu snel een foto naar URL nodig heeft of gratis hosting met CDN-links: PhotoToURL maakt het eenvoudig en betrouwbaar. Upload uw afbeelding en ontvang binnen seconden een directe link. Gratis abonnement: 10 uploads/dag, 2MB per bestand — zie Prijzen voor hogere limieten."
-      }
-    },
-    "selectRegion": {
-      "title": "Selecteer regio",
-      "subtitle": "Kies uw voorkeurstaal en regio"
-    }
-  },
-  "seo": {
-    "keywords": "foto url,afbeeldingen url,generator,afbeelding omzetten,gratis hosting,url direct,deelbare links,CDN",
-    "home": {
-      "title": "Foto naar URL | Foto's omzetten in deelbare links",
-      "description": "Gratis afbeelding hosting: zet foto's om in deelbare URL's. JPG, PNG, WEBP, GIF tot 2MB, 10 uploads/dag in gratis abonnement. Klembord, snel CDN."
-    }
-  },
-  "images": {
-    "previewAlt": "Voorvertoning geüploade afbeelding",
-    "animatingSampleAlt": "Voorbeeldafbeelding gebruikt in upload demo",
-    "sampleThumbAlt": "Voorbeeld upload afbeelding",
-    "useSampleAria": "Gebruik deze voorbeeldafbeelding",
-    "howIllustrationAlt": "Illustratie die laat zien hoe Foto naar URL werkt",
-    "heroDropTitle": "Sleep een foto hierheen",
-    "heroDropSubtitle": "We zullen het verbeteren en hosten, en dan een schone link teruggeven.",
-    "heroDropBadge": "Sleep of klik (JPG/PNG, tot 2MB)",
-    "logoAlt": "Foto naar URL logo"
-  },
-  "circleCrop": {
-    "title": "Foto naar Cirkel",
-    "description": "Gratis online tool om foto's in een cirkel bij te snijden, snijd eenvoudig elke foto bij tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten.",
-    "upload": "Foto uploaden",
-    "processing": "Verwerken...",
-    "download": "Ronde foto downloaden",
-    "errorSelectFile": "Selecteer een fotobestand",
-    "errorUploadFirst": "Upload eerst een foto",
-    "page": {
-      "title": "Foto naar Cirkel - Gratis Online Ronde Foto Bijsnijder",
-      "description": "Foto naar Cirkel is een gratis online tool om rechthoekige foto's om te zetten in perfect ronde vormen. Onze tool helpt je om foto's direct in cirkelformaat bij te snijden, zonder registratie vereist. Of je nu een ronde profielfoto, een ronde foto voor sociale media, of een ronde foto voor ontwerpprojecten nodig hebt, onze ronde foto bijsnijdtool maakt het eenvoudig en gemakkelijk.",
-      "sectionSubtitle": "Snijd elke foto tot een perfecte cirkel - ideaal voor profielfoto's, socialmedia-avatars en designprojecten."
-    },
-    "seo": {
-      "title": "Cirkel Bijsnijd Tool | Gratis Online Ronde Foto Bijsnijder",
-      "description": "Gratis online tool om elke foto bij te snijden tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten.",
-      "keywords": "cirkel afbeelding bijsnijden, ronde afbeelding bijsnijden, cirkel bijsnijd tool, cirkel bijsnijden online"
-    },
-    "selectRegion": {
-      "title": "Regio selecteren",
-      "subtitle": "Kies uw voorkeurstaal en regio"
-    }
-  },
-  "roundedCorners": {
-    "title": "Foto met afgeronde hoeken",
-    "description": "Gratis online tool voor afgeronde hoeken, voeg eenvoudig afgeronde hoeken toe aan elke foto – perfect voor app-iconen, profielfoto's en ontwerpprojecten.",
-    "upload": "Foto uploaden",
-    "download": "Downloaden",
-    "radiusLabel": "Straal (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Bezig met verwerken...",
-    "errorUploadFirst": "Upload eerst een foto.",
-    "errorSelectFile": "Selecteer een afbeeldingsbestand.",
-    "page": {
-      "title": "Foto met afgeronde hoeken – Gratis online tool",
-      "description": "Foto met afgeronde hoeken is een gratis online tool om afgeronde hoeken aan elke foto toe te voegen. Maak app-achtige iconen, zachte afbeeldingen voor sociale media of miniaturen met instelbare straal en zoom. Geen aanmelding – upload, pas aan, download.",
-      "sectionSubtitle": "Voeg afgeronde hoeken toe aan elke foto - perfect voor app-iconen, social media en miniaturen."
-    },
-    "seo": {
-      "title": "Afgeronde Hoeken Tool | Gratis online tool",
-      "description": "Gratis online tool om afgeronde hoeken aan elke foto toe te voegen – ideaal voor app-iconen, profielfoto's en ontwerpprojecten.",
-      "keywords": "afgeronde hoeken, afbeelding afgeronde hoeken, afgeronde hoeken tool, afgeronde hoeken online"
-    },
-    "selectRegion": {
-      "title": "Regio selecteren",
-      "subtitle": "Kies uw voorkeurstaal en regio"
-    }
-  },
-  "removeBackground": {
-    "title": "Foto Achtergrond Verwijderen",
-    "description": "Gratis online AI-achtergrondverwijderingstool, verwijder eenvoudig de achtergrond van elke foto - perfect voor productfoto's, portretten en ontwerpprojecten.",
-    "upload": "Foto Uploaden",
-    "download": "Downloaden",
-    "processing": "Verwerken...",
-    "processingModelLoading": "AI-model laden, eerste gebruik kan 10-30 seconden duren, even geduld...",
-    "processingImage": "Afbeelding verwerken, even geduld...",
-    "errorUploadFirst": "Upload eerst een foto.",
-    "errorSelectFile": "Selecteer een afbeeldingsbestand.",
-    "errorProcessing": "Afbeelding verwerken mislukt. Probeer het opnieuw.",
-    "errorTimeout": "Verwerkingstime-out, de afbeelding kan te groot zijn of het netwerk is traag, probeer een kleinere afbeelding of probeer het later opnieuw.",
-    "errorMemory": "Onvoldoende geheugen, probeer een kleinere afbeelding.",
-    "errorGeneric": "Verwerking mislukt: {error}. Probeer het opnieuw of probeer een andere afbeelding.",
-    "errorFileTooLarge": "Het afbeeldingsbestand is te groot, selecteer een afbeelding kleiner dan 10MB.",
-    "errorModelLoad": "Kan AI-modelbibliotheek niet laden, vernieuw de pagina en probeer het opnieuw.",
-    "errorPageHidden": "De pagina is gewijzigd, upload de afbeelding opnieuw om te verwerken.",
-    "page": {
-      "title": "Foto Achtergrond Verwijderen - Gratis Online AI Achtergrondverwijderaar",
-      "description": "Foto Achtergrond Verwijderen is een gratis online AI-gestuurde tool voor het verwijderen van achtergronden uit elke foto. Maak direct transparante PNG-afbeeldingen met onze geavanceerde achtergrondverwijderingstechnologie. Perfect voor productfoto's, portretten, e-commerce en ontwerpprojecten. Geen aanmelding vereist - upload, verwerk en download in seconden.",
-      "sectionSubtitle": "AI-achtergrondverwijdering - maak in seconden transparante PNG's van elke foto."
-    },
-    "seo": {
-      "title": "Achtergrondverwijderingstool | Gratis Online AI Achtergrondverwijderaar",
-      "description": "Gratis online AI-tool om de achtergrond van elke foto te verwijderen - perfect voor productfoto's, portretten en ontwerpprojecten.",
-      "keywords": "achtergrond verwijderen, achtergrondverwijderaar, transparante achtergrond, ai achtergrondverwijdering"
-    },
-    "selectRegion": {
-      "title": "Regio Selecteren",
-      "subtitle": "Kies uw voorkeurstaal en regio"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF naar URL | PDF-hosting en deelbare HTTPS-koppelingen",
-      "description": "Upload PDF's naar uw account en ontvang een stabiele HTTPS-koppeling — bekijk, download of kopieer de koppeling altijd via uw accountdashboard.",
-      "keywords": "pdf naar url,pdf hosting,pdf delen,pdf uploaden,directe koppeling,documentkoppeling"
-    },
-    "tool": {
-      "heroTitle": "PDF naar URL",
-      "heroSubtitle": "Zet PDF's om in deelbare HTTPS-koppelingen onder uw account. Na elke upload opent u uw accountdashboard om de koppeling te kopiëren, te bekijken of te downloaden.",
-      "featureFastTitle": "Snel uploaden",
-      "featureFastDesc": "Sleep een PDF of kies een bestand; binnen enkele seconden krijgt u de koppeling via ons CDN.",
-      "featureHostingTitle": "Persoonlijke hosting",
-      "featureHostingDesc": "Elk bestand wordt in uw eigen cloudopslag en documentbibliotheek bewaard — geen anonieme eenmalige link.",
-      "featureLinkTitle": "Stabiele, deelbare koppelingen",
-      "featureLinkDesc": "Elke upload levert een schone URL om overal te plakken. De koppeling blijft actief tot u het bestand in het accountdashboard verwijdert.",
-      "featureDashboardTitle": "Alles op één plek",
-      "featureDashboardDesc": "Na aanmelding opent u het accountdashboard om alle PDF's te zien: de koppeling opnieuw kopiëren, in een nieuw tabblad openen of het origineel downloaden.",
-      "dropzoneTitle": "Sleep uw PDF hierheen",
-      "dropzoneHint": "Alleen PDF",
-      "dropzoneFootnote": "Na het uploaden kunt u altijd terug naar het accountdashboard om de koppeling te kopiëren of het bestand te downloaden.",
-      "browse": "Bestand kiezen",
-      "selectedFileLabel": "Geselecteerd bestand",
-      "removeSelectedFile": "Bestand verwijderen",
-      "uploadBtn": "Uploaden en koppeling krijgen",
-      "uploading": "Uploaden…",
-      "loginRequiredTitle": "Meld u aan om PDF's te uploaden",
-      "loginRequiredDescription": "Meld u eerst aan. Hosting is gekoppeld aan uw account; na het uploaden kunt u koppelingen kopiëren, downloaden en alles beheren in het accountdashboard.",
-      "loginRequiredDetail": "Na aanmelding verschijnt elke upload op dezelfde plek in het dashboard: klikken om de directe koppeling te kopiëren, openen in een nieuw tabblad, originelen downloaden, zoeken en filteren op type, verwijderen of opnieuw uploaden — en zo blijven uw documenten privé.",
-      "loginCta": "Inloggen",
-      "signUpCta": "Account aanmaken",
-      "resultTitle": "Uw PDF-koppeling",
-      "resultDashboardHint": "Open voor dit bestand altijd het accountdashboard: URL kopiëren, in een nieuw tabblad openen of de PDF downloaden.",
-      "dashboardCta": "Dashboard openen",
-      "copy": "Koppeling kopiëren",
-      "copied": "Gekopieerd",
-      "open": "Openen in nieuw tabblad",
-      "reset": "Nog een uploaden",
-      "errorUnauthorized": "Meld u aan voordat u PDF's uploadt.",
-      "errorBadType": "Kies een PDF-bestand.",
-      "howTitle": "Hoe het werkt",
-      "step1Title": "1. Kies uw PDF",
-      "step1Desc": "Selecteer een bestand op uw apparaat of sleep het naar het uploadgebied.",
-      "step2Title": "2. Upload naar uw bibliotheek",
-      "step2Desc": "We slaan de PDF in uw cloud op en tonen hem in het accountdashboard, daarna geven we een directe HTTPS-URL terug.",
-      "step3Title": "3. Delen en later terugkomen",
-      "step3Desc": "Deel de koppeling per e-mail of chat. Open indien nodig het accountdashboard om dezelfde koppeling te kopiëren, te openen of het bestand te downloaden."
-    },
-    "page": {
-      "sectionTitle": "Uw documenten op één plek",
-      "sectionLead": "Voor wie echte PDF-hosting met een echte bibliotheek wil — één keer uploaden, in uw account bewaren en altijd terugkomen.",
-      "bullet1": "Elke geüploade PDF staat in dezelfde lijst in het dashboard, zodat u ziet wat u hebt gedeeld.",
-      "bullet2": "Persoonlijke hosting: bestanden onder uw account, via HTTPS geserveerd en in uw bibliotheek bewaard.",
-      "bullet3": "Acties altijd bij de hand: de openbare koppeling kopiëren, in de browser openen of de originele PDF downloaden.",
-      "bullet4": "Dezelfde URL blijft werken zolang het bestand bestaat; na verwijdering in het dashboard levert de koppeling dat bestand niet meer.",
-      "footnote": "Verwijder bestanden die u niet meer nodig hebt in het accountdashboard; daarna werkt de koppeling niet meer."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "Bestand naar URL | Office-documenten en HTTPS-koppelingen",
-      "description": "Upload PDF-, Word-, PowerPoint- of Excel-bestanden naar uw account en ontvang een stabiele HTTPS-koppeling — bekijk, download of kopieer de koppeling altijd via het accountdashboard.",
-      "keywords": "bestand naar url,documentkoppeling,office delen,docx pptx xlsx uploaden,document hosting"
-    },
-    "tool": {
-      "heroTitle": "Bestand naar URL",
-      "heroSubtitle": "Zet kantoorbestanden om in deelbare HTTPS-koppelingen onder uw account. Ondersteunde formaten: PDF, Word, PowerPoint en Excel.",
-      "featureFastTitle": "Snel uploaden",
-      "featureFastDesc": "Sleep een ondersteund bestand of kies het; binnen enkele seconden krijgt u de koppeling via het CDN.",
-      "featureHostingTitle": "Persoonlijke hosting",
-      "featureHostingDesc": "Elke upload wordt in uw cloud opgeslagen en komt in dezelfde persoonlijke bibliotheek als uploads van andere pagina's.",
-      "featureLinkTitle": "Stabiele, deelbare koppelingen",
-      "featureLinkDesc": "Elke upload levert een schone URL. De koppeling blijft actief tot u het bestand in het accountdashboard verwijdert.",
-      "featureDashboardTitle": "Alles op één plek",
-      "featureDashboardDesc": "Na aanmelding opent u het dashboard om de koppeling opnieuw te kopiëren, in een nieuw tabblad te openen of te downloaden.",
-      "dropzoneTitle": "Sleep uw bestand hierheen",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "Na het uploaden kunt u altijd terug naar het accountdashboard om de koppeling te kopiëren of het bestand te downloaden.",
-      "browse": "Bestand kiezen",
-      "selectedFileLabel": "Geselecteerd bestand",
-      "removeSelectedFile": "Bestand verwijderen",
-      "uploadBtn": "Uploaden en koppeling krijgen",
-      "uploading": "Uploaden…",
-      "loginRequiredTitle": "Meld u aan om bestanden te uploaden",
-      "loginRequiredDescription": "Meld u eerst aan. Hosting is gekoppeld aan uw account; na het uploaden kunt u koppelingen kopiëren, downloaden en alles beheren in het accountdashboard.",
-      "loginRequiredDetail": "Na aanmelding verschijnt elke upload op dezelfde plek in het dashboard: klikken om de directe koppeling te kopiëren, openen in een nieuw tabblad, originelen downloaden, zoeken en filteren op type, verwijderen of opnieuw uploaden — en zo blijven uw documenten privé.",
-      "loginCta": "Inloggen",
-      "signUpCta": "Account aanmaken",
-      "resultTitle": "Uw bestandskoppeling",
-      "resultDashboardHint": "Open voor dit bestand altijd het accountdashboard: URL kopiëren, in een nieuw tabblad openen of het origineel downloaden.",
-      "dashboardCta": "Dashboard openen",
-      "copy": "Koppeling kopiëren",
-      "copied": "Gekopieerd",
-      "open": "Openen in nieuw tabblad",
-      "reset": "Nog een uploaden",
-      "errorUnauthorized": "Meld u aan voordat u bestanden uploadt.",
-      "errorBadType": "Kies een PDF-, Word-, PowerPoint- of Excel-bestand.",
-      "howTitle": "Hoe het werkt",
-      "step1Title": "1. Kies uw bestand",
-      "step1Desc": "Selecteer een ondersteund document op uw apparaat of sleep het naar het uploadgebied.",
-      "step2Title": "2. Upload naar uw bibliotheek",
-      "step2Desc": "We slaan het bestand in uw cloud op en tonen het in het accountdashboard, daarna geven we een directe HTTPS-URL terug.",
-      "step3Title": "3. Delen en later terugkomen",
-      "step3Desc": "Deel de koppeling per e-mail of chat. Open indien nodig het accountdashboard om dezelfde koppeling te kopiëren, te openen of het bestand te downloaden."
-    },
-    "page": {
-      "sectionTitle": "Kort samengevat",
-      "sectionLead": "Kies een bestand, upload en kopieer uw koppeling — open indien nodig het dashboard om opnieuw te kopiëren of het origineel te downloaden.",
-      "bullet1": "Ondersteunde formaten: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Sleep en zet neer of blader naar een bestand; na voltooide upload tonen we een kant-en-klare HTTPS-koppeling.",
-      "bullet3": "Plak de koppeling in e-mail, chat of documenten — ontvangers openen hem in de browser.",
-      "bullet4": "Bestanden blijven onder uw account; open het dashboard om dezelfde koppeling te kopiëren of het origineel te downloaden.",
-      "bullet5": "Alleen PDF? Gebruik ook de pagina «PDF naar URL» voor een kortere flow.",
-      "footnote": "Verwijder een bestand in het dashboard als u het niet meer nodig hebt; daarna werkt de koppeling niet meer."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Foto naar URL",
-      "description": "Artikelen over fotohosting, linkdeling en prestatietips."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Laatste artikelen, tutorials en inzichten over beeldhosting, CDN, linkdeling, cirkelgewas, afgeronde hoeken en achtergrondverwijdering.",
-      "stayTuned": "Blijf op de hoogte voor gidsen over:",
-      "guides": {
-        "1": "Beste praktijken voor het converteren van afbeeldingen naar URL",
-        "2": "Hoe directe fotolinks te gebruiken in blogs en documenten",
-        "3": "Prestaties en caching voor statische assets"
-      },
-      "readMore": "Lees meer",
-      "min": "min",
-      "backToBlog": "Terug naar blog",
-      "minRead": "min lezen",
-      "author": "Auteur",
-      "viewMoreArticles": "Bekijk meer artikelen",
-      "tags": "Tags:",
-      "about": {
-        "title": "Over het Foto naar URL Team",
-        "subtitle": "Redactieteam",
-        "description": "We bouwen en onderhouden Foto naar URL en schrijven praktische gidsen voor beeldoptimalisatie en webprestaties.",
-        "website": "Website",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Bekijk alle berichten"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Afbeelding naar URL converteren: Een complete gids",
-        "description": "Leer alles wat u moet weten over het converteren van afbeeldingen naar deelbare URL's. Deze uitgebreide gids behandelt methoden, best practices en tips voor beeldhosting en linkdeling.",
-        "content": "# Afbeelding naar URL converteren: Een complete gids\n\nHet converteren van afbeeldingen naar deelbare URL's is een essentiële vaardigheid geworden in de digitale wereld van vandaag. Of u nu een blogger, ontwikkelaar of contentmaker bent, begrijpen hoe u uw afbeeldingen kunt transformeren in directe links kan uw workflow en mogelijkheden voor het delen van content aanzienlijk verbeteren.\n\n## Waarom afbeeldingen naar URL's converteren?\n\nVoordat we ingaan op de methoden, laten we begrijpen waarom het converteren van afbeeldingen naar URL's voordelig is:\n\n### 1. **Eenvoudig Delen**\nDirecte afbeeldings-URL's stellen u in staat om afbeeldingen direct te delen zonder bestanden te downloaden of opnieuw te uploaden. Kopieer gewoon de URL en plak deze overal - in e-mails, documenten of sociale mediaposts.\n\n### 2. **Betere Prestaties**\nHet gebruik van directe afbeeldingslinks vermindert de belasting van uw hoofdserver. Wanneer afbeeldingen worden gehost op een CDN (Content Delivery Network), laden ze sneller voor gebruikers wereldwijd.\n\n### 3. **Flexibiliteit**\nAfbeeldings-URL's kunnen worden ingesloten in HTML, Markdown of worden gebruikt in API's. Deze flexibiliteit maakt ze perfect voor zowel ontwikkelaars als contentmakers.\n\n### 4. **Opslagefficiëntie**\nIn plaats van afbeeldingen lokaal op te slaan, kunt u cloudopslagoplossingen gebruiken die directe URL's bieden, waardoor waardevolle serverruimte wordt bespaard.\n\n## Methoden om afbeeldingen naar URL's te converteren\n\n### Methode 1: Gebruik van de Foto naar URL-service\n\n**Foto naar URL** is een gratis, gebruiksvriendelijke service die conversie van afbeelding naar URL moeiteloos maakt:\n\n1. **Bezoek de website**: Navigeer naar Foto naar URL\n2. **Upload uw afbeelding**: Sleep en zet uw afbeeldingsbestand neer of klik om te bladeren\n3. **Krijg uw URL**: Zodra geüpload, ontvangt u een directe link naar uw afbeelding\n4. **Kopieer en gebruik**: Kopieer de URL en gebruik deze waar u maar wilt\n\n**Voordelen:**\n- ✅ Geen registratie vereist\n- ✅ Snelle upload en verwerking\n- ✅ Directe CDN-links voor optimale prestaties\n- ✅ Ondersteuning voor meerdere afbeeldingsformaten (JPG, PNG, WEBP, GIF)\n- ✅ 10 uploads/dag, 2MB per bestand\n\n### Methode 2: Cloudopslagservices\n\nPopulaire cloudopslagservices bieden afbeeldingshosting met directe URL-toegang:\n\n**Google Cloud Storage / AWS S3:**\n- Upload afbeeldingen naar uw bucket\n- Stel geschikte machtigingen in\n- Toegang tot afbeeldingen via directe URL's\n- Configureer CDN voor betere prestaties\n\n**Voordelen:**\n- Volledige controle over uw afbeeldingen\n- Schaalbare opslagoplossingen\n- Infrastructuur op professioneel niveau\n\n### Methode 3: Afbeeldingshostingplatforms\n\nToegewijde afbeeldingshostingplatforms bieden gespecialiseerde services:\n\n- **Imgur**: Populair voor snelle afbeeldingsdeling\n- **Cloudinary**: Geavanceerde functies voor afbeeldingsmanipulatie\n- **ImageKit**: Geoptimaliseerd voor prestaties\n\n## Beste Praktijken voor Afbeeldings-URL's\n\n### 1. **Kies het Juiste Formaat**\n\nVerschillende afbeeldingsformaten dienen verschillende doeleinden:\n\n- **JPEG**: Best voor foto's met veel kleuren\n- **PNG**: Ideaal voor afbeeldingen met transparantie of scherpe randen\n- **WEBP**: Modern formaat met betere compressie\n- **GIF**: Perfect voor geanimeerde afbeeldingen\n\n### 2. **Optimaliseer Afbeeldingsgrootte**\n\nVoordat u naar URL converteert, optimaliseer uw afbeeldingen:\n\n- Comprimeer afbeeldingen om bestandsgrootte te verminderen\n- Wijzig de grootte van afbeeldingen naar geschikte afmetingen\n- Gebruik moderne formaten zoals WEBP wanneer mogelijk\n- Balanceer kwaliteit en bestandsgrootte\n\n### 3. **Gebruik CDN voor Betere Prestaties**\n\nContent Delivery Networks (CDN) distribueren uw afbeeldingen over meerdere servers wereldwijd, waardoor snelle laadtijden worden gegarandeerd, ongeacht de locatie van de gebruiker.\n\n### 4. **Implementeer Juiste Beveiliging**\n\n- Gebruik HTTPS-URL's voor veilige afbeeldinglevering\n- Stel geschikte toegangsmachtigingen in\n- Overweeg watermerken voor gevoelige inhoud\n- Monitor gebruik om misbruik te voorkomen\n\n## Veelvoorkomende Gebruikssituaties\n\n### Voor Bloggers\n\nBloggers kunnen afbeeldings-URL's gebruiken om:\n- Afbeeldingen in blogposts in te sluiten zonder ze lokaal te hosten\n- Paginalaadtijden te verbeteren\n- Afbeeldingen op meerdere platforms te delen\n- Consistente afbeeldingskwaliteit te behouden\n\n### Voor Ontwikkelaars\n\nOntwikkelaars profiteren van afbeeldings-URL's door:\n- Serverbelasting te verminderen\n- Afbeeldingsbeheer te vereenvoudigen\n- Dynamisch laden van afbeeldingen mogelijk te maken\n- Te integreren met API's en webservices\n\n### Voor E-commerce\n\nE-commercesites gebruiken afbeeldings-URL's om:\n- Productafbeeldingen efficiënt weer te geven\n- Grote afbeeldingscatalogi te beheren\n- Te optimaliseren voor mobiele apparaten\n- Prestaties van de checkoutpagina te verbeteren\n\n## Veelvoorkomende Problemen Oplossen\n\n### Probleem: Gebroken Afbeeldingslinks\n\n**Oplossing:**\n- Controleer of de URL correct en toegankelijk is\n- Controleer afbeeldingsmachtigingen en toegangsinstellingen\n- Zorg ervoor dat de hostingservice operationeel is\n- Valideer dat het afbeeldingsformaat wordt ondersteund\n\n### Probleem: Langzame Laadtijden\n\n**Oplossing:**\n- Gebruik een CDN voor afbeeldinglevering\n- Optimaliseer afbeeldingsbestandsgroottes\n- Kies geschikte afbeeldingsformaten\n- Implementeer lazy loading waar mogelijk\n\n### Probleem: Afbeelding Wordt Niet Weergegeven\n\n**Oplossing:**\n- Controleer CORS (Cross-Origin Resource Sharing) instellingen\n- Controleer of HTTPS/HTTP-protocollen overeenkomen\n- Zorg ervoor dat juiste MIME-types zijn ingesteld\n- Test URL-toegankelijkheid vanaf verschillende locaties\n\n## Geavanceerde Tips\n\n### 1. **Batchverwerking**\n\nVoor meerdere afbeeldingen, overweeg:\n- Gebruik van API's voor geautomatiseerde uploads\n- Implementatie van batchconversiescripts\n- Gebruik van cloudopslag-API's\n- Opzetten van geautomatiseerde workflows\n\n### 2. **Afbeeldingsmanipulatie**\n\nSommige services bieden on-the-fly afbeeldingsmanipulatie:\n- Grootte wijzigen van afbeeldingen via URL-parameters\n- Filters en effecten toepassen\n- Automatisch formaten converteren\n- Afbeeldingen bijsnijden en roteren\n\n### 3. **Analyse en Monitoring**\n\nVolg uw afbeeldingsgebruik:\n- Monitor bandbreedteverbruik\n- Analyseer populaire afbeeldingen\n- Volg toegangspatronen\n- Optimaliseer op basis van gebruiksgegevens\n\n## Conclusie\n\nHet converteren van afbeeldingen naar URL's is een eenvoudig proces dat tal van voordelen biedt. Of u nu kiest voor een eenvoudige service zoals Foto naar URL of een uitgebreide cloudopslagoplossing, de sleutel is het vinden van de methode die het beste bij uw behoeften past.\n\nVergeet niet:\n- ✅ Optimaliseer afbeeldingen voordat u ze uploadt\n- ✅ Kies geschikte formaten\n- ✅ Gebruik CDN voor betere prestaties\n- ✅ Implementeer juiste beveiligingsmaatregelen\n- ✅ Monitor en optimaliseer regelmatig\n\nDoor deze richtlijnen te volgen, kunt u uw afbeeldingen efficiënt converteren en beheren als URL's, waardoor zowel uw workflow als de prestaties van uw content worden verbeterd.\n\n## Gerelateerde Tools\n\n- [Foto naar URL](/) - Gratis service voor conversie van afbeelding naar URL\n- [Cirkelgewas Tool](/circle-crop) - Maak cirkelvormige afbeeldingen\n- [Afgeronde Hoeken Tool](/rounded-corners) - Voeg afgeronde hoeken toe aan afbeeldingen\n- [Achtergrondverwijdering Tool](/remove-background) - Verwijder afbeeldingsachtergronden met AI\n\n---\n\n*Laatst bijgewerkt: December 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Afbeeldingen in cirkelvorm bijsnijden - Complete gids",
-        "description": "Transformeer elke foto in een perfecte ronde afbeelding met onze gratis online cirkelgewas tool. Maak professionele ronde afbeeldingen voor profielen, sociale media, logo's en meer in slechts enkele seconden.",
-        "content": "# Afbeeldingen in cirkelvorm bijsnijden - Complete gids\n\nTransformeer elke foto in een perfecte ronde afbeelding met onze gratis online cirkelgewas tool. Maak professionele ronde afbeeldingen voor profielen, sociale media, logo's en meer in slechts enkele seconden.\n\n## Hoe afbeeldingen in cirkelvorm bij te snijden\n\n### Stap 1: Upload uw afbeelding\nSelecteer een foto van uw apparaat die u in een cirkelvorm wilt bijsnijden. Onze tool ondersteunt JPG-, PNG-, WEBP- en GIF-formaten. Klik gewoon op de uploadknop of sleep en zet uw afbeeldingsbestand neer.\n\n### Stap 2: Positioneer uw afbeelding\nPas uw foto aan en centreer deze binnen het cirkelvormige bijsnijgebied. Gebruik de zoomschuifregelaar om u te concentreren op het belangrijkste deel van uw afbeelding en sleep om deze te herpositioneren voor een perfecte ronde bijsnede.\n\n### Stap 3: Download uw ronde afbeelding\nZodra u tevreden bent met de positionering, klikt u op \"Bijsnijden en downloaden\" om uw perfect afgeronde afbeelding te krijgen. Het resultaat heeft een transparante achtergrond, waardoor het perfect is voor gebruik overal.\n\n## Populaire toepassingen voor cirkelvormig bijgesneden afbeeldingen\n\n### Profielfoto's\nSnijd foto's in cirkelvorm voor professioneel ogende profielafbeeldingen op sociale mediaplatforms zoals Facebook, LinkedIn en Instagram. Ronde avatars creëren een moderne, gepolijste uitstraling.\n\n### Sociale media graphics\nMaak ronde afbeeldingen voor Instagram-verhalen, Facebook-posts en Twitter-profielen die opvallen in de menigte. Ronde afbeeldingen voegen visuele interesse toe en doorbreken de monotonie van vierkante posts.\n\n### Ronde logo's\nTransformeer uw logo of merkafbeeldingen in perfect ronde vormen voor consistente branding op alle platforms. Ronde logo's werken vooral goed voor app-iconen en sociale media branding.\n\n### Getuigenisfoto's\nToon klant- of cliëntgetuigenissen met ronde profielfoto's voor een schone, professionele uitstraling. Ronde afbeeldingen creëren visuele consistentie en maken uw getuigenissen aantrekkelijker.\n\n### Teamlidfoto's\nMaak consistente ronde portretten voor bedrijfswebsites, teampagina's en werknemersdirectories. Uniforme ronde foto's geven uw teampagina een samenhangende, professionele uitstraling.\n\n## Functies van onze cirkelgewas tool\n\n- **Gratis cirkelafbeelding bijsnijder** - Maak cirkelvormen van elke afbeelding zonder kosten, geen verborgen kosten\n- **Hoge resolutie output** - Download uw ronde afbeeldingen in hun oorspronkelijke kwaliteit zonder compressie\n- **Geen registratie vereist** - Begin direct met het bijsnijden van afbeeldingen in cirkels, geen accountaanmaak nodig\n- **Privé en veilig** - Uw afbeeldingen verlaten nooit uw browser, wat volledige privacy garandeert\n- **Gebruiksvriendelijke interface** - Eenvoudig, intuïtief ontwerp maakt het maken van ronde afbeeldingen moeiteloos\n- **Werkt op alle apparaten** - Snijd afbeeldingen in cirkelvorm bij op desktop, tablet of mobiele apparaten\n- **Transparante achtergrond** - Alle ronde bijsnijdingen worden geleverd met transparante achtergronden voor maximale veelzijdigheid\n- **Realtime voorvertoning** - Zie precies hoe uw ronde afbeelding eruit zal zien voordat u deze downloadt\n\n## Veelgestelde vragen over cirkelgewas\n\n### Hoe snijd ik een afbeelding in een cirkelvorm bij?\n\nUpload gewoon uw afbeelding naar onze tool, pas deze aan binnen het cirkelvormige frame om het onderwerp correct te positioneren en klik op \"Bijsnijden en downloaden\" om uw perfect ronde afbeelding te krijgen. Onze tool maakt het gemakkelijk om elke afbeelding direct in een cirkelformaat bij te snijden zonder ontwerpvaardigheden nodig te hebben.\n\n### Hoe maak ik een ronde profielfoto?\n\nUpload uw foto naar onze cirkelgewas tool, positioneer uw gezicht in het midden van het cirkelvormige frame en download dan uw nieuwe ronde profielfoto. Het is perfect voor sociale mediaprofielen die ronde afbeeldingen gebruiken zoals Facebook, LinkedIn of Instagram.\n\n### Kan ik foto's in ronde vormen bijsnijden op mijn telefoon?\n\nJa! Onze cirkelafbeelding bijsnijder werkt op alle apparaten, inclusief smartphones en tablets. De mobielvriendelijke interface stelt u in staat om overal gemakkelijk ronde afbeeldingsbijsnijdingen te maken. Bezoek gewoon onze website vanuit uw mobiele browser - geen appdownload vereist.\n\n### Bewaart u de afbeeldingen die ik upload?\n\nNee, we bewaren uw afbeeldingen nooit op onze servers. Het hele bijsnijproces gebeurt direct in uw browser, wat betekent dat uw foto's volledig privé blijven. Zodra u de pagina verlaat, worden alle afbeeldingsgegevens automatisch verwijderd.\n\n### Welke afbeeldingsformaten kan ik gebruiken met de cirkelgewas tool?\n\nOnze tool werkt met alle standaard afbeeldingsformaten, inclusief JPG, PNG, WEBP en GIF. U kunt een van deze formaten uploaden en uw cirkelvormig bijgesneden afbeelding wordt gedownload als een PNG-bestand met transparantie rond de cirkel.\n\n### Heeft mijn cirkelvormig bijgesneden afbeelding een transparante achtergrond?\n\nJa, wanneer u uw bijgesneden afbeelding downloadt, heeft deze een transparante achtergrond rond de cirkel. Dit maakt het perfect voor plaatsing op websites, documenten of ontwerpen waar u alleen het cirkelvormige deel zichtbaar wilt hebben.\n\n### Kan ik de grootte van de cirkelgewas aanpassen?\n\nDe cirkelgewas behoudt een perfecte 1:1 beeldverhouding, maar u kunt in- of uitzoomen om aan te passen hoeveel van uw afbeelding binnen de cirkel verschijnt. Dit stelt u in staat om u te concentreren op specifieke delen van uw afbeelding terwijl u de cirkelvorm behoudt.\n\n## Afbeeldings tips voor perfecte cirkelgewas\n\n### Centreer uw onderwerp\nVoor de beste resultaten kiest u afbeeldingen waarbij het hoofdonderwerp gecentreerd is of in het midden van het frame kan worden gepositioneerd. Dit is vooral belangrijk voor profielfoto's en portretten waarbij het gezicht het brandpunt zou moeten zijn.\n\n### Overweeg het bijsnijgebied\nOnthoud dat de hoeken van uw afbeelding worden bijgesneden. Vermijd afbeeldingen waarbij belangrijke details dicht bij de randen van de foto zijn, omdat deze verloren gaan bij de cirkelgewas.\n\n### Gebruik afbeeldingen met hoge resolutie\nBeginnen met afbeeldingen van hoge kwaliteit resulteert in betere cirkelgewas. Afbeeldingen met lage resolutie of kleine afbeeldingen kunnen gepixeliseerd lijken wanneer ze worden bijgesneden, dus gebruik de bronafbeeldingen van de hoogste kwaliteit die beschikbaar zijn.\n\n### Let op de beeldverhouding\nVierkante afbeeldingen werken meestal het beste voor cirkelgewas. Als uw oorspronkelijke afbeelding erg breed of hoog is, kunt u aanzienlijke delen verliezen tijdens het bijsnijproces. Overweeg indien nodig eerst bij te snijden naar vierkant.\n\n### Pas aan voor optimale kadrering\nGebruik de positioneringsfunctie van onze tool om uw afbeelding te zoomen en aan te passen. Voor portretten probeert u het gezicht te centreren met wat marge eromheen voor het beste professionele uiterlijk. Voor producten centreert u het hoofditem binnen de cirkel.\n\n### Maak consistente sets\nBij het maken van meerdere ronde afbeeldingen (zoals voor teamfoto's) probeert u consistente kadrering, achtergrondstijlen en maten te behouden voor een samenhangend uiterlijk op alle afbeeldingen.\n\n## Veelvoorkomende toepassingen voor cirkelvormig bijgesneden afbeeldingen\n\n| Toepassing | Voordelen van cirkelgewas |\n|------------|-------------------------|\n| Sociale mediaprofielen | De meeste platforms tonen avatars in cirkels - een perfect bijgesneden ronde afbeelding ziet er professioneel uit |\n| Teamlidfoto's | Maak consistente ronde portretten voor bedrijfswebsites en directories |\n| Online portfolio's | Ronde afbeeldingen creëren visuele interesse en moderne esthetiek |\n| Digitale visitekaartjes | Cirkelvormig bijgesneden profielfoto's zien er schoner en professioneler uit |\n| Productminiatuurtjes | Ronde productafbeeldingen creëren een samenhangend catalogus uiterlijk |\n| App-iconen | Ronde iconen zijn standaard voor mobiele applicaties |\n| Websitegetuigenissen | Ronde klantfoto's voegen geloofwaardigheid en visuele aantrekkingskracht toe |\n\n## Waarom onze cirkelgewas tool kiezen?\n\nAls het gaat om het online bijsnijden van foto's in cirkels, biedt onze tool verschillende voordelen:\n\n- **Directe verwerking** - Snijd afbeelding in cirkelvorm bij in seconden zonder te wachten op uploads of serververwerking\n- **Perfecte cirkels elke keer** - Onze tool garandeert perfect ronde bijsnijdingen met schone randen en geen vervorming\n- **Intuïtieve bediening** - Positioneer uw afbeelding precies zoals u wilt binnen de cirkel met zoom- en sleepfunctionaliteit\n- **Geen watermerken** - In tegenstelling tot andere cirkelgewas tools voegen we geen watermerken toe aan uw afbeeldingen\n- **Werkt met alle afbeeldings typen** - Snijd foto's, graphics, illustraties of elke afbeelding in een cirkel bij\n- **Browsergebaseerd** - Geen software-installatie vereist, werkt direct in uw webbrowser\n- **Privacy eerst** - Alle verwerking gebeurt lokaal in uw browser, uw afbeeldingen verlaten nooit uw apparaat\n\nOf u nu afbeeldingen in cirkelvorm moet bijsnijden voor professioneel gebruik of persoonlijke projecten, onze ronde foto bijsnijder tool handelt alles met gemak af. Maak ronde afbeeldingsbijsnijdingen met slechts een paar klikken!\n\n## Aan de slag\n\nKlaar om uw eerste ronde afbeelding te maken? Bezoek onze [Cirkelgewas Tool](/circle-crop) en begin vandaag met bijsnijden. Het is volledig gratis, vereist geen registratie en duurt slechts enkele seconden om professionele ronde afbeeldingen te maken.\n\n---\n\n*Laatst bijgewerkt: Januari 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Afbeeldingen met afgeronde hoeken – Gids",
-        "description": "Geef elke afbeelding afgeronde hoeken met onze gratis tool. Handig voor miniaturen, kaarten, UI en social media, in seconden.",
-        "content": "# Afbeeldingen met afgeronde hoeken – Gids\n\nMaak van elke afbeelding een versie met afgeronde hoeken via onze gratis online tool. Geschikt voor miniaturen, kaarten, UI-elementen en social media, zonder ontwerpvaardigheden.\n\n## Zo rond je hoeken af\n\n### Stap 1: Upload je afbeelding\nKies een foto op je apparaat. We ondersteunen JPG, PNG, WEBP en GIF. Een klik of drag-and-drop is genoeg.\n\n### Stap 2: Stel de straal in\nVerschuif de slider voor meer of minder afronding. De voorvertoning past zich direct aan.\n\n### Stap 3: Download\nKlik op \"Download\" om de afbeelding met afgeronde hoeken op te slaan en te gebruiken in ontwerpen, op websites of in posts.\n\n## Waar je het voor gebruikt\n\n### Miniaturen en kaarten\nAfgeronde hoeken geven grids en kaarten een strakke, moderne look.\n\n### Social media en advertenties\nAfbeeldingen met zachte hoeken vallen meer op in feeds en advertenties en ogen vriendelijker.\n\n### UI en apps\nIconen, avatars en knoppen hebben vaak afgeronde hoeken; met deze tool maak je meerdere afbeeldingen in één stijl.\n\n### Presentaties en documenten\nDezelfde straal voor screenshots en graphics zorgt voor een consistente uitstraling.\n\n## Wat de tool biedt\n\n- **Gratis en direct** – geen account, geen watermerk; lokaal verwerken in je browser, geen gebruikslimiet voor deze tool\n- **Straal instelbaar** – van subtiel tot pill-vorm\n- **Live voorvertoning** – je ziet het resultaat vóór het downloaden\n- **Privacy** – alles in je browser, we slaan niets op\n- **Op elk apparaat** – pc, tablet en telefoon\n\n## Veelgestelde vragen\n\n### Hoe rond ik de hoeken van een foto af?\n\nGa naar onze [tool Afgeronde hoeken](/rounded-corners), upload de afbeelding, stel de straal in en klik op Download.\n\n### Welke formaten worden ondersteund?\n\nJPG, PNG, WEBP en GIF. Het gedownloade bestand behoudt het formaat (of PNG voor transparantie).\n\n### Werkt het op mijn telefoon?\n\nJa. De tool werkt in de browser op telefoon en tablet, geen app nodig.\n\n### Bewaart u mijn afbeeldingen?\n\nNee. Alles gebeurt in je browser; wij slaan niets op.\n\n## Gerelateerde tools\n\n- [Foto naar URL](/) – afbeelding omzetten naar link\n- [Cirkelgewas](/circle-crop) – ronde afbeeldingen maken\n- [Afgeronde hoeken](/rounded-corners) – hoeken afronden\n- [Achtergrond verwijderen](/remove-background) – achtergrond verwijderen met AI\n\n---\n\n*Laatst bijgewerkt: Februari 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Achtergrond verwijderen – Gids",
-        "description": "Verwijder beeldachtergronden in één klik met onze gratis AI-tool. Schone uitsneden voor productfoto's, portretten, logo's en meer.",
-        "content": "# Achtergrond verwijderen – Gids\n\nVerwijder beeldachtergronden in één klik met onze gratis online tool. Schone uitsneden voor productfoto's, portretten, logo's en meer – geen ontwerpvaardigheden nodig.\n\n## Zo verwijder je de achtergrond\n\n### Stap 1: Upload je afbeelding\nKies een foto op je apparaat. Ondersteund: JPG, PNG, WEBP, GIF. Klik of sleep en zet neer.\n\n### Stap 2: AI verwijdert de achtergrond\nDe tool herkent het onderwerp en verwijdert de achtergrond. Verwerking duurt meestal een paar seconden. Live voorvertoning met transparante achtergrond.\n\n### Stap 3: Downloaden\nKlik op \"Download\" om de afbeelding zonder achtergrond op te slaan. Uitvoer als PNG met transparantie, voor ontwerp, e-commerce of social media.\n\n## Veelvoorkomend gebruik\n\n### Productfoto's\nSchone uitsneden voor webshops, marktplaatsen en advertenties. Transparante achtergrond voor elk layout.\n\n### Portretten en profielfoto's\nDrukke of afleidende achtergronden verwijderen voor cv, LinkedIn of profielen.\n\n### Logo's en grafisch\nIsoleer logo's en graphics uit foto's of scans. Transparante PNG voor overlay, branding en presentaties.\n\n### Social media en marketing\nOpvallende beelden voor posts, stories en advertenties. Transparante uitsneden passen in elke template.\n\n## Wat de tool biedt\n\n- **Gratis en AI** – geen account, geen watermerk; lokaal verwerken in je browser, geen gebruikslimiet voor deze tool\n- **Verwijderen in één klik** – automatische onderwerpherkenning, schone randen\n- **Transparante PNG** – voor elk ontwerp of platform\n- **Privacy** – verwerking in je browser, we slaan geen beelden op\n- **Alle apparaten** – pc, tablet en telefoon\n\n## Veelgestelde vragen\n\n### Hoe verwijder ik de achtergrond van een foto?\n\nGa naar onze [Tool Achtergrond verwijderen](/remove-background), upload je afbeelding. De tool herkent het onderwerp en verwijdert de achtergrond. Bekijk de voorvertoning en download als PNG met transparantie.\n\n### Welke formaten worden ondersteund?\n\nJPG, PNG, WEBP en GIF. Het resultaat wordt altijd als PNG met transparante achtergrond gedownload.\n\n### Bewaart u mijn afbeeldingen?\n\nNee. Verwerking gebeurt in je browser; wij slaan niets op.\n\n### Werkt het op mijn telefoon?\n\nJa. De tool werkt in de browser op telefoon en tablet.\n\n## Gerelateerde tools\n\n- [Foto naar URL](/) – Afbeelding omzetten naar link\n- [Cirkelgewas](/circle-crop) – Ronde afbeeldingen maken\n- [Afgeronde hoeken](/rounded-corners) – Hoeken afronden\n- [Achtergrond verwijderen](/remove-background) – Achtergrond verwijderen met AI\n\n---\n\n*Laatst bijgewerkt: Maart 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Documentatie | Foto naar URL",
-      "description": "Documentatie voor Foto naar URL."
-    },
-    "page": {
-      "title": "Documentatie",
-      "description": "Snel starten: upload een afbeelding en krijg een directe URL. Gebruik de kopiëren/openen knoppen of download de link in .txt formaat.",
-      "features": {
-        "title": "Ondersteunde functies:",
-        "items": {
-          "1": "Ondersteund: JPG, PNG, WEBP, GIF",
-          "2": "Snelle levering via CDN wanneer opslag is ingeschakeld",
-          "3": "Vriendelijke onderhoudsfoutmeldingen wanneer de service niet beschikbaar is"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Foto naar URL",
-      "description": "Servicestatus voor Foto naar URL."
-    },
-    "page": {
-      "title": "Status",
-      "description": "Alle systemen werken.",
-      "message": "Upload API en CDN-links draaien."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Foto naar URL",
-      "description": "Neem contact op met Foto naar URL voor ondersteuning, feedback, samenwerking of meldingen. We reageren op elk bericht binnen 1–2 werkdagen."
-    },
-    "page": {
-      "title": "Contact",
-      "introShort": "Een vraag of feedback? Vul het formulier in, we reageren zo snel mogelijk.",
-      "orEmail": "Of mail ons op",
-      "subtitle": "We helpen u graag met beeldhosting, links en alles daaromheen.",
-      "intro": "Foto naar URL is een gratis beeldhostingservice die foto's omzet in deelbare links. Voor vragen, suggesties of problemen kunt u contact opnemen.",
-      "whyTitle": "Waarvoor u ons kunt bereiken",
-      "why1": "Technische ondersteuning: uploadfouten, kapotte links of problemen met de tool",
-      "why2": "Feedback en functieverzoeken om de service te verbeteren",
-      "why3": "Samenwerking of partnerschap",
-      "why4": "Misbruik melden, auteursrecht of beleidsvragen",
-      "expectTitle": "Wat u kunt verwachten",
-      "expectContent": "We lezen elk bericht en streven naar een reactie binnen 1–2 werkdagen. Bij spoed graag een duidelijke onderwerpregel en zoveel mogelijk details.",
-      "emailHeading": "Bereik ons per e-mail",
-      "emailHint": "Stuur ons een e-mail, we reageren zo snel mogelijk.",
-      "email": {
-        "label": "E-mail",
-        "address": "support@phototourl.com",
-        "cta": "E-mail versturen"
-      },
-      "form": {
-        "title": "Bericht versturen",
-        "description": "Vul het formulier in, we reageren zo snel mogelijk.",
-        "name": "Naam",
-        "email": "E-mail",
-        "message": "Bericht",
-        "namePlaceholder": "Uw naam",
-        "emailPlaceholder": "uw@email.com",
-        "messagePlaceholder": "Uw bericht of vraag...",
-        "submit": "Versturen",
-        "submitting": "Bezig met verzenden...",
-        "success": "Bericht verzonden. We reageren zo snel mogelijk.",
-        "minLength": "Naam moet minimaal 3 tekens bevatten.",
-        "maxLengthName": "Naam mag maximaal 30 tekens bevatten.",
-        "invalidEmail": "Voer een geldig e-mailadres in.",
-        "minLengthMessage": "Bericht moet minimaal 10 tekens bevatten.",
-        "maxLengthMessage": "Bericht mag maximaal 2000 tekens bevatten.",
-        "invalid": "Er is iets misgegaan. Probeer het opnieuw."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "Over ons | Foto naar URL",
-      "description": "Meer informatie over Foto naar URL - een gratis beeldhostingservice die foto's omzet in deelbare links."
-    },
-    "page": {
-      "title": "Over ons",
-      "mission": {
-        "title": "Onze missie",
-        "content": "Foto naar URL is een gratis, snelle en betrouwbare beeldhostingservice ontworpen om makers, marketeers en teams te helpen om afbeeldingen direct om te zetten in deelbare links. We geloven in eenvoud, snelheid en gebruikersprivacy."
-      },
-      "features": {
-        "title": "Wat we bieden",
-        "item1": "Gratis beeldhosting met CDN-ondersteuning",
-        "item2": "Directe linkgeneratie voor snelle delen",
-        "item3": "Ondersteuning voor meerdere beeldformaten (JPG, PNG, WEBP, GIF)",
-        "item4": "Gratis proberen zonder registratie — gratis abonnement: 10 uploads/dag, 2MB per bestand"
-      },
-      "contact": {
-        "title": "Neem contact op",
-        "text": "Heeft u vragen of feedback? Neem contact met ons op via",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacybeleid | Foto naar URL",
-        "description": "Privacybeleid voor Foto naar URL - Ontdek hoe we uw gegevens verzamelen, gebruiken en beschermen."
-      },
-      "page": {
-        "title": "Privacybeleid",
-        "lastUpdated": "Laatst bijgewerkt: mei 2026",
-        "introduction": "Bij Foto naar URL respecteren we uw privacy en zijn we toegewijd aan het beschermen van uw persoonlijke informatie. Dit Privacybeleid legt uit hoe we uw informatie verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze service gebruikt.",
-        "dataCollection": {
-          "title": "Informatie die we verzamelen",
-          "content1": "Wanneer u Foto naar URL gebruikt, kunnen we het volgende verzamelen:",
-          "item1": "Geüploade afbeeldingsbestanden en metadata (bestandsnaam, grootte, type), opgeslagen op Cloudflare R2 om deelbare links te bieden",
-          "item2": "IP-adres, upload-tijdstempels en gebruiksgegevens voor snelheidsbeperking, beveiliging en misbruikpreventie",
-          "item3": "Accountinformatie bij registratie of inloggen (e-mailadres, OAuth-profiel van Google, sessie- en authenticatie-identificatoren)",
-          "item4": "Abonnements- en betalingsinformatie verwerkt door onze provider Waffo Pancake bij aankoop van een betaald abonnement — we slaan geen volledige kaartnummers op",
-          "content2": "Als u contact met ons opneemt via het contactformulier, verzamelen we de door u verstrekte informatie (naam, e-mail, enz.). We gebruiken ook cookies zoals beschreven in de sectie Cookies hieronder."
-        },
-        "dataUsage": {
-          "title": "Hoe we uw informatie gebruiken",
-          "item1": "Om deelbare afbeeldingslinks te genereren en te verstrekken",
-          "item2": "Om misbruik te voorkomen en uploadlimieten te handhaven",
-          "item3": "Om onze service en gebruikerservaring te verbeteren",
-          "item4": "Om te voldoen aan wettelijke verplichtingen"
-        },
-        "dataStorage": {
-          "title": "Gegevensopslag en -bewaring",
-          "content": "Geüploade afbeeldingen worden opgeslagen op Cloudflare R2-opslag. We bewaren afbeeldingen zolang als nodig is om de service te leveren. Afbeeldingen kunnen automatisch worden verwijderd na een periode van inactiviteit of vanwege beleidsovertredingen."
-        },
-        "cookies": {
-          "title": "Cookies en trackingtechnologieën",
-          "content1": "We gebruiken de volgende technologieën:",
-          "item1": "Lokale opslag: Om uw uploadgeschiedenis en taalvoorkeuren op te slaan",
-          "item2": "Google AdSense: Om advertenties weer te geven (gebruikt cookies voor advertentiepersonalisatie)",
-          "item3": "Google Analytics: Voor website-analyse (geanonimiseerde gegevens)",
-          "content2": "U kunt cookies beheren via uw browserinstellingen. Het uitschakelen van cookies kan echter sommige functionaliteiten van onze service beïnvloeden."
-        },
-        "personalizedAds": {
-          "title": "Gepersonaliseerde advertenties en uitschakelen",
-          "content": "We gebruiken Google AdSense voor advertenties. Google en andere partijen kunnen cookies gebruiken om advertenties te tonen op basis van uw bezoek aan deze en andere sites. U kunt gepersonaliseerde advertenties uitschakelen via",
-          "linkAdsSettings": "Google-advertentie-instellingen",
-          "content2": "of via de uitschakelpagina van het Network Advertising Initiative",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Services van derden",
-          "content1": "We gebruiken de volgende services van derden:",
-          "item1": "Cloudflare R2: Voor afbeeldingsopslag en CDN-levering",
-          "item2": "Google AdSense: Voor advertenties (onderworpen aan het Privacybeleid van Google)",
-          "item3": "Google Analytics: Voor website-analyse (onderworpen aan het Privacybeleid van Google)",
-          "content2": "We gebruiken ook Waffo Pancake voor abonnementen en betalingsverwerking. Deze diensten kunnen informatie verzamelen volgens hun eigen privacybeleid. We raden u aan deze te bekijken."
-        },
-        "dataSecurity": {
-          "title": "Gegevensbeveiliging",
-          "content": "We implementeren passende technische en organisatorische maatregelen om uw gegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of vernietiging. Geen enkele methode van verzending via internet is echter 100% veilig."
-        },
-        "yourRights": {
-          "title": "Uw rechten",
-          "content": "U heeft het recht om:",
-          "item1": "Toegang te krijgen tot uw geüploade afbeeldingen, accountgegevens en bijbehorende informatie",
-          "item2": "Verwijdering van uw afbeeldingen aan te vragen",
-          "item3": "U af te melden voor bepaalde gegevensverzamelingspraktijken",
-          "item4": "Contact met ons op te nemen met privacyzorgen"
-        },
-        "children": {
-          "title": "Privacy van kinderen",
-          "content": "Onze service is niet bedoeld voor kinderen onder de 13 jaar. We verzamelen niet opzettelijk persoonlijke informatie van kinderen onder de 13 jaar."
-        },
-        "changes": {
-          "title": "Wijzigingen in dit Privacybeleid",
-          "content": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. We zullen u op de hoogte stellen van eventuele wijzigingen door het nieuwe Privacybeleid op deze pagina te publiceren en de datum \"Laatst bijgewerkt\" bij te werken."
-        },
-        "contact": {
-          "title": "Neem contact op",
-          "text": "Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Servicevoorwaarden | Foto naar URL",
-        "description": "Servicevoorwaarden van Foto naar URL – beeldhosting, aanvaardbaar gebruik en verantwoordelijkheden."
-      },
-      "page": {
-        "title": "Servicevoorwaarden",
-        "lastUpdated": "Laatst bijgewerkt: september 2026",
-        "intro": "Welkom bij Foto naar URL. Door toegang tot of gebruik van onze beeldhosting- en linkdienst (de \"Service\") gaat u akkoord met deze Servicevoorwaarden. Bij geen akkoord, gebruik de Service niet.",
-        "acceptance": {
-          "title": "Aanvaarding van de voorwaarden",
-          "content": "Door afbeeldingen te uploaden, links te genereren of anderszins Foto naar URL te gebruiken, bevestigt u deze voorwaarden en ons privacybeleid te hebben gelezen, begrepen en geaccepteerd. We kunnen de voorwaarden wijzigen; voortgezet gebruik na wijzigingen geldt als aanvaarding van de bijgewerkte voorwaarden."
-        },
-        "serviceDescription": {
-          "title": "Beschrijving van de service",
-          "content": "Foto naar URL biedt gratis beeldhosting en directe linkgeneratie. U kunt binnen de gestelde limieten (bestandsgrootte, formaat, enz.) afbeeldingen uploaden en deelbare links ontvangen. We garanderen geen ononderbroken beschikbaarheid; de Service kan met of zonder kennisgeving worden gewijzigd, opgeschort of stopgezet."
-        },
-        "useOfService": {
-          "title": "Gebruik van de service",
-          "content": "U gebruikt de Service alleen voor rechtmatige doeleinden en in overeenstemming met deze voorwaarden. U bent verantwoordelijk voor uw gebruik en geüploade inhoud. U mag de Service niet gebruiken op een manier die van toepassing zijnde wetgeving of rechten van derden schendt."
-        },
-        "userResponsibilities": {
-          "title": "Uw verantwoordelijkheden",
-          "content": "U gaat ermee akkoord: (1) op verzoek correcte gegevens te verstrekken; (2) uw gebruik in overeenstemming met de wet te houden; (3) geen beveiliging, limieten of toegangscontroles te omzeilen; (4) de Service niet te gebruiken voor malware of om de Service of andere gebruikers te verstoren."
-        },
-        "prohibitedContent": {
-          "title": "Verboden inhoud",
-          "content": "U mag geen inhoud uploaden of links delen naar inhoud die illegaal, schadelijk, bedreigend, beledigend, intimiderend, lasterlijk, obscene, inbreuk op privacy of intellectueel eigendom of anderszins onaanvaardbaar is; minderjarigen uitbuit; geweld of discriminatie bevordert; of rechten van derden schendt. We kunnen inhoud verwijderen en toegang zonder kennisgeving opschorten of beëindigen als we redelijkerwijs een schending van deze voorwaarden of de wet vaststellen."
-        },
-        "ipAndContent": {
-          "title": "Intellectueel eigendom en uw inhoud",
-          "content": "U behoudt het eigendom van geüploade afbeeldingen. Door de Service te gebruiken verleent u ons een beperkte licentie om uw afbeeldingen op te slaan, te verwerken en te leveren en links te genereren en te verstrekken, voor zover nodig voor het functioneren van de Service. We claimen geen eigendom van uw inhoud. Onze naam, logo en de Service zijn ons intellectueel eigendom; u mag ze niet gebruiken zonder onze voorafgaande schriftelijke toestemming."
-        },
-        "subscriptions": {
-          "title": "Abonnementsplannen",
-          "content": "Foto naar URL biedt een gratis niveau en betaalde abonnementen (Pro maandelijks en Premium jaarlijks) die uploadlimieten, bestandsgrootte en opslag verhogen. Actuele plangegevens en prijzen staan op onze Prijzenpagina (https://phototourl.com/pricing). Betaalde toegang is een digitale dienst en wordt direct na bevestigde betaling verleend."
-        },
-        "billing": {
-          "title": "Facturering en betaling",
-          "content": "Door een betaalmethode te verstrekken en een betaald plan te nemen, machtigt u ons en onze betalingsverwerker om die methode periodiek te belasten met het abonnementsbedrag totdat u opzegt zoals hieronder beschreven. Abonnementen verlengen automatisch aan het einde van elke factureringsperiode tenzij opgezegd. Prijzen worden bij checkout getoond en kunnen toepasselijke belastingen uitsluiten tenzij anders vermeld."
-        },
-        "cancellation": {
-          "title": "Opzegging en stopzetten van automatische verlenging",
-          "content": "U kunt toekomstige afschrijvingen op elk moment stopzetten door:",
-          "item1": "een e-mail te sturen naar support@phototourl.com vanaf het e-mailadres van uw geregistreerde account met het verzoek de automatische verlenging te annuleren; of",
-          "item2": "de automatische incasso of periodieke facturering bij uw kaartuitgever te annuleren via mobiel bankieren, online bankieren of de klantenservice.",
-          "effect": "Opzegging stopt toekomstige verlengingen. U behoudt betaalde voordelen tot het einde van de periode die u al hebt betaald. Daarna worden geen verdere kosten voor dat abonnement in rekening gebracht en eindigen de betaalde voordelen met die periode."
-        },
-        "refunds": {
-          "title": "Restitutiebeleid",
-          "general": "Omdat betaalde plannen digitale diensten zijn die direct na betaling worden geleverd, zijn abonnementskosten in het algemeen niet restitueerbaar zolang de Service beschikbaar blijft voor normaal gebruik, behalve zoals hieronder vermeld of waar de wet dit vereist.",
-          "eligibleTitle": "Wanneer een restitutie beschikbaar kan zijn",
-          "item1": "Eerste abonnees: binnen 7 dagen na de eerste afschrijving, als u geen substantieel gebruik hebt gemaakt van betaalde functies (bijvoorbeeld slechts een klein deel van uw upload- of opslagquota).",
-          "item2": "Dubbele of foutieve afschrijvingen: volledige restitutie bij een geverifieerde factureringsfout die tot een dubbele afschrijving heeft geleid.",
-          "item3": "Storing aan onze kant: als een geverifieerde storing onder onze controle 72 uur of langer duurt tijdens uw betaalde periode, kunnen we na beoordeling een naar rato credit of restitutie aanbieden.",
-          "item4": "Wettelijke rechten: waar toepasselijk recht u een herroepings- of restitutierecht geeft (bijvoorbeeld in de EU/VK), blijven die rechten behouden.",
-          "howTitle": "Hoe u een restitutie aanvraagt",
-          "how": "Mail support@phototourl.com met het e-mailadres van uw account, de betalings- of transactiereferentie en de reden. We streven ernaar binnen 2 werkdagen te bevestigen en in aanmerking komende restituties binnen 5–10 werkdagen te verwerken.",
-          "notTitle": "Wanneer geen restitutie beschikbaar is",
-          "not1": "Kosten voor abonnementsperioden die al zijn gebruikt, behalve zoals hierboven vermeld.",
-          "not2": "Restitutieverzoeken voor een jaarlijks (Premium) abonnement meer dan 30 dagen na de eerste aankoop, behalve waar de wet anders vereist of een in aanmerking komende storing of dubbele afschrijving van toepassing is.",
-          "not3": "Accounts die zijn opgeschort of beëindigd wegens schending van deze voorwaarden."
-        },
-        "disclaimer": {
-          "title": "Uitsluiting van garanties",
-          "text": "De Service wordt \"zoals geleverd\" en \"zoals beschikbaar\" aangeboden zonder garanties van welke aard ook. We garanderen niet dat de Service ononderbroken, foutloos of vrij van schadelijke onderdelen is. Gebruik van de Service is op eigen risico."
-        },
-        "limitationOfLiability": {
-          "title": "Beperking van aansprakelijkheid",
-          "content": "Voor zover door de wet toegestaan zijn Foto naar URL en zijn operators niet aansprakelijk voor indirecte, incidentele, bijzondere, gevolg- of strafschade, of verlies van gegevens, winst of goodwill door uw gebruik of het onvermogen de Service te gebruiken. Onze totale aansprakelijkheid overschrijdt niet het bedrag dat u ons in de twaalf maanden vóór het vorderingsrecht heeft betaald (of nul als u niets heeft betaald)."
-        },
-        "termination": {
-          "title": "Beëindiging",
-          "content": "We kunnen uw toegang tot de Service te allen tijde met of zonder reden of kennisgeving opschorten of beëindigen. U kunt op elk moment stoppen met het gebruik van de Service. Na beëindiging vervalt uw recht op gebruik onmiddellijk. Bepalingen die van nature van kracht blijven (waaronder disclaimer, beperking van aansprakelijkheid en toepasselijk recht) blijven van kracht."
-        },
-        "changes": {
-          "title": "Wijzigingen in de voorwaarden",
-          "content": "We kunnen deze voorwaarden bijwerken. We plaatsen de herziene voorwaarden op deze pagina en werken de datum \"Laatst bijgewerkt\" bij. Voortgezet gebruik na wijzigingen geldt als aanvaarding. We raden aan deze pagina regelmatig te bekijken."
-        },
-        "governingLaw": {
-          "title": "Toepasselijk recht",
-          "content": "Deze voorwaarden vallen onder en worden uitgelegd volgens de wetten van de rechtsmacht waarin we actief zijn, ongeacht conflicten van wetten. Geschillen worden voorgelegd aan de rechtbanken van die rechtsmacht."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Bij vragen over deze Servicevoorwaarden kunt u contact met ons opnemen via",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Cookiebeleid | Foto naar URL",
-        "description": "Cookiebeleid voor Foto naar URL - Ontdek hoe we cookies en trackingtechnologieën gebruiken."
-      },
-      "page": {
-        "title": "Cookiebeleid",
-        "lastUpdated": "Laatst bijgewerkt: september 2026",
-        "introduction": "Dit Cookiebeleid legt uit hoe Foto naar URL cookies en vergelijkbare trackingtechnologieën gebruikt wanneer u onze website bezoekt. Door onze service te gebruiken, stemt u in met het gebruik van cookies in overeenstemming met dit beleid. Voor vragen over dit beleid kunt u contact opnemen via support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Wat zijn cookies",
-          "content": "Cookies zijn kleine tekstbestanden die op uw apparaat worden geplaatst wanneer u een website bezoekt. Ze worden veel gebruikt om websites efficiënter te laten werken en informatie te verstrekken aan website-eigenaren."
-        },
-        "howWeUseCookies": {
-          "title": "Hoe we cookies gebruiken",
-          "content": "We gebruiken cookies voor de volgende doeleinden:",
-          "item1": "Om uw uploadgeschiedenis en taalvoorkeuren op te slaan",
-          "item2": "Om websiteverkeer en gebruikersgedrag te analyseren",
-          "item3": "Om gepersonaliseerde advertenties weer te geven"
-        },
-        "typesOfCookies": {
-          "title": "Soorten cookies die we gebruiken",
-          "essential": {
-            "title": "Essentiële cookies",
-            "content": "Deze cookies zijn noodzakelijk voor het correct functioneren van de website. Ze maken kernfunctionaliteiten mogelijk, zoals het opslaan van uw taalvoorkeuren en uploadgeschiedenis."
-          },
-          "analytics": {
-            "title": "Analytische cookies",
-            "content": "We gebruiken Google Analytics om te analyseren hoe bezoekers onze website gebruiken. Deze cookies verzamelen anonieme informatie over het websitegebruik om ons te helpen onze service te verbeteren."
-          },
-          "advertising": {
-            "title": "Advertentiecookies",
-            "content": "We gebruiken Google AdSense om advertenties weer te geven. Deze cookies helpen bij het leveren van gepersonaliseerde advertenties op basis van uw surfgedrag en interesses."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Cookies van derden",
-          "content": "We gebruiken de volgende services van derden die cookies kunnen instellen:",
-          "item1": "Google AdSense - Voor advertenties (onderworpen aan het Privacybeleid van Google)",
-          "item2": "Google Analytics - Voor website-analyse (onderworpen aan het Privacybeleid van Google)"
-        },
-        "manageCookies": {
-          "title": "Cookies beheren",
-          "content": "U kunt cookies beheren via uw browserinstellingen. De meeste browsers stellen u in staat om cookies te weigeren of te accepteren, bestaande cookies te verwijderen of voorkeuren in te stellen voor bepaalde websites. Het uitschakelen van cookies kan echter de functionaliteit van onze service beïnvloeden."
-        },
-        "changes": {
-          "title": "Wijzigingen in dit Cookiebeleid",
-          "content": "We kunnen dit Cookiebeleid van tijd tot tijd bijwerken. We zullen u op de hoogte stellen van eventuele wijzigingen door het nieuwe Cookiebeleid op deze pagina te publiceren en de datum \"Laatst bijgewerkt\" bij te werken."
-        },
-        "contact": {
-          "title": "Neem contact op",
-          "text": "Als u vragen heeft over dit Cookiebeleid, neem dan contact met ons op via",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Foto naar URL Bookmarklet",
-    "description": "Upload afbeeldingen van elke webpagina direct naar Foto naar URL met één klik! Gratis proberen: 5 uploads/dag, 2MB per bestand.",
-    "howItWorks": {
-      "title": "Hoe het werkt",
-      "step1": "Blader door een webpagina met afbeeldingen",
-      "step2": "Klik op de bookmarklet in uw bladwijzerbalk",
-      "step3": "Selecteer een afbeelding van de pagina",
-      "step4": "Krijg de URL direct en kopieer deze!"
-    },
-    "installation": {
-      "title": "Installatie",
-      "step1": {
-        "title": "Stap 1: Kopieer de Bookmarklet-code",
-        "description": "Klik op de knop hieronder om de bookmarklet-code naar uw klembord te kopiëren."
-      },
-      "step2": {
-        "title": "Stap 2: Voeg toe aan uw browser",
-        "description": "Volg deze stappen op basis van uw browser:",
-        "chrome": "Chrome/Edge: Druk op Ctrl+Shift+B (Cmd+Shift+B op Mac) om de bladwijzerbalk te tonen, klik er dan met de rechtermuisknop op en selecteer \"Pagina toevoegen\". Plak de code als URL.",
-        "firefox": "Firefox: Klik met de rechtermuisknop op de bladwijzerbalk en selecteer \"Nieuwe bladwijzer\". Plak de code als Locatie.",
-        "safari": "Safari: Schakel de bladwijzerbalk in (Weergave → Bladwijzerbalk tonen), sleep dan de code naar de bladwijzerbalk.",
-        "edge": "Alternatief: Maak een nieuwe bladwijzer, bewerk deze en vervang de URL door de gekopieerde code."
-      },
-      "step3": {
-        "title": "Stap 3: Begin met gebruiken!",
-        "description": "Bezoek een webpagina met afbeeldingen en klik op uw bookmarklet om te beginnen met uploaden!"
-      },
-      "copy": "Code kopiëren",
-      "copied": "Gekopieerd!"
-    },
-    "usage": {
-      "title": "Functies",
-      "description": "Het bookmarklet biedt de volgende functies. Elke upload telt mee voor je planlimieten (Gratis proberen: 5 uploads/dag, 2MB per bestand).",
-      "feature1": "Selecteer een afbeelding van de huidige webpagina",
-      "feature2": "Automatische upload naar Foto naar URL",
-      "feature3": "Krijg direct een deelbare URL met één klik om te kopiëren"
-    },
-    "note": {
-      "title": "Opmerking",
-      "content": "Uploads tellen mee voor je dagelijkse quotum (Gratis proberen: 5 uploads/dag, 2MB per bestand). Het bookmarklet werkt op de meeste websites; strikte beveiligingsregels (CORS) kunnen uploads blokkeren."
-    }
-  },
-  "AuthPage": {
-    "orContinueWith": "Of ga verder met",
-    "login": {
-      "welcomeBack": "Welkom terug",
-      "email": "E-mail",
-      "password": "Wachtwoord",
-      "signIn": "Inloggen",
-      "signUp": "Registreren",
-      "signUpHint": "Geen account?",
-      "forgotPassword": "Wachtwoord vergeten?",
-      "showPassword": "Toon wachtwoord",
-      "hidePassword": "Verberg wachtwoord",
-      "emailRequired": "E-mail is verplicht",
-      "passwordRequired": "Wachtwoord is verplicht",
-      "signInWithGoogle": "Inloggen met Google"
-    },
-    "register": {
-      "createAccount": "Account aanmaken",
-      "name": "Naam",
-      "email": "E-mail",
-      "password": "Wachtwoord",
-      "signUp": "Registreren",
-      "signInHint": "Heb je al een account?",
-      "namePlaceholder": "Je naam",
-      "signUpSuccess": "Account succesvol aangemaakt",
-      "signUpWithGoogle": "Aanmelden met Google",
-      "artFightLabel": "Exclusief artiestenaccount registreren",
-      "artFightHint": "Ontgrendel artiestgerichte Dashboard-tools: kopieer embedcodes (URL, HTML, BBCode, Markdown) voor elke gehoste kaart."
-    },
-    "error": {
-      "title": "Verificatiefout",
-      "defaultError": "Er is een fout opgetreden tijdens verificatie.",
-      "backToLogin": "Terug naar inloggen"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Er bestaat al een account met dit e-mailadres. Gebruik een ander e-mailadres.",
-      "INVALID_CREDENTIALS": "Ongeldig e-mailadres of wachtwoord.",
-      "INVALID_EMAIL": "Ongeldig e-mailformaat.",
-      "INVALID_PASSWORD": "Wachtwoord moet minstens 6 tekens bevatten.",
-      "EMAIL_REQUIRED": "E-mail is verplicht.",
-      "PASSWORD_REQUIRED": "Wachtwoord is verplicht.",
-      "NAME_REQUIRED": "Naam is verplicht.",
-      "SERVER_ERROR": "Serverfout. Probeer het later opnieuw.",
-      "NETWORK_ERROR": "Netwerkfout. Controleer uw verbinding."
-    },
-    "forgotPassword": {
-      "title": "Wachtwoord vergeten",
-      "description": "Voer uw e-mailadres in en we sturen u een link om uw wachtwoord opnieuw in te stellen.",
-      "email": "E-mail",
-      "send": "Resetlink versturen",
-      "backToLoginHint": "Weet u uw wachtwoord weer?",
-      "checkEmail": "Als er een account bestaat voor dat e-mailadres, hebben we een resetlink gestuurd. Controleer uw inbox.",
-      "emailRequired": "E-mail is verplicht",
-      "error": {
-        "userNotFound": "Geen account gevonden met dit e-mailadres",
-        "tooManyRequests": "Te veel pogingen. Probeer het later opnieuw",
-        "serverError": "Er is iets misgegaan. Probeer het opnieuw"
-      }
-    },
-    "resetPassword": {
-      "title": "Wachtwoord opnieuw instellen",
-      "password": "Nieuw wachtwoord",
-      "reset": "Wachtwoord opnieuw instellen",
-      "backToLoginHint": "Klaar om in te loggen?",
-      "requestNewLink": "Nieuwe link aanvragen",
-      "showPassword": "Wachtwoord tonen",
-      "hidePassword": "Wachtwoord verbergen",
-      "minLength": "Wachtwoord moet minstens 6 tekens bevatten",
-      "error": {
-        "expiredToken": "De resetlink is verlopen. Vraag een nieuwe aan",
-        "invalidToken": "Ongeldige resetlink. Vraag een nieuwe aan",
-        "missingToken": "Resetlink ontbreekt of is onvolledig. Vraag een nieuwe aan",
-        "tooManyRequests": "Te veel pogingen. Probeer het later opnieuw",
-        "serverError": "Er is iets misgegaan. Probeer het opnieuw"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "Team {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Hallo, {name}.",
-      "body": "Klik op de knop hieronder om uw Photo To URL-wachtwoord opnieuw in te stellen. Als u dit niet heeft aangevraagd, kunt u deze e-mail negeren.",
-      "resetPassword": "Wachtwoord opnieuw instellen",
-      "subject": "Stel uw Photo To URL-wachtwoord opnieuw in"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Eenvoudige, transparante prijzen",
-    "description": "Kies het plan dat het beste bij u past met eenvoudige, transparante prijzen",
-    "subtitle": "Kies het plan dat bij u past",
-    "monthly": "Maandelijks",
-    "yearly": "Jaarlijks",
-    "faqTitle": "Veelgestelde vragen",
-    "faq": {
-      "payment": {
-        "q": "Welke betaalmethoden accepteren jullie?",
-        "a": "We accepteren alle gangbare creditcards en PayPal via onze veilige betalingsprovider."
-      },
-      "cancel": {
-        "q": "Kan ik mijn abonnement op elk moment opzeggen?",
-        "a": "Ja, je kunt op elk moment opzeggen. Je behoudt toegang tot het einde van je huidige factureringsperiode."
-      },
-      "storage": {
-        "q": "Wat gebeurt er met mijn bestanden als ik downgrade?",
-        "a": "Je bestanden zijn veilig. Als je de opslaglimiet overschrijdt, laten we je dit vooraf weten. Er wordt niets meteen verwijderd."
-      },
-      "upload": {
-        "q": "Wat telt als een upload?",
-        "a": "Elke afbeelding die je uploadt naar Photo To URL telt als één upload. Gratis gebruikers zijn beperkt tot 10 uploads per dag."
-      }
-    },
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/maand",
-      "perYear": "/jaar",
-      "popular": "Meest populair",
-      "bestValue": "Beste prijs-kwaliteitverhouding",
-      "currentPlan": "Huidig abonnement",
-      "yourCurrentPlan": "Jouw huidige abonnement",
-      "getStartedForFree": "Gratis beginnen",
-      "getLifetimeAccess": "Levenslange toegang",
-      "getStarted": "Aan de slag",
-      "upgradeToYearly": "Upgraden naar Premium",
-      "cannotDowngrade": "Downgraden niet mogelijk",
-      "alreadySubscribed": "Huidig abonnement al actief",
-      "subscribeYearly": "Jaarabonnement",
-      "subscribeMonthly": "Maandabonnement",
-      "upgrade": "Nu upgraden",
-      "notAvailable": "Niet beschikbaar",
-      "limitedOffer": "Tijdelijke aanbieding · 20% korting",
-      "savePercentLabel": "Bespaar ",
-      "savePercentSuffix": " vs maandelijks",
-      "freePriceNote": "Voor altijd gratis",
-      "monthlyPriceNote": "Maandelijks gefactureerd",
-      "loading": "Laden...",
-      "suitableFor": "Geschikt voor:",
-      "activePlanDialog": {
-        "title": "Je hebt al een actief abonnement",
-        "description": "Dit account heeft al een actief abonnement.",
-        "descriptionWithDate": "Dit account heeft al een actief abonnement (verloopt op {date}).",
-        "close": "Sluiten",
-        "manageBilling": "Abonnement beheren"
-      },
-      "batchUpload": {
-        "label": "Meerdere foto’s uploaden",
-        "free": "Nee",
-        "monthly": "20",
-        "yearly": "50"
-      },
-      "justPerMonth": "{price}/maand",
-      "saveVsMonthly": "Bespaar {percent}%",
-      "monthlyEquivalentShort": "({price}/maand)",
-      "bestValueWithSave": "Beste deal · Bespaar {percent}%"
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Get Started",
+      "notAvailable": "Not Available",
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Laden...",
-      "checkoutFailed": "Kan betaalpagina niet openen"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Gratis",
-      "description": "Perfect om Photo To URL te proberen",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload-grootte: 2MB",
-        "feature-2": "Dagelijkse uploads: 10 keer",
-        "feature-3": "Opslag: 100MB",
-        "feature-4": "CDN: Basisversnelling",
-        "feature-5": "Advertentievrij: Nee",
-        "feature-6": "Documenthosting: Nee",
-        "feature-7": "Fotohosting: Nee",
-        "feature-8": "Foto bewerken: Nee",
-        "feature-9": "Webhook: Nee",
-        "feature-10": "Resource machtigingen: Geen"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Product uitproberen, functies testen"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Professioneel",
-      "description": "Stabiel uploaden & online opslag",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Upload-grootte: 50MB",
-        "feature-2": "Dagelijkse uploads: 1000 keer",
-        "feature-3": "Opslag: 100GB",
-        "feature-4": "CDN: Standaardversnelling",
-        "feature-5": "Advertentievrij: Ja",
-        "feature-6": "Documenthosting: Ja",
-        "feature-7": "Fotohosting: Ja",
-        "feature-8": "Foto bewerken: Ja",
-        "feature-9": "Webhook: Ja",
-        "feature-10": "Resource machtigingen: Gedeeltelijk"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Bloggers / Ontwikkelaars / Kleine teams"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Hogere quota, sneller CDN",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Upload-grootte: 256MB",
-        "feature-2": "Dagelijkse uploads: Onbeperkt",
-        "feature-3": "Opslag: 200GB",
-        "feature-4": "CDN: Snelle nodes (prioriteit)",
-        "feature-5": "Advertentievrij: Ja",
-        "feature-6": "Documenthosting: Ja",
-        "feature-7": "Fotohosting: Ja",
-        "feature-8": "Foto bewerken: Ja",
-        "feature-9": "Webhook: Ja",
-        "feature-10": "Resource machtigingen: Alle"
-      },
-      "limits": [],
-      "suitableFor": "Bedrijven / Intensief gebruik / Automatiseringssystemen"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Dashboard",
-    "themeToggle": "Thema",
-    "welcome": "Welkom",
-    "loadFailed": "Laden mislukt. Probeer het later opnieuw.",
-    "errorTitle": "Er ging iets mis",
-    "dismiss": "OK",
-    "dashboard": "Overzicht",
-    "resources": "Mijn resources",
-    "photos": "Mijn foto's",
-    "storage": "Opslag",
-    "used": "Gebruikt",
-    "total": "Totaal",
-    "storageDisplay": "{used} van {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Onbeperkt uploaden",
-    "deleteConfirm": "Weet u zeker dat u deze bron wilt verwijderen?",
-    "deleteResource": "Bron verwijderen",
-    "deleteFailed": "Bron verwijderen mislukt",
-    "delete": "Verwijder",
-    "cancel": "Annuleren",
-    "copied": "Gekopieerd!",
-    "copy": "Link kopiëren",
-    "open": "Open",
-    "removeBackground": "Achtergrond verwijderen",
-    "noResources": "Geen bronnen. Upload enkele afbeeldingen om te beginnen.",
-    "files": "bestanden",
-    "dailyUploads": "Uploads van vandaag",
-    "today": "vandaag",
-    "resourcesCount": "U heeft {count} geüploade resources",
-    "photosCount": "U heeft {count} geüploade foto's",
-    "resourcePageInfo": "Pagina {page} van {totalPages} · {pageSize} per pagina · {total} bestanden in totaal",
-    "resourceTotalCount": "Totaal {total} items",
-    "resourcePageSizeLabel": "Items per pagina",
-    "resourcePageSizeOption": "{size} per pagina",
-    "resourceJumpTo": "Ga naar",
-    "resourceJumpPageUnit": "pagina",
-    "resourceJumpInputAria": "Paginanummer",
-    "resourcePagePrev": "Vorige pagina",
-    "resourcePageNext": "Volgende pagina",
-    "subtitle": "Een overzicht van uw werkruimte.",
-    "planCardTitle": "Plan",
-    "planActive": "Actief",
-    "planNames": {
-      "free": "Gratis",
-      "premium": "Premium",
-      "pro": "Professioneel"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Upgrade voor meer functies",
-    "planCardHintAllUpgraded": "Alle functies ontgrendeld",
-    "statStorageHint": "Opslag gebruikt",
-    "statResourcesHint": "Totaal foto's + documenten",
-    "statPhotosHint": "Gehoste bronnen",
-    "statUploadsHint": "Elke 24 uur per niveau opnieuw",
-    "chartTitle": "Statistieken",
-    "chartDescription": "Bekijk de geschiedenis van uw uploads",
-    "chartPlaceholder": "Geen data beschikbaar",
-    "chartRange7d": "7 dagen",
-    "chartRange30d": "30 dagen",
-    "chartRange90d": "90 dagen",
-    "tableFile": "Bestand",
-    "tablePath": "Pad",
-    "tableSize": "Formaat",
-    "tableActions": "Acties",
-    "viewTable": "Tabel",
-    "viewGrid": "Fotogalerij",
-    "chartDemoNote": "Uploadtrend (dagen)",
-    "loginRequired": "Log in om uw dashboard te bekijken.",
-    "checkoutSuccess": "Succesvol afrekenen",
-    "subscriptionSuccess": "Abonnement geactiveerd. Welkom bij {plan}!",
-    "circleCrop": "Cirkel bijsnijden",
-    "roundedCorners": "Afgeronde hoeken",
-    "scheduledForDeletion": "Gepland voor verwijdering",
-    "upload": "Uploaden",
-    "uploadPhoto": "Foto uploaden",
-    "batchUploadPhotos": "Meerdere foto’s uploaden",
-    "batchUploading": "Bezig met het uploaden van meerdere foto’s…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Selecteer maximaal {max} bestanden tegelijk.",
-    "batchUploadTierHint": "Tot {max} bestanden per batch op uw abonnement.",
-    "uploadUpgradeHint": "Beschikbaar na upgrade",
-    "uploading": "Bezig met uploaden...",
-    "loading": "Laden...",
-    "uploadErrorInvalidType": "Ongeldig bestandstype. Gebruik PNG, JPG, WEBP of GIF.",
-    "uploadErrorTooLarge": "Bestand is te groot. Je abonnement staat tot {maxMb} MB per bestand toe.",
-    "uploadErrorDailyLimit": "Dagelijkse limiet bereikt ({limit} uploads/dag).",
-    "uploadErrorStorageLimit": "Opslaglimiet bereikt.",
-    "uploadErrorGeneric": "Upload mislukt. Probeer het opnieuw.",
-    "uploadUpgradeTitle": "Direct uploaden ontgrendelen",
-    "uploadUpgradeDescription": "Upgrade om direct vanaf je dashboard te uploaden met hogere limieten.",
-    "uploadRenewDescription": "Verleng om direct vanaf je dashboard te uploaden met hogere limieten.",
-    "expiredStorageLimitHint": "Na afloop is slechts 100MB opslag beschikbaar",
-    "uploadGoHome": "Uploaden op de startpagina",
-    "resourceModule": {
-      "title": "Mijn documenten",
-      "count": "Je hebt {count} geüploade documenten",
-      "empty": "Nog geen documenten. Upload een PDF/Word/PowerPoint/Excel om te beginnen.",
-      "viewCard": "Kaarten",
-      "searchPlaceholder": "Zoeken op bestandsnaam",
-      "typeAll": "Alle typen",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Resetten",
-      "upload": "Document uploaden",
-      "uploading": "Bezig met uploaden...",
-      "copy": "Link kopiëren",
-      "open": "Openen",
-      "delete": "Verwijderen",
-      "deleteFailed": "Document verwijderen mislukt",
-      "fetchError": "Documentlijst kon niet worden geladen",
-      "tableFile": "Bestand",
-      "tablePath": "Pad",
-      "tableType": "Type",
-      "typeLabel": "Type",
-      "tableSize": "Grootte",
-      "tableActions": "Acties",
-      "uploadErrorTooLarge": "Bestand is te groot. De limiet per bestand in je abonnement is {maxSize}.",
-      "uploadErrorDailyLimit": "Dagelijkse limiet bereikt ({limit} uploads/dag).",
-      "uploadErrorStorageLimit": "Opslaglimiet bereikt.",
-      "uploadErrorGeneric": "Upload mislukt. Probeer het opnieuw."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Bestandsgrootte {size}",
-    "dailyUploadsLimit": "{limit} uploads/dag",
-    "dailyUploadsUnlimited": "Onbeperkt uploaden",
-    "monthly": "maand",
-    "yearly": "jaar",
-    "bestValue": "Beste prijs-kwaliteit",
-    "upgrade": {
-      "title": "Upgrade uw plan",
-      "description": "Upgrade voor hogere daglimieten, grotere bestanden en premium functies. Onbeperkte dagelijkse uploads met het jaarlijkse Premium-abonnement.",
-      "button": "Nu upgraden"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Instellingen",
-      "profile": {
-        "title": "Profiel",
-        "description": "Beheer uw profielgegevens",
-        "name": {
-          "title": "Naam",
-          "description": "Werk uw weergavenaam bij",
-          "placeholder": "Voer uw naam in",
-          "hint": "Dit is de naam die op uw profiel wordt weergegeven",
-          "minLength": "Naam moet minstens 3 tekens bevatten",
-          "maxLength": "Naam mag niet meer dan 30 tekens bevatten",
-          "success": "Naam succesvol bijgewerkt",
-          "fail": "Bijwerken van naam mislukt",
-          "save": "Opslaan",
-          "saving": "Opslaan..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "Werk uw profielfoto bij",
-          "uploadAvatar": "Afbeelding uploaden",
-          "unavailable": "Upload niet beschikbaar",
-          "disabledHint": "Avatar-upload vereist dat cloudopslag is ingeschakeld voor dit project.",
-          "recommendation": "PNG, JPG of WebP. Maximale grootte volgt serverlimieten."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Facturering",
-        "description": "Beheer uw facturering en abonnement",
-        "billingPagePlanTitle": "Huidig abonnement",
-        "billingPageStorageTitle": "Opslaggebruik",
-        "currentPlan": {
-          "title": "Je abonnement en opslag op Photo To URL",
-          "description": "Upgrade om hogere limieten en meer functies te ontgrendelen"
-        },
-        "loadError": "Kon factuurgegevens niet laden.",
-        "retry": "Opnieuw proberen",
-        "planNames": {
-          "free": "Gratis",
-          "premium": "Premium",
-          "pro": "Professioneel"
-        },
-        "status": {
-          "active": "Actief",
-          "expired": "Verlopen"
-        },
-        "storageUsed": "Opslag gebruikt",
-        "freePlanMessage": "Hogere uploadlimiet",
-        "inactivePlanMessage": "Voordelen zijn verlopen",
-        "expiredStorageLimitHint": "Na afloop is slechts 100MB opslag beschikbaar",
-        "paidPlanMessage": "Voordelen actief",
-        "backToWorkbench": "Terug naar dashboard",
-        "upgradeHint": "Meer opslagruimte",
-        "upgradeToPlan": "Abonnement upgraden",
-        "featureAdvancedEditing": "Geavanceerde bewerkingstools",
-        "upgradeNotReady": {
-          "title": "Binnenkort beschikbaar",
-          "description": "Blijf op de hoogte voor meer services!",
-          "confirm": "Begrepen",
-          "cancel": "Sluiten"
-        },
-        "storage": {
-          "title": "Snellere CDN",
-          "description": "Houd uw opslagverbruik bij",
-          "upgradeStorage": "Opslag upgraden"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Beveiliging",
-        "description": "Beheer de beveiliging van uw account",
-        "updatePassword": {
-          "title": "Wachtwoord",
-          "description": "Wijzig het wachtwoord voor uw e-mailaanmelding",
-          "currentPassword": "Huidig wachtwoord",
-          "newPassword": "Nieuw wachtwoord",
-          "confirmPassword": "Bevestig nieuw wachtwoord",
-          "currentRequired": "Voer uw huidige wachtwoord in",
-          "newMinLength": "Minstens 8 tekens",
-          "confirmRequired": "Bevestig je nieuwe wachtwoord",
-          "passwordMismatch": "Wachtwoorden komen niet overeen",
-          "hint": "Gebruik een sterk wachtwoord dat u niet elders gebruikt.",
-          "save": "Wachtwoord bijwerken",
-          "saving": "Opslaan…",
-          "success": "Wachtwoord bijgewerkt",
-          "fail": "Kon wachtwoord niet bijwerken",
-          "showPassword": "Wachtwoord tonen",
-          "hidePassword": "Wachtwoord verbergen"
-        },
-        "resetPassword": {
-          "title": "Stel een wachtwoord in",
-          "description": "U heeft aangemeld met Google. Voeg een e-mailwachtwoord toe als back-up aanmelding.",
-          "info": "We sturen een link om uw wachtwoord opnieuw in te stellen naar het e-mailadres van uw account.",
-          "button": "Resetlink verzenden",
-          "sending": "Verzenden…",
-          "sent": "Controleer uw Postvak IN voor de link om opnieuw in te stellen.",
-          "disabled": "Wachtwoordreset-e-mails zijn nog niet geconfigureerd op deze server.",
-          "fail": "Verzoek mislukt. Probeer later opnieuw."
-        },
-        "deleteAccount": {
-          "title": "Account verwijderen",
-          "description": "Verwijder uw account en bijbehorende gegevens permanent.",
-          "warning": "Dit kan niet ongedaan worden gemaakt. Zorg ervoor dat u alles heeft opgeslagen wat u nodig heeft.",
-          "button": "Mijn account verwijderen",
-          "confirmTitle": "Account verwijderen?",
-          "confirmDescription": "Uw account wordt permanent verwijderd.",
-          "cancel": "Annuleren",
-          "confirm": "Verwijderen",
-          "deleting": "Verwijderen…",
-          "success": "Account verwijderd",
-          "fail": "Kon account niet verwijderen"
-        }
-      },
-      "notification": {
-        "title": "Meldingen",
-        "description": "Beheer uw meldingsvoorkeuren",
-        "newsletter": {
-          "title": "E-mailupdates",
-          "description": "Productnieuws en tips (optioneel)",
-          "label": "Abonneren op nieuwsbrief",
-          "disabledHint": "Nieuwsbrief is nog niet ingeschakeld voor deze site.",
-          "hint": "Wanneer ingeschakeld, kunt u zich hier aanmelden of afmelden."
-        },
-        "productPreview": {
-          "title": "Productvoorbeeld",
-          "description": "Hoofdafbeelding gebruikt op deelkaarten en landingspagina's.",
-          "announcement": {
-            "line1": "We leveren continu krachtigere functies en nog waardevollere lidmaatschapsvoordelen.",
-            "line2": "Nieuwe upgrade-mogelijkheden worden met prioriteit beschikbaar voor bestaande gebruikers, zonder prijswijziging.",
-            "line3": "Dank voor het vertrouwen en de steun van elke gebruiker. We blijven het product verbeteren om een waardevollere ervaring te bieden.",
-            "line4": "We blijven de wereldwijde gebruikerservaring optimaliseren met snellere en betrouwbaardere diensten."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Artiestenaccount",
-    "artFightWorkspaceHint": "Artiesttools ingeschakeld — kopieer URL-, HTML-, BBCode- en Markdown-embedcodes voor elke foto."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Art Fight-profielkaart hosting | URL & embedcodes",
-      "description": "Upload Team Tragedy-, Comedy- of Mystery-profielkaarten. Krijg een directe HTTPS-link plus HTML/BBCode-embed voor Art Fight, Discord en social posts.",
-      "keywords": "Art Fight profielkaart,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Art Fight-hosting",
-    "artistAccount": {
-      "badge": "Artiestenaccount",
-      "title": "Exclusief artiestenaccount registreren",
-      "lead": "Maak een gratis artiestenaccount om profielkaarten in je Dashboard op te slaan en professionele embedtools voor Art Fight te gebruiken — kopieer URL, HTML, BBCode en Markdown bij elke upload.",
-      "toolEmbedTitle": "Embedtools",
-      "toolEmbedDesc": "Kopieer met één klik voor Art Fight-profielen, Discord, forums en social posts.",
-      "toolDashboardTitle": "Artiesten-Dashboard",
-      "toolDashboardDesc": "Elke kaart blijft in je account — zoek, bekijk een preview en kopieer links opnieuw wanneer je wilt.",
-      "toolBatchTitle": "Batch-upload (Pro)",
-      "toolBatchDesc": "Upload na upgrade veel profielkaarten tegelijk — ideaal voor artiesten met meerdere OCs.",
-      "registerCta": "Artiestenaccount aanmaken",
-      "footnote": "Vink «Exclusief artiestenaccount» aan bij registratie, of registreer via deze pagina — we selecteren het vooraf."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Voor digitale artiesten & OC-makers",
-      "title": "Profielkaart- & ref sheet-hosting voor Art Fight-artiesten",
-      "subtitle": "Upload je Team Tragedy-, Comedy- of Mystery-profielkaart — krijg een stabiele afbeeldings-URL plus HTML- en BBCode-embedcodes voor Art Fight-profielen, Discord en je \"klaar om te vechten\"-posts.",
-      "artistAccountLine": "Registreer een exclusief artiestenaccount voor professionele embed-tools in het dashboard.",
-      "cta": "Sleep je profielkaart hieronder → kopieer link → plak waar je je team aangeeft",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Profielhosting",
-      "tabArtist": "Artiestenaccount",
-      "tabSupport": "Artiestenondersteuning",
-      "tabsAriaLabel": "Art Fight-hoogtepunten",
-      "trustLine": "Gratis snelle upload · URL & embedcodes · Artiesten-Dashboard",
-      "uploadCta": "Kaart uploaden",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Plakklare embedcodes",
-      "panelIntroDesc": "Upload een profielkaart één keer, kopieer daarna de directe link of forumklare HTML en BBCode voor Art Fight en Discord.",
-      "panelArtistTitle": "Artiestenaccount-tools",
-      "panelSupportTitle": "Toegewijde artiestenondersteuning",
-      "panelSupportDesc": "Uploads, embeds, accounts en abonnementen — echte mensen, geen generieke ticketwachtrij."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Hetzelfde hulpmiddel voor elk Art Fight-team",
-      "lead": "Of je nu op Tragedy, Comedy of Mystery bent beland — na je kaart heb je één ding nodig: een snelle, stabiele afbeeldingslink om te delen.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Blauw getinte profielkaarten en ref sheets — host de volledige kaartafbeelding en plak de link op je Art Fight-profiel of Twitter/X-post.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Oranje en warm getinte karakterkaarten — perfect voor Discord-aankondigingen en profielembeds wanneer Art Fight volop gaande is.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Paars getinte kaarten voor de derde factie — dezelfde uploadflow, dezelfde embedcodes, klaar wanneer je wilt delen.",
-      "footnote": "Alle drie de teams volgen dezelfde workflow: uploaden → URL of embed kopiëren → je kaart publiek posten."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Waar artiesten de link plakken",
-      "lead": "Art Fight is sociaal. Je gehoste link gaat mee met elke profielupdate en elke \"ik zit in dit team\"-post.",
-      "profileTitle": "Art Fight-profiel",
-      "profileDesc": "Plak de directe URL of HTML-embed in je officiële Art Fight-karakterprofiel zodat teamgenoten je kaart kunnen bekijken.",
-      "socialTitle": "Twitter / X en sociale posts",
-      "socialDesc": "Deel je profielkaart wanneer je je team aangeeft — een schone HTTPS-link laadt snel in timelines en reacties.",
-      "discordTitle": "Discord & artiestenservers",
-      "discordDesc": "Plaats de URL of BBCode in Art Fight-Discordkanalen, serverintro's of aanvalsplanthreads.",
-      "portfolioTitle": "Toyhouse & portfoliosites",
-      "portfolioDesc": "Gebruik dezelfde link op Toyhouse, Carrd of forumsignatures zodat je ref overal consistent blijft."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Waarom Art Fight-artiesten voor Photo To URL kiezen",
-      "fastTitle": "Gemaakt voor drukke Art Fight-periodes",
-      "fastDesc": "Upload wanneer je moet posten — krijg binnen seconden een CDN-link tijdens warmup, het hoogtepunt of het hele jaar door.",
-      "linkTitle": "Profielkaartvriendelijke URL's",
-      "linkDesc": "Schone .png/.jpg-links die Art Fight-profielen, forums en social posts accepteren zonder extra stappen.",
-      "embedTitle": "HTML & BBCode voor artiesten",
-      "embedDesc": "Kopieer embedfragmenten voor profielen en forums — geen handmatig img-tags bewerken tijdens een drukke fight-seizoen.",
-      "safeTitle": "Dashboard-hosting na inloggen",
-      "safeDesc": "Geregistreerde gebruikers slaan profielkaarten op in het Dashboard — kopieer links opnieuw, zoek bestanden en beheer uploads vanaf één plek."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Artiestenaccount: host kaarten in je Dashboard",
-      "sectionLead": "Anonieme uploads werken voor een snelle post. Registreer als Art Fight-artiest voor een toegewijd Dashboard met embedtools voor elke gehoste kaart — of upgrade naar Pro voor batch-upload en hogere limieten.",
-      "dashboardTitle": "Dashboard-fotohosting",
-      "dashboardDesc": "Na inloggen wordt elke upload opgeslagen in je Dashboard. Kopieer dezelfde link opnieuw, open de afbeelding in een nieuw tabblad of download het origineel — alles vanuit één lijst.",
-      "batchTitle": "Batch-upload (Pro)",
-      "batchDesc": "Upload veel profielkaarten tegelijk vanuit het Dashboard — tot {monthlyMax} per batch op Pro, of {yearlyMax} op Premium jaarlijks.",
-      "manageTitle": "Zoeken & fotowand",
-      "manageDesc": "Vind elke gehoste kaart op bestandsnaam, wissel tussen tabel- en fotowandweergave en verwijder bestanden die je niet meer nodig hebt.",
-      "proTitle": "Hogere limieten & grotere bestanden",
-      "proDesc": "Alles in Free, plus Dashboard batch-upload ({monthlyMax}–{yearlyMax} bestanden), hogere daglimieten, grotere uploads en meer opslag.",
-      "anonymousLabel": "Anoniem",
-      "anonymousDesc": "Snelle link voor één post. Niet opgeslagen in je account; kan op elk moment worden opgeruimd.",
-      "freeLabel": "Gratis account",
-      "freeDesc": "Kaarten opgeslagen in je Dashboard. Kopieer links opnieuw, zoek en beheer tot je ze verwijdert of opslaglimieten bereikt.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Gratis account aanmaken",
-      "loginCta": "Inloggen",
-      "dashboardCta": "Dashboard openen",
-      "proCta": "Pro-abonnementen bekijken",
-      "ctaPanelTitle": "Klaar om je kaarten te hosten?",
-      "footnote": "Gratis accounts uploaden hier en beheren bestanden in het Dashboard. Batch-upload vereist Pro of Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Upload je Art Fight-profielkaart",
-      "sectionLead": "Ref sheet, teamkaart of volledige profielafbeelding — sleep het hierheen en kopieer de link voor je volgende post.",
-      "dropzoneTitle": "Sleep je profielkaart of ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP of GIF — teamkaarten, ref sheets en karakterafbeeldingen welkom",
-      "dropzoneFootnote": "Gratis: 5 uploads/dag zonder registratie. Log in voor hogere limieten wanneer je wilt.",
-      "defaultAlt": "Art Fight-profielkaart",
-      "resultTitle": "Je kaart is klaar — deel hem",
-      "resultHint": "Kopieer de URL voor Art Fight-profielen, of HTML/BBCode voor forums en Discord.",
-      "open": "Afbeelding openen",
-      "reset": "Nog een kaart uploaden",
-      "errorBadType": "Upload een afbeeldingsbestand (PNG, JPG, WEBP of GIF).",
-      "errorGeneric": "Upload mislukt. Probeer het opnieuw.",
-      "loginRequiredTitle": "Dagelijkse gratislimiet bereikt",
-      "loginRequiredDescription": "Log in om profielkaarten te blijven uploaden en op te slaan in je Dashboard, of kom morgen terug voor meer gratis uploads.",
-      "loginRequiredDetail": "Geregistreerde gebruikers krijgen Dashboard-hosting: elke kaart blijft in je account, je kunt links opnieuw kopiëren, op bestandsnaam zoeken en uploads centraal beheren.",
-      "retentionAnonymousTitle": "Anonieme link — niet aanbevolen voor belangrijke kaarten",
-      "retentionAnonymousBody": "Anonieme uploads alleen voor snel delen. Link werkt nu maar wordt niet opgeslagen. Compressie, traag CDN en periodieke opschoning mogelijk — registreer gratis voor embeds en betrouwbare hosting.",
-      "retentionAnonymousSignUp": "Gratis account aanmaken",
-      "retentionAnonymousPro": "Pro-abonnementen bekijken",
-      "retentionFreeTitle": "Deze link is opgeslagen in je account",
-      "retentionFreeBody": "Je kunt hem op elk moment opnieuw kopiëren vanuit je Dashboard. Gratis accounts hebben dagelijkse uploadlimieten en opslaglimieten — genoeg voor snelle kaarten, maar niet onbeperkt.",
-      "retentionFreeDashboard": "Dashboard openen",
-      "retentionFreeUpgrade": "Upgraden voor meer opslag",
-      "retentionProTitle": "Je profielkaart wordt gehost op je Pro-abonnement",
-      "retentionProBody": "Hogere uploadlimieten, meer opslag en betrouwbare links voor elke Art Fight — Tragedy, Comedy of Mystery.",
-      "retentionProDashboard": "Dashboard openen",
-      "resultHintAnonymous": "Anonieme upload — alleen directe link. Registreer om HTML-, BBCode- en Markdown-embedcodes te ontgrendelen.",
-      "retentionAnonymousIntro": "Deze directe link werkt voor snel delen, maar anonieme hosting heeft serieuze beperkingen:",
-      "retentionAnonymousLimit1": "Niet gekoppeld aan je account — minder veilig; iedereen met de link kan de afbeelding bekijken",
-      "retentionAnonymousLimit2": "Trager CDN — anonieme uploads krijgen geen prioriteitsversnelling",
-      "retentionAnonymousLimit3": "Mogelijk gecomprimeerd — originele kwaliteit niet gegarandeerd",
-      "retentionAnonymousLimit4": "Kortstondig — anonieme bestanden worden periodiek opgeschoond; de link kan stoppen",
-      "retentionAnonymousLimit5": "Embedcodes vergrendeld — HTML, BBCode en Markdown vereisen een gratis account",
-      "retentionAnonymousCta": "Maak een gratis account om kaarten op te slaan, embeds te ontgrendelen, sneller CDN en betrouwbaardere links."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Alt-tekst (voor HTML & Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Code kopiëren",
-      "copied": "Gekopieerd",
-      "lockedTabTitle": "Registreer om embedcodes te ontgrendelen",
-      "lockedTabDescription": "HTML, BBCode en Markdown beschikbaar na aanmelding. Gratis accounts: dashboard en embed-kopie met één klik.",
-      "lockedTabCta": "Gratis account maken"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "Van profielkaart naar publieke post",
-      "lead": "De workflow die elke Art Fight-artiest volgt na het afronden van de kaart.",
-      "schemaName": "Art Fight-profielkaart hosten met embedcode",
-      "schemaDescription": "Upload een Art Fight-teamprofielkaart naar Photo To URL en plak de link op je profiel of social post.",
-      "step1Title": "Upload je teamkaart",
-      "step1Desc": "Sleep je Tragedy-, Comedy- of Mystery-profielkaart of ref sheet. We geven direct een link en embedcodes terug.",
-      "step2Title": "Kopieer URL of embedcode",
-      "step2Desc": "Gebruik het URL-tabblad voor Art Fight-profielen, of HTML/BBCode voor Discord, forums en portfoliosites.",
-      "step3Title": "Post & geef je team aan",
-      "step3Desc": "Plak de link op Art Fight, Twitter/X of Discord zodat andere artiesten je kaart zien en je kunnen vinden tijdens het event."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "Art Fight-artiesten FAQ",
-      "lead": "Vragen van artiesten die Team Tragedy-, Comedy- en Mystery-kaarten uploaden.",
-      "warningTitle": "Upload verantwoord",
-      "warningBody": "Host alleen artwork dat je hebt gemaakt of waarvan je duidelijk mag delen. Upload geen inbreukmakende, illegale of verboden content. Jij bent verantwoordelijk voor elk bestand dat je uploadt.",
-      "warningTermsLink": "Servicevoorwaarden",
-      "warningPrivacyLink": "Privacybeleid",
-      "q1Question": "Is dit voor profielkaarten of ref sheets?",
-      "q1Answer": "Beide. Upload je volledige Art Fight-teamprofielkaart, karakter-ref sheet of elke afbeelding die je voor het event wilt hotlinken.",
-      "q2Question": "Werkt het voor alle drie de teams?",
-      "q2Answer": "Ja. Team Tragedy-, Team Comedy- en Team Mystery-kaarten gebruiken dezelfde upload — wij hosten de afbeelding en geven je een deelbare link.",
-      "q3Question": "Heb ik een account nodig om te uploaden?",
-      "q3Answer": "Nee voor snelle uploads. Anonieme gebruikers krijgen 10 gratis uploads per dag. Log in om kaarten in je Dashboard op te slaan — kopieer links opnieuw, zoek bestanden en beheer uploads. Pro voegt batch-upload vanuit het Dashboard toe (tot 20–50 kaarten tegelijk) plus hogere limieten.",
-      "q8Question": "Kan ik veel profielkaarten in batch uploaden?",
-      "q8Answer": "Ja, met een betaald abonnement. Open je Dashboard, gebruik Batch-upload en selecteer meerdere PNG/JPG/WEBP/GIF-bestanden tegelijk — tot 20 per batch op Pro maandelijks, of 50 op Premium jaarlijks. Gratis accounts kunnen één kaart tegelijk uploaden op deze pagina of in het Dashboard.",
-      "q4Question": "Werkt mijn kaartlink op Discord en Twitter?",
-      "q4Answer": "Ja. De directe HTTPS-URL werkt in social posts. Gebruik BBCode voor Discord-vriendelijke markup waar ondersteund.",
-      "q5Question": "Blijft mijn link op lange termijn beschikbaar?",
-      "q5Answer": "Dat hangt af van hoe je uploadt. Anonieme links zijn alleen voor snel gebruik — we ruimen anonieme uploads periodiek op en de link kan op elk moment verbreken. Geregistreerde gebruikers houden bestanden in hun Dashboard tot ze ze verwijderen of opslaglimieten bereiken. Pro is de beste optie als je profielkaarten betrouwbaar online wilt houden.",
-      "q6Question": "Kan ik elke afbeelding uploaden? Hoe zit het met auteursrecht?",
-      "q6Answer": "Upload alleen afbeeldingen die van jou zijn of die je mag hosten en delen — zoals je eigen OCs, commissions waarvoor je hostingrechten hebt, of werk dat je zelf hebt gemaakt. Upload geen ref sheets van andere artiesten, officiële Art Fight-assets die je niet hebt gemaakt, celebrityfoto's, merklogo's of ander auteursrechtelijk beschermd materiaal zonder toestemming. Het uploaden van inbreukmakende content is jouw verantwoordelijkheid.",
-      "q7Question": "Welke content is strikt verboden?",
-      "q7Answer": "Upload nooit illegale content; seksueel expliciet of uitbuitend materiaal (inclusief alles met minderjarigen); haatzaaiende taal, intimidatie of geweld; malware of oplichting; of iets dat auteursrecht, merkrecht of privacy schendt. We kunnen bestanden verwijderen en toegang opschorten zonder voorafgaande kennisgeving wanneer we redelijkerwijs menen dat content onze voorwaarden of de wet schendt."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Artiestenondersteuning — we helpen je graag",
-      "panelVisualTag": "Antwoord binnen 1–2 dagen",
-      "panelVisualQuestion": "Werkt BBCode-embed niet?",
-      "panelVisualReply": "Begrepen — we helpen je het op te lossen.",
-      "topicEmbed": "Embeds en links",
-      "topicAccount": "Artiestenaccount",
-      "topicPlan": "Abonnementen & opslag",
-      "topicFeedback": "Ideeën & feedback",
-      "contactHint": "Neem contact op wanneer je wilt — geen wachtrij.",
-      "contactCta": "Contact opnemen",
-      "emailCta": "E-mail ons"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Host je veel OCs? Batch-upload vanuit je Dashboard",
-      "description": "Pro-artiesten uploaden tientallen profielkaarten in één keer, houden elke link in het Dashboard en genieten hogere daglimieten en opslag voor het volledige roster.",
-      "cta": "Bekijk artiestvriendelijke Pro-abonnementen"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

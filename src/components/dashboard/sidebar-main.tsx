@@ -7,26 +7,25 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from '@/components/ui/sidebar';
 import { LocaleLink, useLocalePathname } from '@/i18n/navigation';
 import type { NestedMenuItem } from '@/types';
 
+/**
+ * Main navigation for the dashboard sidebar
+ */
 export function SidebarMain({ items }: { items: NestedMenuItem[] }) {
   const pathname = useLocalePathname();
-  const { setOpenMobile } = useSidebar();
 
+  // Function to check if a path is active
   const isActive = (href: string | undefined): boolean => {
     if (!href) return false;
     return pathname === href || pathname.startsWith(href + '/');
   };
 
-  const handleLinkClick = () => {
-    setOpenMobile(false);
-  };
-
   return (
     <>
+      {/* Render items with children as SidebarGroup */}
       {items.map((item) =>
         item.items && item.items.length > 0 ? (
           <SidebarGroup key={item.title}>
@@ -36,16 +35,12 @@ export function SidebarMain({ items }: { items: NestedMenuItem[] }) {
                 {item.items.map((subItem) => (
                   <SidebarMenuItem key={subItem.title}>
                     <SidebarMenuButton
+                      asChild
                       isActive={isActive(subItem.href)}
-                      className="w-full transition-all duration-200 ease-out"
                     >
-                      <LocaleLink
-                        href={subItem.href || ''}
-                        onClick={handleLinkClick}
-                        className="flex h-full w-full items-center gap-2 group-data-[collapsible=icon]:w-auto group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:gap-0"
-                      >
+                      <LocaleLink href={subItem.href || ''}>
                         {subItem.icon ? subItem.icon : null}
-                        <span className="truncate font-medium text-sm group-data-[collapsible=icon]:hidden">
+                        <span className="truncate font-medium text-sm">
                           {subItem.title}
                         </span>
                       </LocaleLink>
@@ -56,21 +51,15 @@ export function SidebarMain({ items }: { items: NestedMenuItem[] }) {
             </SidebarGroupContent>
           </SidebarGroup>
         ) : (
+          /* Render items without children directly in a SidebarMenu */
           <SidebarGroup key={item.title}>
             <SidebarGroupContent className="flex flex-col gap-2">
               <SidebarMenu>
                 <SidebarMenuItem>
-                  <SidebarMenuButton
-                    isActive={isActive(item.href)}
-                    className="w-full transition-all duration-200 ease-out"
-                  >
-                    <LocaleLink
-                      href={item.href || ''}
-                      onClick={handleLinkClick}
-                      className="flex h-full w-full items-center gap-2 group-data-[collapsible=icon]:w-auto group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:gap-0"
-                    >
+                  <SidebarMenuButton asChild isActive={isActive(item.href)}>
+                    <LocaleLink href={item.href || ''}>
                       {item.icon ? item.icon : null}
-                      <span className="truncate font-medium text-sm group-data-[collapsible=icon]:hidden">
+                      <span className="truncate font-medium text-sm">
                         {item.title}
                       </span>
                     </LocaleLink>

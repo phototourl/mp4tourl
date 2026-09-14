@@ -1,25 +1,17 @@
 /**
  * Format a price for display
- * @param price Price amount in cents
+ * @param price Price amount in currency units (dollars, euros, etc.)
  * @param currency Currency code
- * @param fractionDigits Optional fixed fraction digits (e.g. 2 → "$7.90")
  * @returns Formatted price string
  */
-export function formatPrice(
-  price: number,
-  currency: string,
-  fractionDigits?: number
-): string {
+export function formatPrice(price: number, currency: string): string {
   const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency,
-    minimumFractionDigits: fractionDigits ?? 0,
-    ...(fractionDigits !== undefined
-      ? { maximumFractionDigits: fractionDigits }
-      : {}),
+    minimumFractionDigits: 0,
   });
 
-  return formatter.format(price / 100);
+  return formatter.format(price / 100); // Convert from cents to dollars
 }
 
 /**

@@ -1,1117 +1,69 @@
 {
-  "common": {
-    "siteName": "Photo To URL",
-    "logout": "Sign out",
-    "logoutFailed": "Sign out failed",
-    "switchLanguage": "Switch language",
-    "tagline": "Turn photos into clean, shareable links in seconds",
-    "header": {
-      "home": "Home",
-      "blog": "Blog",
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly",
-      "circleCrop": "Photo To Circle Crop",
-      "circleCropNav": "Circle Crop",
-      "roundedCorners": "Rounded Corners",
-      "removeBackground": "Remove Background",
-      "removeBackgroundNav": "Remove Background",
-      "pricingNav": "Pricing",
-      "comingSoon": "Coming soon.",
-      "history": "Upload history",
-      "login": "Sign in",
-      "signUp": "Sign up",
-      "signOut": "Sign out",
-      "dashboard": "Dashboard",
-      "settings": "Settings",
-      "tool": "Tools",
-      "pdfToUrlNav": "PDF to URL",
-      "fileToUrlNav": "File to URL",
-      "artFightNav": "Art Fight"
-    },
-    "history": {
-      "drawerTitle": "Upload history",
-      "hint": "Display upload history from the last week.",
-      "close": "Close",
-      "empty": "No uploads yet.",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "open": "Open in new tab"
-    },
-    "languageSelect": {
-      "title": "Select your region",
-      "subtitle": "Selecting a region will change the language and content.",
-      "close": "Close"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
-      },
-      "partners": "Partners",
-      "linksTitle": "Resources",
-      "productsTitle": "Products",
-      "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "pricing": "Pricing",
-        "docs": "Docs",
-        "status": "Status",
-        "about": "About",
-        "contact": "Contact"
-      },
-      "legal": {
-        "title": "Legal",
-        "privacy": "Privacy",
-        "terms": "Terms",
-        "cookie": "Cookie Policy"
-      },
-      "copyright": "© 2025 Photo To URL. All rights reserved.",
-      "products": {
-        "editStamp": "Edit Stamp"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No sign-up"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload your photo → get a link → use it anywhere",
-      "upload": "Upload Image",
-      "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No sign-up required",
-        "paste": "Paste from clipboard"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Login to Continue",
-      "description": "You've reached the free upload limit. Sign in to save upload history and manage files. Higher limits are available on Pro plans.",
-      "benefits": "Why sign up?",
-      "benefit1": "Full upload history — organized, accurate, always accessible",
-      "benefit2": "Access all premium editing tools",
-      "benefit3": "Cloud storage with upload history",
-      "login": "Sign in / Sign up",
-      "later": "Later"
-    },
-    "upgradePrompt": {
-      "title": "Daily Limit Reached",
-      "description": "You've used all your uploads for today. Come back tomorrow! More premium services coming soon.",
-      "comingSoon": "Stay tuned for more services",
-      "goDashboard": "View",
-      "later": "Later"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
-    },
-    "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 2MB (10 uploads/day free). Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
-    },
-    "result": {
-      "error": "Upload failed. Please try again.",
-      "fileTooLarge": "File too large. Your plan allows up to {maxMb} MB per file.",
-      "dailyLimitReached": "You've reached your daily upload limit ({limit} times/day). Come back tomorrow!",
-      "storageLimitReached": "Storage full ({used} used / {limit}). Stay tuned for more storage options!",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "saveHint": "Save this link if you need it later",
-      "saveHintLoggedIn": "Saved to your Dashboard",
-      "tryPrefix": "Try"
-    },
-    "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed — Try free: 5 uploads/day, 2MB per file",
-      "items": {
-        "fast": {
-          "title": "Fast sharing",
-          "desc": "Upload and get a link in seconds with no extra steps."
-        },
-        "direct": {
-          "title": "Direct image URLs",
-          "desc": "Clean links that work in HTML, Markdown, and chat apps."
-        },
-        "nosignup": {
-          "title": "No sign-up required",
-          "desc": "Try free: 5 uploads/day, 2MB per file — no registration needed."
-        }
-      }
-    },
-    "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link in docs, chats, prototypes, and more.",
-      "note": "Your link opens fast in docs, chats, and prototypes — plus you can download it as .txt."
-    },
-    "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
-      "steps": {
-        "1": {
-          "title": "Drop or paste",
-          "desc": "Drag a file, paste from clipboard, or browse."
-        },
-        "2": {
-          "title": "We host & return a link",
-          "desc": "Instant URL with copy/open/save controls."
-        },
-        "3": {
-          "title": "Use anywhere",
-          "desc": "Use in docs, chats, tickets, blogs, or prototypes."
-        }
-      }
-    },
-    "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
-      "items": {
-        "cdn": {
-          "title": "Direct CDN links",
-          "desc": "Clean, predictable URLs ready for Markdown and HTML embeds."
-        },
-        "save": {
-          "title": "Copy & Save",
-          "desc": "Copy, open, or save as .txt file with one click."
-        },
-        "clipboard": {
-          "title": "Clipboard friendly",
-          "desc": "Paste screenshots without hunting for files or re-uploads."
-        },
-        "errors": {
-          "title": "Secure & Private",
-          "desc": "Images securely hosted with encryption in transit and at rest."
-        },
-        "nosignup": {
-          "title": "No sign-up needed",
-          "desc": "Try free: 5 uploads/day, 2MB per file — no registration needed."
-        },
-        "r2": {
-          "title": "Fast hosting",
-          "desc": "Links are served via fast CDN for quick loading and reliable access."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
-      "items": {
-        "ops": {
-          "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
-        },
-        "content": {
-          "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
-        },
-        "support": {
-          "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
-        }
-      }
-    },
-    "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload — copy your link and share it.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
-    },
-    "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to use in chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
-      "useCases": {
-        "title": "Use cases that stay practical",
-        "items": {
-          "1": "Product & design: share UI captures and visual notes without bloated files.",
-          "2": "Support & QA: paste reproducible screenshots into tickets and runbooks quickly.",
-          "3": "Docs & content: embed direct image URLs in Markdown, HTML, and CMS editors.",
-          "4": "Sales & success: send walkthrough visuals in email and messaging with clean links.",
-          "5": "Engineering handoff: keep review artifacts lightweight and easy to reference.",
-          "6": "Community channels: share links in Slack, Discord, Teams, and forums cleanly."
-        }
-      },
-      "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 2MB on the free tier (10 uploads/day). 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and save actions (.txt). 3) Use the link anywhere: blogs, docs, tickets, chat, prototypes, and more. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When CDN is enabled, links serve from the CDN domain; your images are stored securely with secure encryption."
-      },
-      "best": {
-        "title": "Best practices for cleaner links",
-        "items": {
-          "1": "Use descriptive filenames before upload for easier search and management.",
-          "2": "Prefer optimized WEBP/JPG/PNG to keep payloads small.",
-          "3": "Copy immediately after generation to avoid stale clipboard content.",
-          "6": "Save links as .txt when you need plain-text handoff."
-        }
-      },
-      "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Next steps include clearer quota management, clearer quota management, team collaboration, access control, and link analytics. We are also improving image tools such as circle crop, rounded corners, and background removal."
-      },
-      "faq": {
-        "title": "FAQs",
-        "items": {
-          "1": {
-            "q": "Is it free?",
-            "a": "We offer a free tier: upload-to-link and other core features work within free limits (daily uploads, total storage, per-file size). If you want higher limits, choose a paid plan: links are hosted on our CDN with higher quotas and a larger per-file size cap."
-          },
-          "2": {
-            "q": "What formats are supported?",
-            "a": "PNG, JPG, WEBP, and GIF are supported within the current per-file size limits; more formats may be added if demand grows."
-          },
-          "3": {
-            "q": "Can I embed in Markdown or HTML?",
-            "a": "Yes. Copy the link directly, or use one-click save as .txt and use it wherever you need — Markdown, HTML, docs, or a CMS."
-          },
-          "4": {
-            "q": "Do you keep my files public?",
-            "a": "Links are shareable. When CDN is enabled, files are served from the CDN domain. If storage is temporarily unavailable, we show clear maintenance notices."
-          },
-          "5": {
-            "q": "Will there be accounts or teams?",
-            "a": "Yes. We are prioritizing a simple, reliable upload-and-share experience first, then adding team workspaces, access control, and analytics step by step."
-          },
-          "6": {
-            "q": "Can I get a refund after payment?",
-            "a": "We generally do not offer refunds where the service remains available for normal use. If you cannot use the service during your paid period due to an issue on our side, we will review your case after verification and, where appropriate, agree next steps with you."
-          },
-          "7": {
-            "q": "How do I cancel my renewal?",
-            "a": "Renewal is charged automatically to the card you authorized. To stop future charges, cancel automatic debit or recurring billing through your banking app or customer service."
-          },
-          "8": {
-            "q": "How long can I keep using the service after I cancel?",
-            "a": "You can usually continue using the service for the period you have already paid for. After that period ends, no further charges will be made and your benefits end with that period."
-          }
-        },
-        "contactNote": "For the above and other questions, please use the \"Contact us\" page on this site or email <email>support@phototourl.com</email>. We aim to reply within 1–2 business days."
-      },
-      "about": {
-        "title": "About Photo To URL",
-        "p1": "PhotoToURL is a free image to URL converter and image link generator that helps you upload images and instantly generate shareable image links. Easily convert JPG, PNG, WEBP, and other image formats into direct image URLs for fast online sharing.",
-        "p2": "Whether you need a quick photo to URL or free image hosting with CDN links, PhotoToURL makes it simple, secure, and reliable. Upload your image and get a direct link in seconds. Free tier: 10 uploads/day, 2MB per file — see Pricing for higher limits."
-      }
-    },
-    "selectRegion": {
-      "title": "Select Region",
-      "subtitle": "Choose your preferred language and region"
-    }
-  },
-  "seo": {
-    "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
-    "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to shareable URLs. JPG, PNG, WEBP, GIF up to 2MB, 10 uploads/day on free tier. Clipboard paste, fast CDN, clean links."
-    }
-  },
-  "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll optimize and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 2MB)",
-    "logoAlt": "Photo To URL logo"
-  },
-  "circleCrop": {
-    "title": "Photo To Circle Crop",
-    "description": "Free online circular photo cropping tool, easily crop any photo into a perfect circle — perfect for profile pictures, social media, and design projects.",
-    "upload": "Upload Photo",
-    "processing": "Processing...",
-    "download": "Download Circular Photo",
-    "errorSelectFile": "Please select a photo file",
-    "errorUploadFirst": "Please upload a photo first",
-    "page": {
-      "title": "Photo To Circle Crop - Free Online Round Photo Cropper",
-      "description": "Photo To Circle Crop is a free online tool for transforming rectangular photos into perfectly circular shapes. Our tool helps you crop photos in circle format instantly, with no sign-up required. Whether you need a round profile picture, circular photo for social media, or rounded photo for design projects, our circle photo crop tool makes it simple and easy.",
-      "sectionSubtitle": "Crop any photo into a perfect circle — ideal for profile pictures, social media avatars, and design projects."
-    },
-    "seo": {
-      "title": "Circle Crop Tool | Free Online Round Photo Cropper",
-      "description": "Free online tool to crop any photo into a perfect circle — perfect for profile pictures, social media, and design projects.",
-      "keywords": "circle crop image, crop circle image, circle crop tool, circle crop online"
-    },
-    "selectRegion": {
-      "title": "Select Region",
-      "subtitle": "Choose your preferred language and region"
-    }
-  },
-  "roundedCorners": {
-    "title": "Photo To Rounded Corners",
-    "description": "Free online rounded corners tool, easily add rounded corners to any photo — perfect for app icons, profile pictures, and design projects.",
-    "upload": "Upload Photo",
-    "download": "Download",
-    "radiusLabel": "Radius (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Processing...",
-    "errorUploadFirst": "Please upload a photo first.",
-    "errorSelectFile": "Please select an image file.",
-    "page": {
-      "title": "Photo To Rounded Corners - Free Online Rounded Corner Photo Tool",
-      "description": "Photo To Rounded Corners is a free online tool for adding rounded corners to any photo. Create app-style icons, soft-edged images for social media, or polished thumbnails with adjustable corner radius and zoom. No sign-up required — upload, adjust, and download in seconds.",
-      "sectionSubtitle": "Add rounded corners to any photo — perfect for app icons, social media, and thumbnails."
-    },
-    "seo": {
-      "title": "Rounded Corners Tool | Free Online Rounded Corner Tool",
-      "description": "Free online tool to add rounded corners to any photo — perfect for app icons, profile pictures, and design projects.",
-      "keywords": "rounded corners, round corners image, rounded corner tool, rounded corners online"
-    },
-    "selectRegion": {
-      "title": "Select Region",
-      "subtitle": "Choose your preferred language and region"
-    }
-  },
-  "removeBackground": {
-    "title": "Photo To Remove Background",
-    "description": "Free online AI background removal tool, easily remove background from any photo — perfect for product photos, portraits, and design projects.",
-    "upload": "Upload Photo",
-    "download": "Download",
-    "processing": "Processing...",
-    "processingModelLoading": "Loading AI model, first use may take 10-30 seconds, please wait...",
-    "processingImage": "Processing image, please wait...",
-    "errorUploadFirst": "Please upload a photo first.",
-    "errorSelectFile": "Please select an image file.",
-    "errorProcessing": "Failed to process image. Please try again.",
-    "errorTimeout": "Processing timeout, the image may be too large or the network is slow, please try a smaller image or try again later.",
-    "errorMemory": "Insufficient memory, please try a smaller image.",
-    "errorGeneric": "Processing failed: {error}. Please try again or try another image.",
-    "errorFileTooLarge": "Image file is too large, please select an image smaller than 10MB.",
-    "errorModelLoad": "Failed to load AI model library, please refresh the page and try again.",
-    "errorPageHidden": "Page has been switched, please upload the image again to process.",
-    "page": {
-      "title": "Photo To Remove Background - Free Online AI Background Remover",
-      "description": "Photo To Remove Background is a free online AI-powered tool for removing backgrounds from any photo. Create transparent PNG images instantly with our advanced background removal technology. Perfect for product photos, portraits, e-commerce, and design projects. No sign-up required — upload, process, and download in seconds.",
-      "sectionSubtitle": "AI-powered background removal — create transparent PNGs from any photo in seconds."
-    },
-    "seo": {
-      "title": "Remove Background Tool | Free Online AI Background Remover",
-      "description": "Free online AI tool to remove background from any photo — perfect for product photos, portraits, and design projects.",
-      "keywords": "remove background, background remover, transparent background, ai background removal"
-    },
-    "selectRegion": {
-      "title": "Select Region",
-      "subtitle": "Choose your preferred language and region"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF to URL | Free PDF Hosting & Shareable Links",
-      "description": "Upload PDFs to your account and get a stable HTTPS link — view, download, or copy the link anytime in your account dashboard.",
-      "keywords": "pdf to url, pdf hosting, share pdf link, upload pdf online, pdf shareable link, host pdf"
-    },
-    "tool": {
-      "heroTitle": "PDF TO URL",
-      "heroSubtitle": "Turn PDFs into shareable HTTPS links under your account. After each upload, open your account dashboard to copy the link, preview, or download.",
-      "featureFastTitle": "Quick upload",
-      "featureFastDesc": "Drag in a PDF and get a direct link in seconds, delivered over our CDN.",
-      "featureHostingTitle": "Personal hosting",
-      "featureHostingDesc": "Each file is stored in your own cloud space as part of your document library — not a one-off anonymous drop.",
-      "featureLinkTitle": "Stable shareable links",
-      "featureLinkDesc": "Every upload returns a clean URL you can paste anywhere. The link keeps working until you delete the file from your account dashboard.",
-      "featureDashboardTitle": "Find files in one place",
-      "featureDashboardDesc": "After you sign in, open your account dashboard to see every PDF: copy the link again, open in a new tab, or download — all in one place.",
-      "dropzoneTitle": "Drag & drop your PDF here",
-      "dropzoneHint": "PDF only",
-      "dropzoneFootnote": "After uploading, open your account dashboard anytime to copy the link or download the file.",
-      "browse": "Browse files",
-      "selectedFileLabel": "Selected file",
-      "removeSelectedFile": "Remove file",
-      "uploadBtn": "Upload and get link",
-      "uploading": "Uploading…",
-      "loginRequiredTitle": "Sign in to upload your PDF",
-      "loginRequiredDescription": "Please sign in to continue. Files are tied to your account; after uploading you can copy links, download, and manage everything from your account dashboard.",
-      "loginRequiredDetail": "Once signed in, uploads appear on your account dashboard in one place: one-click copy for the direct link, open in a new tab, download originals, search and filter by type when you need to, delete or upload again — and this also helps keep your documents private.",
-      "loginCta": "Sign in",
-      "signUpCta": "Create account",
-      "resultTitle": "Your PDF link",
-      "resultDashboardHint": "Anytime, open your account dashboard for this file: copy the URL, open in a new tab, or download the PDF.",
-      "dashboardCta": "Open Dashboard",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "open": "Open in new tab",
-      "reset": "Upload another",
-      "errorUnauthorized": "Please sign in to upload PDFs.",
-      "errorBadType": "Please choose a PDF file.",
-      "howTitle": "How it works",
-      "step1Title": "1. Choose your PDF",
-      "step1Desc": "Pick a file from your device or drag it into the upload area.",
-      "step2Title": "2. Upload to your library",
-      "step2Desc": "We save the PDF to your cloud storage and show it in your account dashboard, then return a direct HTTPS URL.",
-      "step3Title": "3. Share & revisit",
-      "step3Desc": "Share the link in email or chat. Whenever you need to, open your account dashboard to copy the same link, open it, or download the file."
-    },
-    "page": {
-      "sectionTitle": "Your documents, one workspace",
-      "sectionLead": "Built for people who want simple PDF hosting with a real library behind it — upload once, keep it in your account, and come back anytime.",
-      "bullet1": "Every PDF you upload appears in the same list on your account dashboard so you can see what you have shared.",
-      "bullet2": "Personal hosting: files live under your account, served over HTTPS, and stay in your document library.",
-      "bullet3": "Everyday actions are always there: copy the public link, open it in a browser, or download the original PDF.",
-      "bullet4": "The same URL keeps working until you delete the file in your account dashboard; after that, the link stops serving that file.",
-      "footnote": "Remove files you no longer need in your account dashboard; the link stops working for that file after deletion."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "File to URL | Documents, Office Files & Shareable HTTPS Links",
-      "description": "Upload PDF, Word, PowerPoint, or Excel files to your account and get a stable HTTPS link — view, download, or copy the link anytime in your account dashboard.",
-      "keywords": "file to url, document to link, share office file link, upload docx pptx xlsx, host document online"
-    },
-    "tool": {
-      "heroTitle": "File TO URL",
-      "heroSubtitle": "Turn office documents into shareable HTTPS links under your account. Supports PDF, Word, PowerPoint, and Excel.",
-      "featureFastTitle": "Quick upload",
-      "featureFastDesc": "Drag in a supported file and get a direct link in seconds, delivered over our CDN.",
-      "featureHostingTitle": "Personal hosting",
-      "featureHostingDesc": "Each upload is stored in your cloud space and lands in the same personal document library as uploads from other pages on the site.",
-      "featureLinkTitle": "Stable shareable links",
-      "featureLinkDesc": "Every upload returns a clean URL you can paste anywhere. The link keeps working until you delete the file from your account dashboard.",
-      "featureDashboardTitle": "Find files in one place",
-      "featureDashboardDesc": "After you sign in, open your account dashboard to copy the link again, open in a new tab, or download — all in one place.",
-      "dropzoneTitle": "Drag & drop your file here",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "After uploading, open your account dashboard anytime to copy the link or download the file.",
-      "browse": "Browse files",
-      "selectedFileLabel": "Selected file",
-      "removeSelectedFile": "Remove file",
-      "uploadBtn": "Upload and get link",
-      "uploading": "Uploading…",
-      "loginRequiredTitle": "Sign in to upload your file",
-      "loginRequiredDescription": "Please sign in to continue. Files are tied to your account; after uploading you can copy links, download, and manage everything from your account dashboard.",
-      "loginRequiredDetail": "Once signed in, uploads appear on your account dashboard in one place: one-click copy for the direct link, open in a new tab, download originals, search and filter by type when you need to, delete or upload again — and this also helps keep your documents private.",
-      "loginCta": "Sign in",
-      "signUpCta": "Create account",
-      "resultTitle": "Your file link",
-      "resultDashboardHint": "Anytime, open your account dashboard for this file: copy the URL, open in a new tab, or download the original.",
-      "dashboardCta": "Open Dashboard",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "open": "Open in new tab",
-      "reset": "Upload another",
-      "errorUnauthorized": "Please sign in to upload files.",
-      "errorBadType": "Please choose a PDF, Word, PowerPoint, or Excel file.",
-      "howTitle": "How it works",
-      "step1Title": "1. Choose your file",
-      "step1Desc": "Pick a supported document from your device or drag it into the upload area.",
-      "step2Title": "2. Upload to your library",
-      "step2Desc": "We save the file to your cloud storage and show it in your account dashboard, then return a direct HTTPS URL.",
-      "step3Title": "3. Share & revisit",
-      "step3Desc": "Share the link in email or chat. Whenever you need to, open your account dashboard to copy the same link, open it, or download the file."
-    },
-    "page": {
-      "sectionTitle": "Quick tips",
-      "sectionLead": "Pick a file, upload, and copy your link — whenever you need to, open your account dashboard to copy it again or download the original.",
-      "bullet1": "Supported office files: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Drag and drop or browse to choose a file; when the upload finishes, we show a ready-to-copy HTTPS link.",
-      "bullet3": "Paste the link into email, chat, or docs — recipients can open it in a normal browser.",
-      "bullet4": "Files stay under your account; whenever you need to, open your account dashboard to copy the same link or download the original.",
-      "bullet5": "PDF-only? You can also use the dedicated PDF to URL page for a shorter flow.",
-      "footnote": "Delete a file in your account dashboard when you no longer need it; the link stops working after that."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Photo To URL",
-      "description": "Articles about photo hosting, link sharing, and performance tips."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Latest articles, tutorials, and insights about image hosting, CDN, link sharing, circle crop, rounded corners, and background removal.",
-      "stayTuned": "Stay tuned for guides on:",
-      "guides": {
-        "1": "Best practices for image to URL conversion",
-        "2": "How to use direct photo links in blogs and docs",
-        "3": "Performance and caching for static assets"
-      },
-      "readMore": "Read more",
-      "min": "min",
-      "backToBlog": "Back to Blog",
-      "minRead": "min read",
-      "author": "Author",
-      "viewMoreArticles": "View more articles",
-      "tags": "Tags:",
-      "about": {
-        "title": "About Photo To URL Team",
-        "subtitle": "Editorial Team",
-        "description": "We build and maintain Photo To URL and write practical guides for image optimization and web performance.",
-        "website": "Website",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "View all posts"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "How to Convert Image to URL: A Complete Guide",
-        "description": "Learn everything you need to know about converting images to shareable URLs. This comprehensive guide covers methods, best practices, and tips for image hosting and link sharing.",
-        "content": "# How to Convert Image to URL: A Complete Guide\n\nConverting images to shareable URLs has become an essential skill in today's digital world. Whether you're a blogger, developer, or content creator, understanding how to transform your images into direct links can significantly improve your workflow and content sharing capabilities.\n\n## Why Convert Images to URLs?\n\nBefore diving into the methods, let's understand why converting images to URLs is beneficial:\n\n### 1. **Easy Sharing**\nDirect image URLs allow you to share images instantly without downloading or re-uploading files. Simply copy the URL and paste it anywhere - in emails, documents, or social media posts.\n\n### 2. **Better Performance**\nUsing direct image links reduces the load on your main server. When images are hosted on a CDN (Content Delivery Network), they load faster for users worldwide.\n\n### 3. **Flexibility**\nImage URLs can be embedded in HTML, Markdown, or used in APIs. This flexibility makes them perfect for developers and content creators alike.\n\n### 4. **Storage Efficiency**\nInstead of storing images locally, you can use cloud storage solutions that provide direct URLs, saving valuable server space.\n\n## Methods to Convert Images to URLs\n\n### Method 1: Using Photo To URL Service\n\n**Photo To URL** is a free, user-friendly service that makes image-to-URL conversion effortless:\n\n1. **Visit the website**: Navigate to Photo To URL\n2. **Upload your image**: Drag and drop your image file or click to browse\n3. **Get your URL**: Once uploaded, you'll receive a direct link to your image\n4. **Copy and use**: Copy the URL and use it anywhere you need\n\n**Advantages:**\n- ✅ No registration required\n- ✅ Fast upload and processing\n- ✅ Direct CDN links for optimal performance\n- ✅ Support for multiple image formats (JPG, PNG, WEBP, GIF)\n- ✅ Free tier: 10 uploads/day, 2MB per file — see Pricing for higher limits\n\n### Method 2: Cloud Storage Services\n\nPopular cloud storage services offer image hosting with direct URL access:\n\n**Google Cloud Storage / AWS S3:**\n- Upload images to your bucket\n- Set appropriate permissions\n- Access images via direct URLs\n- Configure CDN for better performance\n\n**Advantages:**\n- Full control over your images\n- Scalable storage solutions\n- Professional-grade infrastructure\n\n### Method 3: Image Hosting Platforms\n\nDedicated image hosting platforms provide specialized services:\n\n- **Imgur**: Popular for quick image sharing\n- **Cloudinary**: Advanced image manipulation features\n- **ImageKit**: Optimized for performance\n\n## Best Practices for Image URLs\n\n### 1. **Choose the Right Format**\n\nDifferent image formats serve different purposes:\n\n- **JPEG**: Best for photographs with many colors\n- **PNG**: Ideal for images with transparency or sharp edges\n- **WEBP**: Modern format offering better compression\n- **GIF**: Perfect for animated images\n\n### 2. **Optimize Image Size**\n\nBefore converting to URL, optimize your images:\n\n- Compress images to reduce file size\n- Resize images to appropriate dimensions\n- Use modern formats like WEBP when possible\n- Balance quality and file size\n\n### 3. **Use CDN for Better Performance**\n\nContent Delivery Networks (CDN) distribute your images across multiple servers worldwide, ensuring fast loading times regardless of user location.\n\n### 4. **Implement Proper Security**\n\n- Use HTTPS URLs for secure image delivery\n- Set appropriate access permissions\n- Consider watermarking for sensitive content\n- Monitor usage to prevent abuse\n\n## Common Use Cases\n\n### For Bloggers\n\nBloggers can use image URLs to:\n- Embed images in blog posts without hosting them locally\n- Improve page load times\n- Share images across multiple platforms\n- Maintain consistent image quality\n\n### For Developers\n\nDevelopers benefit from image URLs by:\n- Reducing server load\n- Simplifying image management\n- Enabling dynamic image loading\n- Integrating with APIs and web services\n\n### For E-commerce\n\nE-commerce sites use image URLs to:\n- Display product images efficiently\n- Manage large image catalogs\n- Optimize for mobile devices\n- Improve checkout page performance\n\n## Troubleshooting Common Issues\n\n### Issue: Broken Image Links\n\n**Solution:**\n- Verify the URL is correct and accessible\n- Check image permissions and access settings\n- Ensure the hosting service is operational\n- Validate the image format is supported\n\n### Issue: Slow Loading Times\n\n**Solution:**\n- Use a CDN for image delivery\n- Optimize image file sizes\n- Choose appropriate image formats\n- Implement lazy loading where possible\n\n### Issue: Image Not Displaying\n\n**Solution:**\n- Check CORS (Cross-Origin Resource Sharing) settings\n- Verify HTTPS/HTTP protocol matches\n- Ensure proper MIME types are set\n- Test URL accessibility from different locations\n\n## Advanced Tips\n\n### 1. **Batch Processing**\n\nFor multiple images, consider:\n- Using APIs for automated uploads\n- Implementing batch conversion scripts\n- Utilizing cloud storage APIs\n- Setting up automated workflows\n\n### 2. **Image Manipulation**\n\nSome services offer on-the-fly image manipulation:\n- Resizing images via URL parameters\n- Applying filters and effects\n- Converting formats automatically\n- Cropping and rotating images\n\n### 3. **Analytics and Monitoring**\n\nTrack your image usage:\n- Monitor bandwidth consumption\n- Analyze popular images\n- Track access patterns\n- Optimize based on usage data\n\n## Conclusion\n\nConverting images to URLs is a straightforward process that offers numerous benefits. Whether you choose a simple service like Photo To URL or a comprehensive cloud storage solution, the key is finding the method that best fits your needs.\n\nRemember to:\n- ✅ Optimize images before uploading\n- ✅ Choose appropriate formats\n- ✅ Use CDN for better performance\n- ✅ Implement proper security measures\n- ✅ Monitor and optimize regularly\n\nBy following these guidelines, you'll be able to efficiently convert and manage your images as URLs, improving both your workflow and your content's performance.\n\n## Related Tools\n\n- [Photo To URL](/) - Free image to URL conversion service\n- [Circle Crop Tool](/circle-crop) - Create circular images\n- [Rounded Corners Tool](/rounded-corners) - Add rounded corners to images\n- [Remove Background Tool](/remove-background) - Remove image backgrounds with AI\n\n---\n\n*Last updated: December 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "How to Crop Images in Circle Shape — Complete Guide",
-        "description": "Transform any photo into a perfect circular image with our free online circle crop tool. Create professional round images for profiles, social media, logos, and more in just seconds.",
-        "content": "# How to Crop Images in Circle Shape — Complete Guide\n\nTransform any photo into a perfect circular image with our free online circle crop tool. Create professional round images for profiles, social media, logos, and more in just seconds.\n\n## How to Crop Images in Circle Shape\n\n### Step 1: Upload Your Image\nSelect any photo from your device that you want to crop into a circle shape. Our tool supports JPG, PNG, WEBP, and GIF formats. Simply click the upload button or drag and drop your image file.\n\n### Step 2: Position Your Image\nAdjust and center your photo within the circular crop area. Use the zoom slider to focus on the most important part of your image, and drag to reposition it for the perfect round crop.\n\n### Step 3: Download Your Circular Image\nOnce you're satisfied with the positioning, click \"Crop and Download\" to get your perfectly rounded image. The result will have a transparent background, making it perfect for use anywhere.\n\n## Popular Ways to Use Circle Cropped Images\n\n### Profile Pictures\nCrop photos in circle shape for professional-looking profile images on social media platforms like Facebook, LinkedIn, and Instagram. Circular avatars create a modern, polished appearance.\n\n### Social Media Graphics\nCreate circular images for Instagram stories, Facebook posts, and Twitter profiles that stand out from the crowd. Round images add visual interest and break up the monotony of square posts.\n\n### Round Logos\nTransform your logo or brand images into perfectly round shapes for consistent branding across all platforms. Circular logos work especially well for app icons and social media branding.\n\n### Testimonial Photos\nDisplay customer or client testimonials with circular profile photos for a clean, professional look. Round images create visual consistency and make your testimonials more engaging.\n\n### Team Member Photos\nCreate consistent round headshots for company websites, team pages, and employee directories. Uniform circular photos give your team page a cohesive, professional appearance.\n\n## Features of Our Circle Crop Tool\n\n- **Free circle image cropper** — Make circle shapes from any image at no cost, no hidden fees\n- **High-resolution output** — Download your circular images in their original quality without compression\n- **No sign-up required** — Start circle cropping images instantly, no account creation needed\n- **Private and secure** — Your images never leave your browser, ensuring complete privacy\n- **Easy-to-use interface** — Simple, intuitive design makes creating round images effortless\n- **Works on all devices** — Crop images in circle shape on desktop, tablet, or mobile devices\n- **Transparent background** — All circular crops come with transparent backgrounds for maximum versatility\n- **Real-time preview** — See exactly how your circular image will look before downloading\n\n## Circle Crop Image FAQ\n\n### How do I crop an image into a circle shape?\n\nSimply upload your image to our tool, adjust it within the circular frame to position the subject properly, and click \"Crop and Download\" to get your perfectly round image. Our tool makes it easy to crop any image in a circle format instantly without needing any design skills.\n\n### How do I make a circular profile picture?\n\nUpload your photo to our circle crop tool, position your face in the center of the circular frame, then download your new round profile picture. It's perfect for social media profiles that use circle-shaped images like Facebook, LinkedIn, or Instagram.\n\n### Can I crop photos into round shapes on my phone?\n\nYes! Our circle image cropper works on all devices including smartphones and tablets. The mobile-friendly interface lets you easily create round image crops anywhere. Just visit our website from your mobile browser — no app download required.\n\n### Do you store the images I upload?\n\nNo, we never store your images on our servers. The entire cropping process happens directly in your browser, which means your photos remain completely private. Once you leave the page, all image data is automatically removed.\n\n### What image formats can I use with the circle crop tool?\n\nOur tool works with all standard image formats including JPG, PNG, WEBP, and GIF. You can upload any of these formats and your circular cropped image will be downloaded as a PNG file with transparency around the circle.\n\n### Will my circular cropped image have a transparent background?\n\nYes, when you download your cropped image, it will have a transparent background around the circle. This makes it perfect for placing on websites, documents, or designs where you want only the circular portion to be visible.\n\n### Can I adjust the size of the circle crop?\n\nThe circle crop maintains a perfect 1:1 aspect ratio, but you can zoom in or out to adjust how much of your image appears within the circle. This allows you to focus on specific parts of your image while maintaining the circular shape.\n\n## Image Tips for Perfect Circle Crops\n\n### Center Your Subject\nFor the best results, choose images where the main subject is centered or can be positioned in the center of the frame. This is especially important for profile pictures and headshots where the face should be the focal point.\n\n### Consider the Crop Area\nRemember that the corners of your image will be cropped out. Avoid images where important details are near the edges of the photo, as these will be lost in the circular crop.\n\n### Use High-Resolution Images\nStarting with high-quality images will result in better circular crops. Low-resolution or small images may appear pixelated when cropped, so use the highest quality source images available.\n\n### Mind the Aspect Ratio\nSquare images typically work best for circle cropping. If your original image is very wide or tall, you may lose significant portions in the cropping process. Consider cropping to square first if needed.\n\n### Adjust for Optimal Framing\nUse our tool's positioning feature to zoom and adjust your image. For portraits, try to center the face with some margin around it for the best professional look. For products, center the main item within the circle.\n\n### Create Consistent Sets\nWhen creating multiple circular images (like for team photos), try to maintain consistent framing, background styles, and sizes for a cohesive appearance across all images.\n\n## Common Uses for Circle Cropped Images\n\n| Application | Benefits of Circle Crop |\n|------------|------------------------|\n| Social Media Profiles | Most platforms display avatars in circles — a perfectly cropped circular image looks professional |\n| Team Member Photos | Create consistent round headshots for company websites and directories |\n| Online Portfolios | Round images create visual interest and modern aesthetics |\n| Digital Business Cards | Circle-cropped profile photos look cleaner and more professional |\n| Product Thumbnails | Round product images create a cohesive catalog look |\n| App Icons | Circular icons are standard for mobile applications |\n| Website Testimonials | Round customer photos add credibility and visual appeal |\n\n## Why Choose Our Circle Crop Image Tool\n\nWhen it comes to cropping photos in circles online, our tool offers several advantages:\n\n- **Instant processing** — Crop image to circle shape in seconds without waiting for uploads or server processing\n- **Perfect circles every time** — Our tool ensures perfectly round crops with clean edges and no distortion\n- **Intuitive controls** — Easily position your image exactly how you want within the circle with zoom and drag functionality\n- **No watermarks** — Unlike other circle crop tools, we don't add watermarks to your images\n- **Works with all image types** — Crop photos, graphics, illustrations, or any image into a circle\n- **Browser-based** — No software installation required, works directly in your web browser\n- **Privacy-first** — All processing happens locally in your browser, your images never leave your device\n\nWhether you need to crop images in circle shape for professional use or personal projects, our circle photo crop tool handles it all with ease. Create round image crops in just a few clicks!\n\n## Getting Started\n\nReady to create your first circular image? Visit our [Circle Crop Tool](/circle-crop) and start cropping today. It's completely free, requires no sign-up, and takes just seconds to create professional circular images.\n\n---\n\n*Last updated: January 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Photo To Rounded Corners — Complete Guide",
-        "description": "Add rounded corners to any image with our free online tool. Create soft, modern edges for thumbnails, cards, UI elements, and social media in seconds.",
-        "content": "# Photo To Rounded Corners — Complete Guide\n\nAdd rounded corners to any image with our free online rounded corners tool. Create soft, modern edges for thumbnails, cards, UI elements, and social media in seconds — no design skills required.\n\n## How to Add Rounded Corners to Images\n\n### Step 1: Upload Your Image\nSelect any photo from your device. Our tool supports JPG, PNG, WEBP, and GIF formats. Click the upload button or drag and drop your image file.\n\n### Step 2: Choose Corner Radius\nUse the slider to set the corner radius (from subtle to fully rounded). Preview updates in real time so you can get the exact look you want.\n\n### Step 3: Download Your Image\nClick \"Download\" to save your image with rounded corners. Use it in designs, websites, or social posts right away.\n\n## Popular Uses for Rounded Corner Images\n\n### Thumbnails & Cards\nRounded corners give thumbnails and card layouts a clean, modern look. Perfect for product grids, blog previews, and app interfaces.\n\n### Social Media & Ads\nSquare images with soft corners stand out in feeds and ads. They feel friendlier and more polished than sharp edges.\n\n### UI & App Design\nIcons, avatars, and buttons often use rounded corners. Our tool helps you batch-edit images to match your design system.\n\n### Presentations & Docs\nAdd a consistent corner radius to screenshots and graphics so slides and documents look cohesive.\n\n## Features of Our Rounded Corners Tool\n\n- **Free and instant** — No sign-up, no watermarks; process locally in your browser with no usage cap on this tool\n- **Adjustable radius** — From slight rounding to pill-shaped corners\n- **Real-time preview** — See the result before downloading\n- **Privacy-first** — Processing happens in your browser; we don't store your images\n- **All devices** — Works on desktop, tablet, and mobile\n\n## Rounded Corners FAQ\n\n### How do I add rounded corners to a picture?\n\nUpload your image to our [Rounded Corners Tool](/rounded-corners), move the corner radius slider until it looks right, then click Download. Your image will be saved with rounded corners.\n\n### What image formats are supported?\n\nWe support JPG, PNG, WEBP, and GIF. The downloaded file keeps your original format (or PNG for best quality with transparency).\n\n### Can I use this on my phone?\n\nYes. Our tool works in any browser on phones and tablets. No app install needed.\n\n### Do you keep my images?\n\nNo. All processing is done in your browser. We don't upload or store your files.\n\n## Related Tools\n\n- [Photo To URL](/) — Free image to URL conversion\n- [Circle Crop Tool](/circle-crop) — Create circular images\n- [Rounded Corners Tool](/rounded-corners) — Add rounded corners to images\n- [Remove Background Tool](/remove-background) — Remove image backgrounds with AI\n\n---\n\n*Last updated: February 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Photo To Remove Background — Complete Guide",
-        "description": "Remove image backgrounds in one click with our free AI-powered tool. Get clean cutouts for product photos, portraits, logos, and more — no design skills needed.",
-        "content": "# Photo To Remove Background — Complete Guide\n\nRemove image backgrounds in one click with our free online tool. Get clean cutouts for product photos, portraits, logos, and more — no design skills needed.\n\n## How to Remove Background from an Image\n\n### Step 1: Upload Your Image\nSelect any photo from your device. Our tool supports JPG, PNG, WEBP, and GIF. Click to upload or drag and drop your file.\n\n### Step 2: AI Removes the Background\nOur tool automatically detects the subject and removes the background. Processing usually takes just a few seconds. You'll see a real-time preview with a transparent background.\n\n### Step 3: Download Your Image\nClick \"Download\" to save your image with the background removed. The output is PNG with transparency, ready for designs, e-commerce, or social media.\n\n## Popular Uses for Background Removal\n\n### Product Photos\nClean product cutouts for online stores, marketplaces, and ads. Transparent backgrounds make it easy to place products on any layout or color.\n\n### Portraits & Headshots\nRemove busy or distracting backgrounds from portraits for CVs, LinkedIn, or professional bios. Focus attention on the person.\n\n### Logos & Graphics\nIsolate logos and graphics from photos or scans. Get a transparent PNG suitable for overlays, branding, and presentations.\n\n### Social Media & Marketing\nCreate standout visuals for posts, stories, and ads. Transparent cutouts blend into any template or background.\n\n## Features of Our Remove Background Tool\n\n- **Free and AI-powered** — No sign-up, no watermarks; process locally in your browser with no usage cap on this tool\n- **One-click removal** — Automatic subject detection and clean edges\n- **Transparent PNG output** — Ready for any design or platform\n- **Privacy-first** — Processing in your browser; we don't store your images\n- **All devices** — Works on desktop, tablet, and mobile\n\n## Remove Background FAQ\n\n### How do I remove the background from a photo?\n\nUpload your image to our [Remove Background Tool](/remove-background). The tool will detect the subject and remove the background automatically. Preview the result, then click Download to get your PNG with transparency.\n\n### What image formats are supported?\n\nWe support JPG, PNG, WEBP, and GIF. The result is always downloaded as PNG with a transparent background so you can use it anywhere.\n\n### Do you keep my images?\n\nNo. Processing runs in your browser. We don't upload or store your files.\n\n### Can I use this on my phone?\n\nYes. Our tool works in any browser on phones and tablets. No app required.\n\n## Related Tools\n\n- [Photo To URL](/) — Free image to URL conversion\n- [Circle Crop Tool](/circle-crop) — Create circular images\n- [Rounded Corners Tool](/rounded-corners) — Add rounded corners to images\n- [Remove Background Tool](/remove-background) — Remove image backgrounds with AI\n\n---\n\n*Last updated: March 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Documentation for Photo To URL."
-    },
-    "page": {
-      "title": "Docs",
-      "description": "Quick start: upload an image and get a direct URL. Use the copy/open buttons or download the link in .txt.",
-      "features": {
-        "title": "Supported features:",
-        "items": {
-          "1": "Supported: JPG, PNG, WEBP, GIF",
-          "2": "Fast delivery via CDN when storage is enabled",
-          "3": "Friendly maintenance errors when service is unavailable"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Service status for Photo To URL."
-    },
-    "page": {
-      "title": "Status",
-      "description": "All systems operational.",
-      "message": "Upload API and CDN links are running."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Photo To URL",
-      "description": "Contact Photo To URL for image hosting support, feedback, partnership, or to report issues. We respond to every message and aim to reply within 1–2 business days."
-    },
-    "page": {
-      "title": "Contact Us",
-      "introShort": "Have a question or feedback? Fill in the form below and we'll get back to you soon.",
-      "orEmail": "Or email us at",
-      "subtitle": "We're here to help with image hosting, links, and anything else.",
-      "intro": "Photo To URL is a free image hosting service that turns your photos into shareable links. If you have questions, suggestions, or run into any issues, we'd love to hear from you.",
-      "whyTitle": "What you can contact us about",
-      "why1": "Technical support: upload errors, broken links, or problems with the tool",
-      "why2": "Feedback and feature requests to improve the service",
-      "why3": "Partnership or collaboration inquiries",
-      "why4": "Reporting abuse, copyright concerns, or policy questions",
-      "expectTitle": "What to expect",
-      "expectContent": "We read every message and aim to reply within 1–2 business days. For urgent issues, please include a clear subject line and as much detail as possible.",
-      "emailHeading": "Get in touch by email",
-      "emailHint": "Send us an email and we'll get back to you as soon as we can.",
-      "email": {
-        "label": "Email",
-        "address": "support@phototourl.com",
-        "cta": "Send email"
-      },
-      "form": {
-        "title": "Send a message",
-        "description": "Fill in the form below and we'll get back to you as soon as we can.",
-        "name": "Name",
-        "email": "Email",
-        "message": "Message",
-        "namePlaceholder": "Your name",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Your message or question...",
-        "submit": "Send message",
-        "submitting": "Sending...",
-        "success": "Message sent successfully. We'll reply as soon as we can.",
-        "minLength": "Name must be at least 3 characters.",
-        "maxLengthName": "Name must not exceed 30 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "minLengthMessage": "Message must be at least 10 characters.",
-        "maxLengthMessage": "Message must not exceed 2000 characters.",
-        "invalid": "Something went wrong. Please try again."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "About Us | Photo To URL",
-      "description": "Learn more about Photo To URL — a free image hosting service that converts photos into shareable links."
-    },
-    "page": {
-      "title": "About Us",
-      "mission": {
-        "title": "Our Mission",
-        "content": "Photo To URL is a free, fast, and reliable image hosting service designed to help creators, marketers, and teams convert images into shareable links instantly. We believe in simplicity, speed, and user privacy."
-      },
-      "features": {
-        "title": "What We Offer",
-        "item1": "Free image hosting with CDN support",
-        "item2": "Instant link generation for quick sharing",
-        "item3": "Support for multiple image formats (JPG, PNG, WEBP, GIF)",
-        "item4": "No registration required to try — 5 uploads/day, 2MB per file"
-      },
-      "contact": {
-        "title": "Contact Us",
-        "text": "Have questions or feedback? Reach out to us at",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL — Learn how we collect, use, and protect your data."
-      },
-      "page": {
-        "title": "Privacy Policy",
-        "lastUpdated": "Last Updated: May 2026",
-        "introduction": "At Photo To URL, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
-        "dataCollection": {
-          "title": "Information We Collect",
-          "content1": "When you use Photo To URL, we may collect:",
-          "item1": "Image files you upload and file metadata (filename, size, type), stored on Cloudflare R2 to provide shareable links",
-          "item2": "IP address, upload timestamps, and usage data for rate limiting, security, and abuse prevention",
-          "item3": "Account information when you register or sign in (email address, OAuth profile from Google, session and authentication identifiers)",
-          "item4": "Subscription and payment-related information processed by our payment provider (Waffo Pancake) when you purchase a paid plan — we do not store full payment card numbers",
-          "content2": "If you contact us through our contact form, we collect the information you provide (such as name and email). We also use cookies and similar technologies as described in the Cookies section below."
-        },
-        "dataUsage": {
-          "title": "How We Use Your Information",
-          "item1": "To generate and provide shareable image links",
-          "item2": "To prevent abuse and enforce upload limits",
-          "item3": "To improve our service and user experience",
-          "item4": "To comply with legal obligations"
-        },
-        "dataStorage": {
-          "title": "Data Storage and Retention",
-          "content": "Uploaded images are stored on Cloudflare R2 storage. We retain images for as long as necessary to provide the service. Images may be deleted automatically after a period of inactivity or due to policy violations."
-        },
-        "cookies": {
-          "title": "Cookies and Tracking Technologies",
-          "content1": "We use the following technologies:",
-          "item1": "Local Storage: To store your upload history and language preferences",
-          "item2": "Google AdSense: For displaying advertisements (uses cookies for ad personalization)",
-          "item3": "Google Analytics: For website analytics (anonymized data)",
-          "content2": "You can control cookies through your browser settings. However, disabling cookies may affect some functionality of our service."
-        },
-        "personalizedAds": {
-          "title": "Personalized Advertising and Opt-Out",
-          "content": "We use Google AdSense to display ads. Google and other third-party vendors may use cookies to serve ads based on your visits to this site and elsewhere on the web. You can opt out of personalized advertising by visiting Google's Ads Settings",
-          "linkAdsSettings": "Google Ads Settings",
-          "content2": "or the Network Advertising Initiative opt-out page at",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Third-Party Services",
-          "content1": "We use the following third-party services:",
-          "item1": "Cloudflare R2: For image storage and CDN delivery",
-          "item2": "Google AdSense: For advertising (subject to Google's Privacy Policy)",
-          "item3": "Google Analytics: For website analytics (subject to Google's Privacy Policy)",
-          "content2": "We also use Waffo Pancake for subscription and payment processing. These services may collect information in accordance with their own privacy policies. We encourage you to review their privacy policies."
-        },
-        "dataSecurity": {
-          "title": "Data Security",
-          "content": "We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure."
-        },
-        "yourRights": {
-          "title": "Your Rights",
-          "content": "You have the right to:",
-          "item1": "Access your uploaded images, account data, and associated information",
-          "item2": "Request deletion of your images",
-          "item3": "Opt-out of certain data collection practices",
-          "item4": "Contact us with privacy concerns"
-        },
-        "children": {
-          "title": "Children's Privacy",
-          "content": "Our service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13."
-        },
-        "changes": {
-          "title": "Changes to This Privacy Policy",
-          "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last Updated\" date."
-        },
-        "contact": {
-          "title": "Contact Us",
-          "text": "If you have questions about this Privacy Policy, please contact us at",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL — image hosting, acceptable use, and user responsibilities."
-      },
-      "page": {
-        "title": "Terms of Service",
-        "lastUpdated": "Last Updated: September 2026",
-        "intro": "Welcome to Photo To URL. By accessing or using our image hosting and link generation service (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the Service.",
-        "acceptance": {
-          "title": "Acceptance of Terms",
-          "content": "By uploading images, generating links, or otherwise using Photo To URL, you confirm that you have read, understood, and agree to these Terms and to our Privacy Policy. We may update these Terms from time to time; continued use of the Service after changes constitutes acceptance of the updated Terms."
-        },
-        "serviceDescription": {
-          "title": "Description of Service",
-          "content": "Photo To URL provides free image hosting and direct link generation. You may upload images within the limits we set (e.g., file size, format) and receive shareable links. We do not guarantee uninterrupted availability; the Service may be modified, suspended, or discontinued with or without notice."
-        },
-        "useOfService": {
-          "title": "Use of the Service",
-          "content": "You may use the Service only for lawful purposes and in accordance with these Terms. You are responsible for your use of the Service and for any content you upload. You must not use the Service in any way that violates applicable laws or the rights of others."
-        },
-        "userResponsibilities": {
-          "title": "Your Responsibilities",
-          "content": "You agree to: (1) provide accurate information when required; (2) keep your use of the Service compliant with all applicable laws; (3) not attempt to circumvent security, rate limits, or access controls; (4) not use the Service to distribute malware or to interfere with the operation of the Service or other users."
-        },
-        "prohibitedContent": {
-          "title": "Prohibited Content",
-          "content": "You must not upload or share links to content that: is illegal, harmful, threatening, abusive, harassing, defamatory, obscene, invasive of privacy, infringing of intellectual property, or otherwise objectionable; exploits minors; promotes violence or discrimination; or violates any third party's rights. We may remove content and suspend or terminate access without notice if we reasonably believe it violates these Terms or the law."
-        },
-        "ipAndContent": {
-          "title": "Intellectual Property and Your Content",
-          "content": "You retain ownership of the images you upload. By using the Service, you grant us a limited licence to store, process, and serve your images and to generate and provide links, as necessary to operate the Service. We do not claim ownership of your content. Our name, logo, and the Service are our intellectual property; you may not use them without our prior written consent."
-        },
-        "subscriptions": {
-          "title": "Subscription Plans",
-          "content": "Photo To URL offers a free tier and paid subscription plans (monthly Pro and yearly Premium) that increase upload limits, file size limits, and storage. Current plan details and pricing are on our Pricing page (https://phototourl.com/pricing). Paid access is a digital service and is granted immediately after confirmed payment."
-        },
-        "billing": {
-          "title": "Billing and Payment",
-          "content": "By providing a payment method and subscribing to a paid plan, you authorize us and our payment processor to charge that method on a recurring basis for the applicable subscription fee until you cancel as described below. Subscriptions renew automatically at the end of each billing period unless cancelled. Prices are shown at checkout and may exclude applicable taxes unless stated otherwise."
-        },
-        "cancellation": {
-          "title": "Cancellation and Stopping Auto-Renewal",
-          "content": "You may stop future charges at any time by:",
-          "item1": "Emailing support@phototourl.com from your registered account email and requesting cancellation of auto-renewal; or",
-          "item2": "Cancelling automatic debit or recurring billing with your card issuer via mobile banking, online banking, or customer service.",
-          "effect": "Cancellation stops future renewals. You keep paid benefits until the end of the period you already paid for. After that period ends, no further charges are made for that subscription and paid benefits end with that period."
-        },
-        "refunds": {
-          "title": "Refund Policy",
-          "general": "Because paid plans are digital services delivered immediately after payment, subscription fees are generally non-refundable where the Service remains available for normal use, except as stated below or where required by law.",
-          "eligibleTitle": "When a refund may be available",
-          "item1": "First-time subscribers: within 7 days of the initial charge, if you have not made substantial use of paid features (for example, only a small share of your plan’s upload or storage allowance).",
-          "item2": "Duplicate or erroneous charges: a full refund for a verified billing error that resulted in a duplicate charge.",
-          "item3": "Service outage on our side: if a verified outage within our control lasts 72 hours or more during your paid period, we may offer a pro-rated credit or refund after review.",
-          "item4": "Statutory rights: where applicable law gives you a right of withdrawal or refund (for example in the EU/UK), those rights are preserved.",
-          "howTitle": "How to request a refund",
-          "how": "Email support@phototourl.com with your account email, payment or transaction reference, and reason. We aim to acknowledge within 2 business days and process eligible refunds within 5–10 business days.",
-          "notTitle": "When refunds are not available",
-          "not1": "Fees for subscription periods already used, except as listed above.",
-          "not2": "Yearly (Premium) subscription refund requests made more than 30 days after the initial purchase, except where law requires otherwise or an eligible outage or duplicate-charge case applies.",
-          "not3": "Accounts suspended or terminated for violating these Terms."
-        },
-        "disclaimer": {
-          "title": "Disclaimer of Warranties",
-          "text": "The Service is provided \"as is\" and \"as available\" without warranties of any kind, express or implied. We do not warrant that the Service will be uninterrupted, error-free, or free of harmful components. Your use of the Service is at your sole risk."
-        },
-        "limitationOfLiability": {
-          "title": "Limitation of Liability",
-          "content": "To the maximum extent permitted by law, Photo To URL and its operators shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, or goodwill, arising from your use or inability to use the Service. Our total liability shall not exceed the amount you have paid to us in the twelve months preceding the claim (or, if you have paid nothing, zero)."
-        },
-        "termination": {
-          "title": "Termination",
-          "content": "We may suspend or terminate your access to the Service at any time, with or without cause or notice. You may stop using the Service at any time. Upon termination, your right to use the Service ceases immediately. Provisions that by their nature should survive (including disclaimer, limitation of liability, and governing law) will survive."
-        },
-        "changes": {
-          "title": "Changes to These Terms",
-          "content": "We may update these Terms from time to time. We will post the revised Terms on this page and update the \"Last Updated\" date. Your continued use of the Service after changes constitutes acceptance. We encourage you to review this page periodically."
-        },
-        "governingLaw": {
-          "title": "Governing Law",
-          "content": "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which we operate, without regard to conflict of law principles. Any disputes shall be resolved in the courts of that jurisdiction."
-        },
-        "contact": {
-          "title": "Contact Us",
-          "text": "If you have questions about these Terms of Service, please contact us at",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Cookie Policy | Photo To URL",
-        "description": "Cookie Policy for Photo To URL — Learn about how we use cookies and tracking technologies."
-      },
-      "page": {
-        "title": "Cookie Policy",
-        "lastUpdated": "Last Updated: September 2026",
-        "introduction": "This Cookie Policy explains how Photo To URL uses cookies and similar tracking technologies when you visit our website. By using our service, you consent to the use of cookies in accordance with this policy. For questions about this policy, contact us at support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "What Are Cookies",
-          "content": "Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners."
-        },
-        "howWeUseCookies": {
-          "title": "How We Use Cookies",
-          "content": "We use cookies for the following purposes:",
-          "item1": "To store your upload history and language preferences",
-          "item2": "To analyze website traffic and user behavior",
-          "item3": "To display personalized advertisements"
-        },
-        "typesOfCookies": {
-          "title": "Types of Cookies We Use",
-          "essential": {
-            "title": "Essential Cookies",
-            "content": "These cookies are necessary for the website to function properly. They enable core functionality such as storing your language preferences and upload history."
-          },
-          "analytics": {
-            "title": "Analytics Cookies",
-            "content": "We use Google Analytics to analyze how visitors use our website. These cookies collect anonymous information about website usage to help us improve our service."
-          },
-          "advertising": {
-            "title": "Advertising Cookies",
-            "content": "We use Google AdSense to display advertisements. These cookies help deliver personalized ads based on your browsing behavior and interests."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Third-Party Cookies",
-          "content": "We use the following third-party services that may set cookies:",
-          "item1": "Google AdSense — For advertising (subject to Google's Privacy Policy)",
-          "item2": "Google Analytics — For website analytics (subject to Google's Privacy Policy)"
-        },
-        "manageCookies": {
-          "title": "Managing Cookies",
-          "content": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse or accept cookies, delete existing cookies, or set preferences for certain websites. However, disabling cookies may affect the functionality of our service."
-        },
-        "changes": {
-          "title": "Changes to This Cookie Policy",
-          "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the \"Last Updated\" date."
-        },
-        "contact": {
-          "title": "Contact Us",
-          "text": "If you have questions about this Cookie Policy, please contact us at",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Upload images from any webpage directly to Photo To URL with a single click! Try free: 5 uploads/day, 2MB per file.",
-    "howItWorks": {
-      "title": "How It Works",
-      "step1": "Browse any webpage with images",
-      "step2": "Click the bookmarklet in your bookmarks bar",
-      "step3": "Select an image from the page",
-      "step4": "Get the URL instantly and copy it!"
-    },
-    "installation": {
-      "title": "Installation",
-      "step1": {
-        "title": "Step 1: Copy the Bookmarklet Code",
-        "description": "Click the button below to copy the bookmarklet code to your clipboard."
-      },
-      "step2": {
-        "title": "Step 2: Add to Your Browser",
-        "description": "Follow these steps based on your browser:",
-        "chrome": "Chrome/Edge: Press Ctrl+Shift+B (Cmd+Shift+B on Mac) to show the bookmarks bar, then right-click it and select \"Add page\". Paste the code as the URL.",
-        "firefox": "Firefox: Right-click the bookmarks bar and select \"New Bookmark\". Paste the code as the Location.",
-        "safari": "Safari: Enable the bookmarks bar (View → Show Bookmarks Bar), then drag the code to the bookmarks bar.",
-        "edge": "Alternative: Create a new bookmark, edit it, and replace the URL with the copied code."
-      },
-      "step3": {
-        "title": "Step 3: Start Using It!",
-        "description": "Visit any webpage with images and click your bookmarklet to start uploading!"
-      },
-      "copy": "Copy Code",
-      "copied": "Copied!"
-    },
-    "usage": {
-      "title": "Features",
-      "description": "The bookmarklet provides the following features. Each upload counts towards your plan limits (10 uploads/day, 2MB per file).",
-      "feature1": "Select any image from the current webpage",
-      "feature2": "Automatic upload to Photo To URL",
-      "feature3": "Get a shareable URL instantly with one-click copy"
-    },
-    "note": {
-      "title": "Note",
-      "content": "Uploads count towards your daily quota (10 uploads/day, 2MB per file). The bookmarklet works on most websites. Some sites with strict security policies (CORS) may prevent image uploads."
-    }
-  },
-  "AuthPage": {
-    "login": {
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign in",
-      "signUp": "Sign up",
-      "signUpHint": "Don't have an account?",
-      "forgotPassword": "Forgot password?",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "emailRequired": "Email is required",
-      "passwordRequired": "Password is required",
-      "signInWithGoogle": "Sign in with Google"
-    },
-    "register": {
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign up",
-      "signInHint": "Already have an account?",
-      "namePlaceholder": "Your name",
-      "signUpSuccess": "Account created successfully",
-      "signUpWithGoogle": "Sign up with Google",
-      "artFightLabel": "Register dedicated artist account",
-      "artFightHint": "Unlock artist-focused Dashboard tools: embed copy (URL, HTML, BBCode, Markdown) for every hosted card."
-    },
-    "error": {
-      "title": "Authentication Error",
-      "defaultError": "An error occurred during authentication.",
-      "backToLogin": "Back to sign in"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "An account with this email already exists. Please use a different email.",
-      "INVALID_CREDENTIALS": "Invalid email or password.",
-      "INVALID_EMAIL": "Invalid email format.",
-      "INVALID_PASSWORD": "Invalid password format, at least 6 characters required.",
-      "EMAIL_REQUIRED": "Email is required.",
-      "PASSWORD_REQUIRED": "Password is required.",
-      "NAME_REQUIRED": "Name is required.",
-      "SERVER_ERROR": "Server error. Please try again later.",
-      "NETWORK_ERROR": "Network error. Please check your connection."
-    },
-    "orContinueWith": "Or continue with",
-    "forgotPassword": {
-      "title": "Forgot password",
-      "description": "Enter your email and we'll send you a link to reset your password.",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLoginHint": "Remember your password?",
-      "checkEmail": "If an account exists for that email, we sent a reset link. Please check your inbox.",
-      "emailRequired": "Email is required",
-      "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
-      }
-    },
-    "resetPassword": {
-      "title": "Reset password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLoginHint": "Ready to sign in?",
-      "requestNewLink": "Request a new link",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 6 characters",
-      "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "missingToken": "Reset link is missing or incomplete. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "Click the button below to reset your Photo To URL password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your Photo To URL password"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Simple, Transparent Pricing",
+    "title": "Pricing",
     "description": "Choose the plan that works best for you",
     "subtitle": "Choose the plan that works best for you",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "faqTitle": "Frequently Asked Questions",
-    "faq": {
-      "payment": {
-        "q": "What payment methods do you accept?",
-        "a": "We accept all major credit cards and PayPal through our secure payment provider."
-      },
-      "cancel": {
-        "q": "Can I cancel my subscription anytime?",
-        "a": "Yes, you can cancel anytime. You'll keep access until the end of your current billing period."
-      },
-      "storage": {
-        "q": "What happens to my files if I downgrade?",
-        "a": "Your files are safe. If you exceed the storage limit, we'll notify you in advance. Nothing is deleted immediately."
-      },
-      "upload": {
-        "q": "What counts as an upload?",
-        "a": "Each image you upload to Photo To URL counts as one upload. Free users are limited to 10 uploads per day."
-      }
-    },
     "PricingCard": {
       "freePrice": "$0",
       "perMonth": "/month",
       "perYear": "/year",
-      "popular": "Most Popular",
-      "bestValue": "Best Value",
+      "popular": "Popular",
       "currentPlan": "Current Plan",
       "yourCurrentPlan": "Your Current Plan",
       "getStartedForFree": "Get Started For Free",
       "getLifetimeAccess": "Get Lifetime Access",
       "getStarted": "Get Started",
-      "upgradeToYearly": "Upgrade to Premium",
-      "cannotDowngrade": "Downgrade not available",
-      "alreadySubscribed": "Already subscribed",
-      "subscribeYearly": "Subscribe yearly",
-      "subscribeMonthly": "Subscribe monthly",
-      "upgrade": "Upgrade Now",
       "notAvailable": "Not Available",
-      "limitedOffer": "Limited-time offer · 20% off",
-      "savePercentLabel": "Save ",
-      "savePercentSuffix": " vs monthly",
-      "freePriceNote": "Free forever",
-      "monthlyPriceNote": "Billed monthly",
-      "loading": "Loading...",
-      "suitableFor": "Suitable for:",
-      "activePlanDialog": {
-        "title": "Active subscription detected",
-        "description": "You already have an active subscription on this account.",
-        "descriptionWithDate": "You already have an active subscription on this account (expires on {date}).",
-        "close": "Close",
-        "manageBilling": "Manage your subscription"
-      },
-      "batchUpload": {
-        "label": "Batch upload",
-        "free": "No",
-        "monthly": "20 photos",
-        "yearly": "50 photos"
-      },
-      "justPerMonth": "Just {price}/mo",
-      "saveVsMonthly": "Save {percent}%",
-      "monthlyEquivalentShort": "({price}/month)",
-      "bestValueWithSave": "Best Value · Save {percent}%"
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
       "loading": "Loading...",
@@ -1121,530 +73,1071 @@
   "PricePlans": {
     "free": {
       "name": "Free",
-      "description": "Perfect for trying out Photo To URL",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 2MB",
-        "feature-2": "Daily uploads: 10 times",
-        "feature-3": "Storage: 100MB",
-        "feature-4": "CDN: Basic acceleration",
-        "feature-5": "Ad-free: No",
-        "feature-6": "Document hosting: No",
-        "feature-7": "Photo hosting: No",
-        "feature-8": "Photo editing: No",
-        "feature-9": "Webhook: No",
-        "feature-10": "Resource permissions: None"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Try the product, test features"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
       "name": "Pro",
-      "description": "Built for steady uploads and reliable hosting",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Upload size: 50MB",
-        "feature-2": "Daily uploads: 1000 times",
-        "feature-3": "Storage: 100GB",
-        "feature-4": "CDN: Standard acceleration",
-        "feature-5": "Ad-free: Yes",
-        "feature-6": "Document hosting: Yes",
-        "feature-7": "Photo hosting: Yes",
-        "feature-8": "Photo editing: Yes",
-        "feature-9": "Webhook: Yes",
-        "feature-10": "Resource permissions: Partial"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Bloggers / Developers / Small teams"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Annual plan with higher quotas and faster CDN",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Upload size: 256MB",
-        "feature-2": "Daily uploads: Unlimited",
-        "feature-3": "Storage: 200GB",
-        "feature-4": "CDN: High-speed nodes (priority)",
-        "feature-5": "Ad-free: Yes",
-        "feature-6": "Document hosting: Yes",
-        "feature-7": "Photo hosting: Yes",
-        "feature-8": "Photo editing: Yes",
-        "feature-9": "Webhook: Yes",
-        "feature-10": "Resource permissions: All"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
+    }
+  },
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
+    },
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
       },
-      "limits": [],
-      "suitableFor": "Large teams / High-frequency use / Automation workflows"
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
+        }
+      },
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
+        }
+      },
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
     }
   },
   "Dashboard": {
-    "title": "Dashboard",
-    "welcome": "Welcome",
-    "loadFailed": "Failed to load. Please try again.",
-    "errorTitle": "Something went wrong",
-    "dismiss": "OK",
-    "dashboard": "Dashboard",
-    "resources": "My Resources",
-    "photos": "My Photos",
-    "storage": "Storage",
-    "used": "Used",
-    "total": "Total",
-    "storageDisplay": "{used} / {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Unlimited",
-    "deleteConfirm": "Are you sure you want to delete this resource?",
-    "deleteResource": "Delete Resource",
-    "deleteFailed": "Failed to delete resource",
-    "delete": "Delete",
-    "cancel": "Cancel",
-    "copied": "Copied!",
-    "copy": "Copy link",
-    "open": "Open",
-    "removeBackground": "Remove Background",
-    "noResources": "No resources yet. Upload some images to get started.",
-    "files": "files",
-    "dailyUploads": "Daily Uploads",
-    "today": "today",
-    "resourcesCount": "You have {count} uploaded resources",
-    "photosCount": "You have {count} uploaded photos",
-    "resourcePageInfo": "Page {page} of {totalPages} · {pageSize} per page · {total} files total",
-    "resourceTotalCount": "Total {total} items",
-    "resourcePageSizeLabel": "Items per page",
-    "resourcePageSizeOption": "{size} / page",
-    "resourceJumpTo": "Go to",
-    "resourceJumpPageUnit": "page",
-    "resourceJumpInputAria": "Page number to jump to",
-    "resourcePagePrev": "Previous page",
-    "resourcePageNext": "Next page",
-    "subtitle": "Here's your workspace overview.",
-    "planCardTitle": "Plan",
-    "planActive": "Active",
-    "planNames": {
-      "free": "Free",
-      "premium": "Premium",
-      "pro": "Pro"
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "planCardHintUpgrade": "Upgrade to unlock more",
-    "planCardHintAllUpgraded": "All features unlocked",
-    "statStorageHint": "Space used across all uploads",
-    "statResourcesHint": "Total photos + documents",
-    "statPhotosHint": "Files you can copy or share as links",
-    "statUploadsHint": "Resets every 24h by tier",
-    "chartTitle": "Activity",
-    "chartDescription": "Upload volume over time",
-    "chartPlaceholder": "Trends will appear here once there's more activity.",
-    "chartRange7d": "Last 7 days",
-    "chartRange30d": "Last 30 days",
-    "chartRange90d": "Last 3 months",
-    "tableFile": "File",
-    "tablePath": "Path",
-    "tableSize": "Size",
-    "tableActions": "Actions",
-    "viewTable": "Table",
-    "viewGrid": "Photo Wall",
-    "chartDemoNote": "Upload volume trend (days)",
-    "loginRequired": "Please log in to view your dashboard.",
-    "checkoutSuccess": "Payment successful! Your plan has been upgraded.",
-    "subscriptionSuccess": "Subscription activated. Welcome to {plan}!",
-    "circleCrop": "Circle Crop",
-    "roundedCorners": "Rounded Corners",
-    "scheduledForDeletion": "Scheduled for deletion",
-    "upload": "Upload",
-    "uploadPhoto": "Upload photo",
-    "batchUploadPhotos": "Batch upload",
-    "batchUploading": "Batch uploading...",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Select at most {max} files at once.",
-    "batchUploadTierHint": "Up to {max} files per batch on your plan.",
-    "uploadUpgradeHint": "Available after upgrade",
-    "uploading": "Uploading...",
-    "loading": "Loading...",
-    "uploadErrorInvalidType": "Invalid file type. Use PNG, JPG, WEBP, or GIF.",
-    "uploadErrorTooLarge": "File too large. Your plan allows up to {maxMb} MB per file.",
-    "uploadErrorDailyLimit": "Daily limit reached ({limit} uploads/day).",
-    "uploadErrorStorageLimit": "Storage limit reached.",
-    "uploadErrorGeneric": "Upload failed. Please try again.",
-    "uploadUpgradeTitle": "Unlock Direct Upload",
-    "uploadUpgradeDescription": "Upgrade to upload directly from your dashboard with higher limits.",
-    "uploadRenewDescription": "Renew your plan to upload directly from your dashboard with higher limits.",
-    "expiredStorageLimitHint": "After expiry, storage is limited to 100MB",
-    "uploadGoHome": "Upload on homepage",
-    "resourceModule": {
-      "title": "My Documents",
-      "count": "You have {count} uploaded documents",
-      "empty": "No documents yet. Upload a PDF/Word/PowerPoint/Excel file to get started.",
-      "viewCard": "Cards",
-      "searchPlaceholder": "Search by filename",
-      "typeAll": "All types",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Reset",
-      "upload": "Upload document",
-      "uploading": "Uploading…",
-      "copy": "Copy link",
-      "open": "Open",
-      "delete": "Delete",
-      "deleteFailed": "Failed to delete document",
-      "fetchError": "Failed to load documents",
-      "tableFile": "File",
-      "tablePath": "Path",
-      "tableType": "Type",
-      "typeLabel": "Type",
-      "tableSize": "Size",
-      "tableActions": "Actions",
-      "uploadErrorTooLarge": "File too large. Your plan's per-file limit is {maxSize}.",
-      "uploadErrorDailyLimit": "Daily limit reached ({limit} uploads/day).",
-      "uploadErrorStorageLimit": "Storage limit reached.",
-      "uploadErrorGeneric": "Upload failed. Please try again."
-    },
-    "uploadSize": "{size} file size",
-    "dailyUploadsLimit": "{limit} uploads/day",
-    "dailyUploadsUnlimited": "Unlimited uploads",
-    "monthly": "month",
-    "yearly": "year",
-    "bestValue": "Best Value",
-    "upgrade": {
-      "title": "Upgrade Your Plan",
-      "description": "Upgrade for higher daily limits, larger files, and premium features. Unlimited daily uploads on yearly Premium.",
-      "button": "Upgrade Now"
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
     "settings": {
       "title": "Settings",
       "profile": {
         "title": "Profile",
-        "description": "Manage your profile information",
-        "name": {
-          "title": "Name",
-          "description": "Update your display name",
-          "placeholder": "Enter your name",
-          "hint": "This is the name that will be displayed on your profile",
-          "minLength": "Name must be at least 3 characters",
-          "maxLength": "Name must be at most 30 characters",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "save": "Save",
-          "saving": "Saving..."
-        },
+        "description": "Manage your account information",
         "avatar": {
           "title": "Avatar",
-          "description": "Update your profile picture",
-          "uploadAvatar": "Upload image",
-          "unavailable": "Upload unavailable",
-          "disabledHint": "Avatar upload requires cloud storage to be enabled for this project.",
-          "recommendation": "PNG, JPG or WebP. Max size follows server limits."
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
         }
       },
       "billing": {
         "title": "Billing",
-        "description": "Manage your billing and subscription",
-        "billingPagePlanTitle": "Current plan",
-        "billingPageStorageTitle": "Storage usage",
-        "currentPlan": {
-          "title": "Your plan & storage on Photo To URL",
-          "description": "Upgrade for higher daily limits, larger files, and premium features. Unlimited daily uploads on yearly Premium."
-        },
-        "loadError": "Could not load billing data.",
-        "retry": "Retry",
-        "planNames": {
-          "free": "Free",
-          "premium": "Premium",
-          "pro": "Pro"
-        },
+        "description": "Manage your subscription and billing details",
         "status": {
           "active": "Active",
-          "expired": "Expired"
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
         },
-        "storageUsed": "Storage used",
-        "freePlanMessage": "Higher upload limits",
-        "inactivePlanMessage": "Benefits have expired",
-        "expiredStorageLimitHint": "After expiry, storage is limited to 100MB",
-        "paidPlanMessage": "Benefits are active",
-        "backToWorkbench": "Back to dashboard",
-        "upgradeHint": "More storage space",
-        "upgradeToPlan": "Upgrade plan",
-        "featureAdvancedEditing": "Advanced editing tools",
-        "upgradeNotReady": {
-          "title": "Coming Soon",
-          "description": "Stay tuned for more services!",
-          "confirm": "Got it",
-          "cancel": "Close"
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
         },
-        "storage": {
-          "title": "Faster CDN acceleration",
-          "description": "Track your storage consumption",
-          "upgradeStorage": "Upgrade storage"
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
         }
       },
       "security": {
         "title": "Security",
-        "description": "Manage your account security",
+        "description": "Manage your security settings",
         "updatePassword": {
-          "title": "Password",
-          "description": "Change the password for your email login",
-          "currentPassword": "Current password",
-          "newPassword": "New password",
-          "confirmPassword": "Confirm new password",
-          "currentRequired": "Enter your current password",
-          "newMinLength": "At least 8 characters",
-          "confirmRequired": "Please confirm your new password",
-          "passwordMismatch": "Passwords do not match",
-          "hint": "Use a strong password you do not reuse elsewhere.",
-          "save": "Update password",
-          "saving": "Saving…",
-          "success": "Password updated",
-          "fail": "Could not update password",
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
           "showPassword": "Show password",
-          "hidePassword": "Hide password"
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
         },
         "resetPassword": {
-          "title": "Set a password",
-          "description": "You signed in with Google. Add an email password for backup sign-in.",
-          "info": "We'll send a password reset link to your account email.",
-          "button": "Send reset link",
-          "sending": "Sending…",
-          "sent": "Check your inbox for the reset link.",
-          "disabled": "Password reset emails are not configured on this server yet.",
-          "fail": "Request failed. Try again later."
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
         },
         "deleteAccount": {
-          "title": "Delete account",
-          "description": "Permanently remove your account and associated data.",
-          "warning": "This cannot be undone. Make sure you have saved anything you need.",
-          "button": "Delete my account",
-          "confirmTitle": "Delete account?",
-          "confirmDescription": "Your account will be permanently deleted.",
-          "cancel": "Cancel",
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
           "confirm": "Delete",
-          "deleting": "Deleting…",
-          "success": "Account deleted",
-          "fail": "Could not delete account"
-        }
-      },
-      "notification": {
-        "title": "Notifications",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Email updates",
-          "description": "Product news and tips (optional)",
-          "label": "Subscribe to newsletter",
-          "disabledHint": "Newsletter is not enabled for this site yet.",
-          "hint": "When enabled, you can opt in or out here."
-        },
-        "productPreview": {
-          "title": "Product Preview",
-          "description": "Hero image used across share cards and landing pages.",
-          "announcement": {
-            "line1": "We are continuously shipping more powerful features and higher-value membership benefits.",
-            "line2": "Newly released upgrade features will be prioritized for existing users, with no price changes.",
-            "line3": "Thank you for every user's trust and support. We will keep refining the product to deliver higher-value experiences.",
-            "line4": "We will continue optimizing the global user experience with faster, more reliable product services."
-          }
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
         }
       }
     },
-    "artFightWorkspaceBadge": "Artist account",
-    "artFightWorkspaceHint": "Artist tools enabled — copy URL, HTML, BBCode, and Markdown embed codes for every photo."
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Art Fight Profile Card Hosting | URL & Embed Codes",
-      "description": "Upload Team Tragedy, Comedy, or Mystery profile cards. Get a direct HTTPS link plus HTML/BBCode embed for Art Fight, Discord, and social posts.",
-      "keywords": "Art Fight profile card,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
     },
-    "footerLink": "Art Fight Hosting",
-    "artistAccount": {
-      "badge": "Artist account",
-      "title": "Register dedicated artist account",
-      "lead": "Create a free artist account to save profile cards in your Dashboard and use professional embed tools built for Art Fight — copy URL, HTML, BBCode, and Markdown for every upload.",
-      "toolEmbedTitle": "Embed tools",
-      "toolEmbedDesc": "One-click copy for Art Fight profiles, Discord, forums, and social posts.",
-      "toolDashboardTitle": "Artist Dashboard",
-      "toolDashboardDesc": "Every card stays in your account — search, preview, and copy links again anytime.",
-      "toolBatchTitle": "Batch upload (Pro)",
-      "toolBatchDesc": "Upload many profile cards at once when you upgrade — built for artists with multiple OCs.",
-      "registerCta": "Create artist account",
-      "footnote": "Check \"Dedicated artist account\" when you sign up, or register from this page — we pre-select it for you."
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
     },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "For digital artists & OC creators",
-      "title": "Profile Card & Ref Sheet Hosting for Art Fight Artists",
-      "subtitle": "Upload your Team Tragedy, Comedy, or Mystery profile card — get a stable image URL plus HTML and BBCode embed codes for Art Fight profiles, Discord, and your \"ready to fight\" social posts.",
-      "artistAccountLine": "Register a dedicated artist account for professional embed tools in your Dashboard.",
-      "cta": "Drop your profile card below → copy link → paste anywhere you declare your team",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Profile hosting",
-      "tabArtist": "Artist account",
-      "tabSupport": "Artist support",
-      "tabsAriaLabel": "Art Fight hero highlights",
-      "trustLine": "Free quick upload · URL & embed codes · Artist Dashboard",
-      "uploadCta": "Upload a card",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Paste-ready embed codes",
-      "panelIntroDesc": "Upload a profile card once, then copy the direct link or forum-ready HTML and BBCode for Art Fight and Discord.",
-      "panelArtistTitle": "Artist account tools",
-      "panelSupportTitle": "Dedicated artist support",
-      "panelSupportDesc": "Uploads, embeds, accounts, and plans — real humans, not a generic ticket queue."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Same tool for every Art Fight team",
-      "lead": "Whether you landed on Tragedy, Comedy, or Mystery, you still need one thing after finishing your card: a fast, stable image link to share.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Blue-toned profile cards and ref sheets — host the full card image and paste the link on your Art Fight profile or Twitter/X post.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Orange and warm-toned character cards — perfect for Discord announcements and profile embeds when Art Fight is in full swing.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Purple-themed cards for the third faction — same upload flow, same embed codes, ready whenever you need to share.",
-      "footnote": "All three teams share the same workflow: upload → copy URL or embed → post your card publicly."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Where artists paste the link",
-      "lead": "Art Fight is social. Your hosted link travels with every profile update and every \"I'm on this team\" post.",
-      "profileTitle": "Art Fight profile",
-      "profileDesc": "Paste the direct URL or HTML embed into your official Art Fight character profile so teammates can view your card.",
-      "socialTitle": "Twitter / X & social posts",
-      "socialDesc": "Share your profile card when you declare your team — a clean HTTPS link loads fast in timelines and replies.",
-      "discordTitle": "Discord & artist servers",
-      "discordDesc": "Drop the URL or BBCode in Art Fight Discord channels, server intros, or attack-plan threads.",
-      "portfolioTitle": "Toyhouse & portfolio sites",
-      "portfolioDesc": "Use the same link on Toyhouse, Carrd, or forum signatures so your ref stays consistent everywhere."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Why Art Fight artists choose Photo To URL",
-      "fastTitle": "Built for busy Art Fight periods",
-      "fastDesc": "Upload whenever you need to post — get a CDN link in seconds during warmup, peak event, or any time of year.",
-      "linkTitle": "Profile-card friendly URLs",
-      "linkDesc": "Clean .png/.jpg links that Art Fight profiles, forums, and social posts accept without extra steps.",
-      "embedTitle": "HTML & BBCode for artists",
-      "embedDesc": "Copy embed snippets for profiles and forums — no hand-editing img tags during a busy fight season.",
-      "safeTitle": "Dashboard hosting after sign-in",
-      "safeDesc": "Registered users save profile cards to the Dashboard — copy links again, search files, and manage uploads from one place."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Artist account: host cards in your Dashboard",
-      "sectionLead": "Anonymous uploads work for a quick post. Register as an Art Fight artist to unlock a dedicated Dashboard with embed tools for every hosted card — or upgrade to Pro for batch upload and higher limits.",
-      "dashboardTitle": "Dashboard photo hosting",
-      "dashboardDesc": "After sign-in, every upload is saved to your Dashboard. Copy the same link anytime, open the image in a new tab, or download the original — all from one list.",
-      "batchTitle": "Batch upload (Pro)",
-      "batchDesc": "Upload many profile cards at once from the Dashboard — up to {monthlyMax} per batch on Pro, or {yearlyMax} on Premium yearly.",
-      "manageTitle": "Search & photo wall",
-      "manageDesc": "Find any hosted card by filename, switch between table and photo-wall views, and delete files you no longer need.",
-      "proTitle": "Higher limits & larger files",
-      "proDesc": "Everything in Free, plus Dashboard batch upload ({monthlyMax}–{yearlyMax} files), higher daily limits, larger uploads, and more storage.",
-      "anonymousLabel": "Anonymous",
-      "anonymousDesc": "Quick link for one post. Not saved to your account; may be cleaned up at any time.",
-      "freeLabel": "Free account",
-      "freeDesc": "Cards saved to your Dashboard. Copy links again, search, and manage until you delete them or hit storage limits.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Create free account",
-      "loginCta": "Sign in",
-      "dashboardCta": "Open Dashboard",
-      "proCta": "View Pro plans",
-      "ctaPanelTitle": "Ready to host your cards?",
-      "footnote": "Free accounts upload here and manage files in the Dashboard. Batch upload needs Pro or Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Upload your Art Fight profile card",
-      "sectionLead": "Ref sheet, team card, or full profile graphic — drag it here and copy the link for your next post.",
-      "dropzoneTitle": "Drop your profile card or ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP, or GIF — team cards, ref sheets, and character graphics welcome",
-      "dropzoneFootnote": "Free: 5 uploads/day without signup. Sign in for higher limits anytime.",
-      "defaultAlt": "Art Fight profile card",
-      "resultTitle": "Your card is ready — share it",
-      "resultHint": "Copy the URL for Art Fight profiles, or HTML/BBCode for forums and Discord.",
-      "open": "Open image",
-      "reset": "Upload another card",
-      "errorBadType": "Please upload an image file (PNG, JPG, WEBP, or GIF).",
-      "errorGeneric": "Upload failed. Please try again.",
-      "loginRequiredTitle": "Daily free limit reached",
-      "loginRequiredDescription": "Sign in to keep uploading profile cards and save them to your Dashboard, or come back tomorrow for more free uploads.",
-      "loginRequiredDetail": "Registered users get Dashboard hosting: every card stays in your account, you can copy links again anytime, search by filename, and manage uploads from one place.",
-      "retentionAnonymousTitle": "Anonymous link — not recommended for important cards",
-      "retentionAnonymousBody": "Anonymous uploads are for quick sharing only. The link works now but is not saved to your account. Files may be compressed, CDN delivery is slower, and links are cleaned periodically — sign up free for embed codes and reliable hosting.",
-      "retentionAnonymousSignUp": "Create free account",
-      "retentionAnonymousPro": "View Pro plans",
-      "retentionFreeTitle": "This link is saved to your account",
-      "retentionFreeBody": "You can copy it again anytime from your Dashboard. Free accounts include daily upload limits and storage caps — enough for quick cards, but not unlimited.",
-      "retentionFreeDashboard": "Open Dashboard",
-      "retentionFreeUpgrade": "Upgrade for more storage",
-      "retentionProTitle": "Your profile card is hosted on your Pro plan",
-      "retentionProBody": "Higher upload limits, more storage, and reliable links for every Art Fight — Tragedy, Comedy, or Mystery.",
-      "retentionProDashboard": "Open Dashboard",
-      "resultHintAnonymous": "Anonymous upload — direct link only. Register to unlock HTML, BBCode, and Markdown embed codes.",
-      "retentionAnonymousIntro": "This direct link works for a quick share, but anonymous hosting has serious limits:",
-      "retentionAnonymousLimit1": "Not tied to your account — less secure; anyone with the link can access the image",
-      "retentionAnonymousLimit2": "Slower CDN — anonymous uploads do not get priority acceleration",
-      "retentionAnonymousLimit3": "May be compressed — original image quality is not guaranteed",
-      "retentionAnonymousLimit4": "Short-lived — anonymous files are cleaned periodically; the link may stop working at any time",
-      "retentionAnonymousLimit5": "Embed codes locked — HTML, BBCode, and Markdown require a free account",
-      "retentionAnonymousCta": "Create a free account to save cards to your Dashboard, unlock embed codes, faster CDN delivery, and more reliable links."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Alt text (for HTML & Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Copy code",
-      "copied": "Copied",
-      "lockedTabTitle": "Register to unlock embed codes",
-      "lockedTabDescription": "HTML, BBCode, and Markdown are available after sign-up. Free accounts include Dashboard hosting and one-click embed copy for every card.",
-      "lockedTabCta": "Create free account"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "From profile card to public post",
-      "lead": "The workflow every Art Fight artist follows after finishing their card.",
-      "schemaName": "How to host an Art Fight profile card with embed code",
-      "schemaDescription": "Upload an Art Fight team profile card to Photo To URL and paste the link on your profile or social post.",
-      "step1Title": "Upload your team card",
-      "step1Desc": "Drop your Tragedy, Comedy, or Mystery profile card or ref sheet. We return a direct link and embed codes instantly.",
-      "step2Title": "Copy URL or embed code",
-      "step2Desc": "Use the URL tab for Art Fight profiles, or HTML/BBCode for Discord, forums, and portfolio sites.",
-      "step3Title": "Post & declare your team",
-      "step3Desc": "Paste the link on Art Fight, Twitter/X, or Discord so other artists can see your card and find you during the event."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "Art Fight artist FAQ",
-      "lead": "Questions from artists uploading Team Tragedy, Comedy, and Mystery cards.",
-      "warningTitle": "Upload responsibly",
-      "warningBody": "Only host artwork you created or have clear rights to share. Do not upload infringing, illegal, or prohibited content. You are responsible for every file you upload.",
-      "warningTermsLink": "Terms of Service",
-      "warningPrivacyLink": "Privacy Policy",
-      "q1Question": "Is this for profile cards or ref sheets?",
-      "q1Answer": "Both. Upload your full Art Fight team profile card, character ref sheet, or any graphic you need to hotlink for the event.",
-      "q2Question": "Does it work for all three teams?",
-      "q2Answer": "Yes. Team Tragedy, Team Comedy, and Team Mystery cards all use the same upload — we host the image and give you a shareable link.",
-      "q3Question": "Do I need an account to upload?",
-      "q3Answer": "No for quick uploads. Anonymous users get 5 free uploads per day. Sign in to save cards in your Dashboard — copy links again, search files, and manage uploads. Pro adds batch upload from the Dashboard (up to 20–50 cards at once) plus higher limits.",
-      "q8Question": "Can I batch-upload many profile cards?",
-      "q8Answer": "Yes, on a paid plan. Open your Dashboard, use Batch upload, and select multiple PNG/JPG/WEBP/GIF files at once — up to 20 per batch on Pro monthly, or 50 on Premium yearly. Free accounts can upload one card at a time on this page or in the Dashboard.",
-      "q4Question": "Will my card link work on Discord and Twitter?",
-      "q4Answer": "Yes. The direct HTTPS URL works in social posts. Use BBCode for Discord-friendly markup where supported.",
-      "q5Question": "Will my link stay available long term?",
-      "q5Answer": "It depends how you uploaded. Anonymous links are for quick use only — we periodically clean anonymous uploads, and the link may break at any time. Registered users keep files in their Dashboard until they delete them or hit storage limits. Pro is the best option if you need profile cards to stay online reliably over time.",
-      "q6Question": "Can I upload any image? What about copyright?",
-      "q6Answer": "Only upload images you own or are authorized to host and share — such as your own OCs, commissions you paid for with hosting rights, or work you created. Do not upload another artist's ref sheets, official Art Fight assets you did not make, celebrity photos, brand logos, or other copyrighted material without permission. Uploading infringing content is your responsibility.",
-      "q7Question": "What content is strictly prohibited?",
-      "q7Answer": "Never upload illegal content; sexually explicit or exploitative material (including anything involving minors); hate speech, harassment, or violence; malware or scams; or anything that violates copyright, trademark, or privacy rights. We may remove files and suspend access without notice when we reasonably believe content violates our Terms or the law."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Artist support — we're here to help",
-      "panelVisualTag": "Reply in 1–2 days",
-      "panelVisualQuestion": "BBCode embed not working?",
-      "panelVisualReply": "Got it — we'll help you sort it out.",
-      "topicEmbed": "Embeds & links",
-      "topicAccount": "Artist account",
-      "topicPlan": "Plans & storage",
-      "topicFeedback": "Ideas & feedback",
-      "contactHint": "Reach out anytime — no queue.",
-      "contactCta": "Contact us",
-      "emailCta": "Email us"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Hosting many OCs? Batch upload from your Dashboard",
-      "description": "Pro artists upload dozens of profile cards in one go, keep every link in the Dashboard, and enjoy higher daily limits and storage for the full roster.",
-      "cta": "See artist-friendly Pro plans"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

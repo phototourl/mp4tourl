@@ -15,6 +15,9 @@ interface HeaderSectionProps {
   children?: React.ReactNode;
 }
 
+/**
+ * different pages may use this component as different heading style for SEO friendly
+ */
 export function HeaderSection({
   id,
   title,

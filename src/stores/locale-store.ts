@@ -1,12 +1,21 @@
-'use client';
+import type { Locale } from 'next-intl';
+import { create } from 'zustand';
 
-// Module-level store (simple singleton pattern without external deps)
-let currentLocaleValue: string = 'en';
-
-export function getCurrentLocale(): string {
-  return currentLocaleValue;
+interface LocaleState {
+  currentLocale: Locale;
+  setCurrentLocale: (locale: Locale) => void;
 }
 
-export function setCurrentLocale(locale: string): void {
-  currentLocaleValue = locale;
-}
+/**
+ * Zustand create function
+ * create lets you create a React Hook with API utilities attached.
+ *
+ * https://zustand.docs.pmnd.rs/apis/create
+ */
+export const useLocaleStore = create<LocaleState>((set) => ({
+  currentLocale: '', // don't change, it will affect the language detection switch judgment
+  setCurrentLocale: (locale) =>
+    set((state) => ({
+      currentLocale: locale,
+    })),
+}));

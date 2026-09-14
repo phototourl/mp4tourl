@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Larawan sa URL",
-    "logout": "Lumabas",
-    "logoutFailed": "Nabigo ang paglabas",
-    "switchLanguage": "Palitan ang wika",
-    "tagline": "Gawing malinis at mababahaging link ang iyong mga larawan sa loob ng ilang segundo",
-    "header": {
-      "home": "Tahanan",
-      "blog": "Blog",
-      "subtitle": "Gawing mga link ang iyong mga imahe",
-      "prompt": "I-drop, i-paste, o i-upload — kumuha ng link agad-agad",
-      "circleCrop": "Gupit na Bilog",
-      "circleCropNav": "Bilog na gupit",
-      "roundedCorners": "Bilugang sulok",
-      "removeBackground": "Alisin ang Likuran ng Larawan",
-      "removeBackgroundNav": "Alisin ang Likuran",
-      "pricingNav": "Presyo",
-      "comingSoon": "Malapit nang dumating.",
-      "history": "Kasaysayan ng mga upload",
-      "login": "Pumasok",
-      "signUp": "Magparehistro",
-      "signOut": "Lumabas",
-      "dashboard": "Panel",
-      "settings": "Mga Setting",
-      "tool": "Mga tool",
-      "pdfToUrlNav": "PDF sa URL",
-      "fileToUrlNav": "File sa URL",
-      "artFightNav": "Mga profile card"
-    },
-    "history": {
-      "drawerTitle": "Kasaysayan ng mga upload",
-      "hint": "Ipinapakita ang mga upload sa nakaraang linggo.",
-      "close": "Isara",
-      "empty": "Wala pang mga upload.",
-      "copy": "Kopyahin ang link",
-      "copied": "Nakopya na",
-      "open": "Buksan sa bagong tab"
-    },
-    "languageSelect": {
-      "title": "Piliin ang inyong rehiyon",
-      "subtitle": "Ang pagpili ng rehiyon ay magbabago ng wika at nilalaman.",
-      "close": "Isara"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Gawing malinis at mababahaging link ang iyong mga larawan.",
-        "line2": "Mabilis, simple, at maaasahan."
-      },
-      "partners": "Mga Partner",
-      "linksTitle": "Mga Mapagkukunan",
-      "productsTitle": "Mga Produkto",
-      "nav": {
-        "home": "Tahanan",
-        "blog": "Blog",
-        "pricing": "Presyo",
-        "docs": "Mga Dokumento",
-        "status": "Katayuan",
-        "about": "Tungkol sa Amin",
-        "contact": "Makipag-ugnayan"
-      },
-      "legal": {
-        "title": "Mga Legal",
-        "privacy": "Pribasidad",
-        "terms": "Mga Tuntunin",
-        "cookie": "Patakaran sa Cookie"
-      },
-      "copyright": "© 2025 Photo To URL. Lahat ng karapatan ay rezebado.",
-      "products": {
-        "editStamp": "Editor ng selyo"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Libre",
-      "cdn": "Mga link ng CDN",
-      "nosignup": "Walang pagpaparehistro"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Libre",
-      "title2": "Larawan sa URL",
-      "subtitle": "I-upload ang larawan → kumuha ng link → i-paste kahit saan",
-      "upload": "I-upload ang Imahe",
-      "bullet": {
-        "fast": "Mabilis na pagbabahagi",
-        "direct": "Direktang mga link ng larawan",
-        "nosignup": "Hindi kailangan ng pagpaparehistro",
-        "paste": "I-paste mula sa clipboard"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Pumasok para magpatuloy",
-      "description": "Naabot mo na ang libreng limit sa pag-upload. Pumasok para i-save ang history at pamahalaan ang mga file. Mas mataas na limit sa Pro plans.",
-      "benefits": "Bakit magparehistro?",
-      "benefit1": "Buong kasaysayan ng upload - maayos, tama, at laging maa-access",
-      "benefit2": "Pag-access sa lahat ng premium na tool sa pag-edit",
-      "benefit3": "Cloud storage na may upload history",
-      "login": "Pumasok / Magparehistro",
-      "later": "Mamaya"
-    },
-    "upgradePrompt": {
-      "title": "Naabot na ang arawang limit",
-      "description": "Nagamit mo na ang lahat ng upload mo para sa araw na ito. Bumalik bukas! Mas marami pang premium na serbisyo ang paparating.",
-      "comingSoon": "Abangan ang iba pang serbisyo",
-      "goDashboard": "Tingnan",
-      "later": "Mamaya"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Awtomatikong demo",
-      "idleTitle": "I-drag at i-drop ang iyong larawan",
-      "idleSubtitle": "Tingnan ang daloy: upload → link → kopya.",
-      "processing": "Inaayos at ina-upload...",
-      "doneTitle": "Handa nang ibahagi",
-      "doneSubtitle": "Handa na ang iyong link para sa agarang pagbabahagi.",
-      "thanksForWatching": "Salamat sa panonood"
-    },
-    "upload": {
-      "title": "I-drop ang larawan o i-click para pumili",
-      "hint": "JPG, PNG, WEBP, GIF hanggang 2MB (libre 10 upload/araw). I-drag, i-click, o i-paste ang screenshot.",
-      "orDrop": "o i-drop ang file",
-      "samplesTitle": "Walang larawan? Subukan ang isa sa mga ito:",
-      "policy": "Sa pag-upload ng imahe, sumasang-ayon ka sa aming <privacy>Patakaran sa Pribasidad</privacy> at <terms>Mga Tuntunin ng Paggamit</terms>.",
-      "clear": "Linisin"
-    },
-    "result": {
-      "error": "Bigo ang pag-upload. Pakisubukang muli.",
-      "fileTooLarge": "Masyadong malaki ang file. Pinapayagan ng plano mo ang hanggang {maxMb} MB bawat file.",
-      "dailyLimitReached": "Naabot na ang limitasyon sa pag-upload ({limit} bawat araw). Subukang muli bukas.",
-      "storageLimitReached": "Punong-puno na ang imbakan ({used} / {limit}). Mas maraming opsyon sa imbakan ay darating na!",
-      "generated": "Nagawa na link:",
-      "open": "Buksan sa bagong tab",
-      "placeholder": "Wala pang link. Mag-upload ng larawan para makagawa ng URL.",
-      "savePrompt": "I-save ang link sa paraang gusto mo",
-      "copy": "Kopyahin ang link",
-      "copied": "Nakopya na",
-      "saveHint": "I-save ang link na ito kung kailangan mo ito mamaya",
-      "saveHintLoggedIn": "Naka-save sa Panel",
-      "tryPrefix": "Subukan ang"
-    },
-    "benefits": {
-      "title": "Bakit pinipili ng mga tao ang Larawan sa URL",
-      "subtitle": "Bilis, malinis na link, at walang kailangang pagpaparehistro. — Libreng trial: 10 upload/araw, 2MB bawat file",
-      "items": {
-        "fast": {
-          "title": "Mabilis na pagbabahagi",
-          "desc": "Mag-upload at kumuha ng link sa loob ng ilang segundo nang walang dagdag na hakbang."
-        },
-        "direct": {
-          "title": "Direktang URL ng larawan",
-          "desc": "Malinis na mga link na gumagana sa HTML, Markdown, at mga chat app."
-        },
-        "nosignup": {
-          "title": "Walang kailangang pagpaparehistro",
-          "desc": "Libreng trial: 5 upload/araw, 2MB bawat file — hindi kailangan ng pagpaparehistro."
-        }
-      }
-    },
-    "how": {
-      "title": "Paano ito gumagana",
-      "step1": "1) Idagdag ang iyong larawan (i-drag, i-paste, o i-click para pumili ng file).",
-      "step2": "2) I-ho-host namin ito at ibibigay ang isang mababahaging link.",
-      "step3": "3) Kopyahin at ibahagi ang link sa mga dokumento, chat, prototype, at iba pa.",
-      "note": "Mabilis bumukas ang iyong link sa mga docs at chat — maaari mo ring i-download bilang .txt."
-    },
-    "process": {
-      "title": "Tatlong hakbang na daloy",
-      "subtitle": "Bawasan ang hirap, panatilihing malinaw ang CTA, tapusin sa ilang segundo.",
-      "steps": {
-        "1": {
-          "title": "I-drop o i-paste",
-          "desc": "I-drag ang file, i-paste mula sa clipboard, o mag-browse."
-        },
-        "2": {
-          "title": "Nagho-host kami at nagbibigay ng link",
-          "desc": "Agarang URL na may mga kontrol sa kopya/bukas/imbak."
-        },
-        "3": {
-          "title": "Gamitin kahit saan",
-          "desc": "Gamitin sa dokumento, chat, ticket, blog, o prototype."
-        }
-      }
-    },
-    "features": {
-      "title": "Mga Tampok",
-      "subtitle": "Linaw muna: mas kaunting abala, mas maraming pagbabahagi.",
-      "items": {
-        "cdn": {
-          "title": "Direktang mga link ng CDN",
-          "desc": "Malinis at madaling hulaang mga URL na handa para sa Markdown at HTML."
-        },
-        "save": {
-          "title": "Kopyahin at I-save",
-          "desc": "Kopyahin, buksan, o i-save bilang .txt file sa isang pindot."
-        },
-        "clipboard": {
-          "title": "Madaling i-paste mula clipboard",
-          "desc": "I-paste ang mga screenshot nang hindi na naghahanap ng mga file."
-        },
-        "errors": {
-          "title": "Ligtas at Pribado",
-          "desc": "Images are securely hosted with encryption in transit and at rest."
-        },
-        "nosignup": {
-          "title": "Walang pagpaparehistro",
-          "desc": "Libreng trial: 5 upload/araw, 2MB bawat file — hindi kailangan ng pagpaparehistro."
-        },
-        "r2": {
-          "title": "Mabilis na hosting",
-          "desc": "Ang mga link ay nagseserve sa pamamagitan ng mabilis na CDN para sa mabilis na pag-load at maaasahang access."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Mga pangkat na nakakatipid ng oras gamit ang Larawan sa URL",
-      "subtitle": "Patunay mula sa paggamit para mabawasan ang panganib at mapabilis ang pagtanggap.",
-      "items": {
-        "ops": {
-          "name": "Operasyon ng produkto",
-          "quote": "Nagpa-paste kami ng mga screenshot sa mga ticket nang hindi sumisikip ang mga attachment. Nananatiling malinis ang mga link."
-        },
-        "content": {
-          "name": "Pinuno ng nilalaman",
-          "quote": "Ang mga handang-gamit na link para sa Markdown ay nagpapanatili ng aming mga dokumento na maayos at handang ilathala sa loob ng ilang minuto."
-        },
-        "support": {
-          "name": "Suporta",
-          "quote": "Ang malinaw na mga error at agarang URL ay nagpapadali sa paggabay sa mga customer sa chat."
-        }
-      }
-    },
-    "cta": {
-      "title": "Gawing link ang mga larawan sa ilang segundo",
-      "subtitle": "I-drop, i-paste, o mag-upload—kopyahin ang iyong link at ibahagi ito.",
-      "upload": "Mag-upload ngayon",
-      "paste": "I-paste ang screenshot"
-    },
-    "longform": {
-      "title": "Bakit nakakatulong ang Larawan sa URL sa iyong daloy ng trabaho",
-      "p1": "Ang Larawan sa URL ay ginawa para sa mga tagalikha, marketer, at pangkat na nangangailangan ng mabilis na paraan para gawing link ang mga larawan. Iwasan ang mabagal na media manager at laktawan ang pag-login. Ang mga link ay maayos at madaling i-paste sa mga chat app, dokumento, at ticket.",
-      "p2": "Simple lang ang karanasan: i-drop, i-paste, o mag-browse; kumuha ng link; magbahagi. Walang nakakaabalang ad. Magpokus sa nilalaman habang kami ang bahala sa pagho-host.",
-      "useCases": {
-        "title": "Mga praktikal na paggamit",
-        "items": {
-          "1": "Disenyo: Ibahagi ang mga UI mock at biswal na tala nang mabilis.",
-          "2": "Suporta: Mag-attach ng mga screenshot sa mga ticket nang maayos.",
-          "3": "Blog: I-embed ang mga larawan sa editor ng Markdown o HTML.",
-          "4": "Benta: Mag-drop ng mga walkthrough o patunay-ng-konsepto sa email.",
-          "5": "Inhinyeriya: Gawing magaan ang pagbabahagi ng mga error snapshot para sa review.",
-          "6": "Komunidad: I-paste ang mga link sa Discord o Slack nang walang kalat."
-        }
-      },
-      "flow": {
-        "title": "Paano gumagana ang daloy mula simula hanggang dulo",
-        "p1": "1) Pumili ng larawan: i-drag-and-drop, i-paste mula sa clipboard, o i-click para mag-browse. PNG, JPG, WEBP, GIF hanggang 2MB sa libreng plano (10 upload/araw). 2) Nag-upload kami at nagbibigay ng direktang link na may copy, open, at save (.txt). 3) Gamitin ang link sa blogs, docs, tickets, chat, prototypes, at iba pa.",
-        "p2": "Ang bawat hakbang ay naka-tune para sa kalinawan: nakikitang status, friendly errors, at mga button na nagko-confirm ng mga aksyon. Kapag naka-enable ang CDN, ang mga link ay nagseserve mula sa CDN domain; ang iyong mga larawan ay ligtas na naka-store sa our hosting infrastructure."
-      },
-      "best": {
-        "title": "Mga pinakamainam na praktis para sa mas malinis na links",
-        "items": {
-          "1": "Panatilihing meaningful ang mga filename bago mag-upload; nananatili silang bahagi ng URL at nakakatulong sa future search.",
-          "2": "Gumamit ng WEBP o optimized JPG/PNG para sa mas magaan na payloads kung inaasahan mong mabigat ang sharing.",
-          "3": "Kopyahin ang link diretso pagkatapos ng generation para maiwasan ang stale clipboard entries.",
-          "6": "I-save bilang .txt para sa plain text links na handa nang kopyahin at gamitin."
-        }
-      },
-      "roadmap": {
-        "title": "Mga tampok na bahagi ng roadmap",
-        "p1": "Malalim naming isasama ang our hosting infrastructure, na nagbibigay ng mas user-friendly na quotas at management capabilities, kasama ang optional team collaboration, access control, at per-link analytics. Nagpaplano kami na maglunsad ng mga feature tulad ng one-click delete, preset link styles, at organization-level storage buckets. Samantala, patuloy naming pinapabuti at pinapino ang mga sub-products: circle crop tool, rounded corners tool, at background removal tool, upang gawing mas maginhawa ang image processing."
-      },
-      "faq": {
-        "title": "Mga madalas itanong",
-        "items": {
-          "1": {
-            "q": "Libre ba ito?",
-            "a": "Oo — may libreng tier. Ang core na upload→link ay libre sa loob ng mga limit ng libreng plano (araw-araw na upload, kabuuang storage, laki ng file). Para paluwagin ang mga limit na ito, pumili ng bayad na plano: ang mga link ay ini-host sa CDN na may mas mataas na quota at mas malaking max na laki ng file."
-          },
-          "2": {
-            "q": "Anong mga format ang suportado?",
-            "a": "Kasalukuyang suportado ang PNG, JPG, WEBP at GIF sa loob ng kasalukuyang limit sa laki ng file. Maaaring magdagdag ng iba pang format ayon sa pangangailangan."
-          },
-          "3": {
-            "q": "Maaari ba akong mag-embed sa Markdown o HTML?",
-            "a": "Oo. Direktang kopyahin ang link o i-save sa isang click bilang .txt at gamitin kung saan kailangan — Markdown, HTML, dokumento o CMS."
-          },
-          "4": {
-            "q": "Pinapanatili ba ninyo ang aking mga file na public?",
-            "a": "Ang mga link ay maaaring ibahagi. Kapag naka-enable ang CDN, ang mga file ay inihahatid sa pamamagitan ng CDN domain. Kung pansamantalang hindi available ang storage, nagpapakita kami ng malinaw na mensahe ng maintenance."
-          },
-          "5": {
-            "q": "Magkakaroon ba ng accounts o teams?",
-            "a": "Oo. Una naming tinutuunan ang simple at maaasahang upload at pagbabahagi; pagkatapos unti-unting magdaragdag ng team spaces, access control, at pagsusuri ng paggamit."
-          },
-          "6": {
-            "q": "Maaari ba akong makakuha ng refund pagkatapos magbayad?",
-            "a": "Karaniwan ay hindi kami nag-aalok ng refund habang available pa ang serbisyo para sa normal na paggamit. Kung hindi mo magamit ang serbisyo sa panahon ng bayad dahil sa isyu sa amin, susuriin namin ito pagkatapos ng beripikasyon at kung kinakailangan ay magkakasundo sa susunod na hakbang kasama ka."
-          },
-          "7": {
-            "q": "Paano kanselahin ang renewal?",
-            "a": "Awtomatikong sisingilin ang renewal sa card na pinahintulutan mo. Upang itigil ang susunod na singil, kanselahin ang auto-debit o recurring billing sa card issuer (app, online banking, o customer service)."
-          },
-          "8": {
-            "q": "Gaano katagal ko pa magagamit ang serbisyo pagkatapos kanselahin?",
-            "a": "Karaniwan ay puwede kang magpatuloy hanggang sa katapusan ng nabayarang panahon. Pagkatapos ay walang bagong singil at magtatapos ang benepisyo kasabay ng panahong iyon."
-          }
-        },
-        "contactNote": "Para sa itaas at iba pang tanong, gamitin ang pahinang «Makipag-ugnayan sa amin» sa site na ito o mag-email sa <email>support@phototourl.com</email>. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho."
-      },
-      "about": {
-        "title": "Tungkol sa Photo To URL",
-        "p1": "Ang PhotoToURL ay libreng image-to-URL converter at image link generator na tumutulong sa iyo na mag-upload ng mga larawan at agad na gumawa ng mga nai-share na image link. Madaling i-convert ang JPG, PNG, WEBP, at iba pang format sa direktang image URL para sa mabilis na online sharing.",
-        "p2": "Kailangan mo man ng mabilis na photo to URL o libreng image hosting na may CDN, ginagawang simple at reliable ng PhotoToURL ang proseso. I-upload ang iyong larawan at makakuha ng direktang link sa ilang segundo. Libreng plano: 10 upload/araw, 2MB bawat file — tingnan ang Presyo para sa mas mataas na limitasyon."
-      }
-    },
-    "selectRegion": {
-      "title": "Pumili ng rehiyon",
-      "subtitle": "Pumili ng iyong gustong wika at rehiyon"
-    }
-  },
-  "seo": {
-    "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
-    "home": {
-      "title": "Larawan sa URL Converter | Gawing shareable links ang mga larawan",
-      "description": "Libreng pagho-host ng larawan: i-convert ang mga larawan sa nai-share na URL. JPG, PNG, WEBP, GIF hanggang 2MB, 10 upload/araw sa libreng plano. Paste mula clipboard, mabilis na CDN."
-    }
-  },
-  "images": {
-    "previewAlt": "Paunang tanaw ng na-upload na larawan",
-    "animatingSampleAlt": "Halimbawang larawan na ginamit sa demo ng upload",
-    "sampleThumbAlt": "Halimbawang larawan para sa upload",
-    "useSampleAria": "Gamitin ang halimbawang larawang ito",
-    "howIllustrationAlt": "Larawang paliwanag kung paano gumagana ang Larawan sa URL",
-    "heroDropTitle": "I-drag ang larawan dito",
-    "heroDropSubtitle": "Aayusin at iho-host namin ito, pagkatapos ay magbibigay kami ng malinis na link.",
-    "heroDropBadge": "I-drag o i-click (JPG/PNG, hanggang 2MB)",
-    "logoAlt": "Logo ng Larawan sa URL"
-  },
-  "circleCrop": {
-    "title": "Gupit na Bilog",
-    "description": "Libreng online na kasangkapan para sa pag-crop ng larawan sa bilog - perpekto para sa larawan sa profile.",
-    "upload": "I-upload ang Larawan",
-    "processing": "Pinoproseso...",
-    "download": "I-download ang Bilog na Larawan",
-    "errorSelectFile": "Mangyaring pumili ng file ng larawan.",
-    "errorUploadFirst": "Mangyaring mag-upload muna ng larawan.",
-    "page": {
-      "title": "Photo To Circle Crop - Libreng online na kasangkapan",
-      "description": "Gawing perpektong bilog ang iyong mga parihabang larawan agad-agad, walang kailangang pagpaparehistro.",
-      "sectionSubtitle": "I-crop ang kahit anong larawan sa perpektong bilog - mainam para sa larawan sa profile, avatar sa social media, at mga proyektong pangdisenyo."
-    },
-    "seo": {
-      "title": "Kasangkapan sa Bilog na Gupit | Libreng online na bilog na gupit ng larawan",
-      "description": "Libreng online na kasangkapan para sa pag-crop ng larawan sa bilog - perpekto para sa larawan sa profile, social media, at mga proyektong pangdisenyo.",
-      "keywords": "bilog na larawan crop, crop bilog na larawan, bilog crop tool, bilog crop online"
-    },
-    "selectRegion": {
-      "title": "Pumili ng rehiyon",
-      "subtitle": "Pumili ng iyong gustong wika at rehiyon"
-    }
-  },
-  "roundedCorners": {
-    "title": "Larawan na may bilugang sulok",
-    "description": "Libreng online na tool para sa bilugang sulok, madaling magdagdag ng bilugang sulok sa anumang larawan – perpekto para sa mga app icon, profile picture, at design projects.",
-    "upload": "Mag-upload ng larawan",
-    "download": "I-download",
-    "radiusLabel": "Radius (px)",
-    "scaleLabel": "Zoom",
-    "processing": "Pinoproseso...",
-    "errorUploadFirst": "Mangyaring mag-upload muna ng larawan.",
-    "errorSelectFile": "Mangyaring pumili ng image file.",
-    "page": {
-      "title": "Larawan na may bilugang sulok – Libreng online na tool",
-      "description": "Larawan na may bilugang sulok ay isang libreng online na kasangkapan para magdagdag ng bilugang sulok sa anumang larawan. Gumawa ng app-style icon, malambot na mga larawan para sa social media, o thumbnail na may naaayos na radius at zoom. Walang pagpaparehistro – upload, ayusin, i-download.",
-      "sectionSubtitle": "Magdagdag ng bilugang sulok sa kahit anong larawan - perpekto para sa app icon, social media, at thumbnail."
-    },
-    "seo": {
-      "title": "Kasangkapan sa Bilugang Sulok | Libreng online na kasangkapan",
-      "description": "Libreng tool para magdagdag ng bilugang sulok sa larawan – para sa app icons, profile pictures, at design projects.",
-      "keywords": "bilugang sulok, larawan bilugang sulok, bilugang sulok tool, bilugang sulok online"
-    },
-    "selectRegion": {
-      "title": "Piliin ang rehiyon",
-      "subtitle": "Piliin ang iyong wika at rehiyon"
-    }
-  },
-  "removeBackground": {
-    "title": "Alisin ang Likuran ng Larawan",
-    "description": "Libreng online na AI na kasangkapan sa pag-alis ng background, madaling alisin ang background mula sa anumang larawan - perpekto para sa larawan ng produkto, portrait, at mga proyektong pangdisenyo.",
-    "upload": "Mag-upload ng Larawan",
-    "download": "I-download",
-    "processing": "Pinoproseso...",
-    "processingModelLoading": "Naglo-load ng AI model, ang unang paggamit ay maaaring tumagal ng 10-30 segundo, mangyaring maghintay...",
-    "processingImage": "Pinoproseso ang larawan, mangyaring maghintay...",
-    "errorUploadFirst": "Mangyaring mag-upload ng larawan muna.",
-    "errorSelectFile": "Mangyaring pumili ng file ng larawan.",
-    "errorProcessing": "Nabigo ang pagproseso ng larawan. Mangyaring subukan muli.",
-    "errorTimeout": "Processing timeout, ang larawan ay maaaring masyadong malaki o mabagal ang network, mangyaring subukan ang mas maliit na larawan o subukan muli mamaya.",
-    "errorMemory": "Hindi sapat ang memory, mangyaring subukan ang mas maliit na larawan.",
-    "errorGeneric": "Nabigo ang pagproseso: {error}. Mangyaring subukan muli o subukan ang ibang larawan.",
-    "errorFileTooLarge": "Ang image file ay masyadong malaki, mangyaring pumili ng larawan na mas maliit sa 10MB.",
-    "errorModelLoad": "Nabigo ang pag-load ng AI model library, mangyaring i-refresh ang page at subukan muli.",
-    "errorPageHidden": "Ang page ay na-switch, mangyaring mag-upload ng larawan muli para ma-process.",
-    "page": {
-      "title": "Larawan Alisin ang Background - Libreng Online AI Background Remover",
-      "description": "Larawan Alisin ang Background ay isang libreng online na AI na kasangkapan para sa pag-alis ng background mula sa anumang larawan. Lumikha ng transparent na PNG na larawan agad-agad gamit ang aming advanced na teknolohiya sa pag-alis ng background. Perpekto para sa larawan ng produkto, portrait, e-commerce, at mga proyektong pangdisenyo. Hindi kailangan ng pagpaparehistro - mag-upload, iproseso, at i-download sa loob ng ilang segundo.",
-      "sectionSubtitle": "AI-powered na pagtanggal ng background - gumawa ng transparent PNG mula sa kahit anong larawan sa ilang segundo."
-    },
-    "seo": {
-      "title": "Background Removal Tool | Libreng Online AI Background Remover",
-      "description": "Libreng online na AI na kasangkapan para sa pag-alis ng background mula sa anumang larawan - perpekto para sa larawan ng produkto, portrait, at mga proyektong pangdisenyo.",
-      "keywords": "alisin ang background, background remover, transparent background, ai background removal"
-    },
-    "selectRegion": {
-      "title": "Pumili ng Rehiyon",
-      "subtitle": "Piliin ang iyong preferred na wika at rehiyon"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF sa URL | PDF hosting at nababahaging HTTPS link",
-      "description": "Mag-upload ng mga PDF sa iyong account at makakuha ng matatag na HTTPS link — tingnan, i-download, o kopyahin ang link anumang oras mula sa dashboard ng account.",
-      "keywords": "pdf sa url,pdf hosting,ibahagi ang pdf,upload pdf,direktang link,link ng dokumento"
-    },
-    "tool": {
-      "heroTitle": "PDF sa URL",
-      "heroSubtitle": "Gawing nababahaging HTTPS link ang iyong mga PDF na nakatali sa iyong account. Pagkatapos ng bawat upload, buksan ang dashboard ng account para kopyahin ang link, i-preview, o i-download.",
-      "featureFastTitle": "Mabilis na upload",
-      "featureFastDesc": "I-drag at i-drop o pumili ng PDF — makukuha ang link sa loob ng ilang segundo, inihatid sa pamamagitan ng aming CDN.",
-      "featureHostingTitle": "Personal na hosting",
-      "featureHostingDesc": "Ang bawat file ay nasa iyong cloud storage at library ng dokumento — hindi ito anonymous na one-time hosting.",
-      "featureLinkTitle": "Matatag at nai-share na link",
-      "featureLinkDesc": "Bawat upload ay nagbibigay ng malinis na URL na pwedeng i-paste. Gumagana ang hanggang hindi mo tinatanggal ang file sa dashboard ng account.",
-      "featureDashboardTitle": "Lahat sa isang lugar",
-      "featureDashboardDesc": "Pagkatapos mag-login, buksan ang dashboard ng account para makita ang lahat ng PDF: kopyahin muli ang link, buksan sa bagong tab, o i-download ang source file.",
-      "dropzoneTitle": "I-drop ang iyong PDF dito",
-      "dropzoneHint": "PDF lamang",
-      "dropzoneFootnote": "Pagkatapos ng upload, maaari mong buksan anumang oras ang dashboard ng account para kopyahin ang link o i-download ang file.",
-      "browse": "Pumili ng file",
-      "selectedFileLabel": "Napiling file",
-      "removeSelectedFile": "Alisin ang file",
-      "uploadBtn": "I-upload at kunin ang link",
-      "uploading": "Nag-a-upload…",
-      "loginRequiredTitle": "Pumasok para mag-upload ng PDF",
-      "loginRequiredDescription": "Mangyaring mag-login muna. Ang hosting ay nakatali sa iyong account; pagkatapos ng upload makakopya ka ng mga link, mag-download, at pamahalaan ang lahat mula sa dashboard ng account.",
-      "loginRequiredDetail": "Pagkatapos mag-login, lumalabas ang bawat upload sa parehong lugar sa dashboard ng account: isang-click na kopya ng direktang link, buksan sa bagong tab, i-download ang mga orihinal, maghanap at mag-filter ayon sa uri kung kailangan, tanggalin o mag-upload muli — na protektado rin ang privacy ng iyong mga dokumento.",
-      "loginCta": "Pumasok",
-      "signUpCta": "Gumawa ng account",
-      "resultTitle": "Ang iyong PDF link",
-      "resultDashboardHint": "Para sa file na ito, maaari mong buksan anumang oras ang dashboard ng account: kopyahin ang URL, buksan sa bagong tab, o i-download ang PDF.",
-      "dashboardCta": "Buksan ang dashboard",
-      "copy": "Kopyahin ang link",
-      "copied": "Nakopya na",
-      "open": "Buksan sa bagong tab",
-      "reset": "Mag-upload ng isa pang file",
-      "errorUnauthorized": "Mangyaring mag-login bago mag-upload ng PDF.",
-      "errorBadType": "Mangyaring pumili ng PDF file.",
-      "howTitle": "Paano ito gumagana",
-      "step1Title": "1. Pumili ng PDF",
-      "step1Desc": "Pumili ng file sa iyong device o i-drag ito sa upload area.",
-      "step2Title": "2. I-upload sa iyong library",
-      "step2Desc": "Sine-save namin ang PDF sa iyong cloud storage at ipinapakita sa dashboard ng account, pagkatapos ay nagbabalik kami ng direktang HTTPS URL.",
-      "step3Title": "3. Ibahagi at bumalik mamaya",
-      "step3Desc": "Ibahagi ang link sa email o chat. Kung kailangan, buksan ang dashboard ng account para kopyahin muli ang parehong link, buksan ito, o i-download ang file."
-    },
-    "page": {
-      "sectionTitle": "Mga dokumento sa isang lugar",
-      "sectionLead": "Para sa mga nangangailangan ng tunay na PDF archive, hindi lang pansamantalang link — mag-upload minsan, panatilihin sa account, at bumalik kailanman.",
-      "bullet1": "Ang bawat na-upload na PDF ay lumalabas sa parehong listahan sa dashboard ng account para masubaybayan ang naibahagi mo.",
-      "bullet2": "Personal na hosting: mga file na nakatali sa iyong account, inihahatid sa HTTPS, at naka-archive sa iyong library.",
-      "bullet3": "Palaging available: kopyahin ang pampublikong link, buksan sa browser, o i-download ang orihinal na PDF.",
-      "bullet4": "Gumagana ang parehong URL hanggang umiiral ang file; kung tinanggal mo ito sa dashboard ng account, hindi na maghahatid ang link ng file na iyon.",
-      "footnote": "Tanggalin ang mga hindi na kailangang file sa dashboard ng account; pagkatapos ay hindi na gagana ang link."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "File sa URL | Mga dokumentong Office at HTTPS link",
-      "description": "Mag-upload ng mga PDF, Word, PowerPoint, o Excel file sa iyong account at makakuha ng matatag na HTTPS link — tingnan, i-download, o kopyahin ang link anumang oras mula sa dashboard ng account.",
-      "keywords": "file sa url,link ng dokumento,ibahagi ang office,docx pptx xlsx,hosting ng dokumento"
-    },
-    "tool": {
-      "heroTitle": "File sa URL",
-      "heroSubtitle": "Gawing nababahaging HTTPS link ang iyong mga dokumentong Office na nakatali sa iyong account. Sinusuportahan: PDF, Word, PowerPoint, at Excel.",
-      "featureFastTitle": "Mabilis na upload",
-      "featureFastDesc": "I-drag at i-drop o pumili ng suportadong file — makukuha ang link sa loob ng ilang segundo sa pamamagitan ng aming CDN.",
-      "featureHostingTitle": "Personal na hosting",
-      "featureHostingDesc": "Ang bawat upload ay napupunta sa iyong cloud storage at sa parehong personal na library tulad ng mga upload mula sa ibang pahina.",
-      "featureLinkTitle": "Matatag at nai-share na link",
-      "featureLinkDesc": "Bawat upload ay nagbibigay ng malinis na URL. Gumagana ang hanggang hindi mo tinatanggal ang file sa dashboard ng account.",
-      "featureDashboardTitle": "Lahat sa isang lugar",
-      "featureDashboardDesc": "Pagkatapos mag-login, buksan ang dashboard ng account para kopyahin muli ang link, buksan sa bagong tab, o mag-download.",
-      "dropzoneTitle": "I-drop ang iyong file dito",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "Pagkatapos ng upload, maaari mong buksan anumang oras ang dashboard ng account para kopyahin ang link o i-download ang file.",
-      "browse": "Pumili ng file",
-      "selectedFileLabel": "Napiling file",
-      "removeSelectedFile": "Alisin ang file",
-      "uploadBtn": "I-upload at kunin ang link",
-      "uploading": "Nag-a-upload…",
-      "loginRequiredTitle": "Pumasok para mag-upload ng mga file",
-      "loginRequiredDescription": "Mangyaring mag-login muna. Ang hosting ay nakatali sa iyong account; pagkatapos ng upload makakopya ka ng mga link, mag-download, at pamahalaan ang lahat mula sa dashboard ng account.",
-      "loginRequiredDetail": "Pagkatapos mag-login, lumalabas ang bawat upload sa parehong lugar sa dashboard ng account: isang-click na kopya ng direktang link, buksan sa bagong tab, i-download ang mga orihinal, maghanap at mag-filter ayon sa uri kung kailangan, tanggalin o mag-upload muli — na protektado rin ang privacy ng iyong mga dokumento.",
-      "loginCta": "Pumasok",
-      "signUpCta": "Gumawa ng account",
-      "resultTitle": "Ang iyong file link",
-      "resultDashboardHint": "Para sa file na ito, maaari mong buksan anumang oras ang dashboard ng account: kopyahin ang URL, buksan sa bagong tab, o i-download ang orihinal.",
-      "dashboardCta": "Buksan ang dashboard",
-      "copy": "Kopyahin ang link",
-      "copied": "Nakopya na",
-      "open": "Buksan sa bagong tab",
-      "reset": "Mag-upload ng isa pang file",
-      "errorUnauthorized": "Mangyaring mag-login bago mag-upload ng mga file.",
-      "errorBadType": "Mangyaring pumili ng PDF, Word, PowerPoint, o Excel file.",
-      "howTitle": "Paano ito gumagana",
-      "step1Title": "1. Pumili ng file",
-      "step1Desc": "Pumili ng suportadong dokumento sa iyong device o i-drag ito sa upload area.",
-      "step2Title": "2. I-upload sa iyong library",
-      "step2Desc": "Sine-save namin ang file sa iyong cloud storage at ipinapakita sa dashboard ng account, pagkatapos ay nagbabalik kami ng direktang HTTPS URL.",
-      "step3Title": "3. Ibahagi at bumalik mamaya",
-      "step3Desc": "Ibahagi ang link sa email o chat. Kung kailangan, buksan ang dashboard ng account para kopyahin muli ang parehong link, buksan ito, o i-download ang file."
-    },
-    "page": {
-      "sectionTitle": "Sa maikling salita",
-      "sectionLead": "Pumili ng file, i-upload, at kopyahin ang iyong link — kung kailangan, buksan ang dashboard ng account para kopyahin muli o i-download ang orihinal.",
-      "bullet1": "Mga suportadong format: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "I-drag at i-drop o mag-browse; pagkatapos ng matagumpay na upload, ipinapakita namin ang handang kopyahing HTTPS link.",
-      "bullet3": "I-paste ang link sa email, chat, o dokumento — bubuksan ito ng mga tatanggap sa browser.",
-      "bullet4": "Nananatili ang mga file sa iyong account; kung kailangan, buksan ang dashboard ng account para kopyahin muli ang parehong link o i-download ang orihinal.",
-      "bullet5": "PDF lamang? Gamitin din ang pahinang «PDF sa URL» para sa mas maikling proseso.",
-      "footnote": "Tanggalin sa dashboard ng account ang mga file na hindi mo na kailangan; pagkatapos ay hindi na gagana ang link."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Larawan sa URL",
-      "description": "Mga artikulo tungkol sa photo hosting, link sharing, at performance tips."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Pinakabagong mga artikulo, tutorial, at pananaw tungkol sa image hosting, CDN, link sharing, circle crop, rounded corners, at background removal.",
-      "stayTuned": "Abangan ang mga guide tungkol sa:",
-      "guides": {
-        "1": "Mga best practices para sa image to URL conversion",
-        "2": "Paano gamitin ang direct photo links sa blogs at docs",
-        "3": "Performance at caching para sa static assets"
-      },
-      "readMore": "Magbasa pa",
-      "min": "min",
-      "backToBlog": "Bumalik sa blog",
-      "minRead": "min na pagbabasa",
-      "author": "May-akda",
-      "viewMoreArticles": "Tingnan ang iba pang artikulo",
-      "tags": "Mga Tag:",
-      "about": {
-        "title": "Tungkol sa Larawan sa URL Team",
-        "subtitle": "Editorial Team",
-        "description": "Ginagawa at inaalagaan namin ang Larawan sa URL at sumusulat ng praktikal na mga guide para sa image optimization at web performance.",
-        "website": "Website",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Tingnan ang lahat ng post"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Paano I-convert ang Image sa URL: Isang Kumpletong Guide",
-        "description": "Matuto ng lahat ng kailangan mong malaman tungkol sa pag-convert ng mga larawan sa shareable na URLs. Ang comprehensive na guide na ito ay sumasaklaw sa mga method, best practices, at tips para sa image hosting at link sharing.",
-        "content": "# Paano I-convert ang Image sa URL: Isang Kumpletong Guide\n\nAng pag-convert ng mga larawan sa shareable na URLs ay naging isang mahalagang kasanayan sa digital na mundo ngayon. Maging ikaw ay isang blogger, developer, o content creator, ang pag-unawa kung paano baguhin ang iyong mga larawan sa direktang link ay maaaring makabuluhang mapabuti ang iyong workflow at kakayahan sa pagbabahagi ng nilalaman.\n\n## Bakit I-convert ang mga Larawan sa URL?\n\nBago tayo sumisid sa mga pamamaraan, unawain natin kung bakit kapaki-pakinabang ang pag-convert ng mga larawan sa URL:\n\n### 1. **Madaling Pagbabahagi**\nAng direktang URL ng mga larawan ay nagbibigay-daan sa iyo na magbahagi ng mga larawan agad-agad nang hindi nagda-download o muling nag-u-upload ng mga file. Kopyahin lamang ang URL at i-paste ito kahit saan - sa mga email, dokumento, o post sa social media.\n\n### 2. **Mas Mahusay na Pagganap**\nAng paggamit ng direktang link ng mga larawan ay binabawasan ang load sa iyong pangunahing server. Kapag ang mga larawan ay naka-host sa isang CDN (Content Delivery Network), mas mabilis silang mag-load para sa mga user sa buong mundo.\n\n### 3. **Kakayahang Umangkop**\nAng mga URL ng larawan ay maaaring i-embed sa HTML, Markdown, o gamitin sa mga API. Ang kakayahang umangkop na ito ay ginagawa silang perpekto para sa parehong mga developer at content creator.\n\n### 4. **Kahusayan sa Pag-iimbak**\nSa halip na mag-imbak ng mga larawan nang lokal, maaari mong gamitin ang mga solusyon sa cloud storage na nagbibigay ng direktang URL, na nakakatipid ng mahalagang espasyo sa server.\n\n## Mga Paraan upang I-convert ang mga Larawan sa URL\n\n### Paraan 1: Paggamit ng Serbisyo ng Larawan sa URL\n\nAng **Larawan sa URL** ay isang libreng, user-friendly na serbisyo na ginagawang walang kahirap-hirap ang pag-convert ng larawan sa URL:\n\n1. **Bisitahin ang website**: Mag-navigate sa Larawan sa URL\n2. **I-upload ang iyong larawan**: I-drag at i-drop ang iyong file ng larawan o i-click para mag-browse\n3. **Kunin ang iyong URL**: Kapag na-upload na, makakatanggap ka ng direktang link sa iyong larawan\n4. **Kopyahin at gamitin**: Kopyahin ang URL at gamitin ito kahit saan mo kailangan\n\n**Mga Pakinabang:**\n- ✅ Hindi kailangan ng rehistrasyon\n- ✅ Mabilis na upload at processing\n- ✅ Direktang CDN link para sa pinakamahusay na pagganap\n- ✅ Suporta para sa maraming format ng larawan (JPG, PNG, WEBP, GIF)\n- ✅ 10 upload/araw, 2MB bawat file\n\n### Paraan 2: Mga Serbisyo sa Cloud Storage\n\nAng mga sikat na serbisyo sa cloud storage ay nag-aalok ng image hosting na may direktang access sa URL:\n\n**Google Cloud Storage / AWS S3:**\n- Mag-upload ng mga larawan sa iyong bucket\n- Magtakda ng naaangkop na pahintulot\n- Mag-access sa mga larawan sa pamamagitan ng direktang URL\n- I-configure ang CDN para sa mas mahusay na pagganap\n\n**Mga Pakinabang:**\n- Buong kontrol sa iyong mga larawan\n- Mga solusyon sa storage na maaaring i-scale\n- Infrastruktura na propesyonal na antas\n\n### Paraan 3: Mga Platform sa Image Hosting\n\nAng mga dedikadong platform sa image hosting ay nagbibigay ng mga espesyalisadong serbisyo:\n\n- **Imgur**: Sikat para sa mabilis na pagbabahagi ng larawan\n- **Cloudinary**: Advanced na feature sa pagmamanipula ng larawan\n- **ImageKit**: Na-optimize para sa pagganap\n\n## Pinakamahusay na Praktis para sa mga URL ng Larawan\n\n### 1. **Pumili ng Tamang Format**\n\nAng iba't ibang format ng larawan ay nagsisilbi sa iba't ibang layunin:\n\n- **JPEG**: Pinakamahusay para sa mga litrato na may maraming kulay\n- **PNG**: Perpekto para sa mga larawan na may transparency o matalas na gilid\n- **WEBP**: Modernong format na nag-aalok ng mas mahusay na compression\n- **GIF**: Perpekto para sa mga animated na larawan\n\n### 2. **I-optimize ang Laki ng Larawan**\n\nBago i-convert sa URL, i-optimize ang iyong mga larawan:\n\n- I-compress ang mga larawan upang mabawasan ang laki ng file\n- Baguhin ang laki ng mga larawan sa naaangkop na sukat\n- Gumamit ng modernong format tulad ng WEBP kapag posible\n- Balansehin ang kalidad at laki ng file\n\n### 3. **Gumamit ng CDN para sa Mas Mahusay na Pagganap**\n\nAng Content Delivery Networks (CDN) ay nagdi-distribute ng iyong mga larawan sa maraming server sa buong mundo, na tinitiyak ang mabilis na loading time anuman ang lokasyon ng user.\n\n### 4. **Magpatupad ng Tamang Seguridad**\n\n- Gumamit ng HTTPS URL para sa ligtas na paghahatid ng larawan\n- Magtakda ng naaangkop na pahintulot sa access\n- Isaalang-alang ang watermarking para sa sensitibong nilalaman\n- Subaybayan ang paggamit upang maiwasan ang pag-abuso\n\n## Karaniwang Paggamit\n\n### Para sa mga Blogger\n\nAng mga blogger ay maaaring gumamit ng URL ng larawan upang:\n- I-embed ang mga larawan sa blog post nang hindi sila ina-host nang lokal\n- Mapabuti ang loading time ng pahina\n- Magbahagi ng mga larawan sa maraming platform\n- Mapanatili ang pare-parehong kalidad ng larawan\n\n### Para sa mga Developer\n\nAng mga developer ay nakikinabang sa URL ng larawan sa pamamagitan ng:\n- Pagbabawas ng load sa server\n- Pagpapasimple ng pamamahala ng larawan\n- Pagpapagana ng dynamic na pag-load ng larawan\n- Pag-integrate sa mga API at web service\n\n### Para sa E-commerce\n\nAng mga site ng e-commerce ay gumagamit ng URL ng larawan upang:\n- Mabisang ipakita ang mga larawan ng produkto\n- Pamahalaan ang malalaking katalogo ng larawan\n- I-optimize para sa mobile device\n- Mapabuti ang pagganap ng checkout page\n\n## Pag-troubleshoot ng Karaniwang Problema\n\n### Problema: Sirang Link ng Larawan\n\n**Solusyon:**\n- I-verify na tama at accessible ang URL\n- Suriin ang pahintulot at setting ng access ng larawan\n- Siguraduhing operational ang hosting service\n- I-validate na suportado ang format ng larawan\n\n### Problema: Mabagal na Loading Time\n\n**Solusyon:**\n- Gumamit ng CDN para sa paghahatid ng larawan\n- I-optimize ang laki ng file ng larawan\n- Pumili ng naaangkop na format ng larawan\n- Magpatupad ng lazy loading kung posible\n\n### Problema: Hindi Nagpapakita ang Larawan\n\n**Solusyon:**\n- Suriin ang setting ng CORS (Cross-Origin Resource Sharing)\n- I-verify na tumutugma ang protocol ng HTTPS/HTTP\n- Siguraduhing nakatakda ang tamang MIME type\n- Subukan ang accessibility ng URL mula sa iba't ibang lokasyon\n\n## Advanced na Tip\n\n### 1. **Batch Processing**\n\nPara sa maraming larawan, isaalang-alang:\n- Paggamit ng API para sa automated na upload\n- Pagpapatupad ng batch conversion script\n- Paggamit ng cloud storage API\n- Pag-setup ng automated workflow\n\n### 2. **Pagmamanipula ng Larawan**\n\nAng ilang serbisyo ay nag-aalok ng pagmamanipula ng larawan sa real-time:\n- Pagbabago ng laki ng larawan sa pamamagitan ng URL parameter\n- Paglalapat ng filter at effect\n- Awtomatikong pag-convert ng format\n- Pag-crop at pag-ikot ng larawan\n\n### 3. **Analytics at Monitoring**\n\nSubaybayan ang paggamit ng iyong mga larawan:\n- Subaybayan ang pagkonsumo ng bandwidth\n- Suriin ang mga sikat na larawan\n- Subaybayan ang pattern ng access\n- I-optimize batay sa data ng paggamit\n\n## Konklusyon\n\nAng pag-convert ng mga larawan sa URL ay isang tuwirang proseso na nag-aalok ng maraming benepisyo. Maging pipiliin mo ang isang simpleng serbisyo tulad ng Larawan sa URL o isang komprehensibong solusyon sa cloud storage, ang susi ay ang paghahanap ng paraan na pinakamahusay na umaangkop sa iyong pangangailangan.\n\nTandaan:\n- ✅ I-optimize ang mga larawan bago mag-upload\n- ✅ Pumili ng naaangkop na format\n- ✅ Gumamit ng CDN para sa mas mahusay na pagganap\n- ✅ Magpatupad ng tamang hakbang sa seguridad\n- ✅ Regular na subaybayan at i-optimize\n\nSa pagsunod sa mga alituntuning ito, magagawa mong mabisang i-convert at pamahalaan ang iyong mga larawan bilang URL, na mapapabuti ang parehong iyong workflow at pagganap ng iyong nilalaman.\n\n## Mga Kaugnay na Tool\n\n- [Larawan sa URL](/) - Libreng serbisyo sa pag-convert ng larawan sa URL\n- [Circle Crop Tool](/circle-crop) - Lumikha ng pabilog na larawan\n- [Rounded Corners Tool](/rounded-corners) - Magdagdag ng bilugang sulok sa mga larawan\n- [Remove Background Tool](/remove-background) - Alisin ang background ng larawan gamit ang AI\n\n---\n\n*Huling na-update: Disyembre 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Paano I-crop ang mga Larawan sa Bilog na Hugis - Kumpletong Guide",
-        "description": "I-transform ang anumang larawan sa isang perpektong bilog na imahe gamit ang aming libreng online na circle crop tool. Lumikha ng propesyonal na bilog na mga larawan para sa mga profile, social media, logo at marami pa sa loob lamang ng ilang segundo.",
-        "content": "# Paano I-crop ang mga Larawan sa Bilog na Hugis - Kumpletong Guide\n\nI-transform ang anumang larawan sa isang perpektong bilog na imahe gamit ang aming libreng online na circle crop tool. Lumikha ng propesyonal na bilog na mga larawan para sa mga profile, social media, logo at marami pa sa loob lamang ng ilang segundo.\n\n## Paano I-crop ang mga Larawan sa Bilog na Hugis\n\n### Hakbang 1: I-upload ang Iyong Larawan\nPumili ng anumang larawan mula sa iyong device na nais mong i-crop sa bilog na hugis. Ang aming tool ay sumusuporta sa mga format na JPG, PNG, WEBP at GIF. I-click lamang ang upload button o i-drag at i-drop ang iyong image file.\n\n### Hakbang 2: I-position ang Iyong Larawan\nI-adjust at i-center ang iyong larawan sa loob ng circular crop area. Gamitin ang zoom slider upang tumuon sa pinakamahalagang bahagi ng iyong larawan, at i-drag upang i-reposition para sa perpektong bilog na crop.\n\n### Hakbang 3: I-download ang Iyong Bilog na Larawan\nKapag nasiyahan ka na sa positioning, i-click ang \"Crop at Download\" upang makuha ang iyong perpektong bilog na larawan. Ang resulta ay magkakaroon ng transparent background, na ginagawa itong perpekto para sa paggamit kahit saan.\n\n## Popular na Paraan ng Paggamit ng Bilog na mga Larawan\n\n### Mga Larawan ng Profile\nI-crop ang mga larawan sa bilog na hugis para sa propesyonal na hitsura ng profile images sa social media platforms tulad ng Facebook, LinkedIn at Instagram. Ang mga circular avatar ay lumilikha ng moderno, makinis na hitsura.\n\n### Social Media Graphics\nLumikha ng bilog na mga larawan para sa Instagram stories, Facebook posts at Twitter profiles na naiiba sa karamihan. Ang mga bilog na larawan ay nagdaragdag ng visual interest at sumisira sa monotony ng square posts.\n\n### Bilog na Logo\nI-transform ang iyong logo o brand images sa perpektong bilog na mga hugis para sa consistent branding sa lahat ng platforms. Ang mga circular logo ay gumagana nang mahusay para sa app icons at social media branding.\n\n### Mga Larawan ng Testimonial\nIpakita ang mga testimonial ng customer o client gamit ang bilog na profile photos para sa malinis, propesyonal na hitsura. Ang mga bilog na larawan ay lumilikha ng visual consistency at ginagawang mas nakaka-engganyo ang iyong mga testimonial.\n\n### Mga Larawan ng Miyembro ng Team\nLumikha ng consistent na bilog na headshots para sa company websites, team pages at employee directories. Ang uniform na circular photos ay nagbibigay sa iyong team page ng cohesive, propesyonal na hitsura.\n\n## Mga Feature ng Aming Circle Crop Tool\n\n- **Libreng circle image cropper** - Gumawa ng bilog na mga hugis mula sa anumang larawan nang libre, walang nakatagong bayad\n- **High-resolution output** - I-download ang iyong bilog na mga larawan sa kanilang original na kalidad nang walang compression\n- **Walang signup na kailangan** - Magsimula ng circle cropping ng mga larawan agad, walang account creation na kailangan\n- **Pribado at ligtas** - Ang iyong mga larawan ay hindi kailanman umaalis sa iyong browser, tinitiyak ang kumpletong privacy\n- **Madaling gamitin na interface** - Simple, intuitive design na ginagawang walang kahirap-hirap ang paglikha ng bilog na mga larawan\n- **Gumagana sa lahat ng device** - I-crop ang mga larawan sa bilog na hugis sa desktop, tablet o mobile devices\n- **Transparent background** - Lahat ng circular crops ay may transparent backgrounds para sa maximum na versatility\n- **Real-time preview** - Tingnan nang eksakto kung paano magiging hitsura ang iyong circular image bago i-download\n\n## Circle Crop Image FAQ\n\n### Paano ko i-crop ang isang larawan sa bilog na hugis?\n\nI-upload lamang ang iyong larawan sa aming tool, i-adjust ito sa loob ng circular frame upang i-position nang tama ang subject, at i-click ang \"Crop at Download\" upang makuha ang iyong perpektong bilog na larawan. Ang aming tool ay ginagawang madali ang pag-crop ng anumang larawan sa circle format agad nang hindi nangangailangan ng design skills.\n\n### Paano ko gumawa ng circular profile picture?\n\nI-upload ang iyong larawan sa aming circle crop tool, i-position ang iyong mukha sa gitna ng circular frame, pagkatapos i-download ang iyong bagong bilog na profile picture. Ito ay perpekto para sa social media profiles na gumagamit ng circle-shaped images tulad ng Facebook, LinkedIn o Instagram.\n\n### Maaari ba akong mag-crop ng mga larawan sa bilog na mga hugis sa aking telepono?\n\nOo! Ang aming circle image cropper ay gumagana sa lahat ng device kabilang ang smartphones at tablets. Ang mobile-friendly interface ay nagbibigay-daan sa iyo na madaling lumikha ng bilog na image crops kahit saan. Bumisita lamang sa aming website mula sa iyong mobile browser - walang app download na kailangan.\n\n### Iniimbak ba ninyo ang mga larawan na ini-upload ko?\n\nHindi, hindi namin kailanman iniimbak ang iyong mga larawan sa aming servers. Ang buong cropping process ay nangyayari nang direkta sa iyong browser, na nangangahulugan na ang iyong mga larawan ay nananatiling ganap na pribado. Kapag umalis ka sa pahina, ang lahat ng image data ay awtomatikong tinatanggal.\n\n### Anong mga image format ang maaari kong gamitin sa circle crop tool?\n\nAng aming tool ay gumagana sa lahat ng standard image formats kabilang ang JPG, PNG, WEBP at GIF. Maaari mong i-upload ang alinman sa mga format na ito at ang iyong circular cropped image ay i-download bilang PNG file na may transparency sa paligid ng bilog.\n\n### Magkakaroon ba ang aking circular cropped image ng transparent background?\n\nOo, kapag i-download mo ang iyong cropped image, magkakaroon ito ng transparent background sa paligid ng bilog. Ginagawa nitong perpekto para sa paglalagay sa mga website, dokumento o designs kung saan gusto mo lamang na ang circular portion ay makikita.\n\n### Maaari ba akong i-adjust ang laki ng circle crop?\n\nAng circle crop ay nagpapanatili ng perpektong 1:1 aspect ratio, ngunit maaari kang mag-zoom in o out upang i-adjust kung gaano karami ng iyong larawan ang lalabas sa loob ng bilog. Pinapayagan ka nitong tumuon sa mga tiyak na bahagi ng iyong larawan habang pinapanatili ang bilog na hugis.\n\n## Image Tips para sa Perpektong Circle Crops\n\n### I-center ang Iyong Subject\nPara sa pinakamahusay na resulta, pumili ng mga larawan kung saan ang pangunahing subject ay nakasentro o maaaring i-position sa gitna ng frame. Ito ay partikular na mahalaga para sa profile pictures at headshots kung saan ang mukha ay dapat na focal point.\n\n### Isaalang-alang ang Crop Area\nTandaan na ang mga sulok ng iyong larawan ay mapuputol. Iwasan ang mga larawan kung saan ang mahahalagang detalye ay malapit sa mga gilid ng larawan, dahil mawawala ang mga ito sa circular crop.\n\n### Gumamit ng High-Resolution Images\nAng pagsisimula sa high-quality images ay magreresulta sa mas mahusay na circular crops. Ang low-resolution o maliit na mga larawan ay maaaring magmukhang pixelated kapag na-crop, kaya gamitin ang pinakamataas na kalidad na source images na available.\n\n### Bigyang-pansin ang Aspect Ratio\nAng square images ay karaniwang gumagana nang pinakamahusay para sa circle cropping. Kung ang iyong original image ay napakalawak o matangkad, maaari kang mawalan ng makabuluhang bahagi sa cropping process. Isaalang-alang ang pag-crop sa square muna kung kinakailangan.\n\n### I-adjust para sa Optimal Framing\nGamitin ang positioning feature ng aming tool upang mag-zoom at i-adjust ang iyong larawan. Para sa mga portrait, subukang i-center ang mukha na may kaunting margin sa paligid nito para sa pinakamahusay na propesyonal na hitsura. Para sa mga produkto, i-center ang pangunahing item sa loob ng bilog.\n\n### Lumikha ng Consistent Sets\nKapag lumilikha ng maraming circular images (tulad ng para sa team photos), subukang mapanatili ang consistent framing, background styles at sizes para sa cohesive appearance sa lahat ng mga larawan.\n\n## Karaniwang Paggamit para sa Circle Cropped Images\n\n| Application | Mga Benepisyo ng Circle Crop |\n|------------|------------------------|\n| Social Media Profiles | Karamihan sa mga platform ay nagpapakita ng avatars sa mga bilog - ang isang perpektong cropped circular image ay mukhang propesyonal |\n| Team Member Photos | Lumikha ng consistent na bilog na headshots para sa company websites at directories |\n| Online Portfolios | Ang mga bilog na larawan ay lumilikha ng visual interest at modern aesthetics |\n| Digital Business Cards | Ang circle-cropped profile photos ay mukhang mas malinis at mas propesyonal |\n| Product Thumbnails | Ang mga bilog na product images ay lumilikha ng cohesive catalog look |\n| App Icons | Ang mga circular icons ay standard para sa mobile applications |\n| Website Testimonials | Ang mga bilog na customer photos ay nagdaragdag ng credibility at visual appeal |\n\n## Bakit Piliin ang Aming Circle Crop Image Tool\n\nPagdating sa pag-crop ng mga larawan sa mga bilog online, ang aming tool ay nag-aalok ng ilang mga benepisyo:\n\n- **Instant processing** - I-crop ang larawan sa bilog na hugis sa loob ng ilang segundo nang hindi naghihintay para sa uploads o server processing\n- **Perpektong mga bilog sa bawat pagkakataon** - Ang aming tool ay tinitiyak ang perpektong bilog na crops na may malinis na mga gilid at walang distortion\n- **Intuitive controls** - Madaling i-position ang iyong larawan nang eksakto kung paano mo gusto sa loob ng bilog na may zoom at drag functionality\n- **Walang watermarks** - Hindi tulad ng ibang circle crop tools, hindi kami nagdaragdag ng watermarks sa iyong mga larawan\n- **Gumagana sa lahat ng uri ng larawan** - I-crop ang mga larawan, graphics, illustrations o anumang larawan sa isang bilog\n- **Browser-based** - Walang software installation na kailangan, gumagana nang direkta sa iyong web browser\n- **Privacy-first** - Ang lahat ng processing ay nangyayari nang lokal sa iyong browser, ang iyong mga larawan ay hindi kailanman umaalis sa iyong device\n\nMaging kailangan mo ng pag-crop ng mga larawan sa bilog na hugis para sa propesyonal na paggamit o personal na mga proyekto, ang aming circle photo crop tool ay humahawak ng lahat nang may kadalian. Lumikha ng bilog na image crops sa loob lamang ng ilang clicks!\n\n## Pagkuha ng Simula\n\nHanda na ba na lumikha ng iyong unang circular image? Bisitahin ang aming [Circle Crop Tool](/circle-crop) at magsimulang mag-crop ngayon. Ito ay ganap na libre, hindi nangangailangan ng signup at tumatagal lamang ng ilang segundo upang lumikha ng propesyonal na circular images.\n\n---\n\n*Huling na-update: Enero 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Larawan na may bilugang sulok – Gabay",
-        "description": "Bigyan ng bilugang sulok ang anumang larawan gamit ang libreng tool. Bagay para sa thumbnail, card, UI at social media sa ilang segundo.",
-        "content": "# Larawan na may bilugang sulok – Gabay\n\nGawing bilugan ang sulok ng anumang larawan gamit ang libreng online tool. Bagay para sa thumbnail, card, UI at social media, hindi kailangan ng design skill.\n\n## Paano bilugan ang sulok ng larawan\n\n### Hakbang 1: Mag-upload ng larawan\nPumili ng larawan mula sa device. Format: JPG, PNG, WEBP, GIF. I-click o i-drag and drop.\n\n### Hakbang 2: I-set ang radius ng sulok\nGamitin ang slider para i-set ang bilis ng pagbilog. Real-time ang preview.\n\n### Hakbang 3: I-download\nI-click ang \"Download\" para i-save ang larawan na may bilugang sulok at gamitin sa layout, web o post.\n\n## Karaniwang gamit\n\n### Thumbnail at card\nAng bilugang sulok nagbibigay ng malinis, modernong itsura sa grid at card.\n\n### Social media at ads\nMas nakakaakit ang larawan na may malambot na sulok sa feed at ads.\n\n### UI at app\nMadalas bilugan ang sulok ng icon, avatar at button; tumutulong ang tool na pantayin ang maraming larawan.\n\n### Presentation at dokumento\nParehong radius sa screenshot at graphic para consistent ang slide at doc.\n\n## Ano ang binibigay ng tool\n\n- **Libre at instant** – walang signup, walang watermark; lokal na pagproseso sa browser, walang limit sa paggamit ng tool na ito\n- **Pwedeng i-adjust ang radius** – from konti hanggang pill shape\n- **Real-time preview** – makikita ang result bago i-download\n- **Privacy** – na-proprocess sa browser; hindi kami nagse-save ng larawan\n- **Lahat ng device** – PC, tablet, phone\n\n## FAQ\n\n### Paano ko bibigyan ng bilugang sulok ang isang larawan?\n\nBuksan ang [Tool sa bilugang sulok](/rounded-corners), mag-upload ng larawan, i-set ang radius, i-click ang Download.\n\n### Anong format ang supported?\n\nJPG, PNG, WEBP, GIF. Naka-keep ang original format sa download (o PNG kung kailangan ng transparency).\n\n### Gumagana sa phone?\n\nOo. Tumatakbo ang tool sa mobile at tablet browser, walang kailangang app.\n\n### Sine-save n’yo ba ang larawan ko?\n\nHindi. Lahat na-proprocess sa browser mo; wala kaming sine-save.\n\n## Kaugnay na tool\n\n- [Larawan sa URL](/) – gawing link ang larawan\n- [Circle crop](/circle-crop) – gumawa ng bilog na larawan\n- [Bilugang sulok](/rounded-corners) – bilugan ang sulok\n- [Remove background](/remove-background) – alisin ang background gamit AI\n\n---\n\n*Huling na-update: Pebrero 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Alisin ang Background – Gabay",
-        "description": "Alisin ang background ng larawan sa isang click gamit ang libreng AI tool. Malinis na cutout para sa product, portrait, logo at iba pa.",
-        "content": "# Alisin ang Background – Gabay\n\nAlisin ang background ng larawan sa isang click gamit ang libreng online tool. Malinis na cutout para sa larawan ng produkto, portrait, logo – hindi kailangan ng kasanayan sa disenyo.\n\n## Paano alisin ang background\n\n### Hakbang 1: Mag-upload ng larawan\nPumili ng larawan mula sa device. Sinusuportahang format: JPG, PNG, WEBP, GIF. I-click o i-drag and drop.\n\n### Hakbang 2: Inaalis ng AI ang background\nTinutukoy ng tool ang pangunahing paksa at inaalis ang background. Ilang segundo lang ang pagproseso. May live na preview na transparent na background.\n\n### Hakbang 3: I-download\nI-click ang \"Download\" para i-save ang larawan na walang background. Ang output ay PNG na may transparency, para sa disenyo, e-commerce o social media.\n\n## Karaniwang gamit\n\n### Larawan ng produkto\nMalinis na cutout para sa online store, marketplace at ads. Transparent na background sa anumang layout.\n\n### Portrait at profile\nAlisin ang maingay na background sa portrait para sa resume, LinkedIn o profile.\n\n### Logo at graphic\nIhiwalay ang logo at graphic mula sa larawan o scan. Transparent PNG para sa overlay at presentation.\n\n### Social media at marketing\nMas kapansin-pansing visual para sa post, story at ad. Transparent na cutout sa anumang template.\n\n## Ano ang binibigay ng tool\n\n- **Libre at AI** – walang signup, walang watermark; lokal na pagproseso sa browser, walang limit sa paggamit ng tool na ito\n- **One-click removal** – awtomatikong pagtukoy ng paksa at malinis na gilid\n- **Transparent PNG** – handa sa anumang design o platform\n- **Privacy** – na-proprocess sa browser; hindi kami nagse-save ng larawan\n- **Lahat ng device** – PC, tablet, phone\n\n## FAQ\n\n### Paano ko aalisin ang background sa isang larawan?\n\nBuksan ang [Tool Alisin ang background](/remove-background), mag-upload ng larawan. Tutukuyin ng tool ang paksa at aalisin ang background. I-preview at i-download bilang transparent PNG.\n\n### Anong image format ang supported?\n\nJPG, PNG, WEBP, GIF. Ang result ay laging na-download bilang PNG na may transparent na background.\n\n### Sine-save n'yo ba ang larawan ko?\n\nHindi. Na-proprocess sa browser mo; wala kaming sine-save.\n\n### Gumagana sa phone?\n\nOo. Gumagana ang tool sa browser sa phone at tablet.\n\n## Kaugnay na tool\n\n- [Larawan sa URL](/) – larawan papuntang link\n- [Circle crop](/circle-crop) – bilog na larawan\n- [Bilugang sulok](/rounded-corners) – bilugan ang sulok\n- [Remove background](/remove-background) – alisin ang background gamit AI\n\n---\n\n*Huling na-update: Marso 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Dokumentasyon para sa Photo To URL."
-    },
-    "page": {
-      "title": "Dokumentasyon",
-      "description": "Mabilisang simula: mag-upload ng larawan at makakuha ng direktang URL. Gamitin ang copy/open buttons o i-download ang link bilang .txt.",
-      "features": {
-        "title": "Supported features:",
-        "items": {
-          "1": "Sinusuportahan: JPG, PNG, WEBP, GIF",
-          "2": "Mabilis na delivery sa pamamagitan ng CDN kapag naka-enable ang storage",
-          "3": "Malinaw na maintenance errors kapag hindi available ang serbisyo"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Katayuan | Larawan sa URL",
-      "description": "Status ng serbisyo para sa Photo To URL."
-    },
-    "page": {
-      "title": "Katayuan",
-      "description": "Lahat ng system ay maayos na tumatakbo.",
-      "message": "Gumagana ang Upload API at mga CDN link."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Makipag-ugnayan | Photo To URL",
-      "description": "Makipag-ugnayan sa Photo To URL para sa suporta sa image hosting, feedback, partnership, o pag-report ng mga isyu. Binabasa namin ang bawat mensahe at layuning sumagot sa loob ng 1-2 araw ng trabaho."
-    },
-    "page": {
-      "title": "Makipag-ugnayan sa amin",
-      "introShort": "May tanong o feedback ka ba? Punan ang form sa ibaba at babalikan ka namin agad.",
-      "orEmail": "O i-email kami sa",
-      "subtitle": "Nandito kami para tumulong sa image hosting, links, at iba pa.",
-      "intro": "Ang Photo To URL ay libreng image hosting service na ginagawang shareable links ang iyong mga larawan. Kung may tanong, suhestyon, o anumang problema ka, gusto naming marinig ka.",
-      "whyTitle": "Mga bagay na maaari mong i-contact sa amin",
-      "why1": "Teknikal na suporta: upload errors, sirang links, o problema sa tool",
-      "why2": "Feedback at mga kahilingan sa tampok para mapabuti ang serbisyo",
-      "why3": "Mga tanong tungkol sa partnership o collaboration",
-      "why4": "Pag-report ng abuse, copyright concerns, o policy questions",
-      "expectTitle": "Ano ang aasahan",
-      "expectContent": "Binabasa namin ang bawat mensahe at layuning sumagot sa loob ng 1-2 araw ng trabaho. Para sa agarang isyu, maglagay ng malinaw na paksa at kumpletong detalye.",
-      "emailHeading": "Makipag-ugnayan sa pamamagitan ng email",
-      "emailHint": "Mag-email sa amin at babalikan ka namin sa lalong madaling panahon.",
-      "email": {
-        "label": "Email",
-        "address": "support@phototourl.com",
-        "cta": "Magpadala ng email"
-      },
-      "form": {
-        "title": "Magpadala ng mensahe",
-        "description": "Punan ang form sa ibaba at babalikan ka namin sa lalong madaling panahon.",
-        "name": "Pangalan",
-        "email": "Email",
-        "message": "Mensahe",
-        "namePlaceholder": "Iyong pangalan",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Iyong mensahe o tanong...",
-        "submit": "Ipadala ang mensahe",
-        "submitting": "Ipinapadala...",
-        "success": "Matagumpay na naipadala ang mensahe. Sasagot kami sa lalong madaling panahon.",
-        "minLength": "Dapat hindi bababa sa 3 character ang pangalan.",
-        "maxLengthName": "Hindi dapat lumampas sa 30 character ang pangalan.",
-        "invalidEmail": "Mangyaring maglagay ng wastong email address.",
-        "minLengthMessage": "Dapat hindi bababa sa 10 character ang mensahe.",
-        "maxLengthMessage": "Hindi dapat lumampas sa 2000 character ang mensahe.",
-        "invalid": "May nangyaring mali. Pakisubukang muli."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "Tungkol sa Amin | Larawan sa URL",
-      "description": "Matuto pa tungkol sa Larawan sa URL - isang libreng image hosting service na nagko-convert ng mga larawan sa shareable na links."
-    },
-    "page": {
-      "title": "Tungkol sa Amin",
-      "mission": {
-        "title": "Ang Aming Misyon",
-        "content": "Ang Larawan sa URL ay isang libreng, mabilis, at maaasahang image hosting service na idinisenyo upang tulungan ang mga creators, marketers, at teams na i-convert ang mga larawan sa shareable na links agad-agad. Naniniwala kami sa pagiging simple, bilis, at privacy ng mga user."
-      },
-      "features": {
-        "title": "Ano ang Aming Inaalok",
-        "item1": "Libreng image hosting na may CDN support",
-        "item2": "Instant link generation para sa mabilis na pag-share",
-        "item3": "Suporta sa maraming image formats (JPG, PNG, WEBP, GIF)",
-        "item4": "Subukan nang walang pagpaparehistro — libreng plano: 10 upload/araw, 2MB bawat file"
-      },
-      "contact": {
-        "title": "Makipag-ugnayan sa Amin",
-        "text": "May mga tanong o feedback? Makipag-ugnayan sa amin sa",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Patakaran sa Pribasidad | Larawan sa URL",
-        "description": "Patakaran sa Pribasidad para sa Larawan sa URL - Alamin kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang inyong data."
-      },
-      "page": {
-        "title": "Patakaran sa Pribasidad",
-        "lastUpdated": "Huling Update: Mayo 2026",
-        "introduction": "Sa Larawan sa URL, iginagalang namin ang inyong pribasidad at nakatuon kami sa pagprotekta ng inyong personal na impormasyon. Ang Patakaran sa Pribasidad na ito ay nagpapaliwanag kung paano namin kinokolekta, ginagamit, inilalantad, at pinoprotektahan ang inyong impormasyon kapag ginagamit ninyo ang aming serbisyo.",
-        "dataCollection": {
-          "title": "Impormasyon na Kinokolekta Namin",
-          "content1": "Kapag ginagamit ninyo ang Larawan sa URL, maaari kaming mangolekta ng:",
-          "item1": "Mga na-upload na image file at metadata (pangalan ng file, laki, uri), naka-store sa Cloudflare R2 para magbigay ng naibabahaging link",
-          "item2": "IP address, upload timestamp, at usage data para sa rate limiting, seguridad, at pag-iwas sa pang-aabuso",
-          "item3": "Account information kapag nagrehistro o nag-login (email address, Google OAuth profile, session at authentication identifiers)",
-          "item4": "Subscription at payment information na pinoproseso ng payment provider namin na Waffo Pancake para sa paid plans — hindi namin ini-store ang buong card numbers",
-          "content2": "Kung makikipag-ugnayan kayo sa amin sa contact form, kinokolekta namin ang impormasyong ibibigay ninyo (hal. pangalan at email). Gumagamit din kami ng cookies at katulad na teknolohiya ayon sa seksyong Cookies."
-        },
-        "dataUsage": {
-          "title": "Paano Namin Ginagamit ang Inyong Impormasyon",
-          "item1": "Para makagawa at makapagbigay ng naibabahaging mga link ng larawan",
-          "item2": "Para maiwasan ang pang-aabuso at maipatupad ang limitasyon sa pag-upload",
-          "item3": "Para mapabuti ang aming serbisyo at karanasan ng gumagamit",
-          "item4": "Para makasunod sa mga legal na obligasyon"
-        },
-        "dataStorage": {
-          "title": "Data Storage at Retention",
-          "content": "Ang mga uploaded na larawan ay naka-store sa Cloudflare R2 storage. Pinapanatili namin ang mga larawan hangga't kailangan para sa serbisyo. Maaaring ma-delete ang mga larawan nang awtomatiko pagkatapos ng period ng inactivity o dahil sa policy violations."
-        },
-        "cookies": {
-          "title": "Cookies at Tracking Technologies",
-          "content1": "Ginagamit namin ang mga sumusunod na teknolohiya:",
-          "item1": "Local Storage: Para i-store ang inyong upload history at language preferences",
-          "item2": "Google AdSense: Para mag-display ng advertisements (gumagamit ng cookies para sa ad personalization)",
-          "item3": "Google Analytics: Para sa website analytics (anonymized data)",
-          "content2": "Maaari ninyong kontrolin ang cookies sa pamamagitan ng inyong browser settings. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa ilang functionality ng aming serbisyo."
-        },
-        "personalizedAds": {
-          "title": "Personalized na advertising at opt-out",
-          "content": "Ginagamit namin ang Google AdSense para mag-display ng mga ad. Maaaring gumamit ang Google at iba pang vendor ng cookies para mag-serve ng mga ad batay sa inyong mga pagbisita sa site na ito at sa web. Maaari ninyong i-opt out ang personalized na advertising sa",
-          "linkAdsSettings": "Mga Setting ng Google Ads",
-          "content2": "o sa opt-out page ng Network Advertising Initiative na",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Third-Party Services",
-          "content1": "Ginagamit namin ang mga sumusunod na third-party services:",
-          "item1": "Cloudflare R2: Para sa image storage at CDN delivery",
-          "item2": "Google AdSense: Para sa pag-aanunsyo (ayon sa Patakaran sa Privacy ng Google)",
-          "item3": "Google Analytics: Para sa analytics ng website (ayon sa Patakaran sa Privacy ng Google)",
-          "content2": "Gumagamit din kami ng Waffo Pancake para sa subscriptions at payment processing. Ang mga serbisyong ito ay maaaring mangolekta ng impormasyon ayon sa kanilang sariling privacy policies. Hinihikayat namin kayo na suriin ang mga ito."
-        },
-        "dataSecurity": {
-          "title": "Data Security",
-          "content": "Nag-i-implement kami ng naaangkop na technical at organizational measures para protektahan ang inyong data laban sa unauthorized access, alteration, disclosure, o destruction. Gayunpaman, walang paraan ng transmission sa internet ang 100% secure."
-        },
-        "yourRights": {
-          "title": "Ang Inyong Mga Karapatan",
-          "content": "May karapatan kayo na:",
-          "item1": "Ma-access ang inyong uploaded na larawan, account data, at associated information",
-          "item2": "Humiling ng deletion ng inyong mga larawan",
-          "item3": "Mag-opt out sa ilang data collection practices",
-          "item4": "Makipag-ugnayan sa amin tungkol sa privacy concerns"
-        },
-        "children": {
-          "title": "Privacy ng mga Bata",
-          "content": "Ang aming serbisyo ay hindi para sa mga batang wala pang 13 taong gulang. Hindi namin sinasadyang kinokolekta ang personal na impormasyon mula sa mga batang wala pang 13 taong gulang."
-        },
-        "changes": {
-          "title": "Mga Pagbabago sa Patakaran sa Pribasidad na Ito",
-          "content": "Maaari naming i-update ang Patakaran sa Pribasidad na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Patakaran sa Pribasidad sa pahinang ito at pag-update ng petsang \"Huling In-update\"."
-        },
-        "contact": {
-          "title": "Makipag-ugnayan sa Amin",
-          "text": "Kung may mga tanong kayo tungkol sa Patakaran sa Pribasidad na ito, mangyaring makipag-ugnayan sa amin sa",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Mga Tuntunin ng Serbisyo | Larawan sa URL",
-        "description": "Mga Tuntunin ng Serbisyo ng Larawan sa URL – pagho-host ng larawan, pinahihintulutang paggamit, at mga responsibilidad ng gumagamit."
-      },
-      "page": {
-        "title": "Mga Tuntunin ng Serbisyo",
-        "lastUpdated": "Huling na-update: Setyembre 2026",
-        "intro": "Maligayang pagdating sa Larawan sa URL. Sa pag-access o paggamit ng aming image hosting at link generation na serbisyo (ang \"Serbisyo\"), sumasang-ayon kayo na maging bound ng mga Tuntuning ito. Kung hindi sumasang-ayon, huwag gamitin ang Serbisyo.",
-        "acceptance": {
-          "title": "Pagtanggap ng mga tuntunin",
-          "content": "Sa pag-upload ng mga larawan, paggawa ng mga link o paggamit ng Larawan sa URL, kinukumpirma ninyo na nabasa, naintindihan at sumasang-ayon sa mga Tuntuning ito at sa aming Patakaran sa Privacy. Maaari naming i-update ang mga Tuntunin; ang patuloy na paggamit pagkatapos ng mga pagbabago ay itinuturing na pagtanggap ng na-update na mga Tuntunin."
-        },
-        "serviceDescription": {
-          "title": "Paglalarawan ng serbisyo",
-          "content": "Ang Larawan sa URL ay nagbibigay ng libreng image hosting at direct link generation. Maaari kang mag-upload ng mga larawan sa loob ng itinakdang limit (laki ng file, format atbp.) at makatanggap ng shareable na mga link. Hindi kami nangangako ng tuloy-tuloy na availability; ang Serbisyo ay maaaring baguhin, i-suspend o itigil nang may o walang abiso."
-        },
-        "useOfService": {
-          "title": "Paggamit ng serbisyo",
-          "content": "Maari mo lamang gamitin ang Serbisyo para sa legal na layunin at alinsunod sa mga Tuntuning ito. Ikaw ay responsable sa iyong paggamit at sa content na iyong ini-upload. Hindi mo dapat gamitin ang Serbisyo sa paraang lumalabag sa umiiral na batas o karapatan ng iba."
-        },
-        "userResponsibilities": {
-          "title": "Ang iyong mga responsibilidad",
-          "content": "Sumasang-ayon ka: (1) magbigay ng tumpak na impormasyon kapag hiniling; (2) panatilihin ang iyong paggamit na sumusunod sa batas; (3) huwag subukang laktawan ang seguridad, rate limit o access control; (4) huwag gamitin ang Serbisyo para mag-distribute ng malware o makagambala sa Serbisyo o ibang user."
-        },
-        "prohibitedContent": {
-          "title": "Pinagbabawal na content",
-          "content": "Hindi ka dapat mag-upload o magbahagi ng mga link sa content na ilegal, nakasasama, nagbabanta, abusive, harassing, paninirang-puri, malaswa, lumalabag sa privacy o intellectual property o hindi katanggap-tanggap; nagsasamantala sa menor de edad; nagpo-promote ng karahasan o diskriminasyon; o lumalabag sa karapatan ng third party. Maaari naming alisin ang content at i-suspend o wakasan ang access nang walang abiso kung makatwiran naming pinaniniwalaan na may paglabag sa mga Tuntuning ito o batas."
-        },
-        "ipAndContent": {
-          "title": "Intellectual property at ang iyong content",
-          "content": "Pinapanatili mo ang pagmamay-ari ng mga larawang iyong ini-upload. Sa paggamit ng Serbisyo ay binibigyan mo kami ng limitadong lisensya para i-store, i-process at i-serve ang iyong mga larawan at bumuo at magbigay ng mga link, hangga't kinakailangan para mapatakbo ang Serbisyo. Hindi kami nag-aangkin ng pagmamay-ari ng iyong content. Ang aming pangalan, logo at Serbisyo ay aming intellectual property; hindi mo maaaring gamitin ang mga ito nang walang aming paunang nakasulat na pahintulot."
-        },
-        "subscriptions": {
-          "title": "Mga plano ng subscription",
-          "content": "Nag-aalok ang Larawan sa URL ng libreng tier at mga bayad na subscription (buwanang Pro at taunang Premium) na nagpapataas ng limit sa upload, laki ng file, at storage. Ang kasalukuyang detalye ng plano at presyo ay nasa pahina ng Presyo (https://phototourl.com/pricing). Ang bayad na access ay digital na serbisyo at ibinibigay agad pagkatapos makumpirma ang bayad."
-        },
-        "billing": {
-          "title": "Pagsingil at pagbabayad",
-          "content": "Sa pagbibigay ng paraan ng bayad at pag-subscribe sa bayad na plano, pinapahintulutan mo kami at ang aming payment processor na singilin nang paulit-ulit ang paraang iyon para sa naaangkop na bayad sa subscription hanggang sa kanselahin mo gaya ng ipinaliwanag sa ibaba. Awtomatikong nire-renew ang subscription sa katapusan ng bawat panahon ng pagsingil maliban kung kinansela. Ang mga presyong ipinapakita sa checkout ay maaaring hindi kasama ang naaangkop na buwis, maliban kung iba ang nakasaad."
-        },
-        "cancellation": {
-          "title": "Pagkansela at paghinto ng auto-renewal",
-          "content": "Maaari mong ihinto ang mga susunod na singil anumang oras sa pamamagitan ng:",
-          "item1": "Pag-email sa support@phototourl.com mula sa rehistradong email ng account at paghiling na kanselahin ang auto-renewal; o",
-          "item2": "Pagkansela ng awtomatikong debit o paulit-ulit na pagsingil sa card issuer sa pamamagitan ng mobile banking, online banking, o customer service.",
-          "effect": "Ang pagkansela ay humihinto sa mga susunod na pag-renew. Pinapanatili mo ang bayad na benepisyo hanggang sa katapusan ng panahong nabayaran mo na. Pagkatapos nito, wala nang karagdagang singil para sa subscription na iyon at nagtatapos ang bayad na benepisyo kasama ang panahong iyon."
-        },
-        "refunds": {
-          "title": "Patakaran sa refund",
-          "general": "Ang mga bayad na plano ay digital na serbisyo na ibinibigay agad pagkatapos ng bayad. Sa pangkalahatan, hindi naibabalik ang bayad sa subscription kung nananatiling magagamit nang normal ang Serbisyo, maliban sa mga nakasaad sa ibaba o kung kinakailangan ng batas.",
-          "eligibleTitle": "Kailan maaaring may refund",
-          "item1": "Unang beses na subscriber: sa loob ng 7 araw mula sa unang singil, kung hindi mo gaanong ginamit ang bayad na feature (halimbawa, maliit na bahagi lang ng upload o storage allowance ng plano).",
-          "item2": "Dobleng o maling singil: buong refund para sa napatunayang error sa pagsingil na nagdulot ng dobleng singil.",
-          "item3": "Outage sa aming panig: kung ang napatunayang outage sa aming kontrol ay tumagal ng 72 oras o higit pa sa iyong bayad na panahon, maaari kaming mag-alok ng proporsyonal na credit o refund pagkatapos ng pagsusuri.",
-          "item4": "Mga karapatan ayon sa batas: kung ang umiiral na batas ay nagbibigay sa iyo ng karapatang mag-withdraw o mag-refund (halimbawa sa EU/UK), nananatili ang mga karapatang iyon.",
-          "howTitle": "Paano humiling ng refund",
-          "how": "Mag-email sa support@phototourl.com kasama ang email ng account, reference ng bayad o transaksiyon, at dahilan. Layunin naming tumugon sa loob ng 2 araw ng negosyo at iproseso ang mga karapat-dapat na refund sa loob ng 5–10 araw ng negosyo.",
-          "notTitle": "Kailan walang refund",
-          "not1": "Bayad para sa mga panahon ng subscription na nagamit na, maliban sa mga nakalista sa itaas.",
-          "not2": "Mga kahilingan sa refund para sa taunang (Premium) subscription na higit sa 30 araw pagkatapos ng unang pagbili, maliban kung kinakailangan ng batas o may karapat-dapat na outage o dobleng singil.",
-          "not3": "Mga account na nasuspinde o natapos dahil sa paglabag sa mga Tuntuning ito."
-        },
-        "disclaimer": {
-          "title": "Pagtatwa ng mga garantiya",
-          "text": "Ang Serbisyo ay ibinibigay \"as is\" at \"as available\" nang walang anumang garantiya. Hindi kami nangangakong ang Serbisyo ay magiging tuloy-tuloy, walang error o walang mapanganib na sangkap. Ang iyong paggamit ng Serbisyo ay nasa iyong sariling panganib."
-        },
-        "limitationOfLiability": {
-          "title": "Limitasyon ng pananagutan",
-          "content": "Sa pinakamataas na pinahihintulutan ng batas, ang Larawan sa URL at ang mga operator nito ay hindi mananagot para sa di-tuwirang, incidental, espesyal, consequential o punitive na pinsala o pagkawala ng data, kita o goodwill na nagmula sa iyong paggamit o kawalan ng kakayahang gamitin ang Serbisyo. Ang aming kabuuang pananagutan ay hindi lalampas sa halagang binayaran mo sa amin sa labindalawang buwan bago ang claim (o zero kung wala kang binayaran)."
-        },
-        "termination": {
-          "title": "Pagwawakas",
-          "content": "Maaari naming i-suspend o wakasan ang iyong access sa Serbisyo anumang oras, may o walang dahilan o abiso. Maaari mong itigil ang paggamit ng Serbisyo anumang oras. Sa pagwawakas, ang iyong karapatang gamitin ang Serbisyo ay nagwawakas kaagad. Ang mga probisyon na sa likas na katangian ay dapat manatili (kabilang ang disclaimer, limitasyon ng pananagutan at governing law) ay nananatiling may bisa."
-        },
-        "changes": {
-          "title": "Mga pagbabago sa tuntunin",
-          "content": "Maaari naming i-update ang mga Tuntuning ito. Ilalathala namin ang binagong mga Tuntunin sa pahinang ito at ia-update ang petsang \"Huling na-update\". Ang patuloy na paggamit pagkatapos ng mga pagbabago ay itinuturing na pagtanggap. Hinihikayat ka naming suriin ang pahinang ito nang pana-panahon."
-        },
-        "governingLaw": {
-          "title": "Governing law",
-          "content": "Ang mga Tuntuning ito ay napapailalim sa at ipinapakahulugan alinsunod sa mga batas ng hurisdiksyon kung saan kami nag-ooperate, nang walang pagsasaalang-alang sa mga prinsipyo ng conflict of laws. Ang anumang mga pagtatalo ay malulutas sa mga korte ng hurisdiksyong iyon."
-        },
-        "contact": {
-          "title": "Makipag-ugnayan sa Amin",
-          "text": "Para sa mga tanong tungkol sa mga Tuntunin ng Serbisyo na ito, makipag-ugnayan sa amin sa",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Patakaran sa Cookie | Larawan sa URL",
-        "description": "Patakaran sa Cookie para sa Larawan sa URL - alamin kung paano namin ginagamit ang mga cookie at teknolohiyang pang-pagsubaybay."
-      },
-      "page": {
-        "title": "Patakaran sa Cookies",
-        "lastUpdated": "Huling Update: Setyembre 2026",
-        "introduction": "Ang Patakaran sa Cookie na ito ay nagpapaliwanag kung paano ginagamit ng Larawan sa URL ang cookies at mga katulad na teknolohiya sa pagsubaybay kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa patakarang ito. Para sa mga tanong tungkol sa patakarang ito, makipag-ugnayan sa support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Ano ang Cookies",
-          "content": "Ang cookies ay maliliit na text files na inilalagay sa inyong device kapag binibisita ninyo ang isang website. Malawakang ginagamit ang mga ito para mas maging efficient ang mga website at magbigay ng impormasyon sa mga website owners."
-        },
-        "howWeUseCookies": {
-          "title": "Paano Namin Ginagamit ang Cookies",
-          "content": "Ginagamit namin ang cookies para sa mga sumusunod na layunin:",
-          "item1": "Para i-store ang inyong upload history at language preferences",
-          "item2": "Para i-analyze ang website traffic at user behavior",
-          "item3": "Para mag-display ng personalized advertisements"
-        },
-        "typesOfCookies": {
-          "title": "Mga Uri ng Cookies na Ginagamit Namin",
-          "essential": {
-            "title": "Essential Cookies",
-            "content": "Ang mga cookies na ito ay kailangan para sa tamang paggana ng website. Pinapagana nila ang core functionality tulad ng pag-store ng inyong language preferences at upload history."
-          },
-          "analytics": {
-            "title": "Analytics Cookies",
-            "content": "Ginagamit namin ang Google Analytics para i-analyze kung paano ginagamit ng mga visitors ang aming website. Ang mga cookies na ito ay nangongolekta ng anonymous na impormasyon tungkol sa website usage para matulungan kaming mapabuti ang aming serbisyo."
-          },
-          "advertising": {
-            "title": "Advertising Cookies",
-            "content": "Ginagamit namin ang Google AdSense para mag-display ng advertisements. Ang mga cookies na ito ay tumutulong mag-deliver ng personalized ads batay sa inyong browsing behavior at interests."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Third-Party Cookies",
-          "content": "Ginagamit namin ang mga sumusunod na third-party services na maaaring mag-set ng cookies:",
-          "item1": "Google AdSense - Para sa pag-aanunsyo (ayon sa Patakaran sa Privacy ng Google)",
-          "item2": "Google Analytics - Para sa analytics ng website (ayon sa Patakaran sa Privacy ng Google)"
-        },
-        "manageCookies": {
-          "title": "Pag-manage ng Cookies",
-          "content": "Maaari ninyong kontrolin at i-manage ang cookies sa pamamagitan ng inyong browser settings. Karamihan sa mga browser ay nagpapahintulot sa inyo na tanggihan o tanggapin ang cookies, tanggalin ang existing cookies, o mag-set ng preferences para sa ilang websites. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa functionality ng aming serbisyo."
-        },
-        "changes": {
-          "title": "Mga Pagbabago sa Cookie Policy na Ito",
-          "content": "Maaari naming i-update ang Patakaran sa Cookie na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Patakaran sa Cookie sa pahinang ito at pag-update ng petsang \"Huling In-update\"."
-        },
-        "contact": {
-          "title": "Makipag-ugnayan sa Amin",
-          "text": "Kung may mga tanong kayo tungkol sa Cookie Policy na ito, mangyaring makipag-ugnayan sa amin sa",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Larawan sa URL Bookmarklet",
-    "description": "Mag-upload ng mga larawan mula sa anumang webpage direkta sa Photo To URL ng isang click! Libreng trial: 10 upload/araw, 2MB bawat file.",
-    "howItWorks": {
-      "title": "Paano Ito Gumagana",
-      "step1": "Mag-browse ng anumang webpage na may mga larawan",
-      "step2": "I-click ang bookmarklet sa bookmarks bar mo",
-      "step3": "Pumili ng larawan mula sa pahina",
-      "step4": "Kunin agad ang URL at kopyahin ito!"
-    },
-    "installation": {
-      "title": "Pag-install",
-      "step1": {
-        "title": "Hakbang 1: Kopyahin ang Bookmarklet Code",
-        "description": "I-click ang button sa ibaba para kopyahin ang bookmarklet code sa clipboard mo."
-      },
-      "step2": {
-        "title": "Hakbang 2: Idagdag sa Browser Mo",
-        "description": "Sundin ang mga hakbang na ito ayon sa browser mo:",
-        "chrome": "Chrome/Edge: Pindutin ang Ctrl+Shift+B (Cmd+Shift+B sa Mac) para ipakita ang bookmarks bar, pagkatapos i-right click ito at piliin ang \"Add page\". I-paste ang code bilang URL.",
-        "firefox": "Firefox: I-right click ang bookmarks bar at piliin ang \"New Bookmark\". I-paste ang code sa Location field.",
-        "safari": "Safari: I-enable ang bookmarks bar (View → Show Bookmarks Bar), pagkatapos i-drag ang code papunta sa bookmarks bar.",
-        "edge": "Alternatibo: Gumawa ng bagong bookmark, i-edit ito, at palitan ang URL ng kinopyang code."
-      },
-      "step3": {
-        "title": "Hakbang 3: Simulan Nang Gamitin!",
-        "description": "Bumisita sa anumang webpage na may mga larawan at i-click ang bookmarklet para magsimulang mag-upload!"
-      },
-      "copy": "Kopyahin ang Code",
-      "copied": "Nakopya!"
-    },
-    "usage": {
-      "title": "Mga Feature",
-      "description": "Nagbibigay ang bookmarklet ng mga sumusunod na feature. Bawat upload ay ibinibilang sa limit ng plano mo (10 upload/araw, 2MB bawat file).",
-      "feature1": "Pumili ng anumang larawan mula sa kasalukuyang webpage",
-      "feature2": "Awtomatikong upload sa Photo To URL",
-      "feature3": "Kumuha agad ng shareable URL sa isang click na pagkopya"
-    },
-    "note": {
-      "title": "Paalala",
-      "content": "Ang bawat upload ay counted sa daily quota (10 upload/araw, 2MB bawat file). Gumagana ang bookmarklet sa karamihan ng site; maaaring harangin ng mahigpit na CORS ang upload."
-    }
-  },
-  "AuthPage": {
-    "login": {
-      "welcomeBack": "Maligayang pagbabalik",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Pumasok",
-      "signUp": "Magparehistro",
-      "signUpHint": "Wala pang account?",
-      "forgotPassword": "Nakalimutan ang password?",
-      "showPassword": "Ipakita ang password",
-      "hidePassword": "Itago ang password",
-      "emailRequired": "Ang email ay kinakailangan",
-      "passwordRequired": "Ang password ay kinakailangan",
-      "signInWithGoogle": "Mag-sign in gamit ang Google"
-    },
-    "register": {
-      "createAccount": "Gumawa ng account",
-      "name": "Pangalan",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Magparehistro",
-      "signInHint": "May account na?",
-      "namePlaceholder": "Ang iyong pangalan",
-      "signUpSuccess": "Matagumpay na ginawa ang account",
-      "signUpWithGoogle": "Mag-sign up gamit ang Google",
-      "artFightLabel": "Magrehistro ng nakalaang artist account",
-      "artFightHint": "I-unlock ang artist-focused Dashboard tools: embed copy (URL, HTML, BBCode, Markdown) para sa bawat hosted card."
-    },
-    "error": {
-      "title": "Error sa pagpapatunay",
-      "defaultError": "May error na nangyari sa pagpapatunay.",
-      "backToLogin": "Bumalik sa pagpasok"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "May account na na may email na ito. Mangyaring gumamit ng ibang email.",
-      "INVALID_CREDENTIALS": "Hindi tamang email o password.",
-      "INVALID_EMAIL": "Hindi valid na format ng email.",
-      "INVALID_PASSWORD": "Dapat mayroon ng atleast 6 na character ang password.",
-      "EMAIL_REQUIRED": "Ang email ay kinakailangan.",
-      "PASSWORD_REQUIRED": "Ang password ay kinakailangan.",
-      "NAME_REQUIRED": "Ang pangalan ay kinakailangan.",
-      "SERVER_ERROR": "Error ng server. Mangyaring subukan muli sa ibang pagkakataon.",
-      "NETWORK_ERROR": "Error sa network. Mangyaring suriin ang iyong koneksyon."
-    },
-    "forgotPassword": {
-      "title": "Nakalimutan ang password",
-      "description": "Ilagay ang email mo at papadalhan ka namin ng link para magpalit ng password.",
-      "email": "Email",
-      "send": "Ipadala ang link sa pag-reset",
-      "backToLoginHint": "Naaalala mo na ang password?",
-      "checkEmail": "Kung may account sa email na iyon, nagpadala kami ng link sa pag-reset. Tingnan ang inbox mo.",
-      "emailRequired": "Kailangan ang email",
-      "error": {
-        "userNotFound": "Walang nakitang account sa email na ito",
-        "tooManyRequests": "Masyadong maraming pagtatangka. Subukan ulit mamaya",
-        "serverError": "May nangyaring mali. Subukan ulit"
-      }
-    },
-    "resetPassword": {
-      "title": "I-reset ang password",
-      "password": "Bagong password",
-      "reset": "I-reset ang password",
-      "backToLoginHint": "Handa nang mag-sign in?",
-      "requestNewLink": "Humiling ng bagong link",
-      "showPassword": "Ipakita ang password",
-      "hidePassword": "Itago ang password",
-      "minLength": "Ang password ay dapat hindi bababa sa 6 na karakter",
-      "error": {
-        "expiredToken": "Nag-expire na ang link sa pag-reset. Humiling ng bago",
-        "invalidToken": "Hindi valid ang link sa pag-reset. Humiling ng bago",
-        "missingToken": "Kulang o hindi kumpleto ang link sa pag-reset. Humiling ng bago",
-        "tooManyRequests": "Masyadong maraming pagtatangka. Subukan ulit mamaya",
-        "serverError": "May nangyaring mali. Subukan ulit"
-      }
-    },
-    "orContinueWith": "O magpatuloy gamit ang"
-  },
-  "Mail": {
-    "common": {
-      "team": "Team ng {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Kumusta, {name}.",
-      "body": "I-click ang button sa ibaba para i-reset ang iyong Photo To URL password. Kung hindi ikaw ang humiling nito, pwede mong balewalain ang email na ito.",
-      "resetPassword": "I-reset ang password",
-      "subject": "I-reset ang iyong Photo To URL password"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Simple at transparent na pagpepresyo",
-    "description": "Pumili ng planong nababagay sa iyo na may simpleng at transparent na pagpepresyo",
-    "subtitle": "Pumili ng planong nababagay sa iyo",
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "faqTitle": "Mga Madalas na Tanong",
-    "faq": {
-      "payment": {
-        "q": "Anong mga paraan ng pagbabayad ang tinatanggap ninyo?",
-        "a": "Tumatanggap kami ng lahat ng major card (Visa, Mastercard, American Express) at PayPal."
-      },
-      "cancel": {
-        "q": "Maaari ba akong mag-cancel anumang oras?",
-        "a": "Oo, maaari kang mag-cancel anumang oras mula sa mga setting ng iyong account. Hindi ka maniningil ng mga future na bayarin."
-      },
-      "storage": {
-        "q": "Magkano ang espasyong pag-iimbak ko?",
-        "a": "Ang free plan ay nag-aalok ng 50MB, Pro 5GB, at Yearly 50GB."
-      },
-      "upload": {
-        "q": "Ano ang itinuturing na isang upload?",
-        "a": "Bawat larawang ina-upload mo sa Photo To URL ay binibilang bilang isang upload. Ang mga libreng user ay limitado sa 10 upload bawat araw."
-      }
-    },
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/ buwan",
-      "perYear": "/ taon",
-      "popular": "Pinakasikat",
-      "bestValue": "Pinakamahusay na halaga",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
       "currentPlan": "Current Plan",
       "yourCurrentPlan": "Your Current Plan",
       "getStartedForFree": "Get Started For Free",
       "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Magsimula ngayon",
-      "upgradeToYearly": "Mag-upgrade sa Premium",
-      "cannotDowngrade": "Hindi maaaring ibaba ang plano",
-      "alreadySubscribed": "Aktibo na ang kasalukuyang plano",
-      "subscribeYearly": "Mag-subscribe taunan",
-      "subscribeMonthly": "Mag-subscribe buwanan",
-      "upgrade": "Mag-upgrade",
+      "getStarted": "Get Started",
       "notAvailable": "Not Available",
-      "limitedOffer": "Limitadong alok · 20% diskwento",
-      "savePercentLabel": "Makatipid ",
-      "savePercentSuffix": " vs buwanan",
-      "freePriceNote": "Libre magpakailanman",
-      "monthlyPriceNote": "Sinisingil buwan-buwan",
-      "loading": "Naglo-load...",
-      "suitableFor": "Angkop para sa:",
-      "activePlanDialog": {
-        "title": "May aktibong subscription ka na",
-        "description": "May aktibong subscription na ang account na ito.",
-        "descriptionWithDate": "May aktibong subscription na ang account na ito (magtatapos sa {date}).",
-        "close": "Isara",
-        "manageBilling": "Pamahalaan ang subscription"
-      },
-      "batchUpload": {
-        "label": "Maramihang upload",
-        "free": "Wala",
-        "monthly": "20 larawan",
-        "yearly": "50 larawan"
-      },
-      "justPerMonth": "{price}/mo",
-      "saveVsMonthly": "Save {percent}%",
-      "monthlyEquivalentShort": "({price}/ buwan)",
-      "bestValueWithSave": "Best Value · Save {percent}%"
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Naglo-load...",
-      "checkoutFailed": "Hindi mabuksan ang checkout page"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Libreng",
-      "description": "Perpektong subukan ang Photo To URL",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Laki ng upload: 2MB",
-        "feature-2": "Araw-araw na mga upload: 10 beses",
-        "feature-3": "Storage: 100MB",
-        "feature-4": "CDN: Batayang pagpapabilis",
-        "feature-5": "Walang ads: Hindi",
-        "feature-6": "Document hosting: Hindi",
-        "feature-7": "Photo hosting: Hindi",
-        "feature-8": "Pag-edit ng litrato: Hindi",
-        "feature-9": "Webhook: Hindi",
-        "feature-10": "Mga permiso ng mapagkukunan: Wala"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Subukan ang produkto, subukan ang mga feature"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Propesyonal",
-      "description": "Tuloy-tuloy na pag-upload at pagho-host",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Laki ng upload: 50MB",
-        "feature-2": "Araw-araw na mga upload: 1000 beses",
-        "feature-3": "Storage: 100GB",
-        "feature-4": "CDN: Karaniwang pagpapabilis",
-        "feature-5": "Walang ads: Oo",
-        "feature-6": "Document hosting: Oo",
-        "feature-7": "Photo hosting: Oo",
-        "feature-8": "Pag-edit ng litrato: Oo",
-        "feature-9": "Webhook: Oo",
-        "feature-10": "Mga permiso ng mapagkukunan: Bahagi"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Mga Blogger / Mga Developer / Maliit na team"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Mas mataas na limitasyon, mas mabilis na CDN",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Laki ng upload: 256MB",
-        "feature-2": "Araw-araw na mga upload: Walang limitasyon",
-        "feature-3": "Storage: 200GB",
-        "feature-4": "CDN: Mga high-speed na node (priyoridad)",
-        "feature-5": "Walang ads: Oo",
-        "feature-6": "Document hosting: Oo",
-        "feature-7": "Photo hosting: Oo",
-        "feature-8": "Pag-edit ng litrato: Oo",
-        "feature-9": "Webhook: Oo",
-        "feature-10": "Mga permiso ng mapagkukunan: Lahat"
-      },
-      "limits": [],
-      "suitableFor": "Malalaking team / Madalas na gumagamit / Mga sistema ng automation"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Dashboard",
-    "themeToggle": "Tema",
-    "welcome": "Maligayang pagdating",
-    "loadFailed": "Hindi ma-karga. Subukan ulit mamaya.",
-    "errorTitle": "May nangyaring mali",
-    "dismiss": "Sige",
-    "dashboard": "Dashboard",
-    "resources": "Aking mga mapagkukunan",
-    "photos": "Aking mga larawan",
-    "storage": "Storage",
-    "used": "Ginamit",
-    "total": "Kabuuan",
-    "storageDisplay": "{used} / {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Walang limitasyon",
-    "deleteConfirm": "Sigurado ka bang gusto mong tanggalin ang mapagkukunan na ito?",
-    "deleteResource": "Tanggalin ang mapagkukunan",
-    "deleteFailed": "Nabigo ang pagtanggal ng mapagkukunan",
-    "delete": "Tanggalin",
-    "cancel": "Kanselahin",
-    "copied": "Nakopya!",
-    "copy": "Kopyahin ang link",
-    "open": "Buksan",
-    "removeBackground": "Remove Background",
-    "noResources": "Walang mapagkukunan. Mag-upload ng mga larawan para magsimula.",
-    "files": "mga file",
-    "dailyUploads": "Mga upload ngayong araw",
-    "today": "ngayong araw",
-    "resourcesCount": "Mayroon kang {count} na mga nai-upload na mapagkukunan",
-    "photosCount": "Mayroon kang {count} na mga nai-upload na larawan",
-    "resourcePageInfo": "Pahina {page} ng {totalPages} · {pageSize} bawat pahina · {total} file sa kabuuan",
-    "resourceTotalCount": "Kabuuan: {total} item",
-    "resourcePageSizeLabel": "Item bawat pahina",
-    "resourcePageSizeOption": "{size} bawat pahina",
-    "resourceJumpTo": "Pumunta sa",
-    "resourceJumpPageUnit": "pahina",
-    "resourceJumpInputAria": "Numero ng pahina",
-    "resourcePagePrev": "Nakaraang pahina",
-    "resourcePageNext": "Susunod na pahina",
-    "subtitle": "Narito ang iyong workspace overview.",
-    "planCardTitle": "Plan",
-    "planActive": "Aktibo",
-    "planNames": {
-      "free": "Libreng",
-      "premium": "Premium",
-      "pro": "Propesyonal"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Mag-upgrade para mas marami",
-    "planCardHintAllUpgraded": "Lahat ng feature naka-unlock",
-    "statStorageHint": "Space na ginagamit sa lahat ng uploads",
-    "statResourcesHint": "Kabuuang mga larawan + dokumento",
-    "statPhotosHint": "Mga file na maaari mong i-copy o i-share bilang links",
-    "statUploadsHint": "I-reset kada 24 oras ayon sa tier",
-    "chartTitle": "Aktibidad",
-    "chartDescription": "Volume ng upload sa paglipas ng panahon",
-    "chartPlaceholder": "Lalabas dito ang trends kapag may mas maraming activity.",
-    "chartRange7d": "Huling 7 araw",
-    "chartRange30d": "Huling 30 araw",
-    "chartRange90d": "Huling 3 buwan",
-    "tableFile": "File",
-    "tablePath": "Path",
-    "tableSize": "Size",
-    "tableActions": "Mga Aksyon",
-    "viewTable": "Table",
-    "viewGrid": "Photo Wall",
-    "chartDemoNote": "Uso ng pag-upload (mga araw)",
-    "loginRequired": "Mangyaring mag-login upang makita ang iyong dashboard.",
-    "checkoutSuccess": "Matagumpay ang payment! Na-upgrade na ang iyong plan.",
-    "subscriptionSuccess": "Na-activate ang subscription. Welcome sa {plan}!",
-    "circleCrop": "Circle Crop",
-    "roundedCorners": "Rounded Corners",
-    "scheduledForDeletion": "Nakatakdang tanggalin",
-    "upload": "Mag-upload",
-    "uploadPhoto": "Mag-upload ng larawan",
-    "batchUploadPhotos": "Mag-upload ng maraming larawan",
-    "batchUploading": "Nag-u-upload ng maraming larawan…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Pumili ng hanggang {max} na file nang sabay-sabay.",
-    "batchUploadTierHint": "Hanggang {max} na file bawat batch ayon sa plano mo.",
-    "uploadUpgradeHint": "Magagamit pagkatapos mag-upgrade",
-    "uploading": "Nag-a-upload...",
-    "loading": "Naglo-load...",
-    "uploadErrorInvalidType": "Hindi wastong uri ng file. Gumamit ng PNG, JPG, WEBP, o GIF.",
-    "uploadErrorTooLarge": "Masyado malaking file. Hanggang {maxMb} MB kada file ang pinapayagan ng iyong plano.",
-    "uploadErrorDailyLimit": "Naabot na ang arawang limitasyon ({limit} na upload/araw).",
-    "uploadErrorStorageLimit": "Naabot na ang limitasyon ng storage.",
-    "uploadErrorGeneric": "Nabigo ang pag-upload. Subukan muli.",
-    "uploadUpgradeTitle": "I-unlock ang Direct Upload",
-    "uploadUpgradeDescription": "Mag-upgrade para mag-upload nang direkta mula sa iyong dashboard na may mas mataas na limitasyon.",
-    "uploadRenewDescription": "Mag-renew para mag-upload nang direkta mula sa iyong dashboard na may mas mataas na limitasyon.",
-    "expiredStorageLimitHint": "Pagkatapos mag-expire, 100MB na storage lang ang magagamit",
-    "uploadGoHome": "Mag-upload sa homepage",
-    "resourceModule": {
-      "title": "Aking mga dokumento",
-      "count": "Mayroon kang {count} na nai-upload na dokumento",
-      "empty": "Wala pang dokumento. Mag-upload ng PDF/Word/PowerPoint/Excel para magsimula.",
-      "viewCard": "Card",
-      "searchPlaceholder": "Maghanap ayon sa filename",
-      "typeAll": "Lahat ng uri",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "I-reset",
-      "upload": "Mag-upload ng dokumento",
-      "uploading": "Nag-a-upload...",
-      "copy": "Kopyahin ang link",
-      "open": "Buksan",
-      "delete": "Tanggalin",
-      "deleteFailed": "Hindi matanggal ang dokumento",
-      "fetchError": "Hindi ma-load ang listahan ng dokumento",
-      "tableFile": "File",
-      "tablePath": "Path",
-      "tableType": "Uri",
-      "typeLabel": "Uri",
-      "tableSize": "Laki",
-      "tableActions": "Mga Aksyon",
-      "uploadErrorTooLarge": "Masyadong malaki ang file. Ang limit kada file sa iyong plano ay {maxSize}.",
-      "uploadErrorDailyLimit": "Naabot na ang arawang limitasyon ({limit} na upload/araw).",
-      "uploadErrorStorageLimit": "Naabot na ang limitasyon ng storage.",
-      "uploadErrorGeneric": "Nabigo ang pag-upload. Subukan muli."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Laki ng file {size}",
-    "dailyUploadsLimit": "{limit} na upload/araw",
-    "dailyUploadsUnlimited": "Walang limitasyon sa upload",
-    "monthly": "buwan",
-    "yearly": "taon",
-    "bestValue": "Pinakamahusay na Halaga",
-    "upgrade": {
-      "title": "I-upgrade ang iyong plan",
-      "description": "Mag-upgrade para sa mas mataas na araw-araw na limitasyon, mas malalaking file, at premium features. Walang limitasyong araw-araw na upload sa taunang Premium plan.",
-      "button": "Mag-upgrade ngayon"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Mga Setting",
-      "profile": {
-        "title": "Profile",
-        "description": "Pamahalaan ang impormasyon ng iyong profile",
-        "name": {
-          "title": "Pangalan",
-          "description": "I-update ang iyong ipinapakita na pangalan",
-          "placeholder": "Ilagay ang iyong pangalan",
-          "hint": "Ito ang pangalan na ipapakita sa iyong profile",
-          "minLength": "Ang pangalan ay dapat may kahit 3 character",
-          "maxLength": "Ang pangalan ay hindi dapat higit sa 30 character",
-          "success": "Matagumpay na na-update ang pangalan",
-          "fail": "Hindi na-update ang pangalan",
-          "save": "I-save",
-          "saving": "Sinasave..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "I-update ang iyong profile picture",
-          "uploadAvatar": "Mag-upload ng imahe",
-          "unavailable": "Hindi available ang upload",
-          "disabledHint": "Ang pag-upload ng avatar ay nangangailangan ng cloud storage na paganahin para sa project na ito.",
-          "recommendation": "PNG, JPG, o WebP. Ang maximum size ay sumusunod sa mga limitasyon ng server."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Billing",
-        "description": "Pamahalaan ang iyong billing at subscription",
-        "billingPagePlanTitle": "Kasalukuyang plano",
-        "billingPageStorageTitle": "Gamit ng storage",
-        "currentPlan": {
-          "title": "Ang iyong plan at storage sa Photo To URL",
-          "description": "Mag-upgrade para ma-unlock ang mas mataas na quota at mas maraming feature"
-        },
-        "loadError": "Hindi ma-load ang billing data.",
-        "retry": "Subukang muli",
-        "planNames": {
-          "free": "Libreng",
-          "premium": "Premium",
-          "pro": "Propesyonal"
-        },
-        "status": {
-          "active": "Aktibo",
-          "expired": "Paso na"
-        },
-        "storageUsed": "Ginamit na storage",
-        "freePlanMessage": "Mas mataas na upload quota",
-        "inactivePlanMessage": "Paso na ang mga benepisyo",
-        "expiredStorageLimitHint": "Pagkatapos mag-expire, 100MB na storage lang ang magagamit",
-        "paidPlanMessage": "Aktibo ang mga benepisyo",
-        "backToWorkbench": "Bumalik sa dashboard",
-        "upgradeHint": "Mas maraming storage space",
-        "upgradeToPlan": "Mag-upgrade ng plano",
-        "featureAdvancedEditing": "Advanced na mga tool sa pag-edit",
-        "upgradeNotReady": {
-          "title": "Malapit na",
-          "description": "Manatiling updated para sa higit pang services!",
-          "confirm": "Nauunawaan ko",
-          "cancel": "Isara"
-        },
-        "storage": {
-          "title": "Mas mabilis na CDN",
-          "description": "Subaybayan ang iyong pagkonsumo ng storage",
-          "upgradeStorage": "I-upgrade ang storage"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Seguridad",
-        "description": "Pamahalaan ang seguridad ng iyong account",
-        "updatePassword": {
-          "title": "Password",
-          "description": "Palitan ang password para sa iyong email login",
-          "currentPassword": "Kasalukuyang password",
-          "newPassword": "Bagong password",
-          "confirmPassword": "Kumpirmahin ang bagong password",
-          "currentRequired": "Ilagay ang iyong kasalukuyang password",
-          "newMinLength": "Hindi bababa sa 8 character",
-          "confirmRequired": "Pakikumpirma ang iyong bagong password",
-          "passwordMismatch": "Hindi magkapareho ang mga password",
-          "hint": "Gumamit ng matibay na password na hindi mo ginagamit sa ibang lugar.",
-          "save": "I-update ang password",
-          "saving": "Sinasave…",
-          "success": "Na-update ang password",
-          "fail": "Hindi ma-update ang password",
-          "showPassword": "Ipakita ang password",
-          "hidePassword": "Itago ang password"
-        },
-        "resetPassword": {
-          "title": "Mag-set ng password",
-          "description": "Nag-login ka gamit ang Google. Magdagdag ng email password para sa backup login.",
-          "info": "Magpapadala kami ng link para magtakda muli ng password sa email ng iyong account.",
-          "button": "Magpadala ng reset link",
-          "sending": "Pinapadala…",
-          "sent": "Tingnan ang iyong email para sa link sa pagtatakda muli.",
-          "disabled": "Hindi pa nakoconfigure ang mga email ng password reset sa server na ito.",
-          "fail": "Hindi successful ang request. Subukang muli mamaya."
-        },
-        "deleteAccount": {
-          "title": "Burahin ang account",
-          "description": "Permanenteng tanggalin ang iyong account at nauugnay na data.",
-          "warning": "Hindi ito maaaring i-undo. Tiyaking nai-save ang lahat ng kailangan mo.",
-          "button": "Burahin ang aking account",
-          "confirmTitle": "Burahin ang account?",
-          "confirmDescription": "Permanenteng buburahin ang iyong account.",
-          "cancel": "Kanselahin",
-          "confirm": "Burahin",
-          "deleting": "Binabura…",
-          "success": "nabura ang account",
-          "fail": "Hindi mabura ang account"
-        }
-      },
-      "notification": {
-        "title": "Mga Abiso",
-        "description": "Pamahalaan ang iyong mga kagustuhan sa abiso",
-        "newsletter": {
-          "title": "Email updates",
-          "description": "Product news at tips (opsyonal)",
-          "label": "Mag-subscribe sa newsletter",
-          "disabledHint": "Hindi pa paganahin ang newsletter para sa site na ito.",
-          "hint": "Kapag paganahin, maaari kang mag-subscribe o mag-unsubscribe dito."
-        },
-        "productPreview": {
-          "title": "Preview ng Produkto",
-          "description": "Pangunahing larawan na ginagamit sa share cards at landing pages.",
-          "announcement": {
-            "line1": "Patuloy kaming naghahatid ng mas makapangyarihang mga feature at mas mahalagang benepisyo ng membership.",
-            "line2": "Ang mga bagong kakayahan sa upgrade ay unang ibibigay sa kasalukuyang mga user, nang walang pagbabago sa presyo.",
-            "line3": "Salamat sa tiwala at suporta. Patuloy naming pahuhusayin ang produkto para mas gumanda ang inyong karanasan.",
-            "line4": "Patuloy naming io-optimize ang global na karanasan ng user gamit ang mas mabilis at mas maaasahang serbisyo."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Artist account",
-    "artFightWorkspaceHint": "Naka-enable ang artist tools — kopyahin ang URL, HTML, BBCode, at Markdown embed codes para sa bawat photo."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Hosting ng profile card Art Fight | URL at embed code",
-      "description": "Mag-upload ng Team Tragedy, Comedy, o Mystery profile card. Kumuha ng direktang HTTPS link at HTML/BBCode embed para sa Art Fight, Discord, at social posts.",
-      "keywords": "Art Fight profile card,ref sheet hosting,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Hosting ng Art Fight",
-    "artistAccount": {
-      "badge": "Account ng artista",
-      "title": "Magrehistro ng nakalaang artist account",
-      "lead": "Gumawa ng libreng artist account para i-save ang profile cards sa Dashboard at gamitin ang propesyonal na embed tools para sa Art Fight — kopyahin ang URL, HTML, BBCode, at Markdown sa bawat upload.",
-      "toolEmbedTitle": "Mga embed tool",
-      "toolEmbedDesc": "One-click copy para sa Art Fight profiles, Discord, forums, at social posts.",
-      "toolDashboardTitle": "Dashboard ng artista",
-      "toolDashboardDesc": "Nananatili ang bawat card sa account mo — maghanap, mag-preview, at kopyahin muli ang links anumang oras.",
-      "toolBatchTitle": "Batch upload (Pro)",
-      "toolBatchDesc": "Pagkatapos mag-upgrade, mag-upload ng maraming profile cards nang sabay — para sa artists na may maraming OC.",
-      "registerCta": "Gumawa ng artist account",
-      "footnote": "Lagyan ng check ang «Nakalaang artist account» kapag nag-sign up, o magrehistro mula sa pahinang ito — pipiliin na namin ito."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Para sa digital artists at OC creators",
-      "title": "Profile Card at Ref Sheet Hosting para sa Art Fight Artists",
-      "subtitle": "I-upload ang Team Tragedy, Comedy, o Mystery profile card — stable image URL plus HTML at BBCode embed codes para sa Art Fight profiles, Discord, at «ready to fight» social posts.",
-      "artistAccountLine": "Magrehistro ng nakalaang artist account para sa propesyonal na embed tools sa Dashboard.",
-      "cta": "I-drop ang profile card sa ibaba → kopyahin ang link → i-paste kung saan ideklara ang team mo",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Hosting ng profile card",
-      "tabArtist": "Account ng artista",
-      "tabSupport": "Suporta para sa artista",
-      "tabsAriaLabel": "Mga highlight ng Art Fight hero",
-      "trustLine": "Libreng mabilis na upload · URL at embed codes · Artist Dashboard",
-      "uploadCta": "Mag-upload ng card",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Embed codes na handa nang i-paste",
-      "panelIntroDesc": "Mag-upload ng profile card isang beses, pagkatapos kopyahin ang direktang link o HTML/BBCode para sa Art Fight at Discord.",
-      "panelArtistTitle": "Mga tool ng artist account",
-      "panelSupportTitle": "Nakalaang suporta para sa artista",
-      "panelSupportDesc": "Uploads, embeds, accounts, at plans — tunay na tao, hindi generic ticket queue."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Parehong tool para sa bawat Art Fight team",
-      "lead": "Tragedy, Comedy, o Mystery man — pagkatapos ng card kailangan mo ng mabilis at stable na image link para ibahagi.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Asul na profile cards at ref sheets — i-host ang buong card image at i-paste ang link sa Art Fight profile o Twitter/X post.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Orange/warm character cards — perpekto para sa Discord announcements at profile embeds sa peak ng Art Fight.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Purple cards ng third faction — parehong upload flow, parehong embed codes, handa kapag kailangan mong mag-share.",
-      "footnote": "Parehong workflow ng tatlong team: upload → kopyahin URL o embed → i-post ang card publicly."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Saan nagpe-paste ang artists ng link",
-      "lead": "Social ang Art Fight. Sumasama ang hosted link sa bawat profile update at bawat «nandito ako sa team na ito» post.",
-      "profileTitle": "Profile ng Art Fight",
-      "profileDesc": "I-paste ang direktang URL o HTML embed sa official Art Fight character profile para makita ng teammates ang card mo.",
-      "socialTitle": "Twitter / X at social posts",
-      "socialDesc": "Ibahagi ang profile card kapag ideklara ang team — malinis na HTTPS link na mabilis mag-load sa timelines at replies.",
-      "discordTitle": "Discord at artist servers",
-      "discordDesc": "I-drop ang URL o BBCode sa Art Fight Discord channels, server intros, o attack-plan threads.",
-      "portfolioTitle": "Toyhouse at portfolio sites",
-      "portfolioDesc": "Parehong link sa Toyhouse, Carrd, o forum signatures — consistent ref kahit saan."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Bakit pinipili ng Art Fight artists ang Photo To URL",
-      "fastTitle": "Ginawa para sa busy na Art Fight periods",
-      "fastDesc": "Mag-upload kapag kailangan mag-post — CDN link sa loob ng ilang segundo sa warmup, peak event, o anumang oras.",
-      "linkTitle": "URL na friendly sa profile card",
-      "linkDesc": "Malinis na .png/.jpg links na tinatanggap ng Art Fight profiles, forums, at social posts nang walang extra steps.",
-      "embedTitle": "HTML at BBCode para sa artists",
-      "embedDesc": "Kopyahin ang embed snippets para sa profiles at forums — walang manual img tag editing sa busy season.",
-      "safeTitle": "Dashboard hosting pagkatapos mag-sign in",
-      "safeDesc": "Nagse-save ang registered users ng profile cards sa Dashboard — kopyahin muli ang links, maghanap ng files, pamahalaan ang uploads mula sa isang lugar."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Artist account: i-host ang cards sa Dashboard",
-      "sectionLead": "Gumagana ang anonymous uploads para sa mabilis na post. Magrehistro bilang Art Fight artist para sa dedicated Dashboard na may embed tools — o mag-Pro para sa batch upload at mas mataas na limits.",
-      "dashboardTitle": "Photo hosting sa Dashboard",
-      "dashboardDesc": "Pagkatapos mag-sign in, nase-save sa Dashboard ang bawat upload. Kopyahin ang parehong link, buksan sa bagong tab, o i-download ang original — lahat mula sa isang list.",
-      "batchTitle": "Batch upload (Pro)",
-      "batchDesc": "Maraming profile cards nang sabay mula sa Dashboard — hanggang {monthlyMax} bawat batch sa Pro, o {yearlyMax} sa Premium yearly.",
-      "manageTitle": "Search at photo wall",
-      "manageDesc": "Hanapin ang hosted card ayon sa filename, magpalit ng table at photo-wall views, burahin ang hindi na kailangan.",
-      "proTitle": "Mas mataas na limits at mas malalaking files",
-      "proDesc": "Lahat ng nasa Free plus Dashboard batch upload ({monthlyMax}–{yearlyMax} files), mas mataas na daily limits, mas malalaking uploads, mas maraming storage.",
-      "anonymousLabel": "Hindi nagpapakilala",
-      "anonymousDesc": "Mabilis na link para sa isang post. Hindi nase-save sa account; maaaring burahin anumang oras.",
-      "freeLabel": "Libreng account",
-      "freeDesc": "Naka-save ang cards sa Dashboard. Kopyahin ang links, maghanap, pamahalaan hanggang burahin o maabot ang storage limits.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Gumawa ng libreng account",
-      "loginCta": "Pumasok",
-      "dashboardCta": "Buksan ang Dashboard",
-      "proCta": "Tingnan ang Pro plans",
-      "ctaPanelTitle": "Handa nang i-host ang cards mo?",
-      "footnote": "Nag-u-upload dito at namamahala sa Dashboard ang libreng accounts. Kailangan ng Pro o Premium ang batch upload."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "I-upload ang Art Fight profile card mo",
-      "sectionLead": "Ref sheet, team card, o buong profile graphic — i-drag dito at kopyahin ang link para sa susunod na post.",
-      "dropzoneTitle": "I-drop ang profile card o ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP, GIF — welcome ang team cards, ref sheets, at character graphics",
-      "dropzoneFootnote": "Libre: 5 uploads/araw nang walang signup. Mag-sign in para sa mas mataas na limits.",
-      "defaultAlt": "Profile card ng Art Fight",
-      "resultTitle": "Handa na ang card mo — ibahagi",
-      "resultHint": "Kopyahin ang URL para sa Art Fight profiles, o HTML/BBCode para sa forums at Discord.",
-      "open": "Buksan ang image",
-      "reset": "Mag-upload ng ibang card",
-      "errorBadType": "Mag-upload ng image file (PNG, JPG, WEBP, o GIF).",
-      "errorGeneric": "Nabigo ang upload. Subukan muli.",
-      "loginRequiredTitle": "Naabot na ang daily free limit",
-      "loginRequiredDescription": "Mag-sign in para magpatuloy mag-upload at i-save sa Dashboard, o bumalik bukas para sa mas maraming libreng uploads.",
-      "loginRequiredDetail": "Registered users: Dashboard hosting — nananatili ang bawat card sa account, maaaring kopyahin muli ang links, maghanap ayon sa filename, pamahalaan mula sa isang lugar.",
-      "retentionAnonymousTitle": "Anonymous na link — hindi inirerekomenda para sa mahahalagang card",
-      "retentionAnonymousBody": "Anonymous uploads para sa mabilis na share lang. Gumagana ang link ngayon pero hindi nase-save — mag-register nang libre.",
-      "retentionAnonymousSignUp": "Gumawa ng libreng account",
-      "retentionAnonymousPro": "Tingnan ang Pro plans",
-      "retentionFreeTitle": "Naka-save sa account mo ang link na ito",
-      "retentionFreeBody": "Maaari mong kopyahin muli mula sa Dashboard anumang oras. May daily upload limits at storage caps ang libreng accounts — sapat para sa mabilis na cards, hindi walang hanggan.",
-      "retentionFreeDashboard": "Buksan ang Dashboard",
-      "retentionFreeUpgrade": "Mag-upgrade para sa mas maraming storage",
-      "retentionProTitle": "Naka-host ang profile card mo sa Pro plan mo",
-      "retentionProBody": "Mas mataas na upload limits, mas maraming storage, at maaasahang links para sa bawat Art Fight — Tragedy, Comedy, o Mystery.",
-      "retentionProDashboard": "Buksan ang Dashboard",
-      "resultHintAnonymous": "Anonymous na upload — direktang link lang. Mag-register para ma-unlock ang HTML, BBCode at Markdown.",
-      "retentionAnonymousIntro": "Ang direktang link na ito ay para sa mabilis na pag-share, pero may malubhang limitasyon ang anonymous hosting:",
-      "retentionAnonymousLimit1": "Hindi nakatali sa account — mas hindi secure; sinumang may link ay makakaccess",
-      "retentionAnonymousLimit2": "Mas mabagal na CDN — walang priority acceleration ang anonymous uploads",
-      "retentionAnonymousLimit3": "Maaaring ma-compress — hindi garantisado ang orihinal na kalidad",
-      "retentionAnonymousLimit4": "Maikling buhay — periodic na nililinis ang anonymous files; maaaring tumigil ang link",
-      "retentionAnonymousLimit5": "Naka-lock ang embed codes — kailangan ng libreng account ang HTML, BBCode at Markdown",
-      "retentionAnonymousCta": "Gumawa ng libreng account para mag-save ng cards, i-unlock ang embeds, mas mabilis na CDN at mas maaasahang links."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Alt text (para sa HTML at Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Kopyahin ang code",
-      "copied": "Nakopya",
-      "lockedTabTitle": "Mag-register para i-unlock ang embed codes",
-      "lockedTabDescription": "Available ang HTML, BBCode at Markdown pagkatapos mag-register. Libreng account: dashboard at one-click embed copy.",
-      "lockedTabCta": "Gumawa ng libreng account"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "Mula profile card hanggang public post",
-      "lead": "Ang workflow na sinusunod ng bawat Art Fight artist pagkatapos matapos ang card.",
-      "schemaName": "Paano mag-host ng Art Fight profile card na may embed code",
-      "schemaDescription": "Mag-upload ng Art Fight team profile card sa Photo To URL at i-paste ang link sa profile o social post.",
-      "step1Title": "I-upload ang team card",
-      "step1Desc": "I-drop ang Tragedy, Comedy, o Mystery profile card o ref sheet — direktang link at embed codes agad.",
-      "step2Title": "Kopyahin ang URL o embed code",
-      "step2Desc": "URL tab para sa Art Fight profiles, HTML/BBCode para sa Discord, forums, at portfolio sites.",
-      "step3Title": "Mag-post at ideklara ang team",
-      "step3Desc": "I-paste ang link sa Art Fight, Twitter/X, o Discord para makita ng ibang artists ang card mo at hanapin ka sa event."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "FAQ para sa Art Fight artists",
-      "lead": "Mga tanong mula sa artists na nag-u-upload ng Team Tragedy, Comedy, at Mystery cards.",
-      "warningTitle": "Mag-upload nang responsable",
-      "warningBody": "I-host lang ang artwork na ginawa mo o may malinaw na karapatang ibahagi. Huwag mag-upload ng lumalabag, ilegal, o ipinagbabawal na content. Responsable ka sa bawat file na ina-upload.",
-      "warningTermsLink": "Mga Tuntunin ng Serbisyo",
-      "warningPrivacyLink": "Patakaran sa Privacy",
-      "q1Question": "Para sa profile cards o ref sheets ba ito?",
-      "q1Answer": "Pareho. I-upload ang buong Art Fight team profile card, character ref sheet, o anumang graphic na kailangan mong i-hotlink para sa event.",
-      "q2Question": "Gumagana ba para sa tatlong team?",
-      "q2Answer": "Oo. Team Tragedy, Team Comedy, at Team Mystery — parehong upload, ibinibigay namin ang shareable link.",
-      "q3Question": "Kailangan ba ng account para mag-upload?",
-      "q3Answer": "Hindi para sa mabilis na uploads. 5 libreng uploads/araw ang anonymous users. Mag-sign in para i-save sa Dashboard — kopyahin muli, maghanap, pamahalaan. Nagdadagdag ang Pro ng batch upload (20–50 cards) at mas mataas na limits.",
-      "q8Question": "Maaari bang batch-upload ang maraming profile cards?",
-      "q8Answer": "Oo, sa paid plan. Buksan ang Dashboard, Batch upload, piliin ang maraming PNG/JPG/WEBP/GIF — hanggang 20/batch sa Pro monthly, 50 sa Premium yearly. Libre: isa-isa dito o sa Dashboard.",
-      "q4Question": "Gagana ba ang link sa Discord at Twitter?",
-      "q4Answer": "Oo. Gumagana ang direktang HTTPS URL sa social posts. Gamitin ang BBCode kung suportado.",
-      "q5Question": "Mananatili bang available ang link sa long term?",
-      "q5Answer": "Depende sa paraan ng upload. Pansamantala lang ang anonymous links — periodic cleanup, maaaring mawala ang link. Nasa Dashboard ang files ng registered users hanggang burahin o maabot ang limits. Pinaka-maaasahan ang Pro long term.",
-      "q6Question": "Maaari bang mag-upload ng anumang image? Copyright?",
-      "q6Answer": "I-upload lang ang images na pagmamay-ari mo o awtorisado kang i-host at ibahagi — OCs mo, commissions na may hosting rights, sariling gawa. Huwag mag-upload ng ref sheets ng ibang artist, official Art Fight assets na hindi mo ginawa, celebrity photos, brand logos, copyrighted material nang walang pahintulot.",
-      "q7Question": "Anong content ang mahigpit na ipinagbabawal?",
-      "q7Answer": "Huwag kailanman mag-upload ng ilegal na content; sexually explicit o mapagsamantala (kasama ang menor de edad); hate speech, harassment, karahasan; malware o scam; anumang lumalabag sa copyright, trademark, o privacy. Maaari kaming mag-alis at mag-suspend nang walang abiso."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Artist support — nandito kami para tumulong",
-      "panelVisualTag": "Sagot sa loob ng 1–2 araw",
-      "panelVisualQuestion": "Hindi gumagana ang BBCode embed?",
-      "panelVisualReply": "Naintindihan — tutulungan ka naming ayusin ito.",
-      "topicEmbed": "Embeds at links",
-      "topicAccount": "Account ng artista",
-      "topicPlan": "Plans at storage",
-      "topicFeedback": "Ideas at feedback",
-      "contactHint": "Makipag-ugnayan anumang oras — walang pila.",
-      "contactCta": "Makipag-ugnayan",
-      "emailCta": "Mag-email sa amin"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Maraming OC? Batch upload mula sa Dashboard",
-      "description": "Nag-u-upload ang Pro artists ng dose-dosenang profile cards nang sabay, pinapanatili ang bawat link sa Dashboard, mas mataas na daily limits at storage para sa buong roster.",
-      "cta": "Tingnan ang artist-friendly Pro plans"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

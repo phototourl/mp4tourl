@@ -8,19 +8,25 @@ interface ProfileLayoutProps {
 export default async function ProfileLayout({ children }: ProfileLayoutProps) {
   const t = await getTranslations('Dashboard.settings');
 
+  const breadcrumbs = [
+    {
+      label: t('title'),
+      isCurrentPage: false,
+    },
+    {
+      label: t('profile.title'),
+      isCurrentPage: true,
+    },
+  ];
+
   return (
     <>
-      <DashboardHeader
-        breadcrumbs={[
-          { label: t('title'), isCurrentPage: false },
-          { label: t('profile.title'), isCurrentPage: true },
-        ]}
-      />
+      <DashboardHeader breadcrumbs={breadcrumbs} />
 
-      <div className="flex min-h-0 flex-1 flex-col">
-        <div className="flex min-h-0 flex-1 flex-col gap-2">
-          <div className="flex min-h-0 flex-1 flex-col gap-4 py-4 md:gap-6 md:py-6">
-            <div data-settings-shell className="flex min-h-0 flex-1 flex-col space-y-8 px-4 lg:px-6">
+      <div className="flex flex-1 flex-col">
+        <div className="@container/main flex flex-1 flex-col gap-2">
+          <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
+            <div className="px-4 lg:px-6 space-y-8">
               <div>
                 <h1 className="text-3xl font-bold tracking-tight">
                   {t('profile.title')}

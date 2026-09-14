@@ -1,34 +1,36 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { LocaleLink, useLocaleRouter } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
+import { ArrowLeftIcon } from 'lucide-react';
 
 interface BackButtonSmallProps {
-	className?: string;
-	href?: string;
+  href?: string;
+  className?: string;
 }
 
-export default function BackButtonSmall({ className, href }: BackButtonSmallProps) {
-	const router = useRouter();
+export default function BackButtonSmall({
+  href,
+  className,
+}: BackButtonSmallProps) {
+  const router = useLocaleRouter();
 
-	const handleClick = () => {
-		if (href) {
-			router.push(href);
-		} else {
-			router.back();
-		}
-	};
+  const handleBack = () => {
+    router.back();
+  };
 
-	return (
-		<Button
-			variant="ghost"
-			size="sm"
-			onClick={handleClick}
-			className={cn('gap-2 text-muted-foreground hover:text-foreground', className)}
-		>
-			<ArrowLeft className="size-4" />
-		</Button>
-	);
+  return (
+    <Button
+      size="sm"
+      variant="outline"
+      className={cn('size-8 px-0', className)}
+      asChild
+    >
+      {/* if href is provided, use it, otherwise use the router.back() */}
+      <LocaleLink href={href || '#'} onClick={handleBack}>
+        <ArrowLeftIcon className="size-4" />
+      </LocaleLink>
+    </Button>
+  );
 }

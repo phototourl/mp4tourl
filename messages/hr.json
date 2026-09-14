@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Slika u URL",
-    "logout": "Odjava",
-    "logoutFailed": "Odjava nije uspjela",
-    "switchLanguage": "Promijeni jezik",
-    "tagline": "Pretvorite fotografije u čiste, djeljive poveznice u nekoliko sekundi",
-    "header": {
-      "home": "Početna",
-      "blog": "Blog",
-      "subtitle": "Pretvorite slike u djeljive poveznice",
-      "prompt": "Povucite, zalijepite ili učitajte — odmah preuzmite poveznicu",
-      "circleCrop": "Okrugli izrez",
-      "circleCropNav": "Kružni izrez",
-      "roundedCorners": "Zaobljeni rubovi",
-      "removeBackground": "Foto Ukloni Pozadinu",
-      "removeBackgroundNav": "Ukloni Pozadinu",
-      "pricingNav": "Cijene",
-      "comingSoon": "Uskoro.",
-      "history": "Povijest učitavanja",
-      "login": "Prijava",
-      "signUp": "Registracija",
-      "signOut": "Odjava",
-      "dashboard": "Nadzorna ploča",
-      "settings": "Postavke",
-      "tool": "Alati",
-      "pdfToUrlNav": "PDF u URL",
-      "fileToUrlNav": "Datoteka u URL",
-      "artFightNav": "Profilne kartice"
-    },
-    "history": {
-      "drawerTitle": "Povijest učitavanja",
-      "hint": "Prikazuju se učitavanja iz prošlog tjedna.",
-      "close": "Zatvori",
-      "empty": "Još nema učitavanja.",
-      "copy": "Kopiraj poveznicu",
-      "copied": "Kopirano",
-      "open": "Otvori u novoj kartici"
-    },
-    "languageSelect": {
-      "title": "Odaberite svoju regiju",
-      "subtitle": "Odabir regije će promijeniti jezik i sadržaj.",
-      "close": "Zatvori"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Pretvorite fotografije u čiste, djeljive poveznice.",
-        "line2": "Brzo, jednostavno, pouzdano."
-      },
-      "partners": "Partneri",
-      "linksTitle": "Resursi",
-      "productsTitle": "Proizvodi",
-      "nav": {
-        "home": "Početna",
-        "blog": "Blog",
-        "pricing": "Cijene",
-        "docs": "Dokumentacija",
-        "status": "Status",
-        "about": "O nama",
-        "contact": "Kontakt"
-      },
-      "legal": {
-        "title": "Pravno",
-        "privacy": "Privatnost",
-        "terms": "Uvjeti",
-        "cookie": "Pravila kolačića"
-      },
-      "copyright": "© 2025 Photo To URL. Sva prava pridržana.",
-      "products": {
-        "editStamp": "Uređivač pečata"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Besplatno",
-      "cdn": "CDN poveznice",
-      "nosignup": "Bez registracije"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Besplatno",
-      "title2": "Slika u URL",
-      "subtitle": "Učitajte fotografiju → preuzmite poveznicu → zalijepite je bilo gdje",
-      "upload": "Učitaj sliku",
-      "bullet": {
-        "fast": "Brzo dijeljenje",
-        "direct": "Izravne poveznice na slike",
-        "nosignup": "Nije potrebna registracija",
-        "paste": "Zalijepi iz međuspremnika"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Prijavite se za nastavak",
-      "description": "Dosegnuli ste besplatni limit prijenosa. Prijavite se za spremanje povijesti i upravljanje datotekama. Viši limiti dostupni u Pro planovima.",
-      "benefits": "Zasto se registrirati?",
-      "benefit1": "Potpuna povijest prijenosa - organizirana, tocna i uvijek dostupna",
-      "benefit2": "Pristup svim premium alatima za uredivanje",
-      "benefit3": "Pohrana u oblaku s poviješću prijenosa",
-      "login": "Prijava / Registracija",
-      "later": "Kasnije"
-    },
-    "upgradePrompt": {
-      "title": "Dnevni limit dosegnut",
-      "description": "Iskoristili ste sve prijenose za danas. Vratite se sutra! Uskoro dolazi vise premium usluga.",
-      "comingSoon": "Pratite nas za vise usluga",
-      "goDashboard": "Pogledaj",
-      "later": "Kasnije"
-    },
-    "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Povucite i ispustite sliku",
-      "idleSubtitle": "Pogledajte proces: učitavanje → poveznica → kopiranje.",
-      "processing": "Optimiziranje i učitavanje...",
-      "doneTitle": "Spremno za dijeljenje",
-      "doneSubtitle": "Vaša poveznica je spremna za trenutnu upotrebu.",
-      "thanksForWatching": "Hvala na gledanju"
-    },
-    "upload": {
-      "title": "Ispustite sliku ovdje ili kliknite za odabir",
-      "hint": "JPG, PNG, WEBP, GIF do 2MB (10 prijenosa/dan besplatno). Povucite, kliknite ili zalijepite snimke zaslona.",
-      "orDrop": "ili ispustite datoteku ovdje",
-      "samplesTitle": "Nemate sliku? Isprobajte jednu od ovih:",
-      "policy": "Učitavanjem slike slažete se s našim <privacy>Pravilima privatnosti</privacy> i <terms>Uvjetima korištenja</terms>.",
-      "clear": "Očisti"
-    },
-    "result": {
-      "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
-      "fileTooLarge": "Datoteka je prevelika. Vas plan dopusta do {maxMb} MB po datoteci.",
-      "dailyLimitReached": "Dosegnuto je dnevno ograničenje ({limit} dnevno). Pokušajte ponovno sutra.",
-      "storageLimitReached": "Pohrana puna ({used} / {limit}). Više opcija pohrane uskoro!",
-      "generated": "Generirana poveznica:",
-      "open": "Otvori u novoj kartici",
-      "placeholder": "Još nema poveznice. Učitajte sliku za generiranje URL-a.",
-      "savePrompt": "Spremite poveznicu u željenom formatu",
-      "copy": "Kopiraj poveznicu",
-      "copied": "Kopirano",
-      "saveHint": "Spremite ovu poveznicu ako će vam trebati kasnije",
-      "saveHintLoggedIn": "Spremljeno na ploču",
-      "tryPrefix": "Isprobajte"
-    },
-    "benefits": {
-      "title": "Zašto odabrati Slika u URL",
-      "subtitle": "Brzina — Besplatna proba: 10 prijenosa/dan, 2MB po datoteci",
-      "items": {
-        "fast": {
-          "title": "Brzo dijeljenje",
-          "desc": "Učitajte i preuzmite poveznicu u nekoliko sekundi bez dodatnih koraka."
-        },
-        "direct": {
-          "title": "Izravni URL-ovi slika",
-          "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za dopisivanje."
-        },
-        "nosignup": {
-          "title": "Bez registracije",
-          "desc": "Besplatna proba: 5 prijenosa/dan, 2MB po datoteci — bez registracije."
-        }
-      }
-    },
-    "how": {
-      "title": "Kako to funkcionira",
-      "step1": "1) Dodajte fotografiju (povucite, zalijepite ili odaberite datoteku).",
-      "step2": "2) Mi je pohranjujemo i dajemo vam djeljivu poveznicu.",
-      "step3": "3) Kopirajte i podijelite poveznicu u dokumentima, chatovima, prototipovima i drugim mjestima.",
-      "note": "Poveznica se brzo otvara u dokumentima i chatovima — možete je preuzeti kao .txt."
-    },
-    "process": {
-      "title": "Tijek u tri koraka",
-      "subtitle": "Smanjite napor, zadržite CTA vidljivim, završite za nekoliko sekundi.",
-      "steps": {
-        "1": {
-          "title": "Pustite ili zalijepite",
-          "desc": "Povucite datoteku, zalijepite iz međuspremnika ili pregledajte."
-        },
-        "2": {
-          "title": "Mi hostiramo i vraćamo poveznicu",
-          "desc": "Trenutna URL s kontrolama kopiranja/otvaranja/spremanja."
-        },
-        "3": {
-          "title": "Koristite bilo gdje",
-          "desc": "Koristite u dokumentima, chatovima, tiketima, blogovima ili prototipovima."
-        }
-      }
-    },
-    "features": {
-      "title": "Ključne značajke",
-      "subtitle": "Jasnoća na prvom mjestu: manje prepreka, više dijeljenja.",
-      "items": {
-        "cdn": {
-          "title": "Izravne CDN poveznice",
-          "desc": "Čisti URL-ovi spremni za Markdown i HTML umetanje."
-        },
-        "save": {
-          "title": "Kopiraj i Spremi",
-          "desc": "Kopirajte, otvorite ili spremite kao .txt datoteku jednim klikom."
-        },
-        "clipboard": {
-          "title": "Prilagođeno međuspremniku",
-          "desc": "Zalijepite snimke zaslona izravno bez traženja datoteka."
-        },
-        "errors": {
-          "title": "Sigurno i Privatno",
-          "desc": "Images are securely hosted with encryption in transit and at rest."
-        },
-        "nosignup": {
-          "title": "Bez registracije",
-          "desc": "Besplatna proba: 5 prijenosa/dan, 2MB po datoteci — bez registracije."
-        },
-        "r2": {
-          "title": "Brzo hostiranje",
-          "desc": "Poveznice se poslužuju putem brzog CDN-a za brzo učitavanje i pouzdan pristup."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Timovi štede vrijeme s Slika u URL",
-      "subtitle": "Društveni dokaz za smanjenje rizika i ubrzanje usvajanja.",
-      "items": {
-        "ops": {
-          "name": "Produktne operacije",
-          "quote": "Lijepimo snimke zaslona u tikete bez začepljivanja privitaka. Poveznice ostaju čiste."
-        },
-        "content": {
-          "name": "Voditelj sadržaja",
-          "quote": "Poveznice spremne za Markdown drže naše dokumente urednima i objavljivima za nekoliko minuta."
-        },
-        "support": {
-          "name": "Podrška",
-          "quote": "Jasne greške i trenutne URL-ovi olakšavaju vođenje kupaca u chatu."
-        }
-      }
-    },
-    "cta": {
-      "title": "Pretvorite fotografije u poveznice za nekoliko sekundi",
-      "subtitle": "Povucite, zalijepite ili učitajte — kopirajte poveznicu i dijelite posvuda.",
-      "upload": "Učitaj sada",
-      "paste": "Zalijepi snimku zaslona"
-    },
-    "longform": {
-      "title": "Zašto Slika u URL pomaže vašem radnom toku",
-      "p1": "Slika u URL je izgrađen za kreatore, marketing, podršku, operacije i sve koji trebaju pretvoriti fotografije u čiste, pouzdane poveznice. S izravnim tijekom učitavanja→poveznica izbjegavate teške upravitelje medija i ne trebate prijavu. Poveznice su uredne i lako se lijepe u chatove, dokumente, wikije, izvještaje o greškama i tikete. Timovi se kreću brže dijeleći snimke zaslona odmah· dodatno, predvidljive URL-ovi pomažu u automatizaciji, QA i laganim prototipovima.",
-      "p2": "Iskustvo ostaje jednostavno: pustite, zalijepite ili odaberite datoteku· dobijte poveznicu· podijelite je. Bez buke, bez ometajućih oglasa, bez prepreka. Vi se fokusirate na sadržaj, mi upravljamo hostingom. Za globalne timove sučelje je dostupno na više jezika zadržavajući tekst jasan i univerzalan.",
-      "useCases": {
-        "title": "Praktični slučajevi korištenja",
-        "items": {
-          "1": "Proizvod i dizajn: podijelite snimke zaslona UI-a i brze bilješke bez teških alata.",
-          "2": "Podrška i QA: priložite reproducibilne snimke zaslona u tikete i chatove s čistim poveznicama.",
-          "3": "Dokumenti i blogovi: ugradite slike u Markdown/HTML/CMS uređivače s predvidljivim URL-ovima.",
-          "4": "Prodaja i CS: podijelite snimke zaslona POC-a ili obilazaka putem e-pošte ili poruka.",
-          "5": "Inženjerski handoff: podijelite dokaze i usporedbe regresije na lagan način.",
-          "6": "Zajednica i društveno: zalijepite poveznice u Discord/Slack/Teams/X/forume bez teških pregleda."
-        }
-      },
-      "flow": {
-        "title": "Kako tijek radi od početka do kraja",
-        "p1": "1) Odaberite sliku: povucite i pustite, zalijepite iz međuspremnika ili pregledajte. PNG, JPG, WEBP, GIF do 2MB u besplatnom planu (10 prijenosa/dan). 2) Učitavamo i vraćamo izravnu poveznicu s akcijama kopiranja/otvaranja/spremanja (.txt). 3) Koristite poveznicu u blogovima, dokumentima, tiketima, chatovima, prototipovima i drugdje.",
-        "p2": "Svaki korak je podešen za jasnoću: vidljiv status, prijateljske greške i gumbi s potvrdom. Kada je CDN omogućen, poveznice se poslužuju iz CDN domene; vaše slike se sigurno pohranjuju na our hosting infrastructure."
-      },
-      "best": {
-        "title": "Najbolje prakse za čišće poveznice",
-        "items": {
-          "1": "Zadržite imena datoteka smislena prije učitavanja· ona ostaju dio URL-a i pomažu budućem pretraživanju.",
-          "2": "Koristite WEBP ili optimizirane JPG/PNG za lakša opterećenja ako očekujete veliko dijeljenje.",
-          "3": "Kopirajte poveznicu izravno nakon generiranja kako biste izbjegli zastarjele unose međuspremnika.",
-          "6": "Spremite kao .txt za poveznice običnog teksta koje su spremne za kopiranje i korištenje."
-        }
-      },
-      "roadmap": {
-        "title": "Istaknute točke roadmapa",
-        "p1": "Duboko ćemo integrirati our hosting infrastructure, pružajući korisnici prijateljskije kvote i mogućnosti upravljanja, zajedno s opcionalnom timskom suradnjom, kontrolom pristupa i analitikom po poveznici. Planiramo pokrenuti funkcije poput brisanja jednim klikom, unaprijed postavljenih stilova poveznica i spremišnih spremnika na razini organizacije. U međuvremenu, kontinuirano poboljšavamo i usavršavamo podproizvode: alat za kružno izrezivanje, alat za zaobljene rubove i alat za uklanjanje pozadine, kako bismo učinili obradu slika prikladnijom."
-      },
-      "faq": {
-        "title": "Često postavljana pitanja",
-        "items": {
-          "1": {
-            "q": "Je li besplatno?",
-            "a": "Da — postoji besplatna verzija. Jezgra učitavanje→poveznica besplatna je unutar besplatnih ograničenja (dnevna učitavanja, ukupni prostor, veličina datoteke). Želite li viša ograničenja, odaberite plaćeni paket: poveznice hostamo na CDN-u (CDN) s višim kvotama i većim maksimalnim ograničenjem veličine datoteke."
-          },
-          "2": {
-            "q": "Koji formati su podržani?",
-            "a": "Trenutno podržavamo PNG, JPG, WEBP i GIF unutar trenutnih ograničenja veličine datoteke. Dodatni formati mogu se dodati prema potrebi."
-          },
-          "3": {
-            "q": "Mogu li ugraditi u Markdown ili HTML?",
-            "a": "Da. Kopirajte poveznicu izravno ili je spremite jednim klikom kao .txt i koristite gdje trebate — Markdown, HTML, dokumenti ili CMS."
-          },
-          "4": {
-            "q": "Držite li moje datoteke javnima?",
-            "a": "Poveznice su dijeljive. Kad je omogućen CDN, datoteke se isporučuju putem CDN domene. Ako pohrana privremeno nije dostupna, prikazujemo jasnu poruku održavanja."
-          },
-          "5": {
-            "q": "Hoće li biti računa ili timova?",
-            "a": "Da. Prvo se fokusiramo na jednostavno i pouzdano učitavanje i dijeljenje; zatim postupno dodajemo timske prostore, kontrolu pristupa i analitiku korištenja."
-          },
-          "6": {
-            "q": "Mogu li dobiti povrat novca nakon plaćanja?",
-            "a": "Općenito ne nudimo povrate dok je usluga dostupna za uobičajenu upotrebu. Ako je ne možete koristiti tijekom plaćenog razdoblja zbog problema s naše strane, razmotrit ćemo vaš slučaj nakon provjere i po potrebi dogovoriti sljedeće korake s vama."
-          },
-          "7": {
-            "q": "Kako otkazati automatsko obnavljanje?",
-            "a": "Obnavljanje se automatski naplaćuje na karticu koju ste ovlastili. Da biste zaustavili buduća terećenja, otkažite direktno terećenje ili ponavljajuću naplatu kod izdavatelja kartice (aplikacija, internetsko bankarstvo ili korisnička podrška)."
-          },
-          "8": {
-            "q": "Koliko dugo mogu koristiti uslugu nakon otkaza?",
-            "a": "Obično možete nastaviti do isteka već plaćenog razdoblja. Nakon toga neće biti novih naplata, a pogodnosti završavaju s tim razdobljem."
-          }
-        },
-        "contactNote": "Za gore navedeno i ostala pitanja koristite stranicu «Kontaktirajte nas» na ovoj stranici ili pišite na <email>support@phototourl.com</email>. Ciljamo odgovor u roku od 1–2 radna dana."
-      },
-      "about": {
-        "title": "O Photo To URL-u",
-        "p1": "PhotoToURL je besplatni pretvarač slike u URL i generator poveznica koji vam pomaže učitati slike i odmah generirati poveznice za dijeljenje. Jednostavno pretvorite JPG, PNG, WEBP i druge formate u izravne URL-ove slika za brzo online dijeljenje.",
-        "p2": "Bilo da trebate brzi photo to URL ili besplatni hosting slika s CDN-om, PhotoToURL je jednostavan i pouzdan. Učitajte sliku i dobijte izravnu poveznicu u nekoliko sekundi. Besplatni plan: 10 prijenosa/dan, 2MB po datoteci — viši limiti vidi Cijene."
-      }
-    },
-    "selectRegion": {
-      "title": "Odaberite regiju",
-      "subtitle": "Odaberite željeni jezik i regiju"
-    }
-  },
-  "seo": {
-    "keywords": "fotografija u url,slika u url,generator veza slika,pretvori sliku u vezu,besplatno hostiranje slika,cdn slika",
-    "home": {
-      "title": "Slika u URL Pretvarač | Pretvorite fotografije u dijeljive veze",
-      "description": "Besplatno hostiranje slika: pretvorite fotografije u URL-ove za dijeljenje. JPG, PNG, WEBP, GIF do 2MB, 10 prijenosa/dan u besplatnom planu. Međuspremnik, brzi CDN."
-    }
-  },
-  "images": {
-    "previewAlt": "Pregled učitane slike",
-    "animatingSampleAlt": "Uzorak slike korišten u demo učitavanju",
-    "sampleThumbAlt": "Uzorak slike za učitavanje",
-    "useSampleAria": "Koristite ovu uzorak sliku",
-    "howIllustrationAlt": "Ilustracija koja pokazuje kako Slika u URL radi",
-    "heroDropTitle": "Povucite fotografiju ovdje",
-    "heroDropSubtitle": "Poboljšat ćemo je i hostirati, zatim vratiti čistu poveznicu.",
-    "heroDropBadge": "Povucite ili kliknite (JPG/PNG, do 2MB)",
-    "logoAlt": "Slika u URL logo"
-  },
-  "circleCrop": {
-    "title": "Okrugli izrez",
-    "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike.",
-    "upload": "Učitaj fotografiju",
-    "processing": "Obrađuje se...",
-    "download": "Preuzmi kružnu sliku",
-    "errorSelectFile": "Odaberite datoteku slike.",
-    "errorUploadFirst": "Prvo prenesite fotografiju.",
-    "page": {
-      "title": "Kružni izrez fotografije - Besplatni online alat",
-      "description": "Pretvorite pravokutne fotografije u savršene krugove odmah i bez registracije.",
-      "sectionSubtitle": "Izrežite bilo koju fotografiju u savrseni krug - idealno za profilne fotografije, avatare na drustvenim mrezama i dizajnerske projekte."
-    },
-    "seo": {
-      "title": "Alat za Kružno Izrezivanje | Besplatni Online Izrezivač Okruglih Fotografija",
-      "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike i društvene mreže.",
-      "keywords": "kružno izrezivanje slike, izrezivanje kružne slike, alat kružno izrezivanje, kružno izrezivanje online"
-    },
-    "selectRegion": {
-      "title": "Odaberite regiju",
-      "subtitle": "Odaberite željeni jezik i regiju"
-    }
-  },
-  "roundedCorners": {
-    "title": "Foto sa zaobljenim rubovima",
-    "description": "Besplatni online alat za zaobljene rubove – lako dodajte zaobljene rubove bilo kojoj fotografiji, savršeno za ikone aplikacija, profilne slike i dizajn projekte.",
-    "upload": "Prenesi fotografiju",
-    "download": "Preuzmi",
-    "radiusLabel": "Polumjer (px)",
-    "scaleLabel": "Uvećaj",
-    "processing": "Obrada...",
-    "errorUploadFirst": "Prvo prenesite fotografiju.",
-    "errorSelectFile": "Odaberite datoteku slike.",
-    "page": {
-      "title": "Foto sa zaobljenim rubovima – Besplatni online alat",
-      "description": "Foto sa zaobljenim rubovima je besplatni online alat za dodavanje zaobljenih rubova bilo kojoj fotografiji. Stvorite ikone u stilu aplikacija, slike s mekim rubovima za društvene mreže ili minijature s podesivim polumjerom i zoomom. Bez registracije – prenesite, prilagodite, preuzmite.",
-      "sectionSubtitle": "Dodajte zaobljene kutove bilo kojoj fotografiji - savrseno za ikone aplikacija, drustvene mreze i minijature."
-    },
-    "seo": {
-      "title": "Alat za Zaobljene Rubove | Besplatni online alat",
-      "description": "Besplatni alat za dodavanje zaobljenih rubova fotografijama – za ikone aplikacija, profilne slike i dizajn projekte.",
-      "keywords": "zaobljeni rubovi, slika zaobljeni rubovi, alat zaobljeni rubovi, zaobljeni rubovi online"
-    },
-    "selectRegion": {
-      "title": "Odaberi regiju",
-      "subtitle": "Odaberite željeni jezik i regiju"
-    }
-  },
-  "removeBackground": {
-    "title": "Foto Ukloni Pozadinu",
-    "description": "Besplatni online AI alat za uklanjanje pozadine, lako uklonite pozadinu s bilo koje fotografije - savršeno za fotografije proizvoda, portrete i dizajnerske projekte.",
-    "upload": "Učitaj Fotografiju",
-    "download": "Preuzmi",
-    "processing": "Obrađuje se...",
-    "processingModelLoading": "Učitavanje AI modela, prva upotreba može potrajati 10-30 sekundi, molimo pričekajte...",
-    "processingImage": "Obrađuje se slika, molimo pričekajte...",
-    "errorUploadFirst": "Molimo prvo učitajte fotografiju.",
-    "errorSelectFile": "Molimo odaberite datoteku slike.",
-    "errorProcessing": "Neuspješna obrada slike. Molimo pokušajte ponovno.",
-    "errorTimeout": "Istek vremena obrade, slika može biti prevelika ili je mreža spora, molimo pokušajte s manjom slikom ili pokušajte ponovno kasnije.",
-    "errorMemory": "Nedovoljno memorije, molimo pokušajte s manjom slikom.",
-    "errorGeneric": "Obrada nije uspjela: {error}. Molimo pokušajte ponovno ili pokušajte s drugom slikom.",
-    "errorFileTooLarge": "Datoteka slike je prevelika, molimo odaberite sliku manju od 10MB.",
-    "errorModelLoad": "Neuspješno učitavanje biblioteke AI modela, molimo osvježite stranicu i pokušajte ponovno.",
-    "errorPageHidden": "Stranica je promijenjena, molimo učitajte sliku ponovno za obradu.",
-    "page": {
-      "title": "Foto Ukloni Pozadinu - Besplatni Online AI Alat za Uklanjanje Pozadine",
-      "description": "Foto Ukloni Pozadinu je besplatni online alat pokretan AI-om za uklanjanje pozadina s bilo koje fotografije. Stvorite prozirne PNG slike odmah s našom naprednom tehnologijom uklanjanja pozadine. Savršeno za fotografije proizvoda, portrete, e-trgovinu i dizajnerske projekte. Registracija nije potrebna - učitajte, obradite i preuzmite u sekundama.",
-      "sectionSubtitle": "Uklanjanje pozadine uz pomoc AI-ja - stvorite prozirne PNG-ove iz bilo koje fotografije u sekundi."
-    },
-    "seo": {
-      "title": "Alat za Uklanjanje Pozadine | Besplatni Online AI Alat za Uklanjanje Pozadine",
-      "description": "Besplatni online AI alat za uklanjanje pozadine s bilo koje fotografije - savršeno za fotografije proizvoda, portrete i dizajnerske projekte.",
-      "keywords": "ukloni pozadinu, alat za uklanjanje pozadine, prozirna pozadina, uklanjanje pozadine s ai"
-    },
-    "selectRegion": {
-      "title": "Odaberi Regiju",
-      "subtitle": "Odaberite željeni jezik i regiju"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF u URL | Hosting PDF-a i dijeljive HTTPS poveznice",
-      "description": "Učitajte PDF-ove na svoj račun i dobijte stabilnu HTTPS poveznicu — pregledavajte, preuzimajte ili kopirajte poveznicu bilo kada na nadzornoj ploči računa.",
-      "keywords": "pdf u url,hosting pdf,dijeljenje pdf,ucitavanje pdf,direktna poveznica,poveznica dokumenta"
-    },
-    "tool": {
-      "heroTitle": "PDF u URL",
-      "heroSubtitle": "Pretvorite PDF-ove u dijeljive HTTPS poveznice pod vašim računom. Nakon svakog učitavanja otvorite nadzornu ploču za kopiranje poveznice, pregled ili preuzimanje.",
-      "featureFastTitle": "Brzo učitavanje",
-      "featureFastDesc": "Povucite i ispustite PDF ili odaberite datoteku — za nekoliko sekundi dobivate poveznicu putem CDN-a.",
-      "featureHostingTitle": "Osobni hosting",
-      "featureHostingDesc": "Svaka datoteka sprema se u vaš oblak i biblioteku dokumenata — nije anonimna jednokratna poveznica.",
-      "featureLinkTitle": "Stabilne, dijeljive poveznice",
-      "featureLinkDesc": "Svako učitavanje vraća čistu URL adresu za lijepljenje bilo gdje. Poveznica radi dok ne izbrišete datoteku s nadzorne ploče.",
-      "featureDashboardTitle": "Sve na jednom mjestu",
-      "featureDashboardDesc": "Nakon prijave otvorite nadzornu ploču da vidite sve PDF-ove: ponovno kopirajte poveznicu, otvorite u novoj kartici ili preuzmite izvornik.",
-      "dropzoneTitle": "Povucite PDF ovdje",
-      "dropzoneHint": "Samo PDF",
-      "dropzoneFootnote": "Nakon učitavanja možete se bilo kada vratiti na nadzornu ploču za kopiranje poveznice ili preuzimanje datoteke.",
-      "browse": "Odaberi datoteku",
-      "selectedFileLabel": "Odabrana datoteka",
-      "removeSelectedFile": "Ukloni datoteku",
-      "uploadBtn": "Učitaj i dobij poveznicu",
-      "uploading": "Učitavanje…",
-      "loginRequiredTitle": "Prijavite se za učitavanje PDF-a",
-      "loginRequiredDescription": "Prvo se prijavite. Hosting je vezan uz račun; nakon učitavanja možete kopirati poveznice, preuzimati i upravljati sve s nadzorne ploče.",
-      "loginRequiredDetail": "Nakon prijave svako učitavanje pojavljuje se na istom mjestu ploče: kopiranje izravne poveznice jednim klikom, otvaranje u novoj kartici, preuzimanje izvornika, pretraživanje i filtriranje po vrsti, brisanje ili ponovno učitavanje — pomaže privatnosti dokumenata.",
-      "loginCta": "Prijava",
-      "signUpCta": "Stvori račun",
-      "resultTitle": "Vaša PDF poveznica",
-      "resultDashboardHint": "Za ovu datoteku bilo kada otvorite nadzornu ploču: kopirajte URL, otvorite u novoj kartici ili preuzmite PDF.",
-      "dashboardCta": "Otvori ploču",
-      "copy": "Kopiraj poveznicu",
-      "copied": "Kopirano",
-      "open": "Otvori u novoj kartici",
-      "reset": "Učitaj drugu",
-      "errorUnauthorized": "Prijavite se prije učitavanja PDF-a.",
-      "errorBadType": "Odaberite PDF datoteku.",
-      "howTitle": "Kako radi",
-      "step1Title": "1. Odaberite PDF",
-      "step1Desc": "Odaberite datoteku s uređaja ili je povucite u područje učitavanja.",
-      "step2Title": "2. Učitajte u biblioteku",
-      "step2Desc": "Spremamo PDF u vaš oblak i prikazujemo na nadzornoj ploči, zatim vraćamo izravnu HTTPS URL adresu.",
-      "step3Title": "3. Podijelite i vratite se kasnije",
-      "step3Desc": "Podijelite poveznicu e-poštom ili chatom. Otvorite nadzornu ploču za ponovno kopiranje, otvaranje ili preuzimanje datoteke."
-    },
-    "page": {
-      "sectionTitle": "Vaši dokumenti na jednom mjestu",
-      "sectionLead": "Za one koji žele pravi PDF hosting s bibliotekom — učitajte jednom, zadržite na računu i vratite se bilo kada.",
-      "bullet1": "Svaki učitani PDF pojavljuje se na istoj listi ploče da vidite što ste podijelili.",
-      "bullet2": "Osobni hosting: datoteke pod vašim računom, poslužene putem HTTPS-a, u vašoj biblioteci.",
-      "bullet3": "Radnje uvijek pri ruci: kopiranje javne poveznice, otvaranje u pregledniku ili preuzimanje izvornog PDF-a.",
-      "bullet4": "Isti URL radi dok datoteka postoji; nakon brisanja na ploči poveznica više ne poslužuje tu datoteku.",
-      "footnote": "Izbrišite datoteke koje više ne trebate na nadzornoj ploči; poveznica prestaje raditi."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "Datoteka u URL | Office dokumenti i HTTPS poveznice",
-      "description": "Učitajte PDF, Word, PowerPoint ili Excel na račun i dobijte stabilnu HTTPS poveznicu — pregledavajte, preuzimajte ili kopirajte poveznicu bilo kada na nadzornoj ploči.",
-      "keywords": "datoteka u url,poveznica dokumenta,dijeljenje office,ucitavanje docx pptx xlsx,hosting dokumenata"
-    },
-    "tool": {
-      "heroTitle": "Datoteka u URL",
-      "heroSubtitle": "Pretvorite uredske dokumente u dijeljive HTTPS poveznice pod vašim računom. Podržani formati: PDF, Word, PowerPoint i Excel.",
-      "featureFastTitle": "Brzo učitavanje",
-      "featureFastDesc": "Povucite podržanu datoteku ili je odaberite — za nekoliko sekundi dobivate poveznicu putem CDN-a.",
-      "featureHostingTitle": "Osobni hosting",
-      "featureHostingDesc": "Svako učitavanje sprema se u vaš oblak i u istu osobnu biblioteku kao učitavanja s drugih stranica.",
-      "featureLinkTitle": "Stabilne, dijeljive poveznice",
-      "featureLinkDesc": "Svako učitavanje vraća čistu URL adresu. Poveznica radi dok ne izbrišete datoteku s nadzorne ploče.",
-      "featureDashboardTitle": "Sve na jednom mjestu",
-      "featureDashboardDesc": "Nakon prijave otvorite nadzornu ploču za ponovno kopiranje poveznice, otvaranje u novoj kartici ili preuzimanje.",
-      "dropzoneTitle": "Povucite datoteku ovdje",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "Nakon učitavanja možete se bilo kada vratiti na nadzornu ploču za kopiranje poveznice ili preuzimanje datoteke.",
-      "browse": "Odaberi datoteku",
-      "selectedFileLabel": "Odabrana datoteka",
-      "removeSelectedFile": "Ukloni datoteku",
-      "uploadBtn": "Učitaj i dobij poveznicu",
-      "uploading": "Učitavanje…",
-      "loginRequiredTitle": "Prijavite se za učitavanje datoteka",
-      "loginRequiredDescription": "Prvo se prijavite. Hosting je vezan uz račun; nakon učitavanja možete kopirati poveznice, preuzimati i upravljati sve s nadzorne ploče.",
-      "loginRequiredDetail": "Nakon prijave svako učitavanje pojavljuje se na istom mjestu ploče: kopiranje izravne poveznice jednim klikom, otvaranje u novoj kartici, preuzimanje izvornika, pretraživanje i filtriranje po vrsti, brisanje ili ponovno učitavanje — pomaže privatnosti dokumenata.",
-      "loginCta": "Prijava",
-      "signUpCta": "Stvori račun",
-      "resultTitle": "Vaša poveznica na datoteku",
-      "resultDashboardHint": "Za ovu datoteku bilo kada otvorite nadzornu ploču: kopirajte URL, otvorite u novoj kartici ili preuzmite izvornik.",
-      "dashboardCta": "Otvori ploču",
-      "copy": "Kopiraj poveznicu",
-      "copied": "Kopirano",
-      "open": "Otvori u novoj kartici",
-      "reset": "Učitaj drugu",
-      "errorUnauthorized": "Prijavite se prije učitavanja datoteka.",
-      "errorBadType": "Odaberite PDF, Word, PowerPoint ili Excel datoteku.",
-      "howTitle": "Kako radi",
-      "step1Title": "1. Odaberite datoteku",
-      "step1Desc": "Odaberite podržani dokument s uređaja ili ga povucite u područje učitavanja.",
-      "step2Title": "2. Učitajte u biblioteku",
-      "step2Desc": "Spremamo datoteku u vaš oblak i prikazujemo na nadzornoj ploči, zatim vraćamo izravnu HTTPS URL adresu.",
-      "step3Title": "3. Podijelite i vratite se kasnije",
-      "step3Desc": "Podijelite poveznicu e-poštom ili chatom. Otvorite nadzornu ploču za ponovno kopiranje, otvaranje ili preuzimanje datoteke."
-    },
-    "page": {
-      "sectionTitle": "Ukratko",
-      "sectionLead": "Odaberite datoteku, učitajte i kopirajte poveznicu — otvorite nadzornu ploču za ponovno kopiranje ili preuzimanje izvornika.",
-      "bullet1": "Podržani formati: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Povucite i ispustite ili pregledajte datoteku; po završetku učitavanja prikazujemo HTTPS poveznicu spremnu za kopiranje.",
-      "bullet3": "Zalijepite poveznicu u e-poštu, chat ili dokumente — primatelji otvaraju u pregledniku.",
-      "bullet4": "Datoteke ostaju na računu; otvorite nadzornu ploču za istu poveznicu ili preuzimanje izvornika.",
-      "bullet5": "Samo PDF? Koristite i stranicu «PDF u URL» za kraći tijek.",
-      "footnote": "Izbrišite datoteku na nadzornoj ploči kada više nije potrebna; poveznica prestaje raditi."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Slika u URL",
-      "description": "Članci o hostiranju fotografija, dijeljenju veza i savjetima za performanse."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Najnoviji članci, vodiči i uvidi o hostiranju slika, CDN-u, dijeljenju veza, kružnom rezanju, zaobljenim kutovima i uklanjanju pozadine.",
-      "stayTuned": "Pratite vodiče o:",
-      "guides": {
-        "1": "Najbolje prakse za pretvorbu slike u URL",
-        "2": "Kako koristiti izravne veze fotografija u blogovima i dokumentima",
-        "3": "Performanse i predmemoriranje za statičke resurse"
-      },
-      "readMore": "Pročitaj više",
-      "min": "min",
-      "backToBlog": "Povratak na blog",
-      "minRead": "min čitanja",
-      "author": "Autor",
-      "viewMoreArticles": "Pogledaj više članaka",
-      "tags": "Oznake:",
-      "about": {
-        "title": "O timu Slika u URL",
-        "subtitle": "Urednički tim",
-        "description": "Gradimo i održavamo Slika u URL i pišemo praktične vodiče za optimizaciju slika i web performanse.",
-        "website": "Web stranica",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Pogledaj sve objave"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Kako pretvoriti sliku u URL: Potpuni vodič",
-        "description": "Naučite sve što trebate znati o pretvaranju slika u dijeljive URL-ove. Ovaj sveobuhvatni vodič pokriva metode, najbolje prakse i savjete za hostiranje slika i dijeljenje veza.",
-        "content": "# Kako pretvoriti sliku u URL: Potpuni vodič\n\nPretvaranje slika u dijeljive URL-ove postalo je ključna vještina u današnjem digitalnom svijetu. Bez obzira jeste li bloger, programer ili kreator sadržaja, razumijevanje kako transformirati svoje slike u direktne veze može značajno poboljšati vaš radni proces i mogućnosti dijeljenja sadržaja.\n\n## Zašto pretvarati slike u URL-ove?\n\nPrije nego što se upustimo u metode, razumijmo zašto je pretvaranje slika u URL-ove korisno:\n\n### 1. **Lako dijeljenje**\nDirektni URL-ovi slika omogućavaju vam da dijelite slike odmah bez preuzimanja ili ponovnog učitavanja datoteka. Jednostavno kopirajte URL i zalijepite ga bilo gdje - u e-poštu, dokumente ili objave na društvenim mrežama.\n\n### 2. **Bolje performanse**\nKorištenje direktnih veza na slike smanjuje opterećenje vašeg glavnog servera. Kada su slike hostirane na CDN-u (Content Delivery Network), brže se učitavaju za korisnike širom svijeta.\n\n### 3. **Fleksibilnost**\nURL-ovi slika mogu se ugraditi u HTML, Markdown ili koristiti u API-jima. Ova fleksibilnost ih čini savršenim i za programere i za kreatore sadržaja.\n\n### 4. **Učinkovitost pohrane**\nUmjesto lokalnog pohranjivanja slika, možete koristiti rješenja za pohranu u oblaku koja pružaju direktne URL-ove, štedeći vrijedan prostor na serveru.\n\n## Metode za pretvaranje slika u URL-ove\n\n### Metoda 1: Korištenje usluge Slika u URL\n\n**Slika u URL** je besplatna, korisnički prijateljska usluga koja čini pretvaranje slike u URL jednostavnim:\n\n1. **Posjetite web stranicu**: Navigirajte do Slika u URL\n2. **Učitajte svoju sliku**: Povucite i pustite datoteku slike ili kliknite za pregledavanje\n3. **Dobijte svoj URL**: Nakon učitavanja, dobit ćete direktnu vezu na svoju sliku\n4. **Kopirajte i koristite**: Kopirajte URL i koristite ga gdje god trebate\n\n**Prednosti:**\n- ✅ Registracija nije potrebna\n- ✅ Brzo učitavanje i obrada\n- ✅ Direktne CDN veze za optimalne performanse\n- ✅ Podrška za više formata slika (JPG, PNG, WEBP, GIF)\n- ✅ 10 prijenosa/dan, 2MB po datoteci\n\n### Metoda 2: Usluge pohrane u oblaku\n\nPopularne usluge pohrane u oblaku nude hostiranje slika s direktnim pristupom URL-u:\n\n**Google Cloud Storage / AWS S3:**\n- Učitajte slike u svoj bucket\n- Postavite odgovarajuće dozvole\n- Pristupite slikama putem direktnih URL-ova\n- Konfigurirajte CDN za bolje performanse\n\n**Prednosti:**\n- Potpuna kontrola nad svojim slikama\n- Skalabilna rješenja za pohranu\n- Infrastruktura profesionalne razine\n\n### Metoda 3: Platforme za hostiranje slika\n\nNamjenske platforme za hostiranje slika pružaju specijalizirane usluge:\n\n- **Imgur**: Popularan za brzo dijeljenje slika\n- **Cloudinary**: Napredne značajke za manipulaciju slikama\n- **ImageKit**: Optimiziran za performanse\n\n## Najbolje prakse za URL-ove slika\n\n### 1. **Odaberite pravi format**\n\nRazličiti formati slika služe različitim svrhama:\n\n- **JPEG**: Najbolji za fotografije s mnogo boja\n- **PNG**: Idealno za slike s transparentnošću ili oštrim rubovima\n- **WEBP**: Moderan format koji nudi bolju kompresiju\n- **GIF**: Savršeno za animirane slike\n\n### 2. **Optimizirajte veličinu slike**\n\nPrije pretvaranja u URL, optimizirajte svoje slike:\n\n- Kompresirajte slike za smanjenje veličine datoteke\n- Promijenite veličinu slika na odgovarajuće dimenzije\n- Koristite moderne formate poput WEBP-a kada je moguće\n- Uravnotežite kvalitetu i veličinu datoteke\n\n### 3. **Koristite CDN za bolje performanse**\n\nMreže za dostavu sadržaja (CDN) distribuiraju vaše slike na više servera širom svijeta, osiguravajući brza vremena učitavanja bez obzira na lokaciju korisnika.\n\n### 4. **Implementirajte odgovarajuću sigurnost**\n\n- Koristite HTTPS URL-ove za sigurnu dostavu slika\n- Postavite odgovarajuće dozvole pristupa\n- Razmislite o vodenom žigu za osjetljiv sadržaj\n- Pratite korištenje kako biste spriječili zlouporabu\n\n## Uobičajeni slučajevi korištenja\n\n### Za blogere\n\nBlogeri mogu koristiti URL-ove slika za:\n- Ugradnju slika u blog objave bez lokalnog hostiranja\n- Poboljšanje vremena učitavanja stranica\n- Dijeljenje slika na više platformi\n- Održavanje konzistentne kvalitete slika\n\n### Za programere\n\nProgrameri imaju koristi od URL-ova slika:\n- Smanjujući opterećenje servera\n- Pojednostavljujući upravljanje slikama\n- Omogućujući dinamičko učitavanje slika\n- Integrirajući s API-jima i web uslugama\n\n### Za e-trgovinu\n\nE-trgovinske stranice koriste URL-ove slika za:\n- Učinkovito prikazivanje slika proizvoda\n- Upravljanje velikim katalogima slika\n- Optimizaciju za mobilne uređaje\n- Poboljšanje performansi stranice za naplatu\n\n## Rješavanje uobičajenih problema\n\n### Problem: Pokvarene veze na slike\n\n**Rješenje:**\n- Provjerite je li URL točan i dostupan\n- Provjerite dozvole i postavke pristupa slikama\n- Osigurajte da hosting usluga radi\n- Potvrdite da je format slike podržan\n\n### Problem: Spora vremena učitavanja\n\n**Rješenje:**\n- Koristite CDN za dostavu slika\n- Optimizirajte veličine datoteka slika\n- Odaberite odgovarajuće formate slika\n- Implementirajte lijeno učitavanje gdje je moguće\n\n### Problem: Slika se ne prikazuje\n\n**Rješenje:**\n- Provjerite postavke CORS-a (Cross-Origin Resource Sharing)\n- Provjerite odgovaraju li HTTPS/HTTP protokoli\n- Osigurajte da su postavljeni odgovarajući MIME tipovi\n- Testirajte dostupnost URL-a s različitih lokacija\n\n## Napredni savjeti\n\n### 1. **Obrada u serijama**\n\nZa više slika, razmislite o:\n- Korištenju API-ja za automatizirana učitavanja\n- Implementaciji skripti za serijsku konverziju\n- Korištenju API-ja za pohranu u oblaku\n- Postavljanju automatiziranih radnih tokova\n\n### 2. **Manipulacija slikama**\n\nNeke usluge nude manipulaciju slikama u letu:\n- Promjena veličine slika putem URL parametara\n- Primjena filtera i efekata\n- Automatska konverzija formata\n- Izrezivanje i rotacija slika\n\n### 3. **Analitika i praćenje**\n\nPratite korištenje svojih slika:\n- Pratite potrošnju propusnosti\n- Analizirajte popularne slike\n- Pratite obrasce pristupa\n- Optimizirajte na temelju podataka o korištenju\n\n## Zaključak\n\nPretvaranje slika u URL-ove je jednostavan proces koji nudi brojne prednosti. Bilo da odaberete jednostavnu uslugu poput Slika u URL ili sveobuhvatno rješenje za pohranu u oblaku, ključ je pronaći metodu koja najbolje odgovara vašim potrebama.\n\nZapamtite:\n- ✅ Optimizirajte slike prije učitavanja\n- ✅ Odaberite odgovarajuće formate\n- ✅ Koristite CDN za bolje performanse\n- ✅ Implementirajte odgovarajuće sigurnosne mjere\n- ✅ Redovito pratite i optimizirajte\n\nSlijedeći ove smjernice, moći ćete učinkovito pretvarati i upravljati svojim slikama kao URL-ovima, poboljšavajući i svoj radni proces i performanse svog sadržaja.\n\n## Povezani alati\n\n- [Slika u URL](/) - Besplatna usluga za pretvaranje slike u URL\n- [Alat za kružno izrezivanje](/circle-crop) - Stvorite kružne slike\n- [Alat za zaobljene rubove](/rounded-corners) - Dodajte zaobljene rubove slikama\n- [Alat za uklanjanje pozadine](/remove-background) - Uklonite pozadine slika pomoću AI-a\n\n---\n\n*Posljednje ažuriranje: Prosinac 2025*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Kako izrezati slike u kružni oblik - Kompletan vodič",
-        "description": "Transformirajte bilo koju fotografiju u savršenu kružnu sliku s našim besplatnim online alatom za kružno izrezivanje. Stvorite profesionalne okrugle slike za profile, društvene mreže, logotipe i više u samo nekoliko sekundi.",
-        "content": "# Kako izrezati slike u kružni oblik - Kompletan vodič\n\nTransformirajte bilo koju fotografiju u savršenu kružnu sliku s našim besplatnim online alatom za kružno izrezivanje. Stvorite profesionalne okrugle slike za profile, društvene mreže, logotipe i više u samo nekoliko sekundi.\n\n## Kako izrezati slike u kružni oblik\n\n### Korak 1: Učitajte svoju sliku\nOdaberite bilo koju fotografiju sa svog uređaja koju želite izrezati u kružni oblik. Naš alat podržava formate JPG, PNG, WEBP i GIF. Jednostavno kliknite gumb za učitavanje ili povucite i pustite svoju sliku.\n\n### Korak 2: Pozicionirajte svoju sliku\nPrilagodite i centrirajte svoju fotografiju unutar kružnog područja izrezivanja. Koristite klizač za zumiranje da se fokusirate na najvažniji dio svoje slike i povucite da je premjestite za savršen okrugli izrez.\n\n### Korak 3: Preuzmite svoju kružnu sliku\nKada ste zadovoljni s pozicioniranjem, kliknite \"Izreži i preuzmi\" da dobijete svoju savršeno zaobljenu sliku. Rezultat će imati transparentnu pozadinu, što ga čini savršenim za korištenje bilo gdje.\n\n## Popularni načini korištenja kružno izrezanih slika\n\n### Profilne fotografije\nIzrežite fotografije u kružni oblik za profesionalno izgledajuće profilne slike na platformama društvenih mreža kao što su Facebook, LinkedIn i Instagram. Kružni avatari stvaraju moderan, uglađen izgled.\n\n### Grafika za društvene mreže\nStvorite kružne slike za Instagram priče, Facebook objave i Twitter profile koji se ističu iz gomile. Okrugle slike dodaju vizualni interes i razbijaju monotoniju kvadratnih objava.\n\n### Okrugli logotipi\nTransformirajte svoj logotip ili slike brenda u savršeno okrugle oblike za konzistentno brendiranje na svim platformama. Kružni logotipi posebno dobro funkcioniraju za ikone aplikacija i brendiranje na društvenim mrežama.\n\n### Fotografije svjedočanstava\nPrikažite svjedočanstva klijenata s kružnim profilnim fotografijama za čist, profesionalan izgled. Okrugle slike stvaraju vizualnu konzistentnost i čine vaša svjedočanstva privlačnijima.\n\n### Fotografije članova tima\nStvorite konzistentne okrugle portrete za korporativne web stranice, stranice tima i imenike zaposlenika. Jednobrazne kružne fotografije daju vašoj stranici tima kohezivan, profesionalan izgled.\n\n## Značajke našeg alata za kružno izrezivanje\n\n- **Besplatni kružni izrezivač slika** - Napravite kružne oblike iz bilo koje slike besplatno, bez skrivenih naknada\n- **Visokorezolucijski izlaz** - Preuzmite svoje kružne slike u njihovoj originalnoj kvaliteti bez kompresije\n- **Nije potrebna registracija** - Počnite izrezivati slike u krug odmah, nije potrebno stvaranje računa\n- **Privatno i sigurno** - Vaše slike nikada ne napuštaju vaš preglednik, osiguravajući potpunu privatnost\n- **Lako za korištenje sučelje** - Jednostavan, intuitivan dizajn čini stvaranje okruglih slika bez napora\n- **Radi na svim uređajima** - Izrežite slike u kružni oblik na desktopu, tabletu ili mobilnim uređajima\n- **Transparentna pozadina** - Svi kružni izrezi dolaze s transparentnim pozadinama za maksimalnu svestranost\n- **Pregled u stvarnom vremenu** - Vidite točno kako će vaša kružna slika izgledati prije preuzimanja\n\n## Često postavljana pitanja o kružnom izrezivanju slika\n\n### Kako izrezati sliku u kružni oblik?\n\nJednostavno učitajte svoju sliku u naš alat, prilagodite je unutar kružnog okvira da pravilno pozicionirate subjekt, i kliknite \"Izrezi i preuzmi\" da dobijete svoju savršeno okruglu sliku. Naš alat olakšava izrezivanje bilo koje slike u kružnom formatu odmah bez potrebe za vještinama dizajna.\n\n### Kako napraviti kružnu profilnu fotografiju?\n\nUčitajte svoju fotografiju u naš alat za kružno izrezivanje, pozicionirajte svoje lice u centru kružnog okvira, a zatim preuzmite svoju novu okruglu profilnu fotografiju. Savršeno je za profile društvenih mreža koji koriste kružne slike kao što su Facebook, LinkedIn ili Instagram.\n\n### Mogu li izrezati fotografije u okrugle oblike na svom telefonu?\n\nDa! Naš kružni izrezivač slika radi na svim uređajima uključujući pametne telefone i tablete. Sučelje prilagođeno mobilnim uređajima omogućava vam lako stvaranje kružnih izreza slika bilo gdje. Jednostavno posjetite našu web stranicu iz svog mobilnog preglednika - nije potrebno preuzimanje aplikacije.\n\n### Spremate li slike koje učitavam?\n\nNe, nikada ne spremamo vaše slike na naše servere. Cijeli proces izrezivanja odvija se izravno u vašem pregledniku, što znači da vaše fotografije ostaju potpuno privatne. Kada napustite stranicu, svi podaci slike automatski se uklanjaju.\n\n### Koje formate slika mogu koristiti s alatom za kružno izrezivanje?\n\nNaš alat radi sa svim standardnim formatima slika uključujući JPG, PNG, WEBP i GIF. Možete učitati bilo koji od ovih formata i vaša kružno izrezana slika će biti preuzeta kao PNG datoteka s transparentnošću oko kruga.\n\n### Hoće li moja kružno izrezana slika imati transparentnu pozadinu?\n\nDa, kada preuzmete svoju izrezanu sliku, imat će transparentnu pozadinu oko kruga. To je savršeno za postavljanje na web stranice, dokumente ili dizajne gdje želite da samo kružni dio bude vidljiv.\n\n### Mogu li prilagoditi veličinu kružnog izreza?\n\nKružni izrez održava savršen omjer stranica 1:1, ali možete zumirati unutra ili van da prilagodite koliko vaše slike se pojavljuje unutar kruga. To vam omogućava da se fokusirate na specifične dijelove svoje slike dok zadržavate kružni oblik.\n\n## Savjeti za slike za savršene kružne izreze\n\n### Centrirajte svoj subjekt\nZa najbolje rezultate, odaberite slike gdje je glavni subjekt centriran ili može biti pozicioniran u centru okvira. Ovo je posebno važno za profilne fotografije i portrete gdje bi lice trebalo biti žarišna točka.\n\n### Razmotrite područje izrezivanja\nZapamtite da će uglovi vaše slike biti izrezani. Izbjegavajte slike gdje su važni detalji blizu rubova fotografije, jer će se izgubiti u kružnom izrezu.\n\n### Koristite visokorezolucijske slike\nPočetak s visokokvalitetnim slikama rezultirat će boljim kružnim izrezima. Niskorezolucijske ili male slike mogu izgledati pikselirane kada se izrežu, pa koristite izvorne slike najviše kvalitete dostupne.\n\n### Pazite na omjer stranica\nKvadratne slike obično najbolje funkcioniraju za kružno izrezivanje. Ako je vaša originalna slika vrlo široka ili visoka, možete izgubiti značajne dijelove u procesu izrezivanja. Razmotrite izrezivanje na kvadrat prvo ako je potrebno.\n\n### Prilagodite za optimalno uokvirivanje\nKoristite funkciju pozicioniranja našeg alata za zumiranje i prilagođavanje svoje slike. Za portrete, pokušajte centrirati lice s nekim marginama oko njega za najbolji profesionalni izgled. Za proizvode, centrirajte glavnu stavku unutar kruga.\n\n### Stvorite konzistentne setove\nKada stvarate više kružnih slika (kao za timske fotografije), pokušajte održati konzistentno uokvirivanje, stilove pozadine i veličine za kohezivan izgled na svim slikama.\n\n## Uobičajene upotrebe za kružno izrezane slike\n\n| Primjena | Prednosti kružnog izreza |\n|------------|------------------------|\n| Profili društvenih mreža | Većina platformi prikazuje avatare u krugovima - savršeno izrezana kružna slika izgleda profesionalno |\n| Fotografije članova tima | Stvorite konzistentne okrugle portrete za korporativne web stranice i imenike |\n| Online portfelji | Okrugle slike stvaraju vizualni interes i modernu estetiku |\n| Digitalne posjetnice | Kružno izrezane profilne fotografije izgledaju čišće i profesionalnije |\n| Minijature proizvoda | Okrugle slike proizvoda stvaraju kohezivan izgled kataloga |\n| Ikone aplikacija | Kružne ikone su standard za mobilne aplikacije |\n| Svjedočanstva web stranice | Okrugle fotografije klijenata dodaju vjerodostojnost i vizualnu privlačnost |\n\n## Zašto odabrati naš alat za kružno izrezivanje slika\n\nKada je u pitanju izrezivanje fotografija u krugove online, naš alat nudi nekoliko prednosti:\n\n- **Trenutna obrada** - Izrežite sliku u kružni oblik u sekundama bez čekanja na učitavanja ili obradu servera\n- **Savršeni krugovi svaki put** - Naš alat osigurava savršeno okrugle izreze s čistim rubovima i bez distorzije\n- **Intuitivne kontrole** - Lako pozicionirajte svoju sliku točno kako želite unutar kruga s funkcionalnostima zumiranja i povlačenja\n- **Bez vodenih žigova** - Za razliku od drugih alata za kružno izrezivanje, ne dodajemo vodeni žig na vaše slike\n- **Radi sa svim tipovima slika** - Izrežite fotografije, grafiku, ilustracije ili bilo koju sliku u krug\n- **Bazirano na pregledniku** - Nije potrebna instalacija softvera, radi izravno u vašem web pregledniku\n- **Privatnost na prvom mjestu** - Sva obrada se odvija lokalno u vašem pregledniku, vaše slike nikada ne napuštaju vaš uređaj\n\nBilo da trebate izrezati slike u kružni oblik za profesionalnu upotrebu ili osobne projekte, naš alat za kružno izrezivanje fotografija sve to rješava s lakoćom. Stvorite kružne izreze slika u samo nekoliko klikova!\n\n## Početak rada\n\nSpremni stvoriti svoju prvu kružnu sliku? Posjetite naš [Alat za kružno izrezivanje](/circle-crop) i počnite izrezivati danas. Potpuno je besplatno, ne zahtijeva registraciju i treba samo nekoliko sekundi da stvorite profesionalne kružne slike.\n\n---\n\n*Posljednje ažuriranje: Siječanj 2026*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Slike sa zaobljenim rubovima – Vodič",
-        "description": "Dodajte zaobljene rubove bilo kojoj slici besplatnim alatom. Prikladno za minijature, kartice, UI i društvene mreže u sekundama.",
-        "content": "# Slike sa zaobljenim rubovima – Vodič\n\nDajte bilo kojoj slici zaobljene rubove besplatnim online alatom. Prikladno za minijature, kartice, elemente sučelja i društvene mreže, bez dizajnerskih vještina.\n\n## Kako zaobliti rubove slike\n\n### Korak 1: Učitajte sliku\nOdaberite fotografiju s uređaja. Formati: JPG, PNG, WEBP, GIF. Kliknite ili povucite i pustite.\n\n### Korak 2: Postavite radijus ruba\nKoristite klizač za stupanj zaobljenja. Pregled se ažurira u stvarnom vremenu.\n\n### Korak 3: Preuzmite\nKliknite \"Preuzmi\" da spremite sliku sa zaobljenim rubovima i upotrijebite je u izgledu, na webu ili u objavama.\n\n## Uobičajene upotrebe\n\n### Minijature i kartice\nZaobljeni rubovi daju mrežama i karticama čist, moderan izgled.\n\n### Društvene mreže i oglasi\nSlike s mekim rubovima više se ističu u feedu i oglasima, djeluju prijateljskije.\n\n### Sučelje i aplikacije\nIkone, avatari i gumbi često imaju zaobljene rubove; alat pomaže uskladiti više slika.\n\n### Prezentacije i dokumenti\nIsti radijus na snimkama zaslona i grafici čini slajdove i dokumente konzistentnima.\n\n## Što alat nudi\n\n- **Besplatno i odmah** – bez registracije, bez vodenog žiga, bez ograničenja\n- **Podesivi radijus** – od blagog zaobljenja do oblika pilule\n- **Pregled u stvarnom vremenu** – vidite rezultat prije preuzimanja\n- **Privatnost** – obrada u pregledniku; ne spremamo slike\n- **Svi uređaji** – računalo, tablet, telefon\n\n## Često postavljana pitanja\n\n### Kako zaobliti rubove fotografije?\n\nOtvorite [Alat za zaobljene rubove](/rounded-corners), učitajte sliku, postavite radijus, kliknite Preuzmi.\n\n### Koji su formati podržani?\n\nJPG, PNG, WEBP, GIF. Preuzimanje zadržava izvorni format (ili PNG za transparentnost).\n\n### Radi li na telefonu?\n\nDa. Alat radi u mobilnom i tablet pregledniku, bez aplikacije.\n\n### Spremate li moje slike?\n\nNe. Sva obrada odvija se u vašem pregledniku; ne spremamo ništa.\n\n## Povezani alati\n\n- [Slika u URL](/) – pretvori sliku u poveznicu\n- [Kružno izrezivanje](/circle-crop) – stvori kružne slike\n- [Zaobljeni rubovi](/rounded-corners) – zaobliti rubove\n- [Uklanjanje pozadine](/remove-background) – ukloni pozadinu s AI\n\n---\n\n*Posljednje ažuriranje: Veljača 2026*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Uklanjanje pozadine – Vodič",
-        "description": "Uklonite pozadinu sa slika jednim klikom besplatnim AI alatom. Čisti izrezi za proizvode, portrete, logotipe i više.",
-        "content": "# Uklanjanje pozadine – Vodič\n\nUklonite pozadinu sa slika jednim klikom besplatnim online alatom. Čisti izrezi za fotografije proizvoda, portrete, logotipe – bez dizajnerskih vještina.\n\n## Kako ukloniti pozadinu\n\n### Korak 1: Učitajte sliku\nOdaberite bilo koju fotografiju s uređaja. Podržani: JPG, PNG, WEBP, GIF. Kliknite ili povucite i ispustite.\n\n### Korak 2: AI uklanja pozadinu\nAlat automatski prepoznaje predmet i uklanja pozadinu. Obrada traje nekoliko sekundi. Pregled u stvarnom vremenu s transparentnom pozadinom.\n\n### Korak 3: Preuzmite\nKliknite \"Preuzmi\" da spremite sliku bez pozadine. Izlaz je PNG s transparentnošću, za dizajn, e-trgovinu ili društvene mreže.\n\n## Česta uporaba\n\n### Fotografije proizvoda\nČisti izrezi za online trgovine, tržišta i oglase. Transparentna pozadina za bilo koji raspored.\n\n### Portreti i profili\nUklonite užurbanu pozadinu s portreta za životopise, LinkedIn ili profil.\n\n### Logotipi i grafika\nIzolirajte logotipe i grafiku s fotografija ili skenova. Transparentni PNG za preklapanje i prezentacije.\n\n### Društvene mreže i marketing\nUpečatljive slike za objave, priče i oglase. Transparentni izrezi za bilo koji predložak.\n\n## Što alat nudi\n\n- **Besplatno i AI** – bez registracije, bez vodenog žiga, bez ograničenja\n- **Uklanjanje jednim klikom** – automatsko prepoznavanje predmeta i čisti rubovi\n- **Transparentni PNG** – spreman za bilo koji dizajn ili platformu\n- **Privatnost** – obrada u pregledniku; ne pohranjujemo slike\n- **Svi uređaji** – PC, tablet, telefon\n\n## Često postavljana pitanja\n\n### Kako ukloniti pozadinu s fotografije?\n\nOtvorite [Alat za uklanjanje pozadine](/remove-background), učitajte sliku. Alat će prepoznati predmet i ukloniti pozadinu. Pregledajte i preuzmite kao transparentni PNG.\n\n### Koji formati slika su podržani?\n\nJPG, PNG, WEBP, GIF. Rezultat se uvijek preuzima kao PNG s transparentnom pozadinom.\n\n### Pohranjujete li moje slike?\n\nNe. Obrada se odvija u vašem pregledniku; ništa ne pohranjujemo.\n\n### Radi li na telefonu?\n\nDa. Alat radi u pregledniku na telefonu i tabletu.\n\n## Povezani alati\n\n- [Slika u URL](/) – slika u link\n- [Kružno obrezivanje](/circle-crop) – okrugle slike\n- [Zaobljeni uglovi](/rounded-corners) – zaobljeni uglovi\n- [Uklanjanje pozadine](/remove-background) – uklanjanje pozadine s AI\n\n---\n\n*Zadnje ažurirano: Ožujak 2026*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Dokumentacija za Photo To URL."
-    },
-    "page": {
-      "title": "Dokumentacija",
-      "description": "Brzi početak: učitajte sliku i dobijte izravni URL. Koristite gumbe kopiraj/otvori ili preuzmite poveznicu kao .txt.",
-      "features": {
-        "title": "Supported features:",
-        "items": {
-          "1": "Podržano: JPG, PNG, WEBP, GIF",
-          "2": "Brza isporuka putem CDN-a kada je pohrana omogućena",
-          "3": "Jasne poruke održavanja kada usluga nije dostupna"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status usluge za Photo To URL."
-    },
-    "page": {
-      "title": "Status",
-      "description": "Svi sustavi rade normalno.",
-      "message": "API za prijenos i CDN poveznice rade."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Photo To URL",
-      "description": "Kontaktirajte Photo To URL za podršku oko hostinga slika, povratne informacije, partnerstvo ili prijavu problema. Čitamo svaku poruku i nastojimo odgovoriti u roku od 1-2 radna dana."
-    },
-    "page": {
-      "title": "Kontaktirajte nas",
-      "introShort": "Imate pitanje ili povratnu informaciju? Ispunite obrazac ispod i uskoro ćemo vam se javiti.",
-      "orEmail": "Ili nam pišite na",
-      "subtitle": "Tu smo da pomognemo s hostingom slika, poveznicama i svime ostalim.",
-      "intro": "Photo To URL je besplatna usluga hostinga slika koja vaše fotografije pretvara u poveznice za dijeljenje. Ako imate pitanja, prijedloge ili naiđete na problem, rado ćemo vas saslušati.",
-      "whyTitle": "Za što nas možete kontaktirati",
-      "why1": "Tehnička podrška: pogreške pri prijenosu, neispravne poveznice ili problemi s alatom",
-      "why2": "Povratne informacije i prijedlozi funkcija za poboljšanje usluge",
-      "why3": "Upiti o partnerstvu ili suradnji",
-      "why4": "Prijava zlouporabe, zabrinutosti oko autorskih prava ili pitanja o pravilima",
-      "expectTitle": "Što možete očekivati",
-      "expectContent": "Čitamo svaku poruku i nastojimo odgovoriti u roku od 1-2 radna dana. Za hitne slučajeve navedite jasan predmet poruke i što više detalja.",
-      "emailHeading": "Kontaktirajte nas e-poštom",
-      "emailHint": "Pošaljite nam e-poruku i javit ćemo vam se što je prije moguće.",
-      "email": {
-        "label": "E-pošta",
-        "address": "support@phototourl.com",
-        "cta": "Pošalji e-poruku"
-      },
-      "form": {
-        "title": "Pošaljite poruku",
-        "description": "Ispunite obrazac u nastavku i javit ćemo vam se što je prije moguće.",
-        "name": "Ime",
-        "email": "E-pošta",
-        "message": "Poruka",
-        "namePlaceholder": "Vaše ime",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Vaša poruka ili pitanje...",
-        "submit": "Pošalji poruku",
-        "submitting": "Slanje...",
-        "success": "Poruka je uspješno poslana. Odgovorit ćemo što je prije moguće.",
-        "minLength": "Ime mora imati najmanje 3 znaka.",
-        "maxLengthName": "Ime ne smije imati više od 30 znakova.",
-        "invalidEmail": "Unesite valjanu e-mail adresu.",
-        "minLengthMessage": "Poruka mora imati najmanje 10 znakova.",
-        "maxLengthMessage": "Poruka ne smije imati više od 2000 znakova.",
-        "invalid": "Došlo je do pogreške. Pokušajte ponovno."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "O nama | Slika u URL",
-      "description": "Saznajte više o Slika u URL - besplatnoj usluzi hostiranja slika koja pretvara fotografije u dijeljive veze."
-    },
-    "page": {
-      "title": "O nama",
-      "mission": {
-        "title": "Naša misija",
-        "content": "Slika u URL je besplatna, brza i pouzdana usluga hostiranja slika dizajnirana da pomogne kreatorima, marketarima i timovima da pretvore slike u dijeljive veze odmah. Vjerujemo u jednostavnost, brzinu i privatnost korisnika."
-      },
-      "features": {
-        "title": "Što nudimo",
-        "item1": "Besplatno hostiranje slika s CDN podrškom",
-        "item2": "Trenutno generiranje veza za brzo dijeljenje",
-        "item3": "Podrška za više formata slika (JPG, PNG, WEBP, GIF)",
-        "item4": "Isprobajte bez registracije — besplatni plan: 10 prijenosa/dan, 2MB po datoteci"
-      },
-      "contact": {
-        "title": "Kontaktirajte nas",
-        "text": "Imate pitanja ili povratne informacije? Kontaktirajte nas na",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Pravila privatnosti | Slika u URL",
-        "description": "Pravila privatnosti za Slika u URL - Saznajte kako prikupljamo, koristimo i štitimo vaše podatke."
-      },
-      "page": {
-        "title": "Pravila privatnosti",
-        "lastUpdated": "Posljednje ažuriranje: svibanj 2026",
-        "introduction": "U Slika u URL poštujemo vašu privatnost i posvećeni smo zaštiti vaših osobnih podataka. Ova Pravila privatnosti objašnjavaju kako prikupljamo, koristimo, otkrivamo i štitimo vaše informacije kada koristite našu uslugu.",
-        "dataCollection": {
-          "title": "Informacije koje prikupljamo",
-          "content1": "Kada koristite Slika u URL, možemo prikupljati:",
-          "item1": "Učitane datoteke slika i metapodatke (ime datoteke, veličina, tip), pohranjene na Cloudflare R2 za pružanje dijeljivih poveznica",
-          "item2": "IP adresu, vremensku oznaku učitavanja i podatke o korištenju za ograničenje brzine, sigurnost i sprječavanje zlouporabe",
-          "item3": "Podatke o računu pri registraciji ili prijavi (adresa e-pošte, Google OAuth profil, identifikatori sesije i autentifikacije)",
-          "item4": "Podatke o pretplati i plaćanju koje obrađuje naš pružatelj plaćanja Waffo Pancake za plaćene planove — ne pohranjujemo pune brojeve kartica",
-          "content2": "Ako nas kontaktirate putem obrasca za kontakt, prikupljamo informacije koje pružite (npr. ime i e-pošta). Također koristimo kolačiće i slične tehnologije opisane u odjeljku Kolačići."
-        },
-        "dataUsage": {
-          "title": "Kako koristimo vaše informacije",
-          "item1": "Za generiranje i pružanje dijeljivih veza slika",
-          "item2": "Za sprječavanje zlouporabe i provođenje ograničenja učitavanja",
-          "item3": "Za poboljšanje naše usluge i korisničkog iskustva",
-          "item4": "Za usklađivanje s pravnim obvezama"
-        },
-        "dataStorage": {
-          "title": "Pohrana i zadržavanje podataka",
-          "content": "Učitane slike pohranjuju se u Cloudflare R2 pohranu. Zadržavamo slike onoliko dugo koliko je potrebno za pružanje usluge. Slike mogu biti automatski obrisane nakon razdoblja neaktivnosti ili zbog kršenja pravila."
-        },
-        "cookies": {
-          "title": "Kolačići i tehnologije praćenja",
-          "content1": "Koristimo sljedeće tehnologije:",
-          "item1": "Lokalno pohranjivanje: Za pohranu vaše povijesti učitavanja i jezičnih postavki",
-          "item2": "Google AdSense: Za prikazivanje oglasa (koristi kolačiće za personalizaciju oglasa)",
-          "item3": "Google Analytics: Za analitiku web stranice (anonimni podaci)",
-          "content2": "Možete kontrolirati kolačiće putem postavki vašeg preglednika. Međutim, onemogućavanje kolačića može utjecati na neke funkcije naše usluge."
-        },
-        "personalizedAds": {
-          "title": "Personalizirano oglašavanje i odjava",
-          "content": "Koristimo Google AdSense za prikaz oglasa. Google i drugi partneri mogu koristiti kolačiće za prikaz oglasa na temelju vaših posjeta ovoj i drugim stranicama. Možete se odjaviti od personaliziranih oglasa putem",
-          "linkAdsSettings": "Googleovih postavki oglasa",
-          "content2": "ili stranice za odjavu Network Advertising Initiative",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": "."
-        },
-        "thirdParty": {
-          "title": "Usluge trećih strana",
-          "content1": "Koristimo sljedeće usluge trećih strana:",
-          "item1": "Cloudflare R2: Za pohranu slika i CDN isporuku",
-          "item2": "Google AdSense: Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
-          "item3": "Google Analytics: Za analitiku web stranice (podliježe Pravilima privatnosti Google)",
-          "content2": "Također koristimo Waffo Pancake za pretplate i obradu plaćanja. Ove usluge mogu prikupljati informacije u skladu s vlastitim pravilima privatnosti. Preporučujemo vam da ih pregledate."
-        },
-        "dataSecurity": {
-          "title": "Sigurnost podataka",
-          "content": "Primjenjujemo odgovarajuće tehničke i organizacijske mjere za zaštitu vaših podataka od neovlaštenog pristupa, izmjene, otkrivanja ili uništenja. Međutim, nijedna metoda prijenosa putem interneta nije 100% sigurna."
-        },
-        "yourRights": {
-          "title": "Vaša prava",
-          "content": "Imate pravo:",
-          "item1": "Pristupiti učitanim slikama, podacima računa i povezanim informacijama",
-          "item2": "Zatražiti brisanje vaših slika",
-          "item3": "Odustati od određenih praksi prikupljanja podataka",
-          "item4": "Kontaktirati nas s zabrinutostima o privatnosti"
-        },
-        "children": {
-          "title": "Privatnost djece",
-          "content": "Naša usluga nije namijenjena djeci mlađoj od 13 godina. Ne prikupljamo svjesno osobne informacije od djece mlađe od 13 godina."
-        },
-        "changes": {
-          "title": "Promjene u ovim Pravilima privatnosti",
-          "content": "Možemo ažurirati ova Pravila privatnosti s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila privatnosti na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
-        },
-        "contact": {
-          "title": "Kontaktirajte nas",
-          "text": "Ako imate pitanja o ovim Pravilima privatnosti, molimo kontaktirajte nas na",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Uvjeti korištenja | Slika u URL",
-        "description": "Uvjeti korištenja Slika u URL – hostiranje slika, dopuštena uporaba i odgovornosti korisnika."
-      },
-      "page": {
-        "title": "Uvjeti korištenja",
-        "lastUpdated": "Posljednje ažuriranje: rujan 2026.",
-        "intro": "Dobrodošli u Slika u URL. Pristupom ili korištenjem naše usluge hostiranja slika i generiranja poveznica (\"Usluga\") pristajete na ove Uvjete. Ako se ne slažete, nemojte koristiti Uslugu.",
-        "acceptance": {
-          "title": "Prihvaćanje uvjeta",
-          "content": "Učitavanjem slika, generiranjem poveznica ili na drugi način korištenjem Slika u URL potvrđujete da ste pročitali, razumjeli i pristali na ove Uvjete i na našu Politiku privatnosti. Uvjete možemo ažurirati; nastavak korištenja Usluge nakon promjena smatra se prihvaćanjem ažuriranih Uvjeta."
-        },
-        "serviceDescription": {
-          "title": "Opis usluge",
-          "content": "Slika u URL nudi besplatno hostiranje slika i izravno generiranje poveznica. Možete učitavati slike u postavljenim granicama (veličina datoteke, format itd.) i primati poveznice za dijeljenje. Ne jamčimo neprekidnu dostupnost; Usluga se može mijenjati, obustaviti ili ukinuti s ili bez obavijesti."
-        },
-        "useOfService": {
-          "title": "Korištenje usluge",
-          "content": "Uslugu smijete koristiti samo u zakonite svrhe i u skladu s ovim Uvjetima. Odgovorni ste za svoju uporabu i sadržaj koji učitavate. Ne smijete koristiti Uslugu na način koji krši primjenjive zakone ili prava trećih."
-        },
-        "userResponsibilities": {
-          "title": "Vaše odgovornosti",
-          "content": "Slažete se: (1) davati točne podatke kada se zatraži; (2) održavati uporabu u skladu s primjenjivim zakonom; (3) ne pokušavati zaobići sigurnost, ograničenja brzine ili kontrole pristupa; (4) ne koristiti Uslugu za distribuciju zlonamjernog softvera ili ometanje Usluge ili drugih korisnika."
-        },
-        "prohibitedContent": {
-          "title": "Zabranjeni sadržaj",
-          "content": "Ne smijete učitavati niti dijeliti poveznice na sadržaj koji je nezakonit, štetan, prijeteći, uvredljiv, uznemirujući, klevetnički, opscen, koji narušava privatnost ili intelektualno vlasništvo ili na drugi način neprihvatljiv; koji iskorištava maloljetnike; koji promiče nasilje ili diskriminaciju; ili koji krši prava trećih. Možemo ukloniti sadržaj i obustaviti ili ukinuti pristup bez obavijesti ako razumno vjerujemo da postoji kršenje ovih Uvjeta ili zakona."
-        },
-        "ipAndContent": {
-          "title": "Intelektualno vlasništvo i vaš sadržaj",
-          "content": "Zadržavate vlasništvo nad slikama koje učitavate. Korištenjem Usluge dajete nam ograničenu licencu za pohranu, obradu i pružanje vaših slika te generiranje i pružanje poveznica, u mjeri potrebnoj za pružanje Usluge. Ne polagamo pravo na vlasništvo vašeg sadržaja. Naše ime, logotip i Usluga naše su intelektualno vlasništvo; ne smijete ih koristiti bez naše prethodne pismene suglasnosti."
-        },
-        "subscriptions": {
-          "title": "Pretplatnički planovi",
-          "content": "Slika u URL nudi besplatnu razinu i plaćene pretplate (mjesečni Pro i godišnji Premium) s višim limitima učitavanja, veličine datoteke i pohrane. Detalji i cijene: https://phototourl.com/pricing. Plaćeni pristup digitalna je usluga i aktivira se odmah nakon potvrđenog plaćanja."
-        },
-        "billing": {
-          "title": "Naplata i plaćanje",
-          "content": "Davanjem načina plaćanja i pretplatom na plaćeni plan ovlašćujete nas i procesora plaćanja da periodički naplaćujemo pretplatničku naknadu dok ne otkažete kako je opisano niže. Pretplate se automatski obnavljaju na kraju svakog obračunskog razdoblja osim ako se ne otkažu. Cijene na blagajni mogu isključivati poreze osim ako nije drugačije navedeno."
-        },
-        "cancellation": {
-          "title": "Otkazivanje i zaustavljanje automatskog obnavljanja",
-          "content": "Buduće naplate možete zaustaviti u bilo kojem trenutku:",
-          "item1": "Slanjem e-pošte na support@phototourl.com s registrirane adrese računa uz zahtjev za otkazivanje automatskog obnavljanja; ili",
-          "item2": "Otkazivanjem automatskog terećenja / ponavljajuće naplate kod izdavatelja kartice putem mobilnog bankarstva, internet bankarstva ili službe za korisnike.",
-          "effect": "Otkazivanje zaustavlja buduća obnavljanja. Plaćene pogodnosti zadržavate do kraja razdoblja koje ste već platili. Nakon toga nema daljnjih naplata za tu pretplatu, a pogodnosti prestaju s tim razdobljem."
-        },
-        "refunds": {
-          "title": "Politika povrata",
-          "general": "Budući da su plaćeni planovi digitalne usluge isporučene odmah nakon plaćanja, pretplatničke naknade općenito se ne vraćaju dok je Usluga dostupna za normalnu uporabu, osim kako je navedeno niže ili kada zakon zahtijeva drugačije.",
-          "eligibleTitle": "Kada je povrat moguć",
-          "item1": "Pretplatnici prvi put: unutar 7 dana od prve naplate, ako niste bitno koristili plaćene značajke (npr. samo mali dio kvote učitavanja ili pohrane).",
-          "item2": "Dvostruka ili pogrešna naplata: potpuni povrat za potvrđenu grešku naplate koja je rezultirala dvostrukom naplatom.",
-          "item3": "Prekid s naše strane: ako potvrđeni prekid pod našom kontrolom traje 72 sata ili više tijekom plaćenog razdoblja, nakon pregleda možemo ponuditi proporcionalni kredit ili povrat.",
-          "item4": "Zakonska prava: gdje primjenjivo pravo daje pravo na odustajanje ili povrat (npr. EU/UK), ta se prava zadržavaju.",
-          "howTitle": "Kako zatražiti povrat",
-          "how": "Pošaljite e-poštu na support@phototourl.com s e-adresom računa, referencom plaćanja/transakcije i razlogom. Ciljamo potvrditi u roku od 2 radna dana i obraditi podobne povrate u 5–10 radnih dana.",
-          "notTitle": "Kada povrat nije dostupan",
-          "not1": "Naknade za već iskorištena pretplatnička razdoblja, osim kako je navedeno gore.",
-          "not2": "Zahtjevi za povrat godišnje (Premium) pretplate više od 30 dana nakon početne kupnje, osim ako zakon zahtijeva drugačije ili se primjenjuje podoban prekid/dvostruka naplata.",
-          "not3": "Računi suspendirani ili ukinuti zbog kršenja ovih Uvjeta."
-        },
-        "disclaimer": {
-          "title": "Odricanje jamstava",
-          "text": "Usluga se pruža \"kako jest\" i \"kako je dostupna\" bez jamstava bilo koje vrste. Ne jamčimo da će Usluga biti neprekidna, bez grešaka ili bez štetnih komponenti. Korištenje Usluge na vlastitu ste odgovornost."
-        },
-        "limitationOfLiability": {
-          "title": "Ograničenje odgovornosti",
-          "content": "U najvećoj mjeri dopuštenoj zakonom Slika u URL i njezini operateri neće biti odgovorni za neizravnu, slučajnu, posebnu, posljedičnu ili kaznenu štetu niti za gubitak podataka, dobiti ili dobrog imena koji proizlaze iz vaše uporabe ili nemogućnosti uporabe Usluge. Naša ukupna odgovornost neće premašiti iznos koji ste nam platili u dvanaest mjeseci prije zahtjeva (ili nulu ako niste ništa platili)."
-        },
-        "termination": {
-          "title": "Raskid",
-          "content": "Možemo obustaviti ili ukinuti vaš pristup Usluzi u bilo kojem trenutku, s ili bez razloga ili obavijesti. Možete prestati koristiti Uslugu u bilo kojem trenutku. Po raskidu vaše pravo korištenja prestaje odmah. Odredbe koje po svojoj prirodi trebaju preživjeti (uključujući odricanje, ograničenje odgovornosti i mjerodavno pravo) ostaju na snazi."
-        },
-        "changes": {
-          "title": "Izmjene uvjeta",
-          "content": "Uvjete možemo ažurirati. Revidirane Uvjete objavit ćemo na ovoj stranici i ažurirati datum \"Posljednje ažuriranje\". Nastavak korištenja nakon izmjena smatra se prihvaćanjem. Preporučujemo da povremeno pregledate ovu stranicu."
-        },
-        "governingLaw": {
-          "title": "Mjerodavno pravo",
-          "content": "Ovi Uvjeti podliježu zakonima jurisdikcije u kojoj poslujemo i tumače se u skladu s njima, bez obzira na načela sukoba zakona. Svi sporovi rješavat će se na sudovima te jurisdikcije."
-        },
-        "contact": {
-          "title": "Kontaktirajte nas",
-          "text": "Za pitanja o ovim Uvjetima korištenja kontaktirajte nas na",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Pravila kolačića | Slika u URL",
-        "description": "Pravila kolačića za Slika u URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
-      },
-      "page": {
-        "title": "Pravila kolačića",
-        "lastUpdated": "Posljednje ažuriranje: rujan 2026",
-        "introduction": "Ova Pravila kolačića objašnjavaju kako Slika u URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima. Pitanja: support@phototourl.com.",
-        "whatAreCookies": {
-          "title": "Što su kolačići",
-          "content": "Kolačići su male tekstualne datoteke koje se postavljaju na vaš uređaj kada posjećujete web stranicu. Široko se koriste kako bi web stranice radile učinkovitije i pružale informacije vlasnicima web stranica."
-        },
-        "howWeUseCookies": {
-          "title": "Kako koristimo kolačiće",
-          "content": "Koristimo kolačiće u sljedeće svrhe:",
-          "item1": "Za pohranu vaše povijesti učitavanja i jezičnih postavki",
-          "item2": "Za analizu prometa web stranice i ponašanja korisnika",
-          "item3": "Za prikazivanje personaliziranih oglasa"
-        },
-        "typesOfCookies": {
-          "title": "Vrste kolačića koje koristimo",
-          "essential": {
-            "title": "Osnovni kolačići",
-            "content": "Ovi kolačići su neophodni za pravilno funkcioniranje web stranice. Omogućuju osnovne funkcije kao što su pohrana vaših jezičnih postavki i povijesti učitavanja."
-          },
-          "analytics": {
-            "title": "Analitički kolačići",
-            "content": "Koristimo Google Analytics za analizu načina na koji posjetitelji koriste našu web stranicu. Ovi kolačići prikupljaju anonimne informacije o korištenju web stranice kako bi nam pomogli poboljšati našu uslugu."
-          },
-          "advertising": {
-            "title": "Oglasni kolačići",
-            "content": "Koristimo Google AdSense za prikazivanje oglasa. Ovi kolačići pomažu u isporuci personaliziranih oglasa na temelju vašeg ponašanja pregledavanja i interesa."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Kolačići trećih strana",
-          "content": "Koristimo sljedeće usluge trećih strana koje mogu postaviti kolačiće:",
-          "item1": "Google AdSense - Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
-          "item2": "Google Analytics - Za analitiku web stranice (podliježe Pravilima privatnosti Google)"
-        },
-        "manageCookies": {
-          "title": "Upravljanje kolačićima",
-          "content": "Možete kontrolirati i upravljati kolačićima putem postavki vašeg preglednika. Većina preglednika vam omogućuje odbijanje ili prihvaćanje kolačića, brisanje postojećih kolačića ili postavljanje postavki za određene web stranice. Međutim, onemogućavanje kolačića može utjecati na funkcionalnost naše usluge."
-        },
-        "changes": {
-          "title": "Promjene u ovim Pravilima kolačića",
-          "content": "Možemo ažurirati ova Pravila kolačića s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila kolačića na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
-        },
-        "contact": {
-          "title": "Kontaktirajte nas",
-          "text": "Ako imate pitanja o ovim Pravilima kolačića, molimo kontaktirajte nas na",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Photo To URL bookmarklet",
-    "description": "Prenesite slike s bilo koje web stranice izravno na Photo To URL jednim klikom! Besplatna proba: 10 prijenosa/dan, 2MB po datoteci.",
-    "howItWorks": {
-      "title": "Kako radi",
-      "step1": "Otvorite bilo koju web stranicu sa slikama",
-      "step2": "Kliknite bookmarklet na traci oznaka",
-      "step3": "Odaberite sliku na stranici",
-      "step4": "Odmah dobijte URL i kopirajte ga!"
-    },
-    "installation": {
-      "title": "Instalacija",
-      "step1": {
-        "title": "Korak 1: Kopirajte bookmarklet kod",
-        "description": "Kliknite gumb ispod kako biste kopirali bookmarklet kod u međuspremnik."
-      },
-      "step2": {
-        "title": "Korak 2: Dodajte u preglednik",
-        "description": "Slijedite ove korake prema svom pregledniku:",
-        "chrome": "Chrome/Edge: Pritisnite Ctrl+Shift+B (na Macu Cmd+Shift+B) za prikaz trake oznaka, zatim desnim klikom odaberite \"Dodaj stranicu\". Zalijepite kod kao URL.",
-        "firefox": "Firefox: Desnim klikom na traku oznaka odaberite \"Nova oznaka\". Zalijepite kod u polje lokacije.",
-        "safari": "Safari: Uključite traku oznaka (Prikaz → Prikaži traku oznaka), zatim povucite kod na traku oznaka.",
-        "edge": "Alternativa: Napravite novu oznaku, uredite je i zamijenite URL kopiranim kodom."
-      },
-      "step3": {
-        "title": "Korak 3: Počnite koristiti!",
-        "description": "Posjetite stranicu sa slikama i kliknite bookmarklet za početak prijenosa!"
-      },
-      "copy": "Kopiraj kod",
-      "copied": "Kopirano!"
-    },
-    "usage": {
-      "title": "Značajke",
-      "description": "Bookmarklet nudi sljedeće značajke. Svaki prijenos uračunava se u limite vašeg plana (Besplatna proba: 10 prijenosa/dan, 2MB po datoteci).",
-      "feature1": "Odaberite bilo koju sliku s trenutne web stranice",
-      "feature2": "Automatski prijenos na Photo To URL",
-      "feature3": "Odmah dobijte URL za dijeljenje jednim klikom"
-    },
-    "note": {
-      "title": "Napomena",
-      "content": "Prijenosi se uračunavaju u dnevnu kvotu (Besplatna proba: 10 prijenosa/dan, 2MB po datoteci). Bookmarklet radi na većini stranica; stroga sigurnosna pravila (CORS) mogu blokirati prijenos."
-    }
-  },
-  "AuthPage": {
-    "orContinueWith": "Ili nastavite s",
-    "login": {
-      "welcomeBack": "Dobrodošli natrag",
-      "email": "E-mail",
-      "password": "Lozinka",
-      "signIn": "Prijava",
-      "signUp": "Registracija",
-      "signUpHint": "Nemate račun?",
-      "forgotPassword": "Zaboravili lozinku?",
-      "showPassword": "Prikaži lozinku",
-      "hidePassword": "Sakrij lozinku",
-      "emailRequired": "E-mail je obavezan",
-      "passwordRequired": "Lozinka je obavezna",
-      "signInWithGoogle": "Prijava putem Googlea"
-    },
-    "register": {
-      "createAccount": "Stvori račun",
-      "name": "Ime",
-      "email": "E-mail",
-      "password": "Lozinka",
-      "signUp": "Registracija",
-      "signInHint": "Već imate račun?",
-      "namePlaceholder": "Vaše ime",
-      "signUpSuccess": "Račun uspješno stvoren",
-      "signUpWithGoogle": "Registracija putem Googlea",
-      "artFightLabel": "Registrirajte namjenski račun umjetnika",
-      "artFightHint": "Otključajte alate Nadzorne ploče za umjetnike: kopiranje ugradnji (URL, HTML, BBCode, Markdown) za svaku hostiranu karticu."
-    },
-    "error": {
-      "title": "Greška autentifikacije",
-      "defaultError": "Došlo je do greške tijekom autentifikacije.",
-      "backToLogin": "Povratak na prijavu"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Račun s ovom e-mail adresom već postoji. Molimo koristite drugu e-mail adresu.",
-      "INVALID_CREDENTIALS": "Neispravan e-mail ili lozinka.",
-      "INVALID_EMAIL": "Neispravan format e-maila.",
-      "INVALID_PASSWORD": "Lozinka mora sadržavati najmanje 6 znakova.",
-      "EMAIL_REQUIRED": "E-mail je obavezan.",
-      "PASSWORD_REQUIRED": "Lozinka je obavezna.",
-      "NAME_REQUIRED": "Ime je obavezno.",
-      "SERVER_ERROR": "Greška poslužitelja. Molimo pokušajte kasnije.",
-      "NETWORK_ERROR": "Greška mreže. Molimo provjerite svoju vezu."
-    },
-    "forgotPassword": {
-      "title": "Zaboravljena lozinka",
-      "description": "Unesite svoju e-mail adresu i poslat ćemo vam poveznicu za resetiranje lozinke.",
-      "email": "E-mail",
-      "send": "Pošalji poveznicu za resetiranje",
-      "backToLoginHint": "Sjećate se lozinke?",
-      "checkEmail": "Ako račun s tom e-mail adresom postoji, poslali smo poveznicu za resetiranje. Provjerite sandučić.",
-      "emailRequired": "E-mail je obavezan",
-      "error": {
-        "userNotFound": "Nije pronađen račun s ovom e-mail adresom",
-        "tooManyRequests": "Previše pokušaja. Pokušajte kasnije",
-        "serverError": "Nešto je pošlo po zlu. Pokušajte ponovno"
-      }
-    },
-    "resetPassword": {
-      "title": "Resetiranje lozinke",
-      "password": "Nova lozinka",
-      "reset": "Resetiraj lozinku",
-      "backToLoginHint": "Spremni za prijavu?",
-      "requestNewLink": "Zatraži novu poveznicu",
-      "showPassword": "Prikaži lozinku",
-      "hidePassword": "Sakrij lozinku",
-      "minLength": "Lozinka mora imati najmanje 6 znakova",
-      "error": {
-        "expiredToken": "Poveznica za resetiranje je istekla. Zatražite novu",
-        "invalidToken": "Neispravna poveznica za resetiranje. Zatražite novu",
-        "missingToken": "Poveznica za resetiranje nedostaje ili je nepotpuna. Zatražite novu",
-        "tooManyRequests": "Previše pokušaja. Pokušajte kasnije",
-        "serverError": "Nešto je pošlo po zlu. Pokušajte ponovno"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "Tim {name}",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Bok, {name}.",
-      "body": "Kliknite gumb ispod kako biste resetirali lozinku za Photo To URL. Ako niste vi zatražili ovo, zanemarite ovaj e-mail.",
-      "resetPassword": "Resetiraj lozinku",
-      "subject": "Resetirajte lozinku za Photo To URL"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Jednostavno i transparentno cijenjivanje",
-    "description": "Odaberite plan koji vam odgovara s jednostavnim i transparentnim cijenama",
-    "subtitle": "Odaberite plan koji vam odgovara",
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "faqTitle": "Česta pitanja",
-    "faq": {
-      "payment": {
-        "q": "Koje metode plaćanja prihvaćate?",
-        "a": "Prihvaćamo sve glavne kartice (Visa, Mastercard, American Express) i PayPal."
-      },
-      "cancel": {
-        "q": "Mogu li otkazati u bilo kojem trenutku?",
-        "a": "Da, možete otkazati u bilo kojem trenutku iz postavki računa. Neće vam se naplaćivati budući troškovi."
-      },
-      "storage": {
-        "q": "Koliko prostora za pohranu imam?",
-        "a": "Besplatni plan nudi 50MB, Pro 5GB, a Godišnji 50GB."
-      },
-      "upload": {
-        "q": "Mogu li nadograditi svoj plan kasnije?",
-        "a": "Da, možete nadograditi ili sniziti u bilo kojem trenutku. Promjene se primjenjuju odmah."
-      }
-    },
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/ mjesec",
-      "perYear": "/ godina",
-      "popular": "Najpopularniji",
-      "bestValue": "Najbolja vrijednost",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
       "currentPlan": "Current Plan",
       "yourCurrentPlan": "Your Current Plan",
       "getStartedForFree": "Get Started For Free",
       "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Započnite sada",
-      "upgradeToYearly": "Nadogradnja na Premium",
-      "cannotDowngrade": "Snižavanje nije dostupno",
-      "alreadySubscribed": "Trenutni plan je već aktivan",
-      "subscribeYearly": "Godišnja pretplata",
-      "subscribeMonthly": "Mjesečna pretplata",
-      "upgrade": "Nadogradnja",
+      "getStarted": "Get Started",
       "notAvailable": "Not Available",
-      "limitedOffer": "Vremenski ograničena ponuda · 20% popusta",
-      "savePercentLabel": "Uštedi ",
-      "savePercentSuffix": " vs mjesečno",
-      "freePriceNote": "Zauvijek besplatno",
-      "monthlyPriceNote": "Mjesečno naplaćivanje",
-      "loading": "UcItavanje...",
-      "suitableFor": "Pogodno za:",
-      "activePlanDialog": {
-        "title": "Već imate aktivnu pretplatu",
-        "description": "Ovaj račun već ima aktivnu pretplatu.",
-        "descriptionWithDate": "Ovaj račun već ima aktivnu pretplatu (ističe {date}).",
-        "close": "Zatvori",
-        "manageBilling": "Upravljaj pretplatom"
-      },
-      "batchUpload": {
-        "label": "Grupno učitavanje fotografija",
-        "free": "Ne",
-        "monthly": "20",
-        "yearly": "50"
-      },
-      "justPerMonth": "{price}/mj",
-      "saveVsMonthly": "Uštedite {percent}%",
-      "monthlyEquivalentShort": "({price}/ mjesec)",
-      "bestValueWithSave": "Najbolje · Uštedite {percent}%"
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "UcItavanje...",
-      "checkoutFailed": "Otvaranje stranice za naplatu nije uspjelo"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Besplatno",
-      "description": "Savršeno za probati Photo To URL",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Veličina prijenosa: 2MB",
-        "feature-2": "Dnevni prijenosi: 10 puta",
-        "feature-3": "Pohrana: 100MB",
-        "feature-4": "CDN: Osnovno ubrzanje",
-        "feature-5": "Bez oglasa: Ne",
-        "feature-6": "Hosting dokumenata: Ne",
-        "feature-7": "Hosting fotografija: Ne",
-        "feature-8": "Uređivanje fotografija: Ne",
-        "feature-9": "Webhook: Ne",
-        "feature-10": "Dozvole za resurse: Nijedna"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Isprobajte proizvod, testirajte značajke"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Profesionalac",
-      "description": "Za stalne prijenose i pouzdano pohranjivanje",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Veličina prijenosa: 50MB",
-        "feature-2": "Dnevni prijenosi: 1000 puta",
-        "feature-3": "Pohrana: 100GB",
-        "feature-4": "CDN: Standardno ubrzanje",
-        "feature-5": "Bez oglasa: Da",
-        "feature-6": "Hosting dokumenata: Da",
-        "feature-7": "Hosting fotografija: Da",
-        "feature-8": "Uređivanje fotografija: Da",
-        "feature-9": "Webhook: Da",
-        "feature-10": "Dozvole za resurse: Djelomično"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Blogeri / Programeri / Mali timovi"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Premium",
-      "description": "Godišnji plan s većim kvotama i bržim CDN-om",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Veličina prijenosa: 256MB",
-        "feature-2": "Dnevni prijenosi: Neograničeno",
-        "feature-3": "Pohrana: 200GB",
-        "feature-4": "CDN: Čvorovi velike brzine (prioritet)",
-        "feature-5": "Bez oglasa: Da",
-        "feature-6": "Hosting dokumenata: Da",
-        "feature-7": "Hosting fotografija: Da",
-        "feature-8": "Uređivanje fotografija: Da",
-        "feature-9": "Webhook: Da",
-        "feature-10": "Dozvole za resurse: Sve"
-      },
-      "limits": [],
-      "suitableFor": "Poduzeća / Česta upotreba / Automatizacijski sustavi"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Nadzorna ploča",
-    "themeToggle": "Tema",
-    "welcome": "Dobrodošli",
-    "loadFailed": "Učitavanje nije uspjelo. Pokušaj ponovno kasnije.",
-    "errorTitle": "Nešto je pošlo po zlu",
-    "dismiss": "U redu",
-    "dashboard": "Pregled",
-    "resources": "Moji resursi",
-    "photos": "Moje fotografije",
-    "storage": "Pohrana",
-    "used": "Korišteno",
-    "total": "Ukupno",
-    "storageDisplay": "{used} od {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Neograničeno",
-    "deleteConfirm": "Jeste li sigurni da želite obrisati ovaj resurs?",
-    "deleteResource": "Obriši resurs",
-    "deleteFailed": "Brisanje resursa nije uspjelo",
-    "delete": "Obriši",
-    "cancel": "Otkaži",
-    "copied": "Kopirano!",
-    "copy": "Kopiraj vezu",
-    "open": "Otvori",
-    "removeBackground": "Ukloni pozadinu",
-    "noResources": "Nema resursa. Učitajte nekoliko slika za početak.",
-    "files": "datoteke",
-    "dailyUploads": "Današnja učitavanja",
-    "today": "danas",
-    "resourcesCount": "Imate {count} učitanih resursa",
-    "photosCount": "Imate {count} učitanih fotografija",
-    "resourcePageInfo": "Stranica {page} od {totalPages} · {pageSize} po stranici · ukupno {total} datoteka",
-    "resourceTotalCount": "Ukupno: {total} stavki",
-    "resourcePageSizeLabel": "Stavki po stranici",
-    "resourcePageSizeOption": "{size} po stranici",
-    "resourceJumpTo": "Idi na",
-    "resourceJumpPageUnit": "stranicu",
-    "resourceJumpInputAria": "Broj stranice",
-    "resourcePagePrev": "Prethodna stranica",
-    "resourcePageNext": "Sljedeća stranica",
-    "subtitle": "Ovo je pregled vašeg radnog prostora.",
-    "planCardTitle": "Plan",
-    "planActive": "Aktivan",
-    "planNames": {
-      "free": "Besplatno",
-      "premium": "Premium",
-      "pro": "Profissionalac"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Nadogradnja za više",
-    "planCardHintAllUpgraded": "Sve značajke otključane",
-    "statStorageHint": "Prostor korišten za sve prijenose",
-    "statResourcesHint": "Ukupno fotografije + dokumenti",
-    "statPhotosHint": "Datoteke koje možete kopirati ili dijeliti kao veze",
-    "statUploadsHint": "Reset svakih 24 h po razini",
-    "chartTitle": "Aktivnost",
-    "chartDescription": "Volumen prijenosa tijekom vremena",
-    "chartPlaceholder": "Trendovi će se ovdje pojaviti kada bude više aktivnosti.",
-    "chartRange7d": "Zadnjih 7 dana",
-    "chartRange30d": "Zadnjih 30 dana",
-    "chartRange90d": "Zadnja 3 mjeseca",
-    "tableFile": "Datoteka",
-    "tablePath": "Putanja",
-    "tableSize": "Veličina",
-    "tableActions": "Radnje",
-    "viewTable": "Tablica",
-    "viewGrid": "Foto zid",
-    "chartDemoNote": "Trend prijenosa (dani)",
-    "loginRequired": "Prijavite se da biste vidjeli svoju nadzornu ploču.",
-    "checkoutSuccess": "Plaćanje uspješno! Vaš plan je nadograđen.",
-    "subscriptionSuccess": "Pretplata aktivirana. Dobrodošli u {plan}!",
-    "circleCrop": "Kružni izrez",
-    "roundedCorners": "Zaobljene stranice",
-    "scheduledForDeletion": "Zakazano za brisanje",
-    "upload": "Učitaj",
-    "uploadPhoto": "Učitaj fotografiju",
-    "batchUploadPhotos": "Grupno učitavanje fotografija",
-    "batchUploading": "Grupno učitavanje u tijeku…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Odaberite najviše {max} datoteka odjednom.",
-    "batchUploadTierHint": "Do {max} datoteka po grupi prema vašem paketu.",
-    "uploadUpgradeHint": "Dostupno nakon nadogradnje",
-    "uploading": "Učitavanje...",
-    "loading": "Učitavanje...",
-    "uploadErrorInvalidType": "Nevaljana vrsta datoteke. Koristite PNG, JPG, WEBP ili GIF.",
-    "uploadErrorTooLarge": "Datoteka je prevelika. Vas plan dopusta do {maxMb} MB po datoteci.",
-    "uploadErrorDailyLimit": "Dosegnuto dnevno ograničenje ({limit} prijenosa/dan).",
-    "uploadErrorStorageLimit": "Dosegnuto ograničenje pohrane.",
-    "uploadErrorGeneric": "Prijenos nije uspio. Pokušajte ponovno.",
-    "uploadUpgradeTitle": "Otključajte izravni upload",
-    "uploadUpgradeDescription": "Nadogradite kako biste učitavali izravno s nadzorne ploče uz veća ograničenja.",
-    "uploadRenewDescription": "Obnovite pretplatu kako biste učitavali izravno s nadzorne ploče uz veća ograničenja.",
-    "expiredStorageLimitHint": "Nakon isteka dostupno je samo 100MB prostora za pohranu",
-    "uploadGoHome": "Otpremi s početne stranice",
-    "resourceModule": {
-      "title": "Moji dokumenti",
-      "count": "Imate {count} učitanih dokumenata",
-      "empty": "Još nema dokumenata. Učitajte PDF/Word/PowerPoint/Excel da biste započeli.",
-      "viewCard": "Kartice",
-      "searchPlaceholder": "Pretraži po nazivu datoteke",
-      "typeAll": "Sve vrste",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Resetiraj",
-      "upload": "Učitaj dokument",
-      "uploading": "Učitavanje...",
-      "copy": "Kopiraj vezu",
-      "open": "Otvori",
-      "delete": "Obriši",
-      "deleteFailed": "Brisanje dokumenta nije uspjelo",
-      "fetchError": "Neuspjelo učitavanje popisa dokumenata",
-      "tableFile": "Datoteka",
-      "tablePath": "Putanja",
-      "tableType": "Vrsta",
-      "typeLabel": "Vrsta",
-      "tableSize": "Veličina",
-      "tableActions": "Radnje",
-      "uploadErrorTooLarge": "Datoteka je prevelika. Ograničenje po datoteci u vašem planu je {maxSize}.",
-      "uploadErrorDailyLimit": "Dosegnut je dnevni limit ({limit} učitavanja/dan).",
-      "uploadErrorStorageLimit": "Dosegnut je limit pohrane.",
-      "uploadErrorGeneric": "Učitavanje nije uspjelo. Pokušajte ponovno."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Veličina datoteke {size}",
-    "dailyUploadsLimit": "{limit} prijenosa/dan",
-    "dailyUploadsUnlimited": "Neograničena učitavanja",
-    "monthly": "mj",
-    "yearly": "god",
-    "bestValue": "Najbolja vrijednost",
-    "upgrade": {
-      "title": "Nadogradi svoj plan",
-      "description": "Nadogradite za više dnevnih limita, veće datoteke i premium značajke. Neograničena dnevna učitavanja s godišnjim Premium planom.",
-      "button": "Nadograđujte sada"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Postavke",
-      "profile": {
-        "title": "Profil",
-        "description": "Upravljanje informacijama vašeg profila",
-        "name": {
-          "title": "Ime",
-          "description": "Ažurirajte svoje zaslonsko ime",
-          "placeholder": "Unesite svoje ime",
-          "hint": "Ovo je ime koje će se prikazivati na vašem profilu",
-          "minLength": "Ime mora imati najmanje 3 znaka",
-          "maxLength": "Ime ne smije imati više od 30 znakova",
-          "success": "Ime uspješno ažurirano",
-          "fail": "Ažuriranje imena nije uspjelo",
-          "save": "Spremi",
-          "saving": "Spremanje..."
-        },
-        "avatar": {
-          "title": "Avatar",
-          "description": "Ažurirajte svoju profilnu sliku",
-          "uploadAvatar": "Učitaj sliku",
-          "unavailable": "Učitavanje nedostupno",
-          "disabledHint": "Učitavanje avatara zahtijeva omogućeno cloud pohranu za ovaj projekt.",
-          "recommendation": "PNG, JPG ili WebP. Maksimalna veličina slijedi ograničenja poslužitelja."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Naplate",
-        "description": "Upravljanje naplatom i pretplatom",
-        "billingPagePlanTitle": "Trenutni plan",
-        "billingPageStorageTitle": "Upotreba prostora",
-        "currentPlan": {
-          "title": "Vaš plan i pohrana na Photo To URL",
-          "description": "Nadogradite za veće kvote i više značajki"
-        },
-        "loadError": "Nije moguće učitati podatke o naplati.",
-        "retry": "Pokušaj ponovo",
-        "planNames": {
-          "free": "Besplatno",
-          "premium": "Premium",
-          "pro": "Profissionalac"
-        },
-        "status": {
-          "active": "Aktivno",
-          "expired": "Isteklo"
-        },
-        "storageUsed": "Korišteno pohrane",
-        "freePlanMessage": "Veći limit za prijenos",
-        "inactivePlanMessage": "Pogodnosti su istekle",
-        "expiredStorageLimitHint": "Nakon isteka dostupno je samo 100MB prostora za pohranu",
-        "paidPlanMessage": "Pogodnosti su aktivne",
-        "backToWorkbench": "Povratak na nadzornu ploču",
-        "upgradeHint": "Više prostora za pohranu",
-        "upgradeToPlan": "Nadogradi plan",
-        "featureAdvancedEditing": "Napredni alati za uređivanje",
-        "upgradeNotReady": {
-          "title": "Uskoro",
-          "description": "Pratite dodatne usluge!",
-          "confirm": "Razumijem",
-          "cancel": "Zatvori"
-        },
-        "storage": {
-          "title": "Brži CDN",
-          "description": "Pratite potrošnju pohrane",
-          "upgradeStorage": "Nadogradi pohranu"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Sigurnost",
-        "description": "Upravljanje sigurnošću računa",
-        "updatePassword": {
-          "title": "Lozinka",
-          "description": "Promijenite lozinku za prijavu e-poštom",
-          "currentPassword": "Trenutna lozinka",
-          "newPassword": "Nova lozinka",
-          "confirmPassword": "Potvrdite novu lozinku",
-          "currentRequired": "Unesite svoju trenutnu lozinku",
-          "newMinLength": "Najmanje 8 znakova",
-          "confirmRequired": "Molimo potvrdite svoju novu lozinku",
-          "passwordMismatch": "Lozinke se ne podudaraju",
-          "hint": "Koristite jaku lozinku koju ne koristite drugdje.",
-          "save": "Ažuriraj lozinku",
-          "saving": "Spremanje…",
-          "success": "Lozinka ažurirana",
-          "fail": "Nije moguće ažurirati lozinku",
-          "showPassword": "Prikaži lozinku",
-          "hidePassword": "Sakrij lozinku"
-        },
-        "resetPassword": {
-          "title": "Postavi lozinku",
-          "description": "Prijavili ste se putem Googlea. Dodajte lozinku e-pošte kao rezervnu prijavu.",
-          "info": "Poslat ćemo vezu za ponovno postavljanje lozinke na e-poštu vašeg računa.",
-          "button": "Pošalji vezu za ponovno postavljanje",
-          "sending": "Slanje…",
-          "sent": "Provjerite pristiglu poštu za vezu za ponovno postavljanje.",
-          "disabled": "E-poruke za ponovno postavljanje lozinke još nisu konfigurirane na ovom poslužitelju.",
-          "fail": "Zahtjev nije uspio. Pokušajte ponovo kasnije."
-        },
-        "deleteAccount": {
-          "title": "Izbriši račun",
-          "description": "Trajno uklonite svoj račun i povezane podatke.",
-          "warning": "Ovo se ne može poništiti. Provjerite jeste li spremili sve što vam treba.",
-          "button": "Izbriši moj račun",
-          "confirmTitle": "Izbrisati račun?",
-          "confirmDescription": "Vaš račun bit će trajno izbrisan.",
-          "cancel": "Otkaži",
-          "confirm": "Izbriši",
-          "deleting": "Brisanje…",
-          "success": "Račun izbrisan",
-          "fail": "Nije moguće izbrisati račun"
-        }
-      },
-      "notification": {
-        "title": "Obavijesti",
-        "description": "Upravljanje preferencijama obavijesti",
-        "newsletter": {
-          "title": "E-mail ažuriranja",
-          "description": "Vijesti o proizvodu i savjeti (neobavezno)",
-          "label": "Pretplatite se na bilten",
-          "disabledHint": "Bilten još nije omogućen za ovu stranicu.",
-          "hint": "Kada je omogućeno, ovdje se možete pretplatiti ili otkazati pretplatu."
-        },
-        "productPreview": {
-          "title": "Pregled proizvoda",
-          "description": "Glavna slika koja se koristi na karticama za dijeljenje i odredišnim stranicama.",
-          "announcement": {
-            "line1": "Kontinuirano uvodimo snažnije značajke i još vrjednije pogodnosti članstva.",
-            "line2": "Nove mogućnosti nadogradnje bit će prioritetno dostupne postojećim korisnicima, bez promjene cijene.",
-            "line3": "Hvala svakom korisniku na povjerenju i podršci. Nastavit ćemo unapređivati proizvod kako bismo pružili iskustvo s još većom vrijednošću.",
-            "line4": "Nastavit ćemo optimizirati globalno korisničko iskustvo bržim i pouzdanijim uslugama."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Račun umjetnika",
-    "artFightWorkspaceHint": "Alati umjetnika uključeni — kopirajte kodove ugradnje URL, HTML, BBCode i Markdown za svaku fotografiju."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Hosting profilnih kartica Art Fight | URL i kodovi ugradnje",
-      "description": "Učitajte profilne kartice Team Tragedy, Comedy ili Mystery. Dobijte izravni HTTPS link i HTML/BBCode ugradnju za Art Fight, Discord i objave na društvenim mrežama.",
-      "keywords": "profilna kartica Art Fight,hosting ref sheet,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Hosting Art Fight",
-    "artistAccount": {
-      "badge": "Račun umjetnika",
-      "title": "Registrirajte namjenski račun umjetnika",
-      "lead": "Stvorite besplatni račun umjetnika za spremanje profilnih kartica u Nadzornoj ploči i profesionalne alate ugradnje za Art Fight — kopirajte URL, HTML, BBCode i Markdown za svaku učitavanu karticu.",
-      "toolEmbedTitle": "Alati ugradnje",
-      "toolEmbedDesc": "Kopiranje jednim klikom za profile Art Fight, Discord, forume i objave na društvenim mrežama.",
-      "toolDashboardTitle": "Nadzorna ploča umjetnika",
-      "toolDashboardDesc": "Svaka kartica ostaje na vašem računu — pretražujte, pregledavajte i ponovno kopirajte linkove u bilo koje vrijeme.",
-      "toolBatchTitle": "Grupno učitavanje (Pro)",
-      "toolBatchDesc": "Nakon nadogradnje učitajte mnogo profilnih kartica odjednom — za umjetnike s više OC.",
-      "registerCta": "Stvorite račun umjetnika",
-      "footnote": "Označite «Namjenski račun umjetnika» pri registraciji ili se registrirajte s ove stranice — unaprijed to odaberemo."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Za digitalne umjetnike i kreatore OC",
-      "title": "Hosting profilnih kartica i ref sheeta za umjetnike Art Fight",
-      "subtitle": "Učitajte profilnu karticu Team Tragedy, Comedy ili Mystery — dobijte stabilni URL slike i kodove ugradnje HTML i BBCode za profile Art Fight, Discord i objave „ready to fight“.",
-      "artistAccountLine": "Registrirajte namjenski račun umjetnika za profesionalne embed alate u nadzornoj ploči.",
-      "cta": "Ispustite karticu ispod → kopirajte link → zalijepite svugdje gdje objavljujete svoj tim",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Hosting profila",
-      "tabArtist": "Račun umjetnika",
-      "tabSupport": "Podrška umjetnicima",
-      "tabsAriaLabel": "Istaknute značajke Art Fight",
-      "trustLine": "Besplatno brzo učitavanje · URL i kodovi ugradnje · Nadzorna ploča umjetnika",
-      "uploadCta": "Učitaj karticu",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Kodovi spremni za lijepljenje",
-      "panelIntroDesc": "Učitajte profilnu karticu jednom, zatim kopirajte izravni link ili HTML i BBCode za Art Fight i Discord.",
-      "panelArtistTitle": "Alati računa umjetnika",
-      "panelSupportTitle": "Namjenska podrška umjetnicima",
-      "panelSupportDesc": "Učitavanja, ugradnje, računi i planovi — stvarni ljudi, ne generički red čekanja."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Isti alat za svaki tim Art Fight",
-      "lead": "Bez obzira jeste li završili u Tragedy, Comedy ili Mystery — nakon gotove kartice trebate jedno: brz, stabilan link na sliku za dijeljenje.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Plave profilne kartice i ref sheeti — hostajte cijelu sliku kartice i zalijepite link na profil Art Fight ili objavu na Twitter/X.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Narančaste, tople kartice likova — idealne za objave na Discord i ugradnje u profil kad je Art Fight u punom jeku.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Ljubičaste kartice treće frakcije — isti postupak učitavanja, isti kodovi ugradnje, spremni kad god želite podijeliti.",
-      "footnote": "Sva tri tima dijele isti tijek: učitaj → kopiraj URL ili ugradnju → javno objavi karticu."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Gdje umjetnici lijepe link",
-      "lead": "Art Fight je društveni. Vaš hostirani link prati svako ažuriranje profila i svaku objavu „u ovom sam timu“.",
-      "profileTitle": "Profil Art Fight",
-      "profileDesc": "Zalijepite izravni URL ili HTML ugradnju u službeni profil lika Art Fight kako bi suigrači vidjeli vašu karticu.",
-      "socialTitle": "Twitter / X i objave na društvenim mrežama",
-      "socialDesc": "Podijelite profilnu karticu kad objavljujete tim — čist HTTPS link brzo se učitava u vremenskim linijama i odgovorima.",
-      "discordTitle": "Discord i poslužitelji umjetnika",
-      "discordDesc": "Zalijepite URL ili BBCode u Discord kanale Art Fight, intro poslužitelja ili niti planova napada.",
-      "portfolioTitle": "Toyhouse i portfelji",
-      "portfolioDesc": "Isti link na Toyhouse, Carrd ili u potpisima na forumima — ref ostaje dosljedan posvuda."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Zašto umjetnici Art Fight biraju Photo To URL",
-      "fastTitle": "Stvoreno za naprezne periode Art Fight",
-      "fastDesc": "Učitavajte kad trebate objaviti — CDN link u sekundama tijekom zagrijavanja, vrha događaja ili bilo kada tijekom godine.",
-      "linkTitle": "URL prilagođeni profilnim karticama",
-      "linkDesc": "Čisti .png/.jpg linkovi koje prihvaćaju profili Art Fight, forumi i objave bez dodatnih koraka.",
-      "embedTitle": "HTML i BBCode za umjetnike",
-      "embedDesc": "Kopirajte isječke ugradnje za profile i forume — bez ručnog uređivanja img tagova u napetoj sezoni.",
-      "safeTitle": "Hosting u Nadzornoj ploči nakon prijave",
-      "safeDesc": "Registrirani korisnici spremaju profilne kartice u Nadzornu ploču — ponovno kopirajte linkove, pretražujte datoteke i upravljajte učitavanjima s jednog mjesta."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Račun umjetnika: hostajte kartice u Nadzornoj ploči",
-      "sectionLead": "Anonimno učitavanje radi za brzu objavu. Registrirajte se kao umjetnik Art Fight za namjensku Nadzornu ploču s alatima ugradnje za svaku hostiranu karticu — ili nadogradite na Pro za grupno učitavanje i više limite.",
-      "dashboardTitle": "Hosting fotografija u Nadzornoj ploči",
-      "dashboardDesc": "Nakon prijave svako učitavanje ide u Nadzornu ploču. Kopirajte isti link bilo kada, otvorite sliku u novoj kartici ili preuzmite original — sve s jednog popisa.",
-      "batchTitle": "Grupno učitavanje (Pro)",
-      "batchDesc": "Učitajte mnogo profilnih kartica odjednom iz Nadzorne ploče — do {monthlyMax} po seriji u Pro ili {yearlyMax} u Premium godišnjem.",
-      "manageTitle": "Pretraživanje i foto zid",
-      "manageDesc": "Pronađite bilo koju hostiranu karticu po imenu datoteke, prebacujte tablicu i foto zid te brišite datoteke koje više ne trebate.",
-      "proTitle": "Viši limiti i veće datoteke",
-      "proDesc": "Sve iz Free, plus grupno učitavanje u Nadzornoj ploči ({monthlyMax}–{yearlyMax} datoteka), viši dnevni limiti, veća učitavanja i više prostora.",
-      "anonymousLabel": "Anonimno",
-      "anonymousDesc": "Brzi link za jednu objavu. Nije spremljeno na računu; može se očistiti bilo kada.",
-      "freeLabel": "Besplatni račun",
-      "freeDesc": "Kartice spremljene u Nadzornoj ploči. Ponovno kopirajte linkove, pretražujte i upravljajte dok ih ne obrišete ili ne dosegnete limite prostora.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Stvorite besplatni račun",
-      "loginCta": "Prijava",
-      "dashboardCta": "Otvori Nadzornu ploču",
-      "proCta": "Pogledaj Pro planove",
-      "ctaPanelTitle": "Spremni hostati kartice?",
-      "footnote": "Besplatni računi učitavaju ovdje i upravljaju datotekama u Nadzornoj ploči. Grupno učitavanje zahtijeva Pro ili Premium."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Učitajte profilnu karticu Art Fight",
-      "sectionLead": "Ref sheet, timska kartica ili cijela profilna grafika — ispustite ovdje i kopirajte link za sljedeću objavu.",
-      "dropzoneTitle": "Ispustite profilnu karticu ili ref sheet",
-      "dropzoneHint": "PNG, JPG, WEBP ili GIF — timske kartice, ref sheeti i grafike likova dobrodošle",
-      "dropzoneFootnote": "Besplatno: 5 učitavanja/dan bez registracije. Prijavite se za više limite bilo kada.",
-      "defaultAlt": "Profilna kartica Art Fight",
-      "resultTitle": "Vaša kartica je spremna — podijelite je",
-      "resultHint": "Kopirajte URL za profile Art Fight ili HTML/BBCode za forume i Discord.",
-      "open": "Otvori sliku",
-      "reset": "Učitaj drugu karticu",
-      "errorBadType": "Učitajte datoteku slike (PNG, JPG, WEBP ili GIF).",
-      "errorGeneric": "Učitavanje nije uspjelo. Pokušajte ponovno.",
-      "loginRequiredTitle": "Dnevni besplatni limit dosegnut",
-      "loginRequiredDescription": "Prijavite se za nastavak učitavanja profilnih kartica i spremanje u Nadzornu ploču, ili se vratite sutra za više besplatnih učitavanja.",
-      "loginRequiredDetail": "Registrirani korisnici imaju hosting u Nadzornoj ploči: svaka kartica ostaje na računu, linkove možete ponovno kopirati bilo kada, pretraživati po imenu datoteke i upravljati učitavanjima s jednog mjesta.",
-      "retentionAnonymousTitle": "Anonimna poveznica — nije preporučeno za važne kartice",
-      "retentionAnonymousBody": "Anonimni uploadi samo za brzo dijeljenje. Poveznica radi sada ali nije spremljena — registrirajte se besplatno.",
-      "retentionAnonymousSignUp": "Stvorite besplatni račun",
-      "retentionAnonymousPro": "Pogledaj Pro planove",
-      "retentionFreeTitle": "Ovaj link je spremljen na vašem računu",
-      "retentionFreeBody": "Možete ga ponovno kopirati bilo kada iz Nadzorne ploče. Besplatni računi imaju dnevne limite učitavanja i limite prostora — dovoljno za brze kartice, ali ne neograničeno.",
-      "retentionFreeDashboard": "Otvori Nadzornu ploču",
-      "retentionFreeUpgrade": "Nadogradi za više prostora",
-      "retentionProTitle": "Vaša profilna kartica hostirana je u Pro planu",
-      "retentionProBody": "Viši limiti učitavanja, više prostora i pouzdani linkovi za svaki Art Fight — Tragedy, Comedy ili Mystery.",
-      "retentionProDashboard": "Otvori Nadzornu ploču",
-      "resultHintAnonymous": "Anonimni upload — samo izravna poveznica. Registrirajte se za HTML, BBCode i Markdown.",
-      "retentionAnonymousIntro": "Ova izravna poveznica služi za brzo dijeljenje, ali anonimni hosting ima ozbiljna ograničenja:",
-      "retentionAnonymousLimit1": "Nije povezana s računom — manje sigurno; svatko s poveznicom može vidjeti sliku",
-      "retentionAnonymousLimit2": "Sporiji CDN — anonimni uploadi bez prioritetnog ubrzanja",
-      "retentionAnonymousLimit3": "Može se komprimirati — izvorna kvaliteta nije zajamčena",
-      "retentionAnonymousLimit4": "Kratki vijek trajanja — anonimne datoteke se periodično brišu; poveznica može prestati raditi",
-      "retentionAnonymousLimit5": "Embed kodovi zaključani — HTML, BBCode i Markdown zahtijevaju besplatni račun",
-      "retentionAnonymousCta": "Stvorite besplatni račun za spremanje kartica, otključavanje embedova, brži CDN i pouzdanije poveznice."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Alt tekst (za HTML i Markdown)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Kopiraj kod",
-      "copied": "Kopirano",
-      "lockedTabTitle": "Registrirajte se za otključavanje embedova",
-      "lockedTabDescription": "HTML, BBCode i Markdown dostupni nakon registracije. Besplatni računi: nadzorna ploča i kopiranje embeda jednim klikom.",
-      "lockedTabCta": "Stvori besplatni račun"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "Od profilne kartice do javne objave",
-      "lead": "Tijek rada koji svaki umjetnik Art Fight slijedi nakon gotove kartice.",
-      "schemaName": "Kako hostati profilnu karticu Art Fight s kodom ugradnje",
-      "schemaDescription": "Učitajte timsku profilnu karticu Art Fight u Photo To URL i zalijepite link na profil ili objavu.",
-      "step1Title": "Učitajte timsku karticu",
-      "step1Desc": "Ispustite profilnu karticu Tragedy, Comedy ili Mystery ili ref sheet. Odmah dobijete izravni link i kodove ugradnje.",
-      "step2Title": "Kopirajte URL ili kod ugradnje",
-      "step2Desc": "Koristite karticu URL za profile Art Fight ili HTML/BBCode za Discord, forume i portfelje.",
-      "step3Title": "Objavite i objavite tim",
-      "step3Desc": "Zalijepite link na Art Fight, Twitter/X ili Discord kako bi drugi umjetnici vidjeli vašu karticu i pronašli vas tijekom događaja."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "FAQ umjetnika Art Fight",
-      "lead": "Pitanja umjetnika koji učitavaju kartice Team Tragedy, Comedy i Mystery.",
-      "warningTitle": "Učitavajte odgovorno",
-      "warningBody": "Hostajte samo radove koje ste stvorili ili imate jasno pravo dijeliti. Ne učitavajte sadržaj koji krši prava, ilegalan ili zabranjen. Odgovorni ste za svaku učitavanu datoteku.",
-      "warningTermsLink": "Uvjeti korištenja",
-      "warningPrivacyLink": "Pravila privatnosti",
-      "q1Question": "Je li ovo za profilne kartice ili ref sheete?",
-      "q1Answer": "Za oboje. Učitajte cijelu timsku profilnu karticu Art Fight, ref sheet lika ili bilo koju grafiku za hotlink na događaj.",
-      "q2Question": "Radi li za sva tri tima?",
-      "q2Answer": "Da. Kartice Team Tragedy, Team Comedy i Team Mystery koriste isto učitavanje — hostiramo sliku i dajemo link za dijeljenje.",
-      "q3Question": "Trebam li račun za učitavanje?",
-      "q3Answer": "Ne za brzo učitavanje. Anonimni korisnici imaju 10 besplatnih učitavanja dnevno. Prijavite se za spremanje kartica u Nadzornu ploču — ponovno kopirajte linkove, pretražujte i upravljajte. Pro dodaje grupno učitavanje iz Nadzorne ploče (do 20–50 kartica odjednom) i više limite.",
-      "q8Question": "Mogu li grupno učitati mnogo profilnih kartica?",
-      "q8Answer": "Da, na plaćenom planu. Otvorite Nadzornu ploču, koristite grupno učitavanje i odaberite više PNG/JPG/WEBP/GIF datoteka odjednom — do 20 po seriji u Pro mjesečnom ili 50 u Premium godišnjem. Besplatni računi učitavaju jednu karticu odjednom na ovoj stranici ili u Nadzornoj ploči.",
-      "q4Question": "Hoće li link raditi na Discord i Twitter?",
-      "q4Answer": "Da. Izravni HTTPS URL radi u objavama. Koristite BBCode za Discord-prijateljsku oznaku gdje je podržana.",
-      "q5Question": "Hoće li moj link ostati dostupan dugoročno?",
-      "q5Answer": "Ovisi o načinu učitavanja. Anonimni linkovi samo za brzu upotrebu — povremeno čistimo anonimna učitavanja i link može prestati raditi bilo kada. Registrirani korisnici drže datoteke u Nadzornoj ploči dok ih ne obrišu ili ne dosegnu limite. Pro je najbolja opcija ako trebate pouzdanu dugoročnu dostupnost kartica.",
-      "q6Question": "Mogu li učitati bilo koju sliku? A autorska prava?",
-      "q6Answer": "Učitavajte samo slike koje posjedujete ili imate ovlasti hostati i dijeliti — vlastite OC, narudžbe s pravom hostanja, vlastita djela. Ne učitavajte tuđe ref sheete, službene Art Fight resurse koje niste napravili, fotografije slavnih, logotipe brendova ili drugi zaštićeni materijal bez dopuštenja. Kršenje je vaša odgovornost.",
-      "q7Question": "Koji je sadržaj strogo zabranjen?",
-      "q7Answer": "Nikad ne učitavajte ilegalan sadržaj; seksualno eksplicitan ili iskorištavajući materijal (uključujući maloljetnike); govor mržnje, uznemiravanje ili nasilje; zloćudni softver ili prijevare; ili bilo što što krši autorska prava, zaštitne znakove ili privatnost. Možemo ukloniti datoteke i suspendirati pristup bez obavijesti."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Podrška umjetnicima — tu smo da pomognemo",
-      "panelVisualTag": "Odgovor za 1–2 dana",
-      "panelVisualQuestion": "BBCode ugradnja ne radi?",
-      "panelVisualReply": "Shvaćamo — pomoći ćemo vam to riješiti.",
-      "topicEmbed": "Ugradnje i linkovi",
-      "topicAccount": "Račun umjetnika",
-      "topicPlan": "Planovi i prostor",
-      "topicFeedback": "Ideje i povratne informacije",
-      "contactHint": "Pišite bilo kada — bez reda čekanja.",
-      "contactCta": "Kontaktirajte nas",
-      "emailCta": "Pošaljite nam e-mail"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Hostate mnogo OC? Grupno učitavanje iz Nadzorne ploče",
-      "description": "Pro umjetnici učitavaju desetke profilnih kartica odjednom, drže svaki link u Nadzornoj ploči i imaju više dnevne limite i prostor za cijeli roster.",
-      "cta": "Pogledajte Pro planove prilagođene umjetnicima"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

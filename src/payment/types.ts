@@ -1,3 +1,5 @@
+import type { Locale } from 'next-intl';
+
 /**
  * Interval types for subscription plans
  */
@@ -14,21 +16,18 @@ export enum PlanIntervals {
 export type PaymentType = PaymentTypes.SUBSCRIPTION | PaymentTypes.ONE_TIME;
 
 export enum PaymentTypes {
-  SUBSCRIPTION = 'subscription', // Regular recurring subscription
-  ONE_TIME = 'one_time', // One-time payment
+  SUBSCRIPTION = 'subscription',  // Regular recurring subscription
+  ONE_TIME = 'one_time',          // One-time payment
 }
 
 /**
  * Payment scene (lifetime, credit, subscription)
  */
-export type PaymentScene =
-  | PaymentScenes.LIFETIME
-  | PaymentScenes.CREDIT
-  | PaymentScenes.SUBSCRIPTION;
+export type PaymentScene = PaymentScenes.LIFETIME | PaymentScenes.CREDIT | PaymentScenes.SUBSCRIPTION;
 
 export enum PaymentScenes {
-  LIFETIME = 'lifetime', // Lifetime plan purchase
-  CREDIT = 'credit', // Credit package purchase
+  LIFETIME = 'lifetime',      // Lifetime plan purchase
+  CREDIT = 'credit',          // Credit package purchase
   SUBSCRIPTION = 'subscription', // Regular subscription
 }
 
@@ -36,57 +35,64 @@ export enum PaymentScenes {
  * Status of a payment or subscription
  */
 export type PaymentStatus =
-  | 'active' // Subscription is active
-  | 'canceled' // Subscription has been canceled
-  | 'incomplete' // Payment not completed
-  | 'incomplete_expired' // Payment not completed and expired
-  | 'past_due' // Payment is past due
-  | 'paused' // Subscription is paused
-  | 'trialing' // In trial period
-  | 'unpaid' // Payment failed
-  | 'completed' // One-time payment completed
-  | 'processing' // Payment is processing
-  | 'expired' // Subscription expired
-  | 'failed'; // Payment failed
+  | 'active'                         // Subscription is active
+  | 'canceled'                       // Subscription has been canceled
+  | 'incomplete'                     // Payment not completed
+  | 'incomplete_expired'             // Payment not completed and expired
+  | 'past_due'                       // Payment is past due
+  | 'paused'                         // Subscription is paused
+  | 'trialing'                       // In trial period
+  | 'unpaid'                         // Payment failed
+  | 'completed'                      // One-time payment completed
+  | 'processing'                     // Payment is processing
+  | 'failed';                        // Payment failed
 
 /**
  * Price definition for a plan
  */
 export interface Price {
-  type: PaymentType; // Type of payment (subscription or one_time)
-  priceId: string; // Provider product / price ID
-  amount: number; // Price amount in currency units (dollars, euros, etc.)
-  currency: string; // Currency code (e.g., USD)
-  interval?: PlanInterval; // Billing interval for recurring payments
-  trialPeriodDays?: number; // Free trial period in days
-  disabled?: boolean; // Whether to disable this price in UI
+  type: PaymentType;                 // Type of payment (subscription or one_time)
+  priceId: string;                   // Stripe price ID (not product id)
+  amount: number;                    // Price amount in currency units (dollars, euros, etc.)
+  currency: string;                  // Currency code (e.g., USD)
+  interval?: PlanInterval;           // Billing interval for recurring payments
+  trialPeriodDays?: number;          // Free trial period in days
+  allowPromotionCode?: boolean;      // Whether to allow promotion code for this price
+  disabled?: boolean;                // Whether to disable this price in UI
 }
 
 /**
  * Credits configuration for a plan
  */
 export interface Credits {
-  enable: boolean; // Whether to enable credits for this plan
-  amount: number; // Number of credits provided per month
-  expireDays?: number; // Number of days until credits expire, undefined means no expiration
+  enable: boolean;                   // Whether to enable credits for this plan
+  amount: number;                    // Number of credits provided per month
+  expireDays?: number;               // Number of days until credits expire, undefined means no expiration
 }
 
 /**
  * Price plan definition
+ *
+ * 1. When to set the plan disabled?
+ * When the plan is not available anymore, but you should keep it for existing users
+ * who have already purchased it, otherwise they can not see the plan in the Billing page.
+ *
+ * 2. When to set the price disabled?
+ * When the price is not available anymore, but you should keep it for existing users
+ * who have already purchased it, otherwise they can not see the price in the Billing page.
  */
 export interface PricePlan {
-  id: string; // Unique identifier for the plan
-  name?: string; // Display name of the plan
-  description?: string; // Description of the plan features
-  features?: string[]; // List of features included in this plan
-  limits?: string[]; // List of limits for this plan
-  prices: Price[]; // Available prices for this plan
-  isFree: boolean; // Whether this is a free plan
-  isLifetime: boolean; // Whether this is a lifetime plan
-  popular?: boolean; // Whether to mark this plan as popular in UI
-  disabled?: boolean; // Whether to disable this plan in UI
-  credits?: Credits; // Credits configuration for this plan
-  suitableFor?: string; // Suitable for target audience
+  id: string;                        // Unique identifier for the plan
+  name?: string;                     // Display name of the plan
+  description?: string;              // Description of the plan features
+  features?: string[];               // List of features included in this plan
+  limits?: string[];                 // List of limits for this plan
+  prices: Price[];                   // Available prices for this plan
+  isFree: boolean;                   // Whether this is a free plan
+  isLifetime: boolean;               // Whether this is a lifetime plan
+  popular?: boolean;                 // Whether to mark this plan as popular in UI
+  disabled?: boolean;                // Whether to disable this plan in UI
+  credits?: Credits;                 // Credits configuration for this plan
 }
 
 /**
@@ -140,7 +146,7 @@ export interface CreateCheckoutParams {
   successUrl?: string;
   cancelUrl?: string;
   metadata?: Record<string, string>;
-  locale?: string;
+  locale?: Locale;
 }
 
 /**
@@ -153,7 +159,7 @@ export interface CreateCreditCheckoutParams {
   successUrl?: string;
   cancelUrl?: string;
   metadata?: Record<string, string>;
-  locale?: string;
+  locale?: Locale;
 }
 
 /**
@@ -170,7 +176,7 @@ export interface CheckoutResult {
 export interface CreatePortalParams {
   customerId: string;
   returnUrl?: string;
-  locale?: string;
+  locale?: Locale;
 }
 
 /**
@@ -199,9 +205,7 @@ export interface PaymentProvider {
   /**
    * Create a credit checkout session
    */
-  createCreditCheckout(
-    params: CreateCreditCheckoutParams
-  ): Promise<CheckoutResult>;
+  createCreditCheckout(params: CreateCreditCheckoutParams): Promise<CheckoutResult>;
 
   /**
    * Create a customer portal session

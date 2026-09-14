@@ -1,1651 +1,1143 @@
 {
-  "common": {
-    "siteName": "Fotó Linkké",
-    "logout": "Kijelentkezés",
-    "logoutFailed": "A kijelentkezés sikertelen",
-    "switchLanguage": "Nyelv váltása",
-    "tagline": "Alakítsa fotóit tiszta, megosztható linkekké másodpercek alatt",
-    "header": {
-      "home": "Kezdőlap",
-      "blog": "Blog",
-      "subtitle": "Képek átalakítása megosztható linkekké",
-      "prompt": "Húzza be, illessze be vagy töltse fel — kapjon linket azonnal",
-      "circleCrop": "Körbe vágás",
-      "circleCropNav": "Körkörös vágás",
-      "roundedCorners": "Kerekített sarkok",
-      "removeBackground": "Kép Háttér Eltávolítása",
-      "removeBackgroundNav": "Háttér Eltávolítása",
-      "pricingNav": "Árak",
-      "comingSoon": "Hamarosan.",
-      "history": "Feltöltési előzmények",
-      "login": "Bejelentkezés",
-      "signUp": "Regisztráció",
-      "signOut": "Kijelentkezés",
-      "dashboard": "Dashboard",
-      "settings": "Beállítások",
-      "tool": "Eszközök",
-      "pdfToUrlNav": "PDF URL-re",
-      "fileToUrlNav": "Fájl URL-re",
-      "artFightNav": "Profilkártyák"
-    },
-    "history": {
-      "drawerTitle": "Feltöltési előzmények",
-      "hint": "Az elmúlt hét feltöltéseinek megjelenítése.",
-      "close": "Bezárás",
-      "empty": "Még nincsenek feltöltések.",
-      "copy": "Link másolása",
-      "copied": "Másolva",
-      "open": "Megnyitás új lapon"
-    },
-    "languageSelect": {
-      "title": "Válassza ki a régióját",
-      "subtitle": "A régió kiválasztása megváltoztatja a nyelvet és a tartalmat.",
-      "close": "Bezárás"
-    },
-    "footer": {
-      "blurb": {
-        "line1": "Alakítsa fotóit tiszta, megosztható linkekké.",
-        "line2": "Gyors, egyszerű, megbízható."
-      },
-      "partners": "Partnerek",
-      "linksTitle": "Erőforrások",
-      "productsTitle": "Termékek",
-      "nav": {
-        "home": "Kezdőlap",
-        "blog": "Blog",
-        "pricing": "Árak",
-        "docs": "Dokumentáció",
-        "status": "Állapot",
-        "about": "Rólunk",
-        "contact": "Kapcsolat"
-      },
-      "legal": {
-        "title": "Jogi",
-        "privacy": "Adatvédelem",
-        "terms": "Feltételek",
-        "cookie": "Süti szabályzat"
-      },
-      "copyright": "© 2025 Photo To URL. Minden jog fenntartva.",
-      "products": {
-        "editStamp": "Bélyegzőszerkesztő"
-      }
-    }
+  "Metadata": {
+    "name": "MP4 to URL",
+    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
   },
-  "home": {
-    "badge": {
-      "free": "Ingyenes",
-      "cdn": "CDN linkek",
-      "nosignup": "Regisztráció nélkül"
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "languageHint": "Selecting a region will change the language and content.",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
-    "hero": {
-      "title1": "Ingyenes",
-      "title2": "Fotó Linkké",
-      "subtitle": "Töltse fel a fotót → kapjon egy linket → illessze be bárhová",
-      "upload": "Kép feltöltése",
-      "bullet": {
-        "fast": "Gyors megosztás",
-        "direct": "Közvetlen képlinkek",
-        "nosignup": "Nincs szükség regisztrációra",
-        "paste": "Beillesztés vágólapról"
-      }
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Default",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Neutral"
     },
-    "loginPrompt": {
-      "title": "Jelentkezz be a folytatashoz",
-      "description": "Elérted az ingyenes feltöltési limitet. Jelentkezz be a feltöltési előzményeid mentéséhez és fájljaid kezeléséhez. Magasabb limitek a Pro csomagokban.",
-      "benefits": "Miert erdemes regisztralni?",
-      "benefit1": "Teljes feltoltesi elozmeny - rendezett, pontos es mindig elerheto",
-      "benefit2": "Hozzaferes az osszes premium szerkesztoeszkozhoz",
-      "benefit3": "Felhőtárhely feltöltési előzményekkel",
-      "login": "Bejelentkezés / Regisztráció",
-      "later": "Kesobb"
-    },
-    "upgradePrompt": {
-      "title": "Napi limit elerve",
-      "description": "A mai feltoltesi kereted elfogyott. Gyer vissza holnap! Hamarosan tobb premium szolgaltatas erkezik.",
-      "comingSoon": "Maradj velunk tovabbi szolgaltatasokert",
-      "goDashboard": "Megtekintés",
-      "later": "Kesobb"
-    },
-    "demo": {
-      "label": "Demó",
-      "loop": "Auto demó",
-      "idleTitle": "Húzza és ejtse ide a képet",
-      "idleSubtitle": "Nézze meg a folyamatot: feltöltés → link → másolás.",
-      "processing": "Optimalizálás és feltöltés...",
-      "doneTitle": "Készen áll a megosztásra",
-      "doneSubtitle": "A linkje azonnal megosztható.",
-      "thanksForWatching": "Köszönjük a figyelmet"
-    },
-    "upload": {
-      "title": "Dobjon be egy fotót vagy kattintson a tallózáshoz",
-      "hint": "JPG, PNG, WEBP, GIF legfeljebb 2MB (ingyenesen 10 feltöltés/nap). Húzza be, kattintson vagy illesszen be képernyőképet.",
-      "orDrop": "vagy ejtse ide a fájlt",
-      "samplesTitle": "Nincs képe? Próbálja ki ezeket:",
-      "policy": "A kép feltöltésével elfogadja az <privacy>Adatvédelmi irányelveinket</privacy> és a <terms>Felhasználási feltételeket</terms>.",
-      "clear": "Törlés"
-    },
-    "result": {
-      "error": "Sikertelen feltöltés. Kérjük, próbálja újra.",
-      "fileTooLarge": "A fajl tul nagy. A csomagod fajlonkent legfeljebb {maxMb} MB-ot enged.",
-      "dailyLimitReached": "Napi feltöltési limit elérve ({limit}/nap). Próbálja újra holnap.",
-      "storageLimitReached": "Tárhely megtelt ({used} / {limit}). További tárhely opciók hamarosan!",
-      "generated": "Generált link:",
-      "open": "Megnyitás új lapon",
-      "placeholder": "Még nincs link. Töltsön fel egy fotót a generáláshoz.",
-      "savePrompt": "Mentse a linket tetszőleges formátumban",
-      "copy": "Link másolása",
-      "copied": "Másolva",
-      "saveHint": "Mentse el ezt a linket későbbi használatra",
-      "saveHintLoggedIn": "Mentve a panelre",
-      "tryPrefix": "Próbálja ki"
-    },
-    "benefits": {
-      "title": "Miért választják a Fotó Linkké-t",
-      "subtitle": "Sebesség, tiszta linkek és regisztrációmentesség. — Ingyenes próba: 10 feltöltés/nap, 2MB fájlonként",
-      "items": {
-        "fast": {
-          "title": "Gyors megosztás",
-          "desc": "Töltse fel és kapjon linket másodpercek alatt, extra lépések nélkül."
-        },
-        "direct": {
-          "title": "Közvetlen kép-URL-ek",
-          "desc": "Tiszta linkek, amelyek működnek HTML-ben, Markdownban és üzenetküldőkben."
-        },
-        "nosignup": {
-          "title": "Nincs regisztráció",
-          "desc": "Ingyenes próba: 5 feltöltés/nap, 2MB fájlonként — regisztráció nélkül."
-        }
-      }
-    },
-    "how": {
-      "title": "Hogyan működik",
-      "step1": "1) Adja hozzá a fotót (húzás, beillesztés vagy tallózás).",
-      "step2": "2) Mi tároljuk, és adunk egy megosztható linket.",
-      "step3": "3) Másolja és ossza meg a linket dokumentumokban, chatben, prototípusokban és máshol.",
-      "note": "A link gyorsan megnyílik dokumentumokban és chatben — letöltheti .txt formátumban is."
-    },
-    "process": {
-      "title": "Háromlépéses folyamat",
-      "subtitle": "Egyszerű folyamat, eredmények másodpercek alatt.",
-      "steps": {
-        "1": {
-          "title": "Dobjon be vagy illesszen be",
-          "desc": "Húzzon be egy fájlt, illessze be a vágólapról vagy tallózzon."
-        },
-        "2": {
-          "title": "Tárolás és linkgenerálás",
-          "desc": "Azonnali URL másolási, megnyitási és mentési funkciókkal."
-        },
-        "3": {
-          "title": "Használat bárhol",
-          "desc": "Használjon dokumentumokban, chatben, blogokban vagy prototípusokban."
-        }
-      }
-    },
-    "features": {
-      "title": "Főbb jellemzők",
-      "subtitle": "Világosság mindenekelőtt: kevesebb súrlódás, több megosztás.",
-      "items": {
-        "cdn": {
-          "title": "Közvetlen CDN linkek",
-          "desc": "Tiszta, állandó URL-ek Markdown és HTML beágyazáshoz."
-        },
-        "save": {
-          "title": "Másolás és Mentés",
-          "desc": "Másolás, megnyitás vagy mentés .txt fájlként egy kattintással."
-        },
-        "clipboard": {
-          "title": "Vágólap-barát",
-          "desc": "Illesszen be képernyőképeket fájlkeresés nélkül."
-        },
-        "errors": {
-          "title": "Biztonságos és Privát",
-          "desc": "Images are securely hosted with encryption in transit and at rest."
-        },
-        "nosignup": {
-          "title": "Nincs regisztráció",
-          "desc": "Ingyenes próba: 5 feltöltés/nap, 2MB fájlonként — regisztráció nélkül."
-        },
-        "r2": {
-          "title": "Gyors tárhely",
-          "desc": "A linkek gyors CDN-en keresztül szolgáltatnak a gyors betöltés és megbízható hozzáférés érdekében."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Csapatok időt takarítanak meg a Fotó Linkké-lal",
-      "subtitle": "Társadalmi bizonyíték a kockázat csökkentésére és az alkalmazás felgyorsítására.",
-      "items": {
-        "ops": {
-          "name": "Termékmenedzsment",
-          "quote": "Képernyőképeket illesztünk be jegyekbe anélkül, hogy eltömítenénk a mellékleteket. A linkek tiszta maradnak."
-        },
-        "content": {
-          "name": "Tartalomfelelős",
-          "quote": "A Markdown-ra kész linkek tiszta és percek alatt közzétehető dokumentumokat tartanak."
-        },
-        "support": {
-          "name": "Támogatás",
-          "quote": "A világos hibák és azonnali URL-ek megkönnyítik az ügyfelek irányítását a csevegésben."
-        }
-      }
-    },
-    "cta": {
-      "title": "Alakítsa át a fotókat linkekké másodpercek alatt",
-      "subtitle": "Húzza, illessze be vagy töltse fel — másolja a linket és ossza meg.",
-      "upload": "Feltöltés most",
-      "paste": "Illessze be a képernyőképet"
-    },
-    "longform": {
-      "title": "Miért segíti a Fotó Linkké a munkafolyamatát",
-      "p1": "A Fotó Linkké alkotóknak, marketingeseknek és csapatoknak készült, akiknek gyors és megbízható megoldásra van szükségük fotóik linkké alakításához. A közvetlen feltöltési folyamattal elkerülheti a nehézkes médiakezelőket és a bejelentkezést. A linkek rendezettek, könnyen beilleszthetők chat-alkalmazásokba, dokumentumokba vagy hibajegyekbe.",
-      "p2": "Az élmény egyszerű marad: nincs hirdetés, nincs akadály. Ön a tartalomra koncentrálhat, mi pedig intézzük a tárhelyet. Legyen szó dokumentációról vagy prezentációról, egy rövid link jobb, mint egy súlyos fájlcsatolmány.",
-      "useCases": {
-        "title": "Gyakorlati felhasználási esetek",
-        "items": {
-          "1": "Design: UI tervek és vizuális jegyzetek gyors megosztása.",
-          "2": "Támogatás: képernyőképek csatolása hibajegyekhez egyszerűen.",
-          "3": "Blogok: fotók beágyazása Markdown vagy HTML szerkesztőkbe.",
-          "4": "Értékesítés: termékbemutatók küldése közvetlenül üzenetben.",
-          "5": "Fejlesztés: hibaüzenetek gyors megosztása a kódellenőrzés során.",
-          "6": "Közösségek: linkek beillesztése Discord vagy Slack felületekre."
-        }
-      },
-      "flow": {
-        "title": "A folyamat működése elejétől a végéig",
-        "p1": "1) Válasszon képet: húzza be, illessze be a vágólapról vagy böngésszen. PNG, JPG, WEBP, GIF legfeljebb 2MB az ingyenes csomagban (10 feltöltés/nap). 2) Feltöltjük és közvetlen linket adunk vissza másolási, megnyitási és mentési műveletekkel (.txt). 3) Használja a linket bárhol: blogokban, dokumentumokban, jegyekben, csevegésben, prototípusokban és máshol.",
-        "p2": "Minden lépés az áttekinthetőségre van hangolva: látható állapot, barátságos hibák és műveleteket megerősítő gombok. Ha az CDN engedélyezve van, a linkek a CDN domainről szolgáltatnak; képeit biztonságosan a our hosting infrastructure-n tároljuk."
-      },
-      "best": {
-        "title": "Ajánlott eljárások tiszta linkekhez",
-        "items": {
-          "1": "Tartsa értelmes fájlneveket a feltöltés előtt· ezek az URL része maradnak és segítenek a jövőbeli keresésben.",
-          "2": "Használjon WEBP-t vagy optimalizált JPG/PNG-t könnyebb terheléshez, ha nagy megosztást vár.",
-          "3": "Másolja a linket közvetlenül a létrehozás után, hogy elkerülje az elavult vágólapbejegyzéseket.",
-          "6": "Mentés .txt-ként egyszerű szöveges linkekhez, amelyek készen állnak a másolásra és használatra."
-        }
-      },
-      "roadmap": {
-        "title": "Roadmap kiemelkedő pontjai",
-        "p1": "Mélyen integráljuk a our hosting infrastructure-t, felhasználóbarátabb kvótákat és kezelési lehetőségeket biztosítva, opcionális csapatmunkával, hozzáférés-vezérléssel és linkenkénti elemzésekkel. Tervezzük olyan funkciók bevezetését, mint az egykattintásos törlés, előre beállított linkstílusok és szervezeti szintű tárolószemélyek. Eközben folyamatosan javítjuk és finomítjuk az altermékeket: körkörös vágóeszköz, lekerekített sarkok eszköze és háttér eltávolítási eszköz, hogy a képek feldolgozása kényelmesebb legyen."
-      },
-      "faq": {
-        "title": "Gyakran ismételt kérdések",
-        "items": {
-          "1": {
-            "q": "Ingyenes?",
-            "a": "Igen: van ingyenes verzió. A feltöltés→link alapfunkció ingyenes az ingyenes keretek között (napi feltöltések, összes tárhely, fájlméret). Ha ezeket fel szeretné oldani, válasszon fizetős csomagot: a linkeket CDN-en (CDN) tároljuk magasabb kvótákkal és nagyobb maximális fájlmérettel."
-          },
-          "2": {
-            "q": "Milyen formátumok támogatottak?",
-            "a": "Jelenleg PNG, JPG, WEBP és GIF támogatott az aktuális fájlméret-korlátokon belül. További formátumok igény szerint hozzáadhatók."
-          },
-          "3": {
-            "q": "Beágyazhatom Markdown vagy HTML formátumban?",
-            "a": "Igen. Másolja közvetlenül a linket, vagy mentse el egy kattintással .txt fájlként, és használja ott, ahol szüksége van rá — Markdown, HTML, dokumentumok vagy CMS."
-          },
-          "4": {
-            "q": "Nyilvánosan tárolják a fájlaimat?",
-            "a": "A linkek megoszthatók. Ha az CDN engedélyezve van, a fájlok a CDN domainről szolgáltatnak. Ha a tárhely átmenetileg nem elérhető, egyértelmű karbantartási üzenetet jelenítünk meg."
-          },
-          "5": {
-            "q": "Lesznek fiókok vagy csapatok?",
-            "a": "Igen. Először az egyszerű, megbízható feltöltésre és megosztásra összpontosítunk; ezután fokozatosan csapattereket, hozzáférés-vezérlést és használati elemzést adunk hozzá."
-          },
-          "6": {
-            "q": "Kaphatok visszatérítést a fizetés után?",
-            "a": "Általában nem kínálunk visszatérítést, ha a szolgáltatás továbbra is elérhető a szokásos használatra. Ha a mi oldalunkon felmerülő probléma miatt nem tudja használni a fizetett időszak alatt, ellenőrzés után megvizsgáljuk ügyét, és szükség esetén egyeztetünk a további lépésekről."
-          },
-          "7": {
-            "q": "Hogyan mondhatom le az automatikus megújítást?",
-            "a": "A megújítást automatikusan terheljük az Ön által jóváhagyott kártyára. A jövőbeli terhelések leállításához mondja le az automatikus beszedést vagy ismétlődő számlázást a kártyakibocsátónál (alkalmazás, netbank vagy ügyfélszolgálat)."
-          },
-          "8": {
-            "q": "Meddig használhatom a szolgáltatást lemondás után?",
-            "a": "Általában a már kifizetett időszak végéig folytathatja. Ezután nem történik további terhelés, és a jogosultságok ezzel az időszakkal véget érnek."
-          }
-        },
-        "contactNote": "A fenti és egyéb kérdésekhez használja a webhely «Kapcsolat» oldalát, vagy írjon a <email>support@phototourl.com</email> címre. Általában 1–2 munkanapon belül válaszolunk."
-      },
-      "about": {
-        "title": "A Photo To URL-ről",
-        "p1": "A PhotoToURL ingyenes kép-URL konvertáló és linkgenerátor, amely segít feltölteni a képeket és azonnal megosztható képlinket készíteni. Könnyen alakíthat JPG, PNG, WEBP és más formátumokat közvetlen kép URL-ekké a gyors online megosztáshoz.",
-        "p2": "Akár gyors photo to URL-re vagy ingyenes képtárhelyre van szüksége CDN-linkekkel, a PhotoToURL egyszerűvé és megbízhatóvá teszi. Töltse fel a képet, és másodpercek alatt kap közvetlen linket. Ingyenes csomag: 10 feltöltés/nap, 2MB fájlonként — magasabb limitekért lásd az Árak oldalt."
-      }
-    },
-    "selectRegion": {
-      "title": "Válasszon régiót",
-      "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
-    }
-  },
-  "seo": {
-    "keywords": "fotó url-re,kép url-re,kép link generátor,kép konvertálása linkké,ingyenes kép tárhely,cdn kép",
-    "home": {
-      "title": "Fotó Linkké Konverter | Alakítsa át a fotókat megosztható linkekké",
-      "description": "Ingyenes képtárhely: alakítsa át a fotókat megosztható URL-ekké. JPG, PNG, WEBP, GIF legfeljebb 2MB, 10 feltöltés/nap az ingyenes csomagban. Vágólap beillesztés, gyors CDN."
-    }
-  },
-  "images": {
-    "previewAlt": "Feltöltött kép előnézete",
-    "animatingSampleAlt": "Minta kép, amelyet a feltöltési demóban használnak",
-    "sampleThumbAlt": "Minta feltöltési kép",
-    "useSampleAria": "Használja ezt a minta képet",
-    "howIllustrationAlt": "Illusztráció, amely bemutatja, hogyan működik a Fotó Linkké",
-    "heroDropTitle": "Húzza ide a fotót",
-    "heroDropSubtitle": "Javítjuk és tároljuk, majd visszaadunk egy tiszta linket.",
-    "heroDropBadge": "Húzza vagy kattintson (JPG/PNG, akár 2MB)",
-    "logoAlt": "Fotó Linkké logo"
-  },
-  "circleCrop": {
-    "title": "Körbe vágás",
-    "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és designhoz.",
-    "upload": "Fotó feltöltése",
-    "processing": "Feldolgozás...",
-    "download": "Kör alakú kép letöltése",
-    "errorSelectFile": "Kérjük, válasszon képfájlt.",
-    "errorUploadFirst": "Kérjük, először töltsön fel fényképet.",
-    "page": {
-      "title": "Kör alakú képvágó - Ingyenes online eszköz",
-      "description": "Alakítsa át négyszögletes fotóit tökéletes kör alakúvá azonnal, regisztráció nélkül.",
-      "sectionSubtitle": "Vagj barmilyen fotot tokeletes korre - idealis profilkepekhez, kozossegi media avatarokhoz es dizajnprojektekhez."
-    },
-    "seo": {
-      "title": "Kör Alakú Képvágó Eszköz | Ingyenes Online Kerek Fotó Vágó",
-      "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és design projektekhez.",
-      "keywords": "körkörös kép vágás, körkörös kép vágó, körkörös vágó eszköz, körkörös vágás online"
-    },
-    "selectRegion": {
-      "title": "Válasszon régiót",
-      "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
-    }
-  },
-  "roundedCorners": {
-    "title": "Kép kerekített sarkokkal",
-    "description": "Ingyenes online kerekített sarkok eszköz – könnyen adjon kerekített sarkokat bármely fotóhoz, tökéletes alkalmazásikonokhoz, profilképekhez és design projektekhez.",
-    "upload": "Fénykép feltöltése",
-    "download": "Letöltés",
-    "radiusLabel": "Sugár (px)",
-    "scaleLabel": "Nagyítás",
-    "processing": "Feldolgozás...",
-    "errorUploadFirst": "Kérjük, először töltsön fel fényképet.",
-    "errorSelectFile": "Kérjük, válasszon képfájlt.",
-    "page": {
-      "title": "Kép kerekített sarkokkal – Ingyenes online eszköz",
-      "description": "Kép kerekített sarkokkal egy ingyenes online eszköz, amellyel kerekített sarkokat adhat bármely fotóhoz. Készítsen alkalmazás stílusú ikonokat, puha szélelű képeket közösségi médiához vagy bélyegképeket állítható sugárral és nagyítással. Regisztráció nélkül – feltöltés, igazítás, letöltés.",
-      "sectionSubtitle": "Adj lekerekitett sarkokat barmelyik fotohoz - tokeletes alkalmazasikonokhoz, kozossegi mediaba es indexkepekhez."
-    },
-    "seo": {
-      "title": "Kerekített Sarkok Eszköz | Ingyenes online eszköz",
-      "description": "Ingyenes eszköz kerekített sarkok hozzáadásához fotókhoz – alkalmazás ikonokhoz, profilképekhez és design projektekhez.",
-      "keywords": "kerekített sarkok, kép kerekített sarkok, kerekített sarkok eszköz, kerekített sarkok online"
-    },
-    "selectRegion": {
-      "title": "Régió kiválasztása",
-      "subtitle": "Válassza az előnyben részesített nyelvet és régiót"
-    }
-  },
-  "removeBackground": {
-    "title": "Kép Háttér Eltávolítása",
-    "description": "Ingyenes online AI háttér eltávolítási eszköz, könnyen távolítsa el a hátteret bármely fotóról - tökéletes termékfotókhoz, portrékhoz és tervezési projektekhez.",
-    "upload": "Fotó Feltöltése",
-    "download": "Letöltés",
-    "processing": "Feldolgozás...",
-    "processingModelLoading": "AI modell betöltése, az első használat 10-30 másodpercet is igénybe vehet, kérjük várjon...",
-    "processingImage": "Kép feldolgozása, kérjük várjon...",
-    "errorUploadFirst": "Kérjük, először töltse fel a fotót.",
-    "errorSelectFile": "Kérjük, válasszon ki egy képfájlt.",
-    "errorProcessing": "A kép feldolgozása sikertelen. Kérjük, próbálja újra.",
-    "errorTimeout": "Feldolgozási időtúllépés, a kép túl nagy lehet vagy a hálózat lassú, kérjük próbáljon kisebb képet vagy próbálja újra később.",
-    "errorMemory": "Elégtelen memória, kérjük próbáljon kisebb képet.",
-    "errorGeneric": "A feldolgozás sikertelen: {error}. Kérjük, próbálja újra vagy próbáljon másik képet.",
-    "errorFileTooLarge": "A képfájl túl nagy, kérjük válasszon 10MB-nál kisebb képet.",
-    "errorModelLoad": "Az AI modellkönyvtár betöltése sikertelen, kérjük frissítse az oldalt és próbálja újra.",
-    "errorPageHidden": "Az oldal megváltozott, kérjük töltse fel újra a képet a feldolgozáshoz.",
-    "page": {
-      "title": "Kép Háttér Eltávolítása - Ingyenes Online AI Háttér Eltávolító",
-      "description": "Kép Háttér Eltávolítása egy ingyenes online AI-alapú eszköz bármely fotó háttérének eltávolításához. Hozzon létre átlátszó PNG képeket azonnal fejlett háttér eltávolítási technológiánkkal. Tökéletes termékfotókhoz, portrékhoz, e-kereskedelmi és tervezési projektekhez. Regisztráció nem szükséges - töltse fel, dolgozza fel és töltse le másodpercek alatt.",
-      "sectionSubtitle": "MI-alapu hattereltavolitas - keszits atlatszo PNG-t barmelyik fotobol masodpercek alatt."
-    },
-    "seo": {
-      "title": "Háttér Eltávolítási Eszköz | Ingyenes Online AI Háttér Eltávolító",
-      "description": "Ingyenes online AI eszköz bármely fotó háttérének eltávolításához - tökéletes termékfotókhoz, portrékhoz és tervezési projektekhez.",
-      "keywords": "háttér eltávolítása, háttér eltávolító, átlátszó háttér, ai háttér eltávolítás"
-    },
-    "selectRegion": {
-      "title": "Régió Kiválasztása",
-      "subtitle": "Válassza az előnyben részesített nyelvet és régiót"
-    }
-  },
-  "pdfToUrl": {
-    "seo": {
-      "title": "PDF URL-re | PDF-tárhely és megosztható HTTPS-linkek",
-      "description": "Töltse fel a PDF-fájlokat a fiókjába, és kapjon stabil HTTPS-linket — bármikor megtekintheti, letöltheti vagy másolhatja a linket a fiók vezérlőpultján.",
-      "keywords": "pdf url,pdf tárhely,pdf megosztás,pdf feltöltés,közvetlen link,dokumentumlink"
-    },
-    "tool": {
-      "heroTitle": "PDF URL-re",
-      "heroSubtitle": "Alakítsa PDF-jeit megosztható HTTPS-linkekké a fiókja alatt. Minden feltöltés után nyissa meg a vezérlőpultot a link másolásához, előnézetéhez vagy letöltéséhez.",
-      "featureFastTitle": "Gyors feltöltés",
-      "featureFastDesc": "Húzza be a PDF-et vagy válasszon fájlt — másodperceken belül megkapja a linket CDN-en keresztül.",
-      "featureHostingTitle": "Személyes tárhely",
-      "featureHostingDesc": "Minden fájl a saját felhőtárhelyén és dokumentumtárában marad — nem egyszer használatos névtelen link.",
-      "featureLinkTitle": "Stabil, megosztható linkek",
-      "featureLinkDesc": "Minden feltöltés tiszta URL-t ad vissza, amit bárhol beilleszthet. A link addig működik, amíg nem törli a fájlt a vezérlőpulton.",
-      "featureDashboardTitle": "Minden egy helyen",
-      "featureDashboardDesc": "Bejelentkezés után nyissa meg a vezérlőpultot az összes PDF megtekintéséhez: link újbóli másolása, megnyitás új lapon vagy az eredeti letöltése.",
-      "dropzoneTitle": "Húzza ide a PDF-et",
-      "dropzoneHint": "Csak PDF",
-      "dropzoneFootnote": "A feltöltés után bármikor visszatérhet a vezérlőpultra a link másolásához vagy a fájl letöltéséhez.",
-      "browse": "Fájl kiválasztása",
-      "selectedFileLabel": "Kiválasztott fájl",
-      "removeSelectedFile": "Fájl eltávolítása",
-      "uploadBtn": "Feltöltés és link kérése",
-      "uploading": "Feltöltés…",
-      "loginRequiredTitle": "Jelentkezzen be PDF feltöltéséhez",
-      "loginRequiredDescription": "Először jelentkezzen be. A tárhely a fiókjához kötött; a feltöltés után másolhat linkeket, letölthet és mindent kezelhet a vezérlőpulton.",
-      "loginRequiredDetail": "Bejelentkezés után minden feltöltés ugyanazon a helyen jelenik meg a vezérlőpulton: egy kattintással közvetlen link másolása, megnyitás új lapon, eredetik letöltése, szükség esetén típus szerinti keresés és szűrés, törlés vagy újrafeltöltés — segít megőrizni a dokumentumok magánjellegét.",
-      "loginCta": "Bejelentkezés",
-      "signUpCta": "Fiók létrehozása",
-      "resultTitle": "PDF-linkje",
-      "resultDashboardHint": "Ehhez a fájlhoz bármikor nyissa meg a vezérlőpultot: URL másolása, megnyitás új lapon vagy PDF letöltése.",
-      "dashboardCta": "Vezérlőpult megnyitása",
-      "copy": "Link másolása",
-      "copied": "Másolva",
-      "open": "Megnyitás új lapon",
-      "reset": "Másik feltöltése",
-      "errorUnauthorized": "Jelentkezzen be PDF feltöltése előtt.",
-      "errorBadType": "Válasszon PDF-fájlt.",
-      "howTitle": "Hogyan működik",
-      "step1Title": "1. Válassza ki a PDF-et",
-      "step1Desc": "Válasszon fájlt az eszközéről, vagy húzza a feltöltési területre.",
-      "step2Title": "2. Töltse fel a könyvtárába",
-      "step2Desc": "Elmentjük a PDF-et a felhőjébe, megjelenítjük a vezérlőpulton, majd visszaadunk egy közvetlen HTTPS URL-t.",
-      "step3Title": "3. Ossza meg, és térjen vissza később",
-      "step3Desc": "Ossza meg a linket e-mailben vagy csevegésben. Szükség esetén nyissa meg a vezérlőpultot ugyanazon link másolásához, megnyitásához vagy a fájl letöltéséhez."
-    },
-    "page": {
-      "sectionTitle": "Dokumentumai egy helyen",
-      "sectionLead": "Azoknak, akik valódi PDF-tárhelyet és mögötte könyvtárat szeretnének — töltsön fel egyszer, tartsa a fiókjában, és térjen vissza bármikor.",
-      "bullet1": "Minden feltöltött PDF ugyanazon a listán jelenik meg a vezérlőpulton, hogy lássa, mit osztott meg.",
-      "bullet2": "Személyes tárhely: fájlok a fiókja alatt, HTTPS-en keresztül kiszolgálva, a könyvtárában tárolva.",
-      "bullet3": "Mindig kéznél: nyilvános link másolása, megnyitás böngészőben vagy az eredeti PDF letöltése.",
-      "bullet4": "Ugyanaz az URL addig működik, amíg a fájl létezik; törlés után a vezérlőpulton a link már nem szolgálja ki azt a fájlt.",
-      "footnote": "Törölje a vezérlőpulton a már nem szükséges fájlokat; a link megszűnik működni."
-    }
-  },
-  "fileToUrl": {
-    "seo": {
-      "title": "Fájl URL-re | Office-dokumentumok és HTTPS-linkek",
-      "description": "Töltse fel PDF-, Word-, PowerPoint- vagy Excel-fájlokat a fiókjába, és kapjon stabil HTTPS-linket — bármikor megtekintheti, letöltheti vagy másolhatja a linket a vezérlőpulton.",
-      "keywords": "fájl url,dokumentumlink,office megosztás,docx pptx xlsx feltöltés,dokumentum tárhely"
-    },
-    "tool": {
-      "heroTitle": "Fájl URL-re",
-      "heroSubtitle": "Alakítsa irodai dokumentumait megosztható HTTPS-linkekké a fiókja alatt. Támogatott formátumok: PDF, Word, PowerPoint és Excel.",
-      "featureFastTitle": "Gyors feltöltés",
-      "featureFastDesc": "Húzza be a támogatott fájlt vagy válassza ki — másodperceken belül megkapja a linket CDN-en keresztül.",
-      "featureHostingTitle": "Személyes tárhely",
-      "featureHostingDesc": "Minden feltöltés a felhőjébe kerül, ugyanabba a személyes könyvtárba, mint a más oldalakról érkező feltöltések.",
-      "featureLinkTitle": "Stabil, megosztható linkek",
-      "featureLinkDesc": "Minden feltöltés tiszta URL-t ad vissza. A link addig működik, amíg nem törli a fájlt a vezérlőpulton.",
-      "featureDashboardTitle": "Minden egy helyen",
-      "featureDashboardDesc": "Bejelentkezés után nyissa meg a vezérlőpultot a link újbóli másolásához, megnyitásához új lapon vagy letöltéshez.",
-      "dropzoneTitle": "Húzza ide a fájlt",
-      "dropzoneHint": "PDF, Word (.doc/.docx), PowerPoint (.ppt/.pptx), Excel (.xls/.xlsx)",
-      "dropzoneFootnote": "A feltöltés után bármikor visszatérhet a vezérlőpultra a link másolásához vagy a fájl letöltéséhez.",
-      "browse": "Fájl kiválasztása",
-      "selectedFileLabel": "Kiválasztott fájl",
-      "removeSelectedFile": "Fájl eltávolítása",
-      "uploadBtn": "Feltöltés és link kérése",
-      "uploading": "Feltöltés…",
-      "loginRequiredTitle": "Jelentkezzen be fájlok feltöltéséhez",
-      "loginRequiredDescription": "Először jelentkezzen be. A tárhely a fiókjához kötött; a feltöltés után másolhat linkeket, letölthet és mindent kezelhet a vezérlőpulton.",
-      "loginRequiredDetail": "Bejelentkezés után minden feltöltés ugyanazon a helyen jelenik meg a vezérlőpulton: egy kattintással közvetlen link másolása, megnyitás új lapon, eredetik letöltése, szükség esetén típus szerinti keresés és szűrés, törlés vagy újrafeltöltés — segít megőrizni a dokumentumok magánjellegét.",
-      "loginCta": "Bejelentkezés",
-      "signUpCta": "Fiók létrehozása",
-      "resultTitle": "Fájllinkje",
-      "resultDashboardHint": "Ehhez a fájlhoz bármikor nyissa meg a vezérlőpultot: URL másolása, megnyitás új lapon vagy az eredeti letöltése.",
-      "dashboardCta": "Vezérlőpult megnyitása",
-      "copy": "Link másolása",
-      "copied": "Másolva",
-      "open": "Megnyitás új lapon",
-      "reset": "Másik feltöltése",
-      "errorUnauthorized": "Jelentkezzen be fájlok feltöltése előtt.",
-      "errorBadType": "Válasszon PDF-, Word-, PowerPoint- vagy Excel-fájlt.",
-      "howTitle": "Hogyan működik",
-      "step1Title": "1. Válassza ki a fájlt",
-      "step1Desc": "Válasszon támogatott dokumentumot az eszközéről, vagy húzza a feltöltési területre.",
-      "step2Title": "2. Töltse fel a könyvtárába",
-      "step2Desc": "Elmentjük a fájlt a felhőjébe, megjelenítjük a vezérlőpulton, majd visszaadunk egy közvetlen HTTPS URL-t.",
-      "step3Title": "3. Ossza meg, és térjen vissza később",
-      "step3Desc": "Ossza meg a linket e-mailben vagy csevegésben. Szükség esetén nyissa meg a vezérlőpultot ugyanazon link másolásához, megnyitásához vagy a fájl letöltéséhez."
-    },
-    "page": {
-      "sectionTitle": "Röviden",
-      "sectionLead": "Válasszon fájlt, töltsön fel, és másolja a linket — szükség esetén nyissa meg a vezérlőpultot az újbóli másoláshoz vagy az eredeti letöltéséhez.",
-      "bullet1": "Támogatott formátumok: PDF, Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx).",
-      "bullet2": "Húzza és ejtse, vagy tallózzon fájlt; a feltöltés végén megjelenítünk egy másolásra kész HTTPS-linket.",
-      "bullet3": "Illessze be a linket e-mailbe, csevegésbe vagy dokumentumba — a címzettek böngészőben nyitják meg.",
-      "bullet4": "A fájlok a fiókjában maradnak; nyissa meg a vezérlőpultot ugyanazon link másolásához vagy az eredeti letöltéséhez.",
-      "bullet5": "Csak PDF? Használja a «PDF URL-re» oldalt is a rövidebb folyamathoz.",
-      "footnote": "Törölje a fájlt a vezérlőpulton, ha már nem kell; a link megszűnik működni."
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Fotó Linkké",
-      "description": "Cikkek a fotó tárhelyről, link megosztásról és teljesítmény tippekről."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Legfrissebb cikkek, oktatóanyagok és betekintések a képbarátásról, CDN-ről, linkmegosztásról, körkörös vágásról, lekerekített sarkokról és háttér eltávolításról.",
-      "stayTuned": "Kövesse az útmutatókat:",
-      "guides": {
-        "1": "Ajánlott eljárások kép URL-re konvertálásához",
-        "2": "Hogyan használjon közvetlen fotó linkeket blogokban és dokumentumokban",
-        "3": "Teljesítmény és gyorsítótár statikus eszközökhöz"
-      },
-      "readMore": "Tovább olvasás",
-      "min": "perc",
-      "backToBlog": "Vissza a bloghoz",
-      "minRead": "perc olvasás",
-      "author": "Szerző",
-      "viewMoreArticles": "Több cikk megtekintése",
-      "tags": "Címkék:",
-      "about": {
-        "title": "A Fotó Linkké csapatról",
-        "subtitle": "Szerkesztőségi csapat",
-        "description": "Építjük és karbantartjuk a Fotó Linkké-t, és gyakorlati útmutatókat írunk a képoptimalizálásról és a webes teljesítményről.",
-        "website": "Weboldal",
-        "twitter": "Twitter",
-        "github": "GitHub",
-        "viewAllPosts": "Összes bejegyzés megtekintése"
-      }
-    },
-    "posts": {
-      "how-to-convert-image-to-url-complete-guide": {
-        "title": "Kép URL-lé konvertálása: Teljes útmutató",
-        "description": "Tanuljon meg mindent, amit tudnia kell a képek megosztható URL-ekké konvertálásáról. Ez az átfogó útmutató lefedi a módszereket, ajánlott eljárásokat és tippeket a képhosztoláshoz és linkmegosztáshoz.",
-        "content": "# Kép URL-lé konvertálása: Teljes útmutató\n\nA képek megosztható URL-ekké konvertálása elengedhetetlen készséggé vált a mai digitális világban. Legyen szó bloggérról, fejlesztőről vagy tartalomkészítőről, a képek közvetlen linkekké való átalakításának megértése jelentősen javíthatja munkafolyamatát és tartalommegosztási képességeit.\n\n## Miért konvertáljuk a képeket URL-ekké?\n\nMielőtt belemennénk a módszerekbe, értsük meg, miért hasznos a képek URL-ekké konvertálása:\n\n### 1. **Könnyű megosztás**\nA közvetlen kép URL-ek lehetővé teszik, hogy azonnal megossza a képeket fájlok letöltése vagy újrafeltöltése nélkül. Egyszerűen másolja a URL-t és illessze be bárhová - e-mailekbe, dokumentumokba vagy közösségi média bejegyzésekbe.\n\n### 2. **Jobb teljesítmény**\nA közvetlen kép linkek használata csökkenti a főszerver terhelését. Amikor a képek egy CDN-en (Content Delivery Network) vannak tárolva, gyorsabban töltődnek be a felhasználók számára világszerte.\n\n### 3. **Rugalmasság**\nA kép URL-ek beágyazhatók HTML-be, Markdown-ba vagy használhatók API-kban. Ez a rugalmasság tökéletessé teszi őket fejlesztők és tartalomkészítők számára egyaránt.\n\n### 4. **Tárolási hatékonyság**\nA képek helyi tárolása helyett használhat felhőalapú tárolási megoldásokat, amelyek közvetlen URL-eket biztosítanak, ezzel értékes szervertér helyet takarít meg.\n\n## Módszerek a képek URL-ekké konvertálására\n\n### Módszer 1: A Fotó Linkké szolgáltatás használata\n\nA **Fotó Linkké** egy ingyenes, felhasználóbarát szolgáltatás, amely könnyűvé teszi a kép URL-lé konvertálást:\n\n1. **Látogassa meg a weboldalt**: Navigáljon a Fotó Linkké oldalra\n2. **Töltse fel a képét**: Húzza be és ejtse le a képfájlt vagy kattintson a böngészéshez\n3. **Szerezze meg az URL-t**: Feltöltés után közvetlen linket kap a képéhez\n4. **Másolja és használja**: Másolja az URL-t és használja bárhol, ahol szükséges\n\n**Előnyök:**\n- ✅ Regisztráció nem szükséges\n- ✅ Gyors feltöltés és feldolgozás\n- ✅ Közvetlen CDN linkek optimális teljesítményhez\n- ✅ Több képformátum támogatása (JPG, PNG, WEBP, GIF)\n- ✅ 10 feltöltés/nap, 2MB fájlonként\n\n### Módszer 2: Felhőalapú tárolási szolgáltatások\n\nA népszerű felhőalapú tárolási szolgáltatások közvetlen URL hozzáféréssel kínálnak képhosztolást:\n\n**Google Cloud Storage / AWS S3:**\n- Töltse fel a képeket a bucket-jébe\n- Állítson be megfelelő engedélyeket\n- Hozzáférjen a képekhez közvetlen URL-eken keresztül\n- Konfigurálja a CDN-t jobb teljesítményhez\n\n**Előnyök:**\n- Teljes kontroll a képei felett\n- Skálázható tárolási megoldások\n- Professzionális szintű infrastruktúra\n\n### Módszer 3: Képhosztoló platformok\n\nA dedikált képhosztoló platformok specializált szolgáltatásokat nyújtanak:\n\n- **Imgur**: Népszerű a gyors kép megosztáshoz\n- **Cloudinary**: Fejlett képmanipulációs funkciók\n- **ImageKit**: Teljesítményre optimalizált\n\n## Ajánlott eljárások a kép URL-ekhez\n\n### 1. **Válassza ki a megfelelő formátumot**\n\nA különböző képformátumok különböző célokat szolgálnak:\n\n- **JPEG**: Legjobb sok színű fotóknál\n- **PNG**: Ideális átlátszóságú vagy éles szélű képekhez\n- **WEBP**: Modern formátum, amely jobb tömörítést kínál\n- **GIF**: Tökéletes animált képekhez\n\n### 2. **Optimalizálja a kép méretét**\n\nURL-lé konvertálás előtt optimalizálja a képeit:\n\n- Tömörítse a képeket a fájlméret csökkentéséhez\n- Módosítsa a képek méretét megfelelő méretekre\n- Használjon modern formátumokat, mint a WEBP, amikor lehetséges\n- Egyensúlyozza a minőséget és a fájlméretet\n\n### 3. **Használjon CDN-t jobb teljesítményhez**\n\nA tartalomszolgáltató hálózatok (CDN) több szerveren osztják szét a képeit világszerte, biztosítva a gyors betöltési időket a felhasználó helyétől függetlenül.\n\n### 4. **Valósítsa meg a megfelelő biztonságot**\n\n- Használjon HTTPS URL-eket a biztonságos képkézbesítéshez\n- Állítson be megfelelő hozzáférési engedélyeket\n- Fontolja meg a vízjelezést érzékeny tartalomhoz\n- Figyelje a használatot a visszaélések megelőzésére\n\n## Gyakori használati esetek\n\n### Bloggereknek\n\nA bloggerek a kép URL-eket használhatják:\n- Képek beágyazására blog bejegyzésekbe helyi hosztolás nélkül\n- Oldalbetöltési idők javítására\n- Képek megosztására több platformon\n- Konzisztens képminőség fenntartására\n\n### Fejlesztőknek\n\nA fejlesztők a kép URL-ekből profitálnak:\n- Szerverterhelés csökkentésével\n- Képkezelés egyszerűsítésével\n- Dinamikus képbetöltés engedélyezésével\n- API-kkal és webszolgáltatásokkal való integrációval\n\n### E-kereskedelmi oldalaknak\n\nAz e-kereskedelmi oldalak kép URL-eket használnak:\n- Termékképek hatékony megjelenítésére\n- Nagy képkatalógusok kezelésére\n- Mobil eszközökre való optimalizálásra\n- Pénztár oldal teljesítményének javítására\n\n## Gyakori problémák megoldása\n\n### Probléma: Törött kép linkek\n\n**Megoldás:**\n- Ellenőrizze, hogy az URL helyes és elérhető-e\n- Ellenőrizze a kép engedélyeket és hozzáférési beállításokat\n- Győződjön meg arról, hogy a hosztolási szolgáltatás működik\n- Érvényesítse, hogy a képformátum támogatott-e\n\n### Probléma: Lassú betöltési idők\n\n**Megoldás:**\n- Használjon CDN-t a képkézbesítéshez\n- Optimalizálja a képfájl méreteket\n- Válasszon megfelelő képformátumokat\n- Valósítsa meg a lusta betöltést, ahol lehetséges\n\n### Probléma: A kép nem jelenik meg\n\n**Megoldás:**\n- Ellenőrizze a CORS (Cross-Origin Resource Sharing) beállításokat\n- Ellenőrizze, hogy a HTTPS/HTTP protokollok egyeznek-e\n- Győződjön meg arról, hogy a megfelelő MIME típusok be vannak állítva\n- Tesztelje az URL elérhetőségét különböző helyekről\n\n## Fejlett tippek\n\n### 1. **Kötegelt feldolgozás**\n\nTöbb kép esetén fontolja meg:\n- API-k használatát automatizált feltöltésekhez\n- Kötegelt konverziós szkriptek implementálását\n- Felhőalapú tárolási API-k kihasználását\n- Automatizált munkafolyamatok beállítását\n\n### 2. **Képmanipuláció**\n\nEgyes szolgáltatások képmanipulációt kínálnak menet közben:\n- Képek átméretezése URL paramétereken keresztül\n- Szűrők és effektek alkalmazása\n- Formátumok automatikus konvertálása\n- Képek vágása és forgatása\n\n### 3. **Elemzés és monitorozás**\n\nKövesse nyomon a kép használatát:\n- Figyelje a sávszélesség fogyasztást\n- Elemezze a népszerű képeket\n- Kövesse nyomon a hozzáférési mintákat\n- Optimalizáljon használati adatok alapján\n\n## Összegzés\n\nA képek URL-ekké konvertálása egy egyszerű folyamat, amely számos előnyt kínál. Akár egy egyszerű szolgáltatást választ, mint a Fotó Linkké, akár egy átfogó felhőalapú tárolási megoldást, a kulcs az, hogy megtalálja a legjobban illeszkedő módszert.\n\nNe felejtse el:\n- ✅ Optimalizálja a képeket feltöltés előtt\n- ✅ Válasszon megfelelő formátumokat\n- ✅ Használjon CDN-t jobb teljesítményhez\n- ✅ Valósítsa meg a megfelelő biztonsági intézkedéseket\n- ✅ Rendszeresen figyelje és optimalizálja\n\nEzen irányelvek követésével hatékonyan konvertálhatja és kezelheti a képeit URL-ekként, javítva mind a munkafolyamatát, mind a tartalma teljesítményét.\n\n## Kapcsolódó eszközök\n\n- [Fotó Linkké](/) - Ingyenes kép URL-lé konverziós szolgáltatás\n- [Körkörös vágás eszköz](/circle-crop) - Hozzon létre körkörös képeket\n- [Kerekített sarkok eszköz](/rounded-corners) - Adjon hozzá kerekített sarkokat a képekhez\n- [Háttér eltávolítás eszköz](/remove-background) - Távolítsa el a kép háttereket AI-val\n\n---\n\n*Utolsó frissítés: 2025. december*"
-      },
-      "how-to-crop-images-in-circle-shape": {
-        "title": "Hogyan vágjunk képeket kör alakúra - Teljes útmutató",
-        "description": "Alakítsunk át bármilyen fényképet tökéletes körkörös képpé ingyenes online körkörös vágóeszközünkkel. Hozzunk létre professzionális kerek képeket profilokhoz, közösségi médiához, logókhoz és még sok máshoz másodpercek alatt.",
-        "content": "# Hogyan vágjunk képeket kör alakúra - Teljes útmutató\n\nAlakítsunk át bármilyen fényképet tökéletes körkörös képpé ingyenes online körkörös vágóeszközünkkel. Hozzunk létre professzionális kerek képeket profilokhoz, közösségi médiához, logókhoz és még sok máshoz másodpercek alatt.\n\n## Hogyan vágjunk képeket kör alakúra\n\n### 1. lépés: Töltse fel a képét\nVálasszon ki bármilyen fényképet az eszközéről, amelyet kör alakúra szeretne vágni. Eszközünk támogatja a JPG, PNG, WEBP és GIF formátumokat. Egyszerűen kattintson a feltöltés gombra, vagy húzza be és ejtse le a képfájlt.\n\n### 2. lépés: Helyezze el a képét\nÁllítsa be és középre igazítsa a fényképét a körkörös vágási területen belül. Használja a nagyítás csúszkát, hogy a kép legfontosabb részére összpontosítson, és húzza át a tökéletes kerek vágáshoz.\n\n### 3. lépés: Töltse le a körkörös képét\nMiután elégedett a pozicionálással, kattintson a \"Vágás és letöltés\" gombra, hogy megkapja a tökéletesen kerek képét. Az eredménynek átlátszó háttere lesz, ami bárhol való használatra ideális.\n\n## Népszerű módszerek a körkörösen vágott képek használatára\n\n### Profilkép\nVágjon fényképeket kör alakúra professzionális megjelenésű profilképekhez olyan közösségi média platformokon, mint a Facebook, LinkedIn és Instagram. A körkörös avatárok modern, csiszolt megjelenést teremtenek.\n\n### Közösségi média grafikák\nHozzon létre körkörös képeket Instagram történetekhez, Facebook bejegyzésekhez és Twitter profilokhoz, amelyek kitűnnek a tömegből. A kerek képek vizuális érdeklődést adnak és megtörik a négyzetes bejegyzések monotonitását.\n\n### Kerek logók\nAlakítsa át a logóját vagy márkaképeit tökéletes kerek formákra a konzisztens márkajelzésért minden platformon. A körkörös logók különösen jól működnek alkalmazásikonokhoz és közösségi média márkajelzéshez.\n\n### Ajánló fényképek\nJelenítse meg az ügyfelek vagy kliensek ajánlásait körkörös profilfényképekkel tiszta, professzionális megjelenésért. A kerek képek vizuális konzisztenciát teremtenek és vonzóbbá teszik az ajánlásokat.\n\n### Csapattag fényképek\nHozzon létre konzisztens kerek portrékat vállalati weboldalakhoz, csapatoldalakhoz és alkalmazotti könyvtárakhoz. Az egységes körkörös fényképek koherens, professzionális megjelenést adnak a csapatoldalnak.\n\n## Körkörös vágóeszközünk jellemzői\n\n- **Ingyenes körkörös képvágó** - Hozzon létre körkörös formákat bármilyen képről ingyenesen, rejtett díjak nélkül\n- **Magas felbontású kimenet** - Töltse le a körkörös képeit eredeti minőségükben tömörítés nélkül\n- **Nincs szükség regisztrációra** - Kezdje el azonnal a képek kör alakúra vágását, nincs szükség fiók létrehozására\n- **Privát és biztonságos** - A képei soha nem hagyják el a böngészőjét, teljes magánéletet biztosítva\n- **Könnyen használható felület** - Az egyszerű, intuitív dizájn könnyűvé teszi a kerek képek létrehozását\n- **Minden eszközön működik** - Vágjon képeket kör alakúra asztali számítógépen, táblagépen vagy mobil eszközön\n- **Átlátszó háttér** - Minden körkörös vágás átlátszó hátterekkel jön a maximális sokoldalúságért\n- **Valós idejű előnézet** - Lássa pontosan, hogyan fog kinézni a körkörös képe letöltés előtt\n\n## Körkörös képvágás GYIK\n\n### Hogyan vágjak egy képet kör alakúra?\n\nEgyszerűen töltse fel a képét az eszközünkre, állítsa be a körkörös kereten belül, hogy helyesen pozícionálja az alanyt, és kattintson a \"Vágás és letöltés\" gombra, hogy megkapja a tökéletesen kerek képét. Eszközünk megkönnyíti bármilyen kép azonnali körkörös formátumba vágását tervezési készségek nélkül.\n\n### Hogyan készítsek körkörös profilkép?\n\nTöltse fel a fényképét a körkörös vágóeszközünkre, helyezze az arcát a körkörös keret közepére, majd töltse le az új kerek profilképét. Tökéletes olyan közösségi média profilokhoz, amelyek körkörös képeket használnak, mint a Facebook, LinkedIn vagy Instagram.\n\n### Vághatok fényképeket kerek formákra a telefonomon?\n\nIgen! A körkörös képvágónk minden eszközön működik, beleértve az okostelefonokat és táblagépeket. A mobilbarát felület lehetővé teszi, hogy könnyedén hozzon létre kerek képvágásokat bárhol. Egyszerűen látogassa meg weboldalunkat mobil böngészőjéből - nincs szükség alkalmazás letöltésére.\n\n### Tárolják a feltöltött képeimet?\n\nNem, soha nem tároljuk a képeit a szervereinken. A teljes vágási folyamat közvetlenül a böngészőjében történik, ami azt jelenti, hogy a fényképei teljesen privátak maradnak. Amint elhagyja az oldalt, az összes képadat automatikusan törlődik.\n\n### Milyen képformátumokat használhatok a körkörös vágóeszközzel?\n\nEszközünk minden szabványos képformátummal működik, beleértve a JPG, PNG, WEBP és GIF formátumokat. Bármelyik formátumot feltöltheti, és a körkörösen vágott képe PNG fájlként lesz letöltve átlátszósággal a kör körül.\n\n### A körkörösen vágott képemnek átlátszó háttere lesz?\n\nIgen, amikor letölti a vágott képét, átlátszó háttere lesz a kör körül. Ez ideálissá teszi weboldalakon, dokumentumokban vagy tervezésekben való elhelyezéshez, ahol csak a körkörös rész legyen látható.\n\n### Beállíthatom a körkörös vágás méretét?\n\nA körkörös vágás tökéletes 1:1 képarányt tart fenn, de nagyíthat vagy kicsinyíthet, hogy beállítsa, mennyi képe jelenik meg a körben. Ez lehetővé teszi, hogy a kép meghatározott részeire összpontosítson a körkörös forma megtartása mellett.\n\n## Tippek a tökéletes körkörös vágásokhoz\n\n### Középre igazítsa az alanyt\nA legjobb eredményekért válasszon olyan képeket, ahol a fő alany középre van igazítva vagy a keret közepére helyezhető. Ez különösen fontos a profilképhez és portrékhoz, ahol az arc legyen a fókuszpont.\n\n### Fontolja meg a vágási területet\nNe feledje, hogy a kép sarkai ki lesznek vágva. Kerülje azokat a képeket, ahol a fontos részletek közel vannak a fénykép széléhez, mivel ezek elvesznek a körkörös vágásban.\n\n### Használjon nagy felbontású képeket\nA nagy minőségű képekkel való kezdés jobb körkörös vágásokat eredményez. Az alacsony felbontású vagy kis képek pixelesek lehetnek vágáskor, ezért használja a legmagasabb minőségű forrásképeket.\n\n### Figyeljen a képarányra\nA négyzetes képek általában a legjobban működnek a körkörös vágáshoz. Ha az eredeti képe nagyon széles vagy magas, jelentős részeket veszíthet a vágási folyamat során. Ha szükséges, fontolja meg először a négyzetre vágást.\n\n### Állítson be optimális keretezéshez\nHasználja az eszközünk pozicionálási funkcióját a kép nagyításához és beállításához. Portrékhoz próbálja középre igazítani az arcot némi margóval körülötte a legjobb professzionális megjelenésért. Termékekhez középre igazítsa a fő elemet a körben.\n\n### Hozzon létre konzisztens készleteket\nTöbb körkörös kép létrehozásakor (például csapatfényképekhez) próbáljon konzisztens keretezést, háttérstílusokat és méreteket fenntartani koherens megjelenésért minden képen.\n\n## Gyakori használatok a körkörösen vágott képekhez\n\n| Alkalmazás | A körkörös vágás előnyei |\n|------------|------------------------|\n| Közösségi média profilok | A legtöbb platform körkörös avatárokat jelenít meg - a tökéletesen vágott körkörös kép professzionálisnak tűnik |\n| Csapattag fényképek | Hozzon létre konzisztens kerek portrékat vállalati weboldalakhoz és könyvtárakhoz |\n| Online portfóliók | A kerek képek vizuális érdeklődést és modern esztétikát teremtenek |\n| Digitális névjegykártyák | A körkörösen vágott profilkép tisztábbnak és professzionálisabbnak tűnik |\n| Termék bélyegképek | A kerek termékképek koherens katalógus megjelenést teremtenek |\n| Alkalmazásikonok | A körkörös ikonok szabványosak a mobilalkalmazásokhoz |\n| Weboldal ajánlások | A kerek ügyfélfényképek hitelességet és vizuális vonzerőt adnak |\n\n## Miért válassza a körkörös képvágóeszközünket\n\nAmikor online körkörös vágásról van szó, eszközünk számos előnyt kínál:\n\n- **Azonnali feldolgozás** - Vágjon képet kör alakúra másodpercek alatt várakozás nélkül feltöltésre vagy szerver feldolgozásra\n- **Tökéletes körök minden alkalommal** - Eszközünk tökéletes kerek vágásokat biztosít tiszta szélekkel és torzulás nélkül\n- **Intuitív vezérlés** - Könnyedén pozícionálja a képét pontosan, ahogy szeretné a körben nagyítási és húzási funkciókkal\n- **Nincs vízjel** - Más körkörös vágóeszközökkel ellentétben nem adunk vízjelet a képeikhez\n- **Minden kép típussal működik** - Vágjon fényképeket, grafikákat, illusztrációkat vagy bármilyen képet körkörössé\n- **Böngésző alapú** - Nincs szükség szoftver telepítésre, közvetlenül a web böngészőjében működik\n- **Magánélet első** - Minden feldolgozás helyben történik a böngészőjében, a képei soha nem hagyják el az eszközét\n\nAkár professzionális használatra, akár személyes projektekhez kell kör alakúra vágni képeket, körkörös fényképvágóeszközünk könnyedén kezeli az összeset. Hozzon létre kerek képvágásokat csak néhány kattintással!\n\n## Kezdés\n\nKészen áll az első körkörös kép létrehozására? Látogassa meg [Körkörös vágóeszközünket](/circle-crop) és kezdje el a vágást még ma. Teljesen ingyenes, nem igényel regisztrációt, és csak másodpercekbe telik professzionális körkörös képek létrehozása.\n\n---\n\n*Utolsó frissítés: 2026. január*"
-      },
-      "photo-to-rounded-corners-guide": {
-        "title": "Képek kerekített sarkokkal – Útmutató",
-        "description": "Adj kerekített sarkokat bármely képnek az ingyenes eszközzel. Miniatűrökhöz, kártyákhoz, felülethez és közösségi médiához másodpercek alatt.",
-        "content": "# Képek kerekített sarkokkal – Útmutató\n\nBármely kép sarkait kerekítsd az ingyenes online eszközzel. Miniatűrökhöz, kártyákhoz, felületi elemekhez és közösségi médiához ideális, tervezési tapasztalat nélkül.\n\n## Hogyan kerekítsd a kép sarkait\n\n### 1. lépés: Töltsd fel a képet\nVálassz fényképet a eszközödről. Formátumok: JPG, PNG, WEBP, GIF. Kattintás vagy húzd és ejts.\n\n### 2. lépés: Állítsd be a sarok sugarat\nA csúszkával állítsd be a kerekítés mértékét. Az előnézet valós időben frissül.\n\n### 3. lépés: Töltés le\nKattints a \"Letöltés\" gombra a kerekített sarkú kép mentéséhez; használd elrendezésben, weben vagy posztokban.\n\n## Gyakori használat\n\n### Miniatűrök és kártyák\nA kerekített sarkok a rácsoknak és kártyáknak tiszta, modern megjelenést adnak.\n\n### Közösségi média és hirdetések\nA puha sarkú képek jobban kiemelkednek a feedben és a hirdetésekben, barátságosabb hatást keltenek.\n\n### Felület és alkalmazások\nAz ikonok, avatárok és gombok gyakran kerekített sarkúak; az eszköz segít több képet egységesíteni.\n\n### Prezentációk és dokumentumok\nUgyanaz a sugár képernyőképeken és grafikákon a diákat és dokumentumokat konzisztenssé teszi.\n\n## Mit nyújt az eszköz\n\n- **Ingyenes és azonnali** – regisztráció nélkül, vízjel nélkül, korlát nélkül\n- **Beállítható sugár** – enyhe kerekítéstől a kapszula formáig\n- **Valós idejű előnézet** – a letöltés előtt látod az eredményt\n- **Adatvédelem** – böngészőben történik a feldolgozás; nem tárolunk képeket\n- **Minden eszköz** – PC, tablet, telefon\n\n## Gyakori kérdések\n\n### Hogyan kerekítsem a fénykép sarkait?\n\nNyisd meg a [Kerekített sarkok eszközt](/rounded-corners), tölts fel képet, állítsd be a sugarat, kattints a Letöltésre.\n\n### Milyen formátumok támogatottak?\n\nJPG, PNG, WEBP, GIF. A letöltés megtartja az eredeti formátumot (vagy PNG átlátszósághoz).\n\n### Működik telefonon?\n\nIgen. Az eszköz a mobil- és tabletböngészőben fut, alkalmazás nélkül.\n\n### Tárolják a képeimet?\n\nNem. Minden feldolgozás a böngésződben történik; nem tárolunk semmit.\n\n## Kapcsolódó eszközök\n\n- [Fotó Linkké](/) – kép linkké alakítása\n- [Körkörös vágás](/circle-crop) – kör alakú képek készítése\n- [Kerekített sarkok](/rounded-corners) – sarkok kerekítése\n- [Háttér eltávolítás](/remove-background) – háttér eltávolítása AI-val\n\n---\n\n*Utolsó frissítés: 2026. február*"
-      },
-      "photo-to-remove-background-guide": {
-        "title": "Háttér eltávolítás – Útmutató",
-        "description": "Távolítsa el a háttér a képekről egy kattintással ingyenes AI eszközzel. Tiszta kivágások termékekhez, portrékhoz, logókhoz és másokhoz.",
-        "content": "# Háttér eltávolítás – Útmutató\n\nTávolítsa el a háttér a képekről egy kattintással ingyenes online eszközzel. Tiszta kivágások termékfotókhoz, portrékhoz, logókhoz – tervezési tudás nélkül.\n\n## Hogyan távolítsa el a hátteret\n\n### 1. lépés: Kép feltöltése\nVálasszon egy fényképet az eszközről. Támogatott: JPG, PNG, WEBP, GIF. Kattintson vagy húzza és ejtse.\n\n### 2. lépés: Az AI eltávolítja a hátteret\nAz eszköz automatikusan felismeri a tárgyat és eltávolítja a hátteret. A feldolgozás másodpercekig tart. Valós idejű előnézet átlátszó háttérrel.\n\n### 3. lépés: Letöltés\nKattintson a \"Letöltés\" gombra a háttér nélküli kép mentéséhez. Kimenet PNG átlátszósággal, designhoz, e-kereskedelmezéshez vagy közösségi médiához.\n\n## Gyakori felhasználás\n\n### Termékfotók\nTiszta kivágások online boltokhoz, piacokhoz és hirdetésekhez. Átlátszó háttér bármilyen elrendezéshez.\n\n### Portrék és profilok\nTávolítsa el a zsúfolt hátteret portrékból önéletrajzhoz, LinkedInhez vagy profilhoz.\n\n### Logók és grafikák\nVálassza ki a logókat és grafikákat fényképekről vagy szkennelésekről. Átlátszó PNG átfedésekhez és bemutatókhoz.\n\n### Közösségi média és marketing\nSzembetűnő képek bejegyzésekhez, sztorikhoz és hirdetésekhez. Átlátszó kivágások bármilyen sablonhoz.\n\n## Mit kínál az eszköz\n\n- **Ingyenes és AI** – nincs regisztráció, vízjel, korlát\n- **Egy kattintásos eltávolítás** – automatikus tárgyfelismerés és tiszta szélek\n- **Átlátszó PNG** – bármilyen designhoz vagy platformhoz\n- **Adatvédelem** – böngészőben feldolgozva; nem tárolunk képeket\n- **Minden eszköz** – PC, tablet, telefon\n\n## Gyakori kérdések\n\n### Hogyan távolítsam el a hátteret egy fényképről?\n\nNyissa meg a [Háttér eltávolító eszközt](/remove-background), töltsön fel képet. Az eszköz felismeri a tárgyat és eltávolítja a hátteret. Előnézet és letöltés átlátszó PNG-ként.\n\n### Milyen képformátumok támogatottak?\n\nJPG, PNG, WEBP, GIF. Az eredmény mindig PNG-ként töltődik le átlátszó háttérrel.\n\n### Tárolják a képeimet?\n\nNem. A feldolgozás a böngészőjében történik; semmit nem tárolunk.\n\n### Működik telefonon?\n\nIgen. Az eszköz bármilyen böngészőben működik telefonon és tableten.\n\n## Kapcsolódó eszközök\n\n- [Kép URL-re](/) – kép linkké\n- [Körkörös vágás](/circle-crop) – kerek képek\n- [Kerekített sarkok](/rounded-corners) – sarkok kerekítése\n- [Háttér eltávolítás](/remove-background) – háttér eltávolítás AI-val\n\n---\n\n*Utolsó frissítés: 2026. március*"
-      }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Dokumentáció a Photo To URL-hez."
-    },
-    "page": {
-      "title": "Dokumentáció",
-      "description": "Gyors kezdés: tölts fel egy képet, és kapj közvetlen URL-t. Használd a másolás/megnyitás gombokat, vagy töltsd le a linket .txt fájlként.",
-      "features": {
-        "title": "Supported features:",
-        "items": {
-          "1": "Támogatott: JPG, PNG, WEBP, GIF",
-          "2": "Gyors kiszolgálás CDN-en keresztül, ha a tárhely engedélyezve van",
-          "3": "Érthető karbantartási hibaüzenetek, amikor a szolgáltatás nem elérhető"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Photo To URL",
-      "description": "A Photo To URL szolgáltatás állapota."
-    },
-    "page": {
-      "title": "Állapot",
-      "description": "Minden rendszer rendben működik.",
-      "message": "A feltöltési API és a CDN-linkek működnek."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kapcsolat | Photo To URL",
-      "description": "Lépj kapcsolatba a Photo To URL-lel képtárhely támogatás, visszajelzés, partnerség vagy hibabejelentés kapcsán. Minden üzenetet elolvasunk, és célunk, hogy 1-2 munkanapon belül válaszoljunk."
-    },
-    "page": {
-      "title": "Kapcsolat",
-      "introShort": "Kérdésed vagy visszajelzésed van? Töltsd ki az alábbi űrlapot, és hamarosan válaszolunk.",
-      "orEmail": "Vagy írj nekünk ide:",
-      "subtitle": "Segítünk képtárhely, linkek és bármi más témában is.",
-      "intro": "A Photo To URL egy ingyenes képtárhely szolgáltatás, amely a fotóidat megosztható linkekké alakítja. Ha kérdésed, javaslatod van, vagy problémába ütközöl, örömmel várjuk üzenetedet.",
-      "whyTitle": "Miben kereshetsz minket",
-      "why1": "Technikai támogatás: feltöltési hibák, törött linkek vagy eszközproblémák",
-      "why2": "Visszajelzés és funkciókérések a szolgáltatás fejlesztéséhez",
-      "why3": "Partnerségi vagy együttműködési megkeresések",
-      "why4": "Visszaélés jelentése, szerzői jogi aggályok vagy szabályzati kérdések",
-      "expectTitle": "Mire számíthatsz",
-      "expectContent": "Minden üzenetet elolvasunk, és célunk, hogy 1-2 munkanapon belül válaszoljunk. Sürgős esetben adj meg egyértelmű tárgyat és minél több részletet.",
-      "emailHeading": "Kapcsolatfelvétel e-mailben",
-      "emailHint": "Küldj nekünk e-mailt, és a lehető leghamarabb válaszolunk.",
-      "email": {
-        "label": "E-mail",
-        "address": "support@phototourl.com",
-        "cta": "E-mail küldése"
-      },
-      "form": {
-        "title": "Üzenet küldése",
-        "description": "Töltsd ki az alábbi űrlapot, és a lehető leghamarabb visszajelzünk.",
-        "name": "Név",
-        "email": "Email",
-        "message": "Üzenet",
-        "namePlaceholder": "Neved",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Üzeneted vagy kérdésed...",
-        "submit": "Üzenet küldése",
-        "submitting": "Küldés...",
-        "success": "Az üzenet sikeresen elküldve. Hamarosan válaszolunk.",
-        "minLength": "A névnek legalább 3 karakter hosszúnak kell lennie.",
-        "maxLengthName": "A név legfeljebb 30 karakter lehet.",
-        "invalidEmail": "Adj meg érvényes e-mail-címet.",
-        "minLengthMessage": "Az üzenetnek legalább 10 karakter hosszúnak kell lennie.",
-        "maxLengthMessage": "Az üzenet legfeljebb 2000 karakter lehet.",
-        "invalid": "Hiba történt. Próbáld újra."
-      }
-    }
-  },
-  "about": {
-    "seo": {
-      "title": "Rólunk | Fotó Linkké",
-      "description": "Tudjon meg többet a Fotó Linkké-ról - egy ingyenes képhosztolási szolgáltatásról, amely fényképeket megosztható linkekké alakít."
-    },
-    "page": {
-      "title": "Rólunk",
-      "mission": {
-        "title": "Küldetésünk",
-        "content": "A Fotó Linkké egy ingyenes, gyors és megbízható képhosztolási szolgáltatás, amelyet azért terveztünk, hogy segítsen a tartalomkészítőknek, marketingeseknek és csapatoknak azonnal megosztható linkekké alakítani a képeket. Hiszünk az egyszerűségben, a sebességben és a felhasználók magánéletében."
-      },
-      "features": {
-        "title": "Mit kínálunk",
-        "item1": "Ingyenes képhosztolás CDN támogatással",
-        "item2": "Azonnali linkgenerálás gyors megosztáshoz",
-        "item3": "Több képformátum támogatása (JPG, PNG, WEBP, GIF)",
-        "item4": "Regisztráció nélkül kipróbálható — ingyenes csomag: 10 feltöltés/nap, 2MB fájlonként"
-      },
-      "contact": {
-        "title": "Lépjen kapcsolatba velünk",
-        "text": "Kérdései vagy visszajelzései vannak? Lépjen kapcsolatba velünk a következő címen:",
-        "email": "support@phototourl.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Adatvédelmi irányelvek | Fotó Linkké",
-        "description": "Adatvédelmi irányelvek a Fotó Linkké számára - Ismerje meg, hogyan gyűjtjük, használjuk és védjük az Ön adatait."
-      },
-      "page": {
-        "title": "Adatvédelmi irányelvek",
-        "lastUpdated": "Utolsó frissítés: 2026 május",
-        "introduction": "A Fotó Linkké-nál tiszteletben tartjuk az Ön magánéletét és elkötelezettek vagyunk az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Irányelv elmagyarázza, hogyan gyűjtjük, használjuk, közöljük és védjük az Ön információit, amikor használja szolgáltatásunkat.",
-        "dataCollection": {
-          "title": "Az általunk gyűjtött információk",
-          "content1": "Amikor a Fotó Linkké szolgáltatást használja, a következőket gyűjthetjük:",
-          "item1": "Feltöltött képfájlokat és metaadatokat (fájlnév, méret, típus), amelyeket a Cloudflare R2-n tárolunk megosztható linkek biztosításához",
-          "item2": "IP-címet, feltöltési időbélyegeket és használati adatokat sebességkorlátozás, biztonság és visszaélés-megelőzés céljából",
-          "item3": "Fiókinformációkat regisztráció vagy bejelentkezés során (e-mail-cím, Google OAuth-profil, munkamenet- és hitelesítési azonosítók)",
-          "item4": "Előfizetési és fizetési információkat, amelyeket a Waffo Pancake fizetési szolgáltatónk dolgoz fel fizetős csomag vásárlásakor — nem tárolunk teljes bankkártyaszámokat",
-          "content2": "Ha kapcsolatfelvételi űrlapunkon keresztül ír nekünk, az Ön által megadott információkat gyűjtjük (pl. név, e-mail). Sütiket és hasonló technológiákat is használunk, ahogy az alábbi Sütik szakaszban leírjuk."
-        },
-        "dataUsage": {
-          "title": "Hogyan használjuk az Ön információit",
-          "item1": "Megosztható képlinkek generálásához és biztosításához",
-          "item2": "A visszaélések megelőzéséhez és a feltöltési korlátok betartatásához",
-          "item3": "Szolgáltatásunk és felhasználói élmény javításához",
-          "item4": "Jogi kötelezettségek teljesítéséhez"
-        },
-        "dataStorage": {
-          "title": "Adattárolás és megőrzés",
-          "content": "A feltöltött képek a Cloudflare R2 tárolóban vannak tárolva. A képeket addig őrizzük meg, ameddig szükséges a szolgáltatás nyújtásához. A képek automatikusan törölhetők inaktivitási időszak után vagy szabályzatok megsértése miatt."
-        },
-        "cookies": {
-          "title": "Sütik és követési technológiák",
-          "content1": "A következő technológiákat használjuk:",
-          "item1": "Helyi tárolás: Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
-          "item2": "Google AdSense: Hirdetések megjelenítéséhez (sütiket használ hirdetésszemélyre szabáshoz)",
-          "item3": "Google Analytics: Webhelyelemzéshez (anonimizált adatok)",
-          "content2": "A sütiket böngészőbeállításain keresztül vezérelheti. A sütik letiltása azonban befolyásolhatja szolgáltatásunk egyes funkcióit."
-        },
-        "personalizedAds": {
-          "title": "Személyre szabott hirdetések és leiratkozás",
-          "content": "A Google AdSense-t használjuk hirdetések megjelenítéséhez. a Google és más partnerek sütiket használhatnak a látogatásai alapján hirdetések megjelenítéséhez. A személyre szabott hirdetéseket kikapcsolhatja a",
-          "linkAdsSettings": "Google hirdetésbeállítások",
-          "content2": " vagy a Network Advertising Initiative leiratkozási oldala",
-          "linkAboutAds": "www.aboutads.info",
-          "content3": " segítségével."
-        },
-        "thirdParty": {
-          "title": "Harmadik fél szolgáltatásai",
-          "content1": "A következő harmadik fél szolgáltatásokat használjuk:",
-          "item1": "Cloudflare R2: Képtároláshoz és CDN kézbesítéshez",
-          "item2": "Google AdSense: Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
-          "item3": "Google Analytics: Webhelyelemzéshez (a Google Adatvédelmi Irányelvének alárendelve)",
-          "content2": "A Waffo Pancake-et is használjuk előfizetésekhez és fizetésfeldolgozáshoz. Ezek a szolgáltatások saját adatvédelmi irányelveik szerint gyűjthetnek információkat. Javasoljuk, hogy tekintse át azok adatvédelmi irányelveit."
-        },
-        "dataSecurity": {
-          "title": "Adatbiztonság",
-          "content": "Megfelelő technikai és szervezési intézkedéseket alkalmazunk az Ön adatainak védelmére a jogosulatlan hozzáférés, módosítás, nyilvánosságra hozatal vagy megsemmisítés ellen. Azonban az interneten keresztüli adatátvitel egyetlen módszere sem 100%-ban biztonságos."
-        },
-        "yourRights": {
-          "title": "Az Ön jogai",
-          "content": "Önnek joga van:",
-          "item1": "Hozzáférni feltöltött képeihez, fiókadataihoz és kapcsolódó információihoz",
-          "item2": "Képei törlését kérni",
-          "item3": "Bizonyos adatgyűjtési gyakorlatokból kizárni magát",
-          "item4": "Kapcsolatba lépni velünk magánéleti aggályokkal"
-        },
-        "children": {
-          "title": "Gyermekek magánélete",
-          "content": "Szolgáltatásunk nem 13 év alatti gyermekeknek szól. Tudatosan nem gyűjtünk személyes információkat 13 év alatti gyermekektől."
-        },
-        "changes": {
-          "title": "Változások ebben az Adatvédelmi Irányelvben",
-          "content": "Időnként frissíthetjük ezt az Adatvédelmi Irányelvet. Értesítjük Önt minden változásról az új Adatvédelmi Irányelv ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
-        },
-        "contact": {
-          "title": "Lépjen kapcsolatba velünk",
-          "text": "Ha kérdései vannak ezzel az Adatvédelmi Irányelvvel kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Felhasználási feltételek | Fotó Linkké",
-        "description": "Fotó Linkké felhasználási feltételek – képhosztolás, megengedett használat és felhasználói felelősség."
-      },
-      "page": {
-        "title": "Felhasználási feltételek",
-        "lastUpdated": "Utoljára frissítve: 2026. szeptember",
-        "intro": "Üdvözöljük a Fotó Linkkénél. A képfeltöltő és linkgeneráló szolgáltatásunk (a \"Szolgáltatás\") elérésével vagy használatával Ön elfogadja ezeket a Feltételeket. Ha nem ért egyet, ne használja a Szolgáltatást.",
-        "acceptance": {
-          "title": "Feltételek elfogadása",
-          "content": "Képek feltöltésével, linkek létrehozásával vagy a Fotó Linkké más módon történő használatával Ön megerősíti, hogy elolvasta, megértette és elfogadja ezeket a Feltételeket és adatvédelmi irányelveinket. A Feltételek frissíthetők; a módosítások utáni további használat a frissített Feltételek elfogadását jelenti."
-        },
-        "serviceDescription": {
-          "title": "A szolgáltatás leírása",
-          "content": "A Fotó Linkké ingyenes képhosztolást és közvetlen linkgenerálást biztosít. A megállapított korlátaink (fájlméret, formátum stb.) között tölthet fel képeket és kaphat megosztható linkeket. Nem garantáljuk a megszakítás nélküli elérhetőséget; a Szolgáltatás értesítéssel vagy anélkül módosítható, felfüggeszthető vagy megszüntethető."
-        },
-        "useOfService": {
-          "title": "A szolgáltatás használata",
-          "content": "A Szolgáltatást kizárólag törvényes célokra és e Feltételeknek megfelelően használhatja. Felelős a használatáért és a feltöltött tartalomért. Nem használhatja a Szolgáltatást az alkalmazandó törvények vagy harmadik felek jogainak megsértésére."
-        },
-        "userResponsibilities": {
-          "title": "Ön felelősségei",
-          "content": "Ön elfogadja: (1) hogy kérésre helyes adatokat szolgáltat; (2) hogy használata megfelel az alkalmazandó törvénynek; (3) hogy nem próbálja megkerülni a biztonságot, a sebességkorlátokat vagy a hozzáférés-ellenőrzéseket; (4) hogy nem használja a Szolgáltatást kártevő szoftver terjesztésére vagy a Szolgáltatás vagy más felhasználók megzavarására."
-        },
-        "prohibitedContent": {
-          "title": "Tiltott tartalom",
-          "content": "Nem tölthet fel vagy oszthat meg linkeket illegális, káros, fenyegető, visszaélő, zaklató, rágalmazó, obsczén, magánéletet vagy szellemi tulajdont sértő vagy egyébként elfogadhatatlan tartalomhoz; kiskorúak kizsákmányolására; erőszak vagy diszkrimináció előmozdítására; vagy harmadik felek jogainak megsértésére. Tartalmat eltávolíthatunk és hozzáférést értesítés nélkül felfüggeszthetünk vagy megszüntethetünk, ha megfelelően úgy véljük, hogy e Feltételek vagy a törvény megsértése történt."
-        },
-        "ipAndContent": {
-          "title": "Szellemi tulajdon és Ön tartalma",
-          "content": "Megtartja a feltöltött képek tulajdonjogát. A Szolgáltatás használatával korlátozott licencet ad nekünk a képek tárolására, feldolgozására és kiszolgálására, valamint linkek generálására és biztosítására, a Szolgáltatás működtetéséhez szükséges mértékben. Nem igényeljük a tartalma tulajdonjogát. Neve, logónk és a Szolgáltatás szellemi tulajdonunk; előzetes írásbeli hozzájárulásunk nélkül nem használhatja őket."
-        },
-        "subscriptions": {
-          "title": "Előfizetési csomagok",
-          "content": "A Fotó Linkké ingyenes szintet és fizetős előfizetéseket kínál (havi Pro és éves Premium) magasabb feltöltési, fájlméret- és tárhelykorláttal. Az aktuális csomagok és árak az árazási oldalon találhatók (https://phototourl.com/pricing). A fizetős hozzáférés digitális szolgáltatás, és a megerősített fizetés után azonnal elérhető."
-        },
-        "billing": {
-          "title": "Számlázás és fizetés",
-          "content": "Fizetési mód megadásával és fizetős csomag előfizetésével felhatalmaz minket és fizetési szolgáltatóinkat, hogy a vonatkozó előfizetési díjat ismétlődően terheljük az adott módon, amíg az alábbiak szerint le nem mondja. Az előfizetések minden számlázási időszak végén automatikusan megújulnak, hacsak nem mondják le. Az árak a fizetésnél jelennek meg, és a vonatkozó adókat nem feltétlenül tartalmazzák, hacsak másként nem jelezzük."
-        },
-        "cancellation": {
-          "title": "Lemondás és az automatikus megújítás leállítása",
-          "content": "A jövőbeli terheléseket bármikor leállíthatja így:",
-          "item1": "E-mailt küld a support@phototourl.com címre a regisztrált fiók e-mail címéről, és kéri az automatikus megújítás lemondását; vagy",
-          "item2": "Lemondja az automatikus terhelést vagy ismétlődő számlázást a kártyakibocsátónál mobilbankon, internetbankon vagy ügyfélszolgálaton keresztül.",
-          "effect": "A lemondás leállítja a jövőbeli megújításokat. A fizetős előnyöket a már kifizetett időszak végéig megtartja. Az időszak vége után az adott előfizetésre nem történik további terhelés, és a fizetős előnyök azzal az időszakkal véget érnek."
-        },
-        "refunds": {
-          "title": "Visszatérítési szabályzat",
-          "general": "Mivel a fizetős csomagok a fizetés után azonnal nyújtott digitális szolgáltatások, az előfizetési díjak általában nem visszatéríthetők, ha a Szolgáltatás továbbra is normálisan használható, kivéve az alábbi eseteket vagy ha a törvény másként írja elő.",
-          "eligibleTitle": "Mikor járhat visszatérítés",
-          "item1": "Első előfizetők: az első terheléstől számított 7 napon belül, ha a fizetős funkciókat nem használta jelentősen (például csak a csomag feltöltési vagy tárhelykeretének kis részét).",
-          "item2": "Dupla vagy hibás terhelések: teljes visszatérítés igazolt számlázási hiba esetén, amely dupla terhelést okozott.",
-          "item3": "Szolgáltatáskiesés a mi oldalunkon: ha az ellenőrzésünk alatt álló, igazolt kiesés a fizetős időszakában 72 óránál tovább tart, felülvizsgálat után arányos kreditet vagy visszatérítést kínálhatunk.",
-          "item4": "Törvényes jogok: ahol a vonatkozó jog elállási vagy visszatérítési jogot biztosít (például az EU-ban/Egyesült Királyságban), ezek a jogok megmaradnak.",
-          "howTitle": "Hogyan kérhet visszatérítést",
-          "how": "Írjon a support@phototourl.com címre a fiók e-mail címével, a fizetési vagy tranzakciós hivatkozással és az indokkal. Célunk, hogy 2 munkanapon belül visszaigazoljunk, és a jogos visszatérítéseket 5–10 munkanapon belül feldolgozzuk.",
-          "notTitle": "Mikor nincs visszatérítés",
-          "not1": "Már felhasznált előfizetési időszakok díjai, a fentiek kivételével.",
-          "not2": "Éves (Premium) előfizetés visszatérítési kérelmei az első vásárlástól számított 30 nap után, kivéve ha a törvény másként rendelkezik, vagy jogos kiesés, illetve dupla terhelés esete áll fenn.",
-          "not3": "E Feltételek megsértése miatt felfüggesztett vagy megszüntetett fiókok."
-        },
-        "disclaimer": {
-          "title": "Garancia kizárása",
-          "text": "A Szolgáltatás \"jelenlegi állapotában\" és \"elérhetősége szerint\" kerül nyújtásra, bármilyen garancia nélkül. Nem garantáljuk, hogy a Szolgáltatás megszakítás nélküli, hibamentes vagy káros összetevőktől mentes lesz. A Szolgáltatás használata kizárólag Ön saját felelősségére történik."
-        },
-        "limitationOfLiability": {
-          "title": "Felelősség korlátozása",
-          "content": "A törvény által megengedett legnagyobb mértékig a Fotó Linkké és üzemeltetői nem felelnek közvetett, véletlenszerű, különleges, következményes vagy büntető károkért, vagy adat-, nyereség- vagy hírnévvesztésért, amely a Szolgáltatás használatából vagy használatának képtelenségéből ered. Összes felelősségünk nem haladja meg az Ön által a követelés előtti tizenkét hónapban fizetett összeget (vagy nullát, ha nem fizetett semmit)."
-        },
-        "termination": {
-          "title": "Megszüntetés",
-          "content": "Bármikor felfüggeszthetjük vagy megszüntethetjük a Szolgáltatáshoz való hozzáférését, indokkal vagy indok nélkül, értesítéssel vagy anélkül. Bármikor abbahagyhatja a Szolgáltatás használatát. A megszüntetéskor a használati jog azonnal megszűnik. A természetüknél fogva tovább élő rendelkezések (beleértve a felelősség kizárását, korlátozását és az alkalmazandó jogot) továbbra is hatályukat gyakorolják."
-        },
-        "changes": {
-          "title": "Feltételek módosításai",
-          "content": "Frissíthetjük ezeket a Feltételeket. A módosított Feltételeket ezen az oldalon tesszük közzé és frissítjük az \"Utoljára frissítve\" dátumot. A módosítások utáni további használat az elfogadást jelenti. Javasoljuk, hogy rendszeresen tekintse át ezt az oldalt."
-        },
-        "governingLaw": {
-          "title": "Alkalmazandó jog",
-          "content": "Ezek a Feltételek azon joghatóság törvényeinek hatálya alá tartoznak és azok szerint értelmezendők, ahol működünk, a jogütközési elveket nem véve figyelembe. Minden vitát az adott joghatóság bíróságai rendeznek."
-        },
-        "contact": {
-          "title": "Kapcsolat",
-          "text": "A Felhasználási feltételekkel kapcsolatos kérdésekért keressen minket:",
-          "email": "support@phototourl.com"
-        }
-      }
-    },
-    "cookie": {
-      "seo": {
-        "title": "Süti szabályzat | Fotó Linkké",
-        "description": "Süti szabályzat a Fotó Linkké számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
-      },
-      "page": {
-        "title": "Süti szabályzat",
-        "lastUpdated": "Utolsó frissítés: 2026 szeptember",
-        "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Fotó Linkké a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően. A szabályzattal kapcsolatos kérdéseket a support@phototourl.com címre küldheti.",
-        "whatAreCookies": {
-          "title": "Mik a sütik",
-          "content": "A sütik kis szöveges fájlok, amelyeket az Ön eszközére helyeznek, amikor egy webhelyet látogat meg. Széles körben használják, hogy a webhelyek hatékonyabban működjenek és információkat szolgáltassanak a webhelytulajdonosoknak."
-        },
-        "howWeUseCookies": {
-          "title": "Hogyan használjuk a sütiket",
-          "content": "A sütiket a következő célokra használjuk:",
-          "item1": "Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
-          "item2": "Webhelyforgalom és felhasználói viselkedés elemzéséhez",
-          "item3": "Személyre szabott hirdetések megjelenítéséhez"
-        },
-        "typesOfCookies": {
-          "title": "A használt sütik típusai",
-          "essential": {
-            "title": "Alapvető sütik",
-            "content": "Ezek a sütik szükségesek a webhely megfelelő működéséhez. Lehetővé teszik az alapvető funkciókat, például nyelvi beállításainak és feltöltési előzményeinek tárolását."
-          },
-          "analytics": {
-            "title": "Elemző sütik",
-            "content": "A Google Analytics használjuk annak elemzésére, hogyan használják a látogatók webhelyünket. Ezek a sütik névtelen információkat gyűjtenek a webhelyhasználatról, hogy segítsenek nekünk javítani szolgáltatásunkat."
-          },
-          "advertising": {
-            "title": "Hirdetési sütik",
-            "content": "A Google AdSense-t használjuk hirdetések megjelenítéséhez. Ezek a sütik segítenek személyre szabott hirdetéseket szállítani böngészési viselkedése és érdeklődési körei alapján."
-          }
-        },
-        "thirdPartyCookies": {
-          "title": "Harmadik fél sütik",
-          "content": "A következő harmadik fél szolgáltatásokat használjuk, amelyek sütiket állíthatnak be:",
-          "item1": "Google AdSense - Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
-          "item2": "Google Analytics - Webhelyelemzéshez (a Google Adatvédelmi Irányelvének alárendelve)"
-        },
-        "manageCookies": {
-          "title": "Sütik kezelése",
-          "content": "A sütiket böngészőbeállításain keresztül vezérelheti és kezelheti. A legtöbb böngésző lehetővé teszi, hogy elutasítsa vagy elfogadja a sütiket, törölje a meglévő sütiket, vagy beállítsa a beállításokat bizonyos webhelyekhez. A sütik letiltása azonban befolyásolhatja szolgáltatásunk funkcionalitását."
-        },
-        "changes": {
-          "title": "Változások ebben a Süti Szabályzatban",
-          "content": "Időnként frissíthetjük ezt a Süti Szabályzatot. Értesítjük Önt minden változásról az új Süti Szabályzat ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
-        },
-        "contact": {
-          "title": "Lépjen kapcsolatba velünk",
-          "text": "Ha kérdései vannak ezzel a Süti Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
-          "email": "support@phototourl.com"
-        }
-      }
-    }
-  },
-  "bookmarklet": {
-    "title": "Photo To URL könyvjelző",
-    "description": "Tölts fel képeket bármelyik weboldalról közvetlenül a Photo To URL-re egyetlen kattintással! Ingyenes próba: 10 feltöltés/nap, 2MB fájlonként.",
-    "howItWorks": {
-      "title": "Hogyan működik",
-      "step1": "Nyiss meg bármilyen képeket tartalmazó weboldalt",
-      "step2": "Kattints a bookmarkletre a könyvjelzősávban",
-      "step3": "Válassz ki egy képet az oldalról",
-      "step4": "Azonnal megkapod az URL-t, és másolhatod is!"
-    },
-    "installation": {
-      "title": "Telepítés",
-      "step1": {
-        "title": "1. lépés: Másold ki a bookmarklet kódját",
-        "description": "Kattints az alábbi gombra a bookmarklet kód vágólapra másolásához."
-      },
-      "step2": {
-        "title": "2. lépés: Add hozzá a böngésződhöz",
-        "description": "Kövesd ezeket a lépéseket a böngésződ szerint:",
-        "chrome": "Chrome/Edge: Nyomd meg a Ctrl+Shift+B billentyűket (Macen Cmd+Shift+B) a könyvjelzősáv megjelenítéséhez, majd kattints rá jobb gombbal és válaszd az „Oldal hozzáadása” lehetőséget. A kódot URL-ként illeszd be.",
-        "firefox": "Firefox: Kattints jobb gombbal a könyvjelzősávra, és válaszd az „Új könyvjelző” lehetőséget. A kódot illeszd be a hely mezőbe.",
-        "safari": "Safari: Kapcsold be a könyvjelzősávot (Nézet → Könyvjelzősáv megjelenítése), majd húzd a kódot a könyvjelzősávra.",
-        "edge": "Alternatíva: Hozz létre új könyvjelzőt, szerkeszd, és cseréld le az URL-t a kimásolt kódra."
-      },
-      "step3": {
-        "title": "3. lépés: Kezdd el használni!",
-        "description": "Látogass meg egy képeket tartalmazó oldalt, majd kattints a bookmarkletre a feltöltés indításához!"
-      },
-      "copy": "Kód másolása",
-      "copied": "Kimásolva!"
-    },
-    "usage": {
-      "title": "Funkciók",
-      "description": "A bookmarklet a következő funkciókat kínálja. Minden feltöltés beleszámít a csomagkorlátokba (Ingyenes próba: 10 feltöltés/nap, 2MB fájlonként).",
-      "feature1": "Bármely kép kiválasztása az aktuális weboldalról",
-      "feature2": "Automatikus feltöltés a Photo To URL-re",
-      "feature3": "Azonnal megosztható URL egykattintásos másolással"
-    },
-    "note": {
-      "title": "Megjegyzés",
-      "content": "A feltöltések beleszámítanak a napi kvótába (Ingyenes próba: 10 feltöltés/nap, 2MB fájlonként). A bookmarklet a legtöbb oldalon működik; szigorú biztonsági szabályok (CORS) megakadályozhatják a feltöltést."
-    }
-  },
-  "AuthPage": {
-    "orContinueWith": "Vagy folytasd ezzel",
-    "login": {
-      "welcomeBack": "Üdv újra",
-      "email": "E-mail",
-      "password": "Jelszó",
-      "signIn": "Bejelentkezés",
-      "signUp": "Regisztráció",
-      "signUpHint": "Nincs fiókod?",
-      "forgotPassword": "Elfelejtetted a jelszót?",
-      "showPassword": "Jelszó megjelenítése",
-      "hidePassword": "Jelszó elrejtése",
-      "emailRequired": "Az e-mail kötelező",
-      "passwordRequired": "A jelszó kötelező",
-      "signInWithGoogle": "Bejelentkezés Google-lal"
-    },
-    "register": {
-      "createAccount": "Fiók létrehozása",
-      "name": "Név",
-      "email": "E-mail",
-      "password": "Jelszó",
-      "signUp": "Regisztráció",
-      "signInHint": "Már van fiókod?",
-      "namePlaceholder": "A te neved",
-      "signUpSuccess": "A fiók sikeresen létrehozva",
-      "signUpWithGoogle": "Regisztráció Google-lal",
-      "artFightLabel": "Dedikált művészfiók regisztrálása",
-      "artFightHint": "Oldd fel a művészeknek szóló Irányítópult eszközöket: beágyazás másolása (URL, HTML, BBCode, Markdown) minden tárhelyezett kártyához."
-    },
-    "error": {
-      "title": "Hitelesítési hiba",
-      "defaultError": "Hiba történt a hitelesítés során.",
-      "backToLogin": "Vissza a bejelentkezéshez"
-    },
-    "errors": {
-      "USER_ALREADY_EXISTS": "Már létezik fiók ezzel az e-mail címmel. Kérjük, használj másik e-mailt.",
-      "INVALID_CREDENTIALS": "Helytelen e-mail vagy jelszó.",
-      "INVALID_EMAIL": "Érvénytelen e-mail formátum.",
-      "INVALID_PASSWORD": "A jelszónak legalább 6 karakterből kell állnia.",
-      "EMAIL_REQUIRED": "Az e-mail kötelező.",
-      "PASSWORD_REQUIRED": "A jelszó kötelező.",
-      "NAME_REQUIRED": "A név kötelező.",
-      "SERVER_ERROR": "Szerver hiba. Kérjük, próbáld később.",
-      "NETWORK_ERROR": "Hálózati hiba. Kérjük, ellenőrizd a kapcsolatot."
-    },
-    "forgotPassword": {
-      "title": "Elfelejtett jelszó",
-      "description": "Add meg az e-mail címed, és küldünk egy linket a jelszó visszaállításához.",
-      "email": "E-mail",
-      "send": "Visszaállító link küldése",
-      "backToLoginHint": "Emlékszel a jelszavadra?",
-      "checkEmail": "Ha létezik fiók ezzel az e-mail címmel, elküldtük a visszaállító linket. Nézd meg a beérkező leveleidet.",
-      "emailRequired": "Az e-mail kötelező",
-      "error": {
-        "userNotFound": "Nem található fiók ezzel az e-mail címmel",
-        "tooManyRequests": "Túl sok próbálkozás. Próbáld meg később",
-        "serverError": "Valami hiba történt. Próbáld újra"
-      }
-    },
-    "resetPassword": {
-      "title": "Jelszó visszaállítása",
-      "password": "Új jelszó",
-      "reset": "Jelszó visszaállítása",
-      "backToLoginHint": "Készen állsz a bejelentkezésre?",
-      "requestNewLink": "Új link kérése",
-      "showPassword": "Jelszó megjelenítése",
-      "hidePassword": "Jelszó elrejtése",
-      "minLength": "A jelszónak legalább 6 karakterből kell állnia",
-      "error": {
-        "expiredToken": "A visszaállító link lejárt. Kérj újat",
-        "invalidToken": "Érvénytelen visszaállító link. Kérj újat",
-        "missingToken": "A visszaállító link hiányzik vagy hiányos. Kérj újat",
-        "tooManyRequests": "Túl sok próbálkozás. Próbáld meg később",
-        "serverError": "Valami hiba történt. Próbáld újra"
-      }
-    }
-  },
-  "Mail": {
-    "common": {
-      "team": "{name} csapat",
-      "copyright": "©️ {year} All Rights Reserved."
-    },
-    "forgotPassword": {
-      "title": "Szia, {name}.",
-      "body": "Kattints az alábbi gombra a Photo To URL jelszavad visszaállításához. Ha nem te kérted, nyugodtan hagyd figyelmen kívül ezt az e-mailt.",
-      "resetPassword": "Jelszó visszaállítása",
-      "subject": "Állítsd vissza a Photo To URL jelszavad"
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc"
     }
   },
   "PricingPage": {
-    "title": "Egyszerű és átlátható árazás",
-    "description": "Válassza ki az Önnek megfelelő csomagot egyszerű, átlátható árazással",
-    "subtitle": "Válassza ki az Önnek megfelelő csomagot",
+    "title": "Pricing",
+    "description": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that works best for you",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "faqTitle": "Gyakran ismételt kérdések",
-    "faq": {
-      "payment": {
-        "q": "Milyen fizetési módokat fogadnak el?",
-        "a": "Minden főbb kártyát elfogadunk (Visa, Mastercard, American Express) és PayPal-t."
-      },
-      "cancel": {
-        "q": "Bármikor lemondhatom?",
-        "a": "Igen, bármikor lemondhatja a fiókbeállításokból. Nem kerül felszámításra a jövőbeli díjak."
-      },
-      "storage": {
-        "q": "Mennyi tárhelyem van?",
-        "a": "Az ingyenes csomag 50MB-ot, a Pro 5GB-ot, az Éves pedig 50GB-ot kínál."
-      },
-      "upload": {
-        "q": "Később frissíthetem a csomagomat?",
-        "a": "Igen, bármikor frissíthet vagy visszaminősíthet. A változások azonnal érvénybe lépnek."
-      }
-    },
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/ hónap",
-      "perYear": "/ év",
-      "popular": "Legnépszerűbb",
-      "bestValue": "Legjobb ár-érték arány",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Popular",
       "currentPlan": "Current Plan",
       "yourCurrentPlan": "Your Current Plan",
       "getStartedForFree": "Get Started For Free",
       "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Kezdje el most",
-      "upgradeToYearly": "Frissítés Premiumra",
-      "cannotDowngrade": "Visszaminősítés nem elérhető",
-      "alreadySubscribed": "A jelenlegi csomag már aktív",
-      "subscribeYearly": "Éves előfizetés",
-      "subscribeMonthly": "Havi előfizetés",
-      "upgrade": "Frissítés",
+      "getStarted": "Get Started",
       "notAvailable": "Not Available",
-      "limitedOffer": "Időkorlátozott ajánlat · 20% kedvezmény",
-      "savePercentLabel": "Megtakarítás ",
-      "savePercentSuffix": " a havihoz képest",
-      "freePriceNote": "Örökre ingyen",
-      "monthlyPriceNote": "Havi számlázás",
-      "loading": "Betoltes...",
-      "suitableFor": "Alkalmas:",
-      "activePlanDialog": {
-        "title": "Már van aktív előfizetésed",
-        "description": "Ehhez a fiókhoz már tartozik aktív előfizetés.",
-        "descriptionWithDate": "Ehhez a fiókhoz már tartozik aktív előfizetés (lejár: {date}).",
-        "close": "Bezár",
-        "manageBilling": "Előfizetés kezelése"
-      },
-      "batchUpload": {
-        "label": "Több fénykép feltöltése",
-        "free": "Nem",
-        "monthly": "20",
-        "yearly": "50"
-      },
-      "justPerMonth": "{price}/hó",
-      "saveVsMonthly": "{percent}% kedvezmény",
-      "monthlyEquivalentShort": "({price}/ hónap)",
-      "bestValueWithSave": "Legjobb · {percent}% kedvezmény"
+      "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
-      "loading": "Betoltes...",
-      "checkoutFailed": "Nem sikerult megnyitni a fizetesi oldalt"
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Ingyenes",
-      "description": "Tökéletes a Photo To URL kipróbálásához",
+      "name": "Free",
+      "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Feltöltési méret: 2MB",
-        "feature-2": "Napi feltöltések: 10 alkalommal",
-        "feature-3": "Tárolás: 100MB",
-        "feature-4": "CDN: Alapvető gyorsítás",
-        "feature-5": "Hirdetésmentes: Nem",
-        "feature-6": "Dokumentumhosztolás: Nem",
-        "feature-7": "Fotóhosztolás: Nem",
-        "feature-8": "Fényképszerkesztés: Nem",
-        "feature-9": "Webhook: Nem",
-        "feature-10": "Erőforrás-engedélyek: Nincs"
+        "feature-1": "Upload size: 100MB",
+        "feature-2": "Permanent CDN links",
+        "feature-3": "No signup required",
+        "feature-4": "Community support"
       },
-      "limits": [],
-      "suitableFor": "Próbáld ki a terméket, teszteld a funkciókat"
+      "limits": {
+        "limit-1": "Custom domains",
+        "limit-2": "Custom branding",
+        "limit-3": "Lifetime updates"
+      }
     },
     "pro": {
-      "name": "Professzionális",
-      "description": "Stabil feltöltés és tárhely",
+      "name": "Pro",
+      "description": "Higher limits and upload history for active creators",
       "features": {
-        "feature-1": "Feltöltési méret: 50MB",
-        "feature-2": "Napi feltöltések: 1000 alkalommal",
-        "feature-3": "Tárolás: 100GB",
-        "feature-4": "CDN: Standard gyorsítás",
-        "feature-5": "Hirdetésmentes: Igen",
-        "feature-6": "Dokumentumhosztolás: Igen",
-        "feature-7": "Fotóhosztolás: Igen",
-        "feature-8": "Fényképszerkesztés: Igen",
-        "feature-9": "Webhook: Igen",
-        "feature-10": "Erőforrás-engedélyek: Részleges"
+        "feature-1": "Larger video uploads",
+        "feature-2": "10 GB storage",
+        "feature-3": "Upload history",
+        "feature-4": "Priority support",
+        "feature-5": "Custom domains"
       },
-      "limits": [],
-      "suitableFor": "Bloggerek / Fejlesztők / Kis csapatok"
+      "limits": {
+        "limit-1": "Custom branding",
+        "limit-2": "Lifetime updates"
+      }
     },
-    "proYearly": {
-      "name": "Prémium",
-      "description": "Nagyobb keret, gyorsabb CDN",
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Pay once for long-term video hosting capacity",
       "features": {
-        "feature-1": "Feltöltési méret: 256MB",
-        "feature-2": "Napi feltöltések: Korlátlan",
-        "feature-3": "Tárolás: 200GB",
-        "feature-4": "CDN: Nagy sebességű csomópontok (elsőbbségi)",
-        "feature-5": "Hirdetésmentes: Igen",
-        "feature-6": "Dokumentumhosztolás: Igen",
-        "feature-7": "Fotóhosztolás: Igen",
-        "feature-8": "Fényképszerkesztés: Igen",
-        "feature-9": "Webhook: Igen",
-        "feature-10": "Erőforrás-engedélyek: Minden"
-      },
-      "limits": [],
-      "suitableFor": "Vállalkozások / Gyakori használat / Automatizálási rendszerek"
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
     }
   },
-  "Dashboard": {
-    "title": "Vezérlőpult",
-    "themeToggle": "Téma",
-    "welcome": "Üdv",
-    "loadFailed": "A betöltés sikertelen. Próbáld újra később.",
-    "errorTitle": "Valami hiba történt",
-    "dismiss": "Értem",
-    "dashboard": "Áttekintés",
-    "resources": "Erőforrásaim",
-    "photos": "Fotóim",
-    "storage": "Tárhely",
-    "used": "Használt",
-    "total": "Összes",
-    "storageDisplay": "{used} / {total}",
-    "uploadLimitDisplay": "{current} / {limit}",
-    "uploadUnlimited": "Korlátlan",
-    "deleteConfirm": "Biztosan törli ezt az erőforrást?",
-    "deleteResource": "Erőforrás törlése",
-    "deleteFailed": "Nem sikerült törölni az erőforrást",
-    "delete": "Törlés",
-    "cancel": "Mégse",
-    "copied": "Másolva!",
-    "copy": "Link másolása",
-    "open": "Megnyitás",
-    "removeBackground": "Háttér eltávolítása",
-    "noResources": "Nincs erőforrás. Tölts fel néhány képet az induláshoz.",
-    "files": "fájl",
-    "dailyUploads": "Mai feltöltések",
-    "today": "ma",
-    "resourcesCount": "{count} feltöltött erőforrása van",
-    "photosCount": "{count} feltöltött fotója van",
-    "resourcePageInfo": "{page}. / {totalPages}. oldal · oldalanként {pageSize} · összesen {total} fájl",
-    "resourceTotalCount": "Összesen: {total} elem",
-    "resourcePageSizeLabel": "Elem oldalanként",
-    "resourcePageSizeOption": "{size} oldalanként",
-    "resourceJumpTo": "Ugrás",
-    "resourceJumpPageUnit": "oldal",
-    "resourceJumpInputAria": "Oldalszám",
-    "resourcePagePrev": "Előző oldal",
-    "resourcePageNext": "Következő oldal",
-    "subtitle": "Itt van a munkaterület áttekintése.",
-    "planCardTitle": "Terv",
-    "planActive": "Aktív",
-    "planNames": {
-      "free": "Ingyenes",
-      "premium": "Prémium",
-      "pro": "Professzionális"
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "Basic credits package description"
     },
-    "planCardHintUpgrade": "Frissítsen több funkcióért",
-    "planCardHintAllUpgraded": "Minden funkció feloldva",
-    "statStorageHint": "Felhasznált tárhely az összes feltöltéshez",
-    "statResourcesHint": "Összes fotó + dokumentum",
-    "statPhotosHint": "Fájlok, amelyeket másolgathat vagy megoszthet linkként",
-    "statUploadsHint": "24 óránként, szint szerint nullázódik",
-    "chartTitle": "Tevékenység",
-    "chartDescription": "Feltöltési mennyiség az idő függvényében",
-    "chartPlaceholder": "A trendek itt jelennek meg, amint több tevékenység lesz.",
-    "chartRange7d": "Utolsó 7 nap",
-    "chartRange30d": "Utolsó 30 nap",
-    "chartRange90d": "Utolsó 3 hónap",
-    "tableFile": "Fájl",
-    "tablePath": "Útvonal",
-    "tableSize": "Méret",
-    "tableActions": "Műveletek",
-    "viewTable": "Táblázat",
-    "viewGrid": "Fotófal",
-    "chartDemoNote": "Feltöltési trend (napok)",
-    "loginRequired": "Jelentkezzen be a műszerfal megtekintéséhez.",
-    "checkoutSuccess": "Fizetés sikeres! Az Ön terve frissült.",
-    "subscriptionSuccess": "Előfizetés aktiválva. Üdvözöljük a {plan}-ban!",
-    "circleCrop": "Körkivágás",
-    "roundedCorners": "Lekerekített sarkok",
-    "scheduledForDeletion": "Törlésre ütemezve",
-    "upload": "Feltöltés",
-    "uploadPhoto": "Fénykép feltöltése",
-    "batchUploadPhotos": "Több fénykép feltöltése",
-    "batchUploading": "Több fénykép feltöltése folyamatban…",
-    "batchUploadProgress": "{current} / {total}",
-    "batchUploadTooMany": "Egyszerre legfeljebb {max} fájlt válasszon.",
-    "batchUploadTierHint": "Csomagonként legfeljebb {max} fájl az előfizetése szerint.",
-    "uploadUpgradeHint": "Frissítés után elérhető",
-    "uploading": "Feltöltés...",
-    "loading": "Betöltés...",
-    "uploadErrorInvalidType": "Érvénytelen fájltípus. Használjon PNG, JPG, WEBP vagy GIF fájlt.",
-    "uploadErrorTooLarge": "A fajl tul nagy. A csomagod fajlonkent legfeljebb {maxMb} MB-ot enged.",
-    "uploadErrorDailyLimit": "Elérte a napi limitet ({limit} feltöltés/nap).",
-    "uploadErrorStorageLimit": "Tárhelykorlát elérve.",
-    "uploadErrorGeneric": "A feltöltés sikertelen. Próbálja újra.",
-    "uploadUpgradeTitle": "Közvetlen feltöltés feloldása",
-    "uploadUpgradeDescription": "Váltson csomagot, hogy közvetlenül a vezérlőpultról tölthessen fel nagyobb limitekkel.",
-    "uploadRenewDescription": "Újítsa meg az előfizetést, hogy közvetlenül a vezérlőpultról tölthessen fel nagyobb limitekkel.",
-    "expiredStorageLimitHint": "Lejárat után csak 100MB tárhely érhető el",
-    "uploadGoHome": "Feltöltés a főoldalon",
-    "resourceModule": {
-      "title": "Dokumentumaim",
-      "count": "{count} feltöltött dokumentuma van",
-      "empty": "Még nincs dokumentum. Töltsön fel PDF/Word/PowerPoint/Excel fájlt a kezdéshez.",
-      "viewCard": "Kártyák",
-      "searchPlaceholder": "Keresés fájlnév alapján",
-      "typeAll": "Minden típus",
-      "typePdf": "PDF",
-      "typeWord": "Word",
-      "typePpt": "PowerPoint",
-      "typeExcel": "Excel",
-      "reset": "Visszaállítás",
-      "upload": "Dokumentum feltöltése",
-      "uploading": "Feltöltés...",
-      "copy": "Link másolása",
-      "open": "Megnyitás",
-      "delete": "Törlés",
-      "deleteFailed": "A dokumentum törlése sikertelen",
-      "fetchError": "A dokumentumlista betöltése sikertelen",
-      "tableFile": "Fájl",
-      "tablePath": "Útvonal",
-      "tableType": "Típus",
-      "typeLabel": "Típus",
-      "tableSize": "Méret",
-      "tableActions": "Műveletek",
-      "uploadErrorTooLarge": "A fájl túl nagy. A csomag fájlonkénti korlátja: {maxSize}.",
-      "uploadErrorDailyLimit": "Elérte a napi limitet ({limit} feltöltés/nap).",
-      "uploadErrorStorageLimit": "Elérte a tárhelykorlátot.",
-      "uploadErrorGeneric": "A feltöltés nem sikerült. Próbálja újra."
+    "standard": {
+      "name": "Standard",
+      "description": "Standard credits package description"
     },
-    "uploadSize": "Fájlméret {size}",
-    "dailyUploadsLimit": "{limit} feltöltés/nap",
-    "dailyUploadsUnlimited": "Korlátlan feltöltés",
-    "monthly": "hó",
-    "yearly": "év",
-    "bestValue": "Legjobb ár-érték",
-    "upgrade": {
-      "title": "Frissítse tervét",
-      "description": "Frissítsen magasabb napi limitekért, nagyobb fájlokért és prémium funkciókért. Korlátlan napi feltöltés az éves Premium csomaggal.",
-      "button": "Frissítés most"
+    "premium": {
+      "name": "Premium",
+      "description": "Premium credits package description"
     },
-    "settings": {
-      "title": "Beállítások",
-      "profile": {
-        "title": "Profil",
-        "description": "A profilinformációk kezelése",
-        "name": {
-          "title": "Név",
-          "description": "A megjelenített név frissítése",
-          "placeholder": "Adja meg a nevét",
-          "hint": "Ez a név jelenik meg a profiljában",
-          "minLength": "A névnek legalább 3 karakternek kell lennie",
-          "maxLength": "A név nem lehet hosszabb 30 karakternél",
-          "success": "A név sikeresen frissítve",
-          "fail": "A név frissítése sikertelen",
-          "save": "Mentés",
-          "saving": "Mentés..."
-        },
-        "avatar": {
-          "title": "Avatár",
-          "description": "A profilkép frissítése",
-          "uploadAvatar": "Kép feltöltése",
-          "unavailable": "A feltöltés nem elérhető",
-          "disabledHint": "Az avatár feltöltéséhez a felhőalapú tárhelyet kell engedélyezni ehhez a projekthez.",
-          "recommendation": "PNG, JPG vagy WebP. A maximális méret a szerver korlátait követi."
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "MkSaaS",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "talkWithMe": "Talk with me",
+    "followMe": "Follow me on X"
+  },
+  "ChangelogPage": {
+    "title": "Changelog",
+    "description": "Stay up to date with the latest changes in our product",
+    "subtitle": "Stay up to date with the latest changes in our product"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We'll help you find the right plan for your business",
+    "subtitle": "We'll help you find the right plan for your business",
+    "form": {
+      "title": "Contact Us",
+      "description": "If you have any questions or feedback, please reach out to our team",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully",
+      "fail": "Failed to send message",
+      "nameMinLength": "Name must be at least 3 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
+      "emailValidation": "Please enter a valid email address",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message must not exceed 500 characters"
+    }
+  },
+  "WaitlistPage": {
+    "title": "Waitlist",
+    "description": "Join our waitlist for the launch of our product",
+    "subtitle": "Join our waitlist for the launch of our product",
+    "form": {
+      "title": "Join Our Waitlist",
+      "description": "We will notify you when we launch our product",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "description": "Latest news and updates from our team",
+    "subtitle": "Latest news and updates from our team",
+    "author": "Author",
+    "categories": "Categories",
+    "tableOfContents": "Table of Contents",
+    "readTime": "{minutes} min read",
+    "all": "All",
+    "noPostsFound": "No posts found",
+    "allPosts": "All Posts",
+    "morePosts": "More Posts"
+  },
+  "DocsPage": {
+    "toc": "Table of Contents",
+    "search": "Search docs",
+    "lastUpdate": "Last updated on",
+    "searchNoResult": "No results",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "chooseLanguage": "Select language",
+    "title": "MkSaaS Docs",
+    "homepage": "Homepage"
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "upload": {
+        "title": "Upload"
+      },
+      "features": {
+        "title": "Features"
+      },
+      "howToUse": {
+        "title": "How to Use"
+      },
+      "pricing": {
+        "title": "Pricing"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "docs": {
+        "title": "Docs"
+      },
+      "ai": {
+        "title": "AI Tools",
+        "items": {
+          "text": {
+            "title": "AI Text",
+            "description": "Show how to use AI to write stunning text"
+          },
+          "image": {
+            "title": "AI Image",
+            "description": "Show how to use AI to generate beautiful images"
+          },
+          "chat": {
+            "title": "AI Chat",
+            "description": "Show how to use AI to chat with your customers"
+          },
+          "video": {
+            "title": "AI Video",
+            "description": "Show how to use AI to generate amazing videos"
+          },
+          "audio": {
+            "title": "AI Audio",
+            "description": "Show how to use AI to generate wonderful audio"
+          }
         }
       },
-      "billing": {
-        "title": "Számlázás",
-        "description": "A számlázás és az előfizetés kezelése",
-        "billingPagePlanTitle": "Jelenlegi csomag",
-        "billingPageStorageTitle": "Tárhelyhasználat",
-        "currentPlan": {
-          "title": "A csomagod és tárhelyed a Photo To URL-en",
-          "description": "Frissíts magasabb kvótákért és több funkcióért"
-        },
-        "loadError": "A számlázási adatok nem tölthetők be.",
-        "retry": "Újrapróbálás",
-        "planNames": {
-          "free": "Ingyenes",
-          "premium": "Prémium",
-          "pro": "Professzionális"
-        },
-        "status": {
-          "active": "Aktív",
-          "expired": "Lejárt"
-        },
-        "storageUsed": "Felhasznált tárhely",
-        "freePlanMessage": "Magasabb feltöltési limit",
-        "inactivePlanMessage": "Az előnyök lejártak",
-        "expiredStorageLimitHint": "Lejárat után csak 100MB tárhely érhető el",
-        "paidPlanMessage": "Az előnyök aktívak",
-        "backToWorkbench": "Vissza az irányítópulthoz",
-        "upgradeHint": "Több tárhely",
-        "upgradeToPlan": "Csomag frissítése",
-        "featureAdvancedEditing": "Speciális szerkesztőeszközök",
-        "upgradeNotReady": {
-          "title": "Hamarosan",
-          "description": "Maradjon figyelemmel a további szolgáltatásokért!",
-          "confirm": "Értem",
-          "cancel": "Bezárás"
-        },
-        "storage": {
-          "title": "Gyorsabb CDN",
-          "description": "A tárhelyfogyasztás nyomon követése",
-          "upgradeStorage": "Tárhely bővítése"
+      "pages": {
+        "title": "Pages",
+        "items": {
+          "about": {
+            "title": "About",
+            "description": "Learn more about our company, mission, and values"
+          },
+          "contact": {
+            "title": "Contact",
+            "description": "Get in touch with our team for support or inquiries"
+          },
+          "waitlist": {
+            "title": "Waitlist",
+            "description": "Join our waitlist for latest news and updates"
+          },
+          "changelog": {
+            "title": "Changelog",
+            "description": "See the latest updates to our products"
+          },
+          "roadmap": {
+            "title": "Roadmap",
+            "description": "Explore our future plans and upcoming features"
+          },
+          "cookiePolicy": {
+            "title": "Cookie Policy",
+            "description": "How we use the cookies on our website"
+          },
+          "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "How we protect and handle your data"
+          },
+          "termsOfService": {
+            "title": "Terms of Service",
+            "description": "The legal agreement between you and our company"
+          }
         }
       },
-      "security": {
-        "title": "Biztonság",
-        "description": "A fiók biztonságának kezelése",
-        "updatePassword": {
-          "title": "Jelszó",
-          "description": "Az e-mailes bejelentkezés jelszavának megváltoztatása",
-          "currentPassword": "Jelenlegi jelszó",
-          "newPassword": "Új jelszó",
-          "confirmPassword": "Uj jelszo megerositese",
-          "currentRequired": "Adja meg jelenlegi jelszavát",
-          "newMinLength": "Legalább 8 karakter",
-          "confirmRequired": "Kerdjuk, erositsd meg az uj jelszavad",
-          "passwordMismatch": "A jelszavak nem egyeznek",
-          "hint": "Használjon erős jelszót, amelyet máshol nem használ.",
-          "save": "Jelszó frissítése",
-          "saving": "Mentés…",
-          "success": "Jelszó frissítve",
-          "fail": "A jelszó nem frissíthető",
-          "showPassword": "Jelszó megjelenítése",
-          "hidePassword": "Jelszó elrejtése"
-        },
-        "resetPassword": {
-          "title": "Jelszó beállítása",
-          "description": "Google-fiókkal jelentkezett be. Adjon hozzá e-mail jelszót biztonsági bejelentkezéshez.",
-          "info": "Elküldünk egy jelszó-visszaállító linket a fiókja e-mail-címére.",
-          "button": "Visszaállítási link küldése",
-          "sending": "Küldés…",
-          "sent": "Nézze meg a postaládáját a visszaállító linkért.",
-          "disabled": "A jelszó-visszaállítási e-mailek még nincsenek konfigurálva ezen a szerveren.",
-          "fail": "A kérés sikertelen. Próbálja újra később."
-        },
-        "deleteAccount": {
-          "title": "Fiók törlése",
-          "description": "Fiókjának és a kapcsolódó adatoknak a végleges eltávolítása.",
-          "warning": "Ez nem vonható vissza. Győződjön meg róla, hogy elmentette, amire szüksége van.",
-          "button": "Fiókom törlése",
-          "confirmTitle": "Fiók törlése?",
-          "confirmDescription": "Az Ön fiókja véglegesen törlésre kerül.",
-          "cancel": "Mégse",
-          "confirm": "Törlés",
-          "deleting": "Törlés…",
-          "success": "Fiók törölve",
-          "fail": "A fiók nem törölhető"
-        }
-      },
-      "notification": {
-        "title": "Értesítések",
-        "description": "Az értesítési beállítások kezelése",
-        "newsletter": {
-          "title": "E-mail frissítések",
-          "description": "Termékhírek és tippek (opcionális)",
-          "label": "Feliratkozás a hírlevélre",
-          "disabledHint": "A hírlevél még nincs engedélyezve ehhez az oldalhoz.",
-          "hint": "Ha engedélyezve van, itt feliratkozhat vagy leiratkozhat."
-        },
-        "productPreview": {
-          "title": "Termékelőnézet",
-          "description": "A megosztókártyákon és landing oldalakon használt fő kép.",
-          "announcement": {
-            "line1": "Folyamatosan egyre erősebb funkciókat és még értékesebb tagsági előnyöket biztosítunk.",
-            "line2": "Az új frissítési képességek elsőként a meglévő felhasználók számára lesznek elérhetők, árváltozás nélkül.",
-            "line3": "Köszönjük minden felhasználó bizalmát és támogatását. Tovább fejlesztjük a terméket, hogy még magasabb értékű élményt nyújtson.",
-            "line4": "Tovább optimalizáljuk a globális felhasználói élményt gyorsabb és megbízhatóbb szolgáltatásokkal."
+      "blocks": {
+        "title": "Blocks",
+        "items": {
+          "magicui": {
+            "title": "MagicUI Blocks"
+          },
+          "hero-section": {
+            "title": "Hero Blocks"
+          },
+          "logo-cloud": {
+            "title": "Logo Cloud Blocks"
+          },
+          "integrations": {
+            "title": "Integrations Blocks"
+          },
+          "features": {
+            "title": "Features Blocks"
+          },
+          "content": {
+            "title": "Content Blocks"
+          },
+          "stats": {
+            "title": "Stats Blocks"
+          },
+          "team": {
+            "title": "Team Blocks"
+          },
+          "testimonials": {
+            "title": "Testimonials Blocks"
+          },
+          "callToAction": {
+            "title": "Call to Action Blocks"
+          },
+          "footer": {
+            "title": "Footer Blocks"
+          },
+          "pricing": {
+            "title": "Pricing Blocks"
+          },
+          "comparator": {
+            "title": "Comparator Blocks"
+          },
+          "faq": {
+            "title": "FAQ Blocks"
+          },
+          "login": {
+            "title": "Login Blocks"
+          },
+          "signup": {
+            "title": "Signup Blocks"
+          },
+          "forgot-password": {
+            "title": "Forgot Password Blocks"
+          },
+          "contact": {
+            "title": "Contact Blocks"
           }
         }
       }
     },
-    "artFightWorkspaceBadge": "Művészfiók",
-    "artFightWorkspaceHint": "Művészeszközök engedélyezve — másold az URL, HTML, BBCode és Markdown beágyazási kódokat minden fotóhoz."
+    "footer": {
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "faq": "FAQ"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "blog": "Blog",
+          "docs": "Documentation",
+          "changelog": "Changelog",
+          "roadmap": "Roadmap"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About",
+          "contact": "Contact",
+          "waitlist": "Waitlist"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookie Policy",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Dashboard",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
   },
-  "artFight": {
-    "seo": {
-      "title": "Art Fight profilkártya tárhely | URL és beágyazási kódok",
-      "description": "Tölts fel Team Tragedy, Comedy vagy Mystery profilkártyát. Kapj közvetlen HTTPS linket és HTML/BBCode beágyazást Art Fight-hoz, Discordhoz és közösségi posztokhoz.",
-      "keywords": "Art Fight profilkártya,ref sheet tárhely,Team Tragedy,Team Comedy,HTML BBCode embed"
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
     },
-    "footerLink": "Art Fight tárhely",
-    "artistAccount": {
-      "badge": "Művészfiók",
-      "title": "Dedikált művészfiók regisztrálása",
-      "lead": "Hozz létre ingyenes művészfiókot profilkártyák mentéséhez az Irányítópulton és professzionális beágyazási eszközökhöz Art Fight-hoz — másold az URL-t, HTML-t, BBCode-ot és Markdown-t minden feltöltéshez.",
-      "toolEmbedTitle": "Beágyazási eszközök",
-      "toolEmbedDesc": "Egy kattintásos másolás Art Fight profilokhoz, Discordhoz, fórumokhoz és közösségi posztokhoz.",
-      "toolDashboardTitle": "Művész irányítópult",
-      "toolDashboardDesc": "Minden kártya a fiókodban marad — keress, nézz meg és másold újra a linkeket bármikor.",
-      "toolBatchTitle": "Tömeges feltöltés (Pro)",
-      "toolBatchDesc": "Frissítés után tölts fel sok profilkártyát egyszerre — több OC-vel rendelkező művészeknek.",
-      "registerCta": "Művészfiók létrehozása",
-      "footnote": "Jelölje be a «Dedikált művészfiók» opciót regisztrációkor, vagy regisztráljon erről az oldalról — előre kiválasztjuk."
+    "admin": {
+      "title": "Admin",
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
     },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Date Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "HomePage": {
+    "title": "MP4 to URL",
+    "description": "Upload a video and get a permanent shareable link",
     "hero": {
-      "badge": "Art Fight",
-      "audience": "Digitális művészeknek és OC-készítőknek",
-      "title": "Profilkártya- és ref sheet-tárhely Art Fight művészeknek",
-      "subtitle": "Töltsd fel Team Tragedy, Comedy vagy Mystery profilkártyádat — kapj stabil kép URL-t és HTML/BBCode beágyazási kódokat Art Fight profilokhoz, Discordhoz és „ready to fight” posztokhoz.",
-      "artistAccountLine": "Regisztráljon dedikált művészfiókot professzionális embed eszközökhöz az irányítópulton.",
-      "cta": "Húzd ide a profilkártyát → másold a linket → illeszd be, ahol bejelented a csapatod",
-      "teamTragedy": "Team Tragedy",
-      "teamComedy": "Team Comedy",
-      "teamMystery": "Team Mystery",
-      "tabIntro": "Profil tárhely",
-      "tabArtist": "Művészfiók",
-      "tabSupport": "Művésztámogatás",
-      "tabsAriaLabel": "Art Fight kiemelt funkciók",
-      "trustLine": "Ingyenes gyors feltöltés · URL és beágyazási kódok · Művész irányítópult",
-      "uploadCta": "Kártya feltöltése",
-      "panelIntroTag": "URL · HTML · BBCode",
-      "panelIntroTitle": "Beillesztésre kész kódok",
-      "panelIntroDesc": "Tölts fel profilkártyát egyszer, majd másold a közvetlen linket vagy HTML/BBCode-ot Art Fight-hoz és Discordhoz.",
-      "panelArtistTitle": "Művészfiók eszközök",
-      "panelSupportTitle": "Dedikált művésztámogatás",
-      "panelSupportDesc": "Feltöltések, beágyazások, fiókok és csomagok — valódi emberek, nem általános jegysor."
+      "title": "Free Video to URL Converter",
+      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "uploadHeading": "Upload Your Video",
+      "uploadTitle": "Drop your video here, or click to browse",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
+      "maxSize": "Maximum file size: 100MB",
+      "convert": "Convert to URL",
+      "uploading": "Uploading...",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "error": "Upload failed. Please try again.",
+      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
+      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
     },
-    "teams": {
-      "title": "Ugyanaz az eszköz minden Art Fight csapatnak",
-      "lead": "Akár Tragedy-be, Comedy-ba vagy Mystery-be kerültél, a kártya elkészülte után egy dolog kell: gyors, stabil képlink megosztásra.",
-      "tragedyName": "Team Tragedy",
-      "tragedyDesc": "Kék tónusú profilkártyák és ref sheetek — tárhelyezd a teljes kártyaképet és illeszd be a linket Art Fight profilodra vagy Twitter/X posztodba.",
-      "comedyName": "Team Comedy",
-      "comedyDesc": "Narancs és meleg tónusú karakterkártyák — tökéletes Discord bejelentésekhez és profilbeágyazásokhoz Art Fight csúcsidőben.",
-      "mysteryName": "Team Mystery",
-      "mysteryDesc": "Lila kártyák a harmadik frakcióhoz — ugyanaz a feltöltési folyamat, ugyanazok a beágyazási kódok, készen megosztásra.",
-      "footnote": "Mindhárom csapat ugyanazt a munkafolyamatot használja: feltöltés → URL vagy beágyazás másolása → kártya nyilvános közzététele."
+    "logocloud": {
+      "title": "Your favorite companies are our partners"
     },
-    "useCases": {
-      "title": "Hova illesztik be a művészek a linket",
-      "lead": "Az Art Fight közösségi. A tárhelyezett linked minden profilfrissítéssel és minden „ebbe a csapatba tartozom” poszttal együtt jár.",
-      "profileTitle": "Art Fight profil",
-      "profileDesc": "Illeszd be a közvetlen URL-t vagy HTML beágyazást a hivatalos Art Fight karakterprofilodba, hogy a csapattársak lássák a kártyádat.",
-      "socialTitle": "Twitter / X és közösségi posztok",
-      "socialDesc": "Oszd meg a profilkártyát, amikor bejelented a csapatod — tiszta HTTPS link gyorsan betölt az idővonalakon és válaszokban.",
-      "discordTitle": "Discord és művészi szerverek",
-      "discordDesc": "Illeszd be az URL-t vagy BBCode-ot Art Fight Discord csatornákba, szerver intro-kba vagy támadási terv szálakba.",
-      "portfolioTitle": "Toyhouse és portfólió oldalak",
-      "portfolioDesc": "Ugyanaz a link Toyhouse-on, Carrd-en vagy fórum aláírásokban — a ref mindenhol konzisztens marad."
+    "integration": {
+      "title": "Integrations",
+      "subtitle": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "learnMore": "Learn More",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "Integrate with your favorite tools",
+      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
+      "primaryButton": "Get Started",
+      "secondaryButton": "See Demo"
     },
     "features": {
-      "sectionTitle": "Miért választják az Art Fight művészek a Photo To URL-t",
-      "fastTitle": "Art Fight csúcsidőszakra készítve",
-      "fastDesc": "Tölts fel, amikor posztolni kell — CDN link másodpercek alatt bemelegítéskor, csúcsidőben vagy az év bármely szakában.",
-      "linkTitle": "Profilkártya-barát URL-ek",
-      "linkDesc": "Tiszta .png/.jpg linkek, amelyeket Art Fight profilok, fórumok és posztok extra lépések nélkül elfogadnak.",
-      "embedTitle": "HTML és BBCode művészeknek",
-      "embedDesc": "Másold a beágyazási kódrészleteket profilokhoz és fórumokhoz — kézi img tag szerkesztés nélkül a zsúfolt szezonban.",
-      "safeTitle": "Irányítópult tárhely bejelentkezés után",
-      "safeDesc": "Regisztrált felhasználók profilkártyákat mentenek az Irányítópultra — másold újra a linkeket, keress fájlokat és kezeld a feltöltéseket egy helyről."
+      "title": "Why Choose MP4 to URL",
+      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "items": {
+        "item-1": {
+          "title": "Lightning Fast",
+          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+        },
+        "item-2": {
+          "title": "Secure & Private",
+          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+        },
+        "item-3": {
+          "title": "Permanent Links",
+          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+        }
+      }
     },
-    "accountBenefits": {
-      "sectionTitle": "Művészfiók: tárhelyezd a kártyákat az Irányítópulton",
-      "sectionLead": "Az anonim feltöltés gyors poszthoz elég. Regisztrálj Art Fight művészként dedikált Irányítópulthoz beágyazási eszközökkel minden tárhelyezett kártyához — vagy válts Pro-ra tömeges feltöltéshez és magasabb limitekhez.",
-      "dashboardTitle": "Fotótárhely az Irányítópulton",
-      "dashboardDesc": "Bejelentkezés után minden feltöltés az Irányítópultra kerül. Másold ugyanazt a linket bármikor, nyisd meg a képet új lapon vagy töltsd le az eredetit — minden egy listából.",
-      "batchTitle": "Tömeges feltöltés (Pro)",
-      "batchDesc": "Tölts fel sok profilkártyát egyszerre az Irányítópultról — akár {monthlyMax} kötegenként Pro-nál vagy {yearlyMax} Premium éves csomagnál.",
-      "manageTitle": "Keresés és fotófal",
-      "manageDesc": "Találd meg bármely tárhelyezett kártyát fájlnév szerint, válts táblázat és fotófal nézet között, és töröld a már nem kellő fájlokat.",
-      "proTitle": "Magasabb limitek és nagyobb fájlok",
-      "proDesc": "Minden a Free-ből, plusz tömeges feltöltés az Irányítópulton ({monthlyMax}–{yearlyMax} fájl), magasabb napi limitek, nagyobb feltöltések és több tárhely.",
-      "anonymousLabel": "Névtelen",
-      "anonymousDesc": "Gyors link egy poszthoz. Nem mentve a fiókodba; bármikor törölhető.",
-      "freeLabel": "Ingyenes fiók",
-      "freeDesc": "Kártyák mentve az Irányítópulton. Másold újra a linkeket, keress és kezeld, amíg nem törlöd őket vagy el nem éred a tárhelylimitet.",
-      "proLabel": "Pro / Premium",
-      "signUpCta": "Ingyenes fiók létrehozása",
-      "loginCta": "Bejelentkezés",
-      "dashboardCta": "Irányítópult megnyitása",
-      "proCta": "Pro csomagok megtekintése",
-      "ctaPanelTitle": "Készen állsz a kártyák tárhelyezésére?",
-      "footnote": "Ingyenes fiókok itt töltenek fel és az Irányítópulton kezelik a fájlokat. Tömeges feltöltéshez Pro vagy Premium kell."
+    "productBanner": {
+      "title": "Video to URL, in seconds",
+      "subtitle": "From local file to shareable link",
+      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
+      "point1": "Drop a video from your device",
+      "point2": "Convert in seconds — no signup for standard use",
+      "point3": "Copy a permanent link and share anywhere",
+      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
     },
-    "upload": {
-      "sectionTitle": "Töltsd fel Art Fight profilkártyádat",
-      "sectionLead": "Ref sheet, csapatkártya vagy teljes profilgrafika — húzd ide és másold a linket a következő poszthoz.",
-      "dropzoneTitle": "Húzd ide a profilkártyát vagy ref sheetet",
-      "dropzoneHint": "PNG, JPG, WEBP vagy GIF — csapatkártyák, ref sheetek és karaktergrafikák szívesen látottak",
-      "dropzoneFootnote": "Ingyenes: 10 feltöltés/nap regisztráció nélkül. Jelentkezz be magasabb limitekért bármikor.",
-      "defaultAlt": "Art Fight profilkártya",
-      "resultTitle": "A kártyád kész — oszd meg",
-      "resultHint": "Másold az URL-t Art Fight profilokhoz vagy HTML/BBCode-ot fórumokhoz és Discordhoz.",
-      "open": "Kép megnyitása",
-      "reset": "Másik kártya feltöltése",
-      "errorBadType": "Kérjük, tölts fel képfájlt (PNG, JPG, WEBP vagy GIF).",
-      "errorGeneric": "A feltöltés sikertelen. Próbáld újra.",
-      "loginRequiredTitle": "Napi ingyenes limit elérve",
-      "loginRequiredDescription": "Jelentkezz be a profilkártyák további feltöltéséhez és mentéséhez az Irányítópultra, vagy gyere vissza holnap több ingyenes feltöltésért.",
-      "loginRequiredDetail": "Regisztrált felhasználók Irányítópult tárhelyet kapnak: minden kártya a fiókodban marad, bármikor újra másolhatod a linkeket, kereshetsz fájlnév szerint és egy helyről kezelheted a feltöltéseket.",
-      "retentionAnonymousTitle": "Névtelen link — nem ajánlott fontos kártyákhoz",
-      "retentionAnonymousBody": "Névtelen feltöltések csak gyors megosztásra. A link most működik, de nem mentett — regisztrálj ingyen.",
-      "retentionAnonymousSignUp": "Ingyenes fiók létrehozása",
-      "retentionAnonymousPro": "Pro csomagok megtekintése",
-      "retentionFreeTitle": "Ez a link elmentve a fiókodban",
-      "retentionFreeBody": "Bármikor újra másolhatod az Irányítópultról. Ingyenes fiókok napi feltöltési és tárhelylimitet kapnak — elég gyors kártyákhoz, de nem korlátlan.",
-      "retentionFreeDashboard": "Irányítópult megnyitása",
-      "retentionFreeUpgrade": "Frissítés több tárhelyért",
-      "retentionProTitle": "Profilkártyád a Pro csomagodon van tárhelyezve",
-      "retentionProBody": "Magasabb feltöltési limitek, több tárhely és megbízható linkek minden Art Fight-hoz — Tragedy, Comedy vagy Mystery.",
-      "retentionProDashboard": "Irányítópult megnyitása",
-      "resultHintAnonymous": "Névtelen feltöltés — csak közvetlen link. Regisztrálj a HTML, BBCode és Markdown feloldásához.",
-      "retentionAnonymousIntro": "Ez a közvetlen link gyors megosztásra jó, de a névtelen tárhelynek komoly korlátai vannak:",
-      "retentionAnonymousLimit1": "Nincs fiókhoz kötve — kevésbé biztonságos; bárki a linkkel hozzáférhet",
-      "retentionAnonymousLimit2": "Lassabb CDN — névtelen feltöltések nem kapnak prioritásos gyorsítást",
-      "retentionAnonymousLimit3": "Tömörítés lehetséges — eredeti minőség nem garantált",
-      "retentionAnonymousLimit4": "Rövid élettartam — névtelen fájlok rendszeresen törlődnek; a link bármikor megszűnhet",
-      "retentionAnonymousLimit5": "Beágyazó kódok zárolva — HTML, BBCode és Markdown ingyenes fiókot igényel",
-      "retentionAnonymousCta": "Hozz létre ingyenes fiókot a kártyák mentéséhez, embedek feloldásához, gyorsabb CDN-hez és megbízhatóbb linkekhez."
+    "howToUse": {
+      "title": "How to Use",
+      "subtitle": "Three steps from local file to shareable URL.",
+      "items": {
+        "step-1": {
+          "title": "Choose a video",
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+        },
+        "step-2": {
+          "title": "Convert to URL",
+          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+        },
+        "step-3": {
+          "title": "Copy and share",
+          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+        }
+      }
     },
-    "embed": {
-      "altLabel": "Alt szöveg (HTML-hez és Markdown-hoz)",
-      "tabUrl": "URL",
-      "tabHtml": "HTML",
-      "tabBbcode": "BBCode",
-      "tabMarkdown": "Markdown",
-      "copy": "Kód másolása",
-      "copied": "Másolva",
-      "lockedTabTitle": "Regisztrálj az embedek feloldásához",
-      "lockedTabDescription": "HTML, BBCode és Markdown regisztráció után. Ingyenes fiókok: irányítópult és egykattintásos embed másolás.",
-      "lockedTabCta": "Ingyenes fiók létrehozása"
+    "features2": {
+      "title": "Features2",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "feature-1": "Product Feature One",
+      "feature-2": "Product Feature Two",
+      "feature-3": "Product Feature Three",
+      "feature-4": "Product Feature Four"
     },
-    "howTo": {
-      "title": "Profilkártyától a nyilvános posztig",
-      "lead": "A munkafolyamat, amit minden Art Fight művész követ a kész kártya után.",
-      "schemaName": "Art Fight profilkártya tárhelyezése beágyazási kóddal",
-      "schemaDescription": "Tölts fel Art Fight csapat profilkártyát a Photo To URL-re és illeszd be a linket a profilodba vagy posztodba.",
-      "step1Title": "Töltsd fel a csapatkártyát",
-      "step1Desc": "Húzd ide Tragedy, Comedy vagy Mystery profilkártyádat vagy ref sheetet. Azonnal kapsz közvetlen linket és beágyazási kódokat.",
-      "step2Title": "Másold az URL-t vagy beágyazási kódot",
-      "step2Desc": "URL fül Art Fight profilokhoz, HTML/BBCode Discordhoz, fórumokhoz és portfólió oldalakhoz.",
-      "step3Title": "Posztolj és jelentsd be a csapatod",
-      "step3Desc": "Illeszd be a linket Art Fight-ra, Twitter/X-re vagy Discordra, hogy más művészek lássák a kártyádat és megtaláljanak az esemény alatt."
+    "features3": {
+      "title": "Features3",
+      "subtitle": "The features of your product",
+      "description": "Write the description of your product here",
+      "items": {
+        "item-1": {
+          "title": "Product Feature One",
+          "description": "Please write the detailed description of feature one here"
+        },
+        "item-2": {
+          "title": "Product Feature Two",
+          "description": "Please write the detailed description of feature two here"
+        },
+        "item-3": {
+          "title": "Product Feature Three",
+          "description": "Please write the detailed description of feature three here"
+        },
+        "item-4": {
+          "title": "Product Feature Four",
+          "description": "Please write the detailed description of feature four here"
+        },
+        "item-5": {
+          "title": "Product Feature Five",
+          "description": "Please write the detailed description of feature five here"
+        },
+        "item-6": {
+          "title": "Product Feature Six",
+          "description": "Please write the detailed description of feature six here"
+        }
+      }
     },
-    "faq": {
-      "title": "Art Fight művész GYIK",
-      "lead": "Kérdések Team Tragedy, Comedy és Mystery kártyákat feltöltő művészeknek.",
-      "warningTitle": "Felelősségteljes feltöltés",
-      "warningBody": "Csak olyan műveket tárhelyezz, amelyeket te készítettél vagy egyértelmű joggal oszthatsz meg. Ne tölts fel jogsértő, illegális vagy tiltott tartalmat. Minden feltöltött fájlért te felelsz.",
-      "warningTermsLink": "Felhasználási feltételek",
-      "warningPrivacyLink": "Adatvédelmi irányelvek",
-      "q1Question": "Profilkártyákhoz vagy ref sheetekhez való?",
-      "q1Answer": "Mindkettőhöz. Tölts fel teljes Art Fight csapat profilkártyát, karakter ref sheetet vagy bármilyen grafikát, amit hotlinkelni kell az eseményhez.",
-      "q2Question": "Mindhárom csapatra működik?",
-      "q2Answer": "Igen. Team Tragedy, Team Comedy és Team Mystery kártyák ugyanazt a feltöltést használják — tárhelyezzük a képet és adunk megosztható linket.",
-      "q3Question": "Kell fiók a feltöltéshez?",
-      "q3Answer": "Nem gyors feltöltéshez. Névtelen felhasználók naponta 10 ingyenes feltöltést kapnak. Jelentkezz be a kártyák Irányítópultra mentéséhez — másold újra a linkeket, keress fájlokat és kezeld a feltöltéseket. A Pro tömeges feltöltést ad az Irányítópultról (akár 20–50 kártya egyszerre) és magasabb limiteket.",
-      "q8Question": "Tömegesen feltölthetek sok profilkártyát?",
-      "q8Answer": "Igen, fizetős csomaggal. Nyisd meg az Irányítópultot, használd a tömeges feltöltést és válassz több PNG/JPG/WEBP/GIF fájlt egyszerre — akár 20 kötegenként Pro havi csomagnál vagy 50 Premium évesnél. Ingyenes fiókok egyszerre egy kártyát töltenek fel ezen az oldalon vagy az Irányítópulton.",
-      "q4Question": "Működik a link Discord-on és Twitteren?",
-      "q4Answer": "Igen. A közvetlen HTTPS URL működik posztokban. BBCode Discord-barát jelöléshez, ahol támogatott.",
-      "q5Question": "Hosszú távon elérhető marad a linkem?",
-      "q5Answer": "A feltöltés módjától függ. Névtelen linkek csak gyors használatra — időszakonként töröljük a névtelen feltöltéseket, a link bármikor megszűnhet. Regisztrált felhasználók a fájlokat az Irányítópulton tartják, amíg nem törlik vagy el nem érik a limitet. A Pro a legjobb, ha megbízható hosszú távú elérhetőséget szeretnél.",
-      "q6Question": "Bármilyen képet feltölthetek? Mi a helyzet a szerzői joggal?",
-      "q6Answer": "Csak olyan képeket tölts fel, amelyek a tieid vagy jogosult vagy tárhelyezni és megosztani — saját OC-k, tárhelyezési joggal vásárolt commission-ök vagy saját munkák. Ne tölts fel más művész ref sheetjeit, általad nem készített hivatalos Art Fight asseteket, híresség fotókat, márkalogókat vagy más védett anyagot engedély nélkül. Jogsértő tartalom feltöltése a te felelősséged.",
-      "q7Question": "Milyen tartalom szigorúan tilos?",
-      "q7Answer": "Soha ne tölts fel illegális tartalmat; szexuálisan explicit vagy kizsákmányoló anyagot (kiskorúakkal is); gyűlöletbeszédet, zaklatást vagy erőszakot; rosszindulatú szoftvert vagy csalásokat; vagy bármit, ami sérti a szerzői jogot, védjegyet vagy magánéletet. Észszerűen meggyőződésünk szerint jogsértő tartalom esetén értesítés nélkül törölhetünk fájlokat és felfüggeszthetjük a hozzáférést."
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that works best for you"
     },
-    "artistSupport": {
-      "title": "Művésztámogatás — segítünk",
-      "panelVisualTag": "Válasz 1–2 napon belül",
-      "panelVisualQuestion": "A BBCode beágyazás nem működik?",
-      "panelVisualReply": "Értjük — segítünk megoldani.",
-      "topicEmbed": "Beágyazások és linkek",
-      "topicAccount": "Művészfiók",
-      "topicPlan": "Csomagok és tárhely",
-      "topicFeedback": "Ötletek és visszajelzés",
-      "contactHint": "Írj bármikor — nincs sor.",
-      "contactCta": "Kapcsolat",
-      "emailCta": "E-mail küldése"
+    "faqs": {
+      "title": "Frequently Asked Questions About Video to URL",
+      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "items": {
+        "item-1": {
+          "question": "What is a video to URL converter?",
+          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+        },
+        "item-2": {
+          "question": "How does video to URL conversion work?",
+          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+        },
+        "item-3": {
+          "question": "What video formats are supported?",
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+        },
+        "item-4": {
+          "question": "Are the generated video links permanent?",
+          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+        },
+        "item-5": {
+          "question": "Where can I use the video URL?",
+          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+        },
+        "item-6": {
+          "question": "Is this video to URL converter free?",
+          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+        },
+        "item-7": {
+          "question": "How secure is video upload and hosting?",
+          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+        }
+      }
     },
-    "conversion": {
-      "title": "Sok OC-t tárhelyezel? Tömeges feltöltés az Irányítópultról",
-      "description": "Pro művészek egyszerre több tucat profilkártyát töltenek fel, minden link az Irányítópulton marad, magasabb napi limitek és tárhely az egész rosterhez.",
-      "cta": "Művészbarát Pro csomagok megtekintése"
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our customers are saying",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+        },
+        "item-4": {
+          "name": "Anonymous author",
+          "role": "Product Manager",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+        }
+      }
+    },
+    "stats": {
+      "title": "Stats",
+      "subtitle": "MkSaaS in numbers",
+      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "items": {
+        "item-1": {
+          "title": "Stars on GitHub"
+        },
+        "item-2": {
+          "title": "Active Users"
+        },
+        "item-3": {
+          "title": "Powered Apps"
+        }
+      }
+    },
+    "calltoaction": {
+      "title": "The Easiest Way to Share Videos",
+      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "primaryButton": "Convert to URL",
+      "secondaryButton": "Read FAQ"
     }
+  },
+  "AITextPage": {
+    "title": "AI Text Demo",
+    "description": "Analyze web content with AI to extract key information, features, and insights",
+    "content": "Web Content Analyzer",
+    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "analyzer": {
+      "title": "Web Content Analyzer",
+      "description": "Analyze any website content using AI to extract structured information",
+      "placeholder": "Enter website URL (e.g., https://example.com)",
+      "button": "Analyze Website",
+      "loading": {
+        "scraping": "Scraping website content...",
+        "analyzing": "Analyzing content with AI..."
+      },
+      "results": {
+        "title": "Analysis Results",
+        "newAnalysis": "Analyze Another Website",
+        "sections": {
+          "title": "Title",
+          "description": "Description",
+          "introduction": "Introduction",
+          "features": "Features",
+          "pricing": "Pricing",
+          "useCases": "Use Cases",
+          "screenshot": "Website Screenshot"
+        }
+      },
+      "errors": {
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
+        "analysisError": "Failed to analyze website. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "Smart Web Scraping",
+        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+      },
+      "analysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+      },
+      "results": {
+        "title": "Structured Results",
+        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI Image",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIChatPage": {
+    "title": "AI Chat",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIVideoPage": {
+    "title": "AI Video",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "AIAudioPage": {
+    "title": "AI Audio",
+    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
   }
 }

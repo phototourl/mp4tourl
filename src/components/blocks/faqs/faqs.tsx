@@ -7,78 +7,44 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 
-type FAQItem = {
-  id: string;
-  question: string;
-  answer: string;
-};
-
-const FAQ_ACCENT_CLASSES = [
-  'ptu-faq-kpi-primary',
-  'ptu-faq-kpi-success',
-  'ptu-faq-kpi-warning',
-  'ptu-faq-kpi-purple',
-] as const;
-
 export default function FaqSection() {
-  const t = useTranslations('PricingPage');
-
-  const faqItems: FAQItem[] = [
-    {
-      id: 'payment',
-      question: t('faq.payment.q'),
-      answer: t('faq.payment.a'),
-    },
-    {
-      id: 'cancel',
-      question: t('faq.cancel.q'),
-      answer: t('faq.cancel.a'),
-    },
-    {
-      id: 'storage',
-      question: t('faq.storage.q'),
-      answer: t('faq.storage.a'),
-    },
-    {
-      id: 'upload',
-      question: t('faq.upload.q'),
-      answer: t('faq.upload.a'),
-    },
-  ];
+  const t = useTranslations('HomePage.faqs');
+  const ids = [
+    'item-1',
+    'item-2',
+    'item-3',
+    'item-4',
+    'item-5',
+    'item-6',
+    'item-7',
+  ] as const;
 
   return (
-    <section id="faqs" className="px-4 py-8">
+    <section id="faqs" className="scroll-mt-24 px-4 py-20">
       <div className="mx-auto max-w-4xl">
         <HeaderSection
-          title={t('faqTitle')}
+          title={t('title')}
           titleAs="h2"
+          subtitle={t('subtitle')}
           subtitleAs="p"
         />
 
-        <div className="mx-auto max-w-4xl mt-6">
+        <div className="mx-auto mt-12 max-w-4xl">
           <Accordion
-            className="w-full space-y-2"
+            type="single"
+            collapsible
+            className="w-full rounded-2xl border px-8 py-3 shadow-sm"
           >
-            {faqItems.map((item, i) => (
-              <AccordionItem
-                key={item.id}
-                value={item.id}
-                className="border-none"
-              >
-                <AccordionTrigger
-                  className={cn(
-                    'cursor-pointer rounded-xl px-4 py-3 text-base text-white hover:no-underline',
-                    FAQ_ACCENT_CLASSES[i % FAQ_ACCENT_CLASSES.length]
-                  )}
-                >
-                  {item.question}
+            {ids.map((id) => (
+              <AccordionItem key={id} value={id} className="border-dashed">
+                <AccordionTrigger className="cursor-pointer text-base hover:no-underline">
+                  {t(`items.${id}.question`)}
                 </AccordionTrigger>
                 <AccordionContent>
                   <p className="text-base text-muted-foreground">
-                    {item.answer}
+                    {t(`items.${id}.answer`)}
                   </p>
                 </AccordionContent>
               </AccordionItem>

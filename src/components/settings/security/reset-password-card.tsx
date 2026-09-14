@@ -9,84 +9,66 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { settingsButtonPrimary } from '@/components/settings/settings-button-classes';
-import { settingsCard } from '@/components/settings/settings-card-classes';
+import { useLocaleRouter } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
-import { Routes } from '@/routes';
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import { toast } from 'sonner';
 
 interface ResetPasswordCardProps {
   className?: string;
 }
 
 /**
- * 仅社交登录时：请求向邮箱发送重置链接（需在服务端配置 sendResetPassword）。
+ * Reset Password Card
+ *
+ * This component guides users who signed up with social providers
+ * to set up a password through the forgot password flow.
+ *
+ * How it works:
+ * 1. When a user signs in with a social provider, they don't have a password set up
+ * 2. This component provides a way for them to set up a password using the forgot password flow
+ * 3. The user clicks the button and is redirected to the forgot password page
+ * 4. They enter their email (which is already associated with their account)
+ * 5. They receive a password reset email
+ * 6. After setting a password, they can now login with either:
+ *    - Their social provider (as before)
+ *    - Their email and the new password
+ *
+ * This effectively adds a credential provider to their account, enabling email/password login.
  */
 export function ResetPasswordCard({ className }: ResetPasswordCardProps) {
   const t = useTranslations('Dashboard.settings.security.resetPassword');
+  const router = useLocaleRouter();
   const { data: session } = authClient.useSession();
-  const [pending, setPending] = useState(false);
 
-  const user = session?.user;
-  if (!user?.email) {
-    return null;
-  }
-
-  const handleRequest = async () => {
-    setPending(true);
-    try {
-      // 与 EditStamp / forgot-password 一致：传相对路径，避免绝对 URL 被拼成 /zh/https://...
-      const res = await fetch('/api/auth/request-password-reset', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        credentials: 'include',
-        body: JSON.stringify({
-          email: user.email,
-          redirectTo: Routes.ResetPassword,
-        }),
-      });
-      const data = (await res.json().catch(() => ({}))) as {
-        message?: string;
-        code?: string;
-      };
-      if (!res.ok) {
-        if (data?.code === 'RESET_PASSWORD_DISABLED' || res.status === 400) {
-          toast.error(t('disabled'));
-        } else {
-          toast.error(t('fail'));
-        }
-        return;
-      }
-      toast.success(t('sent'));
-    } catch {
-      toast.error(t('fail'));
-    } finally {
-      setPending(false);
+  const handleSetupPassword = () => {
+    // Pre-fill the email if available to make it easier for the user
+    if (session?.user?.email) {
+      router.push(
+        `/auth/forgot-password?email=${encodeURIComponent(session.user.email)}`
+      );
+    } else {
+      router.push('/auth/forgot-password');
     }
   };
 
   return (
     <Card
-      className={cn(settingsCard, className)}
+      className={cn(
+        'w-full overflow-hidden pt-6 pb-0 flex flex-col',
+        className
+      )}
     >
       <CardHeader>
-        <CardTitle className="text-lg font-semibold text-red-600 dark:text-red-400">{t('title')}</CardTitle>
-        <CardDescription className="text-red-500 dark:text-red-400">{t('description')}</CardDescription>
+        <CardTitle className="text-lg font-semibold">{t('title')}</CardTitle>
+        <CardDescription>{t('description')}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-1 space-y-4">
-        <p className="text-sm text-red-600 dark:text-red-400">{t('info')}</p>
+      <CardContent className="space-y-4 flex-1">
+        <p className="text-sm text-muted-foreground">{t('info')}</p>
       </CardContent>
-      <CardFooter className="mt-auto flex items-center justify-end rounded-none bg-muted px-6 py-4">
-        <Button
-          type="button"
-          onClick={handleRequest}
-          disabled={pending}
-          className={cn('cursor-pointer', settingsButtonPrimary)}
-        >
-          {pending ? t('sending') : t('button')}
+      <CardFooter className="mt-auto px-6 py-4 flex justify-end items-center bg-muted rounded-none">
+        <Button onClick={handleSetupPassword} className="cursor-pointer">
+          {t('button')}
         </Button>
       </CardFooter>
     </Card>

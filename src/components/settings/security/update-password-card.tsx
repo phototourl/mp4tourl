@@ -19,14 +19,12 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { settingsButtonPrimary } from '@/components/settings/settings-button-classes';
-import { settingsCard } from '@/components/settings/settings-card-classes';
+import { useLocaleRouter } from '@/i18n/navigation';
 import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
@@ -36,21 +34,33 @@ interface UpdatePasswordCardProps {
   className?: string;
 }
 
+/**
+ * Update user password
+ *
+ * This component allows users to update their password.
+ *
+ * NOTE: This should only be used for users with credential providers (email/password login).
+ * For conditional rendering based on provider type, use ConditionalUpdatePasswordCard instead.
+ *
+ * @see ConditionalUpdatePasswordCard
+ * @see https://www.better-auth.com/docs/authentication/email-password#update-password
+ */
 export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
   const t = useTranslations('Dashboard.settings.security.updatePassword');
   const [isSaving, setIsSaving] = useState(false);
   const [showCurrentPassword, setShowCurrentPassword] = useState(false);
   const [showNewPassword, setShowNewPassword] = useState(false);
   const [error, setError] = useState<string | undefined>('');
-  /** App Router 的 refresh；用 next/navigation 保证与 next-intl 解耦、类型稳定 */
-  const router = useRouter();
+  const router = useLocaleRouter();
   const { data: session } = authClient.useSession();
 
+  // Create a schema for password validation
   const formSchema = z.object({
     currentPassword: z.string().min(1, { message: t('currentRequired') }),
     newPassword: z.string().min(8, { message: t('newMinLength') }),
   });
 
+  // Initialize the form
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -59,11 +69,13 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
     },
   });
 
+  // Check if user exists after all hooks are initialized
   const user = session?.user;
   if (!user) {
     return null;
   }
 
+  // Handle form submission
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     await authClient.changePassword(
       {
@@ -72,30 +84,39 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
         revokeOtherSessions: true,
       },
       {
-        onRequest: () => {
+        onRequest: (ctx) => {
+          // console.log('update password, request:', ctx.url);
           setIsSaving(true);
           setError('');
         },
-        onResponse: () => {
+        onResponse: (ctx) => {
+          // console.log('update password, response:', ctx.response);
           setIsSaving(false);
         },
-        onSuccess: () => {
+        onSuccess: (ctx) => {
+          // update password success, user information stored in ctx.data
+          // console.log("update password, success:", ctx.data);
           toast.success(t('success'));
           router.refresh();
           form.reset();
         },
         onError: (ctx) => {
-          console.error('changePassword error:', ctx.error);
+          // update password fail, display the error message
+          // { "message": "Invalid password", "code": "INVALID_PASSWORD", "status": 400, "statusText": "BAD_REQUEST" }
+          console.error('update password error:', ctx.error);
           setError(`${ctx.error.status}: ${ctx.error.message}`);
           toast.error(t('fail'));
         },
-      },
+      }
     );
   };
 
   return (
     <Card
-      className={cn(settingsCard, className)}
+      className={cn(
+        'w-full overflow-hidden pt-6 pb-0 flex flex-col',
+        className
+      )}
     >
       <CardHeader>
         <CardTitle className="text-lg font-semibold">{t('title')}</CardTitle>
@@ -104,9 +125,9 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="flex flex-1 flex-col"
+          className="flex flex-col flex-1"
         >
-          <CardContent className="flex-1 space-y-4">
+          <CardContent className="space-y-4 flex-1">
             <FormField
               control={form.control}
               name="currentPassword"
@@ -118,14 +139,13 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
                       <Input
                         type={showCurrentPassword ? 'text' : 'password'}
                         placeholder={t('currentPassword')}
-                        autoComplete="current-password"
                         {...field}
                       />
                       <Button
                         type="button"
                         variant="ghost"
                         size="sm"
-                        className="absolute top-0 right-0 h-full px-3 py-2 hover:bg-transparent"
+                        className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                         onClick={() =>
                           setShowCurrentPassword(!showCurrentPassword)
                         }
@@ -158,20 +178,19 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
                       <Input
                         type={showNewPassword ? 'text' : 'password'}
                         placeholder={t('newPassword')}
-                        autoComplete="new-password"
                         {...field}
                       />
                       <Button
                         type="button"
                         variant="ghost"
                         size="sm"
-                        className="absolute top-0 right-0 h-full cursor-pointer px-3 py-2 hover:bg-transparent"
+                        className="cursor-pointer absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                         onClick={() => setShowNewPassword(!showNewPassword)}
                       >
                         {showNewPassword ? (
-                          <EyeOffIcon className="h-4 w-4" />
+                          <EyeOffIcon className="size-4" />
                         ) : (
-                          <EyeIcon className="h-4 w-4" />
+                          <EyeIcon className="size-4" />
                         )}
                         <span className="sr-only">
                           {showNewPassword
@@ -187,12 +206,13 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
             />
             <FormError message={error} />
           </CardContent>
-          <CardFooter className="mt-6 flex items-center justify-between rounded-none bg-muted px-6 py-4">
+          <CardFooter className="mt-6 px-6 py-4 flex justify-between items-center bg-muted rounded-none">
             <p className="text-sm text-muted-foreground">{t('hint')}</p>
+
             <Button
               type="submit"
               disabled={isSaving}
-              className={cn('cursor-pointer', settingsButtonPrimary)}
+              className="cursor-pointer"
             >
               {isSaving ? t('saving') : t('save')}
             </Button>
