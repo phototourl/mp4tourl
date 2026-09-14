@@ -9,7 +9,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 
 /**
  * Hero: left/right = clipped og.jpg; mid = Wise capsule track.
- * After full page load → auto slide top→bottom → merge → #upload.
+ * F5 starts at top; after load → auto slide → merge → scroll to #upload.
  */
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
@@ -31,6 +31,19 @@ export default function HeroSection() {
   }, []);
 
   useEffect(() => {
+    // F5 / reload: start at top of homepage (no browser restore / leftover hash)
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    if (window.location.hash) {
+      window.history.replaceState(
+        null,
+        '',
+        window.location.pathname + window.location.search
+      );
+    }
+    window.scrollTo(0, 0);
+
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reduce) {
       startedRef.current = true;
