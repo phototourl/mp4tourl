@@ -7,8 +7,7 @@ export async function getSessionFromRequest(
   req: Request
 ): Promise<Session | null> {
   try {
-    const { getAuth } = await import('@/lib/auth');
-    const auth = await getAuth();
+    const { auth } = await import('@/lib/auth');
     const session = await auth.api.getSession({
       headers: req.headers,
     });

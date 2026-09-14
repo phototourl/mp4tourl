@@ -138,7 +138,12 @@ export function ParallaxFrame({
     target: ref,
     offset: ['start end', 'end start'],
   });
-  const y = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : ['8%', '-8%']);
+  // Keep output type as string[] — mixing number[] breaks useTransform typings
+  const y = useTransform(
+    scrollYProgress,
+    [0, 1],
+    reduce ? (['0%', '0%'] as const) : (['8%', '-8%'] as const)
+  );
 
   return (
     <div ref={ref} className={cn('overflow-hidden', className)}>

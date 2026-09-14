@@ -114,16 +114,21 @@ export class StripeProvider implements PaymentProvider {
     try {
       // Update user record with customer ID if email matches
       const db = await getDb();
-      const result = await db
+      await db
         .update(user)
         .set({
           customerId: customerId,
           updatedAt: new Date(),
         })
-        .where(eq(user.email, email))
-        .returning({ id: user.id });
+        .where(eq(user.email, email));
 
-      if (result.length > 0) {
+      const updated = await db
+        .select({ id: user.id })
+        .from(user)
+        .where(eq(user.email, email))
+        .limit(1);
+
+      if (updated.length > 0) {
         console.log('Updated user with customer ID (hidden)');
       } else {
         console.log('No user found with given email');
@@ -677,7 +682,7 @@ export class StripeProvider implements PaymentProvider {
     await sendNotification(
       invoice.id,
       paymentRecord.customerId,
-      paymentRecord.userId,
+      paymentRecord.userId ?? '',
       amount
     );
 
@@ -747,13 +752,18 @@ export class StripeProvider implements PaymentProvider {
     };
 
     const db = await getDb();
-    const result = await db
+    await db
       .update(payment)
       .set(updateFields)
-      .where(eq(payment.subscriptionId, stripeSubscription.id))
-      .returning({ id: payment.id });
+      .where(eq(payment.subscriptionId, stripeSubscription.id));
 
-    if (result.length > 0) {
+    const updated = await db
+      .select({ id: payment.id })
+      .from(payment)
+      .where(eq(payment.subscriptionId, stripeSubscription.id))
+      .limit(1);
+
+    if (updated.length > 0) {
       console.log('<< Updated payment record for subscription');
     } else {
       console.warn('<< No payment record found for subscription update');
@@ -776,7 +786,7 @@ export class StripeProvider implements PaymentProvider {
     console.log('>> Handle subscription deletion:', stripeSubscription.id);
 
     const db = await getDb();
-    const result = await db
+    await db
       .update(payment)
       .set({
         status: this.mapSubscriptionStatusToPaymentStatus(
@@ -784,10 +794,15 @@ export class StripeProvider implements PaymentProvider {
         ),
         updatedAt: new Date(),
       })
-      .where(eq(payment.subscriptionId, stripeSubscription.id))
-      .returning({ id: payment.id });
+      .where(eq(payment.subscriptionId, stripeSubscription.id));
 
-    if (result.length > 0) {
+    const updated = await db
+      .select({ id: payment.id })
+      .from(payment)
+      .where(eq(payment.subscriptionId, stripeSubscription.id))
+      .limit(1);
+
+    if (updated.length > 0) {
       console.log('<< Marked payment record for subscription as canceled');
     } else {
       console.warn('<< No payment record found for subscription deletion');

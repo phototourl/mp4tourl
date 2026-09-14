@@ -156,7 +156,9 @@ export const TikTokUserDataSchema = z.object({
   }),
   "Tiktok Live": z.object({
     "Watch Live History": z.object({
-      WatchLiveMap: z.record(TikTokWatchLiveElementSchema).optional(),
+      WatchLiveMap: z
+        .record(z.string(), TikTokWatchLiveElementSchema)
+        .optional(),
     }),
   }),
   Video: z.object({
