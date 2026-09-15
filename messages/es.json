@@ -589,10 +589,10 @@
     "hero": {
       "title": "Conversor gratuito de vídeo a URL",
       "description": "Sube vídeos MP4 y obtén enlaces permanentes para compartir en segundos.",
-      "tagline": "Compatible con MP4, MOV, AVI, WebM, MKV hasta 300 MB. Sin registro.",
+      "tagline": "Sube un vídeo y obtén un enlace permanente para compartir",
       "uploadHeading": "Sube tu vídeo",
       "uploadTitle": "Suelta tu vídeo aquí o haz clic para elegir",
-      "uploadHint": "Compatible con MP4, MOV, AVI, WebM, MKV hasta 300 MB",
+      "uploadHint": "Compatible con MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Tamaño máximo de archivo: 300 MB",
       "convert": "Convertir a URL",
       "uploading": "Subiendo...",

@@ -3,7 +3,6 @@
 import { Routes } from '@/routes';
 import type { MenuItem } from '@/types';
 import {
-  CreditCardIcon,
   FolderOpenIcon,
   LayoutDashboardIcon,
   Settings2Icon,
@@ -29,11 +28,6 @@ export function useAvatarLinks(): MenuItem[] {
       title: tDash('resources.title'),
       href: Routes.Resources,
       icon: <FolderOpenIcon className="size-4 shrink-0" />,
-    },
-    {
-      title: t('billing'),
-      href: Routes.SettingsBilling,
-      icon: <CreditCardIcon className="size-4 shrink-0" />,
     },
     {
       title: t('settings'),

@@ -589,10 +589,10 @@
     "hero": {
       "title": "Ingyenes videó–URL konverter",
       "description": "Tölts fel MP4 videókat, és másodpercek alatt kapsz állandó megosztható linkeket.",
-      "tagline": "MP4, MOV, AVI, WebM, MKV támogatás akár 300 MB-ig. Regisztráció nélkül.",
+      "tagline": "Tölts fel videót, és kapj állandó megosztható linket",
       "uploadHeading": "Töltsd fel a videódat",
       "uploadTitle": "Húzd ide a videót, vagy kattints a tallózáshoz",
-      "uploadHint": "Támogatja az MP4, MOV, AVI, WebM, MKV formátumokat akár 300 MB-ig",
+      "uploadHint": "Támogatja az MP4, MOV, AVI, WebM, MKV formátumokat",
       "maxSize": "Maximális fájlméret: 300 MB",
       "convert": "Átalakítás URL-lé",
       "uploading": "Feltöltés...",

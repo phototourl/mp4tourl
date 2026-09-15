@@ -589,10 +589,10 @@
     "hero": {
       "title": "Conversor gratuito de vídeo para URL",
       "description": "Envie vídeos MP4 e obtenha links permanentes para compartilhar em segundos.",
-      "tagline": "Suporte a MP4, MOV, AVI, WebM, MKV até 300MB. Sem cadastro.",
+      "tagline": "Envie um vídeo e obtenha um link permanente para compartilhar",
       "uploadHeading": "Envie seu vídeo",
       "uploadTitle": "Solte seu vídeo aqui ou clique para procurar",
-      "uploadHint": "Suporta MP4, MOV, AVI, WebM, MKV até 300MB",
+      "uploadHint": "Suporta MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Tamanho máximo do arquivo: 300MB",
       "convert": "Converter para URL",
       "uploading": "Enviando...",

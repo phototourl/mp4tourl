@@ -589,10 +589,10 @@
     "hero": {
       "title": "Бесплатный конвертер видео в URL",
       "description": "Загружайте MP4 и получайте постоянные ссылки за секунды.",
-      "tagline": "MP4, MOV, AVI, WebM, MKV до 300MB. Без регистрации.",
+      "tagline": "Загрузите видео и получите постоянную ссылку",
       "uploadHeading": "Загрузите видео",
       "uploadTitle": "Перетащите видео сюда или нажмите для выбора",
-      "uploadHint": "Поддержка MP4, MOV, AVI, WebM, MKV до 300MB",
+      "uploadHint": "Поддержка MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Максимальный размер файла: 300MB",
       "convert": "Конвертировать в URL",
       "uploading": "Загрузка...",

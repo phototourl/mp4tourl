@@ -589,10 +589,10 @@
     "hero": {
       "title": "ממיר וידאו לקישור בחינם",
       "description": "העלו סרטוני MP4 וקבלו קישורים קבועים לשיתוף תוך שניות.",
-      "tagline": "תומך ב־MP4, MOV, AVI, WebM, MKV עד 300MB. בלי הרשמה.",
+      "tagline": "העלו סרטון וקבלו קישור קבוע לשיתוף",
       "uploadHeading": "העלאת הסרטון שלכם",
       "uploadTitle": "גררו לכאן סרטון, או לחצו לבחירה",
-      "uploadHint": "תומך ב־MP4, MOV, AVI, WebM, MKV עד 300MB",
+      "uploadHint": "תומך ב־MP4, MOV, AVI, WebM, MKV",
       "maxSize": "גודל קובץ מרבי: 300MB",
       "convert": "המרה ל־URL",
       "uploading": "מעלה…",

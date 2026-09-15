@@ -589,10 +589,10 @@
     "hero": {
       "title": "Libreng Converter ng Video sa URL",
       "description": "Mag-upload ng MP4 video at makakuha ng permanenteng maibabahaging link sa ilang segundo.",
-      "tagline": "Suportado ang MP4, MOV, AVI, WebM, MKV hanggang 300MB. Walang kailangang magrehistro.",
+      "tagline": "Mag-upload ng video, kumuha ng permanenteng maibabahaging link",
       "uploadHeading": "I-upload ang video mo",
       "uploadTitle": "I-drop ang video dito, o i-click para mag-browse",
-      "uploadHint": "Suportado ang MP4, MOV, AVI, WebM, MKV hanggang 300MB",
+      "uploadHint": "Suportado ang MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Pinakamalaking laki ng file: 300MB",
       "convert": "I-convert sa URL",
       "uploading": "Nag-u-upload...",

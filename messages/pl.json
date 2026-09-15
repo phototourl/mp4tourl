@@ -589,10 +589,10 @@
     "hero": {
       "title": "Darmowy konwerter wideo na URL",
       "description": "Prześlij filmy MP4 i w kilka sekund otrzymaj stałe linki do udostępniania.",
-      "tagline": "Obsługa MP4, MOV, AVI, WebM, MKV do 300 MB. Bez rejestracji.",
+      "tagline": "Prześlij film, otrzymaj stały link do udostępniania",
       "uploadHeading": "Prześlij swój film",
       "uploadTitle": "Upuść film tutaj lub kliknij, aby wybrać",
-      "uploadHint": "Obsługuje MP4, MOV, AVI, WebM, MKV do 300 MB",
+      "uploadHint": "Obsługuje MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maksymalny rozmiar pliku: 300 MB",
       "convert": "Konwertuj na URL",
       "uploading": "Przesyłanie...",

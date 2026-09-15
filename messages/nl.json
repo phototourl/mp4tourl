@@ -589,10 +589,10 @@
     "hero": {
       "title": "Gratis video-naar-URL-converter",
       "description": "Upload MP4-video's en krijg binnen enkele seconden permanente deelbare links.",
-      "tagline": "Ondersteunt MP4, MOV, AVI, WebM, MKV tot 300 MB. Geen registratie nodig.",
+      "tagline": "Upload een video, krijg een permanente deelbare link",
       "uploadHeading": "Upload je video",
       "uploadTitle": "Sleep je video hierheen of klik om te bladeren",
-      "uploadHint": "Ondersteunt MP4, MOV, AVI, WebM, MKV tot 300 MB",
+      "uploadHint": "Ondersteunt MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maximale bestandsgrootte: 300 MB",
       "convert": "Converteren naar URL",
       "uploading": "Uploaden...",

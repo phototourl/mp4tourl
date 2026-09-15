@@ -382,6 +382,16 @@ export default function VideoUpload() {
                 setPreview(null);
                 setFileName(null);
                 setError(null);
+                // Success panel is taller; collapsing it shifts page content up
+                // under a fixed scrollY (looks like a jump to product-banner).
+                // Pin viewport back to the upload block after layout settles.
+                requestAnimationFrame(() => {
+                  requestAnimationFrame(() => {
+                    document
+                      .getElementById('upload')
+                      ?.scrollIntoView({ behavior: 'auto', block: 'start' });
+                  });
+                });
               }}
             >
               {t('uploadAnother')}

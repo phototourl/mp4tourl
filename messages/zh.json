@@ -589,10 +589,10 @@
     "hero": {
       "title": "免费视频转链接工具",
       "description": "上传 MP4 视频，几秒获得可长期分享的链接。",
-      "tagline": "支持 MP4、MOV、AVI、WebM、MKV，单文件最高 300MB。无需注册。",
+      "tagline": "上传视频，获取可长期分享的链接",
       "uploadHeading": "上传你的视频",
       "uploadTitle": "拖入视频，或点击选择文件",
-      "uploadHint": "支持 MP4、MOV、AVI、WebM、MKV，最高 300MB",
+      "uploadHint": "支持 MP4、MOV、AVI、WebM、MKV",
       "maxSize": "单文件最大：300MB",
       "convert": "转为链接",
       "uploading": "上传中…",

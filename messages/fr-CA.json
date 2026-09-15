@@ -589,10 +589,10 @@
     "hero": {
       "title": "Convertisseur vidéo → URL gratuit",
       "description": "Téléversez des vidéos MP4 et obtenez des liens permanents partageables en quelques secondes.",
-      "tagline": "Prise en charge de MP4, MOV, AVI, WebM, MKV jusqu’à 300 Mo. Sans inscription.",
+      "tagline": "Téléversez une vidéo, obtenez un lien permanent partageable",
       "uploadHeading": "Téléversez votre vidéo",
       "uploadTitle": "Déposez votre vidéo ici, ou cliquez pour parcourir",
-      "uploadHint": "Prend en charge MP4, MOV, AVI, WebM, MKV jusqu’à 300 Mo",
+      "uploadHint": "Prend en charge MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Taille maximale : 300 Mo",
       "convert": "Convertir en URL",
       "uploading": "Téléversement…",

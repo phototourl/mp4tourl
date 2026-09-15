@@ -589,10 +589,10 @@
     "hero": {
       "title": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี",
       "description": "อัปโหลดวิดีโอ MP4 แล้วรับลิงก์แชร์ถาวรภายในไม่กี่วินาที",
-      "tagline": "รองรับ MP4, MOV, AVI, WebM, MKV สูงสุด 300MB ไม่ต้องสมัครสมาชิก",
+      "tagline": "อัปโหลดวิดีโอ รับลิงก์แชร์ถาวร",
       "uploadHeading": "อัปโหลดวิดีโอของคุณ",
       "uploadTitle": "วางวิดีโอที่นี่ หรือคลิกเพื่อเลือกไฟล์",
-      "uploadHint": "รองรับ MP4, MOV, AVI, WebM, MKV สูงสุด 300MB",
+      "uploadHint": "รองรับ MP4, MOV, AVI, WebM, MKV",
       "maxSize": "ขนาดไฟล์สูงสุด: 300MB",
       "convert": "แปลงเป็น URL",
       "uploading": "กำลังอัปโหลด...",

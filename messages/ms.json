@@ -589,10 +589,10 @@
     "hero": {
       "title": "Penukar Video ke URL Percuma",
       "description": "Muat naik video MP4 dan dapatkan pautan kongsi kekal dalam beberapa saat.",
-      "tagline": "Sokong MP4, MOV, AVI, WebM, MKV sehingga 300MB. Tiada pendaftaran diperlukan.",
+      "tagline": "Muat naik video, dapatkan pautan kongsi kekal",
       "uploadHeading": "Muat Naik Video Anda",
       "uploadTitle": "Letakkan video di sini, atau klik untuk semak imbas",
-      "uploadHint": "Menyokong MP4, MOV, AVI, WebM, MKV sehingga 300MB",
+      "uploadHint": "Menyokong MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Saiz fail maksimum: 300MB",
       "convert": "Tukar ke URL",
       "uploading": "Memuat naik...",

@@ -589,10 +589,10 @@
     "hero": {
       "title": "Ücretsiz Video-URL Dönüştürücü",
       "description": "MP4 videoları yükleyin, saniyeler içinde kalıcı paylaşılabilir bağlantılar alın.",
-      "tagline": "MP4, MOV, AVI, WebM, MKV desteği, 300 MB'a kadar. Kayıt gerekmez.",
+      "tagline": "Video yükleyin, kalıcı paylaşılabilir bağlantı alın",
       "uploadHeading": "Videonuzu yükleyin",
       "uploadTitle": "Videonuzu buraya bırakın veya göz atmak için tıklayın",
-      "uploadHint": "MP4, MOV, AVI, WebM, MKV desteği, 300 MB'a kadar",
+      "uploadHint": "MP4, MOV, AVI, WebM, MKV desteği",
       "maxSize": "Maksimum dosya boyutu: 300MB",
       "convert": "URL'ye dönüştür",
       "uploading": "Yükleniyor...",

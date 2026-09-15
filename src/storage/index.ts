@@ -3,6 +3,8 @@ import { storageConfig } from './config/storage-config';
 import { S3Provider } from './provider/s3';
 import type { StorageConfig, StorageProvider, UploadFileResult } from './types';
 
+export { storageConfig, isStorageConfigured } from './config/storage-config';
+
 /**
  * Default storage configuration
  */

@@ -589,10 +589,10 @@
     "hero": {
       "title": "Kostenloser Video-zu-URL-Konverter",
       "description": "MP4-Videos hochladen und in Sekunden dauerhafte, teilbare Links erhalten.",
-      "tagline": "Unterstützt MP4, MOV, AVI, WebM, MKV bis 300 MB. Keine Registrierung nötig.",
+      "tagline": "Video hochladen, dauerhaften teilbaren Link erhalten",
       "uploadHeading": "Video hochladen",
       "uploadTitle": "Video hier ablegen oder klicken zum Auswählen",
-      "uploadHint": "Unterstützt MP4, MOV, AVI, WebM, MKV bis 300 MB",
+      "uploadHint": "Unterstützt MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maximale Dateigrösse: 300 MB",
       "convert": "In URL umwandeln",
       "uploading": "Wird hochgeladen...",

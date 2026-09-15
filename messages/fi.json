@@ -589,10 +589,10 @@
     "hero": {
       "title": "Ilmainen video → URL -muunnin",
       "description": "Lataa MP4-videoita ja saat pysyvät jaettavat linkit sekunneissa.",
-      "tagline": "Tukee MP4, MOV, AVI, WebM, MKV aina 300 Mt asti. Ei rekisteröitymistä.",
+      "tagline": "Lataa video, saat pysyvän jaettavan linkin",
       "uploadHeading": "Lataa videosi",
       "uploadTitle": "Pudota video tähän tai napsauta selataksesi",
-      "uploadHint": "Tukee MP4, MOV, AVI, WebM, MKV aina 300 Mt asti",
+      "uploadHint": "Tukee MP4, MOV, AVI, WebM, MKV -formaatteja",
       "maxSize": "Enimmäiskoko: 300 Mt",
       "convert": "Muunna URL-osoitteeksi",
       "uploading": "Ladataan…",

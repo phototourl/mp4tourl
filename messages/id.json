@@ -589,10 +589,10 @@
     "hero": {
       "title": "Konverter Video ke URL Gratis",
       "description": "Unggah video MP4 dan dapatkan tautan permanen yang bisa dibagikan dalam hitungan detik.",
-      "tagline": "Mendukung MP4, MOV, AVI, WebM, MKV hingga 300MB. Tanpa registrasi.",
+      "tagline": "Unggah video, dapatkan tautan permanen yang bisa dibagikan",
       "uploadHeading": "Unggah video Anda",
       "uploadTitle": "Letakkan video di sini, atau klik untuk memilih",
-      "uploadHint": "Mendukung MP4, MOV, AVI, WebM, MKV hingga 300MB",
+      "uploadHint": "Mendukung MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Ukuran file maksimum: 300MB",
       "convert": "Ubah ke URL",
       "uploading": "Mengunggah...",

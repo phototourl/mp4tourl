@@ -589,10 +589,10 @@
     "hero": {
       "title": "무료 동영상→링크 변환기",
       "description": "MP4 동영상을 올리면 몇 초 만에 영구 공유 링크를 받습니다.",
-      "tagline": "MP4, MOV, AVI, WebM, MKV 최대 300MB 지원. 가입 불필요.",
+      "tagline": "동영상을 올리면 영구 공유 링크를 받습니다",
       "uploadHeading": "동영상 업로드",
       "uploadTitle": "여기에 동영상을 놓거나 클릭하여 선택하세요",
-      "uploadHint": "MP4, MOV, AVI, WebM, MKV 최대 300MB 지원",
+      "uploadHint": "MP4, MOV, AVI, WebM, MKV 지원",
       "maxSize": "최대 파일 크기: 300MB",
       "convert": "링크로 변환",
       "uploading": "업로드 중...",

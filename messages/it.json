@@ -589,10 +589,10 @@
     "hero": {
       "title": "Convertitore video in URL gratuito",
       "description": "Carica video MP4 e ottieni link permanenti condividibili in pochi secondi.",
-      "tagline": "Supporta MP4, MOV, AVI, WebM, MKV fino a 300MB. Nessuna registrazione.",
+      "tagline": "Carica un video, ottieni un link permanente condividibile",
       "uploadHeading": "Carica il tuo video",
       "uploadTitle": "Trascina qui il video, oppure clicca per sfogliare",
-      "uploadHint": "Supporta MP4, MOV, AVI, WebM, MKV fino a 300MB",
+      "uploadHint": "Supporta MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Dimensione massima file: 300MB",
       "convert": "Converti in URL",
       "uploading": "Caricamento...",

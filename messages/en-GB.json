@@ -589,10 +589,10 @@
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300 MB. No sign-up required.",
+      "tagline": "Upload a video, get a permanent shareable link",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300 MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maximum file size: 300 MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",

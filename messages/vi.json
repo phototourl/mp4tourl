@@ -589,10 +589,10 @@
     "hero": {
       "title": "Chuyển video thành liên kết chia sẻ miễn phí",
       "description": "Tải video MP4 lên và nhận liên kết chia sẻ vĩnh viễn trong vài giây.",
-      "tagline": "Hỗ trợ MP4, MOV, AVI, WebM, MKV tới 300MB. Không cần đăng ký.",
+      "tagline": "Tải video lên, nhận liên kết chia sẻ vĩnh viễn",
       "uploadHeading": "Tải video của bạn",
       "uploadTitle": "Thả video vào đây, hoặc nhấn để chọn tệp",
-      "uploadHint": "Hỗ trợ MP4, MOV, AVI, WebM, MKV tới 300MB",
+      "uploadHint": "Hỗ trợ MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Dung lượng tối đa: 300MB",
       "convert": "Chuyển thành URL",
       "uploading": "Đang tải lên...",

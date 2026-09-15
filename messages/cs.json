@@ -589,10 +589,10 @@
     "hero": {
       "title": "Bezplatný převodník videa na URL",
       "description": "Nahrajte MP4 videa a získejte trvalé odkazy ke sdílení během sekund.",
-      "tagline": "Podpora MP4, MOV, AVI, WebM, MKV až do 300MB. Bez registrace.",
+      "tagline": "Nahrajte video a získejte trvalý odkaz ke sdílení",
       "uploadHeading": "Nahrajte své video",
       "uploadTitle": "Přetáhněte video sem nebo klikněte pro výběr",
-      "uploadHint": "Podporuje MP4, MOV, AVI, WebM, MKV až do 300MB",
+      "uploadHint": "Podporuje MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maximální velikost souboru: 300MB",
       "convert": "Převést na URL",
       "uploading": "Nahrávání...",

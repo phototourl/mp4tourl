@@ -589,10 +589,10 @@
     "hero": {
       "title": "Convertor gratuit video în URL",
       "description": "Încarcă videoclipuri MP4 și obține linkuri permanente de partajat în câteva secunde.",
-      "tagline": "Suport MP4, MOV, AVI, WebM, MKV până la 300MB. Fără înregistrare.",
+      "tagline": "Încarcă un videoclip și obține un link permanent de partajat",
       "uploadHeading": "Încarcă videoclipul",
       "uploadTitle": "Plasează videoclipul aici sau apasă pentru a căuta",
-      "uploadHint": "Suportă MP4, MOV, AVI, WebM, MKV până la 300MB",
+      "uploadHint": "Suportă MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Dimensiune maximă fișier: 300MB",
       "convert": "Convertește în URL",
       "uploading": "Se încarcă...",

@@ -589,10 +589,10 @@
     "hero": {
       "title": "Gratis videokonverterare till delbar länk",
       "description": "Ladda upp MP4-videor och få permanenta delningslänkar på sekunder.",
-      "tagline": "Stöder MP4, MOV, AVI, WebM, MKV upp till 300MB. Ingen registrering krävs.",
+      "tagline": "Ladda upp en video och få en permanent delbar länk",
       "uploadHeading": "Ladda upp din video",
       "uploadTitle": "Släpp din video här eller klicka för att bläddra",
-      "uploadHint": "Stöder MP4, MOV, AVI, WebM, MKV upp till 300MB",
+      "uploadHint": "Stöder MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Max filstorlek: 300MB",
       "convert": "Konvertera till URL",
       "uploading": "Laddar upp...",

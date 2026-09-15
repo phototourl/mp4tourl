@@ -589,10 +589,10 @@
     "hero": {
       "title": "Gratis videokonverter til delbar lenke",
       "description": "Last opp MP4-videoer og få permanente delingslenker på sekunder.",
-      "tagline": "Støtter MP4, MOV, AVI, WebM, MKV opptil 300MB. Ingen registrering.",
+      "tagline": "Last opp en video og få en permanent delbar lenke",
       "uploadHeading": "Last opp videoen din",
       "uploadTitle": "Slipp videoen her, eller klikk for å bla",
-      "uploadHint": "Støtter MP4, MOV, AVI, WebM, MKV opptil 300MB",
+      "uploadHint": "Støtter MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maks filstørrelse: 300MB",
       "convert": "Konverter til URL",
       "uploading": "Laster opp...",

@@ -589,10 +589,10 @@
     "hero": {
       "title": "Gratis video-til-URL-konverter",
       "description": "Upload MP4-videoer og få permanente links til deling på få sekunder.",
-      "tagline": "Understøtter MP4, MOV, AVI, WebM, MKV op til 300MB. Ingen registrering påkrævet.",
+      "tagline": "Upload en video og få et permanent link til deling",
       "uploadHeading": "Upload din video",
       "uploadTitle": "Slip din video her, eller klik for at gennemse",
-      "uploadHint": "Understøtter MP4, MOV, AVI, WebM, MKV op til 300MB",
+      "uploadHint": "Understøtter MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maksimal filstørrelse: 300MB",
       "convert": "Konvertér til URL",
       "uploading": "Uploader...",

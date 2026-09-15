@@ -1,18 +1,26 @@
 /**
- * Best-effort R2 object key from a public file URL.
+ * R2 object key from a public CDN / storage URL — same approach as editstamp.
+ * e.g. https://cdn.mp4tourl.com/video/free/uuid.mp4 → video/free/uuid.mp4
  */
 export function extractStorageKeyFromUrl(
   url: string | null | undefined
 ): string | null {
   if (!url) return null;
   try {
-    const base = process.env.R2_PUBLIC_BASE_URL?.replace(/\/$/, '');
-    if (base && url.startsWith(`${base}/`)) {
-      return decodeURIComponent(url.slice(base.length + 1).split('?')[0]!);
+    const pathname = new URL(url).pathname;
+    const key = decodeURIComponent(
+      (pathname.startsWith('/') ? pathname.slice(1) : pathname).split('?')[0]!
+    ).replace(/^\/+/, '');
+    if (!key) return null;
+
+    // If a path-style URL accidentally includes the bucket as the first segment
+    const bucket = process.env.R2_BUCKET?.replace(/^["']|["']$/g, '');
+    if (bucket && (key === bucket || key.startsWith(`${bucket}/`))) {
+      const stripped = key.slice(bucket.length).replace(/^\//, '');
+      return stripped || null;
     }
-    const parsed = new URL(url);
-    const path = parsed.pathname.replace(/^\//, '');
-    return path ? decodeURIComponent(path) : null;
+
+    return key;
   } catch {
     return null;
   }

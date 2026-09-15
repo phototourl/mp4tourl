@@ -150,15 +150,17 @@ export class S3Provider implements StorageProvider {
   public async deleteFile(key: string): Promise<void> {
     try {
       const s3 = this.getS3Client();
-
       const wasDeleted = await s3.deleteObject(key);
 
+      // S3/R2 DeleteObject is usually idempotent (204 even if missing).
+      // false means the request was not accepted — treat as failure.
       if (!wasDeleted) {
-        console.warn(
-          `File with key ${key} was not found or could not be deleted`
+        throw new StorageError(
+          `Failed to delete object with key: ${key}`
         );
       }
     } catch (error) {
+      if (error instanceof StorageError) throw error;
       const message =
         error instanceof Error
           ? error.message

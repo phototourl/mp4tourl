@@ -589,10 +589,10 @@
     "hero": {
       "title": "Besplatni pretvarač videa u URL",
       "description": "Učitajte MP4 videozapise i dobijte trajne linkove za dijeljenje u nekoliko sekundi.",
-      "tagline": "Podrška za MP4, MOV, AVI, WebM, MKV do 300 MB. Bez registracije.",
+      "tagline": "Učitajte video i dobijte trajni link za dijeljenje",
       "uploadHeading": "Učitajte svoj video",
       "uploadTitle": "Povucite video ovdje ili kliknite za pregled",
-      "uploadHint": "Podržava MP4, MOV, AVI, WebM, MKV do 300 MB",
+      "uploadHint": "Podržava MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Maksimalna veličina datoteke: 300 MB",
       "convert": "Pretvori u URL",
       "uploading": "Učitavanje...",

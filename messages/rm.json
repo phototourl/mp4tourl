@@ -589,10 +589,10 @@
     "hero": {
       "title": "Convertider gratuit da video en URL",
       "description": "Chargia videos MP4 e retschava colliaziuns permanentas en secundas.",
-      "tagline": "Sustegn per MP4, MOV, AVI, WebM, MKV fin 300MB. Senza registraziun.",
+      "tagline": "Chargia in video e retschava ina colliaziun permanenta",
       "uploadHeading": "Chargiar tes video",
       "uploadTitle": "Metta tes video qua u clicca per tscherner",
-      "uploadHint": "Sustegn per MP4, MOV, AVI, WebM, MKV fin 300MB",
+      "uploadHint": "Sustegn per MP4, MOV, AVI, WebM, MKV",
       "maxSize": "Grondezza maximala da la datoteca: 300MB",
       "convert": "Convertir en URL",
       "uploading": "Chargond...",

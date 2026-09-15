@@ -246,7 +246,6 @@ export function DashboardHomeOverview() {
 
             <MetricCard
               icon={Sparkles}
-              variant="surface"
               showArrow={false}
               title={planLabel}
               description={planHint}

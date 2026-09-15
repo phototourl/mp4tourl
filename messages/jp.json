@@ -589,10 +589,10 @@
     "hero": {
       "title": "無料の動画→リンク変換",
       "description": "MP4動画をアップロードすれば、数秒でずっと使える共有リンクが手に入ります。",
-      "tagline": "MP4、MOV、AVI、WebM、MKV対応、最大300MB。登録不要。",
+      "tagline": "動画をアップロードして、ずっと使える共有リンクを取得",
       "uploadHeading": "動画をアップロード",
       "uploadTitle": "ここに動画をドロップ、またはクリックして選択",
-      "uploadHint": "MP4、MOV、AVI、WebM、MKV対応、最大300MB",
+      "uploadHint": "MP4、MOV、AVI、WebM、MKV に対応",
       "maxSize": "最大ファイルサイズ：300MB",
       "convert": "リンクに変換",
       "uploading": "アップロード中...",

@@ -589,10 +589,10 @@
     "hero": {
       "title": "免費影片轉連結工具",
       "description": "上傳 MP4 影片，幾秒獲得可長期分享的連結。",
-      "tagline": "支援 MP4、MOV、AVI、WebM、MKV，單檔最高 300MB。無需註冊。",
+      "tagline": "上傳影片，取得可長期分享的連結",
       "uploadHeading": "上傳你的影片",
       "uploadTitle": "拖入影片，或點擊選擇檔案",
-      "uploadHint": "支援 MP4、MOV、AVI、WebM、MKV，最高 300MB",
+      "uploadHint": "支援 MP4、MOV、AVI、WebM、MKV",
       "maxSize": "單檔最大：300MB",
       "convert": "轉為連結",
       "uploading": "上傳中…",

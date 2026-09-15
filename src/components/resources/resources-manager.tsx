@@ -367,11 +367,11 @@ export function ResourcesManager() {
   };
 
   const onDownload = (item: ResourceItem) => {
+    // Same-origin proxy with Content-Disposition: attachment.
+    // Cross-origin CDN URLs ignore `download` and open a new tab instead.
     const a = document.createElement('a');
-    a.href = item.url;
-    a.download = item.filename || 'video';
-    a.target = '_blank';
-    a.rel = 'noreferrer';
+    a.href = `/api/files/${encodeURIComponent(item.id)}/download`;
+    a.rel = 'noopener';
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -601,39 +601,41 @@ export function ResourcesManager() {
           {t('loadError')}
         </p>
       ) : viewMode === 'grid' ? (
-        items.length === 0 ? (
-          <>
-            <div className="flex flex-col items-center justify-center gap-4 px-3 py-8 sm:hidden">
-              <div className="w-[42%] max-w-[9.5rem]">{uploadTile}</div>
-              <div className="w-full max-w-sm text-center">{emptyHint}</div>
-            </div>
-            <div className="relative hidden min-h-28 sm:block">
-              <div className="grid grid-cols-2 items-start gap-2.5 sm:grid-cols-4 sm:gap-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7">
-                {uploadTile}
+        <div className="rounded-xl border border-slate-200/70 bg-slate-50 p-4 dark:border-border dark:bg-muted/30">
+          {items.length === 0 ? (
+            <>
+              <div className="flex flex-col items-center justify-center gap-4 px-3 py-8 sm:hidden">
+                <div className="w-[42%] max-w-[9.5rem]">{uploadTile}</div>
+                <div className="w-full max-w-sm text-center">{emptyHint}</div>
               </div>
-              <div className="pointer-events-none absolute inset-0 z-[1] flex items-center justify-center px-4">
-                <div className="max-w-prose text-center">{emptyHint}</div>
+              <div className="relative hidden min-h-28 sm:block">
+                <div className="grid grid-cols-2 items-start gap-2.5 sm:grid-cols-4 sm:gap-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7">
+                  {uploadTile}
+                </div>
+                <div className="pointer-events-none absolute inset-0 z-[1] flex items-center justify-center px-4">
+                  <div className="max-w-prose text-center">{emptyHint}</div>
+                </div>
               </div>
+            </>
+          ) : (
+            <div className="grid grid-cols-2 items-start gap-2.5 sm:grid-cols-4 sm:gap-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7">
+              {uploadTile}
+              {items.map((item) => (
+                <VideoCard
+                  key={item.id}
+                  item={item}
+                  locale={locale}
+                  deletingId={deletingId}
+                  onPreview={onPreview}
+                  onShare={setShareItem}
+                  onDownload={onDownload}
+                  onDelete={setDeleteId}
+                  labels={actionLabels}
+                />
+              ))}
             </div>
-          </>
-        ) : (
-          <div className="grid grid-cols-2 items-start gap-2.5 sm:grid-cols-4 sm:gap-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7">
-            {uploadTile}
-            {items.map((item) => (
-              <VideoCard
-                key={item.id}
-                item={item}
-                locale={locale}
-                deletingId={deletingId}
-                onPreview={onPreview}
-                onShare={setShareItem}
-                onDownload={onDownload}
-                onDelete={setDeleteId}
-                labels={actionLabels}
-              />
-            ))}
-          </div>
-        )
+          )}
+        </div>
       ) : items.length === 0 ? (
         <div className="flex flex-col items-center gap-4 rounded-xl border border-dashed py-16 text-center">
           {emptyHint}

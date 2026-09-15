@@ -5,9 +5,22 @@ import { findPlanByPriceId, getAllPricePlans } from '@/lib/price-plan';
 import { extractStorageKeyFromUrl } from '@/lib/storage-key-from-url';
 import { resolveStorageLimit } from '@/lib/storage-limits';
 import { PaymentScenes, PaymentTypes } from '@/payment/types';
-import { deleteFile } from '@/storage';
+import { deleteFile, isStorageConfigured } from '@/storage';
 import { and, count, desc, eq, like, or, sql, type SQL } from 'drizzle-orm';
 import { type NextRequest, NextResponse } from 'next/server';
+
+/** Same as editstamp: CDN URL → R2 key, then DeleteObject. */
+async function deleteStorageUrl(url: string | null | undefined): Promise<void> {
+  if (!url) return;
+  const key = extractStorageKeyFromUrl(url);
+  if (!key) {
+    throw new Error(`Could not extract R2 key from url: ${url}`);
+  }
+  if (!isStorageConfigured()) {
+    throw new Error('Storage is not configured');
+  }
+  await deleteFile(key);
+}
 
 export const runtime = 'nodejs';
 
@@ -218,14 +231,18 @@ export async function DELETE(request: NextRequest) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 });
   }
 
-  for (const url of [row.originalUrl, row.processedUrl]) {
-    const key = extractStorageKeyFromUrl(url);
-    if (!key) continue;
-    try {
-      await deleteFile(key);
-    } catch (error) {
-      console.error('[files] R2 delete failed:', key, error);
+  // Dedupe: upload often sets originalUrl === processedUrl
+  const urls = [...new Set([row.originalUrl, row.processedUrl].filter(Boolean))];
+  try {
+    for (const url of urls) {
+      await deleteStorageUrl(url);
     }
+  } catch (error) {
+    console.error('[files] R2 delete failed:', error);
+    return NextResponse.json(
+      { error: 'Failed to delete storage object' },
+      { status: 502 }
+    );
   }
 
   await db

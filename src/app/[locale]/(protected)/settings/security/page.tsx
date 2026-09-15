@@ -6,15 +6,9 @@ export default function SecurityPage() {
   const credentialLoginEnabled = websiteConfig.auth.enableCredentialLogin;
 
   return (
-    <div className="flex flex-col gap-8">
-      {credentialLoginEnabled && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <PasswordCardWrapper />
-        </div>
-      )}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <DeleteAccountCard />
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+      {credentialLoginEnabled && <PasswordCardWrapper />}
+      <DeleteAccountCard />
     </div>
   );
 }
