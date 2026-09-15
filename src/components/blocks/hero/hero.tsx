@@ -161,7 +161,7 @@ export default function HeroSection() {
     <main id="hero" className="overflow-x-clip">
       <section className="relative px-4 pt-20 pb-10 md:pb-12">
         <div className="mx-auto max-w-6xl">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <TextEffect
               per="line"
               preset="fade-in-blur"
@@ -178,12 +178,12 @@ export default function HeroSection() {
               speedSegment={0.3}
               delay={0.35}
               as="p"
-              className="mt-5 text-balance text-lg text-muted-foreground md:mt-6 md:text-xl"
+              className="mx-auto mt-5 max-w-3xl text-balance text-lg text-muted-foreground md:mt-6 md:text-xl"
             >
               {t('description')}
             </TextEffect>
 
-            <p className="mt-3 text-base text-muted-foreground/90 md:mt-4">
+            <p className="mx-auto mt-3 max-w-3xl text-base text-muted-foreground/90 md:mt-4">
               {t('tagline')}
             </p>
           </div>
