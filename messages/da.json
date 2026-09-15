@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL brandmærke",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Arbejdsområde",
+      "resources": "Mine ressourcer",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Arbejdsområde"
+    },
+    "home": {
+      "loading": "Indlæser oversigt…",
+      "resourceCount": "Videoer",
+      "videoCountLabel": "Videoer i Mine ressourcer",
+      "storageFullHint": "Lagerpladsen i gratis prøveperioden er fuld. Slet nogle videoer; planer med større kapacitet kommer snart.",
+      "entryResourcesTitle": "Mine ressourcer",
+      "entryResourcesDesc": "Dine uploadede videoer ligger her — kopiér links, åbn eller slet når som helst.",
+      "entryUploadTitle": "Upload video",
+      "entryUploadDesc": "Slip en video på forsiden, og få et delbart link på få sekunder.",
+      "entryFilesTitle": "Mine ressourcer",
+      "entryFilesDesc": "Uploads, mens du er logget ind, gemmes på din konto. Kopiér URL’en, eller fjern filer du ikke længere har brug for.",
+      "entryFilesCta": "Åbn mine ressourcer",
+      "filesPointUploadTitle": "Mange formater",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV og mere",
+      "filesPointManageTitle": "Administrer links",
+      "filesPointManageBody": "Kopiér, åbn eller slet fra Mine ressourcer",
+      "filesPointFreeTitle": "Gratis lagerplads",
+      "filesPointFreeBody": "300 MB gratis til hostede videoer",
+      "filesPointPaidTitle": "Betalte planer",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Mine ressourcer",
+      "welcome": "Velkommen tilbage, {name}",
+      "storage": "Lagerplads",
+      "storageHint": "Brugt plads til videohosting",
+      "planCardTitle": "Nuværende plan",
+      "planFree": "Gratis",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktiv",
+      "planHintFree": "Gratis prøveperiode er tilgængelig nu. Planer med større kapacitet kommer snart.",
+      "planHintPro": "Du er på Pro (10 GB). Lifetime låser 100 GB op.",
+      "planHintLifetime": "Alle funktioner er låst op",
+      "description": "Videoer du har uploadet, mens du var logget ind. Upload her, forhåndsvis, download eller slet når som helst.",
+      "empty": "Ingen videoer endnu",
+      "emptyHint": "Klik på Upload eller +-kortet for at tilføje din første video.",
+      "goUpload": "Upload video",
+      "upload": "Upload",
+      "uploading": "Uploader…",
+      "uploadSuccess": "Upload fuldført",
+      "uploadFailed": "Upload mislykkedes",
+      "unsupportedType": "Kun videoformater understøttes (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Filen er for stor. Gratisplanen tillader op til 300MB pr. fil.",
+      "filterFormat": "Filtype",
+      "formatAll": "Alle typer",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Lagerplads",
+      "viewGrid": "Gittervisning",
+      "viewList": "Listevisning",
+      "loading": "Indlæser…",
+      "loadError": "Kunne ikke indlæse ressourcer",
+      "searchPlaceholder": "Søg efter filnavn…",
+      "search": "Søg",
+      "reset": "Nulstil",
+      "copyUrl": "Kopiér URL",
+      "copied": "URL kopieret",
+      "copyFailed": "Kunne ikke kopiere",
+      "open": "Åbn",
+      "preview": "Forhåndsvis",
+      "previewClose": "Luk",
+      "shareCodes": "Delingskoder",
+      "shareCodesDesc": "Kopiklare links til Markdown, HTML, BBCode m.m.",
+      "download": "Download",
+      "delete": "Slet",
+      "deleteTitle": "Slet video",
+      "deleteConfirm": "Dette fjerner videoen permanent fra din konto. Handlingen kan ikke fortrydes.",
+      "deleteSuccess": "Video slettet",
+      "deleteFailed": "Kunne ikke slette video",
+      "cancel": "Annuller",
+      "totalCount": "{total} i alt",
+      "pagePrev": "Forrige",
+      "pageNext": "Næste"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Planer med større kapacitet kommer snart. Gratis prøveperiode er tilgængelig nu.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KOPIKLARE KODER",
+    "copyUrl": "Kopiér URL",
+    "copied": "Kopieret",
+    "copyFailed": "Kunne ikke kopiere",
+    "openTab": "Åbn i ny fane",
+    "successTitle": "Succes! Din video-URL er klar",
+    "successSubtitle": "Din video er uploadet og klar til at dele.",
+    "videoLabel": "Video",
+    "watchLabel": "Se video",
+    "shareLink": {
+      "title": "Delingslink",
+      "desc": "Direkte link til at dele hvor som helst"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Til GitHub, Notion og dokumenter"
+    },
+    "markdownLink": {
+      "title": "Markdown med link",
+      "desc": "Markdown med en læsbar se-etiket"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Indlejr med indbygget videoafspiller"
+    },
+    "htmlLink": {
+      "title": "HTML med link",
+      "desc": "Simpelt link der åbner i ny fane"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Til fora og opslagstavler"
+    },
+    "bbcodeLink": {
+      "title": "BBCode med link",
+      "desc": "Forumlink med se-etiket"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Din video er uploadet. Kopiér linket nedenfor for at dele den.",
+      "registerForCodesTitle": "Vil du have Markdown, HTML og BBCode?",
+      "registerForCodesDesc": "Opret dig gratis for at låse op for kopiklare indlejringskoder, og administrer alle videoer under Mine ressourcer.",
+      "registerCta": "Opret dig gratis",
+      "uploadAnother": "Upload en anden video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video til URL på få sekunder"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenarier",
+      "subtitle": "Fra lokal video til delbart link.",
+      "description": "Slip en fil og få en ren URL til docs, chats og opslag — se et par eksempler nedenfor.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Gør et lokalt klip til en delbar adresse på få sekunder."
+        },
+        "newStyle": {
+          "title": "Del overalt",
+          "description": "Indsæt linket i dokumenter, tickets og opslag på sociale medier."
+        },
+        "dark": {
+          "title": "Pålidelig hosting",
+          "description": "Hold videoer tilgængelige med en stabil, permanent URL."
+        },
+        "retro": {
+          "title": "Hurtig konvertering",
+          "description": "Upload én gang, kopier linket og genbrug det, når du har brug for det."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Ofte stillede spørgsmål",
+      "subtitle": "Det, du måske vil vide om video til URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

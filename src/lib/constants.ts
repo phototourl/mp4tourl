@@ -3,8 +3,8 @@
  */
 export const MAX_FILE_SIZE = 10 * 1024 * 1024;
 
-/** Free-tier video upload cap, aligned with VideoToURL-style 100MB */
-export const MAX_VIDEO_FILE_SIZE = 100 * 1024 * 1024;
+/** Free-tier video upload cap (aligned with free storage) */
+export const MAX_VIDEO_FILE_SIZE = 300 * 1024 * 1024;
 
 /** R2 key prefix for free video uploads (folder already exists in bucket) */
 export const VIDEO_STORAGE_FOLDER = 'video/free';

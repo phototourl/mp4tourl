@@ -1,13 +1,17 @@
 'use client';
 
 import {
-  AmbientBlobs,
   ParallaxFrame,
   ScrollReveal,
   Stagger,
   StaggerItem,
 } from '@/components/motion/scroll-reveal';
 import { HeaderSection } from '@/components/layout/header-section';
+import {
+  SectionShell,
+  sectionBodyClass,
+  sectionH3Class,
+} from '@/components/layout/section-shell';
 import { Link2, Shield, Zap } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
@@ -15,7 +19,7 @@ import Image from 'next/image';
 const ICONS = [Zap, Shield, Link2] as const;
 
 /**
- * Features — editstamp electronic-seal layout: copy left, one banner right.
+ * Features — left copy + banner; header left-aligned with the list.
  */
 export default function FeaturesSection() {
   const t = useTranslations('HomePage.features');
@@ -23,23 +27,20 @@ export default function FeaturesSection() {
   const items = ['item-1', 'item-2', 'item-3'] as const;
 
   return (
-    <section
-      id="features"
-      className="relative scroll-mt-28 overflow-hidden px-4 py-20 md:py-24"
-    >
-      <AmbientBlobs />
-      <div className="mx-auto max-w-6xl space-y-12 lg:space-y-16">
-        <ScrollReveal>
-          <HeaderSection
-            title={t('title')}
-            titleAs="h2"
-            subtitle={t('subtitle')}
-            subtitleAs="p"
-          />
-        </ScrollReveal>
+    <SectionShell id="features">
+      <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="min-w-0 space-y-10">
+          <ScrollReveal>
+            <HeaderSection
+              align="start"
+              title={t('title')}
+              titleAs="p"
+              subtitle={t('subtitle')}
+              subtitleAs="h2"
+            />
+          </ScrollReveal>
 
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <Stagger className="flex flex-col gap-10">
+          <Stagger className="flex flex-col gap-8">
             {items.map((key, index) => {
               const Icon = ICONS[index];
               return (
@@ -48,10 +49,8 @@ export default function FeaturesSection() {
                     <Icon className="size-5" />
                   </div>
                   <div className="min-w-0 space-y-2">
-                    <h3 className="text-lg font-semibold">
-                      {t(`items.${key}.title`)}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-muted-foreground md:text-base">
+                    <h3 className={sectionH3Class}>{t(`items.${key}.title`)}</h3>
+                    <p className={sectionBodyClass}>
                       {t(`items.${key}.description`)}
                     </p>
                   </div>
@@ -59,20 +58,20 @@ export default function FeaturesSection() {
               );
             })}
           </Stagger>
-
-          <ScrollReveal delay={0.12} y={36}>
-            <ParallaxFrame className="rounded-xl border bg-muted/20 shadow-sm">
-              <Image
-                src="/banner/mp4tourl-og-style-collage-1200x630.jpg"
-                alt={tBanner('imageAlt')}
-                width={1200}
-                height={630}
-                className="aspect-[1200/630] h-auto w-full scale-110 object-cover object-center"
-              />
-            </ParallaxFrame>
-          </ScrollReveal>
         </div>
+
+        <ScrollReveal delay={0.12} y={36}>
+          <ParallaxFrame className="overflow-hidden rounded-xl border bg-muted/20 shadow-sm">
+            <Image
+              src="/banner/mp4tourl-og-style-collage-1200x630.jpg"
+              alt={tBanner('imageAlt')}
+              width={1200}
+              height={630}
+              className="aspect-[1200/630] h-auto w-full object-contain object-center"
+            />
+          </ParallaxFrame>
+        </ScrollReveal>
       </div>
-    </section>
+    </SectionShell>
   );
 }

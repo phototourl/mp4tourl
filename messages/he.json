@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "סימן המותג MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "סביבת עבודה",
+      "resources": "המשאבים שלי",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "סביבת עבודה"
+    },
+    "home": {
+      "loading": "טוען סקירה…",
+      "resourceCount": "סרטונים",
+      "videoCountLabel": "סרטונים במשאבים שלי",
+      "storageFullHint": "שטח ניסיון החינם מלא. מחקו כמה סרטונים; תוכניות בנפח גדול יותר בקרוב.",
+      "entryResourcesTitle": "המשאבים שלי",
+      "entryResourcesDesc": "הסרטונים שהעליתם נמצאים כאן — העתיקו קישורים, פתחו או מחקו בכל רגע.",
+      "entryUploadTitle": "העלאת סרטון",
+      "entryUploadDesc": "גררו סרטון לדף הבית וקבלו קישור לשיתוף תוך שניות.",
+      "entryFilesTitle": "המשאבים שלי",
+      "entryFilesDesc": "העלאות במצב מחובר נשמרות בחשבון. העתיקו את ה-URL או מחקו קבצים מיותרים.",
+      "entryFilesCta": "פתח את המשאבים שלי",
+      "filesPointUploadTitle": "פורמטים רבים",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ועוד",
+      "filesPointManageTitle": "ניהול קישורים",
+      "filesPointManageBody": "העתקה, פתיחה או מחיקה מהמשאבים שלי",
+      "filesPointFreeTitle": "אחסון חינם",
+      "filesPointFreeBody": "300 MB חינם לסרטונים מתארחים",
+      "filesPointPaidTitle": "תוכניות בתשלום",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "המשאבים שלי",
+      "welcome": "ברוכים השבים, {name}",
+      "storage": "אחסון",
+      "storageHint": "שטח אירוח סרטונים שנעשה בו שימוש",
+      "planCardTitle": "תוכנית נוכחית",
+      "planFree": "חינם",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "פעיל",
+      "planHintFree": "ניסיון חינם זמין כעת. תוכניות בנפח גדול יותר בקרוב.",
+      "planHintPro": "אתם ב-Pro (10 GB). Lifetime פותח 100 GB.",
+      "planHintLifetime": "כל התכונות פתוחות",
+      "description": "סרטונים שהעליתם כשהייתם מחוברים. העלו כאן, הציגו תצוגה מקדימה, הורידו או מחקו בכל רגע.",
+      "empty": "עדיין אין סרטונים",
+      "emptyHint": "לחצו על העלאה או על כרטיס ה־+ כדי להוסיף את הסרטון הראשון.",
+      "goUpload": "העלאת סרטון",
+      "upload": "העלאה",
+      "uploading": "מעלה…",
+      "uploadSuccess": "ההעלאה הושלמה",
+      "uploadFailed": "ההעלאה נכשלה",
+      "unsupportedType": "נתמכים רק פורמטי וידאו (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "הקובץ גדול מדי. בתוכנית החינמית עד 300MB לקובץ.",
+      "filterFormat": "סוג קובץ",
+      "formatAll": "כל הסוגים",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "אחסון",
+      "viewGrid": "תצוגת רשת",
+      "viewList": "תצוגת רשימה",
+      "loading": "טוען…",
+      "loadError": "טעינת המשאבים נכשלה",
+      "searchPlaceholder": "חיפוש לפי שם קובץ…",
+      "search": "חיפוש",
+      "reset": "איפוס",
+      "copyUrl": "העתקת URL",
+      "copied": "ה-URL הועתק",
+      "copyFailed": "ההעתקה נכשלה",
+      "open": "פתיחה",
+      "preview": "תצוגה מקדימה",
+      "previewClose": "סגירה",
+      "shareCodes": "קודי שיתוף",
+      "shareCodesDesc": "קישורים מוכנים להעתקה ל־Markdown, HTML, BBCode ועוד.",
+      "download": "הורדה",
+      "delete": "מחיקה",
+      "deleteTitle": "מחיקת סרטון",
+      "deleteConfirm": "פעולה זו מסירה את הסרטון לצמיתות מהחשבון. לא ניתן לבטל.",
+      "deleteSuccess": "הסרטון נמחק",
+      "deleteFailed": "מחיקת הסרטון נכשלה",
+      "cancel": "ביטול",
+      "totalCount": "{total} בסך הכול",
+      "pagePrev": "הקודם",
+      "pageNext": "הבא"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "תוכניות בנפח גדול יותר בקרוב. ניסיון חינם זמין כעת.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "קודים מוכנים להעתקה",
+    "copyUrl": "העתקת URL",
+    "copied": "הועתק",
+    "copyFailed": "לא ניתן להעתיק",
+    "openTab": "פתיחה בכרטיסייה חדשה",
+    "successTitle": "הצלחה! כתובת הווידאו שלך מוכנה",
+    "successSubtitle": "הסרטון הועלה ומוכן לשיתוף.",
+    "videoLabel": "וידאו",
+    "watchLabel": "צפייה בסרטון",
+    "shareLink": {
+      "title": "קישור לשיתוף",
+      "desc": "קישור ישיר לשיתוף בכל מקום"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "עבור GitHub, Notion ומסמכים"
+    },
+    "markdownLink": {
+      "title": "Markdown עם קישור",
+      "desc": "Markdown עם תווית צפייה קריאה"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "הטמעה עם נגן וידאו מובנה"
+    },
+    "htmlLink": {
+      "title": "HTML עם קישור",
+      "desc": "קישור פשוט שנפתח בכרטיסייה חדשה"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "לפורומים ולוחות הודעות"
+    },
+    "bbcodeLink": {
+      "title": "BBCode עם קישור",
+      "desc": "קישור לפורום עם תווית צפייה"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "הסרטון הועלה. העתיקו את הקישור למטה כדי לשתף.",
+      "registerForCodesTitle": "רוצים Markdown, HTML ו־BBCode?",
+      "registerForCodesDesc": "הירשמו בחינם כדי לפתוח קודי הטמעה מוכנים להעתקה, ולנהל את כל הסרטונים ב«המשאבים שלי».",
+      "registerCta": "הרשמה בחינם",
+      "uploadAnother": "העלאת סרטון נוסף",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: וידאו ל-URL תוך שניות"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "תרחישים",
+      "subtitle": "מווידאו מקומי לקישור לשיתוף.",
+      "description": "גררו קובץ וקבלו URL נקי למסמכים, צ'אטים ופוסטים — עיינו בכמה דוגמאות למטה.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "הפכו קליפ מקומי לכתובת לשיתוף תוך שניות."
+        },
+        "newStyle": {
+          "title": "שתפו בכל מקום",
+          "description": "הדביקו את הקישור במסמכים, כרטיסים ופוסטים ברשתות."
+        },
+        "dark": {
+          "title": "אחסון יציב",
+          "description": "שמרו על הווידאו נגיש עם URL קבוע ויציב."
+        },
+        "retro": {
+          "title": "המרה מהירה",
+          "description": "העלו פעם אחת, העתיקו את הקישור והשתמשו בו שוב כשצריך."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "שאלות נפוצות",
+      "subtitle": "מה שאולי תרצו לדעת על המרת וידאו לקישור.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

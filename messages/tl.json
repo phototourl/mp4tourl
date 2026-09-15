@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marka ng MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Lugar ng trabaho",
+      "resources": "Aking mga file",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Lugar ng trabaho"
+    },
+    "home": {
+      "loading": "Kinukuha ang buod…",
+      "resourceCount": "Mga video",
+      "videoCountLabel": "Mga video sa Aking mga file",
+      "storageFullHint": "Puno na ang espasyo ng libreng pagsubok. Magtanggal ng ilang video; darating na ang mga planong may mas malaking kapasidad.",
+      "entryResourcesTitle": "Aking mga file",
+      "entryResourcesDesc": "Nandito ang mga na-upload na video — kopyahin ang link, buksan, o tanggalin kahit kailan.",
+      "entryUploadTitle": "Mag-upload ng video",
+      "entryUploadDesc": "Ilagay ang video sa homepage at makakuha ng maibabahaging link sa ilang segundo.",
+      "entryFilesTitle": "Aking mga file",
+      "entryFilesDesc": "Ang mga upload habang naka-sign in ay nase-save sa account. Kopyahin ang URL o tanggalin ang hindi na kailangan.",
+      "entryFilesCta": "Buksan ang aking mga file",
+      "filesPointUploadTitle": "Maraming format",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV at iba pa",
+      "filesPointManageTitle": "Pamahalaan ang mga link",
+      "filesPointManageBody": "Kopyahin, buksan, o tanggalin mula sa Aking mga file",
+      "filesPointFreeTitle": "Libreng espasyo",
+      "filesPointFreeBody": "300 MB libre para sa mga naka-host na video",
+      "filesPointPaidTitle": "Mga bayad na plano",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Aking mga file",
+      "welcome": "Maligayang pagbabalik, {name}",
+      "storage": "Espasyo",
+      "storageHint": "Ginamit na espasyo para sa pagho-host ng video",
+      "planCardTitle": "Kasalukuyang plano",
+      "planFree": "Libre",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktibo",
+      "planHintFree": "Magagamit na ang libreng pagsubok ngayon. Darating na ang mga planong may mas malaking kapasidad.",
+      "planHintPro": "Nasa Pro ka (10 GB). Binubuksan ng Lifetime ang 100 GB.",
+      "planHintLifetime": "Lahat ng feature ay bukas na",
+      "description": "Mga video na na-upload mo habang naka-sign in. Mag-upload dito, i-preview, i-download, o tanggalin anumang oras.",
+      "empty": "Wala pang video",
+      "emptyHint": "I-click ang Upload o ang + card para idagdag ang unang video.",
+      "goUpload": "Mag-upload ng video",
+      "upload": "Mag-upload",
+      "uploading": "Nag-a-upload…",
+      "uploadSuccess": "Tapos na ang upload",
+      "uploadFailed": "Hindi na-upload",
+      "unsupportedType": "Video format lang ang sinusuportahan (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Masyadong malaki ang file. Hanggang 300MB kada file sa free plan.",
+      "filterFormat": "Uri ng file",
+      "formatAll": "Lahat ng uri",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Espasyo",
+      "viewGrid": "Tingnan bilang grid",
+      "viewList": "Tingnan bilang listahan",
+      "loading": "Naglo-load…",
+      "loadError": "Hindi ma-load ang mga file",
+      "searchPlaceholder": "Maghanap ayon sa filename…",
+      "search": "Maghanap",
+      "reset": "I-reset",
+      "copyUrl": "Kopyahin ang URL",
+      "copied": "Nakopya ang URL",
+      "copyFailed": "Hindi makopya",
+      "open": "Buksan",
+      "preview": "I-preview",
+      "previewClose": "Isara",
+      "shareCodes": "Mga share code",
+      "shareCodesDesc": "Mga link na handa nang kopyahin para sa Markdown, HTML, BBCode, at iba pa.",
+      "download": "I-download",
+      "delete": "Tanggalin",
+      "deleteTitle": "Tanggalin ang video",
+      "deleteConfirm": "Permanenteng tatanggalin ang video sa iyong account. Hindi na ito mababawi.",
+      "deleteSuccess": "Natanggal ang video",
+      "deleteFailed": "Hindi matanggal ang video",
+      "cancel": "Kanselahin",
+      "totalCount": "{total} lahat",
+      "pagePrev": "Nakaraan",
+      "pageNext": "Susunod"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Darating na ang mga planong may mas malaking kapasidad. Magagamit na ang libreng pagsubok ngayon.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "MGA CODE NA HANDANG KOPYAHIN",
+    "copyUrl": "Kopyahin ang URL",
+    "copied": "Nakopya",
+    "copyFailed": "Hindi makopya",
+    "openTab": "Buksan sa bagong tab",
+    "successTitle": "Tagumpay! Handa na ang URL ng video mo",
+    "successSubtitle": "Na-upload na ang video at handa nang i-share.",
+    "videoLabel": "Video",
+    "watchLabel": "Panoorin ang video",
+    "shareLink": {
+      "title": "Link para i-share",
+      "desc": "Direktang link para i-share kahit saan"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Para sa GitHub, Notion, at mga dokumento"
+    },
+    "markdownLink": {
+      "title": "Markdown na may link",
+      "desc": "Markdown na may madaling basahing watch label"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "I-embed gamit ang native video player"
+    },
+    "htmlLink": {
+      "title": "HTML na may link",
+      "desc": "Simpleng link na bubukas sa bagong tab"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Para sa mga forum at message board"
+    },
+    "bbcodeLink": {
+      "title": "BBCode na may link",
+      "desc": "Forum link na may watch label"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Na-upload na ang video mo. Kopyahin ang link sa ibaba para i-share.",
+      "registerForCodesTitle": "Gusto mo ng Markdown, HTML at BBCode?",
+      "registerForCodesDesc": "Mag-sign up nang libre para ma-unlock ang mga embed code na handang kopyahin, at pamahalaan ang lahat ng video sa Aking Resources.",
+      "registerCta": "Mag-sign up nang libre",
+      "uploadAnother": "Mag-upload ng isa pang video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video sa URL sa ilang segundo"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Mga senaryo",
+      "subtitle": "Mula sa lokal na video hanggang sa link na puwedeng ibahagi.",
+      "description": "I-drop ang file, makakuha ng malinis na URL para sa docs, chat, at post — tingnan ang ilang halimbawa sa ibaba.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Gawing address na puwedeng ibahagi ang lokal na clip sa loob ng ilang segundo."
+        },
+        "newStyle": {
+          "title": "Ibahagi kahit saan",
+          "description": "I-paste ang link sa docs, tickets, at social posts."
+        },
+        "dark": {
+          "title": "Matibay na hosting",
+          "description": "Panatilihing naa-access ang video gamit ang stable, permanenteng URL."
+        },
+        "retro": {
+          "title": "Mabilis na convert",
+          "description": "Mag-upload nang isang beses, kopyahin ang link, gamitin ulit kapag kailangan."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Mga FAQ",
+      "subtitle": "Ang maaaring gusto mong malaman tungkol sa video to URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

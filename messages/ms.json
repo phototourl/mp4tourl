@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Tanda jenama MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Ruang kerja",
+      "resources": "Sumber saya",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Ruang kerja"
+    },
+    "home": {
+      "loading": "Memuatkan ringkasan…",
+      "resourceCount": "Video",
+      "videoCountLabel": "Video dalam Sumber saya",
+      "storageFullHint": "Storan percubaan percuma sudah penuh. Padamkan beberapa video; pelan berkapasiti lebih tinggi akan datang tidak lama lagi.",
+      "entryResourcesTitle": "Sumber saya",
+      "entryResourcesDesc": "Video yang dimuat naik ada di sini — salin pautan, buka atau padam bila-bila masa.",
+      "entryUploadTitle": "Muat naik video",
+      "entryUploadDesc": "Lepaskan video di laman utama dan dapatkan pautan kongsi dalam beberapa saat.",
+      "entryFilesTitle": "Sumber saya",
+      "entryFilesDesc": "Muat naik semasa log masuk disimpan ke akaun. Salin URL atau buang fail yang tidak diperlukan.",
+      "entryFilesCta": "Buka sumber saya",
+      "filesPointUploadTitle": "Banyak format",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV dan lagi",
+      "filesPointManageTitle": "Urus pautan",
+      "filesPointManageBody": "Salin, buka atau padam dari Sumber saya",
+      "filesPointFreeTitle": "Storan percuma",
+      "filesPointFreeBody": "300 MB percuma untuk video dihoskan",
+      "filesPointPaidTitle": "Pelan berbayar",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Sumber saya",
+      "welcome": "Selamat kembali, {name}",
+      "storage": "Storan",
+      "storageHint": "Ruang pengehosan video yang digunakan",
+      "planCardTitle": "Pelan semasa",
+      "planFree": "Percuma",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktif",
+      "planHintFree": "Percubaan percuma tersedia sekarang. Pelan berkapasiti lebih tinggi akan datang tidak lama lagi.",
+      "planHintPro": "Anda di Pro (10 GB). Lifetime membuka 100 GB.",
+      "planHintLifetime": "Semua ciri dibuka",
+      "description": "Video yang anda muat naik semasa log masuk. Muat naik di sini, pratonton, muat turun atau padam bila-bila masa.",
+      "empty": "Belum ada video",
+      "emptyHint": "Klik Muat naik atau kad + untuk menambah video pertama.",
+      "goUpload": "Muat naik video",
+      "upload": "Muat naik",
+      "uploading": "Sedang memuat naik…",
+      "uploadSuccess": "Muat naik selesai",
+      "uploadFailed": "Muat naik gagal",
+      "unsupportedType": "Hanya format video disokong (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Fail terlalu besar. Pelan percuma membenarkan sehingga 300MB setiap fail.",
+      "filterFormat": "Jenis fail",
+      "formatAll": "Semua jenis",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Storan",
+      "viewGrid": "Paparan grid",
+      "viewList": "Paparan senarai",
+      "loading": "Memuatkan…",
+      "loadError": "Gagal memuatkan sumber",
+      "searchPlaceholder": "Cari mengikut nama fail…",
+      "search": "Cari",
+      "reset": "Tetapkan semula",
+      "copyUrl": "Salin URL",
+      "copied": "URL disalin",
+      "copyFailed": "Tidak dapat menyalin",
+      "open": "Buka",
+      "preview": "Pratonton",
+      "previewClose": "Tutup",
+      "shareCodes": "Kod kongsi",
+      "shareCodesDesc": "Pautan sedia salin untuk Markdown, HTML, BBCode dan lagi.",
+      "download": "Muat turun",
+      "delete": "Padam",
+      "deleteTitle": "Padam video",
+      "deleteConfirm": "Ini memadam video secara kekal dari akaun anda. Tindakan ini tidak boleh dibuat asal.",
+      "deleteSuccess": "Video dipadam",
+      "deleteFailed": "Gagal memadam video",
+      "cancel": "Batal",
+      "totalCount": "Jumlah {total}",
+      "pagePrev": "Sebelumnya",
+      "pageNext": "Seterusnya"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Pelan berkapasiti lebih tinggi akan datang tidak lama lagi. Percubaan percuma tersedia sekarang.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KOD SEDIA SALIN",
+    "copyUrl": "Salin URL",
+    "copied": "Disalin",
+    "copyFailed": "Tidak dapat salin",
+    "openTab": "Buka dalam tab baharu",
+    "successTitle": "Berjaya! URL video anda sedia",
+    "successSubtitle": "Video telah dimuat naik dan sedia dikongsi.",
+    "videoLabel": "Video",
+    "watchLabel": "Tonton video",
+    "shareLink": {
+      "title": "Pautan kongsi",
+      "desc": "Pautan terus untuk dikongsi di mana-mana"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Untuk GitHub, Notion dan dokumen"
+    },
+    "markdownLink": {
+      "title": "Markdown dengan pautan",
+      "desc": "Markdown dengan label tonton yang mudah dibaca"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Benam dengan pemain video asli"
+    },
+    "htmlLink": {
+      "title": "HTML dengan pautan",
+      "desc": "Pautan ringkas yang dibuka dalam tab baharu"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Untuk forum dan papan mesej"
+    },
+    "bbcodeLink": {
+      "title": "BBCode dengan pautan",
+      "desc": "Pautan forum dengan label tonton"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Video anda telah dimuat naik. Salin pautan di bawah untuk kongsi.",
+      "registerForCodesTitle": "Perlukan Markdown, HTML & BBCode?",
+      "registerForCodesDesc": "Daftar percuma untuk membuka kunci kod benam sedia salin, dan urus semua video dalam Sumber Saya.",
+      "registerCta": "Daftar percuma",
+      "uploadAnother": "Muat naik video lain",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video ke URL dalam beberapa saat"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Senario",
+      "subtitle": "Dari video tempatan ke pautan boleh kongsi.",
+      "description": "Lepaskan fail, dapat URL bersih untuk dokumen, sembang dan siaran — lihat beberapa contoh di bawah.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Tukar klip tempatan jadi alamat boleh kongsi dalam beberapa saat."
+        },
+        "newStyle": {
+          "title": "Kongsi di mana-mana",
+          "description": "Tampal pautan ke dokumen, tiket dan siaran media sosial."
+        },
+        "dark": {
+          "title": "Hosting stabil",
+          "description": "Pastikan video boleh diakses dengan URL kekal dan stabil."
+        },
+        "retro": {
+          "title": "Penukaran pantas",
+          "description": "Muat naik sekali, salin pautan, guna semula bila-bila perlu."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Soalan lazim",
+      "subtitle": "Apa yang mungkin ingin anda ketahui tentang video ke URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

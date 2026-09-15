@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "เครื่องหมายแบรนด์ MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "พื้นที่ทำงาน",
+      "resources": "คลังของฉัน",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "พื้นที่ทำงาน"
+    },
+    "home": {
+      "loading": "กำลังโหลดภาพรวม…",
+      "resourceCount": "วิดีโอ",
+      "videoCountLabel": "วิดีโอในคลังของฉัน",
+      "storageFullHint": "พื้นที่ทดลองใช้ฟรีเต็มแล้ว ลบบางวิดีโอได้ก่อน แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้",
+      "entryResourcesTitle": "คลังของฉัน",
+      "entryResourcesDesc": "วิดีโอที่อัปโหลดอยู่ที่นี่ — คัดลอกลิงก์ เปิด หรือลบได้ทุกเมื่อ",
+      "entryUploadTitle": "อัปโหลดวิดีโอ",
+      "entryUploadDesc": "วางวิดีโอบนหน้าแรก แล้วรับลิงก์แชร์ได้ในไม่กี่วินาที",
+      "entryFilesTitle": "คลังของฉัน",
+      "entryFilesDesc": "อัปโหลดตอนเข้าสู่ระบบจะบันทึกในบัญชี คัดลอก URL หรือลบไฟล์ที่ไม่ต้องการได้",
+      "entryFilesCta": "เปิดคลังของฉัน",
+      "filesPointUploadTitle": "หลายรูปแบบ",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV และอื่นๆ",
+      "filesPointManageTitle": "จัดการลิงก์",
+      "filesPointManageBody": "คัดลอก เปิด หรือลบจากคลังของฉัน",
+      "filesPointFreeTitle": "พื้นที่ฟรี",
+      "filesPointFreeBody": "300 MB ฟรีสำหรับวิดีโอที่โฮสต์",
+      "filesPointPaidTitle": "แพ็กเกจแบบชำระเงิน",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "คลังของฉัน",
+      "welcome": "ยินดีต้อนรับกลับมา, {name}",
+      "storage": "พื้นที่จัดเก็บ",
+      "storageHint": "พื้นที่โฮสต์วิดีโอที่ใช้ไป",
+      "planCardTitle": "แพ็กเกจปัจจุบัน",
+      "planFree": "ฟรี",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "ใช้งานอยู่",
+      "planHintFree": "ทดลองใช้ฟรีได้แล้วตอนนี้ แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้",
+      "planHintPro": "คุณใช้ Pro (10 GB) Lifetime จะได้ 100 GB",
+      "planHintLifetime": "ปลดล็อกฟีเจอร์ทั้งหมดแล้ว",
+      "description": "วิดีโอที่คุณอัปโหลดขณะเข้าสู่ระบบ อัปโหลดที่นี่ ดูตัวอย่าง ดาวน์โหลด หรือลบได้ทุกเมื่อ",
+      "empty": "ยังไม่มีวิดีโอ",
+      "emptyHint": "คลิก「อัปโหลด」หรือการ์ด + เพื่อเพิ่มวิดีโอแรก",
+      "goUpload": "อัปโหลดวิดีโอ",
+      "upload": "อัปโหลด",
+      "uploading": "กำลังอัปโหลด…",
+      "uploadSuccess": "อัปโหลดเสร็จแล้ว",
+      "uploadFailed": "อัปโหลดไม่สำเร็จ",
+      "unsupportedType": "รองรับเฉพาะไฟล์วิดีโอ (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "ไฟล์ใหญ่เกินไป แพ็กเกจฟรีอนุญาตสูงสุด 300MB ต่อไฟล์",
+      "filterFormat": "ประเภทไฟล์",
+      "formatAll": "ทุกประเภท",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "พื้นที่จัดเก็บ",
+      "viewGrid": "มุมมองตาราง",
+      "viewList": "มุมมองรายการ",
+      "loading": "กำลังโหลด…",
+      "loadError": "โหลดคลังไม่สำเร็จ",
+      "searchPlaceholder": "ค้นหาจากชื่อไฟล์…",
+      "search": "ค้นหา",
+      "reset": "รีเซ็ต",
+      "copyUrl": "คัดลอก URL",
+      "copied": "คัดลอก URL แล้ว",
+      "copyFailed": "คัดลอกไม่สำเร็จ",
+      "open": "เปิด",
+      "preview": "ดูตัวอย่าง",
+      "previewClose": "ปิด",
+      "shareCodes": "โค้ดแชร์",
+      "shareCodesDesc": "ลิงก์พร้อมคัดลอกสำหรับ Markdown, HTML, BBCode และอื่นๆ",
+      "download": "ดาวน์โหลด",
+      "delete": "ลบ",
+      "deleteTitle": "ลบวิดีโอ",
+      "deleteConfirm": "ระบบจะลบวิดีโอนี้ออกจากบัญชีของคุณถาวร และยกเลิกไม่ได้",
+      "deleteSuccess": "ลบวิดีโอแล้ว",
+      "deleteFailed": "ลบวิดีโอไม่สำเร็จ",
+      "cancel": "ยกเลิก",
+      "totalCount": "ทั้งหมด {total} รายการ",
+      "pagePrev": "ก่อนหน้า",
+      "pageNext": "ถัดไป"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้ ตอนนี้ทดลองใช้ฟรีได้",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "โค้ดพร้อมคัดลอก",
+    "copyUrl": "คัดลอก URL",
+    "copied": "คัดลอกแล้ว",
+    "copyFailed": "คัดลอกไม่สำเร็จ",
+    "openTab": "เปิดแท็บใหม่",
+    "successTitle": "สำเร็จ! URL วิดีโอพร้อมแล้ว",
+    "successSubtitle": "อัปโหลดวิดีโอแล้ว พร้อมแชร์ได้เลย",
+    "videoLabel": "วิดีโอ",
+    "watchLabel": "ดูวิดีโอ",
+    "shareLink": {
+      "title": "ลิงก์แชร์",
+      "desc": "ลิงก์ตรงสำหรับแชร์ได้ทุกที่"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "สำหรับ GitHub, Notion และเอกสาร"
+    },
+    "markdownLink": {
+      "title": "Markdown พร้อมลิงก์",
+      "desc": "Markdown พร้อมข้อความดูวิดีโอที่อ่านง่าย"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "ฝังด้วยเครื่องเล่นวิดีโอในตัว"
+    },
+    "htmlLink": {
+      "title": "HTML พร้อมลิงก์",
+      "desc": "ลิงก์ง่ายๆ ที่เปิดแท็บใหม่"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "สำหรับฟอรัมและกระดานข้อความ"
+    },
+    "bbcodeLink": {
+      "title": "BBCode พร้อมลิงก์",
+      "desc": "ลิงก์ฟอรัมพร้อมข้อความดูวิดีโอ"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "อัปโหลดวิดีโอแล้ว คัดลอกลิงก์ด้านล่างเพื่อแชร์ได้เลย",
+      "registerForCodesTitle": "ต้องการ Markdown, HTML และ BBCode?",
+      "registerForCodesDesc": "สมัครฟรีเพื่อปลดล็อกโค้ดฝังพร้อมคัดลอก และจัดการวิดีโอทั้งหมดในทรัพยากรของฉัน",
+      "registerCta": "สมัครฟรี",
+      "uploadAnother": "อัปโหลดวิดีโออื่น",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: แปลงวิดีโอเป็น URL ในไม่กี่วินาที"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "สถานการณ์ใช้งาน",
+      "subtitle": "จากวิดีโอในเครื่องสู่ลิงก์ที่แชร์ได้",
+      "description": "วางไฟล์แล้วรับ URL สะอาดสำหรับเอกสาร แชท และโพสต์ — ดูตัวอย่างด้านล่าง",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "เปลี่ยนคลิปในเครื่องเป็นที่อยู่ที่แชร์ได้ภายในไม่กี่วินาที"
+        },
+        "newStyle": {
+          "title": "แชร์ได้ทุกที่",
+          "description": "วางลิงก์ในเอกสาร ทิกเก็ต และโพสต์โซเชียล"
+        },
+        "dark": {
+          "title": "โฮสติ้งมั่นคง",
+          "description": "ให้วิดีโอเข้าถึงได้ด้วย URL ถาวรและเสถียร"
+        },
+        "retro": {
+          "title": "แปลงเร็ว",
+          "description": "อัปโหลดครั้งเดียว คัดลอกลิงก์ ใช้ซ้ำเมื่อต้องการ"
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "คำถามที่พบบ่อย",
+      "subtitle": "สิ่งที่คุณอาจอยากรู้เกี่ยวกับการแปลงวิดีโอเป็น URL",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

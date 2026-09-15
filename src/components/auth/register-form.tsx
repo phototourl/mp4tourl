@@ -144,21 +144,16 @@ export const RegisterForm = ({
           // console.log('register, response:', ctx.response);
           setIsPending(false);
         },
-        onSuccess: (ctx) => {
-          // sign up success, user information stored in ctx.data
-          // console.log("register, success:", ctx.data);
-          setSuccess(t('checkEmail'));
-
-          // add affonso affiliate
-          // https://affonso.io/app/affiliate-program/connect
+        onSuccess: () => {
+          // requireEmailVerification is false — sign in immediately and go to workbench
+          // (same flow as editstamp; do not show “check your email”)
           if (websiteConfig.features.enableAffonsoAffiliate) {
-            console.log('register, affonso affiliate:', values.email);
-            window.Affonso.signup(values.email);
+            window.Affonso?.signup?.(values.email);
           }
+          window.location.assign(callbackUrl);
         },
         onError: (ctx) => {
           // sign up fail, display the error message
-          // console.error('register, error:', ctx.error);
           setError(`${ctx.error.status}: ${ctx.error.message}`);
           // Reset captcha on registration error
           if (captchaConfigured) {

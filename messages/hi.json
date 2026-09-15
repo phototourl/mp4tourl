@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL ब्रांड चिह्न",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "कार्यक्षेत्र",
+      "resources": "मेरे संसाधन",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "कार्यक्षेत्र"
+    },
+    "home": {
+      "loading": "अवलोकन लोड हो रहा है…",
+      "resourceCount": "वीडियो",
+      "videoCountLabel": "मेरे संसाधन में वीडियो",
+      "storageFullHint": "मुफ़्त इस्तेमाल की जगह भर गई है। कुछ वीडियो हटाएँ; ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं।",
+      "entryResourcesTitle": "मेरे संसाधन",
+      "entryResourcesDesc": "अपलोड किए गए वीडियो यहीं हैं — लिंक कॉपी करें, खोलें या कभी भी हटाएँ।",
+      "entryUploadTitle": "वीडियो अपलोड करें",
+      "entryUploadDesc": "होमपेज पर वीडियो छोड़ें और कुछ ही सेकंड में साझा करने योग्य लिंक पाएँ।",
+      "entryFilesTitle": "मेरे संसाधन",
+      "entryFilesDesc": "लॉग इन अपलोड आपके खाते में सहेजे जाते हैं। URL कॉपी करें या अनावश्यक फ़ाइलें हटाएँ।",
+      "entryFilesCta": "मेरे संसाधन खोलें",
+      "filesPointUploadTitle": "कई फ़ॉर्मैट",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV और अन्य",
+      "filesPointManageTitle": "लिंक प्रबंधित करें",
+      "filesPointManageBody": "मेरे संसाधन से कॉपी करें, खोलें या हटाएँ",
+      "filesPointFreeTitle": "मुफ़्त स्टोरेज",
+      "filesPointFreeBody": "होस्टेड वीडियो के लिए 300 MB मुफ़्त",
+      "filesPointPaidTitle": "पेड प्लान",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "मेरे संसाधन",
+      "welcome": "वापसी पर स्वागत है, {name}",
+      "storage": "स्टोरेज",
+      "storageHint": "उपयोग किया गया वीडियो होस्टिंग स्थान",
+      "planCardTitle": "वर्तमान प्लान",
+      "planFree": "मुफ़्त",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "सक्रिय",
+      "planHintFree": "अभी मुफ़्त इस्तेमाल उपलब्ध है। ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं।",
+      "planHintPro": "आप Pro (10 GB) पर हैं। Lifetime से 100 GB मिलता है।",
+      "planHintLifetime": "सभी सुविधाएँ अनलॉक",
+      "description": "लॉग इन रहते हुए अपलोड किए गए वीडियो। यहाँ अपलोड करें, पूर्वावलोकन देखें, डाउनलोड करें या कभी भी हटाएँ।",
+      "empty": "अभी कोई वीडियो नहीं",
+      "emptyHint": "पहला वीडियो जोड़ने के लिए अपलोड या + कार्ड पर क्लिक करें।",
+      "goUpload": "वीडियो अपलोड करें",
+      "upload": "अपलोड",
+      "uploading": "अपलोड हो रहा है…",
+      "uploadSuccess": "अपलोड पूरा",
+      "uploadFailed": "अपलोड विफल",
+      "unsupportedType": "केवल वीडियो प्रारूप समर्थित हैं (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "फ़ाइल बहुत बड़ी है। मुफ़्त योजना में प्रति फ़ाइल अधिकतम 300MB।",
+      "filterFormat": "फ़ाइल प्रकार",
+      "formatAll": "सभी प्रकार",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "स्टोरेज",
+      "viewGrid": "ग्रिड दृश्य",
+      "viewList": "सूची दृश्य",
+      "loading": "लोड हो रहा है…",
+      "loadError": "संसाधन लोड नहीं हो सके",
+      "searchPlaceholder": "फ़ाइल नाम से खोजें…",
+      "search": "खोजें",
+      "reset": "रीसेट",
+      "copyUrl": "URL कॉपी करें",
+      "copied": "URL कॉपी हो गया",
+      "copyFailed": "कॉपी नहीं हो सका",
+      "open": "खोलें",
+      "preview": "पूर्वावलोकन",
+      "previewClose": "बंद करें",
+      "shareCodes": "शेयर कोड",
+      "shareCodesDesc": "Markdown, HTML, BBCode आदि के लिए तुरंत कॉपी करने योग्य लिंक।",
+      "download": "डाउनलोड",
+      "delete": "हटाएँ",
+      "deleteTitle": "वीडियो हटाएँ",
+      "deleteConfirm": "यह वीडियो आपके खाते से स्थायी रूप से हटा देगा। इसे वापस नहीं किया जा सकता।",
+      "deleteSuccess": "वीडियो हटा दिया गया",
+      "deleteFailed": "वीडियो हटाने में विफल",
+      "cancel": "रद्द करें",
+      "totalCount": "कुल {total}",
+      "pagePrev": "पिछला",
+      "pageNext": "अगला"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं। अभी मुफ़्त इस्तेमाल उपलब्ध है।",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "तुरंत कॉपी करने योग्य कोड",
+    "copyUrl": "URL कॉपी करें",
+    "copied": "कॉपी हो गया",
+    "copyFailed": "कॉपी नहीं हो सका",
+    "openTab": "नए टैब में खोलें",
+    "successTitle": "सफल! आपका वीडियो URL तैयार है",
+    "successSubtitle": "आपका वीडियो अपलोड हो गया है और शेयर के लिए तैयार है।",
+    "videoLabel": "वीडियो",
+    "watchLabel": "वीडियो देखें",
+    "shareLink": {
+      "title": "शेयर लिंक",
+      "desc": "कहीं भी शेयर करने के लिए सीधा लिंक"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "GitHub, Notion और दस्तावेज़ों के लिए"
+    },
+    "markdownLink": {
+      "title": "लिंक वाला Markdown",
+      "desc": "पढ़ने योग्य देखने के लेबल वाला Markdown"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "नेटिव वीडियो प्लेयर से एम्बेड करें"
+    },
+    "htmlLink": {
+      "title": "लिंक वाला HTML",
+      "desc": "नए टैब में खुलने वाला साधारण लिंक"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "फ़ोरम और मैसेज बोर्ड के लिए"
+    },
+    "bbcodeLink": {
+      "title": "लिंक वाला BBCode",
+      "desc": "देखने के लेबल वाला फ़ोरम लिंक"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "आपका वीडियो अपलोड हो गया है। शेयर करने के लिए नीचे दिया लिंक कॉपी करें।",
+      "registerForCodesTitle": "Markdown, HTML और BBCode चाहिए?",
+      "registerForCodesDesc": "मुफ़्त साइन अप करें और तुरंत कॉपी करने योग्य एम्बेड कोड अनलॉक करें; मेरे संसाधन में सभी वीडियो प्रबंधित करें।",
+      "registerCta": "मुफ़्त साइन अप",
+      "uploadAnother": "एक और वीडियो अपलोड करें",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: कुछ सेकंड में वीडियो को URL में बदलें"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "उपयोग के मामले",
+      "subtitle": "लोकल वीडियो से शेयर करने योग्य लिंक तक।",
+      "description": "फ़ाइल छोड़ें, दस्तावेज़, चैट और पोस्ट के लिए साफ URL पाएं — नीचे कुछ उदाहरण देखें।",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "लोकल क्लिप को सेकंडों में शेयर करने योग्य पते में बदलें।"
+        },
+        "newStyle": {
+          "title": "कहीं भी शेयर करें",
+          "description": "लिंक को दस्तावेज़, टिकट और सोशल पोस्ट में पेस्ट करें।"
+        },
+        "dark": {
+          "title": "स्थिर होस्टिंग",
+          "description": "स्थिर, स्थायी URL से वीडियो हमेशा उपलब्ध रखें।"
+        },
+        "retro": {
+          "title": "तेज़ रूपांतरण",
+          "description": "एक बार अपलोड करें, लिंक कॉपी करें, जरूरत पड़ने पर दोबारा इस्तेमाल करें।"
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "सामान्य प्रश्न",
+      "subtitle": "वीडियो को URL में बदलने के बारे में जो आप जानना चाह सकते हैं।",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

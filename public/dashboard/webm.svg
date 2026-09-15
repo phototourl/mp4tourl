@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect x="20" y="12" width="88" height="104" rx="12" fill="#EA580C"/>
+  <path d="M54 44v40l34-20-34-20Z" fill="#fff"/>
+  <rect x="36" y="92" width="56" height="14" rx="4" fill="#9A3412"/>
+  <text x="64" y="103" text-anchor="middle" fill="#fff" font-size="9" font-family="system-ui,sans-serif" font-weight="700">WEBM</text>
+</svg>

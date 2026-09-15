@@ -68,6 +68,7 @@
   --animate-accordion-up: accordion-up 0.2s ease-out;
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-banner-marquee: banner-marquee 48s linear infinite;
   --animate-ripple: ripple var(--duration, 2s) ease calc(var(--i, 0) * .2s)
     infinite;
   --animate-pulse: pulse var(--duration) ease-out infinite;
@@ -119,6 +120,15 @@
     }
     to {
       transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  @keyframes banner-marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
     }
   }
 

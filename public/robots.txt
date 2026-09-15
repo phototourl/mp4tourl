@@ -1,10 +1,61 @@
+# Origin robots — Next also serves src/app/robots.ts.
+# If Cloudflare Managed robots.txt / AI Crawl Control is ON, it prepends
+# Disallow for GPTBot/ClaudeBot/etc. and will override these Allows at the edge.
+# Cloudflare → Security → Bots → AI Crawl Control: Allow assistant/search bots,
+# and disable Managed robots.txt so this file is authoritative.
+
 User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /settings/
+Disallow: /dashboard/
+
+# AI search
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
+Allow: /
+
+# AI assistant fetchers (GEO item: AI Assistant Fetchers)
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://mp4tourl.com/sitemap.xml

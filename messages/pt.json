@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marca MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Área de trabalho",
+      "resources": "Meus recursos",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Área de trabalho"
+    },
+    "home": {
+      "loading": "A carregar visão geral…",
+      "resourceCount": "Vídeos",
+      "videoCountLabel": "Vídeos em Meus recursos",
+      "storageFullHint": "O armazenamento do teste gratuito está cheio. Exclua alguns vídeos; planos com maior capacidade em breve.",
+      "entryResourcesTitle": "Meus recursos",
+      "entryResourcesDesc": "Os vídeos enviados ficam aqui — copie links, abra ou exclua a qualquer momento.",
+      "entryUploadTitle": "Enviar vídeo",
+      "entryUploadDesc": "Solte um vídeo na página inicial e obtenha um link compartilhável em segundos.",
+      "entryFilesTitle": "Meus recursos",
+      "entryFilesDesc": "Envios com sessão iniciada são salvos na sua conta. Copie a URL ou remova arquivos desnecessários.",
+      "entryFilesCta": "Abrir meus recursos",
+      "filesPointUploadTitle": "Muitos formatos",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV e mais",
+      "filesPointManageTitle": "Gerir links",
+      "filesPointManageBody": "Copiar, abrir ou excluir em Meus recursos",
+      "filesPointFreeTitle": "Armazenamento grátis",
+      "filesPointFreeBody": "300 MB grátis para vídeos alojados",
+      "filesPointPaidTitle": "Planos pagos",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Meus recursos",
+      "welcome": "Bem-vindo de volta, {name}",
+      "storage": "Armazenamento",
+      "storageHint": "Espaço de alojamento de vídeo usado",
+      "planCardTitle": "Plano atual",
+      "planFree": "Grátis",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Ativo",
+      "planHintFree": "Teste gratuito disponível agora. Planos com maior capacidade em breve.",
+      "planHintPro": "Você está no Pro (10 GB). Lifetime libera 100 GB.",
+      "planHintLifetime": "Todos os recursos desbloqueados",
+      "description": "Vídeos enviados enquanto você estava conectado. Envie aqui, visualize, baixe ou exclua a qualquer momento.",
+      "empty": "Ainda não há vídeos",
+      "emptyHint": "Clique em Enviar ou no cartão + para adicionar o primeiro vídeo.",
+      "goUpload": "Enviar vídeo",
+      "upload": "Enviar",
+      "uploading": "Enviando…",
+      "uploadSuccess": "Envio concluído",
+      "uploadFailed": "Falha no envio",
+      "unsupportedType": "Apenas formatos de vídeo são suportados (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Arquivo muito grande. O plano gratuito permite até 300MB por arquivo.",
+      "filterFormat": "Tipo de arquivo",
+      "formatAll": "Todos os tipos",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Armazenamento",
+      "viewGrid": "Vista em grade",
+      "viewList": "Vista em lista",
+      "loading": "Carregando…",
+      "loadError": "Falha ao carregar os recursos",
+      "searchPlaceholder": "Pesquisar por nome do arquivo…",
+      "search": "Pesquisar",
+      "reset": "Redefinir",
+      "copyUrl": "Copiar URL",
+      "copied": "URL copiada",
+      "copyFailed": "Não foi possível copiar",
+      "open": "Abrir",
+      "preview": "Pré-visualizar",
+      "previewClose": "Fechar",
+      "shareCodes": "Códigos de compartilhamento",
+      "shareCodesDesc": "Links prontos para copiar em Markdown, HTML, BBCode e mais.",
+      "download": "Baixar",
+      "delete": "Excluir",
+      "deleteTitle": "Excluir vídeo",
+      "deleteConfirm": "Isso remove o vídeo permanentemente da sua conta. Não é possível desfazer.",
+      "deleteSuccess": "Vídeo excluído",
+      "deleteFailed": "Falha ao excluir o vídeo",
+      "cancel": "Cancelar",
+      "totalCount": "{total} no total",
+      "pagePrev": "Anterior",
+      "pageNext": "Próxima"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Planos com maior capacidade em breve. Teste gratuito disponível agora.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "CÓDIGOS PRONTOS PARA COPIAR",
+    "copyUrl": "Copiar URL",
+    "copied": "Copiado",
+    "copyFailed": "Não foi possível copiar",
+    "openTab": "Abrir em uma nova aba",
+    "successTitle": "Sucesso! A URL do seu vídeo está pronta",
+    "successSubtitle": "Seu vídeo foi enviado e está pronto para compartilhar.",
+    "videoLabel": "Vídeo",
+    "watchLabel": "Assistir vídeo",
+    "shareLink": {
+      "title": "Link de compartilhamento",
+      "desc": "Link direto para compartilhar em qualquer lugar"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Para GitHub, Notion e documentos"
+    },
+    "markdownLink": {
+      "title": "Markdown com link",
+      "desc": "Markdown com um rótulo de assistir legível"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Incorporar com o player de vídeo nativo"
+    },
+    "htmlLink": {
+      "title": "HTML com link",
+      "desc": "Link simples que abre em uma nova aba"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Para fóruns e murais de mensagens"
+    },
+    "bbcodeLink": {
+      "title": "BBCode com link",
+      "desc": "Link de fórum com rótulo de assistir"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Seu vídeo foi enviado. Copie o link abaixo para compartilhar.",
+      "registerForCodesTitle": "Quer Markdown, HTML e BBCode?",
+      "registerForCodesDesc": "Cadastre-se grátis para liberar códigos de incorporação prontos para copiar e gerenciar todos os vídeos em Meus recursos.",
+      "registerCta": "Cadastre-se grátis",
+      "uploadAnother": "Enviar outro vídeo",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: vídeo para URL em segundos"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Cenários",
+      "subtitle": "Do vídeo local ao link partilhável.",
+      "description": "Largue um ficheiro e obtenha um URL limpo para documentos, chats e publicações — veja alguns exemplos abaixo.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Transforme um clip local num endereço partilhável em segundos."
+        },
+        "newStyle": {
+          "title": "Partilhe em qualquer sítio",
+          "description": "Cole o link em documentos, tickets e publicações nas redes."
+        },
+        "dark": {
+          "title": "Alojamento limpo",
+          "description": "Mantenha os vídeos acessíveis com um URL estável e permanente."
+        },
+        "retro": {
+          "title": "Conversão rápida",
+          "description": "Carregue uma vez, copie o link e reutilize quando precisar."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Perguntas frequentes",
+      "subtitle": "O que você pode querer saber sobre vídeo para URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

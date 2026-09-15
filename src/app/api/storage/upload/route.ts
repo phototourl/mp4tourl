@@ -1,11 +1,16 @@
+import { getDb } from '@/db';
+import { userFile } from '@/db/schema';
 import {
   MAX_FILE_SIZE,
   MAX_VIDEO_FILE_SIZE,
   VIDEO_STORAGE_FOLDER,
 } from '@/lib/constants';
+import { ensureAnonymousUser } from '@/lib/ensure-anonymous-user';
+import { getSessionFromRequest } from '@/lib/auth-api-session';
 import { isVideoFile } from '@/lib/video-upload';
 import { uploadFile } from '@/storage';
 import { StorageError } from '@/storage/types';
+import { randomUUID } from 'crypto';
 import { type NextRequest, NextResponse } from 'next/server';
 
 export const runtime = 'nodejs';
@@ -85,7 +90,39 @@ export async function POST(request: NextRequest) {
       folder || undefined
     );
 
-    return NextResponse.json(result);
+    // Persist video uploads for logged-in + anonymous users
+    let fileId: string | undefined;
+    if (isVideoUpload) {
+      const session = await getSessionFromRequest(request);
+      const userId =
+        session?.user?.id ?? (await ensureAnonymousUser());
+
+      fileId = randomUUID();
+      const now = new Date();
+      const db = await getDb();
+
+      await db.insert(userFile).values({
+        id: fileId,
+        userId,
+        filename: file.name,
+        title: file.name,
+        originalUrl: result.url,
+        processedUrl: result.url,
+        fileSize: file.size,
+        mimeType: contentType,
+        resourceType: 'video',
+        paymentStatus: 'free',
+        schemaVersion: 1,
+        sourceTemplate: 'home-upload',
+        createdAt: now,
+        updatedAt: now,
+      });
+    }
+
+    return NextResponse.json({
+      ...result,
+      id: fileId,
+    });
   } catch (error) {
     console.error('Error uploading file:', error);
 

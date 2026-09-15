@@ -32,7 +32,7 @@ export const websiteConfig: WebsiteConfig = {
     },
   },
   features: {
-    enableUpgradeCard: true,
+    enableUpgradeCard: false,
     enableUpdateAvatar: true,
     enableAffonsoAffiliate: false,
     enablePromotekitAffiliate: false,

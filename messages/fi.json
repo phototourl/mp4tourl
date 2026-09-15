@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL brändimerkki",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Työtila",
+      "resources": "Omat resurssit",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Työtila"
+    },
+    "home": {
+      "loading": "Ladataan yleiskatsausta…",
+      "resourceCount": "Videot",
+      "videoCountLabel": "Videot omissa resursseissa",
+      "storageFullHint": "Ilmaisen kokeilujakson tallennustila on täynnä. Poista joitakin videoita; suuremman kapasiteetin suunnitelmat tulossa pian.",
+      "entryResourcesTitle": "Omat resurssit",
+      "entryResourcesDesc": "Ladatut videot ovat täällä — kopioi linkkejä, avaa tai poista milloin tahansa.",
+      "entryUploadTitle": "Lataa video",
+      "entryUploadDesc": "Pudota video etusivulle ja saat jaettavan linkin hetkessä.",
+      "entryFilesTitle": "Omat resurssit",
+      "entryFilesDesc": "Kirjautuneena tehdyt lataukset tallentuvat tiliisi. Kopioi URL tai poista tarpeettomat tiedostot.",
+      "entryFilesCta": "Avaa omat resurssit",
+      "filesPointUploadTitle": "Monia muotoja",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ja muita",
+      "filesPointManageTitle": "Hallitse linkkejä",
+      "filesPointManageBody": "Kopioi, avaa tai poista Omista resursseista",
+      "filesPointFreeTitle": "Ilmainen tallennustila",
+      "filesPointFreeBody": "300 MB ilmaiseksi isännöidyille videoille",
+      "filesPointPaidTitle": "Maksulliset suunnitelmat",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Omat resurssit",
+      "welcome": "Tervetuloa takaisin, {name}",
+      "storage": "Tallennustila",
+      "storageHint": "Käytetty videoiden hosting-tila",
+      "planCardTitle": "Nykyinen suunnitelma",
+      "planFree": "Ilmainen",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktiivinen",
+      "planHintFree": "Ilmainen kokeilu on nyt saatavilla. Suuremman kapasiteetin suunnitelmat tulossa pian.",
+      "planHintPro": "Olet Prossa (10 GB). Lifetime avaa 100 GB.",
+      "planHintLifetime": "Kaikki ominaisuudet avattu",
+      "description": "Kirjautuneena lataamasi videot. Lataa täällä, esikatsele, lataa tiedosto tai poista milloin tahansa.",
+      "empty": "Ei vielä videoita",
+      "emptyHint": "Napsauta Lataa tai +-korttia lisätäksesi ensimmäisen videon.",
+      "goUpload": "Lataa video",
+      "upload": "Lataa",
+      "uploading": "Ladataan…",
+      "uploadSuccess": "Lataus valmis",
+      "uploadFailed": "Lataus epäonnistui",
+      "unsupportedType": "Vain videomuodot tuetaan (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Tiedosto on liian suuri. Ilmaisella suunnitelmalla enintään 300MB per tiedosto.",
+      "filterFormat": "Tiedostotyyppi",
+      "formatAll": "Kaikki tyypit",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Tallennustila",
+      "viewGrid": "Ruudukkonäkymä",
+      "viewList": "Luettelonäkymä",
+      "loading": "Ladataan…",
+      "loadError": "Resurssien lataaminen epäonnistui",
+      "searchPlaceholder": "Hae tiedostonimellä…",
+      "search": "Hae",
+      "reset": "Nollaa",
+      "copyUrl": "Kopioi URL",
+      "copied": "URL kopioitu",
+      "copyFailed": "Kopiointi epäonnistui",
+      "open": "Avaa",
+      "preview": "Esikatselu",
+      "previewClose": "Sulje",
+      "shareCodes": "Jakokoodit",
+      "shareCodesDesc": "Kopioitavat linkit Markdownille, HTML:lle, BBCodelle ja muille.",
+      "download": "Lataa tiedosto",
+      "delete": "Poista",
+      "deleteTitle": "Poista video",
+      "deleteConfirm": "Tämä poistaa videon pysyvästi tililtäsi. Toimintoa ei voi kumota.",
+      "deleteSuccess": "Video poistettu",
+      "deleteFailed": "Videon poistaminen epäonnistui",
+      "cancel": "Peruuta",
+      "totalCount": "Yhteensä {total}",
+      "pagePrev": "Edellinen",
+      "pageNext": "Seuraava"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Suuremman kapasiteetin suunnitelmat tulossa pian. Ilmainen kokeilu on nyt saatavilla.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KOPIOITAVAT KOODIT",
+    "copyUrl": "Kopioi URL",
+    "copied": "Kopioitu",
+    "copyFailed": "Kopiointi epäonnistui",
+    "openTab": "Avaa uudessa välilehdessä",
+    "successTitle": "Valmis! Videon URL on valmis",
+    "successSubtitle": "Video on ladattu ja valmis jaettavaksi.",
+    "videoLabel": "Video",
+    "watchLabel": "Katso video",
+    "shareLink": {
+      "title": "Jakolinkki",
+      "desc": "Suora linkki jaettavaksi missä tahansa"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "GitHubiin, Notionille ja dokumentteihin"
+    },
+    "markdownLink": {
+      "title": "Markdown linkillä",
+      "desc": "Markdown luettavalla katseluotsikolla"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Upota natiivilla videosoittimella"
+    },
+    "htmlLink": {
+      "title": "HTML linkillä",
+      "desc": "Yksinkertainen linkki, joka aukeaa uuteen välilehteen"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Foorumeille ja ilmoitustauluille"
+    },
+    "bbcodeLink": {
+      "title": "BBCode linkillä",
+      "desc": "Foorumilinkki katseluotsikolla"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Videosi on ladattu. Kopioi alla oleva linkki jakamista varten.",
+      "registerForCodesTitle": "Haluatko Markdownin, HTML:n ja BBCoden?",
+      "registerForCodesDesc": "Rekisteröidy ilmaiseksi avataksesi kopioitavat upotuskoodit ja hallitaksesi kaikkia videoita Omissa resursseissa.",
+      "registerCta": "Rekisteröidy ilmaiseksi",
+      "uploadAnother": "Lataa toinen video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video URL-osoitteeksi sekunneissa"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Käyttötapaukset",
+      "subtitle": "Paikallisesta videosta jaettavaan linkkiin.",
+      "description": "Pudota tiedosto ja saat siistin URL-osoitteen dokumentteihin, chattiin ja julkaisuihin — katso esimerkkejä alta.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Muuta paikallinen klippi jaettavaksi osoitteeksi sekunneissa."
+        },
+        "newStyle": {
+          "title": "Jaa missä tahansa",
+          "description": "Liitä linkki dokumentteihin, tiketteihin ja somejulkaisuihin."
+        },
+        "dark": {
+          "title": "Luotettava hosting",
+          "description": "Pidä videot saatavilla vakaalla, pysyvällä URL-osoitteella."
+        },
+        "retro": {
+          "title": "Nopea muunnos",
+          "description": "Lataa kerran, kopioi linkki ja käytä uudelleen tarvittaessa."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Usein kysytyt",
+      "subtitle": "Mitä haluat ehkä tietää videosta URL:ksi.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL marka işareti",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Çalışma alanı",
+      "resources": "Kaynaklarım",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Çalışma alanı"
+    },
+    "home": {
+      "loading": "Genel bakış yükleniyor…",
+      "resourceCount": "Videolar",
+      "videoCountLabel": "Kaynaklarım’daki videolar",
+      "storageFullHint": "Ücretsiz deneme alanı dolu. Bazı videoları silin; daha yüksek kapasiteli planlar yakında geliyor.",
+      "entryResourcesTitle": "Kaynaklarım",
+      "entryResourcesDesc": "Yüklediğiniz videolar burada — bağlantıları kopyalayın, açın veya istediğiniz zaman silin.",
+      "entryUploadTitle": "Video yükle",
+      "entryUploadDesc": "Ana sayfaya bir video bırakın ve saniyeler içinde paylaşılabilir bağlantı alın.",
+      "entryFilesTitle": "Kaynaklarım",
+      "entryFilesDesc": "Oturum açıkken yapılan yüklemeler hesabınıza kaydedilir. URL’yi kopyalayın veya gereksiz dosyaları silin.",
+      "entryFilesCta": "Kaynaklarımı aç",
+      "filesPointUploadTitle": "Çok sayıda biçim",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ve daha fazlası",
+      "filesPointManageTitle": "Bağlantıları yönet",
+      "filesPointManageBody": "Kaynaklarım’dan kopyala, aç veya sil",
+      "filesPointFreeTitle": "Ücretsiz depolama",
+      "filesPointFreeBody": "Barındırılan videolar için 300 MB ücretsiz",
+      "filesPointPaidTitle": "Ücretli planlar",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Kaynaklarım",
+      "welcome": "Tekrar hoş geldiniz, {name}",
+      "storage": "Depolama",
+      "storageHint": "Kullanılan video barındırma alanı",
+      "planCardTitle": "Mevcut plan",
+      "planFree": "Ücretsiz",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktif",
+      "planHintFree": "Ücretsiz deneme şu an kullanılabilir. Daha yüksek kapasiteli planlar yakında geliyor.",
+      "planHintPro": "Pro’dasınız (10 GB). Lifetime 100 GB açar.",
+      "planHintLifetime": "Tüm özellikler açık",
+      "description": "Giriş yaptığınızda yüklediğiniz videolar. Buradan yükleyin, önizleyin, indirin veya silin.",
+      "empty": "Henüz video yok",
+      "emptyHint": "İlk videoyu eklemek için Yükle’ye veya + kartına tıklayın.",
+      "goUpload": "Video yükle",
+      "upload": "Yükle",
+      "uploading": "Yükleniyor…",
+      "uploadSuccess": "Yükleme tamamlandı",
+      "uploadFailed": "Yükleme başarısız",
+      "unsupportedType": "Yalnızca video biçimleri desteklenir (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Dosya çok büyük. Ücretsiz planda dosya başına en fazla 300MB.",
+      "filterFormat": "Dosya türü",
+      "formatAll": "Tüm türler",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Depolama",
+      "viewGrid": "Izgara görünümü",
+      "viewList": "Liste görünümü",
+      "loading": "Yükleniyor…",
+      "loadError": "Kaynaklar yüklenemedi",
+      "searchPlaceholder": "Dosya adına göre ara…",
+      "search": "Ara",
+      "reset": "Sıfırla",
+      "copyUrl": "URL’yi kopyala",
+      "copied": "URL kopyalandı",
+      "copyFailed": "Kopyalanamadı",
+      "open": "Aç",
+      "preview": "Önizleme",
+      "previewClose": "Kapat",
+      "shareCodes": "Paylaşım kodları",
+      "shareCodesDesc": "Markdown, HTML, BBCode ve daha fazlası için kopyalamaya hazır bağlantılar.",
+      "download": "İndir",
+      "delete": "Sil",
+      "deleteTitle": "Videoyu sil",
+      "deleteConfirm": "Bu işlem videoyu hesabınızdan kalıcı olarak kaldırır. Geri alınamaz.",
+      "deleteSuccess": "Video silindi",
+      "deleteFailed": "Video silinemedi",
+      "cancel": "İptal",
+      "totalCount": "Toplam {total}",
+      "pagePrev": "Önceki",
+      "pageNext": "Sonraki"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Daha yüksek kapasiteli planlar yakında geliyor. Ücretsiz deneme şu an kullanılabilir.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KOPYALAMAYA HAZIR KODLAR",
+    "copyUrl": "URL’yi kopyala",
+    "copied": "Kopyalandı",
+    "copyFailed": "Kopyalanamadı",
+    "openTab": "Yeni sekmede aç",
+    "successTitle": "Başarılı! Video URL’niz hazır",
+    "successSubtitle": "Videonuz yüklendi ve paylaşılmaya hazır.",
+    "videoLabel": "Video",
+    "watchLabel": "Videoyu izle",
+    "shareLink": {
+      "title": "Paylaşım bağlantısı",
+      "desc": "Her yere paylaşabileceğiniz doğrudan bağlantı"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "GitHub, Notion ve belgeler için"
+    },
+    "markdownLink": {
+      "title": "Bağlantılı Markdown",
+      "desc": "Okunabilir izleme etiketli Markdown"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Yerel video oynatıcıyla gömme"
+    },
+    "htmlLink": {
+      "title": "Bağlantılı HTML",
+      "desc": "Yeni sekmede açılan basit bağlantı"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Forumlar ve mesaj panoları için"
+    },
+    "bbcodeLink": {
+      "title": "Bağlantılı BBCode",
+      "desc": "İzleme etiketli forum bağlantısı"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Videonuz yüklendi. Paylaşmak için aşağıdaki bağlantıyı kopyalayın.",
+      "registerForCodesTitle": "Markdown, HTML ve BBCode ister misiniz?",
+      "registerForCodesDesc": "Ücretsiz kaydolun; kopyalamaya hazır gömme kodlarının kilidini açın ve tüm videoları Kaynaklarım’da yönetin.",
+      "registerCta": "Ücretsiz kaydol",
+      "uploadAnother": "Başka bir video yükle",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: videoyu saniyeler içinde URL'ye dönüştürün"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Senaryolar",
+      "subtitle": "Yerel videodan paylaşılabilir bağlantıya.",
+      "description": "Dosyayı bırakın, belgeler, sohbetler ve gönderiler için temiz bir URL alın — aşağıda birkaç örneğe göz atın.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Yerel klibi saniyeler içinde paylaşılabilir bir adrese dönüştürün."
+        },
+        "newStyle": {
+          "title": "Her yerde paylaşın",
+          "description": "Bağlantıyı belgelere, destek taleplerine ve sosyal gönderilere yapıştırın."
+        },
+        "dark": {
+          "title": "Güvenilir barındırma",
+          "description": "Videoları stabil, kalıcı bir URL ile erişilebilir tutun."
+        },
+        "retro": {
+          "title": "Hızlı dönüştürme",
+          "description": "Bir kez yükleyin, bağlantıyı kopyalayın, ihtiyaç duyduğunuzda tekrar kullanın."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "SSS",
+      "subtitle": "Video URL dönüşümü hakkında bilmek isteyebilecekleriniz.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

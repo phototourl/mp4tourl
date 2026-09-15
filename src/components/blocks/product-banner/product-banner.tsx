@@ -1,19 +1,19 @@
 'use client';
 
 import {
-  AmbientBlobs,
   ParallaxFrame,
   ScrollReveal,
   Stagger,
   StaggerItem,
 } from '@/components/motion/scroll-reveal';
 import { HeaderSection } from '@/components/layout/header-section';
+import { SectionShell } from '@/components/layout/section-shell';
 import { Link2, Upload, Zap } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 /**
- * Homepage product banner — copy left, image right, with scroll motion.
+ * Product banner — left copy + image; header left-aligned with points.
  */
 export default function ProductBannerSection() {
   const t = useTranslations('HomePage.productBanner');
@@ -24,48 +24,46 @@ export default function ProductBannerSection() {
   ];
 
   return (
-    <section
-      id="product-banner"
-      className="relative overflow-hidden px-4 py-20 md:py-24"
-    >
-      <AmbientBlobs />
-      <div className="mx-auto max-w-6xl space-y-12 lg:space-y-16">
-        <ScrollReveal>
-          <HeaderSection
-            title={t('title')}
-            subtitle={t('subtitle')}
-            subtitleAs="h2"
-            description={t('description')}
-            descriptionAs="p"
-          />
-        </ScrollReveal>
+    <SectionShell id="product-banner" tone="muted">
+      <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="min-w-0 space-y-8">
+          <ScrollReveal>
+            <HeaderSection
+              align="start"
+              title={t('title')}
+              titleAs="p"
+              subtitle={t('subtitle')}
+              subtitleAs="h2"
+              description={t('description')}
+              descriptionAs="p"
+            />
+          </ScrollReveal>
 
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <Stagger className="divide-y border-y">
+          <Stagger className="divide-y border-y border-border/70">
             {points.map(({ icon: Icon, key }) => (
               <StaggerItem
                 key={key}
-                className="flex items-center gap-3 py-4"
+                className="flex items-center gap-3 py-4 text-base leading-snug text-foreground"
               >
                 <Icon className="size-5 shrink-0 text-primary" />
                 <span>{t(key)}</span>
               </StaggerItem>
             ))}
           </Stagger>
-
-          <ScrollReveal delay={0.1} y={36}>
-            <ParallaxFrame className="rounded-xl border bg-muted/20 shadow-sm">
-              <Image
-                src="/banner/mp4tourl-og-new-style-1200x630.jpg"
-                alt={t('imageAltNew')}
-                width={1200}
-                height={630}
-                className="aspect-[1200/630] h-auto w-full scale-110 object-cover object-center"
-              />
-            </ParallaxFrame>
-          </ScrollReveal>
         </div>
+
+        <ScrollReveal delay={0.1} y={36}>
+          <ParallaxFrame className="overflow-hidden rounded-xl border bg-background/60 shadow-sm">
+            <Image
+              src="/banner/mp4tourl-product-og-domain-1200x630.jpg"
+              alt={t('imageAltNew')}
+              width={1200}
+              height={630}
+              className="aspect-[1200/630] h-auto w-full object-contain object-center"
+            />
+          </ParallaxFrame>
+        </ScrollReveal>
       </div>
-    </section>
+    </SectionShell>
   );
 }

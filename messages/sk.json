@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Značka MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Pracovný priestor",
+      "resources": "Moje zdroje",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Pracovný priestor"
+    },
+    "home": {
+      "loading": "Načítava sa prehľad…",
+      "resourceCount": "Videá",
+      "videoCountLabel": "Videá v Moje zdroje",
+      "storageFullHint": "Úložisko bezplatnej skúšobnej verzie je plné. Odstráňte niektoré videá; tarify s väčšou kapacitou už čoskoro.",
+      "entryResourcesTitle": "Moje zdroje",
+      "entryResourcesDesc": "Nahrané videá sú tu — odkazy môžete kopírovať, otvárať alebo kedykoľvek zmazať.",
+      "entryUploadTitle": "Nahrať video",
+      "entryUploadDesc": "Pretiahnite video na domovskú stránku a za pár sekúnd získate zdieľateľný odkaz.",
+      "entryFilesTitle": "Moje zdroje",
+      "entryFilesDesc": "Nahratia po prihlásení sa uložia do účtu. Skopírujte URL alebo odstráňte nepotrebné súbory.",
+      "entryFilesCta": "Otvoriť moje zdroje",
+      "filesPointUploadTitle": "Veľa formátov",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV a ďalšie",
+      "filesPointManageTitle": "Správa odkazov",
+      "filesPointManageBody": "Kopírovať, otvoriť alebo zmazať v Moje zdroje",
+      "filesPointFreeTitle": "Bezplatné úložisko",
+      "filesPointFreeBody": "300 MB zadarmo pre hostované videá",
+      "filesPointPaidTitle": "Platené plány",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Moje zdroje",
+      "welcome": "Vitajte späť, {name}",
+      "storage": "Úložisko",
+      "storageHint": "Využité miesto na hosting videí",
+      "planCardTitle": "Aktuálny plán",
+      "planFree": "Zadarmo",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktívny",
+      "planHintFree": "Bezplatná skúšobná verzia je teraz k dispozícii. Tarify s väčšou kapacitou už čoskoro.",
+      "planHintPro": "Máte Pro (10 GB). Lifetime odomyká 100 GB.",
+      "planHintLifetime": "Všetky funkcie odomknuté",
+      "description": "Videá nahrané po prihlásení. Nahrajte tu, zobrazte náhľad, stiahnite alebo zmažte kedykoľvek.",
+      "empty": "Zatiaľ žiadne videá",
+      "emptyHint": "Kliknite na Nahrať alebo kartu +, aby ste pridali prvé video.",
+      "goUpload": "Nahrať video",
+      "upload": "Nahrať",
+      "uploading": "Nahráva sa…",
+      "uploadSuccess": "Nahrávanie dokončené",
+      "uploadFailed": "Nahrávanie zlyhalo",
+      "unsupportedType": "Podporované sú len videoformáty (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Súbor je príliš veľký. Bezplatný plán umožňuje až 300MB na súbor.",
+      "filterFormat": "Typ súboru",
+      "formatAll": "Všetky typy",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Úložisko",
+      "viewGrid": "Mriežkové zobrazenie",
+      "viewList": "Zoznamové zobrazenie",
+      "loading": "Načítava sa…",
+      "loadError": "Nepodarilo sa načítať zdroje",
+      "searchPlaceholder": "Hľadať podľa názvu súboru…",
+      "search": "Hľadať",
+      "reset": "Obnoviť",
+      "copyUrl": "Kopírovať URL",
+      "copied": "URL skopírované",
+      "copyFailed": "Nepodarilo sa skopírovať",
+      "open": "Otvoriť",
+      "preview": "Náhľad",
+      "previewClose": "Zavrieť",
+      "shareCodes": "Kódy na zdieľanie",
+      "shareCodesDesc": "Odkazy pripravené na skopírovanie pre Markdown, HTML, BBCode a ďalšie.",
+      "download": "Stiahnuť",
+      "delete": "Zmazať",
+      "deleteTitle": "Zmazať video",
+      "deleteConfirm": "Video sa natrvalo odstráni z vášho účtu. Túto akciu nie je možné vrátiť späť.",
+      "deleteSuccess": "Video zmazané",
+      "deleteFailed": "Video sa nepodarilo zmazať",
+      "cancel": "Zrušiť",
+      "totalCount": "Celkom {total}",
+      "pagePrev": "Predchádzajúca",
+      "pageNext": "Ďalšia"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Tarify s väčšou kapacitou už čoskoro. Bezplatná skúšobná verzia je teraz k dispozícii.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KÓDY PRIPRAVENÉ NA SKOPÍROVANIE",
+    "copyUrl": "Kopírovať URL",
+    "copied": "Skopírované",
+    "copyFailed": "Nepodarilo sa skopírovať",
+    "openTab": "Otvoriť na novej karte",
+    "successTitle": "Hotovo! URL vášho videa je pripravená",
+    "successSubtitle": "Video bolo nahraté a je pripravené na zdieľanie.",
+    "videoLabel": "Video",
+    "watchLabel": "Pozrieť video",
+    "shareLink": {
+      "title": "Odkaz na zdieľanie",
+      "desc": "Priamy odkaz na zdieľanie kdekoľvek"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Pre GitHub, Notion a dokumenty"
+    },
+    "markdownLink": {
+      "title": "Markdown s odkazom",
+      "desc": "Markdown s čitateľným popisom prehrávania"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Vloženie s natívnym prehrávačom videa"
+    },
+    "htmlLink": {
+      "title": "HTML s odkazom",
+      "desc": "Jednoduchý odkaz, ktorý sa otvorí na novej karte"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Pre fóra a nástenky"
+    },
+    "bbcodeLink": {
+      "title": "BBCode s odkazom",
+      "desc": "Odkaz na fórum s popisom prehrávania"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Video bolo nahraté. Skopírujte odkaz nižšie a zdieľajte ho.",
+      "registerForCodesTitle": "Chcete Markdown, HTML a BBCode?",
+      "registerForCodesDesc": "Zaregistrujte sa zadarmo a odomknite kódy na vloženie pripravené na skopírovanie. Všetky videá spravujte v Moje zdroje.",
+      "registerCta": "Zaregistrovať sa zadarmo",
+      "uploadAnother": "Nahrať ďalšie video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video na URL za pár sekúnd"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenáre",
+      "subtitle": "Od lokálneho videa k zdieľateľnému odkazu.",
+      "description": "Pretiahnite súbor a získajte čistú URL pre dokumenty, chaty a príspevky — nižšie pár ukážok.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Premenite lokálny klip na zdieľateľnú adresu za pár sekúnd."
+        },
+        "newStyle": {
+          "title": "Zdieľajte kdekoľvek",
+          "description": "Vložte odkaz do dokumentov, ticketov a príspevkov na sociálnych sieťach."
+        },
+        "dark": {
+          "title": "Spoľahlivý hosting",
+          "description": "Udržujte videá dostupné so stabilnou, trvalou URL."
+        },
+        "retro": {
+          "title": "Rýchla konverzia",
+          "description": "Nahrajte raz, skopírujte odkaz a znova ho použite, keď potrebujete."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Časté otázky",
+      "subtitle": "Čo možno chcete vedieť o videu na URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

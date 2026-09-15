@@ -274,7 +274,8 @@ export function TextEffect({
           onAnimationStart={onAnimationStart}
           style={style}
         >
-          {per !== 'line' ? <span className="sr-only">{children}</span> : null}
+          {/* Always expose full string for crawlers/a11y (line mode used to skip this). */}
+          <span className="sr-only">{children}</span>
           {segments.map((segment, index) => (
             <AnimationComponent
               key={`${per}-${index}-${segment}`}

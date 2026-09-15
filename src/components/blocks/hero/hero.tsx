@@ -10,6 +10,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 /**
  * Hero: left/right = clipped og.jpg; mid = Wise capsule track.
  * F5 starts at top; after load → auto slide → merge → scroll to #upload.
+ * Mobile-only: narrower gap/track. Do NOT pad the art root (breaks L/R align).
  */
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
@@ -20,18 +21,23 @@ export default function HeroSection() {
     if (startedRef.current) return;
     startedRef.current = true;
     setPhase('sliding');
-    // Slide ~1.2s → merge → hold 2s on joined photo → scroll to upload
     window.setTimeout(() => setPhase('merged'), 1200);
     window.setTimeout(() => {
-      document.getElementById('upload')?.scrollIntoView({
+      const el = document.getElementById('upload');
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const alreadyInView =
+        rect.top < window.innerHeight * 0.72 && rect.bottom > 0;
+      if (alreadyInView) return;
+      const mobile = window.matchMedia('(max-width: 767px)').matches;
+      el.scrollIntoView({
         behavior: 'smooth',
-        block: 'start',
+        block: mobile ? 'nearest' : 'start',
       });
     }, 3900);
   }, []);
 
   useEffect(() => {
-    // F5 / reload: start at top of homepage (no browser restore / leftover hash)
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
     }
@@ -53,7 +59,6 @@ export default function HeroSection() {
 
     let delayId = 0;
     const startAfterLoad = () => {
-      // Short beat so the split + capsule are visible before auto-slide
       delayId = window.setTimeout(runSequence, 900);
     };
 
@@ -73,51 +78,57 @@ export default function HeroSection() {
   const sliding = phase === 'sliding';
 
   return (
-    <main id="hero" className="overflow-hidden">
-      <section className="relative pt-20 pb-10 md:pb-12">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <TextEffect
-            per="line"
-            preset="fade-in-blur"
-            speedSegment={0.3}
-            as="h1"
-            className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
-          >
-            {t('title')}
-          </TextEffect>
+    <main id="hero" className="overflow-x-clip">
+      <section className="relative px-4 pt-20 pb-10 md:pb-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-3xl text-center">
+            <TextEffect
+              per="line"
+              preset="fade-in-blur"
+              speedSegment={0.3}
+              as="h1"
+              className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
+            >
+              {t('title')}
+            </TextEffect>
 
-          <TextEffect
-            per="line"
-            preset="fade-in-blur"
-            speedSegment={0.3}
-            delay={0.35}
-            as="p"
-            className="mx-auto mt-6 max-w-2xl text-balance text-lg text-muted-foreground"
-          >
-            {t('description')}
-          </TextEffect>
+            <TextEffect
+              per="line"
+              preset="fade-in-blur"
+              speedSegment={0.3}
+              delay={0.35}
+              as="p"
+              className="mt-5 text-balance text-lg text-muted-foreground md:mt-6 md:text-xl"
+            >
+              {t('description')}
+            </TextEffect>
 
-          <p className="mt-5 text-sm text-muted-foreground md:text-base">
-            {t('tagline')}
-          </p>
-        </div>
+            <p className="mt-3 text-base text-muted-foreground/90 md:mt-4">
+              {t('tagline')}
+            </p>
+          </div>
 
-        <div className="relative mx-auto mt-14 max-w-5xl px-6 md:mt-16">
-          <div
-            aria-hidden
-            className="relative isolate block w-full select-none rounded-sm"
-          >
+          {/*
+            File stays 1200×630 (OG). On-page: max-w-4xl so ~896×470 —
+            full image visible, not stretched to max-w-6xl (~1152×605).
+          */}
+          <div className="relative mx-auto mt-12 max-w-4xl md:mt-14">
+            {/* No padding on this node — absolute right half must share the same box as left */}
+            <div
+              aria-hidden
+              className="relative isolate block w-full select-none overflow-visible rounded-sm"
+            >
             {/* Left clipped art */}
             <div
               className={cn(
                 'relative z-[1] transition-transform duration-700 ease-out will-change-transform',
                 split &&
-                  '-translate-x-7 [filter:drop-shadow(4px_0_8px_rgba(0,0,0,0.16))] sm:-translate-x-8'
+                  '-translate-x-4 [filter:drop-shadow(3px_0_6px_rgba(0,0,0,0.14))] sm:-translate-x-8 sm:[filter:drop-shadow(4px_0_8px_rgba(0,0,0,0.16))]'
               )}
             >
               <Image
                 src="/og.jpg"
-                alt=""
+                alt={t('tagline')}
                 width={1200}
                 height={630}
                 priority
@@ -132,7 +143,7 @@ export default function HeroSection() {
               className={cn(
                 'pointer-events-none absolute inset-0 z-[1] transition-transform duration-700 ease-out will-change-transform',
                 split &&
-                  'translate-x-7 [filter:drop-shadow(-4px_0_8px_rgba(0,0,0,0.16))] sm:translate-x-8'
+                  'translate-x-4 [filter:drop-shadow(-3px_0_6px_rgba(0,0,0,0.14))] sm:translate-x-8 sm:[filter:drop-shadow(-4px_0_8px_rgba(0,0,0,0.16))]'
               )}
             >
               <Image
@@ -147,22 +158,19 @@ export default function HeroSection() {
             </div>
 
             {/*
-              Mid track — 3 layers (back → front), matching Wise:
-              L1 black rail (not yet passed)
-              L2 graffiti (only above the knob)
-              L3 lime circle + black ↓ (separate, no border)
+              Mid track — 3 layers (back → front), matching Wise.
+              max-sm: narrower rail to match smaller gap.
             */}
             <span
               aria-hidden
               className={cn(
                 'pointer-events-none absolute inset-y-0 left-1/2 z-0',
                 '-translate-x-1/2',
-                'w-14 sm:w-16',
+                'w-10 sm:w-16',
                 'transition-opacity duration-300',
                 phase === 'merged' ? 'opacity-0' : 'opacity-100'
               )}
             >
-              {/* L1 — black capsule: flat top, round bottom; dark theme keeps a light outline */}
               <span
                 className={cn(
                   'absolute inset-0 rounded-b-full',
@@ -174,19 +182,17 @@ export default function HeroSection() {
                 )}
               />
 
-              {/* L2 — graffiti ABOVE the knob (incl. top corners beside the circle — NOT black) */}
               <span
                 className={cn(
                   'absolute inset-x-0 top-0 overflow-hidden',
                   'transition-[height] duration-[1100ms] ease-in-out',
-                  // Always cover from rail top → knob center (fills flat-top ears)
                   sliding
-                    ? 'h-[calc(100%-1.75rem)] sm:h-[calc(100%-2rem)]'
-                    : 'h-[1.75rem] sm:h-[2rem]'
+                    ? 'h-[calc(100%-1.25rem)] sm:h-[calc(100%-2rem)]'
+                    : 'h-[1.25rem] sm:h-[2rem]'
                 )}
               >
                 <span
-                  className="block h-full min-h-[1.75rem] w-full sm:min-h-[2rem]"
+                  className="block h-full min-h-[1.25rem] w-full sm:min-h-[2rem]"
                   style={{
                     backgroundImage: 'url(/wise-track-graffiti.svg)',
                     backgroundSize: '100% 100%',
@@ -196,7 +202,6 @@ export default function HeroSection() {
                 />
               </span>
 
-              {/* L3 — knob matches og.jpg brushed metal (not Wise lime) */}
               <span
                 className={cn(
                   'absolute left-0 right-0 z-[1] flex aspect-square items-center justify-center',
@@ -204,7 +209,7 @@ export default function HeroSection() {
                   'shadow-[0_2px_4px_rgba(0,0,0,0.28),inset_0_1px_0_rgba(255,255,255,0.55)]',
                   'transition-[top] duration-[1100ms] ease-in-out',
                   sliding
-                    ? 'top-[calc(100%-3.5rem)] sm:top-[calc(100%-4rem)]'
+                    ? 'top-[calc(100%-2.5rem)] sm:top-[calc(100%-4rem)]'
                     : 'top-0'
                 )}
               >
@@ -225,12 +230,13 @@ export default function HeroSection() {
 
             <span className="sr-only">MP4toURL — video to link</span>
           </div>
+          </div>
         </div>
       </section>
 
       <section
         id="upload"
-        className="scroll-mt-28 px-6 pb-16 pt-6 md:pb-20 md:pt-8"
+        className="scroll-mt-28 px-4 pb-16 pt-6 md:pb-20 md:pt-8"
       >
         <div className="mx-auto max-w-2xl">
           <VideoUpload />

@@ -1,27 +1,32 @@
+'use client';
+
+import { Suspense } from 'react';
 import { DashboardHeader } from '@/components/dashboard/dashboard-header';
+import { DashboardHomeOverview } from '@/components/dashboard/dashboard-home-overview';
 import { useTranslations } from 'next-intl';
 
-/**
- * Dashboard home.
- */
-export default function DashboardPage() {
-  const t = useTranslations();
-
-  const breadcrumbs = [
-    {
-      label: t('Dashboard.dashboard.title'),
-      isCurrentPage: true,
-    },
-  ];
+function DashboardContent() {
+  const t = useTranslations('Dashboard.dashboard');
 
   return (
-    <>
-      <DashboardHeader breadcrumbs={breadcrumbs} />
-      <div className="flex flex-1 flex-col gap-4 p-4 md:p-6">
-        <p className="text-muted-foreground text-sm">
-          {t('Dashboard.dashboard.title')}
-        </p>
+    <div className="flex min-h-0 flex-1 flex-col">
+      <DashboardHeader
+        breadcrumbs={[{ label: t('title'), isCurrentPage: true }]}
+      />
+      <div className="@container/main flex min-h-0 flex-1 flex-col">
+        <DashboardHomeOverview />
       </div>
-    </>
+    </div>
+  );
+}
+
+/**
+ * Workbench — same shell pattern as editstamp dashboard home.
+ */
+export default function DashboardPage() {
+  return (
+    <Suspense>
+      <DashboardContent />
+    </Suspense>
   );
 }

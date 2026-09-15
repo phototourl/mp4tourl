@@ -4,6 +4,7 @@ import { Routes } from '@/routes';
 import type { MenuItem } from '@/types';
 import {
   CreditCardIcon,
+  FolderOpenIcon,
   LayoutDashboardIcon,
   Settings2Icon,
 } from 'lucide-react';
@@ -13,18 +14,21 @@ import { useTranslations } from 'next-intl';
  * Get avatar config with translations
  *
  * NOTICE: used in client components only
- *
- *
- * @returns The avatar config with translated titles
  */
 export function useAvatarLinks(): MenuItem[] {
   const t = useTranslations('Marketing.avatar');
+  const tDash = useTranslations('Dashboard');
 
   return [
     {
       title: t('dashboard'),
       href: Routes.Dashboard,
       icon: <LayoutDashboardIcon className="size-4 shrink-0" />,
+    },
+    {
+      title: tDash('resources.title'),
+      href: Routes.Resources,
+      icon: <FolderOpenIcon className="size-4 shrink-0" />,
     },
     {
       title: t('billing'),

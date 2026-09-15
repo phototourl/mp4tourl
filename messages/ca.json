@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marca MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Espai de treball",
+      "resources": "Els meus recursos",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Espai de treball"
+    },
+    "home": {
+      "loading": "S’està carregant la vista general…",
+      "resourceCount": "Vídeos",
+      "videoCountLabel": "Vídeos a Els meus recursos",
+      "storageFullHint": "L’espai de la prova gratuïta és ple. Suprimiu alguns vídeos; aviat hi haurà plans amb més capacitat.",
+      "entryResourcesTitle": "Els meus recursos",
+      "entryResourcesDesc": "Els vídeos pujats són aquí: copieu enllaços, obriu-los o elimineu-los quan vulgueu.",
+      "entryUploadTitle": "Pujar vídeo",
+      "entryUploadDesc": "Deixeu anar un vídeo a la pàgina d’inici i obteniu un enllaç per compartir en pocs segons.",
+      "entryFilesTitle": "Els meus recursos",
+      "entryFilesDesc": "Les pujades amb la sessió iniciada es desen al compte. Copieu l’URL o elimineu fitxers innecessaris.",
+      "entryFilesCta": "Obrir els meus recursos",
+      "filesPointUploadTitle": "Molts formats",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV i més",
+      "filesPointManageTitle": "Gestionar enllaços",
+      "filesPointManageBody": "Copiar, obrir o eliminar des d’Els meus recursos",
+      "filesPointFreeTitle": "Emmagatzematge gratuït",
+      "filesPointFreeBody": "300 MB gratuïts per a vídeos allotjats",
+      "filesPointPaidTitle": "Plans de pagament",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Els meus recursos",
+      "welcome": "Benvingut de nou, {name}",
+      "storage": "Emmagatzematge",
+      "storageHint": "Espai d’allotjament de vídeo usat",
+      "planCardTitle": "Pla actual",
+      "planFree": "Gratuït",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Actiu",
+      "planHintFree": "Ara podeu fer la prova gratuïta. Aviat hi haurà plans amb més capacitat.",
+      "planHintPro": "Esteu a Pro (10 GB). Lifetime desbloqueja 100 GB.",
+      "planHintLifetime": "Totes les funcions desbloquejades",
+      "description": "Vídeos que has pujat amb la sessió iniciada. Puja aquí, previsualitza, descarrega o elimina quan vulguis.",
+      "empty": "Encara no hi ha vídeos",
+      "emptyHint": "Fes clic a Pujar o a la targeta + per afegir el primer vídeo.",
+      "goUpload": "Pujar vídeo",
+      "upload": "Pujar",
+      "uploading": "S’està pujant…",
+      "uploadSuccess": "Pujada completada",
+      "uploadFailed": "La pujada ha fallat",
+      "unsupportedType": "Només s’admeten formats de vídeo (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "El fitxer és massa gran. El pla gratuït permet fins a 300MB per fitxer.",
+      "filterFormat": "Tipus de fitxer",
+      "formatAll": "Tots els tipus",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Emmagatzematge",
+      "viewGrid": "Vista de graella",
+      "viewList": "Vista de llista",
+      "loading": "S’està carregant…",
+      "loadError": "No s’han pogut carregar els recursos",
+      "searchPlaceholder": "Cerca per nom de fitxer…",
+      "search": "Cerca",
+      "reset": "Restableix",
+      "copyUrl": "Copia l’URL",
+      "copied": "URL copiat",
+      "copyFailed": "No s’ha pogut copiar",
+      "open": "Obre",
+      "preview": "Previsualitza",
+      "previewClose": "Tanca",
+      "shareCodes": "Codis per compartir",
+      "shareCodesDesc": "Enllaços a punt per copiar per a Markdown, HTML, BBCode i més.",
+      "download": "Descarrega",
+      "delete": "Elimina",
+      "deleteTitle": "Eliminar vídeo",
+      "deleteConfirm": "Això elimina el vídeo del teu compte de forma permanent. No es pot desfer.",
+      "deleteSuccess": "Vídeo eliminat",
+      "deleteFailed": "No s’ha pogut eliminar el vídeo",
+      "cancel": "Cancel·la",
+      "totalCount": "{total} en total",
+      "pagePrev": "Anterior",
+      "pageNext": "Següent"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Aviat hi haurà plans amb més capacitat. Ara podeu fer la prova gratuïta.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "CODIS A PUNT PER COPIAR",
+    "copyUrl": "Copia l’URL",
+    "copied": "Copiat",
+    "copyFailed": "No s’ha pogut copiar",
+    "openTab": "Obre en una pestanya nova",
+    "successTitle": "Fet! L’URL del vídeo ja està a punt",
+    "successSubtitle": "El vídeo s’ha pujat i es pot compartir.",
+    "videoLabel": "Vídeo",
+    "watchLabel": "Mira el vídeo",
+    "shareLink": {
+      "title": "Enllaç per compartir",
+      "desc": "Enllaç directe per compartir a qualsevol lloc"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Per a GitHub, Notion i documents"
+    },
+    "markdownLink": {
+      "title": "Markdown amb enllaç",
+      "desc": "Markdown amb una etiqueta de visualització llegible"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Incrusta amb el reproductor de vídeo natiu"
+    },
+    "htmlLink": {
+      "title": "HTML amb enllaç",
+      "desc": "Enllaç simple que s’obre en una pestanya nova"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Per a fòrums i taulers de missatges"
+    },
+    "bbcodeLink": {
+      "title": "BBCode amb enllaç",
+      "desc": "Enllaç de fòrum amb etiqueta de visualització"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "El vídeo s’ha pujat. Copieu l’enllaç de sota per compartir-lo.",
+      "registerForCodesTitle": "Voleu Markdown, HTML i BBCode?",
+      "registerForCodesDesc": "Registreu-vos gratis per desbloquejar codis d’incrustació a punt per copiar i gestionar tots els vídeos a Els meus recursos.",
+      "registerCta": "Registreu-vos gratis",
+      "uploadAnother": "Puja un altre vídeo",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: vídeo a URL en segons"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Escenaris",
+      "subtitle": "Del vídeo local a l'enllaç compartible.",
+      "description": "Deixa anar un fitxer i obtén un URL net per a documents, xats i publicacions — mira alguns exemples a sota.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Converteix un clip local en una adreça compartible en segons."
+        },
+        "newStyle": {
+          "title": "Comparteix a qualsevol lloc",
+          "description": "Enganxa l'enllaç a documents, tickets i publicacions a xarxes socials."
+        },
+        "dark": {
+          "title": "Allotjament net",
+          "description": "Mantén els vídeos accessibles amb un URL estable i permanent."
+        },
+        "retro": {
+          "title": "Conversió ràpida",
+          "description": "Puja una vegada, copia l'enllaç i reutilitza'l quan ho necessitis."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Preguntes freqüents",
+      "subtitle": "El que potser vols saber sobre vídeo a URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

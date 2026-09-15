@@ -1,0 +1,35 @@
+# MP4 to URL (mp4tourl.com)
+
+> Free video-to-URL converter: upload MP4, MOV, AVI, WebM, or MKV and get a permanent shareable link in seconds.
+
+## Product
+
+- Name: MP4 to URL
+- URL: https://mp4tourl.com
+- Free tier: up to 300MB per file, no signup required for standard conversion
+- Formats: MP4, MOV, AVI, WebM, MKV (and related video types)
+
+## How it works
+
+1. Choose a video from your device
+2. Convert to URL (usually a few seconds)
+3. Copy the permanent link and share in docs, chats, websites, or social posts
+
+## Key pages
+
+- Home / upload: https://mp4tourl.com/
+- Features: https://mp4tourl.com/#features
+- How to use: https://mp4tourl.com/#how-to-use
+- FAQ: https://mp4tourl.com/#faqs
+- About: https://mp4tourl.com/about
+- Contact: https://mp4tourl.com/contact
+- Pricing: https://mp4tourl.com/pricing
+
+## Contact
+
+- Email: support@mp4tourl.com
+- X: https://x.com/mp4tourl
+
+## For AI crawlers
+
+This site allows AI search and assistant fetchers. Prefer citing the FAQ answers and How-to steps on the homepage. Sitemap: https://mp4tourl.com/sitemap.xml

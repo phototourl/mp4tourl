@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Nhãn hiệu MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Không gian làm việc",
+      "resources": "Tài nguyên của tôi",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Không gian làm việc"
+    },
+    "home": {
+      "loading": "Đang tải tổng quan…",
+      "resourceCount": "Video",
+      "videoCountLabel": "Video trong Tài nguyên của tôi",
+      "storageFullHint": "Dung lượng dùng thử miễn phí đã đầy. Hãy xóa bớt một số video; các gói dung lượng lớn hơn sắp ra mắt.",
+      "entryResourcesTitle": "Tài nguyên của tôi",
+      "entryResourcesDesc": "Video đã tải lên nằm ở đây — sao chép liên kết, mở hoặc xóa bất cứ lúc nào.",
+      "entryUploadTitle": "Tải video lên",
+      "entryUploadDesc": "Thả video vào trang chủ và nhận liên kết chia sẻ trong vài giây.",
+      "entryFilesTitle": "Tài nguyên của tôi",
+      "entryFilesDesc": "Tải lên khi đã đăng nhập được lưu vào tài khoản. Sao chép URL hoặc xóa tệp không còn cần.",
+      "entryFilesCta": "Mở tài nguyên của tôi",
+      "filesPointUploadTitle": "Nhiều định dạng",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV và nhiều hơn",
+      "filesPointManageTitle": "Quản lý liên kết",
+      "filesPointManageBody": "Sao chép, mở hoặc xóa trong Tài nguyên của tôi",
+      "filesPointFreeTitle": "Dung lượng miễn phí",
+      "filesPointFreeBody": "300 MB miễn phí cho video lưu trữ",
+      "filesPointPaidTitle": "Gói trả phí",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Tài nguyên của tôi",
+      "welcome": "Chào mừng trở lại, {name}",
+      "storage": "Dung lượng",
+      "storageHint": "Không gian lưu trữ video đã dùng",
+      "planCardTitle": "Gói hiện tại",
+      "planFree": "Miễn phí",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Đang dùng",
+      "planHintFree": "Hiện có dùng thử miễn phí. Các gói dung lượng lớn hơn sắp ra mắt.",
+      "planHintPro": "Bạn đang dùng Pro (10 GB). Lifetime mở khóa 100 GB.",
+      "planHintLifetime": "Đã mở khóa mọi tính năng",
+      "description": "Video bạn tải lên khi đã đăng nhập. Tải lên tại đây, xem trước, tải xuống hoặc xóa bất cứ lúc nào.",
+      "empty": "Chưa có video",
+      "emptyHint": "Nhấn Tải lên hoặc thẻ + để thêm video đầu tiên.",
+      "goUpload": "Tải video lên",
+      "upload": "Tải lên",
+      "uploading": "Đang tải lên…",
+      "uploadSuccess": "Tải lên xong",
+      "uploadFailed": "Tải lên thất bại",
+      "unsupportedType": "Chỉ hỗ trợ định dạng video (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Tệp quá lớn. Gói miễn phí cho phép tối đa 300MB mỗi tệp.",
+      "filterFormat": "Loại tệp",
+      "formatAll": "Tất cả loại",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Dung lượng",
+      "viewGrid": "Xem dạng lưới",
+      "viewList": "Xem dạng danh sách",
+      "loading": "Đang tải…",
+      "loadError": "Không tải được tài nguyên",
+      "searchPlaceholder": "Tìm theo tên tệp…",
+      "search": "Tìm kiếm",
+      "reset": "Đặt lại",
+      "copyUrl": "Sao chép URL",
+      "copied": "Đã sao chép URL",
+      "copyFailed": "Không sao chép được",
+      "open": "Mở",
+      "preview": "Xem trước",
+      "previewClose": "Đóng",
+      "shareCodes": "Mã chia sẻ",
+      "shareCodesDesc": "Liên kết sẵn để sao chép cho Markdown, HTML, BBCode và hơn thế.",
+      "download": "Tải xuống",
+      "delete": "Xóa",
+      "deleteTitle": "Xóa video",
+      "deleteConfirm": "Thao tác này sẽ xóa vĩnh viễn video khỏi tài khoản của bạn và không thể hoàn tác.",
+      "deleteSuccess": "Đã xóa video",
+      "deleteFailed": "Không xóa được video",
+      "cancel": "Hủy",
+      "totalCount": "Tổng {total}",
+      "pagePrev": "Trước",
+      "pageNext": "Sau"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Các gói dung lượng lớn hơn sắp ra mắt. Hiện có dùng thử miễn phí.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "MÃ SẴN ĐỂ SAO CHÉP",
+    "copyUrl": "Sao chép URL",
+    "copied": "Đã sao chép",
+    "copyFailed": "Không sao chép được",
+    "openTab": "Mở tab mới",
+    "successTitle": "Thành công! URL video của bạn đã sẵn sàng",
+    "successSubtitle": "Video đã tải lên và sẵn sàng chia sẻ.",
+    "videoLabel": "Video",
+    "watchLabel": "Xem video",
+    "shareLink": {
+      "title": "Liên kết chia sẻ",
+      "desc": "Liên kết trực tiếp để chia sẻ mọi nơi"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Cho GitHub, Notion và tài liệu"
+    },
+    "markdownLink": {
+      "title": "Markdown kèm liên kết",
+      "desc": "Markdown với nhãn xem dễ đọc"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Nhúng bằng trình phát video gốc"
+    },
+    "htmlLink": {
+      "title": "HTML kèm liên kết",
+      "desc": "Liên kết đơn giản mở tab mới"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Cho diễn đàn và bảng tin"
+    },
+    "bbcodeLink": {
+      "title": "BBCode kèm liên kết",
+      "desc": "Liên kết diễn đàn với nhãn xem"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Video của bạn đã tải lên. Sao chép liên kết bên dưới để chia sẻ.",
+      "registerForCodesTitle": "Cần Markdown, HTML và BBCode?",
+      "registerForCodesDesc": "Đăng ký miễn phí để mở khóa mã nhúng sẵn sao chép, và quản lý mọi video trong Tài nguyên của tôi.",
+      "registerCta": "Đăng ký miễn phí",
+      "uploadAnother": "Tải lên video khác",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: chuyển video thành URL trong vài giây"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Kịch bản",
+      "subtitle": "Từ video cục bộ đến liên kết có thể chia sẻ.",
+      "description": "Thả tệp và nhận URL sạch cho tài liệu, chat và bài đăng — xem vài ví dụ bên dưới.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Biến clip cục bộ thành địa chỉ chia sẻ trong vài giây."
+        },
+        "newStyle": {
+          "title": "Chia sẻ mọi nơi",
+          "description": "Dán liên kết vào tài liệu, ticket và bài đăng mạng xã hội."
+        },
+        "dark": {
+          "title": "Lưu trữ ổn định",
+          "description": "Giữ video luôn truy cập được với URL cố định, bền vững."
+        },
+        "retro": {
+          "title": "Chuyển đổi nhanh",
+          "description": "Tải lên một lần, sao chép liên kết, dùng lại khi cần."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Những điều bạn có thể muốn biết về video sang URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

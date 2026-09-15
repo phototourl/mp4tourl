@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Σήμα επωνυμίας MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Χώρος εργασίας",
+      "resources": "Οι πόροι μου",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Χώρος εργασίας"
+    },
+    "home": {
+      "loading": "Φόρτωση επισκόπησης…",
+      "resourceCount": "Βίντεο",
+      "videoCountLabel": "Βίντεο στους Πόρους μου",
+      "storageFullHint": "Ο χώρος της δωρεάν δοκιμής είναι γεμάτος. Διαγράψτε ορισμένα βίντεο· πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα.",
+      "entryResourcesTitle": "Οι πόροι μου",
+      "entryResourcesDesc": "Τα ανεβασμένα βίντεο είναι εδώ — αντιγράψτε συνδέσμους, ανοίξτε ή διαγράψτε ανά πάσα στιγμή.",
+      "entryUploadTitle": "Μεταφόρτωση βίντεο",
+      "entryUploadDesc": "Αφήστε ένα βίντεο στην αρχική σελίδα και αποκτήστε κοινοποιήσιμο σύνδεσμο σε λίγα δευτερόλεπτα.",
+      "entryFilesTitle": "Οι πόροι μου",
+      "entryFilesDesc": "Οι μεταφορτώσεις όσο είστε συνδεδεμένοι αποθηκεύονται στον λογαριασμό. Αντιγράψτε το URL ή διαγράψτε άχρηστα αρχεία.",
+      "entryFilesCta": "Άνοιγμα των πόρων μου",
+      "filesPointUploadTitle": "Πολλές μορφές",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV και άλλα",
+      "filesPointManageTitle": "Διαχείριση συνδέσμων",
+      "filesPointManageBody": "Αντιγραφή, άνοιγμα ή διαγραφή από Οι πόροι μου",
+      "filesPointFreeTitle": "Δωρεάν αποθήκευση",
+      "filesPointFreeBody": "300 MB δωρεάν για φιλοξενούμενα βίντεο",
+      "filesPointPaidTitle": "Πληρωμένα πλάνα",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Οι πόροι μου",
+      "welcome": "Καλώς ήρθατε ξανά, {name}",
+      "storage": "Αποθήκευση",
+      "storageHint": "Χρησιμοποιημένος χώρος φιλοξενίας βίντεο",
+      "planCardTitle": "Τρέχον πλάνο",
+      "planFree": "Δωρεάν",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Ενεργό",
+      "planHintFree": "Η δωρεάν δοκιμή είναι διαθέσιμη τώρα. Πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα.",
+      "planHintPro": "Είστε στο Pro (10 GB). Το Lifetime ξεκλειδώνει 100 GB.",
+      "planHintLifetime": "Όλες οι δυνατότητες ξεκλειδωμένες",
+      "description": "Βίντεο που ανεβάσατε ενώ ήσασταν συνδεδεμένοι. Ανεβάστε εδώ, δείτε προεπισκόπηση, κατεβάστε ή διαγράψτε οποιαδήποτε στιγμή.",
+      "empty": "Δεν υπάρχουν ακόμη βίντεο",
+      "emptyHint": "Κάντε κλικ στο Μεταφόρτωση ή στην κάρτα + για να προσθέσετε το πρώτο βίντεο.",
+      "goUpload": "Μεταφόρτωση βίντεο",
+      "upload": "Μεταφόρτωση",
+      "uploading": "Μεταφόρτωση…",
+      "uploadSuccess": "Η μεταφόρτωση ολοκληρώθηκε",
+      "uploadFailed": "Η μεταφόρτωση απέτυχε",
+      "unsupportedType": "Υποστηρίζονται μόνο μορφές βίντεο (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Το αρχείο είναι πολύ μεγάλο. Το δωρεάν πλάνο επιτρέπει έως 300MB ανά αρχείο.",
+      "filterFormat": "Τύπος αρχείου",
+      "formatAll": "Όλοι οι τύποι",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Αποθήκευση",
+      "viewGrid": "Προβολή πλέγματος",
+      "viewList": "Προβολή λίστας",
+      "loading": "Φόρτωση…",
+      "loadError": "Αποτυχία φόρτωσης πόρων",
+      "searchPlaceholder": "Αναζήτηση με όνομα αρχείου…",
+      "search": "Αναζήτηση",
+      "reset": "Επαναφορά",
+      "copyUrl": "Αντιγραφή URL",
+      "copied": "Το URL αντιγράφηκε",
+      "copyFailed": "Αποτυχία αντιγραφής",
+      "open": "Άνοιγμα",
+      "preview": "Προεπισκόπηση",
+      "previewClose": "Κλείσιμο",
+      "shareCodes": "Κωδικοί κοινοποίησης",
+      "shareCodesDesc": "Σύνδεσμοι έτοιμοι για αντιγραφή για Markdown, HTML, BBCode και άλλα.",
+      "download": "Λήψη",
+      "delete": "Διαγραφή",
+      "deleteTitle": "Διαγραφή βίντεο",
+      "deleteConfirm": "Αυτό αφαιρεί οριστικά το βίντεο από τον λογαριασμό σας. Δεν μπορεί να αναιρεθεί.",
+      "deleteSuccess": "Το βίντεο διαγράφηκε",
+      "deleteFailed": "Αποτυχία διαγραφής βίντεο",
+      "cancel": "Ακύρωση",
+      "totalCount": "{total} συνολικά",
+      "pagePrev": "Προηγούμενο",
+      "pageNext": "Επόμενο"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα. Η δωρεάν δοκιμή είναι διαθέσιμη τώρα.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "ΚΩΔΙΚΟΙ ΕΤΟΙΜΟΙ ΓΙΑ ΑΝΤΙΓΡΑΦΗ",
+    "copyUrl": "Αντιγραφή URL",
+    "copied": "Αντιγράφηκε",
+    "copyFailed": "Αποτυχία αντιγραφής",
+    "openTab": "Άνοιγμα σε νέα καρτέλα",
+    "successTitle": "Επιτυχία! Το URL του βίντεό σας είναι έτοιμο",
+    "successSubtitle": "Το βίντεο ανέβηκε και είναι έτοιμο για κοινοποίηση.",
+    "videoLabel": "Βίντεο",
+    "watchLabel": "Παρακολούθηση βίντεο",
+    "shareLink": {
+      "title": "Σύνδεσμος κοινοποίησης",
+      "desc": "Άμεσος σύνδεσμος για κοινοποίηση οπουδήποτε"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Για GitHub, Notion και έγγραφα"
+    },
+    "markdownLink": {
+      "title": "Markdown με σύνδεσμο",
+      "desc": "Markdown με ευανάγνωστη ετικέτα παρακολούθησης"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Ενσωμάτωση με τον εγγενή αναπαραγωγέα βίντεο"
+    },
+    "htmlLink": {
+      "title": "HTML με σύνδεσμο",
+      "desc": "Απλός σύνδεσμος που ανοίγει σε νέα καρτέλα"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Για φόρουμ και πίνακες μηνυμάτων"
+    },
+    "bbcodeLink": {
+      "title": "BBCode με σύνδεσμο",
+      "desc": "Σύνδεσμος φόρουμ με ετικέτα παρακολούθησης"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Το βίντεό σας ανέβηκε. Αντιγράψτε τον σύνδεσμο παρακάτω για να το κοινοποιήσετε.",
+      "registerForCodesTitle": "Θέλετε Markdown, HTML και BBCode;",
+      "registerForCodesDesc": "Εγγραφείτε δωρεάν για να ξεκλειδώσετε κωδικούς ενσωμάτωσης έτοιμους για αντιγραφή και να διαχειρίζεστε όλα τα βίντεο στους Πόρους μου.",
+      "registerCta": "Δωρεάν εγγραφή",
+      "uploadAnother": "Ανέβασμα άλλου βίντεο",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: βίντεο σε URL σε δευτερόλεπτα"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Σενάρια",
+      "subtitle": "Από τοπικό βίντεο σε κοινοποιήσιμο σύνδεσμο.",
+      "description": "Ρίξτε ένα αρχείο και πάρτε ένα καθαρό URL για έγγραφα, συνομιλίες και αναρτήσεις — δείτε μερικά παραδείγματα παρακάτω.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Μετατρέψτε ένα τοπικό κλιπ σε κοινοποιήσιμη διεύθυνση σε δευτερόλεπτα."
+        },
+        "newStyle": {
+          "title": "Κοινοποιήστε παντού",
+          "description": "Επικολλήστε τον σύνδεσμο σε έγγραφα, tickets και αναρτήσεις στα social."
+        },
+        "dark": {
+          "title": "Αξιόπιστη φιλοξενία",
+          "description": "Κρατήστε τα βίντεο προσβάσιμα με σταθερό, μόνιμο URL."
+        },
+        "retro": {
+          "title": "Γρήγορη μετατροπή",
+          "description": "Ανεβάστε μία φορά, αντιγράψτε τον σύνδεσμο και ξαναχρησιμοποιήστε τον όποτε θέλετε."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Συχνές ερωτήσεις",
+      "subtitle": "Ό,τι ίσως θέλετε να μάθετε για βίντεο σε URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL merkteken",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Werkruimte",
+      "resources": "Mijn bestanden",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Werkruimte"
+    },
+    "home": {
+      "loading": "Overzicht laden…",
+      "resourceCount": "Video’s",
+      "videoCountLabel": "Video’s in Mijn bestanden",
+      "storageFullHint": "De gratis proefopslag is vol. Verwijder enkele video’s; abonnementen met meer capaciteit komen binnenkort.",
+      "entryResourcesTitle": "Mijn bestanden",
+      "entryResourcesDesc": "Je geüploade video’s staan hier — kopieer links, open of verwijder wanneer je wilt.",
+      "entryUploadTitle": "Video uploaden",
+      "entryUploadDesc": "Sleep een video op de homepage en krijg binnen seconden een deelbare link.",
+      "entryFilesTitle": "Mijn bestanden",
+      "entryFilesDesc": "Uploads na inloggen worden in je account bewaard. Kopieer de URL of verwijder bestanden die je niet meer nodig hebt.",
+      "entryFilesCta": "Mijn bestanden openen",
+      "filesPointUploadTitle": "Veel formaten",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV en meer",
+      "filesPointManageTitle": "Links beheren",
+      "filesPointManageBody": "Kopiëren, openen of verwijderen in Mijn bestanden",
+      "filesPointFreeTitle": "Gratis opslag",
+      "filesPointFreeBody": "300 MB gratis voor gehoste video’s",
+      "filesPointPaidTitle": "Betaalde plannen",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Mijn bestanden",
+      "welcome": "Welkom terug, {name}",
+      "storage": "Opslag",
+      "storageHint": "Gebruikte video-hostingruimte",
+      "planCardTitle": "Huidig plan",
+      "planFree": "Gratis",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Actief",
+      "planHintFree": "Gratis proefperiode is nu beschikbaar. Abonnementen met meer capaciteit komen binnenkort.",
+      "planHintPro": "Je zit op Pro (10 GB). Lifetime ontgrendelt 100 GB.",
+      "planHintLifetime": "Alle functies ontgrendeld",
+      "description": "Video’s die je hebt geüpload terwijl je was ingelogd. Upload hier, bekijk vooraf, download of verwijder wanneer je wilt.",
+      "empty": "Nog geen video’s",
+      "emptyHint": "Klik op Uploaden of op de +-kaart om je eerste video toe te voegen.",
+      "goUpload": "Video uploaden",
+      "upload": "Uploaden",
+      "uploading": "Bezig met uploaden…",
+      "uploadSuccess": "Upload voltooid",
+      "uploadFailed": "Upload mislukt",
+      "unsupportedType": "Alleen videoformaten worden ondersteund (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Bestand te groot. Het gratis plan staat tot 300MB per bestand toe.",
+      "filterFormat": "Bestandstype",
+      "formatAll": "Alle typen",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Opslag",
+      "viewGrid": "Rasterweergave",
+      "viewList": "Lijstweergave",
+      "loading": "Laden…",
+      "loadError": "Bestanden laden mislukt",
+      "searchPlaceholder": "Zoeken op bestandsnaam…",
+      "search": "Zoeken",
+      "reset": "Resetten",
+      "copyUrl": "URL kopiëren",
+      "copied": "URL gekopieerd",
+      "copyFailed": "Kopiëren mislukt",
+      "open": "Openen",
+      "preview": "Voorbeeld",
+      "previewClose": "Sluiten",
+      "shareCodes": "Deelcodes",
+      "shareCodesDesc": "Kant-en-klare links voor Markdown, HTML, BBCode en meer.",
+      "download": "Downloaden",
+      "delete": "Verwijderen",
+      "deleteTitle": "Video verwijderen",
+      "deleteConfirm": "Hiermee wordt de video permanent uit je account verwijderd. Dit kan niet ongedaan worden gemaakt.",
+      "deleteSuccess": "Video verwijderd",
+      "deleteFailed": "Video verwijderen mislukt",
+      "cancel": "Annuleren",
+      "totalCount": "{total} in totaal",
+      "pagePrev": "Vorige",
+      "pageNext": "Volgende"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Abonnementen met meer capaciteit komen binnenkort. Gratis proefperiode is nu beschikbaar.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KANT-EN-KLARE CODES",
+    "copyUrl": "URL kopiëren",
+    "copied": "Gekopieerd",
+    "copyFailed": "Kopiëren mislukt",
+    "openTab": "Openen in nieuw tabblad",
+    "successTitle": "Gelukt! Je video-URL is klaar",
+    "successSubtitle": "Je video is geüpload en klaar om te delen.",
+    "videoLabel": "Video",
+    "watchLabel": "Video bekijken",
+    "shareLink": {
+      "title": "Deellink",
+      "desc": "Directe link om overal te delen"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Voor GitHub, Notion en documenten"
+    },
+    "markdownLink": {
+      "title": "Markdown met link",
+      "desc": "Markdown met een leesbaar kijk-label"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Insluiten met de native videospeler"
+    },
+    "htmlLink": {
+      "title": "HTML met link",
+      "desc": "Eenvoudige link die in een nieuw tabblad opent"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Voor forums en prikborden"
+    },
+    "bbcodeLink": {
+      "title": "BBCode met link",
+      "desc": "Forumlink met kijk-label"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Je video is geüpload. Kopieer de link hieronder om te delen.",
+      "registerForCodesTitle": "Markdown, HTML & BBCode nodig?",
+      "registerForCodesDesc": "Meld je gratis aan om kant-en-klare insluitcodes te ontgrendelen en al je video’s te beheren in Mijn bronnen.",
+      "registerCta": "Gratis aanmelden",
+      "uploadAnother": "Nog een video uploaden",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video naar URL in seconden"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenario's",
+      "subtitle": "Van lokaal filmpje naar deelbare link.",
+      "description": "Sleep een bestand, krijg een schone URL voor docs, chats en posts — bekijk hieronder een paar voorbeelden.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Maak van een lokaal fragment in seconden een deelbaar adres."
+        },
+        "newStyle": {
+          "title": "Overal delen",
+          "description": "Plak de link in documenten, tickets en social posts."
+        },
+        "dark": {
+          "title": "Betrouwbare hosting",
+          "description": "Houd video's bereikbaar met een stabiele, permanente URL."
+        },
+        "retro": {
+          "title": "Snelle conversie",
+          "description": "Upload eenmaal, kopieer de link en hergebruik wanneer je wilt."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Veelgestelde vragen",
+      "subtitle": "Wat u misschien wilt weten over video naar URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

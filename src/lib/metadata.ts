@@ -82,6 +82,7 @@ export function constructMetadata({
       description,
       siteName: defaultMessages.Metadata.name,
       images: [ogImageUrl.toString()],
+      modifiedTime: '2026-09-15T00:00:00.000Z',
     },
     twitter: {
       card: 'summary_large_image',
@@ -93,6 +94,10 @@ export function constructMetadata({
     icons: siteIcons,
     metadataBase: new URL(getBaseUrl()),
     manifest: `${getBaseUrl()}/manifest.webmanifest`,
+    // Machine-readable summary for AI crawlers (no UI)
+    other: {
+      'llms-txt': `${getBaseUrl()}/llms.txt`,
+    },
     verification: {
       google: '_2UktIRrgg-jVqg1rHYkWclaQA9FM6l6oLEqc4ODsic',
     },

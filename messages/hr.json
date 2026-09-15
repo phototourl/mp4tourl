@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marka MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Radni prostor",
+      "resources": "Moji resursi",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Radni prostor"
+    },
+    "home": {
+      "loading": "Učitavanje pregleda…",
+      "resourceCount": "Videi",
+      "videoCountLabel": "Videi u Moji resursi",
+      "storageFullHint": "Besplatno probno pohranište je puno. Izbrišite neke videozapise; planovi s većim kapacitetom stižu uskoro.",
+      "entryResourcesTitle": "Moji resursi",
+      "entryResourcesDesc": "Učitani videi su ovdje — kopirajte poveznice, otvorite ili brišite kad god želite.",
+      "entryUploadTitle": "Učitaj video",
+      "entryUploadDesc": "Ispustite video na početnu stranicu i za nekoliko sekundi dobijte poveznicu za dijeljenje.",
+      "entryFilesTitle": "Moji resursi",
+      "entryFilesDesc": "Učitavanja dok ste prijavljeni spremaju se na račun. Kopirajte URL ili uklonite datoteke koje više ne trebate.",
+      "entryFilesCta": "Otvori moje resurse",
+      "filesPointUploadTitle": "Mnogo formata",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV i više",
+      "filesPointManageTitle": "Upravljanje poveznicama",
+      "filesPointManageBody": "Kopirajte, otvorite ili brišite iz Moji resursi",
+      "filesPointFreeTitle": "Besplatna pohrana",
+      "filesPointFreeBody": "300 MB besplatno za hostirane videe",
+      "filesPointPaidTitle": "Plaćeni planovi",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Moji resursi",
+      "welcome": "Dobrodošli natrag, {name}",
+      "storage": "Pohrana",
+      "storageHint": "Iskorišteni prostor za hosting videa",
+      "planCardTitle": "Trenutačni plan",
+      "planFree": "Besplatno",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktivno",
+      "planHintFree": "Besplatno probno razdoblje dostupno je sada. Planovi s većim kapacitetom stižu uskoro.",
+      "planHintPro": "Na Pro ste (10 GB). Lifetime otključava 100 GB.",
+      "planHintLifetime": "Sve značajke otključane",
+      "description": "Videi koje ste učitali dok ste bili prijavljeni. Učitajte ovdje, pregledajte, preuzmite ili brišite kad god želite.",
+      "empty": "Još nema videa",
+      "emptyHint": "Kliknite Učitaj ili karticu + da dodate prvi video.",
+      "goUpload": "Učitaj video",
+      "upload": "Učitaj",
+      "uploading": "Učitavanje…",
+      "uploadSuccess": "Učitavanje dovršeno",
+      "uploadFailed": "Učitavanje nije uspjelo",
+      "unsupportedType": "Podržani su samo videoformati (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Datoteka je prevelika. Besplatni plan dopušta do 300MB po datoteci.",
+      "filterFormat": "Vrsta datoteke",
+      "formatAll": "Sve vrste",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Pohrana",
+      "viewGrid": "Prikaz mreže",
+      "viewList": "Prikaz popisa",
+      "loading": "Učitavanje…",
+      "loadError": "Učitavanje resursa nije uspjelo",
+      "searchPlaceholder": "Pretraži po nazivu datoteke…",
+      "search": "Pretraži",
+      "reset": "Poništi",
+      "copyUrl": "Kopiraj URL",
+      "copied": "URL kopiran",
+      "copyFailed": "Kopiranje nije uspjelo",
+      "open": "Otvori",
+      "preview": "Pregled",
+      "previewClose": "Zatvori",
+      "shareCodes": "Kodovi za dijeljenje",
+      "shareCodesDesc": "Veze spremne za kopiranje za Markdown, HTML, BBCode i više.",
+      "download": "Preuzmi",
+      "delete": "Izbriši",
+      "deleteTitle": "Izbriši video",
+      "deleteConfirm": "Time se video trajno uklanja s vašeg računa. To se ne može poništiti.",
+      "deleteSuccess": "Video izbrisan",
+      "deleteFailed": "Brisanje videa nije uspjelo",
+      "cancel": "Odustani",
+      "totalCount": "Ukupno {total}",
+      "pagePrev": "Prethodna",
+      "pageNext": "Sljedeća"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Planovi s većim kapacitetom stižu uskoro. Besplatno probno razdoblje dostupno je sada.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "KODOVI SPREMNI ZA KOPIRANJE",
+    "copyUrl": "Kopiraj URL",
+    "copied": "Kopirano",
+    "copyFailed": "Kopiranje nije uspjelo",
+    "openTab": "Otvori u novoj kartici",
+    "successTitle": "Uspjeh! URL vašeg videa je spreman",
+    "successSubtitle": "Video je prenesen i spreman za dijeljenje.",
+    "videoLabel": "Video",
+    "watchLabel": "Pogledaj video",
+    "shareLink": {
+      "title": "Veza za dijeljenje",
+      "desc": "Izravna veza za dijeljenje bilo gdje"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Za GitHub, Notion i dokumente"
+    },
+    "markdownLink": {
+      "title": "Markdown s vezom",
+      "desc": "Markdown s čitljivom oznakom gledanja"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Ugradi s izvornim video playerom"
+    },
+    "htmlLink": {
+      "title": "HTML s vezom",
+      "desc": "Jednostavna veza koja se otvara u novoj kartici"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Za forume i oglasne ploče"
+    },
+    "bbcodeLink": {
+      "title": "BBCode s vezom",
+      "desc": "Forumska veza s oznakom gledanja"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Video je prenesen. Kopirajte vezu ispod da ga podijelite.",
+      "registerForCodesTitle": "Želite Markdown, HTML i BBCode?",
+      "registerForCodesDesc": "Registrirajte se besplatno za otključavanje kodova za ugradnju spremnih za kopiranje i upravljajte svim videima u Moji resursi.",
+      "registerCta": "Registriraj se besplatno",
+      "uploadAnother": "Prenesi drugi video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video u URL za nekoliko sekundi"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenariji",
+      "subtitle": "Od lokalnog videa do linka za dijeljenje.",
+      "description": "Ispustite datoteku i dobijte čist URL za dokumente, chatove i objave — pogledajte nekoliko primjera ispod.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Pretvorite lokalni isječak u adresu za dijeljenje u nekoliko sekundi."
+        },
+        "newStyle": {
+          "title": "Dijelite bilo gdje",
+          "description": "Zalijepite link u dokumente, tikete i objave na društvenim mrežama."
+        },
+        "dark": {
+          "title": "Pouzdani hosting",
+          "description": "Držite videozapise dostupnima sa stabilnim, trajnim URL-om."
+        },
+        "retro": {
+          "title": "Brza konverzija",
+          "description": "Učitajte jednom, kopirajte link i ponovno ga koristite kad trebate."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Česta pitanja",
+      "subtitle": "Što biste mogli htjeti znati o videu u URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

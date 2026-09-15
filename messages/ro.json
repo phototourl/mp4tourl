@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marcă MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Spațiu de lucru",
+      "resources": "Resursele mele",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Spațiu de lucru"
+    },
+    "home": {
+      "loading": "Se încarcă rezumatul…",
+      "resourceCount": "Videoclipuri",
+      "videoCountLabel": "Videoclipuri în Resursele mele",
+      "storageFullHint": "Spațiul din perioada de încercare gratuită este plin. Ștergeți câteva videoclipuri; planuri cu capacitate mai mare vor apărea în curând.",
+      "entryResourcesTitle": "Resursele mele",
+      "entryResourcesDesc": "Videoclipurile încărcate sunt aici — copiați linkuri, deschideți sau ștergeți oricând.",
+      "entryUploadTitle": "Încarcă video",
+      "entryUploadDesc": "Trageți un video pe pagina principală și obțineți un link de partajat în câteva secunde.",
+      "entryFilesTitle": "Resursele mele",
+      "entryFilesDesc": "Încărcările când sunteți autentificat se salvează în cont. Copiați URL-ul sau ștergeți fișierele inutile.",
+      "entryFilesCta": "Deschide resursele mele",
+      "filesPointUploadTitle": "Multe formate",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV și altele",
+      "filesPointManageTitle": "Gestionați linkurile",
+      "filesPointManageBody": "Copiați, deschideți sau ștergeți din Resursele mele",
+      "filesPointFreeTitle": "Stocare gratuită",
+      "filesPointFreeBody": "300 MB gratuit pentru videoclipuri găzduite",
+      "filesPointPaidTitle": "Planuri plătite",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Resursele mele",
+      "welcome": "Bine ai revenit, {name}",
+      "storage": "Stocare",
+      "storageHint": "Spațiu de găzduire video folosit",
+      "planCardTitle": "Planul curent",
+      "planFree": "Gratuit",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Activ",
+      "planHintFree": "Perioada de încercare gratuită este disponibilă acum. Planuri cu capacitate mai mare vor apărea în curând.",
+      "planHintPro": "Sunteți pe Pro (10 GB). Lifetime deblochează 100 GB.",
+      "planHintLifetime": "Toate funcțiile deblocate",
+      "description": "Videoclipuri încărcate cât timp erai autentificat. Încarcă aici, previzualizează, descarcă sau șterge oricând.",
+      "empty": "Niciun video încă",
+      "emptyHint": "Apasă Încarcă sau cardul + pentru a adăuga primul video.",
+      "goUpload": "Încarcă video",
+      "upload": "Încarcă",
+      "uploading": "Se încarcă…",
+      "uploadSuccess": "Încărcare finalizată",
+      "uploadFailed": "Încărcarea a eșuat",
+      "unsupportedType": "Sunt acceptate doar formate video (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Fișierul este prea mare. Planul gratuit permite până la 300MB pe fișier.",
+      "filterFormat": "Tip de fișier",
+      "formatAll": "Toate tipurile",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Stocare",
+      "viewGrid": "Vizualizare grilă",
+      "viewList": "Vizualizare listă",
+      "loading": "Se încarcă…",
+      "loadError": "Nu s-au putut încărca resursele",
+      "searchPlaceholder": "Caută după numele fișierului…",
+      "search": "Caută",
+      "reset": "Resetează",
+      "copyUrl": "Copiază URL",
+      "copied": "URL copiat",
+      "copyFailed": "Nu s-a putut copia",
+      "open": "Deschide",
+      "preview": "Previzualizare",
+      "previewClose": "Închide",
+      "shareCodes": "Coduri de partajare",
+      "shareCodesDesc": "Linkuri gata de copiat pentru Markdown, HTML, BBCode și altele.",
+      "download": "Descarcă",
+      "delete": "Șterge",
+      "deleteTitle": "Șterge video",
+      "deleteConfirm": "Aceasta elimină definitiv videoclipul din contul tău. Acțiunea nu poate fi anulată.",
+      "deleteSuccess": "Video șters",
+      "deleteFailed": "Ștergerea videoclipului a eșuat",
+      "cancel": "Anulează",
+      "totalCount": "{total} în total",
+      "pagePrev": "Anterior",
+      "pageNext": "Următor"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Planuri cu capacitate mai mare vor apărea în curând. Perioada de încercare gratuită este disponibilă acum.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "CODURI GATA DE COPIAT",
+    "copyUrl": "Copiază URL",
+    "copied": "Copiat",
+    "copyFailed": "Nu s-a putut copia",
+    "openTab": "Deschide în filă nouă",
+    "successTitle": "Succes! URL-ul videoclipului este gata",
+    "successSubtitle": "Videoclipul a fost încărcat și este gata de partajat.",
+    "videoLabel": "Video",
+    "watchLabel": "Vizionează video",
+    "shareLink": {
+      "title": "Link de partajare",
+      "desc": "Link direct de partajat oriunde"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Pentru GitHub, Notion și documente"
+    },
+    "markdownLink": {
+      "title": "Markdown cu link",
+      "desc": "Markdown cu o etichetă de vizionare lizibilă"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Încorporează cu playerul video nativ"
+    },
+    "htmlLink": {
+      "title": "HTML cu link",
+      "desc": "Link simplu care se deschide într-o filă nouă"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Pentru forumuri și panouri de mesaje"
+    },
+    "bbcodeLink": {
+      "title": "BBCode cu link",
+      "desc": "Link de forum cu etichetă de vizionare"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Videoclipul a fost încărcat. Copiați linkul de mai jos pentru a-l partaja.",
+      "registerForCodesTitle": "Doriți Markdown, HTML și BBCode?",
+      "registerForCodesDesc": "Înregistrați-vă gratuit pentru a debloca coduri de încorporare gata de copiat și gestionați toate videoclipurile în Resursele mele.",
+      "registerCta": "Înregistrare gratuită",
+      "uploadAnother": "Încarcă alt video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video în URL în câteva secunde"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenarii",
+      "subtitle": "De la video local la link partajabil.",
+      "description": "Trage un fișier și obține un URL curat pentru documente, chat-uri și postări — vezi câteva exemple mai jos.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Transformă un clip local într-o adresă partajabilă în câteva secunde."
+        },
+        "newStyle": {
+          "title": "Partajează oriunde",
+          "description": "Lipește linkul în documente, tichete și postări pe rețele sociale."
+        },
+        "dark": {
+          "title": "Găzduire stabilă",
+          "description": "Păstrează videoclipurile accesibile cu un URL stabil și permanent."
+        },
+        "retro": {
+          "title": "Conversie rapidă",
+          "description": "Încarcă o dată, copiază linkul și refolosește-l când ai nevoie."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "Întrebări frecvente",
+      "subtitle": "Ce ai putea vrea să știi despre video în URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

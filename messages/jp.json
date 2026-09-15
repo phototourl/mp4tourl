@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL ブランドマーク",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "ワークスペース",
+      "resources": "マイリソース",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "ワークスペース"
+    },
+    "home": {
+      "loading": "概要を読み込み中…",
+      "resourceCount": "動画",
+      "videoCountLabel": "マイリソースの動画",
+      "storageFullHint": "無料トライアルの容量がいっぱいです。一部の動画を削除してください。より大容量のプランを近日公開予定です。",
+      "entryResourcesTitle": "マイリソース",
+      "entryResourcesDesc": "アップロードした動画はここに保存されます。リンクのコピー、開く、削除がいつでもできます。",
+      "entryUploadTitle": "動画をアップロード",
+      "entryUploadDesc": "ホームに動画をドロップすると、数秒で共有リンクを取得できます。",
+      "entryFilesTitle": "マイリソース",
+      "entryFilesDesc": "ログイン中のアップロードはアカウントに保存されます。URLのコピーや不要なファイルの削除ができます。",
+      "entryFilesCta": "マイリソースを開く",
+      "filesPointUploadTitle": "多彩な形式",
+      "filesPointUploadBody": "MP4、MOV、AVI、WebM、MKV など",
+      "filesPointManageTitle": "リンク管理",
+      "filesPointManageBody": "マイリソースでコピー、開く、削除",
+      "filesPointFreeTitle": "無料ストレージ",
+      "filesPointFreeBody": "ホスト動画向けに 300 MB 無料",
+      "filesPointPaidTitle": "有料プラン",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "マイリソース",
+      "welcome": "おかえりなさい、{name}",
+      "storage": "ストレージ",
+      "storageHint": "動画ホスティングの使用容量",
+      "planCardTitle": "現在のプラン",
+      "planFree": "無料",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "利用中",
+      "planHintFree": "無料トライアルをご利用いただけます。より大容量のプランを近日公開予定です。",
+      "planHintPro": "現在は Pro（10 GB）です。Lifetime で 100 GB になります。",
+      "planHintLifetime": "すべての機能が利用可能です",
+      "description": "ログイン中にアップロードした動画です。このページからアップロード、プレビュー、ダウンロード、削除ができます。",
+      "empty": "まだ動画がありません",
+      "emptyHint": "「アップロード」または中央の + カードを押して、最初の動画を追加してください。",
+      "goUpload": "動画をアップロード",
+      "upload": "アップロード",
+      "uploading": "アップロード中…",
+      "uploadSuccess": "アップロード完了",
+      "uploadFailed": "アップロードに失敗しました",
+      "unsupportedType": "動画形式のみ対応しています（MP4、MOV、AVI、WebM、MKV…）",
+      "fileTooLarge": "ファイルが大きすぎます。無料プランは1ファイル最大 300MB です。",
+      "filterFormat": "ファイル形式",
+      "formatAll": "すべての形式",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "ストレージ",
+      "viewGrid": "グリッド表示",
+      "viewList": "リスト表示",
+      "loading": "読み込み中…",
+      "loadError": "リソースの読み込みに失敗しました",
+      "searchPlaceholder": "ファイル名で検索…",
+      "search": "検索",
+      "reset": "リセット",
+      "copyUrl": "URLをコピー",
+      "copied": "URLをコピーしました",
+      "copyFailed": "コピーできませんでした",
+      "open": "開く",
+      "preview": "プレビュー",
+      "previewClose": "閉じる",
+      "shareCodes": "共有コード",
+      "shareCodesDesc": "Markdown、HTML、BBCode など、すぐコピーできる形式。",
+      "download": "ダウンロード",
+      "delete": "削除",
+      "deleteTitle": "動画を削除",
+      "deleteConfirm": "この動画はアカウントから完全に削除され、元に戻せません。",
+      "deleteSuccess": "動画を削除しました",
+      "deleteFailed": "動画の削除に失敗しました",
+      "cancel": "キャンセル",
+      "totalCount": "合計 {total} 件",
+      "pagePrev": "前へ",
+      "pageNext": "次へ"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "より大容量のプランを近日公開予定です。無料トライアルをご利用いただけます。",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "すぐ使える埋め込みコード",
+    "copyUrl": "URLをコピー",
+    "copied": "コピーしました",
+    "copyFailed": "コピーできませんでした",
+    "openTab": "新しいタブで開く",
+    "successTitle": "完了！動画URLの準備ができました",
+    "successSubtitle": "動画のアップロードが完了し、共有できます。",
+    "videoLabel": "動画",
+    "watchLabel": "動画を見る",
+    "shareLink": {
+      "title": "共有リンク",
+      "desc": "どこでも使える直リンク"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "GitHub、Notion、ドキュメント向け"
+    },
+    "markdownLink": {
+      "title": "リンク付き Markdown",
+      "desc": "「動画を見る」ラベル付きの Markdown"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "標準の動画プレイヤーで埋め込み"
+    },
+    "htmlLink": {
+      "title": "リンク付き HTML",
+      "desc": "新しいタブで開くシンプルなリンク"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "フォーラムや掲示板向け"
+    },
+    "bbcodeLink": {
+      "title": "リンク付き BBCode",
+      "desc": "視聴ラベル付きのフォーラムリンク"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "動画のアップロードが完了しました。下のリンクをコピーして共有できます。",
+      "registerForCodesTitle": "Markdown、HTML、BBCode も使いたい？",
+      "registerForCodesDesc": "無料登録すると、すぐ使える埋め込みコードを解除でき、「マイリソース」で動画を管理できます。",
+      "registerCta": "無料で登録",
+      "uploadAnother": "別の動画をアップロード",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com：数秒で動画をURLに変換"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "利用シーン",
+      "subtitle": "ローカル動画から共有リンクへ。",
+      "description": "ファイルをドロップすれば、ドキュメント・チャット・投稿用のきれいな URL が手に入ります。下でいくつか見てみましょう。",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "ローカル動画を数秒で共有できるアドレスに。"
+        },
+        "newStyle": {
+          "title": "どこでも共有",
+          "description": "リンクをドキュメント、チケット、SNS に貼り付け。"
+        },
+        "dark": {
+          "title": "安定ホスティング",
+          "description": "安定した恒久 URL で動画をいつでもアクセス可能に。"
+        },
+        "retro": {
+          "title": "高速変換",
+          "description": "一度アップロード、リンクをコピー、いつでも再利用。"
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "よくある質問",
+      "subtitle": "動画をURLにする際に知っておきたいこと。",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

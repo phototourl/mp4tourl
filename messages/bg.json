@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Марка MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Работно пространство",
+      "resources": "Моите ресурси",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Работно пространство"
+    },
+    "home": {
+      "loading": "Зареждане на преглед…",
+      "resourceCount": "Видеа",
+      "videoCountLabel": "Видеа в Моите ресурси",
+      "storageFullHint": "Безплатното пробно хранилище е пълно. Изтрийте някои видеа; планове с по-голям капацитет идват скоро.",
+      "entryResourcesTitle": "Моите ресурси",
+      "entryResourcesDesc": "Качените видеа са тук — копирайте връзки, отваряйте или изтривайте по всяко време.",
+      "entryUploadTitle": "Качване на видео",
+      "entryUploadDesc": "Пуснете видео на началната страница и вземете споделяема връзка за секунди.",
+      "entryFilesTitle": "Моите ресурси",
+      "entryFilesDesc": "Качванията след вход се запазват в акаунта. Копирайте URL или изтрийте ненужните файлове.",
+      "entryFilesCta": "Отвори моите ресурси",
+      "filesPointUploadTitle": "Много формати",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV и още",
+      "filesPointManageTitle": "Управление на връзки",
+      "filesPointManageBody": "Копиране, отваряне или изтриване от Моите ресурси",
+      "filesPointFreeTitle": "Безплатно хранилище",
+      "filesPointFreeBody": "300 MB безплатно за хоствани видеа",
+      "filesPointPaidTitle": "Платени планове",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Моите ресурси",
+      "welcome": "Добре дошли отново, {name}",
+      "storage": "Хранилище",
+      "storageHint": "Използвано място за видео хостинг",
+      "planCardTitle": "Текущ план",
+      "planFree": "Безплатен",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Активен",
+      "planHintFree": "Безплатен пробен период е наличен сега. Планове с по-голям капацитет идват скоро.",
+      "planHintPro": "Вие сте на Pro (10 GB). Lifetime отключва 100 GB.",
+      "planHintLifetime": "Всички функции са отключени",
+      "description": "Видеа, качени след влизане в акаунта. Качвайте тук, преглеждайте, изтегляйте или изтривайте по всяко време.",
+      "empty": "Все още няма видеа",
+      "emptyHint": "Кликнете „Качване“ или картата +, за да добавите първото видео.",
+      "goUpload": "Качване на видео",
+      "upload": "Качване",
+      "uploading": "Качване…",
+      "uploadSuccess": "Качването завърши",
+      "uploadFailed": "Качването не успя",
+      "unsupportedType": "Поддържат се само видео формати (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Файлът е твърде голям. Безплатният план позволява до 300MB на файл.",
+      "filterFormat": "Тип файл",
+      "formatAll": "Всички типове",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Хранилище",
+      "viewGrid": "Изглед мрежа",
+      "viewList": "Изглед списък",
+      "loading": "Зареждане…",
+      "loadError": "Неуспешно зареждане на ресурсите",
+      "searchPlaceholder": "Търсене по име на файл…",
+      "search": "Търсене",
+      "reset": "Нулиране",
+      "copyUrl": "Копирай URL",
+      "copied": "URL е копиран",
+      "copyFailed": "Неуспешно копиране",
+      "open": "Отвори",
+      "preview": "Преглед",
+      "previewClose": "Затвори",
+      "shareCodes": "Кодове за споделяне",
+      "shareCodesDesc": "Готови за копиране връзки за Markdown, HTML, BBCode и други.",
+      "download": "Изтегли",
+      "delete": "Изтрий",
+      "deleteTitle": "Изтриване на видео",
+      "deleteConfirm": "Това окончателно премахва видеото от акаунта ви. Действието е необратимо.",
+      "deleteSuccess": "Видеото е изтрито",
+      "deleteFailed": "Неуспешно изтриване на видеото",
+      "cancel": "Отказ",
+      "totalCount": "Общо {total}",
+      "pagePrev": "Предишна",
+      "pageNext": "Следваща"
     },
     "admin": {
       "title": "Admin",
@@ -659,7 +744,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Планове с по-голям капацитет идват скоро. Безплатен пробен период е наличен сега.",
       "button": "Upgrade"
     }
   },
@@ -691,24 +776,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "ГОТОВИ КОДОВЕ",
+    "copyUrl": "Копирай URL",
+    "copied": "Копирано",
+    "copyFailed": "Неуспешно копиране",
+    "openTab": "Отвори в нов раздел",
+    "successTitle": "Успех! URL адресът на видеото е готов",
+    "successSubtitle": "Видеото е качено и е готово за споделяне.",
+    "videoLabel": "Видео",
+    "watchLabel": "Гледай видео",
+    "shareLink": {
+      "title": "Връзка за споделяне",
+      "desc": "Директна връзка за споделяне навсякъде"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "За GitHub, Notion и документи"
+    },
+    "markdownLink": {
+      "title": "Markdown с връзка",
+      "desc": "Markdown с четлив етикет за гледане"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Вграждане с вграден видеоплейър"
+    },
+    "htmlLink": {
+      "title": "HTML с връзка",
+      "desc": "Проста връзка, която се отваря в нов раздел"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "За форуми и табла за съобщения"
+    },
+    "bbcodeLink": {
+      "title": "BBCode с връзка",
+      "desc": "Форумна връзка с етикет за гледане"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Видеото е качено. Копирайте връзката по-долу, за да го споделите.",
+      "registerForCodesTitle": "Искате Markdown, HTML и BBCode?",
+      "registerForCodesDesc": "Регистрирайте се безплатно, за да отключите готови кодове за вграждане и да управлявате всички видеа в Моите ресурси.",
+      "registerCta": "Безплатна регистрация",
+      "uploadAnother": "Качи друго видео",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -736,7 +865,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: видео към URL за секунди"
     },
     "howToUse": {
       "title": "How to Use",
@@ -744,7 +873,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -756,9 +885,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Сценарии",
+      "subtitle": "От локално видео към споделяем линк.",
+      "description": "Пуснете файл и получете чист URL за документи, чатове и публикации — вижте няколко примера по-долу.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Превърнете локален клип в споделяем адрес за секунди."
+        },
+        "newStyle": {
+          "title": "Споделяйте навсякъде",
+          "description": "Поставете линка в документи, тикети и публикации в социалните мрежи."
+        },
+        "dark": {
+          "title": "Надежден хостинг",
+          "description": "Дръжте видеата достъпни със стабилен, постоянен URL."
+        },
+        "retro": {
+          "title": "Бърза конверсия",
+          "description": "Качете веднъж, копирайте линка и го използвайте отново, когато ви трябва."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "ЧЗВ",
+      "subtitle": "Какво може да искате да знаете за видео към URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -770,7 +922,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

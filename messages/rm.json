@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "Marca MP4toURL",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Spazi da lavur",
+      "resources": "Mes resursas",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Spazi da lavur"
+    },
+    "home": {
+      "loading": "Chargiar la survista…",
+      "resourceCount": "Videos",
+      "videoCountLabel": "Videos en Mes resursas",
+      "storageFullHint": "Il spazi da prova gratuita è plain. Stizzai tscherts videos; plans cun dapli capacitad vegnan prest.",
+      "entryResourcesTitle": "Mes resursas",
+      "entryResourcesDesc": "Voss videos chargiads èn qua — copiai links, avri u stizzai da mintga temp.",
+      "entryUploadTitle": "Chargiar video",
+      "entryUploadDesc": "Depositai in video sin la pagina da partenza e survegnis in link per cundivider en paucas secundas.",
+      "entryFilesTitle": "Mes resursas",
+      "entryFilesDesc": "Chargiaments durant l’annunzia vegnan memorisads en voss conto. Copiai l’URL u stizzai datotecas nunnecessarias.",
+      "entryFilesCta": "Avrir mes resursas",
+      "filesPointUploadTitle": "Blers formats",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV e dapli",
+      "filesPointManageTitle": "Administrar links",
+      "filesPointManageBody": "Copiar, avrir u stizzar da Mes resursas",
+      "filesPointFreeTitle": "Spazi da memorisar gratuit",
+      "filesPointFreeBody": "300 MB gratuits per videos ospitads",
+      "filesPointPaidTitle": "Plans pagads",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Mes resursas",
+      "welcome": "Bainvegni enavos, {name}",
+      "storage": "Spazi da memorisar",
+      "storageHint": "Spazi d’ospitar videos utilisà",
+      "planCardTitle": "Plan actual",
+      "planFree": "Gratuit",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Activ",
+      "planHintFree": "La prova gratuita è disponibla ussa. Plans cun dapli capacitad vegnan prest.",
+      "planHintPro": "Vus esas sin Pro (10 GB). Lifetime deblochescha 100 GB.",
+      "planHintLifetime": "Tut las funcziuns èn deblocadas",
+      "description": "Videos chargiads durant che vus erai annunziads. Chargiai qua, prevista, telechargiai u stizzai da mintga temp.",
+      "empty": "Anc nagin video",
+      "emptyHint": "Cliccai sin Chargiar u sin la carta + per agiuntar il prim video.",
+      "goUpload": "Chargiar video",
+      "upload": "Chargiar",
+      "uploading": "Chargia…",
+      "uploadSuccess": "Chargiada terminada",
+      "uploadFailed": "Chargiada betg reussida",
+      "unsupportedType": "Be formats da video vegnan sustegnids (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Datoteca memia gronda. Il plan gratuit permetta fin a 300MB per datoteca.",
+      "filterFormat": "Tip da datoteca",
+      "formatAll": "Tut ils tips",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Memoria",
+      "viewGrid": "Vista griglia",
+      "viewList": "Vista glista",
+      "loading": "Chargia…",
+      "loadError": "Betg reussì da chargiar las resursas",
+      "searchPlaceholder": "Tschertgar tenor num da datoteca…",
+      "search": "Tschertgar",
+      "reset": "Redefinir",
+      "copyUrl": "Copiar URL",
+      "copied": "URL copià",
+      "copyFailed": "Betg reussì da copiar",
+      "open": "Avrir",
+      "preview": "Prevista",
+      "previewClose": "Serrar",
+      "shareCodes": "Codes da cundivider",
+      "shareCodesDesc": "Links pronts da copiar per Markdown, HTML, BBCode e dapli.",
+      "download": "Telechargiar",
+      "delete": "Stizzar",
+      "deleteTitle": "Stizzar video",
+      "deleteConfirm": "Quai stizza definitivamain il video da voss conto. Quai na sa betg vegnir revocà.",
+      "deleteSuccess": "Video stizzà",
+      "deleteFailed": "Betg reussì da stizzar il video",
+      "cancel": "Interrumper",
+      "totalCount": "{total} en total",
+      "pagePrev": "Precedent",
+      "pageNext": "Proxim"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Plans cun dapli capacitad vegnan prest. La prova gratuita è disponibla ussa.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "CODES PRONTS DA COPIAR",
+    "copyUrl": "Copiar URL",
+    "copied": "Copià",
+    "copyFailed": "Betg reussì da copiar",
+    "openTab": "Avrir en ina nova tab",
+    "successTitle": "Reussì! Vossa URL da video è pronta",
+    "successSubtitle": "Voss video è chargià si ed è pront per cundivider.",
+    "videoLabel": "Video",
+    "watchLabel": "Guardar il video",
+    "shareLink": {
+      "title": "Link da cundivider",
+      "desc": "Link direct per cundivider dapertut"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "Per GitHub, Notion e documents"
+    },
+    "markdownLink": {
+      "title": "Markdown cun link",
+      "desc": "Markdown cun ina etichetta da guardar legibla"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Integrar cun il player da video nativ"
+    },
+    "htmlLink": {
+      "title": "HTML cun link",
+      "desc": "Link simpel che s’avra en ina nova tab"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Per forums e tavlas da messadis"
+    },
+    "bbcodeLink": {
+      "title": "BBCode cun link",
+      "desc": "Link da forum cun etichetta da guardar"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "Voss video è chargià si. Copiai il link sutvart per cundivider el.",
+      "registerForCodesTitle": "Vulsaiz Markdown, HTML e BBCode?",
+      "registerForCodesDesc": "Registrai-vus gratuitamain per debloccar codes d’integrar pronts da copiar e administrar tut ils videos en Mes resursas.",
+      "registerCta": "Registrar gratuitamain",
+      "uploadAnother": "Chargiar si in auter video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: video a URL en onnas"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Scenarios",
+      "subtitle": "Da video local a link partgibla.",
+      "description": "Deposita in file e retscha in URL net per documents, chats e posts — guarda in paucs exempels sutvart.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Transforma in clip local en in'adressa partgibla en paucas secundas."
+        },
+        "newStyle": {
+          "title": "Partgir dapertut",
+          "description": "Colla il link en documents, tickets e posts socials."
+        },
+        "dark": {
+          "title": "Hosting stabil",
+          "description": "Mantegna videos accessibels cun in URL permanent e stabil."
+        },
+        "retro": {
+          "title": "Conversiun svelta",
+          "description": "Chargia in giada, copia il link e reutilisescha el sche ti dovras."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "FAQ",
+      "subtitle": "Tge che ti pos chal savair davart video a URL.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

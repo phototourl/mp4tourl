@@ -43,7 +43,7 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
     // https://www.better-auth.com/docs/concepts/email#2-require-email-verification
-    requireEmailVerification: false, // 本地/联调先关；上线可再开并配 Resend
+    requireEmailVerification: false, // 与 editstamp 一致：注册后直接登录，不强制邮件验证
     // https://www.better-auth.com/docs/authentication/email-password#forget-password
     async sendResetPassword({ user, url }, request) {
       const locale = getLocaleFromRequest(request);

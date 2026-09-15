@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "Free video to URL converter",
     "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "imageAlt": "MP4toURL márkajel",
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Munkaterület",
+      "resources": "Saját erőforrások",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Munkaterület"
+    },
+    "home": {
+      "loading": "Áttekintés betöltése…",
+      "resourceCount": "Videók",
+      "videoCountLabel": "Videók a Saját erőforrásokban",
+      "storageFullHint": "Az ingyenes próbaidőszak tárhelye megtelt. Töröljön néhány videót; nagyobb kapacitású csomagok hamarosan érkeznek.",
+      "entryResourcesTitle": "Saját erőforrások",
+      "entryResourcesDesc": "A feltöltött videók itt vannak — másolja a linkeket, nyissa meg vagy törölje bármikor.",
+      "entryUploadTitle": "Videó feltöltése",
+      "entryUploadDesc": "Húzzon egy videót a kezdőlapra, és másodpercek alatt kapjon megosztható linket.",
+      "entryFilesTitle": "Saját erőforrások",
+      "entryFilesDesc": "A bejelentkezés utáni feltöltések a fiókjába mentődnek. Másolja az URL-t, vagy törölje a felesleges fájlokat.",
+      "entryFilesCta": "Saját erőforrások megnyitása",
+      "filesPointUploadTitle": "Sok formátum",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV és mások",
+      "filesPointManageTitle": "Linkek kezelése",
+      "filesPointManageBody": "Másolás, megnyitás vagy törlés a Saját erőforrásokból",
+      "filesPointFreeTitle": "Ingyenes tárhely",
+      "filesPointFreeBody": "300 MB ingyen a hosztolt videókhoz",
+      "filesPointPaidTitle": "Fizetős csomagok",
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+    },
+    "resources": {
+      "title": "Saját erőforrások",
+      "welcome": "Üdv újra, {name}",
+      "storage": "Tárhely",
+      "storageHint": "Felhasznált videóhoszting-hely",
+      "planCardTitle": "Jelenlegi csomag",
+      "planFree": "Ingyenes",
+      "planPro": "Pro",
+      "planLifetime": "Lifetime",
+      "planActive": "Aktív",
+      "planHintFree": "Az ingyenes próbaidőszak most elérhető. Nagyobb kapacitású csomagok hamarosan érkeznek.",
+      "planHintPro": "Pro csomagon van (10 GB). A Lifetime 100 GB-ot nyit meg.",
+      "planHintLifetime": "Minden funkció feloldva",
+      "description": "Bejelentkezés után feltöltött videók. Itt tölthet fel, előnézetet nézhet, letölthet vagy bármikor törölhet.",
+      "empty": "Még nincsenek videók",
+      "emptyHint": "Kattintson a Feltöltés gombra vagy a + kártyára az első videó hozzáadásához.",
+      "goUpload": "Videó feltöltése",
+      "upload": "Feltöltés",
+      "uploading": "Feltöltés…",
+      "uploadSuccess": "Feltöltés kész",
+      "uploadFailed": "Feltöltés sikertelen",
+      "unsupportedType": "Csak videóformátumok támogatottak (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "A fájl túl nagy. Az ingyenes csomag fájlonként legfeljebb 300MB-ot enged.",
+      "filterFormat": "Fájltípus",
+      "formatAll": "Összes típus",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "Tárhely",
+      "viewGrid": "Rácsnézet",
+      "viewList": "Listanézet",
+      "loading": "Betöltés…",
+      "loadError": "Az erőforrások betöltése sikertelen",
+      "searchPlaceholder": "Keresés fájlnév szerint…",
+      "search": "Keresés",
+      "reset": "Visszaállítás",
+      "copyUrl": "URL másolása",
+      "copied": "URL bemásolva",
+      "copyFailed": "A másolás nem sikerült",
+      "open": "Megnyitás",
+      "preview": "Előnézet",
+      "previewClose": "Bezárás",
+      "shareCodes": "Megosztási kódok",
+      "shareCodesDesc": "Másolásra kész hivatkozások Markdown, HTML, BBCode és más formátumokhoz.",
+      "download": "Letöltés",
+      "delete": "Törlés",
+      "deleteTitle": "Videó törlése",
+      "deleteConfirm": "Ezzel a videó véglegesen törlődik a fiókjából. Ez nem vonható vissza.",
+      "deleteSuccess": "Videó törölve",
+      "deleteFailed": "A videó törlése sikertelen",
+      "cancel": "Mégse",
+      "totalCount": "Összesen {total}",
+      "pagePrev": "Előző",
+      "pageNext": "Következő"
     },
     "admin": {
       "title": "Admin",
@@ -728,7 +813,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Nagyobb kapacitású csomagok hamarosan érkeznek. Az ingyenes próbaidőszak most elérhető.",
       "button": "Upgrade"
     }
   },
@@ -760,24 +845,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "MÁSOLÁSRA KÉSZ KÓDOK",
+    "copyUrl": "URL másolása",
+    "copied": "Másolva",
+    "copyFailed": "Nem sikerült másolni",
+    "openTab": "Megnyitás új lapon",
+    "successTitle": "Kész! A videó URL-je elérhető",
+    "successSubtitle": "A videó feltöltve, megosztható.",
+    "videoLabel": "Videó",
+    "watchLabel": "Videó megtekintése",
+    "shareLink": {
+      "title": "Megosztási hivatkozás",
+      "desc": "Közvetlen link, bárhol megosztható"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "GitHubhoz, Notionhoz és dokumentumokhoz"
+    },
+    "markdownLink": {
+      "title": "Markdown hivatkozással",
+      "desc": "Markdown olvasható megtekintési címkével"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "Beágyazás natív videolejátszóval"
+    },
+    "htmlLink": {
+      "title": "HTML hivatkozással",
+      "desc": "Egyszerű link, új lapon nyílik"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "Fórumokhoz és üzenőfalakhoz"
+    },
+    "bbcodeLink": {
+      "title": "BBCode hivatkozással",
+      "desc": "Fórumlink megtekintési címkével"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "A videó feltöltve. Másolja az alábbi linket a megosztáshoz.",
+      "registerForCodesTitle": "Markdown, HTML és BBCode kell?",
+      "registerForCodesDesc": "Regisztráljon ingyen, hogy feloldja a másolásra kész beágyazási kódokat, és kezelje az összes videót a Saját erőforrásokban.",
+      "registerCta": "Ingyenes regisztráció",
+      "uploadAnother": "Másik videó feltöltése",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -805,7 +934,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com: videó URL-lé másodpercek alatt"
     },
     "howToUse": {
       "title": "How to Use",
@@ -813,7 +942,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -825,9 +954,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "Forgatókönyvek",
+      "subtitle": "Helyi videóból megosztható link.",
+      "description": "Dobjon be egy fájlt, kapjon tiszta URL-t dokumentumokhoz, csevegésekhez és posztokhoz — nézzen meg pár példát lent.",
+      "items": {
+        "concept": {
+          "title": "MP4 to URL",
+          "description": "Helyi klip másodpercek alatt megosztható címmé alakítása."
+        },
+        "newStyle": {
+          "title": "Ossza meg bárhol",
+          "description": "Illessze be a linket dokumentumokba, jegyekbe és közösségi posztokba."
+        },
+        "dark": {
+          "title": "Megbízható tárhely",
+          "description": "Tartsa elérhetően a videókat stabil, állandó URL-lel."
+        },
+        "retro": {
+          "title": "Gyors konvertálás",
+          "description": "Töltsön fel egyszer, másolja a linket, és használja újra, amikor kell."
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "GYIK",
+      "subtitle": "Amit érdemes tudni a videó URL-re alakításáról.",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -839,7 +991,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

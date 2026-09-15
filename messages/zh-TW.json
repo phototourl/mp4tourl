@@ -2,7 +2,7 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 100MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
   "Common": {
     "premium": "Premium",
@@ -75,7 +75,7 @@
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 100MB",
+        "feature-1": "Upload size: 300MB",
         "feature-2": "Permanent CDN links",
         "feature-3": "No signup required",
         "feature-4": "Community support"
@@ -131,6 +131,7 @@
     "authorName": "MP4toURL",
     "authorBio": "免費影片轉連結工具",
     "introduction": "MP4toURL 幫你快速託管並分享影片：上傳檔案，取得永久 CDN 直連，隨處可用，無需複雜設定。",
+    "imageAlt": "MP4toURL 品牌標識",
     "talkWithMe": "聯絡我們",
     "followMe": "追蹤 X"
   },
@@ -462,7 +463,8 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "工作台",
+      "resources": "我的資源",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -470,7 +472,90 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "工作台"
+    },
+    "home": {
+      "loading": "正在載入概覽…",
+      "resourceCount": "影片",
+      "videoCountLabel": "我的資源中的影片",
+      "storageFullHint": "免費試用空間已用盡。可先刪除部分影片；更高容量方案即將推出。",
+      "entryResourcesTitle": "我的資源",
+      "entryResourcesDesc": "已上傳的影片都在這裡，可隨時複製連結、開啟或刪除。",
+      "entryUploadTitle": "上傳影片",
+      "entryUploadDesc": "在首頁拖入影片，幾秒就能取得可分享連結。",
+      "entryFilesTitle": "我的資源",
+      "entryFilesDesc": "登入後上傳的影片會儲存到帳戶，可複製連結或刪除不需要的檔案。",
+      "entryFilesCta": "開啟我的資源",
+      "filesPointUploadTitle": "多格式",
+      "filesPointUploadBody": "支援 MP4、MOV、AVI、WebM、MKV 等",
+      "filesPointManageTitle": "管理連結",
+      "filesPointManageBody": "在我的資源裡複製、開啟或刪除",
+      "filesPointFreeTitle": "免費空間",
+      "filesPointFreeBody": "免費方案提供 300 MB 託管空間",
+      "filesPointPaidTitle": "付費方案",
+      "filesPointPaidBody": "Pro 10 GB · 終身 100 GB"
+    },
+    "resources": {
+      "title": "我的資源",
+      "welcome": "歡迎回來，{name}",
+      "storage": "儲存空間",
+      "storageHint": "已使用的影片託管空間",
+      "planCardTitle": "目前方案",
+      "planFree": "免費",
+      "planPro": "Pro",
+      "planLifetime": "終身",
+      "planActive": "已開通",
+      "planHintFree": "目前支援免費試用，更高容量方案即將推出。",
+      "planHintPro": "目前為 Pro（10 GB）。終身方案可升至 100 GB。",
+      "planHintLifetime": "全部功能已解鎖",
+      "description": "登入後上傳的影片會出現在這裡，可直接上傳、預覽、下載或刪除。",
+      "empty": "還沒有影片",
+      "emptyHint": "點「上傳」或中間的 + 卡片，新增第一部影片。",
+      "goUpload": "上傳影片",
+      "upload": "上傳",
+      "uploading": "上傳中…",
+      "uploadSuccess": "上傳完成",
+      "uploadFailed": "上傳失敗",
+      "unsupportedType": "僅支援影片格式（MP4、MOV、AVI、WebM、MKV…）",
+      "fileTooLarge": "檔案過大。免費方案單一檔案最高 300MB。",
+      "filterFormat": "檔案類型",
+      "formatAll": "全部類型",
+      "format": {
+        "mp4": "MP4",
+        "mov": "MOV",
+        "avi": "AVI",
+        "webm": "WebM",
+        "mkv": "MKV",
+        "mpeg": "MPEG",
+        "flv": "FLV",
+        "3gp": "3GP"
+      },
+      "usageStorage": "儲存空間",
+      "viewGrid": "網格檢視",
+      "viewList": "列表檢視",
+      "loading": "載入中…",
+      "loadError": "載入資源失敗",
+      "searchPlaceholder": "依檔名搜尋…",
+      "search": "搜尋",
+      "reset": "重設",
+      "copyUrl": "複製連結",
+      "copied": "已複製連結",
+      "copyFailed": "複製失敗",
+      "open": "開啟",
+      "preview": "預覽",
+      "previewClose": "關閉",
+      "shareCodes": "分享程式碼",
+      "shareCodesDesc": "可一鍵複製 Markdown、HTML、BBCode 等格式。",
+      "download": "下載",
+      "delete": "刪除",
+      "deleteTitle": "刪除影片",
+      "deleteConfirm": "將從你的帳戶永久刪除此影片，此操作無法復原。",
+      "deleteSuccess": "影片已刪除",
+      "deleteFailed": "刪除失敗",
+      "cancel": "取消",
+      "totalCount": "共 {total} 個",
+      "pagePrev": "上一頁",
+      "pageNext": "下一頁"
     },
     "admin": {
       "title": "Admin",
@@ -659,7 +744,7 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "更高容量方案即將推出，目前可免費試用。",
       "button": "Upgrade"
     }
   },
@@ -691,24 +776,68 @@
       "subject": "Contact Message from Website"
     }
   },
+  "ShareCodes": {
+    "sectionTitle": "一鍵複製程式碼",
+    "copyUrl": "複製",
+    "copied": "已複製",
+    "copyFailed": "複製失敗",
+    "openTab": "在新分頁開啟",
+    "successTitle": "成功！影片連結已就緒",
+    "successSubtitle": "影片已上傳，可以開始分享了。",
+    "videoLabel": "影片",
+    "watchLabel": "觀看影片",
+    "shareLink": {
+      "title": "分享連結",
+      "desc": "可直接分享的連結"
+    },
+    "markdown": {
+      "title": "Markdown",
+      "desc": "適用於 GitHub、Notion、文件"
+    },
+    "markdownLink": {
+      "title": "Markdown 帶文案",
+      "desc": "帶「觀看影片」文案的 Markdown"
+    },
+    "html": {
+      "title": "HTML",
+      "desc": "以原生播放器嵌入"
+    },
+    "htmlLink": {
+      "title": "HTML 連結",
+      "desc": "在新分頁開啟的一般連結"
+    },
+    "bbcode": {
+      "title": "BBCode",
+      "desc": "適用於論壇、留言板"
+    },
+    "bbcodeLink": {
+      "title": "BBCode 帶文案",
+      "desc": "帶觀看文案的論壇連結"
+    }
+  },
   "HomePage": {
     "title": "MP4 to URL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 100MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 100MB",
-      "maxSize": "Maximum file size: 100MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
+      "maxSize": "Maximum file size: 300MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
       "copied": "Copied",
+      "guestSuccessHint": "影片已上傳。複製下方連結即可分享。",
+      "registerForCodesTitle": "需要 Markdown、HTML、BBCode？",
+      "registerForCodesDesc": "免費註冊後可解鎖一鍵複製的嵌入程式碼，並在「我的資源」管理全部影片。",
+      "registerCta": "免費註冊",
+      "uploadAnother": "再上傳一部影片",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 100MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -736,7 +865,7 @@
       "point2": "Convert in seconds — no signup for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: MP4 to URL, share the moment"
+      "imageAltNew": "mp4tourl.com：幾秒把影片變成連結"
     },
     "howToUse": {
       "title": "How to Use",
@@ -744,7 +873,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 100MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -756,9 +885,32 @@
         }
       }
     },
+    "bannerShowcase": {
+      "title": "場景",
+      "subtitle": "從本機影片到可分享連結。",
+      "description": "拖入檔案即可取得乾淨直連，用於文件、聊天和內容發布——下面看看幾種呈現。",
+      "items": {
+        "concept": {
+          "title": "MP4 轉連結",
+          "description": "本機影片幾秒變成可分享地址。"
+        },
+        "newStyle": {
+          "title": "隨處分享",
+          "description": "把連結貼進文件、工單和社群貼文。"
+        },
+        "dark": {
+          "title": "穩定託管",
+          "description": "長期可用的直連，地址穩定好複用。"
+        },
+        "retro": {
+          "title": "快速轉換",
+          "description": "上傳一次，隨時複製連結再用。"
+        }
+      }
+    },
     "faqs": {
-      "title": "Frequently Asked Questions About Video to URL",
-      "subtitle": "Everything you need to know about converting video to a shareable link.",
+      "title": "常見問題",
+      "subtitle": "影片轉連結，你可能想知道這些。",
       "items": {
         "item-1": {
           "question": "What is a video to URL converter?",
@@ -770,7 +922,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 100MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",
