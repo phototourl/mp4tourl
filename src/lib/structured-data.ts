@@ -12,16 +12,27 @@ function localeHomeUrl(locale: string): string {
 
 function sameAsLinks(): string[] {
   const social = websiteConfig.metadata.social;
-  return [social.twitter, social.blueSky, social.discord, social.linkedin, social.youtube]
-    .filter((url): url is string => Boolean(url && url.trim()));
+  if (!social) return [];
+  return [
+    social.twitter,
+    social.blueSky,
+    social.discord,
+    social.linkedin,
+    social.youtube,
+  ].filter((url): url is string => Boolean(url && url.trim()));
+}
+
+function metadataImage(path: string | undefined, fallback: string): string {
+  return `${baseUrl}${path || fallback}`;
 }
 
 /**
  * Organization — site-wide entity for E-E-A-T / GEO
  */
 export function generateOrganizationSchema() {
-  const logo = `${baseUrl}${websiteConfig.metadata.images.logoLight}`;
-  const image = `${baseUrl}${websiteConfig.metadata.images.ogImage}`;
+  const images = websiteConfig.metadata.images;
+  const logo = metadataImage(images?.logoLight, '/logo.png');
+  const image = metadataImage(images?.ogImage, '/og.jpg');
   const sameAs = sameAsLinks();
 
   return {
@@ -106,7 +117,7 @@ export function generateHowToSchema(
     '@id': `${url}#howto`,
     name,
     description,
-    image: `${baseUrl}${websiteConfig.metadata.images.ogImage}`,
+    image: metadataImage(websiteConfig.metadata.images?.ogImage, '/og.jpg'),
     step: steps.map((step, index) => ({
       '@type': 'HowToStep',
       position: index + 1,
@@ -144,7 +155,7 @@ export function generateWebApplicationSchema(
       availability: 'https://schema.org/InStock',
     },
     ...(featureList.length > 0 ? { featureList } : {}),
-    screenshot: `${baseUrl}${websiteConfig.metadata.images.ogImage}`,
+    screenshot: metadataImage(websiteConfig.metadata.images?.ogImage, '/og.jpg'),
     datePublished: dates?.datePublished ?? '2026-01-01',
     dateModified: dates?.dateModified ?? '2026-09-15',
     author: { '@id': ORGANIZATION_ID },
@@ -176,7 +187,7 @@ export function generateWebPageSchema(
     about: { '@id': ORGANIZATION_ID },
     primaryImageOfPage: {
       '@type': 'ImageObject',
-      url: `${baseUrl}${websiteConfig.metadata.images.ogImage}`,
+      url: metadataImage(websiteConfig.metadata.images?.ogImage, '/og.jpg'),
     },
     datePublished: dates?.datePublished ?? '2026-01-01',
     dateModified: dates?.dateModified ?? '2026-09-15',
