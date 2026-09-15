@@ -167,7 +167,7 @@ export default function HeroSection() {
               preset="fade-in-blur"
               speedSegment={0.3}
               as="h1"
-              className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
+              className="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
             >
               {t('title')}
             </TextEffect>
