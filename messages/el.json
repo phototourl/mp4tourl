@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Δωρεάν μετατροπέας βίντεο σε URL – Ανεβάστε MP4 και πάρτε συνδέσμους για κοινή χρήση",
+    "description": "Ανεβάστε MP4, MOV, AVI, WebM, MKV και λάβετε μόνιμα URL για κοινή χρήση σε δευτερόλεπτα. Δωρεάν φιλοξενία βίντεο έως 300MB — χωρίς εγγραφή."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Σύνδεση",
+    "logout": "Αποσύνδεση",
+    "signUp": "Εγγραφή",
+    "language": "Αλλαγή γλώσσας",
+    "languageHint": "Η επιλογή περιοχής αλλάζει τη γλώσσα και το περιεχόμενο.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Εναλλαγή εμφάνισης",
+      "light": "Φωτεινό",
+      "dark": "Σκοτεινό",
+      "system": "Σύστημα"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Εναλλαγή θέματος",
+      "default": "Προεπιλογή",
+      "blue": "Μπλε",
+      "green": "Πράσινο",
+      "amber": "Κεχριμπαρί",
+      "neutral": "Ουδέτερο"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Αντιγραφή",
+    "saving": "Αποθήκευση...",
+    "save": "Αποθήκευση",
+    "loading": "Φόρτωση...",
+    "cancel": "Ακύρωση",
+    "logoutFailed": "Η αποσύνδεση απέτυχε",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Σύνολο {count} εγγραφές",
+      "noResults": "Κανένα αποτέλεσμα",
+      "loading": "Φόρτωση...",
+      "columns": "Στήλες",
+      "rowsPerPage": "Γραμμές ανά σελίδα",
+      "page": "Σελίδα",
+      "firstPage": "Πρώτη σελίδα",
+      "lastPage": "Τελευταία σελίδα",
+      "nextPage": "Επόμενη σελίδα",
+      "previousPage": "Προηγούμενη σελίδα",
+      "ascending": "Αύξ.",
+      "descending": "Φθίν."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Δωρεάν",
+      "description": "Φιλοξενήστε βίντεο και πάρτε μόνιμο URL για κοινή χρήση",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Μέγεθος ανεβάσματος: 300MB",
+        "feature-2": "Μόνιμοι σύνδεσμοι CDN",
+        "feature-3": "Χωρίς εγγραφή",
+        "feature-4": "Υποστήριξη κοινότητας"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Προσαρμοσμένοι τομείς",
+        "limit-2": "Προσαρμοσμένη επωνυμία",
+        "limit-3": "Ενημερώσεις Lifetime"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Υψηλότερα όρια και ιστορικό ανεβασμάτων για ενεργούς δημιουργούς",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Μεγαλύτερα ανεβάσματα βίντεο",
+        "feature-2": "Αποθηκευτικός χώρος 10 GB",
+        "feature-3": "Ιστορικό ανεβασμάτων",
+        "feature-4": "Υποστήριξη προτεραιότητας",
+        "feature-5": "Προσαρμοσμένοι τομείς"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Προσαρμοσμένη επωνυμία",
+        "limit-2": "Ενημερώσεις Lifetime"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Πληρώστε μία φορά για μακροχρόνια χωρητικότητα φιλοξενίας βίντεο",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Όλες οι δυνατότητες Pro",
+        "feature-2": "Αποθηκευτικός χώρος 100 GB",
+        "feature-3": "Αφιερωμένη υποστήριξη",
+        "feature-4": "Ασφάλεια επιχειρησιακού επιπέδου",
+        "feature-5": "Προηγμένες ενσωματώσεις",
+        "feature-6": "Προσαρμοσμένη επωνυμία",
+        "feature-7": "Ενημερώσεις Lifetime"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Λυπούμαστε, η σελίδα που αναζητάτε δεν υπάρχει.",
+    "backToHome": "Επιστροφή στην αρχική"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ωχ! Κάτι πήγε στραβά!",
+    "tryAgain": "Δοκιμάστε ξανά",
+    "backToHome": "Επιστροφή στην αρχική"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Σχετικά",
+    "description": "Το MP4toURL μετατρέπει τα βίντεό σας σε μόνιμους συνδέσμους κοινής χρήσης — ανεβάστε MP4, MOV, AVI, WebM ή MKV και μοιραστείτε τα σε δευτερόλεπτα.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Δωρεάν μετατροπέας βίντεο σε URL",
+    "introduction": "Το MP4toURL είναι ένας δωρεάν, γρήγορος τρόπος να φιλοξενείτε και να μοιράζεστε βίντεο. Ανεβάστε ένα αρχείο, πάρτε μόνιμο σύνδεσμο CDN και χρησιμοποιήστε τον παντού — χωρίς περίπλοκη ρύθμιση.",
     "imageAlt": "Σήμα επωνυμίας MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Επικοινωνήστε μαζί μας",
+    "followMe": "Ακολουθήστε στο X"
   },
   "ContactPage": {
     "title": "Επικοινωνία",
-    "description": "Στείλτε μας μήνυμα για μεταφορτώσεις βίντεο, συνδέσμους κοινής χρήσης ή τον λογαριασμό σας. Διαβάζουμε κάθε μήνυμα και απαντάμε το συντομότερο δυνατό.",
+    "description": "Στείλτε μήνυμα για ανεβάσματα βίντεο, συνδέσμους κοινής χρήσης ή τον λογαριασμό σας. Διαβάζουμε κάθε μήνυμα και απαντάμε το συντομότερο δυνατό.",
     "subtitle": "Ερωτήσεις για το MP4toURL; Χαιρόμαστε να βοηθήσουμε.",
     "orEmail": "Ή στείλτε μας email στο",
     "form": {
       "title": "Μήνυμα",
-      "description": "Στείλτε ένα μήνυμα και θα απαντήσουμε το συντομότερο δυνατό.",
+      "description": "Στείλτε μήνυμα και θα απαντήσουμε το συντομότερο δυνατό.",
       "name": "Θέμα",
       "email": "Email",
       "message": "Μήνυμα",
@@ -155,348 +125,166 @@
       "emailPlaceholder": "Email",
       "messagePlaceholder": "Εισαγάγετε μήνυμα",
       "submit": "Υποβολή",
-      "submitting": "Υποβολή…",
-      "success": "Το μήνυμα στάλθηκε με επιτυχία. Θα απαντήσουμε το συντομότερο δυνατό.",
+      "submitting": "Υποβολή...",
+      "success": "Το μήνυμα στάλθηκε επιτυχώς. Θα απαντήσουμε το συντομότερο δυνατό.",
       "minLength": "Το θέμα πρέπει να έχει τουλάχιστον 3 χαρακτήρες.",
       "maxLengthName": "Το θέμα δεν πρέπει να υπερβαίνει τους 100 χαρακτήρες.",
-      "invalidEmail": "Εισαγάγετε μια έγκυρη διεύθυνση email.",
+      "invalidEmail": "Εισαγάγετε έγκυρη διεύθυνση email.",
       "minLengthMessage": "Το μήνυμα πρέπει να έχει τουλάχιστον 10 χαρακτήρες.",
       "maxLengthMessage": "Το μήνυμα δεν πρέπει να υπερβαίνει τους 2000 χαρακτήρες.",
       "invalid": "Κάτι πήγε στραβά. Δοκιμάστε ξανά."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
+      "title": "Σύνδεση",
+      "welcomeBack": "Καλώς ήρθατε ξανά",
       "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Κωδικός",
+      "signIn": "Σύνδεση",
+      "signUpHint": "Δεν έχετε λογαριασμό; Εγγραφή",
+      "forgotPassword": "Ξεχάσατε τον κωδικό;",
+      "signInWithGoogle": "Σύνδεση με Google",
+      "showPassword": "Εμφάνιση κωδικού",
+      "hidePassword": "Απόκρυψη κωδικού",
+      "or": "Ή συνεχίστε με",
+      "emailRequired": "Εισαγάγετε το email σας",
+      "passwordRequired": "Εισαγάγετε τον κωδικό σας",
+      "captchaInvalid": "Η επαλήθευση captcha απέτυχε",
+      "captchaError": "Σφάλμα επαλήθευσης captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
+      "title": "Εγγραφή",
+      "createAccount": "Δημιουργία λογαριασμού",
+      "name": "Όνομα",
       "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Κωδικός",
+      "signUp": "Εγγραφή",
+      "signInHint": "Έχετε ήδη λογαριασμό; Σύνδεση",
+      "checkEmail": "Ελέγξτε τα εισερχόμενα του email σας",
+      "showPassword": "Εμφάνιση κωδικού",
+      "hidePassword": "Απόκρυψη κωδικού",
+      "nameRequired": "Εισαγάγετε το όνομά σας",
+      "emailRequired": "Εισαγάγετε το email σας",
+      "passwordRequired": "Εισαγάγετε τον κωδικό σας",
+      "captchaInvalid": "Η επαλήθευση captcha απέτυχε",
+      "captchaError": "Σφάλμα επαλήθευσης captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
+      "title": "Ξεχάσατε τον κωδικό",
       "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "send": "Αποστολή συνδέσμου επαναφοράς",
+      "backToLogin": "Επιστροφή στη σύνδεση",
+      "checkEmail": "Αν υπάρχει λογαριασμός με αυτό το email, στείλαμε σύνδεσμο επαναφοράς. Ελέγξτε τα εισερχόμενα.",
+      "emailRequired": "Εισαγάγετε το email σας",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Δεν βρέθηκε λογαριασμός με αυτό το email",
+        "tooManyRequests": "Πάρα πολλές προσπάθειες. Δοκιμάστε αργότερα",
+        "serverError": "Κάτι πήγε στραβά. Δοκιμάστε ξανά"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Επαναφορά κωδικού",
+      "password": "Νέος κωδικός",
+      "reset": "Επαναφορά κωδικού",
+      "backToLogin": "Επιστροφή στη σύνδεση",
+      "showPassword": "Εμφάνιση κωδικού",
+      "hidePassword": "Απόκρυψη κωδικού",
+      "minLength": "Ο κωδικός πρέπει να έχει τουλάχιστον 8 χαρακτήρες",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Ο σύνδεσμος επαναφοράς έληξε. Ζητήστε νέο",
+        "invalidToken": "Μη έγκυρος σύνδεσμος επαναφοράς. Ζητήστε νέο",
+        "tooManyRequests": "Πάρα πολλές προσπάθειες. Δοκιμάστε αργότερα",
+        "serverError": "Κάτι πήγε στραβά. Δοκιμάστε ξανά"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ωχ! Κάτι πήγε στραβά!",
+      "tryAgain": "Δοκιμάστε ξανά.",
+      "backToLogin": "Επιστροφή στη σύνδεση",
+      "checkEmail": "Ελέγξτε τα εισερχόμενα του email σας"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Όροι χρήσης",
+      "privacyPolicy": "Πολιτική απορρήτου",
+      "byClickingContinue": "Κάνοντας συνέχεια, συμφωνείτε με τους ",
+      "and": " και "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Αρχική"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "Συχνές ερωτήσεις"
       },
       "about": {
         "title": "Σχετικά"
       },
       "contact": {
         "title": "Επικοινωνία"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Ανεβάστε βίντεο, πάρτε μόνιμο σύνδεσμο κοινής χρήσης",
       "product": {
-        "title": "Product",
+        "title": "Προϊόν",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Δυνατότητες",
+          "faq": "Συχνές ερωτήσεις"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Εταιρεία",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Σχετικά",
+          "contact": "Επικοινωνία"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Νομικά",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Πολιτική cookies",
+          "privacyPolicy": "Πολιτική απορρήτου",
+          "termsOfService": "Όροι χρήσης"
         }
       }
     },
     "avatar": {
-      "dashboard": "Χώρος εργασίας",
-      "resources": "Οι πόροι μου",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "dashboard": "Πάγκος εργασίας",
+      "resources": "Τα μέσα μου",
+      "billing": "Χρεώσεις",
+      "settings": "Ρυθμίσεις"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Χώρος εργασίας"
+      "title": "Πάγκος εργασίας"
     },
     "home": {
       "loading": "Φόρτωση επισκόπησης…",
       "resourceCount": "Βίντεο",
-      "videoCountLabel": "Βίντεο στους Πόρους μου",
-      "storageFullHint": "Ο χώρος της δωρεάν δοκιμής είναι γεμάτος. Διαγράψτε ορισμένα βίντεο· πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα.",
-      "entryResourcesTitle": "Οι πόροι μου",
-      "entryResourcesDesc": "Τα ανεβασμένα βίντεο είναι εδώ — αντιγράψτε συνδέσμους, ανοίξτε ή διαγράψτε ανά πάσα στιγμή.",
-      "entryUploadTitle": "Μεταφόρτωση βίντεο",
-      "entryUploadDesc": "Αφήστε ένα βίντεο στην αρχική σελίδα και αποκτήστε κοινοποιήσιμο σύνδεσμο σε λίγα δευτερόλεπτα.",
-      "entryFilesTitle": "Οι πόροι μου",
-      "entryFilesDesc": "Οι μεταφορτώσεις όσο είστε συνδεδεμένοι αποθηκεύονται στον λογαριασμό. Αντιγράψτε το URL ή διαγράψτε άχρηστα αρχεία.",
-      "entryFilesCta": "Άνοιγμα των πόρων μου",
-      "filesPointUploadTitle": "Πολλές μορφές",
+      "videoCountLabel": "Βίντεο στα Μέσα μου",
+      "storageFullHint": "Ο δωρεάν δοκιμαστικός χώρος είναι γεμάτος. Διαγράψτε κάποια βίντεο· σύντομα έρχονται πλάνα με μεγαλύτερη χωρητικότητα.",
+      "entryResourcesTitle": "Τα μέσα μου",
+      "entryResourcesDesc": "Τα ανεβασμένα βίντεό σας βρίσκονται εδώ — αντιγράψτε συνδέσμους, ανοίξτε ή διαγράψτε οποιαδήποτε στιγμή.",
+      "entryUploadTitle": "Ανέβασμα βίντεο",
+      "entryUploadDesc": "Αφήστε ένα βίντεο στην αρχική σελίδα και πάρτε σύνδεσμο κοινής χρήσης σε δευτερόλεπτα.",
+      "entryFilesTitle": "Τα μέσα μου",
+      "entryFilesDesc": "Τα ανεβάσματα ενώ είστε συνδεδεμένοι αποθηκεύονται στον λογαριασμό σας. Αντιγράψτε το URL ή αφαιρέστε αρχεία που δεν χρειάζεστε.",
+      "entryFilesCta": "Άνοιγμα Μέσων μου",
+      "filesPointUploadTitle": "Πολλά φορμάτ",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV και άλλα",
       "filesPointManageTitle": "Διαχείριση συνδέσμων",
-      "filesPointManageBody": "Αντιγραφή, άνοιγμα ή διαγραφή από Οι πόροι μου",
+      "filesPointManageBody": "Αντιγραφή, άνοιγμα ή διαγραφή από τα Μέσα μου",
       "filesPointFreeTitle": "Δωρεάν αποθήκευση",
       "filesPointFreeBody": "300 MB δωρεάν για φιλοξενούμενα βίντεο",
       "filesPointPaidTitle": "Πληρωμένα πλάνα",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
-      "title": "Οι πόροι μου",
+      "title": "Τα μέσα μου",
       "welcome": "Καλώς ήρθατε ξανά, {name}",
       "storage": "Αποθήκευση",
       "storageHint": "Χρησιμοποιημένος χώρος φιλοξενίας βίντεο",
@@ -505,18 +293,18 @@
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Ενεργό",
-      "planHintFree": "Η δωρεάν δοκιμή είναι διαθέσιμη τώρα. Πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα.",
+      "planHintFree": "Διαθέσιμη δωρεάν δοκιμή. Σύντομα έρχονται πλάνα με μεγαλύτερη χωρητικότητα.",
       "planHintPro": "Είστε στο Pro (10 GB). Το Lifetime ξεκλειδώνει 100 GB.",
       "planHintLifetime": "Όλες οι δυνατότητες ξεκλειδωμένες",
-      "description": "Βίντεο που ανεβάσατε ενώ ήσασταν συνδεδεμένοι. Ανεβάστε εδώ, δείτε προεπισκόπηση, κατεβάστε ή διαγράψτε οποιαδήποτε στιγμή.",
-      "empty": "Δεν υπάρχουν ακόμη βίντεο",
-      "emptyHint": "Κάντε κλικ στο Μεταφόρτωση ή στην κάρτα + για να προσθέσετε το πρώτο βίντεο.",
-      "goUpload": "Μεταφόρτωση βίντεο",
-      "upload": "Μεταφόρτωση",
-      "uploading": "Μεταφόρτωση…",
-      "uploadSuccess": "Η μεταφόρτωση ολοκληρώθηκε",
-      "uploadFailed": "Η μεταφόρτωση απέτυχε",
-      "unsupportedType": "Υποστηρίζονται μόνο μορφές βίντεο (MP4, MOV, AVI, WebM, MKV…)",
+      "description": "Βίντεο που ανεβάσατε ενώ ήσασταν συνδεδεμένοι. Ανεβάστε εδώ, προεπισκόπηση, λήψη ή διαγραφή οποιαδήποτε στιγμή.",
+      "empty": "Δεν υπάρχουν ακόμα βίντεο",
+      "emptyHint": "Κάντε κλικ στο Ανέβασμα ή στην κάρτα + για να προσθέσετε το πρώτο σας βίντεο.",
+      "goUpload": "Ανέβασμα βίντεο",
+      "upload": "Ανέβασμα",
+      "uploading": "Ανέβασμα…",
+      "uploadSuccess": "Το ανέβασμα ολοκληρώθηκε",
+      "uploadFailed": "Το ανέβασμα απέτυχε",
+      "unsupportedType": "Υποστηρίζονται μόνο φορμάτ βίντεο (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "Το αρχείο είναι πολύ μεγάλο. Το δωρεάν πλάνο επιτρέπει έως 300MB ανά αρχείο.",
       "filterFormat": "Τύπος αρχείου",
       "formatAll": "Όλοι οι τύποι",
@@ -534,18 +322,18 @@
       "viewGrid": "Προβολή πλέγματος",
       "viewList": "Προβολή λίστας",
       "loading": "Φόρτωση…",
-      "loadError": "Αποτυχία φόρτωσης πόρων",
+      "loadError": "Αποτυχία φόρτωσης μέσων",
       "searchPlaceholder": "Αναζήτηση με όνομα αρχείου…",
       "search": "Αναζήτηση",
       "reset": "Επαναφορά",
       "copyUrl": "Αντιγραφή URL",
       "copied": "Το URL αντιγράφηκε",
-      "copyFailed": "Αποτυχία αντιγραφής",
+      "copyFailed": "Δεν ήταν δυνατή η αντιγραφή",
       "open": "Άνοιγμα",
       "preview": "Προεπισκόπηση",
       "previewClose": "Κλείσιμο",
-      "shareCodes": "Κωδικοί κοινοποίησης",
-      "shareCodesDesc": "Σύνδεσμοι έτοιμοι για αντιγραφή για Markdown, HTML, BBCode και άλλα.",
+      "shareCodes": "Κώδικες κοινής χρήσης",
+      "shareCodesDesc": "Έτοιμοι σύνδεσμοι για Markdown, HTML, BBCode και άλλα.",
       "download": "Λήψη",
       "delete": "Διαγραφή",
       "deleteTitle": "Διαγραφή βίντεο",
@@ -554,310 +342,221 @@
       "deleteFailed": "Αποτυχία διαγραφής βίντεο",
       "cancel": "Ακύρωση",
       "totalCount": "{total} συνολικά",
-      "pagePrev": "Προηγούμενο",
-      "pageNext": "Επόμενο"
+      "pagePrev": "Προηγούμενη",
+      "pageNext": "Επόμενη"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Διαχείριση",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Χρήστες",
+        "fakeData": "Σημείωση: Ψευδή δεδομένα για επίδειξη, ορισμένες δυνατότητες είναι απενεργοποιημένες",
+        "error": "Αποτυχία λήψης χρηστών",
+        "search": "Αναζήτηση χρηστών...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
+          "columns": "Στήλες",
+          "name": "Όνομα",
           "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "role": "Ρόλος",
+          "createdAt": "Δημιουργήθηκε",
+          "customerId": "Αναγνωριστικό πελάτη",
+          "status": "Κατάσταση",
+          "banReason": "Λόγος αποκλεισμού",
+          "banExpires": "Λήξη αποκλεισμού"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Διαχειριστής",
+        "user": "Χρήστης",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Email επαληθευμένο",
+          "unverified": "Email μη επαληθευμένο"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Το email αντιγράφηκε στο πρόχειρο",
+        "banned": "Αποκλεισμένος",
+        "active": "Ενεργός",
+        "joined": "Εγγράφηκε στις",
+        "updated": "Ενημερώθηκε στις",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Λόγος αποκλεισμού",
+          "reasonPlaceholder": "Εισαγάγετε τον λόγο αποκλεισμού αυτού του χρήστη",
+          "defaultReason": "Ανεπιθύμητα μηνύματα",
+          "never": "Ποτέ",
+          "expires": "Λήξη αποκλεισμού",
+          "selectDate": "Επιλογή ημερομηνίας",
+          "button": "Αποκλεισμός χρήστη",
+          "success": "Ο χρήστης αποκλείστηκε",
+          "error": "Αποτυχία αποκλεισμού χρήστη"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Άρση αποκλεισμού",
+          "success": "Ο αποκλεισμός του χρήστη άρθηκε",
+          "error": "Αποτυχία άρσης αποκλεισμού"
         },
-        "close": "Close"
+        "close": "Κλείσιμο"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Ρυθμίσεις",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Προφίλ",
+        "description": "Διαχείριση πληροφοριών λογαριασμού",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Άβαταρ",
+          "description": "Κάντε κλικ στο κουμπί ανεβάσματος για προσαρμοσμένο άβαταρ",
+          "recommendation": "Το άβαταρ είναι προαιρετικό αλλά συνιστάται έντονα",
+          "uploading": "Ανέβασμα...",
+          "uploadAvatar": "Ανέβασμα άβαταρ",
+          "success": "Το άβαταρ ενημερώθηκε επιτυχώς",
+          "fail": "Αποτυχία ενημέρωσης άβαταρ"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Όνομα",
+          "description": "Εισαγάγετε το εμφανιζόμενο όνομά σας",
+          "placeholder": "Εισαγάγετε το όνομά σας",
+          "minLength": "Χρησιμοποιήστε τουλάχιστον 3 χαρακτήρες",
+          "maxLength": "Χρησιμοποιήστε το πολύ 30 χαρακτήρες",
+          "hint": "Χρησιμοποιήστε 3–30 χαρακτήρες για το όνομά σας",
+          "success": "Το όνομα ενημερώθηκε επιτυχώς",
+          "fail": "Αποτυχία ενημέρωσης ονόματος",
+          "saving": "Αποθήκευση...",
+          "save": "Αποθήκευση"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Χρεώσεις",
+        "description": "Διαχείριση συνδρομής και στοιχείων χρέωσης",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Ενεργό",
+          "trial": "Δοκιμή",
+          "free": "Δωρεάν",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "μήνας",
+          "year": "έτος",
+          "oneTime": "εφάπαξ"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Τρέχον πλάνο",
+          "description": "Λεπτομέρειες του τρέχοντος πλάνου σας",
+          "noPlan": "Δεν έχετε ενεργό πλάνο"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Φόρτωση...",
+          "createCustomerPortalFailed": "Αποτυχία ανοίγματος πύλης πελάτη Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Τιμή:",
+        "periodStartDate": "Ημερομηνία έναρξης περιόδου:",
+        "periodEndDate": "Ημερομηνία λήξης περιόδου:",
+        "trialEnds": "Η δοκιμή λήγει:",
+        "freePlanMessage": "Είστε στο δωρεάν πλάνο με περιορισμένες δυνατότητες",
+        "lifetimeMessage": "Έχετε ισόβια πρόσβαση σε όλες τις premium δυνατότητες",
+        "manageSubscription": "Διαχείριση συνδρομής και χρεώσεων",
+        "manageBilling": "Διαχείριση χρεώσεων",
+        "upgradePlan": "Αναβάθμιση πλάνου",
+        "retry": "Επανάληψη",
+        "errorMessage": "Αποτυχία λήψης δεδομένων",
+        "paymentSuccess": "Επιτυχής πληρωμή"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Επεξεργασία πληρωμής",
+          "description": "Περιμένετε όσο επιβεβαιώνουμε την πληρωμή σας..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Επιτυχής πληρωμή",
+          "description": "Αυτόματη ανακατεύθυνση..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Αποτυχία πληρωμής",
+          "description": "Υπήρξε πρόβλημα κατά την επεξεργασία της πληρωμής σας."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Λήξη χρόνου επεξεργασίας",
+          "description": "Η επεξεργασία της πληρωμής διαρκεί περισσότερο από το αναμενόμενο."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Επανάληψη"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Ασφάλεια",
+        "description": "Διαχείριση ρυθμίσεων ασφαλείας",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Αλλαγή κωδικού",
+          "description": "Εισαγάγετε τον τρέχοντα και έναν νέο κωδικό",
+          "currentPassword": "Τρέχων κωδικός",
+          "currentRequired": "Απαιτείται ο τρέχων κωδικός",
+          "newPassword": "Νέος κωδικός",
+          "newMinLength": "Ο κωδικός πρέπει να έχει τουλάχιστον 8 χαρακτήρες",
+          "hint": "Χρησιμοποιήστε τουλάχιστον 8 χαρακτήρες για τον κωδικό",
+          "showPassword": "Εμφάνιση κωδικού",
+          "hidePassword": "Απόκρυψη κωδικού",
+          "success": "Ο κωδικός ενημερώθηκε επιτυχώς",
+          "fail": "Αποτυχία ενημέρωσης κωδικού",
+          "saving": "Αποθήκευση...",
+          "save": "Αποθήκευση"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Επαναφορά κωδικού",
+          "description": "Επαναφέρετε τον κωδικό για σύνδεση με email",
+          "info": "Η επαναφορά του κωδικού σάς επιτρέπει να συνδέεστε με email και κωδικό επιπλέον των κοινωνικών μεθόδων σύνδεσης. Θα λάβετε email με οδηγίες επαναφοράς.",
+          "button": "Επαναφορά κωδικού"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Διαγραφή λογαριασμού",
+          "description": "Οριστική αφαίρεση του λογαριασμού και όλου του περιεχομένου του",
+          "warning": "Αυτή η ενέργεια δεν αντιστρέφεται — συνεχίστε με προσοχή",
+          "button": "Διαγραφή λογαριασμού",
+          "confirmTitle": "Διαγραφή λογαριασμού",
+          "confirmDescription": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+          "confirm": "Διαγραφή",
+          "cancel": "Ακύρωση",
+          "deleting": "Διαγραφή...",
+          "success": "Ο λογαριασμός διαγράφηκε επιτυχώς",
+          "fail": "Αποτυχία διαγραφής λογαριασμού"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Πλάνα με μεγαλύτερη χωρητικότητα έρχονται σύντομα. Η δωρεάν δοκιμή είναι διαθέσιμη τώρα.",
-      "button": "Upgrade"
+      "title": "Αναβάθμιση",
+      "description": "Σύντομα έρχονται πλάνα με μεγαλύτερη χωρητικότητα. Η δωρεάν δοκιμή είναι διαθέσιμη τώρα.",
+      "button": "Αναβάθμιση"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Ομάδα {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Γεια σας, {name}.",
+      "body": "Κάντε κλικ στον παρακάτω σύνδεσμο για να επαληθεύσετε τη διεύθυνση email σας.",
+      "confirmEmail": "Επιβεβαίωση email",
+      "subject": "Επαλήθευση email"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Γεια σας, {name}.",
+      "body": "Λάβαμε αίτημα επαναφοράς του κωδικού σας στο MP4toURL. Κάντε κλικ στο κουμπί παρακάτω για να επιλέξετε νέο κωδικό. Αν δεν το ζητήσατε εσείς, αγνοήστε αυτό το email.",
+      "resetPassword": "Επαναφορά κωδικού",
+      "subject": "Επαναφορά κωδικού MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
+      "name": "Όνομα: {name}",
       "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "message": "Μήνυμα: {message}",
+      "subject": "Μήνυμα επικοινωνίας από τον ιστότοπο"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "ΚΩΔΙΚΟΙ ΕΤΟΙΜΟΙ ΓΙΑ ΑΝΤΙΓΡΑΦΗ",
+    "sectionTitle": "ΈΤΟΙΜΟΙ ΚΩΔΙΚΕΣ ΑΝΤΙΓΡΑΦΗΣ",
     "copyUrl": "Αντιγραφή URL",
     "copied": "Αντιγράφηκε",
-    "copyFailed": "Αποτυχία αντιγραφής",
+    "copyFailed": "Δεν ήταν δυνατή η αντιγραφή",
     "openTab": "Άνοιγμα σε νέα καρτέλα",
     "successTitle": "Επιτυχία! Το URL του βίντεό σας είναι έτοιμο",
-    "successSubtitle": "Το βίντεο ανέβηκε και είναι έτοιμο για κοινοποίηση.",
+    "successSubtitle": "Το βίντεό σας ανέβηκε και είναι έτοιμο για κοινή χρήση.",
     "videoLabel": "Βίντεο",
     "watchLabel": "Παρακολούθηση βίντεο",
     "shareLink": {
-      "title": "Σύνδεσμος κοινοποίησης",
-      "desc": "Άμεσος σύνδεσμος για κοινοποίηση οπουδήποτε"
+      "title": "Σύνδεσμος κοινής χρήσης",
+      "desc": "Άμεσος σύνδεσμος για κοινή χρήση παντού"
     },
     "markdown": {
       "title": "Markdown",
@@ -869,7 +568,7 @@
     },
     "html": {
       "title": "HTML",
-      "desc": "Ενσωμάτωση με τον εγγενή αναπαραγωγέα βίντεο"
+      "desc": "Ενσωμάτωση με εγγενή αναπαραγωγό βίντεο"
     },
     "htmlLink": {
       "title": "HTML με σύνδεσμο",
@@ -886,136 +585,136 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Ανεβάστε ένα βίντεο και πάρτε μόνιμο σύνδεσμο κοινής χρήσης",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Το βίντεό σας ανέβηκε. Αντιγράψτε τον σύνδεσμο παρακάτω για να το κοινοποιήσετε.",
+      "title": "Δωρεάν μετατροπέας βίντεο σε URL",
+      "description": "Ανεβάστε βίντεο MP4 και λάβετε μόνιμους συνδέσμους κοινής χρήσης σε δευτερόλεπτα.",
+      "tagline": "Υποστήριξη MP4, MOV, AVI, WebM, MKV έως 300MB. Χωρίς εγγραφή.",
+      "uploadHeading": "Ανεβάστε το βίντεό σας",
+      "uploadTitle": "Αφήστε το βίντεο εδώ ή κάντε κλικ για επιλογή",
+      "uploadHint": "Υποστηρίζει MP4, MOV, AVI, WebM, MKV έως 300MB",
+      "maxSize": "Μέγιστο μέγεθος αρχείου: 300MB",
+      "convert": "Μετατροπή σε URL",
+      "uploading": "Ανέβασμα...",
+      "copy": "Αντιγραφή συνδέσμου",
+      "copied": "Αντιγράφηκε",
+      "guestSuccessHint": "Το βίντεό σας ανέβηκε. Αντιγράψτε τον παρακάτω σύνδεσμο για να τον μοιραστείτε.",
       "registerForCodesTitle": "Θέλετε Markdown, HTML και BBCode;",
-      "registerForCodesDesc": "Εγγραφείτε δωρεάν για να ξεκλειδώσετε κωδικούς ενσωμάτωσης έτοιμους για αντιγραφή και να διαχειρίζεστε όλα τα βίντεο στους Πόρους μου.",
+      "registerForCodesDesc": "Εγγραφείτε δωρεάν για να ξεκλειδώσετε έτοιμους κώδικες ενσωμάτωσης και να διαχειρίζεστε κάθε βίντεο στα Μέσα μου.",
       "registerCta": "Δωρεάν εγγραφή",
       "uploadAnother": "Ανέβασμα άλλου βίντεο",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Το ανέβασμα απέτυχε. Δοκιμάστε ξανά.",
+      "unsupportedType": "Μη υποστηριζόμενος τύπος αρχείου. Ανεβάστε MP4, MOV, AVI, WebM ή MKV.",
+      "fileTooLarge": "Το αρχείο είναι πολύ μεγάλο. Το δωρεάν πλάνο επιτρέπει έως 300MB ανά αρχείο."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Γιατί να επιλέξετε το MP4 to URL",
+      "subtitle": "Φτιαγμένο για ταχύτητα, ιδιωτικότητα και μόνιμους συνδέσμους πολυμέσων.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Αστραπιαία ταχύτητα",
+          "description": "Ανεβάστε και μετατρέψτε τα βίντεό σας σε URL κοινής χρήσης σε δευτερόλεπτα. Χωρίς αναμονή, χωρίς ουρές."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Ασφαλές και ιδιωτικό",
+          "description": "Τα βίντεό σας μεταφέρονται μέσω HTTPS και φιλοξενούνται με ελέγχους που δίνουν προτεραιότητα στην ιδιωτικότητα."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Μόνιμοι σύνδεσμοι",
+          "description": "Λάβετε μόνιμους συνδέσμους που δεν λήγουν ποτέ. Ιδανικοί για τεκμηρίωση, αιτήματα και κοινωνική κοινή χρήση."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: βίντεο σε URL σε δευτερόλεπτα"
+      "title": "Βίντεο σε URL, σε δευτερόλεπτα",
+      "subtitle": "Από τοπικό αρχείο σε σύνδεσμο κοινής χρήσης",
+      "description": "Ανεβάστε MP4 και σχετικά φορμάτ, πάρτε καθαρό μόνιμο URL για επικόλληση σε έγγραφα, συνομιλίες και αναρτήσεις.",
+      "point1": "Αφήστε ένα βίντεο από τη συσκευή σας",
+      "point2": "Μετατροπή σε δευτερόλεπτα — χωρίς εγγραφή για κανονική χρήση",
+      "point3": "Αντιγράψτε μόνιμο σύνδεσμο και μοιραστείτε τον παντού",
+      "imageAlt": "Κολάζ mp4tourl.com: κάντε το βίντεο κοινόχρηστο",
+      "imageAltNew": "mp4tourl.com: βίντεο σε URL σε δευτερόλεπτα, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Πώς να το χρησιμοποιήσετε",
+      "subtitle": "Τρία βήματα από τοπικό αρχείο σε URL κοινής χρήσης.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Επιλέξτε βίντεο",
+          "description": "Σύρετε και αφήστε ή επιλέξτε MP4, MOV, AVI, WebM ή MKV (έως 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Μετατροπή σε URL",
+          "description": "Κάντε κλικ στο «Μετατροπή σε URL». Η επεξεργασία συνήθως ολοκληρώνεται σε λίγα δευτερόλεπτα."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Αντιγραφή και κοινή χρήση",
+          "description": "Αντιγράψτε τον μόνιμο σύνδεσμο και χρησιμοποιήστε τον σε έγγραφα, συνομιλίες, ιστοτόπους ή αναρτήσεις."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Σενάρια",
-      "subtitle": "Από τοπικό βίντεο σε κοινοποιήσιμο σύνδεσμο.",
-      "description": "Ρίξτε ένα αρχείο και πάρτε ένα καθαρό URL για έγγραφα, συνομιλίες και αναρτήσεις — δείτε μερικά παραδείγματα παρακάτω.",
+      "title": "Σκηνές",
+      "subtitle": "Από τοπικό βίντεο σε σύνδεσμο κοινής χρήσης.",
+      "description": "Αφήστε ένα αρχείο, πάρτε καθαρό URL για έγγραφα, συνομιλίες και αναρτήσεις — δείτε μερικές εμφανίσεις παρακάτω.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Μετατρέψτε ένα τοπικό κλιπ σε κοινοποιήσιμη διεύθυνση σε δευτερόλεπτα."
+          "description": "Μετατρέψτε ένα τοπικό κλιπ σε διεύθυνση κοινής χρήσης σε δευτερόλεπτα."
         },
         "newStyle": {
-          "title": "Κοινοποιήστε παντού",
-          "description": "Επικολλήστε τον σύνδεσμο σε έγγραφα, tickets και αναρτήσεις στα social."
+          "title": "Κοινή χρήση παντού",
+          "description": "Επικολλήστε τον σύνδεσμο σε έγγραφα, αιτήματα και κοινωνικές αναρτήσεις."
         },
         "dark": {
-          "title": "Αξιόπιστη φιλοξενία",
+          "title": "Καθαρή φιλοξενία",
           "description": "Κρατήστε τα βίντεο προσβάσιμα με σταθερό, μόνιμο URL."
         },
         "retro": {
           "title": "Γρήγορη μετατροπή",
-          "description": "Ανεβάστε μία φορά, αντιγράψτε τον σύνδεσμο και ξαναχρησιμοποιήστε τον όποτε θέλετε."
+          "description": "Ανεβάστε μία φορά, αντιγράψτε τον σύνδεσμο, επαναχρησιμοποιήστε τον όποτε χρειαστεί."
         }
       }
     },
     "faqs": {
       "title": "Συχνές ερωτήσεις",
-      "subtitle": "Ό,τι ίσως θέλετε να μάθετε για βίντεο σε URL.",
+      "subtitle": "Όσα ίσως θέλετε να μάθετε για το βίντεο σε URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Τι είναι ένας μετατροπέας βίντεο σε URL;",
+          "answer": "Ένας μετατροπέας βίντεο σε URL ανεβάζει το τοπικό αρχείο βίντεο και επιστρέφει άμεσο σύνδεσμο ιστού που μπορείτε να μοιραστείτε παντού."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Πώς λειτουργεί η μετατροπή βίντεο σε URL;",
+          "answer": "Ανεβάστε το βίντεό σας, περιμένετε να ολοκληρωθεί η επεξεργασία και αντιγράψτε το παραγόμενο URL. Μπορείτε να ανοίξετε, να μοιραστείτε ή να ενσωματώσετε τον σύνδεσμο αμέσως."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Ποια φορμάτ βίντεο υποστηρίζονται;",
+          "answer": "Τα υποστηριζόμενα φορμάτ περιλαμβάνουν MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP και FLV. Το δωρεάν επίπεδο επιτρέπει έως 300MB ανά αρχείο."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Είναι μόνιμοι οι παραγόμενοι σύνδεσμοι βίντεο;",
+          "answer": "Ναι. Οι παραγόμενοι σύνδεσμοι σχεδιάστηκαν για μακροχρόνια κοινή χρήση, ώστε το URL του βίντεό σας να παραμένει σταθερό και επαναχρησιμοποιήσιμο."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Πού μπορώ να χρησιμοποιήσω το URL του βίντεο;",
+          "answer": "Σε τεκμηρίωση, συστήματα αιτημάτων, συνομιλίες, ιστοτόπους, αναρτήσεις κοινωνικών μέσων και εργαλεία συνεργασίας ομάδας."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Είναι δωρεάν αυτός ο μετατροπέας βίντεο σε URL;",
+          "answer": "Ναι. Η τυπική ροή μετατροπής βίντεο σε URL είναι δωρεάν εντός των τρεχόντων ορίων ανεβάσματος."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Πόσο ασφαλές είναι το ανέβασμα και η φιλοξενία βίντεο;",
+          "answer": "Τα ανεβάσματα χρησιμοποιούν μεταφορά HTTPS και φιλοξενούνται για σταθερή παράδοση, δίνοντάς σας αξιόπιστους συνδέσμους κοινής χρήσης για περιεχόμενο βίντεο."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Ο πιο εύκολος τρόπος να μοιράζεστε βίντεο",
+      "description": "Το MP4 to URL είναι μια δωρεάν, γρήγορη ροή φιλοξενίας πολυμέσων για προγραμματιστές, δημιουργούς και ομάδες. Μετατρέψτε βίντεο σε μόνιμα URL σε δευτερόλεπτα και μοιραστείτε τα παντού.",
+      "primaryButton": "Μετατροπή σε URL",
+      "secondaryButton": "Διαβάστε τις συχνές ερωτήσεις"
     }
   }
 }

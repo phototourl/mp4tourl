@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Gratis video-naar-URL-converter – upload MP4 en krijg deelbare links",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV en krijg binnen enkele seconden permanente deelbare URL's. Gratis videohosting tot 300 MB — geen registratie nodig."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "signUp": "Registreren",
+    "language": "Taal wijzigen",
+    "languageHint": "Het kiezen van een regio wijzigt de taal en inhoud.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Modus wisselen",
+      "light": "Licht",
+      "dark": "Donker",
+      "system": "Systeem"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
+      "label": "Thema wisselen",
+      "default": "Standaard",
+      "blue": "Blauw",
+      "green": "Groen",
       "amber": "Amber",
-      "neutral": "Neutral"
+      "neutral": "Neutraal"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopiëren",
+    "saving": "Opslaan...",
+    "save": "Opslaan",
+    "loading": "Laden...",
+    "cancel": "Annuleren",
+    "logoutFailed": "Uitloggen mislukt",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Totaal {count} records",
+      "noResults": "Geen resultaten",
+      "loading": "Laden...",
+      "columns": "Kolommen",
+      "rowsPerPage": "Rijen per pagina",
+      "page": "Pagina",
+      "firstPage": "Eerste pagina",
+      "lastPage": "Laatste pagina",
+      "nextPage": "Volgende pagina",
+      "previousPage": "Vorige pagina",
+      "ascending": "Oplopend",
+      "descending": "Aflopend"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Gratis",
+      "description": "Host video's en krijg een permanente deelbare URL",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Uploadgrootte: 300 MB",
+        "feature-2": "Permanente CDN-links",
+        "feature-3": "Geen registratie nodig",
+        "feature-4": "Community-ondersteuning"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Aangepaste domeinen",
+        "limit-2": "Aangepaste branding",
+        "limit-3": "Levenslange updates"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Hogere limieten en uploadgeschiedenis voor actieve makers",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Grotere video-uploads",
+        "feature-2": "10 GB opslag",
+        "feature-3": "Uploadgeschiedenis",
+        "feature-4": "Prioriteitsondersteuning",
+        "feature-5": "Aangepaste domeinen"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Aangepaste branding",
+        "limit-2": "Levenslange updates"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Eenmalig betalen voor langdurige videohostingcapaciteit",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Alle Pro-functies",
+        "feature-2": "100 GB opslag",
+        "feature-3": "Toegewijde ondersteuning",
+        "feature-4": "Beveiliging op bedrijfsniveau",
+        "feature-5": "Geavanceerde integraties",
+        "feature-6": "Aangepaste branding",
+        "feature-7": "Levenslange updates"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Sorry, de pagina die je zoekt bestaat niet.",
+    "backToHome": "Terug naar home"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Oeps! Er is iets misgegaan!",
+    "tryAgain": "Opnieuw proberen",
+    "backToHome": "Terug naar home"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Over ons",
+    "description": "MP4toURL maakt van je video's permanente deelbare links — upload MP4, MOV, AVI, WebM of MKV en deel binnen enkele seconden.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Gratis video-naar-URL-converter",
+    "introduction": "MP4toURL is een gratis en snelle manier om video's te hosten en te delen. Upload een bestand, krijg een permanente CDN-link en gebruik die overal — zonder ingewikkelde setup.",
     "imageAlt": "MP4toURL merkteken",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Neem contact op",
+    "followMe": "Volg ons op X"
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "Stuur een bericht over video-uploads, deelbare links of je account. We lezen elk bericht en antwoorden zo snel mogelijk.",
+    "description": "Stuur een bericht over video-uploads, deelbare links of je account. We lezen elk bericht en reageren zo snel mogelijk.",
     "subtitle": "Vragen over MP4toURL? We helpen je graag.",
     "orEmail": "Of mail ons op",
     "form": {
       "title": "Bericht",
-      "description": "Stuur een bericht en we antwoorden zo snel mogelijk.",
+      "description": "Stuur een bericht en we reageren zo snel mogelijk.",
       "name": "Onderwerp",
       "email": "E-mail",
       "message": "Bericht",
@@ -155,319 +125,137 @@
       "emailPlaceholder": "E-mail",
       "messagePlaceholder": "Voer bericht in",
       "submit": "Versturen",
-      "submitting": "Bezig met versturen…",
-      "success": "Bericht succesvol verzonden. We antwoorden zo snel mogelijk.",
-      "minLength": "Het onderwerp moet minstens 3 tekens bevatten.",
-      "maxLengthName": "Het onderwerp mag maximaal 100 tekens bevatten.",
+      "submitting": "Versturen...",
+      "success": "Bericht succesvol verzonden. We reageren zo snel mogelijk.",
+      "minLength": "Onderwerp moet minimaal 3 tekens bevatten.",
+      "maxLengthName": "Onderwerp mag maximaal 100 tekens bevatten.",
       "invalidEmail": "Voer een geldig e-mailadres in.",
-      "minLengthMessage": "Het bericht moet minstens 10 tekens bevatten.",
-      "maxLengthMessage": "Het bericht mag maximaal 2000 tekens bevatten.",
-      "invalid": "Er ging iets mis. Probeer het opnieuw."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "minLengthMessage": "Bericht moet minimaal 10 tekens bevatten.",
+      "maxLengthMessage": "Bericht mag maximaal 2000 tekens bevatten.",
+      "invalid": "Er is iets misgegaan. Probeer het opnieuw."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Inloggen",
+      "welcomeBack": "Welkom terug",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "signIn": "Inloggen",
+      "signUpHint": "Nog geen account? Registreren",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "signInWithGoogle": "Inloggen met Google",
+      "showPassword": "Wachtwoord tonen",
+      "hidePassword": "Wachtwoord verbergen",
+      "or": "Of ga verder met",
+      "emailRequired": "Voer je e-mailadres in",
+      "passwordRequired": "Voer je wachtwoord in",
+      "captchaInvalid": "Captcha-verificatie mislukt",
+      "captchaError": "Captcha-verificatiefout"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Registreren",
+      "createAccount": "Account aanmaken",
+      "name": "Naam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "signUp": "Registreren",
+      "signInHint": "Heb je al een account? Inloggen",
+      "checkEmail": "Controleer je inbox",
+      "showPassword": "Wachtwoord tonen",
+      "hidePassword": "Wachtwoord verbergen",
+      "nameRequired": "Voer je naam in",
+      "emailRequired": "Voer je e-mailadres in",
+      "passwordRequired": "Voer je wachtwoord in",
+      "captchaInvalid": "Captcha-verificatie mislukt",
+      "captchaError": "Captcha-verificatiefout"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Wachtwoord vergeten",
+      "email": "E-mail",
+      "send": "Resetlink versturen",
+      "backToLogin": "Terug naar inloggen",
+      "checkEmail": "Als er een account bestaat voor dit e-mailadres, hebben we een resetlink gestuurd. Controleer je inbox.",
+      "emailRequired": "Voer je e-mailadres in",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Geen account gevonden met dit e-mailadres",
+        "tooManyRequests": "Te veel pogingen. Probeer het later opnieuw",
+        "serverError": "Er is iets misgegaan. Probeer het opnieuw"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Wachtwoord resetten",
+      "password": "Nieuw wachtwoord",
+      "reset": "Wachtwoord resetten",
+      "backToLogin": "Terug naar inloggen",
+      "showPassword": "Wachtwoord tonen",
+      "hidePassword": "Wachtwoord verbergen",
+      "minLength": "Wachtwoord moet minimaal 8 tekens bevatten",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Resetlink is verlopen. Vraag een nieuwe aan",
+        "invalidToken": "Ongeldige resetlink. Vraag een nieuwe aan",
+        "tooManyRequests": "Te veel pogingen. Probeer het later opnieuw",
+        "serverError": "Er is iets misgegaan. Probeer het opnieuw"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Oeps! Er is iets misgegaan!",
+      "tryAgain": "Probeer het opnieuw.",
+      "backToLogin": "Terug naar inloggen",
+      "checkEmail": "Controleer je inbox"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Servicevoorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "byClickingContinue": "Door op doorgaan te klikken ga je akkoord met onze ",
+      "and": " en "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Home"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "Veelgestelde vragen"
       },
       "about": {
-        "title": "Over"
+        "title": "Over ons"
       },
       "contact": {
         "title": "Contact"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Upload een video, krijg een permanente deelbare link",
       "product": {
         "title": "Product",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Functies",
+          "faq": "Veelgestelde vragen"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Bedrijf",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Over ons",
+          "contact": "Contact"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridisch",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookiebeleid",
+          "privacyPolicy": "Privacybeleid",
+          "termsOfService": "Servicevoorwaarden"
         }
       }
     },
     "avatar": {
       "dashboard": "Werkruimte",
-      "resources": "Mijn bestanden",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "resources": "Mijn bronnen",
+      "billing": "Facturering",
+      "settings": "Instellingen"
     }
   },
   "Dashboard": {
@@ -476,48 +264,48 @@
     },
     "home": {
       "loading": "Overzicht laden…",
-      "resourceCount": "Video’s",
-      "videoCountLabel": "Video’s in Mijn bestanden",
-      "storageFullHint": "De gratis proefopslag is vol. Verwijder enkele video’s; abonnementen met meer capaciteit komen binnenkort.",
-      "entryResourcesTitle": "Mijn bestanden",
-      "entryResourcesDesc": "Je geüploade video’s staan hier — kopieer links, open of verwijder wanneer je wilt.",
+      "resourceCount": "Video's",
+      "videoCountLabel": "Video's in Mijn bronnen",
+      "storageFullHint": "Gratis proefopslag is vol. Verwijder enkele video's; plannen met meer capaciteit komen binnenkort.",
+      "entryResourcesTitle": "Mijn bronnen",
+      "entryResourcesDesc": "Je geüploade video's staan hier — kopieer links, open of verwijder ze wanneer je wilt.",
       "entryUploadTitle": "Video uploaden",
-      "entryUploadDesc": "Sleep een video op de homepage en krijg binnen seconden een deelbare link.",
-      "entryFilesTitle": "Mijn bestanden",
-      "entryFilesDesc": "Uploads na inloggen worden in je account bewaard. Kopieer de URL of verwijder bestanden die je niet meer nodig hebt.",
-      "entryFilesCta": "Mijn bestanden openen",
+      "entryUploadDesc": "Sleep een video naar de homepage en krijg binnen enkele seconden een deelbare link.",
+      "entryFilesTitle": "Mijn bronnen",
+      "entryFilesDesc": "Uploads na inloggen worden opgeslagen in je account. Kopieer de URL of verwijder bestanden die je niet meer nodig hebt.",
+      "entryFilesCta": "Mijn bronnen openen",
       "filesPointUploadTitle": "Veel formaten",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV en meer",
       "filesPointManageTitle": "Links beheren",
-      "filesPointManageBody": "Kopiëren, openen of verwijderen in Mijn bestanden",
+      "filesPointManageBody": "Kopiëren, openen of verwijderen vanuit Mijn bronnen",
       "filesPointFreeTitle": "Gratis opslag",
-      "filesPointFreeBody": "300 MB gratis voor gehoste video’s",
+      "filesPointFreeBody": "300 MB gratis voor gehoste video's",
       "filesPointPaidTitle": "Betaalde plannen",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
-      "title": "Mijn bestanden",
+      "title": "Mijn bronnen",
       "welcome": "Welkom terug, {name}",
       "storage": "Opslag",
-      "storageHint": "Gebruikte video-hostingruimte",
+      "storageHint": "Gebruikte videohostingruimte",
       "planCardTitle": "Huidig plan",
       "planFree": "Gratis",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Actief",
-      "planHintFree": "Gratis proefperiode is nu beschikbaar. Abonnementen met meer capaciteit komen binnenkort.",
-      "planHintPro": "Je zit op Pro (10 GB). Lifetime ontgrendelt 100 GB.",
+      "planHintFree": "Gratis proefperiode is nu beschikbaar. Plannen met meer capaciteit komen binnenkort.",
+      "planHintPro": "Je gebruikt Pro (10 GB). Lifetime ontgrendelt 100 GB.",
       "planHintLifetime": "Alle functies ontgrendeld",
-      "description": "Video’s die je hebt geüpload terwijl je was ingelogd. Upload hier, bekijk vooraf, download of verwijder wanneer je wilt.",
-      "empty": "Nog geen video’s",
-      "emptyHint": "Klik op Uploaden of op de +-kaart om je eerste video toe te voegen.",
+      "description": "Video's die je hebt geüpload na inloggen. Upload, bekijk, download of verwijder wanneer je wilt.",
+      "empty": "Nog geen video's",
+      "emptyHint": "Klik op Uploaden of de +-kaart om je eerste video toe te voegen.",
       "goUpload": "Video uploaden",
       "upload": "Uploaden",
-      "uploading": "Bezig met uploaden…",
+      "uploading": "Uploaden…",
       "uploadSuccess": "Upload voltooid",
       "uploadFailed": "Upload mislukt",
       "unsupportedType": "Alleen videoformaten worden ondersteund (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Bestand te groot. Het gratis plan staat tot 300MB per bestand toe.",
+      "fileTooLarge": "Bestand te groot. Gratis plan staat maximaal 300 MB per bestand toe.",
       "filterFormat": "Bestandstype",
       "formatAll": "Alle typen",
       "format": {
@@ -534,322 +322,233 @@
       "viewGrid": "Rasterweergave",
       "viewList": "Lijstweergave",
       "loading": "Laden…",
-      "loadError": "Bestanden laden mislukt",
+      "loadError": "Bronnen laden mislukt",
       "searchPlaceholder": "Zoeken op bestandsnaam…",
       "search": "Zoeken",
       "reset": "Resetten",
       "copyUrl": "URL kopiëren",
       "copied": "URL gekopieerd",
-      "copyFailed": "Kopiëren mislukt",
+      "copyFailed": "Kon niet kopiëren",
       "open": "Openen",
       "preview": "Voorbeeld",
       "previewClose": "Sluiten",
       "shareCodes": "Deelcodes",
-      "shareCodesDesc": "Kant-en-klare links voor Markdown, HTML, BBCode en meer.",
+      "shareCodesDesc": "Klaar-voor-kopieer links voor Markdown, HTML, BBCode en meer.",
       "download": "Downloaden",
       "delete": "Verwijderen",
       "deleteTitle": "Video verwijderen",
-      "deleteConfirm": "Hiermee wordt de video permanent uit je account verwijderd. Dit kan niet ongedaan worden gemaakt.",
+      "deleteConfirm": "Dit verwijdert de video permanent uit je account. Dit kan niet ongedaan worden gemaakt.",
       "deleteSuccess": "Video verwijderd",
       "deleteFailed": "Video verwijderen mislukt",
       "cancel": "Annuleren",
-      "totalCount": "{total} in totaal",
+      "totalCount": "{total} totaal",
       "pagePrev": "Vorige",
       "pageNext": "Volgende"
     },
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Gebruikers",
+        "fakeData": "Let op: nepdata voor demonstratie, sommige functies zijn uitgeschakeld",
+        "error": "Gebruikers ophalen mislukt",
+        "search": "Gebruikers zoeken...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "columns": "Kolommen",
+          "name": "Naam",
+          "email": "E-mail",
+          "role": "Rol",
+          "createdAt": "Aangemaakt",
+          "customerId": "Klant-ID",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Reden blokkade",
+          "banExpires": "Blokkade verloopt"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Gebruiker",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mail geverifieerd",
+          "unverified": "E-mail niet geverifieerd"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mail gekopieerd naar klembord",
+        "banned": "Geblokkeerd",
+        "active": "Actief",
+        "joined": "Lid sinds",
+        "updated": "Bijgewerkt",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Reden blokkade",
+          "reasonPlaceholder": "Voer de reden in voor het blokkeren van deze gebruiker",
+          "defaultReason": "Spam",
+          "never": "Nooit",
+          "expires": "Blokkade verloopt",
+          "selectDate": "Datum selecteren",
+          "button": "Gebruiker blokkeren",
+          "success": "Gebruiker is geblokkeerd",
+          "error": "Gebruiker blokkeren mislukt"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Blokkade opheffen",
+          "success": "Blokkade van gebruiker opgeheven",
+          "error": "Blokkade opheffen mislukt"
         },
-        "close": "Close"
+        "close": "Sluiten"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Instellingen",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profiel",
+        "description": "Beheer je accountgegevens",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Klik op uploaden om een eigen avatar te uploaden",
+          "recommendation": "Een avatar is optioneel maar sterk aanbevolen",
+          "uploading": "Uploaden...",
+          "uploadAvatar": "Avatar uploaden",
+          "success": "Avatar succesvol bijgewerkt",
+          "fail": "Avatar bijwerken mislukt"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Naam",
+          "description": "Voer je weergavenaam in",
+          "placeholder": "Voer je naam in",
+          "minLength": "Gebruik minimaal 3 tekens",
+          "maxLength": "Gebruik maximaal 30 tekens",
+          "hint": "Gebruik 3–30 tekens voor je naam",
+          "success": "Naam succesvol bijgewerkt",
+          "fail": "Naam bijwerken mislukt",
+          "saving": "Opslaan...",
+          "save": "Opslaan"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Facturering",
+        "description": "Beheer je abonnement en factuurgegevens",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Actief",
+          "trial": "Proef",
+          "free": "Gratis",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "maand",
+          "year": "jaar",
+          "oneTime": "eenmalig"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Huidig plan",
+          "description": "Details van je huidige plan",
+          "noPlan": "Je hebt geen actief plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Laden...",
+          "createCustomerPortalFailed": "Stripe-klantenportaal openen mislukt"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Prijs:",
+        "periodStartDate": "Startdatum periode:",
+        "periodEndDate": "Einddatum periode:",
+        "trialEnds": "Proefperiode eindigt:",
+        "freePlanMessage": "Je gebruikt momenteel het gratis plan met beperkte functies",
+        "lifetimeMessage": "Je hebt levenslange toegang tot alle premiumfuncties",
+        "manageSubscription": "Abonnement en facturering beheren",
+        "manageBilling": "Facturering beheren",
+        "upgradePlan": "Plan upgraden",
+        "retry": "Opnieuw",
+        "errorMessage": "Gegevens ophalen mislukt",
+        "paymentSuccess": "Betaling geslaagd"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Betaling verwerken",
+          "description": "Even geduld terwijl we je betaling bevestigen..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Betaling geslaagd",
+          "description": "Automatisch doorverwijzen..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Betaling mislukt",
+          "description": "Er is een probleem opgetreden bij het verwerken van je betaling."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Verwerkingstime-out",
+          "description": "Betaling verwerken duurt langer dan verwacht."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Opnieuw"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Beveiliging",
+        "description": "Beheer je beveiligingsinstellingen",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Wachtwoord wijzigen",
+          "description": "Voer je huidige en nieuwe wachtwoord in",
+          "currentPassword": "Huidig wachtwoord",
+          "currentRequired": "Huidig wachtwoord is verplicht",
+          "newPassword": "Nieuw wachtwoord",
+          "newMinLength": "Wachtwoord moet minimaal 8 tekens bevatten",
+          "hint": "Gebruik minimaal 8 tekens voor je wachtwoord",
+          "showPassword": "Wachtwoord tonen",
+          "hidePassword": "Wachtwoord verbergen",
+          "success": "Wachtwoord succesvol bijgewerkt",
+          "fail": "Wachtwoord bijwerken mislukt",
+          "saving": "Opslaan...",
+          "save": "Opslaan"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Wachtwoord resetten",
+          "description": "Reset wachtwoord om in te loggen met e-mail",
+          "info": "Door je wachtwoord te resetten kun je naast sociale inlogmethoden ook inloggen met e-mail en wachtwoord. Je ontvangt een e-mail met instructies om je wachtwoord te resetten",
+          "button": "Wachtwoord resetten"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Account verwijderen",
+          "description": "Verwijder je account en alle inhoud permanent",
+          "warning": "Deze actie kan niet ongedaan worden gemaakt, ga voorzichtig verder",
+          "button": "Account verwijderen",
+          "confirmTitle": "Account verwijderen",
+          "confirmDescription": "Weet je zeker dat je je account wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+          "confirm": "Verwijderen",
+          "cancel": "Annuleren",
+          "deleting": "Verwijderen...",
+          "success": "Account succesvol verwijderd",
+          "fail": "Account verwijderen mislukt"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Abonnementen met meer capaciteit komen binnenkort. Gratis proefperiode is nu beschikbaar.",
-      "button": "Upgrade"
+      "title": "Upgraden",
+      "description": "Plannen met meer capaciteit komen binnenkort. Gratis proefperiode is nu beschikbaar.",
+      "button": "Upgraden"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name}-team",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hoi, {name}.",
+      "body": "Klik op de link hieronder om je e-mailadres te verifiëren.",
+      "confirmEmail": "E-mail bevestigen",
+      "subject": "Verifieer je e-mail"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hoi, {name}.",
+      "body": "We hebben een verzoek ontvangen om je MP4toURL-wachtwoord te resetten. Klik op de knop hieronder om een nieuw wachtwoord te kiezen. Als je dit niet hebt aangevraagd, kun je deze e-mail negeren.",
+      "resetPassword": "Wachtwoord resetten",
+      "subject": "Reset je MP4toURL-wachtwoord"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Naam: {name}",
+      "email": "E-mail: {email}",
+      "message": "Bericht: {message}",
+      "subject": "Contactbericht van website"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KANT-EN-KLARE CODES",
+    "sectionTitle": "KLAAR-VOOR-KOPIËREN CODES",
     "copyUrl": "URL kopiëren",
     "copied": "Gekopieerd",
-    "copyFailed": "Kopiëren mislukt",
+    "copyFailed": "Kon niet kopiëren",
     "openTab": "Openen in nieuw tabblad",
     "successTitle": "Gelukt! Je video-URL is klaar",
     "successSubtitle": "Je video is geüpload en klaar om te delen.",
@@ -864,158 +563,158 @@
       "desc": "Voor GitHub, Notion en documenten"
     },
     "markdownLink": {
-      "title": "Markdown met link",
-      "desc": "Markdown met een leesbaar kijk-label"
+      "title": "Markdown with link",
+      "desc": "Markdown met een leesbaar bekijklabel"
     },
     "html": {
       "title": "HTML",
-      "desc": "Insluiten met de native videospeler"
+      "desc": "Insluiten met een native videospeler"
     },
     "htmlLink": {
-      "title": "HTML met link",
+      "title": "HTML with link",
       "desc": "Eenvoudige link die in een nieuw tabblad opent"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "Voor forums en prikborden"
+      "desc": "Voor forums en messageboards"
     },
     "bbcodeLink": {
-      "title": "BBCode met link",
-      "desc": "Forumlink met kijk-label"
+      "title": "BBCode with link",
+      "desc": "Forumlink met een bekijklabel"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Upload een video en krijg een permanente deelbare link",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Gratis video-naar-URL-converter",
+      "description": "Upload MP4-video's en krijg binnen enkele seconden permanente deelbare links.",
+      "tagline": "Ondersteunt MP4, MOV, AVI, WebM, MKV tot 300 MB. Geen registratie nodig.",
+      "uploadHeading": "Upload je video",
+      "uploadTitle": "Sleep je video hierheen of klik om te bladeren",
+      "uploadHint": "Ondersteunt MP4, MOV, AVI, WebM, MKV tot 300 MB",
+      "maxSize": "Maximale bestandsgrootte: 300 MB",
+      "convert": "Converteren naar URL",
+      "uploading": "Uploaden...",
+      "copy": "Link kopiëren",
+      "copied": "Gekopieerd",
       "guestSuccessHint": "Je video is geüpload. Kopieer de link hieronder om te delen.",
-      "registerForCodesTitle": "Markdown, HTML & BBCode nodig?",
-      "registerForCodesDesc": "Meld je gratis aan om kant-en-klare insluitcodes te ontgrendelen en al je video’s te beheren in Mijn bronnen.",
-      "registerCta": "Gratis aanmelden",
+      "registerForCodesTitle": "Markdown, HTML en BBCode nodig?",
+      "registerForCodesDesc": "Registreer gratis voor klaar-voor-kopieer embedcodes en beheer al je video's in Mijn bronnen.",
+      "registerCta": "Gratis registreren",
       "uploadAnother": "Nog een video uploaden",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Upload mislukt. Probeer het opnieuw.",
+      "unsupportedType": "Niet-ondersteund bestandstype. Upload MP4, MOV, AVI, WebM of MKV.",
+      "fileTooLarge": "Bestand te groot. Gratis plan staat maximaal 300 MB per bestand toe."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Waarom MP4 to URL kiezen",
+      "subtitle": "Gebouwd voor snelheid, privacy en permanente medialinks.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Bliksemsnel",
+          "description": "Upload en converteer je video's naar deelbare URL's in enkele seconden. Geen wachten, geen wachtrijen."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Veilig en privé",
+          "description": "Je video's worden via HTTPS overgedragen en gehost met privacy-eerst controles."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Permanente links",
+          "description": "Krijg permanente links die nooit verlopen. Perfect voor documentatie, tickets en delen op social media."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video naar URL in seconden"
+      "title": "Video naar URL, in enkele seconden",
+      "subtitle": "Van lokaal bestand naar deelbare link",
+      "description": "Upload MP4 en gerelateerde formaten, krijg een schone permanente URL die je kunt plakken in docs, chats en posts.",
+      "point1": "Sleep een video van je apparaat",
+      "point2": "Converteren in seconden — geen registratie voor standaardgebruik",
+      "point3": "Kopieer een permanente link en deel overal",
+      "imageAlt": "mp4tourl.com collage: maak video deelbaar",
+      "imageAltNew": "mp4tourl.com: video naar URL in seconden, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Hoe te gebruiken",
+      "subtitle": "Drie stappen van lokaal bestand naar deelbare URL.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Kies een video",
+          "description": "Sleep en zet neer of blader naar MP4, MOV, AVI, WebM of MKV (tot 300 MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Converteren naar URL",
+          "description": "Klik op Converteren naar URL. Verwerking is meestal binnen enkele seconden klaar."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopiëren en delen",
+          "description": "Kopieer de permanente link en gebruik die in docs, chats, websites of social posts."
         }
       }
     },
     "bannerShowcase": {
       "title": "Scenario's",
-      "subtitle": "Van lokaal filmpje naar deelbare link.",
-      "description": "Sleep een bestand, krijg een schone URL voor docs, chats en posts — bekijk hieronder een paar voorbeelden.",
+      "subtitle": "Van lokale video naar een deelbare link.",
+      "description": "Sleep een bestand, krijg een schone URL voor docs, chats en posts — bekijk hieronder enkele looks.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Maak van een lokaal fragment in seconden een deelbaar adres."
+          "description": "Maak van een lokale clip binnen enkele seconden een deelbaar adres."
         },
         "newStyle": {
-          "title": "Overal delen",
-          "description": "Plak de link in documenten, tickets en social posts."
+          "title": "Deel overal",
+          "description": "Plak de link in docs, tickets en social posts."
         },
         "dark": {
-          "title": "Betrouwbare hosting",
+          "title": "Nette hosting",
           "description": "Houd video's bereikbaar met een stabiele, permanente URL."
         },
         "retro": {
-          "title": "Snelle conversie",
-          "description": "Upload eenmaal, kopieer de link en hergebruik wanneer je wilt."
+          "title": "Snel converteren",
+          "description": "Upload eenmaal, kopieer de link, hergebruik wanneer je wilt."
         }
       }
     },
     "faqs": {
       "title": "Veelgestelde vragen",
-      "subtitle": "Wat u misschien wilt weten over video naar URL.",
+      "subtitle": "Wat je wilt weten over video naar URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Wat is een video-naar-URL-converter?",
+          "answer": "Een video-naar-URL-converter uploadt je lokale videobestand en geeft een directe weblink terug die je overal kunt delen."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Hoe werkt video-naar-URL-conversie?",
+          "answer": "Upload je video, wacht tot de verwerking klaar is en kopieer vervolgens de gegenereerde URL. Je kunt die link meteen openen, delen of insluiten."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Welke videoformaten worden ondersteund?",
+          "answer": "Ondersteunde formaten zijn MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP en FLV. Gratis tier staat maximaal 300 MB per bestand toe."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Zijn de gegenereerde videolinks permanent?",
+          "answer": "Ja. De gegenereerde links zijn bedoeld voor langdurig delen zodat je video-URL stabiel en herbruikbaar blijft."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Waar kan ik de video-URL gebruiken?",
+          "answer": "Je kunt hem gebruiken in documentatie, issue trackers, chats, websites, social media posts en samenwerkingstools."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Is deze video-naar-URL-converter gratis?",
+          "answer": "Ja. De standaard video-naar-URL-conversie is gratis te gebruiken binnen de huidige uploadlimieten."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Hoe veilig is video-upload en hosting?",
+          "answer": "Uploads gebruiken HTTPS-overdracht en worden gehost voor stabiele levering, met betrouwbare deellinks voor videocontent."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "De makkelijkste manier om video's te delen",
+      "description": "MP4 to URL is een gratis, snelle mediahostingflow voor developers, makers en teams. Converteer video's naar permanente URL's in seconden en deel ze overal.",
+      "primaryButton": "Converteren naar URL",
+      "secondaryButton": "Veelgestelde vragen lezen"
     }
   }
 }

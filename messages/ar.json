@@ -18,11 +18,11 @@
     },
     "theme": {
       "label": "تبديل السمة",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "default": "افتراضي",
+      "blue": "أزرق",
+      "green": "أخضر",
+      "amber": "كهرماني",
+      "neutral": "محايد"
     },
     "copy": "نسخ",
     "saving": "جارٍ الحفظ…",

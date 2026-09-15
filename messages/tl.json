@@ -1,473 +1,261 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Libreng Converter ng Video sa URL - Mag-upload ng MP4 at Kumuha ng Maibabahaging Link",
+    "description": "Mag-upload ng MP4, MOV, AVI, WebM, MKV at makakuha ng permanenteng maibabahaging URL sa ilang segundo. Libreng video hosting hanggang 300MB — walang kailangang magrehistro."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Mag-log in",
+    "logout": "Mag-log out",
+    "signUp": "Mag-sign up",
+    "language": "Palitan ang wika",
+    "languageHint": "Kapag pumili ka ng rehiyon, magbabago ang wika at nilalaman.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Palitan ang mode",
+      "light": "Maliwanag",
+      "dark": "Madilim",
+      "system": "Ayon sa system"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Palitan ang tema",
+      "default": "Pamantayan",
+      "blue": "Asul",
+      "green": "Berde",
+      "amber": "Amberina",
+      "neutral": "Katamtaman"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopyahin",
+    "saving": "Sine-save...",
+    "save": "I-save",
+    "loading": "Naglo-load...",
+    "cancel": "Kanselahin",
+    "logoutFailed": "Hindi nag-log out",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Kabuuang {count} record",
+      "noResults": "Walang resulta",
+      "loading": "Naglo-load...",
+      "columns": "Mga column",
+      "rowsPerPage": "Row bawat pahina",
+      "page": "Pahina",
+      "firstPage": "Unang pahina",
+      "lastPage": "Huling pahina",
+      "nextPage": "Susunod na pahina",
+      "previousPage": "Nakaraang pahina",
+      "ascending": "Pataas",
+      "descending": "Pababa"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Libre",
+      "description": "Mag-host ng video at makakuha ng permanenteng maibabahaging URL",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Laki ng upload: 300MB",
+        "feature-2": "Permanenteng CDN link",
+        "feature-3": "Walang kailangang mag-sign up",
+        "feature-4": "Suporta mula sa komunidad"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Pasadyang domain",
+        "limit-2": "Pasadyang branding",
+        "limit-3": "Habambuhay na update"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Mas mataas na limit at kasaysayan ng upload para sa aktibong creator",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Mas malaking video upload",
+        "feature-2": "10 GB na storage",
+        "feature-3": "Kasaysayan ng upload",
+        "feature-4": "Prayoridad na support",
+        "feature-5": "Pasadyang domain"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Pasadyang branding",
+        "limit-2": "Habambuhay na update"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Isang beses na bayad para sa pangmatagalang kapasidad ng video hosting",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Lahat ng feature ng Pro",
+        "feature-2": "100 GB na storage",
+        "feature-3": "Nakatuong support",
+        "feature-4": "Seguridad na pang-enterprise",
+        "feature-5": "Advanced na integrasyon",
+        "feature-6": "Pasadyang branding",
+        "feature-7": "Habambuhay na update"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Paumanhin, wala ang pahinang hinahanap mo.",
+    "backToHome": "Bumalik sa home"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Oops! May nangyaring mali!",
+    "tryAgain": "Subukan muli",
+    "backToHome": "Bumalik sa home"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Tungkol sa amin",
+    "description": "Ginagawang permanenteng maibabahaging link ng MP4toURL ang iyong mga video — mag-upload ng MP4, MOV, AVI, WebM, o MKV at ibahagi sa ilang segundo.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "Marka ng MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Libreng converter ng video sa URL",
+    "introduction": "Ang MP4toURL ay libre at mabilis na paraan para mag-host at magbahagi ng video. Mag-upload ng file, kumuha ng permanenteng CDN link, at gamitin kahit saan — walang komplikadong setup.",
+    "imageAlt": "Brand mark ng MP4toURL",
+    "talkWithMe": "Makipag-ugnayan",
+    "followMe": "I-follow sa X"
   },
   "ContactPage": {
     "title": "Makipag-ugnayan",
-    "description": "Magpadala ng mensahe tungkol sa pag-upload ng video, mga shareable link, o ang iyong account. Binabasa namin ang bawat mensahe at sumasagot sa lalong madaling panahon.",
+    "description": "Magpadala ng mensahe tungkol sa video upload, maibabahaging link, o account mo. Binabasa namin ang bawat mensahe at sumasagot sa lalong madaling panahon.",
     "subtitle": "May tanong tungkol sa MP4toURL? Masaya kaming tumulong.",
-    "orEmail": "O i-email kami sa",
+    "orEmail": "O mag-email sa",
     "form": {
       "title": "Mensahe",
       "description": "Magpadala ng mensahe at sasagot kami sa lalong madaling panahon.",
       "name": "Paksa",
-      "email": "Email",
+      "email": "E-mail",
       "message": "Mensahe",
       "namePlaceholder": "Ilagay ang paksa",
-      "emailPlaceholder": "Email",
+      "emailPlaceholder": "E-mail",
       "messagePlaceholder": "Ilagay ang mensahe",
       "submit": "Ipadala",
-      "submitting": "Ipinapadala…",
+      "submitting": "Ipinapadala...",
       "success": "Matagumpay na naipadala ang mensahe. Sasagot kami sa lalong madaling panahon.",
-      "minLength": "Ang paksa ay dapat may hindi bababa sa 3 character.",
-      "maxLengthName": "Ang paksa ay hindi dapat lumampas sa 100 character.",
-      "invalidEmail": "Mangyaring maglagay ng wastong email address.",
-      "minLengthMessage": "Ang mensahe ay dapat may hindi bababa sa 10 character.",
-      "maxLengthMessage": "Ang mensahe ay hindi dapat lumampas sa 2000 character.",
-      "invalid": "May nangyaring mali. Subukan ulit."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "minLength": "Dapat hindi bababa sa 3 character ang paksa.",
+      "maxLengthName": "Hindi dapat lumampas sa 100 character ang paksa.",
+      "invalidEmail": "Maglagay ng wastong email address.",
+      "minLengthMessage": "Dapat hindi bababa sa 10 character ang mensahe.",
+      "maxLengthMessage": "Hindi dapat lumampas sa 2000 character ang mensahe.",
+      "invalid": "May nangyaring mali. Subukan muli."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
+      "title": "Mag-log in",
+      "welcomeBack": "Maligayang pagbabalik",
+      "email": "E-mail",
       "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "signIn": "Mag-sign in",
+      "signUpHint": "Wala pang account? Mag-sign up",
+      "forgotPassword": "Nakalimutan ang password?",
+      "signInWithGoogle": "Mag-sign in gamit ang Google",
+      "showPassword": "Ipakita ang password",
+      "hidePassword": "Itago ang password",
+      "or": "O magpatuloy gamit ang",
+      "emailRequired": "Ilagay ang e-mail mo",
+      "passwordRequired": "Ilagay ang password mo",
+      "captchaInvalid": "Hindi pumasa ang captcha verification",
+      "captchaError": "Error sa captcha verification"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
+      "title": "Magrehistro",
+      "createAccount": "Gumawa ng account",
+      "name": "Pangalan",
+      "email": "E-mail",
       "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "signUp": "Mag-sign up",
+      "signInHint": "May account na? Mag-sign in",
+      "checkEmail": "Tingnan ang inbox ng e-mail mo",
+      "showPassword": "Ipakita ang password",
+      "hidePassword": "Itago ang password",
+      "nameRequired": "Ilagay ang pangalan mo",
+      "emailRequired": "Ilagay ang e-mail mo",
+      "passwordRequired": "Ilagay ang password mo",
+      "captchaInvalid": "Hindi pumasa ang captcha verification",
+      "captchaError": "Error sa captcha verification"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Nakalimutan ang password",
+      "email": "E-mail",
+      "send": "Ipadala ang reset link",
+      "backToLogin": "Bumalik sa login",
+      "checkEmail": "Kung may account sa e-mail na ito, nagpadala kami ng reset link. Tingnan ang inbox mo.",
+      "emailRequired": "Ilagay ang e-mail mo",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Walang account na may ganitong email",
+        "tooManyRequests": "Masyadong maraming pagtatangka. Subukan muli mamaya",
+        "serverError": "May nangyaring mali. Subukan muli"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "I-reset ang password",
+      "password": "Bagong password",
+      "reset": "I-reset ang password",
+      "backToLogin": "Bumalik sa login",
+      "showPassword": "Ipakita ang password",
+      "hidePassword": "Itago ang password",
+      "minLength": "Dapat hindi bababa sa 8 character ang password",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Nag-expire na ang reset link. Humiling ng bago",
+        "invalidToken": "Hindi wasto ang reset link. Humiling ng bago",
+        "tooManyRequests": "Masyadong maraming pagtatangka. Subukan muli mamaya",
+        "serverError": "May nangyaring mali. Subukan muli"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Oops! May nangyaring mali!",
+      "tryAgain": "Subukan muli.",
+      "backToLogin": "Bumalik sa login",
+      "checkEmail": "Tingnan ang inbox ng email mo"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Mga Tuntunin ng Serbisyo",
+      "privacyPolicy": "Patakaran sa Privacy",
+      "byClickingContinue": "Sa pag-click ng continue, sumasang-ayon ka sa aming ",
+      "and": " at "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
-        "title": "Home"
-      },
-      "pricing": {
-        "title": "Pricing"
+        "title": "Unang pahina"
       },
       "faq": {
-        "title": "FAQ"
+        "title": "Mga Madalas Itanong"
       },
       "about": {
-        "title": "Tungkol"
+        "title": "Tungkol sa amin"
       },
       "contact": {
         "title": "Makipag-ugnayan"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Mag-upload ng video, kumuha ng permanenteng maibabahaging link",
       "product": {
-        "title": "Product",
+        "title": "Produkto",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Mga feature",
+          "faq": "Mga Madalas Itanong"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Kumpanya",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Tungkol sa amin",
+          "contact": "Makipag-ugnayan"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Batas",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Patakaran sa Cookie",
+          "privacyPolicy": "Patakaran sa Privacy",
+          "termsOfService": "Mga Tuntunin ng Serbisyo"
         }
       }
     },
     "avatar": {
       "dashboard": "Lugar ng trabaho",
-      "resources": "Aking mga file",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "resources": "Aking mga Resource",
+      "billing": "Pagsingil",
+      "settings": "Mga setting"
     }
   },
   "Dashboard": {
@@ -475,49 +263,49 @@
       "title": "Lugar ng trabaho"
     },
     "home": {
-      "loading": "Kinukuha ang buod…",
+      "loading": "Naglo-load ng overview…",
       "resourceCount": "Mga video",
-      "videoCountLabel": "Mga video sa Aking mga file",
-      "storageFullHint": "Puno na ang espasyo ng libreng pagsubok. Magtanggal ng ilang video; darating na ang mga planong may mas malaking kapasidad.",
-      "entryResourcesTitle": "Aking mga file",
-      "entryResourcesDesc": "Nandito ang mga na-upload na video — kopyahin ang link, buksan, o tanggalin kahit kailan.",
+      "videoCountLabel": "Mga video sa Aking mga Resource",
+      "storageFullHint": "Puno na ang libreng trial storage. Mag-delete ng ilang video; paparating na ang mas malalaking plan.",
+      "entryResourcesTitle": "Aking mga Resource",
+      "entryResourcesDesc": "Nandito ang mga na-upload mong video — kopyahin ang link, buksan, o i-delete anumang oras.",
       "entryUploadTitle": "Mag-upload ng video",
-      "entryUploadDesc": "Ilagay ang video sa homepage at makakuha ng maibabahaging link sa ilang segundo.",
-      "entryFilesTitle": "Aking mga file",
-      "entryFilesDesc": "Ang mga upload habang naka-sign in ay nase-save sa account. Kopyahin ang URL o tanggalin ang hindi na kailangan.",
-      "entryFilesCta": "Buksan ang aking mga file",
+      "entryUploadDesc": "I-drop ang video sa homepage at makakuha ng maibabahaging link sa ilang segundo.",
+      "entryFilesTitle": "Aking mga Resource",
+      "entryFilesDesc": "Nase-save sa account mo ang mga upload habang naka-sign in. Kopyahin ang URL o alisin ang mga file na hindi mo na kailangan.",
+      "entryFilesCta": "Buksan ang Aking mga Resource",
       "filesPointUploadTitle": "Maraming format",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV at iba pa",
-      "filesPointManageTitle": "Pamahalaan ang mga link",
-      "filesPointManageBody": "Kopyahin, buksan, o tanggalin mula sa Aking mga file",
-      "filesPointFreeTitle": "Libreng espasyo",
-      "filesPointFreeBody": "300 MB libre para sa mga naka-host na video",
-      "filesPointPaidTitle": "Mga bayad na plano",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointManageTitle": "Pamahalaan ang link",
+      "filesPointManageBody": "Kopyahin, buksan, o i-delete mula sa Aking mga Resource",
+      "filesPointFreeTitle": "Libreng storage",
+      "filesPointFreeBody": "300 MB libre para sa hosted video",
+      "filesPointPaidTitle": "Bayad na plan",
+      "filesPointPaidBody": "Pro 10 GB · Habambuhay 100 GB"
     },
     "resources": {
-      "title": "Aking mga file",
+      "title": "Aking mga Resource",
       "welcome": "Maligayang pagbabalik, {name}",
-      "storage": "Espasyo",
-      "storageHint": "Ginamit na espasyo para sa pagho-host ng video",
-      "planCardTitle": "Kasalukuyang plano",
+      "storage": "Imbakan",
+      "storageHint": "Ginamit na espasyo para sa video hosting",
+      "planCardTitle": "Kasalukuyang plan",
       "planFree": "Libre",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktibo",
-      "planHintFree": "Magagamit na ang libreng pagsubok ngayon. Darating na ang mga planong may mas malaking kapasidad.",
+      "planHintFree": "Available na ang libreng trial. Paparating na ang mas malalaking plan.",
       "planHintPro": "Nasa Pro ka (10 GB). Binubuksan ng Lifetime ang 100 GB.",
-      "planHintLifetime": "Lahat ng feature ay bukas na",
-      "description": "Mga video na na-upload mo habang naka-sign in. Mag-upload dito, i-preview, i-download, o tanggalin anumang oras.",
+      "planHintLifetime": "Na-unlock ang lahat ng feature",
+      "description": "Mga video na na-upload mo habang naka-sign in. Mag-upload dito, i-preview, i-download, o i-delete anumang oras.",
       "empty": "Wala pang video",
-      "emptyHint": "I-click ang Upload o ang + card para idagdag ang unang video.",
+      "emptyHint": "I-click ang Upload o ang + card para idagdag ang unang video mo.",
       "goUpload": "Mag-upload ng video",
       "upload": "Mag-upload",
-      "uploading": "Nag-a-upload…",
+      "uploading": "Nag-u-upload…",
       "uploadSuccess": "Tapos na ang upload",
-      "uploadFailed": "Hindi na-upload",
-      "unsupportedType": "Video format lang ang sinusuportahan (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Masyadong malaki ang file. Hanggang 300MB kada file sa free plan.",
+      "uploadFailed": "Hindi nag-upload",
+      "unsupportedType": "Suportado lang ang mga format ng video (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Masyadong malaki ang file. Hanggang 300MB bawat file sa libreng plan.",
       "filterFormat": "Uri ng file",
       "formatAll": "Lahat ng uri",
       "format": {
@@ -530,11 +318,11 @@
         "flv": "FLV",
         "3gp": "3GP"
       },
-      "usageStorage": "Espasyo",
-      "viewGrid": "Tingnan bilang grid",
-      "viewList": "Tingnan bilang listahan",
+      "usageStorage": "Imbakan",
+      "viewGrid": "Grid na view",
+      "viewList": "Listahang view",
       "loading": "Naglo-load…",
-      "loadError": "Hindi ma-load ang mga file",
+      "loadError": "Hindi na-load ang mga resource",
       "searchPlaceholder": "Maghanap ayon sa filename…",
       "search": "Maghanap",
       "reset": "I-reset",
@@ -542,330 +330,241 @@
       "copied": "Nakopya ang URL",
       "copyFailed": "Hindi makopya",
       "open": "Buksan",
-      "preview": "I-preview",
+      "preview": "Silipin",
       "previewClose": "Isara",
-      "shareCodes": "Mga share code",
-      "shareCodesDesc": "Mga link na handa nang kopyahin para sa Markdown, HTML, BBCode, at iba pa.",
+      "shareCodes": "Mga code para sa share",
+      "shareCodesDesc": "Handang kopyahin na link para sa Markdown, HTML, BBCode, at iba pa.",
       "download": "I-download",
-      "delete": "Tanggalin",
-      "deleteTitle": "Tanggalin ang video",
-      "deleteConfirm": "Permanenteng tatanggalin ang video sa iyong account. Hindi na ito mababawi.",
-      "deleteSuccess": "Natanggal ang video",
-      "deleteFailed": "Hindi matanggal ang video",
+      "delete": "I-delete",
+      "deleteTitle": "I-delete ang video",
+      "deleteConfirm": "Permanenteng aalisin nito ang video mula sa account mo. Hindi na ito mababawi.",
+      "deleteSuccess": "Na-delete ang video",
+      "deleteFailed": "Hindi na-delete ang video",
       "cancel": "Kanselahin",
-      "totalCount": "{total} lahat",
+      "totalCount": "{total} kabuuan",
       "pagePrev": "Nakaraan",
       "pageNext": "Susunod"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Pamamahala",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Mga user",
+        "fakeData": "Paalala: Pekeng data para sa demo, may ilang feature na naka-disable",
+        "error": "Hindi nakuha ang mga user",
+        "search": "Maghanap ng user...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
+          "columns": "Mga column",
+          "name": "Pangalan",
+          "email": "E-mail",
+          "role": "Tungkulin",
+          "createdAt": "Petsa ng paglikha",
           "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "status": "Katayuan",
+          "banReason": "Dahilan ng ban",
+          "banExpires": "Mag-e-expire ang ban"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Tagapangasiwa",
+        "user": "Gumagamit",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Na-verify ang e-mail",
+          "unverified": "Hindi pa na-verify ang e-mail"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Nakopya ang e-mail sa clipboard",
+        "banned": "Na-ban",
+        "active": "Aktibo",
+        "joined": "Sumali noong",
+        "updated": "Na-update noong",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Dahilan ng ban",
+          "reasonPlaceholder": "Ilagay ang dahilan ng pag-ban sa user na ito",
+          "defaultReason": "Spam",
+          "never": "Hindi kailanman",
+          "expires": "Mag-e-expire ang ban",
+          "selectDate": "Pumili ng petsa",
+          "button": "I-ban ang user",
+          "success": "Na-ban ang user",
+          "error": "Hindi na-ban ang user"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "I-unban ang user",
+          "success": "Na-unban ang user",
+          "error": "Hindi na-unban ang user"
         },
-        "close": "Close"
+        "close": "Isara"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Mga setting",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Pamahalaan ang impormasyon ng account mo",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Larawan ng profile",
+          "description": "I-click ang upload button para mag-upload ng sarili mong avatar",
+          "recommendation": "Opsyonal ang avatar pero lubos na inirerekomenda",
+          "uploading": "Nag-u-upload...",
+          "uploadAvatar": "Mag-upload ng avatar",
+          "success": "Na-update ang avatar",
+          "fail": "Hindi na-update ang avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Pangalan",
+          "description": "Ilagay ang display name mo",
+          "placeholder": "Ilagay ang pangalan mo",
+          "minLength": "Gumamit ng hindi bababa sa 3 character",
+          "maxLength": "Gumamit ng hindi hihigit sa 30 character",
+          "hint": "Gumamit ng 3–30 character para sa pangalan mo",
+          "success": "Na-update ang pangalan",
+          "fail": "Hindi na-update ang pangalan",
+          "saving": "Sine-save...",
+          "save": "I-save"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Pagsingil",
+        "description": "Pamahalaan ang subscription at detalye ng billing mo",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktibo",
+          "trial": "Subok",
+          "free": "Libre",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "buwan",
+          "year": "taon",
+          "oneTime": "isang beses"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Kasalukuyang plan",
+          "description": "Detalye ng kasalukuyang plan mo",
+          "noPlan": "Wala kang aktibong plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Naglo-load...",
+          "createCustomerPortalFailed": "Hindi mabuksan ang Stripe customer portal"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Presyo:",
+        "periodStartDate": "Petsa ng simula ng period:",
+        "periodEndDate": "Petsa ng dulo ng period:",
+        "trialEnds": "Magtatapos ang trial:",
+        "freePlanMessage": "Kasalukuyan kang nasa libreng plan na may limitadong feature",
+        "lifetimeMessage": "May lifetime access ka sa lahat ng premium feature",
+        "manageSubscription": "Pamahalaan ang subscription at billing",
+        "manageBilling": "Pamahalaan ang billing",
+        "upgradePlan": "Mag-upgrade ng plan",
+        "retry": "Subukan muli",
+        "errorMessage": "Hindi nakuha ang data",
+        "paymentSuccess": "Matagumpay ang bayad"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Pinoproseso ang bayad",
+          "description": "Maghintay habang kinukumpirma namin ang bayad mo..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Matagumpay ang bayad",
+          "description": "Awtomatikong ire-redirect..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Hindi nagtagumpay ang bayad",
+          "description": "May problema sa pagproseso ng bayad mo."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Timeout sa pagproseso",
+          "description": "Mas matagal kaysa inaasahan ang pagproseso ng bayad."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Subukan muli"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Seguridad",
+        "description": "Pamahalaan ang mga setting ng seguridad mo",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Palitan ang password",
+          "description": "Ilagay ang kasalukuyang password at bagong password",
+          "currentPassword": "Kasalukuyang password",
+          "currentRequired": "Kailangan ang kasalukuyang password",
+          "newPassword": "Bagong password",
+          "newMinLength": "Dapat hindi bababa sa 8 character ang password",
+          "hint": "Gumamit ng hindi bababa sa 8 character para sa password",
+          "showPassword": "Ipakita ang password",
+          "hidePassword": "Itago ang password",
+          "success": "Na-update ang password",
+          "fail": "Hindi na-update ang password",
+          "saving": "Sine-save...",
+          "save": "I-save"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "I-reset ang password",
+          "description": "I-reset ang password para paganahin ang email login",
+          "info": "Kapag ni-reset mo ang password, makakapag-sign in ka gamit ang email at password bukod sa social login. Makakatanggap ka ng email na may instruksyon para i-reset ang password",
+          "button": "I-reset ang password"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "I-delete ang account",
+          "description": "Permanenteng aalisin ang account mo at lahat ng nilalaman nito",
+          "warning": "Hindi na mababawi ang aksyong ito, kaya magpatuloy nang maingat",
+          "button": "I-delete ang account",
+          "confirmTitle": "I-delete ang account",
+          "confirmDescription": "Sigurado ka bang gusto mong i-delete ang account mo? Hindi na mababawi ang aksyong ito.",
+          "confirm": "I-delete",
+          "cancel": "Kanselahin",
+          "deleting": "Dine-delete...",
+          "success": "Na-delete ang account",
+          "fail": "Hindi na-delete ang account"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Darating na ang mga planong may mas malaking kapasidad. Magagamit na ang libreng pagsubok ngayon.",
-      "button": "Upgrade"
+      "title": "Mag-upgrade",
+      "description": "Paparating na ang mas malalaking plan. Available na ang libreng trial.",
+      "button": "Mag-upgrade"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Team ng {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Kumusta, {name}.",
+      "body": "I-click ang link sa ibaba para i-verify ang email address mo.",
+      "confirmEmail": "Kumpirmahin ang email",
+      "subject": "I-verify ang email mo"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Kumusta, {name}.",
+      "body": "Nakatanggap kami ng kahilingan na i-reset ang password ng MP4toURL mo. I-click ang button sa ibaba para pumili ng bagong password. Kung hindi ikaw ang humiling, puwede mong balewalain ang email na ito.",
+      "resetPassword": "I-reset ang password",
+      "subject": "I-reset ang password ng MP4toURL mo"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Pangalan: {name}",
+      "email": "E-mail: {email}",
+      "message": "Mensahe: {message}",
+      "subject": "Mensahe mula sa website"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "MGA CODE NA HANDANG KOPYAHIN",
+    "sectionTitle": "HANDANG KOPYAHIN NA CODE",
     "copyUrl": "Kopyahin ang URL",
     "copied": "Nakopya",
     "copyFailed": "Hindi makopya",
     "openTab": "Buksan sa bagong tab",
     "successTitle": "Tagumpay! Handa na ang URL ng video mo",
-    "successSubtitle": "Na-upload na ang video at handa nang i-share.",
-    "videoLabel": "Video",
+    "successSubtitle": "Na-upload na ang video mo at handa nang ibahagi.",
+    "videoLabel": "Bidyo",
     "watchLabel": "Panoorin ang video",
     "shareLink": {
-      "title": "Link para i-share",
-      "desc": "Direktang link para i-share kahit saan"
+      "title": "Link para ibahagi",
+      "desc": "Direktang link na maibabahaging kahit saan"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Para sa GitHub, Notion, at mga dokumento"
+      "desc": "Para sa GitHub, Notion, at docs"
     },
     "markdownLink": {
       "title": "Markdown na may link",
-      "desc": "Markdown na may madaling basahing watch label"
+      "desc": "Markdown na may madaling basahin na label para panoorin"
     },
     "html": {
       "title": "HTML",
@@ -873,103 +572,103 @@
     },
     "htmlLink": {
       "title": "HTML na may link",
-      "desc": "Simpleng link na bubukas sa bagong tab"
+      "desc": "Simpleng anchor na bubukas sa bagong tab"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "Para sa mga forum at message board"
+      "desc": "Para sa forum at message board"
     },
     "bbcodeLink": {
       "title": "BBCode na may link",
-      "desc": "Forum link na may watch label"
+      "desc": "Link sa forum na may label para panoorin"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Mag-upload ng video at kumuha ng permanenteng maibabahaging link",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Na-upload na ang video mo. Kopyahin ang link sa ibaba para i-share.",
-      "registerForCodesTitle": "Gusto mo ng Markdown, HTML at BBCode?",
-      "registerForCodesDesc": "Mag-sign up nang libre para ma-unlock ang mga embed code na handang kopyahin, at pamahalaan ang lahat ng video sa Aking Resources.",
+      "title": "Libreng Converter ng Video sa URL",
+      "description": "Mag-upload ng MP4 video at makakuha ng permanenteng maibabahaging link sa ilang segundo.",
+      "tagline": "Suportado ang MP4, MOV, AVI, WebM, MKV hanggang 300MB. Walang kailangang magrehistro.",
+      "uploadHeading": "I-upload ang video mo",
+      "uploadTitle": "I-drop ang video dito, o i-click para mag-browse",
+      "uploadHint": "Suportado ang MP4, MOV, AVI, WebM, MKV hanggang 300MB",
+      "maxSize": "Pinakamalaking laki ng file: 300MB",
+      "convert": "I-convert sa URL",
+      "uploading": "Nag-u-upload...",
+      "copy": "Kopyahin ang link",
+      "copied": "Nakopya",
+      "guestSuccessHint": "Na-upload na ang video mo. Kopyahin ang link sa ibaba para ibahagi.",
+      "registerForCodesTitle": "Gusto ng Markdown, HTML at BBCode?",
+      "registerForCodesDesc": "Mag-sign up nang libre para ma-unlock ang handang kopyahin na embed code, at pamahalaan ang bawat video sa Aking mga Resource.",
       "registerCta": "Mag-sign up nang libre",
       "uploadAnother": "Mag-upload ng isa pang video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Hindi nag-upload. Subukan muli.",
+      "unsupportedType": "Hindi suportadong uri ng file. Mag-upload ng MP4, MOV, AVI, WebM, o MKV.",
+      "fileTooLarge": "Masyadong malaki ang file. Hanggang 300MB bawat file sa libreng plan."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Bakit piliin ang MP4 to URL",
+      "subtitle": "Ginawa para sa bilis, privacy, at permanenteng media link.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Napakabilis",
+          "description": "I-upload at i-convert ang video mo sa maibabahaging URL sa ilang segundo. Walang hintayan, walang pila."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Secure at pribado",
+          "description": "Inililipat ang video mo sa HTTPS at naka-host na may privacy-first na kontrol."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Permanenteng link",
+          "description": "Kumuha ng permanenteng link na hindi nag-e-expire. Perpekto para sa docs, ticket, at social sharing."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video sa URL sa ilang segundo"
+      "title": "Video sa URL, sa ilang segundo",
+      "subtitle": "Mula sa lokal na file hanggang maibabahaging link",
+      "description": "Mag-upload ng MP4 at kaugnay na format, kumuha ng malinis na permanenteng URL na puwedeng i-paste sa docs, chat, at post.",
+      "point1": "I-drop ang video mula sa device mo",
+      "point2": "I-convert sa ilang segundo — walang sign up para sa karaniwang gamit",
+      "point3": "Kopyahin ang permanenteng link at ibahagi kahit saan",
+      "imageAlt": "mp4tourl.com collage: gawing maibabahagi ang video",
+      "imageAltNew": "mp4tourl.com: video sa URL sa ilang segundo, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Paano gamitin",
+      "subtitle": "Tatlong hakbang mula sa lokal na file hanggang maibabahaging URL.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Pumili ng video",
+          "description": "I-drag at i-drop o mag-browse ng MP4, MOV, AVI, WebM, o MKV (hanggang 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "I-convert sa URL",
+          "description": "I-click ang I-convert sa URL. Karaniwang tapos ang pagproseso sa ilang segundo."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopyahin at ibahagi",
+          "description": "Kopyahin ang permanenteng link at gamitin sa docs, chat, website, o social post."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Mga senaryo",
-      "subtitle": "Mula sa lokal na video hanggang sa link na puwedeng ibahagi.",
-      "description": "I-drop ang file, makakuha ng malinis na URL para sa docs, chat, at post — tingnan ang ilang halimbawa sa ibaba.",
+      "title": "Mga eksena",
+      "subtitle": "Mula sa lokal na video hanggang maibabahaging link.",
+      "description": "I-drop ang file, kumuha ng malinis na URL para sa docs, chat, at post — tingnan ang ilang itsura sa ibaba.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Gawing address na puwedeng ibahagi ang lokal na clip sa loob ng ilang segundo."
+          "description": "Gawing maibabahaging address ang lokal na clip sa ilang segundo."
         },
         "newStyle": {
           "title": "Ibahagi kahit saan",
-          "description": "I-paste ang link sa docs, tickets, at social posts."
+          "description": "I-paste ang link sa docs, ticket, at social post."
         },
         "dark": {
-          "title": "Matibay na hosting",
-          "description": "Panatilihing naa-access ang video gamit ang stable, permanenteng URL."
+          "title": "Malinis na hosting",
+          "description": "Panatilihing naa-access ang video gamit ang stable at permanenteng URL."
         },
         "retro": {
           "title": "Mabilis na convert",
@@ -978,44 +677,44 @@
       }
     },
     "faqs": {
-      "title": "Mga FAQ",
-      "subtitle": "Ang maaaring gusto mong malaman tungkol sa video to URL.",
+      "title": "Mga madalas itanong",
+      "subtitle": "Mga bagay na puwede mong gustong malaman tungkol sa video sa URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Ano ang converter ng video sa URL?",
+          "answer": "Ina-upload ng converter ng video sa URL ang lokal na video file mo at nagbabalik ng direktang web link na puwedeng ibahagi kahit saan."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Paano gumagana ang pag-convert ng video sa URL?",
+          "answer": "I-upload ang video mo, hintaying matapos ang pagproseso, tapos kopyahin ang nabuong URL. Puwede mo agad buksan, ibahagi, o i-embed ang link na iyon."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Anong mga format ng video ang suportado?",
+          "answer": "Kasama sa suportadong format ang MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, at FLV. Hanggang 300MB bawat file sa libreng tier."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Permanenteng ba ang mga nabuong link ng video?",
+          "answer": "Oo. Dinisenyo ang mga nabuong link para sa pangmatagalang pagbabahagi kaya stable at puwedeng gamitin ulit ang URL ng video mo."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Saan ko puwedeng gamitin ang URL ng video?",
+          "answer": "Puwede mo itong gamitin sa docs, issue tracker, chat, website, social media post, at tool ng team collaboration."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Libre ba ang converter ng video sa URL na ito?",
+          "answer": "Oo. Libre gamitin ang karaniwang flow ng pag-convert ng video sa URL sa loob ng kasalukuyang limit ng upload."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Gaano ka-secure ang video upload at hosting?",
+          "answer": "Gumagamit ang upload ng HTTPS transfer at naka-host para sa stable na delivery, kaya may maaasahang link para sa pagbabahagi ng video content."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Pinakamadaling Paraan para Magbahagi ng Video",
+      "description": "Ang MP4 to URL ay libre at mabilis na media hosting flow para sa developer, creator, at team. I-convert ang video sa permanenteng URL sa ilang segundo at ibahagi kahit saan.",
+      "primaryButton": "I-convert sa URL",
+      "secondaryButton": "Basahin ang FAQ"
     }
   }
 }

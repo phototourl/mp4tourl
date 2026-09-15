@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Besplatni pretvarač videa u URL — učitajte MP4 i dobijte link za dijeljenje",
+    "description": "Učitajte MP4, MOV, AVI, WebM, MKV i dobijte trajne linkove za dijeljenje u nekoliko sekundi. Besplatno hostiranje videa do 300 MB — bez registracije."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Prijava",
+    "logout": "Odjava",
+    "signUp": "Registracija",
+    "language": "Promijeni jezik",
+    "languageHint": "Odabir regije mijenja jezik i sadržaj.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Prebaci način prikaza",
+      "light": "Svijetlo",
+      "dark": "Tamno",
+      "system": "Sustav"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Promijeni temu",
+      "default": "Zadano",
+      "blue": "Plava",
+      "green": "Zelena",
+      "amber": "Jantar",
+      "neutral": "Neutralno"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopiraj",
+    "saving": "Spremanje...",
+    "save": "Spremi",
+    "loading": "Učitavanje...",
+    "cancel": "Odustani",
+    "logoutFailed": "Odjava nije uspjela",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Ukupno {count} zapisa",
+      "noResults": "Nema rezultata",
+      "loading": "Učitavanje...",
+      "columns": "Stupci",
+      "rowsPerPage": "Redova po stranici",
+      "page": "Stranica",
+      "firstPage": "Prva stranica",
+      "lastPage": "Zadnja stranica",
+      "nextPage": "Sljedeća stranica",
+      "previousPage": "Prethodna stranica",
+      "ascending": "Uzlazno",
+      "descending": "Silazno"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Besplatno",
+      "description": "Hostirajte videozapise i dobijte trajni link za dijeljenje",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Veličina učitavanja: 300 MB",
+        "feature-2": "Trajni CDN linkovi",
+        "feature-3": "Bez registracije",
+        "feature-4": "Podrška zajednice"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Prilagođene domene",
+        "limit-2": "Prilagođeno brendiranje",
+        "limit-3": "Doživotna ažuriranja"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Veći limiti i povijest učitavanja za aktivne kreatore",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Veća učitavanja videa",
+        "feature-2": "10 GB prostora",
+        "feature-3": "Povijest učitavanja",
+        "feature-4": "Prioritetna podrška",
+        "feature-5": "Prilagođene domene"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Prilagođeno brendiranje",
+        "limit-2": "Doživotna ažuriranja"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Jednokratno plaćanje za dugoročni kapacitet hostiranja videa",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Sve Pro značajke",
+        "feature-2": "100 GB prostora",
+        "feature-3": "Namjenska podrška",
+        "feature-4": "Sigurnost poslovne razine",
+        "feature-5": "Napredne integracije",
+        "feature-6": "Prilagođeno brendiranje",
+        "feature-7": "Doživotna ažuriranja"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Nažalost, stranica koju tražite ne postoji.",
+    "backToHome": "Natrag na početnu"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Nešto je pošlo po krivu!",
+    "tryAgain": "Pokušaj ponovno",
+    "backToHome": "Natrag na početnu"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "O nama",
+    "description": "MP4toURL pretvara vaše videozapise u trajne linkove za dijeljenje — učitajte MP4, MOV, AVI, WebM ili MKV i dijelite u nekoliko sekundi.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "Marka MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Besplatni pretvarač videa u URL",
+    "introduction": "MP4toURL je besplatan i brz način hostiranja i dijeljenja videa. Učitajte datoteku, dobijte trajni CDN link i koristite ga bilo gdje — bez komplicirane postavke.",
+    "imageAlt": "MP4toURL znak brenda",
+    "talkWithMe": "Kontaktirajte nas",
+    "followMe": "Pratite na X"
   },
   "ContactPage": {
     "title": "Kontakt",
-    "description": "Pošaljite poruku o prijenosu videa, dijeljivim poveznicama ili svom računu. Čitamo svaku poruku i odgovaramo što prije možemo.",
-    "subtitle": "Pitanja o MP4toURL? Rado ćemo pomoći.",
+    "description": "Pošaljite poruku o učitavanju videa, linkovima za dijeljenje ili vašem računu. Čitamo svaku poruku i odgovaramo što prije možemo.",
+    "subtitle": "Pitanja o MP4toURL? Rado pomažemo.",
     "orEmail": "Ili nam pišite na",
     "form": {
       "title": "Poruka",
-      "description": "Pošaljite poruku i odgovorit ćemo što prije moguće.",
+      "description": "Pošaljite poruku i odgovorit ćemo što prije.",
       "name": "Predmet",
       "email": "E-pošta",
       "message": "Poruka",
@@ -155,319 +125,137 @@
       "emailPlaceholder": "E-pošta",
       "messagePlaceholder": "Unesite poruku",
       "submit": "Pošalji",
-      "submitting": "Slanje…",
+      "submitting": "Slanje...",
       "success": "Poruka je uspješno poslana. Odgovorit ćemo što prije možemo.",
       "minLength": "Predmet mora imati najmanje 3 znaka.",
-      "maxLengthName": "Predmet ne smije prelaziti 100 znakova.",
+      "maxLengthName": "Predmet ne smije imati više od 100 znakova.",
       "invalidEmail": "Unesite valjanu adresu e-pošte.",
       "minLengthMessage": "Poruka mora imati najmanje 10 znakova.",
-      "maxLengthMessage": "Poruka ne smije prelaziti 2000 znakova.",
-      "invalid": "Nešto je pošlo po zlu. Pokušajte ponovno."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "maxLengthMessage": "Poruka ne smije imati više od 2000 znakova.",
+      "invalid": "Nešto je pošlo po krivu. Pokušajte ponovno."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Prijava",
+      "welcomeBack": "Dobrodošli natrag",
+      "email": "E-pošta",
+      "password": "Lozinka",
+      "signIn": "Prijava",
+      "signUpHint": "Nemate račun? Registrirajte se",
+      "forgotPassword": "Zaboravili ste lozinku?",
+      "signInWithGoogle": "Prijava putem Googlea",
+      "showPassword": "Prikaži lozinku",
+      "hidePassword": "Sakrij lozinku",
+      "or": "Ili nastavite s",
+      "emailRequired": "Unesite svoju e-poštu",
+      "passwordRequired": "Unesite svoju lozinku",
+      "captchaInvalid": "Provjera captche nije uspjela",
+      "captchaError": "Greška pri provjeri captche"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Registracija",
+      "createAccount": "Stvorite račun",
+      "name": "Ime",
+      "email": "E-pošta",
+      "password": "Lozinka",
+      "signUp": "Registracija",
+      "signInHint": "Već imate račun? Prijavite se",
+      "checkEmail": "Provjerite pretinac e-pošte",
+      "showPassword": "Prikaži lozinku",
+      "hidePassword": "Sakrij lozinku",
+      "nameRequired": "Unesite svoje ime",
+      "emailRequired": "Unesite svoju e-poštu",
+      "passwordRequired": "Unesite svoju lozinku",
+      "captchaInvalid": "Provjera captche nije uspjela",
+      "captchaError": "Greška pri provjeri captche"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Zaboravljena lozinka",
+      "email": "E-pošta",
+      "send": "Pošalji link za reset",
+      "backToLogin": "Natrag na prijavu",
+      "checkEmail": "Ako postoji račun za ovu e-poštu, poslali smo link za reset. Provjerite pretinac.",
+      "emailRequired": "Unesite svoju e-poštu",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Nije pronađen račun s ovom e-poštom",
+        "tooManyRequests": "Previše pokušaja. Pokušajte kasnije",
+        "serverError": "Nešto je pošlo po krivu. Pokušajte ponovno"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Reset lozinke",
+      "password": "Nova lozinka",
+      "reset": "Resetiraj lozinku",
+      "backToLogin": "Natrag na prijavu",
+      "showPassword": "Prikaži lozinku",
+      "hidePassword": "Sakrij lozinku",
+      "minLength": "Lozinka mora imati najmanje 8 znakova",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Link za reset je istekao. Zatražite novi",
+        "invalidToken": "Nevaljan link za reset. Zatražite novi",
+        "tooManyRequests": "Previše pokušaja. Pokušajte kasnije",
+        "serverError": "Nešto je pošlo po krivu. Pokušajte ponovno"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Nešto je pošlo po krivu!",
+      "tryAgain": "Pokušajte ponovno.",
+      "backToLogin": "Natrag na prijavu",
+      "checkEmail": "Provjerite pretinac e-pošte"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Uvjeti korištenja",
+      "privacyPolicy": "Pravila privatnosti",
+      "byClickingContinue": "Klikom na nastavi prihvaćate naše ",
+      "and": " i "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Početna"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "ČPP"
       },
       "about": {
         "title": "O nama"
       },
       "contact": {
         "title": "Kontakt"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Učitajte video i dobijte trajni link za dijeljenje",
       "product": {
-        "title": "Product",
+        "title": "Proizvod",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Značajke",
+          "faq": "ČPP"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Tvrtka",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "O nama",
+          "contact": "Kontakt"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Pravno",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Pravila o kolačićima",
+          "privacyPolicy": "Pravila privatnosti",
+          "termsOfService": "Uvjeti korištenja"
         }
       }
     },
     "avatar": {
       "dashboard": "Radni prostor",
       "resources": "Moji resursi",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Naplata",
+      "settings": "Postavke"
     }
   },
   "Dashboard": {
@@ -476,48 +264,48 @@
     },
     "home": {
       "loading": "Učitavanje pregleda…",
-      "resourceCount": "Videi",
-      "videoCountLabel": "Videi u Moji resursi",
-      "storageFullHint": "Besplatno probno pohranište je puno. Izbrišite neke videozapise; planovi s većim kapacitetom stižu uskoro.",
+      "resourceCount": "Videozapisi",
+      "videoCountLabel": "Videozapisi u Moji resursi",
+      "storageFullHint": "Prostor za besplatno probno razdoblje je pun. Obrišite neke videozapise; planovi s većim kapacitetom uskoro dolaze.",
       "entryResourcesTitle": "Moji resursi",
-      "entryResourcesDesc": "Učitani videi su ovdje — kopirajte poveznice, otvorite ili brišite kad god želite.",
+      "entryResourcesDesc": "Vaši učitani videozapisi su ovdje — kopirajte linkove, otvorite ili obrišite bilo kada.",
       "entryUploadTitle": "Učitaj video",
-      "entryUploadDesc": "Ispustite video na početnu stranicu i za nekoliko sekundi dobijte poveznicu za dijeljenje.",
+      "entryUploadDesc": "Povucite video na početnu stranicu i dobijte link za dijeljenje u nekoliko sekundi.",
       "entryFilesTitle": "Moji resursi",
-      "entryFilesDesc": "Učitavanja dok ste prijavljeni spremaju se na račun. Kopirajte URL ili uklonite datoteke koje više ne trebate.",
-      "entryFilesCta": "Otvori moje resurse",
-      "filesPointUploadTitle": "Mnogo formata",
+      "entryFilesDesc": "Učitavanja nakon prijave spremaju se na vaš račun. Kopirajte URL ili uklonite datoteke koje vam više ne trebaju.",
+      "entryFilesCta": "Otvori Moji resursi",
+      "filesPointUploadTitle": "Mnogi formati",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV i više",
-      "filesPointManageTitle": "Upravljanje poveznicama",
-      "filesPointManageBody": "Kopirajte, otvorite ili brišite iz Moji resursi",
-      "filesPointFreeTitle": "Besplatna pohrana",
-      "filesPointFreeBody": "300 MB besplatno za hostirane videe",
+      "filesPointManageTitle": "Upravljaj linkovima",
+      "filesPointManageBody": "Kopiraj, otvori ili obriši iz Moji resursi",
+      "filesPointFreeTitle": "Besplatni prostor",
+      "filesPointFreeBody": "300 MB besplatno za hostirane videozapise",
       "filesPointPaidTitle": "Plaćeni planovi",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
       "title": "Moji resursi",
       "welcome": "Dobrodošli natrag, {name}",
-      "storage": "Pohrana",
-      "storageHint": "Iskorišteni prostor za hosting videa",
+      "storage": "Prostor",
+      "storageHint": "Iskorišten prostor za hostiranje videa",
       "planCardTitle": "Trenutačni plan",
       "planFree": "Besplatno",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
-      "planActive": "Aktivno",
-      "planHintFree": "Besplatno probno razdoblje dostupno je sada. Planovi s većim kapacitetom stižu uskoro.",
-      "planHintPro": "Na Pro ste (10 GB). Lifetime otključava 100 GB.",
+      "planActive": "Aktivan",
+      "planHintFree": "Besplatno probno razdoblje je dostupno sada. Planovi s većim kapacitetom uskoro dolaze.",
+      "planHintPro": "Na Pro planu ste (10 GB). Lifetime otključava 100 GB.",
       "planHintLifetime": "Sve značajke otključane",
-      "description": "Videi koje ste učitali dok ste bili prijavljeni. Učitajte ovdje, pregledajte, preuzmite ili brišite kad god želite.",
-      "empty": "Još nema videa",
+      "description": "Videozapisi koje ste učitali nakon prijave. Učitavajte, pregledavajte, preuzimajte ili brišite bilo kada.",
+      "empty": "Još nema videozapisa",
       "emptyHint": "Kliknite Učitaj ili karticu + da dodate prvi video.",
       "goUpload": "Učitaj video",
       "upload": "Učitaj",
       "uploading": "Učitavanje…",
       "uploadSuccess": "Učitavanje dovršeno",
       "uploadFailed": "Učitavanje nije uspjelo",
-      "unsupportedType": "Podržani su samo videoformati (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Datoteka je prevelika. Besplatni plan dopušta do 300MB po datoteci.",
+      "unsupportedType": "Podržani su samo video formati (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Datoteka je prevelika. Besplatni plan dopušta do 300 MB po datoteci.",
       "filterFormat": "Vrsta datoteke",
       "formatAll": "Sve vrste",
       "format": {
@@ -530,14 +318,14 @@
         "flv": "FLV",
         "3gp": "3GP"
       },
-      "usageStorage": "Pohrana",
+      "usageStorage": "Prostor",
       "viewGrid": "Prikaz mreže",
       "viewList": "Prikaz popisa",
       "loading": "Učitavanje…",
       "loadError": "Učitavanje resursa nije uspjelo",
       "searchPlaceholder": "Pretraži po nazivu datoteke…",
       "search": "Pretraži",
-      "reset": "Poništi",
+      "reset": "Resetiraj",
       "copyUrl": "Kopiraj URL",
       "copied": "URL kopiran",
       "copyFailed": "Kopiranje nije uspjelo",
@@ -545,304 +333,215 @@
       "preview": "Pregled",
       "previewClose": "Zatvori",
       "shareCodes": "Kodovi za dijeljenje",
-      "shareCodesDesc": "Veze spremne za kopiranje za Markdown, HTML, BBCode i više.",
+      "shareCodesDesc": "Linkovi spremni za kopiranje za Markdown, HTML, BBCode i više.",
       "download": "Preuzmi",
-      "delete": "Izbriši",
-      "deleteTitle": "Izbriši video",
-      "deleteConfirm": "Time se video trajno uklanja s vašeg računa. To se ne može poništiti.",
-      "deleteSuccess": "Video izbrisan",
+      "delete": "Obriši",
+      "deleteTitle": "Obriši video",
+      "deleteConfirm": "Ovo trajno uklanja video s vašeg računa. Ova radnja se ne može poništiti.",
+      "deleteSuccess": "Video obrisan",
       "deleteFailed": "Brisanje videa nije uspjelo",
       "cancel": "Odustani",
-      "totalCount": "Ukupno {total}",
-      "pagePrev": "Prethodna",
-      "pageNext": "Sljedeća"
+      "totalCount": "{total} ukupno",
+      "pagePrev": "Prethodno",
+      "pageNext": "Sljedeće"
     },
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Korisnici",
+        "fakeData": "Napomena: lažni podaci za demonstraciju, neke značajke su onemogućene",
+        "error": "Dohvaćanje korisnika nije uspjelo",
+        "search": "Pretraži korisnike...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "columns": "Stupci",
+          "name": "Ime",
+          "email": "E-pošta",
+          "role": "Uloga",
+          "createdAt": "Stvoreno",
+          "customerId": "ID kupca",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Razlog zabrane",
+          "banExpires": "Zabrana istječe"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Korisnik",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-pošta potvrđena",
+          "unverified": "E-pošta nije potvrđena"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-pošta kopirana u međuspremnik",
+        "banned": "Zabranjen",
+        "active": "Aktivan",
+        "joined": "Pridružen",
+        "updated": "Ažurirano",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Razlog zabrane",
+          "reasonPlaceholder": "Unesite razlog zabrane ovog korisnika",
+          "defaultReason": "Spam",
+          "never": "Nikad",
+          "expires": "Zabrana istječe",
+          "selectDate": "Odaberi datum",
+          "button": "Zabrani korisnika",
+          "success": "Korisnik je zabranjen",
+          "error": "Zabrana korisnika nije uspjela"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Ukloni zabranu",
+          "success": "Zabrana korisnika uklonjena",
+          "error": "Uklanjanje zabrane nije uspjelo"
         },
-        "close": "Close"
+        "close": "Zatvori"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Postavke",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Upravljajte podacima o računu",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Kliknite gumb za učitavanje vlastitog avatara",
+          "recommendation": "Avatar nije obavezan, ali se preporučuje",
+          "uploading": "Učitavanje...",
+          "uploadAvatar": "Učitaj avatar",
+          "success": "Avatar uspješno ažuriran",
+          "fail": "Ažuriranje avatara nije uspjelo"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Ime",
+          "description": "Unesite svoje ime za prikaz",
+          "placeholder": "Unesite svoje ime",
+          "minLength": "Koristite najmanje 3 znaka",
+          "maxLength": "Koristite najviše 30 znakova",
+          "hint": "Koristite 3–30 znakova za ime",
+          "success": "Ime uspješno ažurirano",
+          "fail": "Ažuriranje imena nije uspjelo",
+          "saving": "Spremanje...",
+          "save": "Spremi"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Naplata",
+        "description": "Upravljajte pretplatom i podacima za naplatu",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktivan",
+          "trial": "Probno",
+          "free": "Besplatno",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "mjesec",
+          "year": "godina",
+          "oneTime": "jednokratno"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Trenutačni plan",
+          "description": "Detalji vašeg trenutačnog plana",
+          "noPlan": "Nemate aktivni plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Učitavanje...",
+          "createCustomerPortalFailed": "Otvaranje Stripe korisničkog portala nije uspjelo"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Cijena:",
+        "periodStartDate": "Početak razdoblja:",
+        "periodEndDate": "Kraj razdoblja:",
+        "trialEnds": "Probno razdoblje završava:",
+        "freePlanMessage": "Trenutačno ste na besplatnom planu s ograničenim značajkama",
+        "lifetimeMessage": "Imate doživotni pristup svim premium značajkama",
+        "manageSubscription": "Upravljaj pretplatom i naplatom",
+        "manageBilling": "Upravljaj naplatom",
+        "upgradePlan": "Nadogradi plan",
+        "retry": "Pokušaj ponovno",
+        "errorMessage": "Dohvaćanje podataka nije uspjelo",
+        "paymentSuccess": "Plaćanje uspješno"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Obrada plaćanja",
+          "description": "Pričekajte dok potvrdimo vaše plaćanje..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Plaćanje uspješno",
+          "description": "Automatsko preusmjeravanje..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Plaćanje nije uspjelo",
+          "description": "Došlo je do problema pri obradi plaćanja."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Istek vremena obrade",
+          "description": "Obrada plaćanja traje duže od očekivanog."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Pokušaj ponovno"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Sigurnost",
+        "description": "Upravljajte sigurnosnim postavkama",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Promijeni lozinku",
+          "description": "Unesite trenutačnu i novu lozinku",
+          "currentPassword": "Trenutačna lozinka",
+          "currentRequired": "Trenutačna lozinka je obavezna",
+          "newPassword": "Nova lozinka",
+          "newMinLength": "Lozinka mora imati najmanje 8 znakova",
+          "hint": "Koristite najmanje 8 znakova za lozinku",
+          "showPassword": "Prikaži lozinku",
+          "hidePassword": "Sakrij lozinku",
+          "success": "Lozinka uspješno ažurirana",
+          "fail": "Ažuriranje lozinke nije uspjelo",
+          "saving": "Spremanje...",
+          "save": "Spremi"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Reset lozinke",
+          "description": "Resetirajte lozinku za prijavu e-poštom",
+          "info": "Resetiranje lozinke omogućit će vam prijavu e-poštom i lozinkom uz društvene metode prijave. Primit ćete e-poštu s uputama za reset lozinke",
+          "button": "Resetiraj lozinku"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Obriši račun",
+          "description": "Trajno uklonite račun i sav njegov sadržaj",
+          "warning": "Ova radnja se ne može poništiti, nastavite oprezno",
+          "button": "Obriši račun",
+          "confirmTitle": "Obriši račun",
+          "confirmDescription": "Jeste li sigurni da želite obrisati račun? Ova radnja se ne može poništiti.",
+          "confirm": "Obriši",
+          "cancel": "Odustani",
+          "deleting": "Brisanje...",
+          "success": "Račun uspješno obrisan",
+          "fail": "Brisanje računa nije uspjelo"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Planovi s većim kapacitetom stižu uskoro. Besplatno probno razdoblje dostupno je sada.",
-      "button": "Upgrade"
+      "title": "Nadogradi",
+      "description": "Planovi s većim kapacitetom uskoro dolaze. Besplatno probno razdoblje je dostupno sada.",
+      "button": "Nadogradi"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name} tim",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Pozdrav, {name}.",
+      "body": "Kliknite link u nastavku da potvrdite svoju adresu e-pošte.",
+      "confirmEmail": "Potvrdi e-poštu",
+      "subject": "Potvrdite svoju e-poštu"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Pozdrav, {name}.",
+      "body": "Primili smo zahtjev za reset vaše MP4toURL lozinke. Kliknite gumb u nastavku da odaberete novu lozinku. Ako niste zatražili ovo, možete zanemariti ovu e-poštu.",
+      "resetPassword": "Resetiraj lozinku",
+      "subject": "Resetirajte svoju MP4toURL lozinku"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Ime: {name}",
+      "email": "E-pošta: {email}",
+      "message": "Poruka: {message}",
+      "subject": "Kontakt poruka s web stranice"
     }
   },
   "ShareCodes": {
@@ -852,112 +551,112 @@
     "copyFailed": "Kopiranje nije uspjelo",
     "openTab": "Otvori u novoj kartici",
     "successTitle": "Uspjeh! URL vašeg videa je spreman",
-    "successSubtitle": "Video je prenesen i spreman za dijeljenje.",
+    "successSubtitle": "Vaš video je učitan i spreman za dijeljenje.",
     "videoLabel": "Video",
-    "watchLabel": "Pogledaj video",
+    "watchLabel": "Gledaj video",
     "shareLink": {
-      "title": "Veza za dijeljenje",
-      "desc": "Izravna veza za dijeljenje bilo gdje"
+      "title": "Link za dijeljenje",
+      "desc": "Izravni link za dijeljenje bilo gdje"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Za GitHub, Notion i dokumente"
     },
     "markdownLink": {
-      "title": "Markdown s vezom",
-      "desc": "Markdown s čitljivom oznakom gledanja"
+      "title": "Markdown with link",
+      "desc": "Markdown s čitljivom oznakom za gledanje"
     },
     "html": {
       "title": "HTML",
       "desc": "Ugradi s izvornim video playerom"
     },
     "htmlLink": {
-      "title": "HTML s vezom",
-      "desc": "Jednostavna veza koja se otvara u novoj kartici"
+      "title": "HTML with link",
+      "desc": "Jednostavna poveznica koja se otvara u novoj kartici"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Za forume i oglasne ploče"
     },
     "bbcodeLink": {
-      "title": "BBCode s vezom",
-      "desc": "Forumska veza s oznakom gledanja"
+      "title": "BBCode with link",
+      "desc": "Forum link s oznakom za gledanje"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Učitajte video i dobijte trajni link za dijeljenje",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Video je prenesen. Kopirajte vezu ispod da ga podijelite.",
+      "title": "Besplatni pretvarač videa u URL",
+      "description": "Učitajte MP4 videozapise i dobijte trajne linkove za dijeljenje u nekoliko sekundi.",
+      "tagline": "Podrška za MP4, MOV, AVI, WebM, MKV do 300 MB. Bez registracije.",
+      "uploadHeading": "Učitajte svoj video",
+      "uploadTitle": "Povucite video ovdje ili kliknite za pregled",
+      "uploadHint": "Podržava MP4, MOV, AVI, WebM, MKV do 300 MB",
+      "maxSize": "Maksimalna veličina datoteke: 300 MB",
+      "convert": "Pretvori u URL",
+      "uploading": "Učitavanje...",
+      "copy": "Kopiraj link",
+      "copied": "Kopirano",
+      "guestSuccessHint": "Vaš video je učitan. Kopirajte link u nastavku da ga podijelite.",
       "registerForCodesTitle": "Želite Markdown, HTML i BBCode?",
-      "registerForCodesDesc": "Registrirajte se besplatno za otključavanje kodova za ugradnju spremnih za kopiranje i upravljajte svim videima u Moji resursi.",
-      "registerCta": "Registriraj se besplatno",
-      "uploadAnother": "Prenesi drugi video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "registerForCodesDesc": "Registrirajte se besplatno za kodove spremne za ugrađivanje i upravljajte svim videozapisima u Moji resursi.",
+      "registerCta": "Besplatna registracija",
+      "uploadAnother": "Učitaj još jedan video",
+      "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
+      "unsupportedType": "Nepodržana vrsta datoteke. Učitajte MP4, MOV, AVI, WebM ili MKV.",
+      "fileTooLarge": "Datoteka je prevelika. Besplatni plan dopušta do 300 MB po datoteci."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Zašto odabrati MP4 to URL",
+      "subtitle": "Izgrađeno za brzinu, privatnost i trajne medijske linkove.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Munjevito brzo",
+          "description": "Učitajte i pretvorite videozapise u linkove za dijeljenje u nekoliko sekundi. Bez čekanja, bez redova."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Sigurno i privatno",
+          "description": "Vaši videozapisi se prenose putem HTTPS-a i hostiraju s kontrolama usmjerenim na privatnost."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Trajni linkovi",
+          "description": "Dobijte trajne linkove koji nikad ne istječu. Savršeno za dokumentaciju, tikete i dijeljenje na društvenim mrežama."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video u URL za nekoliko sekundi"
+      "title": "Video u URL, u nekoliko sekundi",
+      "subtitle": "Od lokalne datoteke do linka za dijeljenje",
+      "description": "Učitajte MP4 i srodne formate, dobijte čist trajni URL koji možete zalijepiti u dokumente, chatove i objave.",
+      "point1": "Povucite video s uređaja",
+      "point2": "Pretvorba u nekoliko sekundi — bez registracije za standardnu upotrebu",
+      "point3": "Kopirajte trajni link i dijelite bilo gdje",
+      "imageAlt": "mp4tourl.com kolaž: učinite video dijeljivim",
+      "imageAltNew": "mp4tourl.com: video u URL u nekoliko sekundi, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Kako koristiti",
+      "subtitle": "Tri koraka od lokalne datoteke do linka za dijeljenje.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Odaberite video",
+          "description": "Povucite i ispustite ili pretražite MP4, MOV, AVI, WebM ili MKV (do 300 MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Pretvori u URL",
+          "description": "Kliknite Pretvori u URL. Obrada obično završi u nekoliko sekundi."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopirajte i dijelite",
+          "description": "Kopirajte trajni link i koristite ga u dokumentima, chatovima, web stranicama ili objavama."
         }
       }
     },
     "bannerShowcase": {
       "title": "Scenariji",
       "subtitle": "Od lokalnog videa do linka za dijeljenje.",
-      "description": "Ispustite datoteku i dobijte čist URL za dokumente, chatove i objave — pogledajte nekoliko primjera ispod.",
+      "description": "Ispustite datoteku, dobijte čist URL za dokumente, chatove i objave — pogledajte nekoliko primjera u nastavku.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
@@ -968,54 +667,54 @@
           "description": "Zalijepite link u dokumente, tikete i objave na društvenim mrežama."
         },
         "dark": {
-          "title": "Pouzdani hosting",
-          "description": "Držite videozapise dostupnima sa stabilnim, trajnim URL-om."
+          "title": "Čisto hostiranje",
+          "description": "Održavajte videozapise dostupnima sa stabilnim, trajnim URL-om."
         },
         "retro": {
-          "title": "Brza konverzija",
-          "description": "Učitajte jednom, kopirajte link i ponovno ga koristite kad trebate."
+          "title": "Brza pretvorba",
+          "description": "Učitajte jednom, kopirajte link, ponovno koristite kad god trebate."
         }
       }
     },
     "faqs": {
-      "title": "Česta pitanja",
-      "subtitle": "Što biste mogli htjeti znati o videu u URL.",
+      "title": "ČPP",
+      "subtitle": "Ono što biste mogli znati o videu u URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Što je pretvarač videa u URL?",
+          "answer": "Pretvarač videa u URL učitava vašu lokalnu video datoteku i vraća izravni web link koji možete dijeliti bilo gdje."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Kako radi pretvorba videa u URL?",
+          "answer": "Učitajte video, pričekajte da obrada završi, zatim kopirajte generirani URL. Link možete odmah otvoriti, dijeliti ili ugraditi."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Koji video formati su podržani?",
+          "answer": "Podržani formati uključuju MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP i FLV. Besplatna razina dopušta do 300 MB po datoteci."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Jesu li generirani video linkovi trajni?",
+          "answer": "Da. Generirani linkovi su namijenjeni dugoročnom dijeljenju kako bi URL vašeg videa ostao stabilan i ponovno upotrebljiv."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Gdje mogu koristiti video URL?",
+          "answer": "Možete ga koristiti u dokumentaciji, alatima za praćenje problema, chatovima, web stranicama, objavama na društvenim mrežama i alatima za timsku suradnju."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Je li ovaj pretvarač videa u URL besplatan?",
+          "answer": "Da. Standardni tijek pretvorbe videa u URL besplatan je za korištenje unutar trenutačnih limita učitavanja."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Koliko je sigurno učitavanje i hostiranje videa?",
+          "answer": "Učitavanja koriste HTTPS prijenos i hostiraju se za stabilnu isporuku, dajući vam pouzdane linkove za dijeljenje video sadržaja."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Najlakši način dijeljenja videa",
+      "description": "MP4 to URL je besplatan i brz tijek hostiranja medija za developere, kreatore i timove. Pretvorite videozapise u trajne URL-ove u nekoliko sekundi i dijelite ih bilo gdje.",
+      "primaryButton": "Pretvori u URL",
+      "secondaryButton": "Pročitaj ČPP"
     }
   }
 }

@@ -5,7 +5,6 @@
     "description": "上传 MP4、MOV、AVI、WebM、MKV，几秒获得可长期分享的直链。免费视频托管，单文件最高 300MB，无需注册。"
   },
   "Common": {
-    "premium": "付费文章",
     "login": "登录",
     "logout": "退出",
     "signUp": "注册",
@@ -26,8 +25,8 @@
       "neutral": "中性"
     },
     "copy": "复制",
-    "save": "保存",
     "saving": "保存中...",
+    "save": "保存",
     "loading": "加载中...",
     "cancel": "取消",
     "logoutFailed": "退出失败",
@@ -44,30 +43,6 @@
       "previousPage": "上一页",
       "ascending": "升序",
       "descending": "降序"
-    }
-  },
-  "PricingPage": {
-    "title": "价格",
-    "description": "选择最适合您的付费计划",
-    "subtitle": "选择最适合您的付费计划",
-    "monthly": "月付",
-    "yearly": "年付",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/月",
-      "perYear": "/年",
-      "popular": "热门",
-      "currentPlan": "当前方案",
-      "yourCurrentPlan": "您的当前方案",
-      "getStartedForFree": "开始免费使用",
-      "getLifetimeAccess": "开启终身会员",
-      "getStarted": "开始免费试用",
-      "notAvailable": "不可用",
-      "daysTrial": "{days} 天试用期"
-    },
-    "CheckoutButton": {
-      "loading": "加载中...",
-      "checkoutFailed": "打开结账页面失败"
     }
   },
   "PricePlans": {
@@ -135,11 +110,6 @@
     "talkWithMe": "联系我们",
     "followMe": "关注 X"
   },
-  "ChangelogPage": {
-    "title": "更新日志",
-    "description": "查看我们产品的最新动态",
-    "subtitle": "查看我们产品的最新动态"
-  },
   "ContactPage": {
     "title": "联系我们",
     "description": "有关视频上传、分享链接或账号问题，欢迎留言。我们会阅读每条留言，并尽快回复。",
@@ -163,34 +133,6 @@
       "minLengthMessage": "留言至少 10 个字符。",
       "maxLengthMessage": "留言不能超过 2000 个字符。",
       "invalid": "提交失败，请稍后重试。"
-    }
-  },
-  "WaitlistPage": {
-    "title": "等待队列",
-    "description": "加入等待队列，及时获取最新消息和更新",
-    "subtitle": "加入等待队列，及时获取最新消息和更新",
-    "form": {
-      "title": "加入等待队列",
-      "description": "我们将在产品发布时及时通知您",
-      "email": "邮箱",
-      "subscribe": "加入等待队列",
-      "subscribing": "加入等待队列中...",
-      "success": "加入等待队列成功",
-      "fail": "加入等待队列失败",
-      "emailValidation": "请输入有效的邮箱地址"
-    }
-  },
-  "Newsletter": {
-    "title": "邮件列表",
-    "subtitle": "加入我们的社区",
-    "description": "订阅邮件列表，及时获取最新消息和更新",
-    "form": {
-      "email": "邮箱",
-      "subscribe": "订阅",
-      "subscribing": "订阅中...",
-      "success": "订阅成功",
-      "fail": "订阅失败",
-      "emailValidation": "请输入有效的邮箱地址"
     }
   },
   "AuthPage": {
@@ -269,50 +211,10 @@
       "and": " 和 "
     }
   },
-  "BlogPage": {
-    "title": "博客",
-    "description": "来自我们的团队最新新闻和更新",
-    "subtitle": "来自我们的团队最新新闻和更新",
-    "author": "作者",
-    "categories": "分类",
-    "tableOfContents": "目录",
-    "readTime": "{minutes} 分钟阅读",
-    "all": "全部",
-    "noPostsFound": "没有找到文章",
-    "allPosts": "全部文章",
-    "morePosts": "更多文章"
-  },
-  "DocsPage": {
-    "toc": "目录",
-    "search": "搜索文档",
-    "lastUpdate": "最后更新于",
-    "searchNoResult": "没有结果",
-    "previousPage": "上一页",
-    "nextPage": "下一页",
-    "chooseLanguage": "选择语言",
-    "title": "文档",
-    "homepage": "首页"
-  },
-  "PremiumContent": {
-    "title": "解锁付费内容",
-    "description": "订阅我们的付费计划，访问所有付费内容和独家内容。",
-    "upgradeCta": "立即升级",
-    "benefit1": "所有内容",
-    "benefit2": "独家内容",
-    "benefit3": "随时取消",
-    "signIn": "登录",
-    "loginRequired": "登录以继续阅读",
-    "loginDescription": "这是一篇付费内容，请登录您的账户以访问完整内容。",
-    "checkingAccess": "检查阅读权限...",
-    "loadingContent": "加载完整内容..."
-  },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "首页"
-      },
-      "pricing": {
-        "title": "价格"
       },
       "faq": {
         "title": "常见问题"
@@ -322,108 +224,6 @@
       },
       "contact": {
         "title": "联系我们"
-      },
-      "blog": {
-        "title": "博客"
-      },
-      "docs": {
-        "title": "文档"
-      },
-      "pages": {
-        "title": "内置页面",
-        "items": {
-          "about": {
-            "title": "关于我们",
-            "description": "了解更多关于我们的公司、使命和价值观"
-          },
-          "contact": {
-            "title": "联系我们",
-            "description": "与我们的团队联系，以获取支持或咨询"
-          },
-          "waitlist": {
-            "title": "邮件列表",
-            "description": "加入我们的邮件列表，获取最新消息和更新"
-          },
-          "changelog": {
-            "title": "更新日志",
-            "description": "查看我们产品的更新历史，查看最新动态"
-          },
-          "roadmap": {
-            "title": "路线图",
-            "description": "探索我们的未来计划和即将推出的功能"
-          },
-          "cookiePolicy": {
-            "title": "Cookie 政策",
-            "description": "关于我们如何在网站上使用 Cookie 的信息"
-          },
-          "privacyPolicy": {
-            "title": "隐私政策",
-            "description": "关于我们将如何保护和处理您在网站上的数据"
-          },
-          "termsOfService": {
-            "title": "服务条款",
-            "description": "关于您与我们公司之间的法律协议和条款"
-          }
-        }
-      },
-      "blocks": {
-        "title": "内置组件",
-        "items": {
-          "magicui": {
-            "title": "MagicUI 组件"
-          },
-          "hero-section": {
-            "title": "Hero 组件"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud 组件"
-          },
-          "features": {
-            "title": "Features 组件"
-          },
-          "integrations": {
-            "title": "Integrations 组件"
-          },
-          "content": {
-            "title": "Content 组件"
-          },
-          "stats": {
-            "title": "Stats 组件"
-          },
-          "team": {
-            "title": "Team 组件"
-          },
-          "testimonials": {
-            "title": "Testimonials 组件"
-          },
-          "callToAction": {
-            "title": "Call to Action 组件"
-          },
-          "footer": {
-            "title": "Footer 组件"
-          },
-          "pricing": {
-            "title": "Pricing 组件"
-          },
-          "comparator": {
-            "title": "Comparator 组件"
-          },
-          "faq": {
-            "title": "FAQ 组件"
-          },
-          "login": {
-            "title": "Login 组件"
-          },
-          "signup": {
-            "title": "Signup 组件"
-          },
-          "forgot-password": {
-            "title": "Forgot Password 组件"
-          },
-          "contact": {
-            "title": "Contact 组件"
-          }
-        }
       }
     },
     "footer": {
@@ -432,25 +232,14 @@
         "title": "产品",
         "items": {
           "features": "功能",
-          "pricing": "价格",
           "faq": "常见问题"
-        }
-      },
-      "resources": {
-        "title": "资源",
-        "items": {
-          "blog": "博客",
-          "docs": "文档",
-          "changelog": "更新日志",
-          "roadmap": "路线图"
         }
       },
       "company": {
         "title": "公司",
         "items": {
           "about": "关于我们",
-          "contact": "联系我们",
-          "waitlist": "邮件列表"
+          "contact": "联系我们"
         }
       },
       "legal": {
@@ -466,7 +255,6 @@
       "dashboard": "工作台",
       "resources": "我的资源",
       "billing": "账单",
-      "credits": "积分",
       "settings": "设置"
     }
   },
@@ -687,22 +475,6 @@
         },
         "retry": "重试"
       },
-      "notification": {
-        "title": "通知",
-        "description": "管理您的通知设置",
-        "newsletter": {
-          "title": "订阅",
-          "description": "管理您的邮件列表订阅偏好",
-          "label": "订阅邮件列表",
-          "hint": "您可以随时更改订阅偏好",
-          "emailRequired": "订阅邮件列表需要邮箱",
-          "subscribeSuccess": "成功订阅邮件列表",
-          "subscribeFail": "订阅邮件列表失败",
-          "unsubscribeSuccess": "成功取消订阅邮件列表",
-          "unsubscribeFail": "取消订阅邮件列表失败",
-          "error": "更新订阅时发生错误"
-        }
-      },
       "security": {
         "title": "安全",
         "description": "管理您的安全设置",
@@ -764,10 +536,6 @@
       "body": "我们收到了重置你 MP4toURL 密码的请求。请点击下方按钮设置新密码。如非本人操作，可忽略本邮件。",
       "resetPassword": "重置密码",
       "subject": "重置你的 MP4toURL 密码"
-    },
-    "subscribeNewsletter": {
-      "body": "感谢您订阅我们的邮件列表，我们将为您提供最新的新闻和更新。",
-      "subject": "感谢您的订阅"
     },
     "contactMessage": {
       "name": "姓名: {name}",

@@ -1,144 +1,114 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "name": "MP4轉連結",
+    "title": "免費影片轉連結工具 - 上傳 MP4 取得可分享連結",
+    "description": "上傳 MP4、MOV、AVI、WebM、MKV，幾秒獲得可長期分享的直鏈。免費影片託管，單檔最高 300MB，無需註冊。"
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "登入",
+    "logout": "登出",
+    "signUp": "註冊",
+    "language": "切換語言",
+    "languageHint": "選擇地區會更改語言與內容。",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "切換模式",
+      "light": "淺色模式",
+      "dark": "深色模式",
+      "system": "跟隨系統"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "切換主題",
+      "default": "預設",
+      "blue": "藍色",
+      "green": "綠色",
+      "amber": "琥珀色",
+      "neutral": "中性"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "複製",
+    "saving": "儲存中...",
+    "save": "儲存",
+    "loading": "載入中...",
+    "cancel": "取消",
+    "logoutFailed": "登出失敗",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "共 {count} 筆紀錄",
+      "noResults": "無結果",
+      "loading": "載入中...",
+      "columns": "欄位",
+      "rowsPerPage": "每頁列數",
+      "page": "頁",
+      "firstPage": "第一頁",
+      "lastPage": "最後一頁",
+      "nextPage": "下一頁",
+      "previousPage": "上一頁",
+      "ascending": "升冪",
+      "descending": "降冪"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "免費版",
+      "description": "上傳影片，取得可長期分享的連結",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "單檔最高 300MB",
+        "feature-2": "永久 CDN 直鏈",
+        "feature-3": "無需註冊",
+        "feature-4": "社群支援"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "自訂網域",
+        "limit-2": "自訂品牌",
+        "limit-3": "終身更新"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "更高上傳額度，適合常分享影片的創作者",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "更大影片上傳額度",
+        "feature-2": "10 GB 儲存空間",
+        "feature-3": "上傳紀錄",
+        "feature-4": "優先支援",
+        "feature-5": "自訂網域"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "自訂品牌",
+        "limit-2": "終身更新"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "一次付費，長期使用更大影片託管空間",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "包含 Pro 全部功能",
+        "feature-2": "100 GB 儲存空間",
+        "feature-3": "專屬支援",
+        "feature-4": "企業級安全",
+        "feature-5": "進階整合",
+        "feature-6": "自訂品牌",
+        "feature-7": "終身更新"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "抱歉，您要找的頁面不存在。",
+    "backToHome": "返回首頁"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "糟糕！出了點問題！",
+    "tryAgain": "重試",
+    "backToHome": "返回首頁"
   },
   "AboutPage": {
     "title": "關於",
     "description": "MP4toURL 把影片變成可長期分享的連結——上傳 MP4、MOV、AVI、WebM、MKV，幾秒即可分享。",
     "authorName": "MP4toURL",
     "authorBio": "免費影片轉連結工具",
-    "introduction": "MP4toURL 幫你快速託管並分享影片：上傳檔案，取得永久 CDN 直連，隨處可用，無需複雜設定。",
-    "imageAlt": "MP4toURL 品牌標識",
+    "introduction": "MP4toURL 幫你快速託管並分享影片：上傳檔案，取得永久 CDN 直鏈，隨處可用，無需複雜設定。",
+    "imageAlt": "MP4toURL 品牌識別",
     "talkWithMe": "聯絡我們",
     "followMe": "追蹤 X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
   },
   "ContactPage": {
     "title": "聯絡我們",
@@ -158,87 +128,59 @@
       "submitting": "送出中…",
       "success": "留言已送出，我們會盡快回覆。",
       "minLength": "主旨至少 3 個字元。",
-      "maxLengthName": "主旨不能超過 100 個字元。",
+      "maxLengthName": "主旨不可超過 100 個字元。",
       "invalidEmail": "請輸入有效的電子郵件地址。",
       "minLengthMessage": "留言至少 10 個字元。",
-      "maxLengthMessage": "留言不能超過 2000 個字元。",
+      "maxLengthMessage": "留言不可超過 2000 個字元。",
       "invalid": "送出失敗，請稍後再試。"
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "登入",
+      "welcomeBack": "歡迎回來",
+      "email": "電子郵件",
+      "password": "密碼",
+      "signIn": "登入",
+      "signUpHint": "還沒有帳號？註冊",
+      "forgotPassword": "忘記密碼？",
+      "signInWithGoogle": "使用 Google 登入",
+      "showPassword": "顯示密碼",
+      "hidePassword": "隱藏密碼",
+      "or": "或以社群帳號繼續",
+      "emailRequired": "請輸入電子郵件",
+      "passwordRequired": "請輸入密碼",
+      "captchaInvalid": "驗證碼驗證失敗",
+      "captchaError": "驗證碼驗證出錯"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "註冊",
+      "createAccount": "建立帳號",
+      "name": "姓名",
+      "email": "電子郵件",
+      "password": "密碼",
+      "signUp": "註冊",
+      "signInHint": "已經有帳號？登入",
+      "checkEmail": "請檢查您的電子郵件信箱",
+      "showPassword": "顯示密碼",
+      "hidePassword": "隱藏密碼",
+      "nameRequired": "請輸入姓名",
+      "emailRequired": "請輸入電子郵件",
+      "passwordRequired": "請輸入密碼",
+      "captchaInvalid": "驗證碼驗證失敗",
+      "captchaError": "驗證碼驗證出錯"
     },
     "forgotPassword": {
       "title": "忘記密碼",
-      "email": "電子信箱",
+      "email": "電子郵件",
       "send": "傳送重設連結",
       "backToLogin": "返回登入",
-      "checkEmail": "若此信箱已註冊，我們已寄出重設連結，請查收郵件。",
-      "emailRequired": "請輸入電子信箱",
+      "checkEmail": "若此電子郵件已註冊，我們已寄出重設連結，請查收信箱。",
+      "emailRequired": "請輸入電子郵件",
       "error": {
-        "userNotFound": "找不到此信箱對應的帳號",
+        "userNotFound": "找不到此電子郵件對應的帳號",
         "tooManyRequests": "嘗試次數過多，請稍後再試",
-        "serverError": "傳送失敗，請稍後再試"
+        "serverError": "發生錯誤，請稍後再試"
       }
     },
     "resetPassword": {
@@ -250,224 +192,70 @@
       "hidePassword": "隱藏密碼",
       "minLength": "密碼至少 8 個字元",
       "error": {
-        "expiredToken": "重設連結已過期，請重新取得",
-        "invalidToken": "重設連結無效，請重新取得",
+        "expiredToken": "重設連結已過期，請重新申請",
+        "invalidToken": "重設連結無效，請重新申請",
         "tooManyRequests": "嘗試次數過多，請稍後再試",
-        "serverError": "重設失敗，請稍後再試"
+        "serverError": "發生錯誤，請稍後再試"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "糟糕！出了點問題！",
+      "tryAgain": "請再試一次。",
+      "backToLogin": "返回登入",
+      "checkEmail": "請檢查您的電子郵件信箱"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "服務條款",
+      "privacyPolicy": "隱私權政策",
+      "byClickingContinue": "繼續即表示您同意我們的 ",
+      "and": " 與 "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "文件",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "首頁"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "常見問題"
       },
       "about": {
         "title": "關於"
       },
       "contact": {
         "title": "聯絡我們"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
       "tagline": "上傳影片，取得可長期分享的連結",
       "product": {
-        "title": "Product",
+        "title": "產品",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "功能",
+          "faq": "常見問題"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "公司",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "關於我們",
+          "contact": "聯絡我們"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "法律",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookie 政策",
+          "privacyPolicy": "隱私權政策",
+          "termsOfService": "服務條款"
         }
       }
     },
     "avatar": {
       "dashboard": "工作台",
       "resources": "我的資源",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "帳單",
+      "settings": "設定"
     }
   },
   "Dashboard": {
@@ -482,7 +270,7 @@
       "entryResourcesTitle": "我的資源",
       "entryResourcesDesc": "已上傳的影片都在這裡，可隨時複製連結、開啟或刪除。",
       "entryUploadTitle": "上傳影片",
-      "entryUploadDesc": "在首頁拖入影片，幾秒就能取得可分享連結。",
+      "entryUploadDesc": "在首頁拖入影片，幾秒就能拿到可分享連結。",
       "entryFilesTitle": "我的資源",
       "entryFilesDesc": "登入後上傳的影片會儲存到帳戶，可複製連結或刪除不需要的檔案。",
       "entryFilesCta": "開啟我的資源",
@@ -493,7 +281,7 @@
       "filesPointFreeTitle": "免費空間",
       "filesPointFreeBody": "免費方案提供 300 MB 託管空間",
       "filesPointPaidTitle": "付費方案",
-      "filesPointPaidBody": "Pro 10 GB · 終身 100 GB"
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
       "title": "我的資源",
@@ -503,21 +291,21 @@
       "planCardTitle": "目前方案",
       "planFree": "免費",
       "planPro": "Pro",
-      "planLifetime": "終身",
-      "planActive": "已開通",
-      "planHintFree": "目前支援免費試用，更高容量方案即將推出。",
-      "planHintPro": "目前為 Pro（10 GB）。終身方案可升至 100 GB。",
+      "planLifetime": "Lifetime",
+      "planActive": "已啟用",
+      "planHintFree": "目前可免費試用，更高容量方案即將推出。",
+      "planHintPro": "目前為 Pro（10 GB）。Lifetime 可升至 100 GB。",
       "planHintLifetime": "全部功能已解鎖",
       "description": "登入後上傳的影片會出現在這裡，可直接上傳、預覽、下載或刪除。",
       "empty": "還沒有影片",
-      "emptyHint": "點「上傳」或中間的 + 卡片，新增第一部影片。",
+      "emptyHint": "點「上傳」或中間的 + 卡片，新增第一個影片。",
       "goUpload": "上傳影片",
       "upload": "上傳",
       "uploading": "上傳中…",
       "uploadSuccess": "上傳完成",
       "uploadFailed": "上傳失敗",
       "unsupportedType": "僅支援影片格式（MP4、MOV、AVI、WebM、MKV…）",
-      "fileTooLarge": "檔案過大。免費方案單一檔案最高 300MB。",
+      "fileTooLarge": "檔案過大。免費方案單檔最高 300MB。",
       "filterFormat": "檔案類型",
       "formatAll": "全部類型",
       "format": {
@@ -540,7 +328,7 @@
       "reset": "重設",
       "copyUrl": "複製連結",
       "copied": "已複製連結",
-      "copyFailed": "複製失敗",
+      "copyFailed": "無法複製",
       "open": "開啟",
       "preview": "預覽",
       "previewClose": "關閉",
@@ -558,245 +346,225 @@
       "pageNext": "下一頁"
     },
     "admin": {
-      "title": "Admin",
+      "title": "系統管理",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "使用者管理",
+        "fakeData": "註：僅供示範，部分功能已停用",
+        "error": "取得使用者失敗",
+        "search": "搜尋使用者...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "欄位",
+          "name": "姓名",
+          "email": "電子郵件",
+          "role": "角色",
+          "createdAt": "建立時間",
+          "customerId": "客戶 ID",
+          "status": "狀態",
+          "banReason": "停權原因",
+          "banExpires": "停權到期"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "管理員",
+        "user": "使用者",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "電子郵件已驗證",
+          "unverified": "電子郵件未驗證"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "已複製電子郵件",
+        "banned": "已停權",
+        "active": "正常",
+        "joined": "加入時間",
+        "updated": "更新時間",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "停權原因",
+          "reasonPlaceholder": "請輸入停權原因",
+          "defaultReason": "垃圾訊息",
+          "never": "永不",
+          "expires": "停權到期",
+          "selectDate": "選擇日期",
+          "button": "停權使用者",
+          "success": "使用者已停權",
+          "error": "停權失敗"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "解除停權",
+          "success": "已解除停權",
+          "error": "解除停權失敗"
         },
-        "close": "Close"
+        "close": "關閉"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "設定",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "個人資料",
+        "description": "管理您的帳戶資訊",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "頭像",
+          "description": "點上傳按鈕上傳自訂頭像",
+          "recommendation": "頭像為選填，但強烈建議設定",
+          "uploading": "上傳中...",
+          "uploadAvatar": "上傳頭像",
+          "success": "頭像更新成功",
+          "fail": "更新頭像失敗"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "名稱",
+          "description": "請輸入顯示名稱",
+          "placeholder": "輸入名稱",
+          "minLength": "請至少使用 3 個字元",
+          "maxLength": "請最多使用 30 個字元",
+          "hint": "請使用 3–30 個字元",
+          "success": "名稱更新成功",
+          "fail": "更新名稱失敗",
+          "saving": "儲存中...",
+          "save": "儲存"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "帳單",
+        "description": "管理訂閱與帳單資訊",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "已啟用",
+          "trial": "試用中",
+          "free": "免費",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "月",
+          "year": "年",
+          "oneTime": "一次付清"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "目前方案",
+          "description": "您目前的方案詳情",
+          "noPlan": "您沒有啟用中的方案"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "載入中...",
+          "createCustomerPortalFailed": "無法開啟 Stripe 客戶入口"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "價格：",
+        "periodStartDate": "週期開始：",
+        "periodEndDate": "週期結束：",
+        "trialEnds": "試用結束：",
+        "freePlanMessage": "您目前使用功能有限的免費方案",
+        "lifetimeMessage": "您擁有所有進階功能的終身使用權",
+        "manageSubscription": "管理訂閱與帳單",
+        "manageBilling": "管理帳單",
+        "upgradePlan": "升級方案",
+        "retry": "重試",
+        "errorMessage": "取得資料失敗",
+        "paymentSuccess": "付款成功"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "正在處理付款",
+          "description": "請稍候，我們正在確認付款…"
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "付款成功",
+          "description": "正在自動導向…"
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "付款失敗",
+          "description": "處理付款時發生問題。"
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "處理逾時",
+          "description": "付款處理時間比預期更長。"
         },
-        "retry": "Retry"
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "重試"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "安全性",
+        "description": "管理安全性設定",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "變更密碼",
+          "description": "輸入目前密碼與新密碼",
+          "currentPassword": "目前密碼",
+          "currentRequired": "目前密碼為必填",
+          "newPassword": "新密碼",
+          "newMinLength": "密碼至少 8 個字元",
+          "hint": "請至少使用 8 個字元作為密碼",
+          "showPassword": "顯示密碼",
+          "hidePassword": "隱藏密碼",
+          "success": "密碼更新成功",
+          "fail": "更新密碼失敗",
+          "saving": "儲存中...",
+          "save": "儲存"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "重設密碼",
+          "description": "重設密碼以啟用電子郵件登入",
+          "info": "重設密碼後，除了社群登入外，也可使用電子郵件與密碼登入。您將收到重設密碼說明信。",
+          "button": "重設密碼"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "刪除帳號",
+          "description": "永久移除帳號及其所有內容",
+          "warning": "此操作無法復原，請謹慎繼續",
+          "button": "刪除帳號",
+          "confirmTitle": "刪除帳號",
+          "confirmDescription": "確定要刪除帳號嗎？此操作無法復原。",
+          "confirm": "刪除",
+          "cancel": "取消",
+          "deleting": "刪除中...",
+          "success": "帳號已刪除",
+          "fail": "刪除帳號失敗"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
+      "title": "升級",
       "description": "更高容量方案即將推出，目前可免費試用。",
-      "button": "Upgrade"
+      "button": "升級"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "team": "{name} 團隊",
+      "copyright": "©️ {year} 版權所有。"
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "你好，{name}。",
+      "body": "請點下方連結驗證您的電子郵件地址。",
+      "confirmEmail": "確認電子郵件",
+      "subject": "驗證您的電子郵件"
     },
     "forgotPassword": {
       "title": "你好，{name}。",
-      "body": "我們收到了重設你 MP4toURL 密碼的請求。請點擊下方按鈕設定新密碼。如非本人操作，可忽略本郵件。",
+      "body": "我們收到重設 MP4toURL 密碼的請求。請點下方按鈕設定新密碼。如非本人操作，可忽略此信。",
       "resetPassword": "重設密碼",
-      "subject": "重設你的 MP4toURL 密碼"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "subject": "重設您的 MP4toURL 密碼"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "姓名：{name}",
+      "email": "電子郵件：{email}",
+      "message": "訊息：{message}",
+      "subject": "來自網站的聯絡訊息"
     }
   },
   "ShareCodes": {
     "sectionTitle": "一鍵複製程式碼",
-    "copyUrl": "複製",
+    "copyUrl": "複製連結",
     "copied": "已複製",
-    "copyFailed": "複製失敗",
+    "copyFailed": "無法複製",
     "openTab": "在新分頁開啟",
     "successTitle": "成功！影片連結已就緒",
-    "successSubtitle": "影片已上傳，可以開始分享了。",
+    "successSubtitle": "影片已上傳，可以開始分享。",
     "videoLabel": "影片",
     "watchLabel": "觀看影片",
     "shareLink": {
       "title": "分享連結",
-      "desc": "可直接分享的連結"
+      "desc": "可直接分享的直鏈"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "適用於 GitHub、Notion、文件"
     },
     "markdownLink": {
-      "title": "Markdown 帶文案",
-      "desc": "帶「觀看影片」文案的 Markdown"
+      "title": "Markdown 含連結",
+      "desc": "帶觀看標籤的 Markdown"
     },
     "html": {
       "title": "HTML",
@@ -808,99 +576,99 @@
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "適用於論壇、留言板"
+      "desc": "適用於論壇與留言板"
     },
     "bbcodeLink": {
-      "title": "BBCode 帶文案",
-      "desc": "帶觀看文案的論壇連結"
+      "title": "BBCode 含連結",
+      "desc": "帶觀看標籤的論壇連結"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "title": "MP4轉連結",
+    "description": "上傳影片，取得可長期分享的連結",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "免費影片轉連結工具",
+      "description": "上傳 MP4 影片，幾秒獲得可長期分享的連結。",
+      "tagline": "支援 MP4、MOV、AVI、WebM、MKV，單檔最高 300MB。無需註冊。",
+      "uploadHeading": "上傳你的影片",
+      "uploadTitle": "拖入影片，或點擊選擇檔案",
+      "uploadHint": "支援 MP4、MOV、AVI、WebM、MKV，最高 300MB",
+      "maxSize": "單檔最大：300MB",
+      "convert": "轉為連結",
+      "uploading": "上傳中…",
+      "copy": "複製連結",
+      "copied": "已複製",
       "guestSuccessHint": "影片已上傳。複製下方連結即可分享。",
       "registerForCodesTitle": "需要 Markdown、HTML、BBCode？",
       "registerForCodesDesc": "免費註冊後可解鎖一鍵複製的嵌入程式碼，並在「我的資源」管理全部影片。",
       "registerCta": "免費註冊",
-      "uploadAnother": "再上傳一部影片",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "uploadAnother": "再傳一個影片",
+      "error": "上傳失敗，請重試。",
+      "unsupportedType": "不支援的檔案類型。請上傳 MP4、MOV、AVI、WebM 或 MKV。",
+      "fileTooLarge": "檔案過大。免費方案單檔最高 300MB。"
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "為什麼選 MP4轉連結",
+      "subtitle": "為速度、隱私與永久媒體連結而建。",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "極速轉換",
+          "description": "幾秒把影片轉成可分享連結，不用排隊。"
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "安全私密",
+          "description": "影片經 HTTPS 傳輸，託管遵循隱私優先。"
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "永久連結",
+          "description": "連結長期可用，適合文件、工單與社群貼文反覆分享。"
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "title": "幾秒把影片變成連結",
+      "subtitle": "從本機檔案到可分享網址",
+      "description": "上傳 MP4 及相關格式，立刻得到可長期貼到文件、聊天與貼文的直鏈。",
+      "point1": "從裝置拖入或選擇影片",
+      "point2": "幾秒完成轉換，一般使用無需註冊",
+      "point3": "複製永久連結，隨處分享",
+      "imageAlt": "mp4tourl.com 拼貼圖：讓影片變得可分享",
       "imageAltNew": "mp4tourl.com：幾秒把影片變成連結"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "使用方法",
+      "subtitle": "三步：本機影片變成可分享連結。",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "選擇影片",
+          "description": "拖入或選擇 MP4、MOV、AVI、WebM、MKV（最高 300MB）。"
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "轉為連結",
+          "description": "點「轉為連結」，通常幾秒內完成處理。"
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "複製分享",
+          "description": "複製永久連結，用於文件、聊天、網站或社群貼文。"
         }
       }
     },
     "bannerShowcase": {
       "title": "場景",
       "subtitle": "從本機影片到可分享連結。",
-      "description": "拖入檔案即可取得乾淨直連，用於文件、聊天和內容發布——下面看看幾種呈現。",
+      "description": "拖入檔案即可拿到乾淨直鏈，用於文件、聊天與內容發布——下面看看幾種呈現。",
       "items": {
         "concept": {
-          "title": "MP4 轉連結",
-          "description": "本機影片幾秒變成可分享地址。"
+          "title": "MP4 to URL",
+          "description": "本機影片幾秒變成可分享網址。"
         },
         "newStyle": {
           "title": "隨處分享",
-          "description": "把連結貼進文件、工單和社群貼文。"
+          "description": "把連結貼進文件、工單與社群貼文。"
         },
         "dark": {
           "title": "穩定託管",
-          "description": "長期可用的直連，地址穩定好複用。"
+          "description": "長期可用的直鏈，網址穩定好複用。"
         },
         "retro": {
           "title": "快速轉換",
@@ -913,40 +681,40 @@
       "subtitle": "影片轉連結，你可能想知道這些。",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "什麼是影片轉連結工具？",
+          "answer": "上傳本機影片後，回傳一條可在任意地方分享的直鏈。"
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "影片轉連結怎麼操作？",
+          "answer": "上傳影片，等待處理完成，再複製產生的連結。馬上就能開啟、分享或嵌入。"
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "支援哪些影片格式？",
+          "answer": "支援 MP4、MOV、AVI、WebM、MKV、MPEG、OGG、3GP、FLV。免費方案單檔最高 300MB。"
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "產生的影片連結是永久的嗎？",
+          "answer": "是。連結按長期分享設計，網址穩定、可反覆使用。"
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "影片連結可以用在哪裡？",
+          "answer": "文件、工單、聊天、網站、社群貼文與團隊協作工具都可以用。"
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "影片轉連結免費嗎？",
+          "answer": "是。標準流程在目前限額內免費使用。"
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "上傳與託管安全嗎？",
+          "answer": "上傳走 HTTPS，託管面向穩定分發，方便你可靠地分享影片連結。"
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "分享影片，就這麼簡單",
+      "description": "MP4轉連結適合開發者、創作者與團隊：免費、快速，幾秒把影片變成永久連結，隨處分享。",
+      "primaryButton": "轉為連結",
+      "secondaryButton": "查看常見問題"
     }
   }
 }

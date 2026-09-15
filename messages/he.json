@@ -1,150 +1,120 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "ממיר וידאו לקישור בחינם — העלו MP4 וקבלו קישור לשיתוף",
+    "description": "העלו MP4, MOV, AVI, WebM או MKV וקבלו כתובת קבועה לשיתוף תוך שניות. אחסון וידאו חינמי עד 300MB — בלי הרשמה."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "התחברות",
+    "logout": "התנתקות",
+    "signUp": "הרשמה",
+    "language": "החלפת שפה",
+    "languageHint": "בחירת אזור תשנה את השפה ואת התוכן.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "החלפת מצב תצוגה",
+      "light": "בהיר",
+      "dark": "כהה",
+      "system": "לפי המערכת"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "החלפת ערכת נושא",
+      "default": "ברירת מחדל",
+      "blue": "כחול",
+      "green": "ירוק",
+      "amber": "ענבר",
+      "neutral": "ניטרלי"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "העתקה",
+    "saving": "שומר…",
+    "save": "שמירה",
+    "loading": "טוען…",
+    "cancel": "ביטול",
+    "logoutFailed": "ההתנתקות נכשלה",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "סה״כ {count} רשומות",
+      "noResults": "אין תוצאות",
+      "loading": "טוען…",
+      "columns": "עמודות",
+      "rowsPerPage": "שורות בעמוד",
+      "page": "עמוד",
+      "firstPage": "עמוד ראשון",
+      "lastPage": "עמוד אחרון",
+      "nextPage": "עמוד הבא",
+      "previousPage": "עמוד קודם",
+      "ascending": "עולה",
+      "descending": "יורד"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "חינם",
+      "description": "אחסנו סרטונים וקבלו כתובת קבועה לשיתוף",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "גודל העלאה: 300MB",
+        "feature-2": "קישורי CDN קבועים",
+        "feature-3": "בלי הרשמה",
+        "feature-4": "תמיכת קהילה"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "דומיינים מותאמים",
+        "limit-2": "מיתוג מותאם",
+        "limit-3": "עדכוני Lifetime"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "מגבלות גבוהות יותר והיסטוריית העלאות ליוצרים פעילים",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "העלאות וידאו גדולות יותר",
+        "feature-2": "אחסון של 10 GB",
+        "feature-3": "היסטוריית העלאות",
+        "feature-4": "תמיכה בעדיפות",
+        "feature-5": "דומיינים מותאמים"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "מיתוג מותאם",
+        "limit-2": "עדכוני Lifetime"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "תשלום חד־פעמי לקיבולת אחסון וידאו לטווח ארוך",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "כל יכולות Pro",
+        "feature-2": "אחסון של 100 GB",
+        "feature-3": "תמיכה ייעודית",
+        "feature-4": "אבטחה ברמה ארגונית",
+        "feature-5": "שילובים מתקדמים",
+        "feature-6": "מיתוג מותאם",
+        "feature-7": "עדכוני Lifetime"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "מצטערים, העמוד שחיפשתם לא קיים.",
+    "backToHome": "חזרה לדף הבית"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "אופס! משהו השתבש!",
+    "tryAgain": "נסו שוב",
+    "backToHome": "חזרה לדף הבית"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "אודות",
+    "description": "MP4toURL הופך סרטונים לקישורים קבועים לשיתוף — העלו MP4, MOV, AVI, WebM או MKV ושתפו תוך שניות.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "סימן המותג MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "ממיר וידאו לקישור בחינם",
+    "introduction": "MP4toURL הוא דרך מהירה וחינמית לאחסן ולשתף סרטונים. העלו קובץ, קבלו קישור CDN קבוע, והשתמשו בו בכל מקום — בלי הגדרות מסובכות.",
+    "imageAlt": "סמל המותג של MP4toURL",
+    "talkWithMe": "צרו קשר",
+    "followMe": "עקבו ב־X"
   },
   "ContactPage": {
-    "title": "צור קשר",
-    "description": "שלחו הודעה בנושא העלאת סרטונים, קישורי שיתוף או החשבון שלכם. אנחנו קוראים כל הודעה ומשיבים בהקדם האפשרי.",
+    "title": "יצירת קשר",
+    "description": "שלחו הודעה על העלאות וידאו, קישורים לשיתוף או החשבון שלכם. אנחנו קוראים כל הודעה ומשיבים בהקדם האפשרי.",
     "subtitle": "שאלות על MP4toURL? נשמח לעזור.",
-    "orEmail": "או שלחו לנו אימייל ל־",
+    "orEmail": "או שלחו לנו אימייל לכתובת",
     "form": {
       "title": "הודעה",
       "description": "שלחו הודעה ונשיב בהקדם האפשרי.",
@@ -165,309 +135,127 @@
       "invalid": "משהו השתבש. נסו שוב."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "התחברות",
+      "welcomeBack": "ברוכים השבים",
+      "email": "אימייל",
+      "password": "סיסמה",
+      "signIn": "התחברות",
+      "signUpHint": "אין לכם חשבון? הירשמו",
+      "forgotPassword": "שכחתם סיסמה?",
+      "signInWithGoogle": "התחברות עם Google",
+      "showPassword": "הצגת סיסמה",
+      "hidePassword": "הסתרת סיסמה",
+      "or": "או המשיכו עם",
+      "emailRequired": "נא להזין אימייל",
+      "passwordRequired": "נא להזין סיסמה",
+      "captchaInvalid": "אימות Captcha נכשל",
+      "captchaError": "שגיאה באימות Captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "הרשמה",
+      "createAccount": "יצירת חשבון",
+      "name": "שם",
+      "email": "אימייל",
+      "password": "סיסמה",
+      "signUp": "הרשמה",
+      "signInHint": "כבר יש לכם חשבון? התחברו",
+      "checkEmail": "בדקו את תיבת האימייל שלכם",
+      "showPassword": "הצגת סיסמה",
+      "hidePassword": "הסתרת סיסמה",
+      "nameRequired": "נא להזין שם",
+      "emailRequired": "נא להזין אימייל",
+      "passwordRequired": "נא להזין סיסמה",
+      "captchaInvalid": "אימות Captcha נכשל",
+      "captchaError": "שגיאה באימות Captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "שכחתם סיסמה",
+      "email": "אימייל",
+      "send": "שליחת קישור לאיפוס",
+      "backToLogin": "חזרה להתחברות",
+      "checkEmail": "אם קיים חשבון לכתובת זו, שלחנו קישור לאיפוס. בדקו את תיבת הדואר.",
+      "emailRequired": "נא להזין אימייל",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "לא נמצא חשבון עם האימייל הזה",
+        "tooManyRequests": "יותר מדי ניסיונות. נסו שוב מאוחר יותר",
+        "serverError": "משהו השתבש. נסו שוב"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "איפוס סיסמה",
+      "password": "סיסמה חדשה",
+      "reset": "איפוס סיסמה",
+      "backToLogin": "חזרה להתחברות",
+      "showPassword": "הצגת סיסמה",
+      "hidePassword": "הסתרת סיסמה",
+      "minLength": "הסיסמה חייבת להכיל לפחות 8 תווים",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "קישור האיפוס פג. בקשו קישור חדש",
+        "invalidToken": "קישור איפוס לא תקין. בקשו קישור חדש",
+        "tooManyRequests": "יותר מדי ניסיונות. נסו שוב מאוחר יותר",
+        "serverError": "משהו השתבש. נסו שוב"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "אופס! משהו השתבש!",
+      "tryAgain": "נסו שוב.",
+      "backToLogin": "חזרה להתחברות",
+      "checkEmail": "בדקו את תיבת האימייל שלכם"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "תנאי השימוש",
+      "privacyPolicy": "מדיניות הפרטיות",
+      "byClickingContinue": "בלחיצה על המשך אתם מסכימים ל־",
+      "and": " ו־"
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "דף הבית"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "שאלות נפוצות"
       },
       "about": {
         "title": "אודות"
       },
       "contact": {
-        "title": "צור קשר"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
+        "title": "יצירת קשר"
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "העלו סרטון וקבלו קישור קבוע לשיתוף",
       "product": {
-        "title": "Product",
+        "title": "מוצר",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "יכולות",
+          "faq": "שאלות נפוצות"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "חברה",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "אודות",
+          "contact": "יצירת קשר"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "משפטי",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "מדיניות עוגיות",
+          "privacyPolicy": "מדיניות הפרטיות",
+          "termsOfService": "תנאי השימוש"
         }
       }
     },
     "avatar": {
       "dashboard": "סביבת עבודה",
       "resources": "המשאבים שלי",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "חיוב",
+      "settings": "הגדרות"
     }
   },
   "Dashboard": {
@@ -478,20 +266,20 @@
       "loading": "טוען סקירה…",
       "resourceCount": "סרטונים",
       "videoCountLabel": "סרטונים במשאבים שלי",
-      "storageFullHint": "שטח ניסיון החינם מלא. מחקו כמה סרטונים; תוכניות בנפח גדול יותר בקרוב.",
+      "storageFullHint": "אחסון הניסיון החינמי מלא. מחקו סרטונים; תוכניות בקיבולת גבוהה יותר בקרוב.",
       "entryResourcesTitle": "המשאבים שלי",
-      "entryResourcesDesc": "הסרטונים שהעליתם נמצאים כאן — העתיקו קישורים, פתחו או מחקו בכל רגע.",
+      "entryResourcesDesc": "כאן נמצאים הסרטונים שהעליתם — העתיקו קישורים, פתחו או מחקו בכל עת.",
       "entryUploadTitle": "העלאת סרטון",
       "entryUploadDesc": "גררו סרטון לדף הבית וקבלו קישור לשיתוף תוך שניות.",
       "entryFilesTitle": "המשאבים שלי",
-      "entryFilesDesc": "העלאות במצב מחובר נשמרות בחשבון. העתיקו את ה-URL או מחקו קבצים מיותרים.",
-      "entryFilesCta": "פתח את המשאבים שלי",
+      "entryFilesDesc": "העלאות במצב מחובר נשמרות בחשבון. העתיקו את הכתובת או הסירו קבצים שאינכם צריכים.",
+      "entryFilesCta": "פתיחת המשאבים שלי",
       "filesPointUploadTitle": "פורמטים רבים",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ועוד",
       "filesPointManageTitle": "ניהול קישורים",
       "filesPointManageBody": "העתקה, פתיחה או מחיקה מהמשאבים שלי",
-      "filesPointFreeTitle": "אחסון חינם",
-      "filesPointFreeBody": "300 MB חינם לסרטונים מתארחים",
+      "filesPointFreeTitle": "אחסון חינמי",
+      "filesPointFreeBody": "300 MB בחינם לסרטונים מאוחסנים",
       "filesPointPaidTitle": "תוכניות בתשלום",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
@@ -499,16 +287,16 @@
       "title": "המשאבים שלי",
       "welcome": "ברוכים השבים, {name}",
       "storage": "אחסון",
-      "storageHint": "שטח אירוח סרטונים שנעשה בו שימוש",
+      "storageHint": "נפח אחסון הווידאו שבשימוש",
       "planCardTitle": "תוכנית נוכחית",
       "planFree": "חינם",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "פעיל",
-      "planHintFree": "ניסיון חינם זמין כעת. תוכניות בנפח גדול יותר בקרוב.",
-      "planHintPro": "אתם ב-Pro (10 GB). Lifetime פותח 100 GB.",
-      "planHintLifetime": "כל התכונות פתוחות",
-      "description": "סרטונים שהעליתם כשהייתם מחוברים. העלו כאן, הציגו תצוגה מקדימה, הורידו או מחקו בכל רגע.",
+      "planHintFree": "ניסיון חינמי זמין עכשיו. תוכניות בקיבולת גבוהה יותר בקרוב.",
+      "planHintPro": "אתם ב־Pro (10 GB). Lifetime פותח 100 GB.",
+      "planHintLifetime": "כל היכולות פתוחות",
+      "description": "סרטונים שהעליתם במצב מחובר. העלו כאן, הציגו תצוגה מקדימה, הורידו או מחקו בכל עת.",
       "empty": "עדיין אין סרטונים",
       "emptyHint": "לחצו על העלאה או על כרטיס ה־+ כדי להוסיף את הסרטון הראשון.",
       "goUpload": "העלאת סרטון",
@@ -517,7 +305,7 @@
       "uploadSuccess": "ההעלאה הושלמה",
       "uploadFailed": "ההעלאה נכשלה",
       "unsupportedType": "נתמכים רק פורמטי וידאו (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "הקובץ גדול מדי. בתוכנית החינמית עד 300MB לקובץ.",
+      "fileTooLarge": "הקובץ גדול מדי. בתוכנית החינמית מותר עד 300MB לקובץ.",
       "filterFormat": "סוג קובץ",
       "formatAll": "כל הסוגים",
       "format": {
@@ -539,8 +327,8 @@
       "search": "חיפוש",
       "reset": "איפוס",
       "copyUrl": "העתקת URL",
-      "copied": "ה-URL הועתק",
-      "copyFailed": "ההעתקה נכשלה",
+      "copied": "ה־URL הועתק",
+      "copyFailed": "לא ניתן להעתיק",
       "open": "פתיחה",
       "preview": "תצוגה מקדימה",
       "previewClose": "סגירה",
@@ -549,300 +337,211 @@
       "download": "הורדה",
       "delete": "מחיקה",
       "deleteTitle": "מחיקת סרטון",
-      "deleteConfirm": "פעולה זו מסירה את הסרטון לצמיתות מהחשבון. לא ניתן לבטל.",
+      "deleteConfirm": "פעולה זו מסירה לצמיתות את הסרטון מהחשבון. לא ניתן לבטל.",
       "deleteSuccess": "הסרטון נמחק",
       "deleteFailed": "מחיקת הסרטון נכשלה",
       "cancel": "ביטול",
-      "totalCount": "{total} בסך הכול",
+      "totalCount": "סה״כ {total}",
       "pagePrev": "הקודם",
       "pageNext": "הבא"
     },
     "admin": {
-      "title": "Admin",
+      "title": "ניהול",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "משתמשים",
+        "fakeData": "הערה: נתונים מדומים להדגמה; חלק מהיכולות מושבתות",
+        "error": "קבלת המשתמשים נכשלה",
+        "search": "חיפוש משתמשים…",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "עמודות",
+          "name": "שם",
+          "email": "אימייל",
+          "role": "תפקיד",
+          "createdAt": "נוצר ב־",
+          "customerId": "מזהה לקוח",
+          "status": "סטטוס",
+          "banReason": "סיבת חסימה",
+          "banExpires": "תום החסימה"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "מנהל",
+        "user": "משתמש",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "אימייל מאומת",
+          "unverified": "אימייל לא מאומת"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "האימייל הועתק ללוח",
+        "banned": "חסום",
+        "active": "פעיל",
+        "joined": "הצטרף ב־",
+        "updated": "עודכן ב־",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "סיבת חסימה",
+          "reasonPlaceholder": "הזינו את סיבת החסימה של המשתמש",
+          "defaultReason": "ספאם",
+          "never": "לעולם לא",
+          "expires": "תום החסימה",
+          "selectDate": "בחירת תאריך",
+          "button": "חסימת משתמש",
+          "success": "המשתמש נחסם",
+          "error": "חסימת המשתמש נכשלה"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "הסרת חסימה",
+          "success": "החסימה הוסרה",
+          "error": "הסרת החסימה נכשלה"
         },
-        "close": "Close"
+        "close": "סגירה"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "הגדרות",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "פרופיל",
+        "description": "ניהול פרטי החשבון",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "תמונת פרופיל",
+          "description": "לחצו על כפתור ההעלאה כדי להעלות תמונה מותאמת",
+          "recommendation": "תמונת פרופיל אינה חובה אך מומלצת מאוד",
+          "uploading": "מעלה…",
+          "uploadAvatar": "העלאת תמונת פרופיל",
+          "success": "תמונת הפרופיל עודכנה בהצלחה",
+          "fail": "עדכון תמונת הפרופיל נכשל"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "שם",
+          "description": "הזינו את שם התצוגה שלכם",
+          "placeholder": "הזינו שם",
+          "minLength": "השתמשו בלפחות 3 תווים",
+          "maxLength": "השתמשו לכל היותר ב־30 תווים",
+          "hint": "השתמשו ב־3–30 תווים לשם",
+          "success": "השם עודכן בהצלחה",
+          "fail": "עדכון השם נכשל",
+          "saving": "שומר…",
+          "save": "שמירה"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "חיוב",
+        "description": "ניהול המנוי ופרטי החיוב",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "פעיל",
+          "trial": "ניסיון",
+          "free": "חינם",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "חודש",
+          "year": "שנה",
+          "oneTime": "חד־פעמי"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "תוכנית נוכחית",
+          "description": "פרטי התוכנית הנוכחית שלכם",
+          "noPlan": "אין לכם תוכנית פעילה"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "טוען…",
+          "createCustomerPortalFailed": "פתיחת פורטל הלקוחות של Stripe נכשלה"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "מחיר:",
+        "periodStartDate": "תחילת התקופה:",
+        "periodEndDate": "סיום התקופה:",
+        "trialEnds": "סיום הניסיון:",
+        "freePlanMessage": "אתם כרגע בתוכנית החינמית עם יכולות מוגבלות",
+        "lifetimeMessage": "יש לכם גישת Lifetime לכל היכולות המתקדמות",
+        "manageSubscription": "ניהול מנוי וחיוב",
+        "manageBilling": "ניהול חיוב",
+        "upgradePlan": "שדרוג תוכנית",
+        "retry": "ניסיון חוזר",
+        "errorMessage": "קבלת הנתונים נכשלה",
+        "paymentSuccess": "התשלום הצליח"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "מעבד תשלום",
+          "description": "נא להמתין בזמן שאנחנו מאשרים את התשלום…"
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "התשלום הצליח",
+          "description": "מעבירים אוטומטית…"
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "התשלום נכשל",
+          "description": "אירעה בעיה בעיבוד התשלום."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "פג זמן העיבוד",
+          "description": "עיבוד התשלום לוקח יותר זמן מהצפוי."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "ניסיון חוזר"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "אבטחה",
+        "description": "ניהול הגדרות האבטחה",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "החלפת סיסמה",
+          "description": "הזינו את הסיסמה הנוכחית וסיסמה חדשה",
+          "currentPassword": "סיסמה נוכחית",
+          "currentRequired": "נדרשת הסיסמה הנוכחית",
+          "newPassword": "סיסמה חדשה",
+          "newMinLength": "הסיסמה חייבת להכיל לפחות 8 תווים",
+          "hint": "השתמשו בלפחות 8 תווים לסיסמה",
+          "showPassword": "הצגת סיסמה",
+          "hidePassword": "הסתרת סיסמה",
+          "success": "הסיסמה עודכנה בהצלחה",
+          "fail": "עדכון הסיסמה נכשל",
+          "saving": "שומר…",
+          "save": "שמירה"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "איפוס סיסמה",
+          "description": "אפסו סיסמה כדי לאפשר התחברות באימייל",
+          "info": "איפוס הסיסמה יאפשר לכם להתחבר גם באימייל ובסיסמה, בנוסף לשיטות ההתחברות החברתיות. תקבלו אימייל עם הוראות לאיפוס הסיסמה",
+          "button": "איפוס סיסמה"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "מחיקת חשבון",
+          "description": "הסרה לצמיתות של החשבון וכל תוכנו",
+          "warning": "פעולה זו אינה הפיכה — המשיכו בזהירות",
+          "button": "מחיקת חשבון",
+          "confirmTitle": "מחיקת חשבון",
+          "confirmDescription": "האם למחוק את החשבון? לא ניתן לבטל פעולה זו.",
+          "confirm": "מחיקה",
+          "cancel": "ביטול",
+          "deleting": "מוחק…",
+          "success": "החשבון נמחק בהצלחה",
+          "fail": "מחיקת החשבון נכשלה"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "תוכניות בנפח גדול יותר בקרוב. ניסיון חינם זמין כעת.",
-      "button": "Upgrade"
+      "title": "שדרוג",
+      "description": "תוכניות בקיבולת גבוהה יותר בקרוב. ניסיון חינמי זמין עכשיו.",
+      "button": "שדרוג"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "צוות {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "שלום, {name}.",
+      "body": "לחצו על הקישור למטה כדי לאמת את כתובת האימייל.",
+      "confirmEmail": "אימות אימייל",
+      "subject": "אימות האימייל שלכם"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "שלום, {name}.",
+      "body": "קיבלנו בקשה לאיפוס סיסמת MP4toURL שלכם. לחצו על הכפתור למטה לבחירת סיסמה חדשה. אם לא ביקשתם זאת, אפשר להתעלם מהאימייל.",
+      "resetPassword": "איפוס סיסמה",
+      "subject": "איפוס סיסמת MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "שם: {name}",
+      "email": "אימייל: {email}",
+      "message": "הודעה: {message}",
+      "subject": "הודעת יצירת קשר מהאתר"
     }
   },
   "ShareCodes": {
@@ -850,8 +549,8 @@
     "copyUrl": "העתקת URL",
     "copied": "הועתק",
     "copyFailed": "לא ניתן להעתיק",
-    "openTab": "פתיחה בכרטיסייה חדשה",
-    "successTitle": "הצלחה! כתובת הווידאו שלך מוכנה",
+    "openTab": "פתיחה בלשונית חדשה",
+    "successTitle": "הצלחה! כתובת הווידאו מוכנה",
     "successSubtitle": "הסרטון הועלה ומוכן לשיתוף.",
     "videoLabel": "וידאו",
     "watchLabel": "צפייה בסרטון",
@@ -861,7 +560,7 @@
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "עבור GitHub, Notion ומסמכים"
+      "desc": "ל־GitHub, Notion ומסמכים"
     },
     "markdownLink": {
       "title": "Markdown עם קישור",
@@ -873,7 +572,7 @@
     },
     "htmlLink": {
       "title": "HTML עם קישור",
-      "desc": "קישור פשוט שנפתח בכרטיסייה חדשה"
+      "desc": "קישור פשוט שנפתח בלשונית חדשה"
     },
     "bbcode": {
       "title": "BBCode",
@@ -886,136 +585,136 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "העלו סרטון וקבלו קישור קבוע לשיתוף",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "ממיר וידאו לקישור בחינם",
+      "description": "העלו סרטוני MP4 וקבלו קישורים קבועים לשיתוף תוך שניות.",
+      "tagline": "תומך ב־MP4, MOV, AVI, WebM, MKV עד 300MB. בלי הרשמה.",
+      "uploadHeading": "העלאת הסרטון שלכם",
+      "uploadTitle": "גררו לכאן סרטון, או לחצו לבחירה",
+      "uploadHint": "תומך ב־MP4, MOV, AVI, WebM, MKV עד 300MB",
+      "maxSize": "גודל קובץ מרבי: 300MB",
+      "convert": "המרה ל־URL",
+      "uploading": "מעלה…",
+      "copy": "העתקת קישור",
+      "copied": "הועתק",
       "guestSuccessHint": "הסרטון הועלה. העתיקו את הקישור למטה כדי לשתף.",
       "registerForCodesTitle": "רוצים Markdown, HTML ו־BBCode?",
-      "registerForCodesDesc": "הירשמו בחינם כדי לפתוח קודי הטמעה מוכנים להעתקה, ולנהל את כל הסרטונים ב«המשאבים שלי».",
+      "registerForCodesDesc": "הירשמו בחינם כדי לפתוח קודי הטמעה מוכנים להעתקה, ולנהל כל סרטון במשאבים שלי.",
       "registerCta": "הרשמה בחינם",
       "uploadAnother": "העלאת סרטון נוסף",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "ההעלאה נכשלה. נסו שוב.",
+      "unsupportedType": "סוג קובץ לא נתמך. העלו MP4, MOV, AVI, WebM או MKV.",
+      "fileTooLarge": "הקובץ גדול מדי. בתוכנית החינמית מותר עד 300MB לקובץ."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "למה לבחור ב־MP4 to URL",
+      "subtitle": "נבנה למהירות, פרטיות וקישורי מדיה קבועים.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "מהיר כברק",
+          "description": "העלו והמירו סרטונים לכתובות לשיתוף תוך שניות. בלי המתנה ובלי תורים."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "מאובטח ופרטי",
+          "description": "הסרטונים מועברים ב־HTTPS ומאוחסנים עם בקרות שמתמקדות בפרטיות."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "קישורים קבועים",
+          "description": "קבלו קישורים קבועים שלא פגים. מושלם למסמכים, כרטיסים ושיתוף ברשתות."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: וידאו ל-URL תוך שניות"
+      "title": "וידאו לקישור, תוך שניות",
+      "subtitle": "מקובץ מקומי לקישור לשיתוף",
+      "description": "העלו MP4 ופורמטים קשורים, וקבלו כתובת קבועה ונקייה להדבקה במסמכים, בצ׳אטים ובפוסטים.",
+      "point1": "גררו סרטון מהמכשיר",
+      "point2": "המרה תוך שניות — בלי הרשמה לשימוש רגיל",
+      "point3": "העתיקו קישור קבוע ושתפו בכל מקום",
+      "imageAlt": "קולאז׳ mp4tourl.com: הפיכת סרטון לשיתוף",
+      "imageAltNew": "mp4tourl.com: וידאו לקישור תוך שניות, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "איך להשתמש",
+      "subtitle": "שלושה שלבים מקובץ מקומי לכתובת לשיתוף.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "בחרו סרטון",
+          "description": "גררו והשליכו או בחרו MP4, MOV, AVI, WebM או MKV (עד 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "המירו ל־URL",
+          "description": "לחצו על המרה ל־URL. העיבוד מסתיים בדרך כלל תוך כמה שניות."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "העתיקו ושתפו",
+          "description": "העתיקו את הקישור הקבוע והשתמשו בו במסמכים, בצ׳אטים, באתרים או בפוסטים."
         }
       }
     },
     "bannerShowcase": {
-      "title": "תרחישים",
-      "subtitle": "מווידאו מקומי לקישור לשיתוף.",
-      "description": "גררו קובץ וקבלו URL נקי למסמכים, צ'אטים ופוסטים — עיינו בכמה דוגמאות למטה.",
+      "title": "סצנות",
+      "subtitle": "מסרטון מקומי לקישור לשיתוף.",
+      "description": "גררו קובץ, קבלו כתובת נקייה למסמכים, לצ׳אטים ולפוסטים — עיינו בכמה מראות למטה.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
           "description": "הפכו קליפ מקומי לכתובת לשיתוף תוך שניות."
         },
         "newStyle": {
-          "title": "שתפו בכל מקום",
-          "description": "הדביקו את הקישור במסמכים, כרטיסים ופוסטים ברשתות."
+          "title": "שיתוף בכל מקום",
+          "description": "הדביקו את הקישור במסמכים, בכרטיסים ובפוסטים."
         },
         "dark": {
-          "title": "אחסון יציב",
-          "description": "שמרו על הווידאו נגיש עם URL קבוע ויציב."
+          "title": "אחסון נקי",
+          "description": "שמרו על סרטונים נגישים עם כתובת יציבה וקבועה."
         },
         "retro": {
           "title": "המרה מהירה",
-          "description": "העלו פעם אחת, העתיקו את הקישור והשתמשו בו שוב כשצריך."
+          "description": "העלו פעם אחת, העתיקו את הקישור, והשתמשו בו שוב בכל פעם שצריך."
         }
       }
     },
     "faqs": {
       "title": "שאלות נפוצות",
-      "subtitle": "מה שאולי תרצו לדעת על המרת וידאו לקישור.",
+      "subtitle": "מה שכדאי לדעת על המרת וידאו לקישור.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "מהו ממיר וידאו לקישור?",
+          "answer": "ממיר וידאו לקישור מעלה את קובץ הווידאו המקומי ומחזיר קישור אינטרנט ישיר שאפשר לשתף בכל מקום."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "איך עובדת המרת וידאו לקישור?",
+          "answer": "העלו את הסרטון, המתינו לסיום העיבוד, ואז העתיקו את הכתובת שנוצרה. אפשר לפתוח, לשתף או להטמיע את הקישור מיד."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "אילו פורמטי וידאו נתמכים?",
+          "answer": "הפורמטים הנתמכים כוללים MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP ו־FLV. בשכבה החינמית מותר עד 300MB לקובץ."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "האם קישורי הווידאו שנוצרים קבועים?",
+          "answer": "כן. הקישורים מיועדים לשיתוף לטווח ארוך, כך שכתובת הסרטון נשארת יציבה וניתנת לשימוש חוזר."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "איפה אפשר להשתמש בכתובת הווידאו?",
+          "answer": "אפשר להשתמש בה במסמכים, במערכות מעקב משימות, בצ׳אטים, באתרים, בפוסטים ברשתות ובכלי שיתוף פעולה לצוותים."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "האם ממיר הווידאו לקישור הזה חינמי?",
+          "answer": "כן. זרימת ההמרה הסטנדרטית מווידאו לקישור חינמית במסגרת מגבלות ההעלאה הנוכחיות."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "עד כמה מאובטחים העלאת הווידאו והאחסון?",
+          "answer": "ההעלאות משתמשות בהעברה ב־HTTPS ומאוחסנות למשלוח יציב, כך שתקבלו קישורי שיתוף אמינים לתוכן וידאו."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "הדרך הקלה ביותר לשתף סרטונים",
+      "description": "MP4 to URL הוא תהליך אחסון מדיה מהיר וחינמי למפתחים, ליוצרים ולצוותים. המירו סרטונים לכתובות קבועות תוך שניות ושתפו אותן בכל מקום.",
+      "primaryButton": "המרה ל־URL",
+      "secondaryButton": "קריאת שאלות נפוצות"
     }
   }
 }

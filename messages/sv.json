@@ -1,148 +1,118 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Gratis videokonverterare till delbar länk – ladda upp MP4 och få delningslänkar",
+    "description": "Ladda upp MP4, MOV, AVI, WebM, MKV och få permanenta delnings-URL:er på sekunder. Gratis videohosting upp till 300MB – ingen registrering krävs."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "signUp": "Registrera dig",
+    "language": "Byt språk",
+    "languageHint": "När du väljer en region ändras språk och innehåll.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
+      "label": "Byt läge",
+      "light": "Ljust",
+      "dark": "Mörkt",
       "system": "System"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
+      "label": "Byt tema",
+      "default": "Standard",
+      "blue": "Blå",
+      "green": "Grön",
+      "amber": "Bärnsten",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopiera",
+    "saving": "Sparar...",
+    "save": "Spara",
+    "loading": "Laddar...",
+    "cancel": "Avbryt",
+    "logoutFailed": "Kunde inte logga ut",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Totalt {count} poster",
+      "noResults": "Inga resultat",
+      "loading": "Laddar...",
+      "columns": "Kolumner",
+      "rowsPerPage": "Rader per sida",
+      "page": "Sida",
+      "firstPage": "Första sidan",
+      "lastPage": "Sista sidan",
+      "nextPage": "Nästa sida",
+      "previousPage": "Föregående sida",
+      "ascending": "Stig.",
+      "descending": "Fall."
     }
   },
   "PricePlans": {
     "free": {
       "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "description": "Hosta videor och få en permanent delbar länk",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Uppladdningsstorlek: 300MB",
+        "feature-2": "Permanenta CDN-länkar",
+        "feature-3": "Ingen registrering krävs",
+        "feature-4": "Communitysupport"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Egna domäner",
+        "limit-2": "Egen varumärkesprofil",
+        "limit-3": "Livstidsuppdateringar"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Högre gränser och uppladdningshistorik för aktiva skapare",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Större videouppladdningar",
+        "feature-2": "10 GB lagring",
+        "feature-3": "Uppladdningshistorik",
+        "feature-4": "Prioriterad support",
+        "feature-5": "Egna domäner"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Egen varumärkesprofil",
+        "limit-2": "Livstidsuppdateringar"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Betala en gång för långsiktig kapacitet för videohosting",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Alla Pro-funktioner",
+        "feature-2": "100 GB lagring",
+        "feature-3": "Dedikerad support",
+        "feature-4": "Säkerhet på företagsnivå",
+        "feature-5": "Avancerade integrationer",
+        "feature-6": "Egen varumärkesprofil",
+        "feature-7": "Livstidsuppdateringar"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Tyvärr finns inte sidan du söker.",
+    "backToHome": "Tillbaka till startsidan"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Hoppsan! Något gick fel!",
+    "tryAgain": "Försök igen",
+    "backToHome": "Tillbaka till startsidan"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Om oss",
+    "description": "MP4toURL gör dina videor till permanenta delningslänkar – ladda upp MP4, MOV, AVI, WebM eller MKV och dela på sekunder.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "MP4toURL varumärke",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Gratis videokonverterare till delbar länk",
+    "introduction": "MP4toURL är ett snabbt och gratis sätt att hosta och dela videor. Ladda upp en fil, få en permanent CDN-länk och använd den överallt – utan krånglig setup.",
+    "imageAlt": "MP4toURL-varumärke",
+    "talkWithMe": "Kontakta oss",
+    "followMe": "Följ oss på X"
   },
   "ContactPage": {
     "title": "Kontakt",
-    "description": "Skicka ett meddelande om videouppladdningar, delningsbara länkar eller ditt konto. Vi läser varje meddelande och svarar så snart vi kan.",
+    "description": "Skicka ett meddelande om videouppladdningar, delningslänkar eller ditt konto. Vi läser alla meddelanden och svarar så snart vi kan.",
     "subtitle": "Frågor om MP4toURL? Vi hjälper gärna till.",
     "orEmail": "Eller mejla oss på",
     "form": {
@@ -153,346 +123,164 @@
       "message": "Meddelande",
       "namePlaceholder": "Ange ämne",
       "emailPlaceholder": "E-post",
-      "messagePlaceholder": "Ange meddelande",
+      "messagePlaceholder": "Skriv meddelande",
       "submit": "Skicka",
-      "submitting": "Skickar…",
+      "submitting": "Skickar...",
       "success": "Meddelandet har skickats. Vi svarar så snart vi kan.",
       "minLength": "Ämnet måste vara minst 3 tecken.",
-      "maxLengthName": "Ämnet får inte överstiga 100 tecken.",
+      "maxLengthName": "Ämnet får inte vara längre än 100 tecken.",
       "invalidEmail": "Ange en giltig e-postadress.",
       "minLengthMessage": "Meddelandet måste vara minst 10 tecken.",
-      "maxLengthMessage": "Meddelandet får inte överstiga 2000 tecken.",
+      "maxLengthMessage": "Meddelandet får inte vara längre än 2000 tecken.",
       "invalid": "Något gick fel. Försök igen."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Logga in",
+      "welcomeBack": "Välkommen tillbaka",
+      "email": "E-post",
+      "password": "Lösenord",
+      "signIn": "Logga in",
+      "signUpHint": "Har du inget konto? Registrera dig",
+      "forgotPassword": "Glömt lösenord?",
+      "signInWithGoogle": "Logga in med Google",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "or": "Eller fortsätt med",
+      "emailRequired": "Ange din e-post",
+      "passwordRequired": "Ange ditt lösenord",
+      "captchaInvalid": "Captcha-verifiering misslyckades",
+      "captchaError": "Fel vid captcha-verifiering"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Registrera dig",
+      "createAccount": "Skapa konto",
+      "name": "Namn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "signUp": "Registrera dig",
+      "signInHint": "Har du redan konto? Logga in",
+      "checkEmail": "Kolla din inkorg",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "nameRequired": "Ange ditt namn",
+      "emailRequired": "Ange din e-post",
+      "passwordRequired": "Ange ditt lösenord",
+      "captchaInvalid": "Captcha-verifiering misslyckades",
+      "captchaError": "Fel vid captcha-verifiering"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Glömt lösenord",
+      "email": "E-post",
+      "send": "Skicka återställningslänk",
+      "backToLogin": "Tillbaka till inloggning",
+      "checkEmail": "Om det finns ett konto med den här e-posten har vi skickat en återställningslänk. Kolla din inkorg.",
+      "emailRequired": "Ange din e-post",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Inget konto hittades med den här e-posten",
+        "tooManyRequests": "För många försök. Försök igen senare",
+        "serverError": "Något gick fel. Försök igen"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Återställ lösenord",
+      "password": "Nytt lösenord",
+      "reset": "Återställ lösenord",
+      "backToLogin": "Tillbaka till inloggning",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "minLength": "Lösenordet måste vara minst 8 tecken",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Återställningslänken har gått ut. Begär en ny",
+        "invalidToken": "Ogiltig återställningslänk. Begär en ny",
+        "tooManyRequests": "För många försök. Försök igen senare",
+        "serverError": "Något gick fel. Försök igen"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Hoppsan! Något gick fel!",
+      "tryAgain": "Försök igen.",
+      "backToLogin": "Tillbaka till inloggning",
+      "checkEmail": "Kolla din inkorg"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Användarvillkor",
+      "privacyPolicy": "Integritetspolicy",
+      "byClickingContinue": "Genom att klicka på fortsätt godkänner du våra ",
+      "and": " och "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Hem"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
         "title": "FAQ"
       },
       "about": {
-        "title": "Om"
+        "title": "Om oss"
       },
       "contact": {
         "title": "Kontakt"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Ladda upp en video och få en permanent delbar länk",
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "Funktioner",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "Företag",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Om oss",
+          "contact": "Kontakt"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridiskt",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookiepolicy",
+          "privacyPolicy": "Integritetspolicy",
+          "termsOfService": "Användarvillkor"
         }
       }
     },
     "avatar": {
-      "dashboard": "Arbetsyta",
+      "dashboard": "Arbetsbänk",
       "resources": "Mina resurser",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Fakturering",
+      "settings": "Inställningar"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Arbetsyta"
+      "title": "Arbetsbänk"
     },
     "home": {
       "loading": "Laddar översikt…",
       "resourceCount": "Videor",
       "videoCountLabel": "Videor i Mina resurser",
-      "storageFullHint": "Lagringsutrymmet för gratisprovperioden är fullt. Ta bort några videor; planer med högre kapacitet kommer snart.",
+      "storageFullHint": "Gratis provlagring är full. Ta bort några videor; planer med mer utrymme kommer snart.",
       "entryResourcesTitle": "Mina resurser",
-      "entryResourcesDesc": "Dina uppladdade videor finns här — kopiera länkar, öppna eller ta bort när som helst.",
+      "entryResourcesDesc": "Dina uppladdade videor finns här – kopiera länkar, öppna eller ta bort när som helst.",
       "entryUploadTitle": "Ladda upp video",
-      "entryUploadDesc": "Släpp en video på startsidan och få en delningslänk på några sekunder.",
+      "entryUploadDesc": "Släpp en video på startsidan och få en delningslänk på sekunder.",
       "entryFilesTitle": "Mina resurser",
-      "entryFilesDesc": "Uppladdningar när du är inloggad sparas på kontot. Kopiera URL:en eller ta bort filer du inte längre behöver.",
-      "entryFilesCta": "Öppna mina resurser",
+      "entryFilesDesc": "Uppladdningar när du är inloggad sparas på ditt konto. Kopiera URL:en eller ta bort filer du inte behöver.",
+      "entryFilesCta": "Öppna Mina resurser",
       "filesPointUploadTitle": "Många format",
-      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV med mera",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV m.fl.",
       "filesPointManageTitle": "Hantera länkar",
       "filesPointManageBody": "Kopiera, öppna eller ta bort från Mina resurser",
       "filesPointFreeTitle": "Gratis lagring",
       "filesPointFreeBody": "300 MB gratis för hostade videor",
-      "filesPointPaidTitle": "Betalplaner",
+      "filesPointPaidTitle": "Betalda planer",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
@@ -500,15 +288,15 @@
       "welcome": "Välkommen tillbaka, {name}",
       "storage": "Lagring",
       "storageHint": "Använt utrymme för videohosting",
-      "planCardTitle": "Nuvarande plan",
-      "planFree": "Gratis",
+      "planCardTitle": "Aktuell plan",
+      "planFree": "Free",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktiv",
-      "planHintFree": "Gratis provperiod är tillgänglig nu. Planer med högre kapacitet kommer snart.",
+      "planHintFree": "Gratis provperiod finns nu. Planer med mer utrymme kommer snart.",
       "planHintPro": "Du har Pro (10 GB). Lifetime låser upp 100 GB.",
-      "planHintLifetime": "Alla funktioner upplåsta",
-      "description": "Videor du laddat upp när du var inloggad. Ladda upp här, förhandsgranska, ladda ner eller ta bort när som helst.",
+      "planHintLifetime": "Alla funktioner är upplåsta",
+      "description": "Videor du laddade upp när du var inloggad. Ladda upp, förhandsgranska, ladda ner eller ta bort när som helst.",
       "empty": "Inga videor ännu",
       "emptyHint": "Klicka på Ladda upp eller +-kortet för att lägga till din första video.",
       "goUpload": "Ladda upp video",
@@ -535,7 +323,7 @@
       "viewList": "Listvy",
       "loading": "Laddar…",
       "loadError": "Kunde inte ladda resurser",
-      "searchPlaceholder": "Sök på filnamn…",
+      "searchPlaceholder": "Sök efter filnamn…",
       "search": "Sök",
       "reset": "Återställ",
       "copyUrl": "Kopiera URL",
@@ -545,7 +333,7 @@
       "preview": "Förhandsgranska",
       "previewClose": "Stäng",
       "shareCodes": "Delningskoder",
-      "shareCodesDesc": "Kopieringsklara länkar för Markdown, HTML, BBCode med mera.",
+      "shareCodesDesc": "Färdiga länkar för Markdown, HTML, BBCode med mera.",
       "download": "Ladda ner",
       "delete": "Ta bort",
       "deleteTitle": "Ta bort video",
@@ -560,293 +348,204 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Användare",
+        "fakeData": "Obs: Fejkdata för demonstration; vissa funktioner är inaktiverade",
+        "error": "Kunde inte hämta användare",
+        "search": "Sök användare...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "columns": "Kolumner",
+          "name": "Namn",
+          "email": "E-post",
+          "role": "Roll",
+          "createdAt": "Skapad",
+          "customerId": "Kund-ID",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Avstängningsorsak",
+          "banExpires": "Avstängning upphör"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Användare",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-post verifierad",
+          "unverified": "E-post ej verifierad"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-post kopierad till urklipp",
+        "banned": "Avstängd",
+        "active": "Aktiv",
+        "joined": "Gick med",
+        "updated": "Uppdaterad",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Avstängningsorsak",
+          "reasonPlaceholder": "Ange orsaken till att stänga av den här användaren",
+          "defaultReason": "Spam",
+          "never": "Aldrig",
+          "expires": "Avstängning upphör",
+          "selectDate": "Välj datum",
+          "button": "Stäng av användare",
+          "success": "Användaren har stängts av",
+          "error": "Kunde inte stänga av användare"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Häv avstängning",
+          "success": "Avstängningen har hävts",
+          "error": "Kunde inte häva avstängning"
         },
-        "close": "Close"
+        "close": "Stäng"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Inställningar",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Hantera dina kontouppgifter",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Klicka på uppladdningsknappen för att ladda upp en egen bild",
+          "recommendation": "Avatar är valfritt men rekommenderas starkt",
+          "uploading": "Laddar upp...",
+          "uploadAvatar": "Ladda upp avatar",
+          "success": "Avatar uppdaterad",
+          "fail": "Kunde inte uppdatera avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Namn",
+          "description": "Ange ditt visningsnamn",
+          "placeholder": "Ange ditt namn",
+          "minLength": "Använd minst 3 tecken",
+          "maxLength": "Använd högst 30 tecken",
+          "hint": "Använd 3–30 tecken för ditt namn",
+          "success": "Namn uppdaterat",
+          "fail": "Kunde inte uppdatera namn",
+          "saving": "Sparar...",
+          "save": "Spara"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Fakturering",
+        "description": "Hantera prenumeration och faktureringsuppgifter",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
+          "active": "Aktiv",
+          "trial": "Prov",
           "free": "Free",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "månad",
+          "year": "år",
+          "oneTime": "engångsbetalning"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Aktuell plan",
+          "description": "Detaljer om din nuvarande plan",
+          "noPlan": "Du har ingen aktiv plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Laddar...",
+          "createCustomerPortalFailed": "Kunde inte öppna Stripe-kundportalen"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Pris:",
+        "periodStartDate": "Periodens startdatum:",
+        "periodEndDate": "Periodens slutdatum:",
+        "trialEnds": "Provperioden slutar:",
+        "freePlanMessage": "Du har för närvarande gratisplanen med begränsade funktioner",
+        "lifetimeMessage": "Du har livstidsåtkomst till alla premiumfunktioner",
+        "manageSubscription": "Hantera prenumeration och fakturering",
+        "manageBilling": "Hantera fakturering",
+        "upgradePlan": "Uppgradera plan",
+        "retry": "Försök igen",
+        "errorMessage": "Kunde inte hämta data",
+        "paymentSuccess": "Betalning genomförd"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Bearbetar betalning",
+          "description": "Vänta medan vi bekräftar din betalning..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Betalning genomförd",
+          "description": "Omdirigerar automatiskt..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Betalning misslyckades",
+          "description": "Det uppstod ett problem vid behandling av betalningen."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Tidsgräns för bearbetning",
+          "description": "Betalningsbearbetningen tar längre tid än väntat."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Försök igen"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Säkerhet",
+        "description": "Hantera dina säkerhetsinställningar",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Byt lösenord",
+          "description": "Ange ditt nuvarande lösenord och ett nytt lösenord",
+          "currentPassword": "Nuvarande lösenord",
+          "currentRequired": "Nuvarande lösenord krävs",
+          "newPassword": "Nytt lösenord",
+          "newMinLength": "Lösenordet måste vara minst 8 tecken",
+          "hint": "Använd minst 8 tecken för lösenordet",
+          "showPassword": "Visa lösenord",
+          "hidePassword": "Dölj lösenord",
+          "success": "Lösenord uppdaterat",
+          "fail": "Kunde inte uppdatera lösenord",
+          "saving": "Sparar...",
+          "save": "Spara"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Återställ lösenord",
+          "description": "Återställ lösenord för att aktivera e-postinloggning",
+          "info": "När du återställer lösenordet kan du logga in med e-post och lösenord utöver dina sociala inloggningsmetoder. Du får ett mejl med instruktioner",
+          "button": "Återställ lösenord"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Ta bort konto",
+          "description": "Ta bort ditt konto och allt innehåll permanent",
+          "warning": "Den här åtgärden kan inte ångras – fortsätt med försiktighet",
+          "button": "Ta bort konto",
+          "confirmTitle": "Ta bort konto",
+          "confirmDescription": "Är du säker på att du vill ta bort ditt konto? Det går inte att ångra.",
+          "confirm": "Ta bort",
+          "cancel": "Avbryt",
+          "deleting": "Tar bort...",
+          "success": "Konto borttaget",
+          "fail": "Kunde inte ta bort konto"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Planer med högre kapacitet kommer snart. Gratis provperiod är tillgänglig nu.",
-      "button": "Upgrade"
+      "title": "Uppgradera",
+      "description": "Planer med mer utrymme kommer snart. Gratis provperiod finns nu.",
+      "button": "Uppgradera"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name}-teamet",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hej, {name}.",
+      "body": "Klicka på länken nedan för att verifiera din e-postadress.",
+      "confirmEmail": "Bekräfta e-post",
+      "subject": "Verifiera din e-post"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hej, {name}.",
+      "body": "Vi har fått en begäran om att återställa ditt MP4toURL-lösenord. Klicka på knappen nedan för att välja ett nytt lösenord. Om du inte begärde detta kan du ignorera mejlet.",
+      "resetPassword": "Återställ lösenord",
+      "subject": "Återställ ditt MP4toURL-lösenord"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Namn: {name}",
+      "email": "E-post: {email}",
+      "message": "Meddelande: {message}",
+      "subject": "Kontaktmeddelande från webbplatsen"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KOPIERINGSKLARA KODER",
+    "sectionTitle": "FÄRDIGA KODER ATT KOPIERA",
     "copyUrl": "Kopiera URL",
     "copied": "Kopierad",
     "copyFailed": "Kunde inte kopiera",
@@ -865,7 +564,7 @@
     },
     "markdownLink": {
       "title": "Markdown med länk",
-      "desc": "Markdown med en läsbar titta-etikett"
+      "desc": "Markdown med läsbar titt-etikett"
     },
     "html": {
       "title": "HTML",
@@ -881,141 +580,141 @@
     },
     "bbcodeLink": {
       "title": "BBCode med länk",
-      "desc": "Forumlänk med titta-etikett"
+      "desc": "Forumlänk med titt-etikett"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Ladda upp en video och få en permanent delbar länk",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Gratis videokonverterare till delbar länk",
+      "description": "Ladda upp MP4-videor och få permanenta delningslänkar på sekunder.",
+      "tagline": "Stöder MP4, MOV, AVI, WebM, MKV upp till 300MB. Ingen registrering krävs.",
+      "uploadHeading": "Ladda upp din video",
+      "uploadTitle": "Släpp din video här eller klicka för att bläddra",
+      "uploadHint": "Stöder MP4, MOV, AVI, WebM, MKV upp till 300MB",
+      "maxSize": "Max filstorlek: 300MB",
+      "convert": "Konvertera till URL",
+      "uploading": "Laddar upp...",
+      "copy": "Kopiera länk",
+      "copied": "Kopierad",
       "guestSuccessHint": "Din video har laddats upp. Kopiera länken nedan för att dela den.",
       "registerForCodesTitle": "Vill du ha Markdown, HTML och BBCode?",
-      "registerForCodesDesc": "Registrera dig gratis för att låsa upp kopieringsklara inbäddningskoder och hantera alla videor under Mina resurser.",
+      "registerForCodesDesc": "Registrera dig gratis för att låsa upp inbäddningskoder redo att kopiera och hantera alla videor i Mina resurser.",
       "registerCta": "Registrera dig gratis",
       "uploadAnother": "Ladda upp en annan video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Uppladdning misslyckades. Försök igen.",
+      "unsupportedType": "Filtypen stöds inte. Ladda upp MP4, MOV, AVI, WebM eller MKV.",
+      "fileTooLarge": "Filen är för stor. Gratisplanen tillåter upp till 300MB per fil."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Varför välja MP4 to URL",
+      "subtitle": "Byggt för hastighet, integritet och permanenta medielänkar.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Blixtsnabbt",
+          "description": "Ladda upp och konvertera dina videor till delnings-URL:er på sekunder. Ingen väntan, inga köer."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Säkert och privat",
+          "description": "Dina videor överförs via HTTPS och hostas med integritet i fokus."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Permanenta länkar",
+          "description": "Få permanenta länkar som aldrig går ut. Perfekt för dokumentation, ärenden och delning i sociala medier."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video till URL på sekunder"
+      "title": "Video till URL på sekunder",
+      "subtitle": "Från lokal fil till delbar länk",
+      "description": "Ladda upp MP4 och relaterade format, få en ren permanent URL att klistra in i dokument, chattar och inlägg.",
+      "point1": "Släpp en video från din enhet",
+      "point2": "Konvertera på sekunder – ingen registrering för vanligt bruk",
+      "point3": "Kopiera en permanent länk och dela var som helst",
+      "imageAlt": "mp4tourl.com-kollage: gör video delbar",
+      "imageAltNew": "mp4tourl.com: video till URL på sekunder, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Så här använder du",
+      "subtitle": "Tre steg från lokal fil till delbar URL.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Välj en video",
+          "description": "Dra och släpp eller bläddra efter MP4, MOV, AVI, WebM eller MKV (upp till 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Konvertera till URL",
+          "description": "Klicka på Konvertera till URL. Bearbetningen är oftast klar på några sekunder."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopiera och dela",
+          "description": "Kopiera den permanenta länken och använd den i dokument, chattar, webbplatser eller sociala inlägg."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Scenarier",
+      "title": "Scener",
       "subtitle": "Från lokal video till delbar länk.",
-      "description": "Släpp en fil och få en ren URL för dokument, chattar och inlägg — bläddra bland några exempel nedan.",
+      "description": "Släpp en fil, få en ren URL för dokument, chattar och inlägg – se några uttryck nedan.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Gör ett lokalt klipp till en delbar adress på några sekunder."
+          "description": "Gör ett lokalt klipp till en delbar adress på sekunder."
         },
         "newStyle": {
           "title": "Dela var som helst",
-          "description": "Klistra in länken i dokument, ärenden och inlägg i sociala medier."
+          "description": "Klistra in länken i dokument, ärenden och sociala inlägg."
         },
         "dark": {
-          "title": "Stabil hosting",
+          "title": "Ren hosting",
           "description": "Håll videor tillgängliga med en stabil, permanent URL."
         },
         "retro": {
           "title": "Snabb konvertering",
-          "description": "Ladda upp en gång, kopiera länken och återanvänd när du behöver."
+          "description": "Ladda upp en gång, kopiera länken och återanvänd den när du behöver."
         }
       }
     },
     "faqs": {
-      "title": "Vanliga frågor",
-      "subtitle": "Det du kanske vill veta om video till URL.",
+      "title": "FAQ",
+      "subtitle": "Det du kanske undrar om video till URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Vad är en videokonverterare till URL?",
+          "answer": "En videokonverterare till URL laddar upp din lokala videofil och returnerar en direkt webblänk du kan dela var som helst."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Hur fungerar konvertering från video till URL?",
+          "answer": "Ladda upp din video, vänta tills bearbetningen är klar och kopiera sedan den genererade URL:en. Du kan öppna, dela eller bädda in länken direkt."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Vilka videoformat stöds?",
+          "answer": "Format som stöds inkluderar MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP och FLV. Gratisnivån tillåter upp till 300MB per fil."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Är de genererade videolänkarna permanenta?",
+          "answer": "Ja. Länkarna är designade för långsiktig delning så att din video-URL förblir stabil och återanvändbar."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Var kan jag använda video-URL:en?",
+          "answer": "Du kan använda den i dokumentation, ärendesystem, chattar, webbplatser, sociala inlägg och verktyg för teamsamarbete."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Är den här videokonverteraren till URL gratis?",
+          "answer": "Ja. Standardflödet för video till URL är gratis inom gällande uppladdningsgränser."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Hur säker är videouppladdning och hosting?",
+          "answer": "Uppladdningar använder HTTPS-överföring och hostas för stabil leverans, så du får pålitliga delningslänkar för videoinnehåll."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Det enklaste sättet att dela videor",
+      "description": "MP4 to URL är ett gratis och snabbt mediahosting-flöde för utvecklare, skapare och team. Konvertera videor till permanenta URL:er på sekunder och dela dem var som helst.",
+      "primaryButton": "Konvertera till URL",
+      "secondaryButton": "Läs FAQ"
     }
   }
 }

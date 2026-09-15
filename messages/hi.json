@@ -1,149 +1,119 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "मुफ़्त वीडियो से URL कन्वर्टर — MP4 अपलोड करें और साझा करने योग्य लिंक पाएँ",
+    "description": "MP4, MOV, AVI, WebM, MKV अपलोड करें और कुछ सेकंड में स्थायी साझा करने योग्य URL पाएँ। 300MB तक मुफ़्त वीडियो होस्टिंग — रजिस्ट्रेशन की ज़रूरत नहीं।"
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "लॉग इन",
+    "logout": "लॉग आउट",
+    "signUp": "साइन अप",
+    "language": "भाषा बदलें",
+    "languageHint": "क्षेत्र चुनने से भाषा और सामग्री बदल जाएगी।",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "मोड बदलें",
+      "light": "हल्का",
+      "dark": "गहरा",
+      "system": "सिस्टम"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "थीम बदलें",
+      "default": "डिफ़ॉल्ट",
+      "blue": "नीला",
+      "green": "हरा",
+      "amber": "अम्बर",
+      "neutral": "तटस्थ"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "कॉपी करें",
+    "saving": "सहेजा जा रहा है...",
+    "save": "सहेजें",
+    "loading": "लोड हो रहा है...",
+    "cancel": "रद्द करें",
+    "logoutFailed": "लॉग आउट नहीं हो सका",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "कुल {count} रिकॉर्ड",
+      "noResults": "कोई परिणाम नहीं",
+      "loading": "लोड हो रहा है...",
+      "columns": "कॉलम",
+      "rowsPerPage": "प्रति पृष्ठ पंक्तियाँ",
+      "page": "पृष्ठ",
+      "firstPage": "पहला पृष्ठ",
+      "lastPage": "अंतिम पृष्ठ",
+      "nextPage": "अगला पृष्ठ",
+      "previousPage": "पिछला पृष्ठ",
+      "ascending": "आरोही",
+      "descending": "अवरोही"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "मुफ़्त",
+      "description": "वीडियो होस्ट करें और स्थायी साझा करने योग्य URL पाएँ",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "अपलोड आकार: 300MB",
+        "feature-2": "स्थायी CDN लिंक",
+        "feature-3": "साइन अप की ज़रूरत नहीं",
+        "feature-4": "समुदाय सहायता"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "कस्टम डोमेन",
+        "limit-2": "कस्टम ब्रांडिंग",
+        "limit-3": "आजीवन अपडेट"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "सक्रिय क्रिएटर्स के लिए ऊँची सीमाएँ और अपलोड इतिहास",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "बड़े वीडियो अपलोड",
+        "feature-2": "10 GB स्टोरेज",
+        "feature-3": "अपलोड इतिहास",
+        "feature-4": "प्राथमिकता सहायता",
+        "feature-5": "कस्टम डोमेन"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "कस्टम ब्रांडिंग",
+        "limit-2": "आजीवन अपडेट"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "लंबी अवधि की वीडियो होस्टिंग क्षमता के लिए एक बार भुगतान करें",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "सभी Pro सुविधाएँ",
+        "feature-2": "100 GB स्टोरेज",
+        "feature-3": "समर्पित सहायता",
+        "feature-4": "एंटरप्राइज़-स्तरीय सुरक्षा",
+        "feature-5": "उन्नत इंटीग्रेशन",
+        "feature-6": "कस्टम ब्रांडिंग",
+        "feature-7": "आजीवन अपडेट"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "क्षमा करें, आप जो पृष्ठ ढूँढ रहे हैं वह मौजूद नहीं है।",
+    "backToHome": "होम पर वापस जाएँ"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "ओह! कुछ गलत हो गया!",
+    "tryAgain": "फिर से कोशिश करें",
+    "backToHome": "होम पर वापस जाएँ"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "हमारे बारे में",
+    "description": "MP4toURL आपके वीडियो को स्थायी साझा करने योग्य लिंक में बदल देता है — MP4, MOV, AVI, WebM या MKV अपलोड करें और सेकंडों में साझा करें।",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "मुफ़्त वीडियो से URL कन्वर्टर",
+    "introduction": "MP4toURL वीडियो होस्ट और साझा करने का मुफ़्त, तेज़ तरीका है। फ़ाइल अपलोड करें, स्थायी CDN लिंक पाएँ, और कहीं भी इस्तेमाल करें — कोई जटिल सेटअप नहीं।",
     "imageAlt": "MP4toURL ब्रांड चिह्न",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "हमसे संपर्क करें",
+    "followMe": "X पर फ़ॉलो करें"
   },
   "ContactPage": {
     "title": "संपर्क",
     "description": "वीडियो अपलोड, साझा करने योग्य लिंक या अपने खाते के बारे में संदेश भेजें। हम हर संदेश पढ़ते हैं और जल्द से जल्द जवाब देते हैं।",
-    "subtitle": "MP4toURL के बारे में सवाल? हमें मदद करके खुशी होगी।",
+    "subtitle": "MP4toURL के बारे में सवाल? हम मदद करने को तैयार हैं।",
     "orEmail": "या हमें ईमेल करें",
     "form": {
       "title": "संदेश",
@@ -151,323 +121,141 @@
       "name": "विषय",
       "email": "ईमेल",
       "message": "संदेश",
-      "namePlaceholder": "विषय दर्ज करें",
+      "namePlaceholder": "विषय लिखें",
       "emailPlaceholder": "ईमेल",
-      "messagePlaceholder": "संदेश दर्ज करें",
+      "messagePlaceholder": "संदेश लिखें",
       "submit": "भेजें",
-      "submitting": "भेजा जा रहा है…",
-      "success": "संदेश सफलतापूर्वक भेजा गया। हम जल्द से जल्द जवाब देंगे।",
+      "submitting": "भेजा जा रहा है...",
+      "success": "संदेश सफलतापूर्वक भेज दिया गया। हम जल्द से जल्द जवाब देंगे।",
       "minLength": "विषय कम से कम 3 अक्षर का होना चाहिए।",
-      "maxLengthName": "विषय 100 अक्षर से अधिक नहीं होना चाहिए।",
+      "maxLengthName": "विषय 100 अक्षरों से अधिक नहीं होना चाहिए।",
       "invalidEmail": "कृपया मान्य ईमेल पता दर्ज करें।",
       "minLengthMessage": "संदेश कम से कम 10 अक्षर का होना चाहिए।",
-      "maxLengthMessage": "संदेश 2000 अक्षर से अधिक नहीं होना चाहिए।",
+      "maxLengthMessage": "संदेश 2000 अक्षरों से अधिक नहीं होना चाहिए।",
       "invalid": "कुछ गलत हो गया। कृपया फिर से कोशिश करें।"
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "लॉगिन",
+      "welcomeBack": "वापसी पर स्वागत है",
+      "email": "ईमेल",
+      "password": "पासवर्ड",
+      "signIn": "साइन इन",
+      "signUpHint": "खाता नहीं है? साइन अप करें",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "signInWithGoogle": "Google से साइन इन करें",
+      "showPassword": "पासवर्ड दिखाएँ",
+      "hidePassword": "पासवर्ड छिपाएँ",
+      "or": "या इससे जारी रखें",
+      "emailRequired": "कृपया अपना ईमेल दर्ज करें",
+      "passwordRequired": "कृपया अपना पासवर्ड दर्ज करें",
+      "captchaInvalid": "कैप्चा सत्यापन विफल",
+      "captchaError": "कैप्चा सत्यापन त्रुटि"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "रजिस्टर",
+      "createAccount": "खाता बनाएँ",
+      "name": "नाम",
+      "email": "ईमेल",
+      "password": "पासवर्ड",
+      "signUp": "साइन अप",
+      "signInHint": "पहले से खाता है? साइन इन करें",
+      "checkEmail": "कृपया अपना ईमेल इनबॉक्स देखें",
+      "showPassword": "पासवर्ड दिखाएँ",
+      "hidePassword": "पासवर्ड छिपाएँ",
+      "nameRequired": "कृपया अपना नाम दर्ज करें",
+      "emailRequired": "कृपया अपना ईमेल दर्ज करें",
+      "passwordRequired": "कृपया अपना पासवर्ड दर्ज करें",
+      "captchaInvalid": "कैप्चा सत्यापन विफल",
+      "captchaError": "कैप्चा सत्यापन त्रुटि"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "पासवर्ड भूल गए",
+      "email": "ईमेल",
+      "send": "रीसेट लिंक भेजें",
+      "backToLogin": "लॉगिन पर वापस जाएँ",
+      "checkEmail": "यदि इस ईमेल से खाता मौजूद है, तो हमने रीसेट लिंक भेज दिया है। अपना इनबॉक्स देखें।",
+      "emailRequired": "कृपया अपना ईमेल दर्ज करें",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "इस ईमेल से कोई खाता नहीं मिला",
+        "tooManyRequests": "बहुत अधिक प्रयास। कृपया बाद में फिर कोशिश करें",
+        "serverError": "कुछ गलत हो गया। कृपया फिर कोशिश करें"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "पासवर्ड रीसेट करें",
+      "password": "नया पासवर्ड",
+      "reset": "पासवर्ड रीसेट करें",
+      "backToLogin": "लॉगिन पर वापस जाएँ",
+      "showPassword": "पासवर्ड दिखाएँ",
+      "hidePassword": "पासवर्ड छिपाएँ",
+      "minLength": "पासवर्ड कम से कम 8 अक्षर का होना चाहिए",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "रीसेट लिंक की समय सीमा समाप्त हो गई। कृपया नया लिंक माँगें",
+        "invalidToken": "अमान्य रीसेट लिंक। कृपया नया लिंक माँगें",
+        "tooManyRequests": "बहुत अधिक प्रयास। कृपया बाद में फिर कोशिश करें",
+        "serverError": "कुछ गलत हो गया। कृपया फिर कोशिश करें"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "ओह! कुछ गलत हो गया!",
+      "tryAgain": "कृपया फिर से कोशिश करें।",
+      "backToLogin": "लॉगिन पर वापस जाएँ",
+      "checkEmail": "कृपया अपना ईमेल इनबॉक्स देखें"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "सेवा की शर्तें",
+      "privacyPolicy": "गोपनीयता नीति",
+      "byClickingContinue": "जारी रखें पर क्लिक करके आप हमारी ",
+      "and": " और "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "होम"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "about": {
-        "title": "परिचय"
+        "title": "हमारे बारे में"
       },
       "contact": {
         "title": "संपर्क"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "वीडियो अपलोड करें, स्थायी साझा करने योग्य लिंक पाएँ",
       "product": {
-        "title": "Product",
+        "title": "उत्पाद",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "विशेषताएँ",
+          "faq": "अक्सर पूछे जाने वाले प्रश्न"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "कंपनी",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "हमारे बारे में",
+          "contact": "संपर्क"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "कानूनी",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "कुकी नीति",
+          "privacyPolicy": "गोपनीयता नीति",
+          "termsOfService": "सेवा की शर्तें"
         }
       }
     },
     "avatar": {
       "dashboard": "कार्यक्षेत्र",
       "resources": "मेरे संसाधन",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "बिलिंग",
+      "settings": "सेटिंग्स"
     }
   },
   "Dashboard": {
@@ -478,13 +266,13 @@
       "loading": "अवलोकन लोड हो रहा है…",
       "resourceCount": "वीडियो",
       "videoCountLabel": "मेरे संसाधन में वीडियो",
-      "storageFullHint": "मुफ़्त इस्तेमाल की जगह भर गई है। कुछ वीडियो हटाएँ; ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं।",
+      "storageFullHint": "मुफ़्त ट्रायल स्टोरेज भर गया है। कुछ वीडियो हटाएँ; अधिक क्षमता वाली योजनाएँ जल्द आ रही हैं।",
       "entryResourcesTitle": "मेरे संसाधन",
-      "entryResourcesDesc": "अपलोड किए गए वीडियो यहीं हैं — लिंक कॉपी करें, खोलें या कभी भी हटाएँ।",
+      "entryResourcesDesc": "आपके अपलोड किए गए वीडियो यहाँ हैं — कभी भी लिंक कॉपी करें, खोलें या हटाएँ।",
       "entryUploadTitle": "वीडियो अपलोड करें",
-      "entryUploadDesc": "होमपेज पर वीडियो छोड़ें और कुछ ही सेकंड में साझा करने योग्य लिंक पाएँ।",
+      "entryUploadDesc": "होमपेज पर वीडियो छोड़ें और सेकंडों में साझा करने योग्य लिंक पाएँ।",
       "entryFilesTitle": "मेरे संसाधन",
-      "entryFilesDesc": "लॉग इन अपलोड आपके खाते में सहेजे जाते हैं। URL कॉपी करें या अनावश्यक फ़ाइलें हटाएँ।",
+      "entryFilesDesc": "साइन-इन अपलोड आपके खाते में सहेजे जाते हैं। URL कॉपी करें या अनावश्यक फ़ाइलें हटाएँ।",
       "entryFilesCta": "मेरे संसाधन खोलें",
       "filesPointUploadTitle": "कई फ़ॉर्मैट",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV और अन्य",
@@ -492,7 +280,7 @@
       "filesPointManageBody": "मेरे संसाधन से कॉपी करें, खोलें या हटाएँ",
       "filesPointFreeTitle": "मुफ़्त स्टोरेज",
       "filesPointFreeBody": "होस्टेड वीडियो के लिए 300 MB मुफ़्त",
-      "filesPointPaidTitle": "पेड प्लान",
+      "filesPointPaidTitle": "सशुल्क योजनाएँ",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
@@ -500,24 +288,24 @@
       "welcome": "वापसी पर स्वागत है, {name}",
       "storage": "स्टोरेज",
       "storageHint": "उपयोग किया गया वीडियो होस्टिंग स्थान",
-      "planCardTitle": "वर्तमान प्लान",
+      "planCardTitle": "वर्तमान योजना",
       "planFree": "मुफ़्त",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "सक्रिय",
-      "planHintFree": "अभी मुफ़्त इस्तेमाल उपलब्ध है। ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं।",
-      "planHintPro": "आप Pro (10 GB) पर हैं। Lifetime से 100 GB मिलता है।",
+      "planHintFree": "अभी मुफ़्त ट्रायल उपलब्ध है। अधिक क्षमता वाली योजनाएँ जल्द आ रही हैं।",
+      "planHintPro": "आप Pro (10 GB) पर हैं। Lifetime 100 GB अनलॉक करता है।",
       "planHintLifetime": "सभी सुविधाएँ अनलॉक",
-      "description": "लॉग इन रहते हुए अपलोड किए गए वीडियो। यहाँ अपलोड करें, पूर्वावलोकन देखें, डाउनलोड करें या कभी भी हटाएँ।",
+      "description": "साइन इन रहते हुए आपके अपलोड किए गए वीडियो। यहाँ अपलोड करें, पूर्वावलोकन, डाउनलोड या कभी भी हटाएँ।",
       "empty": "अभी कोई वीडियो नहीं",
-      "emptyHint": "पहला वीडियो जोड़ने के लिए अपलोड या + कार्ड पर क्लिक करें।",
+      "emptyHint": "अपना पहला वीडियो जोड़ने के लिए अपलोड या + कार्ड पर क्लिक करें।",
       "goUpload": "वीडियो अपलोड करें",
       "upload": "अपलोड",
       "uploading": "अपलोड हो रहा है…",
       "uploadSuccess": "अपलोड पूरा",
       "uploadFailed": "अपलोड विफल",
-      "unsupportedType": "केवल वीडियो प्रारूप समर्थित हैं (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "फ़ाइल बहुत बड़ी है। मुफ़्त योजना में प्रति फ़ाइल अधिकतम 300MB।",
+      "unsupportedType": "केवल वीडियो फ़ॉर्मैट समर्थित हैं (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "फ़ाइल बहुत बड़ी है। मुफ़्त योजना में प्रति फ़ाइल 300MB तक अनुमति है।",
       "filterFormat": "फ़ाइल प्रकार",
       "formatAll": "सभी प्रकार",
       "format": {
@@ -544,12 +332,12 @@
       "open": "खोलें",
       "preview": "पूर्वावलोकन",
       "previewClose": "बंद करें",
-      "shareCodes": "शेयर कोड",
-      "shareCodesDesc": "Markdown, HTML, BBCode आदि के लिए तुरंत कॉपी करने योग्य लिंक।",
+      "shareCodes": "साझा कोड",
+      "shareCodesDesc": "Markdown, HTML, BBCode आदि के लिए तैयार लिंक।",
       "download": "डाउनलोड",
       "delete": "हटाएँ",
       "deleteTitle": "वीडियो हटाएँ",
-      "deleteConfirm": "यह वीडियो आपके खाते से स्थायी रूप से हटा देगा। इसे वापस नहीं किया जा सकता।",
+      "deleteConfirm": "यह आपके खाते से वीडियो स्थायी रूप से हटा देगा। इसे पूर्ववत नहीं किया जा सकता।",
       "deleteSuccess": "वीडियो हटा दिया गया",
       "deleteFailed": "वीडियो हटाने में विफल",
       "cancel": "रद्द करें",
@@ -558,306 +346,217 @@
       "pageNext": "अगला"
     },
     "admin": {
-      "title": "Admin",
+      "title": "एडमिन",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "उपयोगकर्ता",
+        "fakeData": "नोट: प्रदर्शन के लिए नकली डेटा, कुछ सुविधाएँ अक्षम हैं",
+        "error": "उपयोगकर्ता प्राप्त नहीं हो सके",
+        "search": "उपयोगकर्ता खोजें...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "कॉलम",
+          "name": "नाम",
+          "email": "ईमेल",
+          "role": "भूमिका",
+          "createdAt": "बनाया गया",
+          "customerId": "ग्राहक ID",
+          "status": "स्थिति",
+          "banReason": "प्रतिबंध का कारण",
+          "banExpires": "प्रतिबंध समाप्ति"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "एडमिन",
+        "user": "उपयोगकर्ता",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "ईमेल सत्यापित",
+          "unverified": "ईमेल असत्यापित"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "ईमेल क्लिपबोर्ड पर कॉपी हो गया",
+        "banned": "प्रतिबंधित",
+        "active": "सक्रिय",
+        "joined": "शामिल हुए",
+        "updated": "अपडेट किया गया",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "प्रतिबंध का कारण",
+          "reasonPlaceholder": "इस उपयोगकर्ता को प्रतिबंधित करने का कारण लिखें",
+          "defaultReason": "स्पैम",
+          "never": "कभी नहीं",
+          "expires": "प्रतिबंध समाप्ति",
+          "selectDate": "तारीख चुनें",
+          "button": "उपयोगकर्ता प्रतिबंधित करें",
+          "success": "उपयोगकर्ता प्रतिबंधित कर दिया गया",
+          "error": "उपयोगकर्ता प्रतिबंधित नहीं हो सका"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "प्रतिबंध हटाएँ",
+          "success": "उपयोगकर्ता का प्रतिबंध हटा दिया गया",
+          "error": "प्रतिबंध हटाने में विफल"
         },
-        "close": "Close"
+        "close": "बंद करें"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "सेटिंग्स",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "प्रोफ़ाइल",
+        "description": "अपने खाते की जानकारी प्रबंधित करें",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "अवतार",
+          "description": "कस्टम अवतार अपलोड करने के लिए अपलोड बटन पर क्लिक करें",
+          "recommendation": "अवतार वैकल्पिक है लेकिन दृढ़ता से अनुशंसित",
+          "uploading": "अपलोड हो रहा है...",
+          "uploadAvatar": "अवतार अपलोड करें",
+          "success": "अवतार सफलतापूर्वक अपडेट हो गया",
+          "fail": "अवतार अपडेट नहीं हो सका"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "नाम",
+          "description": "कृपया अपना प्रदर्शन नाम दर्ज करें",
+          "placeholder": "अपना नाम लिखें",
+          "minLength": "कम से कम 3 अक्षर इस्तेमाल करें",
+          "maxLength": "अधिकतम 30 अक्षर इस्तेमाल करें",
+          "hint": "नाम के लिए 3–30 अक्षर इस्तेमाल करें",
+          "success": "नाम सफलतापूर्वक अपडेट हो गया",
+          "fail": "नाम अपडेट नहीं हो सका",
+          "saving": "सहेजा जा रहा है...",
+          "save": "सहेजें"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "बिलिंग",
+        "description": "अपनी सदस्यता और बिलिंग विवरण प्रबंधित करें",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "सक्रिय",
+          "trial": "ट्रायल",
+          "free": "मुफ़्त",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "महीना",
+          "year": "वर्ष",
+          "oneTime": "एक बार"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "वर्तमान योजना",
+          "description": "आपकी वर्तमान योजना का विवरण",
+          "noPlan": "आपके पास कोई सक्रिय योजना नहीं है"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "लोड हो रहा है...",
+          "createCustomerPortalFailed": "Stripe ग्राहक पोर्टल नहीं खुल सका"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "कीमत:",
+        "periodStartDate": "अवधि प्रारंभ तिथि:",
+        "periodEndDate": "अवधि समाप्ति तिथि:",
+        "trialEnds": "ट्रायल समाप्त:",
+        "freePlanMessage": "आप अभी सीमित सुविधाओं वाली मुफ़्त योजना पर हैं",
+        "lifetimeMessage": "आपके पास सभी प्रीमियम सुविधाओं तक आजीवन पहुँच है",
+        "manageSubscription": "सदस्यता और बिलिंग प्रबंधित करें",
+        "manageBilling": "बिलिंग प्रबंधित करें",
+        "upgradePlan": "योजना अपग्रेड करें",
+        "retry": "फिर कोशिश करें",
+        "errorMessage": "डेटा प्राप्त नहीं हो सका",
+        "paymentSuccess": "भुगतान सफल"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "भुगतान प्रक्रिया में",
+          "description": "कृपया प्रतीक्षा करें जबकि हम आपके भुगतान की पुष्टि करते हैं..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "भुगतान सफल",
+          "description": "स्वचालित रूप से रीडायरेक्ट हो रहा है..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "भुगतान विफल",
+          "description": "आपके भुगतान को संसाधित करने में समस्या हुई।"
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "प्रक्रिया समय समाप्त",
+          "description": "भुगतान प्रक्रिया अपेक्षा से अधिक समय ले रही है।"
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "फिर कोशिश करें"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "सुरक्षा",
+        "description": "अपनी सुरक्षा सेटिंग्स प्रबंधित करें",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "पासवर्ड बदलें",
+          "description": "अपना वर्तमान पासवर्ड और नया पासवर्ड दर्ज करें",
+          "currentPassword": "वर्तमान पासवर्ड",
+          "currentRequired": "वर्तमान पासवर्ड आवश्यक है",
+          "newPassword": "नया पासवर्ड",
+          "newMinLength": "पासवर्ड कम से कम 8 अक्षर का होना चाहिए",
+          "hint": "पासवर्ड के लिए कम से कम 8 अक्षर इस्तेमाल करें",
+          "showPassword": "पासवर्ड दिखाएँ",
+          "hidePassword": "पासवर्ड छिपाएँ",
+          "success": "पासवर्ड सफलतापूर्वक अपडेट हो गया",
+          "fail": "पासवर्ड अपडेट नहीं हो सका",
+          "saving": "सहेजा जा रहा है...",
+          "save": "सहेजें"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "पासवर्ड रीसेट करें",
+          "description": "ईमेल लॉगिन सक्षम करने के लिए पासवर्ड रीसेट करें",
+          "info": "पासवर्ड रीसेट करने से आप सोशल लॉगिन के अलावा ईमेल और पासवर्ड से भी साइन इन कर सकेंगे। आपको पासवर्ड रीसेट के निर्देश वाला ईमेल मिलेगा",
+          "button": "पासवर्ड रीसेट करें"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "खाता हटाएँ",
+          "description": "अपना खाता और उसकी सारी सामग्री स्थायी रूप से हटाएँ",
+          "warning": "यह कार्रवाई पूर्ववत नहीं की जा सकती, इसलिए सावधानी से आगे बढ़ें",
+          "button": "खाता हटाएँ",
+          "confirmTitle": "खाता हटाएँ",
+          "confirmDescription": "क्या आप वाकई अपना खाता हटाना चाहते हैं? यह कार्रवाई पूर्ववत नहीं की जा सकती।",
+          "confirm": "हटाएँ",
+          "cancel": "रद्द करें",
+          "deleting": "हटाया जा रहा है...",
+          "success": "खाता सफलतापूर्वक हटा दिया गया",
+          "fail": "खाता हटाने में विफल"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "ज़्यादा क्षमता वाले प्लान जल्द आ रहे हैं। अभी मुफ़्त इस्तेमाल उपलब्ध है।",
-      "button": "Upgrade"
+      "title": "अपग्रेड",
+      "description": "अधिक क्षमता वाली योजनाएँ जल्द आ रही हैं। अभी मुफ़्त ट्रायल उपलब्ध है।",
+      "button": "अपग्रेड"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name} टीम",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "नमस्ते, {name}।",
+      "body": "अपना ईमेल पता सत्यापित करने के लिए नीचे दिए लिंक पर क्लिक करें।",
+      "confirmEmail": "ईमेल पुष्टि करें",
+      "subject": "अपना ईमेल सत्यापित करें"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "नमस्ते, {name}।",
+      "body": "हमें आपका MP4toURL पासवर्ड रीसेट करने का अनुरोध मिला। नया पासवर्ड चुनने के लिए नीचे बटन पर क्लिक करें। यदि आपने यह अनुरोध नहीं किया, तो इस ईमेल को अनदेखा कर सकते हैं।",
+      "resetPassword": "पासवर्ड रीसेट करें",
+      "subject": "अपना MP4toURL पासवर्ड रीसेट करें"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "नाम: {name}",
+      "email": "ईमेल: {email}",
+      "message": "संदेश: {message}",
+      "subject": "वेबसाइट से संपर्क संदेश"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "तुरंत कॉपी करने योग्य कोड",
+    "sectionTitle": "तैयार कोड कॉपी करें",
     "copyUrl": "URL कॉपी करें",
     "copied": "कॉपी हो गया",
     "copyFailed": "कॉपी नहीं हो सका",
     "openTab": "नए टैब में खोलें",
     "successTitle": "सफल! आपका वीडियो URL तैयार है",
-    "successSubtitle": "आपका वीडियो अपलोड हो गया है और शेयर के लिए तैयार है।",
+    "successSubtitle": "आपका वीडियो अपलोड हो गया है और साझा करने के लिए तैयार है।",
     "videoLabel": "वीडियो",
     "watchLabel": "वीडियो देखें",
     "shareLink": {
-      "title": "शेयर लिंक",
-      "desc": "कहीं भी शेयर करने के लिए सीधा लिंक"
+      "title": "साझा लिंक",
+      "desc": "कहीं भी साझा करने के लिए सीधा लिंक"
     },
     "markdown": {
       "title": "Markdown",
@@ -865,7 +564,7 @@
     },
     "markdownLink": {
       "title": "लिंक वाला Markdown",
-      "desc": "पढ़ने योग्य देखने के लेबल वाला Markdown"
+      "desc": "पढ़ने योग्य वॉच लेबल वाला Markdown"
     },
     "html": {
       "title": "HTML",
@@ -873,149 +572,149 @@
     },
     "htmlLink": {
       "title": "लिंक वाला HTML",
-      "desc": "नए टैब में खुलने वाला साधारण लिंक"
+      "desc": "नए टैब में खुलने वाला सरल एंकर"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "फ़ोरम और मैसेज बोर्ड के लिए"
+      "desc": "फ़ोरम और संदेश बोर्ड के लिए"
     },
     "bbcodeLink": {
       "title": "लिंक वाला BBCode",
-      "desc": "देखने के लेबल वाला फ़ोरम लिंक"
+      "desc": "वॉच लेबल वाला फ़ोरम लिंक"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "वीडियो अपलोड करें और स्थायी साझा करने योग्य लिंक पाएँ",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "आपका वीडियो अपलोड हो गया है। शेयर करने के लिए नीचे दिया लिंक कॉपी करें।",
+      "title": "मुफ़्त वीडियो से URL कन्वर्टर",
+      "description": "MP4 वीडियो अपलोड करें और सेकंडों में स्थायी साझा करने योग्य लिंक पाएँ।",
+      "tagline": "MP4, MOV, AVI, WebM, MKV 300MB तक समर्थित। रजिस्ट्रेशन की ज़रूरत नहीं।",
+      "uploadHeading": "अपना वीडियो अपलोड करें",
+      "uploadTitle": "वीडियो यहाँ छोड़ें, या ब्राउज़ करने के लिए क्लिक करें",
+      "uploadHint": "MP4, MOV, AVI, WebM, MKV 300MB तक समर्थित",
+      "maxSize": "अधिकतम फ़ाइल आकार: 300MB",
+      "convert": "URL में बदलें",
+      "uploading": "अपलोड हो रहा है...",
+      "copy": "लिंक कॉपी करें",
+      "copied": "कॉपी हो गया",
+      "guestSuccessHint": "आपका वीडियो अपलोड हो गया। साझा करने के लिए नीचे लिंक कॉपी करें।",
       "registerForCodesTitle": "Markdown, HTML और BBCode चाहिए?",
-      "registerForCodesDesc": "मुफ़्त साइन अप करें और तुरंत कॉपी करने योग्य एम्बेड कोड अनलॉक करें; मेरे संसाधन में सभी वीडियो प्रबंधित करें।",
+      "registerForCodesDesc": "तैयार एम्बेड कोड अनलॉक करने और मेरे संसाधन में हर वीडियो प्रबंधित करने के लिए मुफ़्त साइन अप करें।",
       "registerCta": "मुफ़्त साइन अप",
-      "uploadAnother": "एक और वीडियो अपलोड करें",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "uploadAnother": "दूसरा वीडियो अपलोड करें",
+      "error": "अपलोड विफल। कृपया फिर कोशिश करें।",
+      "unsupportedType": "असमर्थित फ़ाइल प्रकार। कृपया MP4, MOV, AVI, WebM या MKV अपलोड करें।",
+      "fileTooLarge": "फ़ाइल बहुत बड़ी है। मुफ़्त योजना में प्रति फ़ाइल 300MB तक अनुमति है।"
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "MP4 to URL क्यों चुनें",
+      "subtitle": "गति, गोपनीयता और स्थायी मीडिया लिंक के लिए बनाया गया।",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "बिजली जैसी तेज़",
+          "description": "सेकंडों में वीडियो अपलोड करें और साझा करने योग्य URL में बदलें। कोई इंतज़ार नहीं, कोई कतार नहीं।"
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "सुरक्षित और निजी",
+          "description": "आपके वीडियो HTTPS पर स्थानांतरित होते हैं और गोपनीयता-प्रथम नियंत्रणों के साथ होस्ट होते हैं।"
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "स्थायी लिंक",
+          "description": "कभी समाप्त न होने वाले स्थायी लिंक पाएँ। दस्तावेज़ीकरण, टिकट और सोशल शेयरिंग के लिए उत्तम।"
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: कुछ सेकंड में वीडियो को URL में बदलें"
+      "title": "सेकंडों में वीडियो से URL",
+      "subtitle": "स्थानीय फ़ाइल से साझा करने योग्य लिंक तक",
+      "description": "MP4 और संबंधित फ़ॉर्मैट अपलोड करें, एक साफ़ स्थायी URL पाएँ जिसे दस्तावेज़ों, चैट और पोस्ट में चिपका सकें।",
+      "point1": "अपने डिवाइस से वीडियो छोड़ें",
+      "point2": "सेकंडों में बदलें — सामान्य उपयोग के लिए साइन अप नहीं",
+      "point3": "स्थायी लिंक कॉपी करें और कहीं भी साझा करें",
+      "imageAlt": "mp4tourl.com कोलाज: वीडियो साझा करने योग्य बनाएँ",
+      "imageAltNew": "mp4tourl.com: सेकंडों में वीडियो से URL, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "कैसे इस्तेमाल करें",
+      "subtitle": "स्थानीय फ़ाइल से साझा करने योग्य URL तक तीन चरण।",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "वीडियो चुनें",
+          "description": "MP4, MOV, AVI, WebM या MKV (300MB तक) खींचें-छोड़ें या ब्राउज़ करें।"
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "URL में बदलें",
+          "description": "URL में बदलें पर क्लिक करें। प्रोसेसिंग आमतौर पर कुछ सेकंड में पूरी हो जाती है।"
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "कॉपी करें और साझा करें",
+          "description": "स्थायी लिंक कॉपी करें और दस्तावेज़ों, चैट, वेबसाइट या सोशल पोस्ट में इस्तेमाल करें।"
         }
       }
     },
     "bannerShowcase": {
-      "title": "उपयोग के मामले",
-      "subtitle": "लोकल वीडियो से शेयर करने योग्य लिंक तक।",
-      "description": "फ़ाइल छोड़ें, दस्तावेज़, चैट और पोस्ट के लिए साफ URL पाएं — नीचे कुछ उदाहरण देखें।",
+      "title": "दृश्य",
+      "subtitle": "स्थानीय वीडियो से साझा करने योग्य लिंक तक।",
+      "description": "फ़ाइल छोड़ें, दस्तावेज़ों, चैट और पोस्ट के लिए साफ़ URL पाएँ — नीचे कुछ लुक देखें।",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "लोकल क्लिप को सेकंडों में शेयर करने योग्य पते में बदलें।"
+          "description": "स्थानीय क्लिप को सेकंडों में साझा करने योग्य पते में बदलें।"
         },
         "newStyle": {
-          "title": "कहीं भी शेयर करें",
-          "description": "लिंक को दस्तावेज़, टिकट और सोशल पोस्ट में पेस्ट करें।"
+          "title": "कहीं भी साझा करें",
+          "description": "लिंक को दस्तावेज़ों, टिकट और सोशल पोस्ट में चिपकाएँ।"
         },
         "dark": {
-          "title": "स्थिर होस्टिंग",
-          "description": "स्थिर, स्थायी URL से वीडियो हमेशा उपलब्ध रखें।"
+          "title": "साफ़ होस्टिंग",
+          "description": "स्थिर, स्थायी URL से वीडियो पहुँच योग्य रखें।"
         },
         "retro": {
-          "title": "तेज़ रूपांतरण",
-          "description": "एक बार अपलोड करें, लिंक कॉपी करें, जरूरत पड़ने पर दोबारा इस्तेमाल करें।"
+          "title": "तेज़ कन्वर्ज़न",
+          "description": "एक बार अपलोड करें, लिंक कॉपी करें, जब चाहें फिर इस्तेमाल करें।"
         }
       }
     },
     "faqs": {
-      "title": "सामान्य प्रश्न",
-      "subtitle": "वीडियो को URL में बदलने के बारे में जो आप जानना चाह सकते हैं।",
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "subtitle": "वीडियो से URL के बारे में आप जानना चाह सकते हैं।",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "वीडियो से URL कन्वर्टर क्या है?",
+          "answer": "वीडियो से URL कन्वर्टर आपकी स्थानीय वीडियो फ़ाइल अपलोड करता है और एक सीधा वेब लिंक देता है जिसे आप कहीं भी साझा कर सकते हैं।"
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "वीडियो से URL कन्वर्ज़न कैसे काम करता है?",
+          "answer": "अपना वीडियो अपलोड करें, प्रोसेसिंग समाप्त होने की प्रतीक्षा करें, फिर जेनरेट किया गया URL कॉपी करें। आप उस लिंक को तुरंत खोल, साझा या एम्बेड कर सकते हैं।"
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "कौन से वीडियो फ़ॉर्मैट समर्थित हैं?",
+          "answer": "समर्थित फ़ॉर्मैट में MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP और FLV शामिल हैं। मुफ़्त स्तर में प्रति फ़ाइल 300MB तक अनुमति है।"
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "जेनरेट किए गए वीडियो लिंक स्थायी हैं?",
+          "answer": "हाँ। जेनरेट किए गए लिंक लंबी अवधि की साझा करने के लिए डिज़ाइन किए गए हैं ताकि आपका वीडियो URL स्थिर और पुन: उपयोग योग्य रहे।"
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "वीडियो URL कहाँ इस्तेमाल कर सकता हूँ?",
+          "answer": "आप इसे दस्तावेज़ीकरण, इश्यू ट्रैकर, चैट, वेबसाइट, सोशल मीडिया पोस्ट और टीम सहयोग टूल में इस्तेमाल कर सकते हैं।"
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "क्या यह वीडियो से URL कन्वर्टर मुफ़्त है?",
+          "answer": "हाँ। मानक वीडियो से URL कन्वर्ज़न प्रवाह वर्तमान अपलोड सीमाओं के भीतर मुफ़्त है।"
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "वीडियो अपलोड और होस्टिंग कितनी सुरक्षित है?",
+          "answer": "अपलोड HTTPS स्थानांतरण का उपयोग करते हैं और स्थिर डिलीवरी के लिए होस्ट होते हैं, जिससे वीडियो सामग्री के लिए विश्वसनीय साझा लिंक मिलते हैं।"
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "वीडियो साझा करने का सबसे आसान तरीका",
+      "description": "MP4 to URL डेवलपर्स, क्रिएटर्स और टीमों के लिए मुफ़्त, तेज़ मीडिया होस्टिंग प्रवाह है। सेकंडों में वीडियो को स्थायी URL में बदलें और कहीं भी साझा करें।",
+      "primaryButton": "URL में बदलें",
+      "secondaryButton": "FAQ पढ़ें"
     }
   }
 }

@@ -1,149 +1,119 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Penukar Video ke URL Percuma – Muat Naik MP4 dan Dapatkan Pautan Kongsi",
+    "description": "Muat naik MP4, MOV, AVI, WebM, MKV dan dapatkan URL kongsi kekal dalam beberapa saat. Pengehosan video percuma sehingga 300MB — tiada pendaftaran diperlukan."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Log masuk",
+    "logout": "Log keluar",
+    "signUp": "Daftar",
+    "language": "Tukar bahasa",
+    "languageHint": "Memilih wilayah akan menukar bahasa dan kandungan.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Tukar mod",
+      "light": "Cerah",
+      "dark": "Gelap",
+      "system": "Sistem"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
+      "label": "Tukar tema",
+      "default": "Lalai",
+      "blue": "Biru",
+      "green": "Hijau",
+      "amber": "Ambar",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Salin",
+    "saving": "Menyimpan...",
+    "save": "Simpan",
+    "loading": "Memuatkan...",
+    "cancel": "Batal",
+    "logoutFailed": "Gagal log keluar",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Jumlah {count} rekod",
+      "noResults": "Tiada hasil",
+      "loading": "Memuatkan...",
+      "columns": "Lajur",
+      "rowsPerPage": "Baris setiap halaman",
+      "page": "Halaman",
+      "firstPage": "Halaman pertama",
+      "lastPage": "Halaman terakhir",
+      "nextPage": "Halaman seterusnya",
+      "previousPage": "Halaman sebelumnya",
+      "ascending": "Menaik",
+      "descending": "Menurun"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Percuma",
+      "description": "Hos video dan dapatkan URL kongsi kekal",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Saiz muat naik: 300MB",
+        "feature-2": "Pautan CDN kekal",
+        "feature-3": "Tiada pendaftaran diperlukan",
+        "feature-4": "Sokongan komuniti"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Domain tersuai",
+        "limit-2": "Penjenamaan tersuai",
+        "limit-3": "Kemas kini seumur hidup"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Had lebih tinggi dan sejarah muat naik untuk pencipta aktif",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Muat naik video lebih besar",
+        "feature-2": "10 GB storan",
+        "feature-3": "Sejarah muat naik",
+        "feature-4": "Sokongan keutamaan",
+        "feature-5": "Domain tersuai"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Penjenamaan tersuai",
+        "limit-2": "Kemas kini seumur hidup"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Bayar sekali untuk kapasiti pengehosan video jangka panjang",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Semua ciri Pro",
+        "feature-2": "100 GB storan",
+        "feature-3": "Sokongan khusus",
+        "feature-4": "Keselamatan gred perusahaan",
+        "feature-5": "Integrasi lanjutan",
+        "feature-6": "Penjenamaan tersuai",
+        "feature-7": "Kemas kini seumur hidup"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Maaf, halaman yang anda cari tidak wujud.",
+    "backToHome": "Kembali ke laman utama"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Alamak! Sesuatu tidak kena!",
+    "tryAgain": "Cuba lagi",
+    "backToHome": "Kembali ke laman utama"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Perihal",
+    "description": "MP4toURL menukar video anda kepada pautan kongsi kekal — muat naik MP4, MOV, AVI, WebM atau MKV dan kongsi dalam beberapa saat.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Penukar video ke URL percuma",
+    "introduction": "MP4toURL ialah cara percuma dan pantas untuk menghos dan berkongsi video. Muat naik fail, dapatkan pautan CDN kekal, dan gunakannya di mana-mana — tanpa persediaan rumit.",
     "imageAlt": "Tanda jenama MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Hubungi kami",
+    "followMe": "Ikuti di X"
   },
   "ContactPage": {
     "title": "Hubungi",
-    "description": "Hantar mesej tentang muat naik video, pautan boleh dikongsi atau akaun anda. Kami baca setiap mesej dan membalas secepat mungkin.",
-    "subtitle": "Ada soalan tentang MP4toURL? Kami sedia membantu.",
+    "description": "Hantar mesej tentang muat naik video, pautan kongsi, atau akaun anda. Kami baca setiap mesej dan membalas secepat mungkin.",
+    "subtitle": "Soalan tentang MP4toURL? Kami sedia membantu.",
     "orEmail": "Atau e-mel kami di",
     "form": {
       "title": "Mesej",
@@ -155,365 +125,183 @@
       "emailPlaceholder": "E-mel",
       "messagePlaceholder": "Masukkan mesej",
       "submit": "Hantar",
-      "submitting": "Menghantar…",
+      "submitting": "Menghantar...",
       "success": "Mesej berjaya dihantar. Kami akan membalas secepat mungkin.",
-      "minLength": "Subjek mestilah sekurang-kurangnya 3 aksara.",
+      "minLength": "Subjek mesti sekurang-kurangnya 3 aksara.",
       "maxLengthName": "Subjek tidak boleh melebihi 100 aksara.",
       "invalidEmail": "Sila masukkan alamat e-mel yang sah.",
-      "minLengthMessage": "Mesej mestilah sekurang-kurangnya 10 aksara.",
+      "minLengthMessage": "Mesej mesti sekurang-kurangnya 10 aksara.",
       "maxLengthMessage": "Mesej tidak boleh melebihi 2000 aksara.",
-      "invalid": "Sesuatu telah berlaku. Sila cuba lagi."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "invalid": "Sesuatu tidak kena. Sila cuba lagi."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Log masuk",
+      "welcomeBack": "Selamat kembali",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "signIn": "Log masuk",
+      "signUpHint": "Tiada akaun? Daftar",
+      "forgotPassword": "Lupa kata laluan?",
+      "signInWithGoogle": "Log masuk dengan Google",
+      "showPassword": "Tunjuk kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "or": "Atau teruskan dengan",
+      "emailRequired": "Sila masukkan e-mel anda",
+      "passwordRequired": "Sila masukkan kata laluan anda",
+      "captchaInvalid": "Pengesahan captcha gagal",
+      "captchaError": "Ralat pengesahan captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Daftar",
+      "createAccount": "Cipta akaun",
+      "name": "Nama",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "signUp": "Daftar",
+      "signInHint": "Sudah ada akaun? Log masuk",
+      "checkEmail": "Sila semak peti masuk e-mel anda",
+      "showPassword": "Tunjuk kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "nameRequired": "Sila masukkan nama anda",
+      "emailRequired": "Sila masukkan e-mel anda",
+      "passwordRequired": "Sila masukkan kata laluan anda",
+      "captchaInvalid": "Pengesahan captcha gagal",
+      "captchaError": "Ralat pengesahan captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Lupa kata laluan",
+      "email": "E-mel",
+      "send": "Hantar pautan set semula",
+      "backToLogin": "Kembali ke log masuk",
+      "checkEmail": "Jika akaun wujud untuk e-mel ini, kami telah hantar pautan set semula. Semak peti masuk anda.",
+      "emailRequired": "Sila masukkan e-mel anda",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Tiada akaun dijumpai dengan e-mel ini",
+        "tooManyRequests": "Terlalu banyak percubaan. Sila cuba lagi nanti",
+        "serverError": "Sesuatu tidak kena. Sila cuba lagi"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Set semula kata laluan",
+      "password": "Kata laluan baharu",
+      "reset": "Set semula kata laluan",
+      "backToLogin": "Kembali ke log masuk",
+      "showPassword": "Tunjuk kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "minLength": "Kata laluan mesti sekurang-kurangnya 8 aksara",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Pautan set semula telah tamat tempoh. Sila minta yang baharu",
+        "invalidToken": "Pautan set semula tidak sah. Sila minta yang baharu",
+        "tooManyRequests": "Terlalu banyak percubaan. Sila cuba lagi nanti",
+        "serverError": "Sesuatu tidak kena. Sila cuba lagi"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Alamak! Sesuatu tidak kena!",
+      "tryAgain": "Sila cuba lagi.",
+      "backToLogin": "Kembali ke log masuk",
+      "checkEmail": "Sila semak peti masuk e-mel anda"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Terma Perkhidmatan",
+      "privacyPolicy": "Dasar Privasi",
+      "byClickingContinue": "Dengan mengklik teruskan, anda bersetuju dengan ",
+      "and": " dan "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Laman utama"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "Soalan Lazim"
       },
       "about": {
         "title": "Perihal"
       },
       "contact": {
         "title": "Hubungi"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Muat naik video, dapatkan pautan kongsi kekal",
       "product": {
-        "title": "Product",
+        "title": "Produk",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Ciri",
+          "faq": "Soalan Lazim"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Syarikat",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Perihal",
+          "contact": "Hubungi"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Undang-undang",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Dasar Kuki",
+          "privacyPolicy": "Dasar Privasi",
+          "termsOfService": "Terma Perkhidmatan"
         }
       }
     },
     "avatar": {
-      "dashboard": "Ruang kerja",
-      "resources": "Sumber saya",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "dashboard": "Meja kerja",
+      "resources": "Sumber Saya",
+      "billing": "Pengebilan",
+      "settings": "Tetapan"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Ruang kerja"
+      "title": "Meja kerja"
     },
     "home": {
       "loading": "Memuatkan ringkasan…",
       "resourceCount": "Video",
-      "videoCountLabel": "Video dalam Sumber saya",
-      "storageFullHint": "Storan percubaan percuma sudah penuh. Padamkan beberapa video; pelan berkapasiti lebih tinggi akan datang tidak lama lagi.",
-      "entryResourcesTitle": "Sumber saya",
-      "entryResourcesDesc": "Video yang dimuat naik ada di sini — salin pautan, buka atau padam bila-bila masa.",
+      "videoCountLabel": "Video dalam Sumber Saya",
+      "storageFullHint": "Storan percubaan percuma penuh. Padam beberapa video; pelan kapasiti lebih tinggi akan datang tidak lama lagi.",
+      "entryResourcesTitle": "Sumber Saya",
+      "entryResourcesDesc": "Video yang anda muat naik ada di sini — salin pautan, buka, atau padam bila-bila masa.",
       "entryUploadTitle": "Muat naik video",
-      "entryUploadDesc": "Lepaskan video di laman utama dan dapatkan pautan kongsi dalam beberapa saat.",
-      "entryFilesTitle": "Sumber saya",
-      "entryFilesDesc": "Muat naik semasa log masuk disimpan ke akaun. Salin URL atau buang fail yang tidak diperlukan.",
-      "entryFilesCta": "Buka sumber saya",
-      "filesPointUploadTitle": "Banyak format",
-      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV dan lagi",
+      "entryUploadDesc": "Letakkan video di laman utama dan dapatkan pautan kongsi dalam beberapa saat.",
+      "entryFilesTitle": "Sumber Saya",
+      "entryFilesDesc": "Muat naik selepas log masuk disimpan ke akaun anda. Salin URL atau buang fail yang tidak diperlukan lagi.",
+      "entryFilesCta": "Buka Sumber Saya",
+      "filesPointUploadTitle": "Pelbagai format",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV dan banyak lagi",
       "filesPointManageTitle": "Urus pautan",
-      "filesPointManageBody": "Salin, buka atau padam dari Sumber saya",
+      "filesPointManageBody": "Salin, buka, atau padam dari Sumber Saya",
       "filesPointFreeTitle": "Storan percuma",
       "filesPointFreeBody": "300 MB percuma untuk video dihoskan",
       "filesPointPaidTitle": "Pelan berbayar",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
-      "title": "Sumber saya",
+      "title": "Sumber Saya",
       "welcome": "Selamat kembali, {name}",
       "storage": "Storan",
-      "storageHint": "Ruang pengehosan video yang digunakan",
+      "storageHint": "Ruang pengehosan video digunakan",
       "planCardTitle": "Pelan semasa",
       "planFree": "Percuma",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktif",
-      "planHintFree": "Percubaan percuma tersedia sekarang. Pelan berkapasiti lebih tinggi akan datang tidak lama lagi.",
-      "planHintPro": "Anda di Pro (10 GB). Lifetime membuka 100 GB.",
+      "planHintFree": "Percubaan percuma tersedia sekarang. Pelan kapasiti lebih tinggi akan datang tidak lama lagi.",
+      "planHintPro": "Anda menggunakan Pro (10 GB). Lifetime membuka 100 GB.",
       "planHintLifetime": "Semua ciri dibuka",
-      "description": "Video yang anda muat naik semasa log masuk. Muat naik di sini, pratonton, muat turun atau padam bila-bila masa.",
+      "description": "Video yang anda muat naik selepas log masuk. Muat naik, pratonton, muat turun, atau padam bila-bila masa.",
       "empty": "Belum ada video",
-      "emptyHint": "Klik Muat naik atau kad + untuk menambah video pertama.",
+      "emptyHint": "Klik Muat naik atau kad + untuk tambah video pertama anda.",
       "goUpload": "Muat naik video",
       "upload": "Muat naik",
-      "uploading": "Sedang memuat naik…",
+      "uploading": "Memuat naik…",
       "uploadSuccess": "Muat naik selesai",
       "uploadFailed": "Muat naik gagal",
       "unsupportedType": "Hanya format video disokong (MP4, MOV, AVI, WebM, MKV…)",
@@ -537,322 +325,233 @@
       "loadError": "Gagal memuatkan sumber",
       "searchPlaceholder": "Cari mengikut nama fail…",
       "search": "Cari",
-      "reset": "Tetapkan semula",
+      "reset": "Set semula",
       "copyUrl": "Salin URL",
       "copied": "URL disalin",
-      "copyFailed": "Tidak dapat menyalin",
+      "copyFailed": "Tidak dapat disalin",
       "open": "Buka",
       "preview": "Pratonton",
       "previewClose": "Tutup",
       "shareCodes": "Kod kongsi",
-      "shareCodesDesc": "Pautan sedia salin untuk Markdown, HTML, BBCode dan lagi.",
+      "shareCodesDesc": "Pautan sedia salin untuk Markdown, HTML, BBCode, dan banyak lagi.",
       "download": "Muat turun",
       "delete": "Padam",
       "deleteTitle": "Padam video",
-      "deleteConfirm": "Ini memadam video secara kekal dari akaun anda. Tindakan ini tidak boleh dibuat asal.",
+      "deleteConfirm": "Ini akan membuang video secara kekal dari akaun anda. Tindakan ini tidak boleh dibatalkan.",
       "deleteSuccess": "Video dipadam",
       "deleteFailed": "Gagal memadam video",
       "cancel": "Batal",
-      "totalCount": "Jumlah {total}",
+      "totalCount": "{total} jumlah",
       "pagePrev": "Sebelumnya",
       "pageNext": "Seterusnya"
     },
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Pengguna",
+        "fakeData": "Nota: Data palsu untuk demonstrasi, beberapa ciri dilumpuhkan",
+        "error": "Gagal mendapatkan pengguna",
+        "search": "Cari pengguna...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "columns": "Lajur",
+          "name": "Nama",
+          "email": "E-mel",
+          "role": "Peranan",
+          "createdAt": "Dicipta",
+          "customerId": "ID Pelanggan",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Sebab sekatan",
+          "banExpires": "Sekatan tamat"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Pengguna",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mel disahkan",
+          "unverified": "E-mel belum disahkan"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mel disalin ke papan keratan",
+        "banned": "Disekat",
+        "active": "Aktif",
+        "joined": "Sertai",
+        "updated": "Dikemas kini",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Sebab sekatan",
+          "reasonPlaceholder": "Masukkan sebab menyekat pengguna ini",
+          "defaultReason": "Spam",
+          "never": "Tidak pernah",
+          "expires": "Sekatan tamat",
+          "selectDate": "Pilih tarikh",
+          "button": "Sekat pengguna",
+          "success": "Pengguna telah disekat",
+          "error": "Gagal menyekat pengguna"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Nyahsekat pengguna",
+          "success": "Sekatan pengguna telah dibuka",
+          "error": "Gagal nyahsekat pengguna"
         },
-        "close": "Close"
+        "close": "Tutup"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Tetapan",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Urus maklumat akaun anda",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Klik butang muat naik untuk muat naik avatar tersuai",
+          "recommendation": "Avatar pilihan tetapi amat disyorkan",
+          "uploading": "Memuat naik...",
+          "uploadAvatar": "Muat naik avatar",
+          "success": "Avatar berjaya dikemas kini",
+          "fail": "Gagal mengemas kini avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Nama",
+          "description": "Sila masukkan nama paparan anda",
+          "placeholder": "Masukkan nama anda",
+          "minLength": "Sila gunakan sekurang-kurangnya 3 aksara",
+          "maxLength": "Sila gunakan maksimum 30 aksara",
+          "hint": "Sila gunakan 3–30 aksara untuk nama anda",
+          "success": "Nama berjaya dikemas kini",
+          "fail": "Gagal mengemas kini nama",
+          "saving": "Menyimpan...",
+          "save": "Simpan"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Pengebilan",
+        "description": "Urus langganan dan butiran pengebilan anda",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktif",
+          "trial": "Percubaan",
+          "free": "Percuma",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "bulan",
+          "year": "tahun",
+          "oneTime": "sekali bayar"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Pelan semasa",
+          "description": "Butiran pelan semasa anda",
+          "noPlan": "Anda tiada pelan aktif"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Memuatkan...",
+          "createCustomerPortalFailed": "Gagal membuka portal pelanggan Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Harga:",
+        "periodStartDate": "Tarikh mula tempoh:",
+        "periodEndDate": "Tarikh tamat tempoh:",
+        "trialEnds": "Percubaan tamat:",
+        "freePlanMessage": "Anda kini menggunakan pelan percuma dengan ciri terhad",
+        "lifetimeMessage": "Anda mempunyai akses seumur hidup ke semua ciri premium",
+        "manageSubscription": "Urus langganan dan pengebilan",
+        "manageBilling": "Urus pengebilan",
+        "upgradePlan": "Naik taraf pelan",
+        "retry": "Cuba lagi",
+        "errorMessage": "Gagal mendapatkan data",
+        "paymentSuccess": "Pembayaran berjaya"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Memproses pembayaran",
+          "description": "Sila tunggu sementara kami mengesahkan pembayaran anda..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Pembayaran berjaya",
+          "description": "Mengalihkan secara automatik..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Pembayaran gagal",
+          "description": "Terdapat masalah semasa memproses pembayaran anda."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Masa pemprosesan tamat",
+          "description": "Pemprosesan pembayaran mengambil masa lebih lama daripada dijangka."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Cuba lagi"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Keselamatan",
+        "description": "Urus tetapan keselamatan anda",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Tukar kata laluan",
+          "description": "Masukkan kata laluan semasa dan kata laluan baharu",
+          "currentPassword": "Kata laluan semasa",
+          "currentRequired": "Kata laluan semasa diperlukan",
+          "newPassword": "Kata laluan baharu",
+          "newMinLength": "Kata laluan mesti sekurang-kurangnya 8 aksara",
+          "hint": "Sila gunakan sekurang-kurangnya 8 aksara untuk kata laluan",
+          "showPassword": "Tunjuk kata laluan",
+          "hidePassword": "Sembunyikan kata laluan",
+          "success": "Kata laluan berjaya dikemas kini",
+          "fail": "Gagal mengemas kini kata laluan",
+          "saving": "Menyimpan...",
+          "save": "Simpan"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Set semula kata laluan",
+          "description": "Set semula kata laluan untuk log masuk e-mel",
+          "info": "Menetapkan semula kata laluan membolehkan anda log masuk dengan e-mel dan kata laluan selain kaedah log masuk sosial. Anda akan menerima e-mel dengan arahan set semula kata laluan",
+          "button": "Set semula kata laluan"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Padam akaun",
+          "description": "Buang akaun dan semua kandungannya secara kekal",
+          "warning": "Tindakan ini tidak boleh dibatalkan, sila teruskan dengan berhati-hati",
+          "button": "Padam akaun",
+          "confirmTitle": "Padam akaun",
+          "confirmDescription": "Adakah anda pasti mahu memadam akaun anda? Tindakan ini tidak boleh dibatalkan.",
+          "confirm": "Padam",
+          "cancel": "Batal",
+          "deleting": "Memadam...",
+          "success": "Akaun berjaya dipadam",
+          "fail": "Gagal memadam akaun"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Pelan berkapasiti lebih tinggi akan datang tidak lama lagi. Percubaan percuma tersedia sekarang.",
-      "button": "Upgrade"
+      "title": "Naik taraf",
+      "description": "Pelan kapasiti lebih tinggi akan datang tidak lama lagi. Percubaan percuma tersedia sekarang.",
+      "button": "Naik taraf"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Pasukan {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hai, {name}.",
+      "body": "Sila klik pautan di bawah untuk mengesahkan alamat e-mel anda.",
+      "confirmEmail": "Sahkan e-mel",
+      "subject": "Sahkan e-mel anda"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hai, {name}.",
+      "body": "Kami menerima permintaan untuk set semula kata laluan MP4toURL anda. Klik butang di bawah untuk pilih kata laluan baharu. Jika anda tidak memintanya, anda boleh abaikan e-mel ini.",
+      "resetPassword": "Set semula kata laluan",
+      "subject": "Set semula kata laluan MP4toURL anda"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Nama: {name}",
+      "email": "E-mel: {email}",
+      "message": "Mesej: {message}",
+      "subject": "Mesej hubungan dari laman web"
     }
   },
   "ShareCodes": {
     "sectionTitle": "KOD SEDIA SALIN",
     "copyUrl": "Salin URL",
     "copied": "Disalin",
-    "copyFailed": "Tidak dapat salin",
+    "copyFailed": "Tidak dapat disalin",
     "openTab": "Buka dalam tab baharu",
     "successTitle": "Berjaya! URL video anda sedia",
-    "successSubtitle": "Video telah dimuat naik dan sedia dikongsi.",
+    "successSubtitle": "Video anda telah dimuat naik dan sedia untuk dikongsi.",
     "videoLabel": "Video",
     "watchLabel": "Tonton video",
     "shareLink": {
@@ -861,18 +560,18 @@
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Untuk GitHub, Notion dan dokumen"
+      "desc": "Untuk GitHub, Notion, dan dokumen"
     },
     "markdownLink": {
-      "title": "Markdown dengan pautan",
+      "title": "Markdown with link",
       "desc": "Markdown dengan label tonton yang mudah dibaca"
     },
     "html": {
       "title": "HTML",
-      "desc": "Benam dengan pemain video asli"
+      "desc": "Benamkan dengan pemain video asli"
     },
     "htmlLink": {
-      "title": "HTML dengan pautan",
+      "title": "HTML with link",
       "desc": "Pautan ringkas yang dibuka dalam tab baharu"
     },
     "bbcode": {
@@ -880,142 +579,142 @@
       "desc": "Untuk forum dan papan mesej"
     },
     "bbcodeLink": {
-      "title": "BBCode dengan pautan",
+      "title": "BBCode with link",
       "desc": "Pautan forum dengan label tonton"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Muat naik video dan dapatkan pautan kongsi kekal",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Penukar Video ke URL Percuma",
+      "description": "Muat naik video MP4 dan dapatkan pautan kongsi kekal dalam beberapa saat.",
+      "tagline": "Sokong MP4, MOV, AVI, WebM, MKV sehingga 300MB. Tiada pendaftaran diperlukan.",
+      "uploadHeading": "Muat Naik Video Anda",
+      "uploadTitle": "Letakkan video di sini, atau klik untuk semak imbas",
+      "uploadHint": "Menyokong MP4, MOV, AVI, WebM, MKV sehingga 300MB",
+      "maxSize": "Saiz fail maksimum: 300MB",
+      "convert": "Tukar ke URL",
+      "uploading": "Memuat naik...",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
       "guestSuccessHint": "Video anda telah dimuat naik. Salin pautan di bawah untuk kongsi.",
-      "registerForCodesTitle": "Perlukan Markdown, HTML & BBCode?",
-      "registerForCodesDesc": "Daftar percuma untuk membuka kunci kod benam sedia salin, dan urus semua video dalam Sumber Saya.",
+      "registerForCodesTitle": "Mahukan Markdown, HTML & BBCode?",
+      "registerForCodesDesc": "Daftar percuma untuk buka kod benam sedia salin, dan urus setiap video dalam Sumber Saya.",
       "registerCta": "Daftar percuma",
       "uploadAnother": "Muat naik video lain",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Muat naik gagal. Sila cuba lagi.",
+      "unsupportedType": "Jenis fail tidak disokong. Sila muat naik MP4, MOV, AVI, WebM, atau MKV.",
+      "fileTooLarge": "Fail terlalu besar. Pelan percuma membenarkan sehingga 300MB setiap fail."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Mengapa Pilih MP4 to URL",
+      "subtitle": "Dibina untuk kelajuan, privasi, dan pautan media kekal.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Sangat pantas",
+          "description": "Muat naik dan tukar video anda kepada URL kongsi dalam beberapa saat. Tiada menunggu, tiada barisan."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Selamat & peribadi",
+          "description": "Video anda dipindahkan melalui HTTPS dan dihoskan dengan kawalan privasi dahulu."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Pautan kekal",
+          "description": "Dapatkan pautan kekal yang tidak pernah tamat tempoh. Sesuai untuk dokumentasi, tiket, dan perkongsian sosial."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video ke URL dalam beberapa saat"
+      "title": "Video ke URL, dalam beberapa saat",
+      "subtitle": "Dari fail tempatan ke pautan kongsi",
+      "description": "Muat naik MP4 dan format berkaitan, dapatkan URL kekal yang bersih untuk tampal dalam dokumen, sembang, dan pos.",
+      "point1": "Letakkan video dari peranti anda",
+      "point2": "Tukar dalam beberapa saat — tiada pendaftaran untuk kegunaan biasa",
+      "point3": "Salin pautan kekal dan kongsi di mana-mana",
+      "imageAlt": "mp4tourl.com kolaj: jadikan video boleh dikongsi",
+      "imageAltNew": "mp4tourl.com: video ke URL dalam beberapa saat, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Cara Guna",
+      "subtitle": "Tiga langkah dari fail tempatan ke URL kongsi.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Pilih video",
+          "description": "Seret dan lepas atau semak imbas MP4, MOV, AVI, WebM, atau MKV (sehingga 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Tukar ke URL",
+          "description": "Klik Tukar ke URL. Pemprosesan biasanya selesai dalam beberapa saat."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Salin dan kongsi",
+          "description": "Salin pautan kekal dan gunakannya dalam dokumen, sembang, laman web, atau pos sosial."
         }
       }
     },
     "bannerShowcase": {
       "title": "Senario",
-      "subtitle": "Dari video tempatan ke pautan boleh kongsi.",
-      "description": "Lepaskan fail, dapat URL bersih untuk dokumen, sembang dan siaran — lihat beberapa contoh di bawah.",
+      "subtitle": "Dari video tempatan ke pautan kongsi.",
+      "description": "Letakkan fail, dapatkan URL bersih untuk dokumen, sembang, dan pos — lihat beberapa rupa di bawah.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Tukar klip tempatan jadi alamat boleh kongsi dalam beberapa saat."
+          "description": "Tukar klip tempatan kepada alamat kongsi dalam beberapa saat."
         },
         "newStyle": {
           "title": "Kongsi di mana-mana",
-          "description": "Tampal pautan ke dokumen, tiket dan siaran media sosial."
+          "description": "Tampal pautan ke dalam dokumen, tiket, dan pos sosial."
         },
         "dark": {
-          "title": "Hosting stabil",
-          "description": "Pastikan video boleh diakses dengan URL kekal dan stabil."
+          "title": "Pengehosan bersih",
+          "description": "Pastikan video boleh diakses dengan URL kekal yang stabil."
         },
         "retro": {
           "title": "Penukaran pantas",
-          "description": "Muat naik sekali, salin pautan, guna semula bila-bila perlu."
+          "description": "Muat naik sekali, salin pautan, guna semula bila-bila masa diperlukan."
         }
       }
     },
     "faqs": {
-      "title": "Soalan lazim",
-      "subtitle": "Apa yang mungkin ingin anda ketahui tentang video ke URL.",
+      "title": "Soalan Lazim",
+      "subtitle": "Apa yang anda mungkin ingin tahu tentang video ke URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Apakah penukar video ke URL?",
+          "answer": "Penukar video ke URL memuat naik fail video tempatan anda dan mengembalikan pautan web terus yang boleh dikongsi di mana-mana."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Bagaimana penukaran video ke URL berfungsi?",
+          "answer": "Muat naik video anda, tunggu pemprosesan selesai, kemudian salin URL yang dijana. Anda boleh buka, kongsi, atau benamkan pautan itu serta-merta."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Format video apa yang disokong?",
+          "answer": "Format yang disokong termasuk MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, dan FLV. Peringkat percuma membenarkan sehingga 300MB setiap fail."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Adakah pautan video yang dijana kekal?",
+          "answer": "Ya. Pautan yang dijana direka untuk perkongsian jangka panjang supaya URL video anda kekal stabil dan boleh digunakan semula."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Di mana saya boleh guna URL video?",
+          "answer": "Anda boleh menggunakannya dalam dokumentasi, penjejak isu, sembang, laman web, pos media sosial, dan alat kerjasama pasukan."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Adakah penukar video ke URL ini percuma?",
+          "answer": "Ya. Aliran penukaran video ke URL standard percuma digunakan dalam had muat naik semasa."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Sejauh mana selamat muat naik dan pengehosan video?",
+          "answer": "Muat naik menggunakan pemindahan HTTPS dan dihoskan untuk penghantaran stabil, memberikan pautan kongsi yang boleh dipercayai untuk kandungan video."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Cara Paling Mudah untuk Kongsi Video",
+      "description": "MP4 to URL ialah aliran pengehosan media percuma dan pantas untuk pembangun, pencipta, dan pasukan. Tukar video kepada URL kekal dalam beberapa saat dan kongsi di mana-mana.",
+      "primaryButton": "Tukar ke URL",
+      "secondaryButton": "Baca Soalan Lazim"
     }
   }
 }

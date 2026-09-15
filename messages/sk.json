@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Bezplatný prevodník videa na URL — nahrajte MP4 a získajte odkaz na zdieľanie",
+    "description": "Nahrajte MP4, MOV, AVI, WebM, MKV a získajte trvalé URL na zdieľanie za pár sekúnd. Bezplatný hosting videa až do 300MB — bez registrácie."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Prihlásiť sa",
+    "logout": "Odhlásiť sa",
+    "signUp": "Registrovať sa",
+    "language": "Prepnúť jazyk",
+    "languageHint": "Výber regiónu zmení jazyk a obsah.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Prepnúť režim",
+      "light": "Svetlý",
+      "dark": "Tmavý",
+      "system": "Systém"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Prepnúť motív",
+      "default": "Predvolené",
+      "blue": "Modrá",
+      "green": "Zelená",
+      "amber": "Jantárová",
+      "neutral": "Neutrálna"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopírovať",
+    "saving": "Ukladá sa...",
+    "save": "Uložiť",
+    "loading": "Načítava sa...",
+    "cancel": "Zrušiť",
+    "logoutFailed": "Odhlásenie zlyhalo",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Celkom {count} záznamov",
+      "noResults": "Žiadne výsledky",
+      "loading": "Načítava sa...",
+      "columns": "Stĺpce",
+      "rowsPerPage": "Riadkov na stránku",
+      "page": "Stránka",
+      "firstPage": "Prvá stránka",
+      "lastPage": "Posledná stránka",
+      "nextPage": "Ďalšia stránka",
+      "previousPage": "Predchádzajúca stránka",
+      "ascending": "Vzost.",
+      "descending": "Zost."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Zadarmo",
+      "description": "Hostujte videá a získajte trvalé URL na zdieľanie",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Veľkosť nahrávania: 300MB",
+        "feature-2": "Trvalé CDN odkazy",
+        "feature-3": "Bez registrácie",
+        "feature-4": "Podpora komunity"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Vlastné domény",
+        "limit-2": "Vlastný branding",
+        "limit-3": "Doživotné aktualizácie"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Vyššie limity a história nahrávania pre aktívnych tvorcov",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Väčšie nahrávanie videí",
+        "feature-2": "10 GB úložisko",
+        "feature-3": "História nahrávania",
+        "feature-4": "Prioritná podpora",
+        "feature-5": "Vlastné domény"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Vlastný branding",
+        "limit-2": "Doživotné aktualizácie"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Zaplaťte raz za dlhodobú kapacitu hostingu videa",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Všetky funkcie Pro",
+        "feature-2": "100 GB úložisko",
+        "feature-3": "Vyhradená podpora",
+        "feature-4": "Zabezpečenie na podnikovej úrovni",
+        "feature-5": "Pokročilé integrácie",
+        "feature-6": "Vlastný branding",
+        "feature-7": "Doživotné aktualizácie"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Ľutujeme, stránka, ktorú hľadáte, neexistuje.",
+    "backToHome": "Späť na úvod"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Niečo sa pokazilo!",
+    "tryAgain": "Skúsiť znova",
+    "backToHome": "Späť na úvod"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "O nás",
+    "description": "MP4toURL premení vaše videá na trvalé odkazy na zdieľanie — nahrajte MP4, MOV, AVI, WebM alebo MKV a zdieľajte za pár sekúnd.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Bezplatný prevodník videa na URL",
+    "introduction": "MP4toURL je bezplatný a rýchly spôsob hostovania a zdieľania videí. Nahrajte súbor, získajte trvalý CDN odkaz a použite ho kdekoľvek — bez zložitého nastavovania.",
     "imageAlt": "Značka MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Kontaktujte nás",
+    "followMe": "Sledovať na X"
   },
   "ContactPage": {
     "title": "Kontakt",
-    "description": "Pošlite správu o nahrávaní videí, zdieľateľných odkazoch alebo vašom účte. Každú správu prečítame a odpovieme čo najskôr.",
-    "subtitle": "Otázky k MP4toURL? Radi pomôžeme.",
+    "description": "Pošlite správu o nahrávaní videí, odkazoch na zdieľanie alebo vašom účte. Každú správu čítame a odpovedáme čo najskôr.",
+    "subtitle": "Máte otázky o MP4toURL? Radi pomôžeme.",
     "orEmail": "Alebo nám napíšte na",
     "form": {
       "title": "Správa",
-      "description": "Pošlite správu a my odpovieme čo najskôr.",
+      "description": "Pošlite správu a odpovieme čo najskôr.",
       "name": "Predmet",
       "email": "E-mail",
       "message": "Správa",
@@ -155,8 +125,8 @@
       "emailPlaceholder": "E-mail",
       "messagePlaceholder": "Zadajte správu",
       "submit": "Odoslať",
-      "submitting": "Odosielanie…",
-      "success": "Správa bola úspešne odoslaná. Odpovieme čo najskôr.",
+      "submitting": "Odosiela sa...",
+      "success": "Správa bola odoslaná. Odpovieme čo najskôr.",
       "minLength": "Predmet musí mať aspoň 3 znaky.",
       "maxLengthName": "Predmet nesmie presiahnuť 100 znakov.",
       "invalidEmail": "Zadajte platnú e-mailovú adresu.",
@@ -165,154 +135,86 @@
       "invalid": "Niečo sa pokazilo. Skúste to znova."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Prihlásenie",
+      "welcomeBack": "Vitajte späť",
+      "email": "E-mail",
+      "password": "Heslo",
+      "signIn": "Prihlásiť sa",
+      "signUpHint": "Nemáte účet? Zaregistrujte sa",
+      "forgotPassword": "Zabudli ste heslo?",
+      "signInWithGoogle": "Prihlásiť sa cez Google",
+      "showPassword": "Zobraziť heslo",
+      "hidePassword": "Skryť heslo",
+      "or": "Alebo pokračujte cez",
+      "emailRequired": "Zadajte e-mail",
+      "passwordRequired": "Zadajte heslo",
+      "captchaInvalid": "Overenie captcha zlyhalo",
+      "captchaError": "Chyba overenia captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Registrácia",
+      "createAccount": "Vytvoriť účet",
+      "name": "Meno",
+      "email": "E-mail",
+      "password": "Heslo",
+      "signUp": "Registrovať sa",
+      "signInHint": "Už máte účet? Prihláste sa",
+      "checkEmail": "Skontrolujte doručenú poštu",
+      "showPassword": "Zobraziť heslo",
+      "hidePassword": "Skryť heslo",
+      "nameRequired": "Zadajte meno",
+      "emailRequired": "Zadajte e-mail",
+      "passwordRequired": "Zadajte heslo",
+      "captchaInvalid": "Overenie captcha zlyhalo",
+      "captchaError": "Chyba overenia captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Zabudnuté heslo",
+      "email": "E-mail",
+      "send": "Odoslať odkaz na obnovenie",
+      "backToLogin": "Späť na prihlásenie",
+      "checkEmail": "Ak existuje účet s týmto e-mailom, poslali sme odkaz na obnovenie. Skontrolujte doručenú poštu.",
+      "emailRequired": "Zadajte e-mail",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "S týmto e-mailom sa nenašiel žiadny účet",
+        "tooManyRequests": "Príliš veľa pokusov. Skúste neskôr",
+        "serverError": "Niečo sa pokazilo. Skúste to znova"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Obnovenie hesla",
+      "password": "Nové heslo",
+      "reset": "Obnoviť heslo",
+      "backToLogin": "Späť na prihlásenie",
+      "showPassword": "Zobraziť heslo",
+      "hidePassword": "Skryť heslo",
+      "minLength": "Heslo musí mať aspoň 8 znakov",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Odkaz na obnovenie vypršal. Požiadajte o nový",
+        "invalidToken": "Neplatný odkaz na obnovenie. Požiadajte o nový",
+        "tooManyRequests": "Príliš veľa pokusov. Skúste neskôr",
+        "serverError": "Niečo sa pokazilo. Skúste to znova"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Niečo sa pokazilo!",
+      "tryAgain": "Skúste to znova.",
+      "backToLogin": "Späť na prihlásenie",
+      "checkEmail": "Skontrolujte doručenú poštu"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Podmienky používania",
+      "privacyPolicy": "Zásady ochrany súkromia",
+      "byClickingContinue": "Kliknutím na pokračovať súhlasíte s našimi ",
+      "and": " a "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Domov"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,174 +224,60 @@
       },
       "contact": {
         "title": "Kontakt"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Nahrajte video a získajte trvalý odkaz na zdieľanie",
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "Funkcie",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "Spoločnosť",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "O nás",
+          "contact": "Kontakt"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Právne",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Zásady cookies",
+          "privacyPolicy": "Zásady ochrany súkromia",
+          "termsOfService": "Podmienky používania"
         }
       }
     },
     "avatar": {
-      "dashboard": "Pracovný priestor",
+      "dashboard": "Pracovná plocha",
       "resources": "Moje zdroje",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Fakturácia",
+      "settings": "Nastavenia"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Pracovný priestor"
+      "title": "Pracovná plocha"
     },
     "home": {
       "loading": "Načítava sa prehľad…",
       "resourceCount": "Videá",
-      "videoCountLabel": "Videá v Moje zdroje",
-      "storageFullHint": "Úložisko bezplatnej skúšobnej verzie je plné. Odstráňte niektoré videá; tarify s väčšou kapacitou už čoskoro.",
+      "videoCountLabel": "Videá v Mojich zdrojoch",
+      "storageFullHint": "Úložisko bezplatnej skúšobnej verzie je plné. Vymažte niektoré videá; plány s väčšou kapacitou čoskoro.",
       "entryResourcesTitle": "Moje zdroje",
-      "entryResourcesDesc": "Nahrané videá sú tu — odkazy môžete kopírovať, otvárať alebo kedykoľvek zmazať.",
+      "entryResourcesDesc": "Vaše nahrané videá sú tu — kopírujte odkazy, otvárajte alebo mažte kedykoľvek.",
       "entryUploadTitle": "Nahrať video",
-      "entryUploadDesc": "Pretiahnite video na domovskú stránku a za pár sekúnd získate zdieľateľný odkaz.",
+      "entryUploadDesc": "Pustite video na domovskej stránke a získajte odkaz na zdieľanie za pár sekúnd.",
       "entryFilesTitle": "Moje zdroje",
-      "entryFilesDesc": "Nahratia po prihlásení sa uložia do účtu. Skopírujte URL alebo odstráňte nepotrebné súbory.",
-      "entryFilesCta": "Otvoriť moje zdroje",
-      "filesPointUploadTitle": "Veľa formátov",
+      "entryFilesDesc": "Nahrania po prihlásení sa ukladajú do účtu. Skopírujte URL alebo odstráňte súbory, ktoré už nepotrebujete.",
+      "entryFilesCta": "Otvoriť Moje zdroje",
+      "filesPointUploadTitle": "Mnoho formátov",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV a ďalšie",
-      "filesPointManageTitle": "Správa odkazov",
-      "filesPointManageBody": "Kopírovať, otvoriť alebo zmazať v Moje zdroje",
+      "filesPointManageTitle": "Spravovať odkazy",
+      "filesPointManageBody": "Kopírovať, otvoriť alebo vymazať v Mojich zdrojoch",
       "filesPointFreeTitle": "Bezplatné úložisko",
       "filesPointFreeBody": "300 MB zadarmo pre hostované videá",
       "filesPointPaidTitle": "Platené plány",
@@ -499,24 +287,24 @@
       "title": "Moje zdroje",
       "welcome": "Vitajte späť, {name}",
       "storage": "Úložisko",
-      "storageHint": "Využité miesto na hosting videí",
+      "storageHint": "Využité miesto pre hosting videa",
       "planCardTitle": "Aktuálny plán",
       "planFree": "Zadarmo",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktívny",
-      "planHintFree": "Bezplatná skúšobná verzia je teraz k dispozícii. Tarify s väčšou kapacitou už čoskoro.",
-      "planHintPro": "Máte Pro (10 GB). Lifetime odomyká 100 GB.",
+      "planHintFree": "Bezplatná skúšobná verzia je k dispozícii. Plány s väčšou kapacitou čoskoro.",
+      "planHintPro": "Máte Pro (10 GB). Lifetime odomkne 100 GB.",
       "planHintLifetime": "Všetky funkcie odomknuté",
-      "description": "Videá nahrané po prihlásení. Nahrajte tu, zobrazte náhľad, stiahnite alebo zmažte kedykoľvek.",
+      "description": "Videá nahrané po prihlásení. Nahrávajte tu, prezerajte, sťahujte alebo mažte kedykoľvek.",
       "empty": "Zatiaľ žiadne videá",
-      "emptyHint": "Kliknite na Nahrať alebo kartu +, aby ste pridali prvé video.",
+      "emptyHint": "Kliknite na Nahrať alebo kartu + pre prvé video.",
       "goUpload": "Nahrať video",
       "upload": "Nahrať",
       "uploading": "Nahráva sa…",
       "uploadSuccess": "Nahrávanie dokončené",
       "uploadFailed": "Nahrávanie zlyhalo",
-      "unsupportedType": "Podporované sú len videoformáty (MP4, MOV, AVI, WebM, MKV…)",
+      "unsupportedType": "Podporované sú len video formáty (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "Súbor je príliš veľký. Bezplatný plán umožňuje až 300MB na súbor.",
       "filterFormat": "Typ súboru",
       "formatAll": "Všetky typy",
@@ -534,10 +322,10 @@
       "viewGrid": "Mriežkové zobrazenie",
       "viewList": "Zoznamové zobrazenie",
       "loading": "Načítava sa…",
-      "loadError": "Nepodarilo sa načítať zdroje",
+      "loadError": "Zdroje sa nepodarilo načítať",
       "searchPlaceholder": "Hľadať podľa názvu súboru…",
       "search": "Hľadať",
-      "reset": "Obnoviť",
+      "reset": "Resetovať",
       "copyUrl": "Kopírovať URL",
       "copied": "URL skopírované",
       "copyFailed": "Nepodarilo sa skopírovať",
@@ -545,13 +333,13 @@
       "preview": "Náhľad",
       "previewClose": "Zavrieť",
       "shareCodes": "Kódy na zdieľanie",
-      "shareCodesDesc": "Odkazy pripravené na skopírovanie pre Markdown, HTML, BBCode a ďalšie.",
+      "shareCodesDesc": "Odkazy pripravené na kopírovanie pre Markdown, HTML, BBCode a ďalšie.",
       "download": "Stiahnuť",
-      "delete": "Zmazať",
-      "deleteTitle": "Zmazať video",
-      "deleteConfirm": "Video sa natrvalo odstráni z vášho účtu. Túto akciu nie je možné vrátiť späť.",
-      "deleteSuccess": "Video zmazané",
-      "deleteFailed": "Video sa nepodarilo zmazať",
+      "delete": "Vymazať",
+      "deleteTitle": "Vymazať video",
+      "deleteConfirm": "Týmto natrvalo odstránite video z účtu. Nedá sa to vrátiť späť.",
+      "deleteSuccess": "Video vymazané",
+      "deleteFailed": "Video sa nepodarilo vymazať",
       "cancel": "Zrušiť",
       "totalCount": "Celkom {total}",
       "pagePrev": "Predchádzajúca",
@@ -560,299 +348,210 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Používatelia",
+        "fakeData": "Poznámka: fiktívne údaje na ukážku, niektoré funkcie sú vypnuté",
+        "error": "Používateľov sa nepodarilo načítať",
+        "search": "Hľadať používateľov...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Stĺpce",
+          "name": "Meno",
+          "email": "E-mail",
+          "role": "Rola",
+          "createdAt": "Vytvorené",
+          "customerId": "ID zákazníka",
+          "status": "Stav",
+          "banReason": "Dôvod zákazu",
+          "banExpires": "Zákaz vyprší"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Používateľ",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mail overený",
+          "unverified": "E-mail neoverený"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mail skopírovaný do schránky",
+        "banned": "Zakázaný",
+        "active": "Aktívny",
+        "joined": "Pripojený",
+        "updated": "Aktualizované",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Dôvod zákazu",
+          "reasonPlaceholder": "Zadajte dôvod zákazu tohto používateľa",
+          "defaultReason": "Spam",
+          "never": "Nikdy",
+          "expires": "Zákaz vyprší",
+          "selectDate": "Vybrať dátum",
+          "button": "Zakázať používateľa",
+          "success": "Používateľ bol zakázaný",
+          "error": "Zákaz používateľa zlyhal"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Zrušiť zákaz",
+          "success": "Zákaz používateľa bol zrušený",
+          "error": "Zrušenie zákazu zlyhalo"
         },
-        "close": "Close"
+        "close": "Zavrieť"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Nastavenia",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Spravujte informácie o účte",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Kliknite na tlačidlo nahrávania pre vlastný avatar",
+          "recommendation": "Avatar je voliteľný, ale dôrazne odporúčaný",
+          "uploading": "Nahráva sa...",
+          "uploadAvatar": "Nahrať avatar",
+          "success": "Avatar bol aktualizovaný",
+          "fail": "Aktualizácia avatara zlyhala"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Meno",
+          "description": "Zadajte zobrazované meno",
+          "placeholder": "Zadajte meno",
+          "minLength": "Použite aspoň 3 znaky",
+          "maxLength": "Použite najviac 30 znakov",
+          "hint": "Použite 3–30 znakov pre meno",
+          "success": "Meno bolo aktualizované",
+          "fail": "Aktualizácia mena zlyhala",
+          "saving": "Ukladá sa...",
+          "save": "Uložiť"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Fakturácia",
+        "description": "Spravujte predplatné a fakturačné údaje",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktívny",
+          "trial": "Skúšobná",
+          "free": "Zadarmo",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "mesiac",
+          "year": "rok",
+          "oneTime": "jednorazovo"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Aktuálny plán",
+          "description": "Podrobnosti vášho aktuálneho plánu",
+          "noPlan": "Nemáte aktívny plán"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Načítava sa...",
+          "createCustomerPortalFailed": "Portál zákazníka Stripe sa nepodarilo otvoriť"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Cena:",
+        "periodStartDate": "Začiatok obdobia:",
+        "periodEndDate": "Koniec obdobia:",
+        "trialEnds": "Skúšobná verzia končí:",
+        "freePlanMessage": "Máte bezplatný plán s obmedzenými funkciami",
+        "lifetimeMessage": "Máte doživotný prístup ku všetkým prémiovým funkciám",
+        "manageSubscription": "Spravovať predplatné a fakturáciu",
+        "manageBilling": "Spravovať fakturáciu",
+        "upgradePlan": "Upgradovať plán",
+        "retry": "Skúsiť znova",
+        "errorMessage": "Údaje sa nepodarilo načítať",
+        "paymentSuccess": "Platba úspešná"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Spracovanie platby",
+          "description": "Počkajte, kým potvrdíme vašu platbu..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Platba úspešná",
+          "description": "Automatické presmerovanie..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Platba zlyhala",
+          "description": "Pri spracovaní platby sa vyskytol problém."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Časový limit",
+          "description": "Spracovanie platby trvá dlhšie, než sa očakávalo."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Skúsiť znova"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Zabezpečenie",
+        "description": "Spravujte nastavenia zabezpečenia",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Zmeniť heslo",
+          "description": "Zadajte aktuálne a nové heslo",
+          "currentPassword": "Aktuálne heslo",
+          "currentRequired": "Aktuálne heslo je povinné",
+          "newPassword": "Nové heslo",
+          "newMinLength": "Heslo musí mať aspoň 8 znakov",
+          "hint": "Použite aspoň 8 znakov pre heslo",
+          "showPassword": "Zobraziť heslo",
+          "hidePassword": "Skryť heslo",
+          "success": "Heslo bolo aktualizované",
+          "fail": "Aktualizácia hesla zlyhala",
+          "saving": "Ukladá sa...",
+          "save": "Uložiť"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Obnoviť heslo",
+          "description": "Obnovte heslo pre prihlásenie e-mailom",
+          "info": "Obnovením hesla sa budete môcť prihlásiť e-mailom a heslom okrem sociálnych prihlásení. Dostanete e-mail s inštrukciami na obnovenie hesla",
+          "button": "Obnoviť heslo"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Vymazať účet",
+          "description": "Natrvalo odstráňte účet a všetok jeho obsah",
+          "warning": "Túto akciu nemožno vrátiť späť, pokračujte opatrne",
+          "button": "Vymazať účet",
+          "confirmTitle": "Vymazať účet",
+          "confirmDescription": "Naozaj chcete vymazať účet? Túto akciu nemožno vrátiť späť.",
+          "confirm": "Vymazať",
+          "cancel": "Zrušiť",
+          "deleting": "Maže sa...",
+          "success": "Účet bol vymazaný",
+          "fail": "Vymazanie účtu zlyhalo"
         }
       }
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Tarify s väčšou kapacitou už čoskoro. Bezplatná skúšobná verzia je teraz k dispozícii.",
-      "button": "Upgrade"
+      "description": "Plány s väčšou kapacitou čoskoro. Bezplatná skúšobná verzia je k dispozícii.",
+      "button": "Upgradovať"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Tím {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Ahoj, {name}.",
+      "body": "Kliknite na odkaz nižšie pre overenie e-mailovej adresy.",
+      "confirmEmail": "Potvrdiť e-mail",
+      "subject": "Overte svoj e-mail"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Ahoj, {name}.",
+      "body": "Dostali sme žiadosť o obnovenie hesla MP4toURL. Kliknite na tlačidlo nižšie pre nové heslo. Ak ste o to nežiadali, tento e-mail ignorujte.",
+      "resetPassword": "Obnoviť heslo",
+      "subject": "Obnovte heslo MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Meno: {name}",
+      "email": "E-mail: {email}",
+      "message": "Správa: {message}",
+      "subject": "Kontaktná správa z webu"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KÓDY PRIPRAVENÉ NA SKOPÍROVANIE",
+    "sectionTitle": "KÓDY PRIPRAVENÉ NA KOPÍROVANIE",
     "copyUrl": "Kopírovať URL",
     "copied": "Skopírované",
     "copyFailed": "Nepodarilo sa skopírovať",
     "openTab": "Otvoriť na novej karte",
-    "successTitle": "Hotovo! URL vášho videa je pripravená",
-    "successSubtitle": "Video bolo nahraté a je pripravené na zdieľanie.",
+    "successTitle": "Úspech! URL videa je pripravené",
+    "successSubtitle": "Video bolo nahrané a je pripravené na zdieľanie.",
     "videoLabel": "Video",
     "watchLabel": "Pozrieť video",
     "shareLink": {
@@ -861,161 +560,161 @@
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Pre GitHub, Notion a dokumenty"
+      "desc": "Pre GitHub, Notion a dokumentáciu"
     },
     "markdownLink": {
-      "title": "Markdown s odkazom",
-      "desc": "Markdown s čitateľným popisom prehrávania"
+      "title": "Markdown with link",
+      "desc": "Markdown s čitateľným popisom na pozretie"
     },
     "html": {
       "title": "HTML",
-      "desc": "Vloženie s natívnym prehrávačom videa"
+      "desc": "Vložiť s natívnym prehrávačom videa"
     },
     "htmlLink": {
-      "title": "HTML s odkazom",
-      "desc": "Jednoduchý odkaz, ktorý sa otvorí na novej karte"
+      "title": "HTML with link",
+      "desc": "Jednoduchý odkaz otvárajúci sa na novej karte"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "Pre fóra a nástenky"
+      "desc": "Pre fóra a diskusné panely"
     },
     "bbcodeLink": {
-      "title": "BBCode s odkazom",
-      "desc": "Odkaz na fórum s popisom prehrávania"
+      "title": "BBCode with link",
+      "desc": "Odkaz do fóra s popisom na pozretie"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Nahrajte video a získajte trvalý odkaz na zdieľanie",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Video bolo nahraté. Skopírujte odkaz nižšie a zdieľajte ho.",
+      "title": "Bezplatný prevodník videa na URL",
+      "description": "Nahrajte MP4 videá a získajte trvalé odkazy na zdieľanie za pár sekúnd.",
+      "tagline": "Podporuje MP4, MOV, AVI, WebM, MKV až do 300MB. Bez registrácie.",
+      "uploadHeading": "Nahrajte video",
+      "uploadTitle": "Pustite video sem alebo kliknite pre výber",
+      "uploadHint": "Podporuje MP4, MOV, AVI, WebM, MKV až do 300MB",
+      "maxSize": "Maximálna veľkosť súboru: 300MB",
+      "convert": "Previesť na URL",
+      "uploading": "Nahráva sa...",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "guestSuccessHint": "Video bolo nahrané. Skopírujte odkaz nižšie na zdieľanie.",
       "registerForCodesTitle": "Chcete Markdown, HTML a BBCode?",
-      "registerForCodesDesc": "Zaregistrujte sa zadarmo a odomknite kódy na vloženie pripravené na skopírovanie. Všetky videá spravujte v Moje zdroje.",
-      "registerCta": "Zaregistrovať sa zadarmo",
+      "registerForCodesDesc": "Zaregistrujte sa zadarmo pre kódy na vloženie pripravené na kopírovanie a spravujte všetky videá v Mojich zdrojoch.",
+      "registerCta": "Registrácia zadarmo",
       "uploadAnother": "Nahrať ďalšie video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Nahrávanie zlyhalo. Skúste to znova.",
+      "unsupportedType": "Nepodporovaný typ súboru. Nahrajte MP4, MOV, AVI, WebM alebo MKV.",
+      "fileTooLarge": "Súbor je príliš veľký. Bezplatný plán umožňuje až 300MB na súbor."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Prečo MP4 to URL",
+      "subtitle": "Vytvorené pre rýchlosť, súkromie a trvalé mediálne odkazy.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Bleskovo rýchle",
+          "description": "Nahrajte a preveďte videá na zdieľateľné URL za pár sekúnd. Bez čakania, bez radov."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Bezpečné a súkromné",
+          "description": "Vaše videá sa prenášajú cez HTTPS a hostujú sa s nastaveniami prioritizujúcimi súkromie."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Trvalé odkazy",
+          "description": "Získajte trvalé odkazy, ktoré nevypršia. Ideálne pre dokumentáciu, tikety a sociálne siete."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video na URL za pár sekúnd"
+      "title": "Video na URL za pár sekúnd",
+      "subtitle": "Od lokálneho súboru po zdieľateľný odkaz",
+      "description": "Nahrajte MP4 a príbuzné formáty, získajte čisté trvalé URL na vloženie do docs, chatov a príspevkov.",
+      "point1": "Pustite video zo zariadenia",
+      "point2": "Preveďte za pár sekúnd — bez registrácie pre štandardné použitie",
+      "point3": "Skopírujte trvalý odkaz a zdieľajte kdekoľvek",
+      "imageAlt": "Koláž mp4tourl.com: urobte video zdieľateľným",
+      "imageAltNew": "mp4tourl.com: video na URL za pár sekúnd, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Ako používať",
+      "subtitle": "Tri kroky od lokálneho súboru po zdieľateľné URL.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Vyberte video",
+          "description": "Presuňte alebo vyhľadajte MP4, MOV, AVI, WebM alebo MKV (až do 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Previesť na URL",
+          "description": "Kliknite na Previesť na URL. Spracovanie zvyčajne trvá pár sekúnd."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopírovať a zdieľať",
+          "description": "Skopírujte trvalý odkaz a použite ho v docs, chatoch, na weboch alebo v sociálnych sieťach."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Scenáre",
-      "subtitle": "Od lokálneho videa k zdieľateľnému odkazu.",
-      "description": "Pretiahnite súbor a získajte čistú URL pre dokumenty, chaty a príspevky — nižšie pár ukážok.",
+      "title": "Scény",
+      "subtitle": "Od lokálneho videa po zdieľateľný odkaz.",
+      "description": "Pustite súbor, získajte čisté URL pre docs, chaty a príspevky — pozrite si niekoľko vzhľadov nižšie.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Premenite lokálny klip na zdieľateľnú adresu za pár sekúnd."
+          "description": "Premení lokálny klip na zdieľateľnú adresu za pár sekúnd."
         },
         "newStyle": {
           "title": "Zdieľajte kdekoľvek",
-          "description": "Vložte odkaz do dokumentov, ticketov a príspevkov na sociálnych sieťach."
+          "description": "Vložte odkaz do docs, tiketov a sociálnych príspevkov."
         },
         "dark": {
-          "title": "Spoľahlivý hosting",
-          "description": "Udržujte videá dostupné so stabilnou, trvalou URL."
+          "title": "Prehľadný hosting",
+          "description": "Udržujte videá dostupné so stabilným trvalým URL."
         },
         "retro": {
-          "title": "Rýchla konverzia",
-          "description": "Nahrajte raz, skopírujte odkaz a znova ho použite, keď potrebujete."
+          "title": "Rýchly prevod",
+          "description": "Nahrajte raz, skopírujte odkaz, použite znova kedykoľvek."
         }
       }
     },
     "faqs": {
-      "title": "Časté otázky",
-      "subtitle": "Čo možno chcete vedieť o videu na URL.",
+      "title": "FAQ",
+      "subtitle": "Čo môžete chcieť vedieť o videu na URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Čo je prevodník videa na URL?",
+          "answer": "Prevodník videa na URL nahraje váš lokálny video súbor a vráti priamy webový odkaz, ktorý môžete zdieľať kdekoľvek."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Ako funguje prevod videa na URL?",
+          "answer": "Nahrajte video, počkajte na dokončenie spracovania a skopírujte vygenerované URL. Odkaz môžete okamžite otvoriť, zdieľať alebo vložiť."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Aké video formáty sú podporované?",
+          "answer": "Podporované formáty zahŕňajú MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP a FLV. Bezplatná úroveň umožňuje až 300MB na súbor."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Sú vygenerované video odkazy trvalé?",
+          "answer": "Áno. Odkazy sú navrhnuté na dlhodobé zdieľanie, aby vaše video URL zostalo stabilné a znovu použiteľné."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Kde môžem použiť video URL?",
+          "answer": "Môžete ho použiť v dokumentácii, issue trackeroch, chatoch, na weboch, v príspevkoch na sociálnych sieťach a v tímových nástrojoch."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Je tento prevodník videa na URL zadarmo?",
+          "answer": "Áno. Štandardný postup prevodu videa na URL je zadarmo v rámci aktuálnych limitov nahrávania."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Ako bezpečné je nahrávanie a hosting videa?",
+          "answer": "Nahrávania používajú prenos HTTPS a hostujú sa pre stabilné doručovanie — spoľahlivé odkazy na zdieľanie video obsahu."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Najjednoduchší spôsob zdieľania videí",
+      "description": "MP4 to URL je bezplatný a rýchly postup hostingu médií pre vývojárov, tvorcov a tímy. Preveďte videá na trvalé URL za pár sekúnd a zdieľajte ich kdekoľvek.",
+      "primaryButton": "Previesť na URL",
+      "secondaryButton": "Prečítať FAQ"
     }
   }
 }

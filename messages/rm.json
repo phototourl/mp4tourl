@@ -1,523 +1,311 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Convertider gratuit da video en URL — chargiar MP4 e retschaiver colliaziuns",
+    "description": "Chargiai MP4, MOV, AVI, WebM, MKV e retschavai URLs permanentas e colliaziuns en secundas. Hosting da video gratuit fin 300MB — senza registraziun."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "S'annunziar",
+    "logout": "Sortir",
+    "signUp": "S'inscriver",
+    "language": "Midar la lingua",
+    "languageHint": "Sche ti tschernas ina regiun, vegnan la lingua e il cuntegn midads.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Midar il modus",
+      "light": "Clar",
+      "dark": "Stgir",
+      "system": "Sistem"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Midar il design",
+      "default": "Standard",
+      "blue": "Blau",
+      "green": "Verd",
+      "amber": "Ambra",
+      "neutral": "Neutrel"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Copiar",
+    "saving": "Salvond...",
+    "save": "Salvar",
+    "loading": "Chargond...",
+    "cancel": "Annullar",
+    "logoutFailed": "Sortida n'è betg reussida",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Total {count} registraziuns",
+      "noResults": "Nagins resultats",
+      "loading": "Chargond...",
+      "columns": "Colonnas",
+      "rowsPerPage": "Linias per pagina",
+      "page": "Pagina",
+      "firstPage": "Emprima pagina",
+      "lastPage": "Ultima pagina",
+      "nextPage": "Proxima pagina",
+      "previousPage": "Pagina precedenta",
+      "ascending": "Ascend.",
+      "descending": "Descend."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Gratuit",
+      "description": "Hosta videos e retschava ina URL permanenta per cundivider",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Grondezza dal upload: 300MB",
+        "feature-2": "Colliaziuns permanentas CDN",
+        "feature-3": "Senza registraziun",
+        "feature-4": "Support da la communitad"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Dumains persunalisads",
+        "limit-2": "Branding persunal",
+        "limit-3": "Actualisaziuns per tutta la durada da la vita"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Limits pli auts e cronologia d'upload per creators activs",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Uploads da video pli gronds",
+        "feature-2": "10 GB spazi da memorisar",
+        "feature-3": "Cronologia d'upload",
+        "feature-4": "Support prioritar",
+        "feature-5": "Dumains persunalisads"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Branding persunal",
+        "limit-2": "Actualisaziuns per tutta la durada da la vita"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Paga ina giada per capacitad da hosting da video a lung term",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Tut las funcziuns Pro",
+        "feature-2": "100 GB spazi da memorisar",
+        "feature-3": "Support dedicà",
+        "feature-4": "Segirezza da nivel enterprise",
+        "feature-5": "Integraziuns avanzadas",
+        "feature-6": "Branding persunal",
+        "feature-7": "Actualisaziuns per tutta la durada da la vita"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Per dispi, la pagina che ti chattas n'exista betg.",
+    "backToHome": "Enavos a la pagina principala"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ops! Insatge n'è betg reussì!",
+    "tryAgain": "Empruvar anc ina giada",
+    "backToHome": "Enavos a la pagina principala"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Davart",
+    "description": "MP4toURL transfurma tes videos en colliaziuns permanentas — chargia MP4, MOV, AVI, WebM u MKV e cundivide en secundas.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Convertider gratuit da video en URL",
+    "introduction": "MP4toURL è ina via gratuita e svelta per hostar e cundivider videos. Chargia in datoteca, retschava ina colliaziun permanenta CDN e la dovras en mintga lieu — senza configuraziun complicada.",
     "imageAlt": "Marca MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Contactar nus",
+    "followMe": "Suandar sin X"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "Tramettai in messadi davart chargiaments da video, colliaziuns da cundivider u voss conto. Nus legin mintga messadi e respundain uschè svelt sco pussaivel.",
+    "title": "Contactar",
+    "description": "Manda in messadi davart uploads da video, colliaziuns u tes conto. Nus lein mintga messadi e respondein uschè svelt sco pussaivel.",
     "subtitle": "Dumondas davart MP4toURL? Nus gidain gugent.",
-    "orEmail": "U scriva a nus a",
+    "orEmail": "U scriva a",
     "form": {
       "title": "Messadi",
-      "description": "Tramettai in messadi e nus respundain uschè svelt sco pussaivel.",
+      "description": "Manda in messadi e nus respondein uschè svelt sco pussaivel.",
       "name": "Object",
       "email": "E-mail",
       "message": "Messadi",
-      "namePlaceholder": "Endattai l'object",
+      "namePlaceholder": "Endatar l'object",
       "emailPlaceholder": "E-mail",
-      "messagePlaceholder": "Endattai il messadi",
+      "messagePlaceholder": "Endatar il messadi",
       "submit": "Trametter",
-      "submitting": "Trametta…",
-      "success": "Messadi tramess cun success. Nus respundain uschè svelt sco pussaivel.",
+      "submitting": "Tramettend...",
+      "success": "Messadi tramess cun success. Nus respondein uschè svelt sco pussaivel.",
       "minLength": "L'object sto avair almain 3 caracters.",
       "maxLengthName": "L'object na dastga betg surpassar 100 caracters.",
-      "invalidEmail": "Endattai ina adressa d'e-mail valida.",
+      "invalidEmail": "Endatescha ina adressa d'e-mail valida.",
       "minLengthMessage": "Il messadi sto avair almain 10 caracters.",
       "maxLengthMessage": "Il messadi na dastga betg surpassar 2000 caracters.",
-      "invalid": "Insatge è id mal. Empruvai anc ina giada."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "invalid": "Insatge n'è betg reussì. Emprova anc ina giada."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "S'annunziar",
+      "welcomeBack": "Bainvegni enavos",
+      "email": "E-mail",
+      "password": "Plaun da segirezza",
+      "signIn": "S'annunziar",
+      "signUpHint": "N'has betg in conto? S'inscriver",
+      "forgotPassword": "Plaun da segirezza emblidà?",
+      "signInWithGoogle": "S'annunziar cun Google",
+      "showPassword": "Mussar il plaun da segirezza",
+      "hidePassword": "Zuppar il plaun da segirezza",
+      "or": "U cuntinuescha cun",
+      "emailRequired": "Endatescha tia adressa d'e-mail",
+      "passwordRequired": "Endatescha tes plaun da segirezza",
+      "captchaInvalid": "Verificaziun captcha n'è betg reussida",
+      "captchaError": "Errur da verificaziun captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "S'inscriver",
+      "createAccount": "Crear in conto",
+      "name": "Num",
+      "email": "E-mail",
+      "password": "Plaun da segirezza",
+      "signUp": "S'inscriver",
+      "signInHint": "Has gia in conto? S'annunziar",
+      "checkEmail": "Controlla tia casella d'e-mail",
+      "showPassword": "Mussar il plaun da segirezza",
+      "hidePassword": "Zuppar il plaun da segirezza",
+      "nameRequired": "Endatescha tes num",
+      "emailRequired": "Endatescha tia adressa d'e-mail",
+      "passwordRequired": "Endatescha tes plaun da segirezza",
+      "captchaInvalid": "Verificaziun captcha n'è betg reussida",
+      "captchaError": "Errur da verificaziun captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Plaun da segirezza emblidà",
+      "email": "E-mail",
+      "send": "Trametter colliaziun da reset",
+      "backToLogin": "Enavos al login",
+      "checkEmail": "Sche in conto exista per questa adressa d'e-mail, nus avain tramess ina colliaziun da reset. Controlla tia casella d'e-mail.",
+      "emailRequired": "Endatescha tia adressa d'e-mail",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Nagin conto chattà cun questa adressa d'e-mail",
+        "tooManyRequests": "Memia blers empruvs. Emprova pli tard anc ina giada",
+        "serverError": "Insatge n'è betg reussì. Emprova anc ina giada"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Resetar il plaun da segirezza",
+      "password": "Nov plaun da segirezza",
+      "reset": "Resetar il plaun da segirezza",
+      "backToLogin": "Enavos al login",
+      "showPassword": "Mussar il plaun da segirezza",
+      "hidePassword": "Zuppar il plaun da segirezza",
+      "minLength": "Il plaun da segirezza sto avair almain 8 caracters",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "La colliaziun da reset è scadida. Dmanda ina nova",
+        "invalidToken": "Colliaziun da reset nunvalida. Dmanda ina nova",
+        "tooManyRequests": "Memia blers empruvs. Emprova pli tard anc ina giada",
+        "serverError": "Insatge n'è betg reussì. Emprova anc ina giada"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ops! Insatge n'è betg reussì!",
+      "tryAgain": "Emprova anc ina giada.",
+      "backToLogin": "Enavos al login",
+      "checkEmail": "Controlla tia casella d'e-mail"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Cundiziuns d'utilisaziun",
+      "privacyPolicy": "Politica da protecziun da datas",
+      "byClickingContinue": "Cun clicar sin cuntinuar acceptas ti nossas ",
+      "and": " e "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
-        "title": "Pagina principala"
-      },
-      "pricing": {
-        "title": "Pricing"
+        "title": "Chasa"
       },
       "faq": {
-        "title": "FAQ"
+        "title": "Dumondas frequentas"
       },
       "about": {
         "title": "Davart"
       },
       "contact": {
-        "title": "Contact"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
+        "title": "Contactar"
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Chargia in video e retschava ina colliaziun permanenta",
       "product": {
-        "title": "Product",
+        "title": "Artitgels",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Funcziuns",
+          "faq": "Dumondas frequentas"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Interpresa",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Davart",
+          "contact": "Contactar"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Legalitad",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Politica da cookies",
+          "privacyPolicy": "Politica da protecziun da datas",
+          "termsOfService": "Cundiziuns d'utilisaziun"
         }
       }
     },
     "avatar": {
-      "dashboard": "Spazi da lavur",
-      "resources": "Mes resursas",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "dashboard": "Banc da lavur",
+      "resources": "Mias resursas",
+      "billing": "Facturaziun",
+      "settings": "Parameters"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Spazi da lavur"
+      "title": "Banc da lavur"
     },
     "home": {
-      "loading": "Chargiar la survista…",
-      "resourceCount": "Videos",
-      "videoCountLabel": "Videos en Mes resursas",
-      "storageFullHint": "Il spazi da prova gratuita è plain. Stizzai tscherts videos; plans cun dapli capacitad vegnan prest.",
-      "entryResourcesTitle": "Mes resursas",
-      "entryResourcesDesc": "Voss videos chargiads èn qua — copiai links, avri u stizzai da mintga temp.",
+      "loading": "Chargond la survista…",
+      "resourceCount": "Filmins",
+      "videoCountLabel": "Videos en Mias resursas",
+      "storageFullHint": "Il spazi da memorisar gratuit è plen. Stizza in pau videos; plans cun pli capacitad vegnan prest.",
+      "entryResourcesTitle": "Mias resursas",
+      "entryResourcesDesc": "Tes videos chargiads èn qua — copia colliaziuns, avra u stizza en mintga mument.",
       "entryUploadTitle": "Chargiar video",
-      "entryUploadDesc": "Depositai in video sin la pagina da partenza e survegnis in link per cundivider en paucas secundas.",
-      "entryFilesTitle": "Mes resursas",
-      "entryFilesDesc": "Chargiaments durant l’annunzia vegnan memorisads en voss conto. Copiai l’URL u stizzai datotecas nunnecessarias.",
-      "entryFilesCta": "Avrir mes resursas",
+      "entryUploadDesc": "Metta in video sin la pagina principala e retschava ina colliaziun en secundas.",
+      "entryFilesTitle": "Mias resursas",
+      "entryFilesDesc": "Uploads cun login vegnan salvads sin tes conto. Copia l'URL u allontanescha datotecas che ti n'has betg pli basegn.",
+      "entryFilesCta": "Avrir Mias resursas",
       "filesPointUploadTitle": "Blers formats",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV e dapli",
-      "filesPointManageTitle": "Administrar links",
-      "filesPointManageBody": "Copiar, avrir u stizzar da Mes resursas",
-      "filesPointFreeTitle": "Spazi da memorisar gratuit",
-      "filesPointFreeBody": "300 MB gratuits per videos ospitads",
+      "filesPointManageTitle": "Administrar colliaziuns",
+      "filesPointManageBody": "Copiar, avrir u stizzar en Mias resursas",
+      "filesPointFreeTitle": "Memorisar gratuit",
+      "filesPointFreeBody": "300 MB gratuit per videos hostads",
       "filesPointPaidTitle": "Plans pagads",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointPaidBody": "Pro 10 GB / Lifetime 100 GB"
     },
     "resources": {
-      "title": "Mes resursas",
+      "title": "Mias resursas",
       "welcome": "Bainvegni enavos, {name}",
-      "storage": "Spazi da memorisar",
-      "storageHint": "Spazi d’ospitar videos utilisà",
+      "storage": "Memorisar",
+      "storageHint": "Spazi utilisà per hosting da video",
       "planCardTitle": "Plan actual",
       "planFree": "Gratuit",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Activ",
-      "planHintFree": "La prova gratuita è disponibla ussa. Plans cun dapli capacitad vegnan prest.",
-      "planHintPro": "Vus esas sin Pro (10 GB). Lifetime deblochescha 100 GB.",
-      "planHintLifetime": "Tut las funcziuns èn deblocadas",
-      "description": "Videos chargiads durant che vus erai annunziads. Chargiai qua, prevista, telechargiai u stizzai da mintga temp.",
-      "empty": "Anc nagin video",
-      "emptyHint": "Cliccai sin Chargiar u sin la carta + per agiuntar il prim video.",
+      "planHintFree": "Empruvar gratuit disponibel ussa. Plans cun pli capacitad vegnan prest.",
+      "planHintPro": "Ti es sin Pro (10 GB). Lifetime debloca 100 GB.",
+      "planHintLifetime": "Tut las funcziuns deblocadas",
+      "description": "Videos chargiads durant il login. Chargia qua, previsualisescha, telechargia u stizza en mintga mument.",
+      "empty": "Anc nagins videos",
+      "emptyHint": "Clicca sin Chargiar u sin la carta + per agiuntar tes emprim video.",
       "goUpload": "Chargiar video",
       "upload": "Chargiar",
-      "uploading": "Chargia…",
-      "uploadSuccess": "Chargiada terminada",
-      "uploadFailed": "Chargiada betg reussida",
-      "unsupportedType": "Be formats da video vegnan sustegnids (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Datoteca memia gronda. Il plan gratuit permetta fin a 300MB per datoteca.",
+      "uploading": "Chargond…",
+      "uploadSuccess": "Upload terminà",
+      "uploadFailed": "Upload n'è betg reussì",
+      "unsupportedType": "Mo formats da video èn sustegnids (MP4, MOV, AVI, WebM, MKV…)",
+      "fileTooLarge": "Datoteca memia gronda. Il plan gratuit permetta fin 300MB per datoteca.",
       "filterFormat": "Tip da datoteca",
       "formatAll": "Tut ils tips",
       "format": {
@@ -530,492 +318,403 @@
         "flv": "FLV",
         "3gp": "3GP"
       },
-      "usageStorage": "Memoria",
-      "viewGrid": "Vista griglia",
-      "viewList": "Vista glista",
-      "loading": "Chargia…",
-      "loadError": "Betg reussì da chargiar las resursas",
+      "usageStorage": "Memorisar",
+      "viewGrid": "Vista en griglia",
+      "viewList": "Vista en lista",
+      "loading": "Chargond…",
+      "loadError": "Chargiar resursas n'è betg reussì",
       "searchPlaceholder": "Tschertgar tenor num da datoteca…",
       "search": "Tschertgar",
-      "reset": "Redefinir",
+      "reset": "Resetar",
       "copyUrl": "Copiar URL",
-      "copied": "URL copià",
+      "copied": "URL copiada",
       "copyFailed": "Betg reussì da copiar",
       "open": "Avrir",
-      "preview": "Prevista",
+      "preview": "Previsualisar",
       "previewClose": "Serrar",
-      "shareCodes": "Codes da cundivider",
-      "shareCodesDesc": "Links pronts da copiar per Markdown, HTML, BBCode e dapli.",
+      "shareCodes": "Codes per cundivider",
+      "shareCodesDesc": "Colliaziuns prontas per copiar per Markdown, HTML, BBCode e dapli.",
       "download": "Telechargiar",
       "delete": "Stizzar",
       "deleteTitle": "Stizzar video",
-      "deleteConfirm": "Quai stizza definitivamain il video da voss conto. Quai na sa betg vegnir revocà.",
+      "deleteConfirm": "Quai allontanescha il video permanentamain da tes conto. Quai na po betg vegnir revocà.",
       "deleteSuccess": "Video stizzà",
-      "deleteFailed": "Betg reussì da stizzar il video",
-      "cancel": "Interrumper",
+      "deleteFailed": "Stizzar video n'è betg reussì",
+      "cancel": "Annullar",
       "totalCount": "{total} en total",
-      "pagePrev": "Precedent",
-      "pageNext": "Proxim"
+      "pagePrev": "Precedenta",
+      "pageNext": "Proxima"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Administraziun",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Utilisaders",
+        "fakeData": "Nota: datas simuladas per demonstraziun, intgins funcziuns èn deactivads",
+        "error": "Obtegnair utilisaders n'è betg reussì",
+        "search": "Tschertgar utilisaders...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Colonnas",
+          "name": "Num",
+          "email": "E-mail",
+          "role": "Rol",
+          "createdAt": "Creà il",
+          "customerId": "ID dal client",
+          "status": "Stadi",
+          "banReason": "Motiv dal ban",
+          "banExpires": "Ban scada"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Administratur",
+        "user": "Utilisader",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mail verifitgada",
+          "unverified": "E-mail betg verifitgada"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mail copiada en la clipboard",
+        "banned": "Bandì",
+        "active": "Activ",
+        "joined": "S'unì il",
+        "updated": "Actualisà il",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Motiv dal ban",
+          "reasonPlaceholder": "Endatescha il motiv dal ban per quest utilisader",
+          "defaultReason": "Spam",
+          "never": "Mai",
+          "expires": "Ban scada",
+          "selectDate": "Tscherner data",
+          "button": "Bandir utilisader",
+          "success": "Utilisader è vegnì bandì",
+          "error": "Bandir utilisader n'è betg reussì"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Revocar ban",
+          "success": "Ban revocà",
+          "error": "Revocar ban n'è betg reussì"
         },
-        "close": "Close"
+        "close": "Serrar"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Parameters",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Administra las infurmaziuns da tes conto",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Maletg da profil",
+          "description": "Clicca sin il buttun da upload per chargiar in persunal",
+          "recommendation": "In avatar è optional, ma ferm recumandà",
+          "uploading": "Chargond...",
+          "uploadAvatar": "Chargiar avatar",
+          "success": "Avatar actualisà cun success",
+          "fail": "Actualisar avatar n'è betg reussì"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Num",
+          "description": "Endatescha tes num da mussar",
+          "placeholder": "Endatescha tes num",
+          "minLength": "Dovra almain 3 caracters",
+          "maxLength": "Dovra maximal 30 caracters",
+          "hint": "Dovra 3–30 caracters per tes num",
+          "success": "Num actualisà cun success",
+          "fail": "Actualisar num n'è betg reussì",
+          "saving": "Salvond...",
+          "save": "Salvar"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Facturaziun",
+        "description": "Administra tia subscripziun e datas da facturaziun",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Activ",
+          "trial": "Empruvar",
+          "free": "Gratuit",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "mais",
+          "year": "onn",
+          "oneTime": "in giada"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Plan actual",
+          "description": "Detagls da tes plan actual",
+          "noPlan": "Ti n'has nagin plan activ"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Chargond...",
+          "createCustomerPortalFailed": "Avrir il portal client Stripe n'è betg reussì"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Prets:",
+        "periodStartDate": "Cumenzament dal period:",
+        "periodEndDate": "Fin dal period:",
+        "trialEnds": "Empruvar fina:",
+        "freePlanMessage": "Ti es actualmain sin il plan gratuit cun funcziuns limitadas",
+        "lifetimeMessage": "Ti has access per tutta la durada da la vita a tut las funcziuns premium",
+        "manageSubscription": "Administrar subscripziun e facturaziun",
+        "manageBilling": "Administrar facturaziun",
+        "upgradePlan": "Upgrade dal plan",
+        "retry": "Empruvar anc ina giada",
+        "errorMessage": "Obtegnair datas n'è betg reussì",
+        "paymentSuccess": "Paga reussida"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Elavuraziun da la paga",
+          "description": "Spetga per favor, nus confermain tia paga..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Paga reussida",
+          "description": "Redirecziun automatica..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Paga n'è betg reussida",
+          "description": "Igl ha dat in problem cun l'elavuraziun da tia paga."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Temp scadì",
+          "description": "L'elavuraziun da la paga dura pli ditg che spetgà."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Empruvar anc ina giada"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Segirezza",
+        "description": "Administra tes parameters da segirezza",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Midar il plaun da segirezza",
+          "description": "Endatescha tes plaun da segirezza actual e in nov",
+          "currentPassword": "Plaun da segirezza actual",
+          "currentRequired": "Il plaun da segirezza actual è obligatoric",
+          "newPassword": "Nov plaun da segirezza",
+          "newMinLength": "Il plaun da segirezza sto avair almain 8 caracters",
+          "hint": "Dovra almain 8 caracters per il plaun da segirezza",
+          "showPassword": "Mussar il plaun da segirezza",
+          "hidePassword": "Zuppar il plaun da segirezza",
+          "success": "Plaun da segirezza actualisà cun success",
+          "fail": "Actualisar plaun da segirezza n'è betg reussì",
+          "saving": "Salvond...",
+          "save": "Salvar"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Resetar il plaun da segirezza",
+          "description": "Resetar il plaun da segirezza per activar login per e-mail",
+          "info": "Sche ti resettas tes plaun da segirezza, pos ti s'annunziar cun e-mail e plaun da segirezza, olt al login social. Ti retschaivas in e-mail cun instrucziuns per resetar",
+          "button": "Resetar il plaun da segirezza"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Stizzar conto",
+          "description": "Allontanescha permanentamain tes conto e tut il cuntegn",
+          "warning": "Questa acziun na po betg vegnir revocada — cuntinuescha cun attenziun",
+          "button": "Stizzar conto",
+          "confirmTitle": "Stizzar conto",
+          "confirmDescription": "Es ti segir che ti vuls stizzar tes conto? Questa acziun na po betg vegnir revocada.",
+          "confirm": "Stizzar",
+          "cancel": "Annullar",
+          "deleting": "Stizzond...",
+          "success": "Conto stizzà cun success",
+          "fail": "Stizzar conto n'è betg reussì"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Plans cun dapli capacitad vegnan prest. La prova gratuita è disponibla ussa.",
-      "button": "Upgrade"
+      "title": "Actualisar",
+      "description": "Plans cun pli capacitad vegnan prest. Empruvar gratuit disponibel ussa.",
+      "button": "Midar plan"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Team {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Salü, {name}.",
+      "body": "Clicca sin la colliaziun sutvart per verifitgar tia adressa d'e-mail.",
+      "confirmEmail": "Confirmar e-mail",
+      "subject": "Verifitgar tia adressa d'e-mail"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Salü, {name}.",
+      "body": "Nus avain retschavì ina dumonda per resetar tes plaun da segirezza MP4toURL. Clicca sin il buttun sutvart per tscherner in nov plaun da segirezza. Sche ti n'has betg dumandà quai, pos ti ignorar quest e-mail.",
+      "resetPassword": "Resetar il plaun da segirezza",
+      "subject": "Resetar tes plaun da segirezza MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Num: {name}",
+      "email": "E-mail: {email}",
+      "message": "Messadi: {message}",
+      "subject": "Messadi da contact dal website"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODES PRONTS DA COPIAR",
+    "sectionTitle": "CODES PRONTA PER COPIAR",
     "copyUrl": "Copiar URL",
     "copied": "Copià",
     "copyFailed": "Betg reussì da copiar",
     "openTab": "Avrir en ina nova tab",
-    "successTitle": "Reussì! Vossa URL da video è pronta",
-    "successSubtitle": "Voss video è chargià si ed è pront per cundivider.",
-    "videoLabel": "Video",
-    "watchLabel": "Guardar il video",
+    "successTitle": "Success! Tia URL da video è pronta",
+    "successSubtitle": "Tes video è vegnì chargià ed è pront per cundivider.",
+    "videoLabel": "Film",
+    "watchLabel": "Guardar video",
     "shareLink": {
-      "title": "Link da cundivider",
-      "desc": "Link direct per cundivider dapertut"
+      "title": "Colliaziun per cundivider",
+      "desc": "Colliaziun directa per cundivider en mintga lieu"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Per GitHub, Notion e documents"
+      "desc": "Per GitHub, Notion e documentaziun"
     },
     "markdownLink": {
-      "title": "Markdown cun link",
-      "desc": "Markdown cun ina etichetta da guardar legibla"
+      "title": "Markdown cun colliaziun",
+      "desc": "Markdown cun in label legibel per guardar"
     },
     "html": {
       "title": "HTML",
-      "desc": "Integrar cun il player da video nativ"
+      "desc": "Integrar cun player da video nativ"
     },
     "htmlLink": {
-      "title": "HTML cun link",
-      "desc": "Link simpel che s’avra en ina nova tab"
+      "title": "HTML cun colliaziun",
+      "desc": "Ancora simpel che sa avra en ina nova tab"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "Per forums e tavlas da messadis"
+      "desc": "Per forums e plattas da messadis"
     },
     "bbcodeLink": {
-      "title": "BBCode cun link",
-      "desc": "Link da forum cun etichetta da guardar"
+      "title": "BBCode cun colliaziun",
+      "desc": "Colliaziun da forum cun label per guardar"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Chargia in video e retschava ina colliaziun permanenta",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Voss video è chargià si. Copiai il link sutvart per cundivider el.",
-      "registerForCodesTitle": "Vulsaiz Markdown, HTML e BBCode?",
-      "registerForCodesDesc": "Registrai-vus gratuitamain per debloccar codes d’integrar pronts da copiar e administrar tut ils videos en Mes resursas.",
-      "registerCta": "Registrar gratuitamain",
-      "uploadAnother": "Chargiar si in auter video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "title": "Convertider gratuit da video en URL",
+      "description": "Chargia videos MP4 e retschava colliaziuns permanentas en secundas.",
+      "tagline": "Sustegn per MP4, MOV, AVI, WebM, MKV fin 300MB. Senza registraziun.",
+      "uploadHeading": "Chargiar tes video",
+      "uploadTitle": "Metta tes video qua u clicca per tscherner",
+      "uploadHint": "Sustegn per MP4, MOV, AVI, WebM, MKV fin 300MB",
+      "maxSize": "Grondezza maximala da la datoteca: 300MB",
+      "convert": "Convertir en URL",
+      "uploading": "Chargond...",
+      "copy": "Copiar colliaziun",
+      "copied": "Copià",
+      "guestSuccessHint": "Tes video è vegnì chargià. Copia la colliaziun sutvart per cundivider.",
+      "registerForCodesTitle": "Vuls Markdown, HTML & BBCode?",
+      "registerForCodesDesc": "S'inscriver gratuit per deblocar codes d'integraziun pronts per copiar e administrar mintga video en Mias resursas.",
+      "registerCta": "S'inscriver gratuit",
+      "uploadAnother": "Chargiar in auter video",
+      "error": "Upload n'è betg reussì. Emprova anc ina giada.",
+      "unsupportedType": "Tip da datoteca betg sustegnì. Chargia MP4, MOV, AVI, WebM u MKV.",
+      "fileTooLarge": "Datoteca memia gronda. Il plan gratuit permetta fin 300MB per datoteca."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Perquai MP4 to URL",
+      "subtitle": "Construì per sveltezza, protecziun da datas e colliaziuns permanentas.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Extremamain svelt",
+          "description": "Chargia e convertescha tes videos en URLs cundiviblas en secundas. Senza spetgar, senza cola."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Segir e privat",
+          "description": "Tes videos vegnan transferids via HTTPS e hostads cun controllas che mettan la protecziun da datas en emprim lieu."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Colliaziuns permanentas",
+          "description": "Retschava colliaziuns permanentas che na scadan mai. Perfect per documentaziun, tickets e cundivider en social media."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video a URL en onnas"
+      "title": "Video en URL, en secundas",
+      "subtitle": "Da datoteca locala a colliaziun cundivibla",
+      "description": "Chargia MP4 e formats correlads, retschava ina URL permanenta neta per incollar en docs, chats e posts.",
+      "point1": "Metta in video da tes apparat",
+      "point2": "Convertir en secundas — senza registraziun per l'utilisaziun standard",
+      "point3": "Copia ina colliaziun permanenta e cundivide en mintga lieu",
+      "imageAlt": "mp4tourl.com collage: rendir video cundivibla",
+      "imageAltNew": "mp4tourl.com: video en URL en secundas, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Co utilisar",
+      "subtitle": "Trais pass da datoteca locala a URL cundivibla.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Tscherner in video",
+          "description": "Trai e metta u tschertga MP4, MOV, AVI, WebM u MKV (fin 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Convertir en URL",
+          "description": "Clicca sin Convertir en URL. L'elavuraziun fina per regla en paucas secundas."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Copiar e cundivider",
+          "description": "Copia la colliaziun permanenta e la dovras en docs, chats, websites u posts socials."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Scenarios",
-      "subtitle": "Da video local a link partgibla.",
-      "description": "Deposita in file e retscha in URL net per documents, chats e posts — guarda in paucs exempels sutvart.",
+      "title": "Scenas",
+      "subtitle": "Da video local a colliaziun cundivibla.",
+      "description": "Metta ina datoteca, retschava ina URL neta per docs, chats e posts — guarda in pau aspectus sutvart.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Transforma in clip local en in'adressa partgibla en paucas secundas."
+          "description": "Transfurma in clip local en adressa cundivibla en secundas."
         },
         "newStyle": {
-          "title": "Partgir dapertut",
-          "description": "Colla il link en documents, tickets e posts socials."
+          "title": "Cundivider en mintga lieu",
+          "description": "Incolla la colliaziun en docs, tickets e posts socials."
         },
         "dark": {
-          "title": "Hosting stabil",
-          "description": "Mantegna videos accessibels cun in URL permanent e stabil."
+          "title": "Hosting nait",
+          "description": "Mantegna videos accessibels cun ina URL stabila e permanenta."
         },
         "retro": {
-          "title": "Conversiun svelta",
-          "description": "Chargia in giada, copia il link e reutilisescha el sche ti dovras."
+          "title": "Convertir svelt",
+          "description": "Chargia ina giada, copia la colliaziun e reutilisescha quand ti has basegn."
         }
       }
     },
     "faqs": {
-      "title": "FAQ",
-      "subtitle": "Tge che ti pos chal savair davart video a URL.",
+      "title": "Dumondas frequentas",
+      "subtitle": "Tge che ti pos vuless savair davart video en URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Tge è in convertider da video en URL?",
+          "answer": "In convertider da video en URL chargia tia datoteca da video locala e restituischa ina colliaziun web directa che ti pos cundivider en mintga lieu."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Co funcziuna la conversiun da video en URL?",
+          "answer": "Chargia tes video, spetga fin che l'elavuraziun è terminada e copia l'URL generada. Ti pos avrir, cundivider u integrar questa colliaziun immediatamain."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Tge formats da video èn sustegnids?",
+          "answer": "Formats sustegnids includan MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP e FLV. Il plan gratuit permetta fin 300MB per datoteca."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Eran las colliaziuns da video generadas permanentas?",
+          "answer": "Gea. Las colliaziuns generadas èn pensadas per cundivider a lung term, uschè tia URL da video resta stabila e reutilisabla."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Nua pos jau utilisar l'URL dal video?",
+          "answer": "Ti pos la dovrar en documentaziun, issue trackers, chats, websites, posts en social media e utensils da collavuraziun en team."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "È quest convertider da video en URL gratuit?",
+          "answer": "Gea. Il flux standard da conversiun da video en URL è gratuit entaifer ils limits actuals d'upload."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Quant segir è l'upload e l'hosting da video?",
+          "answer": "Uploads vegnan transferids via HTTPS e hostads per furnir colliaziuns stabilas, uschè ti retschaivas colliaziuns affidablas per cundivider cuntegn da video."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "La via la pli simpel per cundivider videos",
+      "description": "MP4 to URL è in flux gratuit e svelt da hosting da media per developers, creators e teams. Convertescha videos en URLs permanentas en secundas e cundivide en mintga lieu.",
+      "primaryButton": "Convertir en URL",
+      "secondaryButton": "Leger FAQ"
     }
   }
 }

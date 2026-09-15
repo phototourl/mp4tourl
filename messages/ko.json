@@ -1,150 +1,120 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "무료 동영상→링크 변환기 - MP4 업로드하고 공유 링크 받기",
+    "description": "MP4, MOV, AVI, WebM, MKV를 업로드하면 몇 초 만에 영구 공유 URL을 받습니다. 최대 300MB 무료 동영상 호스팅 — 가입 불필요."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "signUp": "가입하기",
+    "language": "언어 변경",
+    "languageHint": "지역을 선택하면 언어와 콘텐츠가 바뀝니다.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "화면 모드",
+      "light": "라이트",
+      "dark": "다크",
+      "system": "시스템"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "테마 변경",
+      "default": "기본",
+      "blue": "파랑",
+      "green": "초록",
+      "amber": "호박색",
+      "neutral": "중립"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "복사",
+    "saving": "저장 중...",
+    "save": "저장",
+    "loading": "불러오는 중...",
+    "cancel": "취소",
+    "logoutFailed": "로그아웃에 실패했습니다",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "총 {count}건",
+      "noResults": "결과 없음",
+      "loading": "불러오는 중...",
+      "columns": "열",
+      "rowsPerPage": "페이지당 행",
+      "page": "페이지",
+      "firstPage": "첫 페이지",
+      "lastPage": "마지막 페이지",
+      "nextPage": "다음 페이지",
+      "previousPage": "이전 페이지",
+      "ascending": "오름차순",
+      "descending": "내림차순"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "무료",
+      "description": "동영상을 올리고 영구 공유 URL을 받으세요",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "업로드 용량: 300MB",
+        "feature-2": "영구 CDN 링크",
+        "feature-3": "가입 없이 이용",
+        "feature-4": "커뮤니티 지원"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "맞춤 도메인",
+        "limit-2": "맞춤 브랜딩",
+        "limit-3": "평생 업데이트"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "활발한 크리에이터를 위한 더 큰 한도와 업로드 기록",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "더 큰 동영상 업로드",
+        "feature-2": "10 GB 저장 공간",
+        "feature-3": "업로드 기록",
+        "feature-4": "우선 지원",
+        "feature-5": "맞춤 도메인"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "맞춤 브랜딩",
+        "limit-2": "평생 업데이트"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "한 번 결제하고 장기 동영상 호스팅 용량을 확보하세요",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Pro의 모든 기능",
+        "feature-2": "100 GB 저장 공간",
+        "feature-3": "전담 지원",
+        "feature-4": "기업급 보안",
+        "feature-5": "고급 연동",
+        "feature-6": "맞춤 브랜딩",
+        "feature-7": "평생 업데이트"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "죄송합니다. 찾으시는 페이지가 없습니다.",
+    "backToHome": "홈으로 돌아가기"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "앗! 문제가 발생했습니다!",
+    "tryAgain": "다시 시도",
+    "backToHome": "홈으로 돌아가기"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "소개",
+    "description": "MP4toURL은 동영상을 영구 공유 링크로 바꿔 줍니다 — MP4, MOV, AVI, WebM, MKV를 올리면 몇 초 만에 공유할 수 있습니다.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "MP4toURL 브랜드 표시",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "무료 동영상→링크 변환기",
+    "introduction": "MP4toURL은 빠르고 무료로 동영상을 올리고 공유하는 방법입니다. 파일을 올리면 영구 CDN 링크를 받아 어디서든 쓸 수 있습니다 — 복잡한 설정은 없습니다.",
+    "imageAlt": "MP4toURL 브랜드 마크",
+    "talkWithMe": "문의하기",
+    "followMe": "X에서 팔로우"
   },
   "ContactPage": {
     "title": "문의",
-    "description": "동영상 업로드, 공유 링크 또는 계정에 관한 메시지를 보내 주세요. 모든 메시지를 읽고 가능한 한 빨리 답변드립니다.",
-    "subtitle": "MP4toURL에 대해 궁금한 점이 있으신가요? 기꺼이 도와드리겠습니다.",
-    "orEmail": "또는 이메일로 문의:",
+    "description": "동영상 업로드, 공유 링크, 계정에 대해 메시지를 보내 주세요. 모든 메시지를 읽고 가능한 한 빨리 답변드립니다.",
+    "subtitle": "MP4toURL에 궁금한 점이 있으신가요? 기꺼이 도와드리겠습니다.",
+    "orEmail": "또는 이메일로 연락하세요",
     "form": {
       "title": "메시지",
       "description": "메시지를 보내 주시면 가능한 한 빨리 답변드립니다.",
@@ -155,164 +125,96 @@
       "emailPlaceholder": "이메일",
       "messagePlaceholder": "메시지를 입력하세요",
       "submit": "보내기",
-      "submitting": "보내는 중…",
-      "success": "메시지가 성공적으로 전송되었습니다. 가능한 한 빨리 답변드리겠습니다.",
-      "minLength": "제목은 최소 3자 이상이어야 합니다.",
-      "maxLengthName": "제목은 100자를 초과할 수 없습니다.",
-      "invalidEmail": "유효한 이메일 주소를 입력해 주세요.",
-      "minLengthMessage": "메시지는 최소 10자 이상이어야 합니다.",
-      "maxLengthMessage": "메시지는 2000자를 초과할 수 없습니다.",
+      "submitting": "보내는 중...",
+      "success": "메시지가 전송되었습니다. 가능한 한 빨리 답변드리겠습니다.",
+      "minLength": "제목은 최소 3자여야 합니다.",
+      "maxLengthName": "제목은 100자를 넘을 수 없습니다.",
+      "invalidEmail": "올바른 이메일 주소를 입력해 주세요.",
+      "minLengthMessage": "메시지는 최소 10자여야 합니다.",
+      "maxLengthMessage": "메시지는 2000자를 넘을 수 없습니다.",
       "invalid": "문제가 발생했습니다. 다시 시도해 주세요."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "로그인",
+      "welcomeBack": "다시 오신 것을 환영합니다",
+      "email": "이메일",
+      "password": "비밀번호",
+      "signIn": "로그인",
+      "signUpHint": "계정이 없으신가요? 가입하기",
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "signInWithGoogle": "Google로 로그인",
+      "showPassword": "비밀번호 표시",
+      "hidePassword": "비밀번호 숨기기",
+      "or": "또는 다음으로 계속",
+      "emailRequired": "이메일을 입력해 주세요",
+      "passwordRequired": "비밀번호를 입력해 주세요",
+      "captchaInvalid": "캡차 인증에 실패했습니다",
+      "captchaError": "캡차 인증 오류"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "가입",
+      "createAccount": "계정 만들기",
+      "name": "이름",
+      "email": "이메일",
+      "password": "비밀번호",
+      "signUp": "가입하기",
+      "signInHint": "이미 계정이 있으신가요? 로그인",
+      "checkEmail": "이메일 받은편지함을 확인해 주세요",
+      "showPassword": "비밀번호 표시",
+      "hidePassword": "비밀번호 숨기기",
+      "nameRequired": "이름을 입력해 주세요",
+      "emailRequired": "이메일을 입력해 주세요",
+      "passwordRequired": "비밀번호를 입력해 주세요",
+      "captchaInvalid": "캡차 인증에 실패했습니다",
+      "captchaError": "캡차 인증 오류"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "비밀번호 찾기",
+      "email": "이메일",
+      "send": "재설정 링크 보내기",
+      "backToLogin": "로그인으로 돌아가기",
+      "checkEmail": "이 이메일로 된 계정이 있으면 재설정 링크를 보냈습니다. 받은편지함을 확인해 주세요.",
+      "emailRequired": "이메일을 입력해 주세요",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "이 이메일로 된 계정을 찾을 수 없습니다",
+        "tooManyRequests": "시도가 너무 많습니다. 나중에 다시 시도해 주세요",
+        "serverError": "문제가 발생했습니다. 다시 시도해 주세요"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "비밀번호 재설정",
+      "password": "새 비밀번호",
+      "reset": "비밀번호 재설정",
+      "backToLogin": "로그인으로 돌아가기",
+      "showPassword": "비밀번호 표시",
+      "hidePassword": "비밀번호 숨기기",
+      "minLength": "비밀번호는 최소 8자여야 합니다",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "재설정 링크가 만료되었습니다. 새 링크를 요청해 주세요",
+        "invalidToken": "잘못된 재설정 링크입니다. 새 링크를 요청해 주세요",
+        "tooManyRequests": "시도가 너무 많습니다. 나중에 다시 시도해 주세요",
+        "serverError": "문제가 발생했습니다. 다시 시도해 주세요"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "앗! 문제가 발생했습니다!",
+      "tryAgain": "다시 시도해 주세요.",
+      "backToLogin": "로그인으로 돌아가기",
+      "checkEmail": "이메일 받은편지함을 확인해 주세요"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "이용약관",
+      "privacyPolicy": "개인정보 처리방침",
+      "byClickingContinue": "계속을 클릭하면 다음에 동의하는 것으로 간주됩니다: ",
+      "and": " 및 "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "홈"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,152 +224,38 @@
       },
       "contact": {
         "title": "문의"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "동영상을 올리면 영구 공유 링크를 받습니다",
       "product": {
-        "title": "Product",
+        "title": "제품",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "기능",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "회사",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "소개",
+          "contact": "문의"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "법적 고지",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "쿠키 정책",
+          "privacyPolicy": "개인정보 처리방침",
+          "termsOfService": "이용약관"
         }
       }
     },
     "avatar": {
       "dashboard": "작업 공간",
       "resources": "내 자료",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "결제",
+      "settings": "설정"
     }
   },
   "Dashboard": {
@@ -475,16 +263,16 @@
       "title": "작업 공간"
     },
     "home": {
-      "loading": "개요를 불러오는 중…",
+      "loading": "개요 불러오는 중…",
       "resourceCount": "동영상",
       "videoCountLabel": "내 자료의 동영상",
-      "storageFullHint": "무료 체험 저장 공간이 가득 찼습니다. 일부 동영상을 삭제하세요. 더 큰 용량의 요금제가 곧 출시됩니다.",
+      "storageFullHint": "무료 체험 저장 공간이 가득 찼습니다. 일부 동영상을 삭제해 주세요. 더 큰 용량 요금제는 곧 제공됩니다.",
       "entryResourcesTitle": "내 자료",
-      "entryResourcesDesc": "업로드한 동영상이 여기에 저장됩니다. 언제든 링크 복사, 열기, 삭제가 가능합니다.",
+      "entryResourcesDesc": "올린 동영상이 여기에 있습니다 — 언제든지 링크 복사, 열기, 삭제할 수 있습니다.",
       "entryUploadTitle": "동영상 업로드",
-      "entryUploadDesc": "홈페이지에 동영상을 놓으면 몇 초 만에 공유 링크를 받을 수 있습니다.",
+      "entryUploadDesc": "홈페이지에 동영상을 놓으면 몇 초 만에 공유 링크를 받습니다.",
       "entryFilesTitle": "내 자료",
-      "entryFilesDesc": "로그인 후 업로드한 파일은 계정에 저장됩니다. URL을 복사하거나 필요 없는 파일을 삭제하세요.",
+      "entryFilesDesc": "로그인한 뒤 올린 파일은 계정에 저장됩니다. URL을 복사하거나 필요 없는 파일을 삭제하세요.",
       "entryFilesCta": "내 자료 열기",
       "filesPointUploadTitle": "다양한 형식",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV 등",
@@ -505,19 +293,19 @@
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "이용 중",
-      "planHintFree": "지금 무료 체험을 이용할 수 있습니다. 더 큰 용량의 요금제가 곧 출시됩니다.",
-      "planHintPro": "현재 Pro(10 GB)입니다. Lifetime은 100 GB입니다.",
-      "planHintLifetime": "모든 기능이 잠금 해제되었습니다",
-      "description": "로그인한 상태에서 업로드한 동영상입니다. 이 페이지에서 업로드·미리보기·다운로드·삭제할 수 있습니다.",
+      "planHintFree": "지금 무료 체험을 이용할 수 있습니다. 더 큰 용량 요금제는 곧 제공됩니다.",
+      "planHintPro": "Pro(10 GB)를 이용 중입니다. Lifetime은 100 GB를 잠금 해제합니다.",
+      "planHintLifetime": "모든 기능이 열려 있습니다",
+      "description": "로그인한 상태에서 올린 동영상입니다. 여기서 업로드, 미리보기, 다운로드, 삭제를 언제든 할 수 있습니다.",
       "empty": "아직 동영상이 없습니다",
-      "emptyHint": "「업로드」또는 가운데 + 카드를 눌러 첫 동영상을 추가하세요.",
+      "emptyHint": "업로드 또는 + 카드를 눌러 첫 동영상을 추가하세요.",
       "goUpload": "동영상 업로드",
       "upload": "업로드",
       "uploading": "업로드 중…",
       "uploadSuccess": "업로드 완료",
       "uploadFailed": "업로드 실패",
       "unsupportedType": "동영상 형식만 지원합니다 (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "파일이 너무 큽니다. 무료 플랜은 파일당 최대 300MB입니다.",
+      "fileTooLarge": "파일이 너무 큽니다. 무료 요금제는 파일당 최대 300MB입니다.",
       "filterFormat": "파일 형식",
       "formatAll": "모든 형식",
       "format": {
@@ -545,11 +333,11 @@
       "preview": "미리보기",
       "previewClose": "닫기",
       "shareCodes": "공유 코드",
-      "shareCodesDesc": "Markdown, HTML, BBCode 등 바로 복사할 수 있는 형식입니다.",
+      "shareCodesDesc": "Markdown, HTML, BBCode 등에 바로 붙여넣을 수 있는 링크입니다.",
       "download": "다운로드",
       "delete": "삭제",
       "deleteTitle": "동영상 삭제",
-      "deleteConfirm": "이 동영상은 계정에서 영구적으로 삭제되며 되돌릴 수 없습니다.",
+      "deleteConfirm": "계정에서 동영상이 영구 삭제되며 되돌릴 수 없습니다.",
       "deleteSuccess": "동영상이 삭제되었습니다",
       "deleteFailed": "동영상 삭제에 실패했습니다",
       "cancel": "취소",
@@ -558,306 +346,217 @@
       "pageNext": "다음"
     },
     "admin": {
-      "title": "Admin",
+      "title": "관리",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "사용자",
+        "fakeData": "참고: 시연용 가짜 데이터이며 일부 기능은 비활성화되어 있습니다",
+        "error": "사용자를 가져오지 못했습니다",
+        "search": "사용자 검색...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "열",
+          "name": "이름",
+          "email": "이메일",
+          "role": "역할",
+          "createdAt": "생성일",
+          "customerId": "고객 ID",
+          "status": "상태",
+          "banReason": "차단 사유",
+          "banExpires": "차단 만료"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "관리자",
+        "user": "사용자",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "이메일 인증됨",
+          "unverified": "이메일 미인증"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "이메일이 클립보드에 복사되었습니다",
+        "banned": "차단됨",
+        "active": "활성",
+        "joined": "가입일",
+        "updated": "수정일",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "차단 사유",
+          "reasonPlaceholder": "이 사용자를 차단하는 사유를 입력하세요",
+          "defaultReason": "스팸",
+          "never": "없음",
+          "expires": "차단 만료",
+          "selectDate": "날짜 선택",
+          "button": "사용자 차단",
+          "success": "사용자가 차단되었습니다",
+          "error": "사용자 차단에 실패했습니다"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "차단 해제",
+          "success": "사용자 차단이 해제되었습니다",
+          "error": "차단 해제에 실패했습니다"
         },
-        "close": "Close"
+        "close": "닫기"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "설정",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "프로필",
+        "description": "계정 정보를 관리합니다",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "아바타",
+          "description": "업로드 버튼을 눌러 맞춤 이미지를 올립니다",
+          "recommendation": "아바타는 선택 사항이지만 강력히 권장합니다",
+          "uploading": "업로드 중...",
+          "uploadAvatar": "아바타 업로드",
+          "success": "아바타가 업데이트되었습니다",
+          "fail": "아바타 업데이트에 실패했습니다"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "이름",
+          "description": "표시 이름을 입력해 주세요",
+          "placeholder": "이름을 입력하세요",
+          "minLength": "최소 3자를 사용해 주세요",
+          "maxLength": "최대 30자를 사용해 주세요",
+          "hint": "이름은 3–30자로 입력해 주세요",
+          "success": "이름이 업데이트되었습니다",
+          "fail": "이름 업데이트에 실패했습니다",
+          "saving": "저장 중...",
+          "save": "저장"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "결제",
+        "description": "구독과 결제 정보를 관리합니다",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "이용 중",
+          "trial": "체험",
+          "free": "무료",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "월",
+          "year": "년",
+          "oneTime": "일시불"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "현재 요금제",
+          "description": "현재 요금제 상세",
+          "noPlan": "활성 요금제가 없습니다"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "불러오는 중...",
+          "createCustomerPortalFailed": "Stripe 고객 포털을 열지 못했습니다"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "가격:",
+        "periodStartDate": "기간 시작일:",
+        "periodEndDate": "기간 종료일:",
+        "trialEnds": "체험 종료:",
+        "freePlanMessage": "현재 제한된 기능의 무료 요금제를 이용 중입니다",
+        "lifetimeMessage": "모든 프리미엄 기능을 평생 이용할 수 있습니다",
+        "manageSubscription": "구독 및 결제 관리",
+        "manageBilling": "결제 관리",
+        "upgradePlan": "요금제 업그레이드",
+        "retry": "다시 시도",
+        "errorMessage": "데이터를 가져오지 못했습니다",
+        "paymentSuccess": "결제 성공"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "결제 처리 중",
+          "description": "결제를 확인하는 동안 잠시 기다려 주세요..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "결제 성공",
+          "description": "자동으로 이동합니다..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "결제 실패",
+          "description": "결제 처리 중 문제가 발생했습니다."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "처리 시간 초과",
+          "description": "결제 처리가 예상보다 오래 걸리고 있습니다."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "다시 시도"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "보안",
+        "description": "보안 설정을 관리합니다",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "비밀번호 변경",
+          "description": "현재 비밀번호와 새 비밀번호를 입력하세요",
+          "currentPassword": "현재 비밀번호",
+          "currentRequired": "현재 비밀번호가 필요합니다",
+          "newPassword": "새 비밀번호",
+          "newMinLength": "비밀번호는 최소 8자여야 합니다",
+          "hint": "비밀번호는 최소 8자를 사용해 주세요",
+          "showPassword": "비밀번호 표시",
+          "hidePassword": "비밀번호 숨기기",
+          "success": "비밀번호가 업데이트되었습니다",
+          "fail": "비밀번호 업데이트에 실패했습니다",
+          "saving": "저장 중...",
+          "save": "저장"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "비밀번호 재설정",
+          "description": "이메일 로그인을 위해 비밀번호를 재설정합니다",
+          "info": "비밀번호를 재설정하면 소셜 로그인 외에 이메일과 비밀번호로도 로그인할 수 있습니다. 재설정 안내가 담긴 이메일을 받게 됩니다",
+          "button": "비밀번호 재설정"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "계정 삭제",
+          "description": "계정과 모든 내용을 영구 삭제합니다",
+          "warning": "이 작업은 되돌릴 수 없으니 신중히 진행하세요",
+          "button": "계정 삭제",
+          "confirmTitle": "계정 삭제",
+          "confirmDescription": "정말 계정을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+          "confirm": "삭제",
+          "cancel": "취소",
+          "deleting": "삭제 중...",
+          "success": "계정이 삭제되었습니다",
+          "fail": "계정 삭제에 실패했습니다"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "더 큰 용량의 요금제가 곧 출시됩니다. 지금 무료 체험을 이용할 수 있습니다.",
-      "button": "Upgrade"
+      "title": "업그레이드",
+      "description": "더 큰 용량 요금제는 곧 제공됩니다. 지금 무료 체험을 이용할 수 있습니다.",
+      "button": "업그레이드"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name} 팀",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "안녕하세요, {name}님.",
+      "body": "아래 링크를 클릭해 이메일 주소를 인증해 주세요.",
+      "confirmEmail": "이메일 확인",
+      "subject": "이메일 인증"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "안녕하세요, {name}님.",
+      "body": "MP4toURL 비밀번호 재설정 요청을 받았습니다. 아래 버튼을 눌러 새 비밀번호를 설정하세요. 요청하지 않으셨다면 이 메일을 무시하셔도 됩니다.",
+      "resetPassword": "비밀번호 재설정",
+      "subject": "MP4toURL 비밀번호 재설정"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "이름: {name}",
+      "email": "이메일: {email}",
+      "message": "메시지: {message}",
+      "subject": "웹사이트 문의 메시지"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "바로 쓰는 공유 코드",
+    "sectionTitle": "바로 복사하는 코드",
     "copyUrl": "URL 복사",
     "copied": "복사됨",
     "copyFailed": "복사하지 못했습니다",
     "openTab": "새 탭에서 열기",
     "successTitle": "완료! 동영상 URL이 준비되었습니다",
-    "successSubtitle": "동영상이 업로드되어 공유할 수 있습니다.",
+    "successSubtitle": "동영상이 업로드되어 공유할 준비가 되었습니다.",
     "videoLabel": "동영상",
     "watchLabel": "동영상 보기",
     "shareLink": {
       "title": "공유 링크",
-      "desc": "어디서나 바로 공유할 수 있는 링크"
+      "desc": "어디에나 바로 공유할 수 있는 링크"
     },
     "markdown": {
       "title": "Markdown",
@@ -865,7 +564,7 @@
     },
     "markdownLink": {
       "title": "링크 포함 Markdown",
-      "desc": "「동영상 보기」 문구가 있는 Markdown"
+      "desc": "읽기 쉬운 시청 라벨이 있는 Markdown"
     },
     "html": {
       "title": "HTML",
@@ -873,7 +572,7 @@
     },
     "htmlLink": {
       "title": "링크 포함 HTML",
-      "desc": "새 탭에서 열리는 간단한 링크"
+      "desc": "새 탭에서 열리는 간단한 앵커"
     },
     "bbcode": {
       "title": "BBCode",
@@ -881,141 +580,141 @@
     },
     "bbcodeLink": {
       "title": "링크 포함 BBCode",
-      "desc": "시청 문구가 있는 포럼 링크"
+      "desc": "시청 라벨이 있는 포럼 링크"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "동영상을 올리면 영구 공유 링크를 받습니다",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "무료 동영상→링크 변환기",
+      "description": "MP4 동영상을 올리면 몇 초 만에 영구 공유 링크를 받습니다.",
+      "tagline": "MP4, MOV, AVI, WebM, MKV 최대 300MB 지원. 가입 불필요.",
+      "uploadHeading": "동영상 업로드",
+      "uploadTitle": "여기에 동영상을 놓거나 클릭하여 선택하세요",
+      "uploadHint": "MP4, MOV, AVI, WebM, MKV 최대 300MB 지원",
+      "maxSize": "최대 파일 크기: 300MB",
+      "convert": "링크로 변환",
+      "uploading": "업로드 중...",
+      "copy": "링크 복사",
+      "copied": "복사됨",
       "guestSuccessHint": "동영상이 업로드되었습니다. 아래 링크를 복사해 공유하세요.",
-      "registerForCodesTitle": "Markdown, HTML, BBCode가 필요하신가요?",
-      "registerForCodesDesc": "무료 가입하면 바로 복사할 수 있는 임베드 코드를 쓰고, 내 리소스에서 모든 동영상을 관리할 수 있습니다.",
+      "registerForCodesTitle": "Markdown, HTML & BBCode가 필요하신가요?",
+      "registerForCodesDesc": "무료 가입하면 바로 복사할 수 있는 삽입 코드가 열리고, 내 자료에서 모든 동영상을 관리할 수 있습니다.",
       "registerCta": "무료 가입",
       "uploadAnother": "다른 동영상 업로드",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "업로드에 실패했습니다. 다시 시도해 주세요.",
+      "unsupportedType": "지원하지 않는 파일 형식입니다. MP4, MOV, AVI, WebM 또는 MKV를 올려 주세요.",
+      "fileTooLarge": "파일이 너무 큽니다. 무료 요금제는 파일당 최대 300MB입니다."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "MP4 to URL을 선택하는 이유",
+      "subtitle": "속도, 개인정보 보호, 영구 미디어 링크를 위해 만들었습니다.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "매우 빠름",
+          "description": "동영상을 올려 몇 초 만에 공유 URL로 바꿉니다. 대기열이나 긴 대기 없음."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "안전하고 비공개",
+          "description": "동영상은 HTTPS로 전송되며, 개인정보 우선 설정으로 호스팅됩니다."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "영구 링크",
+          "description": "만료되지 않는 영구 링크를 받습니다. 문서, 티켓, SNS 공유에 적합합니다."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: 몇 초 만에 영상을 URL로 변환"
+      "title": "동영상→링크, 몇 초면 끝",
+      "subtitle": "로컬 파일에서 공유 링크로",
+      "description": "MP4와 관련 형식을 올리면 문서, 채팅, 게시물에 붙여넣을 수 있는 깔끔한 영구 URL을 받습니다.",
+      "point1": "기기에서 동영상을 끌어다 놓기",
+      "point2": "몇 초 만에 변환 — 일반 이용은 가입 불필요",
+      "point3": "영구 링크를 복사해 어디에나 공유",
+      "imageAlt": "mp4tourl.com 콜라주: 동영상을 공유 가능하게",
+      "imageAltNew": "mp4tourl.com: 몇 초 만에 동영상→링크, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "사용 방법",
+      "subtitle": "로컬 파일에서 공유 URL까지 세 단계.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "동영상 선택",
+          "description": "MP4, MOV, AVI, WebM 또는 MKV(최대 300MB)를 끌어다 놓거나 찾아보세요."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "링크로 변환",
+          "description": "「링크로 변환」을 클릭하세요. 처리는 보통 몇 초면 끝납니다."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "복사하고 공유",
+          "description": "영구 링크를 복사해 문서, 채팅, 웹사이트, SNS에 사용하세요."
         }
       }
     },
     "bannerShowcase": {
-      "title": "사용 예",
-      "subtitle": "로컬 동영상에서 공유 가능한 링크로.",
-      "description": "파일을 올리면 문서, 채팅, 게시물에 쓸 깔끔한 URL을 받습니다. 아래에서 몇 가지 모습을 확인해 보세요.",
+      "title": "활용 장면",
+      "subtitle": "로컬 동영상에서 공유 링크로.",
+      "description": "파일을 놓으면 문서·채팅·게시물용 깔끔한 URL을 받습니다 — 아래 몇 가지 모습을 둘러보세요.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "로컬 클립을 몇 초 만에 공유 가능한 주소로 변환."
+          "description": "로컬 클립을 몇 초 만에 공유 주소로 바꿉니다."
         },
         "newStyle": {
-          "title": "어디서나 공유",
-          "description": "링크를 문서, 티켓, 소셜 게시물에 붙여 넣기."
+          "title": "어디에나 공유",
+          "description": "문서, 티켓, SNS 게시물에 링크를 붙여넣으세요."
         },
         "dark": {
           "title": "깔끔한 호스팅",
-          "description": "안정적이고 영구적인 URL로 동영상을 계속 접근 가능하게."
+          "description": "안정적인 영구 URL로 동영상에 계속 접근할 수 있습니다."
         },
         "retro": {
           "title": "빠른 변환",
-          "description": "한 번 업로드하고 링크를 복사해 필요할 때마다 재사용."
+          "description": "한 번 올리고 링크를 복사해, 필요할 때마다 다시 쓰세요."
         }
       }
     },
     "faqs": {
-      "title": "자주 묻는 질문",
-      "subtitle": "영상을 URL로 바꿀 때 알고 싶을 내용.",
+      "title": "FAQ",
+      "subtitle": "동영상→링크에 대해 궁금할 수 있는 내용입니다.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "동영상→링크 변환기란 무엇인가요?",
+          "answer": "로컬 동영상 파일을 올린 뒤, 어디에나 공유할 수 있는 직접 웹 링크를 돌려주는 도구입니다."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "동영상→링크 변환은 어떻게 작동하나요?",
+          "answer": "동영상을 올리고 처리가 끝나면 생성된 URL을 복사하세요. 바로 열거나 공유·삽입할 수 있습니다."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "어떤 동영상 형식을 지원하나요?",
+          "answer": "지원 형식은 MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, FLV입니다. 무료 구간은 파일당 최대 300MB입니다."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "생성된 동영상 링크는 영구적인가요?",
+          "answer": "네. 생성된 링크는 장기 공유를 위해 설계되어, 동영상 URL이 안정적으로 재사용됩니다."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "동영상 URL은 어디에 쓸 수 있나요?",
+          "answer": "문서, 이슈 트래커, 채팅, 웹사이트, SNS 게시물, 팀 협업 도구에서 사용할 수 있습니다."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "이 동영상→링크 변환기는 무료인가요?",
+          "answer": "네. 표준 동영상→링크 변환 흐름은 현재 업로드 한도 내에서 무료로 이용할 수 있습니다."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "동영상 업로드와 호스팅은 얼마나 안전한가요?",
+          "answer": "업로드는 HTTPS로 전송되며 안정적인 전달을 위해 호스팅되어, 동영상 콘텐츠용으로 신뢰할 수 있는 공유 링크를 제공합니다."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "동영상을 공유하는 가장 쉬운 방법",
+      "description": "MP4 to URL은 개발자, 크리에이터, 팀을 위한 빠르고 무료인 미디어 호스팅 흐름입니다. 동영상을 몇 초 만에 영구 URL로 바꿔 어디에나 공유하세요.",
+      "primaryButton": "링크로 변환",
+      "secondaryButton": "FAQ 읽기"
     }
   }
 }

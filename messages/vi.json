@@ -1,318 +1,220 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Chuyển video thành liên kết miễn phí – tải MP4 lên và nhận link chia sẻ",
+    "description": "Tải lên MP4, MOV, AVI, WebM, MKV và nhận URL chia sẻ vĩnh viễn trong vài giây. Lưu trữ video miễn phí tới 300MB — không cần đăng ký."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "signUp": "Đăng ký",
+    "language": "Đổi ngôn ngữ",
+    "languageHint": "Chọn khu vực sẽ đổi ngôn ngữ và nội dung.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Chuyển chế độ",
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Theo hệ thống"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Đổi giao diện",
+      "default": "Mặc định",
+      "blue": "Xanh dương",
+      "green": "Xanh lá",
+      "amber": "Hổ phách",
+      "neutral": "Trung tính"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Sao chép",
+    "saving": "Đang lưu...",
+    "save": "Lưu",
+    "loading": "Đang tải...",
+    "cancel": "Hủy",
+    "logoutFailed": "Không thể đăng xuất",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Tổng {count} bản ghi",
+      "noResults": "Không có kết quả",
+      "loading": "Đang tải...",
+      "columns": "Cột",
+      "rowsPerPage": "Số dòng mỗi trang",
+      "page": "Trang",
+      "firstPage": "Trang đầu",
+      "lastPage": "Trang cuối",
+      "nextPage": "Trang sau",
+      "previousPage": "Trang trước",
+      "ascending": "Tăng dần",
+      "descending": "Giảm dần"
     }
   },
   "PricePlans": {
     "free": {
       "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "description": "Lưu trữ video và nhận liên kết chia sẻ vĩnh viễn",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Dung lượng tải lên: 300MB",
+        "feature-2": "Liên kết CDN vĩnh viễn",
+        "feature-3": "Không cần đăng ký",
+        "feature-4": "Hỗ trợ cộng đồng"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Tên miền tùy chỉnh",
+        "limit-2": "Thương hiệu tùy chỉnh",
+        "limit-3": "Cập nhật trọn đời"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Giới hạn cao hơn và lịch sử tải lên cho người sáng tạo tích cực",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Tải video dung lượng lớn hơn",
+        "feature-2": "10 GB lưu trữ",
+        "feature-3": "Lịch sử tải lên",
+        "feature-4": "Hỗ trợ ưu tiên",
+        "feature-5": "Tên miền tùy chỉnh"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Thương hiệu tùy chỉnh",
+        "limit-2": "Cập nhật trọn đời"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Trả một lần cho dung lượng lưu trữ video dài hạn",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Mọi tính năng Pro",
+        "feature-2": "100 GB lưu trữ",
+        "feature-3": "Hỗ trợ riêng",
+        "feature-4": "Bảo mật cấp doanh nghiệp",
+        "feature-5": "Tích hợp nâng cao",
+        "feature-6": "Thương hiệu tùy chỉnh",
+        "feature-7": "Cập nhật trọn đời"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Xin lỗi, trang bạn tìm không tồn tại.",
+    "backToHome": "Về trang chủ"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ối! Đã xảy ra lỗi!",
+    "tryAgain": "Thử lại",
+    "backToHome": "Về trang chủ"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Giới thiệu",
+    "description": "MP4toURL biến video của bạn thành liên kết chia sẻ vĩnh viễn — tải MP4, MOV, AVI, WebM hoặc MKV và chia sẻ trong vài giây.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Chuyển video thành liên kết miễn phí",
+    "introduction": "MP4toURL là cách nhanh và miễn phí để lưu trữ và chia sẻ video. Tải một tệp, nhận liên kết CDN vĩnh viễn và dùng ở mọi nơi — không cần thiết lập phức tạp.",
     "imageAlt": "Nhãn hiệu MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Liên hệ",
+    "followMe": "Theo dõi trên X"
   },
   "ContactPage": {
     "title": "Liên hệ",
-    "description": "Gửi tin nhắn về tải video lên, liên kết chia sẻ hoặc tài khoản của bạn. Chúng tôi đọc mọi tin nhắn và phản hồi sớm nhất có thể.",
-    "subtitle": "Có câu hỏi về MP4toURL? Chúng tôi rất sẵn lòng hỗ trợ.",
+    "description": "Gửi tin nhắn về tải video, liên kết chia sẻ hoặc tài khoản của bạn. Chúng tôi đọc mọi tin và trả lời sớm nhất có thể.",
+    "subtitle": "Có câu hỏi về MP4toURL? Chúng tôi sẵn sàng giúp.",
     "orEmail": "Hoặc gửi email tới",
     "form": {
       "title": "Tin nhắn",
-      "description": "Gửi tin nhắn và chúng tôi sẽ phản hồi sớm nhất có thể.",
-      "name": "Tiêu đề",
+      "description": "Gửi tin nhắn, chúng tôi sẽ trả lời sớm nhất có thể.",
+      "name": "Chủ đề",
       "email": "Email",
       "message": "Tin nhắn",
-      "namePlaceholder": "Nhập tiêu đề",
+      "namePlaceholder": "Nhập chủ đề",
       "emailPlaceholder": "Email",
       "messagePlaceholder": "Nhập tin nhắn",
       "submit": "Gửi",
-      "submitting": "Đang gửi…",
-      "success": "Đã gửi tin nhắn thành công. Chúng tôi sẽ phản hồi sớm nhất có thể.",
-      "minLength": "Tiêu đề phải có ít nhất 3 ký tự.",
-      "maxLengthName": "Tiêu đề không được vượt quá 100 ký tự.",
+      "submitting": "Đang gửi...",
+      "success": "Đã gửi tin nhắn. Chúng tôi sẽ trả lời sớm nhất có thể.",
+      "minLength": "Chủ đề phải có ít nhất 3 ký tự.",
+      "maxLengthName": "Chủ đề không được quá 100 ký tự.",
       "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
       "minLengthMessage": "Tin nhắn phải có ít nhất 10 ký tự.",
-      "maxLengthMessage": "Tin nhắn không được vượt quá 2000 ký tự.",
+      "maxLengthMessage": "Tin nhắn không được quá 2000 ký tự.",
       "invalid": "Đã xảy ra lỗi. Vui lòng thử lại."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
+      "title": "Đăng nhập",
+      "welcomeBack": "Chào mừng trở lại",
       "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Mật khẩu",
+      "signIn": "Đăng nhập",
+      "signUpHint": "Chưa có tài khoản? Đăng ký",
+      "forgotPassword": "Quên mật khẩu?",
+      "signInWithGoogle": "Đăng nhập bằng Google",
+      "showPassword": "Hiện mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "or": "Hoặc tiếp tục với",
+      "emailRequired": "Vui lòng nhập email",
+      "passwordRequired": "Vui lòng nhập mật khẩu",
+      "captchaInvalid": "Xác minh captcha thất bại",
+      "captchaError": "Lỗi xác minh captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
+      "title": "Đăng ký",
+      "createAccount": "Tạo tài khoản",
+      "name": "Tên",
       "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Mật khẩu",
+      "signUp": "Đăng ký",
+      "signInHint": "Đã có tài khoản? Đăng nhập",
+      "checkEmail": "Vui lòng kiểm tra hộp thư",
+      "showPassword": "Hiện mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "nameRequired": "Vui lòng nhập tên",
+      "emailRequired": "Vui lòng nhập email",
+      "passwordRequired": "Vui lòng nhập mật khẩu",
+      "captchaInvalid": "Xác minh captcha thất bại",
+      "captchaError": "Lỗi xác minh captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
+      "title": "Quên mật khẩu",
       "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "send": "Gửi liên kết đặt lại",
+      "backToLogin": "Quay lại đăng nhập",
+      "checkEmail": "Nếu có tài khoản với email này, chúng tôi đã gửi liên kết đặt lại. Kiểm tra hộp thư.",
+      "emailRequired": "Vui lòng nhập email",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Không tìm thấy tài khoản với email này",
+        "tooManyRequests": "Thử quá nhiều lần. Vui lòng thử lại sau",
+        "serverError": "Đã xảy ra lỗi. Vui lòng thử lại"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Đặt lại mật khẩu",
+      "password": "Mật khẩu mới",
+      "reset": "Đặt lại mật khẩu",
+      "backToLogin": "Quay lại đăng nhập",
+      "showPassword": "Hiện mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "minLength": "Mật khẩu phải có ít nhất 8 ký tự",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Liên kết đặt lại đã hết hạn. Vui lòng yêu cầu liên kết mới",
+        "invalidToken": "Liên kết đặt lại không hợp lệ. Vui lòng yêu cầu liên kết mới",
+        "tooManyRequests": "Thử quá nhiều lần. Vui lòng thử lại sau",
+        "serverError": "Đã xảy ra lỗi. Vui lòng thử lại"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ối! Đã xảy ra lỗi!",
+      "tryAgain": "Vui lòng thử lại.",
+      "backToLogin": "Quay lại đăng nhập",
+      "checkEmail": "Vui lòng kiểm tra hộp thư"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Điều khoản dịch vụ",
+      "privacyPolicy": "Chính sách quyền riêng tư",
+      "byClickingContinue": "Bằng cách nhấn tiếp tục, bạn đồng ý với ",
+      "and": " và "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Trang chủ"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,175 +224,61 @@
       },
       "contact": {
         "title": "Liên hệ"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Tải video lên, nhận liên kết chia sẻ vĩnh viễn",
       "product": {
-        "title": "Product",
+        "title": "Sản phẩm",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "Tính năng",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "Công ty",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Giới thiệu",
+          "contact": "Liên hệ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Pháp lý",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Chính sách cookie",
+          "privacyPolicy": "Chính sách quyền riêng tư",
+          "termsOfService": "Điều khoản dịch vụ"
         }
       }
     },
     "avatar": {
-      "dashboard": "Không gian làm việc",
+      "dashboard": "Bàn làm việc",
       "resources": "Tài nguyên của tôi",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Thanh toán",
+      "settings": "Cài đặt"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Không gian làm việc"
+      "title": "Bàn làm việc"
     },
     "home": {
       "loading": "Đang tải tổng quan…",
       "resourceCount": "Video",
       "videoCountLabel": "Video trong Tài nguyên của tôi",
-      "storageFullHint": "Dung lượng dùng thử miễn phí đã đầy. Hãy xóa bớt một số video; các gói dung lượng lớn hơn sắp ra mắt.",
+      "storageFullHint": "Dung lượng dùng thử miễn phí đã đầy. Xóa bớt video; gói dung lượng lớn hơn sắp ra mắt.",
       "entryResourcesTitle": "Tài nguyên của tôi",
       "entryResourcesDesc": "Video đã tải lên nằm ở đây — sao chép liên kết, mở hoặc xóa bất cứ lúc nào.",
       "entryUploadTitle": "Tải video lên",
-      "entryUploadDesc": "Thả video vào trang chủ và nhận liên kết chia sẻ trong vài giây.",
+      "entryUploadDesc": "Thả video trên trang chủ và nhận liên kết chia sẻ trong vài giây.",
       "entryFilesTitle": "Tài nguyên của tôi",
-      "entryFilesDesc": "Tải lên khi đã đăng nhập được lưu vào tài khoản. Sao chép URL hoặc xóa tệp không còn cần.",
-      "entryFilesCta": "Mở tài nguyên của tôi",
+      "entryFilesDesc": "Tệp tải lên khi đã đăng nhập được lưu vào tài khoản. Sao chép URL hoặc xóa tệp không cần.",
+      "entryFilesCta": "Mở Tài nguyên của tôi",
       "filesPointUploadTitle": "Nhiều định dạng",
-      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV và nhiều hơn",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV và hơn nữa",
       "filesPointManageTitle": "Quản lý liên kết",
-      "filesPointManageBody": "Sao chép, mở hoặc xóa trong Tài nguyên của tôi",
-      "filesPointFreeTitle": "Dung lượng miễn phí",
+      "filesPointManageBody": "Sao chép, mở hoặc xóa từ Tài nguyên của tôi",
+      "filesPointFreeTitle": "Lưu trữ miễn phí",
       "filesPointFreeBody": "300 MB miễn phí cho video lưu trữ",
       "filesPointPaidTitle": "Gói trả phí",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
@@ -498,17 +286,17 @@
     "resources": {
       "title": "Tài nguyên của tôi",
       "welcome": "Chào mừng trở lại, {name}",
-      "storage": "Dung lượng",
-      "storageHint": "Không gian lưu trữ video đã dùng",
+      "storage": "Lưu trữ",
+      "storageHint": "Dung lượng lưu trữ video đã dùng",
       "planCardTitle": "Gói hiện tại",
-      "planFree": "Miễn phí",
+      "planFree": "Free",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Đang dùng",
-      "planHintFree": "Hiện có dùng thử miễn phí. Các gói dung lượng lớn hơn sắp ra mắt.",
+      "planHintFree": "Dùng thử miễn phí có sẵn. Gói dung lượng lớn hơn sắp ra mắt.",
       "planHintPro": "Bạn đang dùng Pro (10 GB). Lifetime mở khóa 100 GB.",
       "planHintLifetime": "Đã mở khóa mọi tính năng",
-      "description": "Video bạn tải lên khi đã đăng nhập. Tải lên tại đây, xem trước, tải xuống hoặc xóa bất cứ lúc nào.",
+      "description": "Video bạn tải lên khi đã đăng nhập. Tải lên, xem trước, tải xuống hoặc xóa bất cứ lúc nào.",
       "empty": "Chưa có video",
       "emptyHint": "Nhấn Tải lên hoặc thẻ + để thêm video đầu tiên.",
       "goUpload": "Tải video lên",
@@ -519,7 +307,7 @@
       "unsupportedType": "Chỉ hỗ trợ định dạng video (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "Tệp quá lớn. Gói miễn phí cho phép tối đa 300MB mỗi tệp.",
       "filterFormat": "Loại tệp",
-      "formatAll": "Tất cả loại",
+      "formatAll": "Mọi loại",
       "format": {
         "mp4": "MP4",
         "mov": "MOV",
@@ -530,13 +318,13 @@
         "flv": "FLV",
         "3gp": "3GP"
       },
-      "usageStorage": "Dung lượng",
+      "usageStorage": "Lưu trữ",
       "viewGrid": "Xem dạng lưới",
       "viewList": "Xem dạng danh sách",
       "loading": "Đang tải…",
       "loadError": "Không tải được tài nguyên",
       "searchPlaceholder": "Tìm theo tên tệp…",
-      "search": "Tìm kiếm",
+      "search": "Tìm",
       "reset": "Đặt lại",
       "copyUrl": "Sao chép URL",
       "copied": "Đã sao chép URL",
@@ -545,11 +333,11 @@
       "preview": "Xem trước",
       "previewClose": "Đóng",
       "shareCodes": "Mã chia sẻ",
-      "shareCodesDesc": "Liên kết sẵn để sao chép cho Markdown, HTML, BBCode và hơn thế.",
+      "shareCodesDesc": "Liên kết sẵn sàng sao chép cho Markdown, HTML, BBCode và hơn nữa.",
       "download": "Tải xuống",
       "delete": "Xóa",
       "deleteTitle": "Xóa video",
-      "deleteConfirm": "Thao tác này sẽ xóa vĩnh viễn video khỏi tài khoản của bạn và không thể hoàn tác.",
+      "deleteConfirm": "Thao tác này xóa vĩnh viễn video khỏi tài khoản. Không thể hoàn tác.",
       "deleteSuccess": "Đã xóa video",
       "deleteFailed": "Không xóa được video",
       "cancel": "Hủy",
@@ -560,319 +348,230 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Người dùng",
+        "fakeData": "Lưu ý: Dữ liệu giả để minh họa; một số tính năng bị tắt",
+        "error": "Không lấy được danh sách người dùng",
+        "search": "Tìm người dùng...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
+          "columns": "Cột",
+          "name": "Tên",
           "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "role": "Vai trò",
+          "createdAt": "Ngày tạo",
+          "customerId": "ID khách hàng",
+          "status": "Trạng thái",
+          "banReason": "Lý do cấm",
+          "banExpires": "Hết hạn cấm"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Người dùng",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Email đã xác minh",
+          "unverified": "Email chưa xác minh"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Đã sao chép email vào clipboard",
+        "banned": "Đã cấm",
+        "active": "Hoạt động",
+        "joined": "Tham gia",
+        "updated": "Cập nhật",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Lý do cấm",
+          "reasonPlaceholder": "Nhập lý do cấm người dùng này",
+          "defaultReason": "Spam",
+          "never": "Không bao giờ",
+          "expires": "Hết hạn cấm",
+          "selectDate": "Chọn ngày",
+          "button": "Cấm người dùng",
+          "success": "Đã cấm người dùng",
+          "error": "Không cấm được người dùng"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Bỏ cấm",
+          "success": "Đã bỏ cấm người dùng",
+          "error": "Không bỏ cấm được"
         },
-        "close": "Close"
+        "close": "Đóng"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Cài đặt",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Hồ sơ",
+        "description": "Quản lý thông tin tài khoản",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Ảnh đại diện",
+          "description": "Nhấn nút tải lên để đặt ảnh tùy chỉnh",
+          "recommendation": "Ảnh đại diện không bắt buộc nhưng nên có",
+          "uploading": "Đang tải lên...",
+          "uploadAvatar": "Tải ảnh đại diện",
+          "success": "Đã cập nhật ảnh đại diện",
+          "fail": "Không cập nhật được ảnh đại diện"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Tên",
+          "description": "Vui lòng nhập tên hiển thị",
+          "placeholder": "Nhập tên của bạn",
+          "minLength": "Dùng ít nhất 3 ký tự",
+          "maxLength": "Dùng tối đa 30 ký tự",
+          "hint": "Dùng 3–30 ký tự cho tên",
+          "success": "Đã cập nhật tên",
+          "fail": "Không cập nhật được tên",
+          "saving": "Đang lưu...",
+          "save": "Lưu"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Thanh toán",
+        "description": "Quản lý gói đăng ký và thông tin thanh toán",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
+          "active": "Đang dùng",
+          "trial": "Dùng thử",
           "free": "Free",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "tháng",
+          "year": "năm",
+          "oneTime": "một lần"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Gói hiện tại",
+          "description": "Chi tiết gói hiện tại",
+          "noPlan": "Bạn không có gói đang hoạt động"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Đang tải...",
+          "createCustomerPortalFailed": "Không mở được cổng khách hàng Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Giá:",
+        "periodStartDate": "Ngày bắt đầu kỳ:",
+        "periodEndDate": "Ngày kết thúc kỳ:",
+        "trialEnds": "Hết hạn dùng thử:",
+        "freePlanMessage": "Bạn đang dùng gói miễn phí với tính năng hạn chế",
+        "lifetimeMessage": "Bạn có quyền truy cập trọn đời mọi tính năng cao cấp",
+        "manageSubscription": "Quản lý gói và thanh toán",
+        "manageBilling": "Quản lý thanh toán",
+        "upgradePlan": "Nâng cấp gói",
+        "retry": "Thử lại",
+        "errorMessage": "Không lấy được dữ liệu",
+        "paymentSuccess": "Thanh toán thành công"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Đang xử lý thanh toán",
+          "description": "Vui lòng đợi trong khi chúng tôi xác nhận thanh toán..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Thanh toán thành công",
+          "description": "Đang chuyển hướng tự động..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Thanh toán thất bại",
+          "description": "Có lỗi khi xử lý thanh toán."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Hết thời gian xử lý",
+          "description": "Xử lý thanh toán lâu hơn dự kiến."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Thử lại"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Bảo mật",
+        "description": "Quản lý cài đặt bảo mật",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Đổi mật khẩu",
+          "description": "Nhập mật khẩu hiện tại và mật khẩu mới",
+          "currentPassword": "Mật khẩu hiện tại",
+          "currentRequired": "Cần mật khẩu hiện tại",
+          "newPassword": "Mật khẩu mới",
+          "newMinLength": "Mật khẩu phải có ít nhất 8 ký tự",
+          "hint": "Dùng ít nhất 8 ký tự cho mật khẩu",
+          "showPassword": "Hiện mật khẩu",
+          "hidePassword": "Ẩn mật khẩu",
+          "success": "Đã cập nhật mật khẩu",
+          "fail": "Không cập nhật được mật khẩu",
+          "saving": "Đang lưu...",
+          "save": "Lưu"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Đặt lại mật khẩu",
+          "description": "Đặt lại mật khẩu để bật đăng nhập bằng email",
+          "info": "Khi đặt lại mật khẩu, bạn có thể đăng nhập bằng email và mật khẩu ngoài đăng nhập mạng xã hội. Bạn sẽ nhận email hướng dẫn",
+          "button": "Đặt lại mật khẩu"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Xóa tài khoản",
+          "description": "Xóa vĩnh viễn tài khoản và mọi nội dung",
+          "warning": "Thao tác này không thể hoàn tác — hãy cẩn thận",
+          "button": "Xóa tài khoản",
+          "confirmTitle": "Xóa tài khoản",
+          "confirmDescription": "Bạn chắc chắn muốn xóa tài khoản? Không thể hoàn tác.",
+          "confirm": "Xóa",
+          "cancel": "Hủy",
+          "deleting": "Đang xóa...",
+          "success": "Đã xóa tài khoản",
+          "fail": "Không xóa được tài khoản"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Các gói dung lượng lớn hơn sắp ra mắt. Hiện có dùng thử miễn phí.",
-      "button": "Upgrade"
+      "title": "Nâng cấp",
+      "description": "Gói dung lượng lớn hơn sắp ra mắt. Dùng thử miễn phí có sẵn.",
+      "button": "Nâng cấp"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Nhóm {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Xin chào, {name}.",
+      "body": "Vui lòng nhấn liên kết bên dưới để xác minh email.",
+      "confirmEmail": "Xác nhận email",
+      "subject": "Xác minh email của bạn"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Xin chào, {name}.",
+      "body": "Chúng tôi nhận yêu cầu đặt lại mật khẩu MP4toURL. Nhấn nút bên dưới để chọn mật khẩu mới. Nếu bạn không yêu cầu, có thể bỏ qua email này.",
+      "resetPassword": "Đặt lại mật khẩu",
+      "subject": "Đặt lại mật khẩu MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
+      "name": "Tên: {name}",
       "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "message": "Tin nhắn: {message}",
+      "subject": "Tin nhắn liên hệ từ website"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "MÃ SẴN ĐỂ SAO CHÉP",
+    "sectionTitle": "MÃ SẴN SÀNG SAO CHÉP",
     "copyUrl": "Sao chép URL",
     "copied": "Đã sao chép",
     "copyFailed": "Không sao chép được",
     "openTab": "Mở tab mới",
-    "successTitle": "Thành công! URL video của bạn đã sẵn sàng",
+    "successTitle": "Xong! URL video của bạn đã sẵn sàng",
     "successSubtitle": "Video đã tải lên và sẵn sàng chia sẻ.",
     "videoLabel": "Video",
     "watchLabel": "Xem video",
     "shareLink": {
       "title": "Liên kết chia sẻ",
-      "desc": "Liên kết trực tiếp để chia sẻ mọi nơi"
+      "desc": "Liên kết trực tiếp chia sẻ mọi nơi"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Cho GitHub, Notion và tài liệu"
     },
     "markdownLink": {
-      "title": "Markdown kèm liên kết",
+      "title": "Markdown có liên kết",
       "desc": "Markdown với nhãn xem dễ đọc"
     },
     "html": {
       "title": "HTML",
-      "desc": "Nhúng bằng trình phát video gốc"
+      "desc": "Nhúng với trình phát video gốc"
     },
     "htmlLink": {
-      "title": "HTML kèm liên kết",
+      "title": "HTML có liên kết",
       "desc": "Liên kết đơn giản mở tab mới"
     },
     "bbcode": {
@@ -880,84 +579,84 @@
       "desc": "Cho diễn đàn và bảng tin"
     },
     "bbcodeLink": {
-      "title": "BBCode kèm liên kết",
+      "title": "BBCode có liên kết",
       "desc": "Liên kết diễn đàn với nhãn xem"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Tải video lên và nhận liên kết chia sẻ vĩnh viễn",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Video của bạn đã tải lên. Sao chép liên kết bên dưới để chia sẻ.",
+      "title": "Chuyển video thành liên kết chia sẻ miễn phí",
+      "description": "Tải video MP4 lên và nhận liên kết chia sẻ vĩnh viễn trong vài giây.",
+      "tagline": "Hỗ trợ MP4, MOV, AVI, WebM, MKV tới 300MB. Không cần đăng ký.",
+      "uploadHeading": "Tải video của bạn",
+      "uploadTitle": "Thả video vào đây, hoặc nhấn để chọn tệp",
+      "uploadHint": "Hỗ trợ MP4, MOV, AVI, WebM, MKV tới 300MB",
+      "maxSize": "Dung lượng tối đa: 300MB",
+      "convert": "Chuyển thành URL",
+      "uploading": "Đang tải lên...",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép",
+      "guestSuccessHint": "Video đã tải lên. Sao chép liên kết bên dưới để chia sẻ.",
       "registerForCodesTitle": "Cần Markdown, HTML và BBCode?",
-      "registerForCodesDesc": "Đăng ký miễn phí để mở khóa mã nhúng sẵn sao chép, và quản lý mọi video trong Tài nguyên của tôi.",
+      "registerForCodesDesc": "Đăng ký miễn phí để mở khóa mã nhúng sẵn sàng sao chép và quản lý mọi video trong Tài nguyên của tôi.",
       "registerCta": "Đăng ký miễn phí",
-      "uploadAnother": "Tải lên video khác",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "uploadAnother": "Tải video khác",
+      "error": "Tải lên thất bại. Vui lòng thử lại.",
+      "unsupportedType": "Không hỗ trợ loại tệp này. Vui lòng tải MP4, MOV, AVI, WebM hoặc MKV.",
+      "fileTooLarge": "Tệp quá lớn. Gói miễn phí cho phép tối đa 300MB mỗi tệp."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Vì sao chọn MP4 to URL",
+      "subtitle": "Thiết kế cho tốc độ, quyền riêng tư và liên kết media vĩnh viễn.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Cực nhanh",
+          "description": "Tải lên và chuyển video thành URL chia sẻ trong vài giây. Không chờ, không xếp hàng."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "An toàn và riêng tư",
+          "description": "Video được truyền qua HTTPS và lưu trữ với kiểm soát ưu tiên quyền riêng tư."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Liên kết vĩnh viễn",
+          "description": "Nhận liên kết vĩnh viễn không hết hạn. Phù hợp tài liệu, ticket và chia sẻ mạng xã hội."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: chuyển video thành URL trong vài giây"
+      "title": "Video thành URL trong vài giây",
+      "subtitle": "Từ tệp cục bộ đến liên kết chia sẻ",
+      "description": "Tải MP4 và định dạng liên quan, nhận URL vĩnh viễn gọn gàng để dán vào tài liệu, chat và bài đăng.",
+      "point1": "Thả video từ thiết bị",
+      "point2": "Chuyển đổi trong vài giây — dùng thường không cần đăng ký",
+      "point3": "Sao chép liên kết vĩnh viễn và chia sẻ mọi nơi",
+      "imageAlt": "mp4tourl.com: biến video thành có thể chia sẻ",
+      "imageAltNew": "mp4tourl.com: video thành URL trong vài giây, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Cách dùng",
+      "subtitle": "Ba bước từ tệp cục bộ đến URL chia sẻ.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Chọn video",
+          "description": "Kéo thả hoặc duyệt MP4, MOV, AVI, WebM hoặc MKV (tối đa 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Chuyển thành URL",
+          "description": "Nhấn Chuyển thành URL. Xử lý thường xong trong vài giây."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Sao chép và chia sẻ",
+          "description": "Sao chép liên kết vĩnh viễn và dùng trong tài liệu, chat, website hoặc mạng xã hội."
         }
       }
     },
     "bannerShowcase": {
       "title": "Kịch bản",
-      "subtitle": "Từ video cục bộ đến liên kết có thể chia sẻ.",
-      "description": "Thả tệp và nhận URL sạch cho tài liệu, chat và bài đăng — xem vài ví dụ bên dưới.",
+      "subtitle": "Từ video cục bộ đến liên kết chia sẻ.",
+      "description": "Thả tệp, nhận URL gọn cho tài liệu, chat và bài đăng — xem vài giao diện bên dưới.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
@@ -968,54 +667,54 @@
           "description": "Dán liên kết vào tài liệu, ticket và bài đăng mạng xã hội."
         },
         "dark": {
-          "title": "Lưu trữ ổn định",
-          "description": "Giữ video luôn truy cập được với URL cố định, bền vững."
+          "title": "Lưu trữ gọn gàng",
+          "description": "Giữ video truy cập được với URL vĩnh viễn ổn định."
         },
         "retro": {
           "title": "Chuyển đổi nhanh",
-          "description": "Tải lên một lần, sao chép liên kết, dùng lại khi cần."
+          "description": "Tải một lần, sao chép liên kết, dùng lại khi cần."
         }
       }
     },
     "faqs": {
-      "title": "Câu hỏi thường gặp",
-      "subtitle": "Những điều bạn có thể muốn biết về video sang URL.",
+      "title": "FAQ",
+      "subtitle": "Điều bạn có thể muốn biết về chuyển video thành URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Công cụ chuyển video thành URL là gì?",
+          "answer": "Công cụ chuyển video thành URL tải tệp video cục bộ lên và trả về liên kết web trực tiếp để chia sẻ mọi nơi."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Chuyển video thành URL hoạt động thế nào?",
+          "answer": "Tải video lên, đợi xử lý xong, rồi sao chép URL được tạo. Bạn có thể mở, chia sẻ hoặc nhúng liên kết ngay."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Hỗ trợ định dạng video nào?",
+          "answer": "Hỗ trợ MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP và FLV. Gói miễn phí tối đa 300MB mỗi tệp."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Liên kết video tạo ra có vĩnh viễn không?",
+          "answer": "Có. Liên kết được thiết kế cho chia sẻ dài hạn, URL video ổn định và tái sử dụng."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Dùng URL video ở đâu?",
+          "answer": "Dùng trong tài liệu, hệ thống ticket, chat, website, bài đăng mạng xã hội và công cụ làm việc nhóm."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Công cụ chuyển video thành URL này có miễn phí không?",
+          "answer": "Có. Quy trình chuyển video thành URL tiêu chuẩn miễn phí trong giới hạn tải lên hiện tại."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Tải lên và lưu trữ video an toàn đến mức nào?",
+          "answer": "Tải lên dùng HTTPS và lưu trữ để phân phối ổn định, cho liên kết chia sẻ đáng tin cậy cho nội dung video."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Cách dễ nhất để chia sẻ video",
+      "description": "MP4 to URL là quy trình lưu trữ media miễn phí và nhanh cho lập trình viên, người sáng tạo và nhóm. Chuyển video thành URL vĩnh viễn trong vài giây và chia sẻ mọi nơi.",
+      "primaryButton": "Chuyển thành URL",
+      "secondaryButton": "Đọc FAQ"
     }
   }
 }

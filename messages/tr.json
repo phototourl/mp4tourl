@@ -1,460 +1,249 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Ücretsiz Video-URL Dönüştürücü - MP4 Yükleyin, Paylaşılabilir Bağlantı Alın",
+    "description": "MP4, MOV, AVI, WebM, MKV yükleyin; saniyeler içinde kalıcı paylaşılabilir URL'ler alın. 300 MB'a kadar ücretsiz video barındırma — kayıt gerekmez."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Giriş yap",
+    "logout": "Çıkış yap",
+    "signUp": "Kayıt ol",
+    "language": "Dili değiştir",
+    "languageHint": "Bölge seçtiğinizde dil ve içerik değişir.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Modu değiştir",
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Temayı değiştir",
+      "default": "Varsayılan",
+      "blue": "Mavi",
+      "green": "Yeşil",
+      "amber": "Kehribar",
+      "neutral": "Nötr"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopyala",
+    "saving": "Kaydediliyor...",
+    "save": "Kaydet",
+    "loading": "Yükleniyor...",
+    "cancel": "İptal",
+    "logoutFailed": "Çıkış yapılamadı",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Toplam {count} kayıt",
+      "noResults": "Sonuç yok",
+      "loading": "Yükleniyor...",
+      "columns": "Sütunlar",
+      "rowsPerPage": "Sayfa başına satır",
+      "page": "Sayfa",
+      "firstPage": "İlk sayfa",
+      "lastPage": "Son sayfa",
+      "nextPage": "Sonraki sayfa",
+      "previousPage": "Önceki sayfa",
+      "ascending": "Artan",
+      "descending": "Azalan"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Ücretsiz",
+      "description": "Video barındırın ve kalıcı paylaşılabilir URL alın",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Yükleme boyutu: 300MB",
+        "feature-2": "Kalıcı CDN bağlantıları",
+        "feature-3": "Kayıt gerekmez",
+        "feature-4": "Topluluk desteği"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
+        "limit-1": "Özel alan adları",
+        "limit-2": "Özel markalama",
         "limit-3": "Lifetime updates"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Aktif içerik üreticileri için daha yüksek limitler ve yükleme geçmişi",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Daha büyük video yüklemeleri",
+        "feature-2": "10 GB depolama",
+        "feature-3": "Yükleme geçmişi",
+        "feature-4": "Öncelikli destek",
+        "feature-5": "Özel alan adları"
       },
       "limits": {
-        "limit-1": "Custom branding",
+        "limit-1": "Özel markalama",
         "limit-2": "Lifetime updates"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Uzun vadeli video barındırma kapasitesi için tek seferlik ödeme",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
+        "feature-1": "Tüm Pro özellikleri",
+        "feature-2": "100 GB depolama",
+        "feature-3": "Özel destek",
+        "feature-4": "Kurumsal düzeyde güvenlik",
+        "feature-5": "Gelişmiş entegrasyonlar",
+        "feature-6": "Özel markalama",
         "feature-7": "Lifetime updates"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Üzgünüz, aradığınız sayfa mevcut değil.",
+    "backToHome": "Ana sayfaya dön"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Hay aksi! Bir şeyler ters gitti!",
+    "tryAgain": "Tekrar dene",
+    "backToHome": "Ana sayfaya dön"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Hakkında",
+    "description": "MP4toURL videolarınızı kalıcı paylaşılabilir bağlantılara dönüştürür — MP4, MOV, AVI, WebM veya MKV yükleyin, saniyeler içinde paylaşın.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Ücretsiz video-URL dönüştürücü",
+    "introduction": "MP4toURL, video barındırmanın ve paylaşmanın ücretsiz ve hızlı bir yoludur. Dosya yükleyin, kalıcı bir CDN bağlantısı alın ve her yerde kullanın — karmaşık kurulum yok.",
     "imageAlt": "MP4toURL marka işareti",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Bize ulaşın",
+    "followMe": "X'te takip et"
   },
   "ContactPage": {
     "title": "İletişim",
-    "description": "Video yüklemeleri, paylaşılabilir bağlantılar veya hesabınız hakkında mesaj gönderin. Her mesajı okuyoruz ve en kısa sürede yanıtlıyoruz.",
-    "subtitle": "MP4toURL hakkında sorularınız mı var? Yardım etmekten memnuniyet duyarız.",
-    "orEmail": "Veya bize e-posta gönderin:",
+    "description": "Video yüklemeleri, paylaşılabilir bağlantılar veya hesabınız hakkında mesaj gönderin. Her mesajı okuyor ve en kısa sürede yanıtlıyoruz.",
+    "subtitle": "MP4toURL hakkında sorularınız mı var? Yardımcı olmaktan memnuniyet duyarız.",
+    "orEmail": "Veya bize e-posta gönderin",
     "form": {
       "title": "Mesaj",
-      "description": "Bir mesaj gönderin, en kısa sürede yanıtlayalım.",
+      "description": "Mesaj gönderin, en kısa sürede yanıtlayalım.",
       "name": "Konu",
       "email": "E-posta",
       "message": "Mesaj",
-      "namePlaceholder": "Konuyu girin",
+      "namePlaceholder": "Konu girin",
       "emailPlaceholder": "E-posta",
-      "messagePlaceholder": "Mesajı girin",
+      "messagePlaceholder": "Mesaj girin",
       "submit": "Gönder",
-      "submitting": "Gönderiliyor…",
+      "submitting": "Gönderiliyor...",
       "success": "Mesaj başarıyla gönderildi. En kısa sürede yanıtlayacağız.",
       "minLength": "Konu en az 3 karakter olmalıdır.",
-      "maxLengthName": "Konu 100 karakteri aşmamalıdır.",
+      "maxLengthName": "Konu 100 karakteri geçmemelidir.",
       "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
       "minLengthMessage": "Mesaj en az 10 karakter olmalıdır.",
-      "maxLengthMessage": "Mesaj 2000 karakteri aşmamalıdır.",
+      "maxLengthMessage": "Mesaj 2000 karakteri geçmemelidir.",
       "invalid": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Giriş",
+      "welcomeBack": "Tekrar hoş geldiniz",
+      "email": "E-posta",
+      "password": "Şifre",
+      "signIn": "Giriş yap",
+      "signUpHint": "Hesabınız yok mu? Kayıt olun",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "signInWithGoogle": "Google ile giriş yap",
+      "showPassword": "Şifreyi göster",
+      "hidePassword": "Şifreyi gizle",
+      "or": "Veya şununla devam edin",
+      "emailRequired": "Lütfen e-posta adresinizi girin",
+      "passwordRequired": "Lütfen şifrenizi girin",
+      "captchaInvalid": "Captcha doğrulaması başarısız",
+      "captchaError": "Captcha doğrulama hatası"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Kayıt",
+      "createAccount": "Hesap oluştur",
+      "name": "Ad",
+      "email": "E-posta",
+      "password": "Şifre",
+      "signUp": "Kayıt ol",
+      "signInHint": "Zaten hesabınız var mı? Giriş yapın",
+      "checkEmail": "Lütfen e-posta gelen kutunuzu kontrol edin",
+      "showPassword": "Şifreyi göster",
+      "hidePassword": "Şifreyi gizle",
+      "nameRequired": "Lütfen adınızı girin",
+      "emailRequired": "Lütfen e-posta adresinizi girin",
+      "passwordRequired": "Lütfen şifrenizi girin",
+      "captchaInvalid": "Captcha doğrulaması başarısız",
+      "captchaError": "Captcha doğrulama hatası"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Şifremi unuttum",
+      "email": "E-posta",
+      "send": "Sıfırlama bağlantısı gönder",
+      "backToLogin": "Girişe dön",
+      "checkEmail": "Bu e-posta için bir hesap varsa sıfırlama bağlantısı gönderdik. Gelen kutunuzu kontrol edin.",
+      "emailRequired": "Lütfen e-posta adresinizi girin",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Bu e-posta ile hesap bulunamadı",
+        "tooManyRequests": "Çok fazla deneme. Lütfen daha sonra tekrar deneyin",
+        "serverError": "Bir şeyler ters gitti. Lütfen tekrar deneyin"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Şifreyi sıfırla",
+      "password": "Yeni şifre",
+      "reset": "Şifreyi sıfırla",
+      "backToLogin": "Girişe dön",
+      "showPassword": "Şifreyi göster",
+      "hidePassword": "Şifreyi gizle",
+      "minLength": "Şifre en az 8 karakter olmalıdır",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Sıfırlama bağlantısının süresi doldu. Lütfen yeni bir tane isteyin",
+        "invalidToken": "Geçersiz sıfırlama bağlantısı. Lütfen yeni bir tane isteyin",
+        "tooManyRequests": "Çok fazla deneme. Lütfen daha sonra tekrar deneyin",
+        "serverError": "Bir şeyler ters gitti. Lütfen tekrar deneyin"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Hay aksi! Bir şeyler ters gitti!",
+      "tryAgain": "Lütfen tekrar deneyin.",
+      "backToLogin": "Girişe dön",
+      "checkEmail": "Lütfen e-posta gelen kutunuzu kontrol edin"
     },
     "common": {
       "termsOfService": "Terms of Service",
       "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "byClickingContinue": "Devam'a tıklayarak şunları kabul etmiş olursunuz: ",
+      "and": " ve "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Ana sayfa"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "SSS"
       },
       "about": {
         "title": "Hakkında"
       },
       "contact": {
         "title": "İletişim"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Video yükleyin, kalıcı paylaşılabilir bağlantı alın",
       "product": {
-        "title": "Product",
+        "title": "Ürün",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Özellikler",
+          "faq": "SSS"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Şirket",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Hakkında",
+          "contact": "İletişim"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Yasal",
         "items": {
           "cookiePolicy": "Cookie Policy",
           "privacyPolicy": "Privacy Policy",
@@ -465,9 +254,8 @@
     "avatar": {
       "dashboard": "Çalışma alanı",
       "resources": "Kaynaklarım",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Faturalandırma",
+      "settings": "Ayarlar"
     }
   },
   "Dashboard": {
@@ -477,19 +265,19 @@
     "home": {
       "loading": "Genel bakış yükleniyor…",
       "resourceCount": "Videolar",
-      "videoCountLabel": "Kaynaklarım’daki videolar",
-      "storageFullHint": "Ücretsiz deneme alanı dolu. Bazı videoları silin; daha yüksek kapasiteli planlar yakında geliyor.",
+      "videoCountLabel": "Kaynaklarımdaki videolar",
+      "storageFullHint": "Ücretsiz deneme depolaması dolu. Bazı videoları silin; daha yüksek kapasiteli planlar yakında.",
       "entryResourcesTitle": "Kaynaklarım",
       "entryResourcesDesc": "Yüklediğiniz videolar burada — bağlantıları kopyalayın, açın veya istediğiniz zaman silin.",
       "entryUploadTitle": "Video yükle",
-      "entryUploadDesc": "Ana sayfaya bir video bırakın ve saniyeler içinde paylaşılabilir bağlantı alın.",
+      "entryUploadDesc": "Ana sayfaya video bırakın, saniyeler içinde paylaşılabilir bağlantı alın.",
       "entryFilesTitle": "Kaynaklarım",
-      "entryFilesDesc": "Oturum açıkken yapılan yüklemeler hesabınıza kaydedilir. URL’yi kopyalayın veya gereksiz dosyaları silin.",
-      "entryFilesCta": "Kaynaklarımı aç",
-      "filesPointUploadTitle": "Çok sayıda biçim",
+      "entryFilesDesc": "Giriş yapılmış yüklemeler hesabınıza kaydedilir. URL'yi kopyalayın veya artık ihtiyacınız olmayan dosyaları kaldırın.",
+      "entryFilesCta": "Kaynaklarım'ı aç",
+      "filesPointUploadTitle": "Birçok format",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ve daha fazlası",
       "filesPointManageTitle": "Bağlantıları yönet",
-      "filesPointManageBody": "Kaynaklarım’dan kopyala, aç veya sil",
+      "filesPointManageBody": "Kaynaklarım'dan kopyala, aç veya sil",
       "filesPointFreeTitle": "Ücretsiz depolama",
       "filesPointFreeBody": "Barındırılan videolar için 300 MB ücretsiz",
       "filesPointPaidTitle": "Ücretli planlar",
@@ -505,18 +293,18 @@
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktif",
-      "planHintFree": "Ücretsiz deneme şu an kullanılabilir. Daha yüksek kapasiteli planlar yakında geliyor.",
-      "planHintPro": "Pro’dasınız (10 GB). Lifetime 100 GB açar.",
+      "planHintFree": "Ücretsiz deneme şimdi kullanılabilir. Daha yüksek kapasiteli planlar yakında.",
+      "planHintPro": "Pro'dasınız (10 GB). Lifetime 100 GB'ı açar.",
       "planHintLifetime": "Tüm özellikler açık",
-      "description": "Giriş yaptığınızda yüklediğiniz videolar. Buradan yükleyin, önizleyin, indirin veya silin.",
+      "description": "Giriş yaparken yüklediğiniz videolar. Buradan yükleyin, önizleyin, indirin veya istediğiniz zaman silin.",
       "empty": "Henüz video yok",
-      "emptyHint": "İlk videoyu eklemek için Yükle’ye veya + kartına tıklayın.",
+      "emptyHint": "İlk videonuzu eklemek için Yükle veya + kartına tıklayın.",
       "goUpload": "Video yükle",
       "upload": "Yükle",
       "uploading": "Yükleniyor…",
       "uploadSuccess": "Yükleme tamamlandı",
       "uploadFailed": "Yükleme başarısız",
-      "unsupportedType": "Yalnızca video biçimleri desteklenir (MP4, MOV, AVI, WebM, MKV…)",
+      "unsupportedType": "Yalnızca video formatları desteklenir (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "Dosya çok büyük. Ücretsiz planda dosya başına en fazla 300MB.",
       "filterFormat": "Dosya türü",
       "formatAll": "Tüm türler",
@@ -538,7 +326,7 @@
       "searchPlaceholder": "Dosya adına göre ara…",
       "search": "Ara",
       "reset": "Sıfırla",
-      "copyUrl": "URL’yi kopyala",
+      "copyUrl": "URL'yi kopyala",
       "copied": "URL kopyalandı",
       "copyFailed": "Kopyalanamadı",
       "open": "Aç",
@@ -549,7 +337,7 @@
       "download": "İndir",
       "delete": "Sil",
       "deleteTitle": "Videoyu sil",
-      "deleteConfirm": "Bu işlem videoyu hesabınızdan kalıcı olarak kaldırır. Geri alınamaz.",
+      "deleteConfirm": "Bu, videoyu hesabınızdan kalıcı olarak kaldırır. Geri alınamaz.",
       "deleteSuccess": "Video silindi",
       "deleteFailed": "Video silinemedi",
       "cancel": "İptal",
@@ -558,321 +346,232 @@
       "pageNext": "Sonraki"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Yönetici",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Kullanıcılar",
+        "fakeData": "Not: Gösterim için sahte veri, bazı özellikler devre dışı",
+        "error": "Kullanıcılar alınamadı",
+        "search": "Kullanıcı ara...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Sütunlar",
+          "name": "Ad",
+          "email": "E-posta",
+          "role": "Rol",
+          "createdAt": "Oluşturulma tarihi",
+          "customerId": "Müşteri ID",
+          "status": "Durum",
+          "banReason": "Yasaklama nedeni",
+          "banExpires": "Yasak bitişi"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Yönetici",
+        "user": "Kullanıcı",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-posta doğrulandı",
+          "unverified": "E-posta doğrulanmadı"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-posta panoya kopyalandı",
+        "banned": "Yasaklı",
+        "active": "Aktif",
+        "joined": "Katılım",
+        "updated": "Güncelleme",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Yasaklama nedeni",
+          "reasonPlaceholder": "Bu kullanıcıyı yasaklama nedenini girin",
+          "defaultReason": "Spam",
+          "never": "Asla",
+          "expires": "Yasak bitişi",
+          "selectDate": "Tarih seç",
+          "button": "Kullanıcıyı yasakla",
+          "success": "Kullanıcı yasaklandı",
+          "error": "Kullanıcı yasaklanamadı"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Yasağı kaldır",
+          "success": "Kullanıcının yasağı kaldırıldı",
+          "error": "Yasak kaldırılamadı"
         },
-        "close": "Close"
+        "close": "Kapat"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Ayarlar",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Hesap bilgilerinizi yönetin",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Özel avatar yüklemek için yükle düğmesine tıklayın",
+          "recommendation": "Avatar isteğe bağlıdır ancak şiddetle önerilir",
+          "uploading": "Yükleniyor...",
+          "uploadAvatar": "Avatar yükle",
+          "success": "Avatar başarıyla güncellendi",
+          "fail": "Avatar güncellenemedi"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Ad",
+          "description": "Lütfen görünen adınızı girin",
+          "placeholder": "Adınızı girin",
+          "minLength": "En az 3 karakter kullanın",
+          "maxLength": "En fazla 30 karakter kullanın",
+          "hint": "Adınız için 3–30 karakter kullanın",
+          "success": "Ad başarıyla güncellendi",
+          "fail": "Ad güncellenemedi",
+          "saving": "Kaydediliyor...",
+          "save": "Kaydet"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Faturalandırma",
+        "description": "Aboneliğinizi ve fatura bilgilerinizi yönetin",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktif",
+          "trial": "Deneme",
+          "free": "Ücretsiz",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "ay",
+          "year": "yıl",
+          "oneTime": "tek seferlik"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Mevcut plan",
+          "description": "Mevcut plan detaylarınız",
+          "noPlan": "Aktif planınız yok"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Yükleniyor...",
+          "createCustomerPortalFailed": "Stripe müşteri portalı açılamadı"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Fiyat:",
+        "periodStartDate": "Dönem başlangıcı:",
+        "periodEndDate": "Dönem bitişi:",
+        "trialEnds": "Deneme bitişi:",
+        "freePlanMessage": "Şu anda sınırlı özelliklerle ücretsiz plandasınız",
+        "lifetimeMessage": "Tüm premium özelliklere ömür boyu erişiminiz var",
+        "manageSubscription": "Abonelik ve faturalandırmayı yönet",
+        "manageBilling": "Faturalandırmayı yönet",
+        "upgradePlan": "Planı yükselt",
+        "retry": "Tekrar dene",
+        "errorMessage": "Veri alınamadı",
+        "paymentSuccess": "Ödeme başarılı"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Ödeme işleniyor",
+          "description": "Ödemenizi onaylarken lütfen bekleyin..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Ödeme başarılı",
+          "description": "Otomatik yönlendiriliyor..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Ödeme başarısız",
+          "description": "Ödemeniz işlenirken bir sorun oluştu."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "İşlem zaman aşımı",
+          "description": "Ödeme işlemi beklenenden uzun sürüyor."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Tekrar dene"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Güvenlik",
+        "description": "Güvenlik ayarlarınızı yönetin",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Şifreyi değiştir",
+          "description": "Mevcut şifrenizi ve yeni şifrenizi girin",
+          "currentPassword": "Mevcut şifre",
+          "currentRequired": "Mevcut şifre gerekli",
+          "newPassword": "Yeni şifre",
+          "newMinLength": "Şifre en az 8 karakter olmalıdır",
+          "hint": "Şifre için en az 8 karakter kullanın",
+          "showPassword": "Şifreyi göster",
+          "hidePassword": "Şifreyi gizle",
+          "success": "Şifre başarıyla güncellendi",
+          "fail": "Şifre güncellenemedi",
+          "saving": "Kaydediliyor...",
+          "save": "Kaydet"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Şifreyi sıfırla",
+          "description": "E-posta ile girişi etkinleştirmek için şifreyi sıfırlayın",
+          "info": "Şifrenizi sıfırladığınızda sosyal giriş yöntemlerinize ek olarak e-posta ve şifre ile de giriş yapabilirsiniz. Şifrenizi sıfırlamak için talimatlar içeren bir e-posta alacaksınız",
+          "button": "Şifreyi sıfırla"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Hesabı sil",
+          "description": "Hesabınızı ve tüm içeriğini kalıcı olarak kaldırın",
+          "warning": "Bu işlem geri alınamaz, lütfen dikkatli ilerleyin",
+          "button": "Hesabı sil",
+          "confirmTitle": "Hesabı sil",
+          "confirmDescription": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+          "confirm": "Sil",
+          "cancel": "İptal",
+          "deleting": "Siliniyor...",
+          "success": "Hesap başarıyla silindi",
+          "fail": "Hesap silinemedi"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Daha yüksek kapasiteli planlar yakında geliyor. Ücretsiz deneme şu an kullanılabilir.",
-      "button": "Upgrade"
+      "title": "Yükselt",
+      "description": "Daha yüksek kapasiteli planlar yakında. Ücretsiz deneme şimdi kullanılabilir.",
+      "button": "Yükselt"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name} Ekibi",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Merhaba, {name}.",
+      "body": "E-posta adresinizi doğrulamak için aşağıdaki bağlantıya tıklayın.",
+      "confirmEmail": "E-postayı onayla",
+      "subject": "E-postanızı doğrulayın"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Merhaba, {name}.",
+      "body": "MP4toURL şifrenizi sıfırlama talebi aldık. Yeni bir şifre seçmek için aşağıdaki düğmeye tıklayın. Bu talebi siz yapmadıysanız bu e-postayı yok sayabilirsiniz.",
+      "resetPassword": "Şifreyi sıfırla",
+      "subject": "MP4toURL şifrenizi sıfırlayın"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Ad: {name}",
+      "email": "E-posta: {email}",
+      "message": "Mesaj: {message}",
+      "subject": "Web sitesinden iletişim mesajı"
     }
   },
   "ShareCodes": {
     "sectionTitle": "KOPYALAMAYA HAZIR KODLAR",
-    "copyUrl": "URL’yi kopyala",
+    "copyUrl": "URL'yi kopyala",
     "copied": "Kopyalandı",
     "copyFailed": "Kopyalanamadı",
     "openTab": "Yeni sekmede aç",
-    "successTitle": "Başarılı! Video URL’niz hazır",
-    "successSubtitle": "Videonuz yüklendi ve paylaşılmaya hazır.",
+    "successTitle": "Başarılı! Video URL'niz hazır",
+    "successSubtitle": "Videonuz yüklendi ve paylaşıma hazır.",
     "videoLabel": "Video",
     "watchLabel": "Videoyu izle",
     "shareLink": {
       "title": "Paylaşım bağlantısı",
-      "desc": "Her yere paylaşabileceğiniz doğrudan bağlantı"
+      "desc": "Her yerde paylaşılabilir doğrudan bağlantı"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "GitHub, Notion ve belgeler için"
+      "desc": "GitHub, Notion ve dokümanlar için"
     },
     "markdownLink": {
-      "title": "Bağlantılı Markdown",
-      "desc": "Okunabilir izleme etiketli Markdown"
+      "title": "Markdown with link",
+      "desc": "Okunabilir izleme etiketiyle Markdown"
     },
     "html": {
       "title": "HTML",
-      "desc": "Yerel video oynatıcıyla gömme"
+      "desc": "Yerel video oynatıcıyla göm"
     },
     "htmlLink": {
-      "title": "Bağlantılı HTML",
+      "title": "HTML with link",
       "desc": "Yeni sekmede açılan basit bağlantı"
     },
     "bbcode": {
@@ -880,96 +579,96 @@
       "desc": "Forumlar ve mesaj panoları için"
     },
     "bbcodeLink": {
-      "title": "Bağlantılı BBCode",
+      "title": "BBCode with link",
       "desc": "İzleme etiketli forum bağlantısı"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Video yükleyin ve kalıcı paylaşılabilir bağlantı alın",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Ücretsiz Video-URL Dönüştürücü",
+      "description": "MP4 videoları yükleyin, saniyeler içinde kalıcı paylaşılabilir bağlantılar alın.",
+      "tagline": "MP4, MOV, AVI, WebM, MKV desteği, 300 MB'a kadar. Kayıt gerekmez.",
+      "uploadHeading": "Videonuzu yükleyin",
+      "uploadTitle": "Videonuzu buraya bırakın veya göz atmak için tıklayın",
+      "uploadHint": "MP4, MOV, AVI, WebM, MKV desteği, 300 MB'a kadar",
+      "maxSize": "Maksimum dosya boyutu: 300MB",
+      "convert": "URL'ye dönüştür",
+      "uploading": "Yükleniyor...",
+      "copy": "Bağlantıyı kopyala",
+      "copied": "Kopyalandı",
       "guestSuccessHint": "Videonuz yüklendi. Paylaşmak için aşağıdaki bağlantıyı kopyalayın.",
       "registerForCodesTitle": "Markdown, HTML ve BBCode ister misiniz?",
-      "registerForCodesDesc": "Ücretsiz kaydolun; kopyalamaya hazır gömme kodlarının kilidini açın ve tüm videoları Kaynaklarım’da yönetin.",
-      "registerCta": "Ücretsiz kaydol",
-      "uploadAnother": "Başka bir video yükle",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "registerForCodesDesc": "Kopyalamaya hazır gömme kodlarını açmak ve her videoyu Kaynaklarım'da yönetmek için ücretsiz kayıt olun.",
+      "registerCta": "Ücretsiz kayıt ol",
+      "uploadAnother": "Başka video yükle",
+      "error": "Yükleme başarısız. Lütfen tekrar deneyin.",
+      "unsupportedType": "Desteklenmeyen dosya türü. Lütfen MP4, MOV, AVI, WebM veya MKV yükleyin.",
+      "fileTooLarge": "Dosya çok büyük. Ücretsiz planda dosya başına en fazla 300MB."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Neden MP4 to URL",
+      "subtitle": "Hız, gizlilik ve kalıcı medya bağlantıları için tasarlandı.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Şimşek hızında",
+          "description": "Videolarınızı saniyeler içinde paylaşılabilir URL'lere yükleyin ve dönüştürün. Bekleme yok, kuyruk yok."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Güvenli ve gizli",
+          "description": "Videolarınız HTTPS üzerinden aktarılır ve gizlilik odaklı kontrollerle barındırılır."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Kalıcı bağlantılar",
+          "description": "Süresi dolmayan kalıcı bağlantılar alın. Dokümantasyon, biletler ve sosyal paylaşım için ideal."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: videoyu saniyeler içinde URL'ye dönüştürün"
+      "title": "Video-URL, saniyeler içinde",
+      "subtitle": "Yerel dosyadan paylaşılabilir bağlantıya",
+      "description": "MP4 ve ilgili formatları yükleyin, dokümanlara, sohbetlere ve gönderilere yapıştırabileceğiniz temiz kalıcı URL alın.",
+      "point1": "Cihazınızdan video bırakın",
+      "point2": "Saniyeler içinde dönüştürün — standart kullanım için kayıt gerekmez",
+      "point3": "Kalıcı bağlantıyı kopyalayın ve her yerde paylaşın",
+      "imageAlt": "mp4tourl.com kolaj: videoyu paylaşılabilir yap",
+      "imageAltNew": "mp4tourl.com: saniyeler içinde video-URL, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Nasıl kullanılır",
+      "subtitle": "Yerel dosyadan paylaşılabilir URL'ye üç adım.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Video seçin",
+          "description": "MP4, MOV, AVI, WebM veya MKV sürükleyip bırakın ya da göz atın (300 MB'a kadar)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "URL'ye dönüştür",
+          "description": "URL'ye dönüştür'e tıklayın. İşlem genellikle birkaç saniyede biter."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopyala ve paylaş",
+          "description": "Kalıcı bağlantıyı kopyalayın; dokümanlarda, sohbetlerde, web sitelerinde veya sosyal gönderilerde kullanın."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Senaryolar",
+      "title": "Sahneler",
       "subtitle": "Yerel videodan paylaşılabilir bağlantıya.",
-      "description": "Dosyayı bırakın, belgeler, sohbetler ve gönderiler için temiz bir URL alın — aşağıda birkaç örneğe göz atın.",
+      "description": "Dosya bırakın, dokümanlar, sohbetler ve gönderiler için temiz URL alın — aşağıda birkaç görünüme göz atın.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Yerel klibi saniyeler içinde paylaşılabilir bir adrese dönüştürün."
+          "description": "Yerel klibi saniyeler içinde paylaşılabilir adrese dönüştürün."
         },
         "newStyle": {
-          "title": "Her yerde paylaşın",
-          "description": "Bağlantıyı belgelere, destek taleplerine ve sosyal gönderilere yapıştırın."
+          "title": "Her yerde paylaş",
+          "description": "Bağlantıyı dokümanlara, bilet sistemlerine ve sosyal gönderilere yapıştırın."
         },
         "dark": {
-          "title": "Güvenilir barındırma",
-          "description": "Videoları stabil, kalıcı bir URL ile erişilebilir tutun."
+          "title": "Temiz barındırma",
+          "description": "Videoları kararlı, kalıcı URL ile erişilebilir tutun."
         },
         "retro": {
           "title": "Hızlı dönüştürme",
@@ -979,43 +678,43 @@
     },
     "faqs": {
       "title": "SSS",
-      "subtitle": "Video URL dönüşümü hakkında bilmek isteyebilecekleriniz.",
+      "subtitle": "Video-URL hakkında merak edebilecekleriniz.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Video-URL dönüştürücü nedir?",
+          "answer": "Video-URL dönüştürücü, yerel video dosyanızı yükler ve her yerde paylaşabileceğiniz doğrudan bir web bağlantısı döndürür."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Video-URL dönüştürme nasıl çalışır?",
+          "answer": "Videonuzu yükleyin, işlemin bitmesini bekleyin, ardından oluşturulan URL'yi kopyalayın. Bu bağlantıyı hemen açabilir, paylaşabilir veya gömebilirsiniz."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Hangi video formatları desteklenir?",
+          "answer": "Desteklenen formatlar arasında MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP ve FLV bulunur. Ücretsiz katmanda dosya başına 300 MB'a kadar."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Oluşturulan video bağlantıları kalıcı mı?",
+          "answer": "Evet. Oluşturulan bağlantılar uzun vadeli paylaşım için tasarlanmıştır; video URL'niz kararlı ve yeniden kullanılabilir kalır."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Video URL'sini nerede kullanabilirim?",
+          "answer": "Dokümantasyonda, sorun takip sistemlerinde, sohbetlerde, web sitelerinde, sosyal medya gönderilerinde ve ekip iş birliği araçlarında kullanabilirsiniz."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Bu video-URL dönüştürücü ücretsiz mi?",
+          "answer": "Evet. Standart video-URL dönüştürme akışı mevcut yükleme limitleri içinde ücretsizdir."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Video yükleme ve barındırma ne kadar güvenli?",
+          "answer": "Yüklemeler HTTPS aktarımı kullanır ve kararlı teslimat için barındırılır; video içeriği için güvenilir paylaşım bağlantıları sağlar."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Video Paylaşmanın En Kolay Yolu",
+      "description": "MP4 to URL, geliştiriciler, içerik üreticileri ve ekipler için ücretsiz ve hızlı bir medya barındırma akışıdır. Videoları saniyeler içinde kalıcı URL'lere dönüştürün ve her yerde paylaşın.",
+      "primaryButton": "URL'ye dönüştür",
+      "secondaryButton": "SSS'yi oku"
     }
   }
 }

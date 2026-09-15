@@ -1,148 +1,118 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Gratis video-til-URL-konverter — upload MP4 og få links til deling",
+    "description": "Upload MP4, MOV, AVI, WebM, MKV og få permanente links til deling på få sekunder. Gratis videohosting op til 300MB — ingen registrering påkrævet."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Log ind",
+    "logout": "Log ud",
+    "signUp": "Tilmeld dig",
+    "language": "Skift sprog",
+    "languageHint": "Når du vælger en region, ændres sprog og indhold.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Skift tilstand",
+      "light": "Lys",
+      "dark": "Mørk",
+      "system": "Følg system"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Skift tema",
+      "default": "Standard",
+      "blue": "Blå",
+      "green": "Grøn",
+      "amber": "Rav",
+      "neutral": "Neutraltonet"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopiér",
+    "saving": "Gemmer...",
+    "save": "Gem",
+    "loading": "Indlæser...",
+    "cancel": "Annuller",
+    "logoutFailed": "Kunne ikke logge ud",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "I alt {count} poster",
+      "noResults": "Ingen resultater",
+      "loading": "Indlæser...",
+      "columns": "Kolonner",
+      "rowsPerPage": "Rækker pr. side",
+      "page": "Side",
+      "firstPage": "Første side",
+      "lastPage": "Sidste side",
+      "nextPage": "Næste side",
+      "previousPage": "Forrige side",
+      "ascending": "Stig.",
+      "descending": "Fald."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Gratis",
+      "description": "Host videoer og få et permanent link til deling",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Uploadstørrelse: 300MB",
+        "feature-2": "Permanente CDN-links",
+        "feature-3": "Ingen tilmelding påkrævet",
+        "feature-4": "Community-support"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Egne domæner",
+        "limit-2": "Egen branding",
+        "limit-3": "Livstidsopdateringer"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Højere grænser og uploadhistorik for aktive skabere",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Større video-uploads",
+        "feature-2": "10 GB lagerplads",
+        "feature-3": "Uploadhistorik",
+        "feature-4": "Prioriteret support",
+        "feature-5": "Egne domæner"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Egen branding",
+        "limit-2": "Livstidsopdateringer"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Betal én gang for langsigtet kapacitet til videohosting",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Alle Pro-funktioner",
+        "feature-2": "100 GB lagerplads",
+        "feature-3": "Dedikeret support",
+        "feature-4": "Sikkerhed på virksomhedsniveau",
+        "feature-5": "Avancerede integrationer",
+        "feature-6": "Egen branding",
+        "feature-7": "Livstidsopdateringer"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Beklager, siden du leder efter findes ikke.",
+    "backToHome": "Tilbage til forsiden"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Noget gik galt!",
+    "tryAgain": "Prøv igen",
+    "backToHome": "Tilbage til forsiden"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Om os",
+    "description": "MP4toURL gør dine videoer til permanente links til deling — upload MP4, MOV, AVI, WebM eller MKV og del på få sekunder.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "MP4toURL brandmærke",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Gratis video-til-URL-konverter",
+    "introduction": "MP4toURL er en hurtig og gratis måde at hoste og dele videoer på. Upload en fil, få et permanent CDN-link, og brug det overalt — uden kompliceret opsætning.",
+    "imageAlt": "MP4toURL-logo",
+    "talkWithMe": "Kontakt os",
+    "followMe": "Følg os på X"
   },
   "ContactPage": {
     "title": "Kontakt",
-    "description": "Send en besked om video-uploads, delbare links eller din konto. Vi læser hver besked og svarer så hurtigt, vi kan.",
+    "description": "Send en besked om video-uploads, links til deling eller din konto. Vi læser alle beskeder og svarer så hurtigt vi kan.",
     "subtitle": "Spørgsmål om MP4toURL? Vi hjælper gerne.",
     "orEmail": "Eller skriv til os på",
     "form": {
@@ -155,319 +125,137 @@
       "emailPlaceholder": "E-mail",
       "messagePlaceholder": "Indtast besked",
       "submit": "Send",
-      "submitting": "Sender…",
-      "success": "Beskeden er sendt. Vi svarer så hurtigt, vi kan.",
-      "minLength": "Emnet skal være på mindst 3 tegn.",
+      "submitting": "Sender...",
+      "success": "Beskeden er sendt. Vi svarer så hurtigt vi kan.",
+      "minLength": "Emnet skal være mindst 3 tegn.",
       "maxLengthName": "Emnet må højst være 100 tegn.",
       "invalidEmail": "Indtast en gyldig e-mailadresse.",
-      "minLengthMessage": "Beskeden skal være på mindst 10 tegn.",
+      "minLengthMessage": "Beskeden skal være mindst 10 tegn.",
       "maxLengthMessage": "Beskeden må højst være 2000 tegn.",
       "invalid": "Noget gik galt. Prøv igen."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Log ind",
+      "welcomeBack": "Velkommen tilbage",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "signIn": "Log ind",
+      "signUpHint": "Har du ikke en konto? Tilmeld dig",
+      "forgotPassword": "Glemt adgangskode?",
+      "signInWithGoogle": "Log ind med Google",
+      "showPassword": "Vis adgangskode",
+      "hidePassword": "Skjul adgangskode",
+      "or": "Eller fortsæt med",
+      "emailRequired": "Indtast din e-mail",
+      "passwordRequired": "Indtast din adgangskode",
+      "captchaInvalid": "Captcha-bekræftelse mislykkedes",
+      "captchaError": "Fejl ved captcha-bekræftelse"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Tilmeld dig",
+      "createAccount": "Opret en konto",
+      "name": "Navn",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "signUp": "Tilmeld dig",
+      "signInHint": "Har du allerede en konto? Log ind",
+      "checkEmail": "Tjek din indbakke",
+      "showPassword": "Vis adgangskode",
+      "hidePassword": "Skjul adgangskode",
+      "nameRequired": "Indtast dit navn",
+      "emailRequired": "Indtast din e-mail",
+      "passwordRequired": "Indtast din adgangskode",
+      "captchaInvalid": "Captcha-bekræftelse mislykkedes",
+      "captchaError": "Fejl ved captcha-bekræftelse"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Glemt adgangskode",
+      "email": "E-mail",
+      "send": "Send nulstillingslink",
+      "backToLogin": "Tilbage til login",
+      "checkEmail": "Hvis der findes en konto med denne e-mail, har vi sendt et nulstillingslink. Tjek din indbakke.",
+      "emailRequired": "Indtast din e-mail",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Ingen konto fundet med denne e-mail",
+        "tooManyRequests": "For mange forsøg. Prøv igen senere",
+        "serverError": "Noget gik galt. Prøv igen"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Nulstil adgangskode",
+      "password": "Ny adgangskode",
+      "reset": "Nulstil adgangskode",
+      "backToLogin": "Tilbage til login",
+      "showPassword": "Vis adgangskode",
+      "hidePassword": "Skjul adgangskode",
+      "minLength": "Adgangskoden skal være mindst 8 tegn",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Nulstillingslinket er udløbet. Anmod om et nyt",
+        "invalidToken": "Ugyldigt nulstillingslink. Anmod om et nyt",
+        "tooManyRequests": "For mange forsøg. Prøv igen senere",
+        "serverError": "Noget gik galt. Prøv igen"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Noget gik galt!",
+      "tryAgain": "Prøv venligst igen.",
+      "backToLogin": "Tilbage til login",
+      "checkEmail": "Tjek din indbakke"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Servicevilkår",
+      "privacyPolicy": "Privatlivspolitik",
+      "byClickingContinue": "Ved at klikke på fortsæt accepterer du vores ",
+      "and": " og "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Hjem"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "Ofte stillede spørgsmål"
       },
       "about": {
-        "title": "Om"
+        "title": "Om os"
       },
       "contact": {
         "title": "Kontakt"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Upload en video og få et permanent link til deling",
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Funktioner",
+          "faq": "Ofte stillede spørgsmål"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Virksomhed",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Om os",
+          "contact": "Kontakt"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridisk",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookiepolitik",
+          "privacyPolicy": "Privatlivspolitik",
+          "termsOfService": "Servicevilkår"
         }
       }
     },
     "avatar": {
       "dashboard": "Arbejdsområde",
       "resources": "Mine ressourcer",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Fakturering",
+      "settings": "Indstillinger"
     }
   },
   "Dashboard": {
@@ -478,22 +266,22 @@
       "loading": "Indlæser oversigt…",
       "resourceCount": "Videoer",
       "videoCountLabel": "Videoer i Mine ressourcer",
-      "storageFullHint": "Lagerpladsen i gratis prøveperioden er fuld. Slet nogle videoer; planer med større kapacitet kommer snart.",
+      "storageFullHint": "Den gratis prøvelagerplads er fuld. Slet nogle videoer; planer med mere plads kommer snart.",
       "entryResourcesTitle": "Mine ressourcer",
       "entryResourcesDesc": "Dine uploadede videoer ligger her — kopiér links, åbn eller slet når som helst.",
-      "entryUploadTitle": "Upload video",
-      "entryUploadDesc": "Slip en video på forsiden, og få et delbart link på få sekunder.",
+      "entryUploadTitle": "Upload en video",
+      "entryUploadDesc": "Slip en video på forsiden og få et link til deling på få sekunder.",
       "entryFilesTitle": "Mine ressourcer",
-      "entryFilesDesc": "Uploads, mens du er logget ind, gemmes på din konto. Kopiér URL’en, eller fjern filer du ikke længere har brug for.",
-      "entryFilesCta": "Åbn mine ressourcer",
+      "entryFilesDesc": "Uploads mens du er logget ind gemmes på din konto. Kopiér URL'en, eller fjern filer du ikke længere har brug for.",
+      "entryFilesCta": "Åbn Mine ressourcer",
       "filesPointUploadTitle": "Mange formater",
-      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV og mere",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV m.fl.",
       "filesPointManageTitle": "Administrer links",
       "filesPointManageBody": "Kopiér, åbn eller slet fra Mine ressourcer",
       "filesPointFreeTitle": "Gratis lagerplads",
       "filesPointFreeBody": "300 MB gratis til hostede videoer",
       "filesPointPaidTitle": "Betalte planer",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB lagerplads"
     },
     "resources": {
       "title": "Mine ressourcer",
@@ -505,14 +293,14 @@
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktiv",
-      "planHintFree": "Gratis prøveperiode er tilgængelig nu. Planer med større kapacitet kommer snart.",
+      "planHintFree": "Gratis prøveperiode er tilgængelig nu. Planer med mere plads kommer snart.",
       "planHintPro": "Du er på Pro (10 GB). Lifetime låser 100 GB op.",
       "planHintLifetime": "Alle funktioner er låst op",
-      "description": "Videoer du har uploadet, mens du var logget ind. Upload her, forhåndsvis, download eller slet når som helst.",
+      "description": "Videoer du uploadede, mens du var logget ind. Upload her, forhåndsvis, download eller slet når som helst.",
       "empty": "Ingen videoer endnu",
-      "emptyHint": "Klik på Upload eller +-kortet for at tilføje din første video.",
-      "goUpload": "Upload video",
-      "upload": "Upload",
+      "emptyHint": "Klik på Upload eller + -kortet for at tilføje din første video.",
+      "goUpload": "Upload en video",
+      "upload": "Upload fil",
       "uploading": "Uploader…",
       "uploadSuccess": "Upload fuldført",
       "uploadFailed": "Upload mislykkedes",
@@ -542,11 +330,11 @@
       "copied": "URL kopieret",
       "copyFailed": "Kunne ikke kopiere",
       "open": "Åbn",
-      "preview": "Forhåndsvis",
+      "preview": "Forhåndsvisning",
       "previewClose": "Luk",
       "shareCodes": "Delingskoder",
-      "shareCodesDesc": "Kopiklare links til Markdown, HTML, BBCode m.m.",
-      "download": "Download",
+      "shareCodesDesc": "Klar-til-kopiering-links til Markdown, HTML, BBCode og mere.",
+      "download": "Hent",
       "delete": "Slet",
       "deleteTitle": "Slet video",
       "deleteConfirm": "Dette fjerner videoen permanent fra din konto. Handlingen kan ikke fortrydes.",
@@ -558,310 +346,221 @@
       "pageNext": "Næste"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Administration",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Brugere",
+        "fakeData": "Bemærk: Falske data til demonstration; nogle funktioner er deaktiveret",
+        "error": "Kunne ikke hente brugere",
+        "search": "Søg brugere...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Kolonner",
+          "name": "Navn",
+          "email": "E-mail",
+          "role": "Rolle",
+          "createdAt": "Oprettet",
+          "customerId": "Kunde-ID",
+          "status": "Tilstand",
+          "banReason": "Blokéringsårsag",
+          "banExpires": "Blokering udløber"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Administrator",
+        "user": "Bruger",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mail bekræftet",
+          "unverified": "E-mail ikke bekræftet"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mail kopieret til udklipsholder",
+        "banned": "Blokeret",
+        "active": "Aktiv",
+        "joined": "Tilmeldt",
+        "updated": "Opdateret",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Blokéringsårsag",
+          "reasonPlaceholder": "Angiv årsagen til at blokere denne bruger",
+          "defaultReason": "Spam",
+          "never": "Aldrig",
+          "expires": "Blokering udløber",
+          "selectDate": "Vælg dato",
+          "button": "Blokér bruger",
+          "success": "Brugeren er blevet blokeret",
+          "error": "Kunne ikke blokere bruger"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Fjern blokering",
+          "success": "Blokeringen er fjernet",
+          "error": "Kunne ikke fjerne blokering"
         },
-        "close": "Close"
+        "close": "Luk"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Indstillinger",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Administrer dine kontooplysninger",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Profilbillede",
+          "description": "Klik på upload-knappen for at uploade en tilpasset",
+          "recommendation": "En avatar er valgfri, men stærkt anbefalet",
+          "uploading": "Uploader...",
+          "uploadAvatar": "Upload avatar",
+          "success": "Avatar opdateret",
+          "fail": "Kunne ikke opdatere avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Navn",
+          "description": "Indtast dit visningsnavn",
+          "placeholder": "Indtast dit navn",
+          "minLength": "Brug mindst 3 tegn",
+          "maxLength": "Brug højst 30 tegn",
+          "hint": "Brug 3–30 tegn til dit navn",
+          "success": "Navn opdateret",
+          "fail": "Kunne ikke opdatere navn",
+          "saving": "Gemmer...",
+          "save": "Gem"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Fakturering",
+        "description": "Administrer dit abonnement og dine faktureringsoplysninger",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktiv",
+          "trial": "Prøve",
+          "free": "Gratis",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "måned",
+          "year": "år",
+          "oneTime": "engangsbetaling"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Nuværende plan",
+          "description": "Detaljer om din nuværende plan",
+          "noPlan": "Du har ingen aktiv plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Indlæser...",
+          "createCustomerPortalFailed": "Kunne ikke åbne Stripe-kundeportalen"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Pris:",
+        "periodStartDate": "Periodens startdato:",
+        "periodEndDate": "Periodens slutdato:",
+        "trialEnds": "Prøveperioden slutter:",
+        "freePlanMessage": "Du er i øjeblikket på gratisplanen med begrænsede funktioner",
+        "lifetimeMessage": "Du har livstidsadgang til alle premium-funktioner",
+        "manageSubscription": "Administrer abonnement og fakturering",
+        "manageBilling": "Administrer fakturering",
+        "upgradePlan": "Opgrader plan",
+        "retry": "Prøv igen",
+        "errorMessage": "Kunne ikke hente data",
+        "paymentSuccess": "Betaling gennemført"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Behandler betaling",
+          "description": "Vent venligst, mens vi bekræfter din betaling..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Betaling gennemført",
+          "description": "Omdirigerer automatisk..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Betaling mislykkedes",
+          "description": "Der opstod et problem under behandlingen af din betaling."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Tidsfrist for behandling",
+          "description": "Betalingsbehandlingen tager længere tid end forventet."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Prøv igen"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Sikkerhed",
+        "description": "Administrer dine sikkerhedsindstillinger",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Skift adgangskode",
+          "description": "Indtast din nuværende adgangskode og en ny",
+          "currentPassword": "Nuværende adgangskode",
+          "currentRequired": "Nuværende adgangskode er påkrævet",
+          "newPassword": "Ny adgangskode",
+          "newMinLength": "Adgangskoden skal være mindst 8 tegn",
+          "hint": "Brug mindst 8 tegn til adgangskoden",
+          "showPassword": "Vis adgangskode",
+          "hidePassword": "Skjul adgangskode",
+          "success": "Adgangskode opdateret",
+          "fail": "Kunne ikke opdatere adgangskode",
+          "saving": "Gemmer...",
+          "save": "Gem"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Nulstil adgangskode",
+          "description": "Nulstil adgangskode for at aktivere login med e-mail",
+          "info": "Når du nulstiller din adgangskode, kan du logge ind med e-mail og adgangskode ud over dine sociale loginmetoder. Du modtager en e-mail med instruktioner til at nulstille adgangskoden",
+          "button": "Nulstil adgangskode"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Slet konto",
+          "description": "Fjern permanent din konto og alt dens indhold",
+          "warning": "Denne handling kan ikke fortrydes — fortsæt med forsigtighed",
+          "button": "Slet konto",
+          "confirmTitle": "Slet konto",
+          "confirmDescription": "Er du sikker på, at du vil slette din konto? Handlingen kan ikke fortrydes.",
+          "confirm": "Slet",
+          "cancel": "Annuller",
+          "deleting": "Sletter...",
+          "success": "Konto slettet",
+          "fail": "Kunne ikke slette konto"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Planer med større kapacitet kommer snart. Gratis prøveperiode er tilgængelig nu.",
-      "button": "Upgrade"
+      "title": "Opgrader",
+      "description": "Planer med mere plads kommer snart. Gratis prøveperiode er tilgængelig nu.",
+      "button": "Opgrader"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name}-teamet",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hej, {name}.",
+      "body": "Klik på linket nedenfor for at bekræfte din e-mailadresse.",
+      "confirmEmail": "Bekræft e-mail",
+      "subject": "Bekræft din e-mail"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hej, {name}.",
+      "body": "Vi har modtaget en anmodning om at nulstille din MP4toURL-adgangskode. Klik på knappen nedenfor for at vælge en ny adgangskode. Hvis du ikke har anmodet om dette, kan du ignorere denne e-mail.",
+      "resetPassword": "Nulstil adgangskode",
+      "subject": "Nulstil din MP4toURL-adgangskode"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Navn: {name}",
+      "email": "E-mail: {email}",
+      "message": "Besked: {message}",
+      "subject": "Kontaktbesked fra websitet"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KOPIKLARE KODER",
+    "sectionTitle": "KLAR-TIL-KOPIERING-KODER",
     "copyUrl": "Kopiér URL",
     "copied": "Kopieret",
     "copyFailed": "Kunne ikke kopiere",
     "openTab": "Åbn i ny fane",
     "successTitle": "Succes! Din video-URL er klar",
-    "successSubtitle": "Din video er uploadet og klar til at dele.",
-    "videoLabel": "Video",
+    "successSubtitle": "Din video er uploadet og klar til at blive delt.",
+    "videoLabel": "Filmklip",
     "watchLabel": "Se video",
     "shareLink": {
       "title": "Delingslink",
-      "desc": "Direkte link til at dele hvor som helst"
+      "desc": "Direkte link til deling overalt"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Til GitHub, Notion og dokumenter"
+      "desc": "Til GitHub, Notion og dokumentation"
     },
     "markdownLink": {
       "title": "Markdown med link",
@@ -869,11 +568,11 @@
     },
     "html": {
       "title": "HTML",
-      "desc": "Indlejr med indbygget videoafspiller"
+      "desc": "Indlejr med en indbygget videoafspiller"
     },
     "htmlLink": {
       "title": "HTML med link",
-      "desc": "Simpelt link der åbner i ny fane"
+      "desc": "Simpelt anker, der åbner i en ny fane"
     },
     "bbcode": {
       "title": "BBCode",
@@ -886,136 +585,136 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Upload en video og få et permanent link til deling",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Gratis video-til-URL-konverter",
+      "description": "Upload MP4-videoer og få permanente links til deling på få sekunder.",
+      "tagline": "Understøtter MP4, MOV, AVI, WebM, MKV op til 300MB. Ingen registrering påkrævet.",
+      "uploadHeading": "Upload din video",
+      "uploadTitle": "Slip din video her, eller klik for at gennemse",
+      "uploadHint": "Understøtter MP4, MOV, AVI, WebM, MKV op til 300MB",
+      "maxSize": "Maksimal filstørrelse: 300MB",
+      "convert": "Konvertér til URL",
+      "uploading": "Uploader...",
+      "copy": "Kopiér link",
+      "copied": "Kopieret",
       "guestSuccessHint": "Din video er uploadet. Kopiér linket nedenfor for at dele den.",
       "registerForCodesTitle": "Vil du have Markdown, HTML og BBCode?",
-      "registerForCodesDesc": "Opret dig gratis for at låse op for kopiklare indlejringskoder, og administrer alle videoer under Mine ressourcer.",
-      "registerCta": "Opret dig gratis",
+      "registerForCodesDesc": "Tilmeld dig gratis for at låse indlejringskoder op, der er klar til kopiering, og administrer alle videoer i Mine ressourcer.",
+      "registerCta": "Tilmeld dig gratis",
       "uploadAnother": "Upload en anden video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Upload mislykkedes. Prøv igen.",
+      "unsupportedType": "Filtypen understøttes ikke. Upload MP4, MOV, AVI, WebM eller MKV.",
+      "fileTooLarge": "Filen er for stor. Gratisplanen tillader op til 300MB pr. fil."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Hvorfor vælge MP4 to URL",
+      "subtitle": "Bygget til hastighed, privatliv og permanente medielinks.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Lynhurtigt",
+          "description": "Upload og konvertér dine videoer til links til deling på få sekunder. Ingen ventetid, ingen køer."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Sikkert og privat",
+          "description": "Dine videoer overføres via HTTPS og hostes med privatlivsførst-kontroller."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Permanente links",
+          "description": "Få permanente links, der aldrig udløber. Ideelt til dokumentation, tickets og social deling."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video til URL på få sekunder"
+      "title": "Video til URL på få sekunder",
+      "subtitle": "Fra lokal fil til link til deling",
+      "description": "Upload MP4 og relaterede formater, og få en ren permanent URL, du kan indsætte i dokumenter, chats og opslag.",
+      "point1": "Slip en video fra din enhed",
+      "point2": "Konvertér på få sekunder — ingen tilmelding til almindelig brug",
+      "point3": "Kopiér et permanent link og del det overalt",
+      "imageAlt": "mp4tourl.com-collage: gør videoen delbar",
+      "imageAltNew": "mp4tourl.com: video til URL på få sekunder, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Sådan gør du",
+      "subtitle": "Tre trin fra lokal fil til URL til deling.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Vælg en video",
+          "description": "Træk og slip, eller gennemse efter MP4, MOV, AVI, WebM eller MKV (op til 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Konvertér til URL",
+          "description": "Klik på Konvertér til URL. Behandlingen er som regel færdig på få sekunder."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopiér og del",
+          "description": "Kopiér det permanente link, og brug det i dokumenter, chats, på websites eller i sociale opslag."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Scenarier",
-      "subtitle": "Fra lokal video til delbart link.",
-      "description": "Slip en fil og få en ren URL til docs, chats og opslag — se et par eksempler nedenfor.",
+      "title": "Scener",
+      "subtitle": "Fra lokal video til et link til deling.",
+      "description": "Slip en fil, få en ren URL til dokumenter, chats og opslag — se et par udtryk nedenfor.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Gør et lokalt klip til en delbar adresse på få sekunder."
+          "description": "Gør et lokalt klip til en adresse til deling på få sekunder."
         },
         "newStyle": {
           "title": "Del overalt",
-          "description": "Indsæt linket i dokumenter, tickets og opslag på sociale medier."
+          "description": "Indsæt linket i dokumenter, tickets og sociale opslag."
         },
         "dark": {
-          "title": "Pålidelig hosting",
+          "title": "Ren hosting",
           "description": "Hold videoer tilgængelige med en stabil, permanent URL."
         },
         "retro": {
           "title": "Hurtig konvertering",
-          "description": "Upload én gang, kopier linket og genbrug det, når du har brug for det."
+          "description": "Upload én gang, kopiér linket, og genbrug det, når du har brug for det."
         }
       }
     },
     "faqs": {
       "title": "Ofte stillede spørgsmål",
-      "subtitle": "Det, du måske vil vide om video til URL.",
+      "subtitle": "Det du måske gerne vil vide om video til URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Hvad er en video-til-URL-konverter?",
+          "answer": "En video-til-URL-konverter uploader din lokale videofil og returnerer et direkte weblink, du kan dele overalt."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Hvordan fungerer konvertering fra video til URL?",
+          "answer": "Upload din video, vent til behandlingen er færdig, og kopiér derefter den genererede URL. Du kan åbne, dele eller indlejre linket med det samme."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Hvilke videoformater understøttes?",
+          "answer": "Understøttede formater omfatter MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP og FLV. Gratisniveauet tillader op til 300MB pr. fil."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Er de genererede videolinks permanente?",
+          "answer": "Ja. De genererede links er designet til langsigtet deling, så din video-URL forbliver stabil og genbrugelig."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Hvor kan jeg bruge video-URL'en?",
+          "answer": "Du kan bruge den i dokumentation, ticketsystemer, chats, på websites, i sociale opslag og i værktøjer til teamsamarbejde."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Er denne video-til-URL-konverter gratis?",
+          "answer": "Ja. Det standard video-til-URL-flow er gratis inden for de nuværende uploadgrænser."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Hvor sikker er video-upload og hosting?",
+          "answer": "Uploads bruger HTTPS-overførsel og hostes til stabil levering, så du får pålidelige links til at dele videoindhold."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Den nemmeste måde at dele videoer på",
+      "description": "MP4 to URL er et gratis og hurtigt mediehosting-flow til udviklere, skabere og teams. Konvertér videoer til permanente URL'er på få sekunder, og del dem overalt.",
+      "primaryButton": "Konvertér til URL",
+      "secondaryButton": "Læs FAQ"
     }
   }
 }

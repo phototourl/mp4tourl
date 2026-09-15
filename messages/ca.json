@@ -1,473 +1,261 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Convertidor gratuït de vídeo a URL: puja MP4 i obtén enllaços per compartir",
+    "description": "Puja MP4, MOV, AVI, WebM, MKV i obtén URL permanents per compartir en qüestió de segons. Allotjament de vídeo gratuït fins a 300MB — sense registre."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Inicia la sessió",
+    "logout": "Tanca la sessió",
+    "signUp": "Registra't",
+    "language": "Canvia l'idioma",
+    "languageHint": "Si tries una regió, canviarà l'idioma i el contingut.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Canvia el mode",
+      "light": "Clar",
+      "dark": "Fosc",
+      "system": "Sistema"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Canvia el tema",
+      "default": "Per defecte",
+      "blue": "Blau",
+      "green": "Verd",
+      "amber": "Ambre",
+      "neutral": "Neutre"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Copia",
+    "saving": "S'està desant...",
+    "save": "Desa",
+    "loading": "S'està carregant...",
+    "cancel": "Cancel·la",
+    "logoutFailed": "No s'ha pogut tancar la sessió",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
+      "totalRecords": "Total de {count} registres",
+      "noResults": "Sense resultats",
+      "loading": "S'està carregant...",
+      "columns": "Columnes",
+      "rowsPerPage": "Files per pàgina",
+      "page": "Pàgina",
+      "firstPage": "Primera pàgina",
+      "lastPage": "Última pàgina",
+      "nextPage": "Pàgina següent",
+      "previousPage": "Pàgina anterior",
       "ascending": "Asc",
       "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
     }
   },
   "PricePlans": {
     "free": {
       "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "description": "Allotja vídeos i obtén un URL permanent per compartir",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Mida de pujada: 300MB",
+        "feature-2": "Enllaços CDN permanents",
+        "feature-3": "Sense registre",
+        "feature-4": "Suport de la comunitat"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Dominis personalitzats",
+        "limit-2": "Marca personalitzada",
+        "limit-3": "Actualitzacions de per vida"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Límits més alts i historial de pujades per a creadors actius",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Pujades de vídeo més grans",
+        "feature-2": "10 GB d'emmagatzematge",
+        "feature-3": "Historial de pujades",
+        "feature-4": "Suport prioritari",
+        "feature-5": "Dominis personalitzats"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Marca personalitzada",
+        "limit-2": "Actualitzacions de per vida"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Paga una sola vegada per a capacitat d'allotjament de vídeo a llarg termini",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Totes les funcions Pro",
+        "feature-2": "100 GB d'emmagatzematge",
+        "feature-3": "Suport dedicat",
+        "feature-4": "Seguretat de nivell empresarial",
+        "feature-5": "Integracions avançades",
+        "feature-6": "Marca personalitzada",
+        "feature-7": "Actualitzacions de per vida"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Ho sentim, la pàgina que busques no existeix.",
+    "backToHome": "Torna a l'inici"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ui! Alguna cosa ha anat malament!",
+    "tryAgain": "Torna-ho a provar",
+    "backToHome": "Torna a l'inici"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Quant a",
+    "description": "MP4toURL converteix els teus vídeos en enllaços permanents per compartir: puja MP4, MOV, AVI, WebM o MKV i comparteix-los en segons.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "Marca MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Convertidor gratuït de vídeo a URL",
+    "introduction": "MP4toURL és una manera ràpida i gratuïta d'allotjar i compartir vídeos. Puja un fitxer, obtén un enllaç CDN permanent i utilitza'l on vulguis — sense configuracions complicades.",
+    "imageAlt": "Marca de MP4toURL",
+    "talkWithMe": "Contacta'ns",
+    "followMe": "Segueix-nos a X"
   },
   "ContactPage": {
     "title": "Contacte",
-    "description": "Envieu-nos un missatge sobre pujades de vídeo, enllaços compartibles o el vostre compte. Llegim cada missatge i responem tan aviat com podem.",
-    "subtitle": "Preguntes sobre MP4toURL? Ens encanta ajudar.",
-    "orEmail": "O envieu-nos un correu a",
+    "description": "Envia un missatge sobre pujades de vídeo, enllaços per compartir o el teu compte. Llegim tots els missatges i responem tan aviat com podem.",
+    "subtitle": "Tens preguntes sobre MP4toURL? Estarem encantats d'ajudar-te.",
+    "orEmail": "O escriu-nos a",
     "form": {
       "title": "Missatge",
-      "description": "Envieu un missatge i us respondrem tan aviat com sigui possible.",
+      "description": "Envia un missatge i et respondrem tan aviat com puguem.",
       "name": "Assumpte",
       "email": "Correu electrònic",
       "message": "Missatge",
-      "namePlaceholder": "Introduïu l'assumpte",
+      "namePlaceholder": "Introdueix l'assumpte",
       "emailPlaceholder": "Correu electrònic",
-      "messagePlaceholder": "Introduïu el missatge",
-      "submit": "Enviar",
-      "submitting": "S'està enviant…",
-      "success": "Missatge enviat correctament. Us respondrem tan aviat com puguem.",
+      "messagePlaceholder": "Introdueix el missatge",
+      "submit": "Envia",
+      "submitting": "S'està enviant...",
+      "success": "Missatge enviat correctament. Et respondrem tan aviat com puguem.",
       "minLength": "L'assumpte ha de tenir com a mínim 3 caràcters.",
       "maxLengthName": "L'assumpte no pot superar els 100 caràcters.",
-      "invalidEmail": "Introduïu una adreça de correu vàlida.",
+      "invalidEmail": "Introdueix una adreça de correu vàlida.",
       "minLengthMessage": "El missatge ha de tenir com a mínim 10 caràcters.",
       "maxLengthMessage": "El missatge no pot superar els 2000 caràcters.",
-      "invalid": "S'ha produït un error. Torneu-ho a provar."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "invalid": "Alguna cosa ha anat malament. Torna-ho a provar."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Inici de sessió",
+      "welcomeBack": "Benvingut de nou",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "signIn": "Inicia la sessió",
+      "signUpHint": "No tens un compte? Registra't",
+      "forgotPassword": "Has oblidat la contrasenya?",
+      "signInWithGoogle": "Inicia la sessió amb Google",
+      "showPassword": "Mostra la contrasenya",
+      "hidePassword": "Amaga la contrasenya",
+      "or": "O continua amb",
+      "emailRequired": "Introdueix el teu correu electrònic",
+      "passwordRequired": "Introdueix la teva contrasenya",
+      "captchaInvalid": "La verificació captcha ha fallat",
+      "captchaError": "Error de verificació captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Registre",
+      "createAccount": "Crea un compte",
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "signUp": "Registra't",
+      "signInHint": "Ja tens un compte? Inicia la sessió",
+      "checkEmail": "Revisa la safata d'entrada del correu",
+      "showPassword": "Mostra la contrasenya",
+      "hidePassword": "Amaga la contrasenya",
+      "nameRequired": "Introdueix el teu nom",
+      "emailRequired": "Introdueix el teu correu electrònic",
+      "passwordRequired": "Introdueix la teva contrasenya",
+      "captchaInvalid": "La verificació captcha ha fallat",
+      "captchaError": "Error de verificació captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Contrasenya oblidada",
+      "email": "Correu electrònic",
+      "send": "Envia l'enllaç de restabliment",
+      "backToLogin": "Torna a l'inici de sessió",
+      "checkEmail": "Si existeix un compte amb aquest correu, hem enviat un enllaç de restabliment. Revisa la safata d'entrada.",
+      "emailRequired": "Introdueix el teu correu electrònic",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "No s'ha trobat cap compte amb aquest correu",
+        "tooManyRequests": "Massa intents. Torna-ho a provar més tard",
+        "serverError": "Alguna cosa ha anat malament. Torna-ho a provar"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Restableix la contrasenya",
+      "password": "Contrasenya nova",
+      "reset": "Restableix la contrasenya",
+      "backToLogin": "Torna a l'inici de sessió",
+      "showPassword": "Mostra la contrasenya",
+      "hidePassword": "Amaga la contrasenya",
+      "minLength": "La contrasenya ha de tenir com a mínim 8 caràcters",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "L'enllaç de restabliment ha caducat. Sol·licita'n un de nou",
+        "invalidToken": "Enllaç de restabliment no vàlid. Sol·licita'n un de nou",
+        "tooManyRequests": "Massa intents. Torna-ho a provar més tard",
+        "serverError": "Alguna cosa ha anat malament. Torna-ho a provar"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ui! Alguna cosa ha anat malament!",
+      "tryAgain": "Torna-ho a provar.",
+      "backToLogin": "Torna a l'inici de sessió",
+      "checkEmail": "Revisa la safata d'entrada del correu"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Condicions del servei",
+      "privacyPolicy": "Política de privadesa",
+      "byClickingContinue": "En fer clic a continuar, acceptes les nostres ",
+      "and": " i "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Inici"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "PMF"
       },
       "about": {
         "title": "Quant a"
       },
       "contact": {
         "title": "Contacte"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Puja un vídeo i obtén un enllaç permanent per compartir",
       "product": {
-        "title": "Product",
+        "title": "Producte",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Funcions",
+          "faq": "PMF"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Empresa",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Quant a",
+          "contact": "Contacte"
         }
       },
       "legal": {
         "title": "Legal",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Política de galetes",
+          "privacyPolicy": "Política de privadesa",
+          "termsOfService": "Condicions del servei"
         }
       }
     },
     "avatar": {
       "dashboard": "Espai de treball",
       "resources": "Els meus recursos",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Facturació",
+      "settings": "Configuració"
     }
   },
   "Dashboard": {
@@ -475,21 +263,21 @@
       "title": "Espai de treball"
     },
     "home": {
-      "loading": "S’està carregant la vista general…",
+      "loading": "S'està carregant la vista general…",
       "resourceCount": "Vídeos",
       "videoCountLabel": "Vídeos a Els meus recursos",
-      "storageFullHint": "L’espai de la prova gratuïta és ple. Suprimiu alguns vídeos; aviat hi haurà plans amb més capacitat.",
+      "storageFullHint": "L'emmagatzematge de la prova gratuïta està ple. Suprimeix alguns vídeos; aviat arribaran plans amb més capacitat.",
       "entryResourcesTitle": "Els meus recursos",
-      "entryResourcesDesc": "Els vídeos pujats són aquí: copieu enllaços, obriu-los o elimineu-los quan vulgueu.",
-      "entryUploadTitle": "Pujar vídeo",
-      "entryUploadDesc": "Deixeu anar un vídeo a la pàgina d’inici i obteniu un enllaç per compartir en pocs segons.",
+      "entryResourcesDesc": "Els teus vídeos pujats són aquí: copia enllaços, obre'ls o suprimeix-los quan vulguis.",
+      "entryUploadTitle": "Puja un vídeo",
+      "entryUploadDesc": "Deixa anar un vídeo a la pàgina d'inici i obtén un enllaç per compartir en segons.",
       "entryFilesTitle": "Els meus recursos",
-      "entryFilesDesc": "Les pujades amb la sessió iniciada es desen al compte. Copieu l’URL o elimineu fitxers innecessaris.",
-      "entryFilesCta": "Obrir els meus recursos",
+      "entryFilesDesc": "Les pujades amb sessió iniciada es desen al teu compte. Copia l'URL o elimina els fitxers que ja no necessitis.",
+      "entryFilesCta": "Obre Els meus recursos",
       "filesPointUploadTitle": "Molts formats",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV i més",
-      "filesPointManageTitle": "Gestionar enllaços",
-      "filesPointManageBody": "Copiar, obrir o eliminar des d’Els meus recursos",
+      "filesPointManageTitle": "Gestiona els enllaços",
+      "filesPointManageBody": "Copia, obre o suprimeix des d'Els meus recursos",
       "filesPointFreeTitle": "Emmagatzematge gratuït",
       "filesPointFreeBody": "300 MB gratuïts per a vídeos allotjats",
       "filesPointPaidTitle": "Plans de pagament",
@@ -499,24 +287,24 @@
       "title": "Els meus recursos",
       "welcome": "Benvingut de nou, {name}",
       "storage": "Emmagatzematge",
-      "storageHint": "Espai d’allotjament de vídeo usat",
+      "storageHint": "Espai d'allotjament de vídeo utilitzat",
       "planCardTitle": "Pla actual",
-      "planFree": "Gratuït",
+      "planFree": "Free",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Actiu",
-      "planHintFree": "Ara podeu fer la prova gratuïta. Aviat hi haurà plans amb més capacitat.",
-      "planHintPro": "Esteu a Pro (10 GB). Lifetime desbloqueja 100 GB.",
+      "planHintFree": "La prova gratuïta ja està disponible. Aviat arribaran plans amb més capacitat.",
+      "planHintPro": "Estàs al pla Pro (10 GB). Lifetime desbloqueja 100 GB.",
       "planHintLifetime": "Totes les funcions desbloquejades",
-      "description": "Vídeos que has pujat amb la sessió iniciada. Puja aquí, previsualitza, descarrega o elimina quan vulguis.",
+      "description": "Vídeos que has pujat amb la sessió iniciada. Puja aquí, previsualitza, descarrega o suprimeix quan vulguis.",
       "empty": "Encara no hi ha vídeos",
-      "emptyHint": "Fes clic a Pujar o a la targeta + per afegir el primer vídeo.",
-      "goUpload": "Pujar vídeo",
-      "upload": "Pujar",
-      "uploading": "S’està pujant…",
+      "emptyHint": "Fes clic a Puja o a la targeta + per afegir el teu primer vídeo.",
+      "goUpload": "Puja un vídeo",
+      "upload": "Puja",
+      "uploading": "S'està pujant…",
       "uploadSuccess": "Pujada completada",
       "uploadFailed": "La pujada ha fallat",
-      "unsupportedType": "Només s’admeten formats de vídeo (MP4, MOV, AVI, WebM, MKV…)",
+      "unsupportedType": "Només s'admeten formats de vídeo (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "El fitxer és massa gran. El pla gratuït permet fins a 300MB per fitxer.",
       "filterFormat": "Tipus de fitxer",
       "formatAll": "Tots els tipus",
@@ -533,25 +321,25 @@
       "usageStorage": "Emmagatzematge",
       "viewGrid": "Vista de graella",
       "viewList": "Vista de llista",
-      "loading": "S’està carregant…",
-      "loadError": "No s’han pogut carregar els recursos",
+      "loading": "S'està carregant…",
+      "loadError": "No s'han pogut carregar els recursos",
       "searchPlaceholder": "Cerca per nom de fitxer…",
       "search": "Cerca",
       "reset": "Restableix",
-      "copyUrl": "Copia l’URL",
+      "copyUrl": "Copia l'URL",
       "copied": "URL copiat",
-      "copyFailed": "No s’ha pogut copiar",
+      "copyFailed": "No s'ha pogut copiar",
       "open": "Obre",
       "preview": "Previsualitza",
       "previewClose": "Tanca",
       "shareCodes": "Codis per compartir",
-      "shareCodesDesc": "Enllaços a punt per copiar per a Markdown, HTML, BBCode i més.",
+      "shareCodesDesc": "Enllaços llestos per copiar per a Markdown, HTML, BBCode i més.",
       "download": "Descarrega",
-      "delete": "Elimina",
-      "deleteTitle": "Eliminar vídeo",
-      "deleteConfirm": "Això elimina el vídeo del teu compte de forma permanent. No es pot desfer.",
-      "deleteSuccess": "Vídeo eliminat",
-      "deleteFailed": "No s’ha pogut eliminar el vídeo",
+      "delete": "Suprimeix",
+      "deleteTitle": "Suprimeix el vídeo",
+      "deleteConfirm": "Això elimina permanentment el vídeo del teu compte. No es pot desfer.",
+      "deleteSuccess": "Vídeo suprimit",
+      "deleteFailed": "No s'ha pogut suprimir el vídeo",
       "cancel": "Cancel·la",
       "totalCount": "{total} en total",
       "pagePrev": "Anterior",
@@ -560,320 +348,231 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Usuaris",
+        "fakeData": "Nota: Dades simulades per a la demostració; algunes funcions estan desactivades",
+        "error": "No s'han pogut obtenir els usuaris",
+        "search": "Cerca usuaris...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Columnes",
+          "name": "Nom",
+          "email": "Correu electrònic",
+          "role": "Rol",
+          "createdAt": "Creat el",
+          "customerId": "ID de client",
+          "status": "Estat",
+          "banReason": "Motiu del bloqueig",
+          "banExpires": "El bloqueig caduca"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Usuari",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Correu verificat",
+          "unverified": "Correu no verificat"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Correu copiat al porta-retalls",
+        "banned": "Bloquejat",
+        "active": "Actiu",
+        "joined": "S'hi ha unit el",
+        "updated": "Actualitzat el",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Motiu del bloqueig",
+          "reasonPlaceholder": "Introdueix el motiu per bloquejar aquest usuari",
+          "defaultReason": "Spam",
+          "never": "Mai",
+          "expires": "El bloqueig caduca",
+          "selectDate": "Selecciona la data",
+          "button": "Bloqueja l'usuari",
+          "success": "L'usuari ha estat bloquejat",
+          "error": "No s'ha pogut bloquejar l'usuari"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Desbloqueja l'usuari",
+          "success": "L'usuari ha estat desbloquejat",
+          "error": "No s'ha pogut desbloquejar l'usuari"
         },
-        "close": "Close"
+        "close": "Tanca"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Configuració",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Perfil",
+        "description": "Gestiona la informació del teu compte",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Fes clic al botó de pujada per pujar-ne un de personalitzat",
+          "recommendation": "L'avatar és opcional, però molt recomanable",
+          "uploading": "S'està pujant...",
+          "uploadAvatar": "Puja l'avatar",
+          "success": "Avatar actualitzat correctament",
+          "fail": "No s'ha pogut actualitzar l'avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Nom",
+          "description": "Introdueix el teu nom visible",
+          "placeholder": "Introdueix el teu nom",
+          "minLength": "Utilitza com a mínim 3 caràcters",
+          "maxLength": "Utilitza com a màxim 30 caràcters",
+          "hint": "Utilitza entre 3 i 30 caràcters per al nom",
+          "success": "Nom actualitzat correctament",
+          "fail": "No s'ha pogut actualitzar el nom",
+          "saving": "S'està desant...",
+          "save": "Desa"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Facturació",
+        "description": "Gestiona la subscripció i les dades de facturació",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
+          "active": "Actiu",
+          "trial": "Prova",
           "free": "Free",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "mes",
+          "year": "any",
+          "oneTime": "pagament únic"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Pla actual",
+          "description": "Detalls del teu pla actual",
+          "noPlan": "No tens cap pla actiu"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "S'està carregant...",
+          "createCustomerPortalFailed": "No s'ha pogut obrir el portal de client de Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Preu:",
+        "periodStartDate": "Data d'inici del període:",
+        "periodEndDate": "Data de fi del període:",
+        "trialEnds": "La prova acaba:",
+        "freePlanMessage": "Ara mateix estàs al pla gratuït amb funcions limitades",
+        "lifetimeMessage": "Tens accés de per vida a totes les funcions prèmium",
+        "manageSubscription": "Gestiona la subscripció i la facturació",
+        "manageBilling": "Gestiona la facturació",
+        "upgradePlan": "Millora el pla",
+        "retry": "Torna-ho a provar",
+        "errorMessage": "No s'han pogut obtenir les dades",
+        "paymentSuccess": "Pagament correcte"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "S'està processant el pagament",
+          "description": "Espera mentre confirmem el teu pagament..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Pagament correcte",
+          "description": "Redirecció automàtica..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "El pagament ha fallat",
+          "description": "Hi ha hagut un problema en processar el pagament."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Temps d'espera esgotat",
+          "description": "El processament del pagament està trigant més del previst."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Torna-ho a provar"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Seguretat",
+        "description": "Gestiona la configuració de seguretat",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Canvia la contrasenya",
+          "description": "Introdueix la contrasenya actual i una de nova",
+          "currentPassword": "Contrasenya actual",
+          "currentRequired": "La contrasenya actual és obligatòria",
+          "newPassword": "Contrasenya nova",
+          "newMinLength": "La contrasenya ha de tenir com a mínim 8 caràcters",
+          "hint": "Utilitza com a mínim 8 caràcters per a la contrasenya",
+          "showPassword": "Mostra la contrasenya",
+          "hidePassword": "Amaga la contrasenya",
+          "success": "Contrasenya actualitzada correctament",
+          "fail": "No s'ha pogut actualitzar la contrasenya",
+          "saving": "S'està desant...",
+          "save": "Desa"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Restableix la contrasenya",
+          "description": "Restableix la contrasenya per activar l'inici de sessió amb correu",
+          "info": "Restablir la contrasenya et permetrà iniciar la sessió amb correu i contrasenya a més dels mètodes socials. Rebràs un correu amb instruccions per restablir-la",
+          "button": "Restableix la contrasenya"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Suprimeix el compte",
+          "description": "Elimina permanentment el teu compte i tot el seu contingut",
+          "warning": "Aquesta acció no es pot desfer; continua amb precaució",
+          "button": "Suprimeix el compte",
+          "confirmTitle": "Suprimeix el compte",
+          "confirmDescription": "Segur que vols suprimir el compte? Aquesta acció no es pot desfer.",
+          "confirm": "Suprimeix",
+          "cancel": "Cancel·la",
+          "deleting": "S'està suprimint...",
+          "success": "Compte suprimit correctament",
+          "fail": "No s'ha pogut suprimir el compte"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Aviat hi haurà plans amb més capacitat. Ara podeu fer la prova gratuïta.",
-      "button": "Upgrade"
+      "title": "Millora",
+      "description": "Aviat arribaran plans amb més capacitat. La prova gratuïta ja està disponible.",
+      "button": "Millora"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Equip de {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hola, {name}.",
+      "body": "Fes clic a l'enllaç següent per verificar la teva adreça de correu.",
+      "confirmEmail": "Confirma el correu",
+      "subject": "Verifica el teu correu"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hola, {name}.",
+      "body": "Hem rebut una sol·licitud per restablir la contrasenya de MP4toURL. Fes clic al botó següent per triar-ne una de nova. Si no ho has sol·licitat tu, pots ignorar aquest correu.",
+      "resetPassword": "Restableix la contrasenya",
+      "subject": "Restableix la contrasenya de MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Nom: {name}",
+      "email": "Correu: {email}",
+      "message": "Missatge: {message}",
+      "subject": "Missatge de contacte del lloc web"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODIS A PUNT PER COPIAR",
-    "copyUrl": "Copia l’URL",
+    "sectionTitle": "CODIS LLESTOS PER COPIAR",
+    "copyUrl": "Copia l'URL",
     "copied": "Copiat",
-    "copyFailed": "No s’ha pogut copiar",
+    "copyFailed": "No s'ha pogut copiar",
     "openTab": "Obre en una pestanya nova",
-    "successTitle": "Fet! L’URL del vídeo ja està a punt",
-    "successSubtitle": "El vídeo s’ha pujat i es pot compartir.",
+    "successTitle": "Fet! L'URL del vídeo ja està a punt",
+    "successSubtitle": "El vídeo s'ha pujat i ja es pot compartir.",
     "videoLabel": "Vídeo",
     "watchLabel": "Mira el vídeo",
     "shareLink": {
       "title": "Enllaç per compartir",
-      "desc": "Enllaç directe per compartir a qualsevol lloc"
+      "desc": "Enllaç directe per compartir on vulguis"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Per a GitHub, Notion i documents"
+      "desc": "Per a GitHub, Notion i documentació"
     },
     "markdownLink": {
       "title": "Markdown amb enllaç",
-      "desc": "Markdown amb una etiqueta de visualització llegible"
+      "desc": "Markdown amb una etiqueta de visionat llegible"
     },
     "html": {
       "title": "HTML",
-      "desc": "Incrusta amb el reproductor de vídeo natiu"
+      "desc": "Incrusta amb un reproductor de vídeo natiu"
     },
     "htmlLink": {
       "title": "HTML amb enllaç",
-      "desc": "Enllaç simple que s’obre en una pestanya nova"
+      "desc": "Àncora senzilla que s'obre en una pestanya nova"
     },
     "bbcode": {
       "title": "BBCode",
@@ -881,91 +580,91 @@
     },
     "bbcodeLink": {
       "title": "BBCode amb enllaç",
-      "desc": "Enllaç de fòrum amb etiqueta de visualització"
+      "desc": "Enllaç de fòrum amb etiqueta de visionat"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Puja un vídeo i obtén un enllaç permanent per compartir",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "El vídeo s’ha pujat. Copieu l’enllaç de sota per compartir-lo.",
-      "registerForCodesTitle": "Voleu Markdown, HTML i BBCode?",
-      "registerForCodesDesc": "Registreu-vos gratis per desbloquejar codis d’incrustació a punt per copiar i gestionar tots els vídeos a Els meus recursos.",
-      "registerCta": "Registreu-vos gratis",
+      "title": "Convertidor gratuït de vídeo a URL",
+      "description": "Puja vídeos MP4 i obtén enllaços permanents per compartir en qüestió de segons.",
+      "tagline": "Compatible amb MP4, MOV, AVI, WebM, MKV fins a 300MB. Sense registre.",
+      "uploadHeading": "Puja el teu vídeo",
+      "uploadTitle": "Deixa anar el vídeo aquí o fes clic per explorar",
+      "uploadHint": "Compatible amb MP4, MOV, AVI, WebM, MKV fins a 300MB",
+      "maxSize": "Mida màxima del fitxer: 300MB",
+      "convert": "Converteix a URL",
+      "uploading": "S'està pujant...",
+      "copy": "Copia l'enllaç",
+      "copied": "Copiat",
+      "guestSuccessHint": "El vídeo s'ha pujat. Copia l'enllaç de sota per compartir-lo.",
+      "registerForCodesTitle": "Vols Markdown, HTML i BBCode?",
+      "registerForCodesDesc": "Registra't gratis per desbloquejar codis d'inserció llestos per copiar i gestionar tots els vídeos a Els meus recursos.",
+      "registerCta": "Registra't gratis",
       "uploadAnother": "Puja un altre vídeo",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "La pujada ha fallat. Torna-ho a provar.",
+      "unsupportedType": "Tipus de fitxer no compatible. Puja MP4, MOV, AVI, WebM o MKV.",
+      "fileTooLarge": "El fitxer és massa gran. El pla gratuït permet fins a 300MB per fitxer."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Per què triar MP4 to URL",
+      "subtitle": "Pensat per a velocitat, privadesa i enllaços multimèdia permanents.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Ràpid com un llamp",
+          "description": "Puja i converteix els vídeos en URL per compartir en segons. Sense esperes ni cues."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Segur i privat",
+          "description": "Els teus vídeos es transfereixen per HTTPS i s'allotgen amb controls que prioritzen la privadesa."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Enllaços permanents",
+          "description": "Obtén enllaços permanents que no caduquen. Ideals per a documentació, tiquets i xarxes socials."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: vídeo a URL en segons"
+      "title": "Vídeo a URL, en segons",
+      "subtitle": "D'un fitxer local a un enllaç per compartir",
+      "description": "Puja MP4 i formats relacionats, obtén un URL permanent net que pots enganxar a documents, xats i publicacions.",
+      "point1": "Deixa anar un vídeo del teu dispositiu",
+      "point2": "Converteix en segons — sense registre per a l'ús estàndard",
+      "point3": "Copia un enllaç permanent i comparteix-lo on vulguis",
+      "imageAlt": "collage de mp4tourl.com: fes el vídeo compartible",
+      "imageAltNew": "mp4tourl.com: vídeo a URL en segons, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Com s'utilitza",
+      "subtitle": "Tres passos d'un fitxer local a un URL per compartir.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Tria un vídeo",
+          "description": "Arrossega i deixa anar o explora per a MP4, MOV, AVI, WebM o MKV (fins a 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Converteix a URL",
+          "description": "Fes clic a Converteix a URL. El processament sol acabar en uns quants segons."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Copia i comparteix",
+          "description": "Copia l'enllaç permanent i utilitza'l en documents, xats, llocs web o publicacions socials."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Escenaris",
-      "subtitle": "Del vídeo local a l'enllaç compartible.",
-      "description": "Deixa anar un fitxer i obtén un URL net per a documents, xats i publicacions — mira alguns exemples a sota.",
+      "title": "Escenes",
+      "subtitle": "D'un vídeo local a un enllaç per compartir.",
+      "description": "Deixa anar un fitxer, obtén un URL net per a documents, xats i publicacions — mira'n alguns estils a sota.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Converteix un clip local en una adreça compartible en segons."
+          "description": "Converteix un clip local en una adreça per compartir en segons."
         },
         "newStyle": {
-          "title": "Comparteix a qualsevol lloc",
-          "description": "Enganxa l'enllaç a documents, tickets i publicacions a xarxes socials."
+          "title": "Comparteix on vulguis",
+          "description": "Enganxa l'enllaç a documents, tiquets i publicacions socials."
         },
         "dark": {
           "title": "Allotjament net",
@@ -973,49 +672,49 @@
         },
         "retro": {
           "title": "Conversió ràpida",
-          "description": "Puja una vegada, copia l'enllaç i reutilitza'l quan ho necessitis."
+          "description": "Puja una vegada, copia l'enllaç i reutilitza'l quan el necessitis."
         }
       }
     },
     "faqs": {
-      "title": "Preguntes freqüents",
+      "title": "PMF",
       "subtitle": "El que potser vols saber sobre vídeo a URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Què és un convertidor de vídeo a URL?",
+          "answer": "Un convertidor de vídeo a URL puja el teu fitxer de vídeo local i retorna un enllaç web directe que pots compartir on vulguis."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Com funciona la conversió de vídeo a URL?",
+          "answer": "Puja el vídeo, espera que acabi el processament i després copia l'URL generat. Pots obrir, compartir o incrustar aquest enllaç immediatament."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Quins formats de vídeo s'admeten?",
+          "answer": "Els formats compatibles inclouen MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP i FLV. El nivell gratuït permet fins a 300MB per fitxer."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Els enllaços de vídeo generats són permanents?",
+          "answer": "Sí. Els enllaços generats estan pensats per a un ús compartit a llarg termini, de manera que l'URL del vídeo es manté estable i reutilitzable."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "On puc utilitzar l'URL del vídeo?",
+          "answer": "El pots utilitzar en documentació, gestors d'incidències, xats, llocs web, publicacions a xarxes socials i eines de col·laboració en equip."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Aquest convertidor de vídeo a URL és gratuït?",
+          "answer": "Sí. El flux estàndard de conversió de vídeo a URL és gratuït dins dels límits de pujada actuals."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Com de segura és la pujada i l'allotjament de vídeo?",
+          "answer": "Les pujades utilitzen transferència HTTPS i s'allotgen per a una entrega estable, cosa que et dóna enllaços fiables per compartir contingut de vídeo."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "La manera més fàcil de compartir vídeos",
+      "description": "MP4 to URL és un flux d'allotjament multimèdia ràpid i gratuït per a desenvolupadors, creadors i equips. Converteix vídeos en URL permanents en segons i comparteix-los on vulguis.",
+      "primaryButton": "Converteix a URL",
+      "secondaryButton": "Llegeix les PMF"
     }
   }
 }

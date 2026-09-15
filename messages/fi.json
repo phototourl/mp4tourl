@@ -1,148 +1,118 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Ilmainen video → URL -muunnin – lataa MP4 ja saat jaettavan linkin",
+    "description": "Lataa MP4, MOV, AVI, WebM tai MKV ja saat pysyvän jaettavan URL-osoitteen sekunneissa. Ilmainen videon isännöinti jopa 300 Mt – ei rekisteröitymistä."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Kirjaudu sisään",
+    "logout": "Kirjaudu ulos",
+    "signUp": "Luo tili",
+    "language": "Vaihda kieltä",
+    "languageHint": "Alueen valinta vaihtaa kielen ja sisällön.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Vaihda tilaa",
+      "light": "Vaalea",
+      "dark": "Tumma",
+      "system": "Järjestelmä"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Vaihda teemaa",
+      "default": "Oletus",
+      "blue": "Sininen",
+      "green": "Vihreä",
+      "amber": "Meripihka",
+      "neutral": "Neutraali"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopioi",
+    "saving": "Tallennetaan…",
+    "save": "Tallenna",
+    "loading": "Ladataan…",
+    "cancel": "Peruuta",
+    "logoutFailed": "Uloskirjautuminen epäonnistui",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Yhteensä {count} tietuetta",
+      "noResults": "Ei tuloksia",
+      "loading": "Ladataan…",
+      "columns": "Sarakkeet",
+      "rowsPerPage": "Rivejä sivulla",
+      "page": "Sivu",
+      "firstPage": "Ensimmäinen sivu",
+      "lastPage": "Viimeinen sivu",
+      "nextPage": "Seuraava sivu",
+      "previousPage": "Edellinen sivu",
+      "ascending": "Nouseva",
+      "descending": "Laskeva"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Ilmainen",
+      "description": "Isännöi videoita ja saat pysyvän jaettavan URL-osoitteen",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Latauskoko: 300 Mt",
+        "feature-2": "Pysyvät jakelulinkit",
+        "feature-3": "Ei rekisteröitymistä",
+        "feature-4": "Yhteisötuki"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Omat verkkotunnukset",
+        "limit-2": "Oma brändäys",
+        "limit-3": "Elinikäiset päivitykset"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Suuremmat rajat ja lataushistoria aktiivisille tekijöille",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Suuremmat videolataukset",
+        "feature-2": "10 Gt tallennustilaa",
+        "feature-3": "Lataushistoria",
+        "feature-4": "Prioriteettituki",
+        "feature-5": "Omat verkkotunnukset"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Oma brändäys",
+        "limit-2": "Elinikäiset päivitykset"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Maksa kerran pitkäaikaiseen videon isännöintikapasiteettiin",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Kaikki Pro-ominaisuudet",
+        "feature-2": "100 Gt tallennustilaa",
+        "feature-3": "Henkilökohtainen tuki",
+        "feature-4": "Yritystason tietoturva",
+        "feature-5": "Edistyneet integraatiot",
+        "feature-6": "Oma brändäys",
+        "feature-7": "Elinikäiset päivitykset"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Valitettavasti etsimääsi sivua ei ole olemassa.",
+    "backToHome": "Takaisin etusivulle"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Hups! Jokin meni pieleen!",
+    "tryAgain": "Yritä uudelleen",
+    "backToHome": "Takaisin etusivulle"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Tietoa",
+    "description": "MP4toURL muuttaa videosi pysyviksi jaettaviksi linkeiksi – lataa MP4, MOV, AVI, WebM tai MKV ja jaa sekunneissa.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "MP4toURL brändimerkki",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Ilmainen video → URL -muunnin",
+    "introduction": "MP4toURL on ilmainen ja nopea tapa isännöidä ja jakaa videoita. Lataa tiedosto, saat pysyvän jakelulinkin ja käytä sitä missä tahansa – ilman monimutkaista asetusta.",
+    "imageAlt": "MP4toURL-brändimerkki",
+    "talkWithMe": "Ota yhteyttä",
+    "followMe": "Seuraa X:ssä"
   },
   "ContactPage": {
     "title": "Yhteystiedot",
-    "description": "Lähetä viesti videojen latauksesta, jaettavista linkeistä tai tilistäsi. Luemme jokaisen viestin ja vastaamme mahdollisimman pian.",
+    "description": "Lähetä viesti videolatauksista, jaettavista linkeistä tai tilistäsi. Luemme jokaisen viestin ja vastaamme mahdollisimman pian.",
     "subtitle": "Kysymyksiä MP4toURL:sta? Autamme mielellämme.",
     "orEmail": "Tai lähetä sähköpostia osoitteeseen",
     "form": {
@@ -156,368 +126,186 @@
       "messagePlaceholder": "Kirjoita viesti",
       "submit": "Lähetä",
       "submitting": "Lähetetään…",
-      "success": "Viesti lähetetty onnistuneesti. Vastaamme mahdollisimman pian.",
+      "success": "Viesti lähetetty. Vastaamme mahdollisimman pian.",
       "minLength": "Aiheen on oltava vähintään 3 merkkiä.",
-      "maxLengthName": "Aihe saa olla enintään 100 merkkiä.",
+      "maxLengthName": "Aihe ei saa ylittää 100 merkkiä.",
       "invalidEmail": "Anna kelvollinen sähköpostiosoite.",
       "minLengthMessage": "Viestin on oltava vähintään 10 merkkiä.",
-      "maxLengthMessage": "Viesti saa olla enintään 2000 merkkiä.",
-      "invalid": "Jotain meni pieleen. Yritä uudelleen."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "maxLengthMessage": "Viesti ei saa ylittää 2000 merkkiä.",
+      "invalid": "Jokin meni pieleen. Yritä uudelleen."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Kirjautuminen",
+      "welcomeBack": "Tervetuloa takaisin",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "signIn": "Kirjaudu sisään",
+      "signUpHint": "Eikö sinulla ole tiliä? Luo tili",
+      "forgotPassword": "Unohtuiko salasana?",
+      "signInWithGoogle": "Kirjaudu Googlella",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "or": "Tai jatka palvelulla",
+      "emailRequired": "Anna sähköpostiosoitteesi",
+      "passwordRequired": "Anna salasanasi",
+      "captchaInvalid": "Turvatarkistus epäonnistui",
+      "captchaError": "Turvatarkistusvirhe"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Rekisteröidy",
+      "createAccount": "Luo tili",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "signUp": "Luo tili",
+      "signInHint": "Onko sinulla jo tili? Kirjaudu sisään",
+      "checkEmail": "Tarkista sähköpostilaatikkosi",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "nameRequired": "Anna nimesi",
+      "emailRequired": "Anna sähköpostiosoitteesi",
+      "passwordRequired": "Anna salasanasi",
+      "captchaInvalid": "Turvatarkistus epäonnistui",
+      "captchaError": "Turvatarkistusvirhe"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Unohtunut salasana",
+      "email": "Sähköposti",
+      "send": "Lähetä nollauslinkki",
+      "backToLogin": "Takaisin kirjautumiseen",
+      "checkEmail": "Jos tälle sähköpostille on tili, lähetimme nollauslinkin. Tarkista saapuneet.",
+      "emailRequired": "Anna sähköpostiosoitteesi",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Tällä sähköpostilla ei löytynyt tiliä",
+        "tooManyRequests": "Liian monta yritystä. Yritä myöhemmin uudelleen",
+        "serverError": "Jokin meni pieleen. Yritä uudelleen"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Nollaa salasana",
+      "password": "Uusi salasana",
+      "reset": "Nollaa salasana",
+      "backToLogin": "Takaisin kirjautumiseen",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "minLength": "Salasanan on oltava vähintään 8 merkkiä",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Nollauslinkki on vanhentunut. Pyydä uusi",
+        "invalidToken": "Virheellinen nollauslinkki. Pyydä uusi",
+        "tooManyRequests": "Liian monta yritystä. Yritä myöhemmin uudelleen",
+        "serverError": "Jokin meni pieleen. Yritä uudelleen"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Hups! Jokin meni pieleen!",
+      "tryAgain": "Yritä uudelleen.",
+      "backToLogin": "Takaisin kirjautumiseen",
+      "checkEmail": "Tarkista sähköpostilaatikkosi"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Käyttöehdot",
+      "privacyPolicy": "Tietosuojakäytäntö",
+      "byClickingContinue": "Jatkamalla hyväksyt ",
+      "and": " ja "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Etusivu"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "UKK"
       },
       "about": {
         "title": "Tietoa"
       },
       "contact": {
         "title": "Yhteystiedot"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Lataa video, saat pysyvän jaettavan linkin",
       "product": {
-        "title": "Product",
+        "title": "Tuote",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Ominaisuudet",
+          "faq": "UKK"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Yritys",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Tietoa",
+          "contact": "Yhteystiedot"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridinen",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Evästekäytäntö",
+          "privacyPolicy": "Tietosuojakäytäntö",
+          "termsOfService": "Käyttöehdot"
         }
       }
     },
     "avatar": {
-      "dashboard": "Työtila",
+      "dashboard": "Työpöytä",
       "resources": "Omat resurssit",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Laskutus",
+      "settings": "Asetukset"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Työtila"
+      "title": "Työpöytä"
     },
     "home": {
       "loading": "Ladataan yleiskatsausta…",
       "resourceCount": "Videot",
       "videoCountLabel": "Videot omissa resursseissa",
-      "storageFullHint": "Ilmaisen kokeilujakson tallennustila on täynnä. Poista joitakin videoita; suuremman kapasiteetin suunnitelmat tulossa pian.",
+      "storageFullHint": "Ilmaisen kokeilun tallennustila on täynnä. Poista videoita; suuremmat suunnitelmat tulossa pian.",
       "entryResourcesTitle": "Omat resurssit",
-      "entryResourcesDesc": "Ladatut videot ovat täällä — kopioi linkkejä, avaa tai poista milloin tahansa.",
+      "entryResourcesDesc": "Lataamasi videot ovat täällä – kopioi linkkejä, avaa tai poista milloin tahansa.",
       "entryUploadTitle": "Lataa video",
-      "entryUploadDesc": "Pudota video etusivulle ja saat jaettavan linkin hetkessä.",
+      "entryUploadDesc": "Pudota video etusivulle ja saat jaettavan linkin sekunneissa.",
       "entryFilesTitle": "Omat resurssit",
       "entryFilesDesc": "Kirjautuneena tehdyt lataukset tallentuvat tiliisi. Kopioi URL tai poista tarpeettomat tiedostot.",
       "entryFilesCta": "Avaa omat resurssit",
       "filesPointUploadTitle": "Monia muotoja",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV ja muita",
       "filesPointManageTitle": "Hallitse linkkejä",
-      "filesPointManageBody": "Kopioi, avaa tai poista Omista resursseista",
+      "filesPointManageBody": "Kopioi, avaa tai poista omissa resursseissa",
       "filesPointFreeTitle": "Ilmainen tallennustila",
-      "filesPointFreeBody": "300 MB ilmaiseksi isännöidyille videoille",
+      "filesPointFreeBody": "300 Mt ilmaiseksi isännöidyille videoille",
       "filesPointPaidTitle": "Maksulliset suunnitelmat",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointPaidBody": "Pro 10 Gt · Lifetime 100 Gt"
     },
     "resources": {
       "title": "Omat resurssit",
       "welcome": "Tervetuloa takaisin, {name}",
       "storage": "Tallennustila",
-      "storageHint": "Käytetty videoiden hosting-tila",
+      "storageHint": "Käytetty videon isännöintitila",
       "planCardTitle": "Nykyinen suunnitelma",
       "planFree": "Ilmainen",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktiivinen",
-      "planHintFree": "Ilmainen kokeilu on nyt saatavilla. Suuremman kapasiteetin suunnitelmat tulossa pian.",
-      "planHintPro": "Olet Prossa (10 GB). Lifetime avaa 100 GB.",
-      "planHintLifetime": "Kaikki ominaisuudet avattu",
-      "description": "Kirjautuneena lataamasi videot. Lataa täällä, esikatsele, lataa tiedosto tai poista milloin tahansa.",
+      "planHintFree": "Ilmainen kokeilu on käytettävissä nyt. Suuremmat suunnitelmat tulossa pian.",
+      "planHintPro": "Olet Pro-suunnitelmassa (10 Gt). Lifetime avaa 100 Gt.",
+      "planHintLifetime": "Kaikki ominaisuudet käytössä",
+      "description": "Videot, jotka latasit kirjautuneena. Lataa täällä, esikatsele, lataa laitteelle tai poista milloin tahansa.",
       "empty": "Ei vielä videoita",
-      "emptyHint": "Napsauta Lataa tai +-korttia lisätäksesi ensimmäisen videon.",
+      "emptyHint": "Napsauta Lataa tai + -korttia lisätäksesi ensimmäisen videon.",
       "goUpload": "Lataa video",
       "upload": "Lataa",
       "uploading": "Ladataan…",
       "uploadSuccess": "Lataus valmis",
       "uploadFailed": "Lataus epäonnistui",
       "unsupportedType": "Vain videomuodot tuetaan (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Tiedosto on liian suuri. Ilmaisella suunnitelmalla enintään 300MB per tiedosto.",
+      "fileTooLarge": "Tiedosto on liian suuri. Ilmaisessa suunnitelmassa enintään 300 Mt tiedostoa kohden.",
       "filterFormat": "Tiedostotyyppi",
       "formatAll": "Kaikki tyypit",
       "format": {
@@ -534,9 +322,9 @@
       "viewGrid": "Ruudukkonäkymä",
       "viewList": "Luettelonäkymä",
       "loading": "Ladataan…",
-      "loadError": "Resurssien lataaminen epäonnistui",
+      "loadError": "Resurssien lataus epäonnistui",
       "searchPlaceholder": "Hae tiedostonimellä…",
-      "search": "Hae",
+      "search": "Haku",
       "reset": "Nollaa",
       "copyUrl": "Kopioi URL",
       "copied": "URL kopioitu",
@@ -545,477 +333,388 @@
       "preview": "Esikatselu",
       "previewClose": "Sulje",
       "shareCodes": "Jakokoodit",
-      "shareCodesDesc": "Kopioitavat linkit Markdownille, HTML:lle, BBCodelle ja muille.",
-      "download": "Lataa tiedosto",
+      "shareCodesDesc": "Valmiit linkit Markdown-, HTML- ja BBCode-muotoihin sekä muihin.",
+      "download": "Lataa laitteelle",
       "delete": "Poista",
       "deleteTitle": "Poista video",
-      "deleteConfirm": "Tämä poistaa videon pysyvästi tililtäsi. Toimintoa ei voi kumota.",
+      "deleteConfirm": "Tämä poistaa videon pysyvästi tililtäsi. Toimintoa ei voi perua.",
       "deleteSuccess": "Video poistettu",
-      "deleteFailed": "Videon poistaminen epäonnistui",
+      "deleteFailed": "Videon poisto epäonnistui",
       "cancel": "Peruuta",
       "totalCount": "Yhteensä {total}",
       "pagePrev": "Edellinen",
       "pageNext": "Seuraava"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Ylläpito",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Käyttäjät",
+        "fakeData": "Huom: esittelyyn tarkoitettua kuvitteellista dataa, osa ominaisuuksista on pois käytöstä",
+        "error": "Käyttäjien haku epäonnistui",
+        "search": "Hae käyttäjiä…",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Sarakkeet",
+          "name": "Nimi",
+          "email": "Sähköposti",
+          "role": "Rooli",
+          "createdAt": "Luotu",
+          "customerId": "Asiakastunnus",
+          "status": "Tila",
+          "banReason": "Eston syy",
+          "banExpires": "Esto päättyy"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Ylläpitäjä",
+        "user": "Käyttäjä",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Sähköposti vahvistettu",
+          "unverified": "Sähköposti vahvistamatta"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Sähköposti kopioitu leikepöydälle",
+        "banned": "Estetty",
+        "active": "Aktiivinen",
+        "joined": "Liittynyt",
+        "updated": "Päivitetty",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Eston syy",
+          "reasonPlaceholder": "Kirjoita syy käyttäjän estolle",
+          "defaultReason": "Roskaposti",
+          "never": "Ei koskaan",
+          "expires": "Esto päättyy",
+          "selectDate": "Valitse päivämäärä",
+          "button": "Estä käyttäjä",
+          "success": "Käyttäjä on estetty",
+          "error": "Käyttäjän esto epäonnistui"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Poista esto",
+          "success": "Käyttäjän esto on poistettu",
+          "error": "Eston poisto epäonnistui"
         },
-        "close": "Close"
+        "close": "Sulje"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Asetukset",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profiili",
+        "description": "Hallitse tilitietojasi",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Profiilikuva",
+          "description": "Napsauta latauspainiketta ladataksesi oman kuvan",
+          "recommendation": "Profiilikuva on valinnainen, mutta suositeltava",
+          "uploading": "Ladataan…",
+          "uploadAvatar": "Lataa profiilikuva",
+          "success": "Profiilikuva päivitetty",
+          "fail": "Profiilikuvan päivitys epäonnistui"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Nimi",
+          "description": "Anna näyttönimesi",
+          "placeholder": "Kirjoita nimesi",
+          "minLength": "Käytä vähintään 3 merkkiä",
+          "maxLength": "Käytä enintään 30 merkkiä",
+          "hint": "Käytä 3–30 merkkiä nimessäsi",
+          "success": "Nimi päivitetty",
+          "fail": "Nimen päivitys epäonnistui",
+          "saving": "Tallennetaan…",
+          "save": "Tallenna"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Laskutus",
+        "description": "Hallitse tilaustasi ja laskutustietoja",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktiivinen",
+          "trial": "Kokeilu",
+          "free": "Ilmainen",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "kuukausi",
+          "year": "vuosi",
+          "oneTime": "kertamaksu"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Nykyinen suunnitelma",
+          "description": "Nykyisen suunnitelmasi tiedot",
+          "noPlan": "Sinulla ei ole aktiivista suunnitelmaa"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Ladataan…",
+          "createCustomerPortalFailed": "Stripen asiakasportaalin avaus epäonnistui"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Hinta:",
+        "periodStartDate": "Jakson alkupäivä:",
+        "periodEndDate": "Jakson loppupäivä:",
+        "trialEnds": "Kokeilu päättyy:",
+        "freePlanMessage": "Olet tällä hetkellä ilmaisessa suunnitelmassa, jossa on rajoitettuja ominaisuuksia",
+        "lifetimeMessage": "Sinulla on elinikäinen pääsy kaikkiin lisäominaisuuksiin",
+        "manageSubscription": "Hallitse tilausta ja laskutusta",
+        "manageBilling": "Hallitse laskutusta",
+        "upgradePlan": "Päivitä suunnitelma",
+        "retry": "Yritä uudelleen",
+        "errorMessage": "Tietojen haku epäonnistui",
+        "paymentSuccess": "Maksu onnistui"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Maksua käsitellään",
+          "description": "Odota, kunnes vahvistamme maksusi…"
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Maksu onnistui",
+          "description": "Uudelleenohjaus automaattisesti…"
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Maksu epäonnistui",
+          "description": "Maksun käsittelyssä tapahtui virhe."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Käsittelyn aikakatkaisu",
+          "description": "Maksun käsittely kestää odotettua kauemmin."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Yritä uudelleen"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Tietoturva",
+        "description": "Hallitse tietoturva-asetuksiasi",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Vaihda salasana",
+          "description": "Anna nykyinen salasanasi ja uusi salasana",
+          "currentPassword": "Nykyinen salasana",
+          "currentRequired": "Nykyinen salasana on pakollinen",
+          "newPassword": "Uusi salasana",
+          "newMinLength": "Salasanan on oltava vähintään 8 merkkiä",
+          "hint": "Käytä salasanassa vähintään 8 merkkiä",
+          "showPassword": "Näytä salasana",
+          "hidePassword": "Piilota salasana",
+          "success": "Salasana päivitetty",
+          "fail": "Salasanan päivitys epäonnistui",
+          "saving": "Tallennetaan…",
+          "save": "Tallenna"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Nollaa salasana",
+          "description": "Nollaa salasana sähköpostikirjautumista varten",
+          "info": "Salasanan nollaus antaa sinun kirjautua myös sähköpostilla ja salasanalla sosiaalisten kirjautumistapojen lisäksi. Saat sähköpostin ohjeineen salasanan nollaamiseen",
+          "button": "Nollaa salasana"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Poista tili",
+          "description": "Poista tilisi ja sen koko sisältö pysyvästi",
+          "warning": "Tätä toimintoa ei voi perua, jatka varoen",
+          "button": "Poista tili",
+          "confirmTitle": "Poista tili",
+          "confirmDescription": "Haluatko varmasti poistaa tilisi? Tätä toimintoa ei voi perua.",
+          "confirm": "Poista",
+          "cancel": "Peruuta",
+          "deleting": "Poistetaan…",
+          "success": "Tili poistettu",
+          "fail": "Tilin poisto epäonnistui"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Suuremman kapasiteetin suunnitelmat tulossa pian. Ilmainen kokeilu on nyt saatavilla.",
-      "button": "Upgrade"
+      "title": "Päivitä",
+      "description": "Suuremmat suunnitelmat tulossa pian. Ilmainen kokeilu on käytettävissä nyt.",
+      "button": "Päivitä"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name}-tiimi",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hei, {name}.",
+      "body": "Vahvista sähköpostiosoitteesi napsauttamalla alla olevaa linkkiä.",
+      "confirmEmail": "Vahvista sähköposti",
+      "subject": "Vahvista sähköpostiosoitteesi"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hei, {name}.",
+      "body": "Saimme pyynnön nollata MP4toURL-salasanasi. Valitse uusi salasana napsauttamalla alla olevaa painiketta. Jos et tehnyt tätä pyyntöä, voit jättää tämän viestin huomiotta.",
+      "resetPassword": "Nollaa salasana",
+      "subject": "Nollaa MP4toURL-salasanasi"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Nimi: {name}",
+      "email": "Sähköposti: {email}",
+      "message": "Viesti: {message}",
+      "subject": "Yhteydenottoviesti verkkosivustolta"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KOPIOITAVAT KOODIT",
+    "sectionTitle": "VALMIIT KOODIT",
     "copyUrl": "Kopioi URL",
     "copied": "Kopioitu",
     "copyFailed": "Kopiointi epäonnistui",
     "openTab": "Avaa uudessa välilehdessä",
-    "successTitle": "Valmis! Videon URL on valmis",
-    "successSubtitle": "Video on ladattu ja valmis jaettavaksi.",
+    "successTitle": "Onnistui! Video-URL on valmis",
+    "successSubtitle": "Videosi on ladattu ja valmis jaettavaksi.",
     "videoLabel": "Video",
     "watchLabel": "Katso video",
     "shareLink": {
       "title": "Jakolinkki",
-      "desc": "Suora linkki jaettavaksi missä tahansa"
+      "desc": "Suora linkki jaettavaksi minne tahansa"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "GitHubiin, Notionille ja dokumentteihin"
+      "desc": "GitHubiin, Notioniin ja dokumentteihin"
     },
     "markdownLink": {
       "title": "Markdown linkillä",
-      "desc": "Markdown luettavalla katseluotsikolla"
+      "desc": "Markdown luettavalla katselutekstillä"
     },
     "html": {
       "title": "HTML",
-      "desc": "Upota natiivilla videosoittimella"
+      "desc": "Upota sisäänrakennetulla videosoittimella"
     },
     "htmlLink": {
       "title": "HTML linkillä",
-      "desc": "Yksinkertainen linkki, joka aukeaa uuteen välilehteen"
+      "desc": "Yksinkertainen linkki, joka avautuu uuteen välilehteen"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "Foorumeille ja ilmoitustauluille"
+      "desc": "Foorumeille ja keskustelupalstoille"
     },
     "bbcodeLink": {
       "title": "BBCode linkillä",
-      "desc": "Foorumilinkki katseluotsikolla"
+      "desc": "Foorumilinkki katselutekstillä"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Lataa video ja saat pysyvän jaettavan linkin",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Videosi on ladattu. Kopioi alla oleva linkki jakamista varten.",
-      "registerForCodesTitle": "Haluatko Markdownin, HTML:n ja BBCoden?",
-      "registerForCodesDesc": "Rekisteröidy ilmaiseksi avataksesi kopioitavat upotuskoodit ja hallitaksesi kaikkia videoita Omissa resursseissa.",
-      "registerCta": "Rekisteröidy ilmaiseksi",
+      "title": "Ilmainen video → URL -muunnin",
+      "description": "Lataa MP4-videoita ja saat pysyvät jaettavat linkit sekunneissa.",
+      "tagline": "Tukee MP4, MOV, AVI, WebM, MKV aina 300 Mt asti. Ei rekisteröitymistä.",
+      "uploadHeading": "Lataa videosi",
+      "uploadTitle": "Pudota video tähän tai napsauta selataksesi",
+      "uploadHint": "Tukee MP4, MOV, AVI, WebM, MKV aina 300 Mt asti",
+      "maxSize": "Enimmäiskoko: 300 Mt",
+      "convert": "Muunna URL-osoitteeksi",
+      "uploading": "Ladataan…",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "guestSuccessHint": "Videosi on ladattu. Kopioi alla oleva linkki jakaaksesi sen.",
+      "registerForCodesTitle": "Haluatko Markdown-, HTML- ja BBCode-koodit?",
+      "registerForCodesDesc": "Luo ilmainen tili saadaksesi valmiit upotuskoodit ja hallitaksesi videoita omissa resursseissa.",
+      "registerCta": "Luo ilmainen tili",
       "uploadAnother": "Lataa toinen video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Lataus epäonnistui. Yritä uudelleen.",
+      "unsupportedType": "Tiedostotyyppiä ei tueta. Lataa MP4, MOV, AVI, WebM tai MKV.",
+      "fileTooLarge": "Tiedosto on liian suuri. Ilmaisessa suunnitelmassa enintään 300 Mt tiedostoa kohden."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Miksi valita MP4 to URL",
+      "subtitle": "Rakennettu nopeutta, yksityisyyttä ja pysyviä medialinkkejä varten.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Salamannopea",
+          "description": "Lataa ja muunna videosi jaettaviksi URL-osoitteiksi sekunneissa. Ei odottelua, ei jonoja."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Turvallinen ja yksityinen",
+          "description": "Videosi siirretään salatulla yhteydellä (HTTPS) ja isännöidään yksityisyyttä kunnioittavilla asetuksilla."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Pysyvät linkit",
+          "description": "Saat pysyvät linkit, jotka eivät vanhene. Sopii dokumentaatioon, tukipyyntöihin ja sosiaaliseen jakamiseen."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video URL-osoitteeksi sekunneissa"
+      "title": "Videosta URL-osoitteeksi sekunneissa",
+      "subtitle": "Paikallisesta tiedostosta jaettavaksi linkiksi",
+      "description": "Lataa MP4 ja vastaavat muodot, saat selkeän pysyvän URL-osoitteen dokumentteihin, keskusteluihin ja julkaisuihin.",
+      "point1": "Pudota video laitteeltasi",
+      "point2": "Muunnos sekunneissa – tavalliseen käyttöön ei tarvita tiliä",
+      "point3": "Kopioi pysyvä linkki ja jaa missä tahansa",
+      "imageAlt": "mp4tourl.com-kollaasi: tee videosta jaettava",
+      "imageAltNew": "mp4tourl.com: videosta URL-osoitteeksi sekunneissa, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Näin käytät",
+      "subtitle": "Kolme vaihetta paikallisesta tiedostosta jaettavaan URL-osoitteeseen.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Valitse video",
+          "description": "Vedä ja pudota tai selaa MP4-, MOV-, AVI-, WebM- tai MKV-tiedosto (enintään 300 Mt)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Muunna URL-osoitteeksi",
+          "description": "Napsauta Muunna URL-osoitteeksi. Käsittely valmistuu yleensä muutamassa sekunnissa."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopioi ja jaa",
+          "description": "Kopioi pysyvä linkki ja käytä sitä dokumenteissa, keskusteluissa, verkkosivuilla tai somessa."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Käyttötapaukset",
-      "subtitle": "Paikallisesta videosta jaettavaan linkkiin.",
-      "description": "Pudota tiedosto ja saat siistin URL-osoitteen dokumentteihin, chattiin ja julkaisuihin — katso esimerkkejä alta.",
+      "title": "Käyttötilanteita",
+      "subtitle": "Paikallisesta videosta jaettavaksi linkiksi.",
+      "description": "Pudota tiedosto, saat selkeän URL-osoitteen dokumentteihin, keskusteluihin ja julkaisuihin – katso muutama ulkoasu alta.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Muuta paikallinen klippi jaettavaksi osoitteeksi sekunneissa."
+          "description": "Muuta paikallinen pätkä jaettavaksi osoitteeksi sekunneissa."
         },
         "newStyle": {
-          "title": "Jaa missä tahansa",
-          "description": "Liitä linkki dokumentteihin, tiketteihin ja somejulkaisuihin."
+          "title": "Jaa minne tahansa",
+          "description": "Liitä linkki dokumentteihin, tukipyyntöihin ja somejulkaisuihin."
         },
         "dark": {
-          "title": "Luotettava hosting",
-          "description": "Pidä videot saatavilla vakaalla, pysyvällä URL-osoitteella."
+          "title": "Siisti isännöinti",
+          "description": "Pidä videot tavoitettavissa vakaalla, pysyvällä URL-osoitteella."
         },
         "retro": {
           "title": "Nopea muunnos",
-          "description": "Lataa kerran, kopioi linkki ja käytä uudelleen tarvittaessa."
+          "description": "Lataa kerran, kopioi linkki ja käytä sitä uudelleen tarvittaessa."
         }
       }
     },
     "faqs": {
-      "title": "Usein kysytyt",
-      "subtitle": "Mitä haluat ehkä tietää videosta URL:ksi.",
+      "title": "UKK",
+      "subtitle": "Mitä saatat haluta tietää video → URL -muunnoksesta.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Mikä on video → URL -muunnin?",
+          "answer": "Video → URL -muunnin lataa paikallisen videotiedostosi ja palauttaa suoran verkkolinkin, jota voit jakaa missä tahansa."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Miten video → URL -muunnos toimii?",
+          "answer": "Lataa video, odota käsittelyn valmistumista ja kopioi luotu URL. Voit avata, jakaa tai upottaa linkin heti."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Mitkä videomuodot tuetaan?",
+          "answer": "Tuetut muodot: MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP ja FLV. Ilmaisella tasolla enintään 300 Mt tiedostoa kohden."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Ovatko luodut videolinkit pysyviä?",
+          "answer": "Kyllä. Linkit on suunniteltu pitkäaikaiseen jakamiseen, jotta video-URL pysyy vakaana ja uudelleenkäytettävänä."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Missä voin käyttää video-URL-osoitetta?",
+          "answer": "Voit käyttää sitä dokumentaatiossa, tukipyyntöjärjestelmissä, keskusteluissa, verkkosivuilla, somessa ja tiimin yhteistyötyökaluissa."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Onko tämä video → URL -muunnin ilmainen?",
+          "answer": "Kyllä. Tavallinen video → URL -muunnos on ilmainen nykyisten latausrajojen puitteissa."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Kuinka turvallista videon lataus ja isännöinti on?",
+          "answer": "Lataukset käyttävät salattua siirtoa (HTTPS) ja isännöidään vakaata jakelua varten, joten saat luotettavat jakolinkit videosisällölle."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Helpoin tapa jakaa videoita",
+      "description": "MP4 to URL on ilmainen ja nopea median isännöintipolku kehittäjille, tekijöille ja tiimeille. Muunna videot pysyviksi URL-osoitteiksi sekunneissa ja jaa ne missä tahansa.",
+      "primaryButton": "Muunna URL-osoitteeksi",
+      "secondaryButton": "Lue UKK"
     }
   }
 }

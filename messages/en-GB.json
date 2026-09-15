@@ -2,10 +2,9 @@
   "Metadata": {
     "name": "MP4 to URL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300 MB — no registration required."
   },
   "Common": {
-    "premium": "Premium",
     "login": "Log in",
     "logout": "Log out",
     "signUp": "Sign up",
@@ -46,38 +45,14 @@
       "descending": "Desc"
     }
   },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
-    }
-  },
   "PricePlans": {
     "free": {
       "name": "Free",
       "description": "Host videos and get a permanent shareable URL",
       "features": {
-        "feature-1": "Upload size: 300MB",
+        "feature-1": "Upload size: 300 MB",
         "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
+        "feature-3": "No sign-up required",
         "feature-4": "Community support"
       },
       "limits": {
@@ -135,11 +110,6 @@
     "talkWithMe": "Contact us",
     "followMe": "Follow on X"
   },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
-  },
   "ContactPage": {
     "title": "Contact",
     "description": "Send a message about video uploads, shareable links, or your account. We read every message and reply as soon as we can.",
@@ -163,34 +133,6 @@
       "minLengthMessage": "Message must be at least 10 characters.",
       "maxLengthMessage": "Message must not exceed 2000 characters.",
       "invalid": "Something went wrong. Please try again."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
     }
   },
   "AuthPage": {
@@ -269,50 +211,10 @@
       "and": " and "
     }
   },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
-  },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Home"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,108 +224,6 @@
       },
       "contact": {
         "title": "Contact"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
@@ -432,25 +232,14 @@
         "title": "Product",
         "items": {
           "features": "Features",
-          "pricing": "Pricing",
           "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
         }
       },
       "company": {
         "title": "Company",
         "items": {
           "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "contact": "Contact"
         }
       },
       "legal": {
@@ -466,7 +255,6 @@
       "dashboard": "Workbench",
       "resources": "My Resources",
       "billing": "Billing",
-      "credits": "Credits",
       "settings": "Settings"
     }
   },
@@ -517,7 +305,7 @@
       "uploadSuccess": "Upload complete",
       "uploadFailed": "Upload failed",
       "unsupportedType": "Only video formats are supported (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file.",
+      "fileTooLarge": "File too large. Free plan allows up to 300 MB per file.",
       "filterFormat": "File type",
       "formatAll": "All types",
       "format": {
@@ -687,22 +475,6 @@
         },
         "retry": "Retry"
       },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
-      },
       "security": {
         "title": "Security",
         "description": "Manage your security settings",
@@ -765,10 +537,6 @@
       "resetPassword": "Reset password",
       "subject": "Reset your MP4toURL password"
     },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
-    },
     "contactMessage": {
       "name": "Name: {name}",
       "email": "Email: {email}",
@@ -821,11 +589,11 @@
     "hero": {
       "title": "Free Video to URL Converter",
       "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
+      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300 MB. No sign-up required.",
       "uploadHeading": "Upload Your Video",
       "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
+      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300 MB",
+      "maxSize": "Maximum file size: 300 MB",
       "convert": "Convert to URL",
       "uploading": "Uploading...",
       "copy": "Copy link",
@@ -837,7 +605,7 @@
       "uploadAnother": "Upload another video",
       "error": "Upload failed. Please try again.",
       "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "fileTooLarge": "File too large. Free plan allows up to 300 MB per file."
     },
     "features": {
       "title": "Why Choose MP4 to URL",
@@ -862,7 +630,7 @@
       "subtitle": "From local file to shareable link",
       "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
       "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
+      "point2": "Convert in seconds — no sign-up for standard use",
       "point3": "Copy a permanent link and share anywhere",
       "imageAlt": "mp4tourl.com collage: make video shareable",
       "imageAltNew": "mp4tourl.com: video to URL in seconds, www.mp4tourl.com"
@@ -873,7 +641,7 @@
       "items": {
         "step-1": {
           "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300 MB)."
         },
         "step-2": {
           "title": "Convert to URL",
@@ -922,7 +690,7 @@
         },
         "item-3": {
           "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300 MB per file."
         },
         "item-4": {
           "question": "Are the generated video links permanent?",

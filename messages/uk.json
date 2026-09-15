@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Безкоштовний конвертер відео в URL — завантажте MP4 і отримайте посилання для поширення",
+    "description": "Завантажуйте MP4, MOV, AVI, WebM, MKV і за кілька секунд отримуйте постійні URL для поширення. Безкоштовний хостинг відео до 300 МБ — реєстрація не потрібна."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Увійти",
+    "logout": "Вийти",
+    "signUp": "Зареєструватися",
+    "language": "Змінити мову",
+    "languageHint": "Після вибору регіону зміняться мова та вміст.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Перемкнути режим",
+      "light": "Світла",
+      "dark": "Темна",
+      "system": "Системна"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Перемкнути тему",
+      "default": "За замовчуванням",
+      "blue": "Синій",
+      "green": "Зелений",
+      "amber": "Бурштиновий",
+      "neutral": "Нейтральний"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Копіювати",
+    "saving": "Збереження...",
+    "save": "Зберегти",
+    "loading": "Завантаження...",
+    "cancel": "Скасувати",
+    "logoutFailed": "Не вдалося вийти",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Усього {count} записів",
+      "noResults": "Немає результатів",
+      "loading": "Завантаження...",
+      "columns": "Стовпці",
+      "rowsPerPage": "Рядків на сторінку",
+      "page": "Сторінка",
+      "firstPage": "Перша сторінка",
+      "lastPage": "Остання сторінка",
+      "nextPage": "Наступна сторінка",
+      "previousPage": "Попередня сторінка",
+      "ascending": "Зрост.",
+      "descending": "Спад."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Безкоштовно",
+      "description": "Хостинг відео та постійне посилання для поширення",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Розмір завантаження: 300MB",
+        "feature-2": "Постійні CDN-посилання",
+        "feature-3": "Реєстрація не потрібна",
+        "feature-4": "Підтримка спільноти"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Власні домени",
+        "limit-2": "Власний брендинг",
+        "limit-3": "Оновлення назавжди"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Більші ліміти та історія завантажень для активних авторів",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Більші відеозавантаження",
+        "feature-2": "10 ГБ сховища",
+        "feature-3": "Історія завантажень",
+        "feature-4": "Пріоритетна підтримка",
+        "feature-5": "Власні домени"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Власний брендинг",
+        "limit-2": "Оновлення назавжди"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Одноразова оплата за довгострокову ємність хостингу відео",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Усі функції Pro",
+        "feature-2": "100 ГБ сховища",
+        "feature-3": "Персональна підтримка",
+        "feature-4": "Корпоративний рівень безпеки",
+        "feature-5": "Розширені інтеграції",
+        "feature-6": "Власний брендинг",
+        "feature-7": "Оновлення назавжди"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "На жаль, сторінку, яку ви шукаєте, не знайдено.",
+    "backToHome": "На головну"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ой! Щось пішло не так!",
+    "tryAgain": "Спробувати знову",
+    "backToHome": "На головну"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Про нас",
+    "description": "MP4toURL перетворює ваші відео на постійні посилання для поширення — завантажте MP4, MOV, AVI, WebM або MKV і поділіться за кілька секунд.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Безкоштовний конвертер відео в URL",
+    "introduction": "MP4toURL — безкоштовний і швидкий спосіб хостити та ділитися відео. Завантажте файл, отримайте постійне CDN-посилання та використовуйте будь-де — без складного налаштування.",
     "imageAlt": "Знак бренду MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Зв'язатися з нами",
+    "followMe": "Слідкувати в X"
   },
   "ContactPage": {
     "title": "Контакти",
-    "description": "Напишіть нам про завантаження відео, посилання для поширення або ваш обліковий запис. Ми читаємо кожне повідомлення і відповідаємо якомога швидше.",
-    "subtitle": "Питання про MP4toURL? Ми з радістю допоможемо.",
+    "description": "Надішліть повідомлення про завантаження відео, посилання для поширення або ваш обліковий запис. Ми читаємо кожне повідомлення і відповідаємо якомога швидше.",
+    "subtitle": "Питання про MP4toURL? Ми раді допомогти.",
     "orEmail": "Або напишіть нам на",
     "form": {
       "title": "Повідомлення",
-      "description": "Надішліть повідомлення — ми відповімо якомога швидше.",
+      "description": "Надішліть повідомлення — відповімо якомога швидше.",
       "name": "Тема",
       "email": "Ел. пошта",
       "message": "Повідомлення",
@@ -155,369 +125,187 @@
       "emailPlaceholder": "Ел. пошта",
       "messagePlaceholder": "Введіть повідомлення",
       "submit": "Надіслати",
-      "submitting": "Надсилання…",
-      "success": "Повідомлення успішно надіслано. Ми відповімо якомога швидше.",
+      "submitting": "Надсилання...",
+      "success": "Повідомлення надіслано. Ми відповімо якомога швидше.",
       "minLength": "Тема має містити щонайменше 3 символи.",
-      "maxLengthName": "Тема не повинна перевищувати 100 символів.",
-      "invalidEmail": "Введіть дійсну адресу електронної пошти.",
+      "maxLengthName": "Тема не може перевищувати 100 символів.",
+      "invalidEmail": "Введіть дійсну адресу email.",
       "minLengthMessage": "Повідомлення має містити щонайменше 10 символів.",
-      "maxLengthMessage": "Повідомлення не повинно перевищувати 2000 символів.",
-      "invalid": "Щось пішло не так. Спробуйте ще раз."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "maxLengthMessage": "Повідомлення не може перевищувати 2000 символів.",
+      "invalid": "Щось пішло не так. Спробуйте знову."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Вхід",
+      "welcomeBack": "З поверненням",
+      "email": "Ел. пошта",
+      "password": "Пароль",
+      "signIn": "Увійти",
+      "signUpHint": "Немає облікового запису? Зареєструйтеся",
+      "forgotPassword": "Забули пароль?",
+      "signInWithGoogle": "Увійти через Google",
+      "showPassword": "Показати пароль",
+      "hidePassword": "Приховати пароль",
+      "or": "Або продовжити через",
+      "emailRequired": "Введіть email",
+      "passwordRequired": "Введіть пароль",
+      "captchaInvalid": "Перевірку captcha не пройдено",
+      "captchaError": "Помилка перевірки captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Реєстрація",
+      "createAccount": "Створити обліковий запис",
+      "name": "Ім'я",
+      "email": "Ел. пошта",
+      "password": "Пароль",
+      "signUp": "Зареєструватися",
+      "signInHint": "Уже є обліковий запис? Увійдіть",
+      "checkEmail": "Перевірте поштову скриньку",
+      "showPassword": "Показати пароль",
+      "hidePassword": "Приховати пароль",
+      "nameRequired": "Введіть ім'я",
+      "emailRequired": "Введіть email",
+      "passwordRequired": "Введіть пароль",
+      "captchaInvalid": "Перевірку captcha не пройдено",
+      "captchaError": "Помилка перевірки captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Забули пароль",
+      "email": "Ел. пошта",
+      "send": "Надіслати посилання для скидання",
+      "backToLogin": "Назад до входу",
+      "checkEmail": "Якщо для цього email є обліковий запис, ми надіслали посилання для скидання. Перевірте пошту.",
+      "emailRequired": "Введіть email",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Обліковий запис з цим email не знайдено",
+        "tooManyRequests": "Забагато спроб. Спробуйте пізніше",
+        "serverError": "Щось пішло не так. Спробуйте знову"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Скидання пароля",
+      "password": "Новий пароль",
+      "reset": "Скинути пароль",
+      "backToLogin": "Назад до входу",
+      "showPassword": "Показати пароль",
+      "hidePassword": "Приховати пароль",
+      "minLength": "Пароль має містити щонайменше 8 символів",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Посилання для скидання застаріло. Запросіть нове",
+        "invalidToken": "Недійсне посилання для скидання. Запросіть нове",
+        "tooManyRequests": "Забагато спроб. Спробуйте пізніше",
+        "serverError": "Щось пішло не так. Спробуйте знову"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ой! Щось пішло не так!",
+      "tryAgain": "Спробуйте знову.",
+      "backToLogin": "Назад до входу",
+      "checkEmail": "Перевірте поштову скриньку"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Умови використання",
+      "privacyPolicy": "Політика конфіденційності",
+      "byClickingContinue": "Натискаючи «Продовжити», ви погоджуєтеся з ",
+      "and": " та "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Головна"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "Поширені запитання"
       },
       "about": {
         "title": "Про нас"
       },
       "contact": {
         "title": "Контакти"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Завантажте відео — отримайте постійне посилання для поширення",
       "product": {
-        "title": "Product",
+        "title": "Продукт",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Можливості",
+          "faq": "Поширені запитання"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Компанія",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Про нас",
+          "contact": "Контакти"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Правове",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Політика щодо cookie",
+          "privacyPolicy": "Політика конфіденційності",
+          "termsOfService": "Умови використання"
         }
       }
     },
     "avatar": {
-      "dashboard": "Робоча область",
+      "dashboard": "Робочий стіл",
       "resources": "Мої ресурси",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Оплата",
+      "settings": "Налаштування"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Робоча область"
+      "title": "Робочий стіл"
     },
     "home": {
       "loading": "Завантаження огляду…",
       "resourceCount": "Відео",
       "videoCountLabel": "Відео в «Мої ресурси»",
-      "storageFullHint": "Сховище безкоштовного пробного періоду заповнене. Видаліть частину відео; плани з більшою ємністю незабаром з’являться.",
+      "storageFullHint": "Сховище безкоштовної пробної версії заповнене. Видаліть частину відео; плани з більшою ємністю незабаром.",
       "entryResourcesTitle": "Мої ресурси",
-      "entryResourcesDesc": "Завантажені відео зберігаються тут — копіюйте посилання, відкривайте або видаляйте будь-коли.",
+      "entryResourcesDesc": "Тут ваші завантажені відео — копіюйте посилання, відкривайте або видаляйте будь-коли.",
       "entryUploadTitle": "Завантажити відео",
-      "entryUploadDesc": "Перетягніть відео на головну сторінку й за секунди отримайте посилання для поширення.",
+      "entryUploadDesc": "Перетягніть відео на головну сторінку — за кілька секунд отримаєте посилання для поширення.",
       "entryFilesTitle": "Мої ресурси",
-      "entryFilesDesc": "Завантаження після входу зберігаються в обліковому записі. Копіюйте URL або видаляйте непотрібні файли.",
-      "entryFilesCta": "Відкрити мої ресурси",
+      "entryFilesDesc": "Завантаження під час входу зберігаються в обліковому записі. Копіюйте URL або видаляйте непотрібні файли.",
+      "entryFilesCta": "Відкрити «Мої ресурси»",
       "filesPointUploadTitle": "Багато форматів",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV та інші",
       "filesPointManageTitle": "Керування посиланнями",
-      "filesPointManageBody": "Копіювати, відкрити або видалити в «Мої ресурси»",
+      "filesPointManageBody": "Копіювати, відкривати або видаляти з «Мої ресурси»",
       "filesPointFreeTitle": "Безкоштовне сховище",
-      "filesPointFreeBody": "300 MB безкоштовно для розміщених відео",
+      "filesPointFreeBody": "300 МБ безкоштовно для хостингу відео",
       "filesPointPaidTitle": "Платні плани",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointPaidBody": "Pro 10 ГБ · Lifetime 100 ГБ"
     },
     "resources": {
       "title": "Мої ресурси",
       "welcome": "З поверненням, {name}",
       "storage": "Сховище",
-      "storageHint": "Використане місце для хостингу відео",
+      "storageHint": "Використаний простір для хостингу відео",
       "planCardTitle": "Поточний план",
-      "planFree": "Безкоштовний",
+      "planFree": "Безкоштовно",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Активний",
-      "planHintFree": "Безкоштовний пробний період доступний зараз. Плани з більшою ємністю незабаром з’являться.",
-      "planHintPro": "У вас Pro (10 GB). Lifetime відкриває 100 GB.",
+      "planHintFree": "Безкоштовна пробна версія доступна зараз. Плани з більшою ємністю незабаром.",
+      "planHintPro": "У вас Pro (10 ГБ). Lifetime відкриває 100 ГБ.",
       "planHintLifetime": "Усі функції розблоковано",
-      "description": "Відео, завантажені після входу в обліковий запис. Завантажуйте тут, переглядайте, скачуйте або видаляйте будь-коли.",
-      "empty": "Поки немає відео",
+      "description": "Відео, завантажені під час входу. Завантажуйте тут, переглядайте, завантажуйте або видаляйте будь-коли.",
+      "empty": "Ще немає відео",
       "emptyHint": "Натисніть «Завантажити» або картку +, щоб додати перше відео.",
       "goUpload": "Завантажити відео",
       "upload": "Завантажити",
       "uploading": "Завантаження…",
       "uploadSuccess": "Завантаження завершено",
-      "uploadFailed": "Не вдалося завантажити",
+      "uploadFailed": "Завантаження не вдалося",
       "unsupportedType": "Підтримуються лише відеоформати (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Файл завеликий. У безкоштовному плані до 300MB на файл.",
+      "fileTooLarge": "Файл занадто великий. У безкоштовному плані до 300MB на файл.",
       "filterFormat": "Тип файлу",
       "formatAll": "Усі типи",
       "format": {
@@ -536,7 +324,7 @@
       "loading": "Завантаження…",
       "loadError": "Не вдалося завантажити ресурси",
       "searchPlaceholder": "Пошук за назвою файлу…",
-      "search": "Шукати",
+      "search": "Пошук",
       "reset": "Скинути",
       "copyUrl": "Копіювати URL",
       "copied": "URL скопійовано",
@@ -545,245 +333,225 @@
       "preview": "Перегляд",
       "previewClose": "Закрити",
       "shareCodes": "Коди для поширення",
-      "shareCodesDesc": "Готові до копіювання посилання для Markdown, HTML, BBCode тощо.",
-      "download": "Скачати",
+      "shareCodesDesc": "Готові до копіювання посилання для Markdown, HTML, BBCode та ін.",
+      "download": "Завантажити",
       "delete": "Видалити",
       "deleteTitle": "Видалити відео",
-      "deleteConfirm": "Відео буде остаточно видалено з вашого облікового запису. Цю дію не можна скасувати.",
+      "deleteConfirm": "Відео буде назавжди видалено з облікового запису. Цю дію не скасувати.",
       "deleteSuccess": "Відео видалено",
       "deleteFailed": "Не вдалося видалити відео",
       "cancel": "Скасувати",
-      "totalCount": "Усього: {total}",
-      "pagePrev": "Назад",
-      "pageNext": "Далі"
+      "totalCount": "Усього {total}",
+      "pagePrev": "Попередня",
+      "pageNext": "Наступна"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Адмін",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Користувачі",
+        "fakeData": "Примітка: фіктивні дані для демо, деякі функції вимкнено",
+        "error": "Не вдалося отримати користувачів",
+        "search": "Пошук користувачів...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Стовпці",
+          "name": "Ім'я",
+          "email": "Ел. пошта",
+          "role": "Роль",
+          "createdAt": "Дата створення",
+          "customerId": "ID клієнта",
+          "status": "Статус",
+          "banReason": "Причина блокування",
+          "banExpires": "Блокування до"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Адмін",
+        "user": "Користувач",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Email підтверджено",
+          "unverified": "Email не підтверджено"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Email скопійовано в буфер",
+        "banned": "Заблоковано",
+        "active": "Активний",
+        "joined": "Приєднався",
+        "updated": "Оновлено",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Причина блокування",
+          "reasonPlaceholder": "Введіть причину блокування цього користувача",
+          "defaultReason": "Спам",
+          "never": "Ніколи",
+          "expires": "Блокування до",
+          "selectDate": "Обрати дату",
+          "button": "Заблокувати користувача",
+          "success": "Користувача заблоковано",
+          "error": "Не вдалося заблокувати користувача"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Розблокувати користувача",
+          "success": "Користувача розблоковано",
+          "error": "Не вдалося розблокувати користувача"
         },
-        "close": "Close"
+        "close": "Закрити"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Налаштування",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Профіль",
+        "description": "Керуйте інформацією облікового запису",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Аватар",
+          "description": "Натисніть «Завантажити», щоб додати власний аватар",
+          "recommendation": "Аватар необов'язковий, але дуже рекомендується",
+          "uploading": "Завантаження...",
+          "uploadAvatar": "Завантажити аватар",
+          "success": "Аватар оновлено",
+          "fail": "Не вдалося оновити аватар"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Ім'я",
+          "description": "Введіть відображуване ім'я",
+          "placeholder": "Введіть ім'я",
+          "minLength": "Мінімум 3 символи",
+          "maxLength": "Максимум 30 символів",
+          "hint": "Використовуйте 3–30 символів для імені",
+          "success": "Ім'я оновлено",
+          "fail": "Не вдалося оновити ім'я",
+          "saving": "Збереження...",
+          "save": "Зберегти"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Оплата",
+        "description": "Керуйте підпискою та оплатою",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Активна",
+          "trial": "Пробна",
+          "free": "Безкоштовно",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "місяць",
+          "year": "рік",
+          "oneTime": "одноразово"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Поточний план",
+          "description": "Деталі поточного плану",
+          "noPlan": "У вас немає активного плану"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Завантаження...",
+          "createCustomerPortalFailed": "Не вдалося відкрити клієнтський портал Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Ціна:",
+        "periodStartDate": "Початок періоду:",
+        "periodEndDate": "Кінець періоду:",
+        "trialEnds": "Пробний період до:",
+        "freePlanMessage": "Зараз у вас безкоштовний план з обмеженими функціями",
+        "lifetimeMessage": "У вас довічний доступ до всіх преміум-функцій",
+        "manageSubscription": "Керувати підпискою та оплатою",
+        "manageBilling": "Керувати оплатою",
+        "upgradePlan": "Покращити план",
+        "retry": "Повторити",
+        "errorMessage": "Не вдалося отримати дані",
+        "paymentSuccess": "Оплату успішно проведено"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Обробка оплати",
+          "description": "Зачекайте, поки ми підтвердимо оплату..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Оплату успішно проведено",
+          "description": "Автоматичне перенаправлення..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Оплата не вдалася",
+          "description": "Під час обробки оплати виникла проблема."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Час обробки вичерпано",
+          "description": "Обробка оплати триває довше, ніж очікувалося."
         },
-        "retry": "Retry"
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Повторити"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Безпека",
+        "description": "Керуйте налаштуваннями безпеки",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Змінити пароль",
+          "description": "Введіть поточний і новий пароль",
+          "currentPassword": "Поточний пароль",
+          "currentRequired": "Потрібен поточний пароль",
+          "newPassword": "Новий пароль",
+          "newMinLength": "Пароль має містити щонайменше 8 символів",
+          "hint": "Використовуйте щонайменше 8 символів для пароля",
+          "showPassword": "Показати пароль",
+          "hidePassword": "Приховати пароль",
+          "success": "Пароль оновлено",
+          "fail": "Не вдалося оновити пароль",
+          "saving": "Збереження...",
+          "save": "Зберегти"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Скидання пароля",
+          "description": "Скиньте пароль, щоб увімкнути вхід через email",
+          "info": "Після скидання пароля ви зможете входити через email і пароль на додаток до соціальних методів. Ви отримаєте лист з інструкціями для скидання пароля",
+          "button": "Скинути пароль"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Видалити обліковий запис",
+          "description": "Назавжди видалити обліковий запис і весь його вміст",
+          "warning": "Цю дію не можна скасувати — дійте обережно",
+          "button": "Видалити обліковий запис",
+          "confirmTitle": "Видалити обліковий запис",
+          "confirmDescription": "Ви впевнені, що хочете видалити обліковий запис? Цю дію не можна скасувати.",
+          "confirm": "Видалити",
+          "cancel": "Скасувати",
+          "deleting": "Видалення...",
+          "success": "Обліковий запис видалено",
+          "fail": "Не вдалося видалити обліковий запис"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Плани з більшою ємністю незабаром з’являться. Безкоштовний пробний період доступний зараз.",
-      "button": "Upgrade"
+      "title": "Покращити",
+      "description": "Плани з більшою ємністю незабаром. Безкоштовна пробна версія доступна зараз.",
+      "button": "Покращити"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Команда {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Привіт, {name}.",
+      "body": "Натисніть посилання нижче, щоб підтвердити адресу email.",
+      "confirmEmail": "Підтвердити email",
+      "subject": "Підтвердіть email"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Привіт, {name}.",
+      "body": "Ми отримали запит на скидання пароля MP4toURL. Натисніть кнопку нижче, щоб обрати новий пароль. Якщо ви не надсилали запит, проігноруйте цей лист.",
+      "resetPassword": "Скинути пароль",
+      "subject": "Скиньте пароль MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Ім'я: {name}",
+      "email": "Ел. пошта: {email}",
+      "message": "Повідомлення: {message}",
+      "subject": "Повідомлення з сайту"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "ГОТОВІ КОДИ",
+    "sectionTitle": "ГОТОВІ ДО КОПІЮВАННЯ КОДИ",
     "copyUrl": "Копіювати URL",
     "copied": "Скопійовано",
     "copyFailed": "Не вдалося скопіювати",
     "openTab": "Відкрити в новій вкладці",
-    "successTitle": "Готово! URL вашого відео доступний",
-    "successSubtitle": "Відео завантажено й готове до поширення.",
+    "successTitle": "Готово! URL вашого відео готовий",
+    "successSubtitle": "Ваше відео завантажено і готове до поширення.",
     "videoLabel": "Відео",
     "watchLabel": "Дивитися відео",
     "shareLink": {
@@ -795,15 +563,15 @@
       "desc": "Для GitHub, Notion і документів"
     },
     "markdownLink": {
-      "title": "Markdown із посиланням",
-      "desc": "Markdown із зрозумілим підписом перегляду"
+      "title": "Markdown з посиланням",
+      "desc": "Markdown із зручною міткою для перегляду"
     },
     "html": {
       "title": "HTML",
-      "desc": "Вбудовування з нативним відеоплеєром"
+      "desc": "Вбудувати зі стандартним відеоплеєром"
     },
     "htmlLink": {
-      "title": "HTML із посиланням",
+      "title": "HTML з посиланням",
       "desc": "Просте посилання, що відкривається в новій вкладці"
     },
     "bbcode": {
@@ -811,142 +579,142 @@
       "desc": "Для форумів і дошок повідомлень"
     },
     "bbcodeLink": {
-      "title": "BBCode із посиланням",
-      "desc": "Посилання для форуму з підписом перегляду"
+      "title": "BBCode з посиланням",
+      "desc": "Посилання на форумі з міткою перегляду"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Завантажте відео — отримайте постійне посилання для поширення",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Відео завантажено. Скопіюйте посилання нижче, щоб поділитися ним.",
+      "title": "Безкоштовний конвертер відео в URL",
+      "description": "Завантажуйте MP4-відео та за кілька секунд отримуйте постійні посилання для поширення.",
+      "tagline": "Підтримка MP4, MOV, AVI, WebM, MKV до 300 МБ. Реєстрація не потрібна.",
+      "uploadHeading": "Завантажте своє відео",
+      "uploadTitle": "Перетягніть відео сюди або натисніть для вибору",
+      "uploadHint": "Підтримка MP4, MOV, AVI, WebM, MKV до 300 МБ",
+      "maxSize": "Максимальний розмір файлу: 300MB",
+      "convert": "Конвертувати в URL",
+      "uploading": "Завантаження...",
+      "copy": "Копіювати посилання",
+      "copied": "Скопійовано",
+      "guestSuccessHint": "Ваше відео завантажено. Скопіюйте посилання нижче, щоб поділитися.",
       "registerForCodesTitle": "Потрібні Markdown, HTML і BBCode?",
-      "registerForCodesDesc": "Зареєструйтеся безкоштовно, щоб відкрити готові коди вбудовування та керувати всіма відео в «Мої ресурси».",
+      "registerForCodesDesc": "Зареєструйтеся безкоштовно, щоб отримати готові коди для вбудовування та керувати кожним відео в «Мої ресурси».",
       "registerCta": "Зареєструватися безкоштовно",
       "uploadAnother": "Завантажити ще одне відео",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Завантаження не вдалося. Спробуйте знову.",
+      "unsupportedType": "Непідтримуваний тип файлу. Завантажте MP4, MOV, AVI, WebM або MKV.",
+      "fileTooLarge": "Файл занадто великий. У безкоштовному плані до 300MB на файл."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Чому MP4 to URL",
+      "subtitle": "Створено для швидкості, приватності та постійних медіапосилань.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Блискавично швидко",
+          "description": "Завантажуйте відео та за кілька секунд отримуйте URL для поширення. Без очікування і черг."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Безпечно та приватно",
+          "description": "Відео передаються через HTTPS і хостяться з пріоритетом приватності."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Постійні посилання",
+          "description": "Отримуйте постійні посилання, які не застарівають. Ідеально для документів, тікетів і соцмереж."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: відео в URL за лічені секунди"
+      "title": "Відео в URL за кілька секунд",
+      "subtitle": "Від локального файлу до посилання для поширення",
+      "description": "Завантажуйте MP4 та суміжні формати — отримуйте чистий постійний URL для документів, чатів і дописів.",
+      "point1": "Перетягніть відео з пристрою",
+      "point2": "Конвертація за секунди — без реєстрації для стандартного використання",
+      "point3": "Скопіюйте постійне посилання та поділіться будь-де",
+      "imageAlt": "mp4tourl.com: зробіть відео доступним для поширення",
+      "imageAltNew": "mp4tourl.com: відео в URL за секунди, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Як користуватися",
+      "subtitle": "Три кроки від локального файлу до URL для поширення.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Оберіть відео",
+          "description": "Перетягніть або оберіть MP4, MOV, AVI, WebM або MKV (до 300 МБ)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Конвертувати в URL",
+          "description": "Натисніть «Конвертувати в URL». Зазвичай обробка займає кілька секунд."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Копіювати та поширити",
+          "description": "Скопіюйте постійне посилання та використовуйте в документах, чатах, на сайтах або в соцмережах."
         }
       }
     },
     "bannerShowcase": {
       "title": "Сценарії",
       "subtitle": "Від локального відео до посилання для поширення.",
-      "description": "Перетягніть файл — отримайте чистий URL для документів, чатів і публікацій. Нижче кілька варіантів оформлення.",
+      "description": "Перетягніть файл — отримайте чистий URL для документів, чатів і дописів. Перегляньте кілька варіантів нижче.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Перетворіть локальний ролик на адресу для поширення за секунди."
+          "description": "Перетворіть локальний ролик на адресу для поширення за кілька секунд."
         },
         "newStyle": {
-          "title": "Діліться де завгодно",
-          "description": "Вставте посилання в документи, тікети та пости в соцмережах."
+          "title": "Поширюйте будь-де",
+          "description": "Вставте посилання в документи, тікети та дописи."
         },
         "dark": {
-          "title": "Надійний хостинг",
-          "description": "Відео доступне за стабільним постійним URL."
+          "title": "Акуратний хостинг",
+          "description": "Зберігайте відео доступними через стабільний постійний URL."
         },
         "retro": {
           "title": "Швидка конвертація",
-          "description": "Завантажте один раз, скопіюйте посилання й використовуйте знову."
+          "description": "Завантажте один раз, скопіюйте посилання — використовуйте коли завгодно."
         }
       }
     },
     "faqs": {
       "title": "Поширені запитання",
-      "subtitle": "Що варто знати про перетворення відео на URL.",
+      "subtitle": "Що варто знати про відео в URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Що таке конвертер відео в URL?",
+          "answer": "Конвертер відео в URL завантажує ваш локальний відеофайл і повертає пряме веб-посилання, яким можна поділитися будь-де."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Як працює конвертація відео в URL?",
+          "answer": "Завантажте відео, дочекайтеся завершення обробки, потім скопіюйте згенерований URL. Цим посиланням можна одразу користуватися, ділитися ним або вбудовувати."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Які формати відео підтримуються?",
+          "answer": "Підтримуються MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP і FLV. У безкоштовному тарифі до 300MB на файл."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Чи постійні згенеровані посилання на відео?",
+          "answer": "Так. Посилання розраховані на довгострокове поширення — URL вашого відео залишається стабільним і придатним для повторного використання."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Де можна використати URL відео?",
+          "answer": "У документації, трекерах задач, чатах, на сайтах, у соцмережах і інструментах командної співпраці."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Чи безкоштовний цей конвертер відео в URL?",
+          "answer": "Так. Стандартний процес конвертації відео в URL безкоштовний у межах поточних лімітів завантаження."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Наскільки безпечні завантаження та хостинг відео?",
+          "answer": "Завантаження відбувається через HTTPS, файли хостяться для стабільної доставки — ви отримуєте надійні посилання для поширення відео."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Найпростіший спосіб поділитися відео",
+      "description": "MP4 to URL — безкоштовний і швидкий хостинг медіа для розробників, авторів і команд. Конвертуйте відео в постійні URL за секунди та діліться ними будь-де.",
+      "primaryButton": "Конвертувати в URL",
+      "secondaryButton": "Читати FAQ"
     }
   }
 }

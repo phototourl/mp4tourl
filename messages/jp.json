@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "無料の動画→リンク変換 - MP4をアップロードして共有リンクを取得",
+    "description": "MP4、MOV、AVI、WebM、MKVをアップロードすれば、数秒でずっと使える共有URLが手に入ります。無料で最大300MBまで。登録不要。"
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "signUp": "新規登録",
+    "language": "言語を切り替え",
+    "languageHint": "地域を選ぶと、言語と表示内容が変わります。",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "表示モードを切り替え",
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "テーマを切り替え",
+      "default": "標準",
+      "blue": "青",
+      "green": "緑",
+      "amber": "琥珀",
+      "neutral": "ニュートラル"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "コピー",
+    "saving": "保存中...",
+    "save": "保存",
+    "loading": "読み込み中...",
+    "cancel": "キャンセル",
+    "logoutFailed": "ログアウトに失敗しました",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "全 {count} 件",
+      "noResults": "結果なし",
+      "loading": "読み込み中...",
+      "columns": "列",
+      "rowsPerPage": "1ページあたりの行数",
+      "page": "ページ",
+      "firstPage": "最初のページ",
+      "lastPage": "最後のページ",
+      "nextPage": "次のページ",
+      "previousPage": "前のページ",
+      "ascending": "昇順",
+      "descending": "降順"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "無料",
+      "description": "動画をホストして、ずっと使える共有URLを取得",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "アップロード上限：300MB",
+        "feature-2": "恒久的なCDNリンク",
+        "feature-3": "登録不要",
+        "feature-4": "コミュニティサポート"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "独自ドメイン",
+        "limit-2": "独自ブランディング",
+        "limit-3": "Lifetimeアップデート"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "よく使う方向けの、より大きな上限とアップロード履歴",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "より大きな動画アップロード",
+        "feature-2": "10 GBストレージ",
+        "feature-3": "アップロード履歴",
+        "feature-4": "優先サポート",
+        "feature-5": "独自ドメイン"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "独自ブランディング",
+        "limit-2": "Lifetimeアップデート"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "一度の支払いで長期の動画ホスティング容量を確保",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Proの全機能",
+        "feature-2": "100 GBストレージ",
+        "feature-3": "専任サポート",
+        "feature-4": "企業向けのセキュリティ",
+        "feature-5": "高度な連携",
+        "feature-6": "独自ブランディング",
+        "feature-7": "Lifetimeアップデート"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "お探しのページは見つかりませんでした。",
+    "backToHome": "ホームに戻る"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "おっと！問題が発生しました",
+    "tryAgain": "もう一度試す",
+    "backToHome": "ホームに戻る"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "このサービスについて",
+    "description": "MP4toURLは動画をずっと使える共有リンクに変えます。MP4、MOV、AVI、WebM、MKVをアップロードして、すぐ共有できます。",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "MP4toURL ブランドマーク",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "無料の動画→リンク変換",
+    "introduction": "MP4toURLは、動画をホストして共有する無料で速い方法です。ファイルをアップロードして恒久的なCDNリンクを取得し、どこでも使えます。面倒な設定は不要です。",
+    "imageAlt": "MP4toURLのブランドマーク",
+    "talkWithMe": "お問い合わせ",
+    "followMe": "Xでフォロー"
   },
   "ContactPage": {
     "title": "お問い合わせ",
-    "description": "動画のアップロード、共有リンク、アカウントに関するご質問はメッセージでお送りください。すべてのメッセージを確認し、できるだけ早く返信します。",
-    "subtitle": "MP4toURLについてご質問がありますか？お気軽にご連絡ください。",
-    "orEmail": "またはメールでお問い合わせ：",
+    "description": "動画のアップロード、共有リンク、アカウントについてのメッセージを送れます。すべてのメッセージに目を通し、できるだけ早く返信します。",
+    "subtitle": "MP4toURLについてご質問がありますか？お気軽にどうぞ。",
+    "orEmail": "またはメールで：",
     "form": {
       "title": "メッセージ",
-      "description": "メッセージを送信してください。できるだけ早く返信します。",
+      "description": "メッセージを送っていただければ、できるだけ早く返信します。",
       "name": "件名",
       "email": "メールアドレス",
       "message": "メッセージ",
@@ -155,369 +125,187 @@
       "emailPlaceholder": "メールアドレス",
       "messagePlaceholder": "メッセージを入力",
       "submit": "送信",
-      "submitting": "送信中…",
+      "submitting": "送信中...",
       "success": "メッセージを送信しました。できるだけ早く返信します。",
       "minLength": "件名は3文字以上にしてください。",
       "maxLengthName": "件名は100文字以内にしてください。",
       "invalidEmail": "有効なメールアドレスを入力してください。",
       "minLengthMessage": "メッセージは10文字以上にしてください。",
       "maxLengthMessage": "メッセージは2000文字以内にしてください。",
-      "invalid": "送信に失敗しました。もう一度お試しください。"
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "invalid": "問題が発生しました。もう一度お試しください。"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "ログイン",
+      "welcomeBack": "おかえりなさい",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "signIn": "ログイン",
+      "signUpHint": "アカウントをお持ちでない方は新規登録",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "signInWithGoogle": "Googleでログイン",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを隠す",
+      "or": "または次で続行",
+      "emailRequired": "メールアドレスを入力してください",
+      "passwordRequired": "パスワードを入力してください",
+      "captchaInvalid": "Captchaの確認に失敗しました",
+      "captchaError": "Captchaの確認でエラーが発生しました"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "新規登録",
+      "createAccount": "アカウントを作成",
+      "name": "名前",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "signUp": "登録する",
+      "signInHint": "すでにアカウントをお持ちの方はログイン",
+      "checkEmail": "メールの受信箱をご確認ください",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを隠す",
+      "nameRequired": "名前を入力してください",
+      "emailRequired": "メールアドレスを入力してください",
+      "passwordRequired": "パスワードを入力してください",
+      "captchaInvalid": "Captchaの確認に失敗しました",
+      "captchaError": "Captchaの確認でエラーが発生しました"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "パスワードをお忘れの方",
+      "email": "メールアドレス",
+      "send": "リセット用リンクを送る",
+      "backToLogin": "ログインに戻る",
+      "checkEmail": "このメールのアカウントがある場合、リセット用リンクを送信しました。受信箱をご確認ください。",
+      "emailRequired": "メールアドレスを入力してください",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "このメールのアカウントは見つかりませんでした",
+        "tooManyRequests": "試行回数が多すぎます。しばらくしてからもう一度お試しください",
+        "serverError": "問題が発生しました。もう一度お試しください"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "パスワードの再設定",
+      "password": "新しいパスワード",
+      "reset": "パスワードを再設定",
+      "backToLogin": "ログインに戻る",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを隠す",
+      "minLength": "パスワードは8文字以上にしてください",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "リセット用リンクの有効期限が切れました。新しいリンクを請求してください",
+        "invalidToken": "リセット用リンクが無効です。新しいリンクを請求してください",
+        "tooManyRequests": "試行回数が多すぎます。しばらくしてからもう一度お試しください",
+        "serverError": "問題が発生しました。もう一度お試しください"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "おっと！問題が発生しました",
+      "tryAgain": "もう一度お試しください。",
+      "backToLogin": "ログインに戻る",
+      "checkEmail": "メールの受信箱をご確認ください"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "byClickingContinue": "続行をクリックすると、次に同意したものとみなされます：",
+      "and": " および "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "ホーム"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "よくある質問"
       },
       "about": {
-        "title": "について"
+        "title": "このサービスについて"
       },
       "contact": {
         "title": "お問い合わせ"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "動画をアップロードして、ずっと使える共有リンクを取得",
       "product": {
-        "title": "Product",
+        "title": "プロダクト",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "機能",
+          "faq": "よくある質問"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "会社情報",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "このサービスについて",
+          "contact": "お問い合わせ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "法務",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookieポリシー",
+          "privacyPolicy": "プライバシーポリシー",
+          "termsOfService": "利用規約"
         }
       }
     },
     "avatar": {
-      "dashboard": "ワークスペース",
+      "dashboard": "ワークベンチ",
       "resources": "マイリソース",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "お支払い",
+      "settings": "設定"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "ワークスペース"
+      "title": "ワークベンチ"
     },
     "home": {
       "loading": "概要を読み込み中…",
       "resourceCount": "動画",
-      "videoCountLabel": "マイリソースの動画",
-      "storageFullHint": "無料トライアルの容量がいっぱいです。一部の動画を削除してください。より大容量のプランを近日公開予定です。",
+      "videoCountLabel": "マイリソース内の動画",
+      "storageFullHint": "無料トライアルの容量がいっぱいです。一部の動画を削除してください。大容量プランは近日公開予定です。",
       "entryResourcesTitle": "マイリソース",
-      "entryResourcesDesc": "アップロードした動画はここに保存されます。リンクのコピー、開く、削除がいつでもできます。",
+      "entryResourcesDesc": "アップロードした動画はここにあります。リンクのコピー、開く、削除がいつでもできます。",
       "entryUploadTitle": "動画をアップロード",
-      "entryUploadDesc": "ホームに動画をドロップすると、数秒で共有リンクを取得できます。",
+      "entryUploadDesc": "ホームに動画をドロップすれば、数秒で共有リンクが手に入ります。",
       "entryFilesTitle": "マイリソース",
-      "entryFilesDesc": "ログイン中のアップロードはアカウントに保存されます。URLのコピーや不要なファイルの削除ができます。",
+      "entryFilesDesc": "ログイン中のアップロードはアカウントに保存されます。URLをコピーしたり、不要なファイルを削除できます。",
       "entryFilesCta": "マイリソースを開く",
-      "filesPointUploadTitle": "多彩な形式",
+      "filesPointUploadTitle": "多くの形式に対応",
       "filesPointUploadBody": "MP4、MOV、AVI、WebM、MKV など",
-      "filesPointManageTitle": "リンク管理",
-      "filesPointManageBody": "マイリソースでコピー、開く、削除",
+      "filesPointManageTitle": "リンクを管理",
+      "filesPointManageBody": "マイリソースからコピー・開く・削除",
       "filesPointFreeTitle": "無料ストレージ",
-      "filesPointFreeBody": "ホスト動画向けに 300 MB 無料",
+      "filesPointFreeBody": "ホスト動画向けに300 MB無料",
       "filesPointPaidTitle": "有料プラン",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
       "title": "マイリソース",
-      "welcome": "おかえりなさい、{name}",
+      "welcome": "おかえりなさい、{name} さん",
       "storage": "ストレージ",
-      "storageHint": "動画ホスティングの使用容量",
+      "storageHint": "使用中の動画ホスティング容量",
       "planCardTitle": "現在のプラン",
       "planFree": "無料",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
-      "planActive": "利用中",
-      "planHintFree": "無料トライアルをご利用いただけます。より大容量のプランを近日公開予定です。",
-      "planHintPro": "現在は Pro（10 GB）です。Lifetime で 100 GB になります。",
+      "planActive": "有効",
+      "planHintFree": "無料トライアルは今すぐ使えます。大容量プランは近日公開予定です。",
+      "planHintPro": "Pro（10 GB）をご利用中です。Lifetimeで100 GBになります。",
       "planHintLifetime": "すべての機能が利用可能です",
-      "description": "ログイン中にアップロードした動画です。このページからアップロード、プレビュー、ダウンロード、削除ができます。",
+      "description": "ログイン中にアップロードした動画です。ここでアップロード、プレビュー、ダウンロード、削除ができます。",
       "empty": "まだ動画がありません",
-      "emptyHint": "「アップロード」または中央の + カードを押して、最初の動画を追加してください。",
+      "emptyHint": "「アップロード」または＋カードから最初の動画を追加してください。",
       "goUpload": "動画をアップロード",
       "upload": "アップロード",
       "uploading": "アップロード中…",
       "uploadSuccess": "アップロード完了",
       "uploadFailed": "アップロードに失敗しました",
       "unsupportedType": "動画形式のみ対応しています（MP4、MOV、AVI、WebM、MKV…）",
-      "fileTooLarge": "ファイルが大きすぎます。無料プランは1ファイル最大 300MB です。",
+      "fileTooLarge": "ファイルが大きすぎます。無料プランは1ファイル最大300MBです。",
       "filterFormat": "ファイル形式",
       "formatAll": "すべての形式",
       "format": {
@@ -545,477 +333,388 @@
       "preview": "プレビュー",
       "previewClose": "閉じる",
       "shareCodes": "共有コード",
-      "shareCodesDesc": "Markdown、HTML、BBCode など、すぐコピーできる形式。",
+      "shareCodesDesc": "Markdown、HTML、BBCode などにすぐ貼れるリンクです。",
       "download": "ダウンロード",
       "delete": "削除",
       "deleteTitle": "動画を削除",
-      "deleteConfirm": "この動画はアカウントから完全に削除され、元に戻せません。",
+      "deleteConfirm": "アカウントから動画を完全に削除します。この操作は取り消せません。",
       "deleteSuccess": "動画を削除しました",
       "deleteFailed": "動画の削除に失敗しました",
       "cancel": "キャンセル",
-      "totalCount": "合計 {total} 件",
+      "totalCount": "全 {total} 件",
       "pagePrev": "前へ",
       "pageNext": "次へ"
     },
     "admin": {
-      "title": "Admin",
+      "title": "管理",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "ユーザー",
+        "fakeData": "注：デモ用の仮データです。一部機能は無効です",
+        "error": "ユーザーの取得に失敗しました",
+        "search": "ユーザーを検索...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "列",
+          "name": "名前",
+          "email": "メール",
+          "role": "役割",
+          "createdAt": "作成日時",
+          "customerId": "顧客ID",
+          "status": "状態",
+          "banReason": "禁止理由",
+          "banExpires": "禁止期限"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "管理者",
+        "user": "ユーザー",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "メール確認済み",
+          "unverified": "メール未確認"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "メールをクリップボードにコピーしました",
+        "banned": "禁止中",
+        "active": "有効",
+        "joined": "参加日",
+        "updated": "更新日",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "禁止理由",
+          "reasonPlaceholder": "このユーザーを禁止する理由を入力",
+          "defaultReason": "スパム",
+          "never": "なし",
+          "expires": "禁止期限",
+          "selectDate": "日付を選択",
+          "button": "ユーザーを禁止",
+          "success": "ユーザーを禁止しました",
+          "error": "ユーザーの禁止に失敗しました"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "禁止を解除",
+          "success": "ユーザーの禁止を解除しました",
+          "error": "禁止の解除に失敗しました"
         },
-        "close": "Close"
+        "close": "閉じる"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "設定",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "プロフィール",
+        "description": "アカウント情報を管理します",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "アバター",
+          "description": "アップロードボタンからカスタム画像を設定できます",
+          "recommendation": "アバターは任意ですが、設定をおすすめします",
+          "uploading": "アップロード中...",
+          "uploadAvatar": "アバターをアップロード",
+          "success": "アバターを更新しました",
+          "fail": "アバターの更新に失敗しました"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "名前",
+          "description": "表示名を入力してください",
+          "placeholder": "名前を入力",
+          "minLength": "3文字以上にしてください",
+          "maxLength": "30文字以内にしてください",
+          "hint": "名前は3〜30文字で入力してください",
+          "success": "名前を更新しました",
+          "fail": "名前の更新に失敗しました",
+          "saving": "保存中...",
+          "save": "保存"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "お支払い",
+        "description": "サブスクリプションと請求の詳細を管理します",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "有効",
+          "trial": "トライアル",
+          "free": "無料",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "月",
+          "year": "年",
+          "oneTime": "一回払い"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "現在のプラン",
+          "description": "現在のプランの詳細",
+          "noPlan": "有効なプランがありません"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "読み込み中...",
+          "createCustomerPortalFailed": "Stripeのカスタマーポータルを開けませんでした"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "料金：",
+        "periodStartDate": "期間の開始日：",
+        "periodEndDate": "期間の終了日：",
+        "trialEnds": "トライアル終了：",
+        "freePlanMessage": "現在は機能が限られた無料プランです",
+        "lifetimeMessage": "プレミアム機能すべてにLifetimeアクセスがあります",
+        "manageSubscription": "サブスクリプションと請求を管理",
+        "manageBilling": "請求を管理",
+        "upgradePlan": "プランをアップグレード",
+        "retry": "再試行",
+        "errorMessage": "データの取得に失敗しました",
+        "paymentSuccess": "支払いが完了しました"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "支払いを処理中",
+          "description": "支払いの確認が終わるまでお待ちください..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "支払い完了",
+          "description": "自動的に移動します..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "支払いに失敗しました",
+          "description": "支払いの処理中に問題が発生しました。"
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "処理がタイムアウトしました",
+          "description": "支払いの処理に想定より時間がかかっています。"
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "再試行"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "セキュリティ",
+        "description": "セキュリティ設定を管理します",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "パスワードの変更",
+          "description": "現在のパスワードと新しいパスワードを入力してください",
+          "currentPassword": "現在のパスワード",
+          "currentRequired": "現在のパスワードが必要です",
+          "newPassword": "新しいパスワード",
+          "newMinLength": "パスワードは8文字以上にしてください",
+          "hint": "パスワードは8文字以上にしてください",
+          "showPassword": "パスワードを表示",
+          "hidePassword": "パスワードを隠す",
+          "success": "パスワードを更新しました",
+          "fail": "パスワードの更新に失敗しました",
+          "saving": "保存中...",
+          "save": "保存"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "パスワードの再設定",
+          "description": "メールログインを有効にするためにパスワードを再設定します",
+          "info": "パスワードを再設定すると、ソーシャルログインに加えてメールとパスワードでもログインできます。再設定手順を記載したメールが届きます",
+          "button": "パスワードを再設定"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "アカウント削除",
+          "description": "アカウントとその内容をすべて完全に削除します",
+          "warning": "この操作は取り消せません。十分ご注意ください",
+          "button": "アカウントを削除",
+          "confirmTitle": "アカウント削除",
+          "confirmDescription": "本当にアカウントを削除しますか？この操作は取り消せません。",
+          "confirm": "削除",
+          "cancel": "キャンセル",
+          "deleting": "削除中...",
+          "success": "アカウントを削除しました",
+          "fail": "アカウントの削除に失敗しました"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "より大容量のプランを近日公開予定です。無料トライアルをご利用いただけます。",
-      "button": "Upgrade"
+      "title": "アップグレード",
+      "description": "大容量プランは近日公開予定です。無料トライアルは今すぐ使えます。",
+      "button": "アップグレード"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name} チーム",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "{name} さん、こんにちは。",
+      "body": "下のリンクをクリックして、メールアドレスを確認してください。",
+      "confirmEmail": "メールを確認",
+      "subject": "メールアドレスの確認"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "{name} さん、こんにちは。",
+      "body": "MP4toURLのパスワード再設定のリクエストを受け付けました。下のボタンから新しいパスワードを設定してください。心当たりがない場合は、このメールを無視してかまいません。",
+      "resetPassword": "パスワードを再設定",
+      "subject": "MP4toURLのパスワード再設定"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "名前：{name}",
+      "email": "メール：{email}",
+      "message": "メッセージ：{message}",
+      "subject": "ウェブサイトからのお問い合わせ"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "すぐ使える埋め込みコード",
+    "sectionTitle": "すぐコピーできるコード",
     "copyUrl": "URLをコピー",
     "copied": "コピーしました",
     "copyFailed": "コピーできませんでした",
     "openTab": "新しいタブで開く",
-    "successTitle": "完了！動画URLの準備ができました",
-    "successSubtitle": "動画のアップロードが完了し、共有できます。",
+    "successTitle": "完了！動画のURLが用意できました",
+    "successSubtitle": "動画のアップロードが終わり、共有できる状態です。",
     "videoLabel": "動画",
     "watchLabel": "動画を見る",
     "shareLink": {
       "title": "共有リンク",
-      "desc": "どこでも使える直リンク"
+      "desc": "どこにでも貼れる直リンク"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub、Notion、ドキュメント向け"
     },
     "markdownLink": {
-      "title": "リンク付き Markdown",
-      "desc": "「動画を見る」ラベル付きの Markdown"
+      "title": "リンク付きMarkdown",
+      "desc": "見やすい視聴ラベル付きのMarkdown"
     },
     "html": {
       "title": "HTML",
       "desc": "標準の動画プレイヤーで埋め込み"
     },
     "htmlLink": {
-      "title": "リンク付き HTML",
-      "desc": "新しいタブで開くシンプルなリンク"
+      "title": "リンク付きHTML",
+      "desc": "新しいタブで開くシンプルなアンカー"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "フォーラムや掲示板向け"
     },
     "bbcodeLink": {
-      "title": "リンク付き BBCode",
-      "desc": "視聴ラベル付きのフォーラムリンク"
+      "title": "リンク付きBBCode",
+      "desc": "視聴ラベル付きのフォーラム用リンク"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "動画をアップロードして、ずっと使える共有リンクを取得",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "無料の動画→リンク変換",
+      "description": "MP4動画をアップロードすれば、数秒でずっと使える共有リンクが手に入ります。",
+      "tagline": "MP4、MOV、AVI、WebM、MKV対応、最大300MB。登録不要。",
+      "uploadHeading": "動画をアップロード",
+      "uploadTitle": "ここに動画をドロップ、またはクリックして選択",
+      "uploadHint": "MP4、MOV、AVI、WebM、MKV対応、最大300MB",
+      "maxSize": "最大ファイルサイズ：300MB",
+      "convert": "リンクに変換",
+      "uploading": "アップロード中...",
+      "copy": "リンクをコピー",
+      "copied": "コピーしました",
       "guestSuccessHint": "動画のアップロードが完了しました。下のリンクをコピーして共有できます。",
-      "registerForCodesTitle": "Markdown、HTML、BBCode も使いたい？",
-      "registerForCodesDesc": "無料登録すると、すぐ使える埋め込みコードを解除でき、「マイリソース」で動画を管理できます。",
+      "registerForCodesTitle": "Markdown、HTML、BBCodeも欲しいですか？",
+      "registerForCodesDesc": "無料登録で、すぐ使える埋め込みコードを解放し、すべての動画をマイリソースで管理できます。",
       "registerCta": "無料で登録",
       "uploadAnother": "別の動画をアップロード",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "アップロードに失敗しました。もう一度お試しください。",
+      "unsupportedType": "対応していないファイル形式です。MP4、MOV、AVI、WebM、またはMKVをアップロードしてください。",
+      "fileTooLarge": "ファイルが大きすぎます。無料プランは1ファイル最大300MBです。"
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "MP4 to URLを選ぶ理由",
+      "subtitle": "速さ、プライバシー、ずっと使えるメディアリンクのために作られています。",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "とにかく速い",
+          "description": "動画をアップロードして、数秒で共有URLに。待ち時間も行列もありません。"
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "安全でプライベート",
+          "description": "動画はHTTPSで転送され、プライバシーを重視した管理のもとでホストされます。"
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "ずっと使えるリンク",
+          "description": "期限切れのない恒久リンク。ドキュメント、チケット、SNS共有にぴったりです。"
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com：数秒で動画をURLに変換"
+      "title": "動画→リンク、数秒で",
+      "subtitle": "ローカルファイルから共有リンクへ",
+      "description": "MP4など対応形式をアップロードすれば、ドキュメントやチャット、投稿にそのまま貼れるきれいな恒久URLが手に入ります。",
+      "point1": "端末から動画をドロップ",
+      "point2": "数秒で変換 — 通常利用なら登録不要",
+      "point3": "恒久リンクをコピーしてどこでも共有",
+      "imageAlt": "mp4tourl.comのコラージュ：動画を共有しやすく",
+      "imageAltNew": "mp4tourl.com：数秒で動画→リンク、www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "使い方",
+      "subtitle": "ローカルファイルから共有URLまで、3ステップ。",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "動画を選ぶ",
+          "description": "MP4、MOV、AVI、WebM、MKVをドラッグ＆ドロップまたは選択（最大300MB）。"
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "リンクに変換",
+          "description": "「リンクに変換」をクリック。処理は通常数秒で終わります。"
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "コピーして共有",
+          "description": "恒久リンクをコピーして、ドキュメント、チャット、サイト、SNS投稿などで使えます。"
         }
       }
     },
     "bannerShowcase": {
-      "title": "利用シーン",
-      "subtitle": "ローカル動画から共有リンクへ。",
-      "description": "ファイルをドロップすれば、ドキュメント・チャット・投稿用のきれいな URL が手に入ります。下でいくつか見てみましょう。",
+      "title": "シーン",
+      "subtitle": "手元の動画から、共有できるリンクへ。",
+      "description": "ファイルをドロップすれば、ドキュメントやチャット、投稿向けのきれいなURLが手に入ります。見た目の例をいくつかどうぞ。",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "ローカル動画を数秒で共有できるアドレスに。"
+          "description": "手元のクリップを、数秒で共有できるアドレスに。"
         },
         "newStyle": {
           "title": "どこでも共有",
-          "description": "リンクをドキュメント、チケット、SNS に貼り付け。"
+          "description": "ドキュメント、チケット、SNS投稿にリンクを貼るだけ。"
         },
         "dark": {
-          "title": "安定ホスティング",
-          "description": "安定した恒久 URL で動画をいつでもアクセス可能に。"
+          "title": "すっきりホスティング",
+          "description": "安定した恒久URLで、動画にいつでも届ける。"
         },
         "retro": {
-          "title": "高速変換",
-          "description": "一度アップロード、リンクをコピー、いつでも再利用。"
+          "title": "すばやく変換",
+          "description": "一度アップロードしてリンクをコピー。必要なときに何度でも使えます。"
         }
       }
     },
     "faqs": {
       "title": "よくある質問",
-      "subtitle": "動画をURLにする際に知っておきたいこと。",
+      "subtitle": "動画→リンクについて知っておきたいこと。",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "動画→リンク変換とは何ですか？",
+          "answer": "手元の動画ファイルをアップロードし、どこでも共有できるウェブの直リンクを返す仕組みです。"
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "動画→リンクはどう進みますか？",
+          "answer": "動画をアップロードし、処理が終わったら生成されたURLをコピーします。すぐに開いたり、共有したり、埋め込んだりできます。"
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "対応している動画形式は？",
+          "answer": "対応形式は MP4、MOV、AVI、WebM、MKV、MPEG、OGG、3GP、FLV などです。無料枠は1ファイル最大300MBです。"
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "生成された動画リンクは永久ですか？",
+          "answer": "はい。長期の共有を想定したリンクなので、動画URLは安定して再利用できます。"
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "動画URLはどこで使えますか？",
+          "answer": "ドキュメント、課題管理、チャット、ウェブサイト、SNS投稿、チームのコラボツールなどで使えます。"
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "この動画→リンク変換は無料ですか？",
+          "answer": "はい。標準の動画→リンクの流れは、現在のアップロード上限内で無料で使えます。"
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "アップロードとホスティングはどのくらい安全ですか？",
+          "answer": "アップロードはHTTPSで転送され、安定した配信のためにホストされるので、動画コンテンツ向けの信頼できる共有リンクを得られます。"
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "動画を共有するいちばんかんたんな方法",
+      "description": "MP4 to URLは、開発者・クリエイター・チーム向けの無料で速いメディアホスティングです。動画を数秒で恒久URLに変えて、どこでも共有できます。",
+      "primaryButton": "リンクに変換",
+      "secondaryButton": "よくある質問を読む"
     }
   }
 }

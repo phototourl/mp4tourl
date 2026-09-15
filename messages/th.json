@@ -1,153 +1,123 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี – อัปโหลด MP4 แล้วรับลิงก์แชร์ได้ทันที",
+    "description": "อัปโหลด MP4, MOV, AVI, WebM, MKV แล้วรับ URL แชร์ถาวรภายในไม่กี่วินาที โฮสต์วิดีโอฟรีสูงสุด 300MB — ไม่ต้องสมัครสมาชิก"
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "signUp": "สมัครสมาชิก",
+    "language": "เปลี่ยนภาษา",
+    "languageHint": "เมื่อเลือกภูมิภาค ภาษาและเนื้อหาจะเปลี่ยนตาม",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "สลับโหมด",
+      "light": "สว่าง",
+      "dark": "มืด",
+      "system": "ตามระบบ"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "เปลี่ยนธีม",
+      "default": "ค่าเริ่มต้น",
+      "blue": "น้ำเงิน",
+      "green": "เขียว",
+      "amber": "อำพัน",
+      "neutral": "กลาง"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "คัดลอก",
+    "saving": "กำลังบันทึก...",
+    "save": "บันทึก",
+    "loading": "กำลังโหลด...",
+    "cancel": "ยกเลิก",
+    "logoutFailed": "ออกจากระบบไม่สำเร็จ",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "ทั้งหมด {count} รายการ",
+      "noResults": "ไม่พบผลลัพธ์",
+      "loading": "กำลังโหลด...",
+      "columns": "คอลัมน์",
+      "rowsPerPage": "แถวต่อหน้า",
+      "page": "หน้า",
+      "firstPage": "หน้าแรก",
+      "lastPage": "หน้าสุดท้าย",
+      "nextPage": "หน้าถัดไป",
+      "previousPage": "หน้าก่อนหน้า",
+      "ascending": "น้อย→มาก",
+      "descending": "มาก→น้อย"
     }
   },
   "PricePlans": {
     "free": {
       "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "description": "โฮสต์วิดีโอและรับลิงก์แชร์ถาวร",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "ขนาดอัปโหลด: 300MB",
+        "feature-2": "ลิงก์ CDN ถาวร",
+        "feature-3": "ไม่ต้องสมัครสมาชิก",
+        "feature-4": "ชุมชนช่วยเหลือ"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "โดเมนกำหนดเอง",
+        "limit-2": "แบรนด์กำหนดเอง",
+        "limit-3": "อัปเดตตลอดชีพ"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "โควต้ามากขึ้นและประวัติอัปโหลดสำหรับครีเอเตอร์ที่ใช้งานบ่อย",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "อัปโหลดวิดีโอขนาดใหญ่ขึ้น",
+        "feature-2": "พื้นที่เก็บ 10 GB",
+        "feature-3": "ประวัติอัปโหลด",
+        "feature-4": "ซัพพอร์ตลำดับความสำคัญ",
+        "feature-5": "โดเมนกำหนดเอง"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "แบรนด์กำหนดเอง",
+        "limit-2": "อัปเดตตลอดชีพ"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "จ่ายครั้งเดียวสำหรับความจุโฮสต์วิดีโอระยะยาว",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "ฟีเจอร์ Pro ทั้งหมด",
+        "feature-2": "พื้นที่เก็บ 100 GB",
+        "feature-3": "ซัพพอร์ตเฉพาะ",
+        "feature-4": "ความปลอดภัยระดับองค์กร",
+        "feature-5": "การเชื่อมต่อขั้นสูง",
+        "feature-6": "แบรนด์กำหนดเอง",
+        "feature-7": "อัปเดตตลอดชีพ"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "ขออภัย ไม่พบหน้าที่คุณต้องการ",
+    "backToHome": "กลับหน้าแรก"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "เกิดข้อผิดพลาด!",
+    "tryAgain": "ลองอีกครั้ง",
+    "backToHome": "กลับหน้าแรก"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "เกี่ยวกับเรา",
+    "description": "MP4toURL เปลี่ยนวิดีโอของคุณเป็นลิงก์แชร์ถาวร — อัปโหลด MP4, MOV, AVI, WebM หรือ MKV แล้วแชร์ได้ภายในไม่กี่วินาที",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "เครื่องหมายแบรนด์ MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี",
+    "introduction": "MP4toURL คือวิธีโฮสต์และแชร์วิดีโอที่รวดเร็วและฟรี อัปโหลดไฟล์ รับลิงก์ CDN ถาวร แล้วใช้ได้ทุกที่ — ไม่ต้องตั้งค่าซับซ้อน",
+    "imageAlt": "โลโก้ MP4toURL",
+    "talkWithMe": "ติดต่อเรา",
+    "followMe": "ติดตามบน X"
   },
   "ContactPage": {
     "title": "ติดต่อ",
-    "description": "ส่งข้อความเกี่ยวกับการอัปโหลดวิดีโอ ลิงก์แชร์ หรือบัญชีของคุณ เราอ่านทุกข้อความและจะตอบกลับโดยเร็วที่สุด",
-    "subtitle": "มีคำถามเกี่ยวกับ MP4toURL ไหม? เรายินดีช่วยเหลือ",
-    "orEmail": "หรือส่งอีเมลถึงเราที่",
+    "description": "ส่งข้อความเกี่ยวกับการอัปโหลดวิดีโอ ลิงก์แชร์ หรือบัญชีของคุณ เราอ่านทุกข้อความและตอบกลับโดยเร็วที่สุด",
+    "subtitle": "มีคำถามเกี่ยวกับ MP4toURL? ยินดีช่วยเหลือ",
+    "orEmail": "หรืออีเมลถึงเราที่",
     "form": {
       "title": "ข้อความ",
-      "description": "ส่งข้อความแล้วเราจะตอบกลับโดยเร็วที่สุด",
+      "description": "ส่งข้อความมา เราจะตอบกลับโดยเร็วที่สุด",
       "name": "หัวข้อ",
       "email": "อีเมล",
       "message": "ข้อความ",
@@ -155,8 +125,8 @@
       "emailPlaceholder": "อีเมล",
       "messagePlaceholder": "ใส่ข้อความ",
       "submit": "ส่ง",
-      "submitting": "กำลังส่ง…",
-      "success": "ส่งข้อความสำเร็จแล้ว เราจะตอบกลับโดยเร็วที่สุด",
+      "submitting": "กำลังส่ง...",
+      "success": "ส่งข้อความแล้ว เราจะตอบกลับโดยเร็วที่สุด",
       "minLength": "หัวข้อต้องมีอย่างน้อย 3 ตัวอักษร",
       "maxLengthName": "หัวข้อต้องไม่เกิน 100 ตัวอักษร",
       "invalidEmail": "กรุณาใส่อีเมลที่ถูกต้อง",
@@ -165,154 +135,86 @@
       "invalid": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง"
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "เข้าสู่ระบบ",
+      "welcomeBack": "ยินดีต้อนรับกลับ",
+      "email": "อีเมล",
+      "password": "รหัสผ่าน",
+      "signIn": "เข้าสู่ระบบ",
+      "signUpHint": "ยังไม่มีบัญชี? สมัครสมาชิก",
+      "forgotPassword": "ลืมรหัสผ่าน?",
+      "signInWithGoogle": "เข้าสู่ระบบด้วย Google",
+      "showPassword": "แสดงรหัสผ่าน",
+      "hidePassword": "ซ่อนรหัสผ่าน",
+      "or": "หรือดำเนินการต่อด้วย",
+      "emailRequired": "กรุณาใส่อีเมล",
+      "passwordRequired": "กรุณาใส่รหัสผ่าน",
+      "captchaInvalid": "ยืนยัน captcha ไม่สำเร็จ",
+      "captchaError": "เกิดข้อผิดพลาดในการยืนยัน captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "สมัครสมาชิก",
+      "createAccount": "สร้างบัญชี",
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "password": "รหัสผ่าน",
+      "signUp": "สมัครสมาชิก",
+      "signInHint": "มีบัญชีแล้ว? เข้าสู่ระบบ",
+      "checkEmail": "กรุณาตรวจสอบกล่องจดหมาย",
+      "showPassword": "แสดงรหัสผ่าน",
+      "hidePassword": "ซ่อนรหัสผ่าน",
+      "nameRequired": "กรุณาใส่ชื่อ",
+      "emailRequired": "กรุณาใส่อีเมล",
+      "passwordRequired": "กรุณาใส่รหัสผ่าน",
+      "captchaInvalid": "ยืนยัน captcha ไม่สำเร็จ",
+      "captchaError": "เกิดข้อผิดพลาดในการยืนยัน captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "ลืมรหัสผ่าน",
+      "email": "อีเมล",
+      "send": "ส่งลิงก์รีเซ็ต",
+      "backToLogin": "กลับไปเข้าสู่ระบบ",
+      "checkEmail": "หากมีบัญชีด้วยอีเมลนี้ เราได้ส่งลิงก์รีเซ็ตแล้ว กรุณาตรวจสอบกล่องจดหมาย",
+      "emailRequired": "กรุณาใส่อีเมล",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "ไม่พบบัญชีด้วยอีเมลนี้",
+        "tooManyRequests": "ลองบ่อยเกินไป กรุณาลองใหม่ภายหลัง",
+        "serverError": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "รีเซ็ตรหัสผ่าน",
+      "password": "รหัสผ่านใหม่",
+      "reset": "รีเซ็ตรหัสผ่าน",
+      "backToLogin": "กลับไปเข้าสู่ระบบ",
+      "showPassword": "แสดงรหัสผ่าน",
+      "hidePassword": "ซ่อนรหัสผ่าน",
+      "minLength": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "ลิงก์รีเซ็ตหมดอายุแล้ว กรุณาขอลิงก์ใหม่",
+        "invalidToken": "ลิงก์รีเซ็ตไม่ถูกต้อง กรุณาขอลิงก์ใหม่",
+        "tooManyRequests": "ลองบ่อยเกินไป กรุณาลองใหม่ภายหลัง",
+        "serverError": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "เกิดข้อผิดพลาด!",
+      "tryAgain": "กรุณาลองอีกครั้ง",
+      "backToLogin": "กลับไปเข้าสู่ระบบ",
+      "checkEmail": "กรุณาตรวจสอบกล่องจดหมาย"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "ข้อกำหนดการใช้งาน",
+      "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+      "byClickingContinue": "เมื่อคลิกดำเนินการต่อ แสดงว่าคุณยอมรับ ",
+      "and": " และ "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "หน้าแรก"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,152 +224,38 @@
       },
       "contact": {
         "title": "ติดต่อ"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "อัปโหลดวิดีโอ รับลิงก์แชร์ถาวร",
       "product": {
-        "title": "Product",
+        "title": "ผลิตภัณฑ์",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "ฟีเจอร์",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "บริษัท",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "เกี่ยวกับ",
+          "contact": "ติดต่อ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "กฎหมาย",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "นโยบายคุกกี้",
+          "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+          "termsOfService": "ข้อกำหนดการใช้งาน"
         }
       }
     },
     "avatar": {
       "dashboard": "พื้นที่ทำงาน",
-      "resources": "คลังของฉัน",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "resources": "ทรัพยากรของฉัน",
+      "billing": "การชำระเงิน",
+      "settings": "การตั้งค่า"
     }
   },
   "Dashboard": {
@@ -477,44 +265,44 @@
     "home": {
       "loading": "กำลังโหลดภาพรวม…",
       "resourceCount": "วิดีโอ",
-      "videoCountLabel": "วิดีโอในคลังของฉัน",
-      "storageFullHint": "พื้นที่ทดลองใช้ฟรีเต็มแล้ว ลบบางวิดีโอได้ก่อน แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้",
-      "entryResourcesTitle": "คลังของฉัน",
+      "videoCountLabel": "วิดีโอในทรัพยากรของฉัน",
+      "storageFullHint": "พื้นที่ทดลองฟรีเต็มแล้ว ลบวิดีโอบางรายการ แพ็กเกจความจุมากขึ้นกำลังจะมาเร็วๆ นี้",
+      "entryResourcesTitle": "ทรัพยากรของฉัน",
       "entryResourcesDesc": "วิดีโอที่อัปโหลดอยู่ที่นี่ — คัดลอกลิงก์ เปิด หรือลบได้ทุกเมื่อ",
       "entryUploadTitle": "อัปโหลดวิดีโอ",
-      "entryUploadDesc": "วางวิดีโอบนหน้าแรก แล้วรับลิงก์แชร์ได้ในไม่กี่วินาที",
-      "entryFilesTitle": "คลังของฉัน",
-      "entryFilesDesc": "อัปโหลดตอนเข้าสู่ระบบจะบันทึกในบัญชี คัดลอก URL หรือลบไฟล์ที่ไม่ต้องการได้",
-      "entryFilesCta": "เปิดคลังของฉัน",
+      "entryUploadDesc": "วางวิดีโอที่หน้าแรก แล้วรับลิงก์แชร์ภายในไม่กี่วินาที",
+      "entryFilesTitle": "ทรัพยากรของฉัน",
+      "entryFilesDesc": "ไฟล์ที่อัปโหลดขณะเข้าสู่ระบบจะบันทึกในบัญชี คัดลอก URL หรือลบไฟล์ที่ไม่ต้องการ",
+      "entryFilesCta": "เปิดทรัพยากรของฉัน",
       "filesPointUploadTitle": "หลายรูปแบบ",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV และอื่นๆ",
       "filesPointManageTitle": "จัดการลิงก์",
-      "filesPointManageBody": "คัดลอก เปิด หรือลบจากคลังของฉัน",
+      "filesPointManageBody": "คัดลอก เปิด หรือลบจากทรัพยากรของฉัน",
       "filesPointFreeTitle": "พื้นที่ฟรี",
       "filesPointFreeBody": "300 MB ฟรีสำหรับวิดีโอที่โฮสต์",
-      "filesPointPaidTitle": "แพ็กเกจแบบชำระเงิน",
+      "filesPointPaidTitle": "แพ็กเกจเสียเงิน",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
-      "title": "คลังของฉัน",
-      "welcome": "ยินดีต้อนรับกลับมา, {name}",
-      "storage": "พื้นที่จัดเก็บ",
+      "title": "ทรัพยากรของฉัน",
+      "welcome": "ยินดีต้อนรับกลับ, {name}",
+      "storage": "พื้นที่เก็บ",
       "storageHint": "พื้นที่โฮสต์วิดีโอที่ใช้ไป",
       "planCardTitle": "แพ็กเกจปัจจุบัน",
-      "planFree": "ฟรี",
+      "planFree": "Free",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "ใช้งานอยู่",
-      "planHintFree": "ทดลองใช้ฟรีได้แล้วตอนนี้ แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้",
-      "planHintPro": "คุณใช้ Pro (10 GB) Lifetime จะได้ 100 GB",
+      "planHintFree": "ทดลองใช้ฟรีได้แล้วตอนนี้ แพ็กเกจความจุมากขึ้นกำลังจะมาเร็วๆ นี้",
+      "planHintPro": "คุณใช้ Pro (10 GB) Lifetime ปลดล็อก 100 GB",
       "planHintLifetime": "ปลดล็อกฟีเจอร์ทั้งหมดแล้ว",
-      "description": "วิดีโอที่คุณอัปโหลดขณะเข้าสู่ระบบ อัปโหลดที่นี่ ดูตัวอย่าง ดาวน์โหลด หรือลบได้ทุกเมื่อ",
+      "description": "วิดีโอที่อัปโหลดขณะเข้าสู่ระบบ อัปโหลด ดูตัวอย่าง ดาวน์โหลด หรือลบได้ทุกเมื่อ",
       "empty": "ยังไม่มีวิดีโอ",
-      "emptyHint": "คลิก「อัปโหลด」หรือการ์ด + เพื่อเพิ่มวิดีโอแรก",
+      "emptyHint": "คลิกอัปโหลดหรือการ์ด + เพื่อเพิ่มวิดีโอแรก",
       "goUpload": "อัปโหลดวิดีโอ",
       "upload": "อัปโหลด",
       "uploading": "กำลังอัปโหลด…",
-      "uploadSuccess": "อัปโหลดเสร็จแล้ว",
+      "uploadSuccess": "อัปโหลดสำเร็จ",
       "uploadFailed": "อัปโหลดไม่สำเร็จ",
       "unsupportedType": "รองรับเฉพาะไฟล์วิดีโอ (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "ไฟล์ใหญ่เกินไป แพ็กเกจฟรีอนุญาตสูงสุด 300MB ต่อไฟล์",
@@ -530,17 +318,17 @@
         "flv": "FLV",
         "3gp": "3GP"
       },
-      "usageStorage": "พื้นที่จัดเก็บ",
+      "usageStorage": "พื้นที่เก็บ",
       "viewGrid": "มุมมองตาราง",
       "viewList": "มุมมองรายการ",
       "loading": "กำลังโหลด…",
-      "loadError": "โหลดคลังไม่สำเร็จ",
+      "loadError": "โหลดทรัพยากรไม่สำเร็จ",
       "searchPlaceholder": "ค้นหาจากชื่อไฟล์…",
       "search": "ค้นหา",
       "reset": "รีเซ็ต",
       "copyUrl": "คัดลอก URL",
       "copied": "คัดลอก URL แล้ว",
-      "copyFailed": "คัดลอกไม่สำเร็จ",
+      "copyFailed": "คัดลอกไม่ได้",
       "open": "เปิด",
       "preview": "ดูตัวอย่าง",
       "previewClose": "ปิด",
@@ -549,7 +337,7 @@
       "download": "ดาวน์โหลด",
       "delete": "ลบ",
       "deleteTitle": "ลบวิดีโอ",
-      "deleteConfirm": "ระบบจะลบวิดีโอนี้ออกจากบัญชีของคุณถาวร และยกเลิกไม่ได้",
+      "deleteConfirm": "การลบจะเอาวิดีโอออกจากบัญชีถาวร ไม่สามารถย้อนกลับได้",
       "deleteSuccess": "ลบวิดีโอแล้ว",
       "deleteFailed": "ลบวิดีโอไม่สำเร็จ",
       "cancel": "ยกเลิก",
@@ -560,304 +348,215 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "ผู้ใช้",
+        "fakeData": "หมายเหตุ: ข้อมูลจำลองสำหรับสาธิต ฟีเจอร์บางอย่างถูกปิด",
+        "error": "ดึงข้อมูลผู้ใช้ไม่สำเร็จ",
+        "search": "ค้นหาผู้ใช้...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "คอลัมน์",
+          "name": "ชื่อ",
+          "email": "อีเมล",
+          "role": "บทบาท",
+          "createdAt": "สร้างเมื่อ",
+          "customerId": "รหัสลูกค้า",
+          "status": "สถานะ",
+          "banReason": "เหตุผลแบน",
+          "banExpires": "แบนหมดอายุ"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "ผู้ใช้",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "ยืนยันอีเมลแล้ว",
+          "unverified": "ยังไม่ยืนยันอีเมล"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "คัดลอกอีเมลไปยังคลิปบอร์ดแล้ว",
+        "banned": "ถูกแบน",
+        "active": "ใช้งาน",
+        "joined": "เข้าร่วมเมื่อ",
+        "updated": "อัปเดตเมื่อ",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "เหตุผลแบน",
+          "reasonPlaceholder": "ใส่เหตุผลในการแบนผู้ใช้นี้",
+          "defaultReason": "สแปม",
+          "never": "ไม่มี",
+          "expires": "แบนหมดอายุ",
+          "selectDate": "เลือกวันที่",
+          "button": "แบนผู้ใช้",
+          "success": "แบนผู้ใช้แล้ว",
+          "error": "แบนผู้ใช้ไม่สำเร็จ"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "ยกเลิกแบน",
+          "success": "ยกเลิกแบนแล้ว",
+          "error": "ยกเลิกแบนไม่สำเร็จ"
         },
-        "close": "Close"
+        "close": "ปิด"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "การตั้งค่า",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "โปรไฟล์",
+        "description": "จัดการข้อมูลบัญชีของคุณ",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "รูปโปรไฟล์",
+          "description": "คลิกปุ่มอัปโหลดเพื่อใส่รูปของคุณ",
+          "recommendation": "รูปโปรไฟล์ไม่บังคับ แต่แนะนำอย่างยิ่ง",
+          "uploading": "กำลังอัปโหลด...",
+          "uploadAvatar": "อัปโหลดรูปโปรไฟล์",
+          "success": "อัปเดตรูปโปรไฟล์แล้ว",
+          "fail": "อัปเดตรูปโปรไฟล์ไม่สำเร็จ"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "ชื่อ",
+          "description": "กรุณาใส่ชื่อที่แสดง",
+          "placeholder": "ใส่ชื่อของคุณ",
+          "minLength": "ใช้อย่างน้อย 3 ตัวอักษร",
+          "maxLength": "ใช้ไม่เกิน 30 ตัวอักษร",
+          "hint": "ใช้ 3–30 ตัวอักษรสำหรับชื่อ",
+          "success": "อัปเดตชื่อแล้ว",
+          "fail": "อัปเดตชื่อไม่สำเร็จ",
+          "saving": "กำลังบันทึก...",
+          "save": "บันทึก"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "การชำระเงิน",
+        "description": "จัดการการสมัครและรายละเอียดการชำระเงิน",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
+          "active": "ใช้งาน",
+          "trial": "ทดลอง",
           "free": "Free",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "เดือน",
+          "year": "ปี",
+          "oneTime": "จ่ายครั้งเดียว"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "แพ็กเกจปัจจุบัน",
+          "description": "รายละเอียดแพ็กเกจปัจจุบัน",
+          "noPlan": "คุณไม่มีแพ็กเกจที่ใช้งานอยู่"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "กำลังโหลด...",
+          "createCustomerPortalFailed": "เปิดพอร์ทัลลูกค้า Stripe ไม่สำเร็จ"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "ราคา:",
+        "periodStartDate": "วันเริ่มรอบ:",
+        "periodEndDate": "วันสิ้นสุดรอบ:",
+        "trialEnds": "ทดลองสิ้นสุด:",
+        "freePlanMessage": "คุณใช้แพ็กเกจฟรีที่มีฟีเจอร์จำกัด",
+        "lifetimeMessage": "คุณมีสิทธิ์ใช้ฟีเจอร์พรีเมียมทั้งหมดตลอดชีพ",
+        "manageSubscription": "จัดการการสมัครและการชำระเงิน",
+        "manageBilling": "จัดการการชำระเงิน",
+        "upgradePlan": "อัปเกรดแพ็กเกจ",
+        "retry": "ลองอีกครั้ง",
+        "errorMessage": "ดึงข้อมูลไม่สำเร็จ",
+        "paymentSuccess": "ชำระเงินสำเร็จ"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "กำลังดำเนินการชำระเงิน",
+          "description": "กรุณารอขณะเรายืนยันการชำระเงิน..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "ชำระเงินสำเร็จ",
+          "description": "กำลังเปลี่ยนหน้าอัตโนมัติ..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "ชำระเงินไม่สำเร็จ",
+          "description": "เกิดปัญหาในการดำเนินการชำระเงิน"
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "หมดเวลาดำเนินการ",
+          "description": "การชำระเงินใช้เวลานานกว่าที่คาดไว้"
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "ลองอีกครั้ง"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "ความปลอดภัย",
+        "description": "จัดการการตั้งค่าความปลอดภัย",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "เปลี่ยนรหัสผ่าน",
+          "description": "ใส่รหัสผ่านปัจจุบันและรหัสผ่านใหม่",
+          "currentPassword": "รหัสผ่านปัจจุบัน",
+          "currentRequired": "ต้องใส่รหัสผ่านปัจจุบัน",
+          "newPassword": "รหัสผ่านใหม่",
+          "newMinLength": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+          "hint": "ใช้อย่างน้อย 8 ตัวอักษรสำหรับรหัสผ่าน",
+          "showPassword": "แสดงรหัสผ่าน",
+          "hidePassword": "ซ่อนรหัสผ่าน",
+          "success": "อัปเดตรหัสผ่านแล้ว",
+          "fail": "อัปเดตรหัสผ่านไม่สำเร็จ",
+          "saving": "กำลังบันทึก...",
+          "save": "บันทึก"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "รีเซ็ตรหัสผ่าน",
+          "description": "รีเซ็ตรหัสผ่านเพื่อเปิดใช้เข้าสู่ระบบด้วยอีเมล",
+          "info": "เมื่อรีเซ็ตรหัสผ่าน คุณจะเข้าสู่ระบบด้วยอีเมลและรหัสผ่านได้นอกจากการล็อกอินโซเชียล คุณจะได้รับอีเมลพร้อมคำแนะนำ",
+          "button": "รีเซ็ตรหัสผ่าน"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "ลบบัญชี",
+          "description": "ลบบัญชีและเนื้อหาทั้งหมดถาวร",
+          "warning": "การกระทำนี้ย้อนกลับไม่ได้ โปรดดำเนินการด้วยความระมัดระวัง",
+          "button": "ลบบัญชี",
+          "confirmTitle": "ลบบัญชี",
+          "confirmDescription": "แน่ใจหรือไม่ว่าต้องการลบบัญชี? การกระทำนี้ย้อนกลับไม่ได้",
+          "confirm": "ลบ",
+          "cancel": "ยกเลิก",
+          "deleting": "กำลังลบ...",
+          "success": "ลบบัญชีแล้ว",
+          "fail": "ลบบัญชีไม่สำเร็จ"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "แพ็กเกจความจุสูงกว่าจะมาเร็ว ๆ นี้ ตอนนี้ทดลองใช้ฟรีได้",
-      "button": "Upgrade"
+      "title": "อัปเกรด",
+      "description": "แพ็กเกจความจุมากขึ้นกำลังจะมาเร็วๆ นี้ ทดลองใช้ฟรีได้แล้วตอนนี้",
+      "button": "อัปเกรด"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "ทีม {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "สวัสดี {name}",
+      "body": "กรุณาคลิกลิงก์ด้านล่างเพื่อยืนยันอีเมลของคุณ",
+      "confirmEmail": "ยืนยันอีเมล",
+      "subject": "ยืนยันอีเมลของคุณ"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "สวัสดี {name}",
+      "body": "เราได้รับคำขอรีเซ็ตรหัสผ่าน MP4toURL ของคุณ คลิกปุ่มด้านล่างเพื่อตั้งรหัสผ่านใหม่ หากคุณไม่ได้ขอ สามารถเพิกเฉยอีเมลนี้ได้",
+      "resetPassword": "รีเซ็ตรหัสผ่าน",
+      "subject": "รีเซ็ตรหัสผ่าน MP4toURL ของคุณ"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "ชื่อ: {name}",
+      "email": "อีเมล: {email}",
+      "message": "ข้อความ: {message}",
+      "subject": "ข้อความติดต่อจากเว็บไซต์"
     }
   },
   "ShareCodes": {
     "sectionTitle": "โค้ดพร้อมคัดลอก",
     "copyUrl": "คัดลอก URL",
     "copied": "คัดลอกแล้ว",
-    "copyFailed": "คัดลอกไม่สำเร็จ",
-    "openTab": "เปิดแท็บใหม่",
-    "successTitle": "สำเร็จ! URL วิดีโอพร้อมแล้ว",
-    "successSubtitle": "อัปโหลดวิดีโอแล้ว พร้อมแชร์ได้เลย",
+    "copyFailed": "คัดลอกไม่ได้",
+    "openTab": "เปิดในแท็บใหม่",
+    "successTitle": "สำเร็จ! URL วิดีโอของคุณพร้อมแล้ว",
+    "successSubtitle": "อัปโหลดวิดีโอแล้ว พร้อมแชร์",
     "videoLabel": "วิดีโอ",
     "watchLabel": "ดูวิดีโอ",
     "shareLink": {
       "title": "ลิงก์แชร์",
-      "desc": "ลิงก์ตรงสำหรับแชร์ได้ทุกที่"
+      "desc": "ลิงก์ตรงแชร์ได้ทุกที่"
     },
     "markdown": {
       "title": "Markdown",
@@ -865,7 +564,7 @@
     },
     "markdownLink": {
       "title": "Markdown พร้อมลิงก์",
-      "desc": "Markdown พร้อมข้อความดูวิดีโอที่อ่านง่าย"
+      "desc": "Markdown พร้อมป้ายดูที่อ่านง่าย"
     },
     "html": {
       "title": "HTML",
@@ -873,7 +572,7 @@
     },
     "htmlLink": {
       "title": "HTML พร้อมลิงก์",
-      "desc": "ลิงก์ง่ายๆ ที่เปิดแท็บใหม่"
+      "desc": "ลิงก์ธรรมดาเปิดในแท็บใหม่"
     },
     "bbcode": {
       "title": "BBCode",
@@ -881,95 +580,95 @@
     },
     "bbcodeLink": {
       "title": "BBCode พร้อมลิงก์",
-      "desc": "ลิงก์ฟอรัมพร้อมข้อความดูวิดีโอ"
+      "desc": "ลิงก์ฟอรัมพร้อมป้ายดู"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "อัปโหลดวิดีโอ รับลิงก์แชร์ถาวร",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "อัปโหลดวิดีโอแล้ว คัดลอกลิงก์ด้านล่างเพื่อแชร์ได้เลย",
+      "title": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี",
+      "description": "อัปโหลดวิดีโอ MP4 แล้วรับลิงก์แชร์ถาวรภายในไม่กี่วินาที",
+      "tagline": "รองรับ MP4, MOV, AVI, WebM, MKV สูงสุด 300MB ไม่ต้องสมัครสมาชิก",
+      "uploadHeading": "อัปโหลดวิดีโอของคุณ",
+      "uploadTitle": "วางวิดีโอที่นี่ หรือคลิกเพื่อเลือกไฟล์",
+      "uploadHint": "รองรับ MP4, MOV, AVI, WebM, MKV สูงสุด 300MB",
+      "maxSize": "ขนาดไฟล์สูงสุด: 300MB",
+      "convert": "แปลงเป็น URL",
+      "uploading": "กำลังอัปโหลด...",
+      "copy": "คัดลอกลิงก์",
+      "copied": "คัดลอกแล้ว",
+      "guestSuccessHint": "อัปโหลดวิดีโอแล้ว คัดลอกลิงก์ด้านล่างเพื่อแชร์",
       "registerForCodesTitle": "ต้องการ Markdown, HTML และ BBCode?",
       "registerForCodesDesc": "สมัครฟรีเพื่อปลดล็อกโค้ดฝังพร้อมคัดลอก และจัดการวิดีโอทั้งหมดในทรัพยากรของฉัน",
       "registerCta": "สมัครฟรี",
       "uploadAnother": "อัปโหลดวิดีโออื่น",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "อัปโหลดไม่สำเร็จ กรุณาลองอีกครั้ง",
+      "unsupportedType": "ไม่รองรับประเภทไฟล์นี้ กรุณาอัปโหลด MP4, MOV, AVI, WebM หรือ MKV",
+      "fileTooLarge": "ไฟล์ใหญ่เกินไป แพ็กเกจฟรีอนุญาตสูงสุด 300MB ต่อไฟล์"
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "ทำไมต้องเลือก MP4 to URL",
+      "subtitle": "ออกแบบเพื่อความเร็ว ความเป็นส่วนตัว และลิงก์สื่อถาวร",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "เร็วมาก",
+          "description": "อัปโหลดและแปลงวิดีโอเป็น URL แชร์ได้ภายในไม่กี่วินาที ไม่ต้องรอคิว"
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "ปลอดภัยและเป็นส่วนตัว",
+          "description": "วิดีโอถูกส่งผ่าน HTTPS และโฮสต์ด้วยการควบคุมที่เน้นความเป็นส่วนตัว"
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "ลิงก์ถาวร",
+          "description": "ได้ลิงก์ถาวรที่ไม่หมดอายุ เหมาะสำหรับเอกสาร ทิกเก็ต และแชร์โซเชียล"
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: แปลงวิดีโอเป็น URL ในไม่กี่วินาที"
+      "title": "วิดีโอเป็น URL ภายในไม่กี่วินาที",
+      "subtitle": "จากไฟล์ในเครื่องสู่ลิงก์แชร์",
+      "description": "อัปโหลด MP4 และรูปแบบที่เกี่ยวข้อง รับ URL ถาวรที่สะอาดตา วางในเอกสาร แชท และโพสต์ได้",
+      "point1": "วางวิดีโอจากอุปกรณ์ของคุณ",
+      "point2": "แปลงภายในไม่กี่วินาที — ใช้ทั่วไปไม่ต้องสมัคร",
+      "point3": "คัดลอกลิงก์ถาวรแล้วแชร์ได้ทุกที่",
+      "imageAlt": "mp4tourl.com ภาพรวม: ทำให้วิดีโอแชร์ได้",
+      "imageAltNew": "mp4tourl.com: วิดีโอเป็น URL ภายในไม่กี่วินาที, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "วิธีใช้",
+      "subtitle": "สามขั้นตอนจากไฟล์ในเครื่องสู่ URL แชร์",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "เลือกวิดีโอ",
+          "description": "ลากวางหรือเลือก MP4, MOV, AVI, WebM หรือ MKV (สูงสุด 300MB)"
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "แปลงเป็น URL",
+          "description": "คลิกแปลงเป็น URL การประมวลผลมักเสร็จภายในไม่กี่วินาที"
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "คัดลอกและแชร์",
+          "description": "คัดลอกลิงก์ถาวรแล้วใช้ในเอกสาร แชท เว็บไซต์ หรือโซเชียล"
         }
       }
     },
     "bannerShowcase": {
-      "title": "สถานการณ์ใช้งาน",
-      "subtitle": "จากวิดีโอในเครื่องสู่ลิงก์ที่แชร์ได้",
-      "description": "วางไฟล์แล้วรับ URL สะอาดสำหรับเอกสาร แชท และโพสต์ — ดูตัวอย่างด้านล่าง",
+      "title": "ตัวอย่างการใช้งาน",
+      "subtitle": "จากวิดีโอในเครื่องสู่ลิงก์แชร์",
+      "description": "วางไฟล์ รับ URL ที่สะอาดตาสำหรับเอกสาร แชท และโพสต์ — ดูตัวอย่างด้านล่าง",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "เปลี่ยนคลิปในเครื่องเป็นที่อยู่ที่แชร์ได้ภายในไม่กี่วินาที"
+          "description": "เปลี่ยนคลิปในเครื่องเป็นลิงก์แชร์ภายในไม่กี่วินาที"
         },
         "newStyle": {
           "title": "แชร์ได้ทุกที่",
           "description": "วางลิงก์ในเอกสาร ทิกเก็ต และโพสต์โซเชียล"
         },
         "dark": {
-          "title": "โฮสติ้งมั่นคง",
-          "description": "ให้วิดีโอเข้าถึงได้ด้วย URL ถาวรและเสถียร"
+          "title": "โฮสต์เรียบง่าย",
+          "description": "ให้วิดีโอเข้าถึงได้ด้วย URL ถาวรที่เสถียร"
         },
         "retro": {
           "title": "แปลงเร็ว",
@@ -978,44 +677,44 @@
       }
     },
     "faqs": {
-      "title": "คำถามที่พบบ่อย",
+      "title": "FAQ",
       "subtitle": "สิ่งที่คุณอาจอยากรู้เกี่ยวกับการแปลงวิดีโอเป็น URL",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "เครื่องมือแปลงวิดีโอเป็น URL คืออะไร?",
+          "answer": "เครื่องมือแปลงวิดีโอเป็น URL จะอัปโหลดไฟล์วิดีโอในเครื่องแล้วให้ลิงก์เว็บตรงที่แชร์ได้ทุกที่"
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "การแปลงวิดีโอเป็น URL ทำงานอย่างไร?",
+          "answer": "อัปโหลดวิดีโอ รอให้ประมวลผลเสร็จ แล้วคัดลอก URL ที่ได้ เปิด แชร์ หรือฝังลิงก์ได้ทันที"
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "รองรับรูปแบบวิดีโออะไรบ้าง?",
+          "answer": "รองรับ MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP และ FLV ระดับฟรีอนุญาตสูงสุด 300MB ต่อไฟล์"
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "ลิงก์วิดีโอที่สร้างเป็นถาวรหรือไม่?",
+          "answer": "ใช่ ลิงก์ออกแบบมาเพื่อแชร์ระยะยาว ทำให้ URL วิดีโอคงที่และใช้ซ้ำได้"
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "ใช้ URL วิดีโอได้ที่ไหน?",
+          "answer": "ใช้ในเอกสาร ระบบติดตามงาน แชท เว็บไซต์ โพสต์โซเชียล และเครื่องมือทำงานร่วมกันในทีม"
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "เครื่องมือแปลงวิดีโอเป็น URL นี้ฟรีหรือไม่?",
+          "answer": "ใช่ การแปลงวิดีโอเป็น URL แบบมาตรฐานใช้ฟรีภายในขีดจำกัดอัปโหลดปัจจุบัน"
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "การอัปโหลดและโฮสต์วิดีโอปลอดภัยแค่ไหน?",
+          "answer": "การอัปโหลดใช้ HTTPS และโฮสต์เพื่อการส่งมอบที่เสถียร ให้ลิงก์แชร์ที่เชื่อถือได้สำหรับเนื้อหาวิดีโอ"
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "วิธีที่ง่ายที่สุดในการแชร์วิดีโอ",
+      "description": "MP4 to URL คือขั้นตอนโฮสต์สื่อฟรีและรวดเร็วสำหรับนักพัฒนา ครีเอเตอร์ และทีม แปลงวิดีโอเป็น URL ถาวรภายในไม่กี่วินาที แล้วแชร์ได้ทุกที่",
+      "primaryButton": "แปลงเป็น URL",
+      "secondaryButton": "อ่าน FAQ"
     }
   }
 }

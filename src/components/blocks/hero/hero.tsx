@@ -3,9 +3,16 @@
 import VideoUpload from '@/components/blocks/hero/video-upload';
 import { TextEffect } from '@/components/tailark/motion/text-effect';
 import { cn } from '@/lib/utils';
+import { motion, useReducedMotion } from 'motion/react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from 'react';
 
 const MOBILE_MQ = '(max-width: 767px)';
 
@@ -14,16 +21,26 @@ function isMobileViewport() {
 }
 
 /**
- * Hero: left/right = clipped og.jpg; mid = Wise capsule track.
- * F5 starts at top; after load → auto slide → merge → scroll to #upload.
- * Mobile uses slower CSS + longer holds, and always scrolls to #upload
- * (desktop may skip scroll if upload is already well in view).
+ * Hero OG art: split → capsule drops (transform, not top/height) → merge → scroll.
+ *
+ * Root cause of prior mobile “flash ~1s, no drop”:
+ * CSS `transition` on `top` / `height` is layout-bound and often jumps on mobile
+ * WebKit (Paul Irish / Safari guidance: animate transform/opacity only). Users
+ * only saw the ~1.1s merge transform. Capsule now uses measured translateY via
+ * motion/react so the top→bottom path actually runs on phones.
  */
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
+  const reduceMotion = useReducedMotion();
   const [phase, setPhase] = useState<'idle' | 'sliding' | 'merged'>('idle');
+  const [artReady, setArtReady] = useState(false);
+  const [travelY, setTravelY] = useState(0);
+  const [ballSize, setBallSize] = useState(56);
+  const [isMobile, setIsMobile] = useState(false);
   const startedRef = useRef(false);
   const timersRef = useRef<number[]>([]);
+  const trackRef = useRef<HTMLSpanElement>(null);
+  const imagesLoadedRef = useRef(0);
 
   const clearTimers = useCallback(() => {
     for (const id of timersRef.current) window.clearTimeout(id);
@@ -36,39 +53,74 @@ export default function HeroSection() {
     return id;
   }, []);
 
+  const measureTrack = useCallback(() => {
+    const track = trackRef.current;
+    if (!track) return;
+    const height = track.clientHeight;
+    const width = track.clientWidth;
+    if (height < 8 || width < 8) return;
+    // Ball is aspect-square spanning track width
+    setBallSize(width);
+    setTravelY(Math.max(0, height - width));
+  }, []);
+
+  useLayoutEffect(() => {
+    measureTrack();
+    const track = trackRef.current;
+    if (!track || typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(() => measureTrack());
+    ro.observe(track);
+    return () => ro.disconnect();
+  }, [measureTrack, artReady]);
+
+  const onArtLoad = useCallback(() => {
+    imagesLoadedRef.current += 1;
+    if (imagesLoadedRef.current >= 1) {
+      setArtReady(true);
+      // Layout after image decode
+      requestAnimationFrame(() => measureTrack());
+    }
+  }, [measureTrack]);
+
   const scrollToUpload = useCallback(() => {
     const el = document.getElementById('upload');
     if (!el) return;
     const mobile = isMobileViewport();
     if (!mobile) {
       const rect = el.getBoundingClientRect();
-      // Desktop only: skip if upload is already comfortably framed
       const alreadyInView =
         rect.top >= 0 &&
         rect.top < window.innerHeight * 0.45 &&
         rect.bottom > window.innerHeight * 0.25;
       if (alreadyInView) return;
     }
-    // Mobile always scrolls; use start so the dropzone lands under the sticky nav
-    el.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, []);
 
   const runSequence = useCallback(() => {
     if (startedRef.current) return;
+    if (travelY <= 0) return;
     startedRef.current = true;
+
     const mobile = isMobileViewport();
+    // Drop duration must match motion transition below
+    const dropMs = mobile ? 2200 : 1100;
+    const holdAfterDropMs = mobile ? 500 : 300;
+    const mergeCssMs = mobile ? 1100 : 700;
+    const scrollAfterMergeMs = mobile ? 900 : 700;
 
-    // Mobile: slower drop + longer open hold so the seam/capsule is readable
-    const mergeAfter = mobile ? 2400 : 1200;
-    const scrollAfter = mobile ? 3600 : 2700;
-
-    setPhase('sliding');
-    queueTimeout(() => setPhase('merged'), mergeAfter);
-    queueTimeout(scrollToUpload, mergeAfter + scrollAfter);
-  }, [queueTimeout, scrollToUpload]);
+    // Ensure idle styles are committed before flipping to sliding (Safari)
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setPhase('sliding');
+        queueTimeout(() => setPhase('merged'), dropMs + holdAfterDropMs);
+        queueTimeout(
+          scrollToUpload,
+          dropMs + holdAfterDropMs + mergeCssMs + scrollAfterMergeMs
+        );
+      });
+    });
+  }, [travelY, queueTimeout, scrollToUpload]);
 
   useEffect(() => {
     if ('scrollRestoration' in window.history) {
@@ -82,37 +134,55 @@ export default function HeroSection() {
       );
     }
     window.scrollTo(0, 0);
+    setIsMobile(isMobileViewport());
 
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduce) {
+    // Cached images may skip onLoad in some WebViews — fail-safe start
+    const readyFallback = window.setTimeout(() => setArtReady(true), 1800);
+    return () => window.clearTimeout(readyFallback);
+  }, []);
+
+  useEffect(() => {
+    // useReducedMotion is null until mounted — wait so we don't flash then skip
+    if (reduceMotion === null) return;
+
+    if (reduceMotion) {
       startedRef.current = true;
       setPhase('merged');
-      // Still bring upload into view — skip only the decorative split
-      queueTimeout(scrollToUpload, isMobileViewport() ? 600 : 400);
-      return () => clearTimers();
+      queueTimeout(scrollToUpload, isMobileViewport() ? 500 : 350);
+      return;
     }
 
-    let delayId = 0;
-    const startAfterLoad = () => {
-      const mobile = isMobileViewport();
-      delayId = window.setTimeout(runSequence, mobile ? 700 : 900);
-    };
+    if (!artReady || travelY <= 0 || startedRef.current) return;
 
-    if (document.readyState === 'complete') {
-      startAfterLoad();
-    } else {
-      window.addEventListener('load', startAfterLoad, { once: true });
-    }
+    const mobile = isMobileViewport();
+    const delayId = window.setTimeout(runSequence, mobile ? 400 : 600);
 
     return () => {
-      window.removeEventListener('load', startAfterLoad);
       window.clearTimeout(delayId);
-      clearTimers();
     };
-  }, [runSequence, clearTimers, queueTimeout, scrollToUpload]);
+  }, [
+    artReady,
+    travelY,
+    reduceMotion,
+    runSequence,
+    queueTimeout,
+    scrollToUpload,
+  ]);
+
+  useEffect(() => () => clearTimers(), [clearTimers]);
 
   const split = phase !== 'merged';
-  const sliding = phase === 'sliding';
+  // Keep capsule at bottom while track fades out on merge
+  const sliding = phase === 'sliding' || phase === 'merged';
+  const dropDuration = isMobile ? 2.2 : 1.1;
+  const fillScale =
+    ballSize > 0 && travelY + ballSize > 0
+      ? sliding
+        ? 1
+        : ballSize / (travelY + ballSize)
+      : sliding
+        ? 1
+        : 0.12;
 
   return (
     <main id="hero" className="overflow-x-clip">
@@ -145,21 +215,14 @@ export default function HeroSection() {
             </p>
           </div>
 
-          {/*
-            File stays 1200×630 (OG). Stage inset on mobile reserves room for the
-            ±2rem split so overflow-x-clip on <main> does not eat the gap.
-          */}
           <div className="relative mx-auto mt-12 max-w-4xl px-8 sm:px-10 md:mt-14 md:px-0">
-            {/* No padding on this node — absolute right half must share the same box as left */}
             <div
               aria-hidden
               className="relative isolate block w-full select-none overflow-visible rounded-sm"
             >
-              {/* Left clipped art */}
               <div
                 className={cn(
                   'relative z-[1] will-change-transform ease-out',
-                  // Mobile slower close so merge is visible
                   'transition-transform duration-[1100ms] md:duration-700',
                   split &&
                     '-translate-x-8 [filter:drop-shadow(4px_0_8px_rgba(0,0,0,0.16))]'
@@ -171,12 +234,12 @@ export default function HeroSection() {
                   width={1200}
                   height={630}
                   priority
+                  onLoad={onArtLoad}
                   className="h-auto w-full object-contain [clip-path:inset(0_50%_0_0)]"
                   sizes="(max-width: 768px) 100vw, 1024px"
                 />
               </div>
 
-              {/* Right clipped art */}
               <div
                 aria-hidden
                 className={cn(
@@ -197,16 +260,16 @@ export default function HeroSection() {
                 />
               </div>
 
-              {/* Mid track — capsule drop slower on mobile */}
-              <span
+              {/* Mid track — transform-only drop (mobile-safe) */}
+              <motion.span
+                ref={trackRef}
                 aria-hidden
                 className={cn(
-                  'pointer-events-none absolute inset-y-0 left-1/2 z-0',
-                  '-translate-x-1/2',
-                  'w-14 sm:w-16',
-                  'transition-opacity duration-500 md:duration-300',
-                  phase === 'merged' ? 'opacity-0' : 'opacity-100'
+                  'pointer-events-none absolute inset-y-0 left-1/2 z-0 w-14 sm:w-16',
+                  '-translate-x-1/2'
                 )}
+                animate={{ opacity: phase === 'merged' ? 0 : 1 }}
+                transition={{ duration: 0.45, ease: 'easeOut' }}
               >
                 <span
                   className={cn(
@@ -219,17 +282,16 @@ export default function HeroSection() {
                   )}
                 />
 
-                <span
-                  className={cn(
-                    'absolute inset-x-0 top-0 overflow-hidden ease-in-out',
-                    'transition-[height] duration-[2000ms] md:duration-[1100ms]',
-                    sliding
-                      ? 'h-[calc(100%-1.75rem)] sm:h-[calc(100%-2rem)]'
-                      : 'h-[1.75rem] sm:h-[2rem]'
-                  )}
-                >
-                  <span
-                    className="block h-full min-h-[1.75rem] w-full sm:min-h-[2rem]"
+                {/* Graffiti fill grows via scaleY (compositor), not height */}
+                <span className="absolute inset-x-0 top-0 h-full overflow-hidden rounded-b-full">
+                  <motion.span
+                    className="block h-full w-full origin-top will-change-transform"
+                    initial={false}
+                    animate={{ scaleY: fillScale }}
+                    transition={{
+                      duration: dropDuration,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}
                     style={{
                       backgroundImage: 'url(/wise-track-graffiti.svg)',
                       backgroundSize: '100% 100%',
@@ -239,16 +301,19 @@ export default function HeroSection() {
                   />
                 </span>
 
-                <span
+                {/* Capsule — translateY in px from measured track */}
+                <motion.span
                   className={cn(
-                    'absolute left-0 right-0 z-[1] flex aspect-square items-center justify-center',
-                    'rounded-full bg-[#d5d5d5]',
-                    'shadow-[0_2px_4px_rgba(0,0,0,0.28),inset_0_1px_0_rgba(255,255,255,0.55)]',
-                    'ease-in-out transition-[top] duration-[2000ms] md:duration-[1100ms]',
-                    sliding
-                      ? 'top-[calc(100%-3.5rem)] sm:top-[calc(100%-4rem)]'
-                      : 'top-0'
+                    'absolute left-0 right-0 top-0 z-[1] flex aspect-square items-center justify-center',
+                    'rounded-full bg-[#d5d5d5] will-change-transform',
+                    'shadow-[0_2px_4px_rgba(0,0,0,0.28),inset_0_1px_0_rgba(255,255,255,0.55)]'
                   )}
+                  initial={false}
+                  animate={{ y: sliding ? travelY : 0 }}
+                  transition={{
+                    duration: dropDuration,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -262,8 +327,8 @@ export default function HeroSection() {
                     <path d="M12 5 V19" />
                     <path d="M5 12 L12 19 L19 12" />
                   </svg>
-                </span>
-              </span>
+                </motion.span>
+              </motion.span>
 
               <span className="sr-only">MP4toURL — video to link</span>
             </div>

@@ -1,318 +1,220 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Convertor gratuit video în URL — încarcă MP4 și obține linkuri de partajat",
+    "description": "Încarcă MP4, MOV, AVI, WebM, MKV și obține URL-uri permanente de partajat în câteva secunde. Găzduire video gratuită până la 300MB — fără înregistrare."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Autentificare",
+    "logout": "Deconectare",
+    "signUp": "Înregistrare",
+    "language": "Schimbă limba",
+    "languageHint": "Selectarea unei regiuni va schimba limba și conținutul.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Comută modul",
+      "light": "Luminos",
+      "dark": "Întunecat",
+      "system": "Sistem"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "Comută tema",
+      "default": "Implicit",
+      "blue": "Albastru",
+      "green": "Verde",
+      "amber": "Chihlimbar",
+      "neutral": "Neutru"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Copiază",
+    "saving": "Se salvează...",
+    "save": "Salvează",
+    "loading": "Se încarcă...",
+    "cancel": "Anulează",
+    "logoutFailed": "Deconectarea a eșuat",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Total {count} înregistrări",
+      "noResults": "Niciun rezultat",
+      "loading": "Se încarcă...",
+      "columns": "Coloane",
+      "rowsPerPage": "Rânduri pe pagină",
+      "page": "Pagină",
+      "firstPage": "Prima pagină",
+      "lastPage": "Ultima pagină",
+      "nextPage": "Pagina următoare",
+      "previousPage": "Pagina anterioară",
+      "ascending": "Cresc.",
+      "descending": "Descresc."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Gratuit",
+      "description": "Găzduiește videoclipuri și obține un URL permanent de partajat",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Dimensiune încărcare: 300MB",
+        "feature-2": "Linkuri permanente CDN",
+        "feature-3": "Fără înregistrare",
+        "feature-4": "Suport comunitate"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Domenii personalizate",
+        "limit-2": "Branding personalizat",
+        "limit-3": "Actualizări pe viață"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Limite mai mari și istoric încărcări pentru creatori activi",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Încărcări video mai mari",
+        "feature-2": "10 GB spațiu de stocare",
+        "feature-3": "Istoric încărcări",
+        "feature-4": "Suport prioritar",
+        "feature-5": "Domenii personalizate"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Branding personalizat",
+        "limit-2": "Actualizări pe viață"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Plătește o singură dată pentru capacitate de găzduire video pe termen lung",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Toate funcțiile Pro",
+        "feature-2": "100 GB spațiu de stocare",
+        "feature-3": "Suport dedicat",
+        "feature-4": "Securitate de nivel enterprise",
+        "feature-5": "Integrări avansate",
+        "feature-6": "Branding personalizat",
+        "feature-7": "Actualizări pe viață"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Ne pare rău, pagina pe care o cauți nu există.",
+    "backToHome": "Înapoi acasă"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Ceva nu a mers bine!",
+    "tryAgain": "Încearcă din nou",
+    "backToHome": "Înapoi acasă"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Despre",
+    "description": "MP4toURL transformă videoclipurile tale în linkuri permanente de partajat — încarcă MP4, MOV, AVI, WebM sau MKV și partajează în câteva secunde.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "Marcă MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Convertor gratuit video în URL",
+    "introduction": "MP4toURL este o modalitate gratuită și rapidă de a găzdui și partaja videoclipuri. Încarcă un fișier, obține un link permanent CDN și folosește-l oriunde — fără configurări complicate.",
+    "imageAlt": "Marca MP4toURL",
+    "talkWithMe": "Contactează-ne",
+    "followMe": "Urmărește pe X"
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "Trimiteți un mesaj despre încărcări video, linkuri de partajare sau contul dvs. Citim fiecare mesaj și răspundem cât de curând putem.",
+    "description": "Trimite un mesaj despre încărcări video, linkuri de partajat sau contul tău. Citim fiecare mesaj și răspundem cât de repede putem.",
     "subtitle": "Întrebări despre MP4toURL? Suntem bucuroși să ajutăm.",
-    "orEmail": "Sau scrieți-ne la",
+    "orEmail": "Sau scrie-ne la",
     "form": {
       "title": "Mesaj",
-      "description": "Trimiteți un mesaj și vom răspunde cât de curând posibil.",
+      "description": "Trimite un mesaj și vom răspunde cât de repede putem.",
       "name": "Subiect",
       "email": "E-mail",
       "message": "Mesaj",
-      "namePlaceholder": "Introduceți subiectul",
+      "namePlaceholder": "Introdu subiectul",
       "emailPlaceholder": "E-mail",
-      "messagePlaceholder": "Introduceți mesajul",
+      "messagePlaceholder": "Introdu mesajul",
       "submit": "Trimite",
-      "submitting": "Se trimite…",
-      "success": "Mesaj trimis cu succes. Vom răspunde cât de curând putem.",
+      "submitting": "Se trimite...",
+      "success": "Mesaj trimis cu succes. Vom răspunde cât de repede putem.",
       "minLength": "Subiectul trebuie să aibă cel puțin 3 caractere.",
-      "maxLengthName": "Subiectul nu trebuie să depășească 100 de caractere.",
-      "invalidEmail": "Introduceți o adresă de e-mail validă.",
+      "maxLengthName": "Subiectul nu poate depăși 100 de caractere.",
+      "invalidEmail": "Introdu o adresă de e-mail validă.",
       "minLengthMessage": "Mesajul trebuie să aibă cel puțin 10 caractere.",
-      "maxLengthMessage": "Mesajul nu trebuie să depășească 2000 de caractere.",
-      "invalid": "Ceva nu a mers bine. Încercați din nou."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "maxLengthMessage": "Mesajul nu poate depăși 2000 de caractere.",
+      "invalid": "Ceva nu a mers bine. Încearcă din nou."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Autentificare",
+      "welcomeBack": "Bine ai revenit",
+      "email": "E-mail",
+      "password": "Parolă",
+      "signIn": "Autentificare",
+      "signUpHint": "Nu ai cont? Înregistrează-te",
+      "forgotPassword": "Ai uitat parola?",
+      "signInWithGoogle": "Autentificare cu Google",
+      "showPassword": "Arată parola",
+      "hidePassword": "Ascunde parola",
+      "or": "Sau continuă cu",
+      "emailRequired": "Introdu adresa de e-mail",
+      "passwordRequired": "Introdu parola",
+      "captchaInvalid": "Verificarea captcha a eșuat",
+      "captchaError": "Eroare la verificarea captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Înregistrare",
+      "createAccount": "Creează un cont",
+      "name": "Nume",
+      "email": "E-mail",
+      "password": "Parolă",
+      "signUp": "Înregistrare",
+      "signInHint": "Ai deja cont? Autentifică-te",
+      "checkEmail": "Verifică-ți căsuța de e-mail",
+      "showPassword": "Arată parola",
+      "hidePassword": "Ascunde parola",
+      "nameRequired": "Introdu numele",
+      "emailRequired": "Introdu adresa de e-mail",
+      "passwordRequired": "Introdu parola",
+      "captchaInvalid": "Verificarea captcha a eșuat",
+      "captchaError": "Eroare la verificarea captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Parolă uitată",
+      "email": "E-mail",
+      "send": "Trimite link de resetare",
+      "backToLogin": "Înapoi la autentificare",
+      "checkEmail": "Dacă există un cont pentru acest e-mail, am trimis un link de resetare. Verifică-ți căsuța de e-mail.",
+      "emailRequired": "Introdu adresa de e-mail",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Nu s-a găsit niciun cont cu acest e-mail",
+        "tooManyRequests": "Prea multe încercări. Încearcă din nou mai târziu",
+        "serverError": "Ceva nu a mers bine. Încearcă din nou"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Resetare parolă",
+      "password": "Parolă nouă",
+      "reset": "Resetează parola",
+      "backToLogin": "Înapoi la autentificare",
+      "showPassword": "Arată parola",
+      "hidePassword": "Ascunde parola",
+      "minLength": "Parola trebuie să aibă cel puțin 8 caractere",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Linkul de resetare a expirat. Solicită unul nou",
+        "invalidToken": "Link de resetare invalid. Solicită unul nou",
+        "tooManyRequests": "Prea multe încercări. Încearcă din nou mai târziu",
+        "serverError": "Ceva nu a mers bine. Încearcă din nou"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Ceva nu a mers bine!",
+      "tryAgain": "Încearcă din nou.",
+      "backToHome": "Înapoi la autentificare",
+      "checkEmail": "Verifică-ți căsuța de e-mail"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Termeni de utilizare",
+      "privacyPolicy": "Politica de confidențialitate",
+      "byClickingContinue": "Continuând, ești de acord cu ",
+      "and": " și "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Acasă"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,174 +224,60 @@
       },
       "contact": {
         "title": "Contact"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Încarcă un videoclip și obține un link permanent de partajat",
       "product": {
-        "title": "Product",
+        "title": "Produs",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "Funcții",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "Companie",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Despre",
+          "contact": "Contact"
         }
       },
       "legal": {
         "title": "Legal",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Politica de cookie-uri",
+          "privacyPolicy": "Politica de confidențialitate",
+          "termsOfService": "Termeni de utilizare"
         }
       }
     },
     "avatar": {
-      "dashboard": "Spațiu de lucru",
+      "dashboard": "Panou de lucru",
       "resources": "Resursele mele",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Facturare",
+      "settings": "Setări"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Spațiu de lucru"
+      "title": "Panou de lucru"
     },
     "home": {
-      "loading": "Se încarcă rezumatul…",
+      "loading": "Se încarcă prezentarea generală…",
       "resourceCount": "Videoclipuri",
       "videoCountLabel": "Videoclipuri în Resursele mele",
-      "storageFullHint": "Spațiul din perioada de încercare gratuită este plin. Ștergeți câteva videoclipuri; planuri cu capacitate mai mare vor apărea în curând.",
+      "storageFullHint": "Spațiul gratuit de probă este plin. Șterge câteva videoclipuri; planuri cu capacitate mai mare în curând.",
       "entryResourcesTitle": "Resursele mele",
-      "entryResourcesDesc": "Videoclipurile încărcate sunt aici — copiați linkuri, deschideți sau ștergeți oricând.",
-      "entryUploadTitle": "Încarcă video",
-      "entryUploadDesc": "Trageți un video pe pagina principală și obțineți un link de partajat în câteva secunde.",
+      "entryResourcesDesc": "Videoclipurile încărcate sunt aici — copiază linkuri, deschide sau șterge oricând.",
+      "entryUploadTitle": "Încarcă videoclip",
+      "entryUploadDesc": "Plasează un videoclip pe pagina principală și obține un link de partajat în câteva secunde.",
       "entryFilesTitle": "Resursele mele",
-      "entryFilesDesc": "Încărcările când sunteți autentificat se salvează în cont. Copiați URL-ul sau ștergeți fișierele inutile.",
-      "entryFilesCta": "Deschide resursele mele",
+      "entryFilesDesc": "Încărcările autentificate se salvează în contul tău. Copiază URL-ul sau elimină fișierele de care nu mai ai nevoie.",
+      "entryFilesCta": "Deschide Resursele mele",
       "filesPointUploadTitle": "Multe formate",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV și altele",
-      "filesPointManageTitle": "Gestionați linkurile",
-      "filesPointManageBody": "Copiați, deschideți sau ștergeți din Resursele mele",
+      "filesPointManageTitle": "Gestionează linkuri",
+      "filesPointManageBody": "Copiază, deschide sau șterge din Resursele mele",
       "filesPointFreeTitle": "Stocare gratuită",
       "filesPointFreeBody": "300 MB gratuit pentru videoclipuri găzduite",
       "filesPointPaidTitle": "Planuri plătite",
@@ -499,26 +287,26 @@
       "title": "Resursele mele",
       "welcome": "Bine ai revenit, {name}",
       "storage": "Stocare",
-      "storageHint": "Spațiu de găzduire video folosit",
-      "planCardTitle": "Planul curent",
+      "storageHint": "Spațiu folosit pentru găzduire video",
+      "planCardTitle": "Plan curent",
       "planFree": "Gratuit",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Activ",
-      "planHintFree": "Perioada de încercare gratuită este disponibilă acum. Planuri cu capacitate mai mare vor apărea în curând.",
-      "planHintPro": "Sunteți pe Pro (10 GB). Lifetime deblochează 100 GB.",
+      "planHintFree": "Perioada de probă gratuită disponibilă acum. Planuri cu capacitate mai mare în curând.",
+      "planHintPro": "Ești pe Pro (10 GB). Lifetime deblochează 100 GB.",
       "planHintLifetime": "Toate funcțiile deblocate",
-      "description": "Videoclipuri încărcate cât timp erai autentificat. Încarcă aici, previzualizează, descarcă sau șterge oricând.",
-      "empty": "Niciun video încă",
-      "emptyHint": "Apasă Încarcă sau cardul + pentru a adăuga primul video.",
-      "goUpload": "Încarcă video",
+      "description": "Videoclipuri încărcate când ești autentificat. Încarcă aici, previzualizează, descarcă sau șterge oricând.",
+      "empty": "Niciun videoclip încă",
+      "emptyHint": "Apasă Încarcă sau cardul + pentru a adăuga primul videoclip.",
+      "goUpload": "Încarcă videoclip",
       "upload": "Încarcă",
       "uploading": "Se încarcă…",
       "uploadSuccess": "Încărcare finalizată",
       "uploadFailed": "Încărcarea a eșuat",
       "unsupportedType": "Sunt acceptate doar formate video (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Fișierul este prea mare. Planul gratuit permite până la 300MB pe fișier.",
-      "filterFormat": "Tip de fișier",
+      "fileTooLarge": "Fișier prea mare. Planul gratuit permite până la 300MB per fișier.",
+      "filterFormat": "Tip fișier",
       "formatAll": "Toate tipurile",
       "format": {
         "mp4": "MP4",
@@ -535,7 +323,7 @@
       "viewList": "Vizualizare listă",
       "loading": "Se încarcă…",
       "loadError": "Nu s-au putut încărca resursele",
-      "searchPlaceholder": "Caută după numele fișierului…",
+      "searchPlaceholder": "Caută după nume fișier…",
       "search": "Caută",
       "reset": "Resetează",
       "copyUrl": "Copiază URL",
@@ -544,13 +332,13 @@
       "open": "Deschide",
       "preview": "Previzualizare",
       "previewClose": "Închide",
-      "shareCodes": "Coduri de partajare",
+      "shareCodes": "Coduri de partajat",
       "shareCodesDesc": "Linkuri gata de copiat pentru Markdown, HTML, BBCode și altele.",
       "download": "Descarcă",
       "delete": "Șterge",
-      "deleteTitle": "Șterge video",
-      "deleteConfirm": "Aceasta elimină definitiv videoclipul din contul tău. Acțiunea nu poate fi anulată.",
-      "deleteSuccess": "Video șters",
+      "deleteTitle": "Șterge videoclip",
+      "deleteConfirm": "Aceasta elimină permanent videoclipul din contul tău. Nu poate fi anulat.",
+      "deleteSuccess": "Videoclip șters",
       "deleteFailed": "Ștergerea videoclipului a eșuat",
       "cancel": "Anulează",
       "totalCount": "{total} în total",
@@ -560,289 +348,200 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Utilizatori",
+        "fakeData": "Notă: date simulate pentru demonstrație, unele funcții sunt dezactivate",
+        "error": "Nu s-au putut obține utilizatorii",
+        "search": "Caută utilizatori...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "columns": "Coloane",
+          "name": "Nume",
+          "email": "E-mail",
+          "role": "Rol",
+          "createdAt": "Creat la",
+          "customerId": "ID client",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Motiv interdicție",
+          "banExpires": "Interdicție expiră"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Utilizator",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-mail verificat",
+          "unverified": "E-mail neverificat"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-mail copiat în clipboard",
+        "banned": "Interzis",
+        "active": "Activ",
+        "joined": "Înscris la",
+        "updated": "Actualizat la",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Motiv interdicție",
+          "reasonPlaceholder": "Introdu motivul interdicției pentru acest utilizator",
+          "defaultReason": "Spam",
+          "never": "Niciodată",
+          "expires": "Interdicție expiră",
+          "selectDate": "Selectează data",
+          "button": "Interzice utilizator",
+          "success": "Utilizatorul a fost interzis",
+          "error": "Interzicerea utilizatorului a eșuat"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Revocă interdicția",
+          "success": "Interdicția a fost revocată",
+          "error": "Revocarea interdicției a eșuat"
         },
-        "close": "Close"
+        "close": "Închide"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Setări",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Gestionează informațiile contului",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Apasă butonul de încărcare pentru a adăuga unul personalizat",
+          "recommendation": "Avatarul este opțional, dar recomandat",
+          "uploading": "Se încarcă...",
+          "uploadAvatar": "Încarcă avatar",
+          "success": "Avatar actualizat cu succes",
+          "fail": "Actualizarea avatarului a eșuat"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Nume",
+          "description": "Introdu numele afișat",
+          "placeholder": "Introdu numele",
+          "minLength": "Folosește cel puțin 3 caractere",
+          "maxLength": "Folosește maximum 30 de caractere",
+          "hint": "Folosește 3–30 de caractere pentru nume",
+          "success": "Nume actualizat cu succes",
+          "fail": "Actualizarea numelui a eșuat",
+          "saving": "Se salvează...",
+          "save": "Salvează"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Facturare",
+        "description": "Gestionează abonamentul și detaliile de facturare",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Activ",
+          "trial": "Probă",
+          "free": "Gratuit",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "lună",
+          "year": "an",
+          "oneTime": "plată unică"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Plan curent",
+          "description": "Detaliile planului tău curent",
+          "noPlan": "Nu ai un plan activ"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Se încarcă...",
+          "createCustomerPortalFailed": "Nu s-a putut deschide portalul client Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Preț:",
+        "periodStartDate": "Început perioadă:",
+        "periodEndDate": "Sfârșit perioadă:",
+        "trialEnds": "Perioada de probă se termină:",
+        "freePlanMessage": "Ești pe planul gratuit cu funcții limitate",
+        "lifetimeMessage": "Ai acces pe viață la toate funcțiile premium",
+        "manageSubscription": "Gestionează abonamentul și facturarea",
+        "manageBilling": "Gestionează facturarea",
+        "upgradePlan": "Upgrade plan",
+        "retry": "Încearcă din nou",
+        "errorMessage": "Nu s-au putut obține datele",
+        "paymentSuccess": "Plată reușită"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Se procesează plata",
+          "description": "Așteaptă în timp ce confirmăm plata..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Plată reușită",
+          "description": "Redirecționare automată..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Plata a eșuat",
+          "description": "A apărut o problemă la procesarea plății."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Timp expirat",
+          "description": "Procesarea plății durează mai mult decât era de așteptat."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Încearcă din nou"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Securitate",
+        "description": "Gestionează setările de securitate",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Schimbă parola",
+          "description": "Introdu parola curentă și una nouă",
+          "currentPassword": "Parolă curentă",
+          "currentRequired": "Parola curentă este obligatorie",
+          "newPassword": "Parolă nouă",
+          "newMinLength": "Parola trebuie să aibă cel puțin 8 caractere",
+          "hint": "Folosește cel puțin 8 caractere pentru parolă",
+          "showPassword": "Arată parola",
+          "hidePassword": "Ascunde parola",
+          "success": "Parolă actualizată cu succes",
+          "fail": "Actualizarea parolei a eșuat",
+          "saving": "Se salvează...",
+          "save": "Salvează"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Resetare parolă",
+          "description": "Resetează parola pentru a activa autentificarea prin e-mail",
+          "info": "Resetarea parolei îți va permite să te autentifici cu e-mail și parolă, pe lângă metodele sociale. Vei primi un e-mail cu instrucțiuni de resetare",
+          "button": "Resetează parola"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Șterge contul",
+          "description": "Elimină permanent contul și tot conținutul",
+          "warning": "Această acțiune nu poate fi anulată — continuă cu atenție",
+          "button": "Șterge contul",
+          "confirmTitle": "Șterge contul",
+          "confirmDescription": "Ești sigur că vrei să ștergi contul? Această acțiune nu poate fi anulată.",
+          "confirm": "Șterge",
+          "cancel": "Anulează",
+          "deleting": "Se șterge...",
+          "success": "Cont șters cu succes",
+          "fail": "Ștergerea contului a eșuat"
         }
       }
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Planuri cu capacitate mai mare vor apărea în curând. Perioada de încercare gratuită este disponibilă acum.",
+      "description": "Planuri cu capacitate mai mare în curând. Perioada de probă gratuită disponibilă acum.",
       "button": "Upgrade"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Echipa {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Salut, {name}.",
+      "body": "Apasă linkul de mai jos pentru a-ți verifica adresa de e-mail.",
+      "confirmEmail": "Confirmă e-mail",
+      "subject": "Verifică-ți e-mailul"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Salut, {name}.",
+      "body": "Am primit o solicitare de resetare a parolei MP4toURL. Apasă butonul de mai jos pentru a alege o parolă nouă. Dacă nu ai solicitat asta, poți ignora acest e-mail.",
+      "resetPassword": "Resetează parola",
+      "subject": "Resetează parola MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Nume: {name}",
+      "email": "E-mail: {email}",
+      "message": "Mesaj: {message}",
+      "subject": "Mesaj de contact de pe site"
     }
   },
   "ShareCodes": {
@@ -853,27 +552,27 @@
     "openTab": "Deschide în filă nouă",
     "successTitle": "Succes! URL-ul videoclipului este gata",
     "successSubtitle": "Videoclipul a fost încărcat și este gata de partajat.",
-    "videoLabel": "Video",
-    "watchLabel": "Vizionează video",
+    "videoLabel": "Videoclip",
+    "watchLabel": "Vizionează videoclip",
     "shareLink": {
-      "title": "Link de partajare",
+      "title": "Link de partajat",
       "desc": "Link direct de partajat oriunde"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Pentru GitHub, Notion și documente"
+      "desc": "Pentru GitHub, Notion și documentație"
     },
     "markdownLink": {
       "title": "Markdown cu link",
-      "desc": "Markdown cu o etichetă de vizionare lizibilă"
+      "desc": "Markdown cu etichetă lizibilă pentru vizionare"
     },
     "html": {
       "title": "HTML",
-      "desc": "Încorporează cu playerul video nativ"
+      "desc": "Încorporează cu player video nativ"
     },
     "htmlLink": {
       "title": "HTML cu link",
-      "desc": "Link simplu care se deschide într-o filă nouă"
+      "desc": "Ancoră simplă care se deschide într-o filă nouă"
     },
     "bbcode": {
       "title": "BBCode",
@@ -886,89 +585,89 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Încarcă un videoclip și obține un link permanent de partajat",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Videoclipul a fost încărcat. Copiați linkul de mai jos pentru a-l partaja.",
-      "registerForCodesTitle": "Doriți Markdown, HTML și BBCode?",
-      "registerForCodesDesc": "Înregistrați-vă gratuit pentru a debloca coduri de încorporare gata de copiat și gestionați toate videoclipurile în Resursele mele.",
+      "title": "Convertor gratuit video în URL",
+      "description": "Încarcă videoclipuri MP4 și obține linkuri permanente de partajat în câteva secunde.",
+      "tagline": "Suport MP4, MOV, AVI, WebM, MKV până la 300MB. Fără înregistrare.",
+      "uploadHeading": "Încarcă videoclipul",
+      "uploadTitle": "Plasează videoclipul aici sau apasă pentru a căuta",
+      "uploadHint": "Suportă MP4, MOV, AVI, WebM, MKV până la 300MB",
+      "maxSize": "Dimensiune maximă fișier: 300MB",
+      "convert": "Convertește în URL",
+      "uploading": "Se încarcă...",
+      "copy": "Copiază link",
+      "copied": "Copiat",
+      "guestSuccessHint": "Videoclipul a fost încărcat. Copiază linkul de mai jos pentru a-l partaja.",
+      "registerForCodesTitle": "Vrei Markdown, HTML și BBCode?",
+      "registerForCodesDesc": "Înregistrează-te gratuit pentru coduri de încorporare gata de copiat și gestionează toate videoclipurile în Resursele mele.",
       "registerCta": "Înregistrare gratuită",
-      "uploadAnother": "Încarcă alt video",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "uploadAnother": "Încarcă alt videoclip",
+      "error": "Încărcarea a eșuat. Încearcă din nou.",
+      "unsupportedType": "Tip de fișier nesuportat. Încarcă MP4, MOV, AVI, WebM sau MKV.",
+      "fileTooLarge": "Fișier prea mare. Planul gratuit permite până la 300MB per fișier."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "De ce MP4 to URL",
+      "subtitle": "Creat pentru viteză, confidențialitate și linkuri media permanente.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Fulgerător de rapid",
+          "description": "Încarcă și convertește videoclipurile în URL-uri de partajat în câteva secunde. Fără așteptare, fără cozi."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Sigur și privat",
+          "description": "Videoclipurile sunt transferate prin HTTPS și găzduite cu controale care pun confidențialitatea pe primul loc."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Linkuri permanente",
+          "description": "Obține linkuri permanente care nu expiră. Perfect pentru documentație, tichete și rețele sociale."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: video în URL în câteva secunde"
+      "title": "Video în URL, în câteva secunde",
+      "subtitle": "De la fișier local la link de partajat",
+      "description": "Încarcă MP4 și formate similare, obține un URL permanent curat de lipit în documente, chat-uri și postări.",
+      "point1": "Plasează un videoclip de pe dispozitiv",
+      "point2": "Convertește în câteva secunde — fără înregistrare pentru utilizare standard",
+      "point3": "Copiază un link permanent și partajează oriunde",
+      "imageAlt": "mp4tourl.com colaj: fă videoclipul partajabil",
+      "imageAltNew": "mp4tourl.com: video în URL în câteva secunde, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Cum se folosește",
+      "subtitle": "Trei pași de la fișier local la URL de partajat.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Alege un videoclip",
+          "description": "Trage și plasează sau caută MP4, MOV, AVI, WebM sau MKV (până la 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Convertește în URL",
+          "description": "Apasă Convertește în URL. Procesarea se termină de obicei în câteva secunde."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Copiază și partajează",
+          "description": "Copiază linkul permanent și folosește-l în documente, chat-uri, site-uri sau rețele sociale."
         }
       }
     },
     "bannerShowcase": {
       "title": "Scenarii",
-      "subtitle": "De la video local la link partajabil.",
-      "description": "Trage un fișier și obține un URL curat pentru documente, chat-uri și postări — vezi câteva exemple mai jos.",
+      "subtitle": "De la videoclip local la link de partajat.",
+      "description": "Plasează un fișier, obține un URL curat pentru documente, chat-uri și postări — vezi câteva stiluri mai jos.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Transformă un clip local într-o adresă partajabilă în câteva secunde."
+          "description": "Transformă un clip local într-o adresă de partajat în câteva secunde."
         },
         "newStyle": {
           "title": "Partajează oriunde",
           "description": "Lipește linkul în documente, tichete și postări pe rețele sociale."
         },
         "dark": {
-          "title": "Găzduire stabilă",
+          "title": "Găzduire curată",
           "description": "Păstrează videoclipurile accesibile cu un URL stabil și permanent."
         },
         "retro": {
@@ -978,44 +677,44 @@
       }
     },
     "faqs": {
-      "title": "Întrebări frecvente",
-      "subtitle": "Ce ai putea vrea să știi despre video în URL.",
+      "title": "FAQ",
+      "subtitle": "Ce poți vrea să știi despre video în URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Ce este un convertor video în URL?",
+          "answer": "Un convertor video în URL încarcă fișierul video local și returnează un link web direct pe care îl poți partaja oriunde."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Cum funcționează conversia video în URL?",
+          "answer": "Încarcă videoclipul, așteaptă finalizarea procesării, apoi copiază URL-ul generat. Poți deschide, partaja sau încorpora linkul imediat."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Ce formate video sunt acceptate?",
+          "answer": "Formatele acceptate includ MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP și FLV. Planul gratuit permite până la 300MB per fișier."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Linkurile video generate sunt permanente?",
+          "answer": "Da. Linkurile generate sunt concepute pentru partajare pe termen lung, astfel încât URL-ul videoclipului rămâne stabil și refolosibil."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Unde pot folosi URL-ul videoclipului?",
+          "answer": "Îl poți folosi în documentație, trackere de probleme, chat-uri, site-uri, postări pe rețele sociale și instrumente de colaborare în echipă."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Acest convertor video în URL este gratuit?",
+          "answer": "Da. Fluxul standard de conversie video în URL este gratuit în limitele actuale de încărcare."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Cât de sigure sunt încărcarea și găzduirea video?",
+          "answer": "Încărcările folosesc transfer HTTPS și sunt găzduite pentru livrare stabilă, oferind linkuri de partajat fiabile pentru conținut video."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Cea mai simplă modalitate de a partaja videoclipuri",
+      "description": "MP4 to URL este un flux gratuit și rapid de găzduire media pentru dezvoltatori, creatori și echipe. Convertește videoclipuri în URL-uri permanente în câteva secunde și partajează oriunde.",
+      "primaryButton": "Convertește în URL",
+      "secondaryButton": "Citește FAQ"
     }
   }
 }
