@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Chuyển video thành liên kết miễn phí – tải MP4 lên và nhận link chia sẻ",
     "description": "Tải lên MP4, MOV, AVI, WebM, MKV và nhận URL chia sẻ vĩnh viễn trong vài giây. Lưu trữ video miễn phí tới 300MB — không cần đăng ký."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Tải video lên, nhận liên kết chia sẻ vĩnh viễn",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Sản phẩm",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Xem trước",
       "previewClose": "Đóng",
       "shareCodes": "Mã chia sẻ",
-      "shareCodesDesc": "Liên kết sẵn sàng sao chép cho Markdown, HTML, BBCode và hơn nữa.",
+      "shareCodesDesc": "Sao chép hoặc tải xuống Markdown, HTML, JSON, BBCode và hơn nữa.",
       "download": "Tải xuống",
       "delete": "Xóa",
       "deleteTitle": "Xóa video",
       "deleteConfirm": "Thao tác này xóa vĩnh viễn video khỏi tài khoản. Không thể hoàn tác.",
       "deleteSuccess": "Đã xóa video",
       "deleteFailed": "Không xóa được video",
+      "downloadFailed": "Không tải được video",
       "cancel": "Hủy",
       "totalCount": "Tổng {total}",
       "pagePrev": "Trước",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "MÃ SẴN SÀNG SAO CHÉP",
-    "copyUrl": "Sao chép URL",
+    "sectionTitle": "SAO CHÉP VÀ TẢI XUỐNG",
+    "copyUrl": "Sao chép",
     "copied": "Đã sao chép",
     "copyFailed": "Không sao chép được",
+    "download": "Tải xuống",
+    "downloadAll": "Tải tất cả",
+    "downloadFailed": "Không tải được",
     "openTab": "Mở tab mới",
     "successTitle": "Xong! URL video của bạn đã sẵn sàng",
     "successSubtitle": "Video đã tải lên và sẵn sàng chia sẻ.",
@@ -556,35 +561,39 @@
     "watchLabel": "Xem video",
     "shareLink": {
       "title": "Liên kết chia sẻ",
-      "desc": "Liên kết trực tiếp chia sẻ mọi nơi"
+      "desc": "Liên kết trực tiếp gửi được mọi nơi"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Phù hợp API, CMS, script và tự động hóa"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Cho GitHub, Notion và tài liệu"
     },
     "markdownLink": {
-      "title": "Markdown có liên kết",
-      "desc": "Markdown với nhãn xem dễ đọc"
+      "title": "Markdown có nhãn",
+      "desc": "Có chữ «Xem video», dễ dán"
     },
     "html": {
       "title": "HTML",
       "desc": "Nhúng với trình phát video gốc"
     },
     "htmlLink": {
-      "title": "HTML có liên kết",
-      "desc": "Liên kết đơn giản mở tab mới"
+      "title": "Liên kết HTML",
+      "desc": "Liên kết mở trong tab mới"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Cho diễn đàn và bảng tin"
     },
     "bbcodeLink": {
-      "title": "BBCode có liên kết",
-      "desc": "Liên kết diễn đàn với nhãn xem"
+      "title": "BBCode có nhãn",
+      "desc": "Liên kết diễn đàn có chữ «Xem video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Tải video lên và nhận liên kết chia sẻ vĩnh viễn",
     "hero": {
       "title": "Chuyển video thành liên kết chia sẻ miễn phí",
@@ -599,8 +608,8 @@
       "copy": "Sao chép liên kết",
       "copied": "Đã sao chép",
       "guestSuccessHint": "Video đã tải lên. Sao chép liên kết bên dưới để chia sẻ.",
-      "registerForCodesTitle": "Cần Markdown, HTML và BBCode?",
-      "registerForCodesDesc": "Đăng ký miễn phí để mở khóa mã nhúng sẵn sàng sao chép và quản lý mọi video trong Tài nguyên của tôi.",
+      "registerForCodesTitle": "Cần Markdown, HTML, JSON và BBCode?",
+      "registerForCodesDesc": "Đăng ký miễn phí để sao chép và tải xuống các mã chia sẻ này, đồng thời quản lý mọi video trong Tài nguyên của tôi.",
       "registerCta": "Đăng ký miễn phí",
       "uploadAnother": "Tải video khác",
       "error": "Tải lên thất bại. Vui lòng thử lại.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Tệp quá lớn. Gói miễn phí cho phép tối đa 300MB mỗi tệp."
     },
     "features": {
-      "title": "Vì sao chọn MP4 to URL",
+      "title": "Vì sao chọn MP4toURL",
       "subtitle": "Thiết kế cho tốc độ, quyền riêng tư và liên kết media vĩnh viễn.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Thả tệp, nhận URL gọn cho tài liệu, chat và bài đăng — xem vài giao diện bên dưới.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Biến clip cục bộ thành địa chỉ chia sẻ trong vài giây."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Cách dễ nhất để chia sẻ video",
-      "description": "MP4 to URL là quy trình lưu trữ media miễn phí và nhanh cho lập trình viên, người sáng tạo và nhóm. Chuyển video thành URL vĩnh viễn trong vài giây và chia sẻ mọi nơi.",
+      "description": "MP4toURL là quy trình lưu trữ media miễn phí và nhanh cho lập trình viên, người sáng tạo và nhóm. Chuyển video thành URL vĩnh viễn trong vài giây và chia sẻ mọi nơi.",
       "primaryButton": "Chuyển thành URL",
       "secondaryButton": "Đọc FAQ"
     }

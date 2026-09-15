@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Convertidor gratuït de vídeo a URL: puja MP4 i obtén enllaços per compartir",
     "description": "Puja MP4, MOV, AVI, WebM, MKV i obtén URL permanents per compartir en qüestió de segons. Allotjament de vídeo gratuït fins a 300MB — sense registre."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Puja un vídeo i obtén un enllaç permanent per compartir",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Producte",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Previsualitza",
       "previewClose": "Tanca",
       "shareCodes": "Codis per compartir",
-      "shareCodesDesc": "Enllaços llestos per copiar per a Markdown, HTML, BBCode i més.",
+      "shareCodesDesc": "Copia o baixa Markdown, HTML, JSON, BBCode i més.",
       "download": "Descarrega",
       "delete": "Suprimeix",
       "deleteTitle": "Suprimeix el vídeo",
       "deleteConfirm": "Això elimina permanentment el vídeo del teu compte. No es pot desfer.",
       "deleteSuccess": "Vídeo suprimit",
       "deleteFailed": "No s'ha pogut suprimir el vídeo",
+      "downloadFailed": "No s'ha pogut baixar el vídeo",
       "cancel": "Cancel·la",
       "totalCount": "{total} en total",
       "pagePrev": "Anterior",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODIS LLESTOS PER COPIAR",
+    "sectionTitle": "COPIAR I BAIXAR",
     "copyUrl": "Copia l'URL",
     "copied": "Copiat",
     "copyFailed": "No s'ha pogut copiar",
+    "download": "Baixa",
+    "downloadAll": "Baixa-ho tot",
+    "downloadFailed": "No s'ha pogut baixar",
     "openTab": "Obre en una pestanya nova",
     "successTitle": "Fet! L'URL del vídeo ja està a punt",
     "successSubtitle": "El vídeo s'ha pujat i ja es pot compartir.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Enllaç per compartir",
       "desc": "Enllaç directe per compartir on vulguis"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Per a API, CMS, scripts i automatitzacions"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Puja un vídeo i obtén un enllaç permanent per compartir",
     "hero": {
       "title": "Convertidor gratuït de vídeo a URL",
@@ -599,8 +608,8 @@
       "copy": "Copia l'enllaç",
       "copied": "Copiat",
       "guestSuccessHint": "El vídeo s'ha pujat. Copia l'enllaç de sota per compartir-lo.",
-      "registerForCodesTitle": "Vols Markdown, HTML i BBCode?",
-      "registerForCodesDesc": "Registra't gratis per desbloquejar codis d'inserció llestos per copiar i gestionar tots els vídeos a Els meus recursos.",
+      "registerForCodesTitle": "Vols Markdown, HTML, JSON i BBCode?",
+      "registerForCodesDesc": "Registra't gratis per copiar i baixar aquests codis per compartir, i gestionar tots els vídeos a Els meus recursos.",
       "registerCta": "Registra't gratis",
       "uploadAnother": "Puja un altre vídeo",
       "error": "La pujada ha fallat. Torna-ho a provar.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "El fitxer és massa gran. El pla gratuït permet fins a 300MB per fitxer."
     },
     "features": {
-      "title": "Per què triar MP4 to URL",
+      "title": "Per què triar MP4toURL",
       "subtitle": "Pensat per a velocitat, privadesa i enllaços multimèdia permanents.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Deixa anar un fitxer, obtén un URL net per a documents, xats i publicacions — mira'n alguns estils a sota.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Converteix un clip local en una adreça per compartir en segons."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "La manera més fàcil de compartir vídeos",
-      "description": "MP4 to URL és un flux d'allotjament multimèdia ràpid i gratuït per a desenvolupadors, creadors i equips. Converteix vídeos en URL permanents en segons i comparteix-los on vulguis.",
+      "description": "MP4toURL és un flux d'allotjament multimèdia ràpid i gratuït per a desenvolupadors, creadors i equips. Converteix vídeos en URL permanents en segons i comparteix-los on vulguis.",
       "primaryButton": "Converteix a URL",
       "secondaryButton": "Llegeix les PMF"
     }

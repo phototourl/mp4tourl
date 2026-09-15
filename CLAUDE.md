@@ -48,7 +48,7 @@ Guidance for working in the MP4toURL repository (`mp4tourl.com`).
 
 ## Notes
 
-- Prefer product name **MP4toURL** / **MP4 to URL** in copy; Chinese UI may use「MP4转链接」.
+- Prefer product name **MP4toURL** in copy (keep the brand untranslated in all locales, including zh / zh-TW).
 - Do not invent third-party template / boilerplate branding in UI or docs.
 - Do not overwrite `sql/mp4tourl.sql` unless the user asks.
 - Video uploads (logged-in + anonymous) are saved to `user_file` after R2 upload. Anonymous rows use `ANON_DB_USER_ID`.

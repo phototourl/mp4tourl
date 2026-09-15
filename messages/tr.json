@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Ücretsiz Video-URL Dönüştürücü - MP4 Yükleyin, Paylaşılabilir Bağlantı Alın",
     "description": "MP4, MOV, AVI, WebM, MKV yükleyin; saniyeler içinde kalıcı paylaşılabilir URL'ler alın. 300 MB'a kadar ücretsiz video barındırma — kayıt gerekmez."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Video yükleyin, kalıcı paylaşılabilir bağlantı alın",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Ürün",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Önizleme",
       "previewClose": "Kapat",
       "shareCodes": "Paylaşım kodları",
-      "shareCodesDesc": "Markdown, HTML, BBCode ve daha fazlası için kopyalamaya hazır bağlantılar.",
+      "shareCodesDesc": "Markdown, HTML, JSON, BBCode ve daha fazlasını kopyalayın veya indirin.",
       "download": "İndir",
       "delete": "Sil",
       "deleteTitle": "Videoyu sil",
       "deleteConfirm": "Bu, videoyu hesabınızdan kalıcı olarak kaldırır. Geri alınamaz.",
       "deleteSuccess": "Video silindi",
       "deleteFailed": "Video silinemedi",
+      "downloadFailed": "Video indirilemedi",
       "cancel": "İptal",
       "totalCount": "Toplam {total}",
       "pagePrev": "Önceki",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KOPYALAMAYA HAZIR KODLAR",
-    "copyUrl": "URL'yi kopyala",
+    "sectionTitle": "KOPYALA VE İNDİR",
+    "copyUrl": "Kopyala",
     "copied": "Kopyalandı",
     "copyFailed": "Kopyalanamadı",
+    "download": "İndir",
+    "downloadAll": "Tümünü indir",
+    "downloadFailed": "İndirme başarısız",
     "openTab": "Yeni sekmede aç",
     "successTitle": "Başarılı! Video URL'niz hazır",
     "successSubtitle": "Videonuz yüklendi ve paylaşıma hazır.",
@@ -556,35 +561,39 @@
     "watchLabel": "Videoyu izle",
     "shareLink": {
       "title": "Paylaşım bağlantısı",
-      "desc": "Her yerde paylaşılabilir doğrudan bağlantı"
+      "desc": "Her yerde paylaşılabilen doğrudan bağlantı"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "API, CMS, betik ve otomasyonlar için uygun"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub, Notion ve dokümanlar için"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Okunabilir izleme etiketiyle Markdown"
+      "title": "Metinli Markdown",
+      "desc": "«Videoyu izle» metniyle, yapıştırması kolay"
     },
     "html": {
       "title": "HTML",
       "desc": "Yerel video oynatıcıyla göm"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Yeni sekmede açılan basit bağlantı"
+      "title": "HTML bağlantısı",
+      "desc": "Yeni sekmede açılan bağlantı"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Forumlar ve mesaj panoları için"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "İzleme etiketli forum bağlantısı"
+      "title": "Metinli BBCode",
+      "desc": "«Videoyu izle» metinli forum bağlantısı"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Video yükleyin ve kalıcı paylaşılabilir bağlantı alın",
     "hero": {
       "title": "Ücretsiz Video-URL Dönüştürücü",
@@ -599,8 +608,8 @@
       "copy": "Bağlantıyı kopyala",
       "copied": "Kopyalandı",
       "guestSuccessHint": "Videonuz yüklendi. Paylaşmak için aşağıdaki bağlantıyı kopyalayın.",
-      "registerForCodesTitle": "Markdown, HTML ve BBCode ister misiniz?",
-      "registerForCodesDesc": "Kopyalamaya hazır gömme kodlarını açmak ve her videoyu Kaynaklarım'da yönetmek için ücretsiz kayıt olun.",
+      "registerForCodesTitle": "Markdown, HTML, JSON ve BBCode ister misiniz?",
+      "registerForCodesDesc": "Ücretsiz kayıt olun; bu paylaşım kodlarını kopyalayıp indirebilir, her videoyu Kaynaklarım'da yönetebilirsiniz.",
       "registerCta": "Ücretsiz kayıt ol",
       "uploadAnother": "Başka video yükle",
       "error": "Yükleme başarısız. Lütfen tekrar deneyin.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Dosya çok büyük. Ücretsiz planda dosya başına en fazla 300MB."
     },
     "features": {
-      "title": "Neden MP4 to URL",
+      "title": "Neden MP4toURL",
       "subtitle": "Hız, gizlilik ve kalıcı medya bağlantıları için tasarlandı.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Dosya bırakın, dokümanlar, sohbetler ve gönderiler için temiz URL alın — aşağıda birkaç görünüme göz atın.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Yerel klibi saniyeler içinde paylaşılabilir adrese dönüştürün."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Video Paylaşmanın En Kolay Yolu",
-      "description": "MP4 to URL, geliştiriciler, içerik üreticileri ve ekipler için ücretsiz ve hızlı bir medya barındırma akışıdır. Videoları saniyeler içinde kalıcı URL'lere dönüştürün ve her yerde paylaşın.",
+      "description": "MP4toURL, geliştiriciler, içerik üreticileri ve ekipler için ücretsiz ve hızlı bir medya barındırma akışıdır. Videoları saniyeler içinde kalıcı URL'lere dönüştürün ve her yerde paylaşın.",
       "primaryButton": "URL'ye dönüştür",
       "secondaryButton": "SSS'yi oku"
     }

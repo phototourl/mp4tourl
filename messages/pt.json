@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Conversor gratuito de vídeo para URL — envie MP4 e obtenha links compartilháveis",
     "description": "Envie MP4, MOV, AVI, WebM, MKV e obtenha URLs permanentes e compartilháveis em segundos. Hospedagem de vídeo gratuita até 300MB — sem cadastro."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Envie um vídeo e obtenha um link permanente para compartilhar",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produto",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Visualizar",
       "previewClose": "Fechar",
       "shareCodes": "Códigos para compartilhar",
-      "shareCodesDesc": "Links prontos para copiar em Markdown, HTML, BBCode e mais.",
+      "shareCodesDesc": "Copie ou baixe Markdown, HTML, JSON, BBCode e mais.",
       "download": "Baixar",
       "delete": "Excluir",
       "deleteTitle": "Excluir vídeo",
       "deleteConfirm": "Isso remove permanentemente o vídeo da sua conta. Não pode ser desfeito.",
       "deleteSuccess": "Vídeo excluído",
       "deleteFailed": "Falha ao excluir vídeo",
+      "downloadFailed": "Falha ao baixar vídeo",
       "cancel": "Cancelar",
       "totalCount": "{total} no total",
       "pagePrev": "Anterior",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CÓDIGOS PRONTOS PARA COPIAR",
+    "sectionTitle": "COPIAR E BAIXAR",
     "copyUrl": "Copiar URL",
     "copied": "Copiado",
     "copyFailed": "Não foi possível copiar",
+    "download": "Baixar",
+    "downloadAll": "Baixar tudo",
+    "downloadFailed": "Falha ao baixar",
     "openTab": "Abrir em nova aba",
     "successTitle": "Sucesso! Sua URL de vídeo está pronta",
     "successSubtitle": "Seu vídeo foi enviado e está pronto para compartilhar.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Link para compartilhar",
       "desc": "Link direto para compartilhar em qualquer lugar"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Para APIs, CMS, scripts e automações"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Envie um vídeo e obtenha um link permanente para compartilhar",
     "hero": {
       "title": "Conversor gratuito de vídeo para URL",
@@ -599,8 +608,8 @@
       "copy": "Copiar link",
       "copied": "Copiado",
       "guestSuccessHint": "Seu vídeo foi enviado. Copie o link abaixo para compartilhar.",
-      "registerForCodesTitle": "Quer Markdown, HTML e BBCode?",
-      "registerForCodesDesc": "Cadastre-se grátis para desbloquear códigos de incorporação prontos para copiar e gerenciar todos os vídeos em Meus recursos.",
+      "registerForCodesTitle": "Quer Markdown, HTML, JSON e BBCode?",
+      "registerForCodesDesc": "Cadastre-se grátis para copiar e baixar estes códigos de compartilhamento e gerenciar todos os vídeos em Meus recursos.",
       "registerCta": "Cadastre-se grátis",
       "uploadAnother": "Enviar outro vídeo",
       "error": "Falha no envio. Tente novamente.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Arquivo muito grande. O plano grátis permite até 300MB por arquivo."
     },
     "features": {
-      "title": "Por que escolher o MP4 to URL",
+      "title": "Por que escolher o MP4toURL",
       "subtitle": "Feito para velocidade, privacidade e links permanentes de mídia.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Solte um arquivo, obtenha uma URL limpa para docs, chats e posts — veja alguns estilos abaixo.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Transforme um clipe local em endereço compartilhável em segundos."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "A forma mais fácil de compartilhar vídeos",
-      "description": "O MP4 to URL é um fluxo gratuito e rápido de hospedagem de mídia para desenvolvedores, criadores e equipes. Converta vídeos em URLs permanentes em segundos e compartilhe em qualquer lugar.",
+      "description": "O MP4toURL é um fluxo gratuito e rápido de hospedagem de mídia para desenvolvedores, criadores e equipes. Converta vídeos em URLs permanentes em segundos e compartilhe em qualquer lugar.",
       "primaryButton": "Converter para URL",
       "secondaryButton": "Ler FAQ"
     }

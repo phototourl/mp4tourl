@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "無料の動画→リンク変換 - MP4をアップロードして共有リンクを取得",
     "description": "MP4、MOV、AVI、WebM、MKVをアップロードすれば、数秒でずっと使える共有URLが手に入ります。無料で最大300MBまで。登録不要。"
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "動画をアップロードして、ずっと使える共有リンクを取得",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "プロダクト",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "プレビュー",
       "previewClose": "閉じる",
       "shareCodes": "共有コード",
-      "shareCodesDesc": "Markdown、HTML、BBCode などにすぐ貼れるリンクです。",
+      "shareCodesDesc": "Markdown、HTML、JSON、BBCode などをコピーまたはダウンロードできます。",
       "download": "ダウンロード",
       "delete": "削除",
       "deleteTitle": "動画を削除",
       "deleteConfirm": "アカウントから動画を完全に削除します。この操作は取り消せません。",
       "deleteSuccess": "動画を削除しました",
       "deleteFailed": "動画の削除に失敗しました",
+      "downloadFailed": "動画のダウンロードに失敗しました",
       "cancel": "キャンセル",
       "totalCount": "全 {total} 件",
       "pagePrev": "前へ",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "すぐコピーできるコード",
-    "copyUrl": "URLをコピー",
+    "sectionTitle": "コピーとダウンロード",
+    "copyUrl": "コピー",
     "copied": "コピーしました",
     "copyFailed": "コピーできませんでした",
+    "download": "ダウンロード",
+    "downloadAll": "すべてダウンロード",
+    "downloadFailed": "ダウンロードに失敗しました",
     "openTab": "新しいタブで開く",
     "successTitle": "完了！動画のURLが用意できました",
     "successSubtitle": "動画のアップロードが終わり、共有できる状態です。",
@@ -558,33 +563,37 @@
       "title": "共有リンク",
       "desc": "どこにでも貼れる直リンク"
     },
+    "json": {
+      "title": "JSON",
+      "desc": "API・CMS・スクリプト・自動化向け"
+    },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub、Notion、ドキュメント向け"
     },
     "markdownLink": {
-      "title": "リンク付きMarkdown",
-      "desc": "見やすい視聴ラベル付きのMarkdown"
+      "title": "文言付きMarkdown",
+      "desc": "「動画を見る」文言付きで、貼り付けやすい"
     },
     "html": {
       "title": "HTML",
       "desc": "標準の動画プレイヤーで埋め込み"
     },
     "htmlLink": {
-      "title": "リンク付きHTML",
-      "desc": "新しいタブで開くシンプルなアンカー"
+      "title": "HTMLリンク",
+      "desc": "新しいタブで開くリンク"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "フォーラムや掲示板向け"
     },
     "bbcodeLink": {
-      "title": "リンク付きBBCode",
-      "desc": "視聴ラベル付きのフォーラム用リンク"
+      "title": "文言付きBBCode",
+      "desc": "「動画を見る」文言付きのフォーラム用リンク"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "動画をアップロードして、ずっと使える共有リンクを取得",
     "hero": {
       "title": "無料の動画→リンク変換",
@@ -599,8 +608,8 @@
       "copy": "リンクをコピー",
       "copied": "コピーしました",
       "guestSuccessHint": "動画のアップロードが完了しました。下のリンクをコピーして共有できます。",
-      "registerForCodesTitle": "Markdown、HTML、BBCodeも欲しいですか？",
-      "registerForCodesDesc": "無料登録で、すぐ使える埋め込みコードを解放し、すべての動画をマイリソースで管理できます。",
+      "registerForCodesTitle": "Markdown、HTML、JSON、BBCodeも欲しいですか？",
+      "registerForCodesDesc": "無料登録すると、これらの共有コードをコピー・ダウンロードでき、すべての動画をマイリソースで管理できます。",
       "registerCta": "無料で登録",
       "uploadAnother": "別の動画をアップロード",
       "error": "アップロードに失敗しました。もう一度お試しください。",
@@ -608,7 +617,7 @@
       "fileTooLarge": "ファイルが大きすぎます。無料プランは1ファイル最大300MBです。"
     },
     "features": {
-      "title": "MP4 to URLを選ぶ理由",
+      "title": "MP4toURLを選ぶ理由",
       "subtitle": "速さ、プライバシー、ずっと使えるメディアリンクのために作られています。",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "ファイルをドロップすれば、ドキュメントやチャット、投稿向けのきれいなURLが手に入ります。見た目の例をいくつかどうぞ。",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "手元のクリップを、数秒で共有できるアドレスに。"
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "動画を共有するいちばんかんたんな方法",
-      "description": "MP4 to URLは、開発者・クリエイター・チーム向けの無料で速いメディアホスティングです。動画を数秒で恒久URLに変えて、どこでも共有できます。",
+      "description": "MP4toURLは、開発者・クリエイター・チーム向けの無料で速いメディアホスティングです。動画を数秒で恒久URLに変えて、どこでも共有できます。",
       "primaryButton": "リンクに変換",
       "secondaryButton": "よくある質問を読む"
     }

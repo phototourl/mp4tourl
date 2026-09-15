@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Libreng Converter ng Video sa URL - Mag-upload ng MP4 at Kumuha ng Maibabahaging Link",
     "description": "Mag-upload ng MP4, MOV, AVI, WebM, MKV at makakuha ng permanenteng maibabahaging URL sa ilang segundo. Libreng video hosting hanggang 300MB — walang kailangang magrehistro."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Mag-upload ng video, kumuha ng permanenteng maibabahaging link",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produkto",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Silipin",
       "previewClose": "Isara",
       "shareCodes": "Mga code para sa share",
-      "shareCodesDesc": "Handang kopyahin na link para sa Markdown, HTML, BBCode, at iba pa.",
+      "shareCodesDesc": "Kopyahin o i-download ang Markdown, HTML, JSON, BBCode, at iba pa.",
       "download": "I-download",
       "delete": "I-delete",
       "deleteTitle": "I-delete ang video",
       "deleteConfirm": "Permanenteng aalisin nito ang video mula sa account mo. Hindi na ito mababawi.",
       "deleteSuccess": "Na-delete ang video",
       "deleteFailed": "Hindi na-delete ang video",
+      "downloadFailed": "Hindi na-download ang video",
       "cancel": "Kanselahin",
       "totalCount": "{total} kabuuan",
       "pagePrev": "Nakaraan",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "HANDANG KOPYAHIN NA CODE",
-    "copyUrl": "Kopyahin ang URL",
+    "sectionTitle": "KOPYAHIN AT I-DOWNLOAD",
+    "copyUrl": "Kopyahin",
     "copied": "Nakopya",
     "copyFailed": "Hindi makopya",
+    "download": "I-download",
+    "downloadAll": "I-download lahat",
+    "downloadFailed": "Hindi na-download",
     "openTab": "Buksan sa bagong tab",
     "successTitle": "Tagumpay! Handa na ang URL ng video mo",
     "successSubtitle": "Na-upload na ang video mo at handa nang ibahagi.",
@@ -556,35 +561,39 @@
     "watchLabel": "Panoorin ang video",
     "shareLink": {
       "title": "Link para ibahagi",
-      "desc": "Direktang link na maibabahaging kahit saan"
+      "desc": "Direktang link na maibabahagi kahit saan"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Para sa API, CMS, script, at automation"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Para sa GitHub, Notion, at docs"
     },
     "markdownLink": {
-      "title": "Markdown na may link",
-      "desc": "Markdown na may madaling basahin na label para panoorin"
+      "title": "Markdown na may label",
+      "desc": "May tekstong «Panoorin ang video», madaling i-paste"
     },
     "html": {
       "title": "HTML",
       "desc": "I-embed gamit ang native video player"
     },
     "htmlLink": {
-      "title": "HTML na may link",
-      "desc": "Simpleng anchor na bubukas sa bagong tab"
+      "title": "Link na HTML",
+      "desc": "Link na bubukas sa bagong tab"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Para sa forum at message board"
     },
     "bbcodeLink": {
-      "title": "BBCode na may link",
-      "desc": "Link sa forum na may label para panoorin"
+      "title": "BBCode na may label",
+      "desc": "Link sa forum na may tekstong «Panoorin ang video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Mag-upload ng video at kumuha ng permanenteng maibabahaging link",
     "hero": {
       "title": "Libreng Converter ng Video sa URL",
@@ -599,8 +608,8 @@
       "copy": "Kopyahin ang link",
       "copied": "Nakopya",
       "guestSuccessHint": "Na-upload na ang video mo. Kopyahin ang link sa ibaba para ibahagi.",
-      "registerForCodesTitle": "Gusto ng Markdown, HTML at BBCode?",
-      "registerForCodesDesc": "Mag-sign up nang libre para ma-unlock ang handang kopyahin na embed code, at pamahalaan ang bawat video sa Aking mga Resource.",
+      "registerForCodesTitle": "Gusto ng Markdown, HTML, JSON at BBCode?",
+      "registerForCodesDesc": "Magrehistro nang libre para makopya at i-download ang mga code na ito, at pamahalaan ang bawat video sa Aking mga Resource.",
       "registerCta": "Mag-sign up nang libre",
       "uploadAnother": "Mag-upload ng isa pang video",
       "error": "Hindi nag-upload. Subukan muli.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Masyadong malaki ang file. Hanggang 300MB bawat file sa libreng plan."
     },
     "features": {
-      "title": "Bakit piliin ang MP4 to URL",
+      "title": "Bakit piliin ang MP4toURL",
       "subtitle": "Ginawa para sa bilis, privacy, at permanenteng media link.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "I-drop ang file, kumuha ng malinis na URL para sa docs, chat, at post — tingnan ang ilang itsura sa ibaba.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Gawing maibabahaging address ang lokal na clip sa ilang segundo."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Pinakamadaling Paraan para Magbahagi ng Video",
-      "description": "Ang MP4 to URL ay libre at mabilis na media hosting flow para sa developer, creator, at team. I-convert ang video sa permanenteng URL sa ilang segundo at ibahagi kahit saan.",
+      "description": "Ang MP4toURL ay libre at mabilis na media hosting flow para sa developer, creator, at team. I-convert ang video sa permanenteng URL sa ilang segundo at ibahagi kahit saan.",
       "primaryButton": "I-convert sa URL",
       "secondaryButton": "Basahin ang FAQ"
     }

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Convertor gratuit video în URL — încarcă MP4 și obține linkuri de partajat",
     "description": "Încarcă MP4, MOV, AVI, WebM, MKV și obține URL-uri permanente de partajat în câteva secunde. Găzduire video gratuită până la 300MB — fără înregistrare."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Încarcă un videoclip și obține un link permanent de partajat",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produs",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Previzualizare",
       "previewClose": "Închide",
       "shareCodes": "Coduri de partajat",
-      "shareCodesDesc": "Linkuri gata de copiat pentru Markdown, HTML, BBCode și altele.",
+      "shareCodesDesc": "Copiază sau descarcă Markdown, HTML, JSON, BBCode și altele.",
       "download": "Descarcă",
       "delete": "Șterge",
       "deleteTitle": "Șterge videoclip",
       "deleteConfirm": "Aceasta elimină permanent videoclipul din contul tău. Nu poate fi anulat.",
       "deleteSuccess": "Videoclip șters",
       "deleteFailed": "Ștergerea videoclipului a eșuat",
+      "downloadFailed": "Descărcarea videoclipului a eșuat",
       "cancel": "Anulează",
       "totalCount": "{total} în total",
       "pagePrev": "Anterior",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODURI GATA DE COPIAT",
-    "copyUrl": "Copiază URL",
+    "sectionTitle": "COPIAZĂ ȘI DESCARCĂ",
+    "copyUrl": "Copiază",
     "copied": "Copiat",
     "copyFailed": "Nu s-a putut copia",
+    "download": "Descarcă",
+    "downloadAll": "Descarcă tot",
+    "downloadFailed": "Descărcarea a eșuat",
     "openTab": "Deschide în filă nouă",
     "successTitle": "Succes! URL-ul videoclipului este gata",
     "successSubtitle": "Videoclipul a fost încărcat și este gata de partajat.",
@@ -556,35 +561,39 @@
     "watchLabel": "Vizionează videoclip",
     "shareLink": {
       "title": "Link de partajat",
-      "desc": "Link direct de partajat oriunde"
+      "desc": "Link direct de trimis oriunde"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Potrivit pentru API, CMS, scripturi și automatizări"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Pentru GitHub, Notion și documentație"
     },
     "markdownLink": {
-      "title": "Markdown cu link",
-      "desc": "Markdown cu etichetă lizibilă pentru vizionare"
+      "title": "Markdown cu etichetă",
+      "desc": "Cu textul «Vizionează videoclip», ușor de lipit"
     },
     "html": {
       "title": "HTML",
       "desc": "Încorporează cu player video nativ"
     },
     "htmlLink": {
-      "title": "HTML cu link",
-      "desc": "Ancoră simplă care se deschide într-o filă nouă"
+      "title": "Link HTML",
+      "desc": "Link care se deschide într-o filă nouă"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Pentru forumuri și panouri de mesaje"
     },
     "bbcodeLink": {
-      "title": "BBCode cu link",
-      "desc": "Link de forum cu etichetă de vizionare"
+      "title": "BBCode cu etichetă",
+      "desc": "Link de forum cu textul «Vizionează videoclip»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Încarcă un videoclip și obține un link permanent de partajat",
     "hero": {
       "title": "Convertor gratuit video în URL",
@@ -599,8 +608,8 @@
       "copy": "Copiază link",
       "copied": "Copiat",
       "guestSuccessHint": "Videoclipul a fost încărcat. Copiază linkul de mai jos pentru a-l partaja.",
-      "registerForCodesTitle": "Vrei Markdown, HTML și BBCode?",
-      "registerForCodesDesc": "Înregistrează-te gratuit pentru coduri de încorporare gata de copiat și gestionează toate videoclipurile în Resursele mele.",
+      "registerForCodesTitle": "Vrei Markdown, HTML, JSON și BBCode?",
+      "registerForCodesDesc": "Înregistrează-te gratuit ca să copiezi și să descarci aceste coduri de partajare și să gestionezi toate videoclipurile în Resursele mele.",
       "registerCta": "Înregistrare gratuită",
       "uploadAnother": "Încarcă alt videoclip",
       "error": "Încărcarea a eșuat. Încearcă din nou.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Fișier prea mare. Planul gratuit permite până la 300MB per fișier."
     },
     "features": {
-      "title": "De ce MP4 to URL",
+      "title": "De ce MP4toURL",
       "subtitle": "Creat pentru viteză, confidențialitate și linkuri media permanente.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Plasează un fișier, obține un URL curat pentru documente, chat-uri și postări — vezi câteva stiluri mai jos.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Transformă un clip local într-o adresă de partajat în câteva secunde."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Cea mai simplă modalitate de a partaja videoclipuri",
-      "description": "MP4 to URL este un flux gratuit și rapid de găzduire media pentru dezvoltatori, creatori și echipe. Convertește videoclipuri în URL-uri permanente în câteva secunde și partajează oriunde.",
+      "description": "MP4toURL este un flux gratuit și rapid de găzduire media pentru dezvoltatori, creatori și echipe. Convertește videoclipuri în URL-uri permanente în câteva secunde și partajează oriunde.",
       "primaryButton": "Convertește în URL",
       "secondaryButton": "Citește FAQ"
     }

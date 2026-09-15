@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Gratis video-til-URL-konverter — upload MP4 og få links til deling",
     "description": "Upload MP4, MOV, AVI, WebM, MKV og få permanente links til deling på få sekunder. Gratis videohosting op til 300MB — ingen registrering påkrævet."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Upload en video og få et permanent link til deling",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produkt",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Forhåndsvisning",
       "previewClose": "Luk",
       "shareCodes": "Delingskoder",
-      "shareCodesDesc": "Klar-til-kopiering-links til Markdown, HTML, BBCode og mere.",
+      "shareCodesDesc": "Kopiér eller hent Markdown, HTML, JSON, BBCode og mere.",
       "download": "Hent",
       "delete": "Slet",
       "deleteTitle": "Slet video",
       "deleteConfirm": "Dette fjerner videoen permanent fra din konto. Handlingen kan ikke fortrydes.",
       "deleteSuccess": "Video slettet",
       "deleteFailed": "Kunne ikke slette video",
+      "downloadFailed": "Kunne ikke downloade video",
       "cancel": "Annuller",
       "totalCount": "{total} i alt",
       "pagePrev": "Forrige",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KLAR-TIL-KOPIERING-KODER",
+    "sectionTitle": "KOPIÉR OG HENT",
     "copyUrl": "Kopiér URL",
     "copied": "Kopieret",
     "copyFailed": "Kunne ikke kopiere",
+    "download": "Hent",
+    "downloadAll": "Hent alle",
+    "downloadFailed": "Kunne ikke hente",
     "openTab": "Åbn i ny fane",
     "successTitle": "Succes! Din video-URL er klar",
     "successSubtitle": "Din video er uploadet og klar til at blive delt.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Delingslink",
       "desc": "Direkte link til deling overalt"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Til API, CMS, scripts og automatisering"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Upload en video og få et permanent link til deling",
     "hero": {
       "title": "Gratis video-til-URL-konverter",
@@ -599,8 +608,8 @@
       "copy": "Kopiér link",
       "copied": "Kopieret",
       "guestSuccessHint": "Din video er uploadet. Kopiér linket nedenfor for at dele den.",
-      "registerForCodesTitle": "Vil du have Markdown, HTML og BBCode?",
-      "registerForCodesDesc": "Tilmeld dig gratis for at låse indlejringskoder op, der er klar til kopiering, og administrer alle videoer i Mine ressourcer.",
+      "registerForCodesTitle": "Vil du have Markdown, HTML, JSON og BBCode?",
+      "registerForCodesDesc": "Tilmeld dig gratis for at kopiere og hente disse delekoder, og administrer alle videoer i Mine ressourcer.",
       "registerCta": "Tilmeld dig gratis",
       "uploadAnother": "Upload en anden video",
       "error": "Upload mislykkedes. Prøv igen.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Filen er for stor. Gratisplanen tillader op til 300MB pr. fil."
     },
     "features": {
-      "title": "Hvorfor vælge MP4 to URL",
+      "title": "Hvorfor vælge MP4toURL",
       "subtitle": "Bygget til hastighed, privatliv og permanente medielinks.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Slip en fil, få en ren URL til dokumenter, chats og opslag — se et par udtryk nedenfor.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Gør et lokalt klip til en adresse til deling på få sekunder."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Den nemmeste måde at dele videoer på",
-      "description": "MP4 to URL er et gratis og hurtigt mediehosting-flow til udviklere, skabere og teams. Konvertér videoer til permanente URL'er på få sekunder, og del dem overalt.",
+      "description": "MP4toURL er et gratis og hurtigt mediehosting-flow til udviklere, skabere og teams. Konvertér videoer til permanente URL'er på få sekunder, og del dem overalt.",
       "primaryButton": "Konvertér til URL",
       "secondaryButton": "Læs FAQ"
     }

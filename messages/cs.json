@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Bezplatný převodník videa na URL — nahrajte MP4 a získejte odkaz ke sdílení",
     "description": "Nahrajte MP4, MOV, AVI, WebM, MKV a získejte trvalé odkazy ke sdílení během sekund. Bezplatný hosting videa až do 300MB — bez registrace."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Nahrajte video a získejte trvalý odkaz ke sdílení",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produkt",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Náhled",
       "previewClose": "Zavřít",
       "shareCodes": "Kódy ke sdílení",
-      "shareCodesDesc": "Odkazy připravené ke zkopírování pro Markdown, HTML, BBCode a další.",
+      "shareCodesDesc": "Kopírujte nebo stahujte Markdown, HTML, JSON, BBCode a další.",
       "download": "Stáhnout",
       "delete": "Smazat",
       "deleteTitle": "Smazat video",
       "deleteConfirm": "Tímto trvale odstraníte video z účtu. Tuto akci nelze vrátit.",
       "deleteSuccess": "Video smazáno",
       "deleteFailed": "Smazání videa se nezdařilo",
+      "downloadFailed": "Stažení videa se nezdařilo",
       "cancel": "Zrušit",
       "totalCount": "Celkem {total}",
       "pagePrev": "Předchozí",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KÓDY PŘIPRAVENÉ KE ZKOPÍROVÁNÍ",
+    "sectionTitle": "KOPÍROVAT A STÁHNOUT",
     "copyUrl": "Kopírovat URL",
     "copied": "Zkopírováno",
     "copyFailed": "Kopírování se nezdařilo",
+    "download": "Stáhnout",
+    "downloadAll": "Stáhnout vše",
+    "downloadFailed": "Stažení se nezdařilo",
     "openTab": "Otevřít na nové kartě",
     "successTitle": "Hotovo! URL vašeho videa je připravená",
     "successSubtitle": "Video bylo nahráno a je připraveno ke sdílení.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Odkaz ke sdílení",
       "desc": "Přímý odkaz ke sdílení kdekoli"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Pro API, CMS, skripty a automatizace"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Nahrajte video a získejte trvalý odkaz ke sdílení",
     "hero": {
       "title": "Bezplatný převodník videa na URL",
@@ -599,8 +608,8 @@
       "copy": "Kopírovat odkaz",
       "copied": "Zkopírováno",
       "guestSuccessHint": "Video bylo nahráno. Zkopírujte odkaz níže a sdílejte ho.",
-      "registerForCodesTitle": "Chcete Markdown, HTML a BBCode?",
-      "registerForCodesDesc": "Zaregistrujte se zdarma a odemkněte kódy pro vložení připravené ke zkopírování a spravujte všechna videa v Moje zdroje.",
+      "registerForCodesTitle": "Chcete Markdown, HTML, JSON a BBCode?",
+      "registerForCodesDesc": "Zaregistrujte se zdarma, abyste mohli kopírovat a stahovat tyto kódy ke sdílení a spravovat všechna videa v Moje zdroje.",
       "registerCta": "Registrovat se zdarma",
       "uploadAnother": "Nahrát další video",
       "error": "Nahrávání se nezdařilo. Zkuste to znovu.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Soubor je příliš velký. Bezplatný plán povoluje až 300MB na soubor."
     },
     "features": {
-      "title": "Proč zvolit MP4 to URL",
+      "title": "Proč zvolit MP4toURL",
       "subtitle": "Postaveno pro rychlost, soukromí a trvalé mediální odkazy.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Přetáhněte soubor, získejte čisté URL pro dokumenty, chaty a příspěvky — prohlédněte si několik vzhledů níže.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Přeměňte lokální klip na adresu ke sdílení během sekund."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Nejjednodušší způsob, jak sdílet videa",
-      "description": "MP4 to URL je bezplatný a rychlý mediální hosting pro vývojáře, tvůrce a týmy. Převeďte videa na trvalé URL během sekund a sdílejte je kdekoli.",
+      "description": "MP4toURL je bezplatný a rychlý mediální hosting pro vývojáře, tvůrce a týmy. Převeďte videa na trvalé URL během sekund a sdílejte je kdekoli.",
       "primaryButton": "Převést na URL",
       "secondaryButton": "Přečíst časté otázky"
     }

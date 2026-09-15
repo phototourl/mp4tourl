@@ -39,7 +39,7 @@ export function generateOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': ORGANIZATION_ID,
-    name: 'MP4 to URL',
+    name: 'MP4toURL',
     alternateName: 'mp4tourl',
     url: baseUrl,
     logo: {
@@ -70,7 +70,7 @@ export function generateWebSiteSchema(locale: string = 'en') {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': WEBSITE_ID,
-    name: 'MP4 to URL',
+    name: 'MP4toURL',
     url,
     inLanguage: locale,
     publisher: { '@id': ORGANIZATION_ID },

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Convertisseur vidéo → URL gratuit – Importez un MP4 et obtenez un lien partageable",
     "description": "Importez un MP4, MOV, AVI, WebM ou MKV et obtenez des URL permanentes partageables en quelques secondes. Hébergement vidéo gratuit jusqu’à 300 Mo — sans inscription."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Importez une vidéo, obtenez un lien permanent partageable",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produit",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Aperçu",
       "previewClose": "Fermer",
       "shareCodes": "Codes de partage",
-      "shareCodesDesc": "Liens prêts à copier pour Markdown, HTML, BBCode, et plus.",
+      "shareCodesDesc": "Copiez ou téléchargez Markdown, HTML, JSON, BBCode, et plus.",
       "download": "Télécharger",
       "delete": "Supprimer",
       "deleteTitle": "Supprimer la vidéo",
       "deleteConfirm": "Cela retire définitivement la vidéo de votre compte. Cette action est irréversible.",
       "deleteSuccess": "Vidéo supprimée",
       "deleteFailed": "Échec de la suppression de la vidéo",
+      "downloadFailed": "Échec du téléchargement de la vidéo",
       "cancel": "Annuler",
       "totalCount": "{total} au total",
       "pagePrev": "Précédent",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODES PRÊTS À COPIER",
+    "sectionTitle": "COPIER ET TÉLÉCHARGER",
     "copyUrl": "Copier l’URL",
     "copied": "Copié",
     "copyFailed": "Impossible de copier",
+    "download": "Télécharger",
+    "downloadAll": "Tout télécharger",
+    "downloadFailed": "Échec du téléchargement",
     "openTab": "Ouvrir dans un nouvel onglet",
     "successTitle": "Succès ! L’URL de votre vidéo est prête",
     "successSubtitle": "Votre vidéo a été importée et est prête à être partagée.",
@@ -558,33 +563,37 @@
       "title": "Lien de partage",
       "desc": "Lien direct à partager partout"
     },
+    "json": {
+      "title": "JSON",
+      "desc": "Pour API, CMS, scripts et automatisations"
+    },
     "markdown": {
       "title": "Markdown",
       "desc": "Pour GitHub, Notion et la documentation"
     },
     "markdownLink": {
-      "title": "Markdown avec lien",
-      "desc": "Markdown avec un libellé de lecture lisible"
+      "title": "Markdown avec libellé",
+      "desc": "Avec le texte « Regarder la vidéo », facile à coller"
     },
     "html": {
       "title": "HTML",
       "desc": "Intégrer avec un lecteur vidéo natif"
     },
     "htmlLink": {
-      "title": "HTML avec lien",
-      "desc": "Ancre simple qui s’ouvre dans un nouvel onglet"
+      "title": "Lien HTML",
+      "desc": "Lien qui s’ouvre dans un nouvel onglet"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Pour les forums et tableaux de messages"
     },
     "bbcodeLink": {
-      "title": "BBCode avec lien",
-      "desc": "Lien de forum avec un libellé de lecture"
+      "title": "BBCode avec libellé",
+      "desc": "Lien de forum avec le texte « Regarder la vidéo »"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Importez une vidéo et obtenez un lien permanent partageable",
     "hero": {
       "title": "Convertisseur vidéo → URL gratuit",
@@ -599,8 +608,8 @@
       "copy": "Copier le lien",
       "copied": "Copié",
       "guestSuccessHint": "Votre vidéo a été importée. Copiez le lien ci-dessous pour la partager.",
-      "registerForCodesTitle": "Vous souhaitez Markdown, HTML et BBCode ?",
-      "registerForCodesDesc": "Inscrivez-vous gratuitement pour débloquer les codes d’intégration prêts à copier et gérer chaque vidéo dans Mes ressources.",
+      "registerForCodesTitle": "Vous souhaitez Markdown, HTML, JSON et BBCode ?",
+      "registerForCodesDesc": "Inscrivez-vous gratuitement pour copier et télécharger ces codes de partage, et gérer chaque vidéo dans Mes ressources.",
       "registerCta": "S’inscrire gratuitement",
       "uploadAnother": "Importer une autre vidéo",
       "error": "Échec de l’import. Veuillez réessayer.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Fichier trop volumineux. Le forfait gratuit autorise jusqu’à 300 Mo par fichier."
     },
     "features": {
-      "title": "Pourquoi choisir MP4 to URL",
+      "title": "Pourquoi choisir MP4toURL",
       "subtitle": "Conçu pour la rapidité, la confidentialité et des liens médias permanents.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Déposez un fichier, obtenez une URL claire pour documents, conversations et publications — parcourez quelques aperçus ci-dessous.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Transformez un extrait local en adresse partageable en quelques secondes."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Le moyen le plus simple de partager des vidéos",
-      "description": "MP4 to URL est un flux d’hébergement média gratuit et rapide pour développeurs, créateurs et équipes. Convertissez des vidéos en URL permanentes en quelques secondes et partagez-les partout.",
+      "description": "MP4toURL est un flux d’hébergement média gratuit et rapide pour développeurs, créateurs et équipes. Convertissez des vidéos en URL permanentes en quelques secondes et partagez-les partout.",
       "primaryButton": "Convertir en URL",
       "secondaryButton": "Lire la FAQ"
     }

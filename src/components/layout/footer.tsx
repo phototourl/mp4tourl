@@ -2,7 +2,6 @@
 
 import Container from '@/components/layout/container';
 import { Logo } from '@/components/layout/logo';
-import { ModeSwitcherHorizontal } from '@/components/layout/mode-switcher-horizontal';
 import { useFooterLinks } from '@/config/footer-config';
 import { useSocialLinks } from '@/config/social-config';
 import { LocaleLink } from '@/i18n/navigation';
@@ -86,16 +85,13 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
       </Container>
 
-      <div className="border-t py-8">
-        <Container className="px-4 flex items-center justify-between gap-x-4">
+      <div className="border-t border-foreground/10 py-4">
+        <Container className="px-4 text-center">
           <span className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} {t('Metadata.name')} All Rights
-            Reserved.
+            {t('Marketing.footer.copyright', {
+              year: new Date().getFullYear(),
+            })}
           </span>
-
-          <div className="flex items-center gap-x-4">
-            <ModeSwitcherHorizontal />
-          </div>
         </Container>
       </div>
     </footer>

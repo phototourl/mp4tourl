@@ -141,6 +141,7 @@ function VideoCard({
   item,
   locale,
   deletingId,
+  downloadingId,
   onPreview,
   onShare,
   onDownload,
@@ -150,6 +151,7 @@ function VideoCard({
   item: ResourceItem;
   locale: string;
   deletingId: string | null;
+  downloadingId: string | null;
   onPreview: (item: ResourceItem) => void;
   onShare: (item: ResourceItem) => void;
   onDownload: (item: ResourceItem) => void;
@@ -162,6 +164,7 @@ function VideoCard({
   };
 }) {
   const ext = fileExtLabel(item.filename, item.mimeType);
+  const isDownloading = downloadingId === item.id;
 
   return (
     <article className={fileCardClass}>
@@ -199,14 +202,19 @@ function VideoCard({
           <button
             type="button"
             className={cn(
-              'inline-flex items-center justify-center',
+              'inline-flex items-center justify-center disabled:opacity-50',
               overlayBtnClass
             )}
+            disabled={isDownloading || downloadingId != null}
             onClick={() => onDownload(item)}
             aria-label={labels.download}
             title={labels.download}
           >
-            <Download className="size-3 sm:size-3.5" />
+            {isDownloading ? (
+              <Loader2 className="size-3 animate-spin sm:size-3.5" />
+            ) : (
+              <Download className="size-3 sm:size-3.5" />
+            )}
           </button>
           <button
             type="button"
@@ -267,6 +275,7 @@ export function ResourcesManager() {
   const [tileUploading, setTileUploading] = useState(false);
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [downloadingId, setDownloadingId] = useState<string | null>(null);
   const [previewItem, setPreviewItem] = useState<ResourceItem | null>(null);
   const [shareItem, setShareItem] = useState<ResourceItem | null>(null);
 
@@ -366,15 +375,31 @@ export function ResourcesManager() {
     setPreviewItem(item);
   };
 
-  const onDownload = (item: ResourceItem) => {
-    // Same-origin proxy with Content-Disposition: attachment.
-    // Cross-origin CDN URLs ignore `download` and open a new tab instead.
-    const a = document.createElement('a');
-    a.href = `/api/files/${encodeURIComponent(item.id)}/download`;
-    a.rel = 'noopener';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
+  const onDownload = async (item: ResourceItem) => {
+    if (downloadingId) return;
+    setDownloadingId(item.id);
+    try {
+      // Fetch via same-origin proxy so we can show button loading until the
+      // file is ready (plain <a> click has no UI feedback for slow R2 streams).
+      const res = await fetch(
+        `/api/files/${encodeURIComponent(item.id)}/download`
+      );
+      if (!res.ok) throw new Error('download failed');
+      const blob = await res.blob();
+      const objectUrl = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = objectUrl;
+      a.download = item.filename || 'video';
+      a.rel = 'noopener';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1500);
+    } catch {
+      toast.error(t('downloadFailed'));
+    } finally {
+      setDownloadingId(null);
+    }
   };
 
   const confirmDelete = async () => {
@@ -626,6 +651,7 @@ export function ResourcesManager() {
                   item={item}
                   locale={locale}
                   deletingId={deletingId}
+                  downloadingId={downloadingId}
                   onPreview={onPreview}
                   onShare={setShareItem}
                   onDownload={onDownload}
@@ -699,10 +725,15 @@ export function ResourcesManager() {
                   size="sm"
                   variant="ghost"
                   className="h-8 w-8 p-0 text-blue-600"
-                  onClick={() => onDownload(item)}
+                  disabled={downloadingId != null}
+                  onClick={() => void onDownload(item)}
                   title={t('download')}
                 >
-                  <Download className="size-4" />
+                  {downloadingId === item.id ? (
+                    <Loader2 className="size-4 animate-spin" />
+                  ) : (
+                    <Download className="size-4" />
+                  )}
                 </Button>
                 <Button
                   type="button"
@@ -829,10 +860,17 @@ export function ResourcesManager() {
                 </Button>
                 <Button
                   type="button"
-                  onClick={() => onDownload(previewItem)}
+                  disabled={downloadingId != null}
+                  onClick={() => {
+                    if (previewItem) void onDownload(previewItem);
+                  }}
                   className="gap-1.5"
                 >
-                  <Download className="size-4" />
+                  {previewItem && downloadingId === previewItem.id ? (
+                    <Loader2 className="size-4 animate-spin" />
+                  ) : (
+                    <Download className="size-4" />
+                  )}
                   {t('download')}
                 </Button>
               </>
@@ -872,9 +910,16 @@ export function ResourcesManager() {
                 type="button"
                 variant="outline"
                 className="gap-1.5"
-                onClick={() => onDownload(shareItem)}
+                disabled={downloadingId != null}
+                onClick={() => {
+                  if (shareItem) void onDownload(shareItem);
+                }}
               >
-                <Download className="size-4" />
+                {shareItem && downloadingId === shareItem.id ? (
+                  <Loader2 className="size-4 animate-spin" />
+                ) : (
+                  <Download className="size-4" />
+                )}
                 {t('download')}
               </Button>
             ) : (

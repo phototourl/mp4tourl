@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "मुफ़्त वीडियो से URL कन्वर्टर — MP4 अपलोड करें और साझा करने योग्य लिंक पाएँ",
     "description": "MP4, MOV, AVI, WebM, MKV अपलोड करें और कुछ सेकंड में स्थायी साझा करने योग्य URL पाएँ। 300MB तक मुफ़्त वीडियो होस्टिंग — रजिस्ट्रेशन की ज़रूरत नहीं।"
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "वीडियो अपलोड करें, स्थायी साझा करने योग्य लिंक पाएँ",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "उत्पाद",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "पूर्वावलोकन",
       "previewClose": "बंद करें",
       "shareCodes": "साझा कोड",
-      "shareCodesDesc": "Markdown, HTML, BBCode आदि के लिए तैयार लिंक।",
+      "shareCodesDesc": "Markdown, HTML, JSON, BBCode आदि कॉपी या डाउनलोड करें।",
       "download": "डाउनलोड",
       "delete": "हटाएँ",
       "deleteTitle": "वीडियो हटाएँ",
       "deleteConfirm": "यह आपके खाते से वीडियो स्थायी रूप से हटा देगा। इसे पूर्ववत नहीं किया जा सकता।",
       "deleteSuccess": "वीडियो हटा दिया गया",
       "deleteFailed": "वीडियो हटाने में विफल",
+      "downloadFailed": "वीडियो डाउनलोड करने में विफल",
       "cancel": "रद्द करें",
       "totalCount": "कुल {total}",
       "pagePrev": "पिछला",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "तैयार कोड कॉपी करें",
-    "copyUrl": "URL कॉपी करें",
+    "sectionTitle": "कॉपी और डाउनलोड",
+    "copyUrl": "कॉपी",
     "copied": "कॉपी हो गया",
     "copyFailed": "कॉपी नहीं हो सका",
+    "download": "डाउनलोड",
+    "downloadAll": "सभी डाउनलोड करें",
+    "downloadFailed": "डाउनलोड विफल",
     "openTab": "नए टैब में खोलें",
     "successTitle": "सफल! आपका वीडियो URL तैयार है",
     "successSubtitle": "आपका वीडियो अपलोड हो गया है और साझा करने के लिए तैयार है।",
@@ -556,35 +561,39 @@
     "watchLabel": "वीडियो देखें",
     "shareLink": {
       "title": "साझा लिंक",
-      "desc": "कहीं भी साझा करने के लिए सीधा लिंक"
+      "desc": "कहीं भी भेजने योग्य सीधा लिंक"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "API, CMS, स्क्रिप्ट और ऑटोमेशन के लिए उपयुक्त"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub, Notion और दस्तावेज़ों के लिए"
     },
     "markdownLink": {
-      "title": "लिंक वाला Markdown",
-      "desc": "पढ़ने योग्य वॉच लेबल वाला Markdown"
+      "title": "लेबल वाला Markdown",
+      "desc": "«वीडियो देखें» टेक्स्ट के साथ, आसानी से चिपकाएँ"
     },
     "html": {
       "title": "HTML",
-      "desc": "नेटिव वीडियो प्लेयर से एम्बेड करें"
+      "desc": "वेबपेज में वीडियो प्लेयर के साथ जोड़ें"
     },
     "htmlLink": {
-      "title": "लिंक वाला HTML",
-      "desc": "नए टैब में खुलने वाला सरल एंकर"
+      "title": "HTML लिंक",
+      "desc": "नए टैब में खुलने वाला लिंक"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "फ़ोरम और संदेश बोर्ड के लिए"
     },
     "bbcodeLink": {
-      "title": "लिंक वाला BBCode",
-      "desc": "वॉच लेबल वाला फ़ोरम लिंक"
+      "title": "लेबल वाला BBCode",
+      "desc": "«वीडियो देखें» टेक्स्ट वाला फ़ोरम लिंक"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "वीडियो अपलोड करें और स्थायी साझा करने योग्य लिंक पाएँ",
     "hero": {
       "title": "मुफ़्त वीडियो से URL कन्वर्टर",
@@ -599,8 +608,8 @@
       "copy": "लिंक कॉपी करें",
       "copied": "कॉपी हो गया",
       "guestSuccessHint": "आपका वीडियो अपलोड हो गया। साझा करने के लिए नीचे लिंक कॉपी करें।",
-      "registerForCodesTitle": "Markdown, HTML और BBCode चाहिए?",
-      "registerForCodesDesc": "तैयार एम्बेड कोड अनलॉक करने और मेरे संसाधन में हर वीडियो प्रबंधित करने के लिए मुफ़्त साइन अप करें।",
+      "registerForCodesTitle": "Markdown, HTML, JSON और BBCode चाहिए?",
+      "registerForCodesDesc": "मुफ़्त साइन अप करें — ये शेयर कोड कॉपी और डाउनलोड करें, और मेरे संसाधन में हर वीडियो प्रबंधित करें।",
       "registerCta": "मुफ़्त साइन अप",
       "uploadAnother": "दूसरा वीडियो अपलोड करें",
       "error": "अपलोड विफल। कृपया फिर कोशिश करें।",
@@ -608,7 +617,7 @@
       "fileTooLarge": "फ़ाइल बहुत बड़ी है। मुफ़्त योजना में प्रति फ़ाइल 300MB तक अनुमति है।"
     },
     "features": {
-      "title": "MP4 to URL क्यों चुनें",
+      "title": "MP4toURL क्यों चुनें",
       "subtitle": "गति, गोपनीयता और स्थायी मीडिया लिंक के लिए बनाया गया।",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "फ़ाइल छोड़ें, दस्तावेज़ों, चैट और पोस्ट के लिए साफ़ URL पाएँ — नीचे कुछ लुक देखें।",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "स्थानीय क्लिप को सेकंडों में साझा करने योग्य पते में बदलें।"
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "वीडियो साझा करने का सबसे आसान तरीका",
-      "description": "MP4 to URL डेवलपर्स, क्रिएटर्स और टीमों के लिए मुफ़्त, तेज़ मीडिया होस्टिंग प्रवाह है। सेकंडों में वीडियो को स्थायी URL में बदलें और कहीं भी साझा करें।",
+      "description": "MP4toURL डेवलपर्स, क्रिएटर्स और टीमों के लिए मुफ़्त, तेज़ मीडिया होस्टिंग प्रवाह है। सेकंडों में वीडियो को स्थायी URL में बदलें और कहीं भी साझा करें।",
       "primaryButton": "URL में बदलें",
       "secondaryButton": "FAQ पढ़ें"
     }

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4转链接",
+    "name": "MP4toURL",
     "title": "免费视频转链接工具 - 上传 MP4 获取可分享链接",
     "description": "上传 MP4、MOV、AVI、WebM、MKV，几秒获得可长期分享的直链。免费视频托管，单文件最高 300MB，无需注册。"
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "上传视频，获取可长期分享的链接",
+      "copyright": "© {year} MP4toURL. 版权所有。",
       "product": {
         "title": "产品",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "预览",
       "previewClose": "关闭",
       "shareCodes": "分享代码",
-      "shareCodesDesc": "可一键复制 Markdown、HTML、BBCode 等格式。",
+      "shareCodesDesc": "可复制或下载 Markdown、HTML、JSON、BBCode 等格式。",
       "download": "下载",
       "delete": "删除",
       "deleteTitle": "删除视频",
       "deleteConfirm": "将从你的账户中永久删除该视频，此操作无法撤销。",
       "deleteSuccess": "视频已删除",
       "deleteFailed": "删除失败",
+      "downloadFailed": "下载失败",
       "cancel": "取消",
       "totalCount": "共 {total} 个",
       "pagePrev": "上一页",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "一键复制代码",
+    "sectionTitle": "复制与下载",
     "copyUrl": "复制",
     "copied": "已复制",
     "copyFailed": "复制失败",
+    "download": "下载",
+    "downloadAll": "下载全部",
+    "downloadFailed": "下载失败",
     "openTab": "新标签打开",
     "successTitle": "成功！视频链接已就绪",
     "successSubtitle": "视频已上传，可以开始分享了。",
@@ -556,35 +561,39 @@
     "watchLabel": "观看视频",
     "shareLink": {
       "title": "分享链接",
-      "desc": "可直接分享的直链"
+      "desc": "随处可发的直链"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "适合 API、CMS、脚本和自动化"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "适用于 GitHub、Notion、文档"
+      "desc": "适合 GitHub、Notion、文档"
     },
     "markdownLink": {
       "title": "Markdown 带文案",
-      "desc": "带「观看视频」文案的 Markdown"
+      "desc": "带「观看视频」文案，方便粘贴"
     },
     "html": {
       "title": "HTML",
-      "desc": "用原生播放器嵌入"
+      "desc": "用原生播放器嵌入页面"
     },
     "htmlLink": {
       "title": "HTML 链接",
-      "desc": "新标签打开的普通链接"
+      "desc": "在新标签打开的链接"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "适用于论坛、贴吧"
+      "desc": "适合论坛、贴吧"
     },
     "bbcodeLink": {
       "title": "BBCode 带文案",
-      "desc": "带观看文案的论坛链接"
+      "desc": "带「观看视频」文案的论坛链接"
     }
   },
   "HomePage": {
-    "title": "MP4转链接",
+    "title": "MP4toURL",
     "description": "上传视频，获得可长期分享的链接",
     "hero": {
       "title": "免费视频转链接工具",
@@ -599,8 +608,8 @@
       "copy": "复制链接",
       "copied": "已复制",
       "guestSuccessHint": "视频已上传。复制下方链接即可分享。",
-      "registerForCodesTitle": "需要 Markdown、HTML、BBCode？",
-      "registerForCodesDesc": "免费注册后可解锁一键复制的嵌入代码，并在「我的资源」里管理全部视频。",
+      "registerForCodesTitle": "还想要 Markdown、HTML、JSON、BBCode？",
+      "registerForCodesDesc": "免费注册即可复制、下载这些分享代码，并在「我的资源」管理全部视频。",
       "registerCta": "免费注册",
       "uploadAnother": "再传一个视频",
       "error": "上传失败，请重试。",
@@ -608,7 +617,7 @@
       "fileTooLarge": "文件过大。免费档单文件最高 300MB。"
     },
     "features": {
-      "title": "为什么选 MP4转链接",
+      "title": "为什么选 MP4toURL",
       "subtitle": "为速度、隐私和永久媒体链接而建。",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "拖入文件即可拿到干净直链，用于文档、聊天和内容发布——下面看看几种呈现。",
       "items": {
         "concept": {
-          "title": "MP4 转链接",
+          "title": "MP4toURL",
           "description": "本地视频几秒变成可分享地址。"
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "分享视频，就这么简单",
-      "description": "MP4转链接适合开发者、创作者和团队：免费、快速，几秒把视频变成永久链接，随处分享。",
+      "description": "MP4toURL 适合开发者、创作者和团队：免费、快速，几秒把视频变成永久链接，随处分享。",
       "primaryButton": "转为链接",
       "secondaryButton": "查看常见问题"
     }

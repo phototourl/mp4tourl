@@ -100,7 +100,7 @@ export default function VideoUpload() {
     >
       <div className="flex items-center justify-between border-b border-border/70 px-4 py-3.5 sm:px-6">
         <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground sm:text-sm">
-          MP4TOURL · VIDEO PIPE
+          MP4toURL · VIDEO PIPE
         </p>
         <div className="flex items-center gap-2.5">
           <span className="font-mono text-xs uppercase tracking-wider text-muted-foreground sm:text-sm">

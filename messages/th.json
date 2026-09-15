@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี – อัปโหลด MP4 แล้วรับลิงก์แชร์ได้ทันที",
     "description": "อัปโหลด MP4, MOV, AVI, WebM, MKV แล้วรับ URL แชร์ถาวรภายในไม่กี่วินาที โฮสต์วิดีโอฟรีสูงสุด 300MB — ไม่ต้องสมัครสมาชิก"
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "อัปโหลดวิดีโอ รับลิงก์แชร์ถาวร",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "ผลิตภัณฑ์",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "ดูตัวอย่าง",
       "previewClose": "ปิด",
       "shareCodes": "โค้ดแชร์",
-      "shareCodesDesc": "ลิงก์พร้อมคัดลอกสำหรับ Markdown, HTML, BBCode และอื่นๆ",
+      "shareCodesDesc": "คัดลอกหรือดาวน์โหลด Markdown, HTML, JSON, BBCode และอื่นๆ",
       "download": "ดาวน์โหลด",
       "delete": "ลบ",
       "deleteTitle": "ลบวิดีโอ",
       "deleteConfirm": "การลบจะเอาวิดีโอออกจากบัญชีถาวร ไม่สามารถย้อนกลับได้",
       "deleteSuccess": "ลบวิดีโอแล้ว",
       "deleteFailed": "ลบวิดีโอไม่สำเร็จ",
+      "downloadFailed": "ดาวน์โหลดวิดีโอไม่สำเร็จ",
       "cancel": "ยกเลิก",
       "totalCount": "ทั้งหมด {total} รายการ",
       "pagePrev": "ก่อนหน้า",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "โค้ดพร้อมคัดลอก",
+    "sectionTitle": "คัดลอกและดาวน์โหลด",
     "copyUrl": "คัดลอก URL",
     "copied": "คัดลอกแล้ว",
     "copyFailed": "คัดลอกไม่ได้",
+    "download": "ดาวน์โหลด",
+    "downloadAll": "ดาวน์โหลดทั้งหมด",
+    "downloadFailed": "ดาวน์โหลดไม่สำเร็จ",
     "openTab": "เปิดในแท็บใหม่",
     "successTitle": "สำเร็จ! URL วิดีโอของคุณพร้อมแล้ว",
     "successSubtitle": "อัปโหลดวิดีโอแล้ว พร้อมแชร์",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "ลิงก์แชร์",
       "desc": "ลิงก์ตรงแชร์ได้ทุกที่"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "สำหรับ API, CMS, สคริปต์ และระบบอัตโนมัติ"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "อัปโหลดวิดีโอ รับลิงก์แชร์ถาวร",
     "hero": {
       "title": "แปลงวิดีโอเป็นลิงก์แชร์ฟรี",
@@ -599,8 +608,8 @@
       "copy": "คัดลอกลิงก์",
       "copied": "คัดลอกแล้ว",
       "guestSuccessHint": "อัปโหลดวิดีโอแล้ว คัดลอกลิงก์ด้านล่างเพื่อแชร์",
-      "registerForCodesTitle": "ต้องการ Markdown, HTML และ BBCode?",
-      "registerForCodesDesc": "สมัครฟรีเพื่อปลดล็อกโค้ดฝังพร้อมคัดลอก และจัดการวิดีโอทั้งหมดในทรัพยากรของฉัน",
+      "registerForCodesTitle": "ต้องการ Markdown, HTML, JSON และ BBCode?",
+      "registerForCodesDesc": "สมัครฟรีแล้วคัดลอกหรือดาวน์โหลดโค้ดแชร์เหล่านี้ได้ และจัดการวิดีโอทั้งหมดในทรัพยากรของฉัน",
       "registerCta": "สมัครฟรี",
       "uploadAnother": "อัปโหลดวิดีโออื่น",
       "error": "อัปโหลดไม่สำเร็จ กรุณาลองอีกครั้ง",
@@ -608,7 +617,7 @@
       "fileTooLarge": "ไฟล์ใหญ่เกินไป แพ็กเกจฟรีอนุญาตสูงสุด 300MB ต่อไฟล์"
     },
     "features": {
-      "title": "ทำไมต้องเลือก MP4 to URL",
+      "title": "ทำไมต้องเลือก MP4toURL",
       "subtitle": "ออกแบบเพื่อความเร็ว ความเป็นส่วนตัว และลิงก์สื่อถาวร",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "วางไฟล์ รับ URL ที่สะอาดตาสำหรับเอกสาร แชท และโพสต์ — ดูตัวอย่างด้านล่าง",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "เปลี่ยนคลิปในเครื่องเป็นลิงก์แชร์ภายในไม่กี่วินาที"
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "วิธีที่ง่ายที่สุดในการแชร์วิดีโอ",
-      "description": "MP4 to URL คือขั้นตอนโฮสต์สื่อฟรีและรวดเร็วสำหรับนักพัฒนา ครีเอเตอร์ และทีม แปลงวิดีโอเป็น URL ถาวรภายในไม่กี่วินาที แล้วแชร์ได้ทุกที่",
+      "description": "MP4toURL คือขั้นตอนโฮสต์สื่อฟรีและรวดเร็วสำหรับนักพัฒนา ครีเอเตอร์ และทีม แปลงวิดีโอเป็น URL ถาวรภายในไม่กี่วินาที แล้วแชร์ได้ทุกที่",
       "primaryButton": "แปลงเป็น URL",
       "secondaryButton": "อ่าน FAQ"
     }

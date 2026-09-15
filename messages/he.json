@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "ממיר וידאו לקישור בחינם — העלו MP4 וקבלו קישור לשיתוף",
     "description": "העלו MP4, MOV, AVI, WebM או MKV וקבלו כתובת קבועה לשיתוף תוך שניות. אחסון וידאו חינמי עד 300MB — בלי הרשמה."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "העלו סרטון וקבלו קישור קבוע לשיתוף",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "מוצר",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "תצוגה מקדימה",
       "previewClose": "סגירה",
       "shareCodes": "קודי שיתוף",
-      "shareCodesDesc": "קישורים מוכנים להעתקה ל־Markdown, HTML, BBCode ועוד.",
+      "shareCodesDesc": "העתיקו או הורידו Markdown, HTML, JSON, BBCode ועוד.",
       "download": "הורדה",
       "delete": "מחיקה",
       "deleteTitle": "מחיקת סרטון",
       "deleteConfirm": "פעולה זו מסירה לצמיתות את הסרטון מהחשבון. לא ניתן לבטל.",
       "deleteSuccess": "הסרטון נמחק",
       "deleteFailed": "מחיקת הסרטון נכשלה",
+      "downloadFailed": "הורדת הסרטון נכשלה",
       "cancel": "ביטול",
       "totalCount": "סה״כ {total}",
       "pagePrev": "הקודם",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "קודים מוכנים להעתקה",
+    "sectionTitle": "העתקה והורדה",
     "copyUrl": "העתקת URL",
     "copied": "הועתק",
     "copyFailed": "לא ניתן להעתיק",
+    "download": "הורדה",
+    "downloadAll": "הורדת הכל",
+    "downloadFailed": "ההורדה נכשלה",
     "openTab": "פתיחה בלשונית חדשה",
     "successTitle": "הצלחה! כתובת הווידאו מוכנה",
     "successSubtitle": "הסרטון הועלה ומוכן לשיתוף.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "קישור לשיתוף",
       "desc": "קישור ישיר לשיתוף בכל מקום"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "ל־API, CMS, סקריפטים ואוטומציה"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "העלו סרטון וקבלו קישור קבוע לשיתוף",
     "hero": {
       "title": "ממיר וידאו לקישור בחינם",
@@ -599,8 +608,8 @@
       "copy": "העתקת קישור",
       "copied": "הועתק",
       "guestSuccessHint": "הסרטון הועלה. העתיקו את הקישור למטה כדי לשתף.",
-      "registerForCodesTitle": "רוצים Markdown, HTML ו־BBCode?",
-      "registerForCodesDesc": "הירשמו בחינם כדי לפתוח קודי הטמעה מוכנים להעתקה, ולנהל כל סרטון במשאבים שלי.",
+      "registerForCodesTitle": "רוצים Markdown, HTML, JSON ו־BBCode?",
+      "registerForCodesDesc": "הירשמו בחינם כדי להעתיק ולהוריד את קודי השיתוף האלה, ולנהל כל סרטון במשאבים שלי.",
       "registerCta": "הרשמה בחינם",
       "uploadAnother": "העלאת סרטון נוסף",
       "error": "ההעלאה נכשלה. נסו שוב.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "הקובץ גדול מדי. בתוכנית החינמית מותר עד 300MB לקובץ."
     },
     "features": {
-      "title": "למה לבחור ב־MP4 to URL",
+      "title": "למה לבחור ב־MP4toURL",
       "subtitle": "נבנה למהירות, פרטיות וקישורי מדיה קבועים.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "גררו קובץ, קבלו כתובת נקייה למסמכים, לצ׳אטים ולפוסטים — עיינו בכמה מראות למטה.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "הפכו קליפ מקומי לכתובת לשיתוף תוך שניות."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "הדרך הקלה ביותר לשתף סרטונים",
-      "description": "MP4 to URL הוא תהליך אחסון מדיה מהיר וחינמי למפתחים, ליוצרים ולצוותים. המירו סרטונים לכתובות קבועות תוך שניות ושתפו אותן בכל מקום.",
+      "description": "MP4toURL הוא תהליך אחסון מדיה מהיר וחינמי למפתחים, ליוצרים ולצוותים. המירו סרטונים לכתובות קבועות תוך שניות ושתפו אותן בכל מקום.",
       "primaryButton": "המרה ל־URL",
       "secondaryButton": "קריאת שאלות נפוצות"
     }

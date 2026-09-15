@@ -1,4 +1,4 @@
-# MP4 to URL — Docker (Dokploy-friendly), patterned after editstamp
+# MP4toURL — Docker (Dokploy-friendly), patterned after editstamp
 # BuildKit cache speeds repeat builds: DOCKER_BUILDKIT=1 docker build ...
 #
 # R2 / Stripe / DB secrets: inject via Dokploy «Environment» at runtime.

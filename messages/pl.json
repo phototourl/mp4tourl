@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Darmowy konwerter wideo na URL — prześlij MP4 i otrzymaj link do udostępniania",
     "description": "Prześlij MP4, MOV, AVI, WebM lub MKV i w kilka sekund otrzymaj stały URL do udostępniania. Darmowy hosting wideo do 300 MB — bez rejestracji."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Prześlij film, otrzymaj stały link do udostępniania",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produkt",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Podgląd",
       "previewClose": "Zamknij",
       "shareCodes": "Kody do udostępniania",
-      "shareCodesDesc": "Gotowe linki do Markdown, HTML, BBCode i innych.",
+      "shareCodesDesc": "Kopiuj lub pobieraj Markdown, HTML, JSON, BBCode i inne.",
       "download": "Pobierz",
       "delete": "Usuń",
       "deleteTitle": "Usuń film",
       "deleteConfirm": "To trwale usunie film z Twojego konta. Tej operacji nie można cofnąć.",
       "deleteSuccess": "Film usunięty",
       "deleteFailed": "Nie udało się usunąć filmu",
+      "downloadFailed": "Nie udało się pobrać filmu",
       "cancel": "Anuluj",
       "totalCount": "łącznie {total}",
       "pagePrev": "Poprzednia",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "GOTOWE KODY",
-    "copyUrl": "Kopiuj URL",
+    "sectionTitle": "KOPIUJ I POBIERAJ",
+    "copyUrl": "Kopiuj",
     "copied": "Skopiowano",
     "copyFailed": "Nie udało się skopiować",
+    "download": "Pobierz",
+    "downloadAll": "Pobierz wszystko",
+    "downloadFailed": "Nie udało się pobrać",
     "openTab": "Otwórz w nowej karcie",
     "successTitle": "Gotowe! Twój URL wideo jest gotowy",
     "successSubtitle": "Film został przesłany i jest gotowy do udostępnienia.",
@@ -556,35 +561,39 @@
     "watchLabel": "Obejrzyj film",
     "shareLink": {
       "title": "Link do udostępniania",
-      "desc": "Bezpośredni link do udostępniania gdziekolwiek"
+      "desc": "Bezpośredni link do wysłania gdziekolwiek"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Do API, CMS, skryptów i automatyzacji"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Dla GitHub, Notion i dokumentacji"
     },
     "markdownLink": {
-      "title": "Markdown z linkiem",
-      "desc": "Markdown z czytelną etykietą odtwarzania"
+      "title": "Markdown z etykietą",
+      "desc": "Z tekstem «Obejrzyj film», łatwy do wklejenia"
     },
     "html": {
       "title": "HTML",
       "desc": "Osadź z natywnym odtwarzaczem wideo"
     },
     "htmlLink": {
-      "title": "HTML z linkiem",
-      "desc": "Prosty link otwierany w nowej karcie"
+      "title": "Link HTML",
+      "desc": "Link otwierany w nowej karcie"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Dla forów i tablic dyskusyjnych"
     },
     "bbcodeLink": {
-      "title": "BBCode z linkiem",
-      "desc": "Link forum z etykietą odtwarzania"
+      "title": "BBCode z etykietą",
+      "desc": "Link forum z tekstem «Obejrzyj film»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Prześlij film i otrzymaj stały link do udostępniania",
     "hero": {
       "title": "Darmowy konwerter wideo na URL",
@@ -599,8 +608,8 @@
       "copy": "Kopiuj link",
       "copied": "Skopiowano",
       "guestSuccessHint": "Film został przesłany. Skopiuj poniższy link, aby go udostępnić.",
-      "registerForCodesTitle": "Chcesz Markdown, HTML i BBCode?",
-      "registerForCodesDesc": "Zarejestruj się za darmo, aby odblokować gotowe kody osadzania i zarządzać każdym filmem w Moich zasobach.",
+      "registerForCodesTitle": "Chcesz Markdown, HTML, JSON i BBCode?",
+      "registerForCodesDesc": "Zarejestruj się za darmo, aby kopiować i pobierać te kody udostępniania oraz zarządzać każdym filmem w Moich zasobach.",
       "registerCta": "Zarejestruj się za darmo",
       "uploadAnother": "Prześlij kolejny film",
       "error": "Przesyłanie nie powiodło się. Spróbuj ponownie.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Plik za duży. Plan darmowy pozwala na max. 300 MB na plik."
     },
     "features": {
-      "title": "Dlaczego MP4 to URL",
+      "title": "Dlaczego MP4toURL",
       "subtitle": "Zaprojektowane pod kątem szybkości, prywatności i stałych linków medialnych.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Upuść plik, otrzymaj czysty URL do dokumentów, czatów i postów — poniżej kilka wyglądów.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Zamień lokalny klip w adres do udostępniania w kilka sekund."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Najprostszy sposób na udostępnianie filmów",
-      "description": "MP4 to URL to darmowy, szybki hosting mediów dla programistów, twórców i zespołów. Zamieniaj filmy w stałe URL w kilka sekund i udostępniaj je gdzie chcesz.",
+      "description": "MP4toURL to darmowy, szybki hosting mediów dla programistów, twórców i zespołów. Zamieniaj filmy w stałe URL w kilka sekund i udostępniaj je gdzie chcesz.",
       "primaryButton": "Konwertuj na URL",
       "secondaryButton": "Przeczytaj FAQ"
     }

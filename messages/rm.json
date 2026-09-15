@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Convertider gratuit da video en URL — chargiar MP4 e retschaiver colliaziuns",
     "description": "Chargiai MP4, MOV, AVI, WebM, MKV e retschavai URLs permanentas e colliaziuns en secundas. Hosting da video gratuit fin 300MB — senza registraziun."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Chargia in video e retschava ina colliaziun permanenta",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Artitgels",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Previsualisar",
       "previewClose": "Serrar",
       "shareCodes": "Codes per cundivider",
-      "shareCodesDesc": "Colliaziuns prontas per copiar per Markdown, HTML, BBCode e dapli.",
+      "shareCodesDesc": "Copiar u telechargiar Markdown, HTML, JSON, BBCode e dapli.",
       "download": "Telechargiar",
       "delete": "Stizzar",
       "deleteTitle": "Stizzar video",
       "deleteConfirm": "Quai allontanescha il video permanentamain da tes conto. Quai na po betg vegnir revocà.",
       "deleteSuccess": "Video stizzà",
       "deleteFailed": "Stizzar video n'è betg reussì",
+      "downloadFailed": "Telechargiar video n'è betg reussì",
       "cancel": "Annullar",
       "totalCount": "{total} en total",
       "pagePrev": "Precedenta",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODES PRONTA PER COPIAR",
-    "copyUrl": "Copiar URL",
+    "sectionTitle": "COPIAR E TELECHARGIAR",
+    "copyUrl": "Copiar",
     "copied": "Copià",
     "copyFailed": "Betg reussì da copiar",
+    "download": "Telechargiar",
+    "downloadAll": "Telechargiar tut",
+    "downloadFailed": "Telechargiar n'è betg reussì",
     "openTab": "Avrir en ina nova tab",
     "successTitle": "Success! Tia URL da video è pronta",
     "successSubtitle": "Tes video è vegnì chargià ed è pront per cundivider.",
@@ -556,35 +561,39 @@
     "watchLabel": "Guardar video",
     "shareLink": {
       "title": "Colliaziun per cundivider",
-      "desc": "Colliaziun directa per cundivider en mintga lieu"
+      "desc": "Colliaziun directa per trametter dapertut"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Adattà per APIs, CMS, scripts ed automatisaziuns"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Per GitHub, Notion e documentaziun"
     },
     "markdownLink": {
-      "title": "Markdown cun colliaziun",
-      "desc": "Markdown cun in label legibel per guardar"
+      "title": "Markdown cun text",
+      "desc": "Cun il text «Guardar video», simpel da taccar"
     },
     "html": {
       "title": "HTML",
       "desc": "Integrar cun player da video nativ"
     },
     "htmlLink": {
-      "title": "HTML cun colliaziun",
-      "desc": "Ancora simpel che sa avra en ina nova tab"
+      "title": "Colliaziun HTML",
+      "desc": "Colliaziun che sa avra en ina nova tab"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Per forums e plattas da messadis"
     },
     "bbcodeLink": {
-      "title": "BBCode cun colliaziun",
-      "desc": "Colliaziun da forum cun label per guardar"
+      "title": "BBCode cun text",
+      "desc": "Colliaziun da forum cun il text «Guardar video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Chargia in video e retschava ina colliaziun permanenta",
     "hero": {
       "title": "Convertider gratuit da video en URL",
@@ -599,8 +608,8 @@
       "copy": "Copiar colliaziun",
       "copied": "Copià",
       "guestSuccessHint": "Tes video è vegnì chargià. Copia la colliaziun sutvart per cundivider.",
-      "registerForCodesTitle": "Vuls Markdown, HTML & BBCode?",
-      "registerForCodesDesc": "S'inscriver gratuit per deblocar codes d'integraziun pronts per copiar e administrar mintga video en Mias resursas.",
+      "registerForCodesTitle": "Vuls Markdown, HTML, JSON & BBCode?",
+      "registerForCodesDesc": "S'inscriva gratuit per copiar e telechargiar quests codes da cundivider e administrar mintga video en Mias resursas.",
       "registerCta": "S'inscriver gratuit",
       "uploadAnother": "Chargiar in auter video",
       "error": "Upload n'è betg reussì. Emprova anc ina giada.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Datoteca memia gronda. Il plan gratuit permetta fin 300MB per datoteca."
     },
     "features": {
-      "title": "Perquai MP4 to URL",
+      "title": "Perquai MP4toURL",
       "subtitle": "Construì per sveltezza, protecziun da datas e colliaziuns permanentas.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Metta ina datoteca, retschava ina URL neta per docs, chats e posts — guarda in pau aspectus sutvart.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Transfurma in clip local en adressa cundivibla en secundas."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "La via la pli simpel per cundivider videos",
-      "description": "MP4 to URL è in flux gratuit e svelt da hosting da media per developers, creators e teams. Convertescha videos en URLs permanentas en secundas e cundivide en mintga lieu.",
+      "description": "MP4toURL è in flux gratuit e svelt da hosting da media per developers, creators e teams. Convertescha videos en URLs permanentas en secundas e cundivide en mintga lieu.",
       "primaryButton": "Convertir en URL",
       "secondaryButton": "Leger FAQ"
     }

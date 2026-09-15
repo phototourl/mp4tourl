@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Ilmainen video → URL -muunnin – lataa MP4 ja saat jaettavan linkin",
     "description": "Lataa MP4, MOV, AVI, WebM tai MKV ja saat pysyvän jaettavan URL-osoitteen sekunneissa. Ilmainen videon isännöinti jopa 300 Mt – ei rekisteröitymistä."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Lataa video, saat pysyvän jaettavan linkin",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Tuote",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Esikatselu",
       "previewClose": "Sulje",
       "shareCodes": "Jakokoodit",
-      "shareCodesDesc": "Valmiit linkit Markdown-, HTML- ja BBCode-muotoihin sekä muihin.",
+      "shareCodesDesc": "Kopioi tai lataa Markdown-, HTML-, JSON- ja BBCode-muodot sekä muut.",
       "download": "Lataa laitteelle",
       "delete": "Poista",
       "deleteTitle": "Poista video",
       "deleteConfirm": "Tämä poistaa videon pysyvästi tililtäsi. Toimintoa ei voi perua.",
       "deleteSuccess": "Video poistettu",
       "deleteFailed": "Videon poisto epäonnistui",
+      "downloadFailed": "Videon lataus epäonnistui",
       "cancel": "Peruuta",
       "totalCount": "Yhteensä {total}",
       "pagePrev": "Edellinen",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "VALMIIT KOODIT",
+    "sectionTitle": "KOPIOI JA LATAA",
     "copyUrl": "Kopioi URL",
     "copied": "Kopioitu",
     "copyFailed": "Kopiointi epäonnistui",
+    "download": "Lataa",
+    "downloadAll": "Lataa kaikki",
+    "downloadFailed": "Lataus epäonnistui",
     "openTab": "Avaa uudessa välilehdessä",
     "successTitle": "Onnistui! Video-URL on valmis",
     "successSubtitle": "Videosi on ladattu ja valmis jaettavaksi.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Jakolinkki",
       "desc": "Suora linkki jaettavaksi minne tahansa"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "API-, CMS-, skripti- ja automaatiokäyttöön"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Lataa video ja saat pysyvän jaettavan linkin",
     "hero": {
       "title": "Ilmainen video → URL -muunnin",
@@ -599,8 +608,8 @@
       "copy": "Kopioi linkki",
       "copied": "Kopioitu",
       "guestSuccessHint": "Videosi on ladattu. Kopioi alla oleva linkki jakaaksesi sen.",
-      "registerForCodesTitle": "Haluatko Markdown-, HTML- ja BBCode-koodit?",
-      "registerForCodesDesc": "Luo ilmainen tili saadaksesi valmiit upotuskoodit ja hallitaksesi videoita omissa resursseissa.",
+      "registerForCodesTitle": "Haluatko Markdown-, HTML-, JSON- ja BBCode-koodit?",
+      "registerForCodesDesc": "Luo ilmainen tili, niin voit kopioida ja ladata nämä jakokoodit sekä hallita videoita omissa resursseissa.",
       "registerCta": "Luo ilmainen tili",
       "uploadAnother": "Lataa toinen video",
       "error": "Lataus epäonnistui. Yritä uudelleen.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Tiedosto on liian suuri. Ilmaisessa suunnitelmassa enintään 300 Mt tiedostoa kohden."
     },
     "features": {
-      "title": "Miksi valita MP4 to URL",
+      "title": "Miksi valita MP4toURL",
       "subtitle": "Rakennettu nopeutta, yksityisyyttä ja pysyviä medialinkkejä varten.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Pudota tiedosto, saat selkeän URL-osoitteen dokumentteihin, keskusteluihin ja julkaisuihin – katso muutama ulkoasu alta.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Muuta paikallinen pätkä jaettavaksi osoitteeksi sekunneissa."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Helpoin tapa jakaa videoita",
-      "description": "MP4 to URL on ilmainen ja nopea median isännöintipolku kehittäjille, tekijöille ja tiimeille. Muunna videot pysyviksi URL-osoitteiksi sekunneissa ja jaa ne missä tahansa.",
+      "description": "MP4toURL on ilmainen ja nopea median isännöintipolku kehittäjille, tekijöille ja tiimeille. Muunna videot pysyviksi URL-osoitteiksi sekunneissa ja jaa ne missä tahansa.",
       "primaryButton": "Muunna URL-osoitteeksi",
       "secondaryButton": "Lue UKK"
     }

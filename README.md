@@ -1,4 +1,4 @@
-# MP4 to URL — https://mp4tourl.com
+# MP4toURL — https://mp4tourl.com
 
 Upload a video, get a permanent shareable link.
 

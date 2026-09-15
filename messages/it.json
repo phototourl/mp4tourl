@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Convertitore video in URL gratuito - Carica MP4 e ottieni link condividibili",
     "description": "Carica MP4, MOV, AVI, WebM, MKV e ottieni URL permanenti condividibili in pochi secondi. Hosting video gratuito fino a 300MB — nessuna registrazione."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Carica un video, ottieni un link permanente condividibile",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Prodotto",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Anteprima",
       "previewClose": "Chiudi",
       "shareCodes": "Codici di condivisione",
-      "shareCodesDesc": "Link pronti da copiare per Markdown, HTML, BBCode e altro.",
+      "shareCodesDesc": "Copia o scarica Markdown, HTML, JSON, BBCode e altro.",
       "download": "Scarica",
       "delete": "Elimina",
       "deleteTitle": "Elimina video",
       "deleteConfirm": "Questo rimuove definitivamente il video dal tuo account. L'azione non può essere annullata.",
       "deleteSuccess": "Video eliminato",
       "deleteFailed": "Eliminazione del video non riuscita",
+      "downloadFailed": "Download del video non riuscito",
       "cancel": "Annulla",
       "totalCount": "{total} in totale",
       "pagePrev": "Precedente",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "CODICI PRONTI DA COPIARE",
+    "sectionTitle": "COPIA E SCARICA",
     "copyUrl": "Copia URL",
     "copied": "Copiato",
     "copyFailed": "Copia non riuscita",
+    "download": "Scarica",
+    "downloadAll": "Scarica tutto",
+    "downloadFailed": "Download non riuscito",
     "openTab": "Apri in una nuova scheda",
     "successTitle": "Fatto! L'URL del video è pronto",
     "successSubtitle": "Il video è stato caricato ed è pronto per essere condiviso.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Link di condivisione",
       "desc": "Link diretto da condividere ovunque"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Per API, CMS, script e automazioni"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Carica un video e ottieni un link permanente condividibile",
     "hero": {
       "title": "Convertitore video in URL gratuito",
@@ -599,8 +608,8 @@
       "copy": "Copia link",
       "copied": "Copiato",
       "guestSuccessHint": "Il video è stato caricato. Copia il link qui sotto per condividerlo.",
-      "registerForCodesTitle": "Vuoi Markdown, HTML e BBCode?",
-      "registerForCodesDesc": "Registrati gratis per sbloccare i codici embed pronti da copiare e gestire ogni video in Le mie risorse.",
+      "registerForCodesTitle": "Vuoi Markdown, HTML, JSON e BBCode?",
+      "registerForCodesDesc": "Registrati gratis per copiare e scaricare questi codici di condivisione e gestire ogni video in Le mie risorse.",
       "registerCta": "Registrati gratis",
       "uploadAnother": "Carica un altro video",
       "error": "Upload non riuscito. Riprova.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "File troppo grande. Il piano gratuito consente fino a 300MB per file."
     },
     "features": {
-      "title": "Perché scegliere MP4 to URL",
+      "title": "Perché scegliere MP4toURL",
       "subtitle": "Pensato per velocità, privacy e link media permanenti.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Trascina un file, ottieni un URL pulito per documenti, chat e post — scopri alcuni look qui sotto.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Trasforma un clip locale in un indirizzo condividibile in pochi secondi."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Il modo più semplice per condividere video",
-      "description": "MP4 to URL è un flusso di hosting media gratuito e veloce per sviluppatori, creator e team. Converti i video in URL permanenti in pochi secondi e condividili ovunque.",
+      "description": "MP4toURL è un flusso di hosting media gratuito e veloce per sviluppatori, creator e team. Converti i video in URL permanenti in pochi secondi e condividili ovunque.",
       "primaryButton": "Converti in URL",
       "secondaryButton": "Leggi le FAQ"
     }

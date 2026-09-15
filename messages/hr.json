@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Besplatni pretvarač videa u URL — učitajte MP4 i dobijte link za dijeljenje",
     "description": "Učitajte MP4, MOV, AVI, WebM, MKV i dobijte trajne linkove za dijeljenje u nekoliko sekundi. Besplatno hostiranje videa do 300 MB — bez registracije."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Učitajte video i dobijte trajni link za dijeljenje",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Proizvod",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Pregled",
       "previewClose": "Zatvori",
       "shareCodes": "Kodovi za dijeljenje",
-      "shareCodesDesc": "Linkovi spremni za kopiranje za Markdown, HTML, BBCode i više.",
+      "shareCodesDesc": "Kopirajte ili preuzmite Markdown, HTML, JSON, BBCode i više.",
       "download": "Preuzmi",
       "delete": "Obriši",
       "deleteTitle": "Obriši video",
       "deleteConfirm": "Ovo trajno uklanja video s vašeg računa. Ova radnja se ne može poništiti.",
       "deleteSuccess": "Video obrisan",
       "deleteFailed": "Brisanje videa nije uspjelo",
+      "downloadFailed": "Preuzimanje videa nije uspjelo",
       "cancel": "Odustani",
       "totalCount": "{total} ukupno",
       "pagePrev": "Prethodno",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KODOVI SPREMNI ZA KOPIRANJE",
-    "copyUrl": "Kopiraj URL",
+    "sectionTitle": "KOPIRAJ I PREUZMI",
+    "copyUrl": "Kopiraj",
     "copied": "Kopirano",
     "copyFailed": "Kopiranje nije uspjelo",
+    "download": "Preuzmi",
+    "downloadAll": "Preuzmi sve",
+    "downloadFailed": "Preuzimanje nije uspjelo",
     "openTab": "Otvori u novoj kartici",
     "successTitle": "Uspjeh! URL vašeg videa je spreman",
     "successSubtitle": "Vaš video je učitan i spreman za dijeljenje.",
@@ -556,35 +561,39 @@
     "watchLabel": "Gledaj video",
     "shareLink": {
       "title": "Link za dijeljenje",
-      "desc": "Izravni link za dijeljenje bilo gdje"
+      "desc": "Izravni link koji možete poslati bilo gdje"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Za API, CMS, skripte i automatizaciju"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Za GitHub, Notion i dokumente"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown s čitljivom oznakom za gledanje"
+      "title": "Markdown s oznakom",
+      "desc": "S tekstom «Gledaj video», lako za zalijepiti"
     },
     "html": {
       "title": "HTML",
       "desc": "Ugradi s izvornim video playerom"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Jednostavna poveznica koja se otvara u novoj kartici"
+      "title": "HTML poveznica",
+      "desc": "Poveznica koja se otvara u novoj kartici"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Za forume i oglasne ploče"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "Forum link s oznakom za gledanje"
+      "title": "BBCode s oznakom",
+      "desc": "Forum link s tekstom «Gledaj video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Učitajte video i dobijte trajni link za dijeljenje",
     "hero": {
       "title": "Besplatni pretvarač videa u URL",
@@ -599,8 +608,8 @@
       "copy": "Kopiraj link",
       "copied": "Kopirano",
       "guestSuccessHint": "Vaš video je učitan. Kopirajte link u nastavku da ga podijelite.",
-      "registerForCodesTitle": "Želite Markdown, HTML i BBCode?",
-      "registerForCodesDesc": "Registrirajte se besplatno za kodove spremne za ugrađivanje i upravljajte svim videozapisima u Moji resursi.",
+      "registerForCodesTitle": "Želite Markdown, HTML, JSON i BBCode?",
+      "registerForCodesDesc": "Registrirajte se besplatno da kopirate i preuzmete ove kodove za dijeljenje te upravljate svim videozapisima u Moji resursi.",
       "registerCta": "Besplatna registracija",
       "uploadAnother": "Učitaj još jedan video",
       "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Datoteka je prevelika. Besplatni plan dopušta do 300 MB po datoteci."
     },
     "features": {
-      "title": "Zašto odabrati MP4 to URL",
+      "title": "Zašto odabrati MP4toURL",
       "subtitle": "Izgrađeno za brzinu, privatnost i trajne medijske linkove.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Ispustite datoteku, dobijte čist URL za dokumente, chatove i objave — pogledajte nekoliko primjera u nastavku.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Pretvorite lokalni isječak u adresu za dijeljenje u nekoliko sekundi."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Najlakši način dijeljenja videa",
-      "description": "MP4 to URL je besplatan i brz tijek hostiranja medija za developere, kreatore i timove. Pretvorite videozapise u trajne URL-ove u nekoliko sekundi i dijelite ih bilo gdje.",
+      "description": "MP4toURL je besplatan i brz tijek hostiranja medija za developere, kreatore i timove. Pretvorite videozapise u trajne URL-ove u nekoliko sekundi i dijelite ih bilo gdje.",
       "primaryButton": "Pretvori u URL",
       "secondaryButton": "Pročitaj ČPP"
     }

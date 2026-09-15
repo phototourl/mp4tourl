@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "무료 동영상→링크 변환기 - MP4 업로드하고 공유 링크 받기",
     "description": "MP4, MOV, AVI, WebM, MKV를 업로드하면 몇 초 만에 영구 공유 URL을 받습니다. 최대 300MB 무료 동영상 호스팅 — 가입 불필요."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "동영상을 올리면 영구 공유 링크를 받습니다",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "제품",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "미리보기",
       "previewClose": "닫기",
       "shareCodes": "공유 코드",
-      "shareCodesDesc": "Markdown, HTML, BBCode 등에 바로 붙여넣을 수 있는 링크입니다.",
+      "shareCodesDesc": "Markdown, HTML, JSON, BBCode 등을 복사하거나 다운로드할 수 있습니다.",
       "download": "다운로드",
       "delete": "삭제",
       "deleteTitle": "동영상 삭제",
       "deleteConfirm": "계정에서 동영상이 영구 삭제되며 되돌릴 수 없습니다.",
       "deleteSuccess": "동영상이 삭제되었습니다",
       "deleteFailed": "동영상 삭제에 실패했습니다",
+      "downloadFailed": "동영상 다운로드에 실패했습니다",
       "cancel": "취소",
       "totalCount": "총 {total}개",
       "pagePrev": "이전",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "바로 복사하는 코드",
-    "copyUrl": "URL 복사",
+    "sectionTitle": "복사 및 다운로드",
+    "copyUrl": "복사",
     "copied": "복사됨",
     "copyFailed": "복사하지 못했습니다",
+    "download": "다운로드",
+    "downloadAll": "모두 다운로드",
+    "downloadFailed": "다운로드에 실패했습니다",
     "openTab": "새 탭에서 열기",
     "successTitle": "완료! 동영상 URL이 준비되었습니다",
     "successSubtitle": "동영상이 업로드되어 공유할 준비가 되었습니다.",
@@ -558,33 +563,37 @@
       "title": "공유 링크",
       "desc": "어디에나 바로 공유할 수 있는 링크"
     },
+    "json": {
+      "title": "JSON",
+      "desc": "API, CMS, 스크립트, 자동화용"
+    },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub, Notion, 문서용"
     },
     "markdownLink": {
-      "title": "링크 포함 Markdown",
-      "desc": "읽기 쉬운 시청 라벨이 있는 Markdown"
+      "title": "문구 포함 Markdown",
+      "desc": "\"동영상 보기\" 문구 포함, 붙여넣기 쉬움"
     },
     "html": {
       "title": "HTML",
       "desc": "기본 동영상 플레이어로 삽입"
     },
     "htmlLink": {
-      "title": "링크 포함 HTML",
-      "desc": "새 탭에서 열리는 간단한 앵커"
+      "title": "HTML 링크",
+      "desc": "새 탭에서 열리는 링크"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "포럼·게시판용"
     },
     "bbcodeLink": {
-      "title": "링크 포함 BBCode",
-      "desc": "시청 라벨이 있는 포럼 링크"
+      "title": "문구 포함 BBCode",
+      "desc": "\"동영상 보기\" 문구가 있는 포럼 링크"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "동영상을 올리면 영구 공유 링크를 받습니다",
     "hero": {
       "title": "무료 동영상→링크 변환기",
@@ -599,8 +608,8 @@
       "copy": "링크 복사",
       "copied": "복사됨",
       "guestSuccessHint": "동영상이 업로드되었습니다. 아래 링크를 복사해 공유하세요.",
-      "registerForCodesTitle": "Markdown, HTML & BBCode가 필요하신가요?",
-      "registerForCodesDesc": "무료 가입하면 바로 복사할 수 있는 삽입 코드가 열리고, 내 자료에서 모든 동영상을 관리할 수 있습니다.",
+      "registerForCodesTitle": "Markdown, HTML, JSON & BBCode가 필요하신가요?",
+      "registerForCodesDesc": "무료 가입하면 이 공유 코드를 복사·다운로드하고, 내 자료에서 모든 동영상을 관리할 수 있습니다.",
       "registerCta": "무료 가입",
       "uploadAnother": "다른 동영상 업로드",
       "error": "업로드에 실패했습니다. 다시 시도해 주세요.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "파일이 너무 큽니다. 무료 요금제는 파일당 최대 300MB입니다."
     },
     "features": {
-      "title": "MP4 to URL을 선택하는 이유",
+      "title": "MP4toURL을 선택하는 이유",
       "subtitle": "속도, 개인정보 보호, 영구 미디어 링크를 위해 만들었습니다.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "파일을 놓으면 문서·채팅·게시물용 깔끔한 URL을 받습니다 — 아래 몇 가지 모습을 둘러보세요.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "로컬 클립을 몇 초 만에 공유 주소로 바꿉니다."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "동영상을 공유하는 가장 쉬운 방법",
-      "description": "MP4 to URL은 개발자, 크리에이터, 팀을 위한 빠르고 무료인 미디어 호스팅 흐름입니다. 동영상을 몇 초 만에 영구 URL로 바꿔 어디에나 공유하세요.",
+      "description": "MP4toURL은 개발자, 크리에이터, 팀을 위한 빠르고 무료인 미디어 호스팅 흐름입니다. 동영상을 몇 초 만에 영구 URL로 바꿔 어디에나 공유하세요.",
       "primaryButton": "링크로 변환",
       "secondaryButton": "FAQ 읽기"
     }

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Bezplatný prevodník videa na URL — nahrajte MP4 a získajte odkaz na zdieľanie",
     "description": "Nahrajte MP4, MOV, AVI, WebM, MKV a získajte trvalé URL na zdieľanie za pár sekúnd. Bezplatný hosting videa až do 300MB — bez registrácie."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Nahrajte video a získajte trvalý odkaz na zdieľanie",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produkt",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Náhľad",
       "previewClose": "Zavrieť",
       "shareCodes": "Kódy na zdieľanie",
-      "shareCodesDesc": "Odkazy pripravené na kopírovanie pre Markdown, HTML, BBCode a ďalšie.",
+      "shareCodesDesc": "Kopírujte alebo sťahujte Markdown, HTML, JSON, BBCode a ďalšie.",
       "download": "Stiahnuť",
       "delete": "Vymazať",
       "deleteTitle": "Vymazať video",
       "deleteConfirm": "Týmto natrvalo odstránite video z účtu. Nedá sa to vrátiť späť.",
       "deleteSuccess": "Video vymazané",
       "deleteFailed": "Video sa nepodarilo vymazať",
+      "downloadFailed": "Video sa nepodarilo stiahnuť",
       "cancel": "Zrušiť",
       "totalCount": "Celkom {total}",
       "pagePrev": "Predchádzajúca",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KÓDY PRIPRAVENÉ NA KOPÍROVANIE",
-    "copyUrl": "Kopírovať URL",
+    "sectionTitle": "KOPÍROVAŤ A STIAHNUŤ",
+    "copyUrl": "Kopírovať",
     "copied": "Skopírované",
     "copyFailed": "Nepodarilo sa skopírovať",
+    "download": "Stiahnuť",
+    "downloadAll": "Stiahnuť všetko",
+    "downloadFailed": "Sťahovanie zlyhalo",
     "openTab": "Otvoriť na novej karte",
     "successTitle": "Úspech! URL videa je pripravené",
     "successSubtitle": "Video bolo nahrané a je pripravené na zdieľanie.",
@@ -556,35 +561,39 @@
     "watchLabel": "Pozrieť video",
     "shareLink": {
       "title": "Odkaz na zdieľanie",
-      "desc": "Priamy odkaz na zdieľanie kdekoľvek"
+      "desc": "Priamy odkaz, ktorý pošlete kamkoľvek"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Pre API, CMS, skripty a automatizáciu"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Pre GitHub, Notion a dokumentáciu"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown s čitateľným popisom na pozretie"
+      "title": "Markdown s popisom",
+      "desc": "S textom «Pozrieť video», ľahko sa vkladá"
     },
     "html": {
       "title": "HTML",
       "desc": "Vložiť s natívnym prehrávačom videa"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Jednoduchý odkaz otvárajúci sa na novej karte"
+      "title": "HTML odkaz",
+      "desc": "Odkaz, ktorý sa otvorí na novej karte"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Pre fóra a diskusné panely"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "Odkaz do fóra s popisom na pozretie"
+      "title": "BBCode s popisom",
+      "desc": "Odkaz do fóra s textom «Pozrieť video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Nahrajte video a získajte trvalý odkaz na zdieľanie",
     "hero": {
       "title": "Bezplatný prevodník videa na URL",
@@ -599,8 +608,8 @@
       "copy": "Kopírovať odkaz",
       "copied": "Skopírované",
       "guestSuccessHint": "Video bolo nahrané. Skopírujte odkaz nižšie na zdieľanie.",
-      "registerForCodesTitle": "Chcete Markdown, HTML a BBCode?",
-      "registerForCodesDesc": "Zaregistrujte sa zadarmo pre kódy na vloženie pripravené na kopírovanie a spravujte všetky videá v Mojich zdrojoch.",
+      "registerForCodesTitle": "Chcete Markdown, HTML, JSON a BBCode?",
+      "registerForCodesDesc": "Zaregistrujte sa zadarmo, aby ste mohli kopírovať a sťahovať tieto kódy na zdieľanie a spravovať všetky videá v Mojich zdrojoch.",
       "registerCta": "Registrácia zadarmo",
       "uploadAnother": "Nahrať ďalšie video",
       "error": "Nahrávanie zlyhalo. Skúste to znova.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Súbor je príliš veľký. Bezplatný plán umožňuje až 300MB na súbor."
     },
     "features": {
-      "title": "Prečo MP4 to URL",
+      "title": "Prečo MP4toURL",
       "subtitle": "Vytvorené pre rýchlosť, súkromie a trvalé mediálne odkazy.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Pustite súbor, získajte čisté URL pre docs, chaty a príspevky — pozrite si niekoľko vzhľadov nižšie.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Premení lokálny klip na zdieľateľnú adresu za pár sekúnd."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Najjednoduchší spôsob zdieľania videí",
-      "description": "MP4 to URL je bezplatný a rýchly postup hostingu médií pre vývojárov, tvorcov a tímy. Preveďte videá na trvalé URL za pár sekúnd a zdieľajte ich kdekoľvek.",
+      "description": "MP4toURL je bezplatný a rýchly postup hostingu médií pre vývojárov, tvorcov a tímy. Preveďte videá na trvalé URL za pár sekúnd a zdieľajte ich kdekoľvek.",
       "primaryButton": "Previesť na URL",
       "secondaryButton": "Prečítať FAQ"
     }

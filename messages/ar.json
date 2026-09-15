@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "محول فيديو إلى رابط مجاني — ارفع MP4 واحصل على روابط قابلة للمشاركة",
     "description": "ارفع MP4 أو MOV أو AVI أو WebM أو MKV واحصل على روابط دائمة قابلة للمشاركة خلال ثوانٍ. استضافة فيديو مجانية حتى 300 ميجابايت — دون تسجيل."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "ارفع فيديو، واحصل على رابط دائم قابل للمشاركة",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "المنتج",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "معاينة",
       "previewClose": "إغلاق",
       "shareCodes": "أكواد المشاركة",
-      "shareCodesDesc": "روابط جاهزة للنسخ بصيغ Markdown وHTML وBBCode وغيرها.",
+      "shareCodesDesc": "انسخ أو نزّل صيغ Markdown وHTML وJSON وBBCode وغيرها.",
       "download": "تنزيل",
       "delete": "حذف",
       "deleteTitle": "حذف الفيديو",
       "deleteConfirm": "سيُحذف هذا الفيديو نهائيًا من حسابك. لا يمكن التراجع عن هذا الإجراء.",
       "deleteSuccess": "تم حذف الفيديو",
       "deleteFailed": "تعذّر حذف الفيديو",
+      "downloadFailed": "تعذّر تنزيل الفيديو",
       "cancel": "إلغاء",
       "totalCount": "{total} إجمالي",
       "pagePrev": "السابق",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "أكواد جاهزة للنسخ",
-    "copyUrl": "نسخ الرابط",
+    "sectionTitle": "نسخ وتنزيل",
+    "copyUrl": "نسخ",
     "copied": "تم النسخ",
     "copyFailed": "تعذّر النسخ",
+    "download": "تنزيل",
+    "downloadAll": "تنزيل الكل",
+    "downloadFailed": "تعذّر التنزيل",
     "openTab": "فتح في تبويب جديد",
     "successTitle": "تم! رابط الفيديو جاهز",
     "successSubtitle": "تم رفع الفيديو وهو جاهز للمشاركة.",
@@ -556,35 +561,39 @@
     "watchLabel": "مشاهدة الفيديو",
     "shareLink": {
       "title": "رابط المشاركة",
-      "desc": "رابط مباشر للمشاركة في أي مكان"
+      "desc": "رابط مباشر للإرسال في أي مكان"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "مناسب لواجهات API وحقول CMS والسكربتات والأتمتة"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "لـ GitHub وNotion والمستندات"
     },
     "markdownLink": {
-      "title": "Markdown مع رابط",
-      "desc": "Markdown مع تسمية مشاهدة واضحة"
+      "title": "Markdown مع نص",
+      "desc": "مع نص «مشاهدة الفيديو»، سهل اللصق"
     },
     "html": {
       "title": "HTML",
       "desc": "تضمين بمُشغّل الفيديو الأصلي"
     },
     "htmlLink": {
-      "title": "HTML مع رابط",
-      "desc": "رابط بسيط يفتح في تبويب جديد"
+      "title": "رابط HTML",
+      "desc": "رابط يفتح في تبويب جديد"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "للمنتديات ولوحات الرسائل"
     },
     "bbcodeLink": {
-      "title": "BBCode مع رابط",
-      "desc": "رابط منتدى مع تسمية مشاهدة"
+      "title": "BBCode مع نص",
+      "desc": "رابط منتدى مع نص «مشاهدة الفيديو»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "ارفع فيديو واحصل على رابط دائم قابل للمشاركة",
     "hero": {
       "title": "محول فيديو إلى رابط مجاني",
@@ -599,8 +608,8 @@
       "copy": "نسخ الرابط",
       "copied": "تم النسخ",
       "guestSuccessHint": "تم رفع الفيديو. انسخ الرابط أدناه لمشاركته.",
-      "registerForCodesTitle": "هل تريد Markdown وHTML وBBCode؟",
-      "registerForCodesDesc": "سجّل مجانًا لفتح أكواد التضمين الجاهزة للنسخ، وإدارة كل الفيديوهات في مواردي.",
+      "registerForCodesTitle": "هل تريد Markdown وHTML وJSON وBBCode؟",
+      "registerForCodesDesc": "سجّل مجانًا لنسخ وتنزيل أكواد المشاركة هذه، وإدارة كل الفيديوهات في مواردي.",
       "registerCta": "سجّل مجانًا",
       "uploadAnother": "رفع فيديو آخر",
       "error": "فشل الرفع. حاول مرة أخرى.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "الملف كبير جدًا. الخطة المجانية تسمح بحد أقصى 300 ميجابايت لكل ملف."
     },
     "features": {
-      "title": "لماذا تختار MP4 to URL",
+      "title": "لماذا تختار MP4toURL",
       "subtitle": "مصمّم للسرعة والخصوصية والروابط الدائمة.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "أسقط ملفًا واحصل على رابط نظيف للمستندات والدردشات والمنشورات — تصفّح بعض الأمثلة أدناه.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "حوّل مقطعًا محليًا إلى عنوان قابل للمشاركة في ثوانٍ."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "أسهل طريقة لمشاركة الفيديوهات",
-      "description": "MP4 to URL مسار استضافة وسائط مجاني وسريع للمطوّرين والمبدعين والفرق. حوّل الفيديوهات إلى روابط دائمة خلال ثوانٍ وشاركها في أي مكان.",
+      "description": "MP4toURL مسار استضافة وسائط مجاني وسريع للمطوّرين والمبدعين والفرق. حوّل الفيديوهات إلى روابط دائمة خلال ثوانٍ وشاركها في أي مكان.",
       "primaryButton": "تحويل إلى رابط",
       "secondaryButton": "اقرأ الأسئلة الشائعة"
     }

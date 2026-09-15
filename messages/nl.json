@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Gratis video-naar-URL-converter – upload MP4 en krijg deelbare links",
     "description": "Upload MP4, MOV, AVI, WebM, MKV en krijg binnen enkele seconden permanente deelbare URL's. Gratis videohosting tot 300 MB — geen registratie nodig."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Upload een video, krijg een permanente deelbare link",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Product",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Voorbeeld",
       "previewClose": "Sluiten",
       "shareCodes": "Deelcodes",
-      "shareCodesDesc": "Klaar-voor-kopieer links voor Markdown, HTML, BBCode en meer.",
+      "shareCodesDesc": "Kopieer of download Markdown, HTML, JSON, BBCode en meer.",
       "download": "Downloaden",
       "delete": "Verwijderen",
       "deleteTitle": "Video verwijderen",
       "deleteConfirm": "Dit verwijdert de video permanent uit je account. Dit kan niet ongedaan worden gemaakt.",
       "deleteSuccess": "Video verwijderd",
       "deleteFailed": "Video verwijderen mislukt",
+      "downloadFailed": "Video downloaden mislukt",
       "cancel": "Annuleren",
       "totalCount": "{total} totaal",
       "pagePrev": "Vorige",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KLAAR-VOOR-KOPIËREN CODES",
-    "copyUrl": "URL kopiëren",
+    "sectionTitle": "KOPIËREN EN DOWNLOADEN",
+    "copyUrl": "Kopiëren",
     "copied": "Gekopieerd",
     "copyFailed": "Kon niet kopiëren",
+    "download": "Downloaden",
+    "downloadAll": "Alles downloaden",
+    "downloadFailed": "Downloaden mislukt",
     "openTab": "Openen in nieuw tabblad",
     "successTitle": "Gelukt! Je video-URL is klaar",
     "successSubtitle": "Je video is geüpload en klaar om te delen.",
@@ -556,35 +561,39 @@
     "watchLabel": "Video bekijken",
     "shareLink": {
       "title": "Deellink",
-      "desc": "Directe link om overal te delen"
+      "desc": "Directe link die je overal kunt delen"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Voor API’s, CMS, scripts en automatisering"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Voor GitHub, Notion en documenten"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown met een leesbaar bekijklabel"
+      "title": "Markdown met label",
+      "desc": "Met «Video bekijken»-tekst, makkelijk plakken"
     },
     "html": {
       "title": "HTML",
       "desc": "Insluiten met een native videospeler"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Eenvoudige link die in een nieuw tabblad opent"
+      "title": "HTML-link",
+      "desc": "Link die in een nieuw tabblad opent"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Voor forums en messageboards"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "Forumlink met een bekijklabel"
+      "title": "BBCode met label",
+      "desc": "Forumlink met «Video bekijken»-tekst"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Upload een video en krijg een permanente deelbare link",
     "hero": {
       "title": "Gratis video-naar-URL-converter",
@@ -599,8 +608,8 @@
       "copy": "Link kopiëren",
       "copied": "Gekopieerd",
       "guestSuccessHint": "Je video is geüpload. Kopieer de link hieronder om te delen.",
-      "registerForCodesTitle": "Markdown, HTML en BBCode nodig?",
-      "registerForCodesDesc": "Registreer gratis voor klaar-voor-kopieer embedcodes en beheer al je video's in Mijn bronnen.",
+      "registerForCodesTitle": "Markdown, HTML, JSON en BBCode nodig?",
+      "registerForCodesDesc": "Registreer gratis om deze deelcodes te kopiëren en te downloaden, en beheer al je video's in Mijn bronnen.",
       "registerCta": "Gratis registreren",
       "uploadAnother": "Nog een video uploaden",
       "error": "Upload mislukt. Probeer het opnieuw.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Bestand te groot. Gratis plan staat maximaal 300 MB per bestand toe."
     },
     "features": {
-      "title": "Waarom MP4 to URL kiezen",
+      "title": "Waarom MP4toURL kiezen",
       "subtitle": "Gebouwd voor snelheid, privacy en permanente medialinks.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Sleep een bestand, krijg een schone URL voor docs, chats en posts — bekijk hieronder enkele looks.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Maak van een lokale clip binnen enkele seconden een deelbaar adres."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "De makkelijkste manier om video's te delen",
-      "description": "MP4 to URL is een gratis, snelle mediahostingflow voor developers, makers en teams. Converteer video's naar permanente URL's in seconden en deel ze overal.",
+      "description": "MP4toURL is een gratis, snelle mediahostingflow voor developers, makers en teams. Converteer video's naar permanente URL's in seconden en deel ze overal.",
       "primaryButton": "Converteren naar URL",
       "secondaryButton": "Veelgestelde vragen lezen"
     }

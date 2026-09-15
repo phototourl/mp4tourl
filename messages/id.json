@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Konverter Video ke URL Gratis - Unggah MP4 dan Dapatkan Tautan yang Bisa Dibagikan",
     "description": "Unggah MP4, MOV, AVI, WebM, MKV dan dapatkan URL permanen yang bisa dibagikan dalam hitungan detik. Hosting video gratis hingga 300MB — tanpa registrasi."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Unggah video, dapatkan tautan permanen yang bisa dibagikan",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produk",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Pratinjau",
       "previewClose": "Tutup",
       "shareCodes": "Kode berbagi",
-      "shareCodesDesc": "Tautan siap salin untuk Markdown, HTML, BBCode, dan lainnya.",
+      "shareCodesDesc": "Salin atau unduh Markdown, HTML, JSON, BBCode, dan lainnya.",
       "download": "Unduh",
       "delete": "Hapus",
       "deleteTitle": "Hapus video",
       "deleteConfirm": "Ini menghapus video secara permanen dari akun Anda. Tidak dapat dibatalkan.",
       "deleteSuccess": "Video dihapus",
       "deleteFailed": "Gagal menghapus video",
+      "downloadFailed": "Gagal mengunduh video",
       "cancel": "Batal",
       "totalCount": "Total {total}",
       "pagePrev": "Sebelumnya",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KODE SIAP SALIN",
+    "sectionTitle": "SALIN DAN UNDUH",
     "copyUrl": "Salin URL",
     "copied": "Disalin",
     "copyFailed": "Tidak bisa menyalin",
+    "download": "Unduh",
+    "downloadAll": "Unduh semua",
+    "downloadFailed": "Gagal mengunduh",
     "openTab": "Buka di tab baru",
     "successTitle": "Berhasil! URL video Anda siap",
     "successSubtitle": "Video Anda telah diunggah dan siap dibagikan.",
@@ -557,6 +562,10 @@
     "shareLink": {
       "title": "Tautan berbagi",
       "desc": "Tautan langsung untuk dibagikan ke mana saja"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Untuk API, CMS, skrip, dan otomatisasi"
     },
     "markdown": {
       "title": "Markdown",
@@ -584,7 +593,7 @@
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Unggah video dan dapatkan tautan permanen yang bisa dibagikan",
     "hero": {
       "title": "Konverter Video ke URL Gratis",
@@ -599,8 +608,8 @@
       "copy": "Salin tautan",
       "copied": "Disalin",
       "guestSuccessHint": "Video Anda telah diunggah. Salin tautan di bawah untuk membagikannya.",
-      "registerForCodesTitle": "Ingin Markdown, HTML & BBCode?",
-      "registerForCodesDesc": "Daftar gratis untuk membuka kode embed siap salin, dan kelola setiap video di Sumber Daya Saya.",
+      "registerForCodesTitle": "Ingin Markdown, HTML, JSON & BBCode?",
+      "registerForCodesDesc": "Daftar gratis untuk salin dan unduh kode berbagi ini, serta kelola setiap video di Sumber Daya Saya.",
       "registerCta": "Daftar gratis",
       "uploadAnother": "Unggah video lain",
       "error": "Unggahan gagal. Silakan coba lagi.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "File terlalu besar. Paket gratis memungkinkan hingga 300MB per file."
     },
     "features": {
-      "title": "Mengapa memilih MP4 to URL",
+      "title": "Mengapa memilih MP4toURL",
       "subtitle": "Dibuat untuk kecepatan, privasi, dan tautan media permanen.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Letakkan file, dapatkan URL bersih untuk dokumen, chat, dan postingan — lihat beberapa tampilan di bawah.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Ubah klip lokal menjadi alamat yang bisa dibagikan dalam hitungan detik."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Cara termudah membagikan video",
-      "description": "MP4 to URL adalah alur hosting media gratis dan cepat untuk developer, kreator, dan tim. Ubah video menjadi URL permanen dalam hitungan detik dan bagikan ke mana saja.",
+      "description": "MP4toURL adalah alur hosting media gratis dan cepat untuk developer, kreator, dan tim. Ubah video menjadi URL permanen dalam hitungan detik dan bagikan ke mana saja.",
       "primaryButton": "Ubah ke URL",
       "secondaryButton": "Baca FAQ"
     }

@@ -101,7 +101,7 @@ export const websiteConfig: WebsiteConfig = {
     provider: 'resend',
     fromEmail:
       process.env.RESEND_FROM_EMAIL ||
-      'MP4TOURL <support@mp4tourl.com>',
+      'MP4toURL <support@mp4tourl.com>',
     // Bare address for mailto / contact form (strip "Name <email>" if needed)
     supportEmail: (() => {
       const raw =

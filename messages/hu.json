@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Ingyenes videó–URL konverter – tölts fel MP4-et, és kapj megosztható linket",
     "description": "Tölts fel MP4, MOV, AVI, WebM, MKV fájlokat, és másodpercek alatt kapsz állandó, megosztható URL-eket. Ingyenes videótárhely akár 300 MB-ig — regisztráció nélkül."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Tölts fel videót, és kapj állandó megosztható linket",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Termék",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Előnézet",
       "previewClose": "Bezárás",
       "shareCodes": "Megosztási kódok",
-      "shareCodesDesc": "Másolásra kész linkek Markdown, HTML, BBCode és egyebekhez.",
+      "shareCodesDesc": "Másold vagy töltsd le a Markdown, HTML, JSON, BBCode és egyéb formátumokat.",
       "download": "Letöltés",
       "delete": "Törlés",
       "deleteTitle": "Videó törlése",
       "deleteConfirm": "Ez véglegesen eltávolítja a videót a fiókodból. A művelet nem vonható vissza.",
       "deleteSuccess": "Videó törölve",
       "deleteFailed": "A videó törlése sikertelen",
+      "downloadFailed": "A videó letöltése sikertelen",
       "cancel": "Mégse",
       "totalCount": "{total} összesen",
       "pagePrev": "Előző",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "MÁSOLÁSRA KÉSZ KÓDOK",
-    "copyUrl": "URL másolása",
+    "sectionTitle": "MÁSOLÁS ÉS LETÖLTÉS",
+    "copyUrl": "Másolás",
     "copied": "Másolva",
     "copyFailed": "Nem sikerült másolni",
+    "download": "Letöltés",
+    "downloadAll": "Összes letöltése",
+    "downloadFailed": "A letöltés sikertelen",
     "openTab": "Megnyitás új lapon",
     "successTitle": "Siker! A videó URL-ed kész",
     "successSubtitle": "A videód feltöltve, készen áll a megosztásra.",
@@ -556,35 +561,39 @@
     "watchLabel": "Videó megtekintése",
     "shareLink": {
       "title": "Megosztási link",
-      "desc": "Közvetlen link megosztáshoz bárhol"
+      "desc": "Közvetlen link, bárhol megosztható"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "API-hoz, CMS-hez, scriptekhez és automatizáláshoz"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "GitHub, Notion és dokumentumokhoz"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown olvasható megtekintési címkével"
+      "title": "Markdown szöveggel",
+      "desc": "«Videó megtekintése» szöveggel, könnyen beilleszthető"
     },
     "html": {
       "title": "HTML",
       "desc": "Beágyazás natív videólejátszóval"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Egyszerű hivatkozás, amely új lapon nyílik meg"
+      "title": "HTML-link",
+      "desc": "Új lapon megnyíló link"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Fórumokhoz és üzenőfalakhoz"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "Fórumlink megtekintési címkével"
+      "title": "BBCode szöveggel",
+      "desc": "Fórumlink «Videó megtekintése» szöveggel"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Tölts fel videót, és kapj állandó megosztható linket",
     "hero": {
       "title": "Ingyenes videó–URL konverter",
@@ -599,8 +608,8 @@
       "copy": "Link másolása",
       "copied": "Másolva",
       "guestSuccessHint": "A videód feltöltve. Másold az alábbi linket a megosztáshoz.",
-      "registerForCodesTitle": "Szeretnéd a Markdown, HTML és BBCode kódokat?",
-      "registerForCodesDesc": "Regisztrálj ingyen a másolásra kész beágyazási kódokért, és kezeld az összes videót az Erőforrásaim között.",
+      "registerForCodesTitle": "Szeretnéd a Markdown, HTML, JSON és BBCode kódokat?",
+      "registerForCodesDesc": "Regisztrálj ingyen, hogy ezeket a megosztási kódokat másolhasd és letölthesd, és kezeld az összes videót az Erőforrásaim között.",
       "registerCta": "Ingyenes regisztráció",
       "uploadAnother": "Másik videó feltöltése",
       "error": "A feltöltés sikertelen. Próbáld újra.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "A fájl túl nagy. Az ingyenes csomag fájlonként legfeljebb 300 MB-ot enged."
     },
     "features": {
-      "title": "Miért válaszd az MP4 to URL-t",
+      "title": "Miért válaszd az MP4toURL-t",
       "subtitle": "Sebességre, adatvédelemre és állandó médialinkekre tervezve.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Dobj fel egy fájlt, kapj tiszta URL-t dokumentumokhoz, csevegésekhez és posztokhoz — nézz meg néhány megjelenést alább.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Alakíts egy helyi klipet megosztható címmé másodpercek alatt."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "A legegyszerűbb módja a videók megosztásának",
-      "description": "Az MP4 to URL ingyenes és gyors médiatárhely-folyamat fejlesztőknek, alkotóknak és csapatoknak. Alakítsd át a videókat állandó URL-ekké másodpercek alatt, és oszd meg őket bárhol.",
+      "description": "Az MP4toURL ingyenes és gyors médiatárhely-folyamat fejlesztőknek, alkotóknak és csapatoknak. Alakítsd át a videókat állandó URL-ekké másodpercek alatt, és oszd meg őket bárhol.",
       "primaryButton": "Átalakítás URL-lé",
       "secondaryButton": "GYIK olvasása"
     }

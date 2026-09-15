@@ -3,10 +3,14 @@
 import { Button } from '@/components/ui/button';
 import {
   buildShareCodes,
+  buildShareCodesBundleText,
+  downloadTextFile,
+  shareCodeFileExt,
+  shareCodeMime,
   type ShareCodeKind,
 } from '@/lib/share-codes';
 import { cn } from '@/lib/utils';
-import { Check, Copy, ExternalLink } from 'lucide-react';
+import { Check, Copy, Download, ExternalLink } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { toast } from 'sonner';
@@ -24,6 +28,7 @@ type ShareCodesPanelProps = {
 
 const KIND_ORDER: ShareCodeKind[] = [
   'shareLink',
+  'json',
   'markdown',
   'markdownLink',
   'html',
@@ -60,6 +65,37 @@ export function ShareCodesPanel({
       }, 1500);
     } catch {
       toast.error(t('copyFailed'));
+    }
+  };
+
+  const downloadOne = (kind: ShareCodeKind, value: string) => {
+    try {
+      const ext = shareCodeFileExt(kind);
+      downloadTextFile(
+        `mp4tourl-${kind}.${ext}`,
+        value,
+        shareCodeMime(kind)
+      );
+    } catch {
+      toast.error(t('downloadFailed'));
+    }
+  };
+
+  const downloadAll = () => {
+    try {
+      const titles = Object.fromEntries(
+        KIND_ORDER.map((kind) => [kind, t(`${kind}.title`)])
+      ) as Record<ShareCodeKind, string>;
+      const ordered = KIND_ORDER.map(
+        (kind) => items.find((x) => x.kind === kind)!
+      );
+      downloadTextFile(
+        'mp4tourl-share-codes.txt',
+        buildShareCodesBundleText(ordered, titles),
+        'text/plain;charset=utf-8'
+      );
+    } catch {
+      toast.error(t('downloadFailed'));
     }
   };
 
@@ -117,14 +153,24 @@ export function ShareCodesPanel({
       ) : null}
 
       <div className="space-y-3">
-        <p
+        <div
           className={cn(
-            'font-mono text-[11px] font-semibold tracking-[0.14em] text-muted-foreground',
+            'flex items-center justify-between gap-3',
             compact ? 'px-0.5' : ''
           )}
         >
-          {t('sectionTitle')}
-        </p>
+          <p className="font-mono text-[11px] font-semibold tracking-[0.14em] text-muted-foreground">
+            {t('sectionTitle')}
+          </p>
+          <button
+            type="button"
+            onClick={downloadAll}
+            className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+          >
+            <Download className="size-3.5" />
+            {t('downloadAll')}
+          </button>
+        </div>
 
         <div className="space-y-2.5">
           {KIND_ORDER.map((kind) => {
@@ -144,18 +190,28 @@ export function ShareCodesPanel({
                       {t(`${kind}.desc`)}
                     </p>
                   </div>
-                  <button
-                    type="button"
-                    onClick={() => void copyText(kind, item.value)}
-                    className="inline-flex shrink-0 items-center gap-1 pt-0.5 text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
-                  >
-                    {isCopied ? (
-                      <Check className="size-3.5" />
-                    ) : (
-                      <Copy className="size-3.5" />
-                    )}
-                    {isCopied ? t('copied') : t('copyUrl')}
-                  </button>
+                  <div className="flex shrink-0 items-center gap-2.5 pt-0.5">
+                    <button
+                      type="button"
+                      onClick={() => void copyText(kind, item.value)}
+                      className="inline-flex items-center gap-1 text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+                    >
+                      {isCopied ? (
+                        <Check className="size-3.5" />
+                      ) : (
+                        <Copy className="size-3.5" />
+                      )}
+                      {isCopied ? t('copied') : t('copyUrl')}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => downloadOne(kind, item.value)}
+                      className="inline-flex items-center gap-1 text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+                    >
+                      <Download className="size-3.5" />
+                      {t('download')}
+                    </button>
+                  </div>
                 </div>
                 <div className="m-3 mt-2 rounded-lg bg-muted/70 px-3 py-2.5 dark:bg-muted/40 sm:mx-4 sm:mb-3.5">
                   <pre className="overflow-x-auto whitespace-pre-wrap break-all font-mono text-[11px] leading-relaxed text-foreground/90 sm:text-xs">

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4轉連結",
+    "name": "MP4toURL",
     "title": "免費影片轉連結工具 - 上傳 MP4 取得可分享連結",
     "description": "上傳 MP4、MOV、AVI、WebM、MKV，幾秒獲得可長期分享的直鏈。免費影片託管，單檔最高 300MB，無需註冊。"
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "上傳影片，取得可長期分享的連結",
+      "copyright": "© {year} MP4toURL. 版權所有。",
       "product": {
         "title": "產品",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "預覽",
       "previewClose": "關閉",
       "shareCodes": "分享程式碼",
-      "shareCodesDesc": "可一鍵複製 Markdown、HTML、BBCode 等格式。",
+      "shareCodesDesc": "可複製或下載 Markdown、HTML、JSON、BBCode 等格式。",
       "download": "下載",
       "delete": "刪除",
       "deleteTitle": "刪除影片",
       "deleteConfirm": "將從你的帳戶永久刪除此影片，此操作無法復原。",
       "deleteSuccess": "影片已刪除",
       "deleteFailed": "刪除失敗",
+      "downloadFailed": "下載失敗",
       "cancel": "取消",
       "totalCount": "共 {total} 個",
       "pagePrev": "上一頁",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "一鍵複製程式碼",
-    "copyUrl": "複製連結",
+    "sectionTitle": "複製與下載",
+    "copyUrl": "複製",
     "copied": "已複製",
     "copyFailed": "無法複製",
+    "download": "下載",
+    "downloadAll": "下載全部",
+    "downloadFailed": "下載失敗",
     "openTab": "在新分頁開啟",
     "successTitle": "成功！影片連結已就緒",
     "successSubtitle": "影片已上傳，可以開始分享。",
@@ -556,35 +561,39 @@
     "watchLabel": "觀看影片",
     "shareLink": {
       "title": "分享連結",
-      "desc": "可直接分享的直鏈"
+      "desc": "隨處可發的直鏈"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "適合 API、CMS、腳本與自動化"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "適用於 GitHub、Notion、文件"
+      "desc": "適合 GitHub、Notion、文件"
     },
     "markdownLink": {
-      "title": "Markdown 含連結",
-      "desc": "帶觀看標籤的 Markdown"
+      "title": "Markdown 含文案",
+      "desc": "帶「觀看影片」文案，方便貼上"
     },
     "html": {
       "title": "HTML",
-      "desc": "以原生播放器嵌入"
+      "desc": "用原生播放器嵌入頁面"
     },
     "htmlLink": {
       "title": "HTML 連結",
-      "desc": "在新分頁開啟的一般連結"
+      "desc": "在新分頁開啟的連結"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "適用於論壇與留言板"
+      "desc": "適合論壇與留言板"
     },
     "bbcodeLink": {
-      "title": "BBCode 含連結",
-      "desc": "帶觀看標籤的論壇連結"
+      "title": "BBCode 含文案",
+      "desc": "帶「觀看影片」文案的論壇連結"
     }
   },
   "HomePage": {
-    "title": "MP4轉連結",
+    "title": "MP4toURL",
     "description": "上傳影片，取得可長期分享的連結",
     "hero": {
       "title": "免費影片轉連結工具",
@@ -599,8 +608,8 @@
       "copy": "複製連結",
       "copied": "已複製",
       "guestSuccessHint": "影片已上傳。複製下方連結即可分享。",
-      "registerForCodesTitle": "需要 Markdown、HTML、BBCode？",
-      "registerForCodesDesc": "免費註冊後可解鎖一鍵複製的嵌入程式碼，並在「我的資源」管理全部影片。",
+      "registerForCodesTitle": "還想要 Markdown、HTML、JSON、BBCode？",
+      "registerForCodesDesc": "免費註冊即可複製、下載這些分享程式碼，並在「我的資源」管理全部影片。",
       "registerCta": "免費註冊",
       "uploadAnother": "再傳一個影片",
       "error": "上傳失敗，請重試。",
@@ -608,7 +617,7 @@
       "fileTooLarge": "檔案過大。免費方案單檔最高 300MB。"
     },
     "features": {
-      "title": "為什麼選 MP4轉連結",
+      "title": "為什麼選 MP4toURL",
       "subtitle": "為速度、隱私與永久媒體連結而建。",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "拖入檔案即可拿到乾淨直鏈，用於文件、聊天與內容發布——下面看看幾種呈現。",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "本機影片幾秒變成可分享網址。"
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "分享影片，就這麼簡單",
-      "description": "MP4轉連結適合開發者、創作者與團隊：免費、快速，幾秒把影片變成永久連結，隨處分享。",
+      "description": "MP4toURL 適合開發者、創作者與團隊：免費、快速，幾秒把影片變成永久連結，隨處分享。",
       "primaryButton": "轉為連結",
       "secondaryButton": "查看常見問題"
     }

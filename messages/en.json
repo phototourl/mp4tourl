@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
     "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Upload a video, get a permanent shareable link",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Product",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Preview",
       "previewClose": "Close",
       "shareCodes": "Share codes",
-      "shareCodesDesc": "Copy-ready links for Markdown, HTML, BBCode, and more.",
+      "shareCodesDesc": "Copy or download Markdown, HTML, JSON, BBCode, and more.",
       "download": "Download",
       "delete": "Delete",
       "deleteTitle": "Delete video",
       "deleteConfirm": "This permanently removes the video from your account. This cannot be undone.",
       "deleteSuccess": "Video deleted",
       "deleteFailed": "Failed to delete video",
+      "downloadFailed": "Failed to download video",
       "cancel": "Cancel",
       "totalCount": "{total} total",
       "pagePrev": "Previous",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "COPY-READY CODES",
+    "sectionTitle": "COPY & DOWNLOAD",
     "copyUrl": "Copy URL",
     "copied": "Copied",
     "copyFailed": "Could not copy",
+    "download": "Download",
+    "downloadAll": "Download all",
+    "downloadFailed": "Could not download",
     "openTab": "Open in new tab",
     "successTitle": "Success! Your video URL is ready",
     "successSubtitle": "Your video has been uploaded and is ready to share.",
@@ -558,33 +563,37 @@
       "title": "Share link",
       "desc": "Direct link to share anywhere"
     },
+    "json": {
+      "title": "JSON",
+      "desc": "For APIs, CMS fields, scripts, and automations"
+    },
     "markdown": {
       "title": "Markdown",
       "desc": "For GitHub, Notion, and docs"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown with a readable watch label"
+      "title": "Markdown with label",
+      "desc": "Markdown with a clear watch label"
     },
     "html": {
       "title": "HTML",
       "desc": "Embed with a native video player"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Simple anchor that opens in a new tab"
+      "title": "HTML link",
+      "desc": "Opens in a new tab"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "For forums and message boards"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
+      "title": "BBCode with label",
       "desc": "Forum link with a watch label"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Upload a video and get a permanent shareable link",
     "hero": {
       "title": "Free Video to URL Converter",
@@ -599,8 +608,8 @@
       "copy": "Copy link",
       "copied": "Copied",
       "guestSuccessHint": "Your video has been uploaded. Copy the link below to share it.",
-      "registerForCodesTitle": "Want Markdown, HTML & BBCode?",
-      "registerForCodesDesc": "Sign up free to unlock copy-ready embed codes, and manage every video in My Resources.",
+      "registerForCodesTitle": "Want Markdown, HTML, JSON & BBCode too?",
+      "registerForCodesDesc": "Sign up free to copy and download these share codes, and manage every video in My Resources.",
       "registerCta": "Sign up free",
       "uploadAnother": "Upload another video",
       "error": "Upload failed. Please try again.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
+      "title": "Why Choose MP4toURL",
       "subtitle": "Built for speed, privacy, and permanent media links.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Drop a file, get a clean URL for docs, chats, and posts — browse a few looks below.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Turn a local clip into a shareable address in seconds."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
+      "description": "MP4toURL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
       "primaryButton": "Convert to URL",
       "secondaryButton": "Read FAQ"
     }

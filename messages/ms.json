@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Penukar Video ke URL Percuma – Muat Naik MP4 dan Dapatkan Pautan Kongsi",
     "description": "Muat naik MP4, MOV, AVI, WebM, MKV dan dapatkan URL kongsi kekal dalam beberapa saat. Pengehosan video percuma sehingga 300MB — tiada pendaftaran diperlukan."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Muat naik video, dapatkan pautan kongsi kekal",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Produk",
         "items": {
@@ -333,13 +334,14 @@
       "preview": "Pratonton",
       "previewClose": "Tutup",
       "shareCodes": "Kod kongsi",
-      "shareCodesDesc": "Pautan sedia salin untuk Markdown, HTML, BBCode, dan banyak lagi.",
+      "shareCodesDesc": "Salin atau muat turun Markdown, HTML, JSON, BBCode, dan banyak lagi.",
       "download": "Muat turun",
       "delete": "Padam",
       "deleteTitle": "Padam video",
       "deleteConfirm": "Ini akan membuang video secara kekal dari akaun anda. Tindakan ini tidak boleh dibatalkan.",
       "deleteSuccess": "Video dipadam",
       "deleteFailed": "Gagal memadam video",
+      "downloadFailed": "Gagal memuat turun video",
       "cancel": "Batal",
       "totalCount": "{total} jumlah",
       "pagePrev": "Sebelumnya",
@@ -545,10 +547,13 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "KOD SEDIA SALIN",
-    "copyUrl": "Salin URL",
+    "sectionTitle": "SALIN DAN MUAT TURUN",
+    "copyUrl": "Salin",
     "copied": "Disalin",
     "copyFailed": "Tidak dapat disalin",
+    "download": "Muat turun",
+    "downloadAll": "Muat turun semua",
+    "downloadFailed": "Gagal memuat turun",
     "openTab": "Buka dalam tab baharu",
     "successTitle": "Berjaya! URL video anda sedia",
     "successSubtitle": "Video anda telah dimuat naik dan sedia untuk dikongsi.",
@@ -556,35 +561,39 @@
     "watchLabel": "Tonton video",
     "shareLink": {
       "title": "Pautan kongsi",
-      "desc": "Pautan terus untuk dikongsi di mana-mana"
+      "desc": "Pautan terus yang boleh dikongsi di mana-mana"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Sesuai untuk API, CMS, skrip dan automasi"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Untuk GitHub, Notion, dan dokumen"
     },
     "markdownLink": {
-      "title": "Markdown with link",
-      "desc": "Markdown dengan label tonton yang mudah dibaca"
+      "title": "Markdown dengan label",
+      "desc": "Ada teks «Tonton video», senang tampal"
     },
     "html": {
       "title": "HTML",
       "desc": "Benamkan dengan pemain video asli"
     },
     "htmlLink": {
-      "title": "HTML with link",
-      "desc": "Pautan ringkas yang dibuka dalam tab baharu"
+      "title": "Pautan HTML",
+      "desc": "Pautan yang dibuka dalam tab baharu"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Untuk forum dan papan mesej"
     },
     "bbcodeLink": {
-      "title": "BBCode with link",
-      "desc": "Pautan forum dengan label tonton"
+      "title": "BBCode dengan label",
+      "desc": "Pautan forum dengan teks «Tonton video»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Muat naik video dan dapatkan pautan kongsi kekal",
     "hero": {
       "title": "Penukar Video ke URL Percuma",
@@ -599,8 +608,8 @@
       "copy": "Salin pautan",
       "copied": "Disalin",
       "guestSuccessHint": "Video anda telah dimuat naik. Salin pautan di bawah untuk kongsi.",
-      "registerForCodesTitle": "Mahukan Markdown, HTML & BBCode?",
-      "registerForCodesDesc": "Daftar percuma untuk buka kod benam sedia salin, dan urus setiap video dalam Sumber Saya.",
+      "registerForCodesTitle": "Mahukan Markdown, HTML, JSON & BBCode?",
+      "registerForCodesDesc": "Daftar percuma untuk salin dan muat turun kod kongsi ini, serta urus setiap video dalam Sumber Saya.",
       "registerCta": "Daftar percuma",
       "uploadAnother": "Muat naik video lain",
       "error": "Muat naik gagal. Sila cuba lagi.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Fail terlalu besar. Pelan percuma membenarkan sehingga 300MB setiap fail."
     },
     "features": {
-      "title": "Mengapa Pilih MP4 to URL",
+      "title": "Mengapa Pilih MP4toURL",
       "subtitle": "Dibina untuk kelajuan, privasi, dan pautan media kekal.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Letakkan fail, dapatkan URL bersih untuk dokumen, sembang, dan pos — lihat beberapa rupa di bawah.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Tukar klip tempatan kepada alamat kongsi dalam beberapa saat."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Cara Paling Mudah untuk Kongsi Video",
-      "description": "MP4 to URL ialah aliran pengehosan media percuma dan pantas untuk pembangun, pencipta, dan pasukan. Tukar video kepada URL kekal dalam beberapa saat dan kongsi di mana-mana.",
+      "description": "MP4toURL ialah aliran pengehosan media percuma dan pantas untuk pembangun, pencipta, dan pasukan. Tukar video kepada URL kekal dalam beberapa saat dan kongsi di mana-mana.",
       "primaryButton": "Tukar ke URL",
       "secondaryButton": "Baca Soalan Lazim"
     }

@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "name": "MP4 to URL",
+    "name": "MP4toURL",
     "title": "Бесплатный конвертер видео в URL — загрузите MP4 и получите ссылку для sharing",
     "description": "Загружайте MP4, MOV, AVI, WebM, MKV и получайте постоянные ссылки за секунды. Бесплатный хостинг видео до 300MB — регистрация не нужна."
   },
@@ -228,6 +228,7 @@
     },
     "footer": {
       "tagline": "Загрузите видео и получите постоянную ссылку",
+      "copyright": "© {year} MP4toURL. All Rights Reserved.",
       "product": {
         "title": "Продукт",
         "items": {
@@ -332,14 +333,15 @@
       "open": "Открыть",
       "preview": "Просмотр",
       "previewClose": "Закрыть",
-      "shareCodes": "Коды для sharing",
-      "shareCodesDesc": "Готовые ссылки для Markdown, HTML, BBCode и других форматов.",
+      "shareCodes": "Коды для публикации",
+      "shareCodesDesc": "Копируйте или скачивайте Markdown, HTML, JSON, BBCode и другие форматы.",
       "download": "Скачать",
       "delete": "Удалить",
       "deleteTitle": "Удалить видео",
       "deleteConfirm": "Видео будет безвозвратно удалено из аккаунта. Отменить нельзя.",
       "deleteSuccess": "Видео удалено",
       "deleteFailed": "Не удалось удалить видео",
+      "downloadFailed": "Не удалось скачать видео",
       "cancel": "Отмена",
       "totalCount": "Всего {total}",
       "pagePrev": "Назад",
@@ -545,46 +547,53 @@
     }
   },
   "ShareCodes": {
-    "sectionTitle": "ГОТОВЫЕ КОДЫ ДЛЯ КОПИРОВАНИЯ",
-    "copyUrl": "Копировать URL",
+    "sectionTitle": "КОПИРОВАТЬ И СКАЧАТЬ",
+    "copyUrl": "Копировать",
     "copied": "Скопировано",
     "copyFailed": "Не удалось скопировать",
+    "download": "Скачать",
+    "downloadAll": "Скачать всё",
+    "downloadFailed": "Не удалось скачать",
     "openTab": "Открыть в новой вкладке",
     "successTitle": "Готово! URL вашего видео готов",
-    "successSubtitle": "Видео загружено и готово к sharing.",
+    "successSubtitle": "Видео загружено и готово к публикации.",
     "videoLabel": "Видео",
     "watchLabel": "Смотреть видео",
     "shareLink": {
-      "title": "Ссылка для sharing",
-      "desc": "Прямая ссылка для sharing где угодно"
+      "title": "Ссылка для публикации",
+      "desc": "Прямая ссылка — отправьте куда угодно"
+    },
+    "json": {
+      "title": "JSON",
+      "desc": "Для API, CMS, скриптов и автоматизации"
     },
     "markdown": {
       "title": "Markdown",
       "desc": "Для GitHub, Notion и документации"
     },
     "markdownLink": {
-      "title": "Markdown со ссылкой",
-      "desc": "Markdown с понятной подписью для просмотра"
+      "title": "Markdown с подписью",
+      "desc": "С текстом «Смотреть видео», удобно вставлять"
     },
     "html": {
       "title": "HTML",
       "desc": "Встраивание с нативным видеоплеером"
     },
     "htmlLink": {
-      "title": "HTML со ссылкой",
-      "desc": "Простая ссылка, открывается в новой вкладке"
+      "title": "HTML-ссылка",
+      "desc": "Ссылка, открывается в новой вкладке"
     },
     "bbcode": {
       "title": "BBCode",
       "desc": "Для форумов и досок сообщений"
     },
     "bbcodeLink": {
-      "title": "BBCode со ссылкой",
-      "desc": "Ссылка для форума с подписью просмотра"
+      "title": "BBCode с подписью",
+      "desc": "Ссылка для форума с текстом «Смотреть видео»"
     }
   },
   "HomePage": {
-    "title": "MP4 to URL",
+    "title": "MP4toURL",
     "description": "Загрузите видео и получите постоянную ссылку для sharing",
     "hero": {
       "title": "Бесплатный конвертер видео в URL",
@@ -599,8 +608,8 @@
       "copy": "Копировать ссылку",
       "copied": "Скопировано",
       "guestSuccessHint": "Видео загружено. Скопируйте ссылку ниже, чтобы поделиться.",
-      "registerForCodesTitle": "Нужны Markdown, HTML и BBCode?",
-      "registerForCodesDesc": "Зарегистрируйтесь бесплатно — откроются готовые коды для встраивания и управление всеми видео в «Мои ресурсы».",
+      "registerForCodesTitle": "Нужны Markdown, HTML, JSON и BBCode?",
+      "registerForCodesDesc": "Зарегистрируйтесь бесплатно — копируйте и скачивайте эти коды для публикации и управляйте всеми видео в «Мои ресурсы».",
       "registerCta": "Бесплатная регистрация",
       "uploadAnother": "Загрузить другое видео",
       "error": "Загрузка не удалась. Попробуйте снова.",
@@ -608,7 +617,7 @@
       "fileTooLarge": "Файл слишком большой. Бесплатный тариф — до 300MB на файл."
     },
     "features": {
-      "title": "Почему MP4 to URL",
+      "title": "Почему MP4toURL",
       "subtitle": "Создан для скорости, конфиденциальности и постоянных медиассылок.",
       "items": {
         "item-1": {
@@ -659,7 +668,7 @@
       "description": "Загрузите файл — получите чистый URL для документов, чатов и постов. Несколько вариантов ниже.",
       "items": {
         "concept": {
-          "title": "MP4 to URL",
+          "title": "MP4toURL",
           "description": "Превратите локальный ролик в ссылку за секунды."
         },
         "newStyle": {
@@ -712,7 +721,7 @@
     },
     "calltoaction": {
       "title": "Самый простой способ делиться видео",
-      "description": "MP4 to URL — быстрый бесплатный хостинг медиа для разработчиков, авторов и команд. Конвертируйте видео в постоянные URL за секунды и делитесь где угодно.",
+      "description": "MP4toURL — быстрый бесплатный хостинг медиа для разработчиков, авторов и команд. Конвертируйте видео в постоянные URL за секунды и делитесь где угодно.",
       "primaryButton": "Конвертировать в URL",
       "secondaryButton": "Читать FAQ"
     }
