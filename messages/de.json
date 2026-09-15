@@ -1,144 +1,114 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Kostenloser Video-zu-URL-Konverter – MP4 hochladen und teilbare Links erhalten",
+    "description": "MP4, MOV, AVI, WebM oder MKV hochladen und in Sekunden dauerhafte, teilbare URLs erhalten. Kostenloses Video-Hosting bis 300 MB — keine Registrierung nötig."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "signUp": "Registrieren",
+    "language": "Sprache wechseln",
+    "languageHint": "Die Auswahl einer Region ändert Sprache und Inhalte.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
+      "label": "Darstellung umschalten",
+      "light": "Hell",
+      "dark": "Dunkel",
       "system": "System"
     },
     "theme": {
-      "label": "Toggle theme",
+      "label": "Theme umschalten",
       "default": "Default",
       "blue": "Blue",
       "green": "Green",
       "amber": "Amber",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopieren",
+    "saving": "Speichern…",
+    "save": "Speichern",
+    "loading": "Laden…",
+    "cancel": "Abbrechen",
+    "logoutFailed": "Abmelden fehlgeschlagen",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Insgesamt {count} Einträge",
+      "noResults": "Keine Ergebnisse",
+      "loading": "Laden…",
+      "columns": "Spalten",
+      "rowsPerPage": "Zeilen pro Seite",
+      "page": "Seite",
+      "firstPage": "Erste Seite",
+      "lastPage": "Letzte Seite",
+      "nextPage": "Nächste Seite",
+      "previousPage": "Vorherige Seite",
+      "ascending": "Auf",
+      "descending": "Ab"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Kostenlos",
+      "description": "Videos hosten und eine dauerhafte, teilbare URL erhalten",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Upload-Größe: 300 MB",
+        "feature-2": "Dauerhafte CDN-Links",
+        "feature-3": "Keine Registrierung nötig",
+        "feature-4": "Community-Support"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Eigene Domains",
+        "limit-2": "Eigenes Branding",
+        "limit-3": "Lebenslange Updates"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "Höhere Limits und Upload-Verlauf für aktive Creator",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Größere Video-Uploads",
+        "feature-2": "10 GB Speicher",
+        "feature-3": "Upload-Verlauf",
+        "feature-4": "Prioritäts-Support",
+        "feature-5": "Eigene Domains"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Eigenes Branding",
+        "limit-2": "Lebenslange Updates"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Einmal zahlen für langfristige Video-Hosting-Kapazität",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Alle Pro-Funktionen",
+        "feature-2": "100 GB Speicher",
+        "feature-3": "Persönlicher Support",
+        "feature-4": "Sicherheit auf Enterprise-Niveau",
+        "feature-5": "Erweiterte Integrationen",
+        "feature-6": "Eigenes Branding",
+        "feature-7": "Lebenslange Updates"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Leider existiert die gesuchte Seite nicht.",
+    "backToHome": "Zur Startseite"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Etwas ist schiefgelaufen!",
+    "tryAgain": "Erneut versuchen",
+    "backToHome": "Zur Startseite"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "Über uns",
+    "description": "MP4toURL macht aus deinen Videos dauerhafte, teilbare Links — lade MP4, MOV, AVI, WebM oder MKV hoch und teile sie in Sekunden.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "Kostenloser Video-zu-URL-Konverter",
+    "introduction": "MP4toURL ist ein kostenloser, schneller Weg, Videos zu hosten und zu teilen. Datei hochladen, dauerhaften CDN-Link erhalten und überall nutzen — ohne komplizierte Einrichtung.",
     "imageAlt": "MP4toURL Markenzeichen",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "Kontakt",
+    "followMe": "Auf X folgen"
   },
   "ContactPage": {
     "title": "Kontakt",
@@ -147,7 +117,7 @@
     "orEmail": "Oder schreib uns an",
     "form": {
       "title": "Nachricht",
-      "description": "Schick uns eine Nachricht – wir antworten so schnell wie möglich.",
+      "description": "Sende eine Nachricht — wir antworten so bald wie möglich.",
       "name": "Betreff",
       "email": "E-Mail",
       "message": "Nachricht",
@@ -156,7 +126,7 @@
       "messagePlaceholder": "Nachricht eingeben",
       "submit": "Absenden",
       "submitting": "Wird gesendet…",
-      "success": "Nachricht erfolgreich gesendet. Wir antworten so schnell wie möglich.",
+      "success": "Nachricht erfolgreich gesendet. Wir antworten so bald wie möglich.",
       "minLength": "Der Betreff muss mindestens 3 Zeichen haben.",
       "maxLengthName": "Der Betreff darf höchstens 100 Zeichen haben.",
       "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
@@ -165,154 +135,86 @@
       "invalid": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Anmelden",
+      "welcomeBack": "Willkommen zurück",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signIn": "Anmelden",
+      "signUpHint": "Noch kein Konto? Registrieren",
+      "forgotPassword": "Passwort vergessen?",
+      "signInWithGoogle": "Mit Google anmelden",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort verbergen",
+      "or": "Oder weiter mit",
+      "emailRequired": "Bitte gib deine E-Mail ein",
+      "passwordRequired": "Bitte gib dein Passwort ein",
+      "captchaInvalid": "Captcha-Prüfung fehlgeschlagen",
+      "captchaError": "Fehler bei der Captcha-Prüfung"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
+      "title": "Registrieren",
+      "createAccount": "Konto erstellen",
       "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signUp": "Registrieren",
+      "signInHint": "Schon ein Konto? Anmelden",
+      "checkEmail": "Bitte prüfe dein E-Mail-Postfach",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort verbergen",
+      "nameRequired": "Bitte gib deinen Namen ein",
+      "emailRequired": "Bitte gib deine E-Mail ein",
+      "passwordRequired": "Bitte gib dein Passwort ein",
+      "captchaInvalid": "Captcha-Prüfung fehlgeschlagen",
+      "captchaError": "Fehler bei der Captcha-Prüfung"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Passwort vergessen",
+      "email": "E-Mail",
+      "send": "Reset-Link senden",
+      "backToLogin": "Zurück zur Anmeldung",
+      "checkEmail": "Falls ein Konto mit dieser E-Mail existiert, haben wir einen Reset-Link gesendet. Prüfe dein Postfach.",
+      "emailRequired": "Bitte gib deine E-Mail ein",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Kein Konto mit dieser E-Mail gefunden",
+        "tooManyRequests": "Zu viele Versuche. Bitte später erneut versuchen",
+        "serverError": "Etwas ist schiefgelaufen. Bitte erneut versuchen"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Passwort zurücksetzen",
+      "password": "Neues Passwort",
+      "reset": "Passwort zurücksetzen",
+      "backToLogin": "Zurück zur Anmeldung",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort verbergen",
+      "minLength": "Das Passwort muss mindestens 8 Zeichen haben",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Der Reset-Link ist abgelaufen. Bitte einen neuen anfordern",
+        "invalidToken": "Ungültiger Reset-Link. Bitte einen neuen anfordern",
+        "tooManyRequests": "Zu viele Versuche. Bitte später erneut versuchen",
+        "serverError": "Etwas ist schiefgelaufen. Bitte erneut versuchen"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Etwas ist schiefgelaufen!",
+      "tryAgain": "Bitte versuche es erneut.",
+      "backToLogin": "Zurück zur Anmeldung",
+      "checkEmail": "Bitte prüfe dein E-Mail-Postfach"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "byClickingContinue": "Mit dem Fortfahren stimmst du unseren ",
+      "and": " und "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Startseite"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "faq": {
         "title": "FAQ"
@@ -322,177 +224,63 @@
       },
       "contact": {
         "title": "Kontakt"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Video hochladen, dauerhaften teilbaren Link erhalten",
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
+          "features": "Funktionen",
           "faq": "FAQ"
         }
       },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
-        }
-      },
       "company": {
-        "title": "Company",
+        "title": "Unternehmen",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Über uns",
+          "contact": "Kontakt"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Rechtliches",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookie-Richtlinie",
+          "privacyPolicy": "Datenschutzrichtlinie",
+          "termsOfService": "Nutzungsbedingungen"
         }
       }
     },
     "avatar": {
-      "dashboard": "Arbeitsbereich",
+      "dashboard": "Werkbank",
       "resources": "Meine Ressourcen",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Abrechnung",
+      "settings": "Einstellungen"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Arbeitsbereich"
+      "title": "Werkbank"
     },
     "home": {
       "loading": "Übersicht wird geladen…",
       "resourceCount": "Videos",
       "videoCountLabel": "Videos in Meine Ressourcen",
-      "storageFullHint": "Der Speicherplatz der kostenlosen Testphase ist voll. Löschen Sie einige Videos; Tarife mit mehr Kapazität kommen bald.",
+      "storageFullHint": "Der kostenlose Testspeicher ist voll. Lösche einige Videos; Pläne mit mehr Kapazität folgen bald.",
       "entryResourcesTitle": "Meine Ressourcen",
-      "entryResourcesDesc": "Ihre hochgeladenen Videos liegen hier — Links kopieren, öffnen oder jederzeit löschen.",
+      "entryResourcesDesc": "Hier liegen deine hochgeladenen Videos — Links kopieren, öffnen oder jederzeit löschen.",
       "entryUploadTitle": "Video hochladen",
-      "entryUploadDesc": "Legen Sie ein Video auf der Startseite ab und erhalten Sie in Sekunden einen teilbaren Link.",
+      "entryUploadDesc": "Lege ein Video auf der Startseite ab und erhalte in Sekunden einen teilbaren Link.",
       "entryFilesTitle": "Meine Ressourcen",
-      "entryFilesDesc": "Angemeldete Uploads werden in Ihrem Konto gespeichert. URL kopieren oder nicht mehr benötigte Dateien entfernen.",
+      "entryFilesDesc": "Uploads im angemeldeten Zustand werden in deinem Konto gespeichert. URL kopieren oder nicht mehr benötigte Dateien entfernen.",
       "entryFilesCta": "Meine Ressourcen öffnen",
       "filesPointUploadTitle": "Viele Formate",
       "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV und mehr",
       "filesPointManageTitle": "Links verwalten",
-      "filesPointManageBody": "In Meine Ressourcen kopieren, öffnen oder löschen",
+      "filesPointManageBody": "Kopieren, öffnen oder löschen unter Meine Ressourcen",
       "filesPointFreeTitle": "Kostenloser Speicher",
       "filesPointFreeBody": "300 MB kostenlos für gehostete Videos",
-      "filesPointPaidTitle": "Kostenpflichtige Pläne",
+      "filesPointPaidTitle": "Bezahlpläne",
       "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
     },
     "resources": {
@@ -505,19 +293,19 @@
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Aktiv",
-      "planHintFree": "Kostenlose Testphase ist jetzt verfügbar. Tarife mit mehr Kapazität kommen bald.",
-      "planHintPro": "Sie nutzen Pro (10 GB). Lifetime schaltet 100 GB frei.",
+      "planHintFree": "Kostenlose Testphase jetzt verfügbar. Pläne mit mehr Kapazität folgen bald.",
+      "planHintPro": "Du nutzt Pro (10 GB). Lifetime freischaltet 100 GB.",
       "planHintLifetime": "Alle Funktionen freigeschaltet",
-      "description": "Videos, die Sie angemeldet hochgeladen haben. Hier hochladen, Vorschau ansehen, herunterladen oder löschen.",
+      "description": "Videos, die du angemeldet hochgeladen hast. Hier hochladen, Vorschau, Download oder jederzeit löschen.",
       "empty": "Noch keine Videos",
-      "emptyHint": "Klicken Sie auf „Hochladen“ oder die +-Karte, um Ihr erstes Video hinzuzufügen.",
+      "emptyHint": "Klicke auf Hochladen oder die +-Karte, um dein erstes Video hinzuzufügen.",
       "goUpload": "Video hochladen",
       "upload": "Hochladen",
       "uploading": "Wird hochgeladen…",
       "uploadSuccess": "Upload abgeschlossen",
       "uploadFailed": "Upload fehlgeschlagen",
       "unsupportedType": "Nur Videoformate werden unterstützt (MP4, MOV, AVI, WebM, MKV…)",
-      "fileTooLarge": "Datei zu groß. Der kostenlose Plan erlaubt bis zu 300MB pro Datei.",
+      "fileTooLarge": "Datei zu groß. Der kostenlose Plan erlaubt bis zu 300 MB pro Datei.",
       "filterFormat": "Dateityp",
       "formatAll": "Alle Typen",
       "format": {
@@ -533,7 +321,7 @@
       "usageStorage": "Speicher",
       "viewGrid": "Rasteransicht",
       "viewList": "Listenansicht",
-      "loading": "Wird geladen…",
+      "loading": "Laden…",
       "loadError": "Ressourcen konnten nicht geladen werden",
       "searchPlaceholder": "Nach Dateiname suchen…",
       "search": "Suchen",
@@ -544,12 +332,12 @@
       "open": "Öffnen",
       "preview": "Vorschau",
       "previewClose": "Schließen",
-      "shareCodes": "Teilen-Codes",
-      "shareCodesDesc": "Sofort kopierbare Links für Markdown, HTML, BBCode und mehr.",
+      "shareCodes": "Einbettungscodes",
+      "shareCodesDesc": "Fertige Links für Markdown, HTML, BBCode und mehr.",
       "download": "Herunterladen",
       "delete": "Löschen",
       "deleteTitle": "Video löschen",
-      "deleteConfirm": "Dadurch wird das Video dauerhaft aus Ihrem Konto entfernt. Das kann nicht rückgängig gemacht werden.",
+      "deleteConfirm": "Dadurch wird das Video dauerhaft aus deinem Konto entfernt. Das lässt sich nicht rückgängig machen.",
       "deleteSuccess": "Video gelöscht",
       "deleteFailed": "Video konnte nicht gelöscht werden",
       "cancel": "Abbrechen",
@@ -560,308 +348,219 @@
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Benutzer",
+        "fakeData": "Hinweis: Beispieldaten zur Demonstration, einige Funktionen sind deaktiviert",
+        "error": "Benutzer konnten nicht geladen werden",
+        "search": "Benutzer suchen…",
         "columns": {
-          "columns": "Columns",
+          "columns": "Spalten",
           "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "email": "E-Mail",
+          "role": "Rolle",
+          "createdAt": "Erstellt am",
+          "customerId": "Kunden-ID",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Sperrgrund",
+          "banExpires": "Sperre endet"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Benutzer",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-Mail bestätigt",
+          "unverified": "E-Mail nicht bestätigt"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-Mail in die Zwischenablage kopiert",
+        "banned": "Gesperrt",
+        "active": "Aktiv",
+        "joined": "Beigetreten am",
+        "updated": "Aktualisiert am",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Sperrgrund",
+          "reasonPlaceholder": "Grund für die Sperrung dieses Benutzers eingeben",
+          "defaultReason": "Spam",
+          "never": "Nie",
+          "expires": "Sperre endet",
+          "selectDate": "Datum wählen",
+          "button": "Benutzer sperren",
+          "success": "Benutzer wurde gesperrt",
+          "error": "Benutzer konnte nicht gesperrt werden"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Sperre aufheben",
+          "success": "Sperre wurde aufgehoben",
+          "error": "Sperre konnte nicht aufgehoben werden"
         },
-        "close": "Close"
+        "close": "Schließen"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Einstellungen",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Kontoinformationen verwalten",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Zum Hochladen eines eigenen Avatars auf die Schaltfläche klicken",
+          "recommendation": "Ein Avatar ist optional, aber sehr empfehlenswert",
+          "uploading": "Wird hochgeladen…",
+          "uploadAvatar": "Avatar hochladen",
+          "success": "Avatar erfolgreich aktualisiert",
+          "fail": "Avatar konnte nicht aktualisiert werden"
         },
         "name": {
           "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "description": "Bitte gib deinen Anzeigenamen ein",
+          "placeholder": "Namen eingeben",
+          "minLength": "Bitte mindestens 3 Zeichen verwenden",
+          "maxLength": "Bitte höchstens 30 Zeichen verwenden",
+          "hint": "Bitte 3–30 Zeichen für deinen Namen verwenden",
+          "success": "Name erfolgreich aktualisiert",
+          "fail": "Name konnte nicht aktualisiert werden",
+          "saving": "Speichern…",
+          "save": "Speichern"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Abrechnung",
+        "description": "Abo und Rechnungsdaten verwalten",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Aktiv",
+          "trial": "Testphase",
+          "free": "Kostenlos",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "Monat",
+          "year": "Jahr",
+          "oneTime": "einmalig"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Aktueller Plan",
+          "description": "Details zu deinem aktuellen Plan",
+          "noPlan": "Du hast keinen aktiven Plan"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Laden…",
+          "createCustomerPortalFailed": "Stripe-Kundenportal konnte nicht geöffnet werden"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Preis:",
+        "periodStartDate": "Zeitraumbeginn:",
+        "periodEndDate": "Zeitraumende:",
+        "trialEnds": "Testphase endet:",
+        "freePlanMessage": "Du nutzt derzeit den kostenlosen Plan mit eingeschränkten Funktionen",
+        "lifetimeMessage": "Du hast lebenslangen Zugang zu allen Premium-Funktionen",
+        "manageSubscription": "Abo und Abrechnung verwalten",
+        "manageBilling": "Abrechnung verwalten",
+        "upgradePlan": "Plan upgraden",
+        "retry": "Erneut versuchen",
+        "errorMessage": "Daten konnten nicht geladen werden",
+        "paymentSuccess": "Zahlung erfolgreich"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Zahlung wird verarbeitet",
+          "description": "Bitte warte, während wir deine Zahlung bestätigen…"
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Zahlung erfolgreich",
+          "description": "Weiterleitung erfolgt automatisch…"
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Zahlung fehlgeschlagen",
+          "description": "Bei der Verarbeitung deiner Zahlung ist ein Problem aufgetreten."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Zeitüberschreitung",
+          "description": "Die Zahlungsverarbeitung dauert länger als erwartet."
         },
-        "retry": "Retry"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
-        }
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Erneut versuchen"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Sicherheit",
+        "description": "Sicherheitseinstellungen verwalten",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Passwort ändern",
+          "description": "Gib dein aktuelles und ein neues Passwort ein",
+          "currentPassword": "Aktuelles Passwort",
+          "currentRequired": "Aktuelles Passwort ist erforderlich",
+          "newPassword": "Neues Passwort",
+          "newMinLength": "Das Passwort muss mindestens 8 Zeichen haben",
+          "hint": "Bitte mindestens 8 Zeichen für das Passwort verwenden",
+          "showPassword": "Passwort anzeigen",
+          "hidePassword": "Passwort verbergen",
+          "success": "Passwort erfolgreich aktualisiert",
+          "fail": "Passwort konnte nicht aktualisiert werden",
+          "saving": "Speichern…",
+          "save": "Speichern"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Passwort zurücksetzen",
+          "description": "Passwort zurücksetzen, um die E-Mail-Anmeldung zu aktivieren",
+          "info": "Durch das Zurücksetzen des Passworts kannst du dich zusätzlich zu sozialen Logins mit E-Mail und Passwort anmelden. Du erhältst eine E-Mail mit Anweisungen zum Zurücksetzen.",
+          "button": "Passwort zurücksetzen"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Konto löschen",
+          "description": "Konto und alle Inhalte dauerhaft entfernen",
+          "warning": "Diese Aktion ist nicht umkehrbar — bitte mit Vorsicht fortfahren",
+          "button": "Konto löschen",
+          "confirmTitle": "Konto löschen",
+          "confirmDescription": "Möchtest du dein Konto wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+          "confirm": "Löschen",
+          "cancel": "Abbrechen",
+          "deleting": "Wird gelöscht…",
+          "success": "Konto erfolgreich gelöscht",
+          "fail": "Konto konnte nicht gelöscht werden"
         }
       }
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Tarife mit mehr Kapazität kommen bald. Kostenlose Testphase ist jetzt verfügbar.",
+      "description": "Pläne mit mehr Kapazität folgen bald. Die kostenlose Testphase ist jetzt verfügbar.",
       "button": "Upgrade"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "{name}-Team",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hallo, {name}.",
+      "body": "Bitte klicke auf den Link unten, um deine E-Mail-Adresse zu bestätigen.",
+      "confirmEmail": "E-Mail bestätigen",
+      "subject": "E-Mail bestätigen"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Hallo, {name}.",
+      "body": "Wir haben eine Anfrage zum Zurücksetzen deines MP4toURL-Passworts erhalten. Klicke auf die Schaltfläche unten, um ein neues Passwort zu wählen. Falls du das nicht angefordert hast, kannst du diese E-Mail ignorieren.",
+      "resetPassword": "Passwort zurücksetzen",
+      "subject": "MP4toURL-Passwort zurücksetzen"
     },
     "contactMessage": {
       "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "email": "E-Mail: {email}",
+      "message": "Nachricht: {message}",
+      "subject": "Kontaktnachricht von der Website"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "SOFORT KOPIERBARE CODES",
+    "sectionTitle": "FERTIGE CODES",
     "copyUrl": "URL kopieren",
     "copied": "Kopiert",
     "copyFailed": "Kopieren fehlgeschlagen",
     "openTab": "In neuem Tab öffnen",
-    "successTitle": "Fertig! Ihre Video-URL ist bereit",
-    "successSubtitle": "Ihr Video wurde hochgeladen und kann geteilt werden.",
+    "successTitle": "Fertig! Deine Video-URL ist bereit",
+    "successSubtitle": "Dein Video wurde hochgeladen und ist bereit zum Teilen.",
     "videoLabel": "Video",
     "watchLabel": "Video ansehen",
     "shareLink": {
-      "title": "Freigabelink",
+      "title": "Link teilen",
       "desc": "Direkter Link zum Teilen überall"
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "Für GitHub, Notion und Dokumente"
+      "desc": "Für GitHub, Notion und Dokumentation"
     },
     "markdownLink": {
       "title": "Markdown mit Link",
@@ -873,7 +572,7 @@
     },
     "htmlLink": {
       "title": "HTML mit Link",
-      "desc": "Einfacher Link, der in einem neuen Tab öffnet"
+      "desc": "Einfacher Anker, der in einem neuen Tab öffnet"
     },
     "bbcode": {
       "title": "BBCode",
@@ -881,141 +580,141 @@
     },
     "bbcodeLink": {
       "title": "BBCode mit Link",
-      "desc": "Forumslink mit Ansehen-Label"
+      "desc": "Forenlink mit Ansehen-Label"
     }
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Video hochladen und dauerhaften teilbaren Link erhalten",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
-      "guestSuccessHint": "Ihr Video wurde hochgeladen. Kopieren Sie den Link unten zum Teilen.",
-      "registerForCodesTitle": "Markdown, HTML & BBCode gewünscht?",
-      "registerForCodesDesc": "Kostenlos registrieren, um sofort kopierbare Einbettungscodes freizuschalten und alle Videos unter Meine Ressourcen zu verwalten.",
+      "title": "Kostenloser Video-zu-URL-Konverter",
+      "description": "MP4-Videos hochladen und in Sekunden dauerhafte, teilbare Links erhalten.",
+      "tagline": "Unterstützt MP4, MOV, AVI, WebM, MKV bis 300 MB. Keine Registrierung nötig.",
+      "uploadHeading": "Video hochladen",
+      "uploadTitle": "Video hier ablegen oder klicken zum Durchsuchen",
+      "uploadHint": "Unterstützt MP4, MOV, AVI, WebM, MKV bis 300 MB",
+      "maxSize": "Maximale Dateigröße: 300 MB",
+      "convert": "In URL umwandeln",
+      "uploading": "Wird hochgeladen…",
+      "copy": "Link kopieren",
+      "copied": "Kopiert",
+      "guestSuccessHint": "Dein Video wurde hochgeladen. Kopiere den Link unten zum Teilen.",
+      "registerForCodesTitle": "Markdown, HTML und BBCode gewünscht?",
+      "registerForCodesDesc": "Kostenlos registrieren, um fertige Einbettungscodes freizuschalten und alle Videos unter Meine Ressourcen zu verwalten.",
       "registerCta": "Kostenlos registrieren",
       "uploadAnother": "Weiteres Video hochladen",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Upload fehlgeschlagen. Bitte erneut versuchen.",
+      "unsupportedType": "Nicht unterstützter Dateityp. Bitte MP4, MOV, AVI, WebM oder MKV hochladen.",
+      "fileTooLarge": "Datei zu groß. Der kostenlose Plan erlaubt bis zu 300 MB pro Datei."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Warum MP4 to URL",
+      "subtitle": "Gebaut für Tempo, Privatsphäre und dauerhafte Medienlinks.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Blitzschnell",
+          "description": "Videos in Sekunden in teilbare URLs umwandeln. Kein Warten, keine Warteschlangen."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Sicher und privat",
+          "description": "Deine Videos werden per HTTPS übertragen und mit datenschutzfreundlichen Kontrollen gehostet."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Dauerhafte Links",
+          "description": "Erhalte dauerhafte Links, die nicht ablaufen. Ideal für Dokumentation, Tickets und Social Sharing."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: Video in Sekunden zur URL"
+      "title": "Video zu URL — in Sekunden",
+      "subtitle": "Von der lokalen Datei zum teilbaren Link",
+      "description": "MP4 und verwandte Formate hochladen, klare dauerhafte URL erhalten — zum Einfügen in Docs, Chats und Posts.",
+      "point1": "Video vom Gerät ablegen",
+      "point2": "In Sekunden umwandeln — für Standardnutzung ohne Anmeldung",
+      "point3": "Dauerhaften Link kopieren und überall teilen",
+      "imageAlt": "mp4tourl.com Collage: Video teilbar machen",
+      "imageAltNew": "mp4tourl.com: Video zu URL in Sekunden, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "So funktioniert’s",
+      "subtitle": "Drei Schritte von der lokalen Datei zur teilbaren URL.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Video auswählen",
+          "description": "Per Drag & Drop oder Durchsuchen MP4, MOV, AVI, WebM oder MKV wählen (bis 300 MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "In URL umwandeln",
+          "description": "Auf „In URL umwandeln“ klicken. Die Verarbeitung ist meist in wenigen Sekunden fertig."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Kopieren und teilen",
+          "description": "Dauerhaften Link kopieren und in Docs, Chats, Websites oder Social Posts nutzen."
         }
       }
     },
     "bannerShowcase": {
       "title": "Szenen",
       "subtitle": "Vom lokalen Video zum teilbaren Link.",
-      "description": "Datei ablegen, saubere URL für Dokumente, Chats und Beiträge — unten ein paar Beispiele ansehen.",
+      "description": "Datei ablegen, klare URL für Docs, Chats und Posts erhalten — ein paar Varianten unten ansehen.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Lokales Video in Sekunden in eine teilbare Adresse verwandeln."
+          "description": "Lokalen Clip in Sekunden in eine teilbare Adresse verwandeln."
         },
         "newStyle": {
           "title": "Überall teilen",
-          "description": "Link in Dokumente, Tickets und Social-Media-Beiträge einfügen."
+          "description": "Link in Docs, Tickets und Social Posts einfügen."
         },
         "dark": {
           "title": "Sauberes Hosting",
-          "description": "Videos dauerhaft erreichbar mit stabiler, permanenter URL."
+          "description": "Videos mit stabiler, dauerhafter URL erreichbar halten."
         },
         "retro": {
-          "title": "Schnelle Konvertierung",
+          "title": "Schnelle Umwandlung",
           "description": "Einmal hochladen, Link kopieren, jederzeit wiederverwenden."
         }
       }
     },
     "faqs": {
-      "title": "Häufige Fragen",
-      "subtitle": "Was Sie über Video zu URL wissen möchten.",
+      "title": "FAQ",
+      "subtitle": "Was du über Video zu URL wissen möchtest.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Was ist ein Video-zu-URL-Konverter?",
+          "answer": "Ein Video-zu-URL-Konverter lädt deine lokale Videodatei hoch und liefert einen direkten Weblink, den du überall teilen kannst."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Wie funktioniert die Umwandlung von Video zu URL?",
+          "answer": "Video hochladen, Verarbeitung abwarten, dann die erzeugte URL kopieren. Den Link kannst du sofort öffnen, teilen oder einbetten."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Welche Videoformate werden unterstützt?",
+          "answer": "Unterstützte Formate sind MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP und FLV. Die kostenlose Stufe erlaubt bis zu 300 MB pro Datei."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Sind die erzeugten Video-Links dauerhaft?",
+          "answer": "Ja. Die Links sind für langfristiges Teilen ausgelegt, damit deine Video-URL stabil und wiederverwendbar bleibt."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Wo kann ich die Video-URL nutzen?",
+          "answer": "In Dokumentation, Issue-Trackern, Chats, Websites, Social-Media-Posts und Team-Tools."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Ist dieser Video-zu-URL-Konverter kostenlos?",
+          "answer": "Ja. Der Standardablauf der Umwandlung ist im Rahmen der aktuellen Upload-Limits kostenlos."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Wie sicher sind Upload und Hosting?",
+          "answer": "Uploads laufen per HTTPS und werden für stabile Auslieferung gehostet — so erhältst du zuverlässige Links für Videoinhalte."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Der einfachste Weg, Videos zu teilen",
+      "description": "MP4 to URL ist ein kostenloser, schneller Media-Hosting-Ablauf für Entwickler, Creator und Teams. Videos in Sekunden in dauerhafte URLs umwandeln und überall teilen.",
+      "primaryButton": "In URL umwandeln",
+      "secondaryButton": "FAQ lesen"
     }
   }
 }

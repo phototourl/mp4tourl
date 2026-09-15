@@ -82,7 +82,6 @@ export function constructMetadata({
       description,
       siteName: defaultMessages.Metadata.name,
       images: [ogImageUrl.toString()],
-      modifiedTime: '2026-09-15T00:00:00.000Z',
     },
     twitter: {
       card: 'summary_large_image',

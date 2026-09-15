@@ -1,144 +1,114 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "محول فيديو إلى رابط مجاني — ارفع MP4 واحصل على روابط قابلة للمشاركة",
+    "description": "ارفع MP4 أو MOV أو AVI أو WebM أو MKV واحصل على روابط دائمة قابلة للمشاركة خلال ثوانٍ. استضافة فيديو مجانية حتى 300 ميجابايت — دون تسجيل."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signUp": "إنشاء حساب",
+    "language": "تغيير اللغة",
+    "languageHint": "اختيار المنطقة يغيّر اللغة والمحتوى.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "تبديل المظهر",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "حسب النظام"
     },
     "theme": {
-      "label": "Toggle theme",
+      "label": "تبديل السمة",
       "default": "Default",
       "blue": "Blue",
       "green": "Green",
       "amber": "Amber",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "نسخ",
+    "saving": "جارٍ الحفظ…",
+    "save": "حفظ",
+    "loading": "جارٍ التحميل…",
+    "cancel": "إلغاء",
+    "logoutFailed": "تعذّر تسجيل الخروج",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "إجمالي {count} سجلًا",
+      "noResults": "لا نتائج",
+      "loading": "جارٍ التحميل…",
+      "columns": "الأعمدة",
+      "rowsPerPage": "صفوف لكل صفحة",
+      "page": "صفحة",
+      "firstPage": "الصفحة الأولى",
+      "lastPage": "الصفحة الأخيرة",
+      "nextPage": "الصفحة التالية",
+      "previousPage": "الصفحة السابقة",
+      "ascending": "تصاعدي",
+      "descending": "تنازلي"
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "مجاني",
+      "description": "استضف الفيديوهات واحصل على رابط دائم قابل للمشاركة",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "حجم الرفع: 300 ميجابايت",
+        "feature-2": "روابط CDN دائمة",
+        "feature-3": "دون الحاجة لتسجيل",
+        "feature-4": "دعم المجتمع"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "نطاقات مخصصة",
+        "limit-2": "هوية بصرية مخصصة",
+        "limit-3": "تحديثات مدى الحياة"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "حدود أعلى وسجل رفع لصنّاع المحتوى النشطين",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "رفع فيديوهات أكبر",
+        "feature-2": "تخزين 10 جيجابايت",
+        "feature-3": "سجل الرفع",
+        "feature-4": "دعم ذو أولوية",
+        "feature-5": "نطاقات مخصصة"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "هوية بصرية مخصصة",
+        "limit-2": "تحديثات مدى الحياة"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "ادفع مرة واحدة لسعة استضافة فيديو طويلة الأمد",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "كل ميزات Pro",
+        "feature-2": "تخزين 100 جيجابايت",
+        "feature-3": "دعم مخصص",
+        "feature-4": "أمان بمستوى المؤسسات",
+        "feature-5": "تكاملات متقدمة",
+        "feature-6": "هوية بصرية مخصصة",
+        "feature-7": "تحديثات مدى الحياة"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "عذرًا، الصفحة التي تبحث عنها غير موجودة.",
+    "backToHome": "العودة للرئيسية"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "حدث خطأ ما!",
+    "tryAgain": "أعد المحاولة",
+    "backToHome": "العودة للرئيسية"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "حول",
+    "description": "MP4toURL يحوّل فيديوهاتك إلى روابط دائمة قابلة للمشاركة — ارفع MP4 أو MOV أو AVI أو WebM أو MKV وشارك خلال ثوانٍ.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
+    "authorBio": "محول فيديو إلى رابط مجاني",
+    "introduction": "MP4toURL طريقة مجانية وسريعة لاستضافة الفيديو ومشاركته. ارفع ملفًا، احصل على رابط CDN دائم، واستخدمه في أي مكان — دون إعداد معقّد.",
     "imageAlt": "شعار MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "talkWithMe": "تواصل معنا",
+    "followMe": "تابعنا على X"
   },
   "ContactPage": {
     "title": "اتصل بنا",
@@ -165,309 +135,127 @@
       "invalid": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
     }
   },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "تسجيل الدخول",
+      "welcomeBack": "مرحبًا بعودتك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "signIn": "دخول",
+      "signUpHint": "ليس لديك حساب؟ أنشئ حسابًا",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signInWithGoogle": "الدخول عبر Google",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "or": "أو المتابعة عبر",
+      "emailRequired": "يرجى إدخال بريدك الإلكتروني",
+      "passwordRequired": "يرجى إدخال كلمة المرور",
+      "captchaInvalid": "فشل التحقق من الكابتشا",
+      "captchaError": "خطأ في التحقق من الكابتشا"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "إنشاء حساب",
+      "createAccount": "أنشئ حسابًا",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "signUp": "تسجيل",
+      "signInHint": "لديك حساب بالفعل؟ سجّل الدخول",
+      "checkEmail": "يرجى التحقق من صندوق بريدك",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "nameRequired": "يرجى إدخال اسمك",
+      "emailRequired": "يرجى إدخال بريدك الإلكتروني",
+      "passwordRequired": "يرجى إدخال كلمة المرور",
+      "captchaInvalid": "فشل التحقق من الكابتشا",
+      "captchaError": "خطأ في التحقق من الكابتشا"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "نسيت كلمة المرور",
+      "email": "البريد الإلكتروني",
+      "send": "إرسال رابط إعادة التعيين",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "checkEmail": "إذا وُجد حساب بهذا البريد، أرسلنا رابط إعادة التعيين. تحقق من صندوق الوارد.",
+      "emailRequired": "يرجى إدخال بريدك الإلكتروني",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "لا يوجد حساب بهذا البريد",
+        "tooManyRequests": "محاولات كثيرة. حاول لاحقًا",
+        "serverError": "حدث خطأ ما. حاول مرة أخرى"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "إعادة تعيين كلمة المرور",
+      "password": "كلمة مرور جديدة",
+      "reset": "تعيين كلمة المرور",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "minLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "انتهت صلاحية رابط إعادة التعيين. اطلب رابطًا جديدًا",
+        "invalidToken": "رابط إعادة التعيين غير صالح. اطلب رابطًا جديدًا",
+        "tooManyRequests": "محاولات كثيرة. حاول لاحقًا",
+        "serverError": "حدث خطأ ما. حاول مرة أخرى"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "حدث خطأ ما!",
+      "tryAgain": "يرجى المحاولة مرة أخرى.",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "checkEmail": "يرجى التحقق من صندوق بريدك"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "شروط الخدمة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "byClickingContinue": "بالمتابعة، فإنك توافق على ",
+      "and": " و "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "الرئيسية"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "الأسئلة الشائعة"
       },
       "about": {
         "title": "حول"
       },
       "contact": {
         "title": "اتصل بنا"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "ارفع فيديو، واحصل على رابط دائم قابل للمشاركة",
       "product": {
-        "title": "Product",
+        "title": "المنتج",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "الميزات",
+          "faq": "الأسئلة الشائعة"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "الشركة",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "حول",
+          "contact": "اتصل بنا"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "قانوني",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+          "privacyPolicy": "سياسة الخصوصية",
+          "termsOfService": "شروط الخدمة"
         }
       }
     },
     "avatar": {
       "dashboard": "مساحة العمل",
       "resources": "مواردي",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "الفوترة",
+      "settings": "الإعدادات"
     }
   },
   "Dashboard": {
@@ -491,9 +279,9 @@
       "filesPointManageTitle": "إدارة الروابط",
       "filesPointManageBody": "نسخ أو فتح أو حذف من مواردي",
       "filesPointFreeTitle": "تخزين مجاني",
-      "filesPointFreeBody": "300 MB مجانًا للفيديوهات المستضافة",
+      "filesPointFreeBody": "300 ميجابايت مجانًا للفيديوهات المستضافة",
       "filesPointPaidTitle": "خطط مدفوعة",
-      "filesPointPaidBody": "Pro 10 GB · Lifetime 100 GB"
+      "filesPointPaidBody": "Pro 10 جيجابايت · Lifetime 100 جيجابايت"
     },
     "resources": {
       "title": "مواردي",
@@ -506,7 +294,7 @@
       "planLifetime": "Lifetime",
       "planActive": "نشط",
       "planHintFree": "التجربة المجانية متاحة الآن. خطط بسعة أكبر قادمة قريبًا.",
-      "planHintPro": "أنت على Pro (10 GB). Lifetime يفتح 100 GB.",
+      "planHintPro": "أنت على Pro (10 جيجابايت). Lifetime يفتح 100 جيجابايت.",
       "planHintLifetime": "جميع الميزات مفتوحة",
       "description": "الفيديوهات التي رفعتها أثناء تسجيل الدخول. ارفع هنا، عاين، نزّل أو احذف في أي وقت.",
       "empty": "لا توجد فيديوهات بعد",
@@ -517,7 +305,7 @@
       "uploadSuccess": "اكتمل الرفع",
       "uploadFailed": "فشل الرفع",
       "unsupportedType": "يُدعم فقط تنسيقات الفيديو (MP4، MOV، AVI، WebM، MKV…)",
-      "fileTooLarge": "الملف كبير جدًا. الخطة المجانية تسمح بحد أقصى 300MB لكل ملف.",
+      "fileTooLarge": "الملف كبير جدًا. الخطة المجانية تسمح بحد أقصى 300 ميجابايت لكل ملف.",
       "filterFormat": "نوع الملف",
       "formatAll": "كل الأنواع",
       "format": {
@@ -549,7 +337,7 @@
       "download": "تنزيل",
       "delete": "حذف",
       "deleteTitle": "حذف الفيديو",
-      "deleteConfirm": "سيُحذف هذا الفيديو نهائياً من حسابك. لا يمكن التراجع عن هذا الإجراء.",
+      "deleteConfirm": "سيُحذف هذا الفيديو نهائيًا من حسابك. لا يمكن التراجع عن هذا الإجراء.",
       "deleteSuccess": "تم حذف الفيديو",
       "deleteFailed": "تعذّر حذف الفيديو",
       "cancel": "إلغاء",
@@ -558,222 +346,202 @@
       "pageNext": "التالي"
     },
     "admin": {
-      "title": "Admin",
+      "title": "الإدارة",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "المستخدمون",
+        "fakeData": "ملاحظة: بيانات تجريبية للعرض، وبعض الميزات معطّلة",
+        "error": "تعذّر جلب المستخدمين",
+        "search": "بحث عن مستخدمين…",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "الأعمدة",
+          "name": "الاسم",
+          "email": "البريد الإلكتروني",
+          "role": "الدور",
+          "createdAt": "تاريخ الإنشاء",
+          "customerId": "معرّف العميل",
+          "status": "الحالة",
+          "banReason": "سبب الحظر",
+          "banExpires": "انتهاء الحظر"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "مسؤول",
+        "user": "مستخدم",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "البريد موثّق",
+          "unverified": "البريد غير موثّق"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "تم نسخ البريد إلى الحافظة",
+        "banned": "محظور",
+        "active": "نشط",
+        "joined": "انضم في",
+        "updated": "حُدّث في",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "سبب الحظر",
+          "reasonPlaceholder": "أدخل سبب حظر هذا المستخدم",
+          "defaultReason": "رسائل مزعجة",
+          "never": "أبدًا",
+          "expires": "انتهاء الحظر",
+          "selectDate": "اختر التاريخ",
+          "button": "حظر المستخدم",
+          "success": "تم حظر المستخدم",
+          "error": "تعذّر حظر المستخدم"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "إلغاء الحظر",
+          "success": "تم إلغاء حظر المستخدم",
+          "error": "تعذّر إلغاء الحظر"
         },
-        "close": "Close"
+        "close": "إغلاق"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "الإعدادات",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "الملف الشخصي",
+        "description": "إدارة معلومات حسابك",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "الصورة الرمزية",
+          "description": "انقر زر الرفع لرفع صورة مخصصة",
+          "recommendation": "الصورة الرمزية اختيارية لكن يُفضّل ضبطها",
+          "uploading": "جارٍ الرفع…",
+          "uploadAvatar": "رفع صورة",
+          "success": "تم تحديث الصورة بنجاح",
+          "fail": "تعذّر تحديث الصورة"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "الاسم",
+          "description": "أدخل اسم العرض",
+          "placeholder": "أدخل اسمك",
+          "minLength": "استخدم 3 أحرف على الأقل",
+          "maxLength": "استخدم 30 حرفًا كحد أقصى",
+          "hint": "استخدم 3–30 حرفًا لاسمك",
+          "success": "تم تحديث الاسم بنجاح",
+          "fail": "تعذّر تحديث الاسم",
+          "saving": "جارٍ الحفظ…",
+          "save": "حفظ"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "الفوترة",
+        "description": "إدارة الاشتراك وتفاصيل الفوترة",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "نشط",
+          "trial": "تجريبي",
+          "free": "مجاني",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "شهر",
+          "year": "سنة",
+          "oneTime": "مرة واحدة"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "الخطة الحالية",
+          "description": "تفاصيل خطتك الحالية",
+          "noPlan": "ليس لديك خطة نشطة"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "جارٍ التحميل…",
+          "createCustomerPortalFailed": "تعذّر فتح بوابة عملاء Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "السعر:",
+        "periodStartDate": "بداية الفترة:",
+        "periodEndDate": "نهاية الفترة:",
+        "trialEnds": "تنتهي التجربة:",
+        "freePlanMessage": "أنت حاليًا على الخطة المجانية بميزات محدودة",
+        "lifetimeMessage": "لديك وصول مدى الحياة لجميع الميزات المميزة",
+        "manageSubscription": "إدارة الاشتراك والفوترة",
+        "manageBilling": "إدارة الفوترة",
+        "upgradePlan": "ترقية الخطة",
+        "retry": "إعادة المحاولة",
+        "errorMessage": "تعذّر جلب البيانات",
+        "paymentSuccess": "تم الدفع بنجاح"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "جارٍ معالجة الدفع",
+          "description": "يرجى الانتظار أثناء تأكيد الدفع…"
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "نجاح الدفع",
+          "description": "جارٍ إعادة التوجيه تلقائيًا…"
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "فشل الدفع",
+          "description": "حدثت مشكلة أثناء معالجة الدفع."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "انتهت مهلة المعالجة",
+          "description": "تستغرق معالجة الدفع وقتًا أطول من المتوقع."
         },
-        "retry": "Retry"
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "إعادة المحاولة"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "الأمان",
+        "description": "إدارة إعدادات الأمان",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "تغيير كلمة المرور",
+          "description": "أدخل كلمة المرور الحالية وكلمة مرور جديدة",
+          "currentPassword": "كلمة المرور الحالية",
+          "currentRequired": "كلمة المرور الحالية مطلوبة",
+          "newPassword": "كلمة المرور الجديدة",
+          "newMinLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+          "hint": "استخدم 8 أحرف على الأقل لكلمة المرور",
+          "showPassword": "إظهار كلمة المرور",
+          "hidePassword": "إخفاء كلمة المرور",
+          "success": "تم تحديث كلمة المرور بنجاح",
+          "fail": "تعذّر تحديث كلمة المرور",
+          "saving": "جارٍ الحفظ…",
+          "save": "حفظ"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "إعادة تعيين كلمة المرور",
+          "description": "أعد تعيين كلمة المرور لتفعيل الدخول بالبريد",
+          "info": "إعادة تعيين كلمة المرور تتيح لك الدخول بالبريد وكلمة المرور إضافةً إلى طرق الدخول الاجتماعي. ستصلك رسالة بتعليمات إعادة التعيين",
+          "button": "إعادة تعيين كلمة المرور"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "حذف الحساب",
+          "description": "إزالة حسابك وجميع محتوياته نهائيًا",
+          "warning": "هذا الإجراء لا يمكن التراجع عنه، فتابع بحذر",
+          "button": "حذف الحساب",
+          "confirmTitle": "حذف الحساب",
+          "confirmDescription": "هل أنت متأكد من حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+          "confirm": "حذف",
+          "cancel": "إلغاء",
+          "deleting": "جارٍ الحذف…",
+          "success": "تم حذف الحساب بنجاح",
+          "fail": "تعذّر حذف الحساب"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
+      "title": "ترقية",
       "description": "خطط بسعة أكبر قادمة قريبًا. التجربة المجانية متاحة الآن.",
-      "button": "Upgrade"
+      "button": "ترقية"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "فريق {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "مرحبًا، {name}.",
+      "body": "يرجى النقر على الرابط أدناه للتحقق من بريدك الإلكتروني.",
+      "confirmEmail": "تأكيد البريد",
+      "subject": "تحقق من بريدك الإلكتروني"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "مرحبًا، {name}.",
+      "body": "تلقّينا طلبًا لإعادة تعيين كلمة مرور MP4toURL. انقر الزر أدناه لاختيار كلمة مرور جديدة. إن لم تطلب ذلك، يمكنك تجاهل هذه الرسالة.",
+      "resetPassword": "إعادة تعيين كلمة المرور",
+      "subject": "إعادة تعيين كلمة مرور MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "الاسم: {name}",
+      "email": "البريد: {email}",
+      "message": "الرسالة: {message}",
+      "subject": "رسالة تواصل من الموقع"
     }
   },
   "ShareCodes": {
@@ -817,78 +585,78 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "ارفع فيديو واحصل على رابط دائم قابل للمشاركة",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "محول فيديو إلى رابط مجاني",
+      "description": "ارفع فيديوهات MP4 واحصل على روابط دائمة قابلة للمشاركة خلال ثوانٍ.",
+      "tagline": "يدعم MP4 وMOV وAVI وWebM وMKV حتى 300 ميجابايت. دون تسجيل.",
+      "uploadHeading": "ارفع فيديوك",
+      "uploadTitle": "أسقط الفيديو هنا، أو انقر للاختيار",
+      "uploadHint": "يدعم MP4 وMOV وAVI وWebM وMKV حتى 300 ميجابايت",
+      "maxSize": "الحد الأقصى لحجم الملف: 300 ميجابايت",
+      "convert": "تحويل إلى رابط",
+      "uploading": "جارٍ الرفع…",
+      "copy": "نسخ الرابط",
+      "copied": "تم النسخ",
       "guestSuccessHint": "تم رفع الفيديو. انسخ الرابط أدناه لمشاركته.",
       "registerForCodesTitle": "هل تريد Markdown وHTML وBBCode؟",
       "registerForCodesDesc": "سجّل مجانًا لفتح أكواد التضمين الجاهزة للنسخ، وإدارة كل الفيديوهات في مواردي.",
       "registerCta": "سجّل مجانًا",
       "uploadAnother": "رفع فيديو آخر",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "فشل الرفع. حاول مرة أخرى.",
+      "unsupportedType": "نوع ملف غير مدعوم. ارفع MP4 أو MOV أو AVI أو WebM أو MKV.",
+      "fileTooLarge": "الملف كبير جدًا. الخطة المجانية تسمح بحد أقصى 300 ميجابايت لكل ملف."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "لماذا تختار MP4 to URL",
+      "subtitle": "مصمّم للسرعة والخصوصية والروابط الدائمة.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "سرعة فائقة",
+          "description": "ارفع الفيديو وحوّله إلى رابط قابل للمشاركة خلال ثوانٍ. بلا انتظار ولا طوابير."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "آمن وخاص",
+          "description": "تُنقل فيديوهاتك عبر HTTPS وتُستضاف بضوابط تراعي الخصوصية."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "روابط دائمة",
+          "description": "احصل على روابط لا تنتهي صلاحيتها. مناسبة للمستندات والتذاكر والمشاركة على الشبكات."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
+      "title": "من فيديو إلى رابط خلال ثوانٍ",
+      "subtitle": "من ملف محلي إلى رابط قابل للمشاركة",
+      "description": "ارفع MP4 والصيغ ذات الصلة، واحصل على رابط دائم نظيف للصقه في المستندات والدردشات والمنشورات.",
+      "point1": "أسقط فيديو من جهازك",
+      "point2": "حوّل خلال ثوانٍ — دون تسجيل للاستخدام العادي",
+      "point3": "انسخ رابطًا دائمًا وشاركه في أي مكان",
+      "imageAlt": "ملصق mp4tourl.com: اجعل الفيديو قابلاً للمشاركة",
       "imageAltNew": "mp4tourl.com: تحويل الفيديو إلى رابط في ثوانٍ"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "طريقة الاستخدام",
+      "subtitle": "ثلاث خطوات من الملف المحلي إلى رابط قابل للمشاركة.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "اختر فيديو",
+          "description": "اسحب وأفلت أو تصفّح لملف MP4 أو MOV أو AVI أو WebM أو MKV (حتى 300 ميجابايت)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "حوّل إلى رابط",
+          "description": "انقر «تحويل إلى رابط». عادة تكتمل المعالجة خلال ثوانٍ."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "انسخ وشارك",
+          "description": "انسخ الرابط الدائم واستخدمه في المستندات أو الدردشات أو المواقع أو المنشورات."
         }
       }
     },
     "bannerShowcase": {
       "title": "المشاهد",
       "subtitle": "من فيديو محلي إلى رابط قابل للمشاركة.",
-      "description": "أسقط ملفًا واحصل على URL نظيف للمستندات والدردشات والمنشورات — تصفّح بعض الأمثلة أدناه.",
+      "description": "أسقط ملفًا واحصل على رابط نظيف للمستندات والدردشات والمنشورات — تصفّح بعض الأمثلة أدناه.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
@@ -900,7 +668,7 @@
         },
         "dark": {
           "title": "استضافة موثوقة",
-          "description": "اجعل الفيديو متاحًا عبر URL ثابت ودائم."
+          "description": "اجعل الفيديو متاحًا عبر رابط ثابت ودائم."
         },
         "retro": {
           "title": "تحويل سريع",
@@ -913,40 +681,40 @@
       "subtitle": "ما قد ترغب في معرفته عن تحويل الفيديو إلى رابط.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "ما هو محول الفيديو إلى رابط؟",
+          "answer": "محول الفيديو إلى رابط يرفع ملف الفيديو من جهازك ويعيد رابط ويب مباشر يمكنك مشاركته في أي مكان."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "كيف يعمل تحويل الفيديو إلى رابط؟",
+          "answer": "ارفع الفيديو، انتظر اكتمال المعالجة، ثم انسخ الرابط الناتج. يمكنك فتحه أو مشاركته أو تضمينه فورًا."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "ما صيغ الفيديو المدعومة؟",
+          "answer": "تشمل الصيغ المدعومة MP4 وMOV وAVI وWebM وMKV وMPEG وOGG و3GP وFLV. الخطة المجانية تسمح بحد أقصى 300 ميجابايت لكل ملف."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "هل روابط الفيديو الناتجة دائمة؟",
+          "answer": "نعم. الروابط مصمّمة للمشاركة طويلة الأمد حتى يبقى رابط الفيديو ثابتًا وقابلًا لإعادة الاستخدام."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "أين يمكنني استخدام رابط الفيديو؟",
+          "answer": "يمكنك استخدامه في المستندات ومتتبّعات المهام والدردشات والمواقع ومنشورات التواصل وأدوات تعاون الفريق."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "هل محول الفيديو إلى رابط مجاني؟",
+          "answer": "نعم. مسار التحويل القياسي مجاني ضمن حدود الرفع الحالية."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "ما مدى أمان رفع الفيديو والاستضافة؟",
+          "answer": "الرفع يتم عبر HTTPS والاستضافة تضمن توصيلًا مستقرًا، لتمنحك روابط مشاركة موثوقة لمحتوى الفيديو."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "أسهل طريقة لمشاركة الفيديوهات",
+      "description": "MP4 to URL مسار استضافة وسائط مجاني وسريع للمطوّرين والمبدعين والفرق. حوّل الفيديوهات إلى روابط دائمة خلال ثوانٍ وشاركها في أي مكان.",
+      "primaryButton": "تحويل إلى رابط",
+      "secondaryButton": "اقرأ الأسئلة الشائعة"
     }
   }
 }

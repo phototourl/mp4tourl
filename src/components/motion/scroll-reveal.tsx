@@ -75,7 +75,7 @@ export function Stagger({
   as = 'div',
 }: StaggerProps) {
   const reduce = useReducedMotion();
-  const MotionTag = motion[as];
+  const MotionTag = motion[as as keyof typeof motion] as typeof motion.div;
 
   if (reduce) {
     const Tag = as;
@@ -112,7 +112,7 @@ export function StaggerItem({
   as?: 'div' | 'li';
 }) {
   const reduce = useReducedMotion();
-  const MotionTag = motion[as];
+  const MotionTag = motion[as as keyof typeof motion] as typeof motion.div;
 
   if (reduce) {
     const Tag = as;

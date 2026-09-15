@@ -1,149 +1,119 @@
 {
   "Metadata": {
     "name": "MP4 to URL",
-    "title": "Free Video to URL Converter - Upload MP4 and Get Shareable Links",
-    "description": "Upload MP4, MOV, AVI, WebM, MKV and get permanent shareable URLs in seconds. Free video hosting up to 300MB — no registration required."
+    "title": "Безплатен конвертор на видео към URL — качете MP4 и получете връзка за споделяне",
+    "description": "Качете MP4, MOV, AVI, WebM, MKV и вземете постоянни връзки за споделяне за секунди. Безплатен хостинг на видео до 300MB — без регистрация."
   },
   "Common": {
-    "premium": "Premium",
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
-    "languageHint": "Selecting a region will change the language and content.",
+    "login": "Вход",
+    "logout": "Изход",
+    "signUp": "Регистрация",
+    "language": "Смяна на език",
+    "languageHint": "Изборът на регион променя езика и съдържанието.",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Превключване на режим",
+      "light": "Светъл",
+      "dark": "Тъмен",
+      "system": "Системен"
     },
     "theme": {
-      "label": "Toggle theme",
+      "label": "Превключване на тема",
       "default": "Default",
       "blue": "Blue",
       "green": "Green",
       "amber": "Amber",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Копирай",
+    "saving": "Запазване...",
+    "save": "Запази",
+    "loading": "Зареждане...",
+    "cancel": "Отказ",
+    "logoutFailed": "Неуспешен изход",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
-    }
-  },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "totalRecords": "Общо {count} записа",
+      "noResults": "Няма резултати",
+      "loading": "Зареждане...",
+      "columns": "Колони",
+      "rowsPerPage": "Редове на страница",
+      "page": "Страница",
+      "firstPage": "Първа страница",
+      "lastPage": "Последна страница",
+      "nextPage": "Следваща страница",
+      "previousPage": "Предишна страница",
+      "ascending": "Възх.",
+      "descending": "Низх."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Host videos and get a permanent shareable URL",
+      "name": "Безплатен",
+      "description": "Хоствайте видеа и получете постоянна връзка за споделяне",
       "features": {
-        "feature-1": "Upload size: 300MB",
-        "feature-2": "Permanent CDN links",
-        "feature-3": "No signup required",
-        "feature-4": "Community support"
+        "feature-1": "Размер на качване: 300MB",
+        "feature-2": "Постоянни CDN връзки",
+        "feature-3": "Без регистрация",
+        "feature-4": "Общностна поддръжка"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Собствени домейни",
+        "limit-2": "Собствен брандинг",
+        "limit-3": "Доживотни актуализации"
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Higher limits and upload history for active creators",
+      "description": "По-високи лимити и история на качванията за активни създатели",
       "features": {
-        "feature-1": "Larger video uploads",
-        "feature-2": "10 GB storage",
-        "feature-3": "Upload history",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "По-големи видео файлове",
+        "feature-2": "10 GB хранилище",
+        "feature-3": "История на качванията",
+        "feature-4": "Приоритетна поддръжка",
+        "feature-5": "Собствени домейни"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Собствен брандинг",
+        "limit-2": "Доживотни актуализации"
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Pay once for long-term video hosting capacity",
+      "description": "Плащате веднъж за дългосрочен капацитет за видеохостинг",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "Всички функции на Pro",
+        "feature-2": "100 GB хранилище",
+        "feature-3": "Специализирана поддръжка",
+        "feature-4": "Сигурност от корпоративен клас",
+        "feature-5": "Разширени интеграции",
+        "feature-6": "Собствен брандинг",
+        "feature-7": "Доживотни актуализации"
       }
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Съжаляваме, страницата, която търсите, не съществува.",
+    "backToHome": "Към началната страница"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Опа! Нещо се обърка!",
+    "tryAgain": "Опитай отново",
+    "backToHome": "Към началната страница"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "MP4toURL turns your videos into permanent shareable links — upload MP4, MOV, AVI, WebM, or MKV and share in seconds.",
+    "title": "За нас",
+    "description": "MP4toURL превръща видеата ви в постоянни връзки за споделяне — качете MP4, MOV, AVI, WebM или MKV и споделете за секунди.",
     "authorName": "MP4toURL",
-    "authorBio": "Free video to URL converter",
-    "introduction": "MP4toURL is a free, fast way to host and share videos. Upload a file, get a permanent CDN link, and use it anywhere — no complicated setup.",
-    "imageAlt": "Марка MP4toURL",
-    "talkWithMe": "Contact us",
-    "followMe": "Follow on X"
-  },
-  "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "authorBio": "Безплатен конвертор на видео към URL",
+    "introduction": "MP4toURL е бърз и безплатен начин да хоствате и споделяте видеа. Качете файл, вземете постоянна CDN връзка и я използвайте навсякъде — без сложна настройка.",
+    "imageAlt": "Лого на MP4toURL",
+    "talkWithMe": "Свържете се с нас",
+    "followMe": "Последвайте ни в X"
   },
   "ContactPage": {
-    "title": "Контакт",
-    "description": "Изпратете съобщение за качване на видеа, споделяеми връзки или акаунта ви. Четем всяко съобщение и отговаряме възможно най-скоро.",
-    "subtitle": "Въпроси за MP4toURL? Ще се радваме да помогнем.",
+    "title": "Контакти",
+    "description": "Изпратете съобщение за качване на видео, връзки за споделяне или акаунта ви. Четем всяко съобщение и отговаряме възможно най-скоро.",
+    "subtitle": "Въпроси за MP4toURL? С радост ще помогнем.",
     "orEmail": "Или ни пишете на",
     "form": {
       "title": "Съобщение",
@@ -155,319 +125,137 @@
       "emailPlaceholder": "Имейл",
       "messagePlaceholder": "Въведете съобщение",
       "submit": "Изпрати",
-      "submitting": "Изпращане…",
+      "submitting": "Изпращане...",
       "success": "Съобщението е изпратено успешно. Ще отговорим възможно най-скоро.",
       "minLength": "Темата трябва да е поне 3 знака.",
       "maxLengthName": "Темата не трябва да надвишава 100 знака.",
-      "invalidEmail": "Въведете валиден имейл адрес.",
+      "invalidEmail": "Моля, въведете валиден имейл адрес.",
       "minLengthMessage": "Съобщението трябва да е поне 10 знака.",
       "maxLengthMessage": "Съобщението не трябва да надвишава 2000 знака.",
-      "invalid": "Нещо се обърка. Опитайте отново."
-    }
-  },
-  "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
-    "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
-    }
-  },
-  "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
-    "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "invalid": "Нещо се обърка. Моля, опитайте отново."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Вход",
+      "welcomeBack": "Добре дошли отново",
+      "email": "Имейл",
+      "password": "Парола",
+      "signIn": "Вход",
+      "signUpHint": "Нямате акаунт? Регистрирайте се",
+      "forgotPassword": "Забравена парола?",
+      "signInWithGoogle": "Вход с Google",
+      "showPassword": "Покажи паролата",
+      "hidePassword": "Скрий паролата",
+      "or": "Или продължете с",
+      "emailRequired": "Моля, въведете имейла си",
+      "passwordRequired": "Моля, въведете паролата си",
+      "captchaInvalid": "Проверката с captcha не бе успешна",
+      "captchaError": "Грешка при проверка с captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Регистрация",
+      "createAccount": "Създайте акаунт",
+      "name": "Име",
+      "email": "Имейл",
+      "password": "Парола",
+      "signUp": "Регистрация",
+      "signInHint": "Вече имате акаунт? Влезте",
+      "checkEmail": "Моля, проверете пощенската си кутия",
+      "showPassword": "Покажи паролата",
+      "hidePassword": "Скрий паролата",
+      "nameRequired": "Моля, въведете името си",
+      "emailRequired": "Моля, въведете имейла си",
+      "passwordRequired": "Моля, въведете паролата си",
+      "captchaInvalid": "Проверката с captcha не бе успешна",
+      "captchaError": "Грешка при проверка с captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "If an account exists for this email, we sent a reset link. Check your inbox.",
-      "emailRequired": "Please enter your email",
+      "title": "Забравена парола",
+      "email": "Имейл",
+      "send": "Изпрати връзка за нулиране",
+      "backToLogin": "Назад към входа",
+      "checkEmail": "Ако има акаунт с този имейл, изпратихме връзка за нулиране. Проверете пощенската си кутия.",
+      "emailRequired": "Моля, въведете имейла си",
       "error": {
-        "userNotFound": "No account found with this email",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "userNotFound": "Няма акаунт с този имейл",
+        "tooManyRequests": "Твърде много опити. Моля, опитайте по-късно",
+        "serverError": "Нещо се обърка. Моля, опитайте отново"
       }
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "New password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters",
+      "title": "Нулиране на парола",
+      "password": "Нова парола",
+      "reset": "Нулирай паролата",
+      "backToLogin": "Назад към входа",
+      "showPassword": "Покажи паролата",
+      "hidePassword": "Скрий паролата",
+      "minLength": "Паролата трябва да е поне 8 знака",
       "error": {
-        "expiredToken": "Reset link has expired. Please request a new one",
-        "invalidToken": "Invalid reset link. Please request a new one",
-        "tooManyRequests": "Too many attempts. Please try again later",
-        "serverError": "Something went wrong. Please try again"
+        "expiredToken": "Връзката за нулиране е изтекла. Моля, заявете нова",
+        "invalidToken": "Невалидна връзка за нулиране. Моля, заявете нова",
+        "tooManyRequests": "Твърде много опити. Моля, опитайте по-късно",
+        "serverError": "Нещо се обърка. Моля, опитайте отново"
       }
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Опа! Нещо се обърка!",
+      "tryAgain": "Моля, опитайте отново.",
+      "backToLogin": "Назад към входа",
+      "checkEmail": "Моля, проверете пощенската си кутия"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Условия за ползване",
+      "privacyPolicy": "Политика за поверителност",
+      "byClickingContinue": "С кликване върху „Продължи“ приемате нашите ",
+      "and": " и "
     }
-  },
-  "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
-  },
-  "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "Documentation",
-    "homepage": "Homepage"
-  },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
   },
   "Marketing": {
     "navbar": {
       "home": {
         "title": "Начало"
       },
-      "pricing": {
-        "title": "Pricing"
-      },
       "faq": {
-        "title": "FAQ"
+        "title": "ЧЗВ"
       },
       "about": {
         "title": "За нас"
       },
       "contact": {
-        "title": "Контакт"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
-      },
-      "pages": {
-        "title": "Pages",
-        "items": {
-          "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
-          },
-          "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
-          },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blocks",
-        "items": {
-          "magicui": {
-            "title": "MagicUI Blocks"
-          },
-          "hero-section": {
-            "title": "Hero Blocks"
-          },
-          "logo-cloud": {
-            "title": "Logo Cloud Blocks"
-          },
-          "integrations": {
-            "title": "Integrations Blocks"
-          },
-          "features": {
-            "title": "Features Blocks"
-          },
-          "content": {
-            "title": "Content Blocks"
-          },
-          "stats": {
-            "title": "Stats Blocks"
-          },
-          "team": {
-            "title": "Team Blocks"
-          },
-          "testimonials": {
-            "title": "Testimonials Blocks"
-          },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
-          "footer": {
-            "title": "Footer Blocks"
-          },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
-          "comparator": {
-            "title": "Comparator Blocks"
-          },
-          "faq": {
-            "title": "FAQ Blocks"
-          },
-          "login": {
-            "title": "Login Blocks"
-          },
-          "signup": {
-            "title": "Signup Blocks"
-          },
-          "forgot-password": {
-            "title": "Forgot Password Blocks"
-          },
-          "contact": {
-            "title": "Contact Blocks"
-          }
-        }
+        "title": "Контакти"
       }
     },
     "footer": {
-      "tagline": "Upload a video, get a permanent shareable link",
+      "tagline": "Качете видео, вземете постоянна връзка за споделяне",
       "product": {
-        "title": "Product",
+        "title": "Продукт",
         "items": {
-          "features": "Features",
-          "pricing": "Pricing",
-          "faq": "FAQ"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "features": "Функции",
+          "faq": "ЧЗВ"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Компания",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "За нас",
+          "contact": "Контакти"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Правни",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Политика за бисквитки",
+          "privacyPolicy": "Политика за поверителност",
+          "termsOfService": "Условия за ползване"
         }
       }
     },
     "avatar": {
       "dashboard": "Работно пространство",
       "resources": "Моите ресурси",
-      "billing": "Billing",
-      "credits": "Credits",
-      "settings": "Settings"
+      "billing": "Плащания",
+      "settings": "Настройки"
     }
   },
   "Dashboard": {
@@ -475,21 +263,21 @@
       "title": "Работно пространство"
     },
     "home": {
-      "loading": "Зареждане на преглед…",
+      "loading": "Зареждане на прегледа…",
       "resourceCount": "Видеа",
       "videoCountLabel": "Видеа в Моите ресурси",
-      "storageFullHint": "Безплатното пробно хранилище е пълно. Изтрийте някои видеа; планове с по-голям капацитет идват скоро.",
+      "storageFullHint": "Безплатното пробне хранилище е запълнено. Изтрийте някои видеа; планове с по-голям капацитет идват скоро.",
       "entryResourcesTitle": "Моите ресурси",
-      "entryResourcesDesc": "Качените видеа са тук — копирайте връзки, отваряйте или изтривайте по всяко време.",
+      "entryResourcesDesc": "Качените ви видеа са тук — копирайте връзки, отваряйте или изтривайте по всяко време.",
       "entryUploadTitle": "Качване на видео",
-      "entryUploadDesc": "Пуснете видео на началната страница и вземете споделяема връзка за секунди.",
+      "entryUploadDesc": "Пуснете видео на началната страница и вземете връзка за споделяне за секунди.",
       "entryFilesTitle": "Моите ресурси",
-      "entryFilesDesc": "Качванията след вход се запазват в акаунта. Копирайте URL или изтрийте ненужните файлове.",
-      "entryFilesCta": "Отвори моите ресурси",
+      "entryFilesDesc": "Качванията след вход се запазват в акаунта ви. Копирайте URL или премахнете файлове, които вече не са ви нужни.",
+      "entryFilesCta": "Отвори Моите ресурси",
       "filesPointUploadTitle": "Много формати",
-      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV и още",
+      "filesPointUploadBody": "MP4, MOV, AVI, WebM, MKV и други",
       "filesPointManageTitle": "Управление на връзки",
-      "filesPointManageBody": "Копиране, отваряне или изтриване от Моите ресурси",
+      "filesPointManageBody": "Копирайте, отваряйте или изтривайте от Моите ресурси",
       "filesPointFreeTitle": "Безплатно хранилище",
       "filesPointFreeBody": "300 MB безплатно за хоствани видеа",
       "filesPointPaidTitle": "Платени планове",
@@ -499,23 +287,23 @@
       "title": "Моите ресурси",
       "welcome": "Добре дошли отново, {name}",
       "storage": "Хранилище",
-      "storageHint": "Използвано място за видео хостинг",
+      "storageHint": "Използвано пространство за видеохостинг",
       "planCardTitle": "Текущ план",
       "planFree": "Безплатен",
       "planPro": "Pro",
       "planLifetime": "Lifetime",
       "planActive": "Активен",
-      "planHintFree": "Безплатен пробен период е наличен сега. Планове с по-голям капацитет идват скоро.",
+      "planHintFree": "Безплатният пробен период е достъпен сега. Планове с по-голям капацитет идват скоро.",
       "planHintPro": "Вие сте на Pro (10 GB). Lifetime отключва 100 GB.",
       "planHintLifetime": "Всички функции са отключени",
-      "description": "Видеа, качени след влизане в акаунта. Качвайте тук, преглеждайте, изтегляйте или изтривайте по всяко време.",
+      "description": "Видеата, които сте качили след вход. Качвайте тук, преглеждайте, изтегляйте или изтривайте по всяко време.",
       "empty": "Все още няма видеа",
-      "emptyHint": "Кликнете „Качване“ или картата +, за да добавите първото видео.",
+      "emptyHint": "Кликнете „Качване“ или картата +, за да добавите първото си видео.",
       "goUpload": "Качване на видео",
       "upload": "Качване",
       "uploading": "Качване…",
-      "uploadSuccess": "Качването завърши",
-      "uploadFailed": "Качването не успя",
+      "uploadSuccess": "Качването е завършено",
+      "uploadFailed": "Качването не бе успешно",
       "unsupportedType": "Поддържат се само видео формати (MP4, MOV, AVI, WebM, MKV…)",
       "fileTooLarge": "Файлът е твърде голям. Безплатният план позволява до 300MB на файл.",
       "filterFormat": "Тип файл",
@@ -531,7 +319,7 @@
         "3gp": "3GP"
       },
       "usageStorage": "Хранилище",
-      "viewGrid": "Изглед мрежа",
+      "viewGrid": "Изглед решетка",
       "viewList": "Изглед списък",
       "loading": "Зареждане…",
       "loadError": "Неуспешно зареждане на ресурсите",
@@ -558,226 +346,206 @@
       "pageNext": "Следваща"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Админ",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Потребители",
+        "fakeData": "Бележка: Демонстрационни данни; някои функции са изключени",
+        "error": "Неуспешно зареждане на потребители",
+        "search": "Търсене на потребители...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "Колони",
+          "name": "Име",
+          "email": "Имейл",
+          "role": "Роля",
+          "createdAt": "Създаден на",
+          "customerId": "ID на клиент",
+          "status": "Статус",
+          "banReason": "Причина за бан",
+          "banExpires": "Банът изтича"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Админ",
+        "user": "Потребител",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Имейлът е потвърден",
+          "unverified": "Имейлът не е потвърден"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Имейлът е копиран в клипборда",
+        "banned": "Блокиран",
+        "active": "Активен",
+        "joined": "Присъединен на",
+        "updated": "Обновен на",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Причина за бан",
+          "reasonPlaceholder": "Въведете причината за блокиране на този потребител",
+          "defaultReason": "Спам",
+          "never": "Никога",
+          "expires": "Банът изтича",
+          "selectDate": "Изберете дата",
+          "button": "Блокирай потребител",
+          "success": "Потребителят е блокиран",
+          "error": "Неуспешно блокиране на потребителя"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Премахни бана",
+          "success": "Банът на потребителя е премахнат",
+          "error": "Неуспешно премахване на бана"
         },
-        "close": "Close"
+        "close": "Затвори"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Настройки",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Профил",
+        "description": "Управлявайте информацията за акаунта си",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "Аватар",
+          "description": "Кликнете бутона за качване, за да качите свой",
+          "recommendation": "Аватарът не е задължителен, но е силно препоръчителен",
+          "uploading": "Качване...",
+          "uploadAvatar": "Качи аватар",
+          "success": "Аватарът е обновен успешно",
+          "fail": "Неуспешно обновяване на аватара"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Име",
+          "description": "Моля, въведете показваното си име",
+          "placeholder": "Въведете името си",
+          "minLength": "Моля, използвайте поне 3 знака",
+          "maxLength": "Моля, използвайте най-много 30 знака",
+          "hint": "Моля, използвайте 3–30 знака за името",
+          "success": "Името е обновено успешно",
+          "fail": "Неуспешно обновяване на името",
+          "saving": "Запазване...",
+          "save": "Запази"
         }
       },
       "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "title": "Плащания",
+        "description": "Управлявайте абонамента и данните за фактуриране",
         "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
+          "active": "Активен",
+          "trial": "Пробен",
+          "free": "Безплатен",
           "lifetime": "Lifetime"
         },
         "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
+          "month": "месец",
+          "year": "година",
+          "oneTime": "еднократно"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Текущ план",
+          "description": "Данни за текущия ви план",
+          "noPlan": "Нямате активен план"
         },
         "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "loading": "Зареждане...",
+          "createCustomerPortalFailed": "Неуспешно отваряне на клиентския портал на Stripe"
         },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "price": "Цена:",
+        "periodStartDate": "Начало на периода:",
+        "periodEndDate": "Край на периода:",
+        "trialEnds": "Пробният период приключва:",
+        "freePlanMessage": "В момента сте на безплатния план с ограничени функции",
+        "lifetimeMessage": "Имате доживотен достъп до всички премиум функции",
+        "manageSubscription": "Управление на абонамент и плащания",
+        "manageBilling": "Управление на плащанията",
+        "upgradePlan": "Надграждане на плана",
+        "retry": "Опитай отново",
+        "errorMessage": "Неуспешно зареждане на данните",
+        "paymentSuccess": "Плащането е успешно"
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Обработка на плащането",
+          "description": "Моля, изчакайте, докато потвърдим плащането ви..."
         },
         "success": {
-          "title": "Payment Success",
-          "description": "Redirecting automatically..."
+          "title": "Успешно плащане",
+          "description": "Пренасочване автоматично..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Неуспешно плащане",
+          "description": "Възникна проблем при обработката на плащането."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Изтекло време за обработка",
+          "description": "Обработката на плащането отнема повече време от очакваното."
         },
-        "retry": "Retry"
-      },
-      "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
-        "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
-        }
+        "retry": "Опитай отново"
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Сигурност",
+        "description": "Управлявайте настройките за сигурност",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Смяна на парола",
+          "description": "Въведете текущата и новата парола",
+          "currentPassword": "Текуща парола",
+          "currentRequired": "Текущата парола е задължителна",
+          "newPassword": "Нова парола",
+          "newMinLength": "Паролата трябва да е поне 8 знака",
+          "hint": "Моля, използвайте поне 8 знака за паролата",
+          "showPassword": "Покажи паролата",
+          "hidePassword": "Скрий паролата",
+          "success": "Паролата е обновена успешно",
+          "fail": "Неуспешно обновяване на паролата",
+          "saving": "Запазване...",
+          "save": "Запази"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Нулиране на парола",
+          "description": "Нулирайте паролата, за да активирате вход с имейл",
+          "info": "Нулирането на паролата ще ви позволи да влизате с имейл и парола в допълнение към социалните входове. Ще получите имейл с инструкции за нулиране на паролата",
+          "button": "Нулирай паролата"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Изтриване на акаунт",
+          "description": "Окончателно премахване на акаунта и цялото му съдържание",
+          "warning": "Това действие е необратимо — продължете внимателно",
+          "button": "Изтрий акаунта",
+          "confirmTitle": "Изтриване на акаунт",
+          "confirmDescription": "Сигурни ли сте, че искате да изтриете акаунта си? Това действие е необратимо.",
+          "confirm": "Изтрий",
+          "cancel": "Отказ",
+          "deleting": "Изтриване...",
+          "success": "Акаунтът е изтрит успешно",
+          "fail": "Неуспешно изтриване на акаунта"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Планове с по-голям капацитет идват скоро. Безплатен пробен период е наличен сега.",
-      "button": "Upgrade"
+      "title": "Надграждане",
+      "description": "Планове с по-голям капацитет идват скоро. Безплатният пробен период е достъпен сега.",
+      "button": "Надгради"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
+      "team": "Екипът на {name}",
       "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Здравейте, {name}.",
+      "body": "Моля, кликнете връзката по-долу, за да потвърдите имейл адреса си.",
+      "confirmEmail": "Потвърди имейла",
+      "subject": "Потвърдете имейла си"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "We received a request to reset your MP4toURL password. Click the button below to choose a new password. If you did not request this, you can ignore this email.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your MP4toURL password"
-    },
-    "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "title": "Здравейте, {name}.",
+      "body": "Получихме заявка за нулиране на паролата ви в MP4toURL. Кликнете бутона по-долу, за да изберете нова парола. Ако не сте заявили това, можете да игнорирате този имейл.",
+      "resetPassword": "Нулирай паролата",
+      "subject": "Нулиране на паролата ви в MP4toURL"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "Име: {name}",
+      "email": "Имейл: {email}",
+      "message": "Съобщение: {message}",
+      "subject": "Съобщение за контакт от уебсайта"
     }
   },
   "ShareCodes": {
-    "sectionTitle": "ГОТОВИ КОДОВЕ",
+    "sectionTitle": "ГОТОВИ ЗА КОПИРАНЕ КОДОВЕ",
     "copyUrl": "Копирай URL",
     "copied": "Копирано",
     "copyFailed": "Неуспешно копиране",
@@ -792,23 +560,23 @@
     },
     "markdown": {
       "title": "Markdown",
-      "desc": "За GitHub, Notion и документи"
+      "desc": "За GitHub, Notion и документация"
     },
     "markdownLink": {
       "title": "Markdown с връзка",
-      "desc": "Markdown с четлив етикет за гледане"
+      "desc": "Markdown с четим етикет за гледане"
     },
     "html": {
       "title": "HTML",
-      "desc": "Вграждане с вграден видеоплейър"
+      "desc": "Вграждане с вграден видеоплеър"
     },
     "htmlLink": {
       "title": "HTML с връзка",
-      "desc": "Проста връзка, която се отваря в нов раздел"
+      "desc": "Обикновен линк, който се отваря в нов раздел"
     },
     "bbcode": {
       "title": "BBCode",
-      "desc": "За форуми и табла за съобщения"
+      "desc": "За форуми и дискусионни табла"
     },
     "bbcodeLink": {
       "title": "BBCode с връзка",
@@ -817,94 +585,94 @@
   },
   "HomePage": {
     "title": "MP4 to URL",
-    "description": "Upload a video and get a permanent shareable link",
+    "description": "Качете видео и вземете постоянна връзка за споделяне",
     "hero": {
-      "title": "Free Video to URL Converter",
-      "description": "Upload MP4 videos and get permanent shareable links in seconds.",
-      "tagline": "Support MP4, MOV, AVI, WebM, MKV up to 300MB. No registration required.",
-      "uploadHeading": "Upload Your Video",
-      "uploadTitle": "Drop your video here, or click to browse",
-      "uploadHint": "Supports MP4, MOV, AVI, WebM, MKV up to 300MB",
-      "maxSize": "Maximum file size: 300MB",
-      "convert": "Convert to URL",
-      "uploading": "Uploading...",
-      "copy": "Copy link",
-      "copied": "Copied",
+      "title": "Безплатен конвертор на видео към URL",
+      "description": "Качете MP4 видеа и вземете постоянни връзки за споделяне за секунди.",
+      "tagline": "Поддържа MP4, MOV, AVI, WebM, MKV до 300MB. Без регистрация.",
+      "uploadHeading": "Качете видеото си",
+      "uploadTitle": "Пуснете видеото тук или кликнете за избор",
+      "uploadHint": "Поддържа MP4, MOV, AVI, WebM, MKV до 300MB",
+      "maxSize": "Максимален размер на файла: 300MB",
+      "convert": "Конвертирай към URL",
+      "uploading": "Качване...",
+      "copy": "Копирай връзката",
+      "copied": "Копирано",
       "guestSuccessHint": "Видеото е качено. Копирайте връзката по-долу, за да го споделите.",
       "registerForCodesTitle": "Искате Markdown, HTML и BBCode?",
-      "registerForCodesDesc": "Регистрирайте се безплатно, за да отключите готови кодове за вграждане и да управлявате всички видеа в Моите ресурси.",
+      "registerForCodesDesc": "Регистрирайте се безплатно, за да отключите готови кодове за вграждане и да управлявате всяко видео в Моите ресурси.",
       "registerCta": "Безплатна регистрация",
       "uploadAnother": "Качи друго видео",
-      "error": "Upload failed. Please try again.",
-      "unsupportedType": "Unsupported file type. Please upload MP4, MOV, AVI, WebM, or MKV.",
-      "fileTooLarge": "File too large. Free plan allows up to 300MB per file."
+      "error": "Качването не бе успешно. Моля, опитайте отново.",
+      "unsupportedType": "Неподдържан тип файл. Моля, качете MP4, MOV, AVI, WebM или MKV.",
+      "fileTooLarge": "Файлът е твърде голям. Безплатният план позволява до 300MB на файл."
     },
     "features": {
-      "title": "Why Choose MP4 to URL",
-      "subtitle": "Built for speed, privacy, and permanent media links.",
+      "title": "Защо да изберете MP4 to URL",
+      "subtitle": "Създадено за скорост, поверителност и постоянни медийни връзки.",
       "items": {
         "item-1": {
-          "title": "Lightning Fast",
-          "description": "Upload and convert your videos to shareable URLs in seconds. No waiting, no queues."
+          "title": "Светкавично бързо",
+          "description": "Качете и конвертирайте видеата си към URL за споделяне за секунди. Без чакане, без опашки."
         },
         "item-2": {
-          "title": "Secure & Private",
-          "description": "Your videos are transferred over HTTPS and hosted with privacy-first controls."
+          "title": "Сигурно и лично",
+          "description": "Видеата ви се прехвърлят през HTTPS и се хостват с контрол, ориентиран към поверителността."
         },
         "item-3": {
-          "title": "Permanent Links",
-          "description": "Get permanent links that never expire. Perfect for documentation, tickets, and social sharing."
+          "title": "Постоянни връзки",
+          "description": "Получете постоянни връзки, които не изтичат. Идеални за документация, тикети и социално споделяне."
         }
       }
     },
     "productBanner": {
-      "title": "Video to URL, in seconds",
-      "subtitle": "From local file to shareable link",
-      "description": "Upload MP4 and related formats, get a clean permanent URL you can paste into docs, chats, and posts.",
-      "point1": "Drop a video from your device",
-      "point2": "Convert in seconds — no signup for standard use",
-      "point3": "Copy a permanent link and share anywhere",
-      "imageAlt": "mp4tourl.com collage: make video shareable",
-      "imageAltNew": "mp4tourl.com: видео към URL за секунди"
+      "title": "Видео към URL за секунди",
+      "subtitle": "От локален файл до връзка за споделяне",
+      "description": "Качете MP4 и свързани формати, вземете чист постоянен URL, който да поставите в документи, чатове и публикации.",
+      "point1": "Пуснете видео от устройството си",
+      "point2": "Конвертиране за секунди — без регистрация за стандартна употреба",
+      "point3": "Копирайте постоянна връзка и споделяйте навсякъде",
+      "imageAlt": "колаж на mp4tourl.com: направете видеото споделимо",
+      "imageAltNew": "mp4tourl.com: видео към URL за секунди, www.mp4tourl.com"
     },
     "howToUse": {
-      "title": "How to Use",
-      "subtitle": "Three steps from local file to shareable URL.",
+      "title": "Как се ползва",
+      "subtitle": "Три стъпки от локален файл до URL за споделяне.",
       "items": {
         "step-1": {
-          "title": "Choose a video",
-          "description": "Drag and drop or browse for MP4, MOV, AVI, WebM, or MKV (up to 300MB)."
+          "title": "Изберете видео",
+          "description": "Плъзнете и пуснете или изберете MP4, MOV, AVI, WebM или MKV (до 300MB)."
         },
         "step-2": {
-          "title": "Convert to URL",
-          "description": "Click Convert to URL. Processing usually finishes in a few seconds."
+          "title": "Конвертирайте към URL",
+          "description": "Кликнете „Конвертирай към URL“. Обработката обикновено приключва за няколко секунди."
         },
         "step-3": {
-          "title": "Copy and share",
-          "description": "Copy the permanent link and use it in docs, chats, websites, or social posts."
+          "title": "Копирайте и споделете",
+          "description": "Копирайте постоянната връзка и я използвайте в документи, чатове, уебсайтове или социални публикации."
         }
       }
     },
     "bannerShowcase": {
-      "title": "Сценарии",
-      "subtitle": "От локално видео към споделяем линк.",
-      "description": "Пуснете файл и получете чист URL за документи, чатове и публикации — вижте няколко примера по-долу.",
+      "title": "Сцени",
+      "subtitle": "От локално видео до връзка за споделяне.",
+      "description": "Пуснете файл, вземете чист URL за документи, чатове и публикации — разгледайте няколко варианта по-долу.",
       "items": {
         "concept": {
           "title": "MP4 to URL",
-          "description": "Превърнете локален клип в споделяем адрес за секунди."
+          "description": "Превърнете локален клип в адрес за споделяне за секунди."
         },
         "newStyle": {
           "title": "Споделяйте навсякъде",
-          "description": "Поставете линка в документи, тикети и публикации в социалните мрежи."
+          "description": "Поставете връзката в документи, тикети и социални публикации."
         },
         "dark": {
-          "title": "Надежден хостинг",
+          "title": "Чист хостинг",
           "description": "Дръжте видеата достъпни със стабилен, постоянен URL."
         },
         "retro": {
-          "title": "Бърза конверсия",
-          "description": "Качете веднъж, копирайте линка и го използвайте отново, когато ви трябва."
+          "title": "Бързо конвертиране",
+          "description": "Качете веднъж, копирайте връзката и я използвайте отново, когато ви трябва."
         }
       }
     },
@@ -913,40 +681,40 @@
       "subtitle": "Какво може да искате да знаете за видео към URL.",
       "items": {
         "item-1": {
-          "question": "What is a video to URL converter?",
-          "answer": "A video to URL converter uploads your local video file and returns a direct web link you can share anywhere."
+          "question": "Какво е конвертор на видео към URL?",
+          "answer": "Конверторът на видео към URL качва локалния ви видеофайл и връща директна уеб връзка, която можете да споделяте навсякъде."
         },
         "item-2": {
-          "question": "How does video to URL conversion work?",
-          "answer": "Upload your video, wait for processing to finish, then copy the generated URL. You can open, share, or embed that link immediately."
+          "question": "Как работи конвертирането на видео към URL?",
+          "answer": "Качете видеото, изчакайте обработката да приключи, след което копирайте генерирания URL. Можете веднага да отворите, споделите или вградите тази връзка."
         },
         "item-3": {
-          "question": "What video formats are supported?",
-          "answer": "Supported formats include MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP, and FLV. Free tier allows up to 300MB per file."
+          "question": "Какви видео формати се поддържат?",
+          "answer": "Поддържаните формати включват MP4, MOV, AVI, WebM, MKV, MPEG, OGG, 3GP и FLV. Безплатният план позволява до 300MB на файл."
         },
         "item-4": {
-          "question": "Are the generated video links permanent?",
-          "answer": "Yes. The generated links are designed for long-term sharing so your video URL stays stable and reusable."
+          "question": "Постоянни ли са генерираните видео връзки?",
+          "answer": "Да. Генерираните връзки са предназначени за дългосрочно споделяне, така че URL адресът на видеото остава стабилен и използваем повторно."
         },
         "item-5": {
-          "question": "Where can I use the video URL?",
-          "answer": "You can use it in documentation, issue trackers, chats, websites, social media posts, and team collaboration tools."
+          "question": "Къде мога да използвам видео URL?",
+          "answer": "Можете да го използвате в документация, системи за тикети, чатове, уебсайтове, социални мрежи и инструменти за екипна работа."
         },
         "item-6": {
-          "question": "Is this video to URL converter free?",
-          "answer": "Yes. The standard video to URL conversion flow is free to use within the current upload limits."
+          "question": "Безплатен ли е този конвертор на видео към URL?",
+          "answer": "Да. Стандартният процес за конвертиране на видео към URL е безплатен в рамките на текущите лимити за качване."
         },
         "item-7": {
-          "question": "How secure is video upload and hosting?",
-          "answer": "Uploads use HTTPS transfer and are hosted for stable delivery, giving you reliable sharing links for video content."
+          "question": "Колко сигурно е качването и хостингът на видео?",
+          "answer": "Качванията използват HTTPS пренос и се хостват за стабилно доставяне, което ви дава надеждни връзки за споделяне на видео съдържание."
         }
       }
     },
     "calltoaction": {
-      "title": "The Easiest Way to Share Videos",
-      "description": "MP4 to URL is a free, fast media hosting flow for developers, creators, and teams. Convert videos to permanent URLs in seconds and share them anywhere.",
-      "primaryButton": "Convert to URL",
-      "secondaryButton": "Read FAQ"
+      "title": "Най-лесният начин да споделяте видеа",
+      "description": "MP4 to URL е безплатен и бърз поток за медийно хостване за разработчици, създатели и екипи. Конвертирайте видеа към постоянни URL адреси за секунди и ги споделяйте навсякъде.",
+      "primaryButton": "Конвертирай към URL",
+      "secondaryButton": "Прочети ЧЗВ"
     }
   }
 }
