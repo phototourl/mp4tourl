@@ -400,3 +400,45 @@ div[class*="border-t"][class*="bg-fd-secondary"]:not(:has(*)):not(
 [class*="fd-secondary"]:empty:not([data-banner-content]) {
   display: none !important;
 }
+
+/*
+ * Hero capsule drop — transform-only keyframes (mobile WebKit safe).
+ * --capsule-travel / --drop-duration set inline on the track element.
+ */
+@keyframes mp4-hero-capsule-drop {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, var(--capsule-travel, 0px), 0);
+  }
+}
+
+@keyframes mp4-hero-fill-grow {
+  from {
+    transform: scaleY(0.08);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.mp4-hero-fill {
+  transform: scaleY(0.08);
+  transform-origin: top center;
+  will-change: transform;
+}
+
+.mp4-hero-fill-run {
+  animation: mp4-hero-fill-grow var(--drop-duration, 1.2s)
+    cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.mp4-hero-capsule {
+  will-change: transform;
+}
+
+.mp4-hero-capsule-run {
+  animation: mp4-hero-capsule-drop var(--drop-duration, 1.2s)
+    cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
