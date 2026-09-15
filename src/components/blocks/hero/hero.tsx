@@ -189,11 +189,11 @@ export default function HeroSection() {
           </div>
 
           {/*
-            Same proportions as desktop: track ≈ 7.14% of art width (64/896),
-            each half shifts by half that (≈ 3.57%). No fixed rem that looks
-            oversized on a narrow phone.
+            Desktop: track ≈ 7.14% of art (64/896), half-shift ≈ 3.57%.
+            Mobile: slightly larger % so the rail stays readable on a narrow
+            art box (same idea, not fixed rem that overpowers the image).
           */}
-          <div className="relative mx-auto mt-12 max-w-4xl px-[4%] md:mt-14 md:px-0">
+          <div className="relative mx-auto mt-12 max-w-4xl px-[5%] md:mt-14 md:px-0">
             <div
               aria-hidden
               className="relative isolate block w-full select-none overflow-visible rounded-sm"
@@ -203,7 +203,7 @@ export default function HeroSection() {
                   'relative z-[1] will-change-transform ease-out',
                   'transition-transform duration-1000 md:duration-700',
                   split &&
-                    '-translate-x-[3.57%] [filter:drop-shadow(4px_0_8px_rgba(0,0,0,0.16))]'
+                    '-translate-x-[4.5%] [filter:drop-shadow(4px_0_8px_rgba(0,0,0,0.16))] md:-translate-x-[3.57%]'
                 )}
               >
                 <Image
@@ -226,7 +226,7 @@ export default function HeroSection() {
                   'pointer-events-none absolute inset-0 z-[1] will-change-transform ease-out',
                   'transition-transform duration-1000 md:duration-700',
                   split &&
-                    'translate-x-[3.57%] [filter:drop-shadow(-4px_0_8px_rgba(0,0,0,0.16))]'
+                    'translate-x-[4.5%] [filter:drop-shadow(-4px_0_8px_rgba(0,0,0,0.16))] md:translate-x-[3.57%]'
                 )}
               >
                 <Image
@@ -241,15 +241,15 @@ export default function HeroSection() {
               </div>
 
               {/*
-                z-20 so the drop is visible on mobile; width matches PC ratio
-                (64px @ max-w-4xl ≈ 7.14%), not a fixed rem that balloons on phone.
+                z-20 so the drop is visible on mobile.
+                Mobile ~9% of art width; md+ matches PC 7.14%.
               */}
               <div
                 ref={trackRef}
                 aria-hidden
                 className={cn(
                   'pointer-events-none absolute inset-y-0 left-1/2 z-20',
-                  'w-[7.14%]',
+                  'w-[9%] md:w-[7.14%]',
                   'transition-opacity duration-500',
                   phase === 'merged' ? 'opacity-0' : 'opacity-100'
                 )}
