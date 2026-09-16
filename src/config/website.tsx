@@ -12,7 +12,7 @@ export const websiteConfig: WebsiteConfig = {
       enableSwitch: true,
     },
     mode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       enableSwitch: true,
     },
   },

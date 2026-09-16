@@ -1,7 +1,6 @@
 'use client';
 
 import {
-  ParallaxFrame,
   ScrollReveal,
   Stagger,
   StaggerItem,
@@ -20,6 +19,7 @@ const ICONS = [Zap, Shield, Link2] as const;
 
 /**
  * Features — left copy + banner; header left-aligned with the list.
+ * No ParallaxFrame: keeps full OG art visible without scroll-edge gaps.
  */
 export default function FeaturesSection() {
   const t = useTranslations('HomePage.features');
@@ -61,15 +61,15 @@ export default function FeaturesSection() {
         </div>
 
         <ScrollReveal delay={0.12} y={36}>
-          <ParallaxFrame className="overflow-hidden rounded-xl border bg-muted/20 shadow-sm">
+          <div className="overflow-hidden rounded-xl">
             <Image
               src="/banner/mp4tourl-og-style-collage-1200x630.jpg"
               alt={tBanner('imageAlt')}
               width={1200}
               height={630}
-              className="aspect-[1200/630] h-auto w-full object-contain object-center"
+              className="block h-auto w-full"
             />
-          </ParallaxFrame>
+          </div>
         </ScrollReveal>
       </div>
     </SectionShell>

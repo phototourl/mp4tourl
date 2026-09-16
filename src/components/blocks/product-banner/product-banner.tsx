@@ -1,7 +1,6 @@
 'use client';
 
 import {
-  ParallaxFrame,
   ScrollReveal,
   Stagger,
   StaggerItem,
@@ -14,6 +13,7 @@ import Image from 'next/image';
 
 /**
  * Product banner — left copy + image; header left-aligned with points.
+ * No ParallaxFrame: scroll translate left empty gaps / cropped edges on OG art.
  */
 export default function ProductBannerSection() {
   const t = useTranslations('HomePage.productBanner');
@@ -53,15 +53,15 @@ export default function ProductBannerSection() {
         </div>
 
         <ScrollReveal delay={0.1} y={36}>
-          <ParallaxFrame className="overflow-hidden rounded-xl border bg-background/60 shadow-sm">
+          <div className="overflow-hidden rounded-xl">
             <Image
               src="/banner/mp4tourl-product-og-domain-1200x630.jpg"
               alt={t('imageAltNew')}
               width={1200}
               height={630}
-              className="aspect-[1200/630] h-auto w-full object-contain object-center"
+              className="block h-auto w-full"
             />
-          </ParallaxFrame>
+          </div>
         </ScrollReveal>
       </div>
     </SectionShell>
