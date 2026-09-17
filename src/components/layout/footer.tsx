@@ -239,6 +239,22 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           loading="lazy"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://aiagentsdirectory.com/agent/free-video-to-url-converter"
+        target="_blank"
+        rel="noopener"
+        title="Discover Free Video to URL Converter on AI Agents Directory"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://aiagentsdirectory.com/featured-badge.svg?v=2024"
+          alt="Free Video to URL Converter - Featured on AI Agents Directory"
+          width={200}
+          height={50}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
