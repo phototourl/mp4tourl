@@ -276,6 +276,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://frogdr.com/mp4tourl.com?utm_source=mp4tourl.com"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://frogdr.com/mp4tourl.com/badge-white.svg"
+          alt="Monitor your Domain Rating with FrogDR"
+          width={250}
+          height={54}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
