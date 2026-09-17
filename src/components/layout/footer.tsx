@@ -306,6 +306,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://dofollow.tools"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://dofollow.tools/badge/badge_dark.svg"
+          alt="Featured on Dofollow.Tools"
+          width={200}
+          height={54}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
