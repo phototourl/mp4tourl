@@ -179,6 +179,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://showmebest.ai"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://showmebest.ai/badge/feature-badge-white.webp"
+          alt="Featured on ShowMeBestAI"
+          width={220}
+          height={60}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
