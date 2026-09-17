@@ -291,6 +291,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://findly.tools/mp4tourl?utm_source=mp4tourl"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://findly.tools/badges/findly-tools-badge-light.svg"
+          alt="Featured on Findly.tools"
+          width={175}
+          height={55}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
