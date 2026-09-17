@@ -85,6 +85,21 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
       </Container>
 
+      {/* Badge row: 移动端跑马灯，PC 单行静态不滚动、不换行 */}
+      <div role="region" aria-label="Partner badges">
+        <div className="overflow-hidden md:hidden px-4 py-6">
+          <div className="mtu-badge-marquee-track">
+            <FooterBadgeGroup />
+            <FooterBadgeGroup ariaHidden />
+          </div>
+        </div>
+        <div className="hidden md:block overflow-hidden px-4 py-6">
+          <div className="flex justify-center">
+            <FooterBadgeGroup />
+          </div>
+        </div>
+      </div>
+
       <div className="border-t border-foreground/10 py-4">
         <Container className="px-4 text-center">
           <span className="text-muted-foreground text-sm">
@@ -95,5 +110,30 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </Container>
       </div>
     </footer>
+  );
+}
+
+function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
+  return (
+    <div
+      className="flex w-max flex-nowrap items-center gap-3 pr-3"
+      aria-hidden={ariaHidden || undefined}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://www.producthunt.com/products/mp4tourl?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-mp4tourl"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1253034&theme=light&t=1789625626126"
+          alt="MP4toURL - Upload a video. Get a permanent shareable URL. | Product Hunt"
+          width={250}
+          height={54}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
+    </div>
   );
 }

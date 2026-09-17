@@ -442,3 +442,39 @@ div[class*="border-t"][class*="bg-fd-secondary"]:not(:has(*)):not(
   animation: mp4-hero-capsule-drop var(--drop-duration, 1.2s)
     cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
+
+/* Footer badge marquee：仅移动端自动横向滚动 */
+@keyframes mtu-badge-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.mtu-badge-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: mtu-badge-marquee 68s linear infinite;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .mtu-badge-marquee-track {
+    animation: none;
+    will-change: auto;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mtu-badge-marquee-track:hover {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mtu-badge-marquee-track {
+    animation: none;
+  }
+}
