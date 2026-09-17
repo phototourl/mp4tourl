@@ -263,6 +263,19 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
       >
         AiTop10 Tools
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://turbo0.com/item/mp4tourl"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://img.turbo0.com/badge-listed-light.svg"
+          alt="Listed on Turbo0"
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
