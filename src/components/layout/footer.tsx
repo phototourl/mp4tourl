@@ -149,6 +149,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto opacity-90 hover:opacity-100 transition-opacity shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://dang.ai"
+        target="_blank"
+        rel="noopener"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://assets.dang.ai/badges/dang-verified-dark.png"
+          alt="Verified on DANG!"
+          width={260}
+          height={94}
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
