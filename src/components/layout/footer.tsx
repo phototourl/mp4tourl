@@ -255,6 +255,14 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      <a
+        href="https://aitop10.tools/"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-flex items-center shrink-0 whitespace-nowrap no-underline text-muted-foreground hover:text-foreground text-sm transition-colors"
+      >
+        AiTop10 Tools
+      </a>
     </div>
   );
 }
