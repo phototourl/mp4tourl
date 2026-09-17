@@ -194,6 +194,21 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://submitaitools.org"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://submitaitools.org/static_submitaitools/images/submitaitools.png"
+          alt="Submit AI Tools"
+          width={200}
+          height={60}
+          className="h-6 w-auto rounded-[10px] shrink-0"
+        />
+      </a>
     </div>
   );
 }
