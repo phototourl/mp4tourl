@@ -337,6 +337,32 @@ function FooterBadgeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
           className="h-6 w-auto shrink-0"
         />
       </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://www.buildway.cc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://www.buildway.cc/logo.png"
+          alt="Listed on BuildWay"
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <a
+        href="https://www.ontoplist.com/web-design-companies/co/denver/"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block shrink-0 no-underline transition-transform hover:scale-105"
+      >
+        <img
+          src="https://www.ontoplist.com/images/ontoplist31.png?id=6aabbb039b2ce"
+          alt="Top Web Design Companies in Denver, CO - OnToplist.com"
+          className="h-6 w-auto shrink-0"
+        />
+      </a>
     </div>
   );
 }
